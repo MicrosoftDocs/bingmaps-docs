@@ -1,0 +1,23 @@
+---
+title: "ContourLayerOptions Object | Microsoft Docs"
+ms.custom: ""
+ms.date: "02/28/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: a216a093-385c-4ca0-81fe-f4e7e27e1343
+caps.latest.revision: 2
+author: "rbrundritt"
+ms.author: "richbrun"
+manager: "stevelom"
+---
+# ContourLayerOptions Object
+These options can be used to with the [ContourLayer](../v8-web-control/contourlayer-class.md) class.
+
+| Name           | Type                                    | Description                                                                                                                                   |
+|----------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| `colorCallback`  | function(contourValue: number _or_ string) | A callback function which defines the color of the contour line fill. The callback function must return a CSS color string or a Color object. |
+| `polygonOptions` | [PolygonOptions](PolygonOptions%20Object.md)                          | The polygon options that apply to all contour lines in this layer.                                                                            |
+| `visible`        | boolean                                 | A boolean indicating if the layer is visible or not.                                                                                          |
+| `zIndex`         | number                                  | The z-index of the layer.                                                                                                                     |
