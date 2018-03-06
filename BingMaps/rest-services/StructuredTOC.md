@@ -1,4 +1,4 @@
-# [Bing Maps REST Services](bing-maps-rest-services.md)
+# [Bing Maps REST Services](index.md)
 ## [Getting Started](getting-started-with-the-bing-maps-rest-services.md)
 ## [What's New](what-s-new-in-the-rest-services.md)
 ## [Getting Traffic Incident Data](getting-traffic-incident-data.md)

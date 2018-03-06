@@ -1,4 +1,4 @@
-# [Getting Started With Bing Maps](getting-started-with-bing-maps.md)
+# [Getting Started With Bing Maps](index.md)
 ## [Bing Maps Dev Center Help](bing-maps-dev-center-help.md)
 ### [Creating A Bing Maps Account](creating-a-bing-maps-account.md)
 ### [Getting A Bing Maps Key](getting-a-bing-maps-key.md)

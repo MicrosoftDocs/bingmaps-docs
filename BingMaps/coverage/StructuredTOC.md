@@ -1,4 +1,4 @@
-# [Bing Maps Geographic Coverage](bing-maps-geographic-coverage.md)
+# [Bing Maps Geographic Coverage](index.md)
 ## [Bing Maps Traffic Coverage](bing-maps-traffic-coverage.md)
 ## [Bing Maps Transit Coverage](bing-maps-transit-coverage.md)
 ### [Africa Transit Coverage](africa-transit-coverage.md)

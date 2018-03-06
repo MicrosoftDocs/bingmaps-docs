@@ -1,4 +1,4 @@
-# [Bing Spatial Data Services](bing-spatial-data-services.md)
+# [Bing Spatial Data Services](index.md)
 ## [Getting Started](getting-started-with-the-spatial-data-services.md)
 ## [What's New](what-s-new-in-bing-spatial-data-services.md)
 ## [Public Data Sources](public-data-sources.md)

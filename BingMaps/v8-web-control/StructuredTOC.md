@@ -1,4 +1,4 @@
-# [Bing Maps V8 Web Control](bing-maps-v8-web-control.md)
+# [Bing Maps V8 Web Control](index.md)
 ## [Getting Started: Creating and Hosting a Map Control](getting-started-creating-and-hosting-a-map-control.md)
 ### [Creating a Basic Map Control](creating-a-basic-map-control.md)
 ### [Setting Map Control Parameters](setting-map-control-parameters.md)

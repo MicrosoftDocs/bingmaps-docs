@@ -1,4 +1,4 @@
-# [Bing Maps Articles](bing-maps-articles.md)
+# [Bing Maps Articles](index.md)
 ## [Accessing The Bing Maps Rest Services Using PHP](accessing-the-bing-maps-rest-services-using-php.md)
 ## [Accessing The Bing Spatial Data Services Using PHP](accessing-the-bing-spatial-data-services-using-php.md)
 ## [Bing Maps Tile System](bing-maps-tile-system.md)
