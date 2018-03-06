@@ -61,6 +61,5 @@ Creating a custom pushpin is great, but having the style change when users inter
 
 If you run this code, you will see a blue pushpin in the center of the map. If you drag the mouse over the pushpin it will change to red and if you press down purple. 
 
-![BMV8_PushpinHoverStyle](../v8-web-control/media/bmv8-pushpinhoverstyle.gif)
-
-Note that this is unrelated to Pushpin enableHoverStyle option which only effects the default pushpin style. However you could use the pushpin's getOptions function inside the event handlers to determine if the pushpins style should be changed or not when hovered.  
+> [!Note]
+> This is unrelated to Pushpin enableHoverStyle option which only effects the default pushpin style. However you could use the pushpin's getOptions function inside the event handlers to determine if the pushpins style should be changed or not when hovered.  

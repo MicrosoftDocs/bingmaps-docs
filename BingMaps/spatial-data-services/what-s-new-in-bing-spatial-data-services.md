@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # What&#39;s New in Bing Spatial Data Services
-The [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md) contains the following new features.  
+The [Bing Spatial Data Services](../spatial-data-services/index.md) contains the following new features.  
   
  **September 2016**  
   
@@ -35,7 +35,7 @@ The [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-serv
   
  You can now define location as either a geographical area, such as polygon or line string or a single point (latitude and longitude). For more information, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md) and [Geography Types](../spatial-data-services/geography-types.md).  
   
- Note that geographical shapes are only supported when you upload your data source using the [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md). You cannot use the Bing Maps Dev Center to upload data sources with a geographical shape type.  
+ Note that geographical shapes are only supported when you upload your data source using the [Bing Spatial Data Services](../spatial-data-services/index.md). You cannot use the Bing Maps Dev Center to upload data sources with a geographical shape type.  
   
  **Use geographical shapes to query data sources.**  
   

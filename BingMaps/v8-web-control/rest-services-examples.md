@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # REST Services Examples
-The [Bing Maps REST services](../rest-services/bing-maps-rest-services.md) provide a number of API's which provide several funcationalities:
+The [Bing Maps REST services](../rest-services/index.md) provide a number of API's which provide several funcationalities:
 
 * Geocode Addresses
 * Reverse Geocode locations

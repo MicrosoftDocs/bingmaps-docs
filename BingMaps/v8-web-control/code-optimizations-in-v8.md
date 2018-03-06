@@ -357,4 +357,4 @@ If using the REST service or Search module to power a search textbox, you may fi
 * [Directions module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS)
 * [Search module](../v8-web-control/search-module.md)
 * [Search module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#searchByAddress+JS)
-* [Bing Maps REST Services](../rest-services/bing-maps-rest-services.md)
+* [Bing Maps REST Services](../rest-services/index.md)

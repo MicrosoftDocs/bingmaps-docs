@@ -21,7 +21,7 @@ This article will describe how to write a PHP application that can interact with
   
  This article will describe how to construct PHP pages that interact with the Bing Spatial Data Services Geocode Dataflow API.  
   
- For a complete description of the Bing Spatial Data Services including an API reference, see the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md).  
+ For a complete description of the Bing Spatial Data Services including an API reference, see the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/index.md).  
   
 ## Setting Up Your Environment  
  Before continuing with this article, you should ensure that you have the correct software installed and environment setup to develop and host PHP pages that will connect to the Bing Spatial Data Services Geocode Dataflow API.  
@@ -276,12 +276,12 @@ foreach ($successResponseBody->GeocodeEntity as $entity) {
 }  
 ```  
   
- Note that in Listing 11, we need to check which type of location has been provided with each result. Some results may include Rooftop Location coordinates, while others will have Interpolated Location coordinates. The code in Listing 11 prefers Rooftop Location coordinates, and only prints out Interpolated Location coordinates it the Rooftop ones do not exist.You can find complete information on the Geocode Dataflow API, as well as additional data samples and walkthroughs, in the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md).  
+ Note that in Listing 11, we need to check which type of location has been provided with each result. Some results may include Rooftop Location coordinates, while others will have Interpolated Location coordinates. The code in Listing 11 prefers Rooftop Location coordinates, and only prints out Interpolated Location coordinates it the Rooftop ones do not exist.You can find complete information on the Geocode Dataflow API, as well as additional data samples and walkthroughs, in the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/index.md).  
   
 ## Conclusions and Further Reading  
  This article has demonstrated how to use PHP to access the Bing Spatial Data Services Geocode Dataflow API.  
   
- You can find full API documentation for the Bing Spatial Data Services at:  [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md)  
+ You can find full API documentation for the Bing Spatial Data Services at:  [Bing Spatial Data Services](../spatial-data-services/index.md)  
   
  The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   

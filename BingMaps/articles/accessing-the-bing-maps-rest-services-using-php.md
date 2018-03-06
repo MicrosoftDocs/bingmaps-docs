@@ -455,7 +455,7 @@ echo "</ol>";
 ## Conclusions and Further Reading  
  This article has demonstrated how to use PHP to access the three Bing Maps REST Services APIs. We have shown how you can geocode and reverse geocode locations using the Locations API, generate customized static maps using the Imagery API, and create routes using the Routes API.  
   
- You can find full API documentation for the Bing Maps REST Services at: [Bing Maps REST Services](../rest-services/bing-maps-rest-services.md)  
+ You can find full API documentation for the Bing Maps REST Services at: [Bing Maps REST Services](../rest-services/index.md)  
   
  The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   
