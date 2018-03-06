@@ -38,10 +38,10 @@ Name                                          | Return Type          | Descripti
 
 | Name   | Arguments    | Description   |
 |--------|--------------|---------------|
-| `click`      | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a pushpin or cluster in the layer.               |
-| `dblclick` | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a pushpin or cluster in the layer. |
-| `mousedown`  | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a pushpin or cluster in the layer.                    |
-| `mouseover`  | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by a pushpin or cluster in the layer.                               |
-| `mouseout`   | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by a pushpin or cluster in the layer.                                    |
-| `mouseup`    | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a pushpin or cluster  in the layer.             |
-| `rightclick` | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a pushpin or cluster in the layer. |
+| `click`      | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a pushpin or cluster in the layer.               |
+| `dblclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a pushpin or cluster in the layer. |
+| `mousedown`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a pushpin or cluster in the layer.                    |
+| `mouseover`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by a pushpin or cluster in the layer.                               |
+| `mouseout`   | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by a pushpin or cluster in the layer.                                    |
+| `mouseup`    | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a pushpin or cluster  in the layer.             |
+| `rightclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a pushpin or cluster in the layer. |

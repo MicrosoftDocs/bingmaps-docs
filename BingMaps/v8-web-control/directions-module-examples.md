@@ -34,4 +34,4 @@ The Directions Module allows you to calculate a route and display it on the map.
 * [RouteOptimization Enumeration](../v8-web-control/routeoptimization-enumeration.md)
 * [TimeTypes Enumeration](../v8-web-control/timetypes-enumeration.md)
 * [Waypoint Class](../v8-web-control/waypoint-class.md)
-* [WaypointOptions Object](../v8-web-control/waypointoptions.md)
+* [WaypointOptions Object](../v8-web-control/waypointoptions-object.md)

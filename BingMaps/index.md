@@ -19,10 +19,10 @@ ms.date: "02/28/2018"
             <a href="#main"></a>
             <ul id="main">
                 <li>
-                    <a href="#gettingstarted">Getting Started</a>
-                    <ul id="gettingstarted" class="cardsC">
+                    <a href="#BingMapsAPI">Bing Maps API</a>
+                    <ul id="BingMapsAPI" class="cardsC">
                         <li>
-                            <a href="/bingmaps/getting-started/">
+                            <a href="/bingmaps/getting-started">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -34,25 +34,6 @@ ms.date: "02/28/2018"
                                         <div class="cardText">
                                             <h3>Getting Started with Bing Maps</h3>
                                             <p>Setup up your Bing Maps account and key.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/bingmaps/coverage">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Geographic Coverage Information" />
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Geographic Coverage Information</h3>
-                                            <p>Bing Maps geographic coverage information for geocoding, routing, traffic, and more.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +153,26 @@ ms.date: "02/28/2018"
 								</div>
 							</div>
 							</a>
-						</li>
+						</li>						
+                        <li>
+                            <a href="/bingmaps/coverage">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/media/common/i_data-collection.svg" alt="Geographic Coverage Information" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Geographic Coverage Information</h3>
+                                            <p>Bing Maps geographic coverage information for geocoding, routing, traffic, and more.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
 						<li>
 							<a href="https://www.microsoft.com/maps/licensing/licensing.aspx">
 							<div class="cardSize">

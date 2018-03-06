@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # GeoDataResult Object
-Represents a single result object returned by the [GeoData API](Geodata%20API%20\(Preview\).xml). 
+Represents a single result object returned by the [GeoData API](../spatial-data-services/geodata-api.md). 
 
 ## Properties
 

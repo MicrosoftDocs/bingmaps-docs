@@ -17,7 +17,7 @@ This article will describe how to write a PHP application that can interact with
   
  Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  
   
- The [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) consist of three RESTful APIs, all of which can be accessed using HTTP GET requests that include a URI and parameters indicating what information is to be returned. The three available Bing Maps REST Services APIs are:  
+ The Bing Maps REST Services consist of three RESTful APIs, all of which can be accessed using HTTP GET requests that include a URI and parameters indicating what information is to be returned. The three available Bing Maps REST Services APIs are:  
   
 1.  **Locations** – This API performs geocoding operations, which means you can get the location (as well as other information) about an address or place. The Locations API allows you to find, or geocode, locations by structured address or unstructured query. It also allows you to reverse geocode an address by specifying a point (latitude and longitude).  
   
@@ -27,12 +27,12 @@ This article will describe how to write a PHP application that can interact with
   
  The Locations, Imagery, and Routes APIs can be accessed using specially formatted URLs that contain all parameters required to get the requested information. Both of these APIs will return results in an HTTP message that may contain either JSON or XML.  
   
- Working with the [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs in PHP is extremely straightforward. There are no extensions required, since all requests and responses work through standard HTTP (unlike the SOAP web services, which require a php_soap extension in order to function from PHP). If you request response information in XML format, it can be parsed and manipulated using built-in PHP extensions such as SimpleXML.  
+ Working with the Bing Maps REST Services APIs in PHP is extremely straightforward. There are no extensions required, since all requests and responses work through standard HTTP (unlike the SOAP web services, which require a php_soap extension in order to function from PHP). If you request response information in XML format, it can be parsed and manipulated using built-in PHP extensions such as SimpleXML.  
   
- This article will describe how to construct PHP pages that interact with all three of the currently available [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs.  
+ This article will describe how to construct PHP pages that interact with all three of the currently available Bing Maps REST Services APIs.  
   
 ## Setting Up Your Environment  
- Before continuing with this article, you should ensure that you have the correct software installed and environment setup to develop and host PHP pages that will connect to the [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs.  
+ Before continuing with this article, you should ensure that you have the correct software installed and environment setup to develop and host PHP pages that will connect to the Bing Maps REST Services APIs.  
   
 ### Required Software  
  To work with and run the sample applications in this article, you will need a PHP-enabled web server. To develop the samples, we used **WampServer** (http://www.wampserver.com), a Windows-based development environment that includes Apache, PHP, and MySQL Database. It is easy to install and has everything you need to create and host PHP applications quickly and easily. You do not need to install any special extensions in order to work with the Bing Maps REST Services APIs.  
@@ -48,9 +48,9 @@ This article will describe how to write a PHP application that can interact with
  Finally, in terms of a development environment, you can use anything from a text editor such as Windows Notepad to a full-fledged PHP IDE such as PHP Designer to write your code.  
   
 ### PHP Starter Code  
- This article contains numerous samples of interacting with [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
+ This article contains numerous samples of interacting with Bing Maps REST Services APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
   
- **Listing 1 - PHP starter code for working with [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs**  
+ **Listing 1 - PHP starter code for working with Bing Maps REST Services APIs**  
   
 ```  
 <html>  
@@ -81,9 +81,9 @@ This article will describe how to write a PHP application that can interact with
  We will use this simple page as a starting point for our Locations and Imagery API examples, building on it as necessary to show different options for searching.  
   
 ## Authentication  
- All [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs require authentication from the client each time they are called. In order to authenticate against any of the REST Services APIs, you will need a [Bing Maps Key](../articles/includes/maps-ticket-md.md). For information about how to sign up for a Bing Maps Developer Account and get a [Bing Maps Key](../articles/includes/maps-ticket-md.md), see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All Bing Maps REST Services APIs require authentication from the client each time they are called. In order to authenticate against any of the REST Services APIs, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
   
- When you send an HTTP request to one of the REST Services APIs, which we will discuss in the next section of this article, you must include the [Bing Maps Key](../articles/includes/maps-ticket-md.md) as a parameter. For example, you might send an HTTP request like the one shown in  REF _Ref260132229 \r \h Listing 2.  
+ When you send an HTTP request to one of the REST Services APIs, which we will discuss in the next section of this article, you must include the Bing Maps Key as a parameter. For example, you might send an HTTP request like the one shown in Listing 2.  
   
  **Listing 2 - Authenticating using a Bing Maps key**  
   
@@ -91,7 +91,7 @@ This article will describe how to write a PHP application that can interact with
 http://dev.virtualearth.net/REST/v1/Locations/US/NY/10007/New York/291 Broadway?output=xml&key=yourKeyHere  
 ```  
   
- In all of the examples in this article, you will see the [Bing Maps Key](../articles/includes/maps-ticket-md.md) sent to the REST Services APIs in this way.  
+ In all of the examples in this article, you will see the Bing Maps Key sent to the REST Services APIs in this way.  
   
 ## Working with the Locations API  
  The Locations API allows you to geocode locations based on an address or query, or reverse geocode addresses based on a specified point. All three of these functions can be accessed simply by sending a specially formatted URI that includes parameters for the function. The Locations API can return results as either JSON or XML. For the purposes of this article, we will get results in XML format because we found it easier to work with using PHP’s built in XML classes.  
@@ -130,7 +130,7 @@ http://dev.virtualearth.net/REST/v1/Locations/countryRegion/adminDistrict/postal
   
 2.  In any of the supported countries, you can replace an address value (adminDistrict, postalCode, locality, or addressLine) with a dash (“-“) character if it is unknown.  
   
- Assuming you are using the PHP starter code we included as  REF _Ref260231715 \r \h Listing 1 and have collected a Bing Maps key and address information from the user, you could use the following code to call the Locations API and geocode an address in the United States:  
+ Assuming you are using the PHP starter code we included as Listing 1 and have collected a Bing Maps key and address information from the user, you could use the following code to call the Locations API and geocode an address in the United States:  
   
  **Listing 4 - Geocoding a location by address using REST Services Locations API**  
   
@@ -195,7 +195,7 @@ $longitude =
 http://dev.virtualearth.net/REST/v1/Locations/locationQuery?key=BingMapsKey  
 ```  
   
- Assuming you obtained a query string from the user (using a similar form field as the ones shown in  REF _Ref260231715 \r \h Listing 1) you could construct a Locations API query request in PHP as shown in  REF _Ref260422079 \r \h Listing 8.  
+ Assuming you obtained a query string from the user (using a similar form field as the ones shown in Listing 1) you could construct a Locations API query request in PHP as shown in Listing 8.  
   
  **Listing 8 - Geocoding a location by query using the REST Services Locations API**  
   
@@ -318,7 +318,7 @@ echo "<img src='".$imageryURL = $imageryBaseURL."/".$imagerySet."/".$centerPoint
   
  Notice that each time this page is loaded, a new image is requested from the Imagery API. The advantage of this is that the image will be updated if map data changes (e.g. streets are added/changed/removed). The disadvantage is that if the REST APIs are unavailable or the access point changes, the image will no longer load. In a real world scenario, you would likely want to cache a backup image in case of API unavailability.  
   
- The code in  REF _Ref260422203 \r \h Listing 12 will produce a map image like figure 1 (assuming a geocoded address at 291 Broadway, New York, NY).  
+ The code in Listing 12 will produce a map image like figure 1 (assuming a geocoded address at 291 Broadway, New York, NY).  
   
  **Figure1 - Results of retrieving an image using the Imagery API**  
   
@@ -351,7 +351,7 @@ echo "<img src='".$imageryURL = $imageryBaseURL."/".$imagerySet."/".$centerPoint
 http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPoint2&wayPoint.n=wayPointn&optimize=optimize&routePathOutput=routePathOutput&distanceUnit=distanceUnit&key=BingMapsKey  
 ```  
   
- For this example, we will obtain a route from the Routes API that includes only two waypoints: an origin and a destination. We will specify both of these points as addresses, which we can obtain from the user using a simple form like the one shown in  REF _Ref263771062 \r \h Listing 14.  
+ For this example, we will obtain a route from the Routes API that includes only two waypoints: an origin and a destination. We will specify both of these points as addresses, which we can obtain from the user using a simple form like the one shown in Listing 14.  
   
  **Listing 14 - A simple PHP form that obtains a Bing Maps Key, origin address, and destination address from the user**  
   
@@ -374,7 +374,7 @@ http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPo
 </html>  
 ```  
   
- Once we have obtained the origin and destination addresses from the user, we can use those addresses to construct the URI required to call the Routes API.  REF _Ref263771072 \r \h Listing 15 shows PHP code that constructs a Routes API call that:  
+ Once we have obtained the origin and destination addresses from the user, we can use those addresses to construct the URI required to call the Routes API. Listing 15 shows PHP code that constructs a Routes API call that:  
   
 -   Provides driving directions  
   
@@ -411,7 +411,7 @@ $routesURL =
   
  Note that the set of points returned when you specify **routePathOutput=points** is different (and in addition to) the maneuver points that are used to provide driving directions along the route. Whereas maneuver points represent only places along a route where the driver or walker must take action (e.g., take a turn), the **points** array includes all points required to draw the line representing the route on a map (including all curves in roads and other geographic features).  
   
- As we did in  REF _Ref263769059 \h Working with the Locations API earlier in this article, we can use the **file_get_contents()** method and PHP XML library to call the Routes API using the URI we constructed and parse the return XML into an object that we can then manipulate in code.  REF _Ref263771082 \r \h Listing 16 shows code that creates this XML object and, as an example, obtains and prints the number of routes returned in the response from the object.  
+ As we did in  REF _Ref263769059 \h Working with the Locations API earlier in this article, we can use the **file_get_contents()** method and PHP XML library to call the Routes API using the URI we constructed and parse the return XML into an object that we can then manipulate in code. Listing 16 shows code that creates this XML object and, as an example, obtains and prints the number of routes returned in the response from the object.  
   
  **Listing 16 - Getting a response from the Routes API and working with the response as an XML object**  
   
@@ -426,7 +426,7 @@ echo "Number of routes found: ".$numRoutes."<br>";
   
 ```  
   
- Assuming the call produced a successful route, we can get the route instructions by looping through the itinerary items and pulling out the instruction text, as shown in  REF _Ref263771093 \r \h Listing 17.  
+ Assuming the call produced a successful route, we can get the route instructions by looping through the itinerary items and pulling out the instruction text, as shown in  Listing 17.  
   
  **Listing 17 - Extracting and printing route instructions from Routes API response**  
   
@@ -444,7 +444,7 @@ echo "</ol>";
   
 ```  
   
- The code in  REF _Ref263771093 \r \h Listing 17 will produce output something like figure 2.  
+ The code in Listing 17 will produce output something like figure 2.  
   
  **Figure 2 - Displaying route information from a call to the Routes API**  
   
@@ -453,9 +453,9 @@ echo "</ol>";
  You can find a complete description of the Routes API and its options at [Routes](../rest-services/routes-api.md).  
   
 ## Conclusions and Further Reading  
- This article has demonstrated how to use PHP to access the three [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) APIs. We have shown how you can geocode and reverse geocode locations using the Locations API, generate customized static maps using the Imagery API, and create routes using the Routes API.  
+ This article has demonstrated how to use PHP to access the three Bing Maps REST Services APIs. We have shown how you can geocode and reverse geocode locations using the Locations API, generate customized static maps using the Imagery API, and create routes using the Routes API.  
   
- You can find full API documentation for the [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) at: [Bing Maps REST Services](../rest-services/bing-maps-rest-services.md)  
+ You can find full API documentation for the Bing Maps REST Services at: [Bing Maps REST Services](../rest-services/bing-maps-rest-services.md)  
   
  The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   

@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Copyright Object
-Represents the copyright object for a boundary returned by the [GeoData API](Geodata%20API%20\(Preview\).xml). 
+Represents the copyright object for a boundary returned by the [GeoData API](../spatial-data-services/geodata-api.md). 
 
 ## Properties
 

@@ -24,8 +24,8 @@ Use the following URL to create, stage and update a data source. This URL create
   
 ## URL template  
   
-> [!NOTE]Bing Maps Account
->  This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
+> [!NOTE]
+> This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
   
  **Create a load data source job to create or update a data source.**  
   
@@ -44,7 +44,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?dataSourceName=
 ### Template Parameters  
   
 > [!NOTE]
->  Parameter names and values are not case-sensitive except for the key and queryKey parameter values.  
+> Parameter names and values are not case-sensitive except for the key and queryKey parameter values.  
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  

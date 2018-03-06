@@ -22,7 +22,7 @@ The Bing Maps control provides many events to allow your application to respond 
 ## Examples
 
 * [Map Events](../v8-web-control/map-events.md)
-* [Pushpin Events](../v8-web-control/pushpin-events.md)
+* [Pushpin Events](../v8-web-control/pushpin-events-example.md)
 * [Polyline Events](../v8-web-control/polyline-events.md)
 * [Polygon Events](../v8-web-control/polygon-events.md)
 * [Data Layer Events](../v8-web-control/data-layer-events.md)

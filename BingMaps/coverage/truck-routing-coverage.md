@@ -23,7 +23,7 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 
 Bing Maps supports truck routing in the following countries.
 
-![BM_TruckRoutingCoverage2017](../rest-services/media/bm-truckroutingcoverage2017.png)
+![BM_TruckRoutingCoverage2017](../coverage/media/bm-truckroutingcoverage2017.png)
 
 > [!NOTE]
 > Not all truck restrictions may be supported or apply to all countries.

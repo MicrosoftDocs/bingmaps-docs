@@ -342,8 +342,8 @@ In this scenario, V8 requires 73% less code than V7.
 
 When the Bing Maps V7 control was initially released there was no built in way to geocode locations or calculate routes. As such applications had to connect directly to the Bing Maps REST services as described in these articles in the MSDN documentation:
 
-* [Geocoding a Location](Geocoding%20a%20Location.xml)
-* [Getting Route Directions](Getting%20Route%20Directions.xml)
+* [Location API](../rest-services/locations-api.md)
+* [Route API](../rest-services/routes-api.md)
 
 Eventually, Search and Direction modules where added to the V7 control which wrapped the REST services and made it easy to use in JavaScript and also provided a number of user friendly features such as draggable routes and nicely formatted instructions. V8 also includes Search and Direction modules. One new feature in the V8 directions module that wasn’t in V7 is a directions input panel option, which provides a nice user interface for requesting directions. Using the modules is highly recommended as it can save you writing a lot of code and it also ensures that best practices are implemented when accessing the services. The REST services can continue to be used and are a good option if you need complete control over how the data is rendered or if you simply need to perform a calculation without any rendering.
 

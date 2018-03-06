@@ -37,7 +37,7 @@ This section contains reference documentation for the Microsoft.Maps.Directions 
 * [TimeTypes Enumeration](../v8-web-control/timetypes-enumeration.md)
 * [TransitLine Object](../v8-web-control/transitline-object.md)
 * [Waypoint Class](../v8-web-control/waypoint-class.md)
-* [WaypointOptions Object](../v8-web-control/waypointoptions.md)
+* [WaypointOptions Object](../v8-web-control/waypointoptions-object.md)
 
 ## Examples ##
 

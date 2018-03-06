@@ -13,16 +13,13 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Query API
-The [Query API](../spatial-data-services/includes/bm-spatialapi-query-md.md) is a component of the Bing Spatial Data Services. You can use the [Query API](../spatial-data-services/includes/bm-spatialapi-query-md.md) to query a data source for information about entities in that data source. For example, if the data source contains restaurant entities, you can query for French restaurants nearby or you can get information about a specific restaurant. Each query response can return a maximum number of 250 results.  
+The Query API is a component of the Bing Spatial Data Services. You can use the Query API to query a data source for information about entities in that data source. For example, if the data source contains restaurant entities, you can query for French restaurants nearby or you can get information about a specific restaurant. Each query response can return a maximum number of 250 results.  
   
  Below are some ways you could use the Query API to search a data source that contains information about a set of restaurants.  
   
--   Use Query by Area to search for all movie theaters within 20 kilometers.  
-  
--   Use Query Near a Route to search for all restaurants along a route.  
-  
--   Use Query by Property to search for all restaurants within 20 miles that have more than 20 employees.  
-  
+-   Use Query by Area to search for all movie theaters within 20 kilometers.    
+-   Use Query Near a Route to search for all restaurants along a route.    
+-   Use Query by Property to search for all restaurants within 20 miles that have more than 20 employees.    
 -   Use Query by ID to search for the restaurant entity that has an entity ID of "410".  
   
  For information about creating and updating data sources, see the [Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md).  

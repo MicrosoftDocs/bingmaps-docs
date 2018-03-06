@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # GetBoundaryRequestOptions Object
-Represents the options for requests boundary data from the [GeoData API](Geodata%20API%20\(Preview\).xml) in the Bing Spatial Data Services.
+Represents the options for requests boundary data from the [GeoData API](../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
 
 ## Properties
 Name                | Type               | Description
