@@ -20,7 +20,7 @@ ms.date: "02/28/2018"
             <ul id="main">
                 <li>
                     <a href="#BingMapsAPI">Bing Maps API</a>
-                    <ul id="BingMapsAPI" class="cardsC">
+                    <ul id="BingMapsAPI" class="cardsA">
                         <li>
                             <a href="/bingmaps/getting-started">
                             <div class="cardSize">
