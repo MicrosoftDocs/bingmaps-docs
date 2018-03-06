@@ -1,1 +1,0 @@
-Bing Maps AJAX Control 7.0

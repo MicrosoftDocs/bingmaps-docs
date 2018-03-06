@@ -219,7 +219,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 
 | Note    |
 |---------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](https://msdn.microsoft.com/library/ff701701.aspx). |
+| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md). |
 
 | Parameters | Description |
 |------------|-------------|
@@ -238,9 +238,9 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 
 ## Response
 
-A `DistanceMatrix` resource is returned when you make a request with one of the following URLs. For more information about the `DistanceMatrix` resource, see [Distance Matrix Data](../rest-services/distance-matrix-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](https://msdn.microsoft.com/library/ff701707.aspx). JSON and XML responses are provided for the URL examples in the following section.
+A `DistanceMatrix` resource is returned when you make a request with one of the following URLs. For more information about the `DistanceMatrix` resource, see [Distance Matrix Data](../rest-services/distance-matrix-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.
 
-These URLs support JSON (**application/json**) and XML (**application/xml**) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](https://msdn.microsoft.com/library/ff701701.aspx).
+These URLs support JSON (**application/json**) and XML (**application/xml**) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).
 
 ## Examples
 
@@ -482,7 +482,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 
 | Note            |
 |-----------------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](https://msdn.microsoft.com/library/ff701703.aspx). |
+| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -499,7 +499,7 @@ When the request is not successful, the response returns one of the following er
 
 ## See Also
 
-* [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
 * [Distance Matrix Data](../rest-services/distance-matrix-data.md)
 * [Distance Matrix Example](../rest-services/distance-matrix-example.md)
 * [Distance Matrix Asynchronous Example](../rest-services/distance-matrix-asynchronous-example.md)

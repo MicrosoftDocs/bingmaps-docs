@@ -26,4 +26,5 @@ Name                   | Return Type         | Description
 `execute(object: any)`    | boolean             | Executes the filter logic against a JSON object and returns a boolean indicating if the object meets the requirement of the Filter. 
 `toString()`             | string              | Converts the filter logic into a string format that is compatible with the Bing Spatial Data Services. 
 
-**Tip**: If you have an array of objects and want to filter out those that match your filters, simply loop through your array and execute the filter against each object.
+> [!TIP]
+> If you have an array of objects and want to filter out those that match your filters, simply loop through your array and execute the filter against each object.

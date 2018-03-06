@@ -20,7 +20,7 @@ A MapTypeEventArgs object that is returned by the map event handler when using t
 
 | Name         | Type      | Description                                                             |
 |--------------|-----------|-------------------------------------------------------------------------|
-| newMapTypeId | [MapTypeId](MapTypeId%20Enumeration.md) | The map type that the map has changed to.                               |
-| oldMapTypeId | [MapTypeId](MapTypeId%20Enumeration.md) | The map type that the map has changed from.                             |
-| target       | [Map](Map%20Class.md)       | The map instance that fired the event.                                  |
+| newMapTypeId | [MapTypeId](../v8-web-control/maptypeid-enumeration.md) | The map type that the map has changed to.                               |
+| oldMapTypeId | [MapTypeId](../v8-web-control/maptypeid-enumeration.md) | The map type that the map has changed from.                             |
+| target       | [Map](../v8-web-control/map-class.md)       | The map instance that fired the event.                                  |
 | targetType   | string    | The type of the object that fired the event. This will always be 'map'. |

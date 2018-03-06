@@ -24,7 +24,7 @@ You can use this class to create custom overlays on top of the map. These can be
 | Name        | Return Type | Description                                                                                     |
 |-------------|-------------|-------------------------------------------------------------------------------------------------|
 | `getHtmlElement()`  | `HTMLElement` | Gets the HTML element of this custom overlay.                                             |
-| `getMap()` | [Map](Map%20Class.md) | Gets the map object that the overlay is has been added to. This will be null until the onLoad function is called. |
+| `getMap()` | [Map](../v8-web-control/map-class.md) | Gets the map object that the overlay is has been added to. This will be null until the onLoad function is called. |
 | `setHTMLElement(elm: HTMLElement)` |             | Updates the HTML element of this custom overlay.                           |
 | `onAdd()`                          |             | Implement this method to perform any task that should be done when the overlay is added to the map.               |
 | `onLoad()`                         |             | Implement this method to perform any task that should be done after the overlay has been added to the map.         |

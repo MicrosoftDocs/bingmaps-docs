@@ -48,7 +48,7 @@ http://dev.virtualearth.net/REST/v1/Locations/point?includeEntityTypes=entityTyp
 |include|incl|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> incl=ciso2|  
   
 ## Response  
- One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
+ One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
   
  This URL supports JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -316,7 +316,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityT
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

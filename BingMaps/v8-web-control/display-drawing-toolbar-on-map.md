@@ -21,16 +21,11 @@ This example shows how to add a drawing toolbar to the map so that the user can 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, drawingManager;
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Load the DrawingTools module
         Microsoft.Maps.loadModule('Microsoft.Maps.DrawingTools', function () {
@@ -45,6 +40,7 @@ This example shows how to add a drawing toolbar to the map so that the user can 
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

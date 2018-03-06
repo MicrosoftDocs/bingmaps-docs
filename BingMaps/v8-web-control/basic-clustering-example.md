@@ -21,16 +21,11 @@ The following code example loads the Clustering module and then generates 1,000 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type="text/javascript">
+	<script type="text/javascript">
     var map, clusterLayer;
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Load the Clustering module.
         Microsoft.Maps.loadModule("Microsoft.Maps.Clustering", function () {
@@ -43,6 +38,7 @@ The following code example loads the Clustering module and then generates 1,000 
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

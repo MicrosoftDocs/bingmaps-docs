@@ -32,7 +32,7 @@ Overlays HTML elements within the map container that are above the map.
 | `clear()`                                             |             | Removes all the data in the layer.                                                              |
 | `getBelowNavigationBar()`                             | boolean     | Gets a boolean indicating if the screen overlay is displayed above or below the navigation bar. |
 | `getHtmlElement()`                                    | HTMLElement | Returns the data source used by the layer.                                                      |
-| `getMap()`                                            | [Map](Map%20Class.md)         | Returns the map that this overlay is attached to.                                               |
+| `getMap()`                                            | [Map](../v8-web-control/map-class.md)         | Returns the map that this overlay is attached to.                                               |
 | `getVisible()`                                        | boolean     | Gets a boolean indicating if the screen overlay is visible or not.                              |
 | `setHtmlElement(htmlElement: string *or* HTMLElement)` |             | Updates the html element of this screen overlay.                                                |
 | setOptions(options: [KmlScreenOverlayOptions](../v8-web-control/kmlscreenoverlayoptions-object.md))        |             | Sets the options to customize the screen overlay.                                               |

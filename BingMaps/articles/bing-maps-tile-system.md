@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Bing Maps Tile System
-[!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] provides a world map that users can directly manipulate to pan and zoom.  To make this interaction as fast and responsive as possible, we chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display.  This document describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the [!INCLUDE[ve_tile_sys_name](../articles/includes/ve-tile-sys-name-md.md)].  
+[Bing Maps](../articles/includes/ve-product-name-md.md) provides a world map that users can directly manipulate to pan and zoom.  To make this interaction as fast and responsive as possible, we chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display.  This document describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the [Bing Maps Tile System](../articles/includes/ve-tile-sys-name-md.md).  
   
 ## Map Projection  
  To make the map seamless, and to ensure that aerial images from different sources line up properly, we have to use a single projection for the entire world.  We chose to use the **Mercator projection**, which looks like this:  
@@ -89,7 +89,7 @@ manager: "stevelom"
   
  `pixelY = (0.5 – log((1 + sinLatitude) / (1 – sinLatitude)) / (4 * pi)) * 256 * 2` <sup>level</sup>  
   
- The latitude and longitude are assumed to be on the WGS 84 datum.  Even though [!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] uses a spherical projection, it’s important to convert all geographic coordinates into a common datum, and WGS 84 was chosen to be that datum.  The longitude is assumed to range from -180 to +180 degrees, and the latitude must be clipped to range from -85.05112878 to 85.05112878.  This avoids a singularity at the poles, and it causes the projected map to be square.  
+ The latitude and longitude are assumed to be on the WGS 84 datum.  Even though [Bing Maps](../articles/includes/ve-product-name-md.md) uses a spherical projection, it’s important to convert all geographic coordinates into a common datum, and WGS 84 was chosen to be that datum.  The longitude is assumed to range from -180 to +180 degrees, and the latitude must be clipped to range from -85.05112878 to 85.05112878.  This avoids a singularity at the poles, and it causes the projected map to be square.  
   
 ### Tile Coordinates and Quadkeys  
  To optimize the performance of map retrieval and display, the rendered map is cut into tiles of 256 x 256 pixels each.  As the number of pixels differs at each level of detail, so does the number of tiles:  
@@ -342,4 +342,4 @@ namespace Microsoft.MapPoint
 ```  
   
 ### About the Author  
- Joe Schwartz is a software architect for [!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)].
+ Joe Schwartz is a software architect for [Bing Maps](../articles/includes/ve-product-name-md.md).

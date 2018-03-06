@@ -35,7 +35,7 @@ The [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-serv
   
  You can now define location as either a geographical area, such as polygon or line string or a single point (latitude and longitude). For more information, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md) and [Geography Types](../spatial-data-services/geography-types.md).  
   
- Note that geographical shapes are only supported when you upload your data source using the [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md). You cannot use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to upload data sources with a geographical shape type.  
+ Note that geographical shapes are only supported when you upload your data source using the [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md). You cannot use the Bing Maps Dev Center to upload data sources with a geographical shape type.  
   
  **Use geographical shapes to query data sources.**  
   
@@ -47,10 +47,10 @@ The [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-serv
   
  **June 2013**  
   
- **GeoData API (Preview) gets geographical boundaries.** With the [Geodata API](../spatial-data-services/geodata-api1.md), you can get boundary data for a variety of geographical entities from a country or region to postal codes by specifying an address or point (latitude and longitude) inside the entity.  
+ **GeoData API (Preview) gets geographical boundaries.** With the [Geodata API](../spatial-data-services/geodata-api.md), you can get boundary data for a variety of geographical entities from a country or region to postal codes by specifying an address or point (latitude and longitude) inside the entity.  
   
  **May, 2013**  
   
  **Batch geocoding and data source APIs are now available to all users.** Previously only available to enterprise users, the [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md) and [Data Source Management API](../spatial-data-services/data-source-management-api.md) are now accessible to any user with a Bing Maps Account. Usage is subject to the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
   
- For earlier releases, see [Release History](../spatial-data-services/release-history2.md) [starting with January, 2013].
+ For earlier releases, see [Release History](../spatial-data-services/release-history.md) [starting with January, 2013].

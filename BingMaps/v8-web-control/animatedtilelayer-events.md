@@ -21,12 +21,7 @@ This example uses the `onFrameLoaded` event of the [AnimatedTileLayer](../v8-web
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, animatedLayer;
 
     //Weather tile url from Iowa Environmental Mesonet (IEM): http://mesonet.agron.iastate.edu/ogc/
@@ -90,6 +85,7 @@ This example uses the `onFrameLoaded` event of the [AnimatedTileLayer](../v8-web
             text-align:center;
         }
     </style>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

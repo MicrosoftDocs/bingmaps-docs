@@ -61,7 +61,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
 |jsonp|**Optional.** Name of JSON callback function that is called when the response to the request is received. The JSON object provided in the response is passed to the callback function.|A string that contains the name of the callback function.<br /><br /> **Example**: jsonp=MyCallbackFunction|  
 |isStaging|**Optional.** Specifies to query the staged version of the data source instead of the published version.|A Boolean value.<br /><br /> -   0 or false**[default]**<br />-   1 or true<br /><br /> **Example**: isStaging=1|  
 |jsonso|**Optional.** The state object to pass to the JSON callback function. You can use a state object to match a response with a specific call. This value is provided as the second parameter to the callback function provided in the JSONP parameter.|Any valid JavaScript string.<br /><br /> **Example**: jsonso=abc3144sd|  
-|queryKey|**Required**. The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] to use to access the data source.|The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]s that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
 ## Response  
  This URL supports the following response formats.  
@@ -347,7 +347,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

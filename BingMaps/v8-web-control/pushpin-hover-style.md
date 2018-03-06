@@ -21,12 +21,7 @@ Creating a custom pushpin is great, but having the style change when users inter
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     var defaultColor = 'blue';
@@ -35,9 +30,7 @@ Creating a custom pushpin is great, but having the style change when users inter
 
     function GetMap()
     {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
             color: defaultColor
@@ -58,6 +51,7 @@ Creating a custom pushpin is great, but having the style change when users inter
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>

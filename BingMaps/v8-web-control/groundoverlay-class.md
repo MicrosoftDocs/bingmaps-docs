@@ -29,11 +29,11 @@ GroundOverlay(options: [GroundOverlayOptions](../v8-web-control/groundoverlayopt
 
 | Name                                      | Return Type       | Description                                                        |
 |-------------------------------------------|-------------------|--------------------------------------------------------------------|
-| `getBackgroundColor()`                      | string _or_ [Color](Color%20Class.md) | Gets the background color of the ground overlay.                   |
-| `getBounds()`                               | [LocationRect](LocationRect%20Class.md)      | Gets the bounding box that the ground overlay is bounded to.       |
+| `getBackgroundColor()`                      | string _or_ [Color](../v8-web-control/color-class.md) | Gets the background color of the ground overlay.                   |
+| `getBounds()`                               | [LocationRect](../v8-web-control/locationrect-class.md)      | Gets the bounding box that the ground overlay is bounded to.       |
 | `getImageUrl()`                             | string            | Gets the url to the gorund overlay image.                          |
 | `getOpacity()`                              | number            | Gets the opacity of the ground overlay.                            |
-| `getMap()`                                  | [Map](Map%20Class.md)               | Gets the map that this overlay is attached to.                     |
+| `getMap()`                                  | [Map](../v8-web-control/map-class.md)               | Gets the map that this overlay is attached to.                     |
 | `getRotation()`                             | number            | Gets the rotation of the ground overlay.                           |
 | `getVisible()`                              | boolean           | Gets a boolean indicating if the ground overlay is visible or not. |
 | setOptions(options: [GroundOverlayOptions](../v8-web-control/groundoverlayoptions-object.md)) |                   | Sets the options used to render the ground overlay.                |

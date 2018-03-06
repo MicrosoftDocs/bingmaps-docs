@@ -108,7 +108,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=Geocode%20
 ```  
   
 ## Checking Job Status  
- To find out the status of a geocode job, use the URL provided by `Link` element with the `role` attribute set to `self`. You must append the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that you used to create the job to the URL to use it. For more information, see [Get Job Status](../spatial-data-services/get-status-of-a-geocode-job.md).  
+ To find out the status of a geocode job, use the URL provided by `Link` element with the `role` attribute set to `self`. You must append the Bing Maps Key that you used to create the job to the URL to use it. For more information, see [Get Job Status](../spatial-data-services/get-status-of-a-geocode-job.md).  
   
  Based on the example response above, you would make the following URL request to get job status. The job status is defined by the `Status` field. Continue to check status until it shows that the job has `Completed`. Then you can download the results as described in the next section.  
   
@@ -152,7 +152,7 @@ from Microsoft Corporation.</Copyright>
  If your job status is `Aborted`, then the job ended due to an error and an `ErrorMessage` element appears in the response and contains error information.  
   
 ## Downloading Results  
- When the status of your job is `Completed`, you can download the results of the geocode job. The results are available for download for fourteen (14) calendar days. The `Link` URLs to use are identified by their `name` attribute and are set to `succeeded` and `failed`. A succeeded or failed Link URL only appears in the response if there is corresponding data to download. For example, if all the data was geocoded successfully, a failed Link URL does not appear. To download data, you must append the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that you used to create the job to the download URLs.  
+ When the status of your job is `Completed`, you can download the results of the geocode job. The results are available for download for fourteen (14) calendar days. The `Link` URLs to use are identified by their `name` attribute and are set to `succeeded` and `failed`. A succeeded or failed Link URL only appears in the response if there is corresponding data to download. For example, if all the data was geocoded successfully, a failed Link URL does not appear. To download data, you must append the Bing Maps Key that you used to create the job to the download URLs.  
   
  The following show the download URLs and the geocoded data for this example.  
   

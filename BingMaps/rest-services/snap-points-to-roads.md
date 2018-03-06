@@ -80,7 +80,7 @@ The following is a list of parameters that are supported by the Snap to Road API
 
 | Note                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](https://msdn.microsoft.com/library/ff701701.aspx).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  |
+| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  |
 
 | Parameter              | Alias | Description                                                                                                                                                                    |
 |------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ To view the complete XML and JSON responses, see [Snap to Road Example](../rest-
 
 | Note                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](https://msdn.microsoft.com/library/ff701703.aspx). |
+| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -160,5 +160,5 @@ When the request is not successful, the response returns one of the following er
 
 ## See Also
 
-* [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
 * [Snap to Road Example](../rest-services/snap-to-road-example.md)

@@ -17,7 +17,7 @@ This is the main class thate provides that heat map functionality.
 
 ## Constructor
 
-> HeatMapLayer(locations: ([Location](Location%20Class.md) | [Pushpin](Pushpin%20Class.md))[], options?: [HeatMapLayerOptions](../v8-web-control/heatmaplayeroptions-object.md))
+> HeatMapLayer(locations: ([Location](../v8-web-control/location-class.md) | [Pushpin](../v8-web-control/pushpin-class.md))[], options?: [HeatMapLayerOptions](../v8-web-control/heatmaplayeroptions-object.md))
 
 ## Methods
 
@@ -26,6 +26,6 @@ Name                                      | Return Type            | Description
 `clear()`                                 |                        | Clears all data in the heat map layer.
 `dispose()`                               |                        | Disposes the heat map layer.
 `getVisible()` | boolean | Returns a boolean indicating if the heat map layer is visible or not. 
-setLocations(loc: ([Location](Location%20Class.md) _or_ [Pushpin](Pushpin%20Class.md))[])  |                        | Specifies the locations to use when generating the heat map.
+setLocations(loc: ([Location](../v8-web-control/location-class.md) _or_ [Pushpin](../v8-web-control/pushpin-class.md))[])  |                        | Specifies the locations to use when generating the heat map.
 setOptions(opt: [HeatMapLayerOptions](../v8-web-control/heatmaplayeroptions-object.md))   |                        | Sets the options to use with the heat map layer.
 `setVisible(visible: boolean)`  | | Sets the visibility of the heat map layer.

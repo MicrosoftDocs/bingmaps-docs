@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Helpful Tips for Entity Data
-Here are some tips to help you when you create entity data to use with the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)].  
+Here are some tips to help you when you create entity data to use with the Bing Spatial Data Services.  
   
 -   **Consider using pipe(&#124;)-delimited  or XML entity data files**. Entity data often contains commas (Example: Seattle, WA). Therefore, using the pipe (&#124;) character as a separator in entity data files is often a good choice. Similarly, XML files support the use of commas (,), hyphens (-), and pipe characters (&#124;) as part of entity data values.  
   

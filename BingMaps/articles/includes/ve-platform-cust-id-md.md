@@ -1,1 +1,0 @@
-Bing Maps Customer Identification

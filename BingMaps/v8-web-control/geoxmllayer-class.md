@@ -45,10 +45,10 @@ The GeoXmlLayer class allows you to add events which are triggered when interact
 
 | Name   | Arguments    | Description   |
 |--------|--------------|---------------|
-| `click`      | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the mouse is used to click the map or when a touch end event occurs on an IPrimitive shape in the layer.               |
-| `dblclick` | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx)| Occurs when the mouse is used to double click the map or when a touch end event occurs on an IPrimitive shape in the layer. |
-| `mousedown`  | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the left mouse button is pressed or a touch start event occurs on an IPrimitive shape in the layer.                    |
-| `mouseover`  | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the mouse cursor moves over top of the area covered by an IPrimitive shape in the layer.                               |
-| `mouseout`   | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the mouse cursor moves out of the area covered by an IPrimitive shape in the layer.                                    |
-| `mouseup`    | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the left mouse button is lifted up or when the touch end event occurs on an IPrimitive shape in the layer.             |
-| `rightclick` | [MouseEventArgs](https://msdn.microsoft.com/library/mt748664.aspx) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on an IPrimitive shape in the layer. |
+| `click`      | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on an IPrimitive shape in the layer.               |
+| `dblclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on an IPrimitive shape in the layer. |
+| `mousedown`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on an IPrimitive shape in the layer.                    |
+| `mouseover`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by an IPrimitive shape in the layer.                               |
+| `mouseout`   | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by an IPrimitive shape in the layer.                                    |
+| `mouseup`    | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on an IPrimitive shape in the layer.             |
+| `rightclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on an IPrimitive shape in the layer. |

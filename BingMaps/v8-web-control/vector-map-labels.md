@@ -23,7 +23,6 @@ One of the main benefits of vector labels is that it prioritizes the data that i
 
 This feature does add some performance overhead as additional network calls are made to retrieve the vector label data, there is also a decent number of calculations involved in the collision detection logic used for rendering. In most apps this won’t be an issue. However, a new “lite” map mode option has been added, which disables vector labels and reverts back to rendering map labels on the map tile images on the server. This is a good option to enable when rendering large data sets. Additionally, in case where performance issues are known, the map will automatically use “lite” mode to improve the overall performance. This can happen when using the map on a less powerful device or browser, or when accessing the map from a location that is known to have slow network speeds. 
 
-| Note |
-|------|
-| Vector map labels are not supported in China, Japan or South Korea. |
+> [!NOTE]
+> Vector map labels are not supported in China, Japan or South Korea. 
  

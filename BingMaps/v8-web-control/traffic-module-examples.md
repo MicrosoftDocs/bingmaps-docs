@@ -25,17 +25,12 @@ This examples shows how to display traffic data on top of the map.
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, trafficManager;
 
     function GetMap()
     {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Load traffic module.
         Microsoft.Maps.loadModule('Microsoft.Maps.Traffic', function () {
@@ -47,6 +42,7 @@ This examples shows how to display traffic data on top of the map.
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

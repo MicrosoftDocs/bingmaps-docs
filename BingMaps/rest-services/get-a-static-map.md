@@ -102,7 +102,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize=mapSiz
 |zoomLevel||**Required.** The level of zoom to display.|An integer between 0 and 21. **Note:**  Some imagery may not be available at all zoom levels for all locations. If imagery is not available at a location, a message is returned in the `ErrorDetails` collection that is part of the common response fields. See [Common Response Description](../rest-services/common-response-description.md) for a list of common response fields. <br /><br /> **Example**: 10|  
 |highlightEntity|he|Highlights a polygon for an entity.|1 = Highlight polygon is on|  
 |entityType||**Optional.** Indicates the type of entity that should be highlighted. The entity of this type that contains the centerPoint will be highlighted.|CountryRegion, AdminDivision1, or PopulatedPlace. For more information, see [Location and Area Types](https://msdn.microsoft.com/en-us/library/ff701726.aspx)<br /><br /> Also, please see the [Examples](../rest-services/get-a-static-map.md#BKMK_GetAStaticMapExamples) section below for demonstrations of this parameter.|  
-|style|st|**Optional.** Specifies a custom map style to apply to the road maps.|See [Custom Map Styles in Bing Maps V8 and REST Services](https://msdn.microsoft.com/library/mt823636.aspx).|  
+|style|st|**Optional.** Specifies a custom map style to apply to the road maps.|See [Custom Map Styles in Bing Maps V8 and REST Services](../articles/custom-map-styles-in-bing-maps.md).|  
   
  **Route Parameters**  
   
@@ -348,7 +348,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.677006,-122.125526/Popu
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

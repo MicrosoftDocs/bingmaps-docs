@@ -15,7 +15,7 @@ manager: "stevelom"
 # Culture Parameter
 Use the culture parameter to specify a culture for your request. The culture parameter provides the following strings in the language of the culture for:  
   
-1.  Geographic entities and place names returned by the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)]  
+1.  Geographic entities and place names returned by the Bing Maps REST Services  
   
 2.  Map labels on map images  
   

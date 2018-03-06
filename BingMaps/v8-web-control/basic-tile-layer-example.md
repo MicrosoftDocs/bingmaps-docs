@@ -36,11 +36,7 @@ In order to add a tile layer to the map, you first need a source of map tile dat
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
         function GetMap() {
             var map = new Microsoft.Maps.Map('#myMap', {
                 credentials: 'Your Bing Maps Key',
@@ -66,6 +62,7 @@ In order to add a tile layer to the map, you first need a source of map tile dat
             map.layers.insert(katrinaTileLayer);
         }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

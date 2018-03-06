@@ -24,7 +24,7 @@ You must provide a data schema and a set of input data to create a data source w
   
  If you are using XML format, you can use [System.Data.Dataset](http://msdn.microsoft.com/en-us/library/system.data.dataset.aspx) to generate the data schema, primary key information and the input data.  
   
- The [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] only supports UTF-8 encoded input data.  
+ The Bing Spatial Data Services only supports UTF-8 encoded input data.  
   
  For some helpful tips about creating the data schema and entity data, see [Helpful Tips for Entity Data](../spatial-data-services/helpful-tips-for-entity-data.md).  
   
@@ -75,7 +75,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
  The data schema must include a set of latitude and longitude properties or at most one geography property. You can also include both.  
   
 > [!NOTE]
->  Note that geography types are only supported when you upload data sources using the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)]. You cannot upload data sources with geographical types using  the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)].  
+>  Note that geography types are only supported when you upload data sources using the Bing Spatial Data Services. You cannot upload data sources with geographical types using  the Bing Maps Dev Center.  
   
  The following rules apply when specifying location properties in the data schema:  
   

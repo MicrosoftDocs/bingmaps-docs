@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Make a Data Source Public
-Use the following URLs to make your data source publicly accessible or to make it private. A public data source can be queried by anyone with a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]. A private data source can only queried using the data source query key only.  
+Use the following URLs to make your data source publicly accessible or to make it private. A public data source can be queried by anyone with a Bing Maps Key. A private data source can only queried using the data source query key only.  
   
  You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to change the public status of a data source. For more information, see [Making a Data Source Public or Private](http://msdn.microsoft.com/en-us/library/dn151784.aspx).  
   
@@ -31,7 +31,7 @@ Use the following URLs to make your data source publicly accessible or to make i
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateDataSource?setPublic=setPublic&key=masterKey  
 ```  
   
- The base part of the following URL with *accessID* and *dataSourceName* is returned when you create the data source. It is also returned when you request information for all data sources that belong to a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)].  
+ The base part of the following URL with *accessID* and *dataSourceName* is returned when you create the data source. It is also returned when you request information for all data sources that belong to a Bing Maps Account.  
   
 ### Template Parameters  
   
@@ -42,7 +42,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
 |---------------|-----------------|------------|  
 |accessId|**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
 |dataSourceName|**Required**. The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> **Example**: FourthCoffeeSample|  
-|setPublic|**Required**. Specifies whether the data source is publicly available or private.|One of the following values:<br /><br /> -   1: Make the data source publicly accessible to anyone with a valid [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].<br />-   **0 [default]**: Do not make the data source public.<br /><br /> **Example**: setPublic=1|  
+|setPublic|**Required**. Specifies whether the data source is publicly available or private.|One of the following values:<br /><br /> -   1: Make the data source publicly accessible to anyone with a valid Bing Maps Key.<br />-   **0 [default]**: Do not make the data source public.<br /><br /> **Example**: setPublic=1|  
   
 ## Response  
  This URL supports the following response formats.  
@@ -132,7 +132,7 @@ http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

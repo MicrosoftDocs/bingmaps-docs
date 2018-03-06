@@ -26,7 +26,7 @@ Provides a layer which can smoothly animate through an array of tile layer sourc
 | `getFrameRate()`                                | number         | Gets the frame rate of this animated tile layer.                        |
 | `getLoadingScreen()`                            | [CustomOverlay](../v8-web-control/customoverlay-class.md)  | Gets the loading screen overlay when tiles are being fetched.           |
 | `getMaxTotalLoadTime()`                         | number         | Gets the maximum total tile fetching time of this animated tile layer   |
-| `getTileSources()`                              | [TileSource](TileSource%20Class.md)\[\] | Gets the tile sources associated with this layer.                       |
+| `getTileSources()`                              | [TileSource](../v8-web-control/tilesource-class.md)\[\] | Gets the tile sources associated with this layer.                       |
 | `getVisible()`                                  | boolean        | Gets the visibility of this animated tile layer.                        |
 | `pause()`                                       |                | Pause the tile layer animation.                                         |
 | `play()`                                        |                | Play the animation either from start or where it was paused.            |

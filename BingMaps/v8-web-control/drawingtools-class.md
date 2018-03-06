@@ -17,7 +17,7 @@ The DrawingTools class exposes a set of tools for drawing and editing shapes on 
 
 ## Constructor
 
-> DrawingTools(map: [Map](Map%20Class.md))
+> DrawingTools(map: [Map](../v8-web-control/map-class.md))
 
 ## Methods
 

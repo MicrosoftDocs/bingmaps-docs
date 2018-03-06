@@ -26,7 +26,7 @@ The ContourLayer class takes an array of [ContourLine](../v8-web-control/contour
 |------------------------------------------------|---------------------|-----------------------------------------------------------------------------|
 | `clear()`                                        |                     | Clears all data on the contour layer.                                       |
 | `getContourLines()`                              | [ContourLine](../v8-web-control/contourline-class.md)\[\]     | Gets the contour lines of this layer.                                       |
-| `getContourPolygons()`                             | [Polygon](Polygon%20Class.md)\[\]         | Gets the polygons that were generated from the contour lines in this layer. |
+| `getContourPolygons()`                             | [Polygon](../v8-web-control/polygon-class.md)\[\]         | Gets the polygons that were generated from the contour lines in this layer. |
 | `getOptions()`                                  | [ContourLayerOptions](../v8-web-control/contourlayeroptions-object.md) | Retrieves the options of this contour layer.                                |
 | `getVisible()` | boolean |Gets a boolean that indicates if the layer is visible or not. | 
 | `getZIndex()` | number | Gets the zIndex of the layer. | 
@@ -40,11 +40,11 @@ The ContourLayer class takes an array of [ContourLine](../v8-web-control/contour
 
 | Name   | Arguments    | Description   |
 |--------|--------------|---------------|
-| `click`      | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a contour line in the layer.               |
-| `dblclick` | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a contour line in the layer. |
-| `mousedown`  | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a contour line in the layer.                    |
-| `mouseover`  | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the mouse cursor moves over top of the area covered by a contour line in the layer.                               |
-| `mouseout`   | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the mouse cursor moves out of the area covered by a contour line in the layer.                                    |
-| `mouseup`    | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a contour line  in the layer.             |
-| `rightclick` | [LayerMouseEventArgs](LayerMouseEventArgs%20Object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a contour line in the layer. |
+| `click`      | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a contour line in the layer.               |
+| `dblclick` | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a contour line in the layer. |
+| `mousedown`  | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a contour line in the layer.                    |
+| `mouseover`  | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by a contour line in the layer.                               |
+| `mouseout`   | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by a contour line in the layer.                                    |
+| `mouseup`    | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a contour line  in the layer.             |
+| `rightclick` | [LayerMouseEventArgs](../v8-web-control/layermouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a contour line in the layer. |
 

@@ -26,6 +26,6 @@ An infobox, also sometimes refer to as an info window or popup, is a simple pane
   
 ### References
 
-  * [Infobox Class](Infobox%20Class.md)
-  * [InfoboxOptions Object](InfoboxOptions%20Object.md)
+  * [Infobox Class](../v8-web-control/infobox-class.md)
+  * [InfoboxOptions Object](../v8-web-control/infoboxoptions-object.md)
   * [InfoboxActions Object](../v8-web-control/infoboxactions-object.md) 

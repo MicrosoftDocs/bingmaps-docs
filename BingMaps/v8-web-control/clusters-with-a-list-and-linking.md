@@ -21,15 +21,11 @@ This example shows how to dynamically create a list of the pushpins that are cur
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-    <script type="text/javascript">
+	<script type="text/javascript">
     var map, clusterLayer, infobox;
 
 	function GetMap() {
-	    map = new Microsoft.Maps.Map('#myMap', {
-	        credentials: 'Your Bing Maps Key'
-	    });
+	    map = new Microsoft.Maps.Map('#myMap', {});
 
         //Add an infobox to the map.
 	    infobox = new Microsoft.Maps.Infobox(map.getCenter(), { visible: false });
@@ -126,6 +122,7 @@ This example shows how to dynamically create a list of the pushpins that are cur
 	    });
 	}
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative; width:600px; height:400px;"></div>

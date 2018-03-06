@@ -15,7 +15,7 @@ manager: "stevelom"
 # Route Data
 The response returned by Routes URL contains a Route resource. The information provided in the Route resource includes the route distance, the travel time, and the itinerary details for each route leg. A route leg is a section of the route defined by two waypoints, and it provides a set of route steps to follow. A route step includes instructions, as well as further details (warnings and hints) about the route, when available. When a route path is requested by setting the *routeAttributes* parameter to *routePath* in the request, the Route resource also provides a set of Point (latitude and longitude) values for each route leg. The following tables provide the descriptions of the Route resource fields, followed by XML and JSON examples.  
   
- For more information about the common response container for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md).  
+ For more information about the common response container for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
   
 ## Route Resource  
  The following tables describe the fields in the Route resource in a hierarchical manner.  

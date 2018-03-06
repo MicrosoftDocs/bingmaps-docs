@@ -19,7 +19,7 @@ The response returned when making a synchronous request to the Distance Matrix A
 
 The following tables provide the descriptions of the `DistanceMatrix` and `DistanceMatrixAsyncStatus` resource fields.
 
-For more information about the common response container for the Bing Maps REST Services, see [Common Response Description](https://msdn.microsoft.com/library/ff701707.aspx).
+For more information about the common response container for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).
 
 ## DistanceMatrixAsyncStatus Resource
 
@@ -78,7 +78,7 @@ These fields are used to represent a location coordinate.
 
 ## See Also
 
-* [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
 * [Distance Matrix Example](../rest-services/distance-matrix-example.md)
 * [Distance Matrix Asynchronous Example](../rest-services/distance-matrix-asynchronous-example.md)
 * [Distance Matrix Histogram Example](../rest-services/distance-matrix-histogram-example.md)

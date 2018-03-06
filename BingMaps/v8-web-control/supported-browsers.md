@@ -23,7 +23,8 @@ The Bing Maps V8 Web Control is supported with most modern browsers that are HTM
   * The current and previous version of Chrome (Windows, Mac OS X, Linux)
   * The current and previous version of Safari (Mac OS X) 
 
-**Note**: Internet Explorer's Compatibility View is not supported.
+> [!NOTE]
+> Internet Explorer's Compatibility View is not supported.
 
 ## Mobile
 

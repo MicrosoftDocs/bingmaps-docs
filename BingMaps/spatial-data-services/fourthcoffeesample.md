@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # FourthCoffeeSample
-The FourthCoffeeSample data source is a sample data source that you can use to learn how to query and get data source information by using the  [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)].  
+The FourthCoffeeSample data source is a sample data source that you can use to learn how to query and get data source information by using the  Bing Spatial Data Services.  
   
 > [!NOTE]
 >  All Query API transactions are billable transactions including queries to the FourthCoffeeSample data source. Therefore, you may want to create an evaluation account to use with this data source. For more information about how to create an evaluation account, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
@@ -59,7 +59,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **Query Example**  
   
- The following query example queries for FourthCoffeeShops entities within 5 kilometers of a location that is specified as a latitude and longitude pair. Because this is a sample data source, the query key you use can be any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]. For more information, see [Query API](../spatial-data-services/query-api2.md).  
+ The following query example queries for FourthCoffeeShops entities within 5 kilometers of a location that is specified as a latitude and longitude pair. Because this is a sample data source, the query key you use can be any Bing Maps Key. For more information, see [Query API](../spatial-data-services/query-api.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$select=EntityID,Latitude,Longitude,__Distance&$top=3&key=anyBingMapsKey  

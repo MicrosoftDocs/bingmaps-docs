@@ -124,7 +124,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/locality/addressL
 |maxResults|maxRes|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> maxResults=10|  
   
 ## Response  
- One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md). Responses are provided for some URL examples in the following section.  
+ One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). Responses are provided for some URL examples in the following section.  
   
  These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -502,7 +502,7 @@ http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&ke
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

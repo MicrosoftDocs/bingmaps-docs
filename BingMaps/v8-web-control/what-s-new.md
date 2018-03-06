@@ -41,7 +41,7 @@ The Autosuggest manager now lets you specify a country to limit suggestions to u
 
 **Enable CORs on tile layers**
 
-This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](http://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](MapOptions%20Object.md) for more details.
+This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](http://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](../v8-web-control/mapoptions-object.md) for more details.
 
 **Customize the Drawing toolbar**
 
@@ -63,19 +63,19 @@ This release contains several new features and bug fixes.
 
 Easily import and export common spatial file formats such as KML, KMZ, GeoRSS, GML (via GeoRSS) and GPX. Load it as a layer on the map or directly access the data with just a few lines of code.
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Local%20Data) | [Documentation](https://msdn.microsoft.com/library/mt825057.aspx)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Local%20Data) | [Documentation](../v8-web-control/geoxml-module.md)
 
 **Ground Overlays**
 
 Overlay georeferenced images on top of the map so that they move and scale as you pan and zoom the map. This is great for building floor plans, overlaying old maps, or imagery from a drone.
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay) | [Documentation](https://msdn.microsoft.com/library/mt825054.aspx)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay) | [Documentation](../v8-web-control/groundoverlay-class.md)
 
 **LocationRect class improvements**
 
 Two new static methods have been added the LocationRect class. The first is called `fromShapes` and lets you easily generate a LocationRect from an array of shapes. The second is called `merge` and makes it easy to combine two LocationRect objects together to generate the minimum bounding LocationRect. 
 
-[Documentation](https://msdn.microsoft.com/library/mt712644.aspx) 
+[Documentation](../v8-web-control/locationrect-class.md) 
 
 **Get Autosuggest suggestions programmatically**
 
@@ -103,7 +103,7 @@ The Bing Maps V8 control has a new map option called **customMapStyle** which ca
 
 **Direction Route Line & Waypoint Style Options**
 
-With this relase the route line and waypoints can be customized using the [DirectionsRenderOptions](https://msdn.microsoft.com/library/mt750365.aspx). 
+With this relase the route line and waypoints can be customized using the [DirectionsRenderOptions](../v8-web-control/directionsrenderoptions-object.md). 
 
 **Postal Code support added to Auto Suggest module**
 
@@ -120,7 +120,7 @@ This release primarily consisted of bug fixes and performance improvements.
 
 **RoutePath Locations**
 
-When you calculate a route using the directions manager you can now easily get an array of locations that make up the route path. This is useful if you want to create a custom styled route line on the map, or if you want to perform route based calculations such as search for data along or near a route. Combine this with the Bing Maps REST elevation service and easily generate route elevation profiles. This is documented as part of the Route response object  [here](https://msdn.microsoft.com/library/mt750645.aspx).
+When you calculate a route using the directions manager you can now easily get an array of locations that make up the route path. This is useful if you want to create a custom styled route line on the map, or if you want to perform route based calculations such as search for data along or near a route. Combine this with the Bing Maps REST elevation service and easily generate route elevation profiles. This is documented as part of the Route response object  [here](../v8-web-control/route-object.md).
 
 **Cardinal Splines**
 
@@ -136,7 +136,7 @@ Bing Maps V8 now supports loading multiple map instances on a single page.
 
 The Bing Maps team has made 2010 US Census data available through the Bing Spatial Data Services for easy use in your application. This data has been exposed through 4 different data sources, each containing census data based on a different type of geographical region; states, counties, ZCTA5 (Zip code tabulation area), and the 111th Congressional districts. 
 
-[Documentation](https://msdn.microsoft.com/library/mt805047.aspx) | [Code Samples](https://msdn.microsoft.com/library/mt712861.aspx) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
+[Documentation](../spatial-data-services/2010-us-census-data-sources.md) | [Code Samples](../v8-web-control/choropleth-map-example.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
 
 ## October 2016
 
@@ -198,7 +198,7 @@ To make Bing Maps more accessible, high contrast support has been added. When th
 
 **New Road Map Styles**
 
-Three new road map styles have been added; grayscale, canvasDark and canvasLight. These are designed to make it easy to focus on the data you overlay on top of the map and are much better suited for business intelligence type scenarios than the default road map style. You can find documentation [here](MapTypeId%20Enumeration.md). 
+Three new road map styles have been added; grayscale, canvasDark and canvasLight. These are designed to make it easy to focus on the data you overlay on top of the map and are much better suited for business intelligence type scenarios than the default road map style. You can find documentation [here](../v8-web-control/maptypeid-enumeration.md). 
 
 **Infobox improvements**
 
@@ -252,7 +252,7 @@ Public transit is one of the most common ways of traveling in Japan. You can now
 
 **Clickable Pushpin area**
 
-Often, when using custom pushpins, the clickable area of the pushpin is rectangular, as the image used to create custom pushpins has a rectangular shape. This can often cause issues when using mouse events because often the actual drawn image may not be a rectangle itself and as such has some whitespace around it which will block the mouse events from getting to the pushpins below it. With this in mind, V8 now lets you specify that a rounded click area should be used instead. Early testing has found that this drastically reduces false clicks on pushpins and thus creates a much better user experience. Find our more [here](PushpinOptions%20Object.md).
+Often, when using custom pushpins, the clickable area of the pushpin is rectangular, as the image used to create custom pushpins has a rectangular shape. This can often cause issues when using mouse events because often the actual drawn image may not be a rectangle itself and as such has some whitespace around it which will block the mouse events from getting to the pushpins below it. With this in mind, V8 now lets you specify that a rounded click area should be used instead. Early testing has found that this drastically reduces false clicks on pushpins and thus creates a much better user experience. Find our more [here](../v8-web-control/pushpinoptions-object.md).
  
 **GeoJSON and Query API Shape Styling**
 

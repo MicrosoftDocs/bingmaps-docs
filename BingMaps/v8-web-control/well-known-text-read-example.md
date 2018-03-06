@@ -21,10 +21,7 @@ This example shows how to parse a Well Known Text string value into a Bing Maps 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
         var map = new Microsoft.Maps.Map('#myMap', {
             credentials: 'Your Bing Maps Key',
@@ -41,6 +38,7 @@ This example shows how to parse a Well Known Text string value into a Bing Maps 
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

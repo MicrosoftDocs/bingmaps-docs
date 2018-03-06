@@ -19,12 +19,12 @@ Represents the suggestion result from the Autosuggest manager.
 
 Name                    | Type          | Description
 ----------------------- | ------------- | ------------------------------------------
-`address`               | [Address](Address%20Object.md) | A structured address object for the result.
-`bestView`              | [LocationRect](LocationRect%20Class.md)  | A LocationRect that can be used to set the map view over the result.
+`address`               | [Address](../v8-web-control/address-object.md) | A structured address object for the result.
+`bestView`              | [LocationRect](../v8-web-control/locationrect-class.md)  | A LocationRect that can be used to set the map view over the result.
 `entityId`              | string        | Unique entity id to be used for searching the entity.
 `entityType`            | string        | The type of the result; Address, Place
 `entitySubType`         | string        | The sub type of result; Address, RoadBlock, PopulatedPlace, CountryRegion, etc.
 `subtitle` | string | A secondary title that provides additional context to the title value of the suggestion.
 `formattedSuggestion`   | string        | A nicely formatted suggestion string for the result based on market.
-`location`              | [Location](Location%20Class.md)      | The coordinate of the result. This value is only returned for place (city, landmarks) results and not for addresses. Street addresses will need to be geocoded to get their location.
+`location`              | [Location](../v8-web-control/location-class.md)      | The coordinate of the result. This value is only returned for place (city, landmarks) results and not for addresses. Street addresses will need to be geocoded to get their location.
 `title`                 | string        | The display title for the result (i.e. “Redmond”).

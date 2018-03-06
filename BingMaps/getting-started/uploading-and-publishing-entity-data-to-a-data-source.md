@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Uploading and Publishing Entity Data to a Data Source
-You can upload, geocode, and publish entity data to a data source by using the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)].  
+You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  
   
  After the entity data is published to a data source, you can query the data source by using the [Query API](http://msdn.microsoft.com/en-us/library/gg585126.aspx). You can also edit published entity data as described in [Editing a Data Source](../getting-started/editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
   
@@ -79,7 +79,7 @@ You can upload, geocode, and publish entity data to a data source by using the [
 ### Example: XML Schema and Entity Data  
  The following is an XML data schema and input data example. The data schema specifies a set of location properties, an entity ID property and two other entity properties for phone and manager information.  
   
- Note that the input data does not contain values for all of the location properties. For example, one set of entity data contains address information while the other set contains only latitude and longitude coordinates. When this data is uploaded to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)], the geocode process can geocode (get latitude and longitude values for) the address data, and can reverse-geocode (get address information for) the latitude and longitude values. Geocoding or reverse-geocoding only occurs when address information is missing (reverse-geocoding) or when latitude and longitude values are missing (geocoding). If address information and latitude and longitude values are both provided for an entity, no changes are made to the data. You also have the option to upload and directly publish the data to the data source with no changes.  
+ Note that the input data does not contain values for all of the location properties. For example, one set of entity data contains address information while the other set contains only latitude and longitude coordinates. When this data is uploaded to the Bing Maps Dev Center, the geocode process can geocode (get latitude and longitude values for) the address data, and can reverse-geocode (get address information for) the latitude and longitude values. Geocoding or reverse-geocoding only occurs when address information is missing (reverse-geocoding) or when latitude and longitude values are missing (geocoding). If address information and latitude and longitude values are both provided for an entity, no changes are made to the data. You also have the option to upload and directly publish the data to the data source with no changes.  
   
  In addition to other characters, such a comma or a hyphen (-), you can use the pipe (&#124;) character in XML entity values. The entity type name (FourthCoffeeShops in the example) supports hyphens (-) and underscores (_).  
   
@@ -171,7 +171,7 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
 > [!NOTE]
 >  If you want to upload and publish your entity data to a data source without geocoding the data, select **Publish without geocoding** when you upload the data. When you choose this option, the data is published to the data source in one step.  
   
- When you upload entity data to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)], the location information is geocoded or reverse-geocoded depending on the location information you provide. You can determine if an entity is geocode by what fields you specify. For each entity, if you:  
+ When you upload entity data to the Bing Maps Dev Center, the location information is geocoded or reverse-geocoded depending on the location information you provide. You can determine if an entity is geocode by what fields you specify. For each entity, if you:  
   
 -   **Want to geocode (compute latitude and longitude values from) the address data**, then provide complete address information and **do not provide latitude and longitude values**. During the upload process, the address properties (AddressLine, Locality, AdminDistrict, PostalCode, CountryRegion) are used to compute the latitude and longitude values. The address information is not changed.  
   
@@ -183,21 +183,21 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
   
  **To upload the file that contains your data schema and entity data, follow these steps.**  
   
-1.  Sign in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/) with your [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)]. If you do not have a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)], see [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
+1.  Sign in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/) with your Bing Maps account. If you do not have a Bing Maps account, see [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
   
-2.  In the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)], select the **Upload data to a data source** under **Data Sources**.  
+2.  In the Bing Maps Dev Center, select the **Upload data to a data source** under **Data Sources**.  
   
 3.  Provide the following information  
   
     -   **Data source name**: The name of the data source where you want to publish the data. If a data source with this name does not exist, it will be created when you publish the data. For data source name requirements, see the preceding **Data Source Name Requirements** section.  
   
-    -   **Master key**: Select the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] to use for the data source.  
+    -   **Master key**: Select the Bing Maps Key to use for the data source.  
   
-        -   If you are creating a new data source, select the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that you want to use to manage the data source.  
+        -   If you are creating a new data source, select the Bing Maps Key that you want to use to manage the data source.  
   
-        -   If you are updating a data source with new data, you must use the master key that you specified when you created the data source. To view a list of master and query keys for data sources, click the **View data source information** link under **Data Sources** on the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)].  
+        -   If you are updating a data source with new data, you must use the master key that you specified when you created the data source. To view a list of master and query keys for data sources, click the **View data source information** link under **Data Sources** on the Bing Maps Dev Center.  
   
-    -   **Query key** [new data sources only]: If you are creating a new data source, you can select a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] to use to query the data source. The query key must be a different [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] than the master key.  
+    -   **Query key** [new data sources only]: If you are creating a new data source, you can select a Bing Maps Key to use to query the data source. The query key must be a different Bing Maps Key than the master key.  
   
     -   **Data format**: Select the type of input file you want to upload.  
   
@@ -228,7 +228,7 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
  When you are ready to publish entities that geocoded successfully, click **Publish**. When you publish your data, the published data source appears on the **Published Data Sources** tab and the **Geocoded** and **Failed** download files are no longer available. To query the data source, you will need a using the [Query API](http://msdn.microsoft.com/en-us/library/gg585126.aspx). You can find this URL on the **View Data Source Information** page under **Data Sources**. You can also edit the entity data and the data scheme of the published data source. For more information about editing the entity data of a published data source, see [Editing a Data Source](../getting-started/editing-a-data-source.md).  
   
 ## Transaction Accounting  
- Transactions are counted when you use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  
+ Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  
   
 ## See Also  
  [Getting Data Source Information](../getting-started/getting-data-source-information.md)   

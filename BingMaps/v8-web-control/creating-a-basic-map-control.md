@@ -18,7 +18,7 @@ manager: "stevelom"
 
 ## Create a Bing Maps Account and Get a Key
 
-Before you begin developing your application, you need to create a developer account on the Bing Maps Account Center. A Bing Maps Developer Account allows you to create a Bing Maps Key to use in your map application. Getting a key is described in the [Getting a Bing Maps Key](https://msdn.microsoft.com/library/ff428642.aspx) topic.
+Before you begin developing your application, you need to create a developer account on the Bing Maps Account Center. A Bing Maps Developer Account allows you to create a Bing Maps Key to use in your map application. Getting a key is described in the [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md) topic.
 
 ## Loading a map
 
@@ -58,7 +58,8 @@ To use SSL, change http to https:
 
 This will result in the browser inheriting the protocol from the website and automatically selecting HTTP or HTTPS as needed.
 
-**Tip**: If you refresh the page when using an async script reference to the map control, it will trigger the callback instantly as all the script is already loaded, however, the callback function or the map div may not yet be loaded on the page and would result in an error. To prevent this from happening, It is recommended that you add the map script tag to the bottom of the body of the page after the map div and all other script references. 
+> [!TIP]
+> If you refresh the page when using an async script reference to the map control, it will trigger the callback instantly as all the script is already loaded, however, the callback function or the map div may not yet be loaded on the page and would result in an error. To prevent this from happening, It is recommended that you add the map script tag to the bottom of the body of the page after the map div and all other script references. 
 
 4.	In the body of the page, add a DIV element to the page to contain the map. The size of the map is defined by the height and width of the DIV element. The position of the map is set by using the "position", "top", and "left" properties. You can set these values either inline or by defining the values in a style class and then referencing that class, as follows.
 

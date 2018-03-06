@@ -43,7 +43,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/DataSourceN
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |DataSourceName||**Required.** The name of the data source.|**Example**: MyDataSourceName|  
-|key||**Required**. The data source master key.|A [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that is  the data source master key.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|key||**Required**. The data source master key.|A Bing Maps Key that is  the data source master key.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  
@@ -143,7 +143,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourc
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

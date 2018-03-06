@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # What&#39;s New in the REST Services
-The [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] contains the following new features.  
+The Bing Maps REST Services contains the following new features.  
   
  **October, 2017**  
   
@@ -47,7 +47,7 @@ The [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md
   
  **New API Release History**  
   
- Starting with January, 2014, the Bing Maps REST Services API documentation includes [Release History](../rest-services/release-history1.md).  
+ Starting with January, 2014, the Bing Maps REST Services API documentation includes [Release History](../rest-services/release-history.md).  
   
  **You now have an additional 40 pushpin icons to use with static maps. [[Get a Static Map](../rest-services/get-a-static-map.md)]**  
   

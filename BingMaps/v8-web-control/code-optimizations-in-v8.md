@@ -92,7 +92,7 @@ var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
 **Additional Resources:**
 
 * [Pushpin Interactive Code Samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPushpin+JS)
-* [Pushpin Class](Pushpin%20Class.md)
+* [Pushpin Class](../v8-web-control/pushpin-class.md)
 * [Additional Pushpin Code Samples](../v8-web-control/pushpins.md)
 
 ## Setting the Color of a Polygon or Polyline
@@ -121,7 +121,7 @@ In this scenario, V8 requires 26% less code than V7, however the performance imp
 **Additional Resources:**
 
 * [Colors in V8](../v8-web-control/colors.md)
-* [Color Class](Color%20Class.md)
+* [Color Class](../v8-web-control/color-class.md)
 
 ## Getting the Location of a Mouse Event
 
@@ -218,7 +218,7 @@ Not including the code to create the polygon object, V8 requires writing 74% les
 
 **Additional Resource:**
 
-* [Polygon Class](Polygon%20Class.md)
+* [Polygon Class](../v8-web-control/polygon-class.md)
 * [Polygon interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPolygon+JS)
 
 ## Loading Multiple Modules
@@ -336,7 +336,7 @@ In this scenario, V8 requires 73% less code than V7.
 **Additional Resources:**
 
 * [Tile Layer interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerQuadKey+JS)
-* [TileSource options](TileSourceOptions%20Object.md)
+* [TileSource options](../v8-web-control/tilesourceoptions-object.md)
 
 ## Bing Maps REST Services
 

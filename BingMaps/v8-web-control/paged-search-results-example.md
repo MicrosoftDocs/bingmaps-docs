@@ -21,11 +21,7 @@ This code example takes a data source and performs an initial radial search of 1
 <head>
     <title></title>
     <meta charset="utf-8" />
-    
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-            
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var sdsDataSourceUrl = 'http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops';
 
     var map, pageIdx = 0, queryOptions, numResults;
@@ -148,6 +144,7 @@ This code example takes a data source and performs an initial radial search of 1
         }
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

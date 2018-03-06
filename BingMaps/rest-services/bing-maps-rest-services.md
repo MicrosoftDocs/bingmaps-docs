@@ -15,7 +15,7 @@ manager: "stevelom"
 # Bing Maps REST Services
 The Bing™ Maps REST Services Application Programming Interface (API) provides a Representational State Transfer (REST) interface to perform tasks such as creating a static map with pushpins, geocoding an address, retrieving imagery metadata, or creating a route.  
   
- Transaction accounting is provided when you use the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)]. For more information about billable and non-billable transactions for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Viewing Bing Maps Transaction Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).  
+ Transaction accounting is provided when you use the Bing Maps REST Services. For more information about billable and non-billable transactions for the Bing Maps REST Services, see [Viewing Bing Maps Transaction Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).  
   
  For information about geocoding large sets of spatial data using a REST Interface, see the [Bing Spatial Data Services](http://msdn.microsoft.com/en-us/library/ff701734.aspx).  
   
@@ -27,8 +27,8 @@ The Bing™ Maps REST Services Application Programming Interface (API) provides 
   
 |||  
 |-|-|  
-|[Getting Started](../rest-services/getting-started-with-the-bing-maps-rest-services.md)|Gets you started with the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)].|  
-|[What's New](../rest-services/what-s-new-in-the-rest-services.md)|Describes the latest updates to the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)].|  
+|[Getting Started](../rest-services/getting-started-with-the-bing-maps-rest-services.md)|Gets you started with the Bing Maps REST Services.|  
+|[What's New](../rest-services/what-s-new-in-the-rest-services.md)|Describes the latest updates to the Bing Maps REST Services.|  
 |[Getting Traffic Incident Data](../rest-services/getting-traffic-incident-data.md)|Shows how to get traffic incident data by using the [Routes](../rest-services/routes-api.md) and the [Traffic](../rest-services/traffic-api.md).|  
 |[Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)|Shows how to use .NET with the REST Services.|  
 |[Locations](../rest-services/locations-api.md)|Shows how to geocode and reverse-geocode location data.|  
@@ -37,10 +37,10 @@ The Bing™ Maps REST Services Application Programming Interface (API) provides 
 |[Routes](../rest-services/routes-api.md)|Shows how to get directions and route information for driving, walking, truck or using transit. This API can also be used to snap points to roads, calculate Distance Matrices and Isochrones (drive time polygons).|  
 |[Traffic](../rest-services/traffic-api.md)|Shows how to get information about traffic incidents and issues in a specified area.|  
 |[Common Parameters and Types](../rest-services/common-parameters-and-types.md)|Describes common parameters and types that specify values such as culture and pushpin styles.|  
-|[Common Response Description](../rest-services/common-response-description.md)|Describes the general response format and results returned when you make a [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] request.|  
-|[Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md)|Provides status and error code descriptions for troubleshooting.|  
-|[Release History](../rest-services/release-history1.md)|Gives a history of updates to the API starting with January, 2014|  
-|[Developer Resources](../rest-services/developer-resources2.md)|Lists resources and support for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)].|  
+|[Common Response Description](../rest-services/common-response-description.md)|Describes the general response format and results returned when you make a Bing Maps REST Services request.|  
+|[Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md)|Provides status and error code descriptions for troubleshooting.|  
+|[Release History](../rest-services/release-history.md)|Gives a history of updates to the API starting with January, 2014|  
+|[Developer Resources](../rest-services/developer-resources.md)|Lists resources and support for the Bing Maps REST Services.|  
   
 ## See Also  
  [Terms and Conditions](http://www.microsoft.com/maps/product/terms.html)

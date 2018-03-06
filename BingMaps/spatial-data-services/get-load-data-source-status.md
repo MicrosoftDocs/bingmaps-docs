@@ -41,7 +41,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?o
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |DataFlowJobID||**Required.** The job ID for the Load Data Source Dataflow job. This ID is returned in the response when you create a data source job and is also included in the "self" status link.|**Example**: f8293dc72ac04942b7cb003c9608c547|  
-|key||**Required.** The master key for the data source.|The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
+|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  
@@ -230,7 +230,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

@@ -21,12 +21,7 @@ This example shows how to search for locations along a route. It uses the built-
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
         var map, infobox, dataLayer, directionsManager;
 
         //Query URL to the Fourth Coffe Shop data source
@@ -34,9 +29,7 @@ This example shows how to search for locations along a route. It uses the built-
 
         function GetMap()
         {
-            map = new Microsoft.Maps.Map('#myMap', {
-                credentials: 'Your Bing Maps Key'
-            });
+            map = new Microsoft.Maps.Map('#myMap', {});
 
             //Create a layer for rendering the data that is along a route.
             dataLayer = new Microsoft.Maps.Layer();
@@ -166,6 +159,7 @@ This example shows how to search for locations along a route. It uses the built-
             float: left;
         }
     </style>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div class="directionsContainer">

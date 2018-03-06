@@ -21,9 +21,7 @@ This code sample loads in earthquake data for the last 30 days from the United S
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var usgsEarthquakeUrl = ' http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson';
 
     function GetMap() {
@@ -42,6 +40,7 @@ This code sample loads in earthquake data for the last 30 days from the United S
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

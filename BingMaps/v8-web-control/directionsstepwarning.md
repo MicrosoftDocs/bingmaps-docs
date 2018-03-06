@@ -21,4 +21,4 @@ Represents a route direction warning, such as a traffic congestion warning.
 | `severity`    | string | The severity of the warning. Values can be: Low Impact, Minor, Moderate, Serious or None. |
 | `text`        | string | The warning text. |
 | `to`          | string | Where the warning ends. |
-| `warningType` | string | The type of warning. A list of Warning type values can be found [here](https://msdn.microsoft.com/library/hh441731.aspx). |
+| `warningType` | string | The type of warning. A list of Warning type values can be found [here](../rest-services/warning-types.md). |

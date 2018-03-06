@@ -15,7 +15,7 @@ manager: "stevelom"
 # Imagery Metadata
 The response returned by an Imagery Metadata URL request contains a resource that provides imagery metadata information. If the metadata requested is for Birdseye imagery, a Birdseye Metadata resource is returned. For other types of imagery, an Imagery Metadata resource is returned. This topic contains descriptions of the information elements in these resources, followed by JSON and XML examples.  
   
- For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md).  
+ For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
   
 ## Common Imagery Resource Fields  
  The following fields are used in both the Imagery Metadata and the Birdseye Metadata resources.  

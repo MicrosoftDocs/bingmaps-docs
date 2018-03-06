@@ -21,12 +21,7 @@ This example uses the [AnimatedTileLayer](../v8-web-control/animatedtilelayer-cl
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, animatedLayer;
 
     //Weather tile url from Iowa Environmental Mesonet (IEM): http://mesonet.agron.iastate.edu/ogc/
@@ -61,6 +56,7 @@ This example uses the [AnimatedTileLayer](../v8-web-control/animatedtilelayer-cl
         map.layers.insert(animatedLayer);
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

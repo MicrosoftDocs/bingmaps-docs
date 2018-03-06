@@ -21,15 +21,15 @@ The Bing Maps SDK provides the ability to do forward and reverse geocoding throu
 
 ## API Reference
 
-* [Address Object](https://msdn.microsoft.com/library/mt712825.aspx)
-* [GeocodeLocation Object](https://msdn.microsoft.com/library/mt712845.aspx)
-* [GeocodeRequestOptions Object](https://msdn.microsoft.com/library/mt712822.aspx)
-* [GeocodeResult Object](https://msdn.microsoft.com/library/mt712827.aspx)
-* [MatchCode Enumeration](https://msdn.microsoft.com/library/mt750531.aspx)
-* [MatchConfidence Enumeration](https://msdn.microsoft.com/library/mt750532.aspx)
-* [PlaceResult Object](https://msdn.microsoft.com/library/mt712833.aspx)
-* [ReverseGeocodeRequestOptions Object](https://msdn.microsoft.com/library/mt712816.aspx)
-* [SearchManager Class](https://msdn.microsoft.com/library/mt712821.aspx)
+* [Address Object](../v8-web-control/address-object.md)
+* [GeocodeLocation Object](../v8-web-control/geocodelocation-object.md)
+* [GeocodeRequestOptions Object](../v8-web-control/geocoderequestoptions-object.md)
+* [GeocodeResult Object](../v8-web-control/geocoderesult-object.md)
+* [MatchCode Enumeration](../v8-web-control/matchcode-enumeration.md)
+* [MatchConfidence Enumeration](../v8-web-control/matchconfidence-enumeration.md)
+* [PlaceResult Object](../v8-web-control/placeresult-object.md)
+* [ReverseGeocodeRequestOptions Object](../v8-web-control/reversegeocoderequestoptions-object.md)
+* [SearchManager Class](../v8-web-control/searchmanager-class.md)
  
 ## Examples
 

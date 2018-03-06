@@ -275,4 +275,4 @@ When an asynchronous distance matrix request has completed, the status response 
 
 ## See Also
 
--   [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+-   [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)

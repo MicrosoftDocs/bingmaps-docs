@@ -24,7 +24,7 @@ Use the Data Source Management API to create and manage data sources that store 
 |**Create**|[Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
 |**Update**|[Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
 |**Make Public**|[Make a Data Source Public](../spatial-data-services/make-a-data-source-public.md)|[Available only with the Bing Spatial Data Services.](http://msdn.microsoft.com/en-us/library/dn151784.aspx)|  
-|**Query**|[Query API](../spatial-data-services/query-api2.md)|Use Spatial Data Services [Query API](../spatial-data-services/query-api2.md)|  
+|**Query**|[Query API](../spatial-data-services/query-api.md)|Use Spatial Data Services [Query API](../spatial-data-services/query-api.md)|  
 |**Download**|[Download a Data Source Dataflow](../spatial-data-services/download-a-data-source-dataflow.md)|[Downloading a Data Source](http://msdn.microsoft.com/en-us/library/hh698203)|  
 |**Stage**|[Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
 |**Rollback**|[Rollback a Data Source Dataflow](../spatial-data-services/rollback-a-data-source-dataflow.md)|[Rollback a Data Source](http://msdn.microsoft.com/en-us/library/dn167663.aspx)|  

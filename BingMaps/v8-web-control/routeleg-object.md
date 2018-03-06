@@ -18,10 +18,10 @@ Represents a leg of a route. A route leg is the part of the route between two st
 |   Name                |   Type             |   Description                                                              |
 |-----------------------|--------------------|----------------------------------------------------------------------------|
 | endTime               | Date           | The end time of the route leg. This property only applies when the routeMode of the DirectionsRequestOptions is set to **transit**.           |
-| endWaypointLocation   | [Location](Location%20Class.md) | The location of the last waypoint of this leg.                |
+| endWaypointLocation   | [Location](../v8-web-control/location-class.md) | The location of the last waypoint of this leg.                |
 | itineraryItems        | [DirectionsStep](../v8-web-control/directionsstep-object.md)\[\] | The directions steps associated with this route leg.                                                                                          |
 | originalRouteIndex    | number             | The index of the route to which this route leg belongs.                    |
 | startTime             | Date           | The start time of the route leg. This property only applies when the routeMode of the DirectionsRequestOptions is set to **transit**.         |
-| startWaypointLocation | [Location](Location%20Class.md) | The location of the first waypoint of this route leg.         |
+| startWaypointLocation | [Location](../v8-web-control/location-class.md) | The location of the first waypoint of this route leg.         |
 | subLegs               | [RouteSubLeg](../v8-web-control/routesubleg-object.md)\[\]    | The sub legs of this route leg. A sub leg of a route is the part of the route between a stop point and a via point or between two via points. |
 | summary               | [RouteSummary](../v8-web-control/routesummary-object.md) | The summary which describes this route leg.          |

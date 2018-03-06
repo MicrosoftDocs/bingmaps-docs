@@ -21,10 +21,7 @@ One of the simpliest ways to query a data source is to do a property based searc
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     //Query URL to the NAVTEQ POI data source
@@ -59,6 +56,7 @@ One of the simpliest ways to query a data source is to do a property based searc
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

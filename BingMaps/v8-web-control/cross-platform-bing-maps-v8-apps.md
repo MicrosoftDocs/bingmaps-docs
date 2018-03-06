@@ -16,10 +16,10 @@ manager: "stevelom"
 The Bing Maps V8 web control has been designed to work well on mobile devices that support HTML5. Mobile devices typically have high resolution screens and limited computing power. As such the Bing Maps V8 control adapts to mobile environments by automatically doing the following:
 
 * Enables the **liteMode** map option which disables vector labels and instead renders the map labels server side on the map tiles. You can override this behavior by setting this value to false when loading the map.
-* The navigation bar (zoom buttons and map type dropdown) will switch into the **compact** [NavigationBarMode](https://msdn.microsoft.com/library/mt736390.aspx) which uses less space than the default navigation bar and is better suited for mobile apps.
+* The navigation bar (zoom buttons and map type dropdown) will switch into the **compact** [NavigationBarMode](../v8-web-control/navigationbarmode-enumeration.md) which uses less space than the default navigation bar and is better suited for mobile apps.
 * The map will load High DPI map tiles when the map is used on a high resolution screen.
 
-A complete list of supported browsers can be found [here](https://msdn.microsoft.com/library/mt712867.aspx).
+A complete list of supported browsers can be found [here](../v8-web-control/supported-browsers.md).
 
 ## Viewport metatag
 
@@ -65,9 +65,11 @@ If you project doesn’t work after whitelisting these URLs ensure that the vers
 <preference name="windows-target-version" value="10.0" />
 ```
 
-**Tip**: If you are using Visual Studio and seeing a deployment error when trying to deploy to your Windows Phone, make sure the target platform in the build configuration of your project is set to Windows Phone (Universal).
+> [!TIP]
+> If you are using Visual Studio and seeing a deployment error when trying to deploy to your Windows Phone, make sure the target platform in the build configuration of your project is set to Windows Phone (Universal).
 
-**Note**: It is possible to use the Bing Maps V8 control in a UWP app by hosting it inside of a WebView control and creating a communication layer to connect your .NET code to the JavaScript in a similar manner as discussed in the Using Bing Maps V8 in WinForm and WPF Apps section of this document. However, this is essentially what Apache Cordova does, so you may want to consider using that instead.
+> [!NOTE]
+> It is possible to use the Bing Maps V8 control in a UWP app by hosting it inside of a WebView control and creating a communication layer to connect your .NET code to the JavaScript in a similar manner as discussed in the Using Bing Maps V8 in WinForm and WPF Apps section of this document. However, this is essentially what Apache Cordova does, so you may want to consider using that instead.
 
 ## iOS, Android and some Web Apps
 

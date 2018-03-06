@@ -52,7 +52,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/rollbackJob
 |---------------|-----------|-----------------|------------|  
 |previousVersionJobId||**Required** The job ID of the data source you want to restore.|To find the job ID for the data source version you want to republish, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).|  
 |dataSourceName||**Required** The name of the data source.|**Example**: MyDataSourceName|  
-|key||**Required.** The master key for the data source.|The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
+|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  

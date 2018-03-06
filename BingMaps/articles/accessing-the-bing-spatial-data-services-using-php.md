@@ -13,18 +13,18 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Accessing the Bing Spatial Data Services using PHP
-This article will describe how to write a PHP application that can interact with the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API.  
+This article will describe how to write a PHP application that can interact with the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API.  
   
- The [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] is a RESTful web service. Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  
+ The [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) is a RESTful web service. Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  
   
- The [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] includes a Geocode Dataflow API that allows you to “batch” geocode large sets of spatial data. Use of this API involves starting geocode “jobs” on large lists of spatial data, waiting for the job to complete, and then accessing the successfully (or unsuccessfully) geocoded locations when the job is complete. Spatial data can be uploaded in a variety of formats, including XML, CSV, tab-delimited and pipe-delimited files. These files can be accessed using HTTP GET requests that include a URI and parameters indicating what information is to be returned.  
+ The [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) includes a Geocode Dataflow API that allows you to “batch” geocode large sets of spatial data. Use of this API involves starting geocode “jobs” on large lists of spatial data, waiting for the job to complete, and then accessing the successfully (or unsuccessfully) geocoded locations when the job is complete. Spatial data can be uploaded in a variety of formats, including XML, CSV, tab-delimited and pipe-delimited files. These files can be accessed using HTTP GET requests that include a URI and parameters indicating what information is to be returned.  
   
- This article will describe how to construct PHP pages that interact with the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API.  
+ This article will describe how to construct PHP pages that interact with the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API.  
   
- For a complete description of the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] including an API reference, see the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] documentation at [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md).  
+ For a complete description of the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) including an API reference, see the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) documentation at [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md).  
   
 ## Setting Up Your Environment  
- Before continuing with this article, you should ensure that you have the correct software installed and environment setup to develop and host PHP pages that will connect to the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API.  
+ Before continuing with this article, you should ensure that you have the correct software installed and environment setup to develop and host PHP pages that will connect to the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API.  
   
 ### Required Software  
  To work with and run the sample applications in this article, you will need a PHP-enabled web server. To develop the samples, we used **WampServer** (http://www.wampserver.com), a Windows-based development environment that includes Apache, PHP, and MySQL Database. It is easy to install and has everything you need to create and host PHP applications quickly and easily.  
@@ -44,9 +44,9 @@ This article will describe how to write a PHP application that can interact with
  Finally, in terms of a development environment, you can use anything from a text editor such as Windows Notepad to a full-fledged PHP IDE such as PHP Designer to write your code.  
   
 ### PHP Starter Code  
- This article contains numerous samples of interacting with [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to begin with the following simple PHP structure which includes a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that will be discussed in the following section.  
+ This article contains numerous samples of interacting with [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to begin with the following simple PHP structure which includes a [Bing Maps Key](../articles/includes/maps-ticket-md.md) that will be discussed in the following section.  
   
- **Listing 1 - PHP starter code for working with [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API**  
+ **Listing 1 - PHP starter code for working with [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API**  
   
 ```  
 <<html>  
@@ -61,18 +61,18 @@ This article will describe how to write a PHP application that can interact with
 ```  
   
 ## Authentication  
- All [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] require authentication from the client each time they are called. In order to authenticate against the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API, you will need a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]. For information about how to sign up for a Bing Maps Developer Account and get a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)], see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) require authentication from the client each time they are called. In order to authenticate against the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API, you will need a [Bing Maps Key](../articles/includes/maps-ticket-md.md). For information about how to sign up for a Bing Maps Developer Account and get a [Bing Maps Key](../articles/includes/maps-ticket-md.md), see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
   
- When you send an HTTP request to the Geocode Dataflow API, which we will discuss in the next section of this article, you must include the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] as a parameter. For example, you might send an HTTP request like the one shown in  REF _Ref260132229 \r \h Listing 2.  
+ When you send an HTTP request to the Geocode Dataflow API, which we will discuss in the next section of this article, you must include the [Bing Maps Key](../articles/includes/maps-ticket-md.md) as a parameter. For example, you might send an HTTP request like the one shown in  REF _Ref260132229 \r \h Listing 2.  
   
- **Listing 2 - Authenticating using a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]**  
+ **Listing 2 - Authenticating using a [Bing Maps Key](../articles/includes/maps-ticket-md.md)**  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=YourBingMapsKeyHere  
   
 ```  
   
- In all of the examples in this article, you will see the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] sent to the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API in this way.  
+ In all of the examples in this article, you will see the [Bing Maps Key](../articles/includes/maps-ticket-md.md) sent to the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API in this way.  
   
 ## Working with the Geocode Dataflow API  
  The Geocode Dataflow API is a REST web service that allows you to pass in a list of addresses to be geocoded. The API will attempt to geocode each of the requests and, when finished, provide a link to two sets of data: one set of data lists the results of the successfully geocoded addresses, and another lists any addresses that were not geocoded successfully. You can provide this data in XML, CSV, tab-delimited or pipe-delimited formats. The geocoded data is returned in the same format. As explained below, the Geocode Dataflow API requires that you include additional information in your HTTP request beyond the URI with parameters.  
@@ -88,7 +88,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
     ```  
   
-     This call to the Geocode Dataflow API will create a geocode job, which the API will begin processing. You may have up to 10 simultaneously running geocode jobs for a single [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+     This call to the Geocode Dataflow API will create a geocode job, which the API will begin processing. You may have up to 10 simultaneously running geocode jobs for a single [Bing Maps Key](../articles/includes/maps-ticket-md.md).  
   
 2.  Check the status of your job in progress using the following URI format:  
   
@@ -246,7 +246,7 @@ foreach ($Links as $Link) {
 }  
 ```  
   
- Once you have the URL for the successfully geocoded results, you can append your [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] to it and send it to the Geocode Dataflow API in order to access the results.  
+ Once you have the URL for the successfully geocoded results, you can append your [Bing Maps Key](../articles/includes/maps-ticket-md.md) to it and send it to the Geocode Dataflow API in order to access the results.  
   
  **Listing 10 - Getting the successfully geocoded results of a job**  
   
@@ -279,14 +279,14 @@ foreach ($successResponseBody->GeocodeEntity as $entity) {
  Note that in  REF _Ref260422363 \r \h Listing 11, we need to check which type of location has been provided with each result. Some results may include Rooftop Location coordinates, while others will have Interpolated Location coordinates. The code in  REF _Ref260422363 \r \h Listing 11 prefers Rooftop Location coordinates, and only prints out Interpolated Location coordinates it the Rooftop ones do not exist.You can find complete information on the Geocode Dataflow API, as well as additional data samples and walkthroughs, in the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md).  
   
 ## Conclusions and Further Reading  
- This article has demonstrated how to use PHP to access the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] Geocode Dataflow API.  
+ This article has demonstrated how to use PHP to access the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) Geocode Dataflow API.  
   
- You can find full API documentation for the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] at:  [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md)  
+ You can find full API documentation for the [Bing Spatial Data Services](../articles/includes/bm-spatialapi-product-name-md.md) at:  [Bing Spatial Data Services](../spatial-data-services/bing-spatial-data-services.md)  
   
  The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   
 ## Complete PHP Sample Code  
- The following is the complete code sample discussed in this article. This sample runs off the data provided in Listing 5. You must also replace the placeholder text with your [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+ The following is the complete code sample discussed in this article. This sample runs off the data provided in Listing 5. You must also replace the placeholder text with your [Bing Maps Key](../articles/includes/maps-ticket-md.md).  
   
 ```  
 <html>  

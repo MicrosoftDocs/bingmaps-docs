@@ -13,9 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Bing Maps Dev Center Help
-The [Bing Maps Dev Center](https://www.bingmapsportal.com/) provides account management functionality for developers that use the Bing Maps APIs. The topics in this section describe how to use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] for tasks such as creating [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]s, viewing and updating your account, and creating and managing data sources.  
+The [Bing Maps Dev Center](https://www.bingmapsportal.com/) provides account management functionality for developers that use the Bing Maps APIs. The topics in this section describe how to use the Bing Maps Dev Center for tasks such as creating Bing Maps Keys, viewing and updating your account, and creating and managing data sources.  
   
- Transactions are counted when you use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to create and manage spatial data sources or geocode locations. For more information, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  
+ Transactions are counted when you use the Bing Maps Dev Center to create and manage spatial data sources or geocode locations. For more information, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  
   
 ## In This Section  
  The Bing Maps Account Center Help contains the following topics:  

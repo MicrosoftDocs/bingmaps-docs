@@ -13,16 +13,16 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Getting a Bing Maps Key
-To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.aspx), you must have a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.aspx), you must have a Bing Maps Key.  
   
 > [!NOTE]
->  When you use the Bing Maps APIs with a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)], usage transactions are logged. See [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md) for more information.  
+>  When you use the Bing Maps APIs with a Bing Maps Key, usage transactions are logged. See [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md) for more information.  
   
 ## Creating a Bing Maps Key  
   
-1.  Go to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
+1.  Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
   
-    -   If you have a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)], sign in with the Microsoft account that you used to create the account or create a new one. For new accounts, follow the instructions in [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
+    -   If you have a Bing Maps account, sign in with the Microsoft account that you used to create the account or create a new one. For new accounts, follow the instructions in [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
   
 2.  Select **My keys** under **My Account**.  
   
@@ -38,7 +38,7 @@ To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.asp
   
     -   **Application type**:  Required. Select the application type that best represents the application that will use this key. You can find descriptions of key and application types [here](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
-5.  Click the **Create** button. The new key displays in the list of available keys. Use this key to authenticate your [!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] application as described in the documentation for the [!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] API you are using.  
+5.  Click the **Create** button. The new key displays in the list of available keys. Use this key to authenticate your Bing Maps application as described in the documentation for the Bing Maps API you are using.  
   
 ## Upgrading Your Account  
  If you want to upgrade your account to be an enterprise account, contact [Bing Maps for Enterprise](http://www.microsoft.com/maps/contact.aspx).  
@@ -48,6 +48,6 @@ To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.asp
  For information on Bing Maps usage rights, see [Microsoft® Bing™ Map Platform APIs Terms of Use](http://www.microsoft.com/maps/product/terms.html).  
   
 ## Usage Transactions  
- When you use the Bing Maps APIs with a valid [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)], usage transactions are logged.  
+ When you use the Bing Maps APIs with a valid Bing Maps Key, usage transactions are logged.  
   
  You can view detailed reports of your Bing Maps usage in the [Bing Maps Dev Center](https://www.bingmapsportal.com/). For more information, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).

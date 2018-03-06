@@ -21,14 +21,9 @@ This example shows how to take an existing polygon and enable editing on it.
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
-        var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        var map = new Microsoft.Maps.Map('#myMap', {});
 
         //Create a random polygon.
         var polygon = Microsoft.Maps.TestDataGenerator.getPolygons(1, map.getBounds());
@@ -43,6 +38,7 @@ This example shows how to take an existing polygon and enable editing on it.
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

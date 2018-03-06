@@ -25,4 +25,5 @@ Name                | Type               | Description
 `getEntityMetadata` | boolean            | Specifies whether the response should include metadata about the entity, such as AreaSqKm and others. Default: **false**
 `userRegion`        | string             | Specifies the user’s home country or region. Defaults to the region setting of the user who loads the map. <br/><br/>**Warning**: Setting this property will override the default value, which is the region the user is actually in, and will allow the user to see boundaries which may not align with the views of their region. This could result in geopolitically sensitive borders being returned.
 
-**Note**: Some boundaries consist of multiple polygons. By default, only the first polygon will be returned. Set the `getAllPolygons` property to **true** to have all the polygons that make up the boundary returned.
+> [!NOTE]
+> Some boundaries consist of multiple polygons. By default, only the first polygon will be returned. Set the `getAllPolygons` property to **true** to have all the polygons that make up the boundary returned.

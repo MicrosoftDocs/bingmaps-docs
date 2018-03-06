@@ -21,10 +21,7 @@ In this example we will use the USGS Earthquake REST service to load in recent e
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var usgsEarthquakeUrl = 'http://earthquake.usgs.gov/fdsnws/event/1/query?minmagnitude=3&format=geojson';
 
     function GetMap() {
@@ -42,6 +39,7 @@ In this example we will use the USGS Earthquake REST service to load in recent e
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:1200px;height:800px;"></div>

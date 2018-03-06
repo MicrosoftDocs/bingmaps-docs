@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # NAVTEQEU
-The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)][Query API](../spatial-data-services/query-api2.md) and any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../spatial-data-services/query-api.md) and any Bing Maps Key.  
   
 > [!IMPORTANT]
 >  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../spatial-data-services/query-by-area.md) and [Query by ID](../spatial-data-services/query-by-id.md) for details. POI entities may not be available for every location. **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
@@ -42,7 +42,7 @@ The NAVTEQEU data source contains information about points of interest (POIs) in
  For a complete list of the entity type IDs that you can query, see [POI Entity Types](../spatial-data-services/poi-entity-types.md).  
   
 ## How to query the NAVTEQEU data source  
- You can query the NAVTEQEU data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../spatial-data-services/query-api2.md).  
+ You can query the NAVTEQEU data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../spatial-data-services/query-api.md).  
   
  **Base Query URL**  
   
@@ -52,7 +52,7 @@ http://spatial.virtualearth.net/REST/v1/data/c2ae584bbccc4916a0acf75d1e6947b4/Na
   
  **Query Example**  
   
- The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+ The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any Bing Maps Key.  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/c2ae584bbccc4916a0acf75d1e6947b4/NavteqEU/NavteqPOIs?spatialFilter=nearby(50.1120796203613,8.68340969085693,100)&$select=EntityID,Latitude,Longitude,DisplayName,__Distance,LanguageCode&$top=3&key=anyBingMapsKey  

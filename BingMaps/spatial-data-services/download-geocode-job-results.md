@@ -41,7 +41,7 @@ The URLs to download results from a Geocode Job are provided when your job has c
   
 ```  
   
- To use these URLs, you must add the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] parameter that you used to create the job. For example, to download the data that was processed successfully in the above example, you would add the parameter key *MyDataflowJobKey* where *MyDataflowJobKey* is the [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that you used to create the job.  
+ To use these URLs, you must add the Bing Maps Key parameter that you used to create the job. For example, to download the data that was processed successfully in the above example, you would add the parameter key *MyDataflowJobKey* where *MyDataflowJobKey* is the Bing Maps Key that you used to create the job.  
   
 ```  
 https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879fbb0556e67e/output/succeeded?key=MyDataflowJobKey  

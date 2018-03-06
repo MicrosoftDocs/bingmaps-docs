@@ -21,10 +21,7 @@ This example shows how to monitor the user’s location and update the position 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, watchId, userPin;
 
     function GetMap()
@@ -64,6 +61,7 @@ This example shows how to monitor the user’s location and update the position 
         map.entities.clear();
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div><br/>

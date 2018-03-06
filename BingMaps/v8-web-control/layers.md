@@ -27,8 +27,8 @@ In Bing Maps V8 we have introduced a new Layer class that makes it easy to separ
   
 ### References
   * [Layer Class](../v8-web-control/layer-class.md)
-  * [TileLayer Class](TileLayer%20Class.md)
-  * [TileLayerOptions Object](TileLayerOptions%20Object.md)
-  * [TileSource Class](TileSource%20Class.md)
-  * [TileSourceOptions Object](TileSourceOptions%20Object.md)
+  * [TileLayer Class](../v8-web-control/tilelayer-class.md)
+  * [TileLayerOptions Object](../v8-web-control/tilelayeroptions-object.md)
+  * [TileSource Class](../v8-web-control/tilesource-class.md)
+  * [TileSourceOptions Object](../v8-web-control/tilesourceoptions-object.md)
    

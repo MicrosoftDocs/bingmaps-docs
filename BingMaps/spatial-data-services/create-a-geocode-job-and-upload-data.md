@@ -42,7 +42,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=out
 |---------------|-----------|-----------------|------------|  
 |dataLocation||**Optional.** Specifies the location of the data to download. **Note:**  You must set the dataLocation parameter to the location of the data or include the data to process in the HTTP request. If you do both, the URL returns an error.|A Windows Azure™ Blob Service REST API location that contains the data to process. The data must be in XML format. The Blob Service REST API uses the following URL formats:<br /><br /> http://*account-name*.blob.core.windows.net/*myDataFile*<br /><br /> https://*account-name*.blob.core.windows.net/*myDataFile*<br /><br /> For more information, see [Addressing Blob Service Requests](http://msdn.microsoft.com/en-us/library/dd135731.aspx).<br /><br /> Before you make your request to start the dataflow job, make sure that the Blob Service URL is available publicly or shared with a signature key. If the URL is shared with a signature key, it must be encoded. For more information, see [Managing Access to Containers and Blobs](http://msdn.microsoft.com/en-us/library/ee393343.aspx).<br /><br /> The following content types are supported for data that is retrieved from an HTTP server.<br /><br /> -   application/xml<br />-   text/xml<br />-   text/plain<br />-   application/octet-stream [for compressed data]<br /><br /> **Example**: dataLocation=http://myServer.myDomain.com/spatialDataSource|  
 |input||**Required.** The format of the input data file.|One of the following values:<br /><br /> -   xml<br />-   csv<br />-   tab<br />-   pipe<br /><br /> For more information about input files for a Geocode Dataflow, see [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md).<br /><br /> **Example**: input=csv|  
-|key||**Required.** A [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] to use for the geocode job.|A [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] obtained from the [Bing Maps Account Center](https://www.bingmapsportal.com/).|  
+|key||**Required.** A Bing Maps Key to use for the geocode job.|A Bing Maps Key obtained from the [Bing Maps Account Center](https://www.bingmapsportal.com/).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: output=xml|  
   
 ## Input  
@@ -178,7 +178,7 @@ static string CreateJob(string dataFilePath, string dataFormat, string key, stri
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -193,4 +193,4 @@ static string CreateJob(string dataFilePath, string dataFormat, string key, stri
 -   503  
   
     > [!NOTE]
-    >  The response may contain a 503 HTTP status error code when the number of pending geocode dataflow jobs is exceeded. The maximum number of pending geocode dataflow jobs that can be associated with a [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] is 10.
+    >  The response may contain a 503 HTTP status error code when the number of pending geocode dataflow jobs is exceeded. The maximum number of pending geocode dataflow jobs that can be associated with a Bing Maps Key is 10.

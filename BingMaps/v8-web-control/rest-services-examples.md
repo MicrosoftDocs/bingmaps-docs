@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # REST Services Examples
-The [Bing Maps REST services](https://msdn.microsoft.com/library/ff701713.aspx) provide a number of API's which provide several funcationalities:
+The [Bing Maps REST services](../rest-services/bing-maps-rest-services.md) provide a number of API's which provide several funcationalities:
 
 * Geocode Addresses
 * Reverse Geocode locations
@@ -308,7 +308,7 @@ Angular 1.6 has changed how it handles JSONP. First off you need to white list t
 
 ## Related Topics
 
-* [Directions Module](https://msdn.microsoft.com/library/mt748655.aspx)
-* [Search Module](https://msdn.microsoft.com/library/mt712846.aspx)
-* [Traffic Module](https://msdn.microsoft.com/library/mt712860.aspx)
-* [PointCompression Class](https://msdn.microsoft.com/library/mt750455.aspx)
+* [Directions Module](../v8-web-control/directions-module.md)
+* [Search Module](../v8-web-control/search-module.md)
+* [Traffic Module](../v8-web-control/traffic-module.md)
+* [PointCompression Class](../v8-web-control/pointcompression-class.md)

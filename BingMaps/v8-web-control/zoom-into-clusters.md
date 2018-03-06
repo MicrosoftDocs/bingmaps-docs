@@ -21,9 +21,7 @@ This example adds a click event to the clustered pushpins. When clicked, a bound
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-    <script type="text/javascript">
+	<script type="text/javascript">
     var map, clusterLayer;
 
 	function GetMap() {
@@ -66,6 +64,7 @@ This example adds a click event to the clustered pushpins. When clicked, a bound
 	    }
 	}
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

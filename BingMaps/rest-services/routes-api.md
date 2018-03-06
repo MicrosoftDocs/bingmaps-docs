@@ -15,7 +15,7 @@ manager: "stevelom"
 # Routes API
 Use the Routes API to create a route that includes two or more locations and to create routes from major roads. You can create driving or walking routes. Driving routes can include traffic information. You can also overlay routes on map imagery.  
   
- For information about how to overlay routes on a static map using the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] Imagery API, see [Get a Static Map](../rest-services/get-a-static-map.md).  
+ For information about how to overlay routes on a static map using the Bing Maps REST Services Imagery API, see [Get a Static Map](../rest-services/get-a-static-map.md).  
   
 ## In this section  
   
@@ -32,9 +32,10 @@ Use the Routes API to create a route that includes two or more locations and to 
 |[Warning Types](../rest-services/warning-types.md)|View warning type definitions|  
   
 ## See Also  
- [Driving Route Example](../rest-services/driving-route-example.md)   
- [Walking Route Example](../rest-services/walking-route-example.md)   
- [Transit Route Example](../rest-services/transit-route-example.md)   
- [Driving Route with Route Path Example](../rest-services/driving-route-with-route-path-example.md)   
- [Driving Route using Tolerances Example](../rest-services/driving-route-using-tolerances-example.md)   
- [Bing Maps Transit Coverage](http://msdn.microsoft.com/en-us/library/hh441739.aspx)
+ * [Driving Route Example](../rest-services/driving-route-example.md)   
+ * [Walking Route Example](../rest-services/walking-route-example.md)   
+ * [Transit Route Example](../rest-services/transit-route-example.md)   
+ * [Driving Route with Route Path Example](../rest-services/driving-route-with-route-path-example.md)   
+ * [Driving Route using Tolerances Example](../rest-services/driving-route-using-tolerances-example.md)   
+ * [Bing Maps Transit Coverage](../coverage/bing-maps-transit-coverage.md)
+ * [Truck Routing Coverage](../coverage/truck-routing-coverage.md)

@@ -38,5 +38,5 @@ Pushpins, sometimes known as MapIcons or Markers, are the primary method in the 
 ### Related Topics
 
   * [HTML Pushpin Overlay](../v8-web-control/html-pushpin-overlay.md)
-  * [Pushpin Class](Pushpin%20Class.md)
-  * [PushpinOptions Object](PushpinOptions%20Object.md)
+  * [Pushpin Class](../v8-web-control/pushpin-class.md)
+  * [PushpinOptions Object](../v8-web-control/pushpinoptions-object.md)

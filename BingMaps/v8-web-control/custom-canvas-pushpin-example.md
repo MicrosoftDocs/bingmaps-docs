@@ -23,12 +23,9 @@ In this example, a function is created that takes in a heading and draws an arro
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
-        var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        var map = new Microsoft.Maps.Map('#myMap', {});
 
         var center = map.getCenter();
 
@@ -75,6 +72,7 @@ In this example, a function is created that takes in a heading and draws an arro
         return c.toDataURL();
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

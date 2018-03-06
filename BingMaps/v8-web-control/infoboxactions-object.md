@@ -20,4 +20,5 @@ Name           | Type      | Description
 `label`          | string    | The text to display for the action.
 `eventHandler`   | function  | The function to call when the label is clicked.
 
-**Note**: InfoboxActions have been included in Bing Maps V8 primarily for backwards compatibility with V7. Instead it is recommended to use standard HTML buttons and links in the infobox description.
+> [!NOTE]
+> InfoboxActions have been included in Bing Maps V8 primarily for backwards compatibility with V7. Instead it is recommended to use standard HTML buttons and links in the infobox description.

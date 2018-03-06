@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Bing Maps Geographic Coverage
-[!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] contains different levels of geographic coverage for every country/region in the world. The following tables contain details about base map data, routing (driving and walking), and geocoding support for each country/region. Also see [Bing Maps Transit Coverage](../coverage/bing-maps-transit-coverage.md) and [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
+Bing Maps contains different levels of geographic coverage for every country/region in the world. The following tables contain details about base map data, routing (driving and walking), and geocoding support for each country/region. Also see [Bing Maps Transit Coverage](../coverage/bing-maps-transit-coverage.md) and [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
   
  A set of values are given for road data, geocoding precision and route support. The following list defines these values.  
   
@@ -24,6 +24,8 @@ manager: "stevelom"
 -   **Fair** - At a minimum, the country/region has major road data available as well as some detailed road data. Most often, these roads have not been verified for accuracy. Coverage is updated over time. Please visit the map to assess if the current version meets the needs of your application.  
   
 -   **Major Roads Only** - At a minimum, the country/region coverage includes major roads.  These roads have not been verified for accuracy. Coverage is updated over time. Please visit the map to assess if the current version meets the needs of your application.  
+  
+![Routing Coverage Map](../coverage/media/RoutingCoverage.png)
   
  **Geocoding Precision**  
   
@@ -36,7 +38,9 @@ manager: "stevelom"
   
 -   **Street Name** – Addresses are resolved to the latitude/longitude coordinate of the street that contains the address. The address number is not processed.  
   
--   **Basic** - Geocoding support is limited and primarily only accurate to the city level. If an address is valid, [!INCLUDE[ve_product_name](../articles/includes/ve-product-name-md.md)] attempts to resolve it, but a result is not guaranteed.  
+-   **Basic** - Geocoding support is limited and primarily only accurate to the city level. If an address is valid, Bing Maps attempts to resolve it, but a result is not guaranteed.  
+  
+![Geocoding Coverage Map](../coverage/media/GeocodeCoverage.png)
   
 > [!NOTE]
 >  Countries that are not listed in the tables below have limited **Major Roads Only** Road Data coverage, **Basic** Geocoding Precision, and **Major Roads Only** Routing.  

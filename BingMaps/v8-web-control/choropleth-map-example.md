@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Choropleth Map Example
-This code example retrieves [US state boundaries from a Spatial Data Source](https://msdn.microsoft.com/library/mt805047.aspx) that contains US census data. These boundaries are color coded based on the population metric. 
+This code example retrieves [US state boundaries from a Spatial Data Source](../spatial-data-services/2010-us-census-data-sources.md) that contains US census data. These boundaries are color coded based on the population metric. 
 
 ```
 <!DOCTYPE html>
@@ -21,10 +21,7 @@ This code example retrieves [US state boundaries from a Spatial Data Source](htt
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var sdsDataSourceUrl = 'https://spatial.virtualearth.net/REST/v1/data/755aa60032b24cb1bfb54e8a6d59c229/USCensus2010_States/States';
 
     var map,
@@ -148,6 +145,7 @@ This code example retrieves [US state boundaries from a Spatial Data Source](htt
             float:right;
         }
     </style>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div class="mapContainer">

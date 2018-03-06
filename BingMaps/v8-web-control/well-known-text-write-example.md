@@ -21,10 +21,7 @@ This code example shows how to convert a Bing Maps shape into a Well Known Text 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
         var map = new Microsoft.Maps.Map('#myMap', {
             credentials: 'Your Bing Maps Key',
@@ -59,6 +56,7 @@ This code example shows how to convert a Bing Maps shape into a Well Known Text 
             });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

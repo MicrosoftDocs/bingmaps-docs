@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Supported Culture Codes
-The following list shows the culture codes supported by the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] APIs.  
+The following list shows the culture codes supported by the Bing Maps REST Services APIs.  
   
 > [!NOTE]
 >  For supported cultures, street names are localized to the local culture. For example, if you request a location in France, the street names are localized in French. For other localized data such as country names, the level of localization will vary for each culture. For example, there may not be a localized name for the "United States" for every culture code.  

@@ -1,1 +1,0 @@
-Bing Spatial Data Services

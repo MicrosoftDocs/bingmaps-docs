@@ -22,7 +22,7 @@ The Bing Maps control provides many events to allow your application to respond 
 ## Examples
 
 * [Map Events](../v8-web-control/map-events.md)
-* [Pushpin Events](Pushpin%20Events.md)
+* [Pushpin Events](../v8-web-control/pushpin-events.md)
 * [Polyline Events](../v8-web-control/polyline-events.md)
 * [Polygon Events](../v8-web-control/polygon-events.md)
 * [Data Layer Events](../v8-web-control/data-layer-events.md)
@@ -31,12 +31,12 @@ The Bing Maps control provides many events to allow your application to respond 
 ## Related Topics
 
 * [Events Class](../v8-web-control/events-class.md)
-* [Map Class ](Map%20Class.md)
-* [Pushpin Class](Pushpin%20Class.md)
-* [Polyline Class](Polyline%20Class.md)
-* [Polygon Class](Polygon%20Class.md)
+* [Map Class ](../v8-web-control/map-class.md)
+* [Pushpin Class](../v8-web-control/pushpin-class.md)
+* [Polyline Class](../v8-web-control/polyline-class.md)
+* [Polygon Class](../v8-web-control/polygon-class.md)
 * [Layer Class](../v8-web-control/layer-class.md)
-* [MouseEventArgs Object](https://msdn.microsoft.com/library/mt748664.aspx)
+* [MouseEventArgs Object](../v8-web-control/mouseeventargs-object.md)
 
 ## Basic Example
 
@@ -48,9 +48,7 @@ The following example shows how to add a viewchange event to the map and have th
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
         var map = new Microsoft.Maps.Map('#myMap', {
             credentials: ‘Your Bing Maps Key’
@@ -61,6 +59,7 @@ The following example shows how to add a viewchange event to the map and have th
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div><br/>

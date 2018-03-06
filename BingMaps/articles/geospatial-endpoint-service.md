@@ -161,7 +161,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |brandLogoUri|BrandLogoUri|string|A URL that references a brand image to support contractual branding requirements.|  
 |resourceSets|ResourceSets|collection|A collection of ResourceSet objects. A ResourceSet is a container of Resources returned by the request. For more information, see the ResourceSet section below.|  
 |estimatedTotal|EstimatedTotal|long|An estimate of the total number of resources in the ResourceSet.|  
-|resources|Resources|collection|A collection of one or more resources. The resources that are returned depend on the request. Information about resources is provided in the API reference for each [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] API.|  
+|resources|Resources|collection|A collection of one or more resources. The resources that are returned depend on the request. Information about resources is provided in the API reference for each [Bing Maps REST Services](../articles/includes/bm-rest-product-name-md.md) API.|  
 |errorDetails|ErrorDetails|string[]|A collection of error descriptions. For example, ErrorDetails can identify parameter values that are not valid or missing.|  
   
 <a name="supportedServices"></a>   

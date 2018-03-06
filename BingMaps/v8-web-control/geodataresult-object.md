@@ -23,7 +23,8 @@ Name               | Type                      | Description
 `EntityID`           | string                    | A unique ID number associated with this entity. 
 `EntityMetadata`     | [Metadata](../v8-web-control/metadata-object.md)                 | A collection of metadata information associated with the entity. The `getEntityMetadata` option of the request must be set to **true**.
 `Name`               | [Name](../v8-web-control/name-object.md)                     | Information about the name of the boundary location.
-`Polygons`           | [Polygon](Polygon%20Class.md)[]                 | A Polygon object that has been generated from the data in the Primitives property.
+`Polygons`           | [Polygon](../v8-web-control/polygon-class.md)[]                 | A Polygon object that has been generated from the data in the Primitives property.
 `Primitives`         | [GeoDataPrimitive](../v8-web-control/geodataprimitive-object.md)[]       | An array of objects that contain the polygon information for the boundary.
 
-**Note**: The `Name` and `EntityMetadata` properties are not available for all boundary data. 
+> [!NOTE]
+> The `Name` and `EntityMetadata` properties are not available for all boundary data. 

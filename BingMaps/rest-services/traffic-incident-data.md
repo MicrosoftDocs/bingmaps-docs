@@ -16,7 +16,7 @@ manager: "stevelom"
 The response returned by a Traffic URL contains one or more TrafficIncident resources. Each TrafficIncident resource contains information about a traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. This following table provides descriptions of the TrafficIncident resource fields and is followed by JSON and XML examples.  
   
 ## Traffic Incident Resource  
- The following table describes the fields in the traffic incident resource. One or more traffic incident resources are returned when you request traffic data. These resources are inside a common response wrapper for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)].  For more information about the common response wrapper, see [Common Response Description](../rest-services/common-response-description.md).  
+ The following table describes the fields in the traffic incident resource. One or more traffic incident resources are returned when you request traffic data. These resources are inside a common response wrapper for the Bing Maps REST Services.  For more information about the common response wrapper, see [Common Response Description](../rest-services/common-response-description.md).  
   
  Fields marked **Required** are always provided for each traffic incident. Other fields are optional and not always included.  
   

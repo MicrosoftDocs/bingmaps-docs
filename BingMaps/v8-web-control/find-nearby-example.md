@@ -21,19 +21,14 @@ One of the most common types of searches done with a map is a nearby search, als
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     //Query URL to the NAVTEQ POI data source
     var sdsDataSourceUrl = 'https://spatial.virtualearth.net/REST/v1/data/f22876ec257b474b82fe2ffcb8393150/NavteqNA/NavteqPOIs';
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#map', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#map', {});
 
         //Load the Bing Spatial Data Services module.
         Microsoft.Maps.loadModule('Microsoft.Maps.SpatialDataService', function () {
@@ -68,6 +63,7 @@ One of the most common types of searches done with a map is a nearby search, als
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="map" style="position:relative;width:600px;height:400px;"></div>

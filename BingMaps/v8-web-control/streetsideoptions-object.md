@@ -18,7 +18,7 @@ The following streetside options can be used to customize how the streetside map
 Name                           | Type              | Description
 ------------------------------ | ----------------- | ---------------------------
 `disablePanoramaNavigation`    | boolean           | A boolean indicating if the ability to navigate between image bubbles should be disabled in streetside map mode. Default: **false**
-`locationToLookAt`             | [Location](Location%20Class.md)          | The location that the streetside panorama should be looking towards. This can be used instead of a heading.
+`locationToLookAt`             | [Location](../v8-web-control/location-class.md)          | The location that the streetside panorama should be looking towards. This can be used instead of a heading.
 `onErrorLoading`               | function()        | A callback function that is triggered after the streetside view has not loaded successfully.
 `onSuccessLoading`             | function()        | A callback function that is triggered after the streetside view has loaded successfully.
 `overviewMapMode`              | [OverviewMapMode](../v8-web-control/overviewmapmode-enumeration.md)   | Specifies how to render the overview map when in streetside mode.<br/><br/>Default: **Microsoft.Maps.OverviewMapMode.expanded**

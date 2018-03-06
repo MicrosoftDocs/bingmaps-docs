@@ -25,14 +25,9 @@ Note that the circular part of the pushpin has some transparency. By drawing a c
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     function GetMap() {
-        var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        var map = new Microsoft.Maps.Map('#myMap', {});
 
         createColoredPushpin(map.getCenter(), 'red', function (pin) {
             map.entities.push(pin);
@@ -71,6 +66,7 @@ Note that the circular part of the pushpin has some transparency. By drawing a c
         img.src = 'images/TransparentPushpin.png';
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

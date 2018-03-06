@@ -35,9 +35,9 @@ If you want to email someone a map URL or embed a map into your website, you can
 ## General parameters  
  The following are some common parameters that customize your map.  
   
-|||||  
-|-|-|-|-|  
-|**Parameter**|**Definition**|**Example**|**Details**|  
+
+|**Parameter**|**Definition**|**Example**|**Details**| 
+|-|-|-|-| 
 |cp|center point|cp=47.677797~-122.122013|Defines where the center of the map should be. Use the following format for the cp parameter:<br /><br /> `Latitude~Longitude`<br /><br /> Both values must be expressed in [decimal degrees](http://en.wikipedia.org/wiki/Decimal_degrees). Latitude and longitude are commonly presented in decimal degrees as two numbers, such as -47.677797 (latitude) and -122.122013 (longitude).|  
 |lvl|zoom level|lvl=5|Defines the zoom level of the map view. Valid values are 1-20. This parameter is ignored when a search parameter, such as **ss** or **where1**, is specified. A table of search parameters is provided below.|  
 |style|map view|style=r|Defines the map view. Valid values for this parameter include:<br /><br /> -   **a**: Display an aerial view of the map.<br /><br /> -   **r**: Display a road view of the map.<br /><br /> -   **h**: Display an aerial view of the map with labels.<br /><br /> -   **o**: Use this value to display a bird's eye (oblique) view of the map.<br /><br /> -   **b**: Display a bird's eye (oblique) with labels view of the map.|  
@@ -61,9 +61,8 @@ If you want to email someone a map URL or embed a map into your website, you can
 ## Search parameters  
  To create a map that displays specific search results, use the following parameters.  
   
-|||||  
-|-|-|-|-|  
 |**Parameter**|**Definition**|**Example**|**Details**|  
+|-|-|-|-|  
 |where1|location|where1=1 Microsoft Way, Redmond, WA|Defines a location to center the map based on a specific address or a place name. The text is the same text that you type in the upper search box in Bing Maps to search for a specific address or place name.|  
 |ss|search type search|ss=coffee|Defines the searches that you want to display. Use this parameter to display search results for a business.|  
   
@@ -71,9 +70,8 @@ If you want to email someone a map URL or embed a map into your website, you can
   
  Use the following search parameter modifiers with the **ss** parameter to specify how results are displayed.  
   
-|||||  
-|-|-|-|-|  
 |**Modifier**|**Definition**|**Example**|**Details**|  
+|-|-|-|-|  
 |sst|search parameter modifier|sst.1|You can append the **sst** parameter to a search string using a tilde (~) to specify how the search results are sorted. Use the following values with the sst parameter to specify the sort option.<br /><br /> **0**: Relevance<br /><br /> **1**: Distance<br /><br /> **2**: Rating|  
 |pg|search  parameter modifier|pg.2|You can append the **pg** parameter to a search string using a tilde (~) to specify which page of results to display.|  
   
@@ -90,9 +88,8 @@ If you want to email someone a map URL or embed a map into your website, you can
 ## Driving directions parameters  
  To create a map that displays directions from a specific start and end point, use the following parameters.  
   
-|||||  
-|-|-|-|-|  
 |**Parameter**|**Definition**|**Example**|**Details**|  
+|-|-|-|-|  
 |rtp|route|Rtp=adr.Seattle,WA~adr.One%20Microsoft%20Way,Redmond,WA|Defines the start and end of a route to draw on the map, each separated by a tilde (~). Each of the waypoints is defined by either a pos (position) or adr (address) identifier. These identifiers are described in the table below.<br /><br /> A complete route contains at least two waypoints. For example, a route with two waypoints is defined by the following:<br /><br /> `rtp="A"~"B"`<br /><br /> You can also specify an incomplete route. For example, you can define only the start of a route: `rtp="A"~`<br /><br /> Or, you can enter only the end of a route: `rtp=~"B"`<br /><br /> If you provide only one waypoint, the driving directions panel is displayed with the provided waypoint, but no route is drawn.|  
 |rtop|route options|rtop=0~1~0|Defines options for the route. There are three sets of options, each separated by a tilde (~) The first option specifies how the route is chosen.  The second option specifies whether traffic is displayed.  The third option must be set to 0 if specified You can choose to not specify a value and get the default value of 0, but you must preserve the order of the values with the tilde (~) separators. For example, the follow examples are all valid values: 0~1~, ~1~0, 1~~0, and 1~~.<br /><br /> The default value of 0~0~0 (quickest without traffic) will be used if this parameter is not specified.<br /><br /> Options for how the route is chosen (first option):<br /><br /> **0**: Quickest time [default]<br /><br /> **1**: Shortest distance<br /><br /> Options for displaying traffic (second option):<br /><br /> **0**: Traffic is not displayed [default]<br /><br /> **1**: Traffic is displayed|  
 |mode|mode|mode=D|Defines the mode of transportation. Use the following values:<br /><br /> -   **D**: Driving<br /><br /> -   **T**: Transit<br /><br /> -   **W**: Walking|  
@@ -103,9 +100,9 @@ If you want to email someone a map URL or embed a map into your website, you can
   
  Use the following identifiers with the **rtp** parameter to specify the endpoints of a route.  
   
-|||||  
+
+|**Identifier for rtp**|**Definition**|**Example**|**Details**| 
 |-|-|-|-|  
-|**Identifier for rtp**|**Definition**|**Example**|**Details**|  
 |pos|position|rtp=pos.42.2_-122.3~pos.55.2_-127.0|Defines a waypoint as a specific position on the map. Use the following format: `rtp=pos.latitude_longitude_name`|  
 |adr|address|rtp=adr.Seattle,WA~adr.One%20Microsoft%20Way,Redmond,WA|Defines a waypoint as an address. Use the following format: `rtp=adr.address`<br /><br /> Make sure your replace blank spaces in the address with the encoded string %20.|  
   
@@ -129,10 +126,9 @@ If you want to email someone a map URL or embed a map into your website, you can
   
 ## Collections editor and collections parameters  
  To create a map that displays information from the collections editor or a specific collection, use the following parameters.  
-  
-|||||  
-|-|-|-|-|  
+
 |**Parameter**|**Definition**|**Example**|**Details**|  
+|-|-|-|-|  
 |sp|collections editor|sp=adr.One%20Microsoft%20Way,Redmond,WA|Defines a specific entity, address, or pin to add to the map.<br /><br /> Collections editor items are defined as a category and value, separated by a period. There are five categories: **adr**, **point**, **polyline**, **polygon**, and **yp**. These are described in the next table.<br /><br /> Separate multiple items with a tilde (~). If an item contains a tilde, make sure the tilde is encoded as %7E.|  
 |cid|collection ID|cid=15A41C376|Specifies the collection that you want to display by using the ID assigned to that collection. For the collection ID parameter, use the following format:<br /><br /> `cid=collection ID`|  
   
@@ -140,9 +136,8 @@ If you want to email someone a map URL or embed a map into your website, you can
   
  Use the following formats to add values to a collection.  
   
-||||  
-|-|-|-|  
 |**Category**|**Definition**|**Details**|  
+|-|-|-|  
 |adr|address|Specifies an address to add to the collections editor. For the address, the value can be the address string, the address string and title, or the address string, title, and description.<br /><br /> sp=adr.addressStringsp=adr.addressString_titlesp=adr.addressString_title_description<br /><br /> Make sure that the addresses you provide are as specific as possible.|  
 |point|point|Specifies a point to display on the map. For points, the value includes the latitude, longitude, title, notes, a reference URL, and a photo URL, each separated by an underscore (_).<br /><br /> sp=point.latitude_longitude_titleString_notesString_linkURL_photoURL|  
 |polyline|polyline|Specifies a polyline on the map by specifying a set of points. For polylines, the value includes a set of latitude and longitude points, a title, notes, a reference  URL, a photo URL, line color, fill color, line weight, line style, dash style, and the latitude and longitude of the label, each separated by an underscore (_).<br /><br /> sp=polyline.lat1_long1_lat2_long2\_..._titleString_notesString_linkURL_photoURL_strokeColor_fillColor_strokeWeight\_ strokeStyle_strokeDashStyle_labelLatitude_labelLongitude<br /><br /> Fill color and stroke color are each specified as hexadecimal RGB values, such as #00ff00.<br /><br /> Stroke weight is specified as a pixel value, such as 4px.<br /><br /> Stroke style includes the following values: Single, ThinThin, ThickThin, ThinThick, ThickBetweenThin.<br /><br /> Stroke dash style includes the following values: Solid, ShortDash, ShortDot, ShortDashDot, ShortDashDotDot, Dot, Dash, LongDash, DashDot, LongDashDot, and LongDashDotDot.|  

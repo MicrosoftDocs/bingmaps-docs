@@ -32,7 +32,8 @@ Japanese geocoding is complex because addresses can be expressed using four diff
 ## Geocode using the Bing Maps REST Services Locations API  
  You can use the [Locations](../rest-services/locations-api.md) (part of the Bing Maps REST Services) to geocode Japanese addresses. Each address component can be specified as a separate URL parameter or you can specify the entire address string.  
   
- **Important**: Japanese address values in native character sets (Kanji, Katakana, Hiragana) must be base-64 encoded UTF-8 strings.  
+> [!IMPORTANT]
+> Japanese address values in native character sets (Kanji, Katakana, Hiragana) must be base-64 encoded UTF-8 strings.  
   
 ### Geocode using URL address parameters  
  If you know the parsed address, you can specify each component separately using the following URL template and the URL parameters in the table. This type of request will give the best result because the address string does not need to be parsed.  

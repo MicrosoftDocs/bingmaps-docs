@@ -596,7 +596,7 @@ Switzerland||Regional|AB-tb (Appenzeller Bahnen (tb))||
 |Switzerland||Regional|ASM-rvo (Aare Seeland mobil (rvo))||  
 Switzerland||Regional|AUT (Andermatt-Urserntal Tourismus GmbH)||  
 |Switzerland||Regional|AVJ (Autotransports de la Vallée de Joux)||  
-|Switzerland||Regional|AWA (Autobetrieb Weesen-Amden)||  
+|Switzerland||Regional|AWA (Autobetrieb ../coverage/weesen-amden)||  
 |Switzerland||Regional|BA (Bergbahnen Adelboden)||  
 |Switzerland||Regional|BAB (Bettmeralp Bahnen)||  
 |Switzerland||Regional|BA-bgh (Bergbahnen Adelboden AG)||  

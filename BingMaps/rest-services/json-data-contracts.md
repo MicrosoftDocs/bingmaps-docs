@@ -16,7 +16,7 @@ manager: "stevelom"
 > [!IMPORTANT]
 >  Update: Since writing this documentation the Bing Maps team has released an open source portable class library which makes it easy to access the Bing Maps REST services from any .NET application. You can find this library on GitHub              [here](https://github.com/Microsoft/BingMapsRESTToolkit/). Going forward the data contracts on this page will no longer be updated. Please refer to the .NET REST Toolkit for the latest JSON contrcts.  
   
- The following data contracts include classes for all [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)]. For examples of how to use these data contracts, see [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md).  
+ The following data contracts include classes for all Bing Maps REST Services. For examples of how to use these data contracts, see [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md).  
   
 ## Data Contracts  
   

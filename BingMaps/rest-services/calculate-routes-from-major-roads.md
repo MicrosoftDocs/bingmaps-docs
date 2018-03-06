@@ -58,7 +58,7 @@ http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads?destination=destinatio
 |distanceUnit|du|**Optional.** The units to use for distance. **Note:**  When the exclude parameter is specified, the distanceUnit parameter is not used.|One of the following values:<br /><br /> -   Mile or mi<br />-   Kilometer or km **[default]**<br /><br /> **Example**: distanceUnit=mi|  
   
 ## Response  
- A set of Route resources that contain route information from major roads is returned when you make a request using this template and do not specify the `exclude=routes` parameter value. If you specify the `exclude=routes`, a set of Location resources are returned that contain starting points (latitude and longitude values) for routes to your destination from major roads. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). For more information about the Locations resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
+ A set of Route resources that contain route information from major roads is returned when you make a request using this template and do not specify the `exclude=routes` parameter value. If you specify the `exclude=routes`, a set of Location resources are returned that contain starting points (latitude and longitude values) for routes to your destination from major roads. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). For more information about the Locations resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
   
  These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -1268,7 +1268,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&outp
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

@@ -25,4 +25,5 @@ Name                  | Type             | Description
 `PopulationClass`     | string           | The approximate population within this entity. <br/><br/>**Example**: PopClass20000to99999
 `RegionalCulture`     | string           | The regional culture associated with this entity.
 
-**Note**: Not all properties will be returned for all results.
+> [!NOTE]
+> Not all properties will be returned for all results.

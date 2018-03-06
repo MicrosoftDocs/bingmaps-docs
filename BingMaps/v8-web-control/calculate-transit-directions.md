@@ -21,20 +21,13 @@ The following example shows how to calculate transit directions from “Redmond,
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
         var map;
         var directionsManager;
 
         function GetMap()
         {
-            map = new Microsoft.Maps.Map('#myMap', {
-                credentials: 'Your Bing Maps Key'
-            });
+            map = new Microsoft.Maps.Map('#myMap', {});
 
             //Load the directions module.
             Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function () {
@@ -67,6 +60,7 @@ The following example shows how to calculate transit directions from “Redmond,
             });
         }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>

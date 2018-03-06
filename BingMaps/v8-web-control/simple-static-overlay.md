@@ -21,19 +21,12 @@ This example creates a simple overlay that consists of 4 buttons that allow you 
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     function GetMap()
     {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Define a custom overlay class that inherts from the CustomOverlay class.
         PanningOverlay.prototype = new Microsoft.Maps.CustomOverlay({ beneathLabels : false });
@@ -114,6 +107,7 @@ This example creates a simple overlay that consists of 4 buttons that allow you 
         map.setView({ center: map.tryPixelToLocation(cp) });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>

@@ -13,17 +13,17 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Getting Started with the Spatial Data Services
-[!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] provides REST APIs that work with large sets of spatial data. With these APIs you can geocode spatial data and you can store data that has a spatial component in data sources that you can query.  
+Bing Spatial Data Services provides REST APIs that work with large sets of spatial data. With these APIs you can geocode spatial data and you can store data that has a spatial component in data sources that you can query.  
   
  See the links in the **How to:** sections below to find out more information.  
   
 ## Getting Started  
- To get started with the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)], you must have a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
+ To get started with the Bing Spatial Data Services, you must have a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
 > [!NOTE]
 >  Before using this API, review the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
- You can also use [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to geocode entities and to create and manage your data sources. For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx). The [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] and the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] can be used interchangeably to manage data sources for a single [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)].  
+ You can also use Bing Maps Dev Center to geocode entities and to create and manage your data sources. For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx). The Bing Spatial Data Services and the Bing Maps Dev Center can be used interchangeably to manage data sources for a single Bing Maps Account.  
   
 ## How to: Geocode and reverse-geocode spatial data  
  Use the [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md) to create dataflow jobs that geocode and reverse-geocode large sets of data. For more information, see [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md). For an example of the complete process, see the [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md)  
@@ -32,7 +32,7 @@ manager: "stevelom"
  Use the [Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md) to create a new data source.  
   
 ## How to: Query a data source  
- Use the [Query API](../spatial-data-services/query-api2.md) to query for entities in a data source.  
+ Use the [Query API](../spatial-data-services/query-api.md) to query for entities in a data source.  
   
 ## How to: Update a data source  
  Use the [Load Data Source Dataflow](../spatial-data-services/load-data-source-dataflow.md) to update an existing data source.  
@@ -50,13 +50,13 @@ manager: "stevelom"
  Use the [Rollback a Data Source Dataflow](../spatial-data-services/rollback-a-data-source-dataflow.md) to rollback a data source to a previous version.  
   
 ## How to: Get information about data sources  
- Use the [Get Data Source Information](../spatial-data-services/get-data-source-information.md) API to get information about a data source such as the entity type and properties that it stores. You can also request information about all of the data sources that belong to a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)].  
+ Use the [Get Data Source Information](../spatial-data-services/get-data-source-information.md) API to get information about a data source such as the entity type and properties that it stores. You can also request information about all of the data sources that belong to a Bing Maps Account.  
   
 ## How to: Use the Spatial Data Services with other Bing Maps APIs  
- Read the [Show Spatial Data Search Results on a Map](http://msdn.microsoft.com/en-us/library/hh305205.aspx) and [Searching for Traffic Incidents Along a Route](http://msdn.microsoft.com/en-us/library/hh779734.aspx) articles to learn how integrate [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] with [Bing Maps Rest Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) and the [Bing Maps AJAX Control, Version 7.0](http://msdn.microsoft.com/en-us/library/gg427610.aspx).  
+ Read the [Show Spatial Data Search Results on a Map](http://msdn.microsoft.com/en-us/library/hh305205.aspx) and [Searching for Traffic Incidents Along a Route](http://msdn.microsoft.com/en-us/library/hh779734.aspx) articles to learn how integrate Bing Spatial Data Services with [Bing Maps Rest Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) and the [Bing Maps AJAX Control, Version 7.0](http://msdn.microsoft.com/en-us/library/gg427610.aspx).  
   
 ## Public Data Sources  
- The following are public data sources that you can access with any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+ The following are public data sources that you can access with any Bing Maps Key.  
   
 |||  
 |-|-|  
@@ -66,4 +66,4 @@ manager: "stevelom"
 |[FourthCoffeeSample Data Source](../spatial-data-services/fourthcoffeesample.md)|FourthCoffeeSample is a data source with sample data.|  
   
 ## Transaction Accounting  
- Transactions are counted for each [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] request sent with a valid [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]. For information about billable and non-billable transactions for the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] and how to view them, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).
+ Transactions are counted for each Bing Spatial Data Services request sent with a valid Bing Maps Key. For information about billable and non-billable transactions for the Bing Spatial Data Services and how to view them, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).

@@ -87,7 +87,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/imagerySet/centerPoin
 |zoomLevel|zl|**Required if a centerPoint is specified and imagerySet is set to Road, Aerial or AerialWithLabels** The level of zoom to use for the imagery metadata.|An integer between 1 and 21. **Note:**  Some imagery may not be available at all zoom levels for all locations. If imagery is not available at a location, a message is returned in the `ErrorDetails` collection of the response. For more information about this collection, see [Common Response Description](../rest-services/common-response-description.md). <br /><br /> **Example**: zoomLevel=10|  
   
 ## Response  
- When metadata for Birdseye or BirdseyeWithLabels imagery is requested, a BirdseyeMetadata resource is returned in the response. For other imagery types, an ImageryMetadata resource is returned. The ImageryMetadata resource may contain a map tile URL. For more information about the map tile URL and other metadata returned, see [Imagery Metadata](../rest-services/imagery-metadata.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
+ When metadata for Birdseye or BirdseyeWithLabels imagery is requested, a BirdseyeMetadata resource is returned in the response. For other imagery types, an ImageryMetadata resource is returned. The ImageryMetadata resource may contain a map tile URL. For more information about the map tile URL and other metadata returned, see [Imagery Metadata](../rest-services/imagery-metadata.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
   
  These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -386,7 +386,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/AerialWithLabels/47.23,-12
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

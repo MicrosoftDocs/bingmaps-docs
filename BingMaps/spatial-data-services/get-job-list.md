@@ -33,7 +33,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
 ## Response  
  The response to a get job list request returns information about the following jobs. Job creation and job completed times are provided as well as the status (Pending or Completed). Note that Data Source Download Dataflow jobs are not returned by the API.  
   
- Jobs marked with an asterisk (*) are also created when you use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to manage your data sources.  
+ Jobs marked with an asterisk (*) are also created when you use the Bing Maps Dev Center to manage your data sources.  
   
 |Job Type|Description|  
 |--------------|-----------------|  

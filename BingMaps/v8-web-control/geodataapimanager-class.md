@@ -13,13 +13,13 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # GeoDataAPIManager Class
-This is a static class that provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the [GeoData API](https://msdn.microsoft.com/library/dn306801.aspx) in the Bing Spatial Data Services.
+This is a static class that provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the [GeoData API](../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
 
 ## Static Methods
 
 Name                    | Definition | Description
 ----------------------- | ---------- | --------------------------------
-`getBoundary`           | getBoundary(<br/>locations: string _or_ [Location](Location%20Class.md) _or_ (string _or_ [Location](Location%20Class.md))[], request: [GetBoundaryRequestOptions](../v8-web-control/getboundaryrequestoptions-object.md), credentials: string _or_ [Map](Map%20Class.md), callback: function(results: [GeoDataResultSet](../v8-web-control/geodataresultset-object.md)), styles?: [PolygonOptions](PolygonOptions%20Object.md), errorCallback?: function(locationValue: string _or_ [Location](Location%20Class.md) , networkStatus: string)) | Gets a boundary for the specified request. Takes in location which could be a Location coordinate or a string address, or an array of either of these. A Bing Maps key or a reference to a map control is used for authentication. A callback function is used to return the results to you.<br/><br/>If the location value is a string, it will be geocoded and the coordinates of the result will be used to find a boundary of the specified **entityType** that intersects with this coordinate.<br/><br/>Optionally polygon style options can be specified which will be used to style the boundary polygons returned by this API.<br/><br/>An error callback can be specified that will be triggered when an error occurs when searching for a boundary. The error callback will receive the location value that the error occurred for and a network status value. 
+`getBoundary`           | getBoundary(<br/>locations: string _or_ [Location](../v8-web-control/location-class.md) _or_ (string _or_ [Location](../v8-web-control/location-class.md))[], request: [GetBoundaryRequestOptions](../v8-web-control/getboundaryrequestoptions-object.md), credentials: string _or_ [Map](../v8-web-control/map-class.md), callback: function(results: [GeoDataResultSet](../v8-web-control/geodataresultset-object.md)), styles?: [PolygonOptions](../v8-web-control/polygonoptions-object.md), errorCallback?: function(locationValue: string _or_ [Location](../v8-web-control/location-class.md) , networkStatus: string)) | Gets a boundary for the specified request. Takes in location which could be a Location coordinate or a string address, or an array of either of these. A Bing Maps key or a reference to a map control is used for authentication. A callback function is used to return the results to you.<br/><br/>If the location value is a string, it will be geocoded and the coordinates of the result will be used to find a boundary of the specified **entityType** that intersects with this coordinate.<br/><br/>Optionally polygon style options can be specified which will be used to style the boundary polygons returned by this API.<br/><br/>An error callback can be specified that will be triggered when an error occurs when searching for a boundary. The error callback will receive the location value that the error occurred for and a network status value. 
 
 ## Network Status Paramter
 
@@ -34,9 +34,11 @@ The networkStatus parameter in the error callback can have the following values.
 | abort           | The request was aborted by a client action.         |
 | timeout         | The request timed out.                              |
 
-**Note**: When passing in an array of locations into the `getBoundary` method, the callback function will be called multiple times, passing back the boundary information for each request. This is done so that you process the boundary data as it is returned rather than having to wait for all of the boundary requests to process.
+> [!NOTE]
+> When passing in an array of locations into the `getBoundary` method, the callback function will be called multiple times, passing back the boundary information for each request. This is done so that you process the boundary data as it is returned rather than having to wait for all of the boundary requests to process.
 
-**Tip**: If your application is often loading the same boundaries, instead of using string queries, geocoding the queries ahead of time and store the location coordinates and use them with the service. This will speed up the response time of the GeoData API and will also reduce the number of geocoding transactions generated by your application.
+> [!TIP]
+> If your application is often loading the same boundaries, instead of using string queries, geocoding the queries ahead of time and store the location coordinates and use them with the service. This will speed up the response time of the GeoData API and will also reduce the number of geocoding transactions generated by your application.
 
 ## Troubleshooting
 

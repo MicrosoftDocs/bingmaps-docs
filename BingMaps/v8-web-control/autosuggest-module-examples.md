@@ -25,4 +25,4 @@ The **Autosuggest** module takes in a string of text and provides a list of sugg
   * [AutosuggestManager Class](../v8-web-control/autosuggestmanager-class.md)
   * [AutosuggestOptions Object](../v8-web-control/autosuggestoptions-object.md)
   * [SuggestionResult Object](../v8-web-control/suggestionresult-object.md)
-  * [Address Object](Address%20Object.md)
+  * [Address Object](../v8-web-control/address-object.md)

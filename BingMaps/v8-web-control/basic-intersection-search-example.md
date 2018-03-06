@@ -21,19 +21,14 @@ This example shows how to make a simple intersection query against a data source
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     //Query URL to the Fourth Coffe Shop data source
     var sdsDataSourceUrl = 'http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops';
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Load the Bing Spatial Data Services module.
         Microsoft.Maps.loadModule('Microsoft.Maps.SpatialDataService', function () {
@@ -66,6 +61,7 @@ This example shows how to make a simple intersection query against a data source
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

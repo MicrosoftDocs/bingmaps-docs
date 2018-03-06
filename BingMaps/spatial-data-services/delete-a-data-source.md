@@ -29,7 +29,7 @@ Use the following URL to delete a data source. To delete a data source, a delete
   
  The key parameter in this URL must be set to the data source master key.  
   
- You can get the data source base component (http://spatial.virtualearth.net/REST/v1/data/*accessId*/*dataSourceName*), by using the [Get Data Source Information](../spatial-data-services/get-data-source-information.md) API and requesting information about all the data sources associated with the [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)] that manages the data source.  
+ You can get the data source base component (http://spatial.virtualearth.net/REST/v1/data/*accessId*/*dataSourceName*), by using the [Get Data Source Information](../spatial-data-services/get-data-source-information.md) API and requesting information about all the data sources associated with the Bing Maps Account that manages the data source.  
   
  The URL uses the **HTTP DELETE** method so you cannot delete a datasource by typing the URL directly in the address bar of a browser. See the **Example** section for more information.  
   
@@ -49,7 +49,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName?key=masterK
 |accessId|**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
 |dataSourceName|**Required** The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).<br /><br /> **Example**: FourthCoffeeSample|  
 |isStaging|**Optional**. Specifies to delete the staged version of the data source.|A Boolean value.<br /><br /> -   0 or false**[default]**<br />-   1 or true<br /><br /> **Example**: isStaging=1|  
-|key|**Required**. The master key for the data source.|The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that was specified as the master key when the data source was created.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|key|**Required**. The master key for the data source.|The Bing Maps Key that was specified as the master key when the data source was created.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
 ## Response  
  If the data source is successfully deleted, the HTTP 202 status code is returned. The response does not contain any content.  
@@ -66,7 +66,7 @@ DELETE http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f9492221234
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -82,7 +82,7 @@ DELETE http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f9492221234
   
     -   The key parameter is not specified.  
   
-    -   The specified key value is not a valid [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+    -   The specified key value is not a valid Bing Maps Key.  
   
     -   The specified key is not the master key for the data source.  
   

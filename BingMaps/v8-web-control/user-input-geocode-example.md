@@ -15,7 +15,8 @@ manager: "stevelom"
 # User Input Geocode Example
 This code sample displays a search textbox and button long with a map. When the user types in a query and presses the search button a check is done to see if the Search module is loaded. If it is loaded, the users query is then geocoded. The results are displayed on the map and a list of the result names are shown beside the map.
 
-**Tip**: In this code example the search module isn’t loaded when the map is loaded, but instead is delayed until the user actually presses the search button. This is a great way to minimize the initial page load such that resources are only loaded when they are actually needed.
+> [!TIP]
+> In this code example the search module isn’t loaded when the map is loaded, but instead is delayed until the user actually presses the search button. This is a great way to minimize the initial page load such that resources are only loaded when they are actually needed.
 
 ```
 <!DOCTYPE html>

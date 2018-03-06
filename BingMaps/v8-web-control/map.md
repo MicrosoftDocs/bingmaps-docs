@@ -24,6 +24,6 @@ The map is the primary control in the Bing Maps V8 Map Control that provides an 
 
 ### Related Topics
 
-  * [Map Class](Map%20Class.md)
-  * [MapOptions Object](MapOptions%20Object.md)
-  * [ViewOptions Object](ViewOptions%20Object.md)
+  * [Map Class](../v8-web-control/map-class.md)
+  * [MapOptions Object](../v8-web-control/mapoptions-object.md)
+  * [ViewOptions Object](../v8-web-control/viewoptions-object.md)

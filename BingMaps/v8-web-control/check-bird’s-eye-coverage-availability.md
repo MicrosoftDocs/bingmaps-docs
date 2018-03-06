@@ -17,7 +17,7 @@ The Microsoft.Maps namespace has a static function that can be used to check if 
 
 | **Name**                                                                                                   | **Return Type** | **Description**                                                                     |
 |------------------------------------------------------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------|
-| getIsBirdseyeAvailable(loc: [Location](Location%20Class.md), heading: [Heading](../v8-web-control/heading-enumeration.md) _or_ number, callback: function(isAvailable: boolean)) |                 | Checks to see if Birdseye imagery is available at a specified location and heading. |
+| getIsBirdseyeAvailable(loc: [Location](../v8-web-control/location-class.md), heading: [Heading](../v8-web-control/heading-enumeration.md) _or_ number, callback: function(isAvailable: boolean)) |                 | Checks to see if Birdseye imagery is available at a specified location and heading. |
 
 The following code demonstrates how to check if bird’s eye imagery is available for a specified location and then loads the map into bird’s eye or aerial mode accordingly.
 

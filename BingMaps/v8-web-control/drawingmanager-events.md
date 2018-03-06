@@ -21,16 +21,11 @@ The example adds a bunch of events to the drawing manager that is created by the
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, drawingManager;
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Load the DrawingTools module
         Microsoft.Maps.loadModule('Microsoft.Maps.DrawingTools', function () {
@@ -59,6 +54,7 @@ The example adds a bunch of events to the drawing manager that is created by the
         setTimeout(function () { document.getElementById(id).style.background = 'white'; }, 1000);
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

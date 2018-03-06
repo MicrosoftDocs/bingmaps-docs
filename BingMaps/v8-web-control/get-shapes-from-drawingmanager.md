@@ -21,16 +21,11 @@ This example shows how to get all the shapes that are in the drawing manager at 
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, drawingManager;
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         Microsoft.Maps.loadModule('Microsoft.Maps.DrawingTools', function () {
             var tools = new Microsoft.Maps.DrawingTools(map);
@@ -51,6 +46,7 @@ This example shows how to get all the shapes that are in the drawing manager at 
         }
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div><br/>
@@ -59,4 +55,5 @@ This example shows how to get all the shapes that are in the drawing manager at 
 </html>
 ```
 
-**Tip**: If you want to get a shape right after it was drawn, use the `drawingEnded` event on the [DrawingManager](../v8-web-control/drawingmanager-class.md).
+> [!TIP]
+> If you want to get a shape right after it was drawn, use the `drawingEnded` event on the [DrawingManager](../v8-web-control/drawingmanager-class.md).

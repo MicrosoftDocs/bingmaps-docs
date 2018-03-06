@@ -13,9 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Geocode and Data Source Limits
-This topic describes account limits for a Bing Maps Account when you use the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] or the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to geocode entities and manage data sources.  
+This topic describes account limits for a Bing Maps Account when you use the Bing Spatial Data Services or the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to geocode entities and manage data sources.  
   
- When you geocode entities or perform data source actions such as creating or updating a data source using either the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)] or the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)], a job is created to perform the action. See [Get Job List](../spatial-data-services/get-job-list.md) for a list of jobs that count towards the following limits.  
+ When you geocode entities or perform data source actions such as creating or updating a data source using either the Bing Spatial Data Services or the Bing Maps Dev Center, a job is created to perform the action. See [Get Job List](../spatial-data-services/get-job-list.md) for a list of jobs that count towards the following limits.  
   
 ## Account Limits for Basic Keys  
   

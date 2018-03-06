@@ -16,14 +16,14 @@ manager: "stevelom"
 > [!IMPORTANT]
 >  Update: Since writing this documentation the Bing Maps team has released an open source portable class library which makes it easy to access the Bing Maps REST services from any .NET application. You can find this library on GitHub              [here](https://github.com/Microsoft/BingMapsRESTToolkit/).  
   
- This article will describe how to interact with the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] APIs using .NET. This approach can be used with technologies such as Windows Store apps and Windows Presentation Foundation (WPF).  
+ This article will describe how to interact with the Bing Maps REST Services APIs using .NET. This approach can be used with technologies such as Windows Store apps and Windows Presentation Foundation (WPF).  
   
- The [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] are a set of RESTful web services that access collection of resources by using a URL and the HTTP GET and POST methods The size of REST responses tend to be significantly smaller than SOAP-based service responses, and reduce the amount of time it takes a client application to download the response data. This increase in efficiency becomes especially important when developing mobile applications.  
+ The Bing Maps REST Services are a set of RESTful web services that access collection of resources by using a URL and the HTTP GET and POST methods The size of REST responses tend to be significantly smaller than SOAP-based service responses, and reduce the amount of time it takes a client application to download the response data. This increase in efficiency becomes especially important when developing mobile applications.  
   
- Each [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] request is made using a URI and additional query parameters that specify the information to return. Some REST Services APIs support HTTP POST requests that you can use when the query parameter data increases the URL length beyond browser limits. You can specify XML or JSON format for the response. A JSON response is typically 25%-40% smaller than an XML response, and will take less time for the client to download. This topic focuses on JSON responses only.  
+ Each Bing Maps REST Services request is made using a URI and additional query parameters that specify the information to return. Some REST Services APIs support HTTP POST requests that you can use when the query parameter data increases the URL length beyond browser limits. You can specify XML or JSON format for the response. A JSON response is typically 25%-40% smaller than an XML response, and will take less time for the client to download. This topic focuses on JSON responses only.  
   
 ## Making use of sessions  
- All [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] require a Bing Maps Key. If you are using the Bing Maps REST Services with one of the Bing Maps controls, such as AJAX, WPF, Windows Store app SDK, you can use a Bing Maps key as a session key. A session key can be used for all requests to the Bing Maps REST Services. The benefit of using a session key is that you are billed for one transaction per session and all calls to the REST services within that session are non-billable. For more information about billed transactions, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).  
+ All Bing Maps REST Services require a Bing Maps Key. If you are using the Bing Maps REST Services with one of the Bing Maps controls, such as AJAX, WPF, Windows Store app SDK, you can use a Bing Maps key as a session key. A session key can be used for all requests to the Bing Maps REST Services. The benefit of using a session key is that you are billed for one transaction per session and all calls to the REST services within that session are non-billable. For more information about billed transactions, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).  
   
  The following examples show how to create a session key from an instance of Bing Maps control using .NET.  
   
@@ -52,7 +52,7 @@ Map.CredentialsProvider.GetCredentials(
 > [!IMPORTANT]
 >  The Response class is part of the data contracts for the Bing Maps REST services. The data contracts for the Bing Maps REST Services are quite large and have been included at the end of this topic. You must copy these data contract classes into your application.  
   
- To access the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], you create a URL request and then submit the request using HTTP **GET** or **POST** protocol . When the response data is returned, you must serialize the data against a set of data contracts. The data contracts for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] are quite large and have been included at the end of this topic. As the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] adds new functionality, these data contracts must be updated. A benefit of working with JSON serialization rather than XML serialization is that changes in the schema rarely cause issues for existing applications. For instance, if a new property is added to the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], an application that uses the old data contracts can still process a response without errors; however, the new property will not be available. To get the new property, you must update the data contracts.  
+ To access the Bing Maps REST Services, you create a URL request and then submit the request using HTTP **GET** or **POST** protocol . When the response data is returned, you must serialize the data against a set of data contracts. The data contracts for the Bing Maps REST Services are quite large and have been included at the end of this topic. As the Bing Maps REST Services adds new functionality, these data contracts must be updated. A benefit of working with JSON serialization rather than XML serialization is that changes in the schema rarely cause issues for existing applications. For instance, if a new property is added to the Bing Maps REST Services, an application that uses the old data contracts can still process a response without errors; however, the new property will not be available. To get the new property, you must update the data contracts.  
   
  In order to make use of JSON serialization in .NET, use the DataContractJsonSerializer by referencing the following libraries in your project:  
   
@@ -63,7 +63,7 @@ Map.CredentialsProvider.GetCredentials(
  When you specify parameter data for a Bing Maps REST service request, it is a good practice to encode the parameter values. This becomes especially important when working with special characters. In the following code samples, we use the Uri class that encodes these parameters automatically.  
   
 ### HTTP GET Requests  
- The following example is a generic method that can be used to make GET requests with [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)].  
+ The following example is a generic method that can be used to make GET requests with Bing Maps REST Services.  
   
 ```csharp  
 private void GetResponse(Uri uri, Action<Response> callback)  
@@ -97,7 +97,7 @@ End Sub
 ```  
   
 ### HTTP POST Requests  
- The following example is a generic method that can be used to make HTTP POST requests with [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] for APIs that support HTTP POST protocol.  
+ The following example is a generic method that can be used to make HTTP POST requests with Bing Maps REST Services for APIs that support HTTP POST protocol.  
   
 ```csharp  
 private void GetPOSTResponse(Uri uri, string data, Action<Response> callback)  
@@ -163,7 +163,7 @@ End Sub
 ```  
   
 ### Implementing a request  
- The following is an example of how to use the above generic methods to make an HTTP GET request to the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)]. This example geocodes the address “1 Microsoft Way, Redmond, WA”.  
+ The following is an example of how to use the above generic methods to make an HTTP GET request to the Bing Maps REST Services. This example geocodes the address “1 Microsoft Way, Redmond, WA”.  
   
 ```csharp  
 string key = "YOUR_BING_MAPS_KEY or SESSION_KEY";  
@@ -192,7 +192,7 @@ End Function)
 ```  
   
 ### Data Contracts  
- The data contracts for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] are large but straight forward. All classes need to have a DataContract attribute, and all public properties that are to be serialized need to have a DataMember attribute, and both a getter and a setter in C#. See [JSON Data Contracts](../rest-services/json-data-contracts.md) for the latest set of contracts.  
+ The data contracts for the Bing Maps REST Services are large but straight forward. All classes need to have a DataContract attribute, and all public properties that are to be serialized need to have a DataMember attribute, and both a getter and a setter in C#. See [JSON Data Contracts](../rest-services/json-data-contracts.md) for the latest set of contracts.  
   
 ## See Also  
  [Bing Maps REST Service Tips & Tricks](http://blogs.bing.com/maps/2013/02/14/bing-maps-rest-service-tips-tricks/)   

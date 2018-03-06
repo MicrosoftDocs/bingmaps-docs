@@ -17,7 +17,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
   
  **Traffic Flow**: Traffic flow refers lines of color representing different levels of traffic congestion that display on a Bing map.  
   
- **Traffic Incidents**: Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)][Traffic API](http://msdn.microsoft.com/en-us/library/hh441725) and the Bing Maps V8 Web Control [Microsoft.Maps.Traffic API](https://msdn.microsoft.com/library/mt712860.aspx).  
+ **Traffic Incidents**: Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the Bing Maps REST Services[Traffic API](http://msdn.microsoft.com/en-us/library/hh441725) and the Bing Maps V8 Web Control [Microsoft.Maps.Traffic API](../v8-web-control/traffic-module.md).  
   
  ![BiM&#95;TrafficFlowCoverage&#95;2016](../coverage/media/bim-trafficflowcoverage-2016.png "BiM_TrafficFlowCoverage_2016")  
   

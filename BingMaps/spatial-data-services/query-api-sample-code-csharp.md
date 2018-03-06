@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Query API Sample Code (C#)
-The following C# code provides examples of how to query a data source using the [Query API](../spatial-data-services/query-api2.md).  
+The following C# code provides examples of how to query a data source using the [Query API](../spatial-data-services/query-api.md).  
   
 ```  
 using System;  

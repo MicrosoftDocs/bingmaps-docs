@@ -21,17 +21,12 @@ Often infoboxes are displayed when a user clicks or hovers over a pushpin. Anoth
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map, infobox, tooltip;
     var tooltipTemplate = '<div style="background-color:white;height:20px;width:150px;padding:5px;text-align:center"><b>{title}</b></div>';
 
     function GetMap() {
-        map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'Your Bing Maps Key'
-        });
+        map = new Microsoft.Maps.Map('#myMap', {});
 
         //Create an infobox to use as a tooltip when hovering.
         tooltip = new Microsoft.Maps.Infobox(map.getCenter(), {
@@ -110,6 +105,7 @@ Often infoboxes are displayed when a user clicks or hovers over a pushpin. Anoth
         });
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

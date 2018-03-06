@@ -24,7 +24,7 @@ Area          | Description
 [Articles](../v8-web-control/articles.md) | Advanced topics and techniques you can use with the Bing Maps V8 Web Control.
 [Supported Browsers](../v8-web-control/supported-browsers.md) | A list of supported browsers for the Bing Maps V8 Web Control.
 [What's New](../v8-web-control/what-s-new.md) | A list of new features that have been added to Bing Maps V8 through one of the regular updates.  
-[Developer Resources](Developer%20Resources.md) |  Information about support resources and contact details.
+[Developer Resources](../v8-web-control/developer-resources.md) |  Information about support resources and contact details.
 
 ## Code Optimizations in V8
 

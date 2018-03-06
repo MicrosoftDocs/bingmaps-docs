@@ -79,11 +79,11 @@ The following is a list of parameters that are supported by the Isochrone API.
 
 | Note      |
 |-----------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](https://msdn.microsoft.com/library/ff701701.aspx).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  |
+| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  |
 
 | Parameter    | Alias  | Description  |
 |--------------|--------|--------------|
-| waypoint     | wp     | **Required**. The point around which the isochrone will be calculated. This can be specified as a Point or address. For more information about Point values, see [Location and Area Types](https://msdn.microsoft.com/library/ff701726.aspx).<br/><br/>**Examples**:<br/><br/>waypoint=47.610,-122.107 \[Point\]<br/><br/>waypoint=1%20Microsoft%20Way%20Redmond%20WA \[address\] |
+| waypoint     | wp     | **Required**. The point around which the isochrone will be calculated. This can be specified as a Point or address. For more information about Point values, see [Location and Area Types](../rest-services/location-and-area-types.md).<br/><br/>**Examples**:<br/><br/>waypoint=47.610,-122.107 \[Point\]<br/><br/>waypoint=1%20Microsoft%20Way%20Redmond%20WA \[address\] |
 | maxTime      |        | **Required.** The maximum travel time in the specified time units in which the isochrone polygon is generated. Cannot be set when *maxDistance* is set. Maximum value is 60 minutes when using asynchronous requests.<br/><br/>**Example:** maxTime=10 |
 | timeUnit     | tu     | **Optional.** The units in which the maxTime value is specified. One of the following values:<br/><br/> • **minute**<br/> • **second** \[default\]<br/><br/>**Example**: timeUnit=second  |
 | maxDistance  | maxDis | **Required for Driving and Walking.** The maximum travel distance in the specified distance units in which the isochrone polygon is generated. Cannot be set when *maxTime* is set. Distance based isochrones are not supported for transit.<br/><br/>**Example:** maxDistance=15 |
@@ -148,7 +148,7 @@ To view the complete XML and JSON responses, see [Isochrone Asynchronous Example
 
 | Note      |
 |-----------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](https://msdn.microsoft.com/library/ff701703.aspx). |
+| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -167,7 +167,7 @@ When the request is not successful, the response returns one of the following er
 
 ## See Also
 
-* [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
 * [Isochrone Data](../rest-services/isochrone-data.md)
 * [Isochrone Example](../rest-services/isochrone-example.md)
 * [Isochrone Asynchronous Example](../rest-services/isochrone-asynchronous-example.md)

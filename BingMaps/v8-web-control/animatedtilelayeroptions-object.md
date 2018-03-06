@@ -21,5 +21,5 @@ An object that defines the options for an [AnimatedTileLayer](../v8-web-control/
 | `frameRate`        | number         | The number of miliseconds between two layer frames. Default: **1000**                                                      |
 | `loadingScreen`    | [CustomOverlay](../v8-web-control/customoverlay-class.md)  | A custom loading screen to show on the map when the map tiles are being fetched.                                       |
 | `maxTotalLoadTime` | number         | The max amount of total loading time of all tiles in a viewport in milliseconds. Default: **15000**                        |
-| `mercator`         | [TileSource](TileSource%20Class.md)\[\] | The array of tile layer sources to animate through.                                                                    |
+| `mercator`         | [TileSource](../v8-web-control/tilesource-class.md)\[\] | The array of tile layer sources to animate through.                                                                    |
 | `visible`          | boolean        | A boolean specifying if the animated tile layer is visible or not. Default: **true** |

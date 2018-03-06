@@ -21,7 +21,8 @@ The GeoXml module makes it easy to read and write common geospatial XML file for
 
 There are two ways to make use of this module. The first is to use the static methods in the [GeoXml class](../v8-web-control/geoxml-class.md) to read/write the raw data. This gives you full control over the data and how it is rendered, if you choose to render it. The second option is to use the [GeoXmlLayer](../v8-web-control/geoxmllayer-class.md) which handles the importing of the XML data and generates a data layer which you can add to the map like any other layer. It handles all the rendering for you. This is a quick and easy way to get your geospatial XML data on the map with as little as 3 lines of code.
 
-**Tip**: If GeoJSON data is passed into the [GeoXmlLayer](../v8-web-control/geoxmllayer-class.md) or the read functions of the [GeoXml class](../v8-web-control/geoxml-class.md), it will automatically load the [GeoJSON module](../v8-web-control/geojson-module.md) and read the data.
+> [!TIP]
+> If GeoJSON data is passed into the [GeoXmlLayer](../v8-web-control/geoxmllayer-class.md) or the read functions of the [GeoXml class](../v8-web-control/geoxml-class.md), it will automatically load the [GeoJSON module](../v8-web-control/geojson-module.md) and read the data.
 
 ## API Reference
 
@@ -73,7 +74,7 @@ The GeoXml module supports the following XML elements. Any XML tags that are not
 
 The GeoXml module supports the following KML elements.
 
-| Element Name         | Read    | Write   | Note                                                                                                                       |
+| Element Name         | Read    | Write   | Notes                                                                                                                      |
 |----------------------|---------|---------|----------------------------------------------------------------------------------------------------------------------------|
 | `address`            | partial | yes     | Object is parsed but is not used for positioning shape.                                                                    |
 | `AddressDetails`     | partial | no      | Object is parsed but is not used for positioning shape.                                                                    |
@@ -154,7 +155,7 @@ The GeoXml module supports the following KML elements.
 
 The GeoXml module supports the following GeoRSS elements.
 
-| Element Name             | Read    | Write | Note                                                                                           |
+| Element Name             | Read    | Write | Notes                                                                                          |
 |--------------------------|---------|-------|------------------------------------------------------------------------------------------------|
 | `atom:author`            | yes     | yes   |                                                                                                |
 | `atom:category`          | yes     | yes   |                                                                                                |
@@ -228,7 +229,7 @@ The GeoXml module supports the following GeoRSS elements.
 
 The GeoXml module supports the following GML elements. GML is supported when included in GeoRSS documents.
 
-| Element Name            | Read | Write | Note                                                                                   |
+| Element Name            | Read | Write | Notes                                                                                  |
 |-------------------------|------|-------|----------------------------------------------------------------------------------------|
 | `gml:coordinates`       | yes  | no    | Written using `gml:posList`.                                                           |
 | `gml:exterior`          | yes  | yes   |                                                                                        |
@@ -258,7 +259,7 @@ The GeoXml module supports the following GML elements. GML is supported when inc
 
 The GeoXml module supports the following GPX elements.
 
-| Element Name             | Read    | Write   | Note                                                                                        |
+| Element Name             | Read    | Write   | Notes                                                                                       |
 |--------------------------|---------|---------|---------------------------------------------------------------------------------------------|
 | `gpx:ageofdgpsdata`      | yes     | yes     |                                                                                             |
 | `gpx:author`             | yes     | yes     |                                                                                             |

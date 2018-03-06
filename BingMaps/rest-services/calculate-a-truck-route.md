@@ -23,9 +23,9 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 
 The Bing Maps Truck Routing API is an extension of the existing Bing Maps Routing API and supports many of the same request parameters, and responds with the same Route resource class. Note that each request to the Truck Routing API generates three (3) billable transactions.
 
-When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](https://msdn.microsoft.com/library/mt270292.aspx). You can also view the example URL and response values in the **Examples** section.
+When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). You can also view the example URL and response values in the **Examples** section.
 
-Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](../rest-services/truck-routing-coverage.md) for details.
+Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](../coverage/truck-routing-coverage.md) for details.
 
 ## API Limits
 
@@ -52,9 +52,8 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 
 ## URL Template
 
-| Note |
-|----------|
-| These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). |
+> [!NOTE]
+>  These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
 
 Truck route calculations require a lot more processing than standard driving route calculations, as such synchronous and asynchronous requests are supported. It is recommended to use the asynchronous request when calculating longer routes.
 
@@ -120,9 +119,8 @@ Content-Type: application/json
 }
 ```
 
-| Note  |
-|-----------|
-|For truck routing, vehicle attributes are specified inside of a `vehicleSpec` object in POST requests. |
+> [!NOTE]
+>  For truck routing, vehicle attributes are specified inside of a `vehicleSpec` object in POST requests.
 
 **Asynchronous Truck Routing Request URL (GET)**
 
@@ -184,9 +182,8 @@ Content-Type: application/json
 }
 ```
 
-| Note  |
-|-----------|
-|For truck routing, vehicle attributes are specified inside of a `vehicleSpec` object in POST requests. |
+> [!NOTE]
+> For truck routing, vehicle attributes are specified inside of a `vehicleSpec` object in POST requests. 
 
 **URL for checking Asynchronous request status (GET)**
 
@@ -198,13 +195,12 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=request
 
 ## Template Parameters
 
-| Note  |
-|-----------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](https://msdn.microsoft.com/library/ff701701.aspx).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint.1=47.610,-122.107 can be shortened to wp.1=47.610,-122.107.  |
+> [!NOTE]
+>  Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint.1=47.610,-122.107 can be shortened to wp.1=47.610,-122.107.  
 
 | Parameters            | GET Alias | Description  |
 |-----------------------|-----------|--------------|
-| waypoint.n<br/><br/>viaWaypoint.n  | wp.n<br/><br/>vwp.n | **Required**. A route is defined by a set of waypoints and viaWaypoints (intermediate locations that the route must pass through). The index (n value) for the set of waypoints and viaWaypoints is an integer starting with **0** or **1**. The waypoint and viaWaypoint index values must be sequential and must always increment by 1.<br/><br/>Both waypoint and viaWaypoint locations can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](https://msdn.microsoft.com/library/ff701726.aspx).<br/><br/>You can have a maximum of 25 waypoints or viaWaypoints in a request. The start and end points of the route cannot be viaWaypoints.<br/><br/>**GET Examples**:<br/><br/>waypoint.1=47.610,-122.107 \[Point\] <br/><br/>wp.1=Seattle,WA \[landmark\]<br/><br/>waypoint.1=1%20Microsoft%20Way%20Redmond%20WA%20 \[address\]<br/><br/>&waypoint.1=Seattle&viaWaypoint.2=Kirkland&waypoint.3=Redmond \[viaWaypoint\]<br/><br/>**POST Examples:** <br/><br/>"waypoints": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 47.610,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.107<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "Seattle",<br/>&nbsp;&nbsp;&nbsp;&nbsp;"isViaPoint": true<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "1 Microsoft Way, Redmond, WA",<br/>}\] |
+| waypoint.n<br/><br/>viaWaypoint.n  | wp.n<br/><br/>vwp.n | **Required**. A route is defined by a set of waypoints and viaWaypoints (intermediate locations that the route must pass through). The index (n value) for the set of waypoints and viaWaypoints is an integer starting with **0** or **1**. The waypoint and viaWaypoint index values must be sequential and must always increment by 1.<br/><br/>Both waypoint and viaWaypoint locations can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](../rest-services/location-and-area-types.md).<br/><br/>You can have a maximum of 25 waypoints or viaWaypoints in a request. The start and end points of the route cannot be viaWaypoints.<br/><br/>**GET Examples**:<br/><br/>waypoint.1=47.610,-122.107 \[Point\] <br/><br/>wp.1=Seattle,WA \[landmark\]<br/><br/>waypoint.1=1%20Microsoft%20Way%20Redmond%20WA%20 \[address\]<br/><br/>&waypoint.1=Seattle&viaWaypoint.2=Kirkland&waypoint.3=Redmond \[viaWaypoint\]<br/><br/>**POST Examples:** <br/><br/>"waypoints": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 47.610,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.107<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "Seattle",<br/>&nbsp;&nbsp;&nbsp;&nbsp;"isViaPoint": true<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "1 Microsoft Way, Redmond, WA",<br/>}\] |
 | avoid  |               | **Optional.** Specifies the road types to minimize or avoid when a route is created for the driving travel mode. A comma-separated list of values from the following list that limit the use of highways and toll roads in the route. In the definitions below, "highway" also refers to a "limited-access highway". If no values are specified, highways and tolls are allowed in the route. Can consist of the following values:<br/><br/> • **highways**: Avoids the use of highways in the route.<br/> • **tolls**: Avoids the use of toll roads in the route.<br/> • **minimizeHighways**: Minimizes (tries to avoid) the use of highways in the route.<br/> • **minimizeTolls**: Minimizes (tries to avoid) the use of toll roads in the route.<br/><br/>**Note:**<br/><br/>If you specify more than one option for a road type, then the most restrictive option is used. For example, if you set the avoid parameter to both *highways* and *minimizeHighways*, the *highways* option is used and all highways are avoided.<br/><br/> **Examples**:<br/><br/> avoid=highways<br/><br/> avoid=highways,tolls |
 | distanceBeforeFirstTurn   | dbft          | **Optional.** Specifies the distance before the first turn is allowed in the route. An integer distance specified in meters. Use this parameter to make sure that the moving vehicle has enough distance to make the first turn.<br/><br/>**Examples**: distanceBeforeFirstTurn=500 |
 | heading                   | hd            | **Optional.** Specifies the initial heading for the route. An integer value between 0 and 359 that represents degrees from north where north is 0 degrees and the heading is specified clockwise from north. For example, setting the heading of 270 degrees creates a route that initially heads west.<br/><br/>**Example**: heading=90 |
@@ -229,9 +225,8 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=request
 | vehicleHazardousMaterials | vhm           | **Optional**. A comma separated and case-sensitive list of one or more hazardous materials for which the vehicle is transporting. Possible values and their aliases are:<br/><br/> • **Combustable** or **C**<br/> • **Corrosive** or **Cr**<br/> • **Explosive** or **E**<br/> • **Flammable** or **F**<br/> • **FlammableSolid** or **FS**<br/> • **Gas** or **G**<br/> • **GoodsHarmfulToWater** or **WH**<br/> • **Organic** or **O**<br/> • **Other**<br/> • **Poison** or **P**<br/> • **PoisonousInhalation** or **PI**<br/> • **Radioactive** or **R**<br/> • **None**<br/><br/>**Examples**<br/><br/>vehicleHazardousMaterials=Explosive,Corrosive<br/><br/>vehicleHazardousMaterials=E,Cr |
 | vehicleHazardousPermits   | vhp           | **Optional**. A comma separated and case-sensitive list of one or more hazardous materials for which the vehicle has a permit. Possible values and their aliases are:<br/><br/> • **AllAppropriateForLoad**<br/> • **Combustible** or **C**<br/> • **Corrosive** or **Cr**<br/> • **Explosive** or **E**<br/> • **Flammable** or **F**<br/> • **FlammableSolid** or **FS**<br/> • **Gas** or **G**<br/> • **Organic** or **O**<br/> • **Poison** or **P**<br/> • **PoisonousInhalation** or **PI**<br/> • **Radioactive** or **R**<br/> • **None**<br/><br/>**Examples**<br/><br/>vehicleHazardousPermits=Explosive,Corrosive<br/><br/>vehicleHazardousPermits=E,Cr  |
 
-| Tip |
-|---------|
-| Geocoding your waypoints ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests. |
+> [!TIP]
+> Geocoding your waypoints ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests. 
 
 ## Hazardous Materials Restrictions
 
@@ -251,9 +246,8 @@ The Routing API can distinguish between trailer and semi-trailer restrictions. T
 * if `vehicleTrailers > 0` – roads prohibited for trucks with trailers are excluded from route calculation.
 * if `vehicleSemi=true` and `vehicleTrailers > 0` – roads prohibited for trucks with semi-trailers are excluded from route calculation.
 
-| Note    |
-|-------------|
-| Semi-trailer restrictions are mostly used in North America. |
+> [!NOTE]
+> Semi-trailer restrictions are mostly used in North America. 
 
 ## Examples
 The following example shows how to request a truck route. In this case, consider a truck that may be transporting a flammable material between Pittsburgh Brashear High School (590 Crane Ave, Pittsburgh, PA) and Duquesne University (600 Forbes Ave, Pittsburgh, PA). For comparison, the following image shows the calculated truck route in green and the route a vehicle not carrying flammable material would typically take in red. The primary reason for the difference in routes in this case is that flammable and explosive materials are prohibited inside the Liberty Tunnel. As a result, the route for this truck is 3.9 miles while the route a vehicle that isn’t carrying flammable or explosive material is only 3.1 miles.
@@ -352,9 +346,8 @@ To view the complete XML and JSON responses, see [Truck Route Asynchronous Examp
 
 ## HTTP Status Codes
 
-| Note    |
-|-------------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](https://msdn.microsoft.com/library/ff701703.aspx). |
+> [!NOTE]
+> For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -371,6 +364,6 @@ When the request is not successful, the response returns one of the following er
 
 ## See Also
 
-* [Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168.aspx)
+* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
 * [Truck Route Example](../rest-services/truck-route-example.md)
 * [Truck Route Asynchronous Example](../rest-services/truck-route-asynchronous-example.md)

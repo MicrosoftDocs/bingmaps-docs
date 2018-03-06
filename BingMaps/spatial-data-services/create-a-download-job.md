@@ -48,7 +48,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/da
 |dataSourceName||**Required** The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).<br /><br /> **Example**: MyDataSourceName|  
 |jobId||**Optional** The job ID that specifies the data source version to download.|A GUID that identifies the version of the data source to download. The published version is downloaded by default. Up to two (2) previous versions and one (1) staged version of a data source may be available for download. To see the job IDs of all versions of a data source, query for information about that data source with `showAllVersions` set to `true`. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
-|key||**Required**. The master key for the data source.|The [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)] that was specified as the master key when the data source was created.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|key||**Required**. The master key for the data source.|The Bing Maps Key that was specified as the master key when the data source was created.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
 ## Response  
  This URL supports the following response formats.  
@@ -144,7 +144,7 @@ http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e941234
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling1.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -160,7 +160,7 @@ http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e941234
   
     -   The key parameter is not specified.  
   
-    -   The specified key value is not a valid [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+    -   The specified key value is not a valid Bing Maps Key.  
   
     -   The specified key is not the master key for the data source.  
   

@@ -15,7 +15,7 @@ manager: "stevelom"
 # Get Traffic Incidents
 Use the following URL template to request traffic incident information. A collection of traffic incidents is returned in the response.  
   
- For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). You can also view the example URL and response values in the **Examples** section below. For an overview of how traffic incident information is returned by [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Getting Traffic Incident Data](../rest-services/getting-traffic-incident-data.md).  
+ For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). You can also view the example URL and response values in the **Examples** section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](../rest-services/getting-traffic-incident-data.md).  
   
  For traffic coverage by country, see [Bing Maps Traffic Coverage](http://msdn.microsoft.com/en-us/library/jj136866).  
   
@@ -52,7 +52,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/mapArea/includeLocationCod
 |type|t|**Optional.** Specifies the type of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather<br /><br /> **Examples**:<br /><br /> type=2<br /><br /> t=2,9|  
   
 ## Response  
- A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md).  
+ A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
   
  These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -355,7 +355,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

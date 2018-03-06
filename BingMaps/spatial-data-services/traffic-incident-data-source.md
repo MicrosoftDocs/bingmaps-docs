@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Traffic Incident Data Source
-The TrafficIncident data source contains information traffic incidents. You can query for traffic incidents in a specified area by using the [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)][Query by Area](../spatial-data-services/query-by-area.md) API and the [Query Near a Route](../spatial-data-services/query-near-a-route.md) API and any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+The TrafficIncident data source contains information traffic incidents. You can query for traffic incidents in a specified area by using the Bing Spatial Data Services[Query by Area](../spatial-data-services/query-by-area.md) API and the [Query Near a Route](../spatial-data-services/query-near-a-route.md) API and any Bing Maps Key.  
   
 ## Traffic Incident Properties  
  The following table describes the information provided for a traffic incident.  
@@ -48,7 +48,7 @@ http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/Tr
   
  **Query Example**  
   
- The following query example queries for traffic incidents along a route from Houston, Texas to Galveston, Texas by using the [Query Near a Route](../spatial-data-services/query-near-a-route.md) API. The query key you use can be any [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)].  
+ The following query example queries for traffic incidents along a route from Houston, Texas to Galveston, Texas by using the [Query Near a Route](../spatial-data-services/query-near-a-route.md) API. The query key you use can be any Bing Maps Key.  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/TrafficIncidents/TrafficIncident?spatialFilter=nearRoute('Houston,TX','Galveston,Tx')&key=anyBingMapsKey  

@@ -21,10 +21,7 @@ The following code shows how to add an infobox with a title and description to t
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript' 
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' 
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     function GetMap() {
@@ -44,6 +41,7 @@ The following code shows how to add an infobox with a title and description to t
         infobox.setMap(map);
     }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

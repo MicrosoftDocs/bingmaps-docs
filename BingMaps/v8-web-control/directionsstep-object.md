@@ -18,8 +18,8 @@ Represents one direction in a set of route directions.
 | Name                    | Type               | Description                                                             |
 |-------------------------|--------------------|-------------------------------------------------------------------------|
 | `childItineraryItems`   | [DirectionsStep](../v8-web-control/directionsstep-object.md)\[\] | The child direction items for this directions step.                     |
-| `coordinate`            | [Location](Location%20Class.md) | The location of the start of the direction.                |
-| `distance`              | string             | The total distance of the step in the unit specified in the `distanceUnit` property of the [DirectionsRequestOptions](DirectionsRequestOptions%20Object.md).                         |
+| `coordinate`            | [Location](../v8-web-control/location-class.md) | The location of the start of the direction.                |
+| `distance`              | string             | The total distance of the step in the unit specified in the `distanceUnit` property of the [DirectionsRequestOptions](../v8-web-control/directionsrequestoptions-object.md).                         |
 | `durationInSeconds`     | number             | The total time, in seconds, of the direction step.                      |
 | `formattedText`         | string             | The HTML formatted route instruction associated with the step.          |
 | `isImageRoadShield`     | boolean            | A boolean indicating whether the maneuver image is a road shield image. |

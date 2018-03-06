@@ -21,9 +21,9 @@ This IStylesOptions object has the following properties.
 
 Name                 | Type               | Description
 -------------------- | ------------------ | ---------------------------------
-`pushpinOptions`     | [PushpinOptions](PushpinOptions%20Object.md)    | Sets the options for all pushpins.
-`polylineOptions`    | [PolylineOptions](PolylineOptions%20Object.md)   | Sets the options for all polylines.
-`polygonOptions`     | [PolygonOptions](PolygonOptions%20Object.md)    | Sets the options for all polygons.
+`pushpinOptions`     | [PushpinOptions](../v8-web-control/pushpinoptions-object.md)    | Sets the options for all pushpins.
+`polylineOptions`    | [PolylineOptions](../v8-web-control/polylineoptions-object.md)   | Sets the options for all polylines.
+`polygonOptions`     | [PolygonOptions](../v8-web-control/polygonoptions-object.md)    | Sets the options for all polygons.
 
 ## Example
 

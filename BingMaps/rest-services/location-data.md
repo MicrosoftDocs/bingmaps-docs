@@ -16,7 +16,7 @@ manager: "stevelom"
 ## Location Resource  
  The response returned by a Locations URL contains one or more Location resources. Each Location resource contains location information that corresponds to the values provided in the request. This topic provides descriptions of the Locations resource fields, followed by JSON and XML examples.  
   
- For more information about the common response container for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md).  
+ For more information about the common response container for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  

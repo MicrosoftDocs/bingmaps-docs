@@ -13,14 +13,14 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Creating a Bing Maps Account
-Follow these steps to create a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)].  
+Follow these steps to create a Bing Maps account.  
   
-1.  Go to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
+1.  Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
   
 2.  Sign in using the Microsoft account you want to use for Bing Maps or create a new account.  
   
     > [!NOTE]
-    >  If you need to change the Microsoft account that you use to login to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)], see [Updating Your Bing Maps Account](../getting-started/updating-your-bing-maps-account.md).  
+    >  If you need to change the Microsoft account that you use to login to the Bing Maps Dev Center, see [Updating Your Bing Maps Account](../getting-started/updating-your-bing-maps-account.md).  
   
 3.  After you sign in, provide the following information:  
   
@@ -30,7 +30,7 @@ Follow these steps to create a [!INCLUDE[ve_platform_dev_acct](../getting-starte
   
     -   **Company name** The name of the company using this account.  
   
-    -   **Email address** Required. A contact email address for this account. Make sure this email address is monitored and kept current so that Microsoft can contact you if needed, and so you can receive important announcements. This address can be the Microsoft account you used to login to the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)]. Once your account is created, you can add additional contact names and email addresses. See **Additional Contacts** below for more information.  
+    -   **Email address** Required. A contact email address for this account. Make sure this email address is monitored and kept current so that Microsoft can contact you if needed, and so you can receive important announcements. This address can be the Microsoft account you used to login to the Bing Maps Dev Center. Once your account is created, you can add additional contact names and email addresses. See **Additional Contacts** below for more information.  
   
     -   **Phone number** A contact phone number for this this account.  
   
@@ -38,10 +38,10 @@ Follow these steps to create a [!INCLUDE[ve_platform_dev_acct](../getting-starte
   
 4.  After you enter the required information and click **Create**, your account details display.  
   
-     Now that you have created a [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)], see [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md) to learn how to get [!INCLUDE[maps_ticket](../articles/includes/maps-ticket-md.md)]s to use with the [Bing Maps](../Topic/Bing%20Maps.md) APIs.  
+     Now that you have created a Bing Maps account, see [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md) to learn how to get Bing Maps Keys to use with the [Bing Maps](../getting-started/../topic/bing-maps.md) APIs.  
   
 > [!TIP]
->  You can update your [!INCLUDE[ve_platform_dev_acct](../getting-started/includes/ve-platform-dev-acct-md.md)] information and add additional contacts at any time by clicking **Update or view account details**.  
+>  You can update your Bing Maps account information and add additional contacts at any time by clicking **Update or view account details**.  
   
  **Additional Contacts**  
   

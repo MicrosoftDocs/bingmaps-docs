@@ -21,20 +21,13 @@ This example shows how to use events with the directions manager. A route from ‚
 <head>
     <title></title>
     <meta charset="utf-8" />
-
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-
-    <script type='text/javascript'>
+	<script type='text/javascript'>
         var map;
         var directionsManager;
 
         function GetMap()
         {
-            map = new Microsoft.Maps.Map('#myMap', {
-                credentials: 'Your Bing Maps Key'
-            });
+            map = new Microsoft.Maps.Map('#myMap', {});
 
             //Load the directions module.
             Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function () {
@@ -85,6 +78,7 @@ This example shows how to use events with the directions manager. A route from ‚
             alert('Error: ' + e.message + '\r\nResponse Code: ' + e.responseCode)
         }
     </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
@@ -95,4 +89,4 @@ This example shows how to use events with the directions manager. A route from ‚
 
 Running this code will display the route from ‚ÄúSeattle, WA‚Äù to ‚ÄúRedmond, WA‚Äù on the map along with the distance and travel time with traffic below the map.
 
-![BMV8_DirectionsEventExample](../v8-web-control/media/bmv8-directionseventexample.PNG)
+![Directions Event Example](../v8-web-control/media/bmv8-directionseventexample.PNG)

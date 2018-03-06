@@ -21,10 +21,7 @@ For many apps the default infobox and the various options for customizing it wor
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-            async defer></script>
-    <script type='text/javascript'>
+	<script type='text/javascript'>
     var map;
 
     //Define an HTML template for a custom infobox.
@@ -32,9 +29,7 @@ For many apps the default infobox and the various options for customizing it wor
 
     function GetMap() {
         map = new Microsoft.Maps.Map('#myMap',
-            {
-                credentials: 'Your Bing Maps Key'
-            });
+            {});
 
         var center = map.getCenter();
 
@@ -69,6 +64,7 @@ For many apps the default infobox and the various options for customizing it wor
                 margin-bottom: 5px;
             }
     </style>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

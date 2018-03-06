@@ -16,5 +16,5 @@ manager: "stevelom"
 Name             | Type                           | Description
 ---------------- | ------------------------------ | -----------------------------------------
 `callback`	     | function()                     | A callback function that is fired after the module has loaded.
-`credentials`    | string                         | **Deprecated.** A Bing Maps key that is used with the module when the module is loaded without a map.<br/><br/>It is recommended that the Bing Maps key be set as a URL parameter of the Bing Maps script reference as documented in the [Setting Map Control Parameters](Setting%20Map%20Control%20Parameters.md) document. This option will continue to work.
+`credentials`    | string                         | **Deprecated.** A Bing Maps key that is used with the module when the module is loaded without a map.<br/><br/>It is recommended that the Bing Maps key be set as a URL parameter of the Bing Maps script reference as documented in the [Setting Map Control Parameters](../v8-web-control/setting-map-control-parameters.md) document. This option will continue to work.
 `errorCallback`  | function(errorMessage:string)  | A function that is called if there is an error loading the module.

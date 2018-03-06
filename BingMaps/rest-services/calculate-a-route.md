@@ -34,7 +34,7 @@ http://dev.virtualearth.net/REST/v1/Routes? wayPoint.1=wayPoint1&viaWaypoint.2=v
   
  **Find a walking, driving or transit route by specifying the mode of travel.**  
   
- For a list of transit agencies, see [Bing Maps Transit Coverage](http://msdn.microsoft.com/en-us/library/hh441739.aspx). You can request up to three (3) driving or transit route options between two waypoints by using the maxSolutions parameter.  
+ For a list of transit agencies, see [Bing Maps Transit Coverage](../coverage/bing-maps-transit-coverage.md). You can request up to three (3) driving or transit route options between two waypoints by using the maxSolutions parameter.  
   
 ```  
 http://dev.virtualearth.net/REST/v1/Routes/travelMode?wayPoint.1=wayPoint1&viaWaypoint.2=viaWaypoint2&waypoint.3=wayPoint3&wayPoint.n=wayPointn&heading=heading&optimize=optimize&avoid=avoidOptions&distanceBeforeFirstTurn=distanceBeforeFirstTurn&routeAttributes=routeAttributes&timeType=timeType&dateTime=dateTime&maxSolutions=maxSolutions&tolerances=tolerance1,tolerance2,tolerancen&distanceUnit=distanceUnit&mfa=mfa&key=BingMapsKey  
@@ -72,7 +72,7 @@ http://dev.virtualearth.net/REST/v1/Routes/travelMode?wayPoint.1=wayPoint1&viaWa
 |travelMode||**Optional.** The mode of travel for the route.|One of the following values:<br /><br /> -   Driving **[default]**<br />-   Walking<br />-   Transit|  
   
 ## Response  
- A Route resource is returned when you make a request with one of the following URLs. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). For more information about the common response syntax for the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)], see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
+ A Route resource is returned when you make a request with one of the following URLs. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
   
  These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
   
@@ -203,7 +203,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?o=xml&wp.0=44.979035,-93.2649
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling2.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -211,19 +211,15 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?o=xml&wp.0=44.979035,-93.2649
   
  When the request is not successful, the response returns one of the following errors.  
   
--   400  
-  
--   401  
-  
--   404  
-  
--   500  
-  
+-   400    
+-   401    
+-   404    
+-   500    
 -   503  
   
 ## See Also  
- [Driving Route Example](../rest-services/driving-route-example.md)   
- [Walking Route Example](../rest-services/walking-route-example.md)   
- [Transit Route Example](../rest-services/transit-route-example.md)   
- [Driving Route with Route Path Example](../rest-services/driving-route-with-route-path-example.md)   
- [Driving Route using Tolerances Example](../rest-services/driving-route-using-tolerances-example.md)
+ * [Driving Route Example](../rest-services/driving-route-example.md)   
+ * [Walking Route Example](../rest-services/walking-route-example.md)   
+ * [Transit Route Example](../rest-services/transit-route-example.md)   
+ * [Driving Route with Route Path Example](../rest-services/driving-route-with-route-path-example.md)   
+ * [Driving Route using Tolerances Example](../rest-services/driving-route-using-tolerances-example.md)

@@ -41,4 +41,4 @@ Name            | Type            | Description
 
 ## See Also: 
 
-* [Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)
+* [Bing Maps Tile System](../articles/bing-maps-tile-system.md)

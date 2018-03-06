@@ -13,9 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Common Response Description
-The response to a [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] URL request includes the status of the request and one or more resources that contain location, imagery, or route information. The resource information that is returned depends on the [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] URL that is used and the parameter values that are provided with it. For example, a [Locations](../rest-services/locations-api.md) URL returns one or more Location resources that provide location information based on the values in the URL request.  
+The response to a Bing Maps REST Services URL request includes the status of the request and one or more resources that contain location, imagery, or route information. The resource information that is returned depends on the Bing Maps REST Services URL that is used and the parameter values that are provided with it. For example, a [Locations](../rest-services/locations-api.md) URL returns one or more Location resources that provide location information based on the values in the URL request.  
   
- The following tables describe the common fields that are returned in the response to a [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] URL request. For more information about specific resource content, see the API reference for the Locations, Imagery, and Routes APIs.  
+ The following tables describe the common fields that are returned in the response to a Bing Maps REST Services URL request. For more information about specific resource content, see the API reference for the Locations, Imagery, and Routes APIs.  
   
 ## Response  
  The Response container for a request provides the following information.  
@@ -37,7 +37,7 @@ The response to a [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-p
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
 |estimatedTotal|EstimatedTotal|long|An estimate of the total number of resources in the ResourceSet.|  
-|resources|Resources|collection|A collection of one or more resources. The resources that are returned depend on the request. Information about resources is provided in the API reference for each [!INCLUDE[bm_rest_product_name](../articles/includes/bm-rest-product-name-md.md)] API.|  
+|resources|Resources|collection|A collection of one or more resources. The resources that are returned depend on the request. Information about resources is provided in the API reference for each Bing Maps REST Services API.|  
   
 ## Examples  
  The following are examples JSON and XML responses.  

@@ -25,13 +25,13 @@ The Directions Module allows you to calculate a route and display it on the map.
 
 ## Related Topics
 
-* [DirectionsManager Class](https://msdn.microsoft.com/library/mt750375.aspx)
-* [DirectionsRenderOptions Object](https://msdn.microsoft.com/library/mt750365.aspx)
-* [DirectionsRequestOptions Object](https://msdn.microsoft.com/library/mt750373.aspx)
-* [DistanceUnit Enumeration](https://msdn.microsoft.com/library/mt750374.aspx)
-* [RouteAvoidance Enumeration](https://msdn.microsoft.com/library/mt750366.aspx)
-* [RouteMode Enumeration](https://msdn.microsoft.com/library/mt750367.aspx)
-* [RouteOptimization Enumeration](https://msdn.microsoft.com/library/mt750370.aspx)
-* [TimeTypes Enumeration](https://msdn.microsoft.com/library/mt750372.aspx)
-* [Waypoint Class](https://msdn.microsoft.com/library/mt750369.aspx)
-* [WaypointOptions Object](https://msdn.microsoft.com/library/mt750368.aspx)
+* [DirectionsManager Class](../v8-web-control/directionsmanager-class.md)
+* [DirectionsRenderOptions Object](../v8-web-control/directionsrenderoptions-object.md)
+* [DirectionsRequestOptions Object](../v8-web-control/directionsrenderoptions-object.md)
+* [DistanceUnit Enumeration](../v8-web-control/distanceunit-enumeration.md)
+* [RouteAvoidance Enumeration](../v8-web-control/routeavoidance-enumeration.md)
+* [RouteMode Enumeration](../v8-web-control/routemode-enumeration.md)
+* [RouteOptimization Enumeration](../v8-web-control/routeoptimization-enumeration.md)
+* [TimeTypes Enumeration](../v8-web-control/timetypes-enumeration.md)
+* [Waypoint Class](../v8-web-control/waypoint-class.md)
+* [WaypointOptions Object](../v8-web-control/waypointoptions.md)

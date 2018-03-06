@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Geocoding and Managing Data Sources
-The following topics describe how to use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to create and manage data sources.  
+The following topics describe how to use the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to create and manage data sources.  
   
 ## In this section  
   
@@ -23,12 +23,12 @@ The following topics describe how to use the [!INCLUDE[maps_devportal_name](../g
 |[Editing a Data Source](../getting-started/editing-a-data-source.md)|Describes how to edit entity data and data schemas for published data sources.|  
 |[Downloading a Data Source](../getting-started/downloading-a-data-source.md)|Describes how to download entity data from a data source.|  
 |[Deleting a Data Source](../getting-started/deleting-a-data-source.md)|Describes how to delete a data source.|  
-|[Getting Data Source Information](../getting-started/getting-data-source-information.md)|Describes how to get master key and query URL information for all the data sources that associated with a [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)].|  
+|[Getting Data Source Information](../getting-started/getting-data-source-information.md)|Describes how to get master key and query URL information for all the data sources that associated with a Bing Maps Dev Center.|  
 |[Making a Data Source Public or Private](../getting-started/making-a-data-source-public-or-private.md)|Describes how to specify data source access as private (can be queried by query key or master key only) or public (can be queried by anyone with a Bing Maps Key and the query URL).|  
-|[Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)|Describes the limits on geocoding and managing data sources using the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] and [!INCLUDE[bm_spatialapi_product_name](../articles/includes/bm-spatialapi-product-name-md.md)].|  
+|[Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)|Describes the limits on geocoding and managing data sources using the Bing Maps Dev Center and Bing Spatial Data Services.|  
   
 > [!NOTE]
 >  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
   
 ### Transaction Accounting  
- Transactions are recorded for when you use the [!INCLUDE[maps_devportal_name](../getting-started/includes/maps-devportal-name-md.md)] to create and manage data sources. For more information about billable and non-billable transactions and how to view them, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).
+ Transactions are recorded for when you use the Bing Maps Dev Center to create and manage data sources. For more information about billable and non-billable transactions and how to view them, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).
