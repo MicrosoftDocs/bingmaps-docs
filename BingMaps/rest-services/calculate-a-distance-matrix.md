@@ -69,9 +69,8 @@ When a matrix includes a histogram, each origin-destination pair will have a cel
 
 For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15-minute increments (resolution = 1) over 24 hours, will generate 960 cells where 2 \* 5 \* 24/0.25 = 2 \* 5 \* 24 \* 4 = 960.
 
-| Note             |
-|------------------|
-| Cells will not be generated for origin-destination pairs that have the same index and coordinate. These will not be included in the transaction counts. If these exist in your query, you can subtract these from the calculated number of cells above to get a more accurate number for estimating transaction counts. |
+> [!NOTE]
+> Cells will not be generated for origin-destination pairs that have the same index and coordinate. These will not be included in the transaction counts. If these exist in your query, you can subtract these from the calculated number of cells above to get a more accurate number for estimating transaction counts. 
 
 **How to calculate total number of billable transactions a request will generate**
 
@@ -99,9 +98,8 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 
 ## URL Template
 
-| Note          |
-|---------------|
-| These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). |
+> [!NOTE]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
 
 **Synchronous Distance Matrix Request URL (GET)**
 
@@ -217,9 +215,8 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 
 ## Template Parameters
 
-| Note    |
-|---------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md). |
+> [!NOTE]
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md). 
 
 | Parameters | Description |
 |------------|-------------|
@@ -232,9 +229,8 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 | distanceUnit   | **Optional.** The units to use for distances in the response. One of the following values:<br/><br/> • mile or mi<br/> • kilometer or km \[default\]<br/><br/>**Example**: distanceUnit=mi  |
 | timeUnit       | **Optional.** The units to use for time durations in the response. One of the following values:<br/><br/> • minute \[default\]<br/> • second<br/><br/>**Example**: timeUnit=second |
 
-| Tip   |
-|-------|
-| Geocode your origins and destinations ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests and reduce transactions as geocoding of origin and destinations won’t be needed. |
+> [!TIP]
+> Geocode your origins and destinations ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests and reduce transactions as geocoding of origin and destinations won’t be needed. 
 
 ## Response
 
@@ -480,9 +476,8 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 
 ## HTTP Status Codes
 
-| Note            |
-|-----------------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
+> [!NOTE]
+> For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). 
 
 When the request is successful, the following HTTP status code is returned.
 
