@@ -29,7 +29,7 @@ When you make a request by using one of the following URL templates, the respons
 Requests to the distance matrix API can be done in one of two ways:
 
 * Most requests can be made with a simple synchronous GET or POST request.
-* **(PREVIEW)** More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
+* More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
 
 A distance matrix can be requested that has up to 625 origins-destinations pairs which is calculated by multiplying the number of origins, by the number of destinations. For example, you can have 1 origin, and 625 destinations, or 25 origins and 25 destinations.
 
