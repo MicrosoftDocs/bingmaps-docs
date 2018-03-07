@@ -45,9 +45,8 @@ GET
 
 ## URL Template
 
-| Note      |
-|-----------|
-| These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). |
+> [!NOTE]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
 
 **Synchronous GET Requests**
 
@@ -77,9 +76,8 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback?requestId=re
 
 The following is a list of parameters that are supported by the Isochrone API.
 
-| Note      |
-|-----------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  |
+> [!NOTE]
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  
 
 | Parameter    | Alias  | Description  |
 |--------------|--------|--------------|
@@ -146,9 +144,8 @@ To view the complete XML and JSON responses, see [Isochrone Asynchronous Example
 
 ## HTTP Status Codes
 
-| Note      |
-|-----------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
+> [!NOTE]
+> For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). 
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -163,7 +160,8 @@ When the request is not successful, the response returns one of the following er
 * 500
 * 503
 
-**Tip:** When making an asynchronous request, if the *RouteProxyAsyncResult* *ErrorMessage* says "Timeout occurred", the likely cause is that the maximum time or distance values in the request are too large and is resulting in a timeout on the server when calculating the isochrone. 
+> [!TIP]
+> When making an asynchronous request, if the *RouteProxyAsyncResult* *ErrorMessage* says "Timeout occurred", the likely cause is that the maximum time or distance values in the request are too large and is resulting in a timeout on the server when calculating the isochrone. 
 
 ## See Also
 
