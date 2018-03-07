@@ -19,7 +19,7 @@ When you make a request by using one of the following URL templates, the respons
 
 The algorithm that powers the Bing Maps Snap to Road API is based on [this great paper](https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/) written by Microsoft Research.
 
-> ![Note]
+> [!Note]
 > The GPS points must be within 2.5 kilometer of each other. 
 
 ## Supported HTTP Methods
@@ -28,7 +28,7 @@ GET, POST
 
 ## URL Template
 
-> ![Note]
+> [!Note]
 > These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
 
 **GET Requests**
@@ -76,7 +76,7 @@ Content-Type: application/json
 
 The following is a list of parameters that are supported by the Snap to Road API.
 
-> ![Note]
+> [!Note]
 > Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  
 
 | Parameter              | Alias | Description                                                                                                                                                                    |
@@ -138,7 +138,7 @@ To view the complete XML and JSON responses, see [Snap to Road Example](../rest-
 
 ## HTTP Status Codes
 
-> ![Note]
+> [!Note]
 > For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). 
 
 When the request is successful, the following HTTP status code is returned.
