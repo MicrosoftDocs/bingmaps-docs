@@ -19,9 +19,8 @@ When you make a request by using one of the following URL templates, the respons
 
 The algorithm that powers the Bing Maps Snap to Road API is based on [this great paper](https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/) written by Microsoft Research.
 
-| Note      |
-|-----------|
-| The GPS points must be within 1 kilometer of each other. |
+> ![Note]
+> The GPS points must be within 2.5 kilometer of each other. 
 
 ## Supported HTTP Methods
 
@@ -29,9 +28,8 @@ GET, POST
 
 ## URL Template
 
-| Note                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). |
+> ![Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
 
 **GET Requests**
 
@@ -78,13 +76,12 @@ Content-Type: application/json
 
 The following is a list of parameters that are supported by the Snap to Road API.
 
-| Note                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  |
+> ![Note]
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  
 
 | Parameter              | Alias | Description                                                                                                                                                                    |
 |------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| points                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 100 points may be passed in.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
+| points                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 500 points for synchronhous requests, and 100,000 points for asynchrnous requests.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
 | interpolate            | intpl | **Optional**. Indicates if the space between the snapped points should be filled with additional points along the road, thus returning the full route path. Default: **false**<br/><br/>**Example**: interpolate=true                                                                                                                                                   |
 | includeSpeedLimit      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
 | includeTruckSpeedLimit | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
@@ -141,9 +138,8 @@ To view the complete XML and JSON responses, see [Snap to Road Example](../rest-
 
 ## HTTP Status Codes
 
-| Note                                                                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------|
-| For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). |
+> ![Note]
+> For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md). 
 
 When the request is successful, the following HTTP status code is returned.
 
