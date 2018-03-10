@@ -44,7 +44,7 @@ See [Asynchronous Requests documentation](../rest-services/asynchronous-requests
 
 GET, POST
 
-POST requests require all parameters to be passed into the body of the request as a JSON object.
+POST requests require all parameters to be passed into the body of the request as a JSON object. This API is [CORs enabled](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 
 **When to use HTTP GET vs POST**
 
@@ -53,7 +53,7 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 ## URL Template
 
 > [!NOTE]
->  These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](https://msdn.microsoft.com/library/ff428642). 
+>  These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
 
 Truck route calculations require a lot more processing than standard driving route calculations, as such synchronous and asynchronous requests are supported. It is recommended to use the asynchronous request when calculating longer routes.
 
@@ -62,7 +62,7 @@ There are a lot of options available for truck routes. As such, some requests co
 **Synchronous Truck Routing Request URL (GET)**
 
 ```
-https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1=wayPoint1&viaWaypoint.2=viaWaypoint2&waypoint.3=wayPoint3&wayPoint.n=wayPointn&heading=heading&optimize=optimize&avoid=avoidOptions&distanceBeforeFirstTurn=distanceBeforeFirstTurn&routeAttributes=routeAttributes&dateTime=dateTime&tolerances=tolerances&distanceUnit=distanceUnit&vehicleHeight=vehicleHeight&vehicleWidth=vehicleWidth&vehicleLength=vehicleLength&vehicleWeight=vehicleWeight&vehicleAxles=vehicleAxles&vehicleTrailers=vehicleTrailers&vehicleSemi=vehicleSemi&vehicleMaxGradient=vehicleMaxGradient&vehicleMinTurnRadius=vehicleMinTurnRadius&vehicleAvoidCrossWind=vehicleAvoidCrossWind&vehicleAvoidGroundingRisk=vehicleAvoidGroundingRisk&vehicleHazardousMaterials=vehicleHazardousMaterials&vehicleHazardousPermits=vehicleHazardousPermits&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
 **Synchronous Truck Routing Request URL (POST)**
@@ -70,7 +70,7 @@ https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1=wayPoint1&viaWaypoi
 *HTTP POST Request URL*
 
 ```
-https://dev.virtualearth.net/REST/v1/Routes/Truck?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?key={BingMapsKey}
 ```
 
 *POST Header*
@@ -125,7 +125,7 @@ Content-Type: application/json
 **Asynchronous Truck Routing Request URL (GET)**
 
 ```
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1=wayPoint1&viaWaypoint.2=viaWaypoint2&waypoint.3=wayPoint3&wayPoint.n=wayPointn&heading=heading&optimize=optimize&avoid=avoidOptions&distanceBeforeFirstTurn=distanceBeforeFirstTurn&routeAttributes=routeAttributes&dateTime=dateTime&tolerances=tolerances&distanceUnit=distanceUnit&vehicleHeight=vehicleHeight&vehicleWidth=vehicleWidth&vehicleLength=vehicleLength&vehicleWeight=vehicleWeight&vehicleAxles=vehicleAxles&vehicleTrailers=vehicleTrailers&vehicleSemi=vehicleSemi&vehicleMaxGradient=vehicleMaxGradient&vehicleMinTurnRadius=vehicleMinTurnRadius&vehicleAvoidCrossWind=vehicleAvoidCrossWind&vehicleAvoidGroundingRisk=vehicleAvoidGroundingRisk&vehicleHazardousMaterials=vehicleHazardousMaterials&vehicleHazardousPermits=vehicleHazardousPermits&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
 **Synchronous Truck Routing Request URL (POST)**
@@ -133,7 +133,7 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1=wayPoint1&viaW
 *HTTP POST Request URL*
 
 ```
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key={BingMapsKey}
 ```
 
 *POST Header*
@@ -190,7 +190,7 @@ Content-Type: application/json
 The initial asynchronous response includes a *callbackUrl* property which contains the URL that can be used to check the status of the job. Alternatively, the callback URL can also be generated by appending the *requestId* that is returned in the initial asynchronous request along with the same Bing Maps key used, with the **TruckAsyncCallback** endpoint as shown below. The response from this request will indicate if the request is complete or not, if complete it will provide a *resultUrl* property which is a URL that can be used to download the results.
 
 ```
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=requestId&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId={requestId}&key={BingMapsKey}
 ```
 
 ## Template Parameters

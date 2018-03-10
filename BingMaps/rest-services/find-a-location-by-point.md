@@ -19,13 +19,13 @@ Use the following URL template to get the location information associated with l
   
 ## URL Template  
   
-> [!NOTE]
->  This template supports both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
  **Get an address for a specified point (latitude and longitude).**  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Locations/point?includeEntityTypes=entityTypes&includeNeighborhood=includeNeighborhood&include=includeValue&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/{point}?includeEntityTypes={entityTypes}&includeNeighborhood={includeNeighborhood}&include={includeValue}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -320,17 +320,16 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityT
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503
   
 ## See Also  
  [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   

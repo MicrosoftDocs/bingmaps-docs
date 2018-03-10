@@ -19,15 +19,12 @@ Use the following URL templates to get latitude and longitude coordinates for a 
   
 ## URL Templates  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
 > [!TIP]
->  Be sure to review the [Bing Maps API Best Practices guide](https://msdn.microsoft.com/en-us/library/dn894107.aspx) before using this service.  
-  
-> [!TIP]
->  You can increase the accuracy of a location result by specifying an IP address, user location or map area in the URL request. For more information about these parameters, see [User Context Parameters](../rest-services/user-context-parameters.md).  
-  
+>  Be sure to review the [Bing Maps API Best Practices guide](../getting-started/bing-maps-api-best-practices.md) before using this service.  
+    
  **Unstructured URL: Get the latitude and longitude coordinates based on a set of address values for any country**  
   
  You can get information for a location in any country by setting one or more of the parameters in the following URL.  
@@ -35,9 +32,10 @@ Use the following URL templates to get latitude and longitude coordinates for a 
  An unstructured URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=locality&postalCode=postalCode&addressLine=addressLine&userLocation=userLocation&userIp=userIp&usermapView=usermapView&includeNeighborhood=includeNeighborhood&maxResults=maxResults&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&adminDistrict={adminDistrict}&locality={locality}&postalCode={postalCode}&addressLine={addressLine}&userLocation={userLocation}&userIp={userIp}&usermapView={usermapView}&includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
-  
+
+<!--  
  **Structured URLs: Get the latitude and longitude coordinates based on a set of address values for specific countries**  
   
 > [!NOTE]
@@ -82,7 +80,8 @@ http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/postalCode/locali
 ```  
 http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
 ```  
-  
+-->
+
 > [!IMPORTANT]
 >  **About Special Characters**  
 >   
@@ -93,11 +92,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/locality/addressL
 >  **Unstructured query:** `http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key=BingMapsKey`  
 >   
 >  **[Find a Location by Query](../rest-services/find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key=BingMapsKey`  
-  
-> [!TIP]
->  You can increase the accuracy of a location result by specifying an IP address, user location or map area in the URL request. For more information about these parameters, see [User Context Parameters](../rest-services/user-context-parameters.md).  
->   
->  If you are using the Locations API from server-side code, you can set the userIP parameter to 127.0.0.1 (localhost) to prevent the server’s location from affecting the location search results.  
+
   
 ### Template Parameters  
   
@@ -506,17 +501,16 @@ http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&ke
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503
   
 ## See Also  
  [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   

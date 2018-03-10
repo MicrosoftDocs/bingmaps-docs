@@ -17,17 +17,21 @@ Use the following URL template to request traffic incident information. A collec
   
  For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). You can also view the example URL and response values in the **Examples** section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](../rest-services/getting-traffic-incident-data.md).  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](http://msdn.microsoft.com/en-us/library/jj136866).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
   
+## Supported HTTP Methods
+
+GET
+
 ## URL Templates  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
  **Get traffic incidents.**  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Traffic/Incidents/mapArea/includeLocationCodes?severity=severity1,severity2,severityn&type=type1,type2,typen&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocationCodes}?severity={severity1,severity2,severityN}&type={type1,type2,typeN}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  

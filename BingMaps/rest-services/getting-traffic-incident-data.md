@@ -19,7 +19,7 @@ You can get traffic incident information along a route using the [Routes](../res
   
 -   Traffic location codes that specify incident information for a road segment or specific location as a code, such as 120-15918. A subscription is typically required to interpret and use the traffic location codes.  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](http://msdn.microsoft.com/en-us/library/jj136866).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
   
 ## Traffic incident information along a route (Routes API)  
  Each route segment (itinerary item) returned by the Routes API may include a set of traffic location codes and a set of warnings that specify traffic incident information along that part of the route. The warnings include a description of the incident, the severity, and a warning type, such as Accident or BlockedRoad. To see a list of the warning types, see [Warning Types](../rest-services/warning-types.md).  

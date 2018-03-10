@@ -31,7 +31,7 @@ Use the following URL template to return a driving route to a location from majo
  **Find routes from major roads in four directions (West, North, East, South).**  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads?destination=destination&exclude=routes&rpo=routePathOutput&du=distanceUnit&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads?destination={destination}&exclude=routes&routePathOutput={routePathOutput}&distanceUnit={distanceUnit}&key={BingMapsKey}
 ```  
   
 ### Template Parameters  
@@ -1272,19 +1272,16 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&outp
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   404  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503
   
 ## See Also  
  [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   

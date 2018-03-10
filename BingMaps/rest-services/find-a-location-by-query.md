@@ -19,30 +19,30 @@ Use the following URL templates to get latitude and longitude coordinates that c
   
 ## URL Template  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
 > [!TIP]
->  You can increase the accuracy of a location result by specifying an IP address, user location or map area in the URL request. For more information about these parameters, see [User Context Parameters](../rest-services/user-context-parameters.md).  
->   
->  If you are using the Locations API from server-side code, you can set the userIP parameter to 127.0.0.1 (localhost) to prevent the server’s location from affecting the location search results.  
-  
+>  Be sure to review the [Bing Maps API Best Practices guide](../getting-started/bing-maps-api-best-practices.md) before using this service.  
+
  **Returns latitude and longitude coordinates for a location that is specified as query string.**  
   
+  <!--
  **Structured URL**  
   
  A structured URL specifies the location data as part of the URL path.  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Locations/locationQuery?includeNeighborhood=includeNeighborhood&maxResults=maxResults&include=includeValue&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/{locationQuery}?includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&include={includeValue}&key={BingMapsKey}  
 ```  
-  
+ 
  **Unstructured URL**  
-  
- An unstructured URL appends the location data to the URL path. In the following template, the location data is specified by using a query parameter that is appended to the end of the URL path.  
+ -->
+ 
+ An URL appends the location data to the URL path. In the following template, the location data is specified by using a query parameter that is appended to the end of the URL path.  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Locations?query=locationQuery&includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -541,20 +541,17 @@ http://dev.virtualearth.net/REST/v1/Locations?q=Greenville&maxResults=10&key=Bin
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)   
- [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)   
- [Getting Route Directions](https://msdn.microsoft.com/en-us/library/gg427607.aspx)
+ * [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
+ * [JSON Data Contracts](../rest-services/json-data-contracts.md)   

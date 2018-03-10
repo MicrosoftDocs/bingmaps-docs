@@ -13,7 +13,8 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Snap to Road Data
-The following tables provide the descriptions of the `SnapToRoadResponse` resource fields.
+
+The response returned by the Snap to Road API contains either an `SnapToRoadResponse` resource or an `RouteProxyAsyncStatus` resource. The `SnapToRoadResponse` contains the snapped point data while the `RouteProxyAsyncStatus` contains status information about an asynchronous request that was made for an isochrone. The following tables provide the descriptions of the `SnapToRoadResponse` resource fields.
 
 For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).
 

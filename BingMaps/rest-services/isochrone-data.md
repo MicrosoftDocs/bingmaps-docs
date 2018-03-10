@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ---
 # Isochrone Data
-The response returned by the Isochrone API contains either an IsochoneResponse resource or an IsochroneAsyncStatus resource. The IsochroneResponse contains the generated polygon isochrone data while the IsochroneAsyncStatus contains status information about an asynchronous request that was made for an isochrone. The following tables provide the descriptions of the IsochroneResponse resource fields.
+The response returned by the Isochrone API contains either an `IsochoneResponse` resource or an `RouteProxyAsyncStatus` resource. The `IsochroneResponse` contains the generated polygon isochrone data while the `RouteProxyAsyncStatus` contains status information about an asynchronous request that was made for an isochrone. The following tables provide the descriptions of the `IsochroneResponse` resource fields.
 
 For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).
 

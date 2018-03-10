@@ -17,23 +17,19 @@ Use the following URL templates to get metadata for imagery that is hosted by Bi
   
  Uses of this metadata include the following:  
   
--   Determine the vintage of the imagery at a location.  
-  
--   Determine the availability of imagery at a location at a specified zoom level.  
-  
--   Determine the availability of different types of imagery at a location.  
-  
+-   Determine the vintage of the imagery at a location.    
+-   Determine the availability of imagery at a location at a specified zoom level.    
+-   Determine the availability of different types of imagery at a location.    
 -   Build custom maps by stitching together imagery tiles.  
   
 ## URL Templates  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
- There are two types of imagery metadata URLs:  
+There are two types of imagery metadata URLs:  
   
--   **Complete Metadata URLs**: Get imagery information that includes a map tile.  
-  
+-   **Complete Metadata URLs**: Get imagery information that includes a map tile.    
 -   **Basic Metadata URL**: Get imagery information that does not include a map tile.  
   
 ### Complete Metadata URLs  
@@ -43,13 +39,13 @@ Use the following URL templates to get metadata for imagery that is hosted by Bi
 >  This template is not applicable for Birdseye imagery because Birdseye imagery requires a location.  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/imagerySet?key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}?key={BingMapsKey}  
 ```  
   
  **Get the metadata for an imagery set at a specific location.**  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/imagerySet/centerPoint?orientation=orientation&zoomLevel=zoomLevel&include=ImageryProviders&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsKey}  
 ```  
   
 ### Basic Metadata URL  
@@ -60,7 +56,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/imagerySet/centerPoint?ori
  **Get only the basic metadata for an imagery set at a specific location. This URL does not return a map tile URL.**  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/imagerySet/centerPoint?orientation=orientation&zoomLevel=zoomLevel&include=ImageryProviders&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -390,17 +386,16 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/AerialWithLabels/47.23,-12
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503
   
 ## See Also  
  [Bing Maps Tile System](http://msdn.microsoft.com/en-us/library/bb259689.aspx)   

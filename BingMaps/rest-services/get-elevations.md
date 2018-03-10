@@ -17,10 +17,8 @@ Use the following URLs to get elevation values (in meters) for a set of location
   
 ## URL Templates  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols and can be POST or GET requests.  
->   
->  To use this API, you must have a [Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642).  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
  **Unit of elevation**: meters  
   
@@ -31,7 +29,7 @@ Use the following URLs to get elevation values (in meters) for a set of location
  **Required parameters**: points, key  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Elevation/List?points=lat1,long1,lat2,long2,latn,longn&heights=heights&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsKey}  
 ```  
   
  **Get elevations at equally-spaced locations along a polyline path.**  
@@ -41,7 +39,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points=lat1,long1,lat2,long2,
  **Required parameters**: points, samples, key  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=lat1,long1,lat2,long2,latn,longn&heights=heights&samples=samples&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsKey}  
 ```  
   
  **Get elevations at equally-spaced locations within an area on the Earth defined as a bounding box.**  
@@ -53,7 +51,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=lat1,long1,lat2,lo
  **Required parameters**: bounds, rows, cols, key  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=boundingBox&rows=rows&cols=cols&heights=heights&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsKey}  
 ```  
   
  **Get the offset of the geoid sea level Earth model from the ellipsoid Earth model at a set of latitude and longitude coordinates.**  
@@ -63,7 +61,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=boundingBox&rows=row
  **Required parameters**: points, key  
   
 ```  
-http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=lat1,long1,lat2,long2,latn,longn&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsKey}  
 ```  
   
  **About Elevations and Coordinate Values:**  
@@ -466,17 +464,16 @@ points=38.8895,77.0501,38.8877,-77.0472,38.8904,-77.0474,38.8896,77.0351
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503 
   
 ## See Also  
  [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   

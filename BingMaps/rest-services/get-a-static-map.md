@@ -15,11 +15,17 @@ manager: "stevelom"
 # Get a Static Map
 Use the following URL templates to get a static map. You can also display a route on a static map, and you can request static map metadata. Static map metadata includes the absolute (latitude and longitude) and relative (with respect to the map) coordinates and size of pushpins as well as the map area and center point.  
   
+## Supported HTTP Methods
+
+GET, POST
+
+POST requests require all parameters to be passed into the body of the request as a JSON object. This API is [CORs enabled](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
+
 ## URL Templates  
  The default map size is 350 pixels by 350 pixels.  
   
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
+> [!Note]
+> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
   
  **Static map metadata**: To get the size and center point of the image and the locations and size of the pushpins on the map, set the mapMetadata parameter to 1 (true). When you request static map metadata, the metadata is returned instead of the map image.  
   
@@ -28,13 +34,13 @@ Use the following URL templates to get a static map. You can also display a rout
  When you specify a center point, you must also specify a zoom level.  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}?mapSize={mapSize}&pushpin={pushpin_1}&pushpin={pushpin_2}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
   
  **Get a map that shows a specified map area.**  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea=mapArea&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}?pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&mapArea={mapArea}&mapSize={mapSize}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey} 
 ```  
   
  **Get a map with pushpins that does not specify a center point or map area.**  
@@ -42,7 +48,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea=mapArea&mapS
  If you do not specify a center point or map area, the map area is chosen to optimize the display of the pusphins.  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?pushpin=pushpin_1&pushpin=pushpin_2&pushpin=pushpin_n&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}?pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&mapSize={mapSize}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
   
  **Get a map that is centered at the specified point and that displays a route.**  
@@ -50,7 +56,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?pushpin=pushpin_1&pu
  You can display a route on a map by specifying a set of waypoints.  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel/Routes/travelMode?waypoint.1=routeWaypoint1&waypoint.2=routeWaypoint2&waypoint.n=routeWaypointn&mapSize=mapSize&avoid=avoidOptions&pushpin=pushpin&timeType=timetType&dateTime=dateTime&maxSolutions=maxSolutions&distanceBeforeFirstTurn=distanceBeforeFirstTurn&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}?waypoint.1={waypoint1}&waypoint.2={waypoint2}&waypoint.n={wWaypointN}&mapSize={mapSize}&avoid={avoidOptions}&pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}   
 ```  
   
  **Get a map that displays a route without specifying a center point. You can choose to specify the map area or you can accept the default.**  
@@ -58,13 +64,13 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLeve
  You can display a route on a map by specifying a set of waypoints. When a map area or a center point and a zoom level are not specified, a map area is chosen to optimize the display of the route.  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/Routes/travelMode?waypoint.1=routeWaypoint1&waypoint.2=routeWaypoint2&waypoint.n=routeWaypointn&mapArea=mapArea&avoid=avoidOptions&pushpin=pushpin&timeType=timeType&dateTime=dateTime&maxSolutions=maxSolutions&distanceBeforeFirstTurn=distanceBeforeFirstTurn&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}?waypoint.1={waypoint1}&waypoint.2={waypoint2}&waypoint.n={wWaypointN}&mapSize={mapSize}&mapArea={mapArea}&avoid={avoidOptions}&pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
   
  **Get a map that is based on a query.**  
   
 ```  
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize=mapSize&mapLayer=mapLayer&format=format&mapMetadata=mapMetadata&key=BingMapsKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{query}?mapSize={mapSize}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}   
 ```  
   
  **Pushpin limits**: If you use HTTP GET method with the following URL templates, you can specify up to 18 pushpins in the URL. If you want to specify more than 18 pushpins, use the HTTP POST method and specify up to 100 pushpins in the body of the HTTP POST request. If you use the HTTP POST method, all pushpins must be in the body of the request and not in the URL, and you must set the Content-Type to “text/plain” and the charset to “UTF-8” in the HTTP header. For a sample request, see the **Examples** section.  
@@ -92,7 +98,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize=mapSiz
 |declutterPins|dcl|**Optional.** Specifies whether to change the display of overlapping pushpins so that they display separately on a map.|One of the following values:<br /><br /> -   1: Declutter pusphpin icons.<br />-   0 **[default]**: Do not declutter pushpin icons.<br /><br /> **Note**: This feature is only supported when using the default pushpin style.<br /><br /> **Examples**:<br /><br /> declutter=1<br /><br /> dcl =1|  
 |dpi||**Optional.** Specifies the resolution of the labels on the image to retrieve.|One of the following values:<br /><br /> -   Large: High resolution labels.<br />-   null **[default]**: Default image resolution.<br /><br /> **Example**: dpi=Large|  
 |format|fmt|**Optional.** The image format to use for the static map.|One of the following image format values:<br /><br /> -   gif: Use GIF image format.<br />-   jpeg: Use JPEG image format. JPEG format is the default for Road, Aerial and AerialWithLabels imagery.<br />-   png: Use PNG image format. PNG is the default format for CollinsBart and OrdnanceSurvey imagery.<br /><br /> **Examples:**<br /><br /> format=jpeg<br /><br /> fmt=gif|  
-|imagerySet||**Required.** The type of imagery.|One of the following values:<br /><br /> -   Aerial – Aerial imagery.<br />-   AerialWithLabels –Aerial imagery with a road overlay.<br />-   AerialWithLabelsOnDemand - Aerial imagery with on-demand road overlay.<br />-   CanvasDark - A dark version of the road maps.<br />-   CanvasLight - A lighter version of the road maps which also has some of the details such as hill shading disabled.<br />-   CanvasGray - A grayscale version of the road maps.<br />-   Road – Roads without additional imagery.|  
+|imagerySet||**Required.** The type of imagery.|One of the following values:<br /><br /> - Aerial – Aerial imagery.<br />- AerialWithLabels –Aerial imagery with a road overlay.<br />-AerialWithLabelsOnDemand - Aerial imagery with on-demand road overlay.<br />- CanvasDark - A dark version of the road maps.<br />- CanvasLight - A lighter version of the road maps which also has some of the details such as hill shading disabled.<br />- CanvasGray - A grayscale version of the road maps.<br />- Road – Roads without additional imagery.<br />- RoadOnDemand - Roads without additional imagery. Uses the dynamic tile service.|  
 |mapArea|ma|**Required when a center point or set of route points are not specified.** The geographic area to display on the map.|A rectangular area specified as a bounding box. For more information, see [Location and Area Types](../rest-services/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
 |mapLayer|ml|**Optional.** A display layer that renders on top of the imagery set.|-   OrdnanceSurvey - Ordnance Survey imagery. This imagery is visible only in the UK.<br />-   TrafficFlow<br /><br /> **Example**: mapLayer=TrafficFlow|  
 |mapSize|ms|**Optional.** The width and height in pixels of the static map output.|A string that contains a width and a height separated by a comma. The width must be between 80 and 2000 pixels and the height must be between 80 and 1500 pixels. The default map size for static maps is 350 pixels by 350 pixels. If the width or height dimension exceeds the limits, the default dimensions will be used.<br /><br /> **Example**: mapSize=100,600|  
@@ -352,19 +358,16 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.677006,-122.125526/Popu
   
  When the request is successful, the following HTTP status code is returned.  
   
--   200  
-  
- When the request is not successful, the response returns one of the following errors.  
-  
--   400  
-  
--   401  
-  
--   404  
-  
--   500  
-  
--   503  
+* 200
+
+When the request is not successful, the response returns one of the following errors.
+
+* 400
+* 401
+* 404
+* 429
+* 500
+* 503 
   
 ## See Also  
  [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
