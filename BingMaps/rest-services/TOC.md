@@ -60,4 +60,3 @@
 ## [Directly accessing the Bing Maps tiles](directly-accessing-the-bing-maps-tiles.md)
 ## [Release History](release-history.md)
 ## [Developer Resources](developer-resources.md)
-### [My wesome API](AwesomeApi.md)
