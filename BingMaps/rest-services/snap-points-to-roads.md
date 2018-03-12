@@ -31,7 +31,7 @@ If you are not sure which one to use, it is recommended to use the asynchronous 
 > [!Note]
 > The GPS points must be within 2.5 kilometer of each other. 
 
-**How asynchronous requests work**
+**How asynchronous requests work**  
 
 See [Asynchronous Requests documentation](../rest-services/asynchronous-requests.md).
 
