@@ -40,6 +40,8 @@ When you use any [Bing Maps API](http://msdn.microsoft.com/en-us/library/dd87718
  To change the range of dates for the report, use the options under the **Usage Period** field.  
   
  To export the data in the report, use the options under the **Export** field.  
+
+ A QPS (queries per second) report can be viewe by clicking on the **Traffic** tab.
   
 ## Billable versus non-billable transactions  
  Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for more about licensing and transaction limits, [contact the licensing team](https://www.microsoft.com/maps/) or read the [Bing Maps Terms of Use](http://www.microsoft.com/maps/product/terms.html).  

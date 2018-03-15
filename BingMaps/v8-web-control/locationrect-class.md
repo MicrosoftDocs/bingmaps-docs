@@ -35,7 +35,8 @@ Method                                                              | Descriptio
 ------------------------------------------------------------------- | ----------------------
 fromCorners(northwest: [Location](../v8-web-control/location-class.md), southeast: [Location](../v8-web-control/location-class.md))             | Returns a LocationRect using the specified locations for the northwest and southeast corners.
 `fromEdges(north:number, west:number, south:number, east:number)`   | Returns a LocationRect using the specified northern and southern latitudes and western and eastern longitudes for the rectangle boundaries.
-fromLocations([Location](../v8-web-control/location-class.md)[])                                         | Returns a LocationRect using a list of locations or an array of locations.
+fromLocations([Location](../v8-web-control/location-class.md)\[\])                                         | Returns a LocationRect using a list of locations or an array of locations.
+fromShapes(shapes: [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ ([IPrimitive](../v8-web-control/iprimitive-class.md) _or_[IPrimitive](../v8-web-control/iprimitive-class.md)\[\])\[\]) | Calculates the LocationRect for an indivudal shape or an array of shapes.
 `fromString("north,west,south,east")`                               | Creates a LocationRect from a string with the following format: "north,west,south,east". North, west, south and east specify the coordinate number values.
 
 ## Methods
