@@ -11,6 +11,7 @@ caps.latest.revision: 49
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # What&#39;s New in the REST Services
 The Bing Maps REST Services contains the following new features.  

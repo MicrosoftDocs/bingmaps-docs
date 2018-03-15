@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Helpful Tips for Entity Data
 Here are some tips to help you when you create entity data to use with the Bing Spatial Data Services.  

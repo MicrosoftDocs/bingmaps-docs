@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Release History
 The following is a release history for the Bing Maps REST Services starting with January, 2014.  

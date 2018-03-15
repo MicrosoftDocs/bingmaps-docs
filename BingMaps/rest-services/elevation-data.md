@@ -11,6 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Elevation Data
 The response returned by an Elevations URL can contain elevation or sea level offset resource data.  

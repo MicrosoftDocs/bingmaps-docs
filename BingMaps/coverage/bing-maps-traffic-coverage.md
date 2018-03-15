@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Bing Maps Traffic Coverage
 Bing Maps APIs provide traffic coverage for the following countries. Traffic incident text is provided in the primary language of the country where the incident occurs.  

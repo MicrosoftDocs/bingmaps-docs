@@ -11,6 +11,7 @@ caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Imagery API
 Use the Imagery API to get static maps and Bing™ Maps imagery information.  

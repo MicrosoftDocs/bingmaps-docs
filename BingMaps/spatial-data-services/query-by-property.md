@@ -11,6 +11,7 @@ caps.latest.revision: 42
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Query by Property
 Use the following URL to search a data source for one or more entities by specifying property values.  

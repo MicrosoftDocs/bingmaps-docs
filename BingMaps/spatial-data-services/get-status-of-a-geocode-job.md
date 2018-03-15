@@ -11,6 +11,7 @@ caps.latest.revision: 32
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Get Status of a Geocode Job
 Use the following URL to get the status of a geocode job.  

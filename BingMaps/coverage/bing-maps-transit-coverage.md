@@ -11,6 +11,7 @@ caps.latest.revision: 16
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Bing Maps Transit Coverage
 Find Bing Maps API transit coverage in the topics below.  

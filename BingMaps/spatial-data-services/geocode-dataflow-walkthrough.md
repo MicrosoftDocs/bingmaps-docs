@@ -11,6 +11,7 @@ caps.latest.revision: 22
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Geocode Dataflow Walkthrough
 The following steps show how to use  the Geocode Dataflow API and version 2.0 of the Geocode Dataflow data schema to geocode large sets of spatial data.  

@@ -11,6 +11,7 @@ caps.latest.revision: 21
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Deleting a Data Source
 > [!CAUTION]

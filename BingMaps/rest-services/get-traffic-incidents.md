@@ -11,6 +11,7 @@ caps.latest.revision: 19
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Get Traffic Incidents
 Use the following URL template to request traffic incident information. A collection of traffic incidents is returned in the response.  

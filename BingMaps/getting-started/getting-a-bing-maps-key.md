@@ -11,6 +11,7 @@ caps.latest.revision: 58
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Getting a Bing Maps Key
 To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.aspx), you must have a Bing Maps Key.  

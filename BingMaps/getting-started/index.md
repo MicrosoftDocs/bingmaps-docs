@@ -11,6 +11,7 @@ caps.latest.revision: 61
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Getting Started with Bing Maps
 To start developing with Bing Maps, choose the API(s) that is most appropriate for your platform and needs.  

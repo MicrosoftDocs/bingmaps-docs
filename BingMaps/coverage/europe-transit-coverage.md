@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Europe Transit Coverage
 Bing Maps APIs provide transit information for the following transit agencies in Europe.  

@@ -11,6 +11,7 @@ caps.latest.revision: 47
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Load Data Source Dataflow
 Load Data Source Dataflow API to create a data source that contains entity data for a user-specified entity type. For example, a data source could contain location and hours of operation information for a set of restaurants. With the Load Data Source Dataflow API you can:  

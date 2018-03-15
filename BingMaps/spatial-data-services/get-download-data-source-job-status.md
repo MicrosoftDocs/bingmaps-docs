@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Get Download Data Source Job Status
 Use the following URL to get the status of a download data source job.  

@@ -11,6 +11,7 @@ caps.latest.revision: 16
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Locations API
 Use the Locations API to get location information.  

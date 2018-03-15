@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Basic Clustering Example
 The following code example loads the Clustering module and then generates 1,000 random pushpins that are within the current map view using the [TestDataGenerator class](../v8-web-control/testdatagenerator-class.md), which is built into the V8 map control. It then creates an instance of the ClusterLayer class and passes in the pushpins to be clustered and inserts it into the map. 

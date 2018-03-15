@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # AutosuggestManager Class
 The AutosuggestManager is the primary class in the Autosuggest module.

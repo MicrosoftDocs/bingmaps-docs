@@ -11,6 +11,7 @@ caps.latest.revision: 36
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Query by ID
 Use the following URL to search a data source for one or more entities by entity ID. The property to use as the entity ID is specified in the data schema for the entity type. For more information, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md).  

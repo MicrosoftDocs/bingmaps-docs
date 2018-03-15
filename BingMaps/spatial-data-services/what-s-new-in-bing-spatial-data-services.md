@@ -11,6 +11,7 @@ caps.latest.revision: 53
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # What&#39;s New in Bing Spatial Data Services
 The [Bing Spatial Data Services](../spatial-data-services/index.md) contains the following new features.  

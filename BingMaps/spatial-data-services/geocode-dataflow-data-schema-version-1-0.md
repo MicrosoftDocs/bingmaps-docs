@@ -11,6 +11,7 @@ caps.latest.revision: 29
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Geocode Dataflow Data Schema - Version 1.0
 > [!NOTE]

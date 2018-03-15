@@ -11,6 +11,7 @@ caps.latest.revision: 28
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Bing Maps REST URL Structure
 The Bing Maps REST Services are all called by using the following base formats.  

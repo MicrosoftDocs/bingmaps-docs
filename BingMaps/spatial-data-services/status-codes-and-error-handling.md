@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Status Codes and Error Handling
 Each response to a request provides an HTTP status code. This article describes these codes.  

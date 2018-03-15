@@ -11,6 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Editing a Data Source
 You can edit the entity data and the data schema of any data source associated with a Bing Maps account on [Bing Maps Dev Center](https://www.bingmapsportal.com/). This includes data sources that were uploaded by using Bing Spatial Data Services.  

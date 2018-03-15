@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # AnimatedFrameEventArgs Object
 The event arguments for when a layer frame is being loaded in an [AnimatedTileLayer](../v8-web-control/animatedtilelayer-class.md).

@@ -11,6 +11,7 @@ caps.latest.revision: 96
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Get Imagery Metadata
 Use the following URL templates to get metadata for imagery that is hosted by Bing™ Maps. The imagery metadata returned includes URLs and dimensions for imagery tiles, ranges of zoom levels, and imagery vintage information.  

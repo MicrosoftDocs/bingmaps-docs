@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # FourthCoffeeSample
 The FourthCoffeeSample data source is a sample data source that you can use to learn how to query and get data source information by using the  Bing Spatial Data Services.  

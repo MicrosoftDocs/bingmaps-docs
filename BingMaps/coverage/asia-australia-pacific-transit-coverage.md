@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Asia Australia Pacific Transit Coverage
 Bing Maps APIs provide transit information for the following transit agencies in Australia and countries in Asia and the Pacific.  

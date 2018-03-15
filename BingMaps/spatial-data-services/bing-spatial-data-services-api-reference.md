@@ -11,6 +11,7 @@ caps.latest.revision: 12
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Bing Spatial Data Services API Reference
 This section contains reference documentation for the Bing Spatial Data Services.  

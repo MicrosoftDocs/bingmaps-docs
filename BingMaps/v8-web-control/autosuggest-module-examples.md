@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Autosuggest Module Examples
 The **Autosuggest** module takes in a string of text and provides a list of suggested addresses or places that are similar to the provided string of text. This module can be used with a map, or independently on its own. When used with a map instance, the map view can be used to help influence the weight of the suggestions such that they are more relevant to where the user is looking on the map. For instance, if you pass in “London”, the expected top suggestion would “London, UK”, however, when taking the map view into consideration, and if the map is zoomed into Kentucky, the top suggestion may be “London, Kentucky”.

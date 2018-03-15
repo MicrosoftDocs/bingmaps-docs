@@ -11,6 +11,7 @@ caps.latest.revision: 82
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Create a Load Data Source Job and Input Entity Data
 Use the following URL to create, stage and update a data source. This URL creates a load data source dataflow job.  

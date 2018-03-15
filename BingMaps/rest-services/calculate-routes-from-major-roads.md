@@ -11,6 +11,7 @@ caps.latest.revision: 22
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Calculate Routes from Major Roads
 Use the following URL template to return a driving route to a location from major roads in four directions (West, North, East and South). You can use this URL for routes in the United States, Canada and Mexico.  

@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Along a Route Search
 This example shows how to search for locations along a route. It uses the built-in direction input panel and the Fourth Coffee Sample data source to search for coffee shops that are along a route.

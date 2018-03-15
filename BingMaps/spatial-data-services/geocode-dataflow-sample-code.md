@@ -11,6 +11,7 @@ caps.latest.revision: 14
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Geocode Dataflow Sample Code
 The following sample code uses the Geocode Dataflow to geocode spatial data.  

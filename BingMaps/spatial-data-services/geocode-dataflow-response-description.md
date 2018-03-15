@@ -11,6 +11,7 @@ caps.latest.revision: 19
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Geocode Dataflow Response Description
 The following tables describe the response syntax for a Geocode Dataflow request in a set of hierarchical tables. Examples in JSON and XML formats are also provided.  

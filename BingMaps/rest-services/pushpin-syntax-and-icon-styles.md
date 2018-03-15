@@ -11,6 +11,7 @@ caps.latest.revision: 22
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Pushpin Syntax and Icon Styles
 Pushpins identify locations on a map. You can specify an icon style and a label for a pushpin, in addition to its location.  

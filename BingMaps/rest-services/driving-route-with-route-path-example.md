@@ -11,6 +11,7 @@ caps.latest.revision: 14
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Driving Route with Route Path Example
 This example returns a driving route from the Minneapolis, Minnesota to St. Paul, Minnesota. The route is optimized for distance and requests point values for the route’s path. Results are shown for both JSON and XML response formats..  

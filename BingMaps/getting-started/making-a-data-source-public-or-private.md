@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bingmaps"
 ---
 # Making a Data Source Public or Private
 When you make a data source public, it can be queried by anyone with a Bing Maps Key and the query URL. A private data source can only be queried using the query key you specify or the master key. There are two ways to set the data source access to public or private.  
