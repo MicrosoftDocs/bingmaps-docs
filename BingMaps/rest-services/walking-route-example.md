@@ -11,7 +11,7 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Walking Route Example
 This example returns a walking route from the Eiffel Tower to the Louvre Museum in Paris, France. The route is optimized for distance. Responses are shown for both XML and JSON formats.  

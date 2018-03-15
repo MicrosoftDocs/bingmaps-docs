@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Read Geospatial XML Files from Same Domain
 This sample shows how to load a geospatial XML file that is hosted on the same domain as the application using a relative URL into a GeoXmlLayer. This sample will read in a sample GeoRSS file which you can find [here](http://bingmapsv8samples.azurewebsites.net/GeoXml/Data/GeoRSS/SampleGeoRss.xml) and render it on the map. 

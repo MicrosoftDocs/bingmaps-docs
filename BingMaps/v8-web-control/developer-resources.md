@@ -11,7 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Developer Resources
 This topic contains support resources and contact information.

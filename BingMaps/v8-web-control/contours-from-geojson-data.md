@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Contours from GeoJSON data
 This example downloads earthquake intensity contour data from the USGS for earthquake [M7.0 – 1km WSW of Kumamoto-shi, Japan](http://earthquake.usgs.gov/earthquakes/eventpage/us20005iis#executive). The contour areas are colored based on the intensity of the earthquake felt in that area.

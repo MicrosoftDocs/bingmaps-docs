@@ -11,7 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Layers
 In Bing Maps V8 we have introduced a new Layer class that makes it easy to separate multiple data sets as layers.

@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Distance Matrix Example
 This example returns a simple distance matrix between a set of origins and destinations. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats.

@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Distance Matrix Data
 The response returned when making an asynchronous request to the Distance Matrix API contains a `DistanceMatrixAsyncStatus` resource which provides information on the status of the request.

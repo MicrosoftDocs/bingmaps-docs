@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Middle East Transit Coverage
 Bing Maps APIs provide transit information for the following transit agencies in the Middle East.  

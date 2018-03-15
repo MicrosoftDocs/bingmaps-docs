@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # AreaUnits Enumeration
 This enumeration allows you to specify the unit of measurement for an area. You can access this enumeration with the `Microsoft.Maps.SpatialMath.AreaUnits` namespace.

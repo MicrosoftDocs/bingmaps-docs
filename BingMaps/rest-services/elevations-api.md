@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Elevations API
 Use the Elevations API to get elevation information for a set of locations, polyline or area on the Earth.  

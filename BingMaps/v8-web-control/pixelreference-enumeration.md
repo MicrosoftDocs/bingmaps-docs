@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # PixelReference Enumeration
 An enumeration which is used to defined what pixel coordinates are relative to.

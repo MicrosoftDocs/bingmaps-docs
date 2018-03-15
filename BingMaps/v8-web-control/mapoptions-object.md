@@ -11,7 +11,7 @@ caps.latest.revision: 24
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # MapOptions Object
 The following map options can be used to customize the map. Some of the map options can be changed after the map has loaded by using the **setOptions** function on the map.

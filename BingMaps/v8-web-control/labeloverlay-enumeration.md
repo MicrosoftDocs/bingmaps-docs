@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # LabelOverlay Enumeration
 This enumeration defines how the map labels are displayed.

@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Maneuver Types
 The following maneuver type values are returned the [Routes](../rest-services/routes-api.md) in the maneuverType field in the HTTP response. For more information about the values returned in the Routes API response, see [Route Data](../rest-services/route-data.md).  

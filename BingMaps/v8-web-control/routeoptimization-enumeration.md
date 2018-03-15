@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # RouteOptimization Enumeration
 Defines optimization options for calculating directions. The `Microsoft.Maps.Directions.RouteOptimization` enumeration has the following options.

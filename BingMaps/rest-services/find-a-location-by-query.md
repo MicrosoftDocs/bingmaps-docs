@@ -11,7 +11,7 @@ caps.latest.revision: 64
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Find a Location by Query
 Use the following URL templates to get latitude and longitude coordinates that correspond to location information provided as a query string. The strings `Space Needle` (a landmark) and `1 Microsoft Way Redmond WA` (an address) are examples of query strings with location information. These strings can be specified as a structured URL parameter or as a query parameter value. This URL template can be used to geocode information from any country. For more accurate results, use [User Context Parameters](../rest-services/user-context-parameters.md), such as the coordinates of a user’s current location.  

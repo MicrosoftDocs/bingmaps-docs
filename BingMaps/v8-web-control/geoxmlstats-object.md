@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # GeoXmlStats Object
 Statistics about the content and processing time of a XML feed.

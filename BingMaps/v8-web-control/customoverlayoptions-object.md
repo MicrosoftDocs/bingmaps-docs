@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # CustomOverlayOptions Object
 The following is a list of option properties that can be used when initializing a [CustomOverlay](../v8-web-control/customoverlay-class.md).

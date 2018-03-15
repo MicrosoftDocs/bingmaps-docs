@@ -11,7 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Getting Traffic Incident Data
 You can get traffic incident information along a route using the [Routes](../rest-services/routes-api.md) and for a geographical area by using the [Traffic](../rest-services/traffic-api.md). Traffic incident information is provided in two ways:  

@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # GeoData API
 The [GeoData API](../spatial-data-services/geodata-api.md) is a component of the Bing Spatial Data Services. You can use the GeoData API to retrieve administrative boundarie such as postal codes, states, and countries. Bing Maps V8 exposed this API through the [GeoDataAPIManager](../v8-web-control/geodataapimanager-class.md).   

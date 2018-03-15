@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Custom Image Pushpin Example
 The default pushpin icon is great, but at some point you may want to change this to a different icon. To do this, you can pass a URL of a custom image into the `icon` property of the pushpin options. Let's say you have the following image in the images folder of your web application: 

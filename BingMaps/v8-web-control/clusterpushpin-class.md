@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # ClusterPushpin Class
 This class extends the Pushpin class and has all the same methods and properties plus the following properties.

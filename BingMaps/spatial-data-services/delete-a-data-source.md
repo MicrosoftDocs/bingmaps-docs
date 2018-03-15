@@ -11,7 +11,7 @@ caps.latest.revision: 26
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Delete a Data Source
 Use the following URL to delete a data source. To delete a data source, a delete data source job is created.  

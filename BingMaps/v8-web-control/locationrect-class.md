@@ -11,7 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # LocationRect Class
 The LocationRect class, also known as a bounding box, consists of a set of coordinates that are used to represent rectangular area on the map. These are often used for setting the map view but are also useful for doing calculations. A LocationRect object has three properties; center, width and height. The center property is a [Location](../v8-web-control/location-class.md) object marking the center of the LocationRect area. The width and height properties are angles in degrees from the center of the LocationRect to the edges. An instance of the LocationRect class can be created using the following code. 

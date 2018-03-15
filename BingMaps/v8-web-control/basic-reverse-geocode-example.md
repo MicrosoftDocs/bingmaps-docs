@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Basic Reverse Geocode Example
 The following code sample shows how to make a reverse geocode request using the Search module. This code loads the search module if it isn’t already loaded. It then reverse geocodes the center of the map and, if successful, it will show a message on the screen with the display name (often an address) of the reverse geocoded location.

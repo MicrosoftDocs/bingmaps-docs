@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # South America Transit Coverage
 Bing Maps APIs provide transit information for the following transit agencies in the South America.  

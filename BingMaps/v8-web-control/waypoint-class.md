@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Waypoint Class
 In order to calculate a route between locations you need to first add all the locations as Waypoints to the [DirectionsManager](../v8-web-control/directionsmanager-class.md). When creating an instance of the Waypoint class you must pass in an object containing [WaypointOptions](../v8-web-control/waypointoptions-object.md).

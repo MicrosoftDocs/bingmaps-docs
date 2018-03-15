@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # AnimatedTileLayerOptions Object
 An object that defines the options for an [AnimatedTileLayer](../v8-web-control/animatedtilelayer-class.md).

@@ -11,7 +11,7 @@ caps.latest.revision: 46
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Load Data Source Data Schema and Sample Input
 You must provide a data schema and a set of input data to create a data source when you use the [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md) URL. The data schema describes the entity type for the data source. The set of input data must validate against the schema. The data schema and input data are provided together when you create a LoadDataSource job to create or update a data source. You can provide a data schema and input data in XML format or as text with values separated by comma, tab or pipe(&#124;) characters. Before using this API, review the data limits defined in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  

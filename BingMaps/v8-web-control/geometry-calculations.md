@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Geometry Calculations
 A set of methods that perform spatial calculations against shapes. These static methods are exposed through the `Microsoft.Maps.SpatialMath.Geometry` namespace.

@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Download Data Source Dataflow Response Description
 The following tables describe the response syntax for a Data Source Download Dataflow request in a set of hierarchical tables.  

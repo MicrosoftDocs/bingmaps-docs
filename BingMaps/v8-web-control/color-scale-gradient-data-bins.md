@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Color Scale Gradient Data Bins
 This example shows how to use a linear gradient to assign colors to data bins based on the relative number of pushpins in each bin. Data bins that are white have the most pushpins, while those that are darker in color have less.

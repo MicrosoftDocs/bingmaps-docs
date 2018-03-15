@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # User Input Geocode Example
 This code sample displays a search textbox and button long with a map. When the user types in a query and presses the search button a check is done to see if the Search module is loaded. If it is loaded, the users query is then geocoded. The results are displayed on the map and a list of the result names are shown beside the map.

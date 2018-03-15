@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Search Boundary Example
 In common uses of this module, developers will retrieve boundaries when the entity type of the boundary to return is specified. This is useful to get the boundary of a location that has a different entity type than your input data.  

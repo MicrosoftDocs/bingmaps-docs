@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Traffic Module Examples
 The Bing Maps SDK provides two types of traffic data through the Traffic module. The first type is a tile layer that shows traffic flow data. This highlights roads with different colors to indicate what the flow of traffic is like compared to the speed limits on those roads. The second type of traffic data is traffic incidents. Traffic incidents are point based data that represent things like road closures, accidents, and construction. Traffic data coverage information can be found [here](../coverage/bing-maps-traffic-coverage.md).

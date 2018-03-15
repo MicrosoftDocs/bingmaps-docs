@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Find Nearby Example
 One of the most common types of searches done with a map is a nearby search, also known as a radial search. In the example an event handler is added to the maps **viewchangeend** event. When the map is panned or zoomed this event will trigger a query to the [NAVTEQ Point of Interest data source](../spatial-data-services/navteqna.md) in Bing Spatial Data Services and will retrieve up to 25 gas stations that are within 25 kilometers of the center of the map. A filter will be used to limit the results to those that have an **EntityTypeID** value of **5540**, which is the ID used for Gas Stations in this data source.

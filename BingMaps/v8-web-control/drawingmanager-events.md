@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # DrawingManager Events
 The example adds a bunch of events to the drawing manager that is created by the drawing tools module. As the different events first a label will be highlighted in green to indicate which event(s) have fired.

@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # GeoXmlCompressedFormat Enumeration
 An enumeration of the different compressed formats that XML can be outputted as.

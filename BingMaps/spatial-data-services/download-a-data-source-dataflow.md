@@ -11,7 +11,7 @@ caps.latest.revision: 12
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Download a Data Source Dataflow
 Use the Data Source Download Dataflow API to download entity data from a published data source.  

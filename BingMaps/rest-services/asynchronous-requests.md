@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Asynchronous Requests
 Several of the Bing Maps REST API’s such as; truck routing, distance matrix, and isochrones, support asynchronous requests for queries that may take more than a few seconds to process. An asynchronous request to these APIs consists of the following dataflow:

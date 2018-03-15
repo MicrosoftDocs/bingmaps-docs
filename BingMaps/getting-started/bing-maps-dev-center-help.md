@@ -11,7 +11,7 @@ caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Bing Maps Dev Center Help
 

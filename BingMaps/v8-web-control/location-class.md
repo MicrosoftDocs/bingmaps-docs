@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Location Class
 This class stores the coordinate information needed to mark locations on a map. The Location class consists of two properties: latitude and longitude. 

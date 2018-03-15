@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Map
 The map is the primary control in the Bing Maps V8 Map Control that provides an interactive surface for visualizing your data.

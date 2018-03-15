@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Creating Custom Modules
 The Bing Maps Modular framework allows you to create reusable blocks of code that tie into Bing Maps. This saves on development time and is a great way to improve code quality by re-using proven and tested modules.  

@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Find By Property Example
 One of the simpliest ways to query a data source is to do a property based search. This can easily be achieved with the Spatial Data Services module by specifying a data source and a filter.

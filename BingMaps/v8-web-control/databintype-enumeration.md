@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # DataBinType Enumeration
 This enumeration is used to specify the shape of data bin rendered in the layer. This enumeration is specified as `Microsoft.Maps.DataBinType.[Name]` where Name can be any of the following values.

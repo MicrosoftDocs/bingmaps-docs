@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Color Class
 Creating an instance of the Color class can be done in one of two ways. The first is to specify values for all the properties in the constructor. The second is to use the static method fromHex which parses a string Hex color value into a Bing Maps Color. The following code shows how these two methods can be used to create a Location objects.

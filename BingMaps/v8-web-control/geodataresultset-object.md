@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # GeoDataResultSet Object
 Represents the set of results returned by the [GeoData API](../spatial-data-services/geodata-api.md).

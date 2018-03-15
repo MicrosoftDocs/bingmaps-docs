@@ -11,7 +11,7 @@ caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Location and Area Types
 Use the following formats to specify locations and areas on the Earth.  

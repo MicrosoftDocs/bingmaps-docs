@@ -11,7 +11,7 @@ caps.latest.revision: 14
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Create a Download Job
 Use the following URL to download entity data from a published data source.  

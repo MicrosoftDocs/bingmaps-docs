@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Custom Canvas Pushpin Example
 You can see how to dynamically create a custom image using an HTML5 canvas and use it to create a custom pushpin.

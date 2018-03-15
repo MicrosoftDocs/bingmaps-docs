@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Read Geospatial XML String
 This sample shows how to read geospatial XML data stroed in a string. When reading geospatial XML data using the read and readFromUrl functions you have complete control of the data, you can render it or simply extract information from it. In this sample we will render it on the map. 

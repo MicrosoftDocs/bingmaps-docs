@@ -11,7 +11,7 @@ caps.latest.revision: 56
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Create a Geocode Job and Upload Data
 Use the following URL to upload a set of spatial data and to create a job to geocode and reverse-geocode the data.  

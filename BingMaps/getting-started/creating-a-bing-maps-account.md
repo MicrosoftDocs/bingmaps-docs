@@ -11,7 +11,7 @@ caps.latest.revision: 13
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Creating a Bing Maps Account
 Follow these steps to create a Bing Maps account.  

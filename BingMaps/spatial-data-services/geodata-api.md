@@ -11,7 +11,7 @@ caps.latest.revision: 17
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Geodata API
 Use the following URLs to request a set of polygons that describe the boundaries of a geographic entity, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address.  

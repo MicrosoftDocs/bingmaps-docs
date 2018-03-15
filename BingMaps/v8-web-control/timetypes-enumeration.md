@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # TimeTypes Enumeration
 Defines the transit time type. The `Microsoft.Maps.Directions.TimeTypes` enumeration has the following options.

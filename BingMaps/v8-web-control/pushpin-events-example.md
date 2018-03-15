@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Pushpin Events Example
 In many applications simply viewing pushpins isn't enough, you need to interact with them too. Attaching events to pushpins allow you to interact with pushpins using a mouse our touch device.

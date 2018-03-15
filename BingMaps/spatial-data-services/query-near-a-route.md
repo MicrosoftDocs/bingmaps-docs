@@ -11,7 +11,7 @@ caps.latest.revision: 15
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Query Near a Route
 Use the following URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. You can use the [Query Options](../spatial-data-services/query-options.md) such as $filter and $select to further specify the entity information that would like to return. For example, you can search the [Traffic Incident Data Source](../spatial-data-services/traffic-incident-data-source.md) for all traffic incidents along a route and request that only the severity, description and location (latitude and longitude) be returned.  

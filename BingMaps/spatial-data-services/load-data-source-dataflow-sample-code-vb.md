@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Load Data Source Dataflow Sample Code (VB)
 The following Visual Basic code shows how to upload entity data to a data source by using the Load Data Source Dataflow. The code is provided in two parts. The first code sample creates a Load Data Source Dataflow job and monitors the job status. The second code sample provides general classes that support these operations.  

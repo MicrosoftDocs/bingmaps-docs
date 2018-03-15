@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # ConfigurableMap Class
 This class allows lets you generate a map using a JSON configuration file using the [Configuration Driven Maps framework](../v8-web-control/configuration-driven-maps-framework.md). This generates a map instance which you can then use just like you would when loading the Map class, however it has the added benefit of loading data layers that have been specified in the configuration file.

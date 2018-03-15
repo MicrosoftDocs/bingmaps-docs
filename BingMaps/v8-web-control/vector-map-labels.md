@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Vector Map Labels
 Vector map labels are new in the Bing Maps V8 web control. Map labels are the names of roads, cities and other entities that are displayed on the map. Traditionally online maps have embedded these labels into the base map image. Vector map labels essentially removes the labels from the base map image and instead overlays them above the map just like a pushpin. By doing this, a number of common issues can be solved. For example;

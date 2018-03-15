@@ -11,7 +11,7 @@ caps.latest.revision: 100
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Find a Location by Address
 Use the following URL templates to get latitude and longitude coordinates for a location by specifying values such as a locality, postal code, and street address.  

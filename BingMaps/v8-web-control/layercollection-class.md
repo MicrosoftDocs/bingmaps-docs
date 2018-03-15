@@ -11,7 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # LayerCollection Class
 The layers property of the map is a LayerCollection object and contains all the layers that have been added to the map.

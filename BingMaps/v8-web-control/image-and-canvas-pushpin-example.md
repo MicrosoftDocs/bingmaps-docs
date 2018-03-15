@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Image and Canvas Pushpin Example
 Its fairly easy to create a custom pushpin using an HTML5 canvas, however if you are trying to draw an image on your canvas it can be a bit tricky. Images load asynchronously, as such you need to load them before you can draw them to the canvas. This code example shows how to create custom colored pushpins that use an image as a template. The template image looks like this:

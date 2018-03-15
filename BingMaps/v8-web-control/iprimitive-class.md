@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # IPrimitive Class
 All shapes __Pushpins, Polylines__ and __Polygons__ derive from the IPrimitive interface. This means that they can be passed into any function that takes in an IPrimitive object. Also, any function that returns an IPrimitive is capable of returning any of these shapes.

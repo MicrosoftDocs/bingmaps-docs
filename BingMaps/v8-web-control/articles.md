@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Articles
 The following articles cover more detailed discussions and advanced techniques for working with the Bing Maps V8 Map Control.

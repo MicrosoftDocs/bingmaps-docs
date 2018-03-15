@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Supported Browsers
 The Bing Maps V8 Web Control is supported with most modern browsers that are HTML5-enabled, specifically:

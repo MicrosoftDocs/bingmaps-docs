@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Well Known Text Write Example
 This code example shows how to convert a Bing Maps shape into a Well Known Text string value and display it using an alert.

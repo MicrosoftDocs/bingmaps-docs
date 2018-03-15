@@ -11,7 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Common Parameters and Types
 The Bing Maps REST Services use many common parameters and types. The topics in this section describe these common parameters and types.  

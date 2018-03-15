@@ -11,7 +11,7 @@ caps.latest.revision: 21
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Geospatial Endpoint Service
 The Geospatial Endpoint Service is a REST service that provides information about Geospatial Platform services for the language and geographical region you specify. The service information includes available service endpoints and language support for these endpoints. Disputed geographical areas and embargoed countries or regions that do not have any service support are also identified.  

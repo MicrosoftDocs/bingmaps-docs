@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # HTML Pushpin Overlay
 In Bing Maps V8 all data layers, with the exception of custom overlays, are rendered using an HTML5 canvas. This provides increased rendering performance, but has some limitions. The most notable being that HTML elements can’t easily be rendered as pushpins.

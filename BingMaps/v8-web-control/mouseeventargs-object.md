@@ -11,7 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # MouseEventArgs Object
 A MouseEventArgs object is returned by many the mouse event handlers.

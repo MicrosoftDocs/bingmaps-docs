@@ -11,7 +11,7 @@ caps.latest.revision: 15
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Pushpin Class
 Pushpins, sometimes also referred to as markers or MapIcons on other mapping platforms, are one of the primary ways of marking a location on a map. The Pushpin class derives from the `IPrimitive` interface.

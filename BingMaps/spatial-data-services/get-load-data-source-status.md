@@ -11,7 +11,7 @@ caps.latest.revision: 24
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Get Load Data Source Status
 Use the following URL to get the status of a load data source job.  

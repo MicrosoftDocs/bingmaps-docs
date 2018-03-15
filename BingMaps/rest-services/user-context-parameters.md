@@ -11,7 +11,7 @@ caps.latest.revision: 23
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # User Context Parameters
 Use user context parameters to specify information about the user. You can increase the accuracy of a location result when you specify a user context parameter in your request URL.  

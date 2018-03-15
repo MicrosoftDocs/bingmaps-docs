@@ -11,7 +11,7 @@ caps.latest.revision: 35
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Data Source Management API
 Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](http://www.bingmapsportal.com). The table below provides links to the documentation for both methods.  

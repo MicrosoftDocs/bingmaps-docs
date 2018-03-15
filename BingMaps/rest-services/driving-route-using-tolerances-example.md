@@ -11,7 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Driving Route using Tolerances Example
 The following example shows how to request a driving route between two locations and specifies tolerances so that subsets of route points that meet those tolerances are returned. Each tolerance returns a subset of route points in the response. The route path defined by the subset of route path points approximates the route path defined by the full set of route points within the tolerance provided. The response to this request is the same as are shown for both XML and JSON formats.  

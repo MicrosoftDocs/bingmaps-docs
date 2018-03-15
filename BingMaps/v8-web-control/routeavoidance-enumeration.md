@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # RouteAvoidance Enumeration
 Defines features to avoid when calculating the route. The `Microsoft.Maps.Directions.RouteAvoidance` enumeration has the following options.

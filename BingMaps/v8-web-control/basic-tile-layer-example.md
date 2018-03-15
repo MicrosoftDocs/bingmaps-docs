@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Basic Tile Layer Example
 The simplest implementation of the TileLayer class is to set the `mercator` property to a TileSource that has a `uriConstructor` property set to a URL which uses one or more of the tile URL parameters to access map tiles, such as the quadkey value. The following is an example of how to do this.

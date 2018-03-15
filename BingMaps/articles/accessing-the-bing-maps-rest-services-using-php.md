@@ -11,7 +11,7 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Accessing the Bing Maps REST Services using PHP
 This article will describe how to write a PHP application that can interact with the [Bing Maps REST Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) APIs.  

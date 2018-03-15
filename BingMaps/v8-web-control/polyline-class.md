@@ -11,7 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Polyline Class
 Polylines allow you to draw connected lines on a map. In many spatial database systems, this is also known as a LineString. The Polyline class derives from the `IPrimitive` interface. When creating a polyline, an array of locations must be passed as an argument in the constructor. Optionally polyline options can also be passed in as an argument.

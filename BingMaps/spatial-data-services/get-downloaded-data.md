@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Get Downloaded Data
 A download URL is returned in the job status response when download job has completed. Use this download URL to access the downloaded entity data.  

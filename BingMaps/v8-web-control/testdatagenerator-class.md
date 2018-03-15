@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # TestDataGenerator Class
 Often when creating a demo or trying to test a new application you need to create some test/mock data.  Generating a random Location object isn’t particularly difficult, but what if you want to create a random Polygon that actually looks like a polygon, and maybe has a hole as well? 

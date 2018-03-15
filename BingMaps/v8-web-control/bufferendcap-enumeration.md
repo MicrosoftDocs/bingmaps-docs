@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # BufferEndCap Enumeration
 This enumeration defines how the end of a line should be buffered. You can access this enumeration with the `Microsoft.Maps.SpatialMath.Geometry.BufferEndCap` namespace.

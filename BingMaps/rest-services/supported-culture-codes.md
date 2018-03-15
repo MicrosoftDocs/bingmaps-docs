@@ -11,7 +11,7 @@ caps.latest.revision: 17
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Supported Culture Codes
 The following list shows the culture codes supported by the Bing Maps REST Services APIs.  

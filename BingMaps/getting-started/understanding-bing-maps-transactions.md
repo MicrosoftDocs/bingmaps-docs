@@ -11,7 +11,7 @@ caps.latest.revision: 99
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Understanding Bing Maps Transactions
 When you use any [Bing Maps API](http://msdn.microsoft.com/en-us/library/dd877180.aspx) with a Bing Maps Key (you must have a [Bing Maps Account](http://www.bing.com/dev/maps)), transactions are recorded. Transactions track API usage and can be billable or non-billable. For example, using the [Bing Maps V8 Web Control](../v8-web-control/index.md) to show a map on a web page or geocoding an address using the [Bing Maps REST Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) are both billable transactions, while deleting a data source (a spatial database that you create using the [Bing Spatial Data Services](../spatial-data-services/index.md)) is not.  

@@ -11,7 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # zIndexing in Bing Maps V8
 In past versions of Bing Maps, the map control consisted of thousands of DOM elements, primarily images and SVG’s. zIndexing in these controls was easy as they simpy used CSS zIndexing which is built into the browser. However, using DOM elements to create interactive maps greatly limits the amount of data that can be rendered on the map. 

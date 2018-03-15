@@ -11,7 +11,7 @@ caps.latest.revision: 51
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Find a Location by Point
 Use the following URL template to get the location information associated with latitude and longitude coordinates.  

@@ -11,7 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Map Control Branches
 There are two branches of the Bing Maps V8 SDK that can be accessed. This provides the option to access new features as soon as they are available, even if those features have not been thoroughly tested or completed.

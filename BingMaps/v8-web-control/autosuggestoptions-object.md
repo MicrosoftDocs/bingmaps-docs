@@ -11,7 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # AutosuggestOptions Object
 The following Autosuggest option properties can be used to customize how suggestions are retrieved. 

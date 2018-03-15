@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Module Loading Methods
 The following methods allow you to register and load your own modules for use by the map control. Al of these static methods are under the `Microsoft.Maps` namespace.

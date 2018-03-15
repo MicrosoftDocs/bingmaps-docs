@@ -11,7 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # DirectionsRequestOptions Object
 You can set options for how to calculate the route by passing an object containing direction request options to the `setRequestOptions` method of the [DirectionsManager](../v8-web-control/directionsmanager-class.md). 

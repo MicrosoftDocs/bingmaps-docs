@@ -11,7 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Download Data Source Walkthrough
 Use the DataSourceDownload API to download entity data for a published data source.  

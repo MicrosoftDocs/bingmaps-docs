@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bing-maps"
+ms.service: "bing-maps"
 ---
 # Font based Pushpins
 One great source for pushpin icons is font based glyphs. This example shows how to use a custom font to create pushpins icons. For this example, the Font Awesome library is used. In order to create the pushpin icon an off-screen canvas is used to measure the text and create an image from the font. 
