@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Continuously Tracking a User Location Example
 This example shows how to monitor the user’s location and update the position of a pushpin as the user moves. 

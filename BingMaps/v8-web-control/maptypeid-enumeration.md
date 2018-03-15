@@ -1,5 +1,5 @@
 ---
-title: "MapTypeId Enumeration2 | Microsoft Docs"
+title: "MapTypeId Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MapTypeId Enumeration
 This enumeration is used to specify the type of map style that should be displayed by the map.  It is specified as `Microsoft.Maps.MapTypeId.[Name]` where `[Name]` can be any of the following values.

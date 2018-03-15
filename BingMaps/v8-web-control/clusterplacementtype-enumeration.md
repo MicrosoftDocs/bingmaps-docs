@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # ClusterPlacementType Enumeration
 The `Microsoft.Maps.ClusterPlacementType` enumeration values can be used to specify how a clustered pushpin should be positioned.

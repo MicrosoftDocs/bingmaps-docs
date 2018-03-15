@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Custom HTML Infobox
 For many apps the default infobox and the various options for customizing it work well, however sometimes being able to full customize it is desirable. This example shows how to create an infobox using custom HTML. To make things a bit cleaner a HTML template string is created that contains placeholders for a title and description. 

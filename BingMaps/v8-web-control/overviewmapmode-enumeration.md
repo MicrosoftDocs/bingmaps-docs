@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # OverviewMapMode Enumeration
 This enumeration is used to specify how the overview map for the streetside map mode should be displayed. This enumeration is specified as `Microsoft.Maps.OverviewMapMode.[Name]` where `[Name]` can be any of the following values.

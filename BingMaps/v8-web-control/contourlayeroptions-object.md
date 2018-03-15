@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # ContourLayerOptions Object
 These options can be used to with the [ContourLayer](../v8-web-control/contourlayer-class.md) class.

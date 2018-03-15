@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Change the Map View
 There are two different ways to change the map view. One way is to use the **setView** function on the map. The other is to use the **setMapType** function. For most cases, you will likely use the **setView** method as this also allows you to specify other view settings, such as setting the center and zoom level. The following line of code can be used to center the map over [Barringer Crater](https://en.wikipedia.org/wiki/Meteor_Crater) located at coordinates 35.027222, -111.0225 and set the zoom level to 15.

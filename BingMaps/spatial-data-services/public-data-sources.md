@@ -11,7 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Public Data Sources
 The Bing Spatial Data Services provide the following public data sources for your use. You can query these data sources with any Bing Maps Key.  

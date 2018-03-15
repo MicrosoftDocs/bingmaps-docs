@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Data Binning Module Examples
 Data binning, is the process of grouping point data into a symmetric gird of geometric shapes. An aggregate value can then be calculated from the pins in a bin and used to set the color or scale the of that bin to provide a visual representation of a data metric the bin contains. The two most common shapes used in data binning are squares and hexagons. When hexagons are used, this process is also referred to as hex binning. The data binning module provides a [DataBinningLayer](../v8-web-control/databinninglayer-class.md) class which makes it easy to create data bins from arrays of pushpins. The generated data bins extend from the polygon class and support all polygon options and events.

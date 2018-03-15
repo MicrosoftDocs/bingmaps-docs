@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # TrafficOptions Object
 The following is a list of properties that are available in the **TrafficOptions** object.

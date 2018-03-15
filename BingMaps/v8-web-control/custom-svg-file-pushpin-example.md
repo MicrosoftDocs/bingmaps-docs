@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Custom SVG File Pushpin Example
 You can create map images using Scalable Vector Graphics (SVG). These images will look better across different sizes and device display resolutions. This example takes a SVG that is stored in a file called “cylinder.svg” and contains the following markup:

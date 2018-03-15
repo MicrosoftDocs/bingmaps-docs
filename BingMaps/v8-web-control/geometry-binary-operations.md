@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Geometry Binary Operations
 Binary operations are logical processes such as addition, subtraction or not. Take for example the following operations:

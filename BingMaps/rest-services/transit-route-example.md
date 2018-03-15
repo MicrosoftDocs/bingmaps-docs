@@ -11,7 +11,7 @@ caps.latest.revision: 13
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Transit Route Example
 The following example shows how to request a transit route between the Golden Gate Bridge and Fisherman’s Wharf in San Francisco for 3 PM on the current day. Responses are shown for both XML and JSON formats.  

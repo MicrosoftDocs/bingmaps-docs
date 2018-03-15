@@ -11,7 +11,7 @@ caps.latest.revision: 21
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Bing Maps API Best Practices
 These best practices provide guidelines for using the Bing Maps APIs.  

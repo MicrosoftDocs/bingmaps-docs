@@ -1,5 +1,5 @@
 ---
-title: "PolygonOptions Object1 | Microsoft Docs"
+title: "PolygonOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # PolygonOptions Object
 The following polygon option properties can be used to create customized polygons. 

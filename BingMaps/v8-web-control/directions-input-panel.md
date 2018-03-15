@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Directions Input Panel
 The following examples shows how to display the built in input panel for calculating directions. This is useful if you don’t want to create a custom input panel. 

@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # NavigationBarOrientation Enumeration
 The NavigationBarOrientation enumeration is used to define how the navigation bar controls are laid out.

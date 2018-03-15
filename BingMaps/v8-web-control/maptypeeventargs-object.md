@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MapTypeEventArgs Object
 A MapTypeEventArgs object that is returned by the map event handler when using the **maptypechanged** event.

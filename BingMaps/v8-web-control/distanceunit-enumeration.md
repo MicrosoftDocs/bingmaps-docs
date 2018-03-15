@@ -1,5 +1,5 @@
 ---
-title: "DistanceUnit Enumeration3 | Microsoft Docs"
+title: "DistanceUnit Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DistanceUnit Enumeration
  The `Microsoft.Maps.Directions.DistanceUnit` enumeration has the following options.

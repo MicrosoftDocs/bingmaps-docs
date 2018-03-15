@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Choropleth Map Example
 This code example retrieves [US state boundaries from a Spatial Data Source](../spatial-data-services/2010-us-census-data-sources.md) that contains US census data. These boundaries are color coded based on the population metric. 

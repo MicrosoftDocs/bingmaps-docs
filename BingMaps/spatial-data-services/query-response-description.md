@@ -11,7 +11,7 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Query Response Description
 When you query a data source using the Query API, the response returns a list of entities that met the query criteria. Information returned for each entity includes a [Query by ID](../spatial-data-services/query-by-id.md) URL that returns the complete information for that entity. Depending on the query options, all or a subset of the entity properties are also returned.  

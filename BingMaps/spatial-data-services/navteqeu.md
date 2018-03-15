@@ -11,7 +11,7 @@ caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # NAVTEQEU
 The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../spatial-data-services/query-api.md) and any Bing Maps Key.  

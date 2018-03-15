@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Getting Started: Creating and Hosting a Map Control
 The Bing Maps V8 Map Control SDK is a JavaScript control that contains the objects, methods, and events that allow you to display maps powered by Bing Maps on your Web site. The sections in this topic describe the steps you need to take to start using the Bing Maps V8 SDK.

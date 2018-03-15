@@ -1,5 +1,5 @@
 ---
-title: "Infobox Class2 | Microsoft Docs"
+title: "Infobox Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 12
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Infobox Class
 An infobox, also sometimes refer to as an info window or popup, is a simple panel that displays information over top the map. This is often used to display information linked to a location after clicking on a pushpin. 

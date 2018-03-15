@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Polygon Events
 This example attaches several mouse events to a polygon. When these events fire they highlight a label to indicate which event fired. 

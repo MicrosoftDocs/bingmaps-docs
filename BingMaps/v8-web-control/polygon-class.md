@@ -1,5 +1,5 @@
 ---
-title: "Polygon Class1 | Microsoft Docs"
+title: "Polygon Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Polygon Class
 A polygon is an area defined by a closed ring of locations. A simple polygon consists of an array of [Location](../v8-web-control/location-class.md) objects that form a boundary. This is useful for showing an area of interest on a map. In some applications there may be a need to for more complex polygons, such as polygons that have a hole in them. Take for instance the country of South Africa, which has a land locked country, Lesotho, within its main border. To represent South Africa on a map we need to be able to cut a hole in the polygon that represents its boundary to exclude the area of Lesotho. The first array of locations in a polygon represent the main border and is often called the exterior ring. All additional arrays of locations in a polygon are used to represent holes in the main polygon and are often called interior rings. Here is what the borders of South Africa look like.

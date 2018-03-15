@@ -11,7 +11,7 @@ caps.latest.revision: 33
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Get Data Source Information
 Use the following URLs to get information about one or more data sources.  

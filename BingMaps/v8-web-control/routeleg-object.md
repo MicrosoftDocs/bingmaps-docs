@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # RouteLeg Object
 Represents a leg of a route. A route leg is the part of the route between two stop waypoints.

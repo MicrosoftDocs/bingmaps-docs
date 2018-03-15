@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DrawingManager Class
 The **DrawingManager** class manages the ability to draw and edit multiple shapes on the map. Shapes managed by this class are rendered on a separate drawing layer. User can use a mouse or a touch screen to draw on the map. When they are done, double clicking the map, pressing the escape button or any button on the toolbar will exit the current drawing mode. This class does not have a publicly accessible constructor and can only be accessed using the `showDrawingManager` of the [DrawingTools](../v8-web-control/drawingtools-class.md) class.

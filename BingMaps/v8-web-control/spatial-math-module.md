@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Spatial Math Module
 **Module Name**: Microsoft.Maps.SpatialMath

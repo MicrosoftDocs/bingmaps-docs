@@ -1,5 +1,5 @@
 ---
-title: "MouseEventArgs Object2 | Microsoft Docs"
+title: "MouseEventArgs Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MouseEventArgs Object
 A MouseEventArgs object is returned by many the mouse event handlers.

@@ -1,5 +1,5 @@
 ---
-title: "RouteOptimization Enumeration1 | Microsoft Docs"
+title: "RouteOptimization Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # RouteOptimization Enumeration
 Defines optimization options for calculating directions. The `Microsoft.Maps.Directions.RouteOptimization` enumeration has the following options.

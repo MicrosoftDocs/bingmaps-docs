@@ -11,7 +11,7 @@ caps.latest.revision: 21
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Traffic Incident Data
 The response returned by a Traffic URL contains one or more TrafficIncident resources. Each TrafficIncident resource contains information about a traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. This following table provides descriptions of the TrafficIncident resource fields and is followed by JSON and XML examples.  

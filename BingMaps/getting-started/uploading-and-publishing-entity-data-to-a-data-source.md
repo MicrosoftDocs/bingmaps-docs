@@ -11,7 +11,7 @@ caps.latest.revision: 63
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Uploading and Publishing Entity Data to a Data Source
 You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  

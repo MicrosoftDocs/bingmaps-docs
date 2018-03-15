@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # GeoDataResult Object
 Represents a single result object returned by the [GeoData API](../spatial-data-services/geodata-api.md). 

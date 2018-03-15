@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # ContourLine Class
 The ContourLine class extends from the [Polygon](../v8-web-control/polygon-class.md) class and supports all the same methods and events, but has a different constructor. The constructor takes in an array of locations that specify the outline boundary of the contour line. Optionally a value can be associated with the contour line which is passed to the `colorCallback` and used to colorize the contour.

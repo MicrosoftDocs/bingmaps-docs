@@ -11,7 +11,7 @@ caps.latest.revision: 28
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Culture Parameter
 Use the culture parameter to specify a culture for your request. The culture parameter provides the following strings in the language of the culture for:  

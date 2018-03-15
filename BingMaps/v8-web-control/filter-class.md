@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Filter Class
 The Fitler class defines the logic behind a filter expression that can be executed against a JSON object or generate a filter string that can be used with the Bing Spatial Data Services.

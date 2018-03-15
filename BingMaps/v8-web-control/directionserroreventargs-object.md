@@ -1,5 +1,5 @@
 ---
-title: "DirectionsErrorEventArgs Object1 | Microsoft Docs"
+title: "DirectionsErrorEventArgs Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DirectionsErrorEventArgs Object
 The following is a list of properties that are available in the DirectionsErrorEventArgs object.

@@ -11,7 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Autosuggest Module
 **Module Name**: Microsoft.Maps.Autosuggest

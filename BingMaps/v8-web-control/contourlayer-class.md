@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # ContourLayer Class
 The ContourLayer class takes an array of [ContourLine](../v8-web-control/contourline-class.md) and organizes them and creates non-overlapping polygon to represent each contour area.

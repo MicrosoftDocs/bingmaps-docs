@@ -1,5 +1,5 @@
 ---
-title: "MapOptions Object1 | Microsoft Docs"
+title: "MapOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 24
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MapOptions Object
 The following map options can be used to customize the map. Some of the map options can be changed after the map has loaded by using the **setOptions** function on the map.

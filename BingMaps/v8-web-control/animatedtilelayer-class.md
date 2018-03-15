@@ -11,7 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # AnimatedTileLayer Class
 Provides a layer which can smoothly animate through an array of tile layer sources.

@@ -11,7 +11,7 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Rollback a Data Source Dataflow
 Use the following URLs to rollback a data source to a previous version. Up to two (3) previous versions of a data source are available.  

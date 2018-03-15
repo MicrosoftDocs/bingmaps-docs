@@ -1,5 +1,5 @@
 ---
-title: "TileLayer Class1 | Microsoft Docs"
+title: "TileLayer Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # TileLayer Class
 Represents a tile layer that can be overlaid on top of the map. 

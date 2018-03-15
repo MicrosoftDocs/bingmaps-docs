@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Tile Calculations
 A set of methods that perform spatial calculations based on the Tile pyramid used by Bing Maps as defined [here](../articles/bing-maps-tile-system.md). These static methods are exposed through the `Microsoft.Maps.SpatialMath.Tiles` namespace.

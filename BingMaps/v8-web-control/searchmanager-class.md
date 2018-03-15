@@ -1,5 +1,5 @@
 ---
-title: "SearchManager Class3 | Microsoft Docs"
+title: "SearchManager Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # SearchManager Class
 

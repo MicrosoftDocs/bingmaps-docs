@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Events Class
 Events can be added and removed by using the methods available through the `Microsoft.Maps.Events` class. The Events class has the following static methods available.

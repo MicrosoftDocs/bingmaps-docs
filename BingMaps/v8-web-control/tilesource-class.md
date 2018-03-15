@@ -1,5 +1,5 @@
 ---
-title: "TileSource Class1 | Microsoft Docs"
+title: "TileSource Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # TileSource Class
 Defines the data source for a tile layer.

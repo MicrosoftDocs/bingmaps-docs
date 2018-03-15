@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Clusters with a List and Linking
 This example shows how to dynamically create a list of the pushpins that are currently displayed in the clustering layer and also link each list item back to the clustered pushpin. When any pushpin, clustered pushpin or item in the list of clicked a corresponding infobox will be displayed on the map.

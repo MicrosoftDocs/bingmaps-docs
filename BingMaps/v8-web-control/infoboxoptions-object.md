@@ -1,5 +1,5 @@
 ---
-title: "InfoboxOptions Object2 | Microsoft Docs"
+title: "InfoboxOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # InfoboxOptions Object
 The following infobox option properties can be used to create customized infoboxes.

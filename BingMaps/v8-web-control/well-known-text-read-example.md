@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Well Known Text Read Example
 This example shows how to parse a Well Known Text string value into a Bing Maps shape and display it on the map.

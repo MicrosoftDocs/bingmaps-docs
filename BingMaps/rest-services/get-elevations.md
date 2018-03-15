@@ -11,7 +11,7 @@ caps.latest.revision: 33
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Get Elevations
 Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path or area on the Earth.  

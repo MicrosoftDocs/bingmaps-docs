@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # PlaceResult Object
 Represents a place result in the Search module.

@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Dynamic Canvas Overlay
 This example shows how to use a canvas to create a custom rendering layer. 

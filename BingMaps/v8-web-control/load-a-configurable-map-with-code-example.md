@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Load a Configurable Map with Code Example
 In addition to being able to load a map configuration file via an iframe, they can also be loaded in your application code as well, providing a nice jump start to your app development. When a configuration file is loaded, a map instance is created and your data sets loaded on it, a callback that you specified when loaded the configuration file is then called and receives a reference to the map instance so that you can continue developing against like you normally would in a Bing Maps V8 based web app. The following shows how to load a map configuration map in code. Once loaded this code will wait 5 seconds then change the maps zoom level using code.

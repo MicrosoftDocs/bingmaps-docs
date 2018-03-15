@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # HeatMapLayerOptions Object
 The following is a list of properties that are available in the **HeatMapLayerOptions** object.

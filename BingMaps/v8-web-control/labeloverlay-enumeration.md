@@ -1,5 +1,5 @@
 ---
-title: "LabelOverlay Enumeration2 | Microsoft Docs"
+title: "LabelOverlay Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # LabelOverlay Enumeration
 This enumeration defines how the map labels are displayed.

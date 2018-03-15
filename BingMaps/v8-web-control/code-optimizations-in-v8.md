@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Code Optimizations in V8
 One common piece of feedback the Bing Maps team has received from developers over the years about Bing Maps v7 is that the API is well structured, and easy to use. The development team for Bing Maps V8 really took this to heart and made an effort to not only maintain this when creating new features but to also ensure these features are easy to use with other features in Bing Maps. In addition to this the team spent some time investigating common tasks developers were doing with Bing Maps V7 and looked at ways to reduce the amount of code required to accomplish these tasks. Many of these also provide a small performance improvement as well. The following is a list of some of these common tasks and the code optimizations that have been made available in V8. It is ***very important*** to note that in all of these cases, the v7 code for accomplishing these tasks is still fully supported by V8. If you are migrating a V7 app to V8, you do not need to implement any of these code optimizations, however, you may find these useful if adding additional features to your app, are looking to make performance improvements, or if you want to clean up your code.

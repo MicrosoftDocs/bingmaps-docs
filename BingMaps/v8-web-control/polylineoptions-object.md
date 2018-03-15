@@ -1,5 +1,5 @@
 ---
-title: "PolylineOptions Object1 | Microsoft Docs"
+title: "PolylineOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # PolylineOptions Object
 The following polyline option properties can be used to create customized polylines.

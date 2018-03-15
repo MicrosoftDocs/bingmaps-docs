@@ -1,5 +1,5 @@
 ---
-title: "DirectionsRenderOptions Object1 | Microsoft Docs"
+title: "DirectionsRenderOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DirectionsRenderOptions Object
 You can set options for how to the route is rendered by passing an object containing direction render options to the `setRenderOptions` method of the [DirectionsManager](../v8-web-control/directionsmanager-class.md). The following is a list of properties that are available in the DirectionsRenderOptions object.

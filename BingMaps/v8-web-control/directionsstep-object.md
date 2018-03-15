@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DirectionsStep Object
 Represents one direction in a set of route directions.

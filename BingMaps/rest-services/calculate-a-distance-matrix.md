@@ -11,7 +11,7 @@ caps.latest.revision: 15
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Calculate a Distance Matrix
 The Bing Maps Distance Matrix API provides travel time and distances for a set of origins and destinations. The distances and times returned are based on the routes calculated by the Bing Maps Route API. Times are based on predictive traffic information, depending on the start time specified in the request. Distance matrices can be calculated for driving, walking and public transit routes. This API can also generate distance matrices that optionally includes a histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.

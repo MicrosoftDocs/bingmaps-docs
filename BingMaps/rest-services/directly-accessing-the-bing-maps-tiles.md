@@ -11,7 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Directly accessing the Bing Maps tiles
 Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](http://www.microsoft.com/maps/product/terms.html).

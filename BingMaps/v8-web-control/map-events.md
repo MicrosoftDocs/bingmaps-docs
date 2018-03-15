@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Map Events
 This example shows how all the different events for the map work by highlight a label to indicate which event fired as you use the map. 

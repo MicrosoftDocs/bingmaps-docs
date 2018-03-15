@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Basic Polyline Example
 The following code creates a polyline that is red in color, has a thickness of 3 pixels, and has a dash array where the stroke/gap sequence is "4, 4".  

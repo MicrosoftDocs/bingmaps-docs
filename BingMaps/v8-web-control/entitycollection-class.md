@@ -1,5 +1,5 @@
 ---
-title: "EntityCollection Class2 | Microsoft Docs"
+title: "EntityCollection Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # EntityCollection Class
 **Deprecated**: This class is deprecated in Bing Maps V8. The new [Layer class](../v8-web-control/layer-class.md) should be used instead. This class is still available in V8, but has been added to provide partial backwards compatibility with V7 apps for simple use cases such as adding individual shapes directly to the map, rather than to a layer or collection.

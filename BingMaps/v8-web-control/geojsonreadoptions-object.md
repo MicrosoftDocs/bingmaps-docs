@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # GeoJsonReadOptions Object
 Options used to customize how a GeoJson file is read and loaded via the [Configuration Driven Maps framework](../v8-web-control/configuration-driven-maps-framework.md).

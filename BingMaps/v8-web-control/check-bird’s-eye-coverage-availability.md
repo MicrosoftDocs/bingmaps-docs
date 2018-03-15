@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Check Bird’s eye Coverage Availability
 The Microsoft.Maps namespace has a static function that can be used to check if Bird’s eye imagery is available in at a specified location.

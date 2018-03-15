@@ -1,5 +1,5 @@
 ---
-title: "MatchConfidence Enumeration1 | Microsoft Docs"
+title: "MatchConfidence Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MatchConfidence Enumeration
 Defines the level of confidence that the geocoded location result is a match.

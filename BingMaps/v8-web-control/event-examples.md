@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Event Examples
 The Bing Maps control provides many events to allow your application to respond to user actions. The Map, Pushpin, Polyline, Polygon and Layer classes along with many of the modules all have events. Here are a couple of examples of where you may want to use events:

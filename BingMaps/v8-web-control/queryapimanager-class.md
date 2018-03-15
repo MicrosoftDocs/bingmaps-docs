@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # QueryAPIManager Class
 This is a static class that provides that ability to query data sources that are hosted by the Bing Spatial Data Services using the [Query API](../spatial-data-services/query-api.md).

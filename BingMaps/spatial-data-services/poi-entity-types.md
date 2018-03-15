@@ -11,7 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # POI Entity Types
 The following table shows the Standard Industry Code (SIC) entity IDs that are returned by the NAVTEQNA and NAVTEQEU data sources. POI entities may not be available for every location.  

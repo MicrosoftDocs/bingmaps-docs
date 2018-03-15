@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # IPrimitiveChangedEventArgs Object
 A IPrimitiveChangedEventArgs object that is returned when a **changed** event occurs on an IPrimitve shape.

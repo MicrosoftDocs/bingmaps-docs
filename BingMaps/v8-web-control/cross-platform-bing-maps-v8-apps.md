@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Cross Platform Bing Maps V8 apps
 The Bing Maps V8 web control has been designed to work well on mobile devices that support HTML5. Mobile devices typically have high resolution screens and limited computing power. As such the Bing Maps V8 control adapts to mobile environments by automatically doing the following:

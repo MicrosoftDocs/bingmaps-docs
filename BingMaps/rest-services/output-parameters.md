@@ -11,7 +11,7 @@ caps.latest.revision: 29
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Output Parameters
 Use output parameters to specify the output of the request.  

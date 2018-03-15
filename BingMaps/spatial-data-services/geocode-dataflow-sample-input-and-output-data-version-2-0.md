@@ -11,7 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Geocode Dataflow Sample Input and Output Data Version 2.0
 The following examples show sample input and output data for version 2.0 of the Geocode Dataflow. The input data can be provided in an XML format or as sets of values separated by pipe (&#124;), comma, or tab characters. The output data is provided in the same format as the input data. The data in these examples contains location data to geocode and latitude and longitude pairs to reverse geocode. For information about the data schema, see [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md).  

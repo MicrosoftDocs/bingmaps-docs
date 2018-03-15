@@ -11,6 +11,7 @@ caps.latest.revision: 17
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Bing Maps V8 Web Control
 Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping developer kit optimized for Enterprise scenarios. 

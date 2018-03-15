@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # GeoDataPrimitive Object
 Represents the primitive object for a boundary returned by the [GeoData API](../spatial-data-services/geodata-api.md). 

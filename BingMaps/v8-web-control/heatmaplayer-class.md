@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # HeatMapLayer Class
 This is the main class thate provides that heat map functionality.

@@ -1,5 +1,5 @@
 ---
-title: "MatchCode Enumeration1 | Microsoft Docs"
+title: "MatchCode Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # MatchCode Enumeration
 Defines the geocoding level of the location match found by the geocoder.

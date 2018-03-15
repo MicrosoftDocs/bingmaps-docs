@@ -1,5 +1,5 @@
 ---
-title: "DirectionsManager Class1 | Microsoft Docs"
+title: "DirectionsManager Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DirectionsManager Class
 The DirectionsManager is the primary class in the Directions module. It contains methods for calculating directions and displaying a route on a map.

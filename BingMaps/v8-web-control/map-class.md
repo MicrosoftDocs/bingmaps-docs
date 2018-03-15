@@ -1,5 +1,5 @@
 ---
-title: "Map Class2 | Microsoft Docs"
+title: "Map Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 21
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Map Class
 The map object generates an interactive map within a specified DOM element. When loading the map you can reference the DOM element to render the map in by either referencing an element directly (i.e. document.getElementById), or by passing in a HTML ID selector (i.e. #myMap). This is normally a reference to an empty div. 

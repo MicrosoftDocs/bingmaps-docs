@@ -11,6 +11,7 @@ caps.latest.revision: 2
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Search Module Examples
 The Bing Maps SDK provides the ability to do forward and reverse geocoding through the Search module. Geocoding is the process of taking an address and determining its location on the map. Reverse geocoding does the opposite and takes a coordinate and finds the closest known location. It does this by connecting to the Bing Maps REST services using an asynchronous method call. 

@@ -1,5 +1,5 @@
 ---
-title: "Location Class3 | Microsoft Docs"
+title: "Location Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 6
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Location Class
 This class stores the coordinate information needed to mark locations on a map. The Location class consists of two properties: latitude and longitude. 

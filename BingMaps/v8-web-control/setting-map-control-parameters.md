@@ -11,6 +11,7 @@ caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Setting Map Control Parameters
 When specifying the URL to the map control in a script reference, additional URL parameters can be added to configure how the map control functions.

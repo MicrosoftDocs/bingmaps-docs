@@ -11,7 +11,7 @@ caps.latest.revision: 14
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Geocode Dataflow Sample Input and Output Data Version 1.0
 > [!NOTE]

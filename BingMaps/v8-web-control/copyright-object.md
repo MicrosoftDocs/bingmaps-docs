@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Copyright Object
 Represents the copyright object for a boundary returned by the [GeoData API](../spatial-data-services/geodata-api.md). 

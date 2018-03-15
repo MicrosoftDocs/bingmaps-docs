@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Get Shapes from DrawingManager
 This example shows how to get all the shapes that are in the drawing manager at any time. 

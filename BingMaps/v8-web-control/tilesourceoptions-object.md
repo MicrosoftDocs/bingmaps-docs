@@ -1,5 +1,5 @@
 ---
-title: "TileSourceOptions Object1 | Microsoft Docs"
+title: "TileSourceOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # TileSourceOptions Object
 The following is a list of option properties that can be used with a TileSource.

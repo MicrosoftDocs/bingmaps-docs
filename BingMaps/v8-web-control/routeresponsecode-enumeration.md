@@ -1,5 +1,5 @@
 ---
-title: "RouteResponseCode Enumeration2 | Microsoft Docs"
+title: "RouteResponseCode Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # RouteResponseCode Enumeration
 Contains response codes for a route calculation request.

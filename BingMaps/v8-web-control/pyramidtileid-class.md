@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # PyramidTileId Class
 Occasionally you may run into a situation where you need to perform additional calculations against the tile information to generate the required tile URL. This can be done by passing a callback function to the `uriConstructor` property. When this callback function is triggered, it receives a PyramidTileId object that contains additional information about the tile that is being requested. You can then use this information to create the required tile URL and return it from the callback function.

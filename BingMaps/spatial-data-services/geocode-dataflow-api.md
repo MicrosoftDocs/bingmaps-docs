@@ -11,7 +11,7 @@ caps.latest.revision: 49
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Geocode Dataflow API
 **Before using this API, make sure you are aware of the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).**  

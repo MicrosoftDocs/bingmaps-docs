@@ -1,5 +1,5 @@
 ---
-title: "WaypointOptions Object2 | Microsoft Docs"
+title: "WaypointOptions Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 4
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # WaypointOptions Object
 The following is a list of properties that are available in the WaypointOptions object.

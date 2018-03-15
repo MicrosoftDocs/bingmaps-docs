@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # Heat Map Color Gradients
 The color gradient heat map option is used to colorize the intensity of the heatmap. The following are some examples of color gradients that you may find useful.

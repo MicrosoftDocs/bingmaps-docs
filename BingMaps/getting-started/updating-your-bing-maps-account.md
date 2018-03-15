@@ -11,7 +11,7 @@ caps.latest.revision: 13
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Updating Your Bing Maps Account
 This topic describes how to:  

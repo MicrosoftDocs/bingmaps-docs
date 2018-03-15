@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New | Microsoft Docs"
+title: "What's New | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 22
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # What&#39;s New
 The following is a list of key features added to the Bing Maps V8 Web control dring one of its regular updates. Details about smaller changes to the API interface (i.e. new function parameters) can be found in the [Bing Maps V8 TypeScript Definition commit history](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions/commits/master). 

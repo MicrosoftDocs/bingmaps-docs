@@ -11,6 +11,7 @@ caps.latest.revision: 3
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # DistanceUnits Enumeration
 This enumeration allows you to specify the unit of measurement of a linear distance. You can access this enumeration with the `Microsoft.Maps.SpatialMath.DistanceUnits` namespace.

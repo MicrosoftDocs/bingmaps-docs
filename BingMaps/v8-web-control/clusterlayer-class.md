@@ -11,6 +11,7 @@ caps.latest.revision: 7
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # ClusterLayer Class
 This is the main class that provides the clustering functionality.

@@ -11,7 +11,7 @@ caps.latest.revision: 13
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
-ms:service: "bingmaps"
+ms:service: "bing-maps"
 ---
 # Driving Route Example
 The following example shows how to request a driving route between two locations that minimizes the use of toll roads. Responses are shown for both XML and JSON formats.  

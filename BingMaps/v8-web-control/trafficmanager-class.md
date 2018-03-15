@@ -1,5 +1,5 @@
 ---
-title: "TrafficManager Class1 | Microsoft Docs"
+title: "TrafficManager Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -11,6 +11,7 @@ caps.latest.revision: 5
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms:service: "bing-maps"
 ---
 # TrafficManager Class
 The **TrafficManager** class provides the ability to show traffic flow and incident data on top of the map. When creating an instance of the **TrafficManager** class the map must be passed as an argument to the constructor. 
