@@ -1,3 +1,7 @@
-- name: BingMaps
-  tocHref: /bingmaps
-  topicHref: /bingmaps/index
+- name: Docs
+  tocHref: /
+  topicHref: /  
+  items:
+  - name: BingMaps
+    tocHref: /bingmaps/
+    topicHref: /bingmaps/
