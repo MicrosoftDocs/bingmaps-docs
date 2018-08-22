@@ -2,8 +2,6 @@
   href: index.md
 - name: What's New
   href: what-s-new-in-the-rest-services.md
-- name: Getting Traffic Incident Data
-  href: getting-traffic-incident-data.md
 - name: Using the REST Services with .NET
   href: using-the-rest-services-with-net.md
 - name: Locations
