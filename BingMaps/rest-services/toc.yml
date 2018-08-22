@@ -1,4 +1,6 @@
-- name: Bing Maps REST APIs 
+- name: Bing Maps REST APIs
+  maintainContext: true
+  items:
   - name: Getting Started
     href: index.md
   - name: What's New
