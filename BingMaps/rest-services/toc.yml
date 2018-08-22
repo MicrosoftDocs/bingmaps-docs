@@ -1,0 +1,109 @@
+- name: Getting Started
+  href: index.md
+- name: What's New
+  href: what-s-new-in-the-rest-services.md
+- name: Getting Traffic Incident Data
+  href: getting-traffic-incident-data.md
+- name: Using the REST Services with .NET
+  href: using-the-rest-services-with-net.md
+- name: Locations
+  href: locations/index.md
+  maintainContext: true
+  items:
+    - name: Find Location by Address
+      href: locations/find-a-location-by-address.md
+    - name: Find a Location by Point
+      href: locations/find-a-location-by-point.md
+    - name: Find a Location by Query
+      href: locations/find-a-location-by-query.md
+    - name: Location Data
+      href: locations/location-data.md
+- name: Elevations
+  href: elevations/index.md
+  maintainContext: true
+  items:
+    - name: Get Elevations
+      href: elevations/get-elevations.md
+    - name: Elevation Data
+      href: elevations/elevation-data.md
+    - name: Point Compression Algorithm
+      href: elevations/point-compression-algorithm.md
+- name: Imagery
+  href: imagery/index.md
+  maintainContext: true
+  items:
+    - name: Get a Static Map
+      href: imagery/get-a-static-map.md
+    - name: Get Imagery Metadata
+      href: imagery/get-imagery-metadata.md
+    - name: Imagery Metadata
+      href: imagery/imagery-metadata.md
+    - name: Static Map Data
+      href: imagery/static-map-data.md
+- name: Routes
+  href: routes/index.md
+  maintainContext: true
+  items:
+    - name: Calculate a Distance Matrix
+      href: routes/calculate-a-distance-matrix.md
+    - name: Calculate a Isochrone
+      href: routes/calculate-an-isochrone.md
+    - name: Calculate a Route
+      href: routes/calculate-a-route.md
+    - name: Calculate a Truck Route
+      href: routes/calculate-a-truck-route.md
+    - name: Calculate Routes from Major Roads
+      href: routes/calculate-routes-from-major-roads.md
+    - name: Snape Points to Roads
+      href: routes/snap-points-to-roads.md
+    - name: Route Data
+      href: routes/route-data.md
+    - name: Manuever Types
+      href: routes/maneuver-types.md
+    - name: Warning Types
+      href: routes/warning-types.md
+- name: Traffic
+  maintainContext: true
+  href: traffic/index.md
+  items:
+  - name: Get Traffic Incidents
+    href: traffic/get-traffic-incidents.md
+  - name: Get Traffic Incident Data
+    href: traffic/getting-traffic-incident-data.md
+- name: Common Paramaters and Types
+  href: common-parameters-and-types/index.md
+  maintainContext: true
+  items:
+    - name: Base URL Structure
+      href: common-parameters-and-types/base-url-structure.md
+    - name: Culture Parameter
+      href: common-parameters-and-types/culture-parameter.md
+    - name: Output Parameters
+      href: common-parameters-and-types/output-parameters.md
+    - name: User Context Parameters
+      href: common-parameters-and-types/user-context-parameters.md
+    - name: Asynchronous Requests
+      href: common-parameters-and-types/asynchronous-requests.md
+    - name: Location and Area Types
+      href: common-parameters-and-types/location-and-area-types.md
+    - name: Pushpin Syntax and Icon Styles
+      href: common-parameters-and-types/pushpin-syntax-and-icon-styles.md
+    - name: Supported Culture Codes
+      href: common-parameters-and-types/supported-culture-codes.md
+    - name: Location Recognition Entity Types
+      href: common-parameters-and-types/location-and-recognition-entity-types.md
+- name: API Reference
+  href: /api/
+  maintainContext: true
+- name: Common Response Description
+  href: common-response-description.md
+- name: JSON Data Contracts
+  href: json-data-contracts.md
+- name: Status Codes and Error Handling
+  href: status-codes-and-error-handling.md
+- name: Directly Accessing Bing Maps Tiles
+  href: directly-accessing-the-bing-maps-tiles.md
+- name: Release History
+  href: release-history.md
+- name: Developer Resources
+  href: developer-resources.md
