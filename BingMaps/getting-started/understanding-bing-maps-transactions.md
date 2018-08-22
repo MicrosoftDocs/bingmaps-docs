@@ -92,9 +92,9 @@ Only billable transactions count towards the free-use limits for Basic keys, and
 |Route-Isochrone|REST Services|Yes|Any time a synchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
 |Route-IsochroneAsync|REST Services|Yes|Any time an asynchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
 |Route-IsochroneAsyncCallback|REST Services|No|Any time the status of an asynchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is checked.|  
-|Route-SnapToRoad|REST Services|Yes|Any time a synchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is made, one (1) transaction is counted.|  
-|Route-SnapToRoadAsync|REST Services|Yes|Any time an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is made, one (1) transaction is counted.|  
-|Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is checked.|  
+|Route-SnapToRoad|REST Services|Yes|Any time a synchronous [Snap to Road](../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoadAsync|REST Services|Yes|Any time an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-roads.md) request is checked.|  
 |Route-Truck|REST Services|Yes|Any time a synchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
 |Route-TruckAsync|REST Services|Yes|Any time an asynchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
 |Route-TruckAsyncCallback|REST Services|No|Any time the status of an asynchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is checked.| 
