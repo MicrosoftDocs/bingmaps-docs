@@ -19,7 +19,7 @@ Use the following URL template to request traffic incident information. A collec
   
  For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](traffic-incident-data.md). You can also view the example URL and response values in the [Examples](#examples) section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](getting-traffic-incident-data.md).  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](/bing-maps-docs/coverage/bing-maps-traffic-coverage.md).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](../../coverage/bing-maps-traffic-coverage.md).  
   
 ## Supported HTTP Methods
 
@@ -38,12 +38,12 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
 ### Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
+>  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../services/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../services/culture-parameter.md): Includes a list of the supported cultures.  
+>  -   [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> -   [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
 >   
 >  When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, severity=6,9 can be shortened to s=6,9.  
 >   
@@ -51,33 +51,33 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|mapArea||**Required.** Specifies the area to search for traffic incident information.|A rectangular area specified as a bounding box. The size of the area can be a maximum of 500 km x 500 km.<br /><br /> A bounding box defines an area by specifying SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values. For more information, see [Location and Area Types](../services/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
+|mapArea||**Required.** Specifies the area to search for traffic incident information.|A rectangular area specified as a bounding box. The size of the area can be a maximum of 500 km x 500 km.<br /><br /> A bounding box defines an area by specifying SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values. For more information, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
 |includeLocationCodes||**Optional.** Specifies whether to include traffic location codes in the response. Traffic location codes provide traffic incident information for pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country.|One of the following values:<br /><br /> -   true<br />-   false **[default]**<br /><br /> If you want to use the default value, you can omit this parameter from the URL request.|  
 |severity|s|**Optional.** Specifies severity level of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious<br /><br /> The default is to return traffic incidents for all severity levels.<br /><br /> **Examples**:<br /><br /> severity=2,3,4<br /><br /> s=2,3,4|  
 |type|t|**Optional.** Specifies the type of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather<br /><br /> **Examples**:<br /><br /> type=2<br /><br /> t=2,9|  
   
 ## Response  
- A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../services/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../services/common-response-description.md).  
+ A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../common-parameters-and-types/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-parameters-and-types/common-response-description.md).  
   
- These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../services/output-parameters.md).  
+ These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default, unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
  JSON and XML responses are provided for the URL examples in the following section.  
   
-## Examples  
- **Get all traffic incidents in a specified area.**  
+## Examples
+
+**Get all traffic incidents in a specified area.**  
   
- The following example shows how to request all traffic incident for an area defined as a bounding box (South Latitude, West Longitude, North Latitude, East Longitude). For more information about defining a bounding box, see [Location and Area Types](../services/location-and-area-types.md). Note that the includeLocationCodes parameter is not specified in this example.  
+The following example shows how to request all traffic incident for an area defined as a bounding box (South Latitude, West Longitude, North Latitude, East Longitude). For more information about defining a bounding box, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md). Note that the includeLocationCodes parameter is not specified in this example.  
   
-```  
-  
+```url  
 http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBingMapsKey  
 ```  
   
  **JSON Response**  
   
- This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](../services/traffic-incident-data.md).  
+ This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](../common-parameters-and-types/traffic-incident-data.md).  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -143,7 +143,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
   
  If the output parameter is specified and set to xml (o=xml) in this URL, the URL returns a response with the following format.  
   
-```  
+```xml
 <Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  
@@ -202,7 +202,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
   
  The following example queries for congestion type traffic incidents (t=9) that are minor or moderate in severity (s=2,3) and that occur in the bounding box defined by the coordinates (37.0,-105.45,45.0,-94.0). Traffic location codes are requested by setting the includeLocationCodes value 'true' in the URL. The requested output format is XML.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&s=2,3&o=xml&key=BingMapsKey  
 ```  
   
@@ -210,7 +210,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
   
  This URL returns an XML response with the following format.  
   
-```  
+```xml
 <Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  
@@ -278,7 +278,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
   
  If the output parameter was not specified in this URL, a JSON response with the following format is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -355,7 +355,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
    "statusDescription":"OK",  
    "traceId":"9c2944a197db4457bb8d4def0007b657"  
 }  
-```  
+```
   
 ## HTTP Status Codes  
   
@@ -377,6 +377,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
   
 -   503  
   
-## See Also  
- [Using the REST Services with .NET](../using-the-rest-services-with-net.md) 
- [JSON Data Contracts](../json-data-contracts.md)
+## See Also
+
+[Using the REST Services with .NET](../using-the-rest-services-with-net.md) 
+[JSON Data Contracts](../json-data-contracts.md)
