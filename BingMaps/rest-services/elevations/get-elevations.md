@@ -14,12 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Get Elevations
+
 Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path or area on the Earth.  
   
 ## URL Templates  
   
-> [!Note]
-> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
  **Unit of elevation**: meters  
   
@@ -47,7 +47,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,l
   
  The rectangular area defined by the four (4) bounding box coordinates (south latitude, west longitude, north latitude, east longitude) is divided into rows and columns. The edges of the bounding box account for two (2) of the rows and two (2) of the columns. Elevations are returned for the vertices of the grid created by the rows and columns. For example, if you had specified `rows=4` and `columns=4`, then 16 elevations are returned. The elevation values are ordered starting with the southwest corner, and then proceed west to east and south to north. This is illustrated in the following diagram. The elevation points are numbered in the order that they are returned.  
   
- ![Bounding box grid showing order of elevations](../rest-services/media/rest-elevationsboundingbox.png "Bounding box grid showing order of elevations")  
+ ![Bounding box grid showing order of elevations](../media/rest-elevationsboundingbox.png "Bounding box grid showing order of elevations")  
   
  **Required parameters**: bounds, rows, cols, key  
   
@@ -76,19 +76,19 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
 > [!CAUTION]
 >  There is a limitation in that latitude coordinates outside of the range of -85 and 85 are not supported.  
   
- If you are submitting a large number of locations, you can use the HTTP POST protocol or the [Point Compression Algorithm](../rest-services/point-compression-algorithm.md).  
+ If you are submitting a large number of locations, you can use the HTTP POST protocol or the [Point Compression Algorithm](point-compression-algorithm.md).  
   
 ## Template Parameters  
   
 > [!NOTE]
 >  -   Parameters and parameter values are not case-sensitive.  
-> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).  
+> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](common-parameeters-and-types/output-parameters.md).  
   
  **Parameters in the following table are valid for a URL only when they appear in the templates above.**  
   
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
-|points=lat1,long1,lat2,long2,latn,longn|pts|**Required**. A set of coordinates on the Earth to use in elevation calculations. The exact use of these points depends on the type of elevation request.|A set of latitude and longitude values in WGS84 decimal degrees. If you are requesting elevations or elevation offsets for a set of points, the maximum number of points is 1024.<br /><br /> If you have a large number of values, you can use the HTTP POST protocol or the [Point Compression Algorithm](../rest-services/point-compression-algorithm.md).<br /><br /> **Example:**<br /><br /> points=35.89431,-110.72522,35.89393,-110.72578,35.89374|  
+|points=lat1,long1,lat2,long2,latn,longn|pts|**Required**. A set of coordinates on the Earth to use in elevation calculations. The exact use of these points depends on the type of elevation request.|A set of latitude and longitude values in WGS84 decimal degrees. If you are requesting elevations or elevation offsets for a set of points, the maximum number of points is 1024.<br /><br /> If you have a large number of values, you can use the HTTP POST protocol or the [Point Compression Algorithm](point-compression-algorithm.md).<br /><br /> **Example:**<br /><br /> points=35.89431,-110.72522,35.89393,-110.72578,35.89374|  
 |bounds||**Required**. Specifies the rectangular area over which to provide elevation values.|A bounding box defined as a set of WGS84 latitudes and longitudes in the following order:<br /><br /> south latitude, west longitude, north latitude, east longitude<br /><br /> **Example**:<br /><br /> bounds=45.219,-122.234,47.61,-122.07|  
 |rows, cols||**Required**. Specifies the number of rows and columns to use to divide the bounding box area into a grid. The rows and columns that define the bounding box each count as two (2) of the rows and columns. Elevation values are returned for all vertices of the grid.|Integers with a value of two (2) or greater. The number of rows and columns can define a maximum of 1024 locations (rows * cols <= 1024).<br /><br /> **Examples**:<br /><br /> rows=30<br /><br /> cols=15|  
 |samples|samp|**Required**. Specifies the number of equally-spaced elevation values to provide along a polyline path.|A positive integer. The maximum number of samples is 1024.<br /><br /> **Example**: samples=30|  
@@ -108,7 +108,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
   
  The following diagram shows how the ellipsoid and geoid sea level models can vary and how elevation is measured for both models.  
   
- ![Ellipsoid and Geoid Sea Level elevatoin values](../rest-services/media/restservices-elevationearthmodels.png "Ellipsoid and Geoid Sea Level elevatoin values")  
+ ![Ellipsoid and Geoid Sea Level elevatoin values](../media/restservices-elevationearthmodels.png "Ellipsoid and Geoid Sea Level elevatoin values")  
   
  **Zoom level** : A zoom level is returned in the response, and reflects the resolution of the data used to compute the elevation. A higher zoom level indicates higher resolution data and more accurate elevation values. At lower zoom levels, the data is further apart and interpolated points are less accurate. For information about the data resolution at different zoom levels, see [Understanding Scale and Resolution](http://msdn.microsoft.com/en-us/library/aa940990.aspx).  
   
@@ -124,9 +124,9 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
 |United States|10 m|  
   
 ## Response  
- A set of elevations and the associated zoom level is returned in the responses that request elevation values. For descriptions of the data returned in the response, see [Elevation Data](../rest-services/elevation-data.md). For more information about the common values that are also returned in the response, see [Common Response Description](../rest-services/common-response-description.md).  
+ A set of elevations and the associated zoom level is returned in the responses that request elevation values. For descriptions of the data returned in the response, see [Elevation Data](elevation-data.md). For more information about the common values that are also returned in the response, see [Common Response Description](../common-response-description.md).  
   
- You can choose JSON (application/json) or XML (application/xml) format for the response. JSON is returned by default. To specify the format, set the output (o) parameter to `json` or `xml`. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
+ You can choose JSON (application/json) or XML (application/xml) format for the response. JSON is returned by default. To specify the format, set the output (o) parameter to `json` or `xml`. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 ## Examples  
   
@@ -436,7 +436,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
   
  **Use HTTP POST to get elevations**  
   
- You can use HTTP POST protocol to make any request that takes the `points` parameter. You may want to do this if you have a large number of locations in your request. If you are typically requesting elevations for 400 points or less, you may want to implement the [Point Compression Algorithm](../rest-services/point-compression-algorithm.md).  
+ You can use HTTP POST protocol to make any request that takes the `points` parameter. You may want to do this if you have a large number of locations in your request. If you are typically requesting elevations for 400 points or less, you may want to implement the [Point Compression Algorithm](point-compression-algorithm.md).  
   
  **HTTP POST URL**  
   
@@ -460,9 +460,8 @@ points=38.8895,77.0501,38.8877,-77.0472,38.8904,-77.0474,38.8896,77.0351
   
 ## HTTP Status Codes  
   
-> [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
-  
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
+
  When the request is successful, the following HTTP status code is returned.  
   
 * 200
@@ -477,5 +476,5 @@ When the request is not successful, the response returns one of the following er
 * 503 
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+ [JSON Data Contracts](../json-data-contracts.md)

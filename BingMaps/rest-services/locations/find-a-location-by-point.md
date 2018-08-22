@@ -1,64 +1,59 @@
 ---
 title: "Find a Location by Point | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 763f8c4d-5aee-4e16-840f-35c9fcf35e75
-caps.latest.revision: 51
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Find a Location by Point
+
 Use the following URL template to get the location information associated with latitude and longitude coordinates.  
   
- When you make a request by using the following URL template, the response returns one or more Location resources that contain location information associated with the latitude and longitude coordinate values that you specify. Location information can be as specific as an address or more general such as the country or region. You can specify the type of location information you want to receive by setting the `includeEntityTypes` parameter in the URL. For example, you can specify to only receive information about the neighborhood that corresponds to the coordinates. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). You can also view the example URL and response values in the Examples section.  
+ When you make a request by using the following URL template, the response returns one or more Location resources that contain location information associated with the latitude and longitude coordinate values that you specify. Location information can be as specific as an address or more general such as the country or region. You can specify the type of location information you want to receive by setting the `includeEntityTypes` parameter in the URL. For example, you can specify to only receive information about the neighborhood that corresponds to the coordinates. For more information about the Location resource, see [Location Data](../services/location-data.md). You can also view the example URL and response values in the Examples section.  
   
 ## URL Template  
   
-> [!Note]
-> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
  **Get an address for a specified point (latitude and longitude).**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/{point}?includeEntityTypes={entityTypes}&includeNeighborhood={includeNeighborhood}&include={includeValue}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../rest-services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
+>  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../rest-services/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../rest-services/culture-parameter.md): Includes a list of the supported cultures.  
+>  -   [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> -   [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
 >   
 >  Parameter values are not case-sensitive.  
   
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
 |includeEntityTypes||**Optional**. Specifies the entity types that you want to return in the response. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.|A comma separated list of entity types selected from the following options.<br /><br /> -   Address<br />-   Neighborhood<br />-   PopulatedPlace<br />-   Postcode1<br />-   AdminDivision1<br />-   AdminDivision2<br />-   CountryRegion<br /><br /> These entity types are ordered from the most specific entity to the least specific entity. When entities of more than one entity type are found, only the most specific entity is returned. For example, if you specify Address and AdminDistrict1 as entity types and entities were found for both types, only the Address entity information is returned in the response. One exception to this rule is when both PopulatedPlace and Neighborhood entity types are specified and information is found for both. In this case, the information for both entity types is returned. Also, more than one Neighborhood may be returned because the area covered by two different neighborhoods can overlap.|  
-|point||**Required.** The coordinates of the location that you want to reverse geocode. A point is specified by a latitude and a longitude. For more information, see the definition of Point in [Location and Area Types](../rest-services/location-and-area-types.md).|A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../rest-services/location-and-area-types.md).<br /><br /> **Example**: 47.64054,-122.12934|  
-|includeNeighborhood|inclnb|**Optional.** Specifies to include the neighborhood in the response when it is available.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br />     **Example:**<br />     inclnb=1|  
-|include|incl|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> incl=ciso2|  
+|point||**Required.** The coordinates of the location that you want to reverse geocode. A point is specified by a latitude and a longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> Example: `47.64054,-122.12934`|  
+|includeNeighborhood|inclnb|**Optional.** Specifies to include the neighborhood in the response when it is available.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br />     Example:<br /> `inclnb=1`|  
+|include|incl|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br />Example:<br /><br /> `incl=ciso2`|  
   
-## Response  
- One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
+## Response
+
+One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-parameters-and-types/common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
   
- This URL supports JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
+ This URL supports JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 ## Examples  
  **Find location information for a specified point on the Earth.**  
   
  This example gets address information for a specified latitude and longitude and requests the results in XML format.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=BingMapsKey  
 ```  
   
@@ -66,7 +61,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=Bing
   
  This example returns the following XML response.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -125,9 +120,9 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=Bing
   
  **JSON Response**  
   
- The following JSON response contains the same information as the XML response and is provided when the output (o) parameter is not set.  
+ The following JSON response contains the same information as the XML response and is provided when the output (`o`) parameter is not set.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -188,13 +183,13 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=Bing
    "statusDescription":"OK",  
    "traceId":"99b1256e09044490bce82bbbba1dab7a"  
 }  
-```  
+```
   
  **Find location information for a specified point and request that only CountryRegion entity types be returned.**  
   
  This example requests only country or region information for the same latitude and longitude as the previous example.  
   
-```  
+```url 
 http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key=BingMapsKey  
 ```  
   
@@ -202,7 +197,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityT
   
  This example returns the following XML response.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -257,7 +252,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityT
   
  The following JSON response contains the same information as the XML response and is provided when the output (o) parameter is not set.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -316,8 +311,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityT
   
 ## HTTP Status Codes  
   
-> [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -333,8 +327,8 @@ When the request is not successful, the response returns one of the following er
 * 503
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)   
- [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)   
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+ [JSON Data Contracts](../json-data-contracts.md)   
+ [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)
  [Getting Route Directions](https://msdn.microsoft.com/en-us/library/gg427607.aspx)   
  [Find a location by query](https://www.bingmapsportal.com/ISDK/AjaxV7#RESTServices1)

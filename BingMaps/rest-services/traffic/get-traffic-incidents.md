@@ -14,11 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Get Traffic Incidents
+
 Use the following URL template to request traffic incident information. A collection of traffic incidents is returned in the response.  
   
- For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). You can also view the example URL and response values in the **Examples** section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](../rest-services/getting-traffic-incident-data.md).  
+ For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](traffic-incident-data.md). You can also view the example URL and response values in the [Examples](#examples) section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](getting-traffic-incident-data.md).  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](/bing-maps-docs/coverage/bing-maps-traffic-coverage.md).  
   
 ## Supported HTTP Methods
 
@@ -26,8 +27,7 @@ GET
 
 ## URL Templates  
   
-> [!Note]
-> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
  **Get traffic incidents.**  
   
@@ -38,12 +38,12 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
 ### Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../rest-services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
+>  See the [Common Parameters and Types](../services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../rest-services/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../rest-services/culture-parameter.md): Includes a list of the supported cultures.  
+>  -   [Output Parameters](../services/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> -   [Culture Parameter](../services/culture-parameter.md): Includes a list of the supported cultures.  
 >   
 >  When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, severity=6,9 can be shortened to s=6,9.  
 >   
@@ -51,22 +51,22 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|mapArea||**Required.** Specifies the area to search for traffic incident information.|A rectangular area specified as a bounding box. The size of the area can be a maximum of 500 km x 500 km.<br /><br /> A bounding box defines an area by specifying SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values. For more information, see [Location and Area Types](../rest-services/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
+|mapArea||**Required.** Specifies the area to search for traffic incident information.|A rectangular area specified as a bounding box. The size of the area can be a maximum of 500 km x 500 km.<br /><br /> A bounding box defines an area by specifying SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values. For more information, see [Location and Area Types](../services/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
 |includeLocationCodes||**Optional.** Specifies whether to include traffic location codes in the response. Traffic location codes provide traffic incident information for pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country.|One of the following values:<br /><br /> -   true<br />-   false **[default]**<br /><br /> If you want to use the default value, you can omit this parameter from the URL request.|  
 |severity|s|**Optional.** Specifies severity level of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious<br /><br /> The default is to return traffic incidents for all severity levels.<br /><br /> **Examples**:<br /><br /> severity=2,3,4<br /><br /> s=2,3,4|  
 |type|t|**Optional.** Specifies the type of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather<br /><br /> **Examples**:<br /><br /> type=2<br /><br /> t=2,9|  
   
 ## Response  
- A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../rest-services/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
+ A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../services/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../services/common-response-description.md).  
   
- These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
+ These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../services/output-parameters.md).  
   
  JSON and XML responses are provided for the URL examples in the following section.  
   
 ## Examples  
  **Get all traffic incidents in a specified area.**  
   
- The following example shows how to request all traffic incident for an area defined as a bounding box (South Latitude, West Longitude, North Latitude, East Longitude). For more information about defining a bounding box, see [Location and Area Types](../rest-services/location-and-area-types.md). Note that the includeLocationCodes parameter is not specified in this example.  
+ The following example shows how to request all traffic incident for an area defined as a bounding box (South Latitude, West Longitude, North Latitude, East Longitude). For more information about defining a bounding box, see [Location and Area Types](../services/location-and-area-types.md). Note that the includeLocationCodes parameter is not specified in this example.  
   
 ```  
   
@@ -75,7 +75,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
   
  **JSON Response**  
   
- This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](../rest-services/traffic-incident-data.md).  
+ This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](../services/traffic-incident-data.md).  
   
 ```  
 {  
@@ -359,8 +359,7 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
   
 ## HTTP Status Codes  
   
-> [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -379,5 +378,5 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
 -   503  
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md) 
+ [JSON Data Contracts](../json-data-contracts.md)

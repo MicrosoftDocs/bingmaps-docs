@@ -1,41 +1,38 @@
 ---
 title: "Point Compression Algorithm | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 315dec80-3d91-46be-957a-c3519e7285bd
-caps.latest.revision: 12
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Point Compression Algorithm
+
 When the number of points (latitude and longitude pairs) becomes too large, the length of the URL request may exceed limits imposed by clients, proxies, or the server. To reduce the size of the request or when you cannot use the HTTP POST method, you can implement the compression algorithm described below to get a compressed string that you can use instead of the lengthy points list. The `points` parameter in the Elevation API URLs supports these compressed strings and automatically returns uncompressed elevation data. There is no need for a decompression algorithm.  
   
  This algorithm is best for 400 points or less. If you are requesting elevation data for more than 400 points, make an HTTP POST request.  
   
  The following example shows the difference in size between a list of points and the equivalent compressed string.  
   
- **Original Values**  
+**Original Values**  
   
- points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248,35.893366960808635,-110.72661500424147  
+`points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248,35.893366960808635,-110.72661500424147`  
   
- **Equivalent Compressed Value**  
+**Equivalent Compressed Value**  
   
- points=vx1vilihnM6hR7mEl2Q  
+`points=vx1vilihnM6hR7mEl2Q`
   
- The following example shows how to use this encoded value as the points value when you request elevation values along a polyline path.  
+The following example shows how to use this encoded value as the points value when you request elevation values along a polyline path.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2Q&samples=20&heights=sealevel&key=BingMapsKey  
 ```  
   
-## Algorithm Description  
- The following step-by-step instructions describe the point compression algorithm complete with an example. A test URL that you can use with a small number of points to test your algorithm implementation is described in [Testing Your Algorithm Implementation](../rest-services/point-compression-algorithm.md#TestingYourAlg), and a [JavaScript Implementation](../rest-services/point-compression-algorithm.md#javascriptalg) is provided.  
+## Algorithm Description
+
+The following step-by-step instructions describe the point compression algorithm complete with an example. A test URL that you can use with a small number of points to test your algorithm implementation is described in [Testing Your Algorithm Implementation](point-compression-algorithm.md#testing-your-algorithm-implementation), and a [JavaScript Implementation](point-compression-algorithm.md#javascript-implementation) is provided.  
   
 1.  Start with a set of latitude and longitude values.  
   
@@ -144,19 +141,18 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2
     6hR  
     7mE  
     l2Q  
-  
     ```  
   
 10. Concatenate the strings and use this string as the encoded value for the points parameter.  
   
     ```  
     points=vx1vilihnM6hR7mEl2Q  
-  
     ```  
   
-<a name="javascriptalg"></a>   
+
 ## JavaScript Implementation  
- The following JavaScript code is an implementation of this algorithm.  
+
+The following JavaScript code is an implementation of this algorithm.  
   
 ```javascript  
 function encodePoints(points) {  
@@ -201,25 +197,27 @@ function encodePoints(points) {
     // step 10  
     return result.join("");  
 }  
-```  
-  
-<a name="TestingYourAlg"></a>   
-## Testing Your Algorithm Implementation  
+```
+
+## Testing Your Algorithm Implementation
+
  The following URL is provided for you to **test your algorithm**. You can compare the compressed string computed by this URL for a small number of points to the compressed string computed by your implementation. There is no value in using this to create the compressed string in general because you are subject to the same length limitation as the Elevation API URLs.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=lat1,long1,lat2,long2,latn,longn&key=BingMapsKey  
 ```  
   
- **Example TEST Request**: The following request provides a set of test points in the URL request, and the response returns a compressed string in the `value` (JSON) or `Value` (XML) field.  
+### Example: TEST Request
+
+The following request provides a set of test points in the URL request, and the response returns a compressed string in the `value` (JSON) or `Value` (XML) field.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248&key=BingMapsKey  
 ```  
   
- **JSON TEST Response**  
+#### JSON TEST Response
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -239,11 +237,11 @@ http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=35.8943090
    "statusDescription":"OK",  
    "traceId":"31fbc5fa9724425487a63838d552ae0b"  
 }  
-```  
+```
   
- **XML Test Response**  
+#### XML Test Response
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -267,8 +265,8 @@ http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=35.8943090
   </ResourceSets>  
 </Response>  
   
-```  
+```
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+ [JSON Data Contracts](../json-data-contracts.md)

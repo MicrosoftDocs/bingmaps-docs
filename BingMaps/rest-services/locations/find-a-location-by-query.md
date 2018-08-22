@@ -13,18 +13,18 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Find a Location by Query
-Use the following URL templates to get latitude and longitude coordinates that correspond to location information provided as a query string. The strings `Space Needle` (a landmark) and `1 Microsoft Way Redmond WA` (an address) are examples of query strings with location information. These strings can be specified as a structured URL parameter or as a query parameter value. This URL template can be used to geocode information from any country. For more accurate results, use [User Context Parameters](../rest-services/user-context-parameters.md), such as the coordinates of a user’s current location.  
+
+Use the following URL templates to get latitude and longitude coordinates that correspond to location information provided as a query string. The strings `Space Needle` (a landmark) and `1 Microsoft Way Redmond WA` (an address) are examples of query strings with location information. These strings can be specified as a structured URL parameter or as a query parameter value. This URL template can be used to geocode information from any country. For more accurate results, use [User Context Parameters](../common-parameters-and-types/user-context-parameters.md), such as the coordinates of a user’s current location.  
   
- When you make a request by using one of the following URL templates, the response returns one or more Location resources that contain location information associated with the URL parameter values. The location information for each resource includes latitude and longitude coordinates, the type of location, and the geographical area that contains the location. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). You can also view the example URL and response values in the **Examples** section.  
+ When you make a request by using one of the following URL templates, the response returns one or more Location resources that contain location information associated with the URL parameter values. The location information for each resource includes latitude and longitude coordinates, the type of location, and the geographical area that contains the location. For more information about the Location resource, see [Location Data](location-data.md). You can also view the example URL and response values in the [Examples](find-a-location-by-query.md#examples) section.  
   
 ## URL Template  
   
-> [!Note]
-> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
-> [!TIP]
->  Be sure to review the [Bing Maps API Best Practices guide](../getting-started/bing-maps-api-best-practices.md) before using this service.  
+[!INCLUDE [get-bing-maps-best-practices-note](../../includes/get-bing-maps-best-practices-note.md)]
 
  **Returns latitude and longitude coordinates for a location that is specified as query string.**  
   
@@ -42,20 +42,20 @@ http://dev.virtualearth.net/REST/v1/Locations/{locationQuery}?includeNeighborhoo
  
  An URL appends the location data to the URL path. In the following template, the location data is specified by using a query parameter that is appended to the end of the URL path.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../rest-services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
+>  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../rest-services/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../rest-services/culture-parameter.md): Includes a list of the supported cultures.  
-> -   [User Context Parameters](../rest-services/user-context-parameters.md): Includes parameters that set user location and viewport values to assist with determining locations. For example, you can prioritize the set of locations returned by a location query when you provide information about the user’s location.  
+>  -   [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> -   [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
+> -   [User Context Parameters](../common-parameters-and-types/user-context-parameters.md): Includes parameters that set user location and viewport values to assist with determining locations. For example, you can prioritize the set of locations returned by a location query when you provide information about the user’s location.  
 >   
 >  When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, query=1600 Pennsylvania Ave NW Washington, DC can be shortened to q=1600 Pennsylvania Ave NW Washington, DC.  
 >   
@@ -70,21 +70,23 @@ http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeigh
 |include|incl|**Optional.** Specifies to include additional information in the response.|One or more of the following options:<br /><br /> -   queryParse: Specifies that the response shows how the query string was parsed into address values, such as addressLine, locality, adminDistrict, and postalCode.<br />-   ciso2: Specifies to include the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm).<br /><br /> If you specify more than one include value, separate the values with a comma.<br /><br /> **Examples**:<br /><br /> incl=queryParse<br /><br /> incl=queryParse,ciso2|  
 |maxResults|maxRes|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> maxResults=10|  
   
-## Response  
- One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
+## Response
+
+ One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
   
- These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
+ These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
-## Examples  
+## Examples
+
  **Find location information for an address using a query string.**  
   
  The following examples request latitude and longitude information for an address specified by the query string `1 Microsoft way, Redmond WA 98052`. Both URLs return the same information. The results are requested in XML format.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?o=xml&key=BingMapsKey  
 ```  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20WA%2098052&o=xml&key=BingMapsKey  
 ```  
   
@@ -92,7 +94,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
   
  This example returns the following XML response.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2014 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -151,7 +153,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
   
  The following JSON response contains the same information as the XML response and is provided when the output (o) parameter is not set.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -217,7 +219,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
   
  The following URL performs the same query as the previous example, and also requests query parse information  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?include=queryParse&o=xml&key=BingMapsKey  
 ```  
   
@@ -225,7 +227,7 @@ http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA
   
  **XML Query Parse Response**  
   
-```  
+```xml
 <QueryParseValue Property="AddressLine" Value="1 Microsoft Way" />   
 <QueryParseValue Property="Locality" Value="Redmond" />   
 <QueryParseValue Property="PostalCode" Value="98052" />   
@@ -235,7 +237,7 @@ http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA
   
  **JSON Query Parse Response**  
   
-```  
+```json
 "queryParseValues":[  
                      {  
                         "property":"AddressLine",  
@@ -257,25 +259,25 @@ http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA
   
 ```  
   
- **Find location information associated with a query string and relevant to the user’s location.**  
+**Find location information associated with a query string and relevant to the user’s location.**  
   
- The following example searches for locations associated with the search query "Kings Road". Because the userLocation parameter is specified, the results returned are relevant to the user’s location. For more information about the userLocation parameter and other user context parameters, see [User Context Parameters](../rest-services/user-context-parameters.md).  
+The following example searches for locations associated with the search query "Kings Road". Because the userLocation parameter is specified, the results returned are relevant to the user’s location. For more information about the userLocation parameter and other user context parameters, see [User Context Parameters](../common-parameters-and-types/user-context-parameters.md).  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&query=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&o=xml&key=BingMapsKey  
 ```  
   
- **Find location information associated with a query string and request neighborhood information.**  
+**Find location information associated with a query string and request neighborhood information.**  
   
- The following example searches for locations associated with the search query "Brookyln New York". Because the includeNeighborhood (inclnb) parameter is set to 1, the Neighborhood field is returned in the response.  
+The following example searches for locations associated with the search query "Brookyln New York". Because the `includeNeighborhood` (`inclnb`) parameter is set to 1, the Neighborhood field is returned in the response.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml&key=BingMapsKey  
 ```  
   
  **XML Response**  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2014 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -333,9 +335,9 @@ http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml
   
  **JSON Response**  
   
- The following JSON response contains the same information as the XML response and is provided when the output (o) parameter is not set.  
+ The following JSON response contains the same information as the XML response and is provided when the output (`o`) parameter is not set.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -401,13 +403,13 @@ http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml
   
  The following example requests location information for the Eiffel Tower.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key=BingMapsKey  
 ```  
   
  **XML Response**  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -466,7 +468,7 @@ http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key=BingMapsK
   
  The following JSON response contains the same information as the XML response and is provided when the output (o) parameter is not set.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -531,15 +533,14 @@ http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key=BingMapsK
   
  This example provides location information for the query string "New York" and requests up to 10 location results in the response. The default maximum number of locations returned is five (5) results.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?q=Greenville&maxResults=10&key=BingMapsKey  
 ```  
   
 ## HTTP Status Codes  
-  
-> [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
-  
+
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]  
+
  When the request is successful, the following HTTP status code is returned.  
   
 * 200
@@ -554,5 +555,5 @@ When the request is not successful, the response returns one of the following er
 * 503
   
 ## See Also  
- * [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- * [JSON Data Contracts](../rest-services/json-data-contracts.md)   
+ * [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+ * [JSON Data Contracts](../json-data-contracts.md)

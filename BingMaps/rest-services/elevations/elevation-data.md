@@ -1,22 +1,17 @@
 ---
 title: "Elevation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b807050-6925-42cf-af7a-3ad14fde4f16
-caps.latest.revision: 9
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Elevation Data
+
 The response returned by an Elevations URL can contain elevation or sea level offset resource data.  
   
- These resources are provided within a common response container. For a description, see [Common Response Description](../rest-services/common-response-description.md).  
+ These resources are provided within a common response container. For a description, see [Common Response Description](common-response-description.md).  
   
 ## Elevation and Sea Level Offset Resource Data  
   
@@ -27,11 +22,12 @@ The response returned by an Elevations URL can contain elevation or sea level of
 |zoomLevel|ZoomLevel|integer|The zoom level used to compute the elevation values. Zoom level values are from 1 to 21. A lower value typically means less accurate results because the resolution of the elevation data is less. At lower resolutions, interpolated elevation values use data points that are further apart.<br /><br /> The zoom level used depends on the amount of elevation data available in a region and can be lowered when the specified path covers a long distance.|  
   
 ## Examples  
+
  **Elevations Resource**  
   
  **JSON Response**  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -56,7 +52,7 @@ The response returned by an Elevations URL can contain elevation or sea level of
   
  **XML Response**  
   
-```  
+```xml 
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -92,7 +88,7 @@ The response returned by an Elevations URL can contain elevation or sea level of
   
  **JSON Response**  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -117,7 +113,7 @@ The response returned by an Elevations URL can contain elevation or sea level of
   
  **XML Response**  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
