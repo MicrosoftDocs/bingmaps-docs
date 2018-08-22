@@ -19,13 +19,13 @@ This example returns a simple distance matrix between a set of origins and desti
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&key=BingMapsKey
 ```
 
 **HTTP POST Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?key=BingMapsKey
 ```
 
@@ -250,4 +250,4 @@ Add `&output=xml` to the URL above to get the XML response.
 
 ## See Also
 
-* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
+* [Using the REST Services with .NET](../using-the-rest-services-with-net.md)

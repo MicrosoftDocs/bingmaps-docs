@@ -44,7 +44,7 @@ http://dev.virtualearth.net/REST/v1/Locations/{point}?includeEntityTypes={entity
   
 ## Response
 
-One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-parameters-and-types/common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
+One or more Location resources are returned in the response when you make a request using this URL template. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). JSON and XML responses are provided for the URL example in the following section.  
   
  This URL supports JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   

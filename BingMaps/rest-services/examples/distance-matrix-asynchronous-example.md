@@ -19,13 +19,13 @@ This example returns a simple driving based distance matrix for the set of origi
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&startTime=2017-06-15T13:00:00-07:00&key=BingMapsKey
 ```
 
 **HTTP POST Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key=BingMapsKey
 ```
 
@@ -128,7 +128,7 @@ When making an asynchronous request to the distance matrix service the initial r
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key=BingMapsKey
 ```
 
@@ -277,4 +277,4 @@ When an asynchronous distance matrix request has completed, the status response 
 
 ## See Also
 
--   [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
+-   [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
