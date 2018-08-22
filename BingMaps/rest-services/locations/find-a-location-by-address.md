@@ -42,7 +42,7 @@ http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&admi
 > [!NOTE]
 >  You can substitute a hyphen (-) for any structured URL parameter when there is no value.  
 >   
->  For countries that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](../services/find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
+>  For countries that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
 >   
 >  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](http://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](http://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
   
@@ -92,7 +92,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/locality/addressL
 >   
 >  **Unstructured query:** `http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key=BingMapsKey`  
 >   
->  **[Find a Location by Query](../services/find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key=BingMapsKey`  
+>  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key=BingMapsKey`  
 
   
 ### Template Parameters  
