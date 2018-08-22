@@ -70,6 +70,8 @@
     href: traffic/get-traffic-incidents.md
   - name: Get Traffic Incident Data
     href: traffic/getting-traffic-incident-data.md
+  - name: Traffic Incident Data
+    href: traffic/traffic-incident-data.md
 - name: Common Paramaters and Types
   href: common-parameters-and-types/index.md
   maintainContext: true
@@ -92,8 +94,6 @@
       href: common-parameters-and-types/supported-culture-codes.md
     - name: Location Recognition Entity Types
       href: common-parameters-and-types/location-and-recognition-entity-types.md
-- name: API Reference
-  href: /api/
   maintainContext: true
 - name: Common Response Description
   href: common-response-description.md
