@@ -544,7 +544,6 @@ Example:
 
 ![AutoSuggestCircleSmall](media/AutoSuggestCircleSmall.PNG)
 
-
 #### Bounding Box Geographic Region
 
 Example: 

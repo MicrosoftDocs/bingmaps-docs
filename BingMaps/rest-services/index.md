@@ -36,6 +36,8 @@ If you plan to use the REST services from .NET the Bing Maps team has released a
 |[Imagery](imagery/index.md)|Shows how to use the Imagery API to get a map with your specifications and how to request imagery data such as map tile URLs and imagery provider information.|  
 |[Routes](routes/index.md)|Shows how to get directions and route information for driving, walking, truck or using transit. This API can also be used to snap points to roads, calculate Distance Matrices and Isochrones (drive time polygons).|  
 |[Traffic](traffic/index.md)|Shows how to get information about traffic incidents and issues in a specified area.|  
+|||
+|||
 |[Common Parameters and Types](common-parameters-and-types/index.md)|Describes common parameters and types that specify values such as culture and pushpin styles.|  
 |[Common Response Description](common-response-description.md)|Describes the general response format and results returned when you make a Bing Maps REST Services request.|  
 |[Status Codes and Error Handling](status-codes-and-error-handling.md)|Provides status and error code descriptions for troubleshooting.|  

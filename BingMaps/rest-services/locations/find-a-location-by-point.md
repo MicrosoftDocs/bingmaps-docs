@@ -11,7 +11,7 @@ ms.service: "bing-maps"
 
 Use the following URL template to get the location information associated with latitude and longitude coordinates.  
   
- When you make a request by using the following URL template, the response returns one or more Location resources that contain location information associated with the latitude and longitude coordinate values that you specify. Location information can be as specific as an address or more general such as the country or region. You can specify the type of location information you want to receive by setting the `includeEntityTypes` parameter in the URL. For example, you can specify to only receive information about the neighborhood that corresponds to the coordinates. For more information about the Location resource, see [Location Data](../services/location-data.md). You can also view the example URL and response values in the Examples section.  
+ When you make a request by using the following URL template, the response returns one or more Location resources that contain location information associated with the latitude and longitude coordinate values that you specify. Location information can be as specific as an address or more general such as the country or region. You can specify the type of location information you want to receive by setting the `includeEntityTypes` parameter in the URL. For example, you can specify to only receive information about the neighborhood that corresponds to the coordinates. For more information about the Location resource, see [Location Data](location-data.md). You can also view the example URL and response values in the Examples section.  
   
 ## URL Template  
   

@@ -1,4 +1,4 @@
-# Find a Time Zone
+# Find Time Zone
 
 The Bing Maps Time Zone API makes it easy to retrieve time zone information for any point on Earth. Given a pair of coordinates or a place name query the Time Zone API will return local time zone and daylight savings (DST) information for that location. Note that time zone data for bodies of water, like oceans or seas, is not supported.
 
@@ -38,7 +38,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?query=<query>&datetime=<datetime_
 |`point` | | **Required for getting Time Zone by Location Point.** The coordinates of the location for which you want the entities situated.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](https://msdn.microsoft.com/library/ff701726.aspx). <br /><br />Use the following ranges of values:<br /><br />- `Latitude` (degrees): `[-90, +90]`<br />- `Longitude` (degrees): `[-180, +180]`<br /><br />*Example*: `47.610679194331169,-122.10788659751415`| 
 |`query` |`q` | **Required for getting Time Zone by Query.** A string containing information about the location, including address, locality, and postal code.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | To properly identify the given location, provide a fully qualified location e.g. place name, administrative region and country name.<br /><br />**Note:**	To avoid ambiguous results specify a qualified location name. For example, there are two Vancouvers, one in British Columbia, Canada and the other in Washington state, USA, so instead of the query "Vancouver" use either "Vancouver, BC" or "Vancouver, WA" (alternatively: "Vancouver, Canada" or "Vancouver, USA"). If no such qualification is present and multiple locations of the given name are detected, then more likely than not the most popular location is returned. <br /><br />**Note:** Please use full country names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries, e.g., use either `Capetown, ZA` or `Captetown, South Africa` instead of `Capetown, SA`. <br /><br />*Examples*:<br /><br />- `query = bellevue,wa,us`<br />- `q = 98052,wa`|
 |`dateTime` |`dt`| **Optional.** The UTC date time string for the specified location. The date must be specified to apply the correct DST. |  The date time string must be in UTC format. If the date is not included, the returned time zone information may be incorrect.<br /><br />*Example*: `2018-05-15T13:14:15Z`|  
-|`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](Time%20Zone%20Data.md). | Either `true` or `false`.<br /><br />Default: `false` |
+|`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](time-zone-data.md). | Either `true` or `false`.<br /><br />Default: `false` |
 |`output`|`o`|**Optional.** Output format of the response.|Format of the response:<br/><br/>- `JSON`<br />- `XML`<br /><br />Default: `JSON`|
 
 
@@ -49,11 +49,11 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?query=<query>&datetime=<datetime_
 
 ## Response
 
-Detailed information about Time Zone API responses can be found at [Time Zone Data](Time%20Zone%20Data.md).
+Detailed information about Time Zone API responses can be found at [Time Zone Data](time-zone-data.md).
 
-All successful requests return a [TimeZone Resource](Time%20Zone%20Data.md). Time Zone API calls by query wrap this `TimeZone` resource in a `timeZoneAtLocation` -- see the note below for details.
+All successful requests return a [TimeZone Resource](time-zone-data.md). Time Zone API calls by query wrap this `TimeZone` resource in a `timeZoneAtLocation` -- see the note below for details.
 
-If applicable, daylight savings information is included separately in the [ConvertedTime Resource](Time%20Zone%20Data.md) and [DSTRule Resource](Time%20Zone%20Data.md) fields of the response. 
+If applicable, daylight savings information is included separately in the [ConvertedTime Resource](time-zone-data.md) and [DSTRule Resource](time-zone-data.md) fields of the response. 
 
 Time Zone API responses are available in JSON and XML formats.
 

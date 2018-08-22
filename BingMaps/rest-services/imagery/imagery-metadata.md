@@ -1,24 +1,20 @@
 ---
 title: "Imagery Metadata | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8481908c-ac69-43ef-b737-a089b02972d3
-caps.latest.revision: 28
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Imagery Metadata
+
 The response returned by an Imagery Metadata URL request contains a resource that provides imagery metadata information. If the metadata requested is for Birdseye imagery, a Birdseye Metadata resource is returned. For other types of imagery, an Imagery Metadata resource is returned. This topic contains descriptions of the information elements in these resources, followed by JSON and XML examples.  
   
- For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).  
+[!INCLUDE [get-common-response-note](../../includes/get-common-response-note.md)]
   
-## Common Imagery Resource Fields  
+## Common Imagery Resource Fields
+
  The following fields are used in both the Imagery Metadata and the Birdseye Metadata resources.  
   
 |JSON|XML|Type|Description|  
@@ -33,6 +29,7 @@ The response returned by an Imagery Metadata URL request contains a resource tha
 |zoomMax|ZoomMax|integer|The maximum zoom level available for this imagery set.|  
   
 ## Birdseye Metadata Resource Fields  
+
  These fields are only used only by the Birdseye Metadata resource.  
   
 |JSON|XML|Type|Description|  
@@ -42,11 +39,12 @@ The response returned by an Imagery Metadata URL request contains a resource tha
 |tilesY|TilesY|integer|The vertical dimension of the imagery in number of tiles.|  
   
 ## Understanding the Image URL Placeholders  
+
  When you request imagery metadata, the image URL field returned in the response specifies a map tile. This map tile can contain one or more of the following placeholders.  
   
 |URI placeholder|Description|  
 |---------------------|-----------------|  
-|{culture}|The culture of the map. The culture value determines the language that is used to display text. For a list of cultures that are supported by the Imagery API, see [Culture Parameter](../rest-services/culture-parameter.md).|  
+|{culture}|The culture of the map. The culture value determines the language that is used to display text. For a list of cultures that are supported by the Imagery API, see [Culture Parameter](../common-parameters-and-types/culture-parameter.md).|  
 |{quadkey}|The quadkey of the tile. For information about quadkeys, see [Bing Maps Tile System](http://msdn.microsoft.com/en-us/library/bb259689.aspx)|  
 |{subdomain}|The sub-domain to use to retrieve tiles to allow maximum performance for network calls. The value values are t0, t1, t2, or t3.|  
 |{tileId}|TileId is an index from 0 to (tilesX * tilesY) - 1 indicating a specific tile in the scene. 0 is top left corner and tiles are numbered in row order. So increasing values go left to right and then top to bottom.|  
