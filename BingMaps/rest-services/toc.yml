@@ -82,13 +82,13 @@
     href: timezone/index.md
     items:
       - name: Find Time Zone
-        href: find-time-zone.md
+        href: timezone/find-time-zone.md
       - name: Convert to Local Time
-        href: convert-local-time.md
+        href: timezone/convert-local-time.md
       - name: List Time Zone
-        href: list-time-zone.md
+        href: timezone/list-time-zones.md
       - name: Time Zone Data
-        href: time-zone-data.md
+        href: timezone/time-zone-data.md
   - name: Common Paramaters and Types
     href: common-parameters-and-types/index.md
     maintainContext: true

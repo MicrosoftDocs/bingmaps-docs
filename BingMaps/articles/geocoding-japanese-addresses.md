@@ -31,7 +31,7 @@ Japanese geocoding is complex because addresses can be expressed using four diff
  The Bing Maps APIs are designed to look for and handle the complexity of Japanese geocoding, and will return results for a great variety of situations. However, note that there can be situations where due to the complexity, geocoding may not be successful.  
   
 ## Geocode using the Bing Maps REST Services Locations API  
- You can use the [Locations](../rest-services/locations-api.md) (part of the Bing Maps REST Services) to geocode Japanese addresses. Each address component can be specified as a separate URL parameter or you can specify the entire address string.  
+ You can use the [Locations](../rest-services/locations/index.md) (part of the Bing Maps REST Services) to geocode Japanese addresses. Each address component can be specified as a separate URL parameter or you can specify the entire address string.  
   
 > [!IMPORTANT]
 > Japanese address values in native character sets (Kanji, Katakana, Hiragana) must be base-64 encoded UTF-8 strings.  
@@ -84,11 +84,11 @@ http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegr
 |Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|http://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
   
 ### Geocode Response  
- When you make a geocode request using the Locations API URLs and a location is found that matches the address, a response is returned with the latitude and longitude, a confidence and other information. The following is an example of an XML response returned by a Locations API geocode request. For more information about the fields returned in a Locations API response and the equivalent JSON response format, see [Location Data](../rest-services/location-data.md).  
+ When you make a geocode request using the Locations API URLs and a location is found that matches the address, a response is returned with the latitude and longitude, a confidence and other information. The following is an example of an XML response returned by a Locations API geocode request. For more information about the fields returned in a Locations API response and the equivalent JSON response format, see [Location Data](../rest-services/locations/location-data.md).  
   
  Japanese address information in the response is returned using Japanese native character sets only (Kanji, Katakana, Hiragana). Latin character representations of Japanese addresses are not returned in the response.  
   
-```  
+```xml
 This XML file does not appear to have any style information associated with it. The document tree is shown below.  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  

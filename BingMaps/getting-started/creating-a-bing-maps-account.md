@@ -21,7 +21,7 @@ Follow these steps to create a Bing Maps account.
 2.  Sign in using the Microsoft account you want to use for Bing Maps or create a new account.  
   
     > [!NOTE]
-    >  If you need to change the Microsoft account that you use to login to the Bing Maps Dev Center, see [Updating Your Bing Maps Account](../getting-started/updating-your-bing-maps-account.md).  
+    >  If you need to change the Microsoft account that you use to login to the Bing Maps Dev Center, see [Updating Your Bing Maps Account](updating-your-bing-maps-account.md).  
   
 3.  After you sign in, provide the following information:  
   
@@ -39,7 +39,7 @@ Follow these steps to create a Bing Maps account.
   
 4.  After you enter the required information and click **Create**, your account details display.  
   
-     Now that you have created a Bing Maps account, see [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md) to learn how to get Bing Maps Keys to use with the [Bing Maps](../index.md) APIs.  
+     Now that you have created a Bing Maps account, see [Getting a Bing Maps Key](getting-a-bing-maps-key.md) to learn how to get Bing Maps Keys to use with the [Bing Maps](../index.md) APIs.  
   
 > [!TIP]
 >  You can update your Bing Maps account information and add additional contacts at any time by clicking **Update or view account details**.  

@@ -14,10 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Create a Custom Map URL
+
 If you want to email someone a map URL or embed a map into your website, you can get the map you need in most cases by clicking **Share** at http://bing.com/maps. From the **Share** dialog box, you can click **Customize and Preview** to further customize your map URL. However, there may be times when you want more control or options such as search results and items in your places list.  In this case, you can use the information in this article to build your own Bing Maps URL. `  
   
 ## Getting Started  
- To create your map link, start with the base URL for Bing Maps shown below, and then add parameters to customize the map. Parameters specify things like the map center point, zoom level, map view (area that you want your map to display), search results and more. Available parameters and examples are provided in the sections below.  
+
+To create your map link, start with the base URL for Bing Maps shown below, and then add parameters to customize the map. Parameters specify things like the map center point, zoom level, map view (area that you want your map to display), search results and more. Available parameters and examples are provided in the sections below.  
   
 1.  To build your own URL, start with the base map URL:  
   
@@ -59,8 +61,9 @@ If you want to email someone a map URL or embed a map into your website, you can
   
  `http://bing.com/maps/default.aspx?cp=47.621065~-122.352534&style=o&lvl=14&trfc=1`  
   
-## Search parameters  
- To create a map that displays specific search results, use the following parameters.  
+## Search parameters
+
+To create a map that displays specific search results, use the following parameters.  
   
 |**Parameter**|**Definition**|**Example**|**Details**|  
 |-|-|-|-|  
