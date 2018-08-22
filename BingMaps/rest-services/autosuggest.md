@@ -1,4 +1,4 @@
-# Autosuggest
+# Bing Maps Autosuggest API
 
 Given a request with a user’s location and a partial query (called a `query prefix`), the Bing Maps Autosuggest API returns a list of suggested entities which the user is most likely searching for. These entities are ranked from most to least likely. Requests can be called using user locations (as the geocoordinates of the user, including a radius representing your confidence in the accuracy of the user’s location), and/or as a geographic region (either a circle or rectangle, but not both).  
 
@@ -542,14 +542,15 @@ This section briefly shows how to provide geographic parameters when sending a U
 Example:
 > `userCircularMapView=47.666673,-122.382242,100`
 
-![AutoSuggestCircleSmall](../media/AutoSuggestCircleSmall.PNG)
+![AutoSuggestCircleSmall](media/AutoSuggestCircleSmall.PNG)
+
 
 #### Bounding Box Geographic Region
 
 Example: 
 > `userMapView=47.669424,-122.386053,47.664083,-122.378448`
 
-![AutoSuggestBoundingBoxSmall](../media/AutoSuggestBoundingBoxSmall.PNG)
+![AutoSuggestBoundingBoxSmall](media/AutoSuggestBoundingBoxSmall.PNG)
 
 ## HTTP Status Codes
 

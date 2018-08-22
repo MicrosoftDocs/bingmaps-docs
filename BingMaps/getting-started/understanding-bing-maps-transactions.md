@@ -56,7 +56,7 @@ Only billable transactions count towards the free-use limits for Basic keys, and
  You must use the Bing Maps Key that you used to load the map control to request a session ID. This session ID is only valid for the map control session. For the Bing Maps V8 web control, a session begins with the load of the map into a user’s browser and ends when the browser is closed or the user moves to a different page. Similarly for the WPF control, a session begins when the map control is loaded by the application and ends when the application is closed. Note that the Windows 10 UWP Map control does not provide access to session keys but instead provides native geocoding and routing functionalities which automatically make use of sessions. For more information about how to get a session ID from the Bing Maps Key, see [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md) and [Map Class](../v8-web-control/map-class.md). Note that if you make service requests with a Bing Maps Key instead of a session ID within the session, you will be charged for all billable requests.  
   
 > [!NOTE]
->  <sup>1</sup> [!INCLUDE[bm_spatialapi_product_name](../Token/bm_spatialapi_product_name_md.md)] transactions have one exception to free-use within sessions:  
+>  <sup>1</sup> Bing Spatial Data Services transactions have one exception to free-use within sessions:  
 >    
 > -   Bing Spatial Data Services batch geocode transactions (Dataflow:BatchGeocode) become billable when you reach one (1) million batch geocode transactions within a year, even when you use a session ID. 
   
@@ -82,7 +82,7 @@ Only billable transactions count towards the free-use limits for Basic keys, and
 |RESTImagery|REST Services|Yes<sup>3</sup>|Any time an [Imagery](../rest-services/imagery/index.md) URL request is made to get a static map, to get static map metadata or to get imagery metadata that contains a map tile URI, one (1) transaction is counted.|  
 |RESTImagery-BasicMetadata|REST Services|No|Any time an [Imagery](../rest-services/imagery/imagery-metadata.md) URL request is made to get basic imagery metadata that does not contain a map tile URI, one (1) transaction is counted.|  
 |RESTLocationRecog|REST Services|Yes<sup>3</sup>| Any time a [Location Recognition](../rest-services/locations/location-recognition.md) URL request is made to get location information about entities such as local businesses, natural points of interests, and a reverse geocoded address for a specified latitude and longitude coordinate, one (1) transaction is counted.|
-|RESTLocations|REST Services|Yes<sup>3</sup>|Any time a [Locations](../rest-services/locations/index.imd) URL request is made to geocode or reverse-geocode location data, one (1) transaction is counted.|
+|RESTLocations|REST Services|Yes<sup>3</sup>|Any time a [Locations](../rest-services/locations/index.md) URL request is made to geocode or reverse-geocode location data, one (1) transaction is counted.|
 |RESTRoutes|REST Services|Yes<sup>3</sup>|Any time a [Routes](../rest-services/routes/index.md) URL request is made to find a route, one (1) transaction is counted.|
 |RESTTimezone|REST Services|Yes<sup>3</sup>| Any time a [Time Zone](../rest-services/timezone/index.md) URL request is made to retrieve a time zone for a location by point or query, convert a UTC datetime to a time zone, or retrieve information about IANA the Windows time zone standards, one (1) transaction is counted. |
 |RESTTraffic|REST Services|Yes<sup>3</sup>|Any time a [Traffic](../rest-services/traffic/index.md) URL request is made to get traffic incident information, one (1) transaction is counted.|
@@ -92,9 +92,9 @@ Only billable transactions count towards the free-use limits for Basic keys, and
 |Route-Isochrone|REST Services|Yes|Any time a synchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
 |Route-IsochroneAsync|REST Services|Yes|Any time an asynchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
 |Route-IsochroneAsyncCallback|REST Services|No|Any time the status of an asynchronous [Isochrone](../rest-services/routes/calculate-an-isochrone.md) request is checked.|  
-|Route-SnapToRoad|REST Services|Yes|Any time a synchronous [Snap to Road](../rest-services/routes/snap-to-road.md) request is made, one (1) transaction is counted.|  
-|Route-SnapToRoadAsync|REST Services|Yes|Any time an asynchronous [Snap to Road](../rest-services/routes/snap-to-road.md) request is made, one (1) transaction is counted.|  
-|Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../rest-services/routes/snap-to-road.md) request is checked.|  
+|Route-SnapToRoad|REST Services|Yes|Any time a synchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoadAsync|REST Services|Yes|Any time an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../rest-services/routes/snap-points-to-road.md) request is checked.|  
 |Route-Truck|REST Services|Yes|Any time a synchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
 |Route-TruckAsync|REST Services|Yes|Any time an asynchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
 |Route-TruckAsyncCallback|REST Services|No|Any time the status of an asynchronous [Truck Routing](../rest-services/routes/calculate-a-truck-route.md) request is checked.| 
@@ -118,9 +118,9 @@ Only billable transactions count towards the free-use limits for Basic keys, and
 |RESTSpatialDataService:SetDataSourcePublicOrPrivate|Spatial Data Services|No|Any time a URL request is made to [Make a Data Source Public](../spatial-data-services/make-a-data-source-public.md), one (1) transaction is counted.|  
 |RESTSpatialDataService:Query|Spatial Data Services|Yes<sup>4</sup>|Any time a [Query API](../spatial-data-services/query-api.md) URL request is made to query a data source, one (1) transaction is counted.<br /><br /> When a [Query by Area](../spatial-data-services/query-by-area.md) URL request is made with an address string that must be geocoded, one RESTLocations transaction is also counted.|  
 |RESTSpatialDataService:Geodata|Spatial Data Services|Yes|Any time a [Geodata API](../spatial-data-services/geodata-api.md) URL request is made to get boundary data, one (1) transaction is counted.<br /><br /> When a [Geodata API](../spatial-data-services/geodata-api.md) URL request is made with an address string that must be geocoded, one RESTLocations transaction is also counted.|  
-    
-<sup>4</sup>This transaction is not billable if the service request is made using a [session ID](../Topic/Understanding%20Bing%20Maps%20Transactions.md#using-session-ids-to-make-billable-transactions-non-billable) from an Web or WPF Control session. 
-   
+
+<sup>4</sup>This transaction is not billable if the service request is made using a [session ID](#using-session-ids-to-make-billable-transactions-non-billable) from an Web or WPF Control session.
+
 ### Discontinued Map Control APIs (AJAX V7, Silverlight, Windows Store)  
   
 |Category|Bing Maps API|Billable|Category Description|  
