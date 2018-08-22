@@ -8,7 +8,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Routes API
+# Bing Maps Routes API
 
 Use the Routes API to create a route that includes two or more locations and to create routes from major roads. You can create driving or walking routes. Driving routes can include traffic information. You can also overlay routes on map imagery.  
   
@@ -34,5 +34,5 @@ Use the Routes API to create a route that includes two or more locations and to 
  * [Transit Route Example](../examples/transit-route-example.md)
  * [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md)
  * [Driving Route using Tolerances Example](../examples/driving-route-using-tolerances-example.md)
- * [Bing Maps Transit Coverage](/bing-maps-docs/coverage/bing-maps-transit-coverage.md)
- * [Truck Routing Coverage](/bing-maps-docs/coverage/truck-routing-coverage.md)
+ * [Bing Maps Transit Coverage](../../coverage/bing-maps-transit-coverage.md)
+ * [Truck Routing Coverage](../../coverage/truck-routing-coverage.md)

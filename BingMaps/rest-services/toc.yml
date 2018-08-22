@@ -19,6 +19,8 @@
         href: locations/find-a-location-by-point.md
       - name: Find a Location by Query
         href: locations/find-a-location-by-query.md
+      - name: Location Recognition
+        href: location-recognition.md
       - name: Location Data
         href: locations/location-data.md
   - name: Elevations
@@ -73,6 +75,20 @@
       href: traffic/get-traffic-incidents.md
     - name: Traffic Incident Data
       href: traffic/traffic-incident-data.md
+  - name: Autosuggest
+    href: autosuggest.md
+  - name: Time Zone
+    maintainContext: true
+    href: timezone/index.md
+    items:
+      - name: Find Time Zone
+        href: find-time-zone.md
+      - name: Convert to Local Time
+        href: convert-local-time.md
+      - name: List Time Zone
+        href: list-time-zone.md
+      - name: Time Zone Data
+        href: time-zone-data.md
   - name: Common Paramaters and Types
     href: common-parameters-and-types/index.md
     maintainContext: true
