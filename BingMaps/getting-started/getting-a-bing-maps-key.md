@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Getting a Bing Maps Key
-To use the [Bing Maps APIs](http://msdn.microsoft.com/en-us/library/dd877180.aspx), you must have a Bing Maps Key.  
+To use the [Bing Maps APIs](../rest-services/index.md), you must have a Bing Maps Key.  
   
 > [!NOTE]
 >  When you use the Bing Maps APIs with a Bing Maps Key, usage transactions are logged. See [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md) for more information.  
