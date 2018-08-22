@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Isochrone Data
+
 The response returned by the Isochrone API contains either an `IsochoneResponse` resource or an `RouteProxyAsyncStatus` resource. The `IsochroneResponse` contains the generated polygon isochrone data while the `RouteProxyAsyncStatus` contains status information about an asynchronous request that was made for an isochrone. The following tables provide the descriptions of the `IsochroneResponse` resource fields.
 
-For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md).
+For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md).
 
 ## IsochroneResponse Resource
 
@@ -37,5 +39,5 @@ This class represents a polygon object.
 
 ## See Also
 
-* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
-* [Isochrone Example](../rest-services/isochrone-example.md)
+* [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+* [Isochrone Example](../examples/isochrone-example.md)

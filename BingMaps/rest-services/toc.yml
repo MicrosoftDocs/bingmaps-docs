@@ -1,10 +1,10 @@
-- name: Bing Maps REST APIs
+- name: REST Services
   maintainContext: true
   items:
   - name: Getting Started
     href: index.md
   - name: What's New
-    href: what-s-new-in-the-rest-services.md
+    href: whats-new-rest-services.md
   - name: Getting Traffic Incident Data
     href: getting-traffic-incident-data.md
   - name: Using the REST Services with .NET

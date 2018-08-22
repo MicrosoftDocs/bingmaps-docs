@@ -14,6 +14,7 @@ ms.date: "02/28/2018"
 <div id="main" class="v2">
 <div class="container">
     <h1>Bing Maps Documentation</h1>
+    <br />
     <ul class="pivots">
         <li>
             <a href="#main"></a>

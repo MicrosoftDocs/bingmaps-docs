@@ -669,4 +669,4 @@ When an asynchronous distance matrix request has completed, the status response 
 
 ## See Also
 
--   [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
+-   [Using the REST Services with .NET](../using-the-rest-services-with-net.md)

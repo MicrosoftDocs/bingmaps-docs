@@ -14,15 +14,16 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Calculate Routes from Major Roads
+
 Use the following URL template to return a driving route to a location from major roads in four directions (West, North, East and South). You can use this URL for routes in the United States, Canada and Mexico.  
   
- When you make a request using the following URL template, the response can return either only the starting points for the routes from major roads or detailed information for each route. Starting points are latitude and longitude pairs while detailed route information includes detailed directions and waypoints, travel time and duration and other information specific to the route. Specify the `exclude` parameter when you do not want to return detailed route information.  
+When you make a request using the following URL template, the response can return either only the starting points for the routes from major roads or detailed information for each route. Starting points are latitude and longitude pairs while detailed route information includes detailed directions and waypoints, travel time and duration and other information specific to the route. Specify the `exclude` parameter when you do not want to return detailed route information.  
   
- Starting points are specified in the response by using the Location Resource. Detailed route information is provided by using the Route Resource. You can also request a route path that additionally returns a series of latitude and longitude points that define the route. For information about the Location Resource, see [Location Data](../rest-services/location-data.md). For information about the Route Resource, see [Route Data](../rest-services/route-data.md). Examples are also provided below.  
+Starting points are specified in the response by using the Location Resource. Detailed route information is provided by using the Route Resource. You can also request a route path that additionally returns a series of latitude and longitude points that define the route. For information about the Location Resource, see [Location Data](../locaitons/location-data.md). For information about the Route Resource, see [Route Data](route-data.md). Examples are also provided below.  
   
  When you use this URL, an attempt is made to create four driving routes to the specified location. Ideally these routes are from the west, north, east and south directions. However, major routes may not exist in each direction. If routes from all four directions cannot be found, the response may contain more than one route from the same direction or fewer than four routes may be returned.  
   
- For more information about the Route resource, see [Route Data](../rest-services/route-data.md). You can also view the example URL and response values in the Examples section.  
+ For more information about the Route resource, see [Route Data](route-data.md). You can also view the example URL and response values in the Examples section.  
   
 ## URL Templates  
   
@@ -31,20 +32,20 @@ Use the following URL template to return a driving route to a location from majo
   
  **Find routes from major roads in four directions (West, North, East, South).**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads?destination={destination}&exclude=routes&routePathOutput={routePathOutput}&distanceUnit={distanceUnit}&key={BingMapsKey}
 ```  
   
 ### Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../rest-services/common-parameters-and-types.md) section for additional common parameters to use with these URLs.  
+>  See the [Common Parameters and Types]../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../rest-services/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../rest-services/culture-parameter.md): Includes a list of the supported cultures.  
-> -   [User Context Parameters](../rest-services/user-context-parameters.md): Includes parameters that set user location and viewport values to help determine locations. For example, these values may help prioritize a set of possible locations when you specify a partial address for a destination.  
+>  -   [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> -   [Culture Parameter]../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
+> -   [User Context Parameters](../common-parameters-and-types/user-context-parameters.md): Includes parameters that set user location and viewport values to help determine locations. For example, these values may help prioritize a set of possible locations when you specify a partial address for a destination.  
 >   
 >  When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, destination=47.610,-122.107 can be shortened to dest=47.610,-122.107.  
 >   
@@ -52,23 +53,25 @@ http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads?destination={destinati
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|destination|dest|**Required.** Specifies the final location for all the routes.|A destination can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](../rest-services/location-and-area-types.md).<br /><br /> **Examples**:<br /><br /> destination=47.610,-122.107 [Point]<br /><br /> destination=Eiffel%20Tower [landmark]<br /><br /> dest=1%20Microsoft%20Way%20Redmond%20WA [address]|  
+|destination|dest|**Required.** Specifies the final location for all the routes.|A destination can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> **Examples**:<br /><br /> destination=47.610,-122.107 [Point]<br /><br /> destination=Eiffel%20Tower [landmark]<br /><br /> dest=1%20Microsoft%20Way%20Redmond%20WA [address]|  
 |exclude|excl|**Optional.** Specifies to return only starting points for each major route in the response. When this option is not specified, detailed directions for each route are returned.|The only value for this parameter is routes.<br /><br /> **Examples**:<br /><br /> exclude=routes<br /><br /> excl=routes|  
 |routeAttributes|ra|**Optional.** Specify to include or exclude parts of the routes response.|One or more of the following values:<br /><br /> -   **excludeItinerary**: Do not include detailed directions in the response. Detailed directions are provided as itinerary items and contain details such as written instructions and traffic location codes.<br />-   **routePath**: Include a set of point (latitude and longitude) values that describe the route’s path in the response.<br /><br /> **Note**: When you set the routeAttributes parameter, the routePathOutput parameter is ignored.|  
 |routePathOutput|rpo|**Optional.**  Specifies whether the response should include information about Point (latitude and longitude) values for each route’s path. **Note:**  When the exclude parameter is specified, the routePathOutput parameter is not used.|One of the following values:<br /><br /> -   Points: A list of Point values for each route’s path is provided in the response.<br />-   None **[default]**: No route path information is provided in the response.<br /><br /> **Example**: routePathOutput=Points|  
 |distanceUnit|du|**Optional.** The units to use for distance. **Note:**  When the exclude parameter is specified, the distanceUnit parameter is not used.|One of the following values:<br /><br /> -   Mile or mi<br />-   Kilometer or km **[default]**<br /><br /> **Example**: distanceUnit=mi|  
   
-## Response  
- A set of Route resources that contain route information from major roads is returned when you make a request using this template and do not specify the `exclude=routes` parameter value. If you specify the `exclude=routes`, a set of Location resources are returned that contain starting points (latitude and longitude values) for routes to your destination from major roads. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). For more information about the Locations resource, see [Location Data](../rest-services/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../rest-services/common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
+## Response
+ 
+A set of Route resources that contain route information from major roads is returned when you make a request using this template and do not specify the `exclude=routes` parameter value. If you specify the `exclude=routes`, a set of Location resources are returned that contain starting points (latitude and longitude values) for routes to your destination from major roads. For more information about the Route resource, see [Route Data](route-data.md). For more information about the Locations resource, see [Location Data](../locations/location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). JSON and XML responses are provided for the URL examples in the following section.  
   
- These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../rest-services/output-parameters.md).  
+ These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default, unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
-## Examples  
- **Find starting points of the driving routes from major roads to a street address.**  
+## Examples
+
+**Find starting points of the driving routes from major roads to a street address.**  
   
  This example returns starting points for routes from major roads for the specified street address. The `exclude=routes` parameter is specified so that only the starting points of the major routes are returned. If you do not include this parameter, detailed route instructions are also provided in the response.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20Way%20Redmond%20WA%2098052&exclude=routes&output=xml&key=BingMapsKey  
 ```  
   
@@ -76,7 +79,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20W
   
  The response for this example contains a set of Location resources that specify the starting points of the major routes. The `Name` field defines the route that corresponds with the starting location. For example, the first `Name` value below specifies that this is the starting point of a route from the north and uses Interstate I-405 South.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2010 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://veintplat3.live-int.com/Branding/logo_powered_by.png</BrandLogoUri>  
@@ -131,7 +134,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20W
   
  You would receive the following JSON response if the output=xml parameter was not set in this example.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -205,7 +208,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20W
   
  This example returns routes to Spokane, Washington from major roads.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&output=xml&key=BingMapsKey  
 ```  
   
@@ -213,7 +216,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&outp
   
  The response for this example contains a set of Route resources that provide directions for routes to Spokane, Washington from major roads.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2010 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://veintplat3.live-int.com/Branding/logo_powered_by.png</BrandLogoUri>  
@@ -628,7 +631,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&outp
   
  You would receive the following JSON response if the output=xml parameter was not set in this example.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/veintplat3.live-int.com\/Branding\/logo_powered_by.png",  
@@ -1268,8 +1271,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&outp
   
 ## HTTP Status Codes  
   
-> [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).  
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -1285,5 +1287,5 @@ When the request is not successful, the response returns one of the following er
 * 503
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+ [JSON Data Contracts](../json-data-contracts.md)

@@ -1419,5 +1419,5 @@ http://dev.virtualearth.net/REST/V1/Routes/Walking?wp.0=Eiffel%20Tower&wp.1=louv
 ```  
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+ [JSON Data Contracts](../json-data-contracts.md)

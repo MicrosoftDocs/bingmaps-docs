@@ -832,4 +832,4 @@ Add `&output=xml` to the URL above to get the XML response.
 
 ## See Also
 
-* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
+* [Using the REST Services with .NET](../using-the-rest-services-with-net.md)

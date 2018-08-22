@@ -1760,5 +1760,5 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=Minneapolis,MN&wp.1=St%2
 ```  
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+ [JSON Data Contracts](../json-data-contracts.md)

@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Driving Route using Tolerances Example
 The following example shows how to request a driving route between two locations and specifies tolerances so that subsets of route points that meet those tolerances are returned. Each tolerance returns a subset of route points in the response. The route path defined by the subset of route path points approximates the route path defined by the full set of route points within the tolerance provided. The response to this request is the same as are shown for both XML and JSON formats.  
   
- This example is the same as the request that is described in the [Driving Route with Route Path Example](../rest-services/driving-route-with-route-path-example.md) with the addition of tolerances. Examples of the additional content that is returned when tolerances are specified are shown below in JSON and XML formats.  
+ This example is the same as the request that is described in the [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md) with the addition of tolerances. Examples of the additional content that is returned when tolerances are specified are shown below in JSON and XML formats.  
   
 ```  
 http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1=44.943828508257866,-93.09332862496376&optmz=distance&rpo=Points&tl=0.00000344978,0.0000218840,0.000220577,0.00188803,0.0169860,0.0950130,0.846703&key=BingMapsKey  
@@ -267,5 +267,5 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1
 ```  
   
 ## See Also  
- [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../rest-services/json-data-contracts.md)
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+ [JSON Data Contracts](../json-data-contracts.md)

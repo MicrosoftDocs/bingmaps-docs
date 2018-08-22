@@ -38,7 +38,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b
 
 The following image shows the resulting isochrone.
 
- ![BM_Isochrone30Minute](../rest-services/media/bm-isochrone30minute.PNG)
+ ![BM_Isochrone30Minute](../../media/bm-isochrone30minute.PNG)
 
 **JSON Response**
 
@@ -826,4 +826,4 @@ When an asynchronous isochrone request has completed, the status response will i
 ```
 
 ## See Also
-* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
+* [Using the REST Services with .NET](../using-the-rest-services-with-net.md)

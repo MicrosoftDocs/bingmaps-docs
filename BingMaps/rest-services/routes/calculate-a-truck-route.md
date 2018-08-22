@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Calculate a Truck Route
+
 The Bing Maps Truck Routing API provides travel routes which take truck attributes such as size, weight and type of cargo. This is important as not all trucks can travel the same routes as other vehicles. Here are some examples:
 
 * Bridges have heights and weight limits.
@@ -24,9 +25,9 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 
 The Bing Maps Truck Routing API is an extension of the existing Bing Maps Routing API and supports many of the same request parameters, and responds with the same Route resource class. Note that each request to the Truck Routing API generates three (3) billable transactions.
 
-When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](../rest-services/route-data.md). You can also view the example URL and response values in the **Examples** section.
+When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](../routes/route-data.md). You can also view the example URL and response values in the **Examples** section.
 
-Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](../coverage/truck-routing-coverage.md) for details.
+Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](/bing-maps-docs/coverage/truck-routing-coverage.md) for details.
 
 ## API Limits
 
@@ -39,7 +40,7 @@ If you are not sure which one to use, it is recommended to use the asynchronous 
 
 **How asynchronous requests work**
 
-See [Asynchronous Requests documentation](../rest-services/asynchronous-requests.md).
+See [Asynchronous Requests documentation](../common-parameters-and-types/asynchronous-requests.md).
 
 ## Supported HTTP Methods
 
@@ -53,8 +54,7 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 
 ## URL Template
 
-> [!NOTE]
->  These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](../getting-started/getting-a-bing-maps-key.md). 
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
 
 Truck route calculations require a lot more processing than standard driving route calculations, as such synchronous and asynchronous requests are supported. It is recommended to use the asynchronous request when calculating longer routes.
 
@@ -62,7 +62,7 @@ There are a lot of options available for truck routes. As such, some requests co
 
 **Synchronous Truck Routing Request URL (GET)**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
@@ -83,7 +83,7 @@ Content-Type: application/json
 
 *POST body*
 
-```
+```json
 {
     "waypoints": [{
         "address": string,
@@ -125,7 +125,7 @@ Content-Type: application/json
 
 **Asynchronous Truck Routing Request URL (GET)**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
@@ -133,7 +133,7 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1={wayPpoint1}&v
 
 *HTTP POST Request URL*
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key={BingMapsKey}
 ```
 
@@ -146,7 +146,7 @@ Content-Type: application/json
 
 *POST body*
 
-```
+```json
 {
     "waypoints": [{
         "address": string,
@@ -188,7 +188,7 @@ Content-Type: application/json
 
 **URL for checking Asynchronous request status (GET)**
 
-The initial asynchronous response includes a *callbackUrl* property which contains the URL that can be used to check the status of the job. Alternatively, the callback URL can also be generated by appending the *requestId* that is returned in the initial asynchronous request along with the same Bing Maps key used, with the **TruckAsyncCallback** endpoint as shown below. The response from this request will indicate if the request is complete or not, if complete it will provide a *resultUrl* property which is a URL that can be used to download the results.
+The initial asynchronous response includes a `callbackUrl` property which contains the URL that can be used to check the status of the job. Alternatively, the callback URL can also be generated by appending the `requestId` that is returned in the initial asynchronous request along with the same Bing Maps key used, with the `TruckAsyncCallback` endpoint as shown below. The response from this request will indicate if the request is complete or not, if complete it will provide a `resultUrl` property which is a URL that can be used to download the results.
 
 ```
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId={requestId}&key={BingMapsKey}
@@ -197,11 +197,11 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId={reques
 ## Template Parameters
 
 > [!NOTE]
->  Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../rest-services/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint.1=47.610,-122.107 can be shortened to wp.1=47.610,-122.107.  
+>  Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint.1=47.610,-122.107 can be shortened to wp.1=47.610,-122.107.  
 
 | Parameters            | GET Alias | Description  |
 |-----------------------|-----------|--------------|
-| waypoint.n<br/><br/>viaWaypoint.n  | wp.n<br/><br/>vwp.n | **Required**. A route is defined by a set of waypoints and viaWaypoints (intermediate locations that the route must pass through). The index (n value) for the set of waypoints and viaWaypoints is an integer starting with **0** or **1**. The waypoint and viaWaypoint index values must be sequential and must always increment by 1.<br/><br/>Both waypoint and viaWaypoint locations can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](../rest-services/location-and-area-types.md).<br/><br/>You can have a maximum of 25 waypoints or viaWaypoints in a request. The start and end points of the route cannot be viaWaypoints.<br/><br/>**GET Examples**:<br/><br/>waypoint.1=47.610,-122.107 \[Point\] <br/><br/>wp.1=Seattle,WA \[landmark\]<br/><br/>waypoint.1=1%20Microsoft%20Way%20Redmond%20WA%20 \[address\]<br/><br/>&waypoint.1=Seattle&viaWaypoint.2=Kirkland&waypoint.3=Redmond \[viaWaypoint\]<br/><br/>**POST Examples:** <br/><br/>"waypoints": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 47.610,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.107<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "Seattle",<br/>&nbsp;&nbsp;&nbsp;&nbsp;"isViaPoint": true<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "1 Microsoft Way, Redmond, WA",<br/>}\] |
+| waypoint.n<br/><br/>viaWaypoint.n  | wp.n<br/><br/>vwp.n | **Required**. A route is defined by a set of waypoints and viaWaypoints (intermediate locations that the route must pass through). The index (n value) for the set of waypoints and viaWaypoints is an integer starting with **0** or **1**. The waypoint and viaWaypoint index values must be sequential and must always increment by 1.<br/><br/>Both waypoint and viaWaypoint locations can be specified as a Point, a landmark, or an address. For more information about Point values, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br/><br/>You can have a maximum of 25 waypoints or viaWaypoints in a request. The start and end points of the route cannot be viaWaypoints.<br/><br/>**GET Examples**:<br/><br/>waypoint.1=47.610,-122.107 \[Point\] <br/><br/>wp.1=Seattle,WA \[landmark\]<br/><br/>waypoint.1=1%20Microsoft%20Way%20Redmond%20WA%20 \[address\]<br/><br/>&waypoint.1=Seattle&viaWaypoint.2=Kirkland&waypoint.3=Redmond \[viaWaypoint\]<br/><br/>**POST Examples:** <br/><br/>"waypoints": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 47.610,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.107<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "Seattle",<br/>&nbsp;&nbsp;&nbsp;&nbsp;"isViaPoint": true<br/>},{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"address": "1 Microsoft Way, Redmond, WA",<br/>}\] |
 | avoid  |               | **Optional.** Specifies the road types to minimize or avoid when a route is created for the driving travel mode. A comma-separated list of values from the following list that limit the use of highways and toll roads in the route. In the definitions below, "highway" also refers to a "limited-access highway". If no values are specified, highways and tolls are allowed in the route. Can consist of the following values:<br/><br/> • **highways**: Avoids the use of highways in the route.<br/> • **tolls**: Avoids the use of toll roads in the route.<br/> • **minimizeHighways**: Minimizes (tries to avoid) the use of highways in the route.<br/> • **minimizeTolls**: Minimizes (tries to avoid) the use of toll roads in the route.<br/><br/>**Note:**<br/><br/>If you specify more than one option for a road type, then the most restrictive option is used. For example, if you set the avoid parameter to both *highways* and *minimizeHighways*, the *highways* option is used and all highways are avoided.<br/><br/> **Examples**:<br/><br/> avoid=highways<br/><br/> avoid=highways,tolls |
 | distanceBeforeFirstTurn   | dbft          | **Optional.** Specifies the distance before the first turn is allowed in the route. An integer distance specified in meters. Use this parameter to make sure that the moving vehicle has enough distance to make the first turn.<br/><br/>**Examples**: distanceBeforeFirstTurn=500 |
 | heading                   | hd            | **Optional.** Specifies the initial heading for the route. An integer value between 0 and 359 that represents degrees from north where north is 0 degrees and the heading is specified clockwise from north. For example, setting the heading of 270 degrees creates a route that initially heads west.<br/><br/>**Example**: heading=90 |
@@ -209,7 +209,7 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId={reques
 | routeAttributes           | ra            | **Optional.** Specify to include or exclude parts of the routes response. Can be one of the following values: <br/><br/> • **routePath**: Include a set of point (latitude and longitude) values that describe the route’s path in the response.<br/><br/>**Example**: routeAttributes=routePath |
 | distanceUnit              | du            | **Optional.** The units to use for distance in the response. Can be one of the following values:<br/><br/> • **mile** or **mi**<br/> • **kilometer** or **km** \[default\] <br/><br/>**Example**: distanceUnit=mile |
 | dateTime                  | dt            | **Optional**. When specified and the route is optimized for timeWithTraffic, predictive traffic data is used to calculate the best route for the specified date time of departure. A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for DateTime values, see [DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx). <br/><br/>**Examples**:<br/><br/>dateTime=03/01/2011 05:42:00<br/><br/>dateTime=05:42:00 \[assumes the current day\]<br/><br/>dateTime=03/01/2011 \[assumes the current time\] |
-| tolerances | tl | **Optional.** A set of double values. Each value specifies a tolerance that is used to reduce the number of points needed to display a route on a map and still maintain the route shape. If a point is removed and the new route still falls within the specified tolerance of the old route, then the point is not included in the subset of points returned for that tolerance.<br/><br/>**GET format:** A comma-separated string of numbers.<br/><br/>**POST format:** An array of numbers.<br/><br/>You may find it useful to define tolerances for different zoom levels, screen resolutions or other display parameters.<br/><br/>You can specify a maximum of seven (7) tolerance values.<br/><br/>The tolerance is specified in degrees. A degree of latitude is approximately 60 nautical miles, 111 kilometers or 69 statute miles. Therefore, a tolerance value of 0.00001 represents a distance of about one (1) meter in the north-south direction. The distance represented by a degree of longitude varies with latitude. For example at 45 degrees of longitude, a degree of latitude is 111.132 km and a degree of longitude is 78.847 km. At the equator, these values are almost equal with latitude at 100.754 km and longitude at 111.320 km. As you approach the poles, the distance associated with a degree of latitude decreases, and fewer points will be excluded for the same tolerance value. For more information about how longitude distances change with latitude, see [Longitude (Wikipedia)](http://en.wikipedia.org/wiki/Longitude).<!--<br/><br/>The following diagram illustrates how a tolerance value is used.<br/><br/>![BM_RESTRoutingTolerances](../rest-services/media/bm-restroutingtolerances.png)--><br/><br/>**GET Example:**<br/><br/>tolerances=0.00000344,0.0005978<br/><br/>**POST Example:**<br/><br/>tolerances: [0.00000344, 0.0005] |
+| tolerances | tl | **Optional.** A set of double values. Each value specifies a tolerance that is used to reduce the number of points needed to display a route on a map and still maintain the route shape. If a point is removed and the new route still falls within the specified tolerance of the old route, then the point is not included in the subset of points returned for that tolerance.<br/><br/>**GET format:** A comma-separated string of numbers.<br/><br/>**POST format:** An array of numbers.<br/><br/>You may find it useful to define tolerances for different zoom levels, screen resolutions or other display parameters.<br/><br/>You can specify a maximum of seven (7) tolerance values.<br/><br/>The tolerance is specified in degrees. A degree of latitude is approximately 60 nautical miles, 111 kilometers or 69 statute miles. Therefore, a tolerance value of 0.00001 represents a distance of about one (1) meter in the north-south direction. The distance represented by a degree of longitude varies with latitude. For example at 45 degrees of longitude, a degree of latitude is 111.132 km and a degree of longitude is 78.847 km. At the equator, these values are almost equal with latitude at 100.754 km and longitude at 111.320 km. As you approach the poles, the distance associated with a degree of latitude decreases, and fewer points will be excluded for the same tolerance value. For more information about how longitude distances change with latitude, see [Longitude (Wikipedia)](http://en.wikipedia.org/wiki/Longitude).<!--<br/><br/>The following diagram illustrates how a tolerance value is used.<br/><br/>![BM_RESTRoutingTolerances](../media/bm-restroutingtolerances.png)--><br/><br/>**GET Example:**<br/><br/>tolerances=0.00000344,0.0005978<br/><br/>**POST Example:**<br/><br/>tolerances: [0.00000344, 0.0005] |
 | dimensionUnit             | dims          | **Optional**. The unit of measurement of width, height, length. Can be one of the following values:<br/><br/> • **meter** or **m**\[default\]<br/> • **foot** or **ft**<br/><br/>**Example**: dimensionUnit=ft |
 | weightUnit                | wu            | **Optional**. The unit of measurement of weight. Can be one of the following values.<br/><br/> • **kilogram** or **kg** \[default\]<br/> • **pound** or **lb**<br/><br/>**Example**: weightUnit=lb |
 | vehicleHeight             | height        | **Optional**. The height of the vehicle in the specified dimension units.<br/><br/>**Example**: vehicleHeight=5 |
@@ -253,7 +253,7 @@ The Routing API can distinguish between trailer and semi-trailer restrictions. T
 ## Examples
 The following example shows how to request a truck route. In this case, consider a truck that may be transporting a flammable material between Pittsburgh Brashear High School (590 Crane Ave, Pittsburgh, PA) and Duquesne University (600 Forbes Ave, Pittsburgh, PA). For comparison, the following image shows the calculated truck route in green and the route a vehicle not carrying flammable material would typically take in red. The primary reason for the difference in routes in this case is that flammable and explosive materials are prohibited inside the Liberty Tunnel. As a result, the route for this truck is 3.9 miles while the route a vehicle that isn’t carrying flammable or explosive material is only 3.1 miles.
 
-![BM_TruckRoute_LibertyTunnel](../rest-services/media/bm-truckroute-libertytunnel.png)
+![BM_TruckRoute_LibertyTunnel](../media/bm-truckroute-libertytunnel.png)
 
 All examples include a GET and its equivalent POST.
 
@@ -297,7 +297,7 @@ Content-Type: application/json
 
 For comparison the following image shows this truck route in green and a vehicle not carrying flammable material would typically take in red. The primary reason for the difference in routes in this case is that flammable and explosive materials are prohibited inside the Liberty Tunnel. As a result, the route for this truck is 3.9 miles while the route a vehicle that isn’t carrying flammable or explosive material is only 3.1 miles.
 
-To view the complete XML and JSON responses, see [Truck Route Example](../rest-services/truck-route-example.md).
+To view the complete XML and JSON responses, see [Truck Route Example](../examples/truck-route-example.md).
 
 **Calculate a truck based route (asynchronous)**
 
@@ -343,12 +343,11 @@ Once the initial request is made a *requestId* will be returned. A *requestId* i
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key=BingMapsKey
 ```
 
-To view the complete XML and JSON responses, see [Truck Route Asynchronous Example](../rest-services/truck-route-asynchronous-example.md).
+To view the complete XML and JSON responses, see [Truck Route Asynchronous Example](../examples/truck-route-asynchronous-example.md).
 
 ## HTTP Status Codes
 
-> [!NOTE]
-> For more details about these HTTP status codes, see [Status Codes and Error Handling](../rest-services/status-codes-and-error-handling.md).
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
 
 When the request is successful, the following HTTP status code is returned.
 
@@ -365,6 +364,7 @@ When the request is not successful, the response returns one of the following er
 
 ## See Also
 
-* [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)
-* [Truck Route Example](../rest-services/truck-route-example.md)
-* [Truck Route Asynchronous Example](../rest-services/truck-route-asynchronous-example.md)
+* [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+* [Truck Route Example](../examples/truck-route-example.md)
+* [Truck Route Asynchronous Example](../examples/truck-route-asynchronous-example.md)
+
