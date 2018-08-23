@@ -124,3 +124,31 @@
     href: release-history.md
   - name: Developer Resources
     href: developer-resources.md
+  - name: Examples
+    items:
+      - name: Distance Matrix Async Example
+        href: examples/distance-matrix-asynchronous-exmaple.md
+      - name: Distance Matrix Example
+        href: examples/distance-matrix-example.md
+      - name: Distance Matrix Histogram Example
+        href: examples/distance-matrix-histogram-example.md
+      - name: Driving Route Example
+        href: examples/driving-route-example.md
+      - name: Driving Route Using Tolerances Example
+        href: examples/driving-route-using-tolerances-example.md
+      - name: Driving Route with Route Path Example
+        href: driving-route-with-route-path-example
+      - name: Isoexamples/chrone Async Example
+        href: examples/isochrone-asynchronous-example.md
+      - name: Isochrone Example
+        href: examples/isochrone-example.md
+      - name: Snap to Road Example
+        href: examples/snap-to-road-example.md
+      - name: Transit Road Example
+        href: examples/transit-road-exmaple.md
+      - name: Truck Route Async Example
+        href: examples/truck-route-asynchronous-example.md
+      - name: Truck Route Example
+        href: examples/truck-route-example.md
+      - name: Walking Route Example
+        href: examples/walking-route-example.md
