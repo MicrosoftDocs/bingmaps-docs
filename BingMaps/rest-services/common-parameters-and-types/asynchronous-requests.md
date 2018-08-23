@@ -17,7 +17,7 @@ Several of the Bing Maps REST APIs, such as truck routing, distance matrix, and 
 
 Here is a diagram that visualizes this dataflow.
 
-![AsyncRequestDataFlow](../media/AsyncRequestDataFlow.png)
+![AsyncRequestDataFlow](../media/bmrest-asyncrequestdataflow.png)
 
 ## RouteProxyAsyncResult Resource
 

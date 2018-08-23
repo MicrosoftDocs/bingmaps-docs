@@ -143,7 +143,7 @@ https://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback?requestId={r
 The following is a list of parameters that are supported by the Snap to Road API.
 
 > [!Note]
-> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-typess/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, points=47.610,-122.107; can be shortened to pts=47.610,-122.107;.  
 
 | Parameter              | GET Alias | Description  |
 |------------------------|-------|--------------|

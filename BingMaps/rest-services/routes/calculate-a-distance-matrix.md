@@ -253,7 +253,7 @@ Destinations:
 
 **Calculate a simple driving based Distance Matrix (synchronous)**
 
-The following example shows how to request a simple driving based distance matrix for the set of origins and destinations. To view the complete XML and JSON responses, see [Distance Matrix Example](distance-matrix-example.md).
+The following example shows how to request a simple driving based distance matrix for the set of origins and destinations. To view the complete XML and JSON responses, see [Distance Matrix Example](../examples/distance-matrix-example.md).
 
 *HTTP GET Request URL*
 

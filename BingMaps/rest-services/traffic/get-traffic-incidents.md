@@ -57,7 +57,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
 |type|t|**Optional.** Specifies the type of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather<br /><br /> **Examples**:<br /><br /> type=2<br /><br /> t=2,9|  
   
 ## Response  
- A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](../common-parameters-and-types/traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-parameters-and-types/common-response-description.md).  
+ A collection of TrafficIncident resources is returned when you make a request with the URL above. For more information about the TrafficIncident resource, see [Traffic Incident Data](traffic-incident-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md).  
   
  These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default, unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
@@ -75,7 +75,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
   
  **JSON Response**  
   
- This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](../common-parameters-and-types/traffic-incident-data.md).  
+ This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](traffic-incident-data.md).  
   
 ```json
 {  

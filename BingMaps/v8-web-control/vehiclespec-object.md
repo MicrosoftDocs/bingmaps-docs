@@ -63,4 +63,4 @@ directionsManager.setRequestOptions({
 
 ## See Also:
 
-* [Calculate a Truck Route](../rest-services/calculate-a-truck-route.md)
+* [Calculate a Truck Route](../rest-services/routes/calculate-a-truck-route.md)

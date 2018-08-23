@@ -84,7 +84,7 @@
       - name: Find Time Zone
         href: timezone/find-time-zone.md
       - name: Convert to Local Time
-        href: timezone/convert-local-time.md
+        href: timezone/convert-local-time-zone.md
       - name: List Time Zone
         href: timezone/list-time-zones.md
       - name: Time Zone Data
@@ -128,7 +128,7 @@
     maintainContext: true
     items:
       - name: Distance Matrix Async Example
-        href: examples/distance-matrix-asynchronous-exmaple.md
+        href: examples/distance-matrix-asynchronous-example.md
       - name: Distance Matrix Example
         href: examples/distance-matrix-example.md
       - name: Distance Matrix Histogram Example
@@ -138,7 +138,7 @@
       - name: Driving Route Using Tolerances Example
         href: examples/driving-route-using-tolerances-example.md
       - name: Driving Route with Route Path Example
-        href: driving-route-with-route-path-example
+        href: examples/driving-route-with-route-path-example
       - name: Isoexamples/chrone Async Example
         href: examples/isochrone-asynchronous-example.md
       - name: Isochrone Example
@@ -146,7 +146,7 @@
       - name: Snap to Road Example
         href: examples/snap-to-road-example.md
       - name: Transit Road Example
-        href: examples/transit-road-exmaple.md
+        href: examples/transit-road-example.md
       - name: Truck Route Async Example
         href: examples/truck-route-asynchronous-example.md
       - name: Truck Route Example

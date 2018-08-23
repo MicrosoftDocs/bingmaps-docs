@@ -8,5 +8,5 @@ The Bing Maps Time Zone API makes it easy to [find a time zone and daylight savi
 |--|--|
 |[Find Time Zone](find-time-zone.md)|Get a Time Zone with Daylight Savings Time information by point or query.|
 |[Convert to Local Time](convert-local-time-zone.md)|Covert UTC Datetime to a Local Time Zone with Daylight Savings Time information. |
-|[List Time Zones](list-time-zone.md)|Retrieve Time Zone and Daylight Savings Time Information for either the Microsoft Windows or IANA Time Zone standard.|
+|[List Time Zones](list-time-zones.md)|Retrieve Time Zone and Daylight Savings Time Information for either the Microsoft Windows or IANA Time Zone standard.|
 |[Time Zone Data](time-zone-data.md)|Description of Time Zone API resources as returned in XML and JSON responses.|

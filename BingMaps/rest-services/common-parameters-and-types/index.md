@@ -22,7 +22,7 @@ The Bing Maps REST Services use many common parameters and types. The topics in 
   
 |||  
 |-|-|  
-|[Base URL Structure](bing-maps-rest-url-structure.md)|Use the base URL for making calls to the Bing Maps REST Services.|  
+|[Base URL Structure](base-url-structure.md)|Use the base URL for making calls to the Bing Maps REST Services.|  
 |[Culture Parameter](culture-parameter.md)|Use the culture parameter to set the culture so that items such as map labels and route directions are in the desired language.|  
 |[Output Parameters](output-parameters.md)|Use the output parameter to specify the format of the response, such as JSON or XML.|  
 |[User Context Parameters](user-context-parameters.md)|Use the user-context parameters to specify information about the user, such as the user’s location.|  

@@ -104,7 +104,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Walking?wp.0=Eiffel%20Tower&wp.1=louv
   
  **Find a transit route.**  
   
- The following example shows how to request a transit route between the Golden Gate Bridge and Fisherman’s Wharf in San Francisco for 3 PM on the current day. To view the complete XML and JSON responses, see [Transit Route Example](../example/transit-route-example.md).  
+ The following example shows how to request a transit route between the Golden Gate Bridge and Fisherman’s Wharf in San Francisco for 3 PM on the current day. To view the complete XML and JSON responses, see [Transit Route Example](../examples/transit-route-example.md).  
   
 ```url
 %http://dev.virtualearth.net/REST/V1/Routes/Transit?wp.0=Golden%20Gate%20Bridge&wp.1=Fishermans%20Wharf&timeType=Departure&dateTime=3:00:00PM&output=xml&key=BingMapsKey  
