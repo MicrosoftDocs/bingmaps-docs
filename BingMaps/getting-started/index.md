@@ -14,20 +14,30 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Getting Started with Bing Maps
+
 To start developing with Bing Maps, choose the API(s) that is most appropriate for your platform and needs.  
   
-## Developer APIs  
- The Bing Maps Platform offers a suite of controls and service APIs that you can use to add Bing Maps or geospatial services to your application.  
+## Developer APIs
+
+The Bing Maps Platform offers a suite of controls and service APIs that you can use to add Bing Maps or geospatial services to your application.  
   
- **Choose Your API**: For a breakdown of the API by feature and platform, see [Choose Your API](http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) on the Bing Maps Platform website.  
+### Choose Your API
+
+For a breakdown of the API by feature and platform, see [Choose Your API](http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) on the Bing Maps Platform website.  
   
- **Bing Maps Keys**: All APIs require a Bing Maps Key. For information about the different types of keys, see [Create a Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
+### Bing Maps Keys
+
+All APIs require a Bing Maps Key. For information about the different types of keys, see [Create a Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
- **Licensing**: If you have a licensing question or want to request a quote, contact the Bing Maps licensing team [here](http://www.microsoft.com/maps/licensing/licensing.aspx).  
+### Licensing
+
+If you have a licensing question or want to request a quote, contact the Bing Maps licensing team [here](http://www.microsoft.com/maps/licensing/licensing.aspx).  
   
- **Additional Resources**: For developer guides, blogs and other resources, check out [Bing Maps Resources](http://www.microsoft.com/maps/developer-resources.aspx).  
+### Additional Resources
+
+For developer guides, blogs and other resources, check out [Bing Maps Resources](http://www.microsoft.com/maps/developer-resources.aspx).  
   
-### Bing Maps APIs  
+## Bing Maps APIs  
   
 |||  
 |-|-|  
@@ -39,14 +49,16 @@ To start developing with Bing Maps, choose the API(s) that is most appropriate f
   
  Using a version of Bing Maps not listed here? Check the [Discontinued Control Migration Guidelines](https://www.microsoft.com/maps/discon-control-migrat-guide.aspx) to see if the version of Bing Maps you are using is nearing end of life, and if so, find out how to migrate to a newer version of Bing Maps.  
   
-<a name="simpleNonAPIOptions"></a>   
-## Simple non-API Bing Maps options  
+
+## Simple non-API Bing Maps Options
+
  If you simply want to embed a map (static or interactive) on a web page or open the Map app in Windows 8 or Windows 10 from your Windows app, and do not require continuous control of the mapping experience, you may be interested in the following options.  
   
 |||  
 |-|-|  
-|Embed a map in your web page (static or interactive)|Option 1: Go to [http://www.bing.com/maps](http://www.bing.com/maps), create the map you want, and then click **Share**. If you want control over basic parameters like size and imagery, click **Customize and preview**. This option will provide you with HTML that you can embed into your web page.<br /><br /> Option 2: [Create a Custom Map URL](../articles/create-a-custom-map-url.md). You can create a URL that opens Bing Maps with customizations provided by you. In addition to normal map features, you can also display search results. You do not need a Bing Maps Key for this option.<br /><br /> Option 3: [Get a Static Map](../rest-services/get-a-static-map.md). With this option, you can create a URL that displays a static map. You can specify parameters that specify the imagery, define pushpins, display a route and control other map features. You will need a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx) to use this option.|  
+|Embed a map in your web page (static or interactive)|Option 1: Go to [http://www.bing.com/maps](http://www.bing.com/maps), create the map you want, and then click **Share**. If you want control over basic parameters like size and imagery, click **Customize and preview**. This option will provide you with HTML that you can embed into your web page.<br /><br /> Option 2: [Create a Custom Map URL](../articles/create-a-custom-map-url.md). You can create a URL that opens Bing Maps with customizations provided by you. In addition to normal map features, you can also display search results. You do not need a Bing Maps Key for this option.<br /><br /> Option 3: [Get a Static Map](../rest-services/imagery/get-a-static-map.md). With this option, you can create a URL that displays a static map. You can specify parameters that specify the imagery, define pushpins, display a route and control other map features. You will need a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx) to use this option.|  
 |Open the Windows 8 or 10 Map app from your Windows app|Create a URL using the schema defined in [URI Schema for maps application](http://msdn.microsoft.com/en-us/library/windows/apps/jj635237.aspx). You do not need a Bing Maps Key to use this schema.|  
   
-## News and Resources  
- To keep up to date with the latest  Bing Maps news, read the [Bing Dev Center Blog](http://blogs.bing.com/maps/). For help from the Bing Maps community, use the [Bing Maps Forums](http://social.msdn.microsoft.com/Forums/en-US/category/bingmaps).
+## News and Resources
+
+To keep up to date with the latest  Bing Maps news, read the [Bing Dev Center Blog](http://blogs.bing.com/maps/). For help from the Bing Maps community, use the [Bing Maps Forums](http://social.msdn.microsoft.com/Forums/en-US/category/bingmaps).

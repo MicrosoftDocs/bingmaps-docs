@@ -29,7 +29,7 @@ Use the following URLs to get elevation values (in meters) for a set of location
   
  **Required parameters**: points, key  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsKey}  
 ```  
   
@@ -39,7 +39,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2
   
  **Required parameters**: points, samples, key  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsKey}  
 ```  
   
@@ -51,7 +51,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,l
   
  **Required parameters**: bounds, rows, cols, key  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsKey}  
 ```  
   
@@ -61,7 +61,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows
   
  **Required parameters**: points, key  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsKey}  
 ```  
   
@@ -82,7 +82,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
   
 > [!NOTE]
 >  -   Parameters and parameter values are not case-sensitive.  
-> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](common-parameeters-and-types/output-parameters.md).  
+> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](../common-parameeters-and-types/output-parameters.md).  
   
  **Parameters in the following table are valid for a URL only when they appear in the templates above.**  
   
@@ -93,10 +93,11 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
 |rows, cols||**Required**. Specifies the number of rows and columns to use to divide the bounding box area into a grid. The rows and columns that define the bounding box each count as two (2) of the rows and columns. Elevation values are returned for all vertices of the grid.|Integers with a value of two (2) or greater. The number of rows and columns can define a maximum of 1024 locations (rows * cols <= 1024).<br /><br /> **Examples**:<br /><br /> rows=30<br /><br /> cols=15|  
 |samples|samp|**Required**. Specifies the number of equally-spaced elevation values to provide along a polyline path.|A positive integer. The maximum number of samples is 1024.<br /><br /> **Example**: samples=30|  
 |heights|hts|**Optional**. Specifies which sea level model to use to calculate elevation.|One of the following values.<br /><br /> sealevel [**default**]: Use the geoid Earth model (EGM2008 2.5’).<br /><br /> ellipsoid: Use the ellipsoid Earth model (WGS84).<br /><br /> For more information about these models, see the **Earth Models and Zoom Level** section below.<br /><br /> **Example**: heights=ellipsoid|  
-|key||**Required**. A Bing Maps Key.|If you do not have a Bing Maps Key, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642).|  
+|key||**Required**. A Bing Maps Key.|If you do not have a Bing Maps Key, see [Getting a Bing Maps Key](../../getting-started/getting-a-bing-maps-key.md).|  
   
-## Earth Models and Zoom Level  
- Elevation calculations can vary based on the model of the Earth used and the zoom level.  
+## Earth Models and Zoom Level
+
+Elevation calculations can vary based on the model of the Earth used and the zoom level.  
   
  **Earth model**: The Elevations API uses two Earth models – an ellipsoid model that is equivalent to a GPS calculation, and geoid sea level model that is what is commonly referred to as altitude above sea level.  
   
@@ -110,12 +111,13 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
   
  ![Ellipsoid and Geoid Sea Level elevatoin values](../media/restservices-elevationearthmodels.png "Ellipsoid and Geoid Sea Level elevatoin values")  
   
- **Zoom level** : A zoom level is returned in the response, and reflects the resolution of the data used to compute the elevation. A higher zoom level indicates higher resolution data and more accurate elevation values. At lower zoom levels, the data is further apart and interpolated points are less accurate. For information about the data resolution at different zoom levels, see [Understanding Scale and Resolution](http://msdn.microsoft.com/en-us/library/aa940990.aspx).  
+ **Zoom level** : A zoom level is returned in the response, and reflects the resolution of the data used to compute the elevation. A higher zoom level indicates higher resolution data and more accurate elevation values. At lower zoom levels, the data is further apart and interpolated points are less accurate. For information about the data resolution at different zoom levels, see [Understanding Scale and Resolution](../../articles/understanding-scale-and-resolution.md).  
   
  Typically, lower zoom levels are used for areas that have limited data or when you request elevations for points or a polyline that covers a large distance. For example if you request a polyline that covers a large distance across the Earth, such as the distance between Paris and Beijing, the points used to compute elevation are associated with a higher zoom level and are further apart.  
   
-## Elevation Coverage and Resolution  
- The following table shows the minimum elevation resolution by area. Actual elevation resolution may be may be higher.  
+## Elevation Coverage and Resolution
+
+The following table shows the minimum elevation resolution by area. Actual elevation resolution may be may be higher.  
   
 |**Coverage Area**|**Resolution (in meters)**|  
 |-----------------------|----------------------------------|  
@@ -123,8 +125,9 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
 |Global 56° S - 60° N|90 m|  
 |United States|10 m|  
   
-## Response  
- A set of elevations and the associated zoom level is returned in the responses that request elevation values. For descriptions of the data returned in the response, see [Elevation Data](elevation-data.md). For more information about the common values that are also returned in the response, see [Common Response Description](../common-response-description.md).  
+## Response
+
+A set of elevations and the associated zoom level is returned in the responses that request elevation values. For descriptions of the data returned in the response, see [Elevation Data](elevation-data.md). For more information about the common values that are also returned in the response, see [Common Response Description](../common-response-description.md).  
   
  You can choose JSON (application/json) or XML (application/xml) format for the response. JSON is returned by default. To specify the format, set the output (o) parameter to `json` or `xml`. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
@@ -134,7 +137,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
   
  The geoid Earth model is used to compute elevations for the coordinates provided.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key=BingMapsKey  
 ```  
   
@@ -142,7 +145,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35
   
  This example returns the following response where `values` are the elevation values and `zoomLevel` is the zoom level used.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -169,7 +172,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35
   
  This XML response is returned when `output=xml` is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -213,7 +216,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,
   
  This example returns the following response where `values` are the elevation values and `zoomLevel` is the zoom level used.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -240,7 +243,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,
   
  This XML response is returned when `output=xml` is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -298,7 +301,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.7252
   
  This example returns the following response where `values` are the elevation values and `zoomLevel` is the zoom level used.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -325,7 +328,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.7252
   
  This XML response is returned when `output=xml` is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -375,7 +378,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
   
  This example returns the following response where `values` show that the geoid sea level approximation is 23 meters below the ellipsoid at each location.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -402,7 +405,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
   
  This XML response is returned when `output=xml` is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -440,13 +443,13 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
   
  **HTTP POST URL**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Elevation/List?key=BingMapsKey  
 ```  
   
  **HTTP POST Header**  
   
-```  
+```
 Content-Length: insertLengthOfHTTPBody  
 Content-Type: text/plain; charset=utf-8  
   
@@ -475,6 +478,8 @@ When the request is not successful, the response returns one of the following er
 * 500
 * 503 
   
-## See Also  
- [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
- [JSON Data Contracts](../json-data-contracts.md)
+## See Also 
+
+[Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+
+[JSON Data Contracts](../json-data-contracts.md)

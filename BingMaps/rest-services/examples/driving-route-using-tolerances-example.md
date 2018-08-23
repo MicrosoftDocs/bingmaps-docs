@@ -26,7 +26,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1
   
  The following route path generalization collections are returned with the route path points in Route resource in the response. Each route path generalization specifies a subset of route path points and the associated tolerance (latLongTolerance). The route path points are specified by an index value. Route path points are assigned integer index values that start with 0.  
   
- These generalizations would be added to the complete response shown in [Driving Route with Route Path Example](../rest-services/examples/driving-route-with-route-path-example.md).  
+ These generalizations would be added to the complete response shown in [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md).  
   
 ```  
 {  
