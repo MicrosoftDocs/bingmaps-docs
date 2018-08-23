@@ -82,7 +82,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
   
 > [!NOTE]
 >  -   Parameters and parameter values are not case-sensitive.  
-> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](../common-parameeters-and-types/output-parameters.md).  
+> -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
  **Parameters in the following table are valid for a URL only when they appear in the templates above.**  
   

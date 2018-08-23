@@ -25,7 +25,7 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
   
 |REST API|Features|  
 |--------------|--------------|  
-|[Locations](../rest-services/locaitons/index.md)|-   Find a location based on an address, point, or query.|  
+|[Locations](../rest-services/locations/index.md)|-   Find a location based on an address, point, or query.|  
 |[Elevations](../rest-services/elevations/index.md)|-   Get the elevations for a set of locations, a path, or an area on the Earth.|  
 |[Imagery](../rest-services/imagery/index.md)|-   Get a static map.<br />-   Get a static map that displays a route.<br />-   Get imagery metadata.|
 |[Routes](../rest-services/routes/index.md)|-   Find a walking, driving or transit route.<br />-   Find routes from major routes to a location.<br />-   Get traffic information along a route.|  
