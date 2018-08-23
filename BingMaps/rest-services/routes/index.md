@@ -28,7 +28,8 @@ Use the Routes API to create a route that includes two or more locations and to 
 |[Maneuver Types](maneuver-types.md)|View maneuver type definitions|  
 |[Warning Types](warning-types.md)|View warning type definitions|  
   
-## See Also  
+## See Also
+
  * [Driving Route Example](../examples/driving-route-example.md)
  * [Walking Route Example](../examples/walking-route-example.md)
  * [Transit Route Example](../examples/transit-route-example.md)

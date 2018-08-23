@@ -139,7 +139,7 @@
         href: examples/driving-route-using-tolerances-example.md
       - name: Driving Route with Route Path Example
         href: examples/driving-route-with-route-path-example
-      - name: Isoexamples/chrone Async Example
+      - name: Isochrone Async Example
         href: examples/isochrone-asynchronous-example.md
       - name: Isochrone Example
         href: examples/isochrone-example.md
