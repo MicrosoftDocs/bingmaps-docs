@@ -20,7 +20,7 @@
       - name: Find a Location by Query
         href: locations/find-a-location-by-query.md
       - name: Location Recognition
-        href: location-recognition.md
+        href: locations/location-recognition.md
       - name: Location Data
         href: locations/location-data.md
   - name: Elevations
