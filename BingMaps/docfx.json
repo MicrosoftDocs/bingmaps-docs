@@ -35,11 +35,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/BingMaps/breadcrumb/toc.json",
+      "breadcrumb_path": "/Bing Maps/breadcrumb/toc.json",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "BingMaps"
+    "dest": "Bing Maps"
   }
 }
