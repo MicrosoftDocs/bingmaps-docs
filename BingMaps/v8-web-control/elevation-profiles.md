@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Elevation Profiles
-The Bing Maps REST services provides a number of useful services. The [Elevation API](../rest-services/elevations-api.md) provides elevation data from around the world. This code sample shows how to generate an elevation profiles along a route. 
+The Bing Maps REST services provides a number of useful services. The [Elevation API](../rest-services/elevations/index.md) provides elevation data from around the world. This code sample shows how to generate an elevation profiles along a route. 
 
 ```
 <!DOCTYPE html>

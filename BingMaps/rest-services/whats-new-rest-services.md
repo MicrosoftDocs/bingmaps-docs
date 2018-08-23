@@ -63,9 +63,9 @@ The Bing Maps Autosuggest API is a service which, given both a request with a us
   
  Starting with January, 2014, the Bing Maps REST Services API documentation includes [Release History](release-history.md).  
   
- **You now have an additional 40 pushpin icons to use with static maps. [[Get a Static Map](routes/get-a-static-map.md)]**  
+ **You now have an additional 40 pushpin icons to use with static maps. [[Get a Static Map](imagery/get-a-static-map.md)]**  
   
- See [Pushpin Syntax and Icon Styles](../rest-services/pushpin-syntax-and-icon-styles.md) to view the new icons with IDs 73-112.  
+ See [Pushpin Syntax and Icon Styles](../rest-services/common-parameters-and-types/pushpin-syntax-and-icon-styles.md) to view the new icons with IDs 73-112.  
   
  **Specify include=cios2 to receive the two-letter ISO country code when you geocode or reverse-geocode. [[Locations](locations/index.md)]**  
   
@@ -94,7 +94,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%
   
 ### October, 2013
   
- **You can now select the icons for route waypoints on static maps [[Get a Static Map](routes/get-a-static-map.md)]**  
+ **You can now select the icons for route waypoints on static maps [[Get a Static Map](imagery/get-a-static-map.md)]**  
   
  A new feature allows you to specify any pushpin icon style and a label for every route waypoint when you a make a static map route request (Walking/Routing/Transit). Prior to this new feature, pushpin icon styles 50 and 53 were used to display route waypoints on a static map. With this new feature, you can optionally choose any pushpin icon and create labels up to three characters. The new waypoint syntax is `wp.n=location;iconID;label`.  
   

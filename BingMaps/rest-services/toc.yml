@@ -125,6 +125,7 @@
   - name: Developer Resources
     href: developer-resources.md
   - name: Examples
+    maintainContext: true
     items:
       - name: Distance Matrix Async Example
         href: examples/distance-matrix-asynchronous-exmaple.md
