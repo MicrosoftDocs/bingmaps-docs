@@ -38,7 +38,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b
 
 The following image shows the resulting isochrone.
 
- ![BM_Isochrone30Minute](../../media/bm-isochrone30minute.PNG)
+ ![BM_Isochrone30Minute](../media/bm-isochrone30minute.PNG)
 
 **JSON Response**
 
