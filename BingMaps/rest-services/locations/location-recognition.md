@@ -2,13 +2,37 @@
 
 Given a pair of location coordinates (latitude, longitude), the Location Recognition API returns a list of entities ranked by their proximity to that location. The URL response contains three components: local business entities near that location (e.g. restaurants, hotels, office buildings, transit stations, etc.), natural points of interest near that location (e.g. beaches, valleys, etc.), and a reverse geocoded address of that location. See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a list of supported entity types. You can specify the type of entities you want to receive by setting the `includeEntityTypes` parameter in the URL.
 
+# UX TEST - Using Tabs
+
 ## URL Template
 
 **Get a list of entities at a specific location.**
 
+# [Virtual Earth](#tab/tabid-1) 
+
 ```url
-https://dev.virtualearth.net/REST/v1/LocationRecog/<point>?radius=<search_radius>&top=<number_of_results>&datetime=<visit_date_time>&distanceunit=<dist_unit>&verboseplacenames=<true_or_false>&includeEntityTypes=<list_of_entity_types>&output=<json_or_XML>&key=<BingMapsKey>
+https://dev.virtualearth.net/REST/v1/LocationRecog/{point}?radius={search_radius}&top={number_of_results}&datetime={visit_date_time}&distanceunit={dist_unit}&verboseplacenames={true_or_false}&includeEntityTypes={list_of_entity_types}&output={json_or_XML}&key={BingMapsKey}
 ```
+
+#[Bing Maps Azure](#tab/tabid-2)
+
+```url
+{AZURE Endpoint}/LocationRecog/{point}?radius={search_radius}&top={number_of_results}&datetime={visit_date_time}&distanceunit={dist_unit}&verboseplacenames={true_or_false}&includeEntityTypes={list_of_entity_types}&output={json_or_XML}&key={BingMapsKey}
+```
+
+***
+
+# UX Text - Using Separate Markdown files
+
+> [!NOTE]
+> This is just an example -- both links below redirect to this page.
+
+> [!div class="op_single_selector"]
+> - [Virtual Earch](#)
+> - [Bing Maps Azure](#)
+
+
+
 
 > [!NOTE]
 >- This template supports both HTTP and HTTPS protocols
