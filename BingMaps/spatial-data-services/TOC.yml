@@ -1,4 +1,4 @@
--name: "Spatial Data Services"
+- name: "Spatial Data Services"
   href: index.md
   maintainContext: true
   items:
