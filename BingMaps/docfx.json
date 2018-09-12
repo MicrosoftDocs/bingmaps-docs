@@ -28,7 +28,8 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**"
+          "_themes.pdf/**",
+          "msdn-migration/**"
         ]
       }
     ],
