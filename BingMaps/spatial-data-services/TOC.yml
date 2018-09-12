@@ -1,0 +1,130 @@
+-name: "Spatial Data Services"
+  href: index.md
+  maintainContext: true
+  items:
+    - name: "Getting Started"
+      href: getting-started-with-the-spatial-data-services.md
+    - name: "What's New"
+      href: whats-new-in-bing-spatial-data-services.md
+    - name: "Public Data Sources"
+      href: index.md
+      maintainContext: true
+      items:
+        - name: "FourthCoffeeSample Data Source"
+          href: public-data-sources/fourthcoffeesample.md
+        - name: "NAVTEQNA Data Source"
+          href: public-data-sources/navteqna.md
+        - name: "NAVTEQEU Data Source"
+          href: public-data-sources/navteqeu.md
+        - name: "Traffic Incident Data Source"
+          href: public-data-sources/traffic-incident-data-source.md
+        - name: "2010 US Census Data Sources"
+          href: public-data-sources/2010-us-census-data-sources.md
+        - name: "POI Entity Types"
+          href: public-data-sources/poi-entity-types.md
+    - name: "Status Codes and Error Handling"
+      href: status-codes-and-error-handling.md
+    - name: "Get Job List"
+      href: get-job-list.md
+    - name: "Geocode and Data Source Limits"
+      href: geocode-and-data-source-limits.md
+    - name: "Geocode Dataflow API"
+      href: geocode-dataflow-api/index.md
+      maintainContext: true
+      items:
+        - name: "Create Job"
+          href: geocode-dataflow-api/create-a-geocode-job-and-upload-data.md
+        - name: "Get Job Status"
+          href: geocode-dataflow-api/get-status-of-a-geocode-job.md
+        - name: "Download Results"
+          href: geocode-dataflow-api/download-geocode-job-results.md
+        - name: "Response Data"
+          href: geocode-dataflow-api/geocode-dataflow-response-description.md
+        - name: "Walkthrough"
+          href: geocode-dataflow-api/geocode-dataflow-walkthrough.md
+        - name: "Sample Code"
+          href: geocode-dataflow-api/geocode-dataflow-sample-code.md
+        - name: "Data Schema v1.0"
+          href: geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md
+        - name: "Data Schema  v2.0"
+          href: geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md
+        - name: "Sample Input and Output v1.0"
+          href: geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-1-0.md
+        - name: "Sample Input and Output v2.0"
+          href: geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md
+    - name: "Data Source Management API"
+      href: data-source-management-api/index.md
+      maintainContext: true
+      items:
+        - name: "Load Data Source Dataflow"
+          href: data-source-management-api/load-data-source-dataflow/index.md
+          maintainContext: true
+          items:
+            - name: "Create a Load Data Source Job"
+              href: data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+            - name: "Get Load Data Source Status"
+              href: data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+            - name: "Publish a Staged Data Source"
+              href: data-source-management-api/load-data-source-dataflow/publish-a-staged-data-source.md
+            - name: "Response Data"
+              href: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md
+            - name: "Data Schema and Sample Input"
+              href: data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+            - name: "Geography Types"
+              href: data-source-management-api/load-data-source-dataflow/geography-types.md
+            - name: "Helpful Tips for Entity Data"
+              href: data-source-management-api/load-data-source-dataflow/helpful-tips-for-entity-data.md
+            - name: "C# Sample Code"
+              href: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-sample-code-csharp.md
+            - name: "VB Sample Code"
+              href: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-sample-code-vb.md
+        - name: "Get Data Source Information"
+          href: data-source-management-api/get-data-source-information.md
+        - name: "Download a Data Source Dataflow"
+          href: data-source-management-api/download-data-source-dataflow/index.md
+          maintainContext: true
+          items:
+            - name: "Create a Download Job"
+              href: data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+            - name: "Get Download Data Source Job Status"
+              href: data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md
+            - name: "Get Downloaded Data"
+              href: data-source-management-api/download-data-source-dataflow/get-downloaded-data.md
+            - name: "Walkthrough"
+              href: data-source-management-api/download-data-source-dataflow/download-data-source-walkthrough.md
+            - name: "Response Data"
+              href: data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
+        - name: "Make a Data Source Public"
+          href: data-source-management-api/make-a-data-source-public.md
+        - name: "Get All Public Data Sources"
+          href: data-source-management-api/get-all-public-data-sources.md
+        - name: Rollback a Data Source Dataflow
+          href: data-source-management-api/rollback-data-source-dataflow.md
+        - name: "Delete a Data Source"
+          href: data-source-management-api/delete-data-source.md
+    - name: "Query API"
+      href: query-api/index.md
+      maintainContext: true
+      items:
+        - name: "Query by Area"
+          href: query-api/query-by-area.md
+        - name: "Query Near a Route"
+          href: query-api/query-near-route.md
+        - name: "Query by Property"
+          href: query-api/query-by-property.md
+        - name: "Query by ID"
+          href: query-api/query-by-id.md
+        - name: "Query Options"
+          href: query-api/query-options.md
+        - name: "Response Data"
+          href: query-api/query-response-description.md
+        - name: "C# Sample Code"
+          href: query-api/query-api-sample-code-csharp.md
+        - name: "VB Sample Code"
+          href: query-api/query-api-sample-code-vb.md
+    - name: "Geodata API"
+      href: geodata-api.md
+    - name: "Release History"
+      href: release-history.md
+    - name: "Developer Resources"
+      href: developer-resources.md

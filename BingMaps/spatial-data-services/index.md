@@ -33,7 +33,7 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
 |||  
 |-|-|  
 |[Getting Started](../spatial-data-services/getting-started-with-the-spatial-data-services.md)|Provides information to help you get started with the Bing Spatial Data Services.|  
-|[What's New](../spatial-data-services/what-s-new-in-bing-spatial-data-services.md)|Outlines the latest features added to the Bing Spatial Data Services.|  
+|[What's New](../spatial-data-services/whats-new-in-bing-spatial-data-services.md)|Outlines the latest features added to the Bing Spatial Data Services.|  
 |[Public Data Sources](../spatial-data-services/public-data-sources.md)|Includes descriptions of public data sources that you can query.|  
 |[Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md)|Describes the HTTP errors that can occur when you use the Bing Spatial Data Services APIs.|  
 |[Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)|Defines limits on the total number of dataflow and data source jobs, such as the number of jobs that can be in process at the same time.|  
