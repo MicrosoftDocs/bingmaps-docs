@@ -12,7 +12,10 @@ def parse_msg(msg):
     objs = re.match(r'Invalid file link:\(\~\/([-\w]+)\/([-\w]+\/)([-\w]+)\.md\).', msg)
     if objs:
         old_link = re.match(r'Invalid file link:\(([\~\/\-\.\w]+)\).', msg).group(1)
-        return objs.group(1), f'{objs.group(3)}.md', old_link
+        '''Assuming OBS resolves invalid links from `..` prefix to folder relative tilde `~`,
+        so we need to change this back -- this assumption may not hold for ALL broken
+        links!'''
+        return objs.group(1), f'{objs.group(3)}.md', old_link.replace('~', '..')
     return None
 
 def check_extension(file_name, ext):
@@ -43,7 +46,7 @@ def get_error_data(df, link_data):
                                 new_link = f'~/{service_dir}/{new_link_file}'
                                 yield ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 continue
-        
+
 
 def update_file(error_object):
     file_name = str(Path(error_object.dest_file).absolute())
@@ -53,6 +56,7 @@ def update_file(error_object):
         file_str.replace(error_object.old_link, error_object.new_link)
     with open(file_name, 'w', encoding='utf8') as f:
         f.write(file_str)
+
 
 '''
 def relink_repo(error_data):
@@ -83,5 +87,5 @@ if __name__=='__main__':
 
     for err_fix in get_error_data(df, yaml_links):
         print(f'\t ---> {err_fix}\n')
-        update_file(err_fix)
+        ## update_file(err_fix)
     
