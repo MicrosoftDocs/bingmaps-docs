@@ -1,0 +1,18 @@
+from pandas import read_csv
+import sys
+
+def get_error_list(csv_data):
+    
+
+
+
+if __name__=='__main__':
+    excel_filename = None
+    if (sys.args) > 1:
+        excel_filename = sys.args[1]
+
+    df = None
+    if excel_filename:
+        df = read_csv(excel_filename, sep=',')
+
+    print(df['Message'])

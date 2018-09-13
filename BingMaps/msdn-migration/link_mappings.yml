@@ -1,0 +1,181 @@
+- path: rest-services
+  links:
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701713.aspx
+      old-docs: index.md
+      new-docs: index.md
+- path: spatial-data-services
+  links:
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701734.aspx
+      old-docs: index.md
+      new-docs: index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701727.aspx
+      old-docs: getting-started-with-the-spatial-data-services.md
+      new-docs: getting-started-with-the-spatial-data-services.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552974.aspx
+      old-docs: what-s-new-in-bing-spatial-data-services.md
+      new-docs: whats-new-in-bing-spatial-data-services.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh478189.aspx
+      old-docs: public-data-sources.md
+      new-docs: public-data-sources/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh478190.aspx
+      old-docs: fourthcoffeesample.md
+      new-docs: public-data-sources/fourthcoffeesample.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh478192.aspx
+      old-docs: navteqna.md
+      new-docs: public-data-sources/navteqna.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh478193.aspx
+      old-docs: navteqeu.md
+      new-docs: public-data-sources/navteqeu.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh563894.aspx
+      old-docs: traffic-incident-data-source.md
+      new-docs: public-data-sources/traffic-incident-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt805047.aspx
+      old-docs: 2010-us-census-data-sources.md
+      new-docs: public-data-sources/2010-us-census-data-sources.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh478191.aspx
+      old-docs: poi-entity-types.md
+      new-docs: public-data-sources/poi-entity-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj835036.aspx
+      old-docs: status-codes-and-error-handling.md
+      new-docs: status-codes-and-error-handling.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585136.aspx
+      old-docs: geocode-and-data-source-limits.md
+      new-docs: geocode-and-data-source-limits.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701733.aspx
+      old-docs: geocode-dataflow-api.md
+      new-docs: geocode-dataflow-api/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701737.aspx
+      old-docs: create-a-geocode-job-and-upload-data.md
+      new-docs:  geocode-dataflow-api/create-a-geocode-job-and-upload-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701728.aspx
+      old-docs: get-status-of-a-geocode-job.md
+      new-docs: geocode-dataflow-api/get-status-of-a-geocode-job.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701735.aspx
+      old-docs: download-geocode-job-results.md
+      new-docs: geocode-dataflow-api/download-geocode-job-results.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj905068.aspx
+      old-docs: get-job-list.md
+      new-docs: get-job-list.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701730.aspx
+      old-docs: geocode-dataflow-response-description.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-response-description.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701731.aspx
+      old-docs: geocode-dataflow-walkthrough.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-walkthrough.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701729.aspx
+      old-docs: geocode-dataflow-sample-code.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-sample-code.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701736.aspx
+      old-docs: geocode-dataflow-data-schema-version-1-0.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj735477.aspx
+      old-docs: geocode-dataflow-data-schema-version-2-0.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701732.aspx
+      old-docs: geocode-dataflow-sample-input-and-output-data-version-1-0.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-1-0.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj735475.aspx
+      old-docs: geocode-dataflow-sample-input-and-output-data-version-2-0.md
+      new-docs: geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585132.aspx
+      old-docs: data-source-management-api.md
+      new-docs: data-source-management-api/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585128.aspx
+      old-docs: load-data-source-dataflow.md
+      new-docs: data-source-management-api/load-data-source-dataflow/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/gg585130.aspx
+      old-docs: create-a-load-data-source-job-and-input-entity-data.md
+      new-docs: data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585135.aspx
+      old-docs: get-load-data-source-status.md
+      new-docs: data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn167662.aspx
+      old-docs: publish-a-staged-data-source.md
+      new-docs: data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585127.aspx
+      old-docs: load-data-source-dataflow-response-description.md
+      new-docs: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md
+    - msdn: https://msdn.microsoft.com/en-US/library/gg585138.aspx
+      old-docs: load-data-source-data-schema-and-sample-input.md
+      new-docs: data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+    - msdn: https://msdn.microsoft.com/en-US/library/dn436149.aspx
+      old-docs: geography-types.md
+      new-docs: data-source-management-api/load-data-source-dataflow/geography-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh463582.aspx
+      old-docs: helpful-tips-for-entity-data.md
+      new-docs: data-source-management-api/load-data-source-dataflow/helpful-tips-for-entity-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh304481.aspx
+      old-docs: load-data-source-dataflow-sample-code-csharp.md
+      new-docs: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-sample-code-csharp.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh304482.aspx
+      old-docs: load-data-source-dataflow-sample-code-vb.md
+      new-docs: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-sample-code-vb.md
+    - msdn: https://msdn.microsoft.com/en-US/library/gg585134.aspx
+      old-docs: get-data-source-information.md
+      new-docs: data-source-management-api/get-data-source-information.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552976.aspx
+      old-docs: download-a-data-source-dataflow.md
+      new-docs: data-source-management-api/download-data-source-dataflow/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552980.aspx
+      old-docs: create-a-download-job.md
+      new-docs: data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552977.aspx
+      old-docs: get-download-data-source-job-status.md
+      new-docs: data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552975.aspx
+      old-docs: get-downloaded-data.md
+      new-docs: data-source-management-api/download-data-source-dataflow/get-downloaded-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552979.aspx
+      old-docs: download-data-source-walkthrough.md
+      new-docs: data-source-management-api/download-data-source-dataflow/download-data-source-walkthrough.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh552978.aspx
+      old-docs: download-data-source-dataflow-response-description.md
+      new-docs: data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj735476.aspx
+      old-docs: make-a-data-source-public.md
+      new-docs: data-source-management-api/make-a-data-source-public.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn387545.aspx
+      old-docs: get-all-public-data-sources.md
+      new-docs: data-source-management-api/get-all-public-data-sources.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn167663.aspx
+      old-docs: rollback-a-data-source-dataflow.md
+      new-docs: data-source-management-api/rollback-data-source-dataflow.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585124.aspx
+      old-docs: delete-a-data-source.md
+      new-docs: data-source-management-api/delete-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585126.aspx
+      old-docs: query-api.md
+      new-docs: query-api/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/gg585133.aspx
+      old-docs: query-by-area.md
+      new-docs: query-api/query-by-area.m
+    - msdn: https://msdn.microsoft.com/en-US/library/hh771572.aspx
+      old-docs: query-near-a-route.md
+      new-docs: query-api/query-near-route.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585125.aspx
+      old-docs: query-by-property.md
+      new-docs: query-api/query-by-property.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585137.aspx
+      old-docs: query-by-id.md
+      new-docs: query-api/query-by-id.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585129.aspx
+      old-docs: query-options.md
+      new-docs: query-api/query-options.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg585123.aspx
+      old-docs: query-response-description.md
+      new-docs: query-api/query-response-description.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh304484.aspx
+      old-docs: query-api-sample-code-csharp.md
+      new-docs: query-api/query-api-sample-code-csharp.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh304483.aspx
+      old-docs: query-api-sample-code-vb.md
+      new-docs: query-api/query-api-sample-code-vb.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn306801.aspx
+      old-docs: geodata-api.md
+      new-docs: geodata-api.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn633473.aspx
+      old-docs: release-history.md
+      new-docs: release-history.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh917285.aspx
+      old-docs: developer-resources.md
+      new-docs: developer-resources.md
