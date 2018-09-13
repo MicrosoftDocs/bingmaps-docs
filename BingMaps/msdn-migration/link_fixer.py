@@ -28,7 +28,7 @@ def get_error_data(df, link_data):
     '''
     error_data = []
 
-    for [file, msg] in df[['File','Message']].values[14:15]:
+    for [file, msg] in df[['File','Message']].values:
         print(f'unparsing: "{file} -- {msg}"\n')
         parse_data = parse_msg(msg)
         if parse_data and check_extension(file, 'md'):
@@ -46,9 +46,12 @@ def get_error_data(df, link_data):
         
 
 def update_file(error_object):
-    with open(str(Path(error_object.dest_file).absolute()), 'w', encoding='utf8') as f:
+    file_name = str(Path(error_object.dest_file).absolute())
+    file_str = None
+    with open(file_name, 'r', encoding='utf8') as f:
         file_str = f.read()
         file_str.replace(error_object.old_link, error_object.new_link)
+    with open(file-name, 'w', encoding='utf8') as f:
         f.write(file_str)
 
 '''
