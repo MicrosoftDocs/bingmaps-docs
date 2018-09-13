@@ -51,7 +51,7 @@ def update_file(error_object):
     with open(file_name, 'r', encoding='utf8') as f:
         file_str = f.read()
         file_str.replace(error_object.old_link, error_object.new_link)
-    with open(file-name, 'w', encoding='utf8') as f:
+    with open(file_name, 'w', encoding='utf8') as f:
         f.write(file_str)
 
 '''
