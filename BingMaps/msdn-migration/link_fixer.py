@@ -23,7 +23,7 @@ def fit_array(array, _max):
             l.append(array[i])
         else:
             l.append(None)
-    return l
+    return l[0:_max-1]
 
 def get_link_depth(dest_link, new_link):
     
@@ -38,9 +38,9 @@ def get_link_depth(dest_link, new_link):
     for x, y in zip(fit_array(dest_glob, size), fit_array(new_glob, size)):
         if x and y:
             c += 1 if (x != y) else 0
-        elif x or y:
+        elif x and not y:
             c += 1
-    return c - 1
+    return c
         
     
 
@@ -71,12 +71,12 @@ def get_error_data(df, link_data):
                             new_link_file = link_dict.get('new-docs')
                             if new_link_file:
                                 depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
-                                rel_path = str.join('/', ['..' for _ in range(depth)]) if depth > 0 else '..'
-                                new_link = f'{rel_path}/{new_link_file}'
+                                rel_path = str.join('/', ['..' for _ in range(depth)]) 
+                                new_link = f'{rel_path}/{new_link_file}' if depth > 0 else new_link_file.split('/')[-1]
                                 
                                 datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 print(datum)
-                                yield datum
+                                #yield datum
                                 continue
                                 # exit(0)
 
