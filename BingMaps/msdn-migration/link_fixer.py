@@ -14,6 +14,37 @@ def parse_msg(msg):
         return objs.group(1), f'{objs.group(3)}.md'
     return None
 
+def fit_array(array, _max):
+    n = len(array)
+    assert(n <= _max)
+    l = []
+    for i in range(_max):
+        if i < n:
+            l.append(array[i])
+        else:
+            l.append(None)
+    return l
+
+def get_link_depth(dest_link, new_link):
+    
+    dest_glob = list(dest_link.split('/'))
+    new_glob = list(new_link.split('/'))
+    n = len(dest_glob)
+    m = len(new_glob)
+
+    size = max(n, m)
+
+    c = 0
+    for x, y in zip(fit_array(dest_glob, size), fit_array(new_glob, size)):
+        if x and y:
+            c += 1 if (x != y) else 0
+        elif x or y:
+            c += 1
+    return c - 1
+        
+    
+
+
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
 
@@ -34,13 +65,20 @@ def get_error_data(df, link_data):
             dest_file = file.replace('BingMaps', '..')
             for service in link_data:
                 if service.get('path') == service_dir:
+                    # same directory
                     for link_dict in service.get('links'):
                         if link_dict['old-docs'] == md_file:
                             new_link_file = link_dict.get('new-docs')
                             if new_link_file:
-                                new_link = f'BingMaps/{service_dir}/{new_link_file}'
-                                yield ErrorData(dest_file, service_dir, md_file, old_link, new_link)
-                                continue
+                                depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
+                                rel_path = str.join('/', ['..' for _ in range(depth)])
+                                new_link = f'{rel_path}/{new_link_file}'
+                                
+                                datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
+                                print(datum)
+                                # yield datum
+                                # continue
+                                exit(0)
 
 
 def update_file(error_object):
