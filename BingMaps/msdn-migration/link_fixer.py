@@ -71,14 +71,14 @@ def get_error_data(df, link_data):
                             new_link_file = link_dict.get('new-docs')
                             if new_link_file:
                                 depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
-                                rel_path = str.join('/', ['..' for _ in range(depth)])
+                                rel_path = str.join('/', ['..' for _ in range(depth)]) if depth > 0 else '..'
                                 new_link = f'{rel_path}/{new_link_file}'
                                 
                                 datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 print(datum)
-                                # yield datum
-                                # continue
-                                exit(0)
+                                yield datum
+                                continue
+                                # exit(0)
 
 
 def update_file(error_object):
