@@ -59,6 +59,13 @@ def get_link_depth(dest_link, new_link):
             index += 1
     return max(0, m - index)
         
+def get_link_service_level_depth(service, dest_link):
+    dest_glob = list(dest_link.split('/'))
+    N = len(dest_glob)
+    for i in range(N-1):
+        if dest_glob[i] == service:
+            return max(0, (N-1) - i)
+
     
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
@@ -95,9 +102,11 @@ def get_error_data(df, link_data):
 
                             if new_link_file:
 
-                                depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
+                                # depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
                                 
-                                rel_path = str.join('/', ['..' for _ in range(depth + 1)]) 
+                                depth = get_link_service_level_depth(service_dir, dest_file)
+
+                                rel_path = str.join('/', ['..' for _ in range(depth)]) 
                                 
                                 new_link = f'{rel_path}/{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
                                 
