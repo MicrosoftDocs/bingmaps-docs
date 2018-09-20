@@ -43,6 +43,7 @@ def fit_array(array, _max):
             l.append(None)
     return l[0:_max-1]
 
+'''
 def get_link_depth(dest_link, new_link):
     dest_glob = list(dest_link.split('/'))
     new_glob = list(new_link.split('/'))
@@ -59,13 +60,25 @@ def get_link_depth(dest_link, new_link):
             index += 1
     return max(0, m - index)
         
-def get_link_service_level_depth(service, dest_link):
+def get_link_service_level_depth(dest_link, service):
     dest_glob = list(dest_link.split('/'))
+    dest_glob.reverse()
     N = len(dest_glob)
-    for i in range(N-1):
-        if dest_glob[i] == service:
-            return max(0, (N-1) - i)
+    for i, l in enumerate(dest_glob):
+        if l == service:
+            return i
+    return N - 1
 
+
+def get_depth(dest_link, service_dir, new_link):
+    dest_glob = list(dest_link.split('/'))
+    new_link_glob = list(new_link.split('/'))
+    index = None
+    if len(new_link_glob) > 1:
+        for sub_dir in new_link_glob:
+            if sub_dir in dest_glob:
+        
+'''
     
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
@@ -104,28 +117,17 @@ def get_error_data(df, link_data):
 
                                 # depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
                                 
-                                depth = get_link_service_level_depth(service_dir, dest_file)
+                                # depth = get_link_service_level_depth(dest_file, service_dir)
 
-                                rel_path = str.join('/', ['..' for _ in range(depth)]) 
+                                # depth = len(new_link_file.split('/')) - 2
+
+                                # rel_path = str.join('/', ['..' for _ in range(depth)]) if depth > 0 else '' 
                                 
-                                new_link = f'{rel_path}/{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
+                                new_link = f'BingMaps/{service_dir}/{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
                                 
                                 datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 print_error_data(datum)
-
-                                dest_dir = Path(dest_file).parent.absolute()
-                                
-                                try: 
-                                    Path(new_link).parent.relative_to(dest_dir)
-
-                                    datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
-                                    print(datum)
-                                    #yield datum
-                                    continue
-                                    # exit(0)
-                                
-                                except ValueError:
-                                    print(f'bad data: {dest_file} -- {new_link}')
+                                yield datum
 
 
 def update_file(error_object):
