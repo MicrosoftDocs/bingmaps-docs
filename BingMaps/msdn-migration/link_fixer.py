@@ -63,17 +63,6 @@ def get_link_depth(dest_link, new_link):
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
 
-# def get_link_data():
-
-
-def test_links(dir, link):
-    old = Path(dir).absolute().resolve().parent
-    print(f'checking: {old} == {str(old) + link}\n')    
-    
-    if old.exists():
-        print('old exists\n')
-        return Path(str(old) + link).exists()
-    return False
     
 def get_error_data(df, link_data):
     '''
@@ -85,7 +74,7 @@ def get_error_data(df, link_data):
     '''
 
     for [file, msg] in df[['File','Message']].values:
-        print(f'unparsing: "{file} -- {msg}"\n')
+        print(f'\nunparsing: "{file} -- {msg}"\n')
         parse_data = parse_msg(msg)
         if parse_data and check_extension(file, 'md'):
             
@@ -115,14 +104,18 @@ def get_error_data(df, link_data):
                                 datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 print_error_data(datum)
 
-                                if test_links(dest_file, new_link):
+                                dest_dir = Path(dest_file).parent.absolute()
+                                
+                                try: 
+                                    Path(new_link).parent.relative_to(dest_dir)
+
                                     datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                     print(datum)
                                     #yield datum
                                     continue
                                     # exit(0)
                                 
-                                else:
+                                except ValueError:
                                     print(f'bad data: {dest_file} -- {new_link}')
 
 
