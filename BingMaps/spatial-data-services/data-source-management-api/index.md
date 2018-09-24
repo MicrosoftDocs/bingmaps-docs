@@ -24,7 +24,7 @@ Use the Data Source Management API to create and manage data sources that store 
 |------------------------|--------------------------------------|------------------------------------|  
 |**Create**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
 |**Update**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
-|**Make Public**|[Make a Data Source Public](../data-source-management-api/make-a-data-source-public.md)|[Available only with the Bing Spatial Data Services.](http://msdn.microsoft.com/en-us/library/dn151784.aspx)|  
+|**Make Public**|[Make a Data Source Public](../data-source-management-api/make-public-data-source.md)|[Available only with the Bing Spatial Data Services.](http://msdn.microsoft.com/en-us/library/dn151784.aspx)|  
 |**Query**|[Query API](../query-api/index.md)|Use Spatial Data Services [Query API](../query-api/index.md)|  
 |**Download**|[Download a Data Source Dataflow](../data-source-management-api/download-data-source-dataflow/index.md)|[Downloading a Data Source](http://msdn.microsoft.com/en-us/library/hh698203)|  
 |**Stage**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
@@ -39,7 +39,7 @@ Use the Data Source Management API to create and manage data sources that store 
 |[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|Create a data source and upload entity data.|  
 |[Get Data Source Information](../data-source-management-api/get-data-source-information.md)|Get information about one or more data sources.|  
 |[Download a Data Source Dataflow](../data-source-management-api/download-data-source-dataflow/index.md)|Download entity data for a published data source.|  
-|[Make a Data Source Public](../data-source-management-api/make-a-data-source-public.md)|Make a data source publicly available or private.|  
+|[Make a Data Source Public](../data-source-management-api/make-public-data-source.md)|Make a data source publicly available or private.|  
 |[Get All Public Data Sources](../data-source-management-api/get-all-public-data-sources.md)|Get all publicly available data sources.|  
 |[Rollback a Data Source Dataflow](../data-source-management-api/rollback-data-source-dataflow.md)|Rollback a data source to a previous version.|  
 |[Delete a Data Source](../data-source-management-api/delete-data-source.md)|Delete a data source.|

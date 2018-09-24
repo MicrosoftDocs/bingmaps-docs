@@ -42,7 +42,7 @@ The [Bing Spatial Data Services](../spatial-data-services/index.md) contains the
   
  You can use the [Geography Types](data-source-management-api/load-data-source-dataflow/geography-types.md) to query for data source entities within a custom area defined by geographical shapes using the “intersects” spatial filter function.  For more information, see [Query by Area](query-api/query-by-area.md). If you want to return the intersection of an entity’s geographical shape with another geographical shape you specify, use the “intersection” function with the $select query option.  
   
- **Get a list of all public data sources.** You can request a list of all publicly available data sources. This includes the [Public Data Sources](public-data-sources/index.md) owned and managed by Microsoft as well as any data source that is made public using the [Make a Data Source Public](../spatial-data-services/make-a-data-source-public.md) API.  
+ **Get a list of all public data sources.** You can request a list of all publicly available data sources. This includes the [Public Data Sources](public-data-sources/index.md) owned and managed by Microsoft as well as any data source that is made public using the [Make a Data Source Public](../spatial-data-services/make-public-data-source.md) API.  
   
  **Search up to 1000 kilometers when you [Query by Area](query-api/query-by-area.md) or [Query by Property](query-api/query-by-property.md). The previous limit was 400 kilometers.** .  
   

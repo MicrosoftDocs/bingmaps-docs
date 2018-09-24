@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Public Data Sources
 The Bing Spatial Data Services provide the following public data sources for your use. You can query these data sources with any Bing Maps Key.  
   
- You can also make any data source associated with your Bing Maps Account public. For more information, see [Make a Data Source Public](../data-source-management-api/make-a-data-source-public.md).  
+ You can also make any data source associated with your Bing Maps Account public. For more information, see [Make a Data Source Public](../data-source-management-api/make-public-data-source.md).  
   
 |Data Source|Description|  
 |-----------------|-----------------|  
