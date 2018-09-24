@@ -18,9 +18,9 @@ Use the following URLs to make your data source publicly accessible or to make i
   
  You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to change the public status of a data source. For more information, see [Making a Data Source Public or Private](http://msdn.microsoft.com/en-us/library/dn151784.aspx).  
   
- A job is created when you change the public status of a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ A job is created when you change the public status of a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
   
- To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../spatial-data-services/get-job-list.md).  
+ To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../get-job-list.md).  
   
 ## Supported HTTP Methods  
  GET  
@@ -133,7 +133,7 @@ http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
