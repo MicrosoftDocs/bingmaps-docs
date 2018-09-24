@@ -153,7 +153,7 @@
       new-docs: data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
     - msdn: https://msdn.microsoft.com/en-us/library/jj735476.aspx
       old-docs: make-a-data-source-public.md
-      new-docs: data-source-management-api/make-a-data-source-public.md
+      new-docs: data-source-management-api/make-public-data-source.md
     - msdn: https://msdn.microsoft.com/en-us/library/dn387545.aspx
       old-docs: get-all-public-data-sources.md
       new-docs: data-source-management-api/get-all-public-data-sources.md

@@ -65,7 +65,7 @@
             - name: "Get Load Data Source Status"
               href: data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
             - name: "Publish a Staged Data Source"
-              href: data-source-management-api/load-data-source-dataflow/publish-a-staged-data-source.md
+              href: data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
             - name: "Response Data"
               href: data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md
             - name: "Data Schema and Sample Input"
@@ -95,7 +95,7 @@
             - name: "Response Data"
               href: data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
         - name: "Make a Data Source Public"
-          href: data-source-management-api/make-a-data-source-public.md
+          href: data-source-management-api/make-public-data-source.md
         - name: "Get All Public Data Sources"
           href: data-source-management-api/get-all-public-data-sources.md
         - name: Rollback a Data Source Dataflow

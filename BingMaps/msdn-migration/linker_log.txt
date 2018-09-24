@@ -5877,3 +5877,2414 @@ unparsing: "BingMaps/rest-services/routes/calculate-a-distance-matrix.md -- Inva
 
 	MSG: Invalid file link:(~/media/distancematrixasynctransactioncalculation2.PNG).
 	OBJ: ['~', 'media', 'distancematrixasynctransactioncalculation2.PNG']
+
+Loading link fixer, usage:
+
+	$> link_fixer {csv_report_file} {yaml_link_file}
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/navteqna.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/navteqna.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/navteqeu.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/index.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/index.md -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+Dest file part: ['..', 'spatial-data-services', 'public-data-sources', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'public-data-sources', 'spatial-data-services', '..'], looking for spatial-data-services: 1
+Error Data:    
+	destination file:	../spatial-data-services/public-data-sources/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/public-data-sources/index.md', service_dir='spatial-data-services', md_file='make-a-data-source-public.md', old_link='../spatial-data-services/make-a-data-source-public.md', new_link='../data-source-management-api/make-public-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/public-data-sources/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/data-source-management-api/get-all-public-data-sources.md -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+Dest file part: ['..', 'spatial-data-services', 'data-source-management-api', 'get-all-public-data-sources.md']
+new dest md filename: get-all-public-data-sources.md
+depth for ['get-all-public-data-sources.md', 'data-source-management-api', 'spatial-data-services', '..'], looking for spatial-data-services: 1
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/get-all-public-data-sources.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/data-source-management-api/get-all-public-data-sources.md', service_dir='spatial-data-services', md_file='make-a-data-source-public.md', old_link='../spatial-data-services/make-a-data-source-public.md', new_link='../data-source-management-api/make-public-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/get-all-public-data-sources.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/query-api/query-by-property.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/query-api/query-by-id.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/traffic-incident-data-source.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/traffic-incident-data-source.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md -- Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md).
+	OBJ: ['~', 'spatial-data-services', 'rest-services', 'common-parameters-and-types', 'location-and-area-types.md']
+
+unparsing: "BingMaps/spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md -- Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md).
+	OBJ: ['~', 'spatial-data-services', 'rest-services', 'common-parameters-and-types', 'location-and-area-types.md']
+
+unparsing: "BingMaps/spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md -- Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md).
+	OBJ: ['~', 'spatial-data-services', 'rest-services', 'common-parameters-and-types', 'location-and-area-types.md']
+
+unparsing: "BingMaps/spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md -- Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md).
+	OBJ: ['~', 'spatial-data-services', 'rest-services', 'common-parameters-and-types', 'location-and-area-types.md']
+
+unparsing: "BingMaps/spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md -- Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rest-services/common-parameters-and-types/location-and-area-types.md).
+	OBJ: ['~', 'spatial-data-services', 'rest-services', 'common-parameters-and-types', 'location-and-area-types.md']
+
+unparsing: "BingMaps/spatial-data-services/query-api/query-options.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/query-api/query-near-route.md -- Invalid file link:(~/spatial-data-services/query-api/query-by-area.m)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api/query-by-area.m).
+	OBJ: ['~', 'spatial-data-services', 'query-api', 'query-by-area.m']
+
+unparsing: "BingMaps/spatial-data-services/data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+Dest file part: ['..', 'spatial-data-services', 'data-source-management-api', 'load-data-source-dataflow', 'create-a-load-data-source-job-and-input-entity-data.md']
+new dest md filename: create-a-load-data-source-job-and-input-entity-data.md
+depth for ['create-a-load-data-source-job-and-input-entity-data.md', 'load-data-source-dataflow', 'data-source-management-api', 'spatial-data-services', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../../data-source-management-api/make-public-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md', service_dir='spatial-data-services', md_file='make-a-data-source-public.md', old_link='../spatial-data-services/make-a-data-source-public.md', new_link='../../data-source-management-api/make-public-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../../data-source-management-api/make-public-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/data-source-management-api/index.md -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+Dest file part: ['..', 'spatial-data-services', 'data-source-management-api', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'data-source-management-api', 'spatial-data-services', '..'], looking for spatial-data-services: 1
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/data-source-management-api/index.md', service_dir='spatial-data-services', md_file='make-a-data-source-public.md', old_link='../spatial-data-services/make-a-data-source-public.md', new_link='../data-source-management-api/make-public-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/data-source-management-api/index.md -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+Dest file part: ['..', 'spatial-data-services', 'data-source-management-api', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'data-source-management-api', 'spatial-data-services', '..'], looking for spatial-data-services: 1
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/data-source-management-api/index.md', service_dir='spatial-data-services', md_file='make-a-data-source-public.md', old_link='../spatial-data-services/make-a-data-source-public.md', new_link='../data-source-management-api/make-public-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/data-source-management-api/index.md    
+	service dir:		spatial-data-services    
+	md file:		make-a-data-source-public.md    
+	old link:		../spatial-data-services/make-a-data-source-public.md    
+	new link:		../data-source-management-api/make-public-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/TOC.yml -- Invalid file link:(~/spatial-data-services/data-source-management-api/load-data-source-dataflow/publish-a-staged-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/load-data-source-dataflow/publish-a-staged-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'load-data-source-dataflow', 'publish-a-staged-data-source.md']
+
+unparsing: "BingMaps/spatial-data-services/TOC.yml -- Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api/make-a-data-source-public.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api', 'make-a-data-source-public.md']
+
+unparsing: "BingMaps/articles/accessing-the-bing-spatial-data-services-using-php.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-data-schema-version-1-0.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-data-schema-version-1-0.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-data-schema-version-1-0.md']
+Dest file part: ['..', 'articles', 'accessing-the-bing-spatial-data-services-using-php.md']
+new dest md filename: accessing-the-bing-spatial-data-services-using-php.md
+depth for ['accessing-the-bing-spatial-data-services-using-php.md', 'articles', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../articles/accessing-the-bing-spatial-data-services-using-php.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-data-schema-version-1-0.md    
+	old link:		../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md
+
+	 ---> ErrorData(dest_file='../articles/accessing-the-bing-spatial-data-services-using-php.md', service_dir='spatial-data-services', md_file='geocode-dataflow-data-schema-version-1-0.md', old_link='../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md', new_link='../../geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md')
+Error Data:    
+	destination file:	../articles/accessing-the-bing-spatial-data-services-using-php.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-data-schema-version-1-0.md    
+	old link:		../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md
+
+Changed file "../articles/accessing-the-bing-spatial-data-services-using-php.md":
+	"../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md"
+	--> "../../geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md"
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/rollback-a-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rollback-a-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'rollback-a-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		rollback-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/rollback-a-data-source-dataflow.md    
+	new link:		data-source-management-api/rollback-data-source-dataflow.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='rollback-a-data-source-dataflow.md', old_link='../spatial-data-services/rollback-a-data-source-dataflow.md', new_link='data-source-management-api/rollback-data-source-dataflow.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		rollback-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/rollback-a-data-source-dataflow.md    
+	new link:		data-source-management-api/rollback-data-source-dataflow.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/navteqeu.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/navteqeu.md).
+	OBJ: ['~', 'spatial-data-services', 'navteqeu.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		navteqeu.md    
+	old link:		../spatial-data-services/navteqeu.md    
+	new link:		public-data-sources/navteqeu.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='navteqeu.md', old_link='../spatial-data-services/navteqeu.md', new_link='public-data-sources/navteqeu.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		navteqeu.md    
+	old link:		../spatial-data-services/navteqeu.md    
+	new link:		public-data-sources/navteqeu.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/delete-a-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/delete-a-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'delete-a-data-source.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		data-source-management-api/delete-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='delete-a-data-source.md', old_link='../spatial-data-services/delete-a-data-source.md', new_link='data-source-management-api/delete-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		data-source-management-api/delete-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-walkthrough.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-walkthrough.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-walkthrough.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-walkthrough.md    
+	old link:		../spatial-data-services/geocode-dataflow-walkthrough.md    
+	new link:		geocode-dataflow-api/geocode-dataflow-walkthrough.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='geocode-dataflow-walkthrough.md', old_link='../spatial-data-services/geocode-dataflow-walkthrough.md', new_link='geocode-dataflow-api/geocode-dataflow-walkthrough.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-walkthrough.md    
+	old link:		../spatial-data-services/geocode-dataflow-walkthrough.md    
+	new link:		geocode-dataflow-api/geocode-dataflow-walkthrough.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'load-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='load-data-source-dataflow.md', old_link='../spatial-data-services/load-data-source-dataflow.md', new_link='data-source-management-api/load-data-source-dataflow/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'load-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='load-data-source-dataflow.md', old_link='../spatial-data-services/load-data-source-dataflow.md', new_link='data-source-management-api/load-data-source-dataflow/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/load-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'load-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='load-data-source-dataflow.md', old_link='../spatial-data-services/load-data-source-dataflow.md', new_link='data-source-management-api/load-data-source-dataflow/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-dataflow.md    
+	old link:		../spatial-data-services/load-data-source-dataflow.md    
+	new link:		data-source-management-api/load-data-source-dataflow/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/download-a-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/download-a-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'download-a-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		download-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/download-a-data-source-dataflow.md    
+	new link:		data-source-management-api/download-data-source-dataflow/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='download-a-data-source-dataflow.md', old_link='../spatial-data-services/download-a-data-source-dataflow.md', new_link='data-source-management-api/download-data-source-dataflow/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		download-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/download-a-data-source-dataflow.md    
+	new link:		data-source-management-api/download-data-source-dataflow/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/publish-a-staged-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/publish-a-staged-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'publish-a-staged-data-source.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		publish-a-staged-data-source.md    
+	old link:		../spatial-data-services/publish-a-staged-data-source.md    
+	new link:		data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='publish-a-staged-data-source.md', old_link='../spatial-data-services/publish-a-staged-data-source.md', new_link='data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		publish-a-staged-data-source.md    
+	old link:		../spatial-data-services/publish-a-staged-data-source.md    
+	new link:		data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/traffic-incident-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/traffic-incident-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'traffic-incident-data-source.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		traffic-incident-data-source.md    
+	old link:		../spatial-data-services/traffic-incident-data-source.md    
+	new link:		public-data-sources/traffic-incident-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='traffic-incident-data-source.md', old_link='../spatial-data-services/traffic-incident-data-source.md', new_link='public-data-sources/traffic-incident-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		traffic-incident-data-source.md    
+	old link:		../spatial-data-services/traffic-incident-data-source.md    
+	new link:		public-data-sources/traffic-incident-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/fourthcoffeesample.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/fourthcoffeesample.md).
+	OBJ: ['~', 'spatial-data-services', 'fourthcoffeesample.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		fourthcoffeesample.md    
+	old link:		../spatial-data-services/fourthcoffeesample.md    
+	new link:		public-data-sources/fourthcoffeesample.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='fourthcoffeesample.md', old_link='../spatial-data-services/fourthcoffeesample.md', new_link='public-data-sources/fourthcoffeesample.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		fourthcoffeesample.md    
+	old link:		../spatial-data-services/fourthcoffeesample.md    
+	new link:		public-data-sources/fourthcoffeesample.md
+
+
+unparsing: "BingMaps/spatial-data-services/getting-started-with-the-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/navteqna.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/navteqna.md).
+	OBJ: ['~', 'spatial-data-services', 'navteqna.md']
+Dest file part: ['..', 'spatial-data-services', 'getting-started-with-the-spatial-data-services.md']
+new dest md filename: getting-started-with-the-spatial-data-services.md
+depth for ['getting-started-with-the-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		public-data-sources/navteqna.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/getting-started-with-the-spatial-data-services.md', service_dir='spatial-data-services', md_file='navteqna.md', old_link='../spatial-data-services/navteqna.md', new_link='public-data-sources/navteqna.md')
+Error Data:    
+	destination file:	../spatial-data-services/getting-started-with-the-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		public-data-sources/navteqna.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/public-data-sources.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/public-data-sources.md).
+	OBJ: ['~', 'spatial-data-services', 'public-data-sources.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		public-data-sources.md    
+	old link:		../spatial-data-services/public-data-sources.md    
+	new link:		public-data-sources/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='public-data-sources.md', old_link='../spatial-data-services/public-data-sources.md', new_link='public-data-sources/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		public-data-sources.md    
+	old link:		../spatial-data-services/public-data-sources.md    
+	new link:		public-data-sources/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/index.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'index.md']
+new dest md filename: index.md
+depth for ['index.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/index.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/index.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/v8-web-control/spatial-data-service-module.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'spatial-data-service-module.md']
+new dest md filename: spatial-data-service-module.md
+depth for ['spatial-data-service-module.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-service-module.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/spatial-data-service-module.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-service-module.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+Changed file "../v8-web-control/spatial-data-service-module.md":
+	"../spatial-data-services/query-api.md"
+	--> "../../query-api/index.md"
+
+unparsing: "BingMaps/v8-web-control/spatial-data-service-module.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'spatial-data-service-module.md']
+new dest md filename: spatial-data-service-module.md
+depth for ['spatial-data-service-module.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-service-module.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/spatial-data-service-module.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-service-module.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+
+unparsing: "BingMaps/v8-web-control/spatial-data-services-module-examples.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'spatial-data-services-module-examples.md']
+new dest md filename: spatial-data-services-module-examples.md
+depth for ['spatial-data-services-module-examples.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-services-module-examples.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/spatial-data-services-module-examples.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-services-module-examples.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+Changed file "../v8-web-control/spatial-data-services-module-examples.md":
+	"../spatial-data-services/query-api.md"
+	--> "../../query-api/index.md"
+
+unparsing: "BingMaps/v8-web-control/spatial-data-services-module-examples.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'spatial-data-services-module-examples.md']
+new dest md filename: spatial-data-services-module-examples.md
+depth for ['spatial-data-services-module-examples.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-services-module-examples.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/spatial-data-services-module-examples.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/spatial-data-services-module-examples.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+
+unparsing: "BingMaps/getting-started/getting-data-source-information.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'getting-started', 'getting-data-source-information.md']
+new dest md filename: getting-data-source-information.md
+depth for ['getting-data-source-information.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/getting-data-source-information.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		../../data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../getting-started/getting-data-source-information.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='../../data-source-management-api/index.md')
+Error Data:    
+	destination file:	../getting-started/getting-data-source-information.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		../../data-source-management-api/index.md
+
+Changed file "../getting-started/getting-data-source-information.md":
+	"../spatial-data-services/data-source-management-api.md"
+	--> "../../data-source-management-api/index.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-load-data-source-status.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-load-data-source-status.md).
+	OBJ: ['~', 'spatial-data-services', 'get-load-data-source-status.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-load-data-source-status.md    
+	old link:		../spatial-data-services/get-load-data-source-status.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-load-data-source-status.md', old_link='../spatial-data-services/get-load-data-source-status.md', new_link='../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-load-data-source-status.md    
+	old link:		../spatial-data-services/get-load-data-source-status.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/get-load-data-source-status.md"
+	--> "../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-load-data-source-status.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-load-data-source-status.md).
+	OBJ: ['~', 'spatial-data-services', 'get-load-data-source-status.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-load-data-source-status.md    
+	old link:		../spatial-data-services/get-load-data-source-status.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-load-data-source-status.md', old_link='../spatial-data-services/get-load-data-source-status.md', new_link='../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-load-data-source-status.md    
+	old link:		../spatial-data-services/get-load-data-source-status.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md
+
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/download-geocode-job-results.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/download-geocode-job-results.md).
+	OBJ: ['~', 'spatial-data-services', 'download-geocode-job-results.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		download-geocode-job-results.md    
+	old link:		../spatial-data-services/download-geocode-job-results.md    
+	new link:		../../geocode-dataflow-api/download-geocode-job-results.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='download-geocode-job-results.md', old_link='../spatial-data-services/download-geocode-job-results.md', new_link='../../geocode-dataflow-api/download-geocode-job-results.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		download-geocode-job-results.md    
+	old link:		../spatial-data-services/download-geocode-job-results.md    
+	new link:		../../geocode-dataflow-api/download-geocode-job-results.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/download-geocode-job-results.md"
+	--> "../../geocode-dataflow-api/download-geocode-job-results.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		../../query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='../../query-api/query-by-area.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		../../query-api/query-by-area.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/query-by-area.md"
+	--> "../../query-api/query-by-area.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/delete-a-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/delete-a-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'delete-a-data-source.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		../../data-source-management-api/delete-data-source.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='delete-a-data-source.md', old_link='../spatial-data-services/delete-a-data-source.md', new_link='../../data-source-management-api/delete-data-source.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		../../data-source-management-api/delete-data-source.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/delete-a-data-source.md"
+	--> "../../data-source-management-api/delete-data-source.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/query-api.md"
+	--> "../../query-api/index.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-downloaded-data.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-downloaded-data.md).
+	OBJ: ['~', 'spatial-data-services', 'get-downloaded-data.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-downloaded-data.md    
+	old link:		../spatial-data-services/get-downloaded-data.md    
+	new link:		../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-downloaded-data.md', old_link='../spatial-data-services/get-downloaded-data.md', new_link='../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-downloaded-data.md    
+	old link:		../spatial-data-services/get-downloaded-data.md    
+	new link:		../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/get-downloaded-data.md"
+	--> "../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-status-of-a-geocode-job.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-status-of-a-geocode-job.md).
+	OBJ: ['~', 'spatial-data-services', 'get-status-of-a-geocode-job.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-status-of-a-geocode-job.md    
+	old link:		../spatial-data-services/get-status-of-a-geocode-job.md    
+	new link:		../../geocode-dataflow-api/get-status-of-a-geocode-job.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-status-of-a-geocode-job.md', old_link='../spatial-data-services/get-status-of-a-geocode-job.md', new_link='../../geocode-dataflow-api/get-status-of-a-geocode-job.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-status-of-a-geocode-job.md    
+	old link:		../spatial-data-services/get-status-of-a-geocode-job.md    
+	new link:		../../geocode-dataflow-api/get-status-of-a-geocode-job.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/get-status-of-a-geocode-job.md"
+	--> "../../geocode-dataflow-api/get-status-of-a-geocode-job.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='../../data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/get-data-source-information.md"
+	--> "../../data-source-management-api/get-data-source-information.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='../../data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='../../data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='../../data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		../../data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/create-a-download-job.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/create-a-download-job.md).
+	OBJ: ['~', 'spatial-data-services', 'create-a-download-job.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-download-job.md    
+	old link:		../spatial-data-services/create-a-download-job.md    
+	new link:		../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='create-a-download-job.md', old_link='../spatial-data-services/create-a-download-job.md', new_link='../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-download-job.md    
+	old link:		../spatial-data-services/create-a-download-job.md    
+	new link:		../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/create-a-download-job.md"
+	--> "../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md"
+
+unparsing: "BingMaps/getting-started/understanding-bing-maps-transactions.md -- Invalid file link:(~/spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).
+	OBJ: ['~', 'spatial-data-services', 'create-a-load-data-source-job-and-input-entity-data.md']
+Dest file part: ['..', 'getting-started', 'understanding-bing-maps-transactions.md']
+new dest md filename: understanding-bing-maps-transactions.md
+depth for ['understanding-bing-maps-transactions.md', 'getting-started', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-load-data-source-job-and-input-entity-data.md    
+	old link:		../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+
+	 ---> ErrorData(dest_file='../getting-started/understanding-bing-maps-transactions.md', service_dir='spatial-data-services', md_file='create-a-load-data-source-job-and-input-entity-data.md', old_link='../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md', new_link='../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md')
+Error Data:    
+	destination file:	../getting-started/understanding-bing-maps-transactions.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-load-data-source-job-and-input-entity-data.md    
+	old link:		../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md    
+	new link:		../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+
+Changed file "../getting-started/understanding-bing-maps-transactions.md":
+	"../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md"
+	--> "../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md"
+
+unparsing: "BingMaps/articles/geocoding-japanese-addresses.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'articles', 'geocoding-japanese-addresses.md']
+new dest md filename: geocoding-japanese-addresses.md
+depth for ['geocoding-japanese-addresses.md', 'articles', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		../../geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../articles/geocoding-japanese-addresses.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='../../geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		../../geocode-dataflow-api/index.md
+
+Changed file "../articles/geocoding-japanese-addresses.md":
+	"../spatial-data-services/geocode-dataflow-api.md"
+	--> "../../geocode-dataflow-api/index.md"
+
+unparsing: "BingMaps/articles/geocoding-japanese-addresses.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'articles', 'geocoding-japanese-addresses.md']
+new dest md filename: geocoding-japanese-addresses.md
+depth for ['geocoding-japanese-addresses.md', 'articles', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		../../geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../articles/geocoding-japanese-addresses.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='../../geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		../../geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/articles/geocoding-japanese-addresses.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-walkthrough.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-walkthrough.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-walkthrough.md']
+Dest file part: ['..', 'articles', 'geocoding-japanese-addresses.md']
+new dest md filename: geocoding-japanese-addresses.md
+depth for ['geocoding-japanese-addresses.md', 'articles', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-walkthrough.md    
+	old link:		../spatial-data-services/geocode-dataflow-walkthrough.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-walkthrough.md
+
+	 ---> ErrorData(dest_file='../articles/geocoding-japanese-addresses.md', service_dir='spatial-data-services', md_file='geocode-dataflow-walkthrough.md', old_link='../spatial-data-services/geocode-dataflow-walkthrough.md', new_link='../../geocode-dataflow-api/geocode-dataflow-walkthrough.md')
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-walkthrough.md    
+	old link:		../spatial-data-services/geocode-dataflow-walkthrough.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-walkthrough.md
+
+Changed file "../articles/geocoding-japanese-addresses.md":
+	"../spatial-data-services/geocode-dataflow-walkthrough.md"
+	--> "../../geocode-dataflow-api/geocode-dataflow-walkthrough.md"
+
+unparsing: "BingMaps/articles/geocoding-japanese-addresses.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-data-schema-version-2-0.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-data-schema-version-2-0.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-data-schema-version-2-0.md']
+Dest file part: ['..', 'articles', 'geocoding-japanese-addresses.md']
+new dest md filename: geocoding-japanese-addresses.md
+depth for ['geocoding-japanese-addresses.md', 'articles', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-data-schema-version-2-0.md    
+	old link:		../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md
+
+	 ---> ErrorData(dest_file='../articles/geocoding-japanese-addresses.md', service_dir='spatial-data-services', md_file='geocode-dataflow-data-schema-version-2-0.md', old_link='../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md', new_link='../../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md')
+Error Data:    
+	destination file:	../articles/geocoding-japanese-addresses.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-data-schema-version-2-0.md    
+	old link:		../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md    
+	new link:		../../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md
+
+Changed file "../articles/geocoding-japanese-addresses.md":
+	"../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md"
+	--> "../../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md"
+
+unparsing: "BingMaps/v8-web-control/query-api.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'query-api.md']
+new dest md filename: index.md
+depth for ['index.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/index.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/index.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+
+unparsing: "BingMaps/v8-web-control/queryapimanager-class.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'v8-web-control', 'queryapimanager-class.md']
+new dest md filename: queryapimanager-class.md
+depth for ['queryapimanager-class.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/queryapimanager-class.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/queryapimanager-class.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='../../query-api/index.md')
+Error Data:    
+	destination file:	../v8-web-control/queryapimanager-class.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		../../query-api/index.md
+
+Changed file "../v8-web-control/queryapimanager-class.md":
+	"../spatial-data-services/query-api.md"
+	--> "../../query-api/index.md"
+
+unparsing: "BingMaps/v8-web-control/what-s-new.md -- Invalid file link:(~/spatial-data-services/2010-us-census-data-sources.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/2010-us-census-data-sources.md).
+	OBJ: ['~', 'spatial-data-services', '2010-us-census-data-sources.md']
+Dest file part: ['..', 'v8-web-control', 'what-s-new.md']
+new dest md filename: what-s-new.md
+depth for ['what-s-new.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/what-s-new.md    
+	service dir:		spatial-data-services    
+	md file:		2010-us-census-data-sources.md    
+	old link:		../spatial-data-services/2010-us-census-data-sources.md    
+	new link:		../../public-data-sources/2010-us-census-data-sources.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/what-s-new.md', service_dir='spatial-data-services', md_file='2010-us-census-data-sources.md', old_link='../spatial-data-services/2010-us-census-data-sources.md', new_link='../../public-data-sources/2010-us-census-data-sources.md')
+Error Data:    
+	destination file:	../v8-web-control/what-s-new.md    
+	service dir:		spatial-data-services    
+	md file:		2010-us-census-data-sources.md    
+	old link:		../spatial-data-services/2010-us-census-data-sources.md    
+	new link:		../../public-data-sources/2010-us-census-data-sources.md
+
+Changed file "../v8-web-control/what-s-new.md":
+	"../spatial-data-services/2010-us-census-data-sources.md"
+	--> "../../public-data-sources/2010-us-census-data-sources.md"
+
+unparsing: "BingMaps/spatial-data-services/make-a-data-source-public.md -- Invalid file link:(~/spatial-data-services/download-data-source-dataflow-response-description.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/download-data-source-dataflow-response-description.md).
+	OBJ: ['~', 'spatial-data-services', 'download-data-source-dataflow-response-description.md']
+Dest file part: ['..', 'spatial-data-services', 'make-a-data-source-public.md']
+new dest md filename: make-public-data-source.md
+depth for ['make-public-data-source.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/make-public-data-source.md    
+	service dir:		spatial-data-services    
+	md file:		download-data-source-dataflow-response-description.md    
+	old link:		../spatial-data-services/download-data-source-dataflow-response-description.md    
+	new link:		data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/make-public-data-source.md', service_dir='spatial-data-services', md_file='download-data-source-dataflow-response-description.md', old_link='../spatial-data-services/download-data-source-dataflow-response-description.md', new_link='data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md')
+Error Data:    
+	destination file:	../spatial-data-services/make-public-data-source.md    
+	service dir:		spatial-data-services    
+	md file:		download-data-source-dataflow-response-description.md    
+	old link:		../spatial-data-services/download-data-source-dataflow-response-description.md    
+	new link:		data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md
+
+
+unparsing: "BingMaps/spatial-data-services/make-a-data-source-public.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'spatial-data-services', 'make-a-data-source-public.md']
+new dest md filename: make-public-data-source.md
+depth for ['make-public-data-source.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/make-public-data-source.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/make-public-data-source.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../spatial-data-services/make-public-data-source.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/rollback-a-data-source-dataflow.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/rollback-a-data-source-dataflow.md).
+	OBJ: ['~', 'spatial-data-services', 'rollback-a-data-source-dataflow.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		rollback-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/rollback-a-data-source-dataflow.md    
+	new link:		data-source-management-api/rollback-data-source-dataflow.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='rollback-a-data-source-dataflow.md', old_link='../spatial-data-services/rollback-a-data-source-dataflow.md', new_link='data-source-management-api/rollback-data-source-dataflow.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		rollback-a-data-source-dataflow.md    
+	old link:		../spatial-data-services/rollback-a-data-source-dataflow.md    
+	new link:		data-source-management-api/rollback-data-source-dataflow.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/load-data-source-data-schema-and-sample-input.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/load-data-source-data-schema-and-sample-input.md).
+	OBJ: ['~', 'spatial-data-services', 'load-data-source-data-schema-and-sample-input.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-data-schema-and-sample-input.md    
+	old link:		../spatial-data-services/load-data-source-data-schema-and-sample-input.md    
+	new link:		data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='load-data-source-data-schema-and-sample-input.md', old_link='../spatial-data-services/load-data-source-data-schema-and-sample-input.md', new_link='data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-data-schema-and-sample-input.md    
+	old link:		../spatial-data-services/load-data-source-data-schema-and-sample-input.md    
+	new link:		data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/geography-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geography-types.md).
+	OBJ: ['~', 'spatial-data-services', 'geography-types.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='geography-types.md', old_link='../spatial-data-services/geography-types.md', new_link='data-source-management-api/load-data-source-dataflow/geography-types.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/geography-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geography-types.md).
+	OBJ: ['~', 'spatial-data-services', 'geography-types.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='geography-types.md', old_link='../spatial-data-services/geography-types.md', new_link='data-source-management-api/load-data-source-dataflow/geography-types.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-by-property.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-property.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-property.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-property.md    
+	old link:		../spatial-data-services/query-by-property.md    
+	new link:		query-api/query-by-property.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-by-property.md', old_link='../spatial-data-services/query-by-property.md', new_link='query-api/query-by-property.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-property.md    
+	old link:		../spatial-data-services/query-by-property.md    
+	new link:		query-api/query-by-property.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/delete-a-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/delete-a-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'delete-a-data-source.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		data-source-management-api/delete-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='delete-a-data-source.md', old_link='../spatial-data-services/delete-a-data-source.md', new_link='data-source-management-api/delete-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		delete-a-data-source.md    
+	old link:		../spatial-data-services/delete-a-data-source.md    
+	new link:		data-source-management-api/delete-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/get-data-source-information.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/get-data-source-information.md).
+	OBJ: ['~', 'spatial-data-services', 'get-data-source-information.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='get-data-source-information.md', old_link='../spatial-data-services/get-data-source-information.md', new_link='data-source-management-api/get-data-source-information.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		get-data-source-information.md    
+	old link:		../spatial-data-services/get-data-source-information.md    
+	new link:		data-source-management-api/get-data-source-information.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/create-a-download-job.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/create-a-download-job.md).
+	OBJ: ['~', 'spatial-data-services', 'create-a-download-job.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-download-job.md    
+	old link:		../spatial-data-services/create-a-download-job.md    
+	new link:		data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='create-a-download-job.md', old_link='../spatial-data-services/create-a-download-job.md', new_link='data-source-management-api/download-data-source-dataflow/create-a-download-job.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-download-job.md    
+	old link:		../spatial-data-services/create-a-download-job.md    
+	new link:		data-source-management-api/download-data-source-dataflow/create-a-download-job.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/publish-a-staged-data-source.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/publish-a-staged-data-source.md).
+	OBJ: ['~', 'spatial-data-services', 'publish-a-staged-data-source.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		publish-a-staged-data-source.md    
+	old link:		../spatial-data-services/publish-a-staged-data-source.md    
+	new link:		data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='publish-a-staged-data-source.md', old_link='../spatial-data-services/publish-a-staged-data-source.md', new_link='data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		publish-a-staged-data-source.md    
+	old link:		../spatial-data-services/publish-a-staged-data-source.md    
+	new link:		data-source-management-api/load-data-source-dataflow/publish-staged-data-source.md
+
+
+unparsing: "BingMaps/spatial-data-services/release-history.md -- Invalid file link:(~/spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).
+	OBJ: ['~', 'spatial-data-services', 'create-a-load-data-source-job-and-input-entity-data.md']
+Dest file part: ['..', 'spatial-data-services', 'release-history.md']
+new dest md filename: release-history.md
+depth for ['release-history.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-load-data-source-job-and-input-entity-data.md    
+	old link:		../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md    
+	new link:		data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/release-history.md', service_dir='spatial-data-services', md_file='create-a-load-data-source-job-and-input-entity-data.md', old_link='../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md', new_link='data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md')
+Error Data:    
+	destination file:	../spatial-data-services/release-history.md    
+	service dir:		spatial-data-services    
+	md file:		create-a-load-data-source-job-and-input-entity-data.md    
+	old link:		../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md    
+	new link:		data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md
+
+
+unparsing: "BingMaps/spatial-data-services/bing-spatial-data-services-api-reference.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'bing-spatial-data-services-api-reference.md']
+new dest md filename: bing-spatial-data-services-api-reference.md
+depth for ['bing-spatial-data-services-api-reference.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/bing-spatial-data-services-api-reference.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/bing-spatial-data-services-api-reference.md -- Invalid file link:(~/spatial-data-services/query-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-api.md).
+	OBJ: ['~', 'spatial-data-services', 'query-api.md']
+Dest file part: ['..', 'spatial-data-services', 'bing-spatial-data-services-api-reference.md']
+new dest md filename: bing-spatial-data-services-api-reference.md
+depth for ['bing-spatial-data-services-api-reference.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/bing-spatial-data-services-api-reference.md', service_dir='spatial-data-services', md_file='query-api.md', old_link='../spatial-data-services/query-api.md', new_link='query-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		query-api.md    
+	old link:		../spatial-data-services/query-api.md    
+	new link:		query-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/bing-spatial-data-services-api-reference.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'bing-spatial-data-services-api-reference.md']
+new dest md filename: bing-spatial-data-services-api-reference.md
+depth for ['bing-spatial-data-services-api-reference.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/bing-spatial-data-services-api-reference.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/bing-spatial-data-services-api-reference.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/load-data-source-data-schema-and-sample-input.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/load-data-source-data-schema-and-sample-input.md).
+	OBJ: ['~', 'spatial-data-services', 'load-data-source-data-schema-and-sample-input.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-data-schema-and-sample-input.md    
+	old link:		../spatial-data-services/load-data-source-data-schema-and-sample-input.md    
+	new link:		data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='load-data-source-data-schema-and-sample-input.md', old_link='../spatial-data-services/load-data-source-data-schema-and-sample-input.md', new_link='data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		load-data-source-data-schema-and-sample-input.md    
+	old link:		../spatial-data-services/load-data-source-data-schema-and-sample-input.md    
+	new link:		data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geography-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geography-types.md).
+	OBJ: ['~', 'spatial-data-services', 'geography-types.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='geography-types.md', old_link='../spatial-data-services/geography-types.md', new_link='data-source-management-api/load-data-source-dataflow/geography-types.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geography-types.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geography-types.md).
+	OBJ: ['~', 'spatial-data-services', 'geography-types.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='geography-types.md', old_link='../spatial-data-services/geography-types.md', new_link='data-source-management-api/load-data-source-dataflow/geography-types.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geography-types.md    
+	old link:		../spatial-data-services/geography-types.md    
+	new link:		data-source-management-api/load-data-source-dataflow/geography-types.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/geocode-dataflow-api.md).
+	OBJ: ['~', 'spatial-data-services', 'geocode-dataflow-api.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='geocode-dataflow-api.md', old_link='../spatial-data-services/geocode-dataflow-api.md', new_link='geocode-dataflow-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		geocode-dataflow-api.md    
+	old link:		../spatial-data-services/geocode-dataflow-api.md    
+	new link:		geocode-dataflow-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/query-by-area.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-area.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-area.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='query-by-area.md', old_link='../spatial-data-services/query-by-area.md', new_link='query-api/query-by-area.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-area.md    
+	old link:		../spatial-data-services/query-by-area.md    
+	new link:		query-api/query-by-area.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/public-data-sources.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/public-data-sources.md).
+	OBJ: ['~', 'spatial-data-services', 'public-data-sources.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		public-data-sources.md    
+	old link:		../spatial-data-services/public-data-sources.md    
+	new link:		public-data-sources/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='public-data-sources.md', old_link='../spatial-data-services/public-data-sources.md', new_link='public-data-sources/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		public-data-sources.md    
+	old link:		../spatial-data-services/public-data-sources.md    
+	new link:		public-data-sources/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/query-by-property.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/query-by-property.md).
+	OBJ: ['~', 'spatial-data-services', 'query-by-property.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-property.md    
+	old link:		../spatial-data-services/query-by-property.md    
+	new link:		query-api/query-by-property.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='query-by-property.md', old_link='../spatial-data-services/query-by-property.md', new_link='query-api/query-by-property.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		query-by-property.md    
+	old link:		../spatial-data-services/query-by-property.md    
+	new link:		query-api/query-by-property.md
+
+
+unparsing: "BingMaps/spatial-data-services/whats-new-in-bing-spatial-data-services.md -- Invalid file link:(~/spatial-data-services/data-source-management-api.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/data-source-management-api.md).
+	OBJ: ['~', 'spatial-data-services', 'data-source-management-api.md']
+Dest file part: ['..', 'spatial-data-services', 'whats-new-in-bing-spatial-data-services.md']
+new dest md filename: whats-new-in-bing-spatial-data-services.md
+depth for ['whats-new-in-bing-spatial-data-services.md', 'spatial-data-services', '..'], looking for spatial-data-services: 0
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+	 ---> ErrorData(dest_file='../spatial-data-services/whats-new-in-bing-spatial-data-services.md', service_dir='spatial-data-services', md_file='data-source-management-api.md', old_link='../spatial-data-services/data-source-management-api.md', new_link='data-source-management-api/index.md')
+Error Data:    
+	destination file:	../spatial-data-services/whats-new-in-bing-spatial-data-services.md    
+	service dir:		spatial-data-services    
+	md file:		data-source-management-api.md    
+	old link:		../spatial-data-services/data-source-management-api.md    
+	new link:		data-source-management-api/index.md
+
+
+unparsing: "BingMaps/spatial-data-services/public-data-sources/2010-us-census-data-sources.md -- Invalid file link:(~/spatial-data-services/v8-web-control/choropleth-map-example.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/v8-web-control/choropleth-map-example.md).
+	OBJ: ['~', 'spatial-data-services', 'v8-web-control', 'choropleth-map-example.md']
+
+unparsing: "BingMaps/v8-web-control/choropleth-map-example.md -- Invalid file link:(~/spatial-data-services/2010-us-census-data-sources.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/2010-us-census-data-sources.md).
+	OBJ: ['~', 'spatial-data-services', '2010-us-census-data-sources.md']
+Dest file part: ['..', 'v8-web-control', 'choropleth-map-example.md']
+new dest md filename: choropleth-map-example.md
+depth for ['choropleth-map-example.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/choropleth-map-example.md    
+	service dir:		spatial-data-services    
+	md file:		2010-us-census-data-sources.md    
+	old link:		../spatial-data-services/2010-us-census-data-sources.md    
+	new link:		../../public-data-sources/2010-us-census-data-sources.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/choropleth-map-example.md', service_dir='spatial-data-services', md_file='2010-us-census-data-sources.md', old_link='../spatial-data-services/2010-us-census-data-sources.md', new_link='../../public-data-sources/2010-us-census-data-sources.md')
+Error Data:    
+	destination file:	../v8-web-control/choropleth-map-example.md    
+	service dir:		spatial-data-services    
+	md file:		2010-us-census-data-sources.md    
+	old link:		../spatial-data-services/2010-us-census-data-sources.md    
+	new link:		../../public-data-sources/2010-us-census-data-sources.md
+
+Changed file "../v8-web-control/choropleth-map-example.md":
+	"../spatial-data-services/2010-us-census-data-sources.md"
+	--> "../../public-data-sources/2010-us-census-data-sources.md"
+
+unparsing: "BingMaps/v8-web-control/find-by-property-example.md -- Invalid file link:(~/spatial-data-services/navteqna.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/navteqna.md).
+	OBJ: ['~', 'spatial-data-services', 'navteqna.md']
+Dest file part: ['..', 'v8-web-control', 'find-by-property-example.md']
+new dest md filename: find-by-property-example.md
+depth for ['find-by-property-example.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/find-by-property-example.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		../../public-data-sources/navteqna.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/find-by-property-example.md', service_dir='spatial-data-services', md_file='navteqna.md', old_link='../spatial-data-services/navteqna.md', new_link='../../public-data-sources/navteqna.md')
+Error Data:    
+	destination file:	../v8-web-control/find-by-property-example.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		../../public-data-sources/navteqna.md
+
+Changed file "../v8-web-control/find-by-property-example.md":
+	"../spatial-data-services/navteqna.md"
+	--> "../../public-data-sources/navteqna.md"
+
+unparsing: "BingMaps/v8-web-control/find-nearby-example.md -- Invalid file link:(~/spatial-data-services/navteqna.md)."
+
+	MSG: Invalid file link:(~/spatial-data-services/navteqna.md).
+	OBJ: ['~', 'spatial-data-services', 'navteqna.md']
+Dest file part: ['..', 'v8-web-control', 'find-nearby-example.md']
+new dest md filename: find-nearby-example.md
+depth for ['find-nearby-example.md', 'v8-web-control', '..'], looking for spatial-data-services: 2
+Error Data:    
+	destination file:	../v8-web-control/find-nearby-example.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		../../public-data-sources/navteqna.md
+
+	 ---> ErrorData(dest_file='../v8-web-control/find-nearby-example.md', service_dir='spatial-data-services', md_file='navteqna.md', old_link='../spatial-data-services/navteqna.md', new_link='../../public-data-sources/navteqna.md')
+Error Data:    
+	destination file:	../v8-web-control/find-nearby-example.md    
+	service dir:		spatial-data-services    
+	md file:		navteqna.md    
+	old link:		../spatial-data-services/navteqna.md    
+	new link:		../../public-data-sources/navteqna.md
+
+Changed file "../v8-web-control/find-nearby-example.md":
+	"../spatial-data-services/navteqna.md"
+	--> "../../public-data-sources/navteqna.md"
+
+unparsing: "BingMaps/rest-services/routes/calculate-a-distance-matrix.md -- Invalid file link:(~/media/distancematrixcellcalculation2.PNG)."
+
+	MSG: Invalid file link:(~/media/distancematrixcellcalculation2.PNG).
+	OBJ: ['~', 'media', 'distancematrixcellcalculation2.PNG']
+
+unparsing: "BingMaps/rest-services/routes/calculate-a-distance-matrix.md -- Invalid file link:(~/media/distancematrixtransactioncalculation2.PNG)."
+
+	MSG: Invalid file link:(~/media/distancematrixtransactioncalculation2.PNG).
+	OBJ: ['~', 'media', 'distancematrixtransactioncalculation2.PNG']
+
+unparsing: "BingMaps/rest-services/routes/calculate-a-distance-matrix.md -- Invalid file link:(~/media/distancematrixasynccellcalculation2.PNG)."
+
+	MSG: Invalid file link:(~/media/distancematrixasynccellcalculation2.PNG).
+	OBJ: ['~', 'media', 'distancematrixasynccellcalculation2.PNG']
+
+unparsing: "BingMaps/rest-services/routes/calculate-a-distance-matrix.md -- Invalid file link:(~/media/distancematrixasynctransactioncalculation2.PNG)."
+
+	MSG: Invalid file link:(~/media/distancematrixasynctransactioncalculation2.PNG).
+	OBJ: ['~', 'media', 'distancematrixasynctransactioncalculation2.PNG']
