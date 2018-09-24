@@ -14,6 +14,13 @@ from pathlib import Path
 - `new_link`: the replaced link
 '''
 
+def print_log(string):
+    with open('linker_log.txt', 'a') as f:
+        f.write(string)
+
+print_old = print
+print = print_log
+
 ErrorData = namedtuple('ErrorData', 'dest_file service_dir md_file old_link new_link') 
 
 def print_error_data(error_data):
@@ -27,7 +34,10 @@ def print_error_data(error_data):
 
 def parse_msg(msg):
     '''Parse data from OBS report'''
-    objs = re.match(r'Invalid file link:\(\~\/([-\w]+)\/([-\w]+\/)([-\w]+)\.md\).', msg)
+    objs = re.match(r'Invalid file link:\(\~\/([-\w]+)\/([-\w \/]+)\/([-\w]+)\.md\).', msg)
+
+    print(f"\n\tMSG: {msg}\n\tOBJ: {str(objs.groups() if objs else 'NaN')}\n")
+
     if objs:
         return objs.group(1), f'{objs.group(3)}.md'
     return None
@@ -68,17 +78,21 @@ def get_link_service_level_depth(dest_link, service):
         if l == service:
             return i
     return N - 1
-
-
-def get_depth(dest_link, service_dir, new_link):
-    dest_glob = list(dest_link.split('/'))
-    new_link_glob = list(new_link.split('/'))
-    index = None
-    if len(new_link_glob) > 1:
-        for sub_dir in new_link_glob:
-            if sub_dir in dest_glob:
-        
 '''
+
+def get_depth(dest_link, service_dir):
+    dest_glob = list(dest_link.split('/'))
+    index = 0
+    dest_glob.reverse()
+    for dir in dest_glob:
+        if dir == service_dir:
+            break
+        index += 1
+    print("depth for {0}, looking for {1}: {2}\n".format(dest_glob, service_dir, index - 1))
+
+    return index - 1
+        
+
     
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
@@ -108,8 +122,8 @@ def get_error_data(df, link_data):
                 if service.get('path') == service_dir:
                     # same directory
                     for link_dict in service.get('links'):
-
-                        if link_dict['old-docs'] == md_file:
+                        
+                        if link_dict['old-docs'].strip(" ") == md_file.strip(" "):
 
                             new_link_file = link_dict.get('new-docs')
 
@@ -119,15 +133,18 @@ def get_error_data(df, link_data):
                                 
                                 # depth = get_link_service_level_depth(dest_file, service_dir)
 
-                                # depth = len(new_link_file.split('/')) - 2
+                                depth = get_depth(dest_file, service_dir)
 
-                                # rel_path = str.join('/', ['..' for _ in range(depth)]) if depth > 0 else '' 
+                                rel_path = str.join('/', ['..' for _ in range(depth)]) + '/' if depth > 0 else '' 
                                 
-                                new_link = f'BingMaps/{service_dir}/{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
+                                new_link = f'{rel_path}{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
                                 
                                 datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
                                 print_error_data(datum)
                                 yield datum
+                                break
+                            else:
+                                print(f"************* no new file: {md_file}\n\n.")
 
 
 def update_file(error_object):
@@ -140,7 +157,7 @@ def update_file(error_object):
     if file_str != None and file_str != file_old:
         with open(file_name, 'w', encoding='utf8') as f:
             f.write(file_str)
-            print(f'Changed file "{error_object.dest_file}": "{error_object.old_link}" --> "{error_object.new_link}"')
+            print(f'Changed file "{error_object.dest_file}":\n\t"{error_object.old_link}"\n\t--> "{error_object.new_link}"\n')
 
 
 '''
@@ -165,7 +182,8 @@ if __name__=='__main__':
             yaml_links = yaml.load(f)
     else:
         exit(1)
-        
+
+
     df = None
     if excel_filename:
         df = read_csv(excel_filename, sep=',')
