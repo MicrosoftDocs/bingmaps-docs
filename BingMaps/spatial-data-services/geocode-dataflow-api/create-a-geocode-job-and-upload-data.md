@@ -24,7 +24,7 @@ Use the following URL to upload a set of spatial data and to create a job to geo
 > [!IMPORTANT]
 >  This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
   
- A job is created when you geocode entity data.  Before using this API, review the job limits in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ A job is created when you geocode entity data.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
   
  **Upload locations and points and create a geocode job.**  
   
@@ -42,12 +42,12 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=out
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |dataLocation||**Optional.** Specifies the location of the data to download. **Note:**  You must set the dataLocation parameter to the location of the data or include the data to process in the HTTP request. If you do both, the URL returns an error.|A Windows Azure™ Blob Service REST API location that contains the data to process. The data must be in XML format. The Blob Service REST API uses the following URL formats:<br /><br /> http://*account-name*.blob.core.windows.net/*myDataFile*<br /><br /> https://*account-name*.blob.core.windows.net/*myDataFile*<br /><br /> For more information, see [Addressing Blob Service Requests](http://msdn.microsoft.com/en-us/library/dd135731.aspx).<br /><br /> Before you make your request to start the dataflow job, make sure that the Blob Service URL is available publicly or shared with a signature key. If the URL is shared with a signature key, it must be encoded. For more information, see [Managing Access to Containers and Blobs](http://msdn.microsoft.com/en-us/library/ee393343.aspx).<br /><br /> The following content types are supported for data that is retrieved from an HTTP server.<br /><br /> -   application/xml<br />-   text/xml<br />-   text/plain<br />-   application/octet-stream [for compressed data]<br /><br /> **Example**: dataLocation=http://myServer.myDomain.com/spatialDataSource|  
-|input||**Required.** The format of the input data file.|One of the following values:<br /><br /> -   xml<br />-   csv<br />-   tab<br />-   pipe<br /><br /> For more information about input files for a Geocode Dataflow, see [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md).<br /><br /> **Example**: input=csv|  
+|input||**Required.** The format of the input data file.|One of the following values:<br /><br /> -   xml<br />-   csv<br />-   tab<br />-   pipe<br /><br /> For more information about input files for a Geocode Dataflow, see [Data Schema  v2.0](../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md).<br /><br /> **Example**: input=csv|  
 |key||**Required.** A Bing Maps Key to use for the geocode job.|A Bing Maps Key obtained from the [Bing Maps Account Center](https://www.bingmapsportal.com/).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: output=xml|  
   
 ## Input  
- This URL supports the following input formats. For examples, see [Sample Input and Output v2.0](../spatial-data-services/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
+ This URL supports the following input formats. For examples, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
  When you create the HTTP request to upload data and create a geocode job, you must post the input data in the body of the request or set the dataLocation parameter to a URL where your data can be retrieved. You must also set the content type in the request to one of the following values, depending on the format of the input data.  
   
@@ -83,10 +83,10 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMaps
   
 -   XML (application/xml)  
   
- For information about the response, see [Response Data](../spatial-data-services/geocode-dataflow-response-description.md).  
+ For information about the response, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
 ## Sample Code  
- The following code shows how to create a job to geocode spatial data. The data you want to geocode is uploaded as part of the job creation process. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../spatial-data-services/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
+ The following code shows how to create a job to geocode spatial data. The data you want to geocode is uploaded as part of the job creation process. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
 ```  
 //Creates a geocode dataflow job and uploads spatial data to process.  
@@ -179,7 +179,7 @@ static string CreateJob(string dataFilePath, string dataFormat, string key, stri
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

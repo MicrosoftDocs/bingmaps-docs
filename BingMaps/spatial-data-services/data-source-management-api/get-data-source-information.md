@@ -83,7 +83,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$metadata?s
 |key|**Required**. A Bing Maps Key that belongs to the Bing Maps Account that manages the data source(s).|One of the Bing Maps Keys that is belongs to the Bing Maps Account that manages the data source(s).<br /><br /> If you are requesting information about a single data source, you can also use the data source master key.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
 ## Response  
- These URLs supports the following response formats. You can specify the format to return by setting the $format query option. For more information, see [Query Options](../spatial-data-services/query-options.md).  
+ These URLs supports the following response formats. You can specify the format to return by setting the $format query option. For more information, see [Query Options](../query-api/query-options.md).  
   
 -   Atom (application/atomsvc + xml) [**default**]    
 -   JSON (application/json)  
@@ -285,7 +285,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

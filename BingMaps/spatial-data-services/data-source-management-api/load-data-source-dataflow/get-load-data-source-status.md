@@ -26,9 +26,9 @@ Use the following URL to get the status of a load data source job.
   
  **Get status information for a load data source job.**  
   
- When you request status information for a load data source job, you must specify the master key for the data source. You request job status by using the URL returned in the response when you [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md). The URL is specified in a `link` field of the response and has a `role` attribute set to `self`. To use this status URL, you must add the key parameter and set it to the data source master key. You can optionally add the output parameter to specify the how the response is returned. The URL template below shows the format of this status URL.  
+ When you request status information for a load data source job, you must specify the master key for the data source. You request job status by using the URL returned in the response when you [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md). The URL is specified in a `link` field of the response and has a `role` attribute set to `self`. To use this status URL, you must add the key parameter and set it to the data source master key. You can optionally add the output parameter to specify the how the response is returned. The URL template below shows the format of this status URL.  
   
- When the load data source job is complete, the response to this status URL contains another `link` field with the `role` attribute set to `datasource`. This link field contains a unique URL that you can use to query the data source. For more information, see [Response Data](../spatial-data-services/load-data-source-dataflow-response-description.md).  
+ When the load data source job is complete, the response to this status URL contains another `link` field with the `role` attribute set to `datasource`. This link field contains a unique URL that you can use to query the data source. For more information, see [Response Data](../../data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?output=output&key=masterKey  
@@ -42,7 +42,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?o
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |DataFlowJobID||**Required.** The job ID for the Load Data Source Dataflow job. This ID is returned in the response when you create a data source job and is also included in the "self" status link.|**Example**: f8293dc72ac04942b7cb003c9608c547|  
-|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
+|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  
@@ -52,12 +52,12 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?o
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](../spatial-data-services/load-data-source-dataflow-response-description.md).  
+ For information about the response, see [Response Data](../../data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md).  
   
 ## Examples  
  **EXAMPLE: Request job status for a load data source job.**  
   
- This example requests status information for the load data source job named FourthCoffeeSample that was created by specifying the master key b1c323ea23d99d267d99d267bbb814. This URL without the key and output parameters is returned in the response when you use the URL to [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).  
+ This example requests status information for the load data source job named FourthCoffeeSample that was created by specifying the master key b1c323ea23d99d267d99d267bbb814. This URL without the key and output parameters is returned in the response when you use the URL to [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).  
   
  **Responses returned while the job is in process**  
   
@@ -231,7 +231,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

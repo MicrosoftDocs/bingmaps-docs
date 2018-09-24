@@ -26,15 +26,15 @@ Use the following URL to get the status of a download data source job.
   
  **Get status information for a data source download job.**  
   
- A status URL in the following format without the output parameter and master key is provided in the response to the URL request that you made to [Create a Download Job](../spatial-data-services/create-a-download-job.md). The status URL is specified in a `link` field with an attribute of `self`. This URL with the data source master key provides the status of the job.  
+ A status URL in the following format without the output parameter and master key is provided in the response to the URL request that you made to [Create a Download Job](../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md). The status URL is specified in a `link` field with an attribute of `self`. This URL with the data source master key provides the status of the job.  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/DataSourceName?output=output&key=DataSourceMasterKey  
 ```  
   
- When the download job status is set to Completed, a download URL is included in the response. For information about accessing downloaded entity data, see the **Examples** section below and  [Get Downloaded Data](../spatial-data-services/get-downloaded-data.md).  
+ When the download job status is set to Completed, a download URL is included in the response. For information about accessing downloaded entity data, see the **Examples** section below and  [Get Downloaded Data](../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md).  
   
- For a step-by-step description of how use the Download Data Source Dataflow, see [Walkthrough](../spatial-data-services/download-data-source-walkthrough.md).  
+ For a step-by-step description of how use the Download Data Source Dataflow, see [Walkthrough](../../data-source-management-api/download-data-source-dataflow/download-data-source-walkthrough.md).  
   
 ### Template Parameters  
   
@@ -54,10 +54,10 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/DataSourceN
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](../spatial-data-services/download-data-source-dataflow-response-description.md).  
+ For information about the response, see [Response Data](../../data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
   
 ## Examples  
- This example requests status information in XML format for a download job for MyDataSourceName data source. When the job status is complete, a download URL is included in the response that you can use to download data. See [Get Downloaded Data](../spatial-data-services/get-downloaded-data.md) for more information. The example responses are for a completed job and the download URL is highlighted.  
+ This example requests status information in XML format for a download job for MyDataSourceName data source. When the job status is complete, a download URL is included in the response that you can use to download data. See [Get Downloaded Data](../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md) for more information. The example responses are for a completed job and the download URL is highlighted.  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourceName?o=xml&key=DataSourceMasterKey  
@@ -144,7 +144,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourc
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

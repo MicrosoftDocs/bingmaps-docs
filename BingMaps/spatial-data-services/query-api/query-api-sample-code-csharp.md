@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Query API Sample Code (C#)
-The following C# code provides examples of how to query a data source using the [Query API](../spatial-data-services/query-api.md).  
+The following C# code provides examples of how to query a data source using the [Query API](../query-api/index.md).  
   
 ```  
 using System;  

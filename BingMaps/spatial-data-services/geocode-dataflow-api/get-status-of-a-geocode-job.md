@@ -26,7 +26,7 @@ Use the following URL to get the status of a geocode job.
   
  **Get status information for a geocode job.**  
   
- The Bing Maps Key that you specify must be the same Bing Maps Key that you used to create the job. A URL in the following format without the Bing Maps Key is provided in the response to the URL request that you made to [Create Job](../spatial-data-services/create-a-geocode-job-and-upload-data.md). The URL is specified in a `link` field with an attribute of `self`. For more information, see [Response Data](../spatial-data-services/geocode-dataflow-response-description.md).  
+ The Bing Maps Key that you specify must be the same Bing Maps Key that you used to create the job. A URL in the following format without the Bing Maps Key is provided in the response to the URL request that you made to [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md). The URL is specified in a `link` field with an attribute of `self`. For more information, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&key=BingMapsKey  
@@ -39,7 +39,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&ke
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|jobID||**Required.** The ID of the job.|When you request a dataflow job, the job ID is returned in the ID field of the response. For more information, see [Response Data](../spatial-data-services/geocode-dataflow-response-description.md).<br /><br /> **Example**: e14b1d9bd65c4b9d99d267bbb8102ccf|  
+|jobID||**Required.** The ID of the job.|When you request a dataflow job, the job ID is returned in the ID field of the response. For more information, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).<br /><br /> **Example**: e14b1d9bd65c4b9d99d267bbb8102ccf|  
 |key||**Required**. The Bing Maps Key that you used to create the geocode job.|A Bing Maps Key from the [Bing Maps Account Center](http://www.bingmapsportal.com).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
@@ -57,10 +57,10 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/e14b1d9bd65c4b9d99d267
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](../spatial-data-services/geocode-dataflow-response-description.md).  
+ For information about the response, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
 ## Sample Code  
- The following code shows how to get the status of a geocode job. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../spatial-data-services/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
+ The following code shows how to get the status of a geocode job. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
 ```  
 class DownloadDetails  
@@ -150,7 +150,7 @@ static DownloadDetails CheckStatus(string dataflowJobLocation, string key)
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

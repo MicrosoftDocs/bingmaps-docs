@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Query by ID
-Use the following URL to search a data source for one or more entities by entity ID. The property to use as the entity ID is specified in the data schema for the entity type. For more information, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md).  
+Use the following URL to search a data source for one or more entities by entity ID. The property to use as the entity ID is specified in the data schema for the entity type. For more information, see [Data Schema and Sample Input](../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
 ## Supported HTTP Methods  
  GET, HEAD  
@@ -53,11 +53,11 @@ queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=
 |entityTypeName|**Required** The entity type to search for.|A string that identifies the entity type of the data source.<br /><br /> **Example**: FourthCoffeeShops|  
 |entityTypeName(entityTypeID)|**Required when searching for a single entity**. The entity type name and the entity ID string.|The entity type of the data source and the entity ID string to search for in the data source defined by using the following format:<br /><br /> *EntityTypeName*(*EntityIdString*)<br /><br /> **Example**: FourthCoffeeShops('4232')|  
 |$filter=entityId in (*entityId1*, *entityId2*, *entityIdN*|**Required when searching for multiple entities.** A comma-separated list of entity ID strings to search for in the datasource.|A list of entity ID strings to search for in the data source. You can specify up to 50 entity ID strings.<br /><br /> **Example**: $filter=entityId in ('4024', '234', '8982')|  
-|queryOptions|**Optional**. Options for this query. For more information about query options, see [Query Options](../spatial-data-services/query-options.md).|A set of query options. Each query option is specified as an individual URL parameter. The following example shows how to set both the $format and the $orderby query options in the URL.<br /><br /> `&$format=json&$orderby=ZipCode`<br /><br /> **Example**: $top=3<br /><br /> **Example**: $filter=ZipCode Eq '98052'<br /><br /> If the $orderby option is not specified as part of the request, the results will be sorted by the property that represents the entity ID. Results are returned in ascending order. You can specify up to three (3) properties for the $orderby option. You cannot use the latitude or longitude properties to sort results.<br /><br /> You cannot use the latitude or longitude properties to filter results by using the $filter query option.||  
+|queryOptions|**Optional**. Options for this query. For more information about query options, see [Query Options](../query-api/query-options.md).|A set of query options. Each query option is specified as an individual URL parameter. The following example shows how to set both the $format and the $orderby query options in the URL.<br /><br /> `&$format=json&$orderby=ZipCode`<br /><br /> **Example**: $top=3<br /><br /> **Example**: $filter=ZipCode Eq '98052'<br /><br /> If the $orderby option is not specified as part of the request, the results will be sorted by the property that represents the entity ID. Results are returned in ascending order. You can specify up to three (3) properties for the $orderby option. You cannot use the latitude or longitude properties to sort results.<br /><br /> You cannot use the latitude or longitude properties to filter results by using the $filter query option.||  
 |jsonp|**Optional.** Name of JSON callback function that is called when the response to the request is received. The JSON object provided in the response is passed to the callback function.|A string that contains the name of the callback function.<br /><br /> **Example**: jsonp=MyCallbackFunction|  
 |jsonso|**Optional.** The state object to pass to the JSON callback function. You can use a state object to match a response with a specific call. This value is provided as the second parameter to the callback function provided in the JSONP parameter.|Any valid JavaScript string.<br /><br /> **Example**: jsonso=abc3144sd|  
 |isStaging|**Optional.** Specifies to query the staged version of the data source instead of the published version.|A Boolean value.<br /><br /> -   0 or false**[default]**<br />-   1 or true<br /><br /> **Example**: isStaging=1|  
-|queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=20181f26d9e94c81acdf9496133d4f23|  
+|queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=20181f26d9e94c81acdf9496133d4f23|  
   
 ## Response  
  This URL supports the following response formats.  
@@ -259,7 +259,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -276,5 +276,5 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 -   503  
   
 ## See Also  
- [Query by Area](../spatial-data-services/query-by-area.md)   
- [Query by Property](../spatial-data-services/query-by-property.md)
+ [Query by Area](../query-api/query-by-area.m)   
+ [Query by Property](../query-api/query-by-property.md)

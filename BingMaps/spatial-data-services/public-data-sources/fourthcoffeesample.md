@@ -60,7 +60,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **Query Example**  
   
- The following query example queries for FourthCoffeeShops entities within 5 kilometers of a location that is specified as a latitude and longitude pair. Because this is a sample data source, the query key you use can be any Bing Maps Key. For more information, see [Query API](../spatial-data-services/query-api.md).  
+ The following query example queries for FourthCoffeeShops entities within 5 kilometers of a location that is specified as a latitude and longitude pair. Because this is a sample data source, the query key you use can be any Bing Maps Key. For more information, see [Query API](../query-api/index.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$select=EntityID,Latitude,Longitude,__Distance&$top=3&key=anyBingMapsKey  

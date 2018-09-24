@@ -16,11 +16,11 @@ ms.service: "bing-maps"
 # Geography Types
 These geography types can be used to:  
   
--   Add a geography property to a data source entity schema. See [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md).  
+-   Add a geography property to a data source entity schema. See [Data Schema and Sample Input](../../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
--   Query for entities that are within a specified geography using the 'intersects' spatial filter. See [Query Options](../spatial-data-services/query-options.md).  
+-   Query for entities that are within a specified geography using the 'intersects' spatial filter. See [Query Options](../../query-api/query-options.md).  
   
--   Query for entities and return the intersection of the geography for each entity with a specified geography using the 'intersections' function. See [Query Options](../spatial-data-services/query-options.md).  
+-   Query for entities and return the intersection of the geography for each entity with a specified geography using the 'intersections' function. See [Query Options](../../query-api/query-options.md).  
   
  **Limits and Requirements**  
   

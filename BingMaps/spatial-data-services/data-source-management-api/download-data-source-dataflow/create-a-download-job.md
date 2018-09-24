@@ -34,9 +34,9 @@ Use the following URL to download entity data from a published data source.
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/dataSourceName?output=output&jobId=jobId&key=DataSourceMasterKey  
 ```  
   
- After you create a download job, use the status URL provided in the response to check status. For more information about the status URL, see the **Examples** section and [Get Download Data Source Job Status](../spatial-data-services/get-download-data-source-job-status.md).  
+ After you create a download job, use the status URL provided in the response to check status. For more information about the status URL, see the **Examples** section and [Get Download Data Source Job Status](../../data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md).  
   
- For a step-by-step description of how use the DataSourceDownload Dataflow to download entity data, see [Walkthrough](../spatial-data-services/download-data-source-walkthrough.md).  
+ For a step-by-step description of how use the DataSourceDownload Dataflow to download entity data, see [Walkthrough](../../data-source-management-api/download-data-source-dataflow/download-data-source-walkthrough.md).  
   
 ## Template Parameters  
   
@@ -45,9 +45,9 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/da
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|accessId||**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
-|dataSourceName||**Required** The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).<br /><br /> **Example**: MyDataSourceName|  
-|jobId||**Optional** The job ID that specifies the data source version to download.|A GUID that identifies the version of the data source to download. The published version is downloaded by default. Up to two (2) previous versions and one (1) staged version of a data source may be available for download. To see the job IDs of all versions of a data source, query for information about that data source with `showAllVersions` set to `true`. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).|  
+|accessId||**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../../data-source-management-api/get-data-source-information.md).<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
+|dataSourceName||**Required** The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> You can retrieve the accessId and dataSourceName values when you get information about all datasources. For more information, see [Get Data Source Information](../../data-source-management-api/get-data-source-information.md).<br /><br /> **Example**: MyDataSourceName|  
+|jobId||**Optional** The job ID that specifies the data source version to download.|A GUID that identifies the version of the data source to download. The published version is downloaded by default. Up to two (2) previous versions and one (1) staged version of a data source may be available for download. To see the job IDs of all versions of a data source, query for information about that data source with `showAllVersions` set to `true`. For more information, see [Get Data Source Information](../../data-source-management-api/get-data-source-information.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
 |key||**Required**. The master key for the data source.|The Bing Maps Key that was specified as the master key when the data source was created.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
@@ -58,14 +58,14 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/da
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](../spatial-data-services/download-data-source-dataflow-response-description.md).  
+ For information about the response, see [Response Data](../../data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
   
 ## Examples  
  **EXAMPLE: Create a job to download entity data from a data source.**  
   
  The following request example shows how to request a data source download job. The key parameter must be set to the data source master key.  
   
- The response specifies a status URL that you can use to monitor the download job status. This status URL is highlighted in the response examples below. See [Get Download Data Source Job Status](../spatial-data-services/get-download-data-source-job-status.md) to learn how to use the status URL to determine when the download job is complete.  
+ The response specifies a status URL that you can use to monitor the download job status. This status URL is highlighted in the response examples below. See [Get Download Data Source Job Status](../../data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md) to learn how to use the status URL to determine when the download job is complete.  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e9412345f94922212345/DataSourceName?o=xml&key=DataSourceMasterKey  
@@ -145,7 +145,7 @@ http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e941234
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   

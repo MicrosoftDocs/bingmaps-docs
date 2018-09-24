@@ -24,8 +24,8 @@ print = print_log
 ErrorData = namedtuple('ErrorData', 'dest_file service_dir md_file old_link new_link') 
 
 def print_error_data(error_data):
-    print(f'Error Data:\n\
-        destination file:\t{error_data.dest_file}\
+    print(f'Error Data:\
+    \n\tdestination file:\t{error_data.dest_file}\
     \n\tservice dir:\t\t{error_data.service_dir}\
     \n\tmd file:\t\t{error_data.md_file}\
     \n\told link:\t\t{error_data.old_link}\
@@ -93,6 +93,14 @@ def get_depth(dest_link, service_dir):
     return index - 1
         
 
+def get_updated_filename(link_data, service, old_md_file):
+    for serv in link_data:
+        if serv.get('path') == service:
+            for link_dict in serv.get('links'):
+                if link_dict['old-docs'] == old_md_file:
+                    return link_dict['new-docs'].split('/')[-1]
+    return old_md_file
+
     
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
@@ -129,6 +137,14 @@ def get_error_data(df, link_data):
 
                             if new_link_file:
 
+                                dest_file_parts = dest_file.split('/')
+                                n = len(dest_file_parts)
+                                print(f"Dest file part: {dest_file_parts}\n")
+                                origin_md_file = get_updated_filename(link_data, service_dir, dest_file_parts[-1])
+                                print(f'new dest md filename: {origin_md_file}\n')
+                                dest_file_parts[n-1] = origin_md_file
+                                dest_file = str.join('/', dest_file_parts)
+
                                 # depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
                                 
                                 # depth = get_link_service_level_depth(dest_file, service_dir)
@@ -148,6 +164,7 @@ def get_error_data(df, link_data):
 
 
 def update_file(error_object):
+    print_error_data(error_object)
     file_name = str(Path(error_object.dest_file).absolute())
     file_str = None
     with open(file_name, 'r', encoding='utf8') as f:

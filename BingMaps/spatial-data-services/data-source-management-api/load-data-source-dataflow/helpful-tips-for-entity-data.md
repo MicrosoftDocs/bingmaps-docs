@@ -18,7 +18,7 @@ Here are some tips to help you when you create entity data to use with the Bing 
   
 -   **Consider using pipe(&#124;)-delimited  or XML entity data files**. Entity data often contains commas (Example: Seattle, WA). Therefore, using the pipe (&#124;) character as a separator in entity data files is often a good choice. Similarly, XML files support the use of commas (,), hyphens (-), and pipe characters (&#124;) as part of entity data values.  
   
--   **Make sure you do not create more than the maximum number of 350 properties.** For a list of supported data types, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md). To reduce the number of string (Edm.String) properties, consider the following options.  
+-   **Make sure you do not create more than the maximum number of 350 properties.** For a list of supported data types, see [Data Schema and Sample Input](../../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md). To reduce the number of string (Edm.String) properties, consider the following options.  
   
     -   Remove unnecessary or redundant properties.  
   

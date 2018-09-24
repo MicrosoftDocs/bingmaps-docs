@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Load Data Source Data Schema and Sample Input
-You must provide a data schema and a set of input data to create a data source when you use the [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md) URL. The data schema describes the entity type for the data source. The set of input data must validate against the schema. The data schema and input data are provided together when you create a LoadDataSource job to create or update a data source. You can provide a data schema and input data in XML format or as text with values separated by comma, tab or pipe(&#124;) characters. Before using this API, review the data limits defined in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+You must provide a data schema and a set of input data to create a data source when you use the [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md) URL. The data schema describes the entity type for the data source. The set of input data must validate against the schema. The data schema and input data are provided together when you create a LoadDataSource job to create or update a data source. You can provide a data schema and input data in XML format or as text with values separated by comma, tab or pipe(&#124;) characters. Before using this API, review the data limits defined in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
  The input data format for an incremental update to a data source is the same as the format for creating a data source. The incremental update input data must include the data schema currently in use by the data source and the entity data to overwrite existing entries or to create new ones. If the entity ID of a set of entity data matches an entity ID in the data source, the entity data is replaced by the new data. If the entity ID does not exist, a new entity is created.  
   
@@ -27,7 +27,7 @@ You must provide a data schema and a set of input data to create a data source w
   
  The Bing Spatial Data Services only supports UTF-8 encoded input data.  
   
- For some helpful tips about creating the data schema and entity data, see [Helpful Tips for Entity Data](../spatial-data-services/helpful-tips-for-entity-data.md).  
+ For some helpful tips about creating the data schema and entity data, see [Helpful Tips for Entity Data](../../data-source-management-api/load-data-source-dataflow/helpful-tips-for-entity-data.md).  
   
 ### Entity ID  
  A data source requires an entity ID that is unique for every entity in the data source. Your data schema must specify one of the entity properties to be this entity ID. The following examples show how to specify a property named `ShopID` as the entity ID in your data schema. The data type of the entity ID property must be a string and all entity ID values must have a maximum length of 50 characters.  
@@ -71,7 +71,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
 ### Location properties  
  Your data schema must include a location object that specifies the entity location. This object can be a latitude and longitude pair or a geographical object..  
   
- Supported geographical objects are SQL Server geography types, such as a line string or polygon. A geographical value must be specified using the [well-known text (WKT)](http://en.wikipedia.org/wiki/Well-known_text) format. For a list of supported geographical types, see [Geography Types](../spatial-data-services/geography-types.md).  
+ Supported geographical objects are SQL Server geography types, such as a line string or polygon. A geographical value must be specified using the [well-known text (WKT)](http://en.wikipedia.org/wiki/Well-known_text) format. For a list of supported geographical types, see [Geography Types](../../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
  The data schema must include a set of latitude and longitude properties or at most one geography property. You can also include both.  
   
@@ -101,7 +101,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
   
  **Geography Types**  
   
- For a complete description of supported geographical objects, see [Geography Types](../spatial-data-services/geography-types.md).  
+ For a complete description of supported geographical objects, see [Geography Types](../../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
 ### More about entity properties and data types  
  You can have a total of 350 properties in your schema.  The latitude and longitude properties do not count towards this maximum.  
@@ -133,7 +133,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
 -   Property names are case-insensitive.  
   
 ## Example data schema with entity data  
- The following examples show how to define a data schema and entity data that conforms to that data schema. The [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md) URL requires that the schema and the input data be provided together in the load data source request. XML and text file examples are provided. The data schema and input data must use UTF-8 encoding.  
+ The following examples show how to define a data schema and entity data that conforms to that data schema. The [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md) URL requires that the schema and the input data be provided together in the load data source request. XML and text file examples are provided. The data schema and input data must use UTF-8 encoding.  
   
 ### XML data schema and input data  
   

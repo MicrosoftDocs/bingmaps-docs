@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Geocode Dataflow Data Schema - Version 1.0
 > [!NOTE]
->  If you are a new user, use the latest [version 2.0](../spatial-data-services/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
+>  If you are a new user, use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
   
  The Geocode Dataflow API supports the following formats for uploading and downloading spatial data:  
   
@@ -23,7 +23,7 @@ ms.service: "bing-maps"
   
 -   XML  
   
- This topic describes the spatial data schema for version 1.0 the Geocode Dataflow API. Text file and the XML schema definitions are provided along with descriptions of the fields. For examples of input and output spatial data in all formats, see [Sample Input and Output v1.0](../spatial-data-services/geocode-dataflow-sample-input-and-output-data-version-1-0.md).  
+ This topic describes the spatial data schema for version 1.0 the Geocode Dataflow API. Text file and the XML schema definitions are provided along with descriptions of the fields. For examples of input and output spatial data in all formats, see [Sample Input and Output v1.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-1-0.md).  
   
 ## Text File Schema  
  The following text file schema shows how the input and output values for the Geocode Dataflow are organized in a text file. Note that there are GeocodeRequest, GeocodeResponse, and ReverseGeocodeRequest values. The Geocode Request fields define location information to geocode. The ReverseGeocodeRequest fields provide latitude and longitude information to reverse geocode. The GeocodeResponse fields are populated with the processed output data. Each item of data must provide information or a blank entry for each of these fields. Descriptions of the fields are provided in the Data Schema Definitions section below.  

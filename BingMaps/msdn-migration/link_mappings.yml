@@ -148,7 +148,7 @@
       new-docs: query-api/index.md
     - msdn: https://msdn.microsoft.com/en-US/library/gg585133.aspx
       old-docs: query-by-area.md
-      new-docs: query-api/query-by-area.m
+      new-docs: query-api/query-by-area.md
     - msdn: https://msdn.microsoft.com/en-US/library/hh771572.aspx
       old-docs: query-near-a-route.md
       new-docs: query-api/query-near-route.md

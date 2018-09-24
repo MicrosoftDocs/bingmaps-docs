@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Query Near a Route
-Use the following URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. You can use the [Query Options](../spatial-data-services/query-options.md) such as $filter and $select to further specify the entity information that would like to return. For example, you can search the [Traffic Incident Data Source](../spatial-data-services/traffic-incident-data-source.md) for all traffic incidents along a route and request that only the severity, description and location (latitude and longitude) be returned.  
+Use the following URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. You can use the [Query Options](../query-api/query-options.md) such as $filter and $select to further specify the entity information that would like to return. For example, you can search the [Traffic Incident Data Source](../public-data-sources/traffic-incident-data-source.md) for all traffic incidents along a route and request that only the severity, description and location (latitude and longitude) be returned.  
   
  For an example application of how to use **Query Near a Route** and [Bing Maps AJAX Control, Version 7.0](http://msdn.microsoft.com/en-us/library/gg427610.aspx) to show traffic incidents along a route on a map, see [Searching for Traffic Incidents Along a Route](http://msdn.microsoft.com/en-us/library/hh779734.aspx).  
   
@@ -49,11 +49,11 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
 |dataSourceName|**Required**. The name of the data source that you want to search.|A string that identifies the data source.<br /><br /> **Example**: FourthCoffeeSample|  
 |entityTypeName|**Required** The entity type to search for.|The entity type of the data source.<br /><br /> **Example**: FourthCoffeeShops|  
 |spatialFilter|**Required**. The start and end points of the route. You can specify the start and end points of the route in two ways.<br /><br /> -   A latitude and longitude.<br />-   An address.|To define a route and distance, use the following syntax:<br /><br /> spatialFilter=nearRoute(*latitude,longitude or address of route start*, *latitude,longitude or address of route end*)<br /><br /> **Example**: spatialFilter=nearRoute('47.62341,-122.33441', '47.63143,-122.57243')<br /><br /> **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.|  
-|queryOption|**Optional**. Specifies query options, such as format and properties to display in the response. For more information about query options, see [Query Options](../spatial-data-services/query-options.md).|A set of query options. Each query option is specified as a single URL parameter. Query option examples include the ability to filter on property values ($filter), specify the format of response ($format) and order by a property value ($orderby). See [Query Options](../spatial-data-services/query-options.md) for a complete list.<br /><br /> The following example shows how to set both the $format and the $orderby query options in the URL.<br /><br /> `&$format=json&$orderby=ZipCode`<br /><br /> If you want to return the distance from the point to each entity returned in the response, you can add a custom value `__Distance` to the list of $select values as shown in the following example.<br /><br /> **Example**: $select=AddressLine,City,PostalCode,__Distance<br /><br /> When you specify `__Distance` as a $select value, the response returns a custom property element of type Edm:Double that is also named `__Distance`.<br /><br /> You can specify up to three (3) properties for the $orderby option. You cannot use the latitude or longitude properties to sort results.|  
+|queryOption|**Optional**. Specifies query options, such as format and properties to display in the response. For more information about query options, see [Query Options](../query-api/query-options.md).|A set of query options. Each query option is specified as a single URL parameter. Query option examples include the ability to filter on property values ($filter), specify the format of response ($format) and order by a property value ($orderby). See [Query Options](../query-api/query-options.md) for a complete list.<br /><br /> The following example shows how to set both the $format and the $orderby query options in the URL.<br /><br /> `&$format=json&$orderby=ZipCode`<br /><br /> If you want to return the distance from the point to each entity returned in the response, you can add a custom value `__Distance` to the list of $select values as shown in the following example.<br /><br /> **Example**: $select=AddressLine,City,PostalCode,__Distance<br /><br /> When you specify `__Distance` as a $select value, the response returns a custom property element of type Edm:Double that is also named `__Distance`.<br /><br /> You can specify up to three (3) properties for the $orderby option. You cannot use the latitude or longitude properties to sort results.|  
 |jsonp|**Optional.** Name of JSON callback function that is called when the response to the request is received. The JSON object provided in the response is passed to the callback function.|A string that contains the name of the callback function.<br /><br /> **Example**: jsonp=MyCallbackFunction.|  
 |jsonso|**Optional.** The state object to pass to the JSON callback function. You can use a state object to match a response with a specific call. This value is provided as the second parameter to the callback function provided in the JSONP parameter.|Any valid JavaScript string.<br /><br /> **Example**: jsonso=abc3144sd|  
 |isStaging|**Optional.** Specifies to query the staged version of the data source instead of the published version.|A Boolean value.<br /><br /> -   0 or false**[default]**<br />-   1 or true<br /><br /> **Example**: isStaging=1|  
-|queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
  **Route Parameters**  
   
@@ -89,7 +89,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
 ## Examples  
  **EXAMPLE: Query a data source for entities near a route.**  
   
- The following example queries for coffee shops along a route between Webster, Texas and Kemah, Texas. Coffee shops within one (1) mile of the route are returned in the response. Because [FourthCoffeeSample Data Source](../spatial-data-services/fourthcoffeesample.md) is a public data source, you can use any Bing Maps Key for the query key.  
+ The following example queries for coffee shops along a route between Webster, Texas and Kemah, Texas. Coffee shops within one (1) mile of the route are returned in the response. Because [FourthCoffeeSample Data Source](../public-data-sources/fourthcoffeesample.md) is a public data source, you can use any Bing Maps Key for the query key.  
   
  **URLs with ATOM Response**  
   
@@ -223,7 +223,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md).  
+>  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
  When the request is successful, the following HTTP status code is returned.  
   
@@ -240,6 +240,6 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 -   503  
   
 ## See Also  
- [Query by Area](../spatial-data-services/query-by-area.md)   
- [Query by ID](../spatial-data-services/query-by-id.md)   
- [Query by Property](../spatial-data-services/query-by-property.md)
+ [Query by Area](../query-api/query-by-area.m)   
+ [Query by ID](../query-api/query-by-id.md)   
+ [Query by Property](../query-api/query-by-property.md)

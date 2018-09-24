@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Publish a Staged Data Source
 Use the following URL to publish a staged data source.  
   
- A job is created when you publish a staged a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ A job is created when you publish a staged a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
 ## Supported HTTP Methods  
  GET  
@@ -26,11 +26,11 @@ Use the following URL to publish a staged data source.
 > [!NOTE]
 >  This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
   
- Make sure you review the job limits defined in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ Make sure you review the job limits defined in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
  **Publish a staged data source**  
   
- This URL will publish a staged data source that was created by setting loadOperation=completeStaged or incrementalStaging when you created a [Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).  
+ This URL will publish a staged data source that was created by setting loadOperation=completeStaged or incrementalStaging when you created a [Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/$commit?output=output&key=masterKey  
@@ -51,9 +51,9 @@ http://spatial.virtualearth.net/REST/v1/data/jobs/publishJobId/$getstatus?output
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|accessId||**Required**. A unique ID for the data source.|You can retrieve the query URL that contains the accessId and dataSourceName values when you [Get Data Source Information](../spatial-data-services/get-data-source-information.md) for all data sources or from you [Get Load Data Source Status](../spatial-data-services/get-load-data-source-status.md) for the completed job that staged the data.<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
-|dataSourceName||**Required** The name of the data source.|You can retrieve the query URL that contains the accessId and dataSourceName values when you [Get Data Source Information](../spatial-data-services/get-data-source-information.md) for all data sources or from you [Get Load Data Source Status](../spatial-data-services/get-load-data-source-status.md) for the completed job that staged the data.<br /><br /> **Example**: MyDataSourceName|  
-|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
+|accessId||**Required**. A unique ID for the data source.|You can retrieve the query URL that contains the accessId and dataSourceName values when you [Get Data Source Information](../../data-source-management-api/get-data-source-information.md) for all data sources or from you [Get Load Data Source Status](../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md) for the completed job that staged the data.<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
+|dataSourceName||**Required** The name of the data source.|You can retrieve the query URL that contains the accessId and dataSourceName values when you [Get Data Source Information](../../data-source-management-api/get-data-source-information.md) for all data sources or from you [Get Load Data Source Status](../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md) for the completed job that staged the data.<br /><br /> **Example**: MyDataSourceName|  
+|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  

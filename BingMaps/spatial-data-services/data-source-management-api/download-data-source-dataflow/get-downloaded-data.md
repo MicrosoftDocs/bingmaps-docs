@@ -100,6 +100,6 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/MyDataSour
 </MainRoot>  
 ```  
   
- For information about the Download Data Source data schema, see [Response Data](../spatial-data-services/download-data-source-dataflow-response-description.md).  
+ For information about the Download Data Source data schema, see [Response Data](../../data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
   
- For a step-by-step description of how use the Download Data Source Dataflow, see [Walkthrough](../spatial-data-services/download-data-source-walkthrough.md).
+ For a step-by-step description of how use the Download Data Source Dataflow, see [Walkthrough](../../data-source-management-api/download-data-source-dataflow/download-data-source-walkthrough.md).

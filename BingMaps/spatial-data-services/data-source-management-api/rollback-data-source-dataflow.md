@@ -16,9 +16,9 @@ ms.service: "bing-maps"
 # Rollback a Data Source Dataflow
 Use the following URLs to rollback a data source to a previous version. Up to two (3) previous versions of a data source are available.  
   
- A job is created when you rollback a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ A job is created when you rollback a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
   
- To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../spatial-data-services/get-job-list.md).  
+ To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../get-job-list.md).  
   
 ## Supported HTTP Methods  
  GET  
@@ -30,7 +30,7 @@ Use the following URLs to rollback a data source to a previous version. Up to tw
   
  **Rollback to a previously published version of a data source**  
   
- To find the job ID for the data source version you want to restore, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).  
+ To find the job ID for the data source version you want to restore, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../data-source-management-api/get-data-source-information.md).  
   
 ```  
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/previousVersionJobId/dataSourceName?output=output&key=masterKey  
@@ -51,9 +51,9 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/rollbackJob
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|previousVersionJobId||**Required** The job ID of the data source you want to restore.|To find the job ID for the data source version you want to republish, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../spatial-data-services/get-data-source-information.md).|  
+|previousVersionJobId||**Required** The job ID of the data source you want to restore.|To find the job ID for the data source version you want to republish, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../data-source-management-api/get-data-source-information.md).|  
 |dataSourceName||**Required** The name of the data source.|**Example**: MyDataSourceName|  
-|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../spatial-data-services/create-a-load-data-source-job-and-input-entity-data.md).|  
+|key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Response  

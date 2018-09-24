@@ -19,9 +19,9 @@ The following steps show how to use  the Geocode Dataflow API and version 2.0 of
 ## Uploading Your Spatial Data  
   
 ### Format the data  
- To create a job to geocode a set of spatial data using version 2.0 of the Geocode Dataflow schema, your input data must conform to the [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md) and be specified using XML format, or as text strings delimited by the comma, tab, or pipe (&#124;) character.  
+ To create a job to geocode a set of spatial data using version 2.0 of the Geocode Dataflow schema, your input data must conform to the [Data Schema  v2.0](../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md) and be specified using XML format, or as text strings delimited by the comma, tab, or pipe (&#124;) character.  
   
- The following is an XML example that contains data to geocode. You can find examples in other formats in [Sample Input and Output v2.0](../spatial-data-services/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
+ The following is an XML example that contains data to geocode. You can find examples in other formats in [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -66,7 +66,7 @@ The following steps show how to use  the Geocode Dataflow API and version 2.0 of
 ```  
   
 ### Upload the data and create the geocode job  
- To geocode the data, upload the data and create a geocode job by using a REST URL and HTTP POST protocol. The following shows an example. For more information, see [Create Job](../spatial-data-services/create-a-geocode-job-and-upload-data.md).  
+ To geocode the data, upload the data and create a geocode job by using a REST URL and HTTP POST protocol. The following shows an example. For more information, see [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md).  
   
 > [!NOTE]
 >  Both HTTP and HTTPS protocols are supported. The HTTPS protocol is recommended for geocode jobs that require you to secure your information.  
@@ -75,7 +75,7 @@ The following steps show how to use  the Geocode Dataflow API and version 2.0 of
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=Geocode%20Demo&input=xml&output=xml&key=YourBingMapsKey  
 ```  
   
- When you make this request, the response includes a `DataflowJob` resource. This resource contains a set `Link` elements that define URLs. When you initiate a job, the response you receive contains a URL that you can use to get job status. After the job has completed, additional URLs are provided to download the geocoded results. The following response includes a URL for getting status as described in the next section. For more information about the `DataflowJob` resource, see [Response Data](../spatial-data-services/geocode-dataflow-response-description.md).  
+ When you make this request, the response includes a `DataflowJob` resource. This resource contains a set `Link` elements that define URLs. When you initiate a job, the response you receive contains a URL that you can use to get job status. After the job has completed, additional URLs are provided to download the geocoded results. The following response includes a URL for getting status as described in the next section. For more information about the `DataflowJob` resource, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
 ```  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -109,7 +109,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=Geocode%20
 ```  
   
 ## Checking Job Status  
- To find out the status of a geocode job, use the URL provided by `Link` element with the `role` attribute set to `self`. You must append the Bing Maps Key that you used to create the job to the URL to use it. For more information, see [Get Job Status](../spatial-data-services/get-status-of-a-geocode-job.md).  
+ To find out the status of a geocode job, use the URL provided by `Link` element with the `role` attribute set to `self`. You must append the Bing Maps Key that you used to create the job to the URL to use it. For more information, see [Get Job Status](../geocode-dataflow-api/get-status-of-a-geocode-job.md).  
   
  Based on the example response above, you would make the following URL request to get job status. The job status is defined by the `Status` field. Continue to check status until it shows that the job has `Completed`. Then you can download the results as described in the next section.  
   

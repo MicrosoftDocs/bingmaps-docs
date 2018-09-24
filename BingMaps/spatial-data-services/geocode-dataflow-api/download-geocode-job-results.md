@@ -48,10 +48,10 @@ The URLs to download results from a Geocode Job are provided when your job has c
 https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879fbb0556e67e/output/succeeded?key=MyDataflowJobKey  
 ```  
   
- For information about the Geocode Dataflow data schema, see [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md).  
+ For information about the Geocode Dataflow data schema, see [Data Schema  v2.0](../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md).  
   
 ## Sample Code  
- The following code shows how to download the results of a geocode job. The geocoded results are saved in text files. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../spatial-data-services/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
+ The following code shows how to download the results of a geocode job. The geocoded results are saved in text files. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
 ```  
 //Downloads job results to files names Success.txt (successfully geocoded results) and   
