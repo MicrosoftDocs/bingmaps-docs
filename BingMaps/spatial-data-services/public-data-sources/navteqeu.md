@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.  
   
 > [!IMPORTANT]
->  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.m) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location. **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
+>  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location. **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
   
 ## POI Entity Properties  
  The following table describes the properties that you can query to get information about a point of interest. These properties make up the NAVTEQPOIs entity type that is used by the NAVTEQEU data source.  

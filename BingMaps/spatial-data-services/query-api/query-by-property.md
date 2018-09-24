@@ -365,5 +365,5 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 -   503  
   
 ## See Also  
- [Query by Area](../query-api/query-by-area.m)   
+ [Query by Area](../query-api/query-by-area.md)   
  [Query by ID](../query-api/query-by-id.md)

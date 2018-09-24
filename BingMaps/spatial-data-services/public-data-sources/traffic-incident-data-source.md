@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Traffic Incident Data Source
-The TrafficIncident data source contains information traffic incidents. You can query for traffic incidents in a specified area by using the Bing Spatial Data Services[Query by Area](../query-api/query-by-area.m) API and the [Query Near a Route](../query-api/query-near-route.md) API and any Bing Maps Key.  
+The TrafficIncident data source contains information traffic incidents. You can query for traffic incidents in a specified area by using the Bing Spatial Data Services[Query by Area](../query-api/query-by-area.md) API and the [Query Near a Route](../query-api/query-near-route.md) API and any Bing Maps Key.  
   
 ## Traffic Incident Properties  
  The following table describes the information provided for a traffic incident.  
@@ -39,7 +39,7 @@ The TrafficIncident data source contains information traffic incidents. You can 
 |ToPointLongitude|Edm.Double|The longitude of the point that specifies the end of a traffic incident, such as the end of a construction zone.<br /><br /> **Example**: -94.36706|  
   
 ## How to query the TrafficIncidents data source  
- You can query the TrafficIncidents data source by using the following base URL and specifying an area to search by using the [Query by Area](../query-api/query-by-area.m) API or the [Query Near a Route](../query-api/query-near-route.md) API.  
+ You can query the TrafficIncidents data source by using the following base URL and specifying an area to search by using the [Query by Area](../query-api/query-by-area.md) API or the [Query Near a Route](../query-api/query-near-route.md) API.  
   
  **Base Query URL**  
   
