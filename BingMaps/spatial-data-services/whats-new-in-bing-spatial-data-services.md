@@ -34,17 +34,17 @@ The [Bing Spatial Data Services](../spatial-data-services/index.md) contains the
   
  **Use geographical shapes, such as polygons and line strings, to represent entity locations in your data source data schema**  
   
- You can now define location as either a geographical area, such as polygon or line string or a single point (latitude and longitude). For more information, see [Data Schema and Sample Input](../spatial-data-services/load-data-source-data-schema-and-sample-input.md) and [Geography Types](../spatial-data-services/geography-types.md).  
+ You can now define location as either a geographical area, such as polygon or line string or a single point (latitude and longitude). For more information, see [Data Schema and Sample Input](data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md) and [Geography Types](data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
  Note that geographical shapes are only supported when you upload your data source using the [Bing Spatial Data Services](../spatial-data-services/index.md). You cannot use the Bing Maps Dev Center to upload data sources with a geographical shape type.  
   
  **Use geographical shapes to query data sources.**  
   
- You can use the [Geography Types](../spatial-data-services/geography-types.md) to query for data source entities within a custom area defined by geographical shapes using the “intersects” spatial filter function.  For more information, see [Query by Area](../spatial-data-services/query-by-area.md). If you want to return the intersection of an entity’s geographical shape with another geographical shape you specify, use the “intersection” function with the $select query option.  
+ You can use the [Geography Types](data-source-management-api/load-data-source-dataflow/geography-types.md) to query for data source entities within a custom area defined by geographical shapes using the “intersects” spatial filter function.  For more information, see [Query by Area](query-api/query-by-area.md). If you want to return the intersection of an entity’s geographical shape with another geographical shape you specify, use the “intersection” function with the $select query option.  
   
- **Get a list of all public data sources.** You can request a list of all publicly available data sources. This includes the [Public Data Sources](../spatial-data-services/public-data-sources.md) owned and managed by Microsoft as well as any data source that is made public using the [Make a Data Source Public](../spatial-data-services/make-a-data-source-public.md) API.  
+ **Get a list of all public data sources.** You can request a list of all publicly available data sources. This includes the [Public Data Sources](public-data-sources/index.md) owned and managed by Microsoft as well as any data source that is made public using the [Make a Data Source Public](../spatial-data-services/make-a-data-source-public.md) API.  
   
- **Search up to 1000 kilometers when you [Query by Area](../spatial-data-services/query-by-area.md) or [Query by Property](../spatial-data-services/query-by-property.md). The previous limit was 400 kilometers.** .  
+ **Search up to 1000 kilometers when you [Query by Area](query-api/query-by-area.md) or [Query by Property](query-api/query-by-property.md). The previous limit was 400 kilometers.** .  
   
  **June 2013**  
   
@@ -52,6 +52,6 @@ The [Bing Spatial Data Services](../spatial-data-services/index.md) contains the
   
  **May, 2013**  
   
- **Batch geocoding and data source APIs are now available to all users.** Previously only available to enterprise users, the [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md) and [Data Source Management API](../spatial-data-services/data-source-management-api.md) are now accessible to any user with a Bing Maps Account. Usage is subject to the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+ **Batch geocoding and data source APIs are now available to all users.** Previously only available to enterprise users, the [Geocode Dataflow API](geocode-dataflow-api/index.md) and [Data Source Management API](data-source-management-api/index.md) are now accessible to any user with a Bing Maps Account. Usage is subject to the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
   
  For earlier releases, see [Release History](../spatial-data-services/release-history.md) [starting with January, 2013].

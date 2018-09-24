@@ -52,7 +52,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](../spatial-data-services/download-data-source-dataflow-response-description.md).  
+ For information about the response, see [Response Data](data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
   
 ## Examples  
  **EXAMPLE: Make a data source publicly available.** .  
@@ -63,7 +63,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
 http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/FourthCoffeeSample/$updatedatasource?setPublic=1&o=xml&key=MasterKey  
 ```  
   
- The status of `Created` in the response indicates that the job to make the data source public has been created. This operation is expected to take only a few minutes. You can confirm that the data source is public by requesting data source information with the [Get Data Source Information](../spatial-data-services/get-data-source-information.md) API. Depending on the request and response format, one of the following parameters should be set to true: bsi:isPublic="true","IsPublic":"true", or IsPublic="true".  
+ The status of `Created` in the response indicates that the job to make the data source public has been created. This operation is expected to take only a few minutes. You can confirm that the data source is public by requesting data source information with the [Get Data Source Information](data-source-management-api/get-data-source-information.md) API. Depending on the request and response format, one of the following parameters should be set to true: bsi:isPublic="true","IsPublic":"true", or IsPublic="true".  
   
  **URL with XML Response**  
   

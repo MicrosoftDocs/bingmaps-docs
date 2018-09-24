@@ -3,6 +3,26 @@
     - msdn: https://msdn.microsoft.com/en-us/library/ff701713.aspx
       old-docs: index.md
       new-docs: index.md
+- path: v8-web-control
+  links: 
+    - msdn: 
+      old-docs: index.md
+      new-docs: index.md
+- path: getting-started
+  links: 
+    - msdn: 
+      old-docs: index.md
+      new-docs: index.md
+- path: articles
+  links: 
+    - msdn: 
+      old-docs: index.md
+      new-docs: index.md
+- path: coverage
+  links: 
+    - msdn: 
+      old-docs: index.md
+      new-docs: index.md
 - path: spatial-data-services
   links:
     - msdn: https://msdn.microsoft.com/en-us/library/ff701734.aspx

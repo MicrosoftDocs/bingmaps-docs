@@ -34,12 +34,13 @@ def print_error_data(error_data):
 
 def parse_msg(msg):
     '''Parse data from OBS report'''
-    objs = re.match(r'Invalid file link:\(\~\/([-\w]+)\/([-\w \/]+)\/([-\w]+)\.md\).', msg)
-
-    print(f"\n\tMSG: {msg}\n\tOBJ: {str(objs.groups() if objs else 'NaN')}\n")
+    # objs = re.match(r'Invalid file link:\(\~\/([-\w]+)\/([-\w]+\/)([-\w]+)\.md\).', msg)
+    obj = msg.split(':(')[1].split(').')[0] # re.match(r'Invalid file link:\(\~\/([\.-\w]+)\)', msg)
+    objs = obj.split('/')
+    print(f"\n\tMSG: {msg}\n\tOBJ: {str(objs if objs else 'NaN')}\n")
 
     if objs:
-        return objs.group(1), f'{objs.group(3)}.md'
+        return objs[1], objs[-1]
     return None
 
 def fit_array(array, _max):
