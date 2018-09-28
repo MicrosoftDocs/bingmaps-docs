@@ -1,5 +1,5 @@
 ---
-title: "Getting Streetside Tiles from Imagery Metadata" | Microsoft Docs"
+title: "Getting Streetside Tiles from Imagery Metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/29/2018"
 ms.reviewer: ""
