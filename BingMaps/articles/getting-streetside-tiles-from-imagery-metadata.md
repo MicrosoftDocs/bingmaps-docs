@@ -63,9 +63,9 @@ This field contains three placeholders: `subdomain`, `faceId`, and `tileId`. Her
 
 The `faceId` and `tileId` are integers which are used to label the available raw tiles for that location. 
 
-In the below picture, each tile is labeld with its `faceId` and `tileId` in the format: `"{faceId}-{tileID}"`. 
+In the below picture, each tile is labeled with its `faceId` and `tileId` in the format: `"{faceId}-{tileID}"`.
 
-![Streetside Metadata Image Pieced Together](media/MetaDataSample.jpeg)
+![Streetside Metadata Image Pieced Together](media/MetaDataSample.jpg)
 
 For example, to retieve the tile with `faceId = 0` and `tileId = 1` (letting `subdomain` be `t0`) we can use the following image URL:
 
