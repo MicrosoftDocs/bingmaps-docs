@@ -6,7 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 286ef8f3-b567-492c-885f-9117859be9b4
 caps.latest.revision: 6
 author: "v-chrfr"
 ms.author: "v-chrfr"
