@@ -1,7 +1,7 @@
 - name: Bing Maps Articles
   href: index.md
-   maintainContext: true 
-   items:
+  maintainContext: true 
+  items:
     - name: Accessing The Bing Maps Rest Services Using PHP
       href: accessing-the-bing-maps-rest-services-using-php.md
     - name: Accessing The Bing Spatial Data Services Using PHP
