@@ -1,0 +1,36 @@
+- name: Getting Started With Bing Maps
+  href: index.md
+  maintainContext: true 
+  items:
+    - name: Bing Maps Dev Center Help
+      href: bing-maps-dev-center-help/index.md
+      maintainContext: true 
+      items:
+        - name: What's New
+          href: bing-maps-dev-center-help/whats-new.md
+        - name: Creating A Bing Maps Account
+          href: bing-maps-dev-center-help/creating-a-bing-maps-account.md
+        - name: Getting A Bing Maps Key
+          href: bing-maps-dev-center-help/getting-a-bing-maps-key.md
+        - name: Understanding Bing Maps Transactions
+          href: bing-maps-dev-center-help/understanding-bing-maps-transactions.md
+        - name: Updating Your Bing Maps Account
+          href: bing-maps-dev-center-help/updating-your-bing-maps-account.md
+        - name: Geocoding And Managing Data Sources
+          href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/index.md
+          maintainContext: true
+          items: 
+            - name: Uploading And Publishing Entity Data To A Data Source
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/uploading-and-publishing-entity-data-to-a-data-source.md
+            - name: Editing A Data Source
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/editing-a-data-source.md
+            - name: Deleting A Data Source
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/deleting-a-data-source.md
+            - name: Downloading A Data Source
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/downloading-a-data-source.md
+            - name: Getting Data Source Information
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/getting-data-source-information.md
+            - name: Making A Data Source Public Or Private
+              href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/making-a-data-source-public-or-private.md
+    - name: Bing Maps Api Best Practices
+      href: bing-maps-api-best-practices.md

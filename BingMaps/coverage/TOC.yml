@@ -1,0 +1,24 @@
+- name: Bing Maps Geographic Coverage
+  href: index.md
+  maintainContext: true 
+  items: 
+    - name: Bing Maps Traffic Coverage
+      href: bing-maps-traffic-coverage.md
+    - name: Bing Maps Transit Coverage
+      href: bing-maps-transit-coverage/index.md
+      maintainContext: true 
+      items: 
+        - name: Africa Transit Coverage
+          href: bing-maps-transit-coverage/africa-transit-coverage.md
+        - name: Asia Australia Pacific Transit Coverage
+          href: bing-maps-transit-coverage/asia-australia-pacific-transit-coverage.md
+        - name: Europe Transit Coverage
+          href: bing-maps-transit-coverage/europe-transit-coverage.md
+        - name: Middle East Transit Coverage
+          href: bing-maps-transit-coverage/middle-east-transit-coverage.md
+        - name: North America Transit Coverage
+          href: bing-maps-transit-coverage/north-america-transit-coverage.md
+        - name: South America Transit Coverage
+          href: bing-maps-transit-coverage/south-america-transit-coverage.md
+    - name: Truck Routing Coverage
+      href: truck-routing-coverage.md

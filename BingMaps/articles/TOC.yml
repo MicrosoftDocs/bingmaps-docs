@@ -1,0 +1,26 @@
+- name: Bing Maps Articles
+  href: index.md
+   maintainContext: true 
+   items:
+    - name: Accessing The Bing Maps Rest Services Using PHP
+      href: accessing-the-bing-maps-rest-services-using-php.md
+    - name: Accessing The Bing Spatial Data Services Using PHP
+      href: accessing-the-bing-spatial-data-services-using-php.md
+    - name: Bing Maps Tile System
+      href: bing-maps-tile-system.md
+    - name: Create a Custom Map Url
+      href: create-a-custom-map-url.md
+    - name: Custom Map Styles in Bing Maps
+      href: custom-map-styles-in-bing-maps.md
+    - name: Geocoding Japanese Addresses
+      href: geocoding-japanese-addresses.md
+    - name: Geospatial Endpoint Service
+      href: geospatial-endpoint-service.md
+    - name: SSL Certificate Validation for Java Applications
+      href: ssl-certificate-validation-for-java-applications.md
+    - name: Understanding Scale and Resolution
+      href: understanding-scale-and-resolution.md
+    - name: Creating a Store Locator Using Bing Maps and Azure
+      href: creating-a-store-locator-using-bing-maps-and-azure.md
+    - name: Getting Streetside Tiles From Imagery Metadata
+      href: getting-streetside-tiles-from-imagery-metadata.md

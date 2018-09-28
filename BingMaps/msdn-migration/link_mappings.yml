@@ -3,26 +3,1086 @@
     - msdn: https://msdn.microsoft.com/en-us/library/ff701713.aspx
       old-docs: index.md
       new-docs: index.md
+
 - path: v8-web-control
   links: 
-    - msdn: 
-      old-docs: index.md
-      new-docs: index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712556.aspx
+      old-docs: getting-started-creating-and-hosting-a-map-control.md
+      new-docs: creating-and-hosting-map-controls/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712557.aspx
+      old-docs: creating-a-basic-map-control.md
+      new-docs: creating-and-hosting-map-controls/creating-a-basic-map-control.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712553.aspx
+      old-docs: setting-map-control-parameters.md
+      new-docs: creating-and-hosting-map-controls/setting-map-control-parameters.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712554.aspx
+      old-docs: map-control-branches.md
+      new-docs: creating-and-hosting-map-controls/map-control-branches.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712551.aspx
+      old-docs: customize-map-options-on-load-example.md
+      new-docs: creating-and-hosting-map-controls/customize-map-options-on-load-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712558.aspx
+      old-docs: map-control-concepts.md
+      new-docs: map-control-concepts/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt736400.aspx
+      old-docs: map.md
+      new-docs: map-control-concepts/map/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736397.aspx
+      old-docs: customize-map-options-on-load.md
+      new-docs: map-control-concepts/map/customize-map-options-on-load.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736398.aspx
+      old-docs: change-the-map-view.md
+      new-docs: map-control-concepts/map/change-the-map-view.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815137.aspx
+      old-docs: check-bird’s-eye-coverage-availability.md
+      new-docs: map-control-concepts/map/check-birds-eye-coverage-availability.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736399.aspx
+      old-docs: map-events.md
+      new-docs: map-control-concepts/map/map-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712640.aspx
+      old-docs: pushpins.md
+      new-docs: map-control-concepts/pushpins/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712679.aspx
+      old-docs: default-pushpin-with-text-example.md
+      new-docs: map-control-concepts/pushpins/default-pushpin-with-text-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750261.aspx
+      old-docs: changing-the-color-of-the-default-pushpin.md
+      new-docs: map-control-concepts/pushpins/changing-the-color-of-the-default-pushpin.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712698.aspx
+      old-docs: custom-image-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/custom-image-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712688.aspx
+      old-docs: custom-svg-file-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/custom-svg-file-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750262.aspx
+      old-docs: custom-inline-svg-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/custom-inline-svg-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750263.aspx
+      old-docs: dynamically-create-svg-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/dynamically-create-svg-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712676.aspx
+      old-docs: custom-base64-image-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/custom-base64-image-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712689.aspx
+      old-docs: custom-canvas-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/custom-canvas-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt764064.aspx
+      old-docs: font-based-pushpins.md
+      new-docs: map-control-concepts/pushpins/font-based-pushpins.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750264.aspx
+      old-docs: image-and-canvas-pushpin-example.md
+      new-docs: map-control-concepts/pushpins/image-and-canvas-pushpin-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750265.aspx
+      old-docs: pushpin-events-example.md
+      new-docs: map-control-concepts/pushpins/pushpin-events-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt761728.aspx
+      old-docs: pushpin-hover-style.md
+      new-docs: map-control-concepts/pushpins/pushpin-hover-style.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712695.aspx
+      old-docs: anchoring-pushpins.md
+      new-docs: map-control-concepts/pushpins/anchoring-pushpins.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712696.aspx
+      old-docs:  map-shapes-polylines-and-polygons.md
+      new-docs:  map-control-concepts/map-shapes-polylines-and-polygons/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712680.aspx
+      old-docs: basic-polyline-example.md
+      new-docs: map-control-concepts/map-shapes-polylines-and-polygons/basic-polyline-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750643.aspx
+      old-docs: polyline-events.md
+      new-docs: map-control-concepts/map-shapes-polylines-and-polygons/polyline-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712691.aspx
+      old-docs: basic-polygon-example.md
+      new-docs: map-control-concepts/map-shapes-polylines-and-polygons/basic-polygon-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712692.aspx
+      old-docs: polygons-with-holes-example.md
+      new-docs: map-control-concepts/map-shapes-polylines-and-polygons/polygons-with-holes-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750268.aspx
+      old-docs: polygon-events.md
+      new-docs: map-control-concepts/map-shapes-polylines-and-polygons/polygon-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712654.aspx
+      old-docs: infoboxes.md
+      new-docs: map-control-concepts/infoboxes/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712670.aspx
+      old-docs: basic-infobox-example.md
+      new-docs: map-control-concepts/infoboxes/basic-infobox-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750270.aspx
+      old-docs: infobox-with-options.md
+      new-docs: map-control-concepts/infoboxes/infobox-with-options.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750271.aspx
+      old-docs: custom-html-infobox.md
+      new-docs: map-control-concepts/infoboxes/custom-html-infobox.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750272.aspx
+      old-docs: infobox-when-pushpin-clicked.md
+      new-docs: map-control-concepts/infoboxes/infobox-when-pushpin-clicked.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750274.aspx
+      old-docs: multiple-pushpins-and-infoboxes.md
+      new-docs: map-control-concepts/infoboxes/multiple-pushpins-and-infoboxes.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750273.aspx
+      old-docs: infobox-when-shape-clicked.md
+      new-docs: map-control-concepts/infoboxes/infobox-when-shape-clicked.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750275.aspx
+      old-docs: expanding-tooltip-infobox.md
+      new-docs: map-control-concepts/infoboxes/expanding-tooltip-infobox.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712685.aspx
+      old-docs: layers.md
+      new-docs: map-control-concepts/layers/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750277.aspx
+      old-docs: data-layer-events.md
+      new-docs: map-control-concepts/layers/data-layer-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712668.aspx
+      old-docs: basic-tile-layer-example.md
+      new-docs: map-control-concepts/layers/basic-tile-layer-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786501.aspx
+      old-docs: x-y-zoom-tilelayer.md
+      new-docs: map-control-concepts/layers/x-y-zoom-tilelayer.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt762880.aspx
+      old-docs: wms-tile-layer-example.md
+      new-docs: map-control-concepts/layers/wms-tile-layer-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786502.aspx
+      old-docs: base-map-tile-layer-example.md
+      new-docs: map-control-concepts/layers/base-map-tile-layer-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772215.aspx
+      old-docs: animated-weather-radar-map.md
+      new-docs: map-control-concepts/layers/animated-weather-radar-map.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772216.aspx
+      old-docs: animatedtilelayer-events.md
+      new-docs: map-control-concepts/layers/animatedtilelayer-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772217.aspx
+      old-docs: controlling-an-animatedtilelayer.md
+      new-docs: map-control-concepts/layers/controlling-an-animatedtilelayer.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712678.aspx
+      old-docs: colors.md
+      new-docs: map-control-concepts/colors.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815193.aspx
+      old-docs: configuration-driven-maps-framework.md
+      new-docs: map-control-concepts/configuration-driven-maps-framework/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815189.aspx
+      old-docs: iframeable-configuration-map-example.md
+      new-docs: map-control-concepts/configuration-driven-maps-framework/iframeable-configuration-map-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815190.aspx
+      old-docs: load-a-configurable-map-with-code-example.md
+      new-docs: map-control-concepts/configuration-driven-maps-framework/load-a-configurable-map-with-code-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt762874.aspx
+      old-docs: custom-overlays.md
+      new-docs: map-control-concepts/custom-overlays/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762875.aspx
+      old-docs: simple-static-overlay.md
+      new-docs: map-control-concepts/custom-overlays/simple-static-overlay.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762876.aspx
+      old-docs: topography-overlay.md
+      new-docs: map-control-concepts/custom-overlays/topography-overlay.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762877.aspx
+      old-docs: html-pushpin-overlay.md
+      new-docs: map-control-concepts/custom-overlays/html-pushpin-overlay.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762878.aspx
+      old-docs: dynamic-canvas-overlay.md
+      new-docs: map-control-concepts/custom-overlays/dynamic-canvas-overlay.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712664.aspx
+      old-docs: event-examples.md
+      new-docs: map-control-concepts/event-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt790077.aspx
+      old-docs: right-click-events-for-shapes.md
+      new-docs: map-control-concepts/event-examples/right-click-events-for-shapes.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712653.aspx
+      old-docs: modular-framework.md
+      new-docs: map-control-concepts/modular-framework/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712649.aspx
+      old-docs: module-loading-methods.md
+      new-docs: map-control-concepts/modular-framework/module-loading-methods.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712684.aspx
+      old-docs: implementing-modules.md
+      new-docs: map-control-concepts/modular-framework/implementing-modules.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712694.aspx
+      old-docs: creating-custom-modules.md
+      new-docs: map-control-concepts/modular-framework/creating-custom-modules.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750287.aspx
+      old-docs: autosuggest-module-example.md
+      new-docs: map-control-concepts/autosuggest-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712699.aspx
+      old-docs: default-autosuggest-user-interface-example.md
+      new-docs: map-control-concepts/autosuggest-module-examples/default-autosuggest-user-interface-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712675.aspx
+      old-docs: filling-in-an-address-form-example.md
+      new-docs: map-control-concepts/autosuggest-module-examples/filling-in-an-address-form-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750362.aspx
+      old-docs: clustering-module-examples.md
+      new-docs: clustering-module-examples.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712817.aspx
+      old-docs: basic-clustering-example.md
+      new-docs: map-control-concepts/clustering-module-examples/basic-clustering-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750347.aspx
+      old-docs: customizing-clustered-pushpins.md
+      new-docs: map-control-concepts/clustering-module-examples/customizing-clustered-pushpins.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750644.aspx
+      old-docs: clusters-with-a-list-and-linking.md
+      new-docs: map-control-concepts/clustering-module-examples/clusters-with-a-list-and-linking.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750348.aspx
+      old-docs: zoom-into-clusters.md
+      new-docs: map-control-concepts/clustering-module-examples/zoom-into-clusters.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786477.aspx
+      old-docs: contour-module-examples.md
+      new-docs: map-control-concepts/contour-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786445.aspx
+      old-docs: basic-contour-layer.md
+      new-docs: map-control-concepts/contour-module-examples/basic-contour-layer.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786476.aspx
+      old-docs: contours-from-geojson-data.md
+      new-docs: map-control-concepts/contour-module-examples/contours-from-geojson-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786498.aspx
+      old-docs: data-binning-module-examples.md
+      new-docs: map-control-concepts/data-binning-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786497.aspx
+      old-docs: data-binning-layer-events.md
+      new-docs: map-control-concepts/data-binning-module-examples/data-binning-layer-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786496.aspx
+      old-docs: bivariant-data-binning.md
+      new-docs: map-control-concepts/data-binning-module-examples/bivariant-data-binning.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786495.aspx
+      old-docs: color-scale-gradient-data-bins.md
+      new-docs: map-control-concepts/data-binning-module-examples/color-scale-gradient-data-bins.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750406.aspx
+      old-docs: directions-module-examples.md
+      new-docs: map-control-concepts/directions-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736733.aspx
+      old-docs: directions-input-panel.md
+      new-docs: map-control-concepts/directions-module-examples/directions-input-panel.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750408.aspx
+      old-docs: calculate-driving-directions.md
+      new-docs: map-control-concepts/directions-module-examples/calculate-driving-directions.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750402.aspx
+      old-docs: calculate-transit-directions.md
+      new-docs: map-control-concepts/directions-module-examples/calculate-transit-directions.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750407.aspx
+      old-docs: directions-module-events.md
+      new-docs: map-control-concepts/directions-module-examples/directions-module-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt842244.aspx
+      old-docs: directions-with-options.md
+      new-docs: map-control-concepts/directions-module-examples/directions-with-options.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750468.aspx
+      old-docs: drawing-tools-module-examples
+      new-docs: map-control-concepts/drawing-tools-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750465.aspx
+      old-docs: display-drawing-toolbar-on-map.md
+      new-docs: map-control-concepts/drawing-tools-module-examples/display-drawing-toolbar-on-map.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750466.aspx
+      old-docs: drawingmanager-events.md
+      new-docs: map-control-concepts/drawing-tools-module-examples/drawingmanager-events.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750464.aspx
+      old-docs: edit-an-existing-shape.md
+      new-docs: map-control-concepts/drawing-tools-module-examples/edit-an-existing-shape.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt757098.aspx
+      old-docs: get-shapes-from-drawingmanager.md
+      new-docs: map-control-concepts/drawing-tools-module-examples/get-shapes-from-drawingmanager.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750522.aspx
+      old-docs: geojson-module-examples.md
+      new-docs: map-control-concepts/geojson-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712814.aspx
+      old-docs: read-local-geojson-object-example.md
+      new-docs: map-control-concepts/geojson-module-examples/read-local-geojson-object-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750523.aspx
+      old-docs: read-geojson-using-html5-filereader.md
+      new-docs: map-control-concepts/geojson-module-examples/read-geojson-using-html5-filereader.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712818.aspx
+      old-docs: read-same-domain-geojson-example.md
+      new-docs: map-control-concepts/geojson-module-examples/read-same-domain-geojson-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712812.aspx
+      old-docs: read-geojson-from-the-web-using-jsonp-example.md
+      new-docs: map-control-concepts/geojson-module-examples/read-geojson-from-the-web-using-jsonp-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712837.aspx
+      old-docs: write-bing-maps-shape-as-geojson-example.md
+      new-docs: map-control-concepts/geojson-module-examples/write-bing-maps-shape-as-geojson-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825146.aspx
+      old-docs: geoxml-module-examples.md
+      new-docs: map-control-concepts/geoxml-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825139.aspx
+      old-docs: read-geospatial-xml-string.md
+      new-docs: map-control-concepts/geoxml-module-examples/read-geospatial-xml-string.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825140.aspx
+      old-docs: read-geospatial-xml-from-url.md
+      new-docs: map-control-concepts/geoxml-module-examples/read-geospatial-xml-from-url.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825141.aspx
+      old-docs: read-geoxmllayer-with-xml-string.md
+      new-docs: map-control-concepts/geoxml-module-examples/read-geoxmllayer-with-xml-string.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825142.aspx
+      old-docs: read-geospatial-xml-files-from-same-domain.md
+      new-docs: map-control-concepts/geoxml-module-examples/read-geospatial-xml-files-from-same-domain.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825143.aspx
+      old-docs: reading-geospatial-xml-files-cross-domain.md
+      new-docs: map-control-concepts/geoxml-module-examples/reading-geospatial-xml-files-cross-domain.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825144.aspx
+      old-docs: writing-geospatial-xml-data.md
+      new-docs: map-control-concepts/geoxml-module-examples/writing-geospatial-xml-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750530.aspx
+      old-docs: heat-map-module-examples.md
+      new-docs: map-control-concepts/heat-map-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712854.aspx
+      old-docs: heat-map-color-gradients.md
+      new-docs: map-control-concepts/heat-map-module-examples/heat-map-color-gradients.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712853.aspx
+      old-docs: basic-heat-map-example.md
+      new-docs: map-control-concepts/heat-map-module-examples/basic-heat-map-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712848.aspx
+      old-docs: customized-heat-map-example.md
+      new-docs: map-control-concepts/heat-map-module-examples/customized-heat-map-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750528.aspx
+      old-docs: render-geojson-as-heat-map.md
+      new-docs: map-control-concepts/heat-map-module-examples/render-geojson-as-heat-map.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750534.aspx
+      old-docs: search-module-examples.md
+      new-docs: map-control-concepts/search-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712841.aspx
+      old-docs: basic-geocode-example.md
+      new-docs: map-control-concepts/search-module-examples/basic-geocode-example.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712820.aspx
+      old-docs: user-input-geocode-example.md
+      new-docs: map-control-concepts/search-module-examples/user-input-geocode-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712856.aspx
+      old-docs: basic-reverse-geocode-example.md
+      new-docs: map-control-concepts/search-module-examples/basic-reverse-geocode-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750554.aspx
+      old-docs: spatial-data-services-module-examples.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750625.aspx
+      old-docs: geodata-api.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/geodata-api/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712851.aspx
+      old-docs: load-single-boundary-geodata-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/geodata-api/load-single-boundary-geodata-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712855.aspx
+      old-docs: search-boundary-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/geodata-api/search-boundary-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712877.aspx
+      old-docs: load-multiple-boundaries-geodata-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/geodata-api/load-multiple-boundaries-geodata-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750623.aspx
+      old-docs: query-api.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750557.aspx
+      old-docs: find-by-property-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/find-by-property-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712869.aspx
+      old-docs: find-nearby-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/find-nearby-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt761782.aspx
+      old-docs: along-a-route-search.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/along-a-route-search.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750621.aspx
+      old-docs: basic-intersection-search-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/basic-intersection-search-example.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712861.aspx
+      old-docs: choropleth-map-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712876.aspx
+      old-docs: paged-search-results-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/query-api/paged-search-results-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750552.aspx
+      old-docs: filter-example.md
+      new-docs: map-control-concepts/spatial-data-services-module-examples/filter-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750642.aspx
+      old-docs: spatial-math-module-examples.md
+      new-docs: map-control-concepts/spatial-math-module-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750637.aspx
+      old-docs: basic-core-spatial-math-example.md
+      new-docs: map-control-concepts/spatial-math-module-examples/basic-core-spatial-math-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750638.aspx
+      old-docs: geolocation-accuracy-circle-example.md
+      new-docs: map-control-concepts/spatial-math-module-examples/geolocation-accuracy-circle-example.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762902.aspx
+      old-docs: geometry-binary-operations.md
+      new-docs: map-control-concepts/spatial-math-module-examples/geometry-binary-operations.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt761785.aspx
+      old-docs: calculate-tile-bounds.md
+      new-docs: map-control-concepts/spatial-math-module-examples/calculate-tile-bounds.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750540.aspx
+      old-docs: traffic-module-examples.md
+      new-docs: map-control-concepts/traffic-module-examples.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750536.aspx
+      old-docs: well-known-text-example.md
+      new-docs: map-control-concepts/well-known-text-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712843.aspx
+      old-docs: well-known-text-read-example.md
+      new-docs: map-control-concepts/well-known-text-examples/well-known-text-read-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712873.aspx
+      old-docs: well-known-text-write-example.md
+      new-docs: map-control-concepts/well-known-text-examples/well-known-text-write-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750456.aspx
+      old-docs: point-compression-example.md
+      new-docs: map-control-concepts/point-compression-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750646.aspx
+      old-docs: test-data-generator-example.md
+      new-docs: map-control-concepts/test-data-generator-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712802.aspx
+      old-docs: user-location.md
+      new-docs: map-control-concepts/user-location/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712801.aspx
+      old-docs: displaying-a-user-location-example.md
+      new-docs: map-control-concepts/user-location/displaying-a-user-location-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712803.aspx
+      old-docs: continuously-tracking-a-user-location-example.md
+      new-docs: map-control-concepts/user-location/continuously-tracking-a-user-location-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt793281.aspx
+      old-docs: rest-services-examples.md
+      new-docs: map-control-concepts/rest-services-examples/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt793279.aspx
+      old-docs: elevation-profiles.md
+      new-docs: map-control-concepts/rest-services-examples/elevation-profiles.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712552.aspx
+      old-docs: map-control-api-reference.md
+      new-docs: map-control-api/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772206.aspx
+      old-docs: animatedtilelayer-class.md
+      new-docs: map-control-api/animatedtilelayer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772207.aspx
+      old-docs: animatedtilelayeroptions-object.md
+      new-docs: map-control-api/animatedtilelayeroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772208.aspx
+      old-docs: animatedframeeventargs-object.md
+      new-docs: map-control-api/animatedframeeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712639.aspx
+      old-docs: color-class.md
+      new-docs: map-control-api/color-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt815195.aspx
+      old-docs: configurablemap-class.md
+      new-docs: map-control-api/configurablemap-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815194.aspx
+      old-docs: configurablemapmodule-object.md
+      new-docs: map-control-api/configurablemapmodule-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815191.aspx
+      old-docs: configurablemapoptions-object.md
+      new-docs: map-control-api/configurablemapoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt762871.aspx
+      old-docs: customoverlay-class.md
+      new-docs: map-control-api/customoverlay-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt762872.aspx
+      old-docs: customoverlayoptions-object.md
+      new-docs: map-control-api/customoverlayoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736910.aspx
+      old-docs: entitycollection-class.md
+      new-docs: map-control-api/entitycollection-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736909.aspx
+      old-docs: entitycollectionchangedeventargs-object.md
+      new-docs: map-control-api/entitycollectionchangedeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750279.aspx
+      old-docs: events-class.md
+      new-docs: map-control-api/events-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825054.aspx
+      old-docs: groundoverlay-class.md
+      new-docs: map-control-api/groundoverlay-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825055.aspx
+      old-docs: groundoverlayoptions-object.md
+      new-docs: map-control-api/groundoverlayoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt823531.aspx
+      old-docs: heading-enumeration.md
+      new-docs: map-control-api/heading-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712643.aspx
+      old-docs: infobox-class.md
+      new-docs: map-control-api/infobox-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712661.aspx
+      old-docs: infoboxactions-object.md
+      new-docs: map-control-api/infoboxactions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772205.aspx
+      old-docs: infoboxeventargs-object.md
+      new-docs: map-control-api/infoboxeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712658.aspx
+      old-docs: infoboxoptions-object.md
+      new-docs: map-control-api/infoboxoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712645.aspx
+      old-docs: iprimitive-class.md
+      new-docs: map-control-api/iprimitive-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt761726.aspx
+      old-docs: iprimitivechangedeventargs-object.md
+      new-docs: map-control-api/iprimitivechangedeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736396.aspx
+      old-docs: labeloverlay-enumeration.md
+      new-docs: map-control-api/labeloverlay-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712656.aspx
+      old-docs: layer-class.md
+      new-docs: map-control-api/layer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt748659.aspx
+      old-docs: layercollection-class.md
+      new-docs: map-control-api/layercollection-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712687.aspx
+      old-docs: location-class.md
+      new-docs: map-control-api/location-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712644.aspx
+      old-docs: locationrect-class.md
+      new-docs: map-control-api/locationrect-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712547.aspx
+      old-docs: map-class.md
+      new-docs: map-control-api/map-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712646.aspx
+      old-docs: mapoptions-object.md
+      new-docs: map-control-api/mapoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt761725.aspx
+      old-docs: maptypeeventargs-object.md
+      new-docs: map-control-api/maptypeeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712700.aspx
+      old-docs: maptypeid-enumeration.md
+      new-docs: map-control-api/maptypeid-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712651.aspx
+      old-docs: moduleoptions-object.md
+      new-docs: map-control-api/moduleoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt748664.aspx
+      old-docs: mouseeventargs-object.md
+      new-docs: map-control-api/mouseeventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736390.aspx
+      old-docs: navigationbarmode-enumeration.md
+      new-docs: map-control-api/navigationbarmode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt736394.aspx
+      old-docs: navigationbarorientation-enumeration.md
+      new-docs: map-control-api/navigationbarorientation-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712682.aspx
+      old-docs: overviewmapmode-enumeration.md
+      new-docs: map-control-api/overviewmapmode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt802014.aspx
+      old-docs: panoramainfo-object.md
+      new-docs: map-control-api/panoramainfo-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712683.aspx
+      old-docs: pixelreference-enumeration.md
+      new-docs: map-control-api/pixelreference-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712693.aspx
+      old-docs: point-class.md
+      new-docs: map-control-api/point-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750455.aspx
+      old-docs: pointcompression-class.md
+      new-docs: map-control-api/pointcompression-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712647.aspx
+      old-docs: polygon-class.md
+      new-docs: map-control-api/polygon-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712648.aspx
+      old-docs: polygonoptions-object.md
+      new-docs: map-control-api/polygonoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712636.aspx
+      old-docs: polyline-class.md
+      new-docs: map-control-api/polyline-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712655.aspx
+      old-docs: polylineoptions-object.md
+      new-docs: map-control-api/polylineoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt815188.aspx
+      old-docs: postmoduleaction-object.md
+      new-docs: map-control-api/postmoduleaction-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712674.aspx
+      old-docs: pushpin-class.md
+      new-docs: map-control-api/pushpin-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712673.aspx
+      old-docs: pushpinoptions-object.md
+      new-docs: map-control-api/pushpinoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712652.aspx
+      old-docs: pyramidtileid-class.md
+      new-docs: map-control-api/pyramidtileid-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt748665.aspx
+      old-docs: range-object.md
+      new-docs: map-control-api/range-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712662.aspx
+      old-docs: streetsideoptions-object.md
+      new-docs: map-control-api/streetsideoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712659.aspx
+      old-docs: stylesoptions-object.md
+      new-docs: map-control-api/stylesoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712874.aspx
+      old-docs: testdatagenerator-class.md
+      new-docs: map-control-api/testdatagenerator-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712660.aspx
+      old-docs: tilelayer-class.md
+      new-docs: map-control-api/tilelayer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712686.aspx
+      old-docs: tilelayeroptions-object.md
+      new-docs: map-control-api/tilelayeroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712665.aspx
+      old-docs: tilesource-class.md
+      new-docs: map-control-api/tilesource-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712690.aspx
+      old-docs: tilesourceoptions-object.md
+      new-docs: map-control-api/tilesourceoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712641.aspx
+      old-docs: viewoptions-object.md
+      new-docs: map-control-api/viewoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712663.aspx
+      old-docs: modules.md
+      new-docs: modules/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712650.aspx
+      old-docs: autosuggest-module.md
+      new-docs: modules/autosuggest-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712671.aspx
+      old-docs: autosuggestmanager-class.md
+      new-docs: modules/autosuggest-module/autosuggestmanager-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712667.aspx
+      old-docs: autosuggestoptions-object.md
+      new-docs: modules/autosuggest-module/autosuggestoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712672.aspx
+      old-docs: suggestionresult-object.md
+      new-docs: modules/autosuggest-module/suggestionresult-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712657.aspx
+      old-docs: address-object.md
+      new-docs: modules/autosuggest-module/address-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712807.aspx
+      old-docs: clustering-module.md
+      new-docs: modules/clustering-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712808.aspx
+      old-docs: clusterlayer-class.md
+      new-docs: modules/clustering-module/clusterlayer-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712813.aspx
+      old-docs: clusterlayeroptions-object.md
+      new-docs: modules/clustering-module/clusterlayeroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712805.aspx
+      old-docs: clusterplacementtype-enumeration.md
+      new-docs: modules/clustering-module/clusterplacementtype-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712804.aspx
+      old-docs: clusterpushpin-class.md
+      new-docs: modules/clustering-module/clusterpushpin-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786479.aspx
+      old-docs: contour-module.md
+      new-docs: modules/contour-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt786441.aspx
+      old-docs: contourlayer-class.md
+      new-docs: modules/contour-module/contourlayer-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt786441.aspx 
+      old-docs: contourlayeroptions-object.md 
+      new-docs: modules/contour-module/contourlayeroptions-object.md 
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786442.aspx
+      old-docs: contourline-class.md
+      new-docs: modules/contour-module/contourline-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt743067.aspx
+      old-docs: data-binning-module.md
+      new-docs: modules/data-binning-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt786489.aspx
+      old-docs: databinninglayer-class.md
+      new-docs: modules/data-binning-module/databinninglayer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786490.aspx
+      old-docs: databinningoptions-object.md
+      new-docs: modules/data-binning-module/databinningoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786491.aspx
+      old-docs: databininfo-object.md
+      new-docs: modules/data-binning-module/databininfo-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786492.aspx
+      old-docs: databinmetrics-object.md
+      new-docs: modules/data-binning-module/databinmetrics-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt786493.aspx
+      old-docs: databinpolygon-class.md
+      new-docs: modules/data-binning-module/databinpolygon-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt786494.aspx
+      old-docs: databintype-enumeration.md
+      new-docs: modules/data-binning-module/databintype-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt748655.aspx
+      old-docs: directions-module.md
+      new-docs: modules/directions-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750376.aspx
+      old-docs: directionserroreventargs-object.m
+      new-docs: modules/directions-module/directionserroreventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750364.aspx
+      old-docs: directionseventargs-object.md
+      new-docs: modules/directions-module/directionseventargs-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750375.aspx
+      old-docs: directionsmanager-class.md
+      new-docs: modules/directions-module/directionsmanager-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750365.aspx
+      old-docs: directionsrenderoptions-object.md
+      new-docs: modules/directions-module/directionsrenderoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750373.aspx
+      old-docs: directionsrequestoptions-object.md
+      new-docs: modules/directions-module/directionsrequestoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750377.aspx
+      old-docs: directionsstep-object.md
+      new-docs: modules/directions-module/directionsstep-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt493456.aspx
+      old-docs: directionsstepwarning.md
+      new-docs: modules/directions-module/directionsstepwarning.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750374.aspx
+      old-docs: distanceunit-enumeration.md
+      new-docs: modules/directions-module/distanceunit-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750645.aspx
+      old-docs: route-object.md
+      new-docs: modules/directions-module/route-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750366.aspx
+      old-docs: routeavoidance-enumeration.md
+      new-docs: modules/directions-module/routeavoidance-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750381.aspx
+      old-docs: routeleg-object.md
+      new-docs: modules/directions-module/routeleg-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750367.aspx
+      old-docs: routemode-enumeration.md
+      new-docs: modules/directions-module/routemode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750370.aspx
+      old-docs: routeoptimization-enumeration.md
+      new-docs: modules/directions-module/routeoptimization-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750371.aspx
+      old-docs: routeresponsecode-enumeration.md
+      new-docs: modules/directions-module/routeresponsecode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750378.aspx
+      old-docs: routesubleg-object.md
+      new-docs: modules/directions-module/routesubleg-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750380.aspx
+      old-docs: routesummary-object.md
+      new-docs: modules/directions-module/routesummary-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750372.aspx
+      old-docs: timetypes-enumeration.md
+      new-docs: modules/directions-module/timetypes-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt727954.aspx
+      old-docs: transitline-object.md
+      new-docs: modules/directions-module/transitline-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt845770.aspx
+      old-docs: vehiclespec-object.md
+      new-docs: modules/directions-module/vehiclespec-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750369.aspx
+      old-docs: waypoint-class.md
+      new-docs: modules/directions-module/waypoint-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750368.aspx
+      old-docs: waypointoptions-object.md
+      new-docs: modules/directions-module/waypointoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750543.aspx
+      old-docs: drawing-tools-module.md
+      new-docs: modules/drawing-tools-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt844792.aspx
+      old-docs: drawingbaraction-enumeration.md
+      new-docs: modules/drawing-tools-module/drawingbaraction-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750462.aspx
+      old-docs: drawingmanager-class.md
+      new-docs: modules/drawing-tools-module/drawingmanager-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825056.aspx
+      old-docs: drawingmanageroptions-object.md
+      new-docs: modules/drawing-tools-module/drawingmanageroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750461.aspx
+      old-docs: drawingmode-enumeration.md
+      new-docs: modules/drawing-tools-module/drawingmode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt772212.aspx
+      old-docs: drawingmodechangeddata-object.md
+      new-docs: modules/drawing-tools-module/drawingmodechangeddata-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750463.aspx
+      old-docs: drawingtools-class.md
+      new-docs: modules/drawing-tools-module/drawingtools-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750460.aspx
+      old-docs: shapetype-enumeration.md
+      new-docs: modules/drawing-tools-module/shapetype-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712806.aspx
+      old-docs: geojson-module.md
+      new-docs: modules/geojson-module/index.md
+    - msdn: *************************************************************************
+      old-docs: geojsonreadoptions-object.md
+      new-docs: modules/geojson-module/geojsonreadoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt825057.aspx
+      old-docs: geoxml-module.md
+      new-docs: modules/geoxml-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825070.aspx
+      old-docs: geoxml-class.md
+      new-docs: modules/geoxml-module/geoxml-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825061.aspx
+      old-docs: geoxmlcompressedformat-enumeration.md
+      new-docs: modules/geoxml-module/geoxmlcompressedformat-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825060.aspx
+      old-docs: geoxmldataset-object.md
+      new-docs: modules/geoxml-module/geoxmldataset-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825059.aspx
+      old-docs: geoxmlformat-enumeration.md
+      new-docs: modules/geoxml-module/geoxmlformat-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825069.aspx
+      old-docs: geoxmllayer-class.md
+      new-docs: modules/geoxml-module/geoxmllayer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825068.aspx
+      old-docs: geoxmllayeroptions-object.md
+      new-docs: modules/geoxml-module/geoxmllayeroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825062.aspx
+      old-docs: geoxmlreadoptions-object.md
+      new-docs: modules/geoxml-module/geoxmlreadoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825067.aspx
+      old-docs: geoxmlstats-object.md
+      new-docs: modules/geoxml-module/geoxmlstats-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825066.aspx
+      old-docs: geoxmlsummarymetadata-object.md
+      new-docs: modules/geoxml-module/geoxmlsummarymetadata-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825065.aspx
+      old-docs: geoxmlwriteoptions-object.md
+      new-docs: modules/geoxml-module/geoxmlwriteoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825064.aspx
+      old-docs: kmlscreenoverlay-class.md
+      new-docs: modules/geoxml-module/kmlscreenoverlay-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt825063.aspx
+      old-docs: /screenoverlayoptions-object.md
+      new-docs: modules/geoxml-module/kmlscreenoverlayoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712868.aspx
+      old-docs: heat-map-module.md
+      new-docs: modules/heat-map-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712811.aspx
+      old-docs: heatmaplayer-class.md
+      new-docs: modules/heat-map-module/heatmaplayer-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712810.aspx
+      old-docs: heatmaplayeroptions-object.md
+      new-docs: modules/heat-map-module/heatmaplayeroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712846.aspx
+      old-docs: search-module.md
+      new-docs: modules/search-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712825.aspx
+      old-docs: address-object.md
+      new-docs: modules/search-module/address-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712845.aspx
+      old-docs: geocodelocation-object.md
+      new-docs: modules/search-module/geocodelocation-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712822.aspx
+      old-docs: geocoderequestoptions-object.md
+      new-docs: modules/search-module/geocoderequestoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712827.aspx
+      old-docs: geocoderesult-object.md
+      new-docs: modules/search-module/geocoderesult-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750531.aspx
+      old-docs: matchcode-enumeration.md
+      new-docs: modules/search-module/matchcode-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750532.aspx
+      old-docs: matchconfidence-enumeration.md
+      new-docs: modules/search-module/matchconfidence-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712833.aspx
+      old-docs: placeresult-object.md
+      new-docs: modules/search-module/placeresult-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712816.aspx
+      old-docs: reversegeocoderequestoptions-object.md
+      new-docs: modules/search-module/reversegeocoderequestoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712821.aspx
+      old-docs: searchmanager-class.md
+      new-docs: modules/search-module/searchmanager-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712849.aspx
+      old-docs: spatial-data-service-module.md
+      new-docs: modules/spatial-data-service-module/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712828.aspx
+      old-docs: queryapimanager-class.md
+      new-docs: modules/spatial-data-service-module/queryapimanager-class.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712857.aspx
+      old-docs: queryapioptions-object.md
+      new-docs: modules/spatial-data-service-module/queryapioptions-object.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712823.aspx
+      old-docs: spatialfilteroptions-object.md
+      new-docs: modules/spatial-data-service-module/spatialfilteroptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750551.aspx
+      old-docs: filter-class.md
+      new-docs: modules/spatial-data-service-module/filter-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712835.aspx
+      old-docs: filtergroup-class.md
+      new-docs: modules/spatial-data-service-module/filtergroup-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712829.aspx
+      old-docs: filtercompareoperator-enumeration.md
+      new-docs: modules/spatial-data-service-module/filtercompareoperator-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712824.aspx
+      old-docs: filterlogicaloperator-enumeration.md
+      new-docs: modules/spatial-data-service-module/filterlogicaloperator-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt712862.aspx
+      old-docs: geodataapimanager-class.md
+      new-docs: modules/spatial-data-service-module/geodataapimanager-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712819.aspx
+      old-docs: getboundaryrequestoptions-object.md
+      new-docs: modules/spatial-data-service-module/getboundaryrequestoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712815.aspx
+      old-docs: geodataresultset-object.md
+      new-docs: modules/spatial-data-service-module/geodataresultset-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712831.aspx
+      old-docs: geodataresult-object.md
+      new-docs: modules/spatial-data-service-module/geodataresult-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712832.aspx
+      old-docs: metadata-object.md
+      new-docs: modules/spatial-data-service-module/metadata-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712842.aspx
+      old-docs: name-object.md
+      new-docs: modules/spatial-data-service-module/name-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712840.aspx
+      old-docs: geodataprimitive-object.md
+      new-docs: modules/spatial-data-service-module/geodataprimitive-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712839.aspx
+      old-docs: copyright-object.md
+      new-docs: modules/spatial-data-service-module/copyright-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712826.aspx
+      old-docs: copyrightsource-object.md
+      new-docs: modules/spatial-data-service-module/copyrightsource-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712834.aspx
+      old-docs: spatial-math-module.md
+      new-docs: modules/spatial-math-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712858.aspx
+      old-docs: areaunits-enumeration.md
+      new-docs: modules/spatial-math-module/areaunits-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt762858.aspx
+      old-docs: bufferendcap-enumeration.md
+      new-docs: modules/spatial-math-module/bufferendcap-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt750541.aspx
+      old-docs: core-calculations.md
+      new-docs: modules/spatial-math-module/core-calculations.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712838.aspx
+      old-docs: distanceunits-enumeration.md
+      new-docs: modules/spatial-math-module/distanceunits-enumeration.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt762861.aspx
+      old-docs: geometry-calculations.md
+      new-docs: modules/spatial-math-module/geometry-calculations.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712836.aspx
+      old-docs: tile-calculations.md
+      new-docs: modules/spatial-math-module/tile-calculations.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712860.aspx
+      old-docs: traffic-module.md
+      new-docs: modules/traffic-module/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712844.aspx
+      old-docs: trafficmanager-class.md
+      new-docs: modules/traffic-module/trafficmanager-class.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750631.aspx
+      old-docs: trafficoptions-object.md
+      new-docs: modules/traffic-module/trafficoptions-object.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712880.aspx
+      old-docs: well-known-text-module.md
+      new-docs: modules/well-known-text-module.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712875.aspx
+      old-docs: articles.md
+      new-docs: articles/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712870.aspx
+      old-docs: code-optimizations-in-v8.md
+      new-docs: articles/code-optimizations-in-v8.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt793328.aspx
+      old-docs: cross-platform-bing-maps-v8-apps.md
+      new-docs: articles/cross-platform-bing-maps-v8-apps.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750537.aspx
+      old-docs: map-keyboard-shortcuts.md
+      new-docs: articles/map-keyboard-shortcuts.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750538.aspx
+      old-docs: vector-map-labels.md
+      new-docs: articles/vector-map-labels.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt791033.aspx
+      old-docs: zindexing-in-bing-maps-v8.md
+      new-docs: articles/zindexing-in-bing-maps-v8.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt712867.aspx
+      old-docs: supported-browsers.md
+      new-docs: supported-browsers.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt770019.aspx
+      old-docs: developer-resources.md
+      new-docs: developer-resources.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt750629.aspx
+      old-docs: what-s-new.md
+      new-docs: whats-new.md 
 - path: getting-started
   links: 
-    - msdn: 
+    - msdn: https://msdn.microsoft.com/en-us/library/ff428643.aspx
       old-docs: index.md
       new-docs: index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg605201.aspx
+      old-docs: bing-maps-dev-center-help.md
+      new-docs: bing-maps-dev-center-help/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh708774.aspx
+      old-docs: whats-new.md
+      new-docs: bing-maps-dev-center-help/whats-new.md
+    - msdn: https://msdn.microsoft.com/en-US/library/gg650598.aspx
+      old-docs: creating-a-bing-maps-account.md
+      new-docs: bing-maps-dev-center-help/creating-a-bing-maps-account.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff428642.aspx
+      old-docs: getting-a-bing-maps-key.md
+      new-docs: bing-maps-dev-center-help/getting-a-bing-maps-key.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff859477.aspx
+      old-docs: understanding-bing-maps-transactions.md
+      new-docs: bing-maps-dev-center-help/understanding-bing-maps-transactions.md
+    - msdn: https://msdn.microsoft.com/en-US/library/hh290821.aspx
+      old-docs: updating-your-bing-maps-account.md
+      new-docs: bing-maps-dev-center-help/updating-your-bing-maps-account.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh698204.aspx
+      old-docs: geocoding-and-managing-data-sources.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/index.md 
+    - msdn: https://msdn.microsoft.com/en-US/library/gg650600.aspx
+      old-docs: uploading-and-publishing-entity-data-to-a-data-source.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/uploading-and-publishing-entity-data-to-a-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj945852.aspx
+      old-docs: editing-a-data-source.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/editing-a-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh290820.aspx
+      old-docs: deleting-a-data-source.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/deleting-a-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh698203.aspx
+      old-docs: downloading-a-data-source.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/downloading-a-data-source.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh127034.aspx
+      old-docs: getting-data-source-information.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/getting-data-source-information.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn151784.aspx
+      old-docs: making-a-data-source-public-or-private.md
+      new-docs: bing-maps-dev-center-help/geocoding-and-managing-data-sources/making-a-data-source-public-or-private.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn894107.aspx
+      old-docs: bing-maps-api-best-practices.md
+      new-docs: bing-maps-api-best-practices.md
 - path: articles
   links: 
-    - msdn: 
+    - msdn: https://msdn.microsoft.com/en-us/library/bb545001.aspx
       old-docs: index.md
       new-docs: index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff817004.aspx
+      old-docs: accessing-the-bing-maps-rest-services-using-php.md
+      new-docs: accessing-the-bing-maps-rest-services-using-php.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff817006.aspx
+      old-docs: accessing-the-bing-spatial-data-services-using-php.md
+      new-docs: accessing-the-bing-spatial-data-services-using-php.md
+    - msdn: https://msdn.microsoft.com/en-us/library/bb259689.aspx
+      old-docs: bing-maps-tile-system.md
+      new-docs: bing-maps-tile-system.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn217138.aspx
+      old-docs: create-a-custom-map-url.md
+      new-docs: create-a-custom-map-url.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt823636.aspx
+      old-docs: custom-map-styles-in-bing-maps.md
+      new-docs: custom-map-styles-in-bing-maps.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn384099.aspx
+      old-docs: geocoding-japanese-addresses.md
+      new-docs: geocoding-japanese-addresses.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn948525.aspx
+      old-docs: geospatial-endpoint-service.md
+      new-docs: geospatial-endpoint-service.md
+    - msdn: https://msdn.microsoft.com/en-US/library/dn135313.aspx
+      old-docs: ssl-certificate-validation-for-java-applications.md
+      new-docs: ssl-certificate-validation-for-java-applications.md
+    - msdn: https://msdn.microsoft.com/en-us/library/aa940990.aspx
+      old-docs: understanding-scale-and-resolution.md
+      new-docs: understanding-scale-and-resolution.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn948092.aspx
+      old-docs: creating-a-store-locator-using-bing-maps-and-azure.md
+      new-docs: creating-a-store-locator-using-bing-maps-and-azure.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt830278.aspx
+      old-docs: getting-streetside-tiles-from-imagery-metadata.md
+      new-docs: getting-streetside-tiles-from-imagery-metadata.md
 - path: coverage
   links: 
     - msdn: 
       old-docs: index.md
       new-docs: index.md
+    - msdn: 
+      old-docs: bing-maps-traffic-coverage.md
+      new-docs: bing-maps-traffic-coverage.md
+    - msdn: 
+      old-docs: bing-maps-transit-coverage.md
+      new-docs: bing-maps-transit-coverage/index.md
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
+    - msdn: 
+      old-docs: 
+      new-docs: 
 - path: spatial-data-services
   links:
     - msdn: https://msdn.microsoft.com/en-us/library/ff701734.aspx
