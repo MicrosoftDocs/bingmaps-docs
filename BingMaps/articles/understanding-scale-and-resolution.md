@@ -72,7 +72,7 @@ Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)
 Map scale = 1 : (ScreenRes pixels/inch * 39.37 inches/meter * 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel))  
 ```  
   
- For example, assuming a typical screen resolution of 85 pixels/inch and a zoom level of 13, you would have a resolution of 1 : 85 * 39.37 * 19.11 or 1 : 63950.  That means that every inch on the screen translates to 63,950 inches, or about 1 mile.  For those metrically inclined, that would be 1 cm on the screen mapping to 63950 centimeters, or about 0.64 kilometers.  
+ For example, assuming a typical screen resolution of 85 pixels/inch and a zoom level of 13, you would have a resolution of 1 : 85 * 39.37 * 19.11 or 1 : 63950.  That means that every inch on the screen translates to 63950 inches, or about 1 mile.  For those metrically inclined, that would be 1 cm on the screen mapping to 63950 centimeters, or about 0.64 kilometers.  
   
 ### Conclusion
 
