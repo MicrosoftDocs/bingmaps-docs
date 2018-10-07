@@ -134,7 +134,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |AR|Argentina|es-AR|  
 |BH|Bahrain|ar-BH|  
 |EG|Egypt|ar-EG|  
-|JO|Jordon|ar-JO|  
+|JO|Jordan|ar-JO|  
 |SA|Saudi Arabia|ar-SA|  
 |KW|Kuwait|ar-KW|  
 |OM|Oman|ar-OM|  
