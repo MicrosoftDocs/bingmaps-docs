@@ -47,7 +47,7 @@ Please adhere to the following guidelines when coding for Bing Maps services.
 >  When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](http://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
   
 ### Use batch geocoding when you need to geocode or reverse-geocode a large number of items  
- If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up 200, 000 addresses at a time for a single non-billable transaction.  
+ If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up 200,000 addresses at a time for a single non-billable transaction.  
   
 > [!NOTE]
 >  There is a 1M limit of free geocode entities per year  
