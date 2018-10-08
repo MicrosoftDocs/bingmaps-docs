@@ -113,7 +113,6 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 |Sierra Leone|Major Roads Only|Basic|  
 |Somalia|Major Roads Only|Basic|  
 |South Africa|Good|Address|  
-|South Sudan|Major Roads Only|Basic|  
 |St Helena, Ascension, Tristan da Cunha|Major Roads Only|Basic|  
 |Sudan|Major Roads Only|Basic|  
 |Swaziland|Good|Address|  
