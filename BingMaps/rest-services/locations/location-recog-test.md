@@ -2,45 +2,10 @@
 
 Given a pair of location coordinates (latitude, longitude), the Location Recognition API returns a list of entities ranked by their proximity to that location. The URL response contains three components: local business entities near that location (e.g. restaurants, hotels, office buildings, transit stations, etc.), natural points of interest near that location (e.g. beaches, valleys, etc.), and a reverse geocoded address of that location. See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a list of supported entity types. You can specify the type of entities you want to receive by setting the `includeEntityTypes` parameter in the URL.
 
+## API Reference
 
-> [!NOTE]
->- This template supports both HTTP and HTTPS protocols
->- Search by query is not supported
->- Only USA locations are supported, other countries will be added soon
+Goto the [API reference for Location Recognition](https://review.docs.microsoft.com/en-us/rest/api/bingmaps/location/location-recognition) for more details.
 
-### Template Parameters
-
-|Parameters|Alias|Description|Values|  
-|----|:----:|----|----|
-|`point`| |**Required.** The coordinates of the location for which you want the entities situated at that location. A point is specified by a latitude and a longitude. See the definition of point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|Use the following value ranges: <br /> Latitude (degrees): `[-90, +90]` <br /> Longitude (degrees): `[-180, +180]` <br /> <br /> Example: `47.610679194331169,-122.10788659751415`| 
-|`radius`|`r` |**Optional.** Search radius in kilometers (KM). Search is performed within a circle with the specified radius and centered at the location point. Only those entities that fall within this search circle are returned.|Default search radius is 0.25 KM. The maximum supported radius is 2 KM.|
-|`top`||**Optional.** The maximum number of entities returned.|Default value is 10. The maximum value is 20.|
-|`dateTime`||**Optional.** Date and time at which the location is visited, in UTC format. When this parameter is specified, entities closed at that day and/or time are ranked lower than entities which are open.|Example: `2018-05-09 13:34:42Z`| 
-|`distanceUnit`||**Optional.** Unit for the radius parameter. |Use one of the following values: <br />- `kilometer`, or `km`<br />- `mile`, or `mi` <br /><br /> Default value is `km`.|  
-|`verboseplacenames`||**Optional.** Either `true` or `false`.<br><br/>- If `false`: "admin1" & country names will be in their official form (e.g.: “WA” for Washington state in USA and full name, e.g. "Occitanie" in France).<br/><br/>-If `true`: "admin1" names will be in expanded form (e.g. Washington), and "countryRegion" field with full name is added to address.|Default value is `false`.| 
-|`includeEntityTypes`||**Optional.** Specifies the entity types returned in the response. Only the specified types will be returned. If no entity types are found at the location point, then no location information is returned in the response.<br /><br /> See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a description of the values.|A comma separated list of entity types selected from the following options:<br>- `businessAndPOI`<br>- `naturalPOI`<br>- `address` <br><br>Default value is `businessAndPOI`.| 
-|`output`|`o`|**Optional.** Output format for the response.|The following values are supported:<br>- `JSON` <br>- `XML`<br><br>Default value is `JSON`.|
-
-## Include Entity Types
-
-|Entity Type|Description|Example|  
-|----------------|-----------|-----------------|  
-|`businessAndPOI`|Local businesses and points of interest.|Restaurants, hotels, hospitals, airports, train & bus stations <br /> Office buildings <br /> Municipal & national parks <br /> Landmarks or popular buildings|
-|`naturalPOI`|Points of interest, including natural entities.|Lakes, beaches, mountains, valleys, and forests|
-|`address`|Reverse geocoded address of the input location. For a description of the address fields, refer to [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|1 Microsoft Way, Redmond, WA 98052, US|
-
-For more information about the location entity types, see  [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md).
-
-## Response
-
-One or more entities are returned in the response when you make a request using this URL 
-|Field Name|Description|  
-|----------------|-----------|
-|`businessesAtLocation`|List of businessAddress & businessInfo elements representing the businesses or named venues found within the specified search radius.|
-|`naturalPOIAtLocation`|Natural entities or points of interest. For a complete list of supported natural entity types see  [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md).|
-|`addressOfLocation`|Reverse geocoded address of the input location.|
-
-For more information about the location entity types, see  [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md). For information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md).
 
 ## Examples
 
