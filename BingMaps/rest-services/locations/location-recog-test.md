@@ -219,14 +219,3 @@ We can also make the same request, but this time searching for business entities
 ```url
 http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key=BingAPIKey&r=.5&distanceUnit=mi&includeEntityTypes=address&output=json
 ```
-
-## HTTP Status Codes
-
-[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
-
-When the request is successful, the following HTTP status code is returned:
-- 200
-
-When the request is not successful, the response returns one of the following errors:
-- 204
-- 400
