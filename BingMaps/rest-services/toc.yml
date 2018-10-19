@@ -23,8 +23,10 @@
         href: locations/find-a-location-by-query.md
       - name: Location Recognition
         href: locations/location-recognition.md
-      - name: Location Recognition (TEST)
+      - name: Location Recognition (TEST SPLIT)
         href: locations/location-recog-test.md
+      - name: Location Recognition (TEST LINK)
+        href: https://review.docs.microsoft.com/en-us/rest/api/bingmaps/location/location-recognition
       - name: Location Data
         href: locations/location-data.md
   - name: Elevations
