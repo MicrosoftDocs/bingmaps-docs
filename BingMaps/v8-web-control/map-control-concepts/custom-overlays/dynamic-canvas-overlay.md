@@ -17,12 +17,12 @@ ms.service: "bing-maps"
 This example shows how to use a canvas to create a custom rendering layer. 
 First we will start off by creating a reusable Canvas Overlay module that not only inserts a canvas element into the map, but also scales and translate it when the map is moving to provide a more fluid user experience without having to do the expensive rerendering of data on the canvas. To make this module reusable it takes in a callback function which receives a reference to the canvas which you can then draw your data on top of. The following is the code for the module with is saved in a file called **CanvasOverlayModule.js**.
 
-```
+```javascript
 //Define a custom overlay class that inherts from the CustomOverlay class.
 CanvasOverlay.prototype = new Microsoft.Maps.CustomOverlay();
 
 //Define the Canvas Overlay constructor which takes in a callback function which draws on the canvas.
-//The callback function will recieve a reference to the canvas element.
+//The callback function will receive a reference to the canvas element.
 function CanvasOverlay(drawCallback) {
     //Create a canvas for rendering.
     this.canvas = document.createElement('canvas');
@@ -132,7 +132,7 @@ Microsoft.Maps.moduleLoaded('CanvasOverlayModule');
 
 Implementing this canvas overlay is fairly easy and in this example we will simply have it draw 10,000 locations on the map as red circles. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -190,7 +190,7 @@ Running this code will render 10,000 red circles within the current map view. As
 
 You can easily reuse the canvas overlay module and change who and what is rendered on the canvas. The above example works great but could be faster. Instead of drawing each individual circle, we could instead draw a circle on an off screen canvas then draw as an image. This would equire less calculations by the underlay canvas and thus would be much faster to render. Here is a modified version of the canvas overlay callback that does this. If you don’t see any different when rendering 10,000 locations, increase it to 50,000.
 
-```
+```javascript
 //Implement the new custom overlay class.
 var overlay = new CanvasOverlay(function (canvas) {
     //Calculate pixel coordinates of locations.
@@ -221,7 +221,7 @@ var overlay = new CanvasOverlay(function (canvas) {
 
 If you would like to go even further you could add a click event as well. To do this, add a click event to the map and then through the data and calculate which circle the mouse was over when the click event occurred. This can be achieved by using the following code:
 
-```
+```javascript
 //Add a click event to the map and check to see if a circle is clicked.
 Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
     //Get the pixel coordinates of the locations.
@@ -257,7 +257,7 @@ Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
 
 The following is the source code for the complete HTML page that includes the off screen canvas optimization and the click event functionality. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
