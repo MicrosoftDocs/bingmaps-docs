@@ -23,7 +23,7 @@ The Geocode Dataflow API data schema version 2.0 is an update to the data schema
  This topic describes version 2.0 of the spatial data schema for the Geocode Dataflow API. Text file and the XML schema definitions are provided along with descriptions of the fields. For examples of input and output spatial data in all formats, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
 ## Text File Schema  
- The following text file schema shows how the input and output values for the Geocode Dataflow are organized in a text file. Note that there are GeocodeRequest, GeocodeResponse, and ReverseGeocodeRequest values. The Geocode Request fields define location information to geocode. The ReverseGeocodeRequest fields provide latitude and longitude information to reverse geocode. The GeocodeReponse fields are populated with the processed output data.  
+ The following text file schema shows how the input and output values for the Geocode Dataflow are organized in a text file. Note that there are GeocodeRequest, GeocodeResponse, and ReverseGeocodeRequest values. The Geocode Request fields define location information to geocode. The ReverseGeocodeRequest fields provide latitude and longitude information to reverse geocode. The GeocodeResponse fields are populated with the processed output data.  
   
  When you use version 2.0 of the schema with text file input, you can choose the fields that want to provide and those that you want return by specifying them in the input file after the heading information. An example is provided below and in [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
