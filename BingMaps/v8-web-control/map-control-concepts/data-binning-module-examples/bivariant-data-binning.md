@@ -18,7 +18,7 @@ Since the size and the color can both be customized based on an aggregate value 
 
 In this example, each pushpin in the data set has a custom 'sales' metadata value which is assigned a random number. The color of each data bin is based on the total realtive sum of sales in all pushpins the data bin contains. The scale of each data bin is based on the total number of pushpins in each bin. This is an example of a bivariate data binning layer which uses two types of visualizations to represent two variables; color and scale. If we assume that each pushpin represented a customer. A data bin that is red would indicate that the total sales in that area is low, however, if the bin was also small, this would indicate that there isn't a lot of pushpins in that data bin which could explain why the total sales in that bin is low.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,7 +62,7 @@ In this example, each pushpin in the data set has a custom 'sales' metadata valu
         //Specify custom logic to colorize a data bin based on the information it contains.
 
         //In this case, calculate twhat percentage the sum of this bin is compared to the max bin sum. 
-        //If the value is geater than 75% make the bin green, >50% yellow, below 50% red.
+        //If the value is greater than 75% make the bin green, >50% yellow, below 50% red.
         var percentageSum = bin.metrics.sum / max.sum * 100;
 
         if (percentageSum >= 75) {
