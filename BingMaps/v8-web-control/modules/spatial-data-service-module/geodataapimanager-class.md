@@ -22,7 +22,7 @@ Name                    | Definition | Description
 ----------------------- | ---------- | --------------------------------
 `getBoundary`           | getBoundary(<br/>locations: string _or_ [Location](../v8-web-control/location-class.md) _or_ (string _or_ [Location](../v8-web-control/location-class.md))[], request: [GetBoundaryRequestOptions](../v8-web-control/getboundaryrequestoptions-object.md), credentials: string _or_ [Map](../v8-web-control/map-class.md), callback: function(results: [GeoDataResultSet](../v8-web-control/geodataresultset-object.md)), styles?: [PolygonOptions](../v8-web-control/polygonoptions-object.md), errorCallback?: function(locationValue: string _or_ [Location](../v8-web-control/location-class.md) , networkStatus: string)) | Gets a boundary for the specified request. Takes in location which could be a Location coordinate or a string address, or an array of either of these. A Bing Maps key or a reference to a map control is used for authentication. A callback function is used to return the results to you.<br/><br/>If the location value is a string, it will be geocoded and the coordinates of the result will be used to find a boundary of the specified **entityType** that intersects with this coordinate.<br/><br/>Optionally polygon style options can be specified which will be used to style the boundary polygons returned by this API.<br/><br/>An error callback can be specified that will be triggered when an error occurs when searching for a boundary. The error callback will receive the location value that the error occurred for and a network status value. 
 
-## Network Status Paramter
+## Network Status Parameter
 
 The networkStatus parameter in the error callback can have the following values.
 
