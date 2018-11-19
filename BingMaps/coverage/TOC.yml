@@ -11,7 +11,7 @@
       maintainContext: true 
       items: 
         - name: Africa
-          href: transit-coverage/africa-transit-coverage.md
+          href: transit-coverage/africa.md
         - name: Asia / Australia / Pacific Islands
           href: transit-coverage/asia-australia-pacific-islands.md
         - name: Europe
