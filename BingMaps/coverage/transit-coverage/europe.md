@@ -1092,7 +1092,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 ## Netherlands
 |Locality|Transit Agency|
-|:--------------------|--------------:|
+|:--------------------|--------------|
 |Regional|[ASEAG](http://www.avv.de) 
 |Regional|[Abellio Rail NRW](http://www.abellio.de/de/nordrhein-westfalen) 
 |Regional|[Arriva](https://www.arriva.nl) 

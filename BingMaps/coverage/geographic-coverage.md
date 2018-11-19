@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Geographic Coverage
 
-Bing Maps contains different levels of geographic coverage for every country/region in the world. The following tables contain details about base map data, routing (driving and walking), and geocoding support for each country/region. Also see [Bing Maps Transit Coverage](../coverage/bing-maps-transit-coverage.md) and [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
+Bing Maps contains different levels of geographic coverage for every country/region in the world. The following tables contain details about base map data, routing (driving and walking), and geocoding support for each country/region. Also see [Bing Maps Transit Coverage](transit-coverage/index.md) and [Bing Maps Traffic Coverage](traffic-coverage.md).  
   
  A set of values are given for road data, geocoding precision and route support. The following list defines these values.  
   

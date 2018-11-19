@@ -19,7 +19,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
   
 ## Canada
 |Admin District|Locality|Transit Agency|
-|:--------------------|:--------------:|--------------------| 
+|:--------------------|:--------------|--------------------| 
 |Alberta|Banff|[Bow Valley Regional Transit Services Commission](http://www.roamtransit.com)| 
 |Alberta|Calgary|[Calgary Transit](http://www.calgarytransit.com)| 
 |Alberta|Edmonton|[Edmonton Transit Service](http://www.takeets.com)| 
@@ -134,7 +134,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
   
 ## United States
 |Admin District|Locality|Transit Agency|
-|:--------------------|:--------------:|--------------------| 
+|:--------------------|:--------------|--------------------| 
 |Alabama|Birmingham|[Birmingham Jefferson County Transit Authority](http://www.bjcta.org)| 
 |Alabama|Huntsville|[Huntsville Shuttle](https://www.huntsvilleal.gov/residents/streets/public-transportation/shuttle-bus/)| 
 |Alabama|Montgomery|[Montgomery Transit](http://www.montgomerytransit.com)| 

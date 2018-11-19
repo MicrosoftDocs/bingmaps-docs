@@ -20,7 +20,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
  
 ## Australia
 |Admin District|Locality|Transit Agency|
-|:--------------------|:--------------:|--------------------| 
+|:--------------------|--------------|--------------------| 
 |Australian Capital Territory|Canberra|[Transport Canberra](https://www.transport.act.gov.au)| 
 |New South Wales|Brisbane|[Byron Easybus](https://www.byronbayshuttle.com.au/?utm_source=AddTransit&utm_medium=GTFS)| 
 |New South Wales|Sydney|[Allen's Coaches](http://transportnsw.info)| 
@@ -255,12 +255,12 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 ## Malaysia
 |Locality|Transit Agency|
-|:--------------------|--------------:|
+|:--------------------|--------------|
 |Johor Bahru|[Syarikat Pengangkutan Handal Indah Sdn Bhd](https://www.causewaylink.com.my) 
 |Kuala Lumpur|[MYrapid Kuala Lumpur](http://myrapid.com.my/) 
 
 ## Thailand
 |Locality|Transit Agency|
-|:--------------------|--------------:|
+|:--------------------|--------------|
 |Regional|[Greenbus Thailand, LT.D.](http://www.greenbusthailand.com/website/en/) 
 |Regional|[Kwanwiang Transport, LTD.](https://www.facebook.com/khwanwiang.transport) 
