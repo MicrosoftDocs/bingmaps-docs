@@ -3,7 +3,7 @@
   maintainContext: true 
   items: 
     - name: Bing Maps Geographic Coverage
-      name: geographic-coverage.md
+      href: geographic-coverage.md
     - name: Bing Maps Traffic Coverage
       href: traffic-coverage.md
     - name: Bing Maps Transit Coverage
