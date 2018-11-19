@@ -31,5 +31,6 @@ The following topics describe how to use the Bing Maps Dev Center at [https://ww
 > [!NOTE]
 >  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
   
-### Transaction Accounting  
+### Transaction Accounting
+
  Transactions are recorded for when you use the Bing Maps Dev Center to create and manage data sources. For more information about billable and non-billable transactions and how to view them, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).

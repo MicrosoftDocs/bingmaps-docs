@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Uploading and Publishing Entity Data to a Data Source
 You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  
   
- After the entity data is published to a data source, you can query the data source by using the [Query API](http://msdn.microsoft.com/en-us/library/gg585126.aspx). You can also edit published entity data as described in [Editing a Data Source](../getting-started/editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
+ After the entity data is published to a data source, you can query the data source by using the [Query API](../../../spatial-data-services/query-api/index.md). You can also edit published entity data as described in [Editing a Data Source](../getting-started/editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
   
  ![Bing Maps Account Center Flow](../getting-started/media/bingmapsportalflowdiagram.jpg "Bing Maps Account Center Flow")  
   
@@ -24,6 +24,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 >  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
 ## Entity Data and Data Schema  
+
  To upload, geocode and publish entity data to a data source, you must create a file that contains a data schema and a set of entity data. Supported data file formats include KML, ESRI Shapefiles (SHP), XML, comma-separated values (CSV), tab-delimited values and pipe-delimited (&#124;) values. The data file that you upload must use UTF-8 encoding.  
   
  Data sources that use Enterprise keys can contain up to 300 MB of uncompressed data or 200,000 entities. Compressed data files are accepted, but your uncompressed data must be no more than 300 MB. Data sources that use Basic keys can have a maximum of 50 entities.  
@@ -31,6 +32,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
  The data schema defines the properties of an entity type including location properties (latitude, longitude and address information) and additional user-defined properties such as phone number and hours of operation. The entity data values must match the data schema. Examples for each data format are provided below.  
   
 ### Location Properties  
+
  The location properties in the following table are used for geocoding and reverse-geocoding entity locations. The latitude and longitude properties must be included in your data schema. The remaining address properties are optional for your input data. However, they are required for a data source, so any address properties that you do not include in your data schema are added when you upload your data.  
   
 |Property|Description|  
@@ -46,6 +48,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
  If you provide complete address data and latitude and longitude values, your entity data is not changed by the upload and geocode process. However, if you want to reverse geocode latitude and longitude values from address data, leave the latitude properties fields empty. Similarly, if you provide address data and do not provide latitude and longitude values, the address data is geocoded.  
   
 ### Entity Data Types  
+
  You can have a total of 350 properties in your schema. The latitude and longitude properties do not count towards this maximum.  
   
  The following table shows the supported data types for the data schema. These data types map to a set of OData types that are used by the data source. You must use the XML data types in an XML data schema. If you use one of the delimited formats for your data and data schema (values separated by commas, tabs or pipe (&#124;) characters), you must use the OData types in the data schema. Descriptions of OData types are found in the [OData Protocol Overview](http://www.odata.org/developers/protocols/overview).  
@@ -60,6 +63,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 |anyType|Edm.Geography<br /><br /> A Well-Known Text representation of the geographical shape.<br /><br /> The maximum number of points a single geography object can have is 100,000.|  
   
 ### Property Name Requirements  
+
  Property names must meet the following requirements:  
   
 -   The property name can have up to 50 characters.  
@@ -86,7 +90,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
   
  For additional information about creating a data schema and input values including available types and limits, see [Load Data Source Data Schema and Sample Input](http://msdn.microsoft.com/en-us/library/gg585138.aspx).  
   
-```  
+```xml
 <?xml version="1.0" standalone="yes"?>  
 <FourthCoffeeSample>  
   <xs:schema id="FourthCoffeeSample" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
@@ -226,7 +230,7 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
  Note that geocoded data downloads are not available after you publish the entity data to a data source. If you do not publish your geocoded data, it will be available for 14 days.  
   
 ## Publish Entity Data to a Data Source [optional]  
- When you are ready to publish entities that geocoded successfully, click **Publish**. When you publish your data, the published data source appears on the **Published Data Sources** tab and the **Geocoded** and **Failed** download files are no longer available. To query the data source, you will need a using the [Query API](http://msdn.microsoft.com/en-us/library/gg585126.aspx). You can find this URL on the **View Data Source Information** page under **Data Sources**. You can also edit the entity data and the data scheme of the published data source. For more information about editing the entity data of a published data source, see [Editing a Data Source](../getting-started/editing-a-data-source.md).  
+ When you are ready to publish entities that geocoded successfully, click **Publish**. When you publish your data, the published data source appears on the **Published Data Sources** tab and the **Geocoded** and **Failed** download files are no longer available. To query the data source, you will need a using the in[Query API](../../../spatial-data-services/query-api/index.md). You can find this URL on the **View Data Source Information** page under **Data Sources**. You can also edit the entity data and the data scheme of the published data source. For more information about editing the entity data of a published data source, see [Editing a Data Source](../getting-started/editing-a-data-source.md).  
   
 ## Transaction Accounting  
  Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  

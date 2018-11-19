@@ -57,7 +57,7 @@ For developer guides, blogs and other resources, check out [Bing Maps Resources]
 |||  
 |-|-|  
 |Embed a map in your web page (static or interactive)|Option 1: Go to [http://www.bing.com/maps](http://www.bing.com/maps), create the map you want, and then click **Share**. If you want control over basic parameters like size and imagery, click **Customize and preview**. This option will provide you with HTML that you can embed into your web page.<br /><br /> Option 2: [Create a Custom Map URL](../articles/create-a-custom-map-url.md). You can create a URL that opens Bing Maps with customizations provided by you. In addition to normal map features, you can also display search results. You do not need a Bing Maps Key for this option.<br /><br /> Option 3: [Get a Static Map](../rest-services/imagery/get-a-static-map.md). With this option, you can create a URL that displays a static map. You can specify parameters that specify the imagery, define pushpins, display a route and control other map features. You will need a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx) to use this option.|  
-|Open the Windows 8 or 10 Map app from your Windows app|Create a URL using the schema defined in [URI Schema for maps application](http://msdn.microsoft.com/en-us/library/windows/apps/jj635237.aspx). You do not need a Bing Maps Key to use this schema.|  
+|Open the Windows 8 or 10 Map app from your Windows app|Create a URL using the schema defined in [URI Schema for maps application](https://docs.microsoft.com/en-us/previous-versions/windows/apps/jj635237(v=win.10)). You do not need a Bing Maps Key to use this schema.|  
   
 ## News and Resources
 

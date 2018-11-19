@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Deleting a Data Source
+
 > [!CAUTION]
 >  Use caution when deleting a data source because this action cannot be reversed.  
   

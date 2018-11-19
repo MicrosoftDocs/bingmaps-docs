@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Getting a Bing Maps Key
+
 To use the [Bing Maps APIs](../rest-services/index.md), you must have a Bing Maps Key.  
   
 > [!NOTE]
@@ -27,13 +29,13 @@ To use the [Bing Maps APIs](../rest-services/index.md), you must have a Bing Map
   
 2.  Select **My keys** under **My Account**.  
   
-3.  Select the ption to create a new key.  
+3.  Select the option to create a new key.  
   
 4.  Provide the following information to create a key:  
   
-    -   **Application name**:   Required. The name of the application.  
+    -   **Application name**: Required. The name of the application.  
   
-    -   **Application URL**:  The URL of the application. This is an optional field which is usefull in helping you remember the purpose of that key in the future.  
+    -   **Application URL**: The URL of the application. This is an optional field which is useful in helping you remember the purpose of that key in the future.  
   
     -   **Key type**:  Required.  Select the key type that you want to create. You can find  descriptions of key and application types [here](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   

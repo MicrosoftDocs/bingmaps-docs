@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Creating a Bing Maps Account
+
 Follow these steps to create a Bing Maps account.  
   
 1.  Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
