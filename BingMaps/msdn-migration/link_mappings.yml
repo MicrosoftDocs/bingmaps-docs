@@ -1035,42 +1035,33 @@
       new-docs: getting-streetside-tiles-from-imagery-metadata.md
 - path: coverage
   links: 
-    - msdn: 
+    - msdn: https://msdn.microsoft.com/en-us/library/dd435699.aspx
       old-docs: index.md
-      new-docs: index.md
-    - msdn: 
+      new-docs: geographic-coverage.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj136866.aspx
       old-docs: bing-maps-traffic-coverage.md
-      new-docs: bing-maps-traffic-coverage.md
-    - msdn: 
+      new-docs: traffic-coverage.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441739.aspx
       old-docs: bing-maps-transit-coverage.md
-      new-docs: bing-maps-transit-coverage/index.md
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
+      new-docs: transit-coverage/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/dn642353.aspx
+      old-docs: africa-transit-coverage.md
+      new-docs: transit-coverage/africa.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn642355.aspx
+      old-docs: asia-australia-pacific-transit-coverage.md
+      new-docs: transit-coverage/asia-australia-pacific-islands.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn632396.aspx
+      old-docs: europe-transit-coverage.md
+      new-docs: transit-coverage/europe.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn642352.aspx
+      old-docs: middle-east-transit-coverage.md
+      new-docs: transit-coverage/middle-east.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn642351.aspx
+      old-docs: north-america-transit-coverage.md
+      new-docs: transit-coverage/south-america.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn642354.aspx
+      old-docs: south-america-transit-coverage.md
+      new-docs: transit-coverage/north-america.md
     - msdn: 
       old-docs: 
       new-docs: 

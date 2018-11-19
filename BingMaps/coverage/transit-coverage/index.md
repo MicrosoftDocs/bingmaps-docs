@@ -14,18 +14,19 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Bing Maps Transit Coverage
+
 Find Bing Maps API transit coverage in the topics below.  
   
- Last update: March 31, 2015  
+ Last update: November 19, 2018
   
--   [Africa](../coverage/africa-transit-coverage.md)  
+-   [Africa](africa.md)  
   
--   [Asia Australia Pacific](../coverage/asia-australia-pacific-transit-coverage.md)  
+-   [Asia Australia Pacific](asia-australia-pacific-islands.md)  
   
--   [Europe](../coverage/europe-transit-coverage.md)  
+-   [Europe](europe.md)
   
--   [Middle East](../coverage/middle-east-transit-coverage.md)  
+-   [Middle East](middle-east.md)  
   
--   [North America](../coverage/north-america-transit-coverage.md)  
+-   [North America](north-america.md)  
   
--   [South America](../coverage/south-america-transit-coverage.md)
+-   [South America](south-america.md)
