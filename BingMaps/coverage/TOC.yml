@@ -1,4 +1,4 @@
-- name: Bing Maps Geographic Coverage
+- name: Bing Maps Coverage
   href: index.md
   maintainContext: true 
   items: 
