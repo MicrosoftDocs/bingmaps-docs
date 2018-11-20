@@ -27,17 +27,17 @@ When you make a request by using one of the following URL templates, the respons
 Requests to the distance matrix API can be done in one of two ways:
 
 * Most requests can be made with a simple synchronous GET or POST request.
-* More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
+* (**PREVIEW**) More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
 
-A distance matrix can be requested that has up to 625 origins-destinations pairs which is calculated by multiplying the number of origins, by the number of destinations. For example, you can have 1 origin, and 625 destinations, or 25 origins and 25 destinations.
+A distance matrix can be requested that has up to 2500 origins-destinations pairs which is calculated by multiplying the number of origins, by the number of destinations. For example, you can have 1 origin, and 2500 destinations, or 50 origins and 50 destinations.
 
 A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 100 origins-destinations pairs when the request is made asynchronously, and 10 origins-destinations pairs when made synchronously. The maximum time interval between the start and end time when calculating a distance matrix histogram is 24 hours.
 
-**When to use synchronous vs asynchronous requests**
+### When to use synchronous vs asynchronous requests
 
 Make synchronous request if the travel mode is driving, walking or transit and:
 
-* The total number of origins-destinations pairs is less than or equal to 625 and no start time is specified.
+* The total number of origins-destinations pairs is less than or equal to 2500 and no start time is specified.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**or**
 
@@ -57,13 +57,13 @@ See [Asynchronous Requests documentation](../common-parameters-and-types/asynchr
 
 When calculating a simple distance matrix each origin-destination pair will generate a single cell in the matrix.
 
-![Total Cells Calculation](../../media/distancematrixcellcalculation2.PNG)
+![Total Cells Calculation](../media/distancematrixcellcalculation2.PNG)
 
 For example, a matrix that has 2 origins, and 5 destinations, will generate 10 cells where 2 \* 5 = 10.
 
 When a matrix includes a histogram, each origin-destination pair will have a cell in the matrix for each time interval. The number of time intervals that a request will have depends on the resolution, start and end times.
 
-![Total Async Cells Calculation](../../media/distancematrixasynccellcalculation2.PNG)
+![Total Async Cells Calculation](../media/distancematrixasynccellcalculation2.PNG)
 
 For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15-minute increments (resolution = 1) over 24 hours, will generate 960 cells where 2 \* 5 \* 24/0.25 = 2 \* 5 \* 24 \* 4 = 960.
 
@@ -74,13 +74,13 @@ For example, a matrix that has 2 origins, 5 destinations, and retrieves time int
 
 A billable transaction is generated for every 2 cells in a matrix, rounded up to the nearest whole integer. For a simple matrix, billable transactions will be calculated using the following formula:
 
-![Total Billable Transactions Calculation](../../media/distancematrixtransactioncalculation2.PNG)
+![Total Billable Transactions Calculation](../media/DistanceMatrixTransactionCalculation3_new.PNG)
 
 For example, a matrix that has 2 origins, and 5 destinations, will generate 5 billable transactions where Ceiling(0.5 \* 2 \* 5) = 5.
 
 When calculating a matrix which includes a histogram, only the first 30 time intervals in each origin-destination pair are counted towards billable transactions, any additional time intervals are provided for free.
 
-![Total Async Billable Transactions Calculation](../../media/distancematrixasynctransactioncalculation2.PNG)
+![Total Async Billable Transactions Calculation](../media/DistanceMatrixAsyncTransactionCalculation3_new.PNG)
 
 For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15 minute increments (resolution = 1) over 24 hours, will generate 150 cells where Ceiling(0.5 \* 2 \* 5 \* Min(30, 24/0.25)) = Ceiling(0.5 \* 2 \* 5 \* Min(30, 96)) = Ceiling(0.5 \* 2 \* 5 \* **30**) = 150. Note that 24/0.25 = 24 \* 4 = 96, but since only the first increments per origin-destination pair is counted towards billable transaction, 66 time intervals are excluded from the transaction calculation per origin-destination pair, thus saving you a total of 330 billable transactions in this scenario.
 
