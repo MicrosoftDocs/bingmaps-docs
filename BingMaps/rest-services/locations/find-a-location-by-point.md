@@ -23,7 +23,7 @@ Use the following URL template to get the location information associated with l
 http://dev.virtualearth.net/REST/v1/Locations/{point}?includeEntityTypes={entityTypes}&includeNeighborhood={includeNeighborhood}&include={includeValue}&key={BingMapsKey}  
 ```  
   
-### Template Parameters  
+## API Parameters  
   
 > [!NOTE]
 >  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
@@ -37,10 +37,10 @@ http://dev.virtualearth.net/REST/v1/Locations/{point}?includeEntityTypes={entity
   
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
-|includeEntityTypes||**Optional**. Specifies the entity types that you want to return in the response. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.|A comma separated list of entity types selected from the following options.<br /><br /> -   Address<br />-   Neighborhood<br />-   PopulatedPlace<br />-   Postcode1<br />-   AdminDivision1<br />-   AdminDivision2<br />-   CountryRegion<br /><br /> These entity types are ordered from the most specific entity to the least specific entity. When entities of more than one entity type are found, only the most specific entity is returned. For example, if you specify Address and AdminDistrict1 as entity types and entities were found for both types, only the Address entity information is returned in the response. One exception to this rule is when both PopulatedPlace and Neighborhood entity types are specified and information is found for both. In this case, the information for both entity types is returned. Also, more than one Neighborhood may be returned because the area covered by two different neighborhoods can overlap.|  
-|point||**Required.** The coordinates of the location that you want to reverse geocode. A point is specified by a latitude and a longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> Example: `47.64054,-122.12934`|  
-|includeNeighborhood|inclnb|**Optional.** Specifies to include the neighborhood in the response when it is available.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br />     Example:<br /> `inclnb=1`|  
-|include|incl|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br />Example:<br /><br /> `incl=ciso2`|  
+|`includeEntityTypes`||**Optional**. Specifies the entity types that you want to return in the response. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.|A comma separated list of entity types selected from the following options.<br /><br /> -   Address<br />-   Neighborhood<br />-   PopulatedPlace<br />-   Postcode1<br />-   AdminDivision1<br />-   AdminDivision2<br />-   CountryRegion<br /><br /> These entity types are ordered from the most specific entity to the least specific entity. When entities of more than one entity type are found, only the most specific entity is returned. For example, if you specify Address and AdminDistrict1 as entity types and entities were found for both types, only the Address entity information is returned in the response. One exception to this rule is when both PopulatedPlace and Neighborhood entity types are specified and information is found for both. In this case, the information for both entity types is returned. Also, more than one Neighborhood may be returned because the area covered by two different neighborhoods can overlap.|  
+|`point`||**Required.** The coordinates of the location that you want to reverse geocode. A point is specified by a latitude and a longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> Example: `47.64054,-122.12934`|  
+|`includeNeighborhood`|`inclnb`|**Optional.** Specifies to include the neighborhood in the response when it is available.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br />     Example:<br /> `inclnb=1`|  
+|`include`|`incl`|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br />Example:<br /><br /> `incl=ciso2`|  
   
 ## Response
 
@@ -49,12 +49,13 @@ One or more Location resources are returned in the response when you make a requ
  This URL supports JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 ## Examples  
- **Find location information for a specified point on the Earth.**  
+
+### Find location information for a specified point on the Earth 
   
- This example gets address information for a specified latitude and longitude and requests the results in XML format.  
+This example gets address information for a specified latitude and longitude and requests the results in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={BingMapsAPIKey}  
 ```  
   
  **XML Response**  
@@ -185,12 +186,12 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key=Bing
 }  
 ```
   
- **Find location information for a specified point and request that only CountryRegion entity types be returned.**  
+ ### Find location information for a specified point and request that only CountryRegion entity types be returned
   
  This example requests only country or region information for the same latitude and longitude as the previous example.  
   
 ```url 
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key={BingMapsAPIKey}  
 ```  
   
  **XML Response**  

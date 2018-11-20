@@ -26,18 +26,21 @@ When you make a request by using one of the following URL templates, the respons
   
 [!INCLUDE [get-bing-maps-best-practices-note](../../includes/get-bing-maps-best-practices-note.md)]
     
-**Unstructured URL: Get the latitude and longitude coordinates based on a set of address values for any country**  
-  
- You can get information for a location in any country by setting one or more of the parameters in the following URL.  
-  
- An unstructured URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
+### Get the latitude and longitude coordinates based on a set of address values for any country
+
+__Unstructured URL__  
+
+An unstructured URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
+
+You can get information for a location in any country by setting one or more of the parameters in the following URL.  
   
 ```url
 http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&adminDistrict={adminDistrict}&locality={locality}&postalCode={postalCode}&addressLine={addressLine}&userLocation={userLocation}&userIp={userIp}&usermapView={usermapView}&includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
 
-<!--  
- **Structured URLs: Get the latitude and longitude coordinates based on a set of address values for specific countries**  
+ __Structured URLs__
+
+Get the latitude and longitude coordinates based on a set of address values for specific countries**  
   
 > [!NOTE]
 >  You can substitute a hyphen (-) for any structured URL parameter when there is no value.  
@@ -50,88 +53,88 @@ http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&admi
   
  **Canada**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/CA/adminDistrict/postalCode/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/CA/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
   
  **France**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/FR/postalCode/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/FR/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
   
  **Germany**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/DE/postalCode/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/DE/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
   
  **United Kingdom**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/UK/postalCode?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/UK/{postalCode}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
   
  **United States**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/postalCode/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
   
+```url
+http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
 ```  
-http://dev.virtualearth.net/REST/v1/Locations/US/adminDistrict/locality/addressLine?includeNeighborhood=includeNeighborhood&include=includeValue&maxResults=maxResults&key=BingMapsKey  
-```  
--->
 
 > [!IMPORTANT]
 >  **About Special Characters**  
 >   
->  When you specify location information using one of the structured URLs, do not use values that contain special characters such as a period (.), a comma (,), a colon (:) or a plus sign (+). A hyphen is acceptable as a placeholder, but should not be used as part of a parameter value in a structured URL. If the location information contains any special characters, use the Unstructured URL template or the [Find a Location by Query](find-a-location-by-query.md) API.  
+>  When you specify location information using one of the structured URLs, do not use values that contain special characters such as a period (`.`), a comma (`,`), a colon (`:`), or a plus sign (`+`). A hyphen is acceptable as a placeholder but should not be used as part of a parameter value in a structured URL. If the location information contains any special characters use the unstructured URL template or the [Find a Location by Query](find-a-location-by-query.md) API.  
 >   
->  For example, if you want to get latitude and longitude values for the address "100 Main St. Somewhere, WA 98001" that contains a period (.), use one of the following query formats.  
+>  For example, if you want to get latitude and longitude values for the address "100 Main St. Somewhere, WA 98001" that contains a period (.), use one of the following query formats.
 >   
->  **Unstructured query:** `http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key=BingMapsKey`  
+>  __Unstructured query__: `http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key={BingMapsApIKey}`  
 >   
->  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key=BingMapsKey`  
+>  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key={BingMapsAPIKey}`  
 
-  
-### Template Parameters  
-  
+
+## API Parameters  
+
 > [!NOTE]
 >  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
 >   
 >  Common parameters include:  
 >   
->  -   [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
-> -   [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
-> -   [User Context Parameters](../common-parameters-and-types/user-context-parameters.md): Includes parameters that set user location and viewport values to help with determining locations. For example, you can specify the user’s location to prioritize the set of locations returned when you query with incomplete address information.  
+>  - [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
+> - [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
+> - [User Context Parameters](../common-parameters-and-types/user-context-parameters.md): Includes parameters that set user location and viewport values to help with determining locations. For example, you can specify the user’s location to prioritize the set of locations returned when you query with incomplete address information.  
 >   
 >  Parameter values are not case-sensitive.  
   
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
-|adminDistrict||**Optional for unstructured URL.** The subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.|A string that contains a subdivision, such as the abbreviation of a US state.<br /><br /> **Example**: WA|  
-|locality||**Optional for unstructured URL.** The locality, such as the city or neighborhood, that corresponds to an address.|A string that contains the locality, such as a US city.<br /><br /> **Example**: Seattle|  
-|postalCode||**Optional for unstructured URL.** The post code, postal code, or ZIP Code of an address.|A string that contains the postal code, such as a US ZIP Code.<br /><br /> **Example**: 98178|  
-|addressLine||**Optional for unstructured URL.** The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.|A string specifying the street line of an address.<br /><br /> **Example**: 1 Microsoft Way|  
-|countryRegion||**Optional for unstructured URL.** The [ISO country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the country.|A string specifying the ISO country code.<br /><br /> **Example**: AU|  
-|includeNeighborhood|inclnb|**Optional.** Specifies to include the neighborhood in the response when it is available. **Note:**  When you create your URL request, you can set the Locality parameter to a neighborhood. In this case, the neighborhood you provide may be returned in the neighborhood field of the response and a greater locality may be returned in the locality field. For example, you can create a request that specifies to include neighborhood information (inclnb=1) and that sets the Locality to Ballard and the AdminDistrict to WA (Washington State). In this case, the neighborhood field in the response is set to Ballard and the locality field is set to Seattle. You can find this example in the **Examples** section.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br />     **Example:**<br />     inclnb=1|  
-|include|incl|**Optional.** Specifies additional values to include.|The only value for this parameter is ciso2. When you specify include=ciso2, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> incl=ciso2|  
-|maxResults|maxRes|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> maxResults=10|  
+|`adminDistrict`||**Optional for unstructured URL.** The subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.|A string that contains a subdivision, such as the abbreviation of a US state.<br /><br /> **Example**: WA|  
+|`locality`||**Optional for unstructured URL.** The locality, such as the city or neighborhood, that corresponds to an address.|A string that contains the locality, such as a US city.<br /><br /> **Example**: Seattle|  
+|`postalCode`||**Optional for unstructured URL.** The post code, postal code, or ZIP Code of an address.|A string that contains the postal code, such as a US ZIP Code.<br /><br /> **Example**: 98178|  
+|`addressLine`||**Optional for unstructured URL.** The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.|A string specifying the street line of an address.<br /><br /> **Example**: 1 Microsoft Way|  
+|`countryRegion`||**Optional for unstructured URL.** The [ISO country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the country.|A string specifying the ISO country code.<br /><br /> **Example**: AU|  
+|`includeNeighborhood`|`inclnb`|**Optional.** Specifies to include the neighborhood in the response when it is available. **Note:**  When you create your URL request, you can set the Locality parameter to a neighborhood. In this case, the neighborhood you provide may be returned in the neighborhood field of the response and a greater locality may be returned in the locality field. For example, you can create a request that specifies to include neighborhood information (`inclnb=1`) and that sets the Locality to Ballard and the AdminDistrict to WA (Washington State). In this case, the neighborhood field in the response is set to Ballard and the locality field is set to Seattle. You can find this example in the **Examples** section.|One of the following values:<br /><br /> - `1`: Include neighborhood information when available.<br />- `0` **[default]**: Do not include neighborhood information.<br />     **Example:**<br /> `inclnb=1`|  
+|`include`|`incl`|**Optional.** Specifies additional values to include.|The only value for this parameter is `ciso2`. When you specify `include=ciso2`, the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> `incl=ciso2`|  
+|`maxResults`|`maxRes`|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> `maxResults=10`|  
   
-## Response  
- One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). Responses are provided for some URL examples in the following section.  
+## Response
+
+One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). Responses are provided for some URL examples in the following section.  
   
  These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (`o`) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 ## Examples  
   
- **Find location information for a United States street address including the ZIP Code.**  
+### Find location information for a United States street address including the ZIP Code
   
  This example provides location information for a street address in the United States and requests the results in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%20Way?o=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%20Way?o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -277,31 +280,31 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%
 }  
 ```  
   
- **Find location information for a United States street address without a postal code.**  
+ ### Find location information for a United States street address without a postal code
   
  This example provides location information for the same street address as the previous example, but does not specify the ZIP Code.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/WA/Redmond/1%20Microsoft%20Way?output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/US/WA/Redmond/1%20Microsoft%20Way?output=xml&key={BingMapsApIKey}  
 ```  
   
- **Find location information and request up to 10 location results in the response.**  
+### Find location information and request up to 10 location results in the response
   
  This example provides location information for the locality "Greenville" and requests up to 10 location results in the response. The default maximum number of locations returned is five (5) results.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key={BingMapsAPIKey}
 ```  
   
- **Find location information by using a structured URL where some parameters have no value.**  
+### Find location information by using a structured URL where some parameters have no value
   
- This example provides location information for the United States and uses hyphens (-) for address values that are not specified.  
+ This example provides location information for the United States and uses hyphens (`-`) for address values that are not specified.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key={BingMapsAPIKey}  
 ```  
   
- **Find location information by using an unstructured URL and setting the userLocation parameter.**  
+### Find location information by using an unstructured URL and setting the userLocation parameter
   
  This example provides location information for an unstructured query for Kings Road in the United Kingdom and uses the userLocation value to prioritize the response. If you remove the userLocation parameter in this example, the results change because the userLocation position prioritizes results that are closer to this location. For more information about the userLocation parameter and other user context parameters, see [User Context Parameters](../common-parameters-and-types/user-context-parameters.md).  
   
@@ -309,12 +312,12 @@ http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key=BingMapsKey
 http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&addressLine=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&key=BingMapsKey  
 ```  
   
- **Find location information and request neighborhood information in the response.**  
+### Find location information and request neighborhood information in the response
   
  This example provides location information for Ballard in Washington state (WA) and also returns neighborhood information. Ballard is a neighborhood, but is specified as a locality in the request. Note that in the response, Ballard is defined as the neighborhood and Seattle is defined as the locality.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&key={BingMapsAPIKey}  
 ```  
   
  **XML Response**  
@@ -376,7 +379,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&k
   
  **JSON Response**  
   
- The following JSON response contains the same information as the previous XML response and is provided when the output (o) parameter is not set.  
+ The following JSON response contains the same information as the previous XML response and is provided when the output (`o`) parameter is not set.  
   
 ```json
 {  
@@ -439,15 +442,15 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&k
 }  
 ```  
   
- **Find location information for Canada.**  
+### Find location information for Canada 
   
- This example provides location information for a street in Vancouver, Canada.  
+This example provides location information for a street in Vancouver, Canada.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park%20Causeway?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park%20Causeway?key={BingMapsAPIKey}  
 ```  
   
- **Find location information for France.**  
+### Find location information for France 
   
  This example provides location information for a street in Paris, France.  
   
@@ -455,44 +458,44 @@ http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park
 http://dev.virtualearth.net/REST/v1/Locations/FR/75007/Paris/Avenue%20Gustave%20Eiffel?key=BingMapsKey  
 ```  
   
- **Find location information for Germany.**  
+### Find location information for Germany
   
- This example provides location information for an address in Berlin, Germany. 
-  
-```url
-http://dev.virtualearth.net/REST/v1/Locations/DE/12010/Berlin/Platz%20Der%20Luftbrücke%205?key=BingMapsKey  
-```  
-  
- **Find location information for the United Kingdom.**  
-  
- These examples provide location information for a postal code in the United Kingdom.  
+This example provides location information for an address in Berlin, Germany. 
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/DE/12010/Berlin/Platz%20Der%20Luftbrücke%205?key={BingMapsAPIKey}  
+```  
+  
+### Find location information for the United Kingdom
+  
+These examples provide location information for a postal code in the United Kingdom.  
+  
+```url
+http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A?key={BingMapsAPIKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A%202AA?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A%202AA?key={BingMapsAPIKey}  
 ```  
   
- **Find location information by using an unstructured URL.**  
+### Find location information by using an unstructured URL 
   
  These examples provide location information based on the specified parameter values.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?postalCode=98052&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?postalCode=98052&key={BingMapsAPIKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=Redmond&adminDistrict=WA&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?locality=Redmond&adminDistrict=WA&key={BingMapsAPIKey}
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?countryRegion=AU&adminDistrict=WA&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?countryRegion=AU&adminDistrict=WA&key={BingMapsAPIKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&key={BingMapsAPIKey} 
 ```  
   
 ## HTTP Status Codes  
