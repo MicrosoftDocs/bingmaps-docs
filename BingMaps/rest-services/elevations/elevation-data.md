@@ -17,15 +17,15 @@ The response returned by an Elevations URL can contain elevation or sea level of
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|elevations|Elevations|array of integers|A list of elevation values in meters.|  
-|offsets|Offsets|array of integers|The difference between sea level models for a set of locations.|  
-|zoomLevel|ZoomLevel|integer|The zoom level used to compute the elevation values. Zoom level values are from 1 to 21. A lower value typically means less accurate results because the resolution of the elevation data is less. At lower resolutions, interpolated elevation values use data points that are further apart.<br /><br /> The zoom level used depends on the amount of elevation data available in a region and can be lowered when the specified path covers a long distance.|  
+|`elevations`|`Elevations`|array of `integers`|A list of elevation values in meters.|  
+|`offsets`|`Offsets`|array of `integers`|The difference between sea level models for a set of locations.|  
+|`zoomLevel`|`ZoomLevel`|`integer`|The zoom level used to compute the elevation values. Zoom level values are from 1 to 21. A lower value typically means less accurate results because the resolution of the elevation data is less. At lower resolutions, interpolated elevation values use data points that are further apart.<br /><br /> The zoom level used depends on the amount of elevation data available in a region and can be lowered when the specified path covers a long distance.|  
   
 ## Examples  
 
- **Elevations Resource**  
+### Elevations Resource
   
- **JSON Response**  
+A JSON Response:
   
 ```json
 {  
@@ -50,7 +50,7 @@ The response returned by an Elevations URL can contain elevation or sea level of
 }  
 ```  
   
- **XML Response**  
+An XML Response:
   
 ```xml 
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -81,12 +81,11 @@ The response returned by an Elevations URL can contain elevation or sea level of
     </ResourceSet>  
   </ResourceSets>  
 </Response>  
-  
 ```  
   
- **Sea Level Offset Resource**  
+### Sea Level Offset Resource  
   
- **JSON Response**  
+A JSON Response: 
   
 ```json
 {  
@@ -111,7 +110,7 @@ The response returned by an Elevations URL can contain elevation or sea level of
 }  
 ```  
   
- **XML Response**  
+An XML Response: 
   
 ```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
