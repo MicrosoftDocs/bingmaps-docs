@@ -17,59 +17,56 @@ ms.service: "bing-maps"
 
 Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path or area on the Earth.  
   
+__Unit of elevation__: Meters.
+  
 ## URL Templates  
   
 [!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
- **Unit of elevation**: meters  
+### Get elevations for latitude and longitude coordinates.**  
   
- **Get elevations for latitude and longitude coordinates.**  
+ Elevations are returned for each set of coordinates. Both the parameters `points` and `key` are required.  
   
- Elevations are returned for each set of coordinates.  
-  
- **Required parameters**: points, key  
-  
+
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsAPIKey}  
 ```  
   
- **Get elevations at equally-spaced locations along a polyline path.**  
+### Get elevations at equally-spaced locations along a polyline path
   
- A polyline path is computed from the coordinates, and then elevation values at both endpoints and equally-spaced locations along the polyline are returned. The samples parameter specifies the number of elevations to return.  
-  
- **Required parameters**: points, samples, key  
-  
+ A polyline path is computed from the coordinates, and then elevation values at both endpoints and equally-spaced locations along the polyline are returned. The samples parameter specifies the number of elevations to return. The parameters `points`, `samples`, and `key` are all required.
+
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsAPIKey}  
 ```  
   
- **Get elevations at equally-spaced locations within an area on the Earth defined as a bounding box.**  
+ ### Get elevations at equally-spaced locations within an area on the Earth defined as a bounding box 
   
  The rectangular area defined by the four (4) bounding box coordinates (south latitude, west longitude, north latitude, east longitude) is divided into rows and columns. The edges of the bounding box account for two (2) of the rows and two (2) of the columns. Elevations are returned for the vertices of the grid created by the rows and columns. For example, if you had specified `rows=4` and `columns=4`, then 16 elevations are returned. The elevation values are ordered starting with the southwest corner, and then proceed west to east and south to north. This is illustrated in the following diagram. The elevation points are numbered in the order that they are returned.  
   
  ![Bounding box grid showing order of elevations](../media/rest-elevationsboundingbox.png "Bounding box grid showing order of elevations")  
   
- **Required parameters**: bounds, rows, cols, key  
+The parameters `bounds`, `rows`, `cols`, and `key` are required.
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsAPIKey}  
 ```  
   
- **Get the offset of the geoid sea level Earth model from the ellipsoid Earth model at a set of latitude and longitude coordinates.**  
+### Get the offset of the geoid sea level Earth model from the ellipsoid Earth model at a set of latitude and longitude coordinates
   
- This request returns the offset in meters of the geoid model (heights=sealevel) from the ellipsoid model (heights=ellipsoid) at each location (difference = geoid_sealevel - ellipsoid_sealevel).  
+ This request returns the offset in meters of the geoid model (`heights=sealevel`) from the ellipsoid model (`heights=ellipsoid`) at each location (`difference=geoid_sealevel - ellipsoid_sealevel`).  
   
- **Required parameters**: points, key  
-  
+The parameters `points` and `key` are required.
+
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsAPIKey}  
 ```  
   
- **About Elevations and Coordinate Values:**  
+## About Elevations and Coordinate Values 
   
 -   Elevation values can be calculated using to two different Earth models – the ellipsoid model and the geoid sea level model. The ellipsoid model uses the [World Geodetic System (WGS84)](http://en.wikipedia.org/wiki/WGS84) which is an ellipsoidal approximation of the Earth. The geoid sea level model uses the [Earth Gravitational Model 2008 (EGM2008 2.5’)](http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm2008/index.html) and computes a sea level based on the local value of gravity. The ellipsoid model is equivalent to GPS and the geoid sea level model is equivalent what is commonly known as the height above sea level. For a more detailed description of the two models, see the **Earth Models and Zoom Level** section below. Set the `heights` parameter to `ellipsoid` or `sealevel` to specify the model to use. If the heights parameter is not specified, the sea level model is used  
   
--   Latitudes and longitudes in the URL are expected to be in WGS84 decimal degrees. (Example: 34.2412,-119.3829)  
+-   Latitudes and longitudes in the URL are expected to be in WGS84 decimal degrees. (Example: `34.2412,-119.3829`)  
   
 -   The maximum number of elevations returned in a request is 1024.  
   
@@ -84,17 +81,14 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,l
 >  -   Parameters and parameter values are not case-sensitive.  
 > -   Additional parameters, such output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
- **Parameters in the following table are valid for a URL only when they appear in the templates above.**  
-  
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
-|points=lat1,long1,lat2,long2,latn,longn|pts|**Required**. A set of coordinates on the Earth to use in elevation calculations. The exact use of these points depends on the type of elevation request.|A set of latitude and longitude values in WGS84 decimal degrees. If you are requesting elevations or elevation offsets for a set of points, the maximum number of points is 1024.<br /><br /> If you have a large number of values, you can use the HTTP POST protocol or the [Point Compression Algorithm](point-compression-algorithm.md).<br /><br /> **Example:**<br /><br /> points=35.89431,-110.72522,35.89393,-110.72578,35.89374|  
-|bounds||**Required**. Specifies the rectangular area over which to provide elevation values.|A bounding box defined as a set of WGS84 latitudes and longitudes in the following order:<br /><br /> south latitude, west longitude, north latitude, east longitude<br /><br /> **Example**:<br /><br /> bounds=45.219,-122.234,47.61,-122.07|  
-|rows, cols||**Required**. Specifies the number of rows and columns to use to divide the bounding box area into a grid. The rows and columns that define the bounding box each count as two (2) of the rows and columns. Elevation values are returned for all vertices of the grid.|Integers with a value of two (2) or greater. The number of rows and columns can define a maximum of 1024 locations (rows * cols <= 1024).<br /><br /> **Examples**:<br /><br /> rows=30<br /><br /> cols=15|  
-|samples|samp|**Required**. Specifies the number of equally-spaced elevation values to provide along a polyline path.|A positive integer. The maximum number of samples is 1024.<br /><br /> **Example**: samples=30|  
-|heights|hts|**Optional**. Specifies which sea level model to use to calculate elevation.|One of the following values.<br /><br /> sealevel [**default**]: Use the geoid Earth model (EGM2008 2.5’).<br /><br /> ellipsoid: Use the ellipsoid Earth model (WGS84).<br /><br /> For more information about these models, see the **Earth Models and Zoom Level** section below.<br /><br /> **Example**: heights=ellipsoid|  
-|key||**Required**. A Bing Maps Key.|If you do not have a Bing Maps Key, see [Getting a Bing Maps Key](../../getting-started/getting-a-bing-maps-key.md).|  
-  
+|`points`|`pts`|**Required**. `points=lat1,long1,lat2,long2,latn,longn`. A set of coordinates on the Earth to use in elevation calculations. The exact use of these points depends on the type of elevation request.|A set of latitude and longitude values in WGS84 decimal degrees. If you are requesting elevations or elevation offsets for a set of points, the maximum number of points is 1024.<br /><br /> If you have a large number of values, you can use the HTTP POST protocol or the [Point Compression Algorithm](point-compression-algorithm.md).<br /><br /> **Example:**<br /><br /> `points=35.89431,-110.72522,35.89393,-110.72578,35.89374`|  
+|`bounds`||**Required**. Specifies the rectangular area over which to provide elevation values.|A bounding box defined as a set of WGS84 latitudes and longitudes in the following order:<br /><br /> south latitude, west longitude, north latitude, east longitude<br /><br /> **Example**:<br /><br /> bounds=45.219,-122.234,47.61,-122.07|  
+|`rows`, `cols`||**Required**. Two separate parameters which specify the number of rows and columns, respectively, to use to divide the bounding box area into a grid. The rows and columns that define the bounding box each count as two (2) of the rows and columns. Elevation values are returned for all vertices of the grid.|Integers with a value of two (2) or greater. The number of rows and columns can define a maximum of 1024 locations (rows * cols <= 1024).<br /><br /> **Examples**:<br /><br /> `rows=30`<br /><br /> `cols=15`|  
+|`samples`|`samp`|**Required**. Specifies the number of equally-spaced elevation values to provide along a polyline path.|A positive integer. The maximum number of samples is 1024.<br /><br /> **Example**: samples=30|  
+|`heights`|`hts`|**Optional**. Specifies which sea level model to use to calculate elevation.|One of the following values.<br /><br />- `sealevel` [**default**]: Use the geoid Earth model (EGM2008 2.5’).<br /><br />- `ellipsoid`: Use the ellipsoid Earth model (WGS84).<br /><br /> For more information about these models, see the **Earth Models and Zoom Level** section below.<br /><br /> **Example**: `heights=ellipsoid`|  
+
 ## Earth Models and Zoom Level
 
 Elevation calculations can vary based on the model of the Earth used and the zoom level.  
@@ -133,12 +127,12 @@ A set of elevations and the associated zoom level is returned in the responses t
   
 ## Examples  
   
- **Get elevations for a set of latitude and longitude coordinates.**  
+### Get elevations for a set of latitude and longitude coordinates 
   
  The geoid Earth model is used to compute elevations for the coordinates provided.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsAPIKey}  
 ```  
   
  **JSON Response**  
@@ -204,12 +198,12 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35
   
 ```  
   
- **Get the elevations for a rectangular area on the Earth.**  
+### Get the elevations for a rectangular area on the Earth
   
  The geoid model is used to compute the elevations at the vertices of a rectangular grid. The bounds (bounding box) values specify an area that is further divided by the number of rows and columns specified. Two (2) rows and two (2) columns represent the bounding box.  
   
-```  
-http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,51.000577,-1.311836&rows=4&cols=4&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,51.000577,-1.311836&rows=4&cols=4&key={BingMapsAPIKey}  
 ```  
   
  **JSON Response**  
@@ -289,12 +283,12 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,
   
 ```  
   
- **Get the elevations at equally-spaced locations along a polyline.**  
+### Get the elevations at equally-spaced locations along a polyline 
   
  A polyline path is computed from the latitude and longitude values. Elevations are computed for the endpoints and eight (8) equally-spaced points in between. The ellipsoid Earth model is used to compute the elevations because `heights=ellipsoid` is specified.  
   
-```  
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&heights=ellipsoid&samples=10&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&heights=ellipsoid&samples=10&key={BingMapsAPIKey}  
 ```  
   
  **JSON Response**  
@@ -368,10 +362,10 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.7252
   
 ```  
   
- **Get the offset of the geoid sea level model from the ellipsoid model at the specified locations.**  
+### Get the offset of the geoid sea level model from the ellipsoid model at the specified locations 
   
-```  
-http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key=BingMapsKey  
+```url
+http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsAPIKey}  
 ```  
   
  **JSON Response**  
@@ -437,14 +431,14 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
   
 ```  
   
- **Use HTTP POST to get elevations**  
+### Use HTTP POST to get elevations
   
  You can use HTTP POST protocol to make any request that takes the `points` parameter. You may want to do this if you have a large number of locations in your request. If you are typically requesting elevations for 400 points or less, you may want to implement the [Point Compression Algorithm](point-compression-algorithm.md).  
   
  **HTTP POST URL**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/List?key={BingMapsAPIKey}  
 ```  
   
  **HTTP POST Header**  
