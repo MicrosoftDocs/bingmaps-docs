@@ -8,7 +8,7 @@ Given a pair of location coordinates (latitude, longitude), the Location Recogni
 >- Search by query is not supported
 >- Only USA locations are supported, other countries will be added soon
 
-### Template Parameters
+## API Parameters
 
 |Parameters|Alias|Description|Values|  
 |----|:----:|----|----|
@@ -49,7 +49,7 @@ For more information about the location entity types, see  [Location Recognition
 This example gets entities situated at a specified location and requests the response in xml format.
 
 ```url
-http://dev.virtualearth.net/REST/v1/locationrecog/47.640068,-122.129860?key=BingMapsKey&output=xml
+http://dev.virtualearth.net/REST/v1/locationrecog/47.640068,-122.129860?key={BingMapsAPIKey}&output=xml
 ```
 
 Here is the XML Response (truncated for brevity):
@@ -163,8 +163,9 @@ Here is the XML Response (truncated for brevity):
 This example uses the `includeEntityTypes` parameter to search for natural entities at a point in JSON format.
 
 ```url
-http://dev.virtualearth.net/REST/v1/locationrecog/47.640068,-122.129860?key=BingMapsKey&output=json
+http://dev.virtualearth.net/REST/v1/locationrecog/47.640068,-122.129860?key={BingMapsAPIKey}&output=json
 ```
+
 HTTP response in JSON:
 
 ```json
@@ -195,12 +196,13 @@ HTTP response in JSON:
     "traceId": "288b508676fb497db1b5cb6525aa0b10|CO30275836|7.7.0.0"
   }
 ```
+
 ### Find the address for a point on Earth.
 
 This URL request gets the address for a point in Downtown Seattle in the JSON format.
 
 ```url
-http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key=BingAPIKey&includeEntityTypes=address&output=json
+http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key={BingMapsAPIKey}&includeEntityTypes=address&output=json
 ```
 
 HTTP Request in JSON:
@@ -246,13 +248,13 @@ This example gets entities situated at a specified location and requests the res
 This example gets entities for a specified latitude and longitude and requests the results in XML format.
 
 ```url
-http://dev.virtualearth.net/REST/v1/LocationRecog/47.640068,-122.129860?key=BingMapsKey&output=xml
+http://dev.virtualearth.net/REST/v1/LocationRecog/47.640068,-122.129860?key={BingMapsAPIKey}&output=xml
 ``` 
 
 We can also make the same request, but this time searching for business entities within half a mile of the point:
 
 ```url
-http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key=BingAPIKey&r=.5&distanceUnit=mi&includeEntityTypes=address&output=json
+http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key={BingMapsAPIKey}&r=.5&distanceUnit=mi&includeEntityTypes=address&output=json
 ```
 
 ## HTTP Status Codes
