@@ -75,7 +75,7 @@ When you request imagery metadata, the image URL field returned in the response 
   
 ### Imagery Street Resource Example
 
-Also see g[Getting Streetside Tiles from Imagery Metadata](../../articles/getting-streetside-tiles-from-imagery-metadata.md). 
+Also see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting-streetside-tiles-from-imagery-metadata.md). 
 
 ```json
 {

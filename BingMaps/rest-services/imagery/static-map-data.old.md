@@ -20,50 +20,48 @@ When you use the [Get a Static Map](get-a-static-map.md) API to request static m
   
 [!INCLUDE [get-common-response-note](../../includes/get-common-response-note.md)] 
   
-## Static Map Metadata
-  
-The following fields are returned when you request image metadata for a static map.  
+## Static Map Metadata  
+ The following fields are returned when you request image metadata for a static map.  
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|`bbox`|`BoundingBox`|`BoundingBox`. For more information about the BoundingBox type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|A geographic area that contains the location. A bounding box contains SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values in units of degrees.|  
-|`imageWidth`|`ImageWidth`|`integer`|The width of static map.|  
-|`imageHeight`|`ImageHeight`|`integer`|The height of the static map.|  
-|`mapCenter`|`MapCenter`|`Point`. For more information about the Point type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|The centerpoint of the static map.|  
-|`zoom`|`Zoom`|`integer`|The zoom level of the static map.|  
-|`pushpinMetadata`|`PushpinMetadata`|`collection`|A collection of metadata for each pushpin on the static map. See the **Pushpin Metadata** section below for more information.|  
+|bbox|BoundingBox|BoundingBox. For more information about the BoundingBox type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|A geographic area that contains the location. A bounding box contains SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values in units of degrees.|  
+|imageWidth|ImageWidth|integer|The width of static map.|  
+|imageHeight|ImageHeight|integer|The height of the static map.|  
+|mapCenter|MapCenter|Point. For more information about the Point type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|The centerpoint of the static map.|  
+|zoom|Zoom|integer|The zoom level of the static map.|  
+|pushpinMetadata|PushpinMetadata|collection|A collection of metadata for each pushpin on the static map. See the **Pushpin Metadata** section below for more information.|  
   
 ## Pushpin Metadata
-  
-If a static map contains pushpins, a request for static map metadata returns following information for each pushpin.  
+
+ If a static map contains pushpins, a request for static map metadata returns following information for each pushpin.  
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|`point`|`Point`|`Point`. For more information about the Point type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|The latitude and longitude coordinates of the pushpin.|  
-|`anchor`|`Anchor`|An `x` (horizontal) and `y` (vertical) offset in pixels.|The placement of the pushpin on the static map that is defined by an offset in pixels from the upper left hand corner of the map.|  
-|`topLeftOffset`|`TopLeftOffset`|An `x` (horizontal) and `y` (vertical) offset in pixels.|The offset of the top left corner of the pushpin icon with respect to the anchor point.|  
-|`bottomRightOffset`|`BottomRightOffset`|An `x` (horizontal) and `y` (vertical) offset in pixels.|The offset of the bottom right corner of the pushpin icon with respect to the anchor point.|  
+|point|Point|Point. For more information about the Point type, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).|The latitude and longitude coordinates of the pushpin.|  
+|anchor|Anchor|An x (horizontal) and y (vertical) offset in pixels.|The placement of the pushpin on the static map that is defined by an offset in pixels from the upper left hand corner of the map.|  
+|topLeftOffset|TopLeftOffset|An x (horizontal) and y (vertical) offset in pixels.|The offset of the top left corner of the pushpin icon with respect to the anchor point.|  
+|bottomRightOffset|BottomRightOffset|An x (horizontal) and y (vertical) offset in pixels.|The offset of the bottom right corner of the pushpin icon with respect to the anchor point.|  
   
 ## Examples
 
-The following examples show the metadata that is returned for a static map. The static map is also shown for reference. When you request metadata for a static map, the map image is not returned.  
+ The following examples show the metadata that is returned for a static map. The static map is also shown for reference. When you request metadata for a static map, the map image is not returned.  
   
-### Static Map Metadata Resource Example  
-
+### Static Map Metadata Resource Example
+ 
 The following URL gets static map metadata for the map image. The map image is not returned with static map metadata. XML and JSON static metadata responses are shown below.  
   
-```url  
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsAPIKey}  
+```url
+http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key=BingMapsKey  
 ```  
- 
-![CenterPoint and ZoomLevel Static Map Example](../media/SeattleCenteryRoadPoint.png)
-
+  
+![CenterPoint and ZoomLevel Static Map Example](../media/centerpointzoomlevelstaticmap.jpg "CenterPoint and ZoomLevel Static Map Example")  
   
  This example returns the following response.  
   
  **XML Response**  
   
-```xml  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
@@ -163,7 +161,7 @@ http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?map
   
  The following response is returned if the output parameter (`o=xml`) is not specified in the URL or is set to json (`o=json`).  
   
-```json  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
