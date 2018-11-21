@@ -19,7 +19,7 @@ Use the following URL template to request traffic incident information. A collec
   
  For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](traffic-incident-data.md). You can also view the example URL and response values in the [Examples](#examples) section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](../getting-traffic-incident-data.md).  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](../../coverage/bing-maps-traffic-coverage.md).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](../../coverage/traffic-coverage.md).  
   
 ## Supported HTTP Methods
 

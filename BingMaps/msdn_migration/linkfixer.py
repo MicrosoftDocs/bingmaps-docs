@@ -15,7 +15,7 @@ def parse_msg(msg):
         bad_link = msg.split(':(')[1].split(').')[0]
         bad_link_parts = bad_link.split('/')
         bad_link_parts.remove('~')
-        return bad_link, bad_link_parts
+        return bad_link.replace('~', '..'), bad_link_parts
     return None
 
 def get_updated_filename(link_data, source_link_parts):
@@ -73,6 +73,8 @@ def update_file(mapper, datum, link):
                 print(f'Input data: {datum}', f'link: {link}')
                 f.write(file_str)
                 print(f'Changed file!')
+        else:
+            print('Bad datum:\n', datum)
 
     except UnicodeDecodeError as e:
         print(f'Failed to open {source_file_path}: \n {e}')

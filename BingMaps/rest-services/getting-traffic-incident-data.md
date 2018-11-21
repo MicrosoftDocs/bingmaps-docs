@@ -21,7 +21,7 @@ You can get traffic incident information along a route using the [Routes](routes
   
 - Traffic location codes that specify incident information for a road segment or specific location as a code, such as 120-15918. A subscription is typically required to interpret and use the traffic location codes.  
   
- For traffic coverage by country, see [Bing Maps Traffic Coverage](../coverage/bing-maps-traffic-coverage.md).  
+ For traffic coverage by country, see [Bing Maps Traffic Coverage](../coverage/traffic-coverage.md).  
   
 ## Traffic incident information along a route (Routes API)
 

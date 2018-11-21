@@ -144,7 +144,7 @@ This XML file does not appear to have any style information associated with it. 
 ```  
   
 ## Geocoding with Bing Spatial Data Services  
- You can geocode a set of addresses using the Bing Spatial Data Services using the [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md). Like the Locations API, the Geocode Dataflow API allows you to geocode a Japanese address by identifying its components or by specifying a single address string. The Geocode Dataflow data schema includes the following input values.  
+ You can geocode a set of addresses using the Bing Spatial Data Services using the [Geocode Dataflow API](../spatial-data-services/index.md). Like the Locations API, the Geocode Dataflow API allows you to geocode a Japanese address by identifying its components or by specifying a single address string. The Geocode Dataflow data schema includes the following input values.  
   
 ```  
 Id  
@@ -162,7 +162,7 @@ GeocodeRequest/ConfidenceFilter/MinimumConfidence
   
 ```  
   
- To specify individual components, use the same address definitions as defined above for the Locations API (such as GeocodeRequest/Address/AddressLine and GeocodeRequest/Address/AdminDistrict). To specify a single address query string use GeocodeRequest/Query. For more information about this data schema and how to use the Geocode Dataflow, see [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md),  [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md), and [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md).  
+ To specify individual components, use the same address definitions as defined above for the Locations API (such as GeocodeRequest/Address/AddressLine and GeocodeRequest/Address/AdminDistrict). To specify a single address query string use GeocodeRequest/Query. For more information about this data schema and how to use the Geocode Dataflow, see [Geocode Dataflow API](../spatial-data-services/index.md),  [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md), and [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md).  
   
 ## Japanese and Western Address Systems  
  The Japanese address system formats addresses in the opposite order of addresses in western countries such as the United States and Europe. In the western address system, you begin with the address details and then proceed to the larger categories such as city and state and postal code. In the Japanese system, the larger categories are listed first and finish with the address details. The Bing Maps REST Services and the Bing Spatial Data Services support geocoding for addresses that use either the Japanese or western address system for all character sets.  For example, you can specify an address using Kanji in the western address system or you can specify an address in Latin characters using the Japanese address system and the API will detect the order.  For best results, specify the values in the exact order shown below for each system.  

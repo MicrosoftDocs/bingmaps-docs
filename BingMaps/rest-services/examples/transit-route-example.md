@@ -1005,4 +1005,4 @@ http://dev.virtualearth.net/REST/V1/Routes/Transit?wp.0=Golden%20Gate%20Bridge&w
 
 [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
 [JSON Data Contracts](../json-data-contracts.md)   
-[Bing Maps Transit Coverage](../../coverage/bing-maps-transit-coverage.md)
+[Bing Maps Transit Coverage](../../coverage/index.md)
