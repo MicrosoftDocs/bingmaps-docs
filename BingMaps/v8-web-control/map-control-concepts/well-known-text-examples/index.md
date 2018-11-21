@@ -18,9 +18,9 @@ Well Known Text (WKT) is an Open Geospatial Consortium (OGC) standard that is us
 
 ## Examples
 
-  * [Read Well Known Text](../v8-web-control/well-known-text-read-example.md)
-  * [Write Well Known Text](../v8-web-control/well-known-text-write-example.md)
+  * [Read Well Known Text](well-known-text-read-example.md)
+  * [Write Well Known Text](well-known-text-write-example.md)
  
 ## Related Topics
  
- * [Well Known Text Module](../v8-web-control/well-known-text-module.md)
+ * [Well Known Text Module](../../modules/well-known-text-module.md)

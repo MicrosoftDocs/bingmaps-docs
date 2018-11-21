@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Well Known Text Write Example
+
 This code example shows how to convert a Bing Maps shape into a Well Known Text string value and display it using an alert.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,6 +68,6 @@ This code example shows how to convert a Bing Maps shape into a Well Known Text 
 
 Running this code will display a map with a polyline in the shape of a star drawn on it. An alert will be displayed that contains the Well Known Text value of the polyline.
 
-![Well Known Text from Shapes on a Map](../v8-web-control/media/bmv8-writewkt.png)
+![Well Known Text from Shapes on a Map](../../media/bmv8-writewkt.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktWriteToWkt+JS)

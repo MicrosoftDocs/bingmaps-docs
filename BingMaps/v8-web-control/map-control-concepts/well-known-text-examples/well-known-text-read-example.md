@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Well Known Text Read Example
+
 This example shows how to parse a Well Known Text string value into a Bing Maps shape and display it on the map.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,6 +50,6 @@ This example shows how to parse a Well Known Text string value into a Bing Maps 
 
 Running this code will load a map and display a pushpin at the coordinates (47.60995, -122.34009).
 
-![Shapes on a Map](../v8-web-control/media/bmv8-readwkt.png)
+![Shapes on a Map](../../media/bmv8-readwkt.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktAddPoint+JS)

@@ -82,9 +82,8 @@ def update_file(mapper, datum, link):
     try:
         file_str = None
         source_file_path = mapper.get_path(*datum.source_file_parts, full=True)
-        print(f'source file change: "{source_file_path}"\n')
+        # print(f'source file change: "{source_file_path}"\n')
 
-        print('opening file')
         with open(source_file_path, 'r', encoding='utf-8') as f:
             file_str = f.read()
 
@@ -98,8 +97,7 @@ def update_file(mapper, datum, link):
                 print(f'Input data: {datum}', f'link: {link}')
                 f.write(file_str)
                 print(f'Changed file!')
-        else:
-            print('Bad datum:\n', datum)
+
 
     except UnicodeDecodeError as e:
         print(f'Failed to open {source_file_path}: \n {e}')
@@ -133,8 +131,8 @@ def update_links(obs_cvs_file, yaml_data_file):
         if link:
             if link == '.':
                 link = data.new_filename
-            print(f'Data: {data}')
-            print(f'Link: "{link}"\n')
+            # print(f'Data: {data}')
+            # print(f'Link: "{link}"\n')
             update_file(mapper, data, link)
             
 if __name__=='__main__':

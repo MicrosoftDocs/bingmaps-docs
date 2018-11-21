@@ -72,7 +72,7 @@ In Bing Maps V8 we simply added a color property to the PushpinOptions object. N
 
 **After: V8 – Change color of default pushpin**
 
-```
+```javascript
 var pin = new Microsoft.Maps.Pushpin(center, {
     color: 'red'
 });
@@ -80,7 +80,7 @@ var pin = new Microsoft.Maps.Pushpin(center, {
 
 **After: v8 – Change color of Custom Inline SVG Pushpin**
 
-```
+```javascript
 var svgPushpinTemplate = '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><circle cx="22" cy="22" r="20" stroke="black" stroke-width="2" fill="{color}" /></svg>';
 
 var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
