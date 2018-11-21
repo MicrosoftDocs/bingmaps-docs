@@ -4,7 +4,7 @@ The Bing Maps Time Zone API returns responses in either XML or JSON. All respons
 
 These resources are described below.
 
-## Table for `TimeZone` Resource
+## Table for __TimeZone__ Resource
 
 |Field Description  |`JSON` Fields | `XML` Fields |
 |---------|---------|---------|     
@@ -20,18 +20,18 @@ These resources are described below.
  
 <sup>2</sup> Present in the response only if both `includeDstRules` is `true` and Dst Rules are available for the requested IANA or Windows Time Zone ID.
 
-## Table for `ConvertedTime` Resource
+## Table for __ConvertedTime__ Resource
 
-|Field Description  |`JSON` Fields (`convertedTime`) | `XML` Fields (`ConvertedTime`)|
+|Field Description  |`JSON` Fields | `XML` Fields|
 |---------|---------|---------|
 |Local time for designated time zone, in UTC format |	`localTime`|	`LocalTime`|
 | UTC offset with DST, `(+/-)hh:mm` format | `utcOffsetWithDst`| `UTCOffsetWithDst`|
 | Display name of time zone, e.g. `Pacific Daylight Time` | `timeZoneDisplayName` | `TimeZoneDisplayName` |
 | Display Time zone abbreviation, e.g. `PDT` | `timeZoneDisplayAbbr` | `TimeZoneDisplayAbbr`|
 
-## Table for `DstRule` Resource
+## Table for __DstRule__ Resource
 
-|Field Description  |`JSON` Fields (`dstRule`) | `XML` Fields (`DSTRule`)|
+|Field Description  |`JSON` Fields | `XML` Fields|
 |---------|---------|---------|
 |The month (three-letter abbreviation) when DST starts, e.g. `Mar` | `dstStartMonth` | `DSTStartMonth` |
 |DST starting date rule | `dstStartDateRule` | `DSTStartDateRule`<sup>3</sup> |
