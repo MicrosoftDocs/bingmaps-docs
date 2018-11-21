@@ -3,7 +3,7 @@ import sys
 import yaml
 from collections import namedtuple, defaultdict
 
-BuildData = namedtuple('BuildData', 'source_file_parts dest_file_parts old_dest_link new_dest_link') 
+BuildData = namedtuple('BuildData', 'source_file_parts dest_file_parts old_dest_link new_filename') 
 
 
 def check_extension(file_name, ext):
@@ -47,11 +47,10 @@ def get_error_data(df, link_data):
             if '.md' in dest_path_parts[-1]:
 
                 # get dest file
-                new_dest_link = get_updated_filename(link_data, dest_path_parts)
+                new_filename = get_updated_filename(link_data, dest_path_parts)
                 source_path_parts = f.split('/')
                 source_path_parts.remove('BingMaps')
-                datum = BuildData(source_path_parts, dest_path_parts, old_dest_link, new_dest_link)
-
+                datum = BuildData(source_path_parts, dest_path_parts, old_dest_link, new_filename)
                 yield datum
 
 
@@ -60,13 +59,15 @@ def update_file(mapper, datum, link):
     file_str = None
     source_file_path = mapper.get_path(*datum.source_file_parts)
     print(f'source file change: "{source_file_path}"\n')
-
+    
     with open(source_file_path, 'r', encoding='utf8') as f:
         file_str = f.read()
+        
     file_old = file_str
     file_str = file_str.replace(datum.old_dest_link, link)
+
     if file_str != None and file_str != file_old:
-        with open(file_name, 'w', encoding='utf8') as f:
+        with open(source_file_path, 'w', encoding='utf8') as f:
             f.write(file_str)
             print(f'Changed file!')
                 
@@ -87,7 +88,7 @@ def update_links(obs_cvs_file, yaml_data_file):
     for data in get_error_data(df, yaml_links):
        
         new_dest = list(data.dest_file_parts)
-        new_dest[-1] = data.new_dest_link
+        new_dest[-1] = data.new_filename
 
         source = mapper.get_path(*data.source_file_parts)
         dest = mapper.get_path(*new_dest)
@@ -96,7 +97,7 @@ def update_links(obs_cvs_file, yaml_data_file):
 
         if link:
             if link == '.':
-                link = data.new_dest_link
+                link = data.new_filename
             print(f'Data: {data}')
             print(f'Link: "{link}"\n')
             update_file(mapper, data, link)

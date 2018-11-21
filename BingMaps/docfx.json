@@ -30,7 +30,8 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
-          "msdn-migration/**"
+          "msdn-migration/**",
+          "msdn_migration/**"
         ]
       }
     ],
