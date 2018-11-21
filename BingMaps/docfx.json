@@ -15,7 +15,8 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "msdn-migration/**"
+          "msdn-migration/**",
+          "msdn_migration/**"
         ]
       }
     ],
