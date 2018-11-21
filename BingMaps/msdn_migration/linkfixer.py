@@ -69,8 +69,6 @@ def update_file(mapper, datum, link):
         file_old = file_str
         file_str = file_str.replace(datum.old_dest_link, link)
 
-        return
-
         print('replacing file')
     
         if file_str != None and file_str != file_old:
@@ -79,7 +77,7 @@ def update_file(mapper, datum, link):
                 print(f'Changed file!')
 
     except UnicodeDecodeError as e:
-        print(f'Failed to open {f}: \n {e}')
+        print(f'Failed to open {source_file_path}: \n {e}')
         exit(1)
             
                 
