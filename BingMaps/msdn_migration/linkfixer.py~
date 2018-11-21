@@ -1,0 +1,62 @@
+from pandas import read_csv
+import sys
+import yaml
+from collections import namedtuple, defaultdict
+
+ErrorData = namedtuple('BuildData', 'dest_file service_dir md_file old_link new_link') 
+
+def get_error_data(df, link_data):
+    '''
+    Prepares doc data from OBS report and YAML link mapper file
+    into `ErrorData` objects to be used to replace links in repo
+
+    - `df` is a Pandas dataframe of OBS linking error info
+    - `link_data` is a dict from the YAML link data file
+    '''
+
+    for [file, msg] in df[['File','Message']].values:
+        print(f'\nunparsing: "{file} -- {msg}"\n')
+        parse_data = parse_msg(msg)
+        if parse_data and check_extension(file, 'md'):
+            
+            service_dir, md_file = parse_data
+
+            old_link = f'../{service_dir}/{md_file}'           
+            
+            dest_file = file.replace('BingMaps', '..')
+            
+            for service in link_data:
+                if service.get('path') == service_dir:
+                    # same directory
+                    for link_dict in service.get('links'):
+                        
+                        if link_dict['old-docs'].strip(" ") == md_file.strip(" "):
+
+                            new_link_file = link_dict.get('new-docs')
+
+                            if new_link_file:
+
+                                dest_file_parts = dest_file.split('/')
+                                n = len(dest_file_parts)
+                                print(f"Dest file part: {dest_file_parts}\n")
+                                origin_md_file = get_updated_filename(link_data, service_dir, dest_file_parts[-1])
+                                print(f'new dest md filename: {origin_md_file}\n')
+                                dest_file_parts[n-1] = origin_md_file
+                                dest_file = str.join('/', dest_file_parts)
+
+                                # depth = get_link_depth(dest_file, f'../{service_dir}/{new_link_file}')
+                                
+                                # depth = get_link_service_level_depth(dest_file, service_dir)
+
+                                depth = get_depth(dest_file, service_dir)
+
+                                rel_path = str.join('/', ['..' for _ in range(depth)]) + '/' if depth > 0 else '' 
+                                
+                                new_link = f'{rel_path}{new_link_file}' #  if depth > 0 else new_link_file.split('/')[-1]
+                                
+                                datum = ErrorData(dest_file, service_dir, md_file, old_link, new_link)
+                                print_error_data(datum)
+                                yield datum
+                                break
+                            else:
+                                print(f"************* no new file: {md_file}\n\n.")

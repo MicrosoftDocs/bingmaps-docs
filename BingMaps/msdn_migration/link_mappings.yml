@@ -756,7 +756,7 @@
     - msdn: https://msdn.microsoft.com/en-us/library/mt712806.aspx
       old-docs: geojson-module.md
       new-docs: modules/geojson-module/index.md
-    - msdn: *************************************************************************
+    - msdn:
       old-docs: geojsonreadoptions-object.md
       new-docs: modules/geojson-module/geojsonreadoptions-object.md
     - msdn: https://msdn.microsoft.com/en-US/library/mt825057.aspx
