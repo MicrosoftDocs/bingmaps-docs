@@ -63,7 +63,6 @@ class FileMap:
 
     def create_link(self, source_path, dest_path):
         from os.path import relpath
-        template = '{0} path expected type `Path` but got {1}'
 
         if None in [source_path, dest_path]:
             return None

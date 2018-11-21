@@ -54,6 +54,29 @@ def get_error_data(df, link_data):
                 yield datum
 
 
+def replace_link(file_str, old_link, link):
+    '''Problem: OBS replaces '../../../' etc. with '~'
+    '''
+    new_file_str = file_str
+    try:
+        index = file_str.index(old_link)
+        n = len(old_link)
+
+        if index > -1:
+            top = file_str[:index]
+            bot = file_str[index+n:]
+            while any(top):
+                if top[-1] != '(':
+                    top.pop()
+                else:
+                    break
+            new_file_str = top + link + bot
+            new_file_str = replace_link(new_file_str, old_link, link)
+    except ValueError:
+        pass
+    finally:
+        return new_file_str
+
 def update_file(mapper, datum, link):
     try:
         file_str = None
@@ -65,7 +88,8 @@ def update_file(mapper, datum, link):
             file_str = f.read()
 
         file_old = file_str
-        file_str = file_str.replace(datum.old_dest_link, link)
+        # file_str = file_str.replace(datum.old_dest_link, link)
+        file_str = replace_link(file_str, datum.old_dest_link, link)
 
         if file_str != None and file_str != file_old:
             print('replacing file')
