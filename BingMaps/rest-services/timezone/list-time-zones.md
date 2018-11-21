@@ -13,7 +13,7 @@ The list operation retrieves all available time zone data for either the [IANA](
 The Time Zone API list operation returns a complete list of time zone information for either the [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone standard. In the request URL specify `timezonestandard = WINDOWS` or `timezonestandard = IANA` to retrieve a list of Windows or IANA Time Zone information, respectively.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/List/?timezonestandard=<IANA_or_Windows>&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/TimeZone/List/?timezonestandard={IANA_or_Windows}&key={BingMapsAPIKey}
 ```
 
 ### Time Zone from Time Zone ID (Windows or IANA)
@@ -21,7 +21,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/List/?timezonestandard=<IANA_or_Wi
 Given a specified Time Zone ID in either the [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone format, e.g. `desttz = America/los_angeles`, the Time Zone API returns information about that time zone.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/?desttz=<time_zone_id>&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/TimeZone/?desttz={time_zone_id}&key={BingMapsAPIKey}
 ```
 
 
@@ -38,7 +38,6 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?desttz=<time_zone_id>&key=<BingMa
 > [!NOTE]
 >
 > The Time Zone API does not maintain historical record of any time zone or day light settings. If a location had a different time zone in the past, it is not considered. The Bing Maps Time Zone API results are based only on current policies and standards.
-
 
 ## Response
 
@@ -59,7 +58,7 @@ The List operation for the Time Zone API returns the complete list of either IAN
 The following URL request returns a list of the Windows Time Zone IDs:
 
 ```url
-https://dev.virtualearth.net/REST/V1/TimeZone/List/?timezonestandard=windows&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/V1/TimeZone/List/?timezonestandard=windows&key={BingMapsAPIKey}
 ```
 
 The (truncated) JSON response:
@@ -99,7 +98,7 @@ The Time Zone API can be used to retrieve information about any timezone by spec
 In this example, to get information about the time zone in L.A., we set `desttz` to the IANA code `America/Los_Angeles`.
 
 ```url
-https://dev.virtualearth.net/REST/V1/TimeZone/?desttz=America/Los_Angeles&includeDstRules=true&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/V1/TimeZone/?desttz=America/Los_Angeles&includeDstRules=true&key={BingMapsAPIKey}
 ```
 
 The JSON response for the Los Angeles time zone:

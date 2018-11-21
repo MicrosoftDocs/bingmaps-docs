@@ -11,7 +11,7 @@ These resources are described below.
 |Standard name of the time zone, e.g. `Pacific standard time`	|`genericName` |	`GenericName` |
 |Abbreviation for the time zone, e.g. `PST` | `abbreviation` | `Abbreviation`|
 |Time zone name per the IANA standard<sup>1</sup>|	`ianaTimeZoneId`<sup>1</sup>|	`IANATimeZoneID`<sup>1</sup>|
-|Time zone name as per the Microsoft Windows standard	| `windowsTimeZoneID`|	`WindowsTimeZoneID`|
+|Time zone name as per the Microsoft Windows standard| `windowsTimeZoneID`|	`WindowsTimeZoneID`|
 |Offset of time zone from UTC, in `(+/-)hh:mm` format | `utcOffset`| `UTCOffset`|
 | `ConvertedTime` Resource | `convertedTime` | `ConvertedTime` |
 | `DstRule` Resource<sup>2</sup> | `dstRule`<sup>2</sup> | `DSTRule`<sup>2</sup> | 
@@ -34,13 +34,13 @@ These resources are described below.
 |Field Description  |`JSON` Fields (`dstRule`) | `XML` Fields (`DSTRule`)|
 |---------|---------|---------|
 |The month (three-letter abbreviation) when DST starts, e.g. `Mar` | `dstStartMonth` | `DSTStartMonth` |
-|DST starting date rule<sup>3</sup> | `dstStartDateRule`<sup>3</sup> | `DSTStartDateRule`<sup>3</sup> |
+|DST starting date rule | `dstStartDateRule` | `DSTStartDateRule`<sup>3</sup> |
 |The local time when DST starts, `hh:mm` format | `dstStartTime` | `DSTStartTime` |
-|The offset to apply *during* DST, `(+/-)h:mm` format<sup>4</sup> | `dstAdjust1`<sup>4</sup> | `DSTAdjust1`<sup>4</sup> |
+|The offset to apply *during* DST, `(+/-)h:mm` format | `dstAdjust1` | `DSTAdjust1`<sup>4</sup> |
 |The month (three-letter abbreviation) when DST ends, e.g. `Oct` | `dstEndMonth` | `DSTEndMonth` |
-|DST ending date rule<sup>3</sup> | `dstEndDateRule`<sup>3</sup> | `DSTEndDateRule`<sup>3</sup> |
+|DST ending date rule | `dstEndDateRule` | `DSTEndDateRule`<sup>3</sup> |
 |The local time when DST ends, `hh:mm` format | `dstEndTime` | `DSTEndTime` |
-|The offset to apply *outside* of DST, `(+/-)h:mm` format<sup>4</sup> | `dstAdjust2`<sup>4</sup> | `DSTAdjust2`<sup>4</sup> |
+|The offset to apply *outside* of DST, `(+/-)h:mm` format | `dstAdjust2` | `DSTAdjust2`<sup>4</sup> |
 
 <sup>3</sup> The syntax for DST Rules consists of four types of expressions. The first is an integer denoting a day in a month, e.g. `10`. The second is the prefix `last-` which denotes the last day of the month, e.g. `lastSun`. Lastly, there are two relational operators: `>=` and `=<`. For example `Mon>=5` denotes the first Monday of the month on or *after* the fifth day, while `Mon<=5` denotes the first Monday of the month on or *before* the fifth day. For more details, see the [IANA documentation on time zone syntax]( https://data.iana.org/time-zones/tz-how-to.html).
 

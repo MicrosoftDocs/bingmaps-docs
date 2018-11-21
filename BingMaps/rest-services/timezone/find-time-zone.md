@@ -16,7 +16,7 @@ There are two Time Zone API operations to retrieve time zone information for a l
 Given a specified point of latitude and longitude coordinates, like `point = 47,-122`, the Time Zone API returns information about the time zone for that location.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/<point>?datetime=<datetime_utc>&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/TimeZone/{point}?datetime={datetime_utc}&key={BingMapsAPIKey}
 ``` 
 
 ### Time Zone from Location Name
@@ -26,26 +26,22 @@ Given a query for a location, like `query = Bellevue, WA`, the Time Zone API fin
 To avoid ambiguity when processing location names, make sure to fully qualify the location name with state (administrative region) and country names.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/?query=<query>&datetime=<datetime_utc>&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/TimeZone/?query={query}&datetime={datetime_utc}&key={BingMapsAPIKey}
 ```
-
-
 
 ## Template Parameters
 
 |Parameters |Alias  |Descriptions  |Values |
 |:------|:----:|---------|---------|
-|`point` | | **Required for getting Time Zone by Location Point.** The coordinates of the location for which you want the entities situated.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](https://msdn.microsoft.com/library/ff701726.aspx). <br /><br />Use the following ranges of values:<br /><br />- `Latitude` (degrees): `[-90, +90]`<br />- `Longitude` (degrees): `[-180, +180]`<br /><br />*Example*: `47.610679194331169,-122.10788659751415`| 
+|`point` | | **Required for getting Time Zone by Location Point.** The coordinates of the location for which you want the entities situated.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md). <br /><br />Use the following ranges of values:<br /><br />- `Latitude` (degrees): `[-90, +90]`<br />- `Longitude` (degrees): `[-180, +180]`<br /><br />*Example*: `47.610679194331169,-122.10788659751415`| 
 |`query` |`q` | **Required for getting Time Zone by Query.** A string containing information about the location, including address, locality, and postal code.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | To properly identify the given location, provide a fully qualified location e.g. place name, administrative region and country name.<br /><br />**Note:**	To avoid ambiguous results specify a qualified location name. For example, there are two Vancouvers, one in British Columbia, Canada and the other in Washington state, USA, so instead of the query "Vancouver" use either "Vancouver, BC" or "Vancouver, WA" (alternatively: "Vancouver, Canada" or "Vancouver, USA"). If no such qualification is present and multiple locations of the given name are detected, then more likely than not the most popular location is returned. <br /><br />**Note:** Please use full country names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries, e.g., use either `Capetown, ZA` or `Captetown, South Africa` instead of `Capetown, SA`. <br /><br />*Examples*:<br /><br />- `query = bellevue,wa,us`<br />- `q = 98052,wa`|
 |`dateTime` |`dt`| **Optional.** The UTC date time string for the specified location. The date must be specified to apply the correct DST. |  The date time string must be in UTC format. If the date is not included, the returned time zone information may be incorrect.<br /><br />*Example*: `2018-05-15T13:14:15Z`|  
 |`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](time-zone-data.md). | Either `true` or `false`.<br /><br />Default: `false` |
 |`output`|`o`|**Optional.** Output format of the response.|Format of the response:<br/><br/>- `JSON`<br />- `XML`<br /><br />Default: `JSON`|
 
-
 > [!NOTE]
 >
 > The Time Zone API does not maintain historical record of any time zone or day light settings. If a location had a different time zone in the past, it is not considered. The Bing Maps Time Zone API results are based only on current policies and standards.
-
 
 ## Response
 
@@ -62,7 +58,7 @@ Time Zone API responses are available in JSON and XML formats.
 > 
 > **Response for Time Zone API by Query**.
 > 
-> If the Time Zone API is called successfully with the query parameter specified, then the response will consist of the field `timeZoneAtLocation` with two subfields: `placeName` and `timeZone` for JSON and `PlaceName` and `TimeZone` for XML.
+> If the Time Zone API is called successfully with the query parameter specified, then the response will consist of the field `timeZoneAtLocation` with two sub-fields: `placeName` and `timeZone` for JSON and `PlaceName` and `TimeZone` for XML.
 > 
 > For example, in JSON:
 > ```json
@@ -127,7 +123,7 @@ This example sends a request with a point in Alaska to the Time Zone API. It ret
 The URL request: 
 
 ```url
-https://dev.virtualearth.net/REST/v1/timezone/61.768335,-158.808765?key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/timezone/61.768335,-158.808765?key={BingMapsAPIKey}
 ```
 
 JSON response:
@@ -177,7 +173,7 @@ This example sends a request with the query “Bellevue, WA” and returns an XM
 The request URL:
 
 ```url
-https://dev.virtualearth.net/REST/v1/timezone/?query=bellevue,%20wa&output=xml&key=<BingMapsAPIKey>
+https://dev.virtualearth.net/REST/v1/timezone/?query=bellevue,%20wa&output=xml&key={BingMapsAPIKey}
 ```
 
 XML Response:
