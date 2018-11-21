@@ -55,24 +55,22 @@ def get_error_data(df, link_data):
 
 
 def update_file(mapper, datum, link):
-    # print(f'Input data: {datum}', f'link: {link}')
-    file_str = None
-    source_file_path = mapper.get_path(*datum.source_file_parts, full=True)
-    print(f'source file change: "{source_file_path}"\n')
-
-    print('opening file')
-
     try:
+        file_str = None
+        source_file_path = mapper.get_path(*datum.source_file_parts, full=True)
+        print(f'source file change: "{source_file_path}"\n')
+
+        print('opening file')
         with open(source_file_path, 'r', encoding='utf-8') as f:
             file_str = f.read()
 
         file_old = file_str
         file_str = file_str.replace(datum.old_dest_link, link)
 
-        print('replacing file')
-    
         if file_str != None and file_str != file_old:
+            print('replacing file')
             with open(source_file_path, 'w', encoding='utf-8') as f:
+                print(f'Input data: {datum}', f'link: {link}')
                 f.write(file_str)
                 print(f'Changed file!')
 
