@@ -28,7 +28,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|key||**Required**. A Bing Maps Key associated with the Bing Maps Account that you want to query.|A Bing Maps Key obtained from the Bing Maps Account Center that is associated with the account you want to query. For information about how to get a Bing Maps Key, see [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md).<br /><br /> Example: key=abc123def456ghi789abc123def456ghi789|  
+|key||**Required**. A Bing Maps Key associated with the Bing Maps Account that you want to query.|A Bing Maps Key obtained from the Bing Maps Account Center that is associated with the account you want to query. For information about how to get a Bing Maps Key, see [Getting a Bing Maps Key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).<br /><br /> Example: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: output=xml|  
   
 ## Response  

@@ -21,7 +21,7 @@ This topic contains support resources and contact information.
 There are two paths in which you can get a Bing Maps key. This first method is recommended if you fall into one of these categories;
 
 * Are an enterprise customer who has a volume license agreement with Microsoft.
-* Currently generate more than 500 thousand transactions a month. Documentation on transactions can be [here](../getting-started/understanding-bing-maps-transactions.md).
+* Currently generate more than 500 thousand transactions a month. Documentation on transactions can be [here](../getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md).
 * Are using Bing Maps in an asset tracking application.
 * Internal applications where you prefer to use a known user license (cost per user) rather than a transactional license.
 
@@ -29,12 +29,12 @@ The second method is recommended for all other applications that generate less t
 
 ### Method 1: Create a Bing Maps Account
 
-1.  Create a Bing Maps account at the [Bing Maps Dev Center](https://www.bingmapsportal.com/). You can find documentation on how to create a Bing Maps account [here](../getting-started/creating-a-bing-maps-account.md).
+1.  Create a Bing Maps account at the [Bing Maps Dev Center](https://www.bingmapsportal.com/). You can find documentation on how to create a Bing Maps account [here](../getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account.md).
 2.  Create a Bing Maps key.
     1.  We invite you to use the "basic" key type and free use terms outlined in the [Bing Maps Terms of Use (TOU)](http://www.microsoft.com/maps/product/terms.html) as you migrate to Bing Maps. Production applications outside the free use thresholds in the TOU will need a Bing Maps Enterprise account. For assistance with Bing Maps licensing, please contact
         [maplic@microsoft.com](mailto:maplic@microsoft.com) (including your Bing Maps Account Center ID).
     2.  Enterprise customers are advised to use keys of type “basic” for all pre‐production application testing. An enterprise key should be created and used for production use.
-    3.  See the MSDN documentation for more information on [Getting a Bing Maps key](../getting-started/getting-a-bing-maps-key.md).
+    3.  See the MSDN documentation for more information on [Getting a Bing Maps key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).
 
 ### Method 2: License Bing Maps through Azure Marketplace
 

@@ -18,18 +18,18 @@ Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping develope
 
 Area          | Description
 ------------- | ----------------------
-[Getting Started](../v8-web-control/getting-started-creating-and-hosting-a-map-control.md) | Add the Bing Maps V8 web control to your web page in a few simple steps.
-[Map Control Concepts](../v8-web-control/map-control-concepts.md) | Discover more about fundamental concepts of the map control, and how to add basic data visualizations to the map.
-[Map Control API Reference](../v8-web-control/map-control-api-reference.md) | Documentation on the methods, properties, and basic function of the map control's major types.
-[Modules](../v8-web-control/modules.md) |  Reusable components you can use, including new visualizations, data import libraries, and geospatial utilities.
-[Articles](../v8-web-control/articles.md) | Advanced topics and techniques you can use with the Bing Maps V8 Web Control.
+[Getting Started](creating-and-hosting-map-controls/index.md) | Add the Bing Maps V8 web control to your web page in a few simple steps.
+[Map Control Concepts](map-control-concepts/index.md) | Discover more about fundamental concepts of the map control, and how to add basic data visualizations to the map.
+[Map Control API Reference](map-control-api/index.md) | Documentation on the methods, properties, and basic function of the map control's major types.
+[Modules](modules/index.md) |  Reusable components you can use, including new visualizations, data import libraries, and geospatial utilities.
+[Articles](articles/index.md) | Advanced topics and techniques you can use with the Bing Maps V8 Web Control.
 [Supported Browsers](../v8-web-control/supported-browsers.md) | A list of supported browsers for the Bing Maps V8 Web Control.
-[What's New](../v8-web-control/what-s-new.md) | A list of new features that have been added to Bing Maps V8 through one of the regular updates.  
+[What's New](whats-new.md) | A list of new features that have been added to Bing Maps V8 through one of the regular updates.  
 [Developer Resources](../v8-web-control/developer-resources.md) |  Information about support resources and contact details.
 
 ## Code Optimizations in V8
 
-If you are new to Bing Maps or developed with it for years, you will surely find the new [Code Optimizations in V8](../v8-web-control/code-optimizations-in-v8.md) article useful. These will help reduce the amount of code you need to write to create your application.
+If you are new to Bing Maps or developed with it for years, you will surely find the new [Code Optimizations in V8](articles/code-optimizations-in-v8.md) article useful. These will help reduce the amount of code you need to write to create your application.
 
 ## Migrating from an Existing Version of Bing Maps?
 

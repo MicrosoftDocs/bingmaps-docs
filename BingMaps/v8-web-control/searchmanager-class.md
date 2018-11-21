@@ -19,7 +19,7 @@ The **SearchManager** class is the primary class used for performing forward and
 
 ## Constructor
 
-> SearchManager(map: [Map](../v8-web-control/map-class.md))
+> SearchManager(map: [Map](map-control-api/map-class.md))
 
 ## Methods
 

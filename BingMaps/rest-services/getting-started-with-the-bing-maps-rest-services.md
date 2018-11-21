@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 The Bing™ Maps REST Services Application Programming Interface (API) is a Representational State Transfer (REST) API that you can use to do common tasks, such as finding an address, retrieving a map with a pushpin and a label, or getting driving directions. You perform these tasks by constructing a URL.
   
- **To use the Bing Maps REST Services, you must have a [Bing Maps Key](../getting-started/getting-a-bing-maps-key.md).**  
+ **To use the Bing Maps REST Services, you must have a [Bing Maps Key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).**  
   
 ## Bing Maps REST Services  
 
@@ -44,4 +44,4 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
   
 ## Transaction Accounting
 
- Transactions are counted for each Bing Maps REST Services request sent with a valid Bing Maps Key. For information about billable and non-billable transactions for the Bing Maps REST Services, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).
+ Transactions are counted for each Bing Maps REST Services request sent with a valid Bing Maps Key. For information about billable and non-billable transactions for the Bing Maps REST Services, see [Understanding Bing Maps Transactions](../getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md).

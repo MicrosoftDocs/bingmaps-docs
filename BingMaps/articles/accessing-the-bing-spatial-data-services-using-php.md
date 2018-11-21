@@ -149,7 +149,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
 -   Tab-delimited  
   
- You can get complete details on the data structure required by the Geocode Dataflow API for all these formats at [Data Schema v1.0](../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md).  
+ You can get complete details on the data structure required by the Geocode Dataflow API for all these formats at [Data Schema v1.0](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md).  
   
  To begin a geocode job, we can use the following PHP code:  
   

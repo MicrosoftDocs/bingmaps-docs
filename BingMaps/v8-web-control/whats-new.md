@@ -20,7 +20,7 @@ The following is a list of key features added to the Bing Maps V8 Web control dr
 
 **Configuration Driven Maps Framework**
 
-Configuration driven maps allow you to quickly and easily create a map with your data with little to no coding required. Instead create a JSON configuration fill that species the data sets you want to render along with some map options and then easily generate a map from this. Find out more [here](../v8-web-control/configuration-driven-maps-framework.md). 
+Configuration driven maps allow you to quickly and easily create a map with your data with little to no coding required. Instead create a JSON configuration fill that species the data sets you want to render along with some map options and then easily generate a map from this. Find out more [here](map-control-concepts/configuration-driven-maps-framework/index.md). 
 
 ## November 2017
 
@@ -42,7 +42,7 @@ The Autosuggest manager now lets you specify a country to limit suggestions to u
 
 **Enable CORs on tile layers**
 
-This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](http://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](../v8-web-control/mapoptions-object.md) for more details.
+This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](http://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](map-control-api/mapoptions-object.md) for more details.
 
 **Customize the Drawing toolbar**
 
@@ -64,19 +64,19 @@ This release contains several new features and bug fixes.
 
 Easily import and export common spatial file formats such as KML, KMZ, GeoRSS, GML (via GeoRSS) and GPX. Load it as a layer on the map or directly access the data with just a few lines of code.
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Local%20Data) | [Documentation](../v8-web-control/geoxml-module.md)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Local%20Data) | [Documentation](modules/geoxml-module/index.md)
 
 **Ground Overlays**
 
 Overlay georeferenced images on top of the map so that they move and scale as you pan and zoom the map. This is great for building floor plans, overlaying old maps, or imagery from a drone.
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay) | [Documentation](../v8-web-control/groundoverlay-class.md)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay) | [Documentation](map-control-api/groundoverlay-class.md)
 
 **LocationRect class improvements**
 
 Two new static methods have been added the LocationRect class. The first is called `fromShapes` and lets you easily generate a LocationRect from an array of shapes. The second is called `merge` and makes it easy to combine two LocationRect objects together to generate the minimum bounding LocationRect. 
 
-[Documentation](../v8-web-control/locationrect-class.md) 
+[Documentation](map-control-api/locationrect-class.md) 
 
 **Get Autosuggest suggestions programmatically**
 
@@ -104,7 +104,7 @@ The Bing Maps V8 control has a new map option called **customMapStyle** which ca
 
 **Direction Route Line & Waypoint Style Options**
 
-With this relase the route line and waypoints can be customized using the [DirectionsRenderOptions](../v8-web-control/directionsrenderoptions-object.md). 
+With this relase the route line and waypoints can be customized using the [DirectionsRenderOptions](modules/directions-module/directionsrenderoptions-object.md). 
 
 **Postal Code support added to Auto Suggest module**
 
@@ -121,7 +121,7 @@ This release primarily consisted of bug fixes and performance improvements.
 
 **RoutePath Locations**
 
-When you calculate a route using the directions manager you can now easily get an array of locations that make up the route path. This is useful if you want to create a custom styled route line on the map, or if you want to perform route based calculations such as search for data along or near a route. Combine this with the Bing Maps REST elevation service and easily generate route elevation profiles. This is documented as part of the Route response object  [here](../v8-web-control/route-object.md).
+When you calculate a route using the directions manager you can now easily get an array of locations that make up the route path. This is useful if you want to create a custom styled route line on the map, or if you want to perform route based calculations such as search for data along or near a route. Combine this with the Bing Maps REST elevation service and easily generate route elevation profiles. This is documented as part of the Route response object  [here](modules/directions-module/route-object.md).
 
 **Cardinal Splines**
 
@@ -137,13 +137,13 @@ Bing Maps V8 now supports loading multiple map instances on a single page.
 
 The Bing Maps team has made 2010 US Census data available through the Bing Spatial Data Services for easy use in your application. This data has been exposed through 4 different data sources, each containing census data based on a different type of geographical region; states, counties, ZCTA5 (Zip code tabulation area), and the 111th Congressional districts. 
 
-[Documentation](../spatial-data-services/2010-us-census-data-sources.md) | [Code Samples](../v8-web-control/choropleth-map-example.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
+[Documentation](../spatial-data-services/public-data-sources/2010-us-census-data-sources.md) | [Code Samples](map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
 
 ## October 2016
 
 **Map Lite Mode**
 
-The Bing Maps V8 control by default will usually use vector map labels depending on the browser and device the user is using. A new `liteMode` map option has been added which when set to true will disable vector map labels and instead will render the labels directly on the map tiles. Doing this improves the overall performance of the map control, but will disable vector label specific features such as label collision detection with pushpins. The map automatically will load into `liteMode` when the map is used in slower browsers or devices. You can override this behavior by setting this option to false. You can find out more about vector map labels in Bing Maps V8 [here](../v8-web-control/vector-map-labels.md).
+The Bing Maps V8 control by default will usually use vector map labels depending on the browser and device the user is using. A new `liteMode` map option has been added which when set to true will disable vector map labels and instead will render the labels directly on the map tiles. Doing this improves the overall performance of the map control, but will disable vector label specific features such as label collision detection with pushpins. The map automatically will load into `liteMode` when the map is used in slower browsers or devices. You can override this behavior by setting this option to false. You can find out more about vector map labels in Bing Maps V8 [here](articles/vector-map-labels.md).
 
 **Hide/Show Minified Navigation Bar Traffic button**
 
@@ -163,13 +163,13 @@ The team plans to put the main release branch into a code freeze for the months 
 
 This module provides makes it easy to create data bins from arrays of pushpins and display them on the map.
  
-[Documentation](../v8-web-control/data-binning-module.md) | [Code Samples](../v8-web-control/data-binning-module-examples.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
+[Documentation](modules/data-binning-module/index.md) | [Code Samples](map-control-concepts/data-binning-module-examples/index.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
 
 **Contour Module**
 
 This module makes it easy to take contour line data and visualize it on Bing Maps as non-overlapping colored areas. 
 
-[Documentation](../v8-web-control/contour-module.md) | [Code Samples](../v8-web-control/contour-module-examples.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)
+[Documentation](modules/contour-module/index.md) | [Code Samples](map-control-concepts/contour-module-examples/index.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)
 
 **Double Click Support**
 
@@ -199,7 +199,7 @@ To make Bing Maps more accessible, high contrast support has been added. When th
 
 **New Road Map Styles**
 
-Three new road map styles have been added; grayscale, canvasDark and canvasLight. These are designed to make it easy to focus on the data you overlay on top of the map and are much better suited for business intelligence type scenarios than the default road map style. You can find documentation [here](../v8-web-control/maptypeid-enumeration.md). 
+Three new road map styles have been added; grayscale, canvasDark and canvasLight. These are designed to make it easy to focus on the data you overlay on top of the map and are much better suited for business intelligence type scenarios than the default road map style. You can find documentation [here](map-control-api/maptypeid-enumeration.md). 
 
 **Infobox improvements**
 
@@ -253,7 +253,7 @@ Public transit is one of the most common ways of traveling in Japan. You can now
 
 **Clickable Pushpin area**
 
-Often, when using custom pushpins, the clickable area of the pushpin is rectangular, as the image used to create custom pushpins has a rectangular shape. This can often cause issues when using mouse events because often the actual drawn image may not be a rectangle itself and as such has some whitespace around it which will block the mouse events from getting to the pushpins below it. With this in mind, V8 now lets you specify that a rounded click area should be used instead. Early testing has found that this drastically reduces false clicks on pushpins and thus creates a much better user experience. Find our more [here](../v8-web-control/pushpinoptions-object.md).
+Often, when using custom pushpins, the clickable area of the pushpin is rectangular, as the image used to create custom pushpins has a rectangular shape. This can often cause issues when using mouse events because often the actual drawn image may not be a rectangle itself and as such has some whitespace around it which will block the mouse events from getting to the pushpins below it. With this in mind, V8 now lets you specify that a rounded click area should be used instead. Early testing has found that this drastically reduces false clicks on pushpins and thus creates a much better user experience. Find our more [here](map-control-api/pushpinoptions-object.md).
  
 **GeoJSON and Query API Shape Styling**
 
@@ -291,19 +291,19 @@ Bing Maps V8 uses the HTML5 Canvas for rendering. This provides the ability to r
 
 Additionally the V8 control also supports asynchronous loading. 
 
-There is however one limitation of using the HTML5 canvas, HTML DOM elements can't be rendered on the map canvas. As such custom pushpins in V8 do not support HTML content. There are however a number of other options for creating custom pushpins in V8 as you can see in the examples [here](../v8-web-control/pushpins.md).
+There is however one limitation of using the HTML5 canvas, HTML DOM elements can't be rendered on the map canvas. As such custom pushpins in V8 do not support HTML content. There are however a number of other options for creating custom pushpins in V8 as you can see in the examples [here](map-control-concepts/pushpins/index.md).
 
 **Code Optimizations**
 
-While developing the Bing Maps V8 SDK the development team focused on streamlining the API to align with common customer scenarios. By doing this the team was able to significantly reduce the amount of code required to create a mapping app when compared to writing an equivalent app using a previous versions of Bing Maps or a competitors mapping platform. See the [Code Optimizations in V8 article](../v8-web-control/code-optimizations-in-v8.md) for more details.
+While developing the Bing Maps V8 SDK the development team focused on streamlining the API to align with common customer scenarios. By doing this the team was able to significantly reduce the amount of code required to create a mapping app when compared to writing an equivalent app using a previous versions of Bing Maps or a competitors mapping platform. See the [Code Optimizations in V8 article](articles/code-optimizations-in-v8.md) for more details.
 
 **New Branching System**
 
-There are three branches of the Bing Maps V8 SDK that can be accessed. This provides the option to access new features as soon as they are available, even if those features have not been thoroughly tested or completed. Learn more about this new branching system [here](../v8-web-control/map-control-branches.md).
+There are three branches of the Bing Maps V8 SDK that can be accessed. This provides the option to access new features as soon as they are available, even if those features have not been thoroughly tested or completed. Learn more about this new branching system [here](creating-and-hosting-map-controls/map-control-branches.md).
 
 **Vector Labels**
 
-The map labels in the Bing Maps V8 SDK are separate from the base map and sit above the data on the map. This helps ensures that the labels can be clearly visible no matter what data is added to the map. When pushpins overlap labels the labels can detect this and move out of the way. If it is a road label it will move along the road. If it is a city name it may move up a bit. If there a lot of pushpins in an area the label may be hidden entirely. Find out more about this feature [here](../v8-web-control/vector-map-labels.md). 
+The map labels in the Bing Maps V8 SDK are separate from the base map and sit above the data on the map. This helps ensures that the labels can be clearly visible no matter what data is added to the map. When pushpins overlap labels the labels can detect this and move out of the way. If it is a road label it will move along the road. If it is a city name it may move up a bit. If there a lot of pushpins in an area the label may be hidden entirely. Find out more about this feature [here](articles/vector-map-labels.md). 
 
 **Streetside Imagery**
 
@@ -319,27 +319,27 @@ Not everyone sees the world the same. There are many disputed names and borders 
   
 **Additional Navigation Bar styles**
 
- In V8 we have added additional navigation bar styles and layouts. Some are ideal for large maps in a desktop browser while others are better suited for use in mobile browsers. Find out more [here](../v8-web-control/navigationbarmode-enumeration.md).
+ In V8 we have added additional navigation bar styles and layouts. Some are ideal for large maps in a desktop browser while others are better suited for use in mobile browsers. Find out more [here](map-control-api/navigationbarmode-enumeration.md).
 
 **New Modules**
 Name                                   | Description
 -------------------------------------- | --------------------- 
-[Microsoft.Maps.Autosuggest](../v8-web-control/autosuggest-module.md)             | Provides location based suggestions as you type.
-[Microsoft.Maps.Clustering](../v8-web-control/clustering-module.md)              | This module allows you to easily add in client side clustering to your application. Client Side Clustering is a method where pushpins that are close together are grouped and represented as a single pushpin, often using a different icon to indicate the cluster. This is a great way to improve both the user experience and performance of the map.
-[Microsoft.Maps.DrawingTools](../v8-web-control/drawing-tools-module.md) | Provides a set of tools for drawing and editing shapes on top of the map.
-[Microsoft.Maps.GeoJSON](../v8-web-control/geojson-module.md)	               | This module makes it easy to import or export data in GeoJSON format.
-[Microsoft.Maps.HeatMap](../v8-web-control/heat-map-module.md)            | The module allows you to render an array of Location objects as a density based heat map.
-[Microsoft.Maps.SpatialDataService](../v8-web-control/spatial-data-service-module.md)      | This module wraps the Query and GeoData REST API’s in the Bing Spatial Dara Services and expose them as an easy to use JavaScript library. 
-[Microsoft.Maps.SpatialMath](../v8-web-control/spatial-math-module.md)             | The module provides a bunch of useful spatial math functions.
-[Microsoft.Maps.WellKnownText](../v8-web-control/well-known-text-module.md)           | This module makes it easy to import or export data in Well Known Text format.) 
+[Microsoft.Maps.Autosuggest](modules/autosuggest-module/index.md)             | Provides location based suggestions as you type.
+[Microsoft.Maps.Clustering](modules/clustering-module/index.md)              | This module allows you to easily add in client side clustering to your application. Client Side Clustering is a method where pushpins that are close together are grouped and represented as a single pushpin, often using a different icon to indicate the cluster. This is a great way to improve both the user experience and performance of the map.
+[Microsoft.Maps.DrawingTools](modules/drawing-tools-module/index.md) | Provides a set of tools for drawing and editing shapes on top of the map.
+[Microsoft.Maps.GeoJSON](modules/geojson-module/index.md)	               | This module makes it easy to import or export data in GeoJSON format.
+[Microsoft.Maps.HeatMap](modules/heat-map-module/index.md)            | The module allows you to render an array of Location objects as a density based heat map.
+[Microsoft.Maps.SpatialDataService](modules/spatial-data-service-module/index.md)      | This module wraps the Query and GeoData REST API’s in the Bing Spatial Dara Services and expose them as an easy to use JavaScript library. 
+[Microsoft.Maps.SpatialMath](modules/spatial-math-module/index.md)             | The module provides a bunch of useful spatial math functions.
+[Microsoft.Maps.WellKnownText](modules/well-known-text-module.md)           | This module makes it easy to import or export data in Well Known Text format.) 
 
 **Directions Module improvements**
 
-The Directions module in V8 has many new improvements such as the optional input panel which provides suggestions as you type. Take a look at the [Directions Input Panel example](../v8-web-control/directions-input-panel.md).
+The Directions module in V8 has many new improvements such as the optional input panel which provides suggestions as you type. Take a look at the [Directions Input Panel example](map-control-concepts/directions-module-examples/directions-input-panel.md).
 
 **Test Data Generator**
 
-Creating a demo or testing out some custom code and need some test data? Use the built in Test Data Generator to create random pushpins, polygons and more. Find out more [here](../v8-web-control/testdatagenerator-class.md).
+Creating a demo or testing out some custom code and need some test data? Use the built in Test Data Generator to create random pushpins, polygons and more. Find out more [here](map-control-api/testdatagenerator-class.md).
 
 **Backwards Compatibility**
 

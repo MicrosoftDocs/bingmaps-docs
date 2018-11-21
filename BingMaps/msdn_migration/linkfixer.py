@@ -18,14 +18,14 @@ def parse_msg(msg):
         return bad_link.replace('~', '..'), bad_link_parts
     return None
 
-def get_updated_filename(link_data, source_link_parts):
+def get_updated_parts(link_data, source_link_parts):
     service = source_link_parts[0]
     old_md_file = source_link_parts[-1]
     for serv in link_data:
         if serv.get('path') == service:
             for link_dict in serv.get('links'):
                 if link_dict['old-docs'] == old_md_file:
-                    return link_dict['new-docs'].split('/')[-1]
+                    return [service] + link_dict['new-docs'].split('/')
     return old_md_file
 
 def get_error_data(df, link_data):
@@ -47,10 +47,11 @@ def get_error_data(df, link_data):
             if '.md' in dest_path_parts[-1]:
 
                 # get dest file
-                new_filename = get_updated_filename(link_data, dest_path_parts)
+                new_dest_path_parts = get_updated_parts(link_data, dest_path_parts)
+                new_filename = new_dest_path_parts[-1]
                 source_path_parts = f.split('/')
                 source_path_parts.remove('BingMaps')
-                datum = BuildData(source_path_parts, dest_path_parts, old_dest_link, new_filename)
+                datum = BuildData(source_path_parts, new_dest_path_parts, old_dest_link, new_filename)
                 yield datum
 
 
@@ -115,7 +116,7 @@ def update_links(obs_cvs_file, yaml_data_file):
 
     from filemap import FileMap
 
-    ignore = ['v8-web-control']
+    ignore = [] # ['v8-web-control']
     
     mapper = FileMap(ignore_dir=ignore)
         
@@ -126,7 +127,7 @@ def update_links(obs_cvs_file, yaml_data_file):
 
         source = mapper.get_path(*data.source_file_parts)
         dest = mapper.get_path(*new_dest)
-
+       
         link = mapper.create_link(source, dest)
 
         if link:
