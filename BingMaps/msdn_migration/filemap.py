@@ -32,11 +32,13 @@ class FileMap:
     def file_names(self):
         return [f.name for f in self.files]
         
-    def get_path(self, *path_names):
+    def get_path(self, *path_names, full=False):
         '''Returns a `Path` object from a list of folder/file names.
            It is expected that the last string ends with the '.md' extention.
         '''
         # print(f'paths: {path_names}')
+
+        ret = None
         
         if not path_names:
             raise IndexError("Can't get path from empty path")
@@ -51,12 +53,12 @@ class FileMap:
                 if f.name == head:
                     return f
             raise IndexError('False positive: file not found')
-        for kid in self.children:
-            if kid.path.name == head:
-                ret = kid.get_path(*tail)
-                if ret:
-                    return ret
-        return None
+        else:
+            for kid in self.children:
+                if kid.path.name == head:
+                    ret = kid.get_path(*tail)
+                    break
+        return ret.absolute() if full else ret
             
 
     def create_link(self, source_path, dest_path):

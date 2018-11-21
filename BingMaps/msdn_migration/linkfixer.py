@@ -57,19 +57,31 @@ def get_error_data(df, link_data):
 def update_file(mapper, datum, link):
     # print(f'Input data: {datum}', f'link: {link}')
     file_str = None
-    source_file_path = mapper.get_path(*datum.source_file_parts)
+    source_file_path = mapper.get_path(*datum.source_file_parts, full=True)
     print(f'source file change: "{source_file_path}"\n')
-    
-    with open(source_file_path, 'r', encoding='utf8') as f:
-        file_str = f.read()
-        
-    file_old = file_str
-    file_str = file_str.replace(datum.old_dest_link, link)
 
-    if file_str != None and file_str != file_old:
-        with open(source_file_path, 'w', encoding='utf8') as f:
-            f.write(file_str)
-            print(f'Changed file!')
+    print('opening file')
+
+    try:
+        with open(source_file_path, 'r', encoding='utf-8') as f:
+            file_str = f.read()
+
+        file_old = file_str
+        file_str = file_str.replace(datum.old_dest_link, link)
+
+        return
+
+        print('replacing file')
+    
+        if file_str != None and file_str != file_old:
+            with open(source_file_path, 'w', encoding='utf-8') as f:
+                f.write(file_str)
+                print(f'Changed file!')
+
+    except UnicodeDecodeError as e:
+        print(f'Failed to open {f}: \n {e}')
+        exit(1)
+            
                 
 def update_links(obs_cvs_file, yaml_data_file):
 
