@@ -18,5 +18,5 @@ The following is a list of properties that are available in the DirectionsErrorE
 
 | Name           | Type              | Description                                        |
 |----------------|-------------------|----------------------------------------------------|
-| `responseCode` | [RouteResponseCode](../v8-web-control/routeresponsecode-enumeration.md) | The code which identifies the error that occurred. |
+| `responseCode` | [RouteResponseCode](routeresponsecode-enumeration.md) | The code which identifies the error that occurred. |
 | `message`      | string            | The error message.                                 |

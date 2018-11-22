@@ -30,7 +30,7 @@ The following example sets the map control URL such that it triggers a callback 
 
 |   URL Parameter   |   Description   |
 |-------------------|-----------------|
-| `branch`    |	Specifies which branch of the SDK to load. Supported values:<br/><br/> • `release` (default)<br/> •   `experimental`<br /><br/>  See the [Map Control Branches](../v8-web-control/map-control-branches.md) section for more details. |
+| `branch`    |	Specifies which branch of the SDK to load. Supported values:<br/><br/> • `release` (default)<br/> •   `experimental`<br /><br/>  See the [Map Control Branches](map-control-branches.md) section for more details. |
 | `callback`  | The name of a callback function that should be called after the map control script has finished loading. |
 | `key` | The Bing Maps Key used to authenticate the application. By specifying your Bing Maps key as a URL parameter in the map script reference, it will allow for live site issues reported to the Bing Maps Enterprise support team by licensed customers to be migrated faster.<br/><br/>**Tip**: if you need to get access to the Bing Maps key, it is available in the map options: `map.getOptions().credentials` |
 | `setLang`         | Specifies the language to use for the map labels and navigation controls.<br/><br/>**Example:** en <br/><br/>The map automatically detects and sets this value based on the users location and device settings. It is not generally recommended to override this parameter unless testing. |

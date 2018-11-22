@@ -59,5 +59,5 @@ If you run this code in a browser and zoom into a city that is likely to have a 
 
 ## See Also
 
-* [Traffic Module](../v8-web-control/traffic-module.md)
-* [TrafficOptions Object](../v8-web-control/trafficoptions-object.md)
+* [Traffic Module](../modules/traffic-module/index.md)
+* [TrafficOptions Object](../modules/traffic-module/trafficoptions-object.md)

@@ -19,13 +19,13 @@ ms.service: "bing-maps"
 To use the [Bing Maps APIs](../rest-services/index.md), you must have a Bing Maps Key.  
   
 > [!NOTE]
->  When you use the Bing Maps APIs with a Bing Maps Key, usage transactions are logged. See [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md) for more information.  
+>  When you use the Bing Maps APIs with a Bing Maps Key, usage transactions are logged. See [Understanding Bing Maps Transactions](understanding-bing-maps-transactions.md) for more information.  
   
 ## Creating a Bing Maps Key  
   
 1.  Go to the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/).  
   
-    -   If you have a Bing Maps account, sign in with the Microsoft account that you used to create the account or create a new one. For new accounts, follow the instructions in [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
+    -   If you have a Bing Maps account, sign in with the Microsoft account that you used to create the account or create a new one. For new accounts, follow the instructions in [Creating a Bing Maps Account](creating-a-bing-maps-account.md).  
   
 2.  Select **My keys** under **My Account**.  
   
@@ -53,4 +53,4 @@ To use the [Bing Maps APIs](../rest-services/index.md), you must have a Bing Map
 ## Usage Transactions  
  When you use the Bing Maps APIs with a valid Bing Maps Key, usage transactions are logged.  
   
- You can view detailed reports of your Bing Maps usage in the [Bing Maps Dev Center](https://www.bingmapsportal.com/). For more information, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).
+ You can view detailed reports of your Bing Maps usage in the [Bing Maps Dev Center](https://www.bingmapsportal.com/). For more information, see [Understanding Bing Maps Transactions](understanding-bing-maps-transactions.md).

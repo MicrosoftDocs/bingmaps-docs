@@ -20,9 +20,9 @@ This is a static class that provides a compression algorithm to encodes/decodes 
 
 | Name                  | Return Value | Description                                                   |
 |-----------------------------|--------------|---------------------------------------------------------------|
-| decode(value: string)        | [Location](../v8-web-control/location-class.md)\[\] | Decodes a collection of coordinates from a compressed string. |
-| encode(points: [Location](../v8-web-control/location-class.md)\[\]) | string       | Encodes a collection of coordinates into a compressed string. |
+| decode(value: string)        | [Location](location-class.md)\[\] | Decodes a collection of coordinates from a compressed string. |
+| encode(points: [Location](location-class.md)\[\]) | string       | Encodes a collection of coordinates into a compressed string. |
 
 ## See Also
 
-* [Point Compression Example](../v8-web-control/point-compression-example.md)
+* [Point Compression Example](../map-control-concepts/point-compression-example.md)

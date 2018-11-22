@@ -18,9 +18,9 @@ The options that specify how to render a ground overlay on the map.
 
 | Name            | Type            | Description    |
 |-----------------|-----------------|----------------|
-| `backgroundColor` | string _or_ [Color](../v8-web-control/color-class.md) | A background color that fills the bounding box area beneath the ground overlay. Default: **transparent**   |
+| `backgroundColor` | string _or_ [Color](color-class.md) | A background color that fills the bounding box area beneath the ground overlay. Default: **transparent**   |
 | `beneathLabels`   | boolean         | Specifies if the ground overlay should be rendered above or below the label layer of the map. When above, mouse events for elements under the overlay will be blocked. Default: **true** <br/><br/>This can only be set when creating the ground overlay and will not work with the `setOptions` function. |
-| `bounds`          | [LocationRect](../v8-web-control/locationrect-class.md)    | **Required**. The bounding box to anchor the ground overlay to. This is required when creating a ground overlay.       |
+| `bounds`          | [LocationRect](locationrect-class.md)    | **Required**. The bounding box to anchor the ground overlay to. This is required when creating a ground overlay.       |
 | `imageUrl`        | string          | **Required**. The URL to the image to anchor to the map as a ground overlay. <br/><br/>**Tip**: SVG’s can be used as ground overlays. This is required when creating a ground overlay.   |
 | `opacity`         | number          | The opacity of the ground overlay image. Decimal values between 0 and 1 are valid. Default: **1**   |
 | `rotation`        | number          | An angle in degrees to rotate the overlay in a clockwise direction where 0 = north, 90 = east, 180 = south, 270 = west. Default: **0**  |

@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Test Data Generator Example
 ## Related Topics
 
-* [TestDataGenerator Class](../v8-web-control/testdatagenerator-class.md)
+* [TestDataGenerator Class](../map-control-api/testdatagenerator-class.md)
 
 ## Basic Example
 

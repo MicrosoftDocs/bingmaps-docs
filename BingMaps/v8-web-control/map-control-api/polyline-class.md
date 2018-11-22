@@ -18,7 +18,7 @@ Polylines allow you to draw connected lines on a map. In many spatial database s
 
 ## Constructor
 
-> Polyline(locations: [Location](../v8-web-control/location-class.md)[], options?: [PolylineOptions](../v8-web-control/polylineoptions-object.md))
+> Polyline(locations: [Location](location-class.md)[], options?: [PolylineOptions](polylineoptions-object.md))
 
 ## Methods
 
@@ -28,13 +28,13 @@ The Polyline class has the following methods.
 |------------------------------------|-------------------|------------------------------------------------------------|
 | `getCursor()` | string | Gets the css cursor value when the polyline has mouse events on it. |
 | `getGeneralizable()` | boolean | Returns whether the polyline is generalizable based on zoom level or not. |
-| `getLocations()`                   | [Location](../v8-web-control/location-class.md)\[\]      | Returns the locations that define the polyline.    |
-| `getStrokeColor()`                 | string _or_ [Color](../v8-web-control/color-class.md)    | Returns the color of the polyline.                 |
+| `getLocations()`                   | [Location](location-class.md)\[\]      | Returns the locations that define the polyline.    |
+| `getStrokeColor()`                 | string _or_ [Color](color-class.md)    | Returns the color of the polyline.                 |
 | `getStrokeDashArray()`             | string _or_ number\[\] | Returns the string that represents the stroke/gap sequence used to draw the polyline.  |
 | `getStrokeThickness()`             | number            | Returns the thickness of the polyline.                                    |
 | `getVisible()`                     | boolean           | Returns whether the polyline is visible. A value of false indicates that the polyline is hidden, although it is still an entity on the map. |
-| setLocations(locs: [Location](../v8-web-control/location-class.md)\[\]) |                   | Sets the locations that define the polyline.                              |
-| setOptions(opt: [PolylineOptions](../v8-web-control/polylineoptions-object.md)) |                   | Sets options for the polyline.                                            |
+| setLocations(locs: [Location](location-class.md)\[\]) |                   | Sets the locations that define the polyline.                              |
+| setOptions(opt: [PolylineOptions](polylineoptions-object.md)) |                   | Sets options for the polyline.                                            |
 
 ## Properties
 
@@ -46,10 +46,10 @@ The Polyline class has the following methods.
 
 | Name  | Arguments  | Description                                                                                   |
 |-----------|----------------|---------------------------------------------------------------------------------------|
-| `changed` | [IPrimitiveChangedEventArgs](../v8-web-control/iprimitivechangedeventargs-object.md) | Occurs when the locations or options of the polyline has changed. |
-| `click`     | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to click the polyline.   
-`dblclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to double click the polyline.                             |
-| `mousedown` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is pressed when the mouse is over the polyline.   |
-| `mouseout`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by the polyline.         |
-| `mouseover` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is over the polyline.                                         |
-| `mouseup`   | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up when the mouse is over the polyline. |
+| `changed` | [IPrimitiveChangedEventArgs](iprimitivechangedeventargs-object.md) | Occurs when the locations or options of the polyline has changed. |
+| `click`     | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse is used to click the polyline.   
+`dblclick` | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse is used to double click the polyline.                             |
+| `mousedown` | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the left mouse button is pressed when the mouse is over the polyline.   |
+| `mouseout`  | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by the polyline.         |
+| `mouseover` | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse is over the polyline.                                         |
+| `mouseup`   | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the left mouse button is lifted up when the mouse is over the polyline. |

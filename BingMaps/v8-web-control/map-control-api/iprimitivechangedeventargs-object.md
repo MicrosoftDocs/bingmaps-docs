@@ -21,4 +21,4 @@ A IPrimitiveChangedEventArgs object that is returned when a **changed** event oc
 | Name       | Type       | Description                                                    |
 |------------|------------|----------------------------------------------------------------|
 | `name`     | string     | The IPrimitive shape the event occured on.                     |
-| `sender`   | [IPrimitive](../v8-web-control/iprimitive-class.md) | The name of the change that occured; 'locations' or 'options'. |
+| `sender`   | [IPrimitive](iprimitive-class.md) | The name of the change that occured; 'locations' or 'options'. |

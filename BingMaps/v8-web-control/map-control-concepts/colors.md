@@ -26,11 +26,11 @@ HSLA               | `hsla(0, 100%, 50%, 0.4)`  | This would be the color red wi
 Color Name         | `red`                      | This would be the color red. This format does not support transparency.
 Extend Color Name  | `deepskyblue`              | This would be a deep sky blue color. This format does not support transparency.
 
-The second way to define a color in Bing Maps is by using the [Microsoft.Maps.Color](../v8-web-control/color-class.md) class. 
+The second way to define a color in Bing Maps is by using the [Microsoft.Maps.Color](../map-control-api/color-class.md) class. 
 
-The benefit of using the [Color class](../v8-web-control/color-class.md) over CSS3 color strings is that you can easily access the individual properties of the color in a programmatic way.
+The benefit of using the [Color class](../map-control-api/color-class.md) over CSS3 color strings is that you can easily access the individual properties of the color in a programmatic way.
 
 
 ### References
 
-  * [Color Class](../v8-web-control/color-class.md)
+  * [Color Class](../map-control-api/color-class.md)

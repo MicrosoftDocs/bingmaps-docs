@@ -25,14 +25,14 @@ lustered pushpins.
 
 ## API Reference
 
-  * [ClusterLayer Class](../v8-web-control/clusterlayer-class.md)
-  * [ClusterLayerOptions Object](../v8-web-control/clusterlayeroptions-object.md)
-  * [ClusterPlacementType Enumeration](../v8-web-control/clusterplacementtype-enumeration.md)
-  * [ClusterPushpin Class](../v8-web-control/clusterpushpin-class.md)
+  * [ClusterLayer Class](clusterlayer-class.md)
+  * [ClusterLayerOptions Object](clusterlayeroptions-object.md)
+  * [ClusterPlacementType Enumeration](clusterplacementtype-enumeration.md)
+  * [ClusterPushpin Class](clusterpushpin-class.md)
 
 ## Examples
 
-  * [Basic Clustering Example](../v8-web-control/basic-clustering-example.md)
-  * [Customizing Clustered Pushpins](../v8-web-control/customizing-clustered-pushpins.md)
-  * [Clusters with a List and Linking](../v8-web-control/clusters-with-a-list-and-linking.md)
-  * [Zoom into Clusters](../v8-web-control/zoom-into-clusters.md)
+  * [Basic Clustering Example](../../map-control-concepts/clustering-module-examples/basic-clustering-example.md)
+  * [Customizing Clustered Pushpins](../../map-control-concepts/clustering-module-examples/customizing-clustered-pushpins.md)
+  * [Clusters with a List and Linking](../../map-control-concepts/clustering-module-examples/clusters-with-a-list-and-linking.md)
+  * [Zoom into Clusters](../../map-control-concepts/clustering-module-examples/zoom-into-clusters.md)

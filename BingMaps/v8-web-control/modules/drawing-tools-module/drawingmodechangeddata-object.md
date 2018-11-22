@@ -18,5 +18,5 @@ An object that contains the event arguments for when the drawing mode changes in
 
 | Name  | Type        | Description                                    |
 |-------|-------------|------------------------------------------------|
-| shape | [IPrimitive](../v8-web-control/iprimitive-class.md)  | The shape being modified by the drawing tools. |
-| mode  | [DrawingMode](../v8-web-control/drawingmode-enumeration.md) | The new drawing mode.                          |
+| shape | [IPrimitive](../../map-control-api/iprimitive-class.md)  | The shape being modified by the drawing tools. |
+| mode  | [DrawingMode](drawingmode-enumeration.md) | The new drawing mode.                          |

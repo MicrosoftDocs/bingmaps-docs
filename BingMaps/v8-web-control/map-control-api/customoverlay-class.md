@@ -18,14 +18,14 @@ You can use this class to create custom overlays on top of the map. These can be
 
 ## Constructor
 
-> CustomOverlay(options?: [CustomOverlayOptions](../v8-web-control/customoverlayoptions-object.md))
+> CustomOverlay(options?: [CustomOverlayOptions](customoverlayoptions-object.md))
 
 ## Methods
 
 | Name        | Return Type | Description                                                                                     |
 |-------------|-------------|-------------------------------------------------------------------------------------------------|
 | `getHtmlElement()`  | `HTMLElement` | Gets the HTML element of this custom overlay.                                             |
-| `getMap()` | [Map](../v8-web-control/map-class.md) | Gets the map object that the overlay is has been added to. This will be null until the onLoad function is called. |
+| `getMap()` | [Map](map-class.md) | Gets the map object that the overlay is has been added to. This will be null until the onLoad function is called. |
 | `setHTMLElement(elm: HTMLElement)` |             | Updates the HTML element of this custom overlay.                           |
 | `onAdd()`                          |             | Implement this method to perform any task that should be done when the overlay is added to the map.               |
 | `onLoad()`                         |             | Implement this method to perform any task that should be done after the overlay has been added to the map.         |
@@ -74,7 +74,7 @@ map.layers.insert(overlay);
  
  ## See Also
  
-* [Simple Static Overlay](../v8-web-control/simple-static-overlay.md)
-* [Topography Overlay](../v8-web-control/topography-overlay.md)
-* [HTML Pushpin Overlay](../v8-web-control/html-pushpin-overlay.md)
-* [Dynamic Canvas Overlay](../v8-web-control/dynamic-canvas-overlay.md)
+* [Simple Static Overlay](../map-control-concepts/custom-overlays/simple-static-overlay.md)
+* [Topography Overlay](../map-control-concepts/custom-overlays/topography-overlay.md)
+* [HTML Pushpin Overlay](../map-control-concepts/custom-overlays/html-pushpin-overlay.md)
+* [Dynamic Canvas Overlay](../map-control-concepts/custom-overlays/dynamic-canvas-overlay.md)

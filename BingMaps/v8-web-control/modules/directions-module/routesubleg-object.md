@@ -18,7 +18,7 @@ Represents a route sub leg. A route sub leg is the part of the route between a s
 
 |   Name             |   Type   |   Description                                                                |
 |--------------------|----------|------------------------------------------------------------------------------|
-| `actualEnd`        | [Location](../v8-web-control/location-class.md) | The location of the last waypoint of the sub leg.     |
-| `actualStart`      | [Location](../v8-web-control/location-class.md) | The location of the first waypoint of the sub leg.    |
+| `actualEnd`        | [Location](../../map-control-api/location-class.md) | The location of the last waypoint of the sub leg.     |
+| `actualStart`      | [Location](../../map-control-api/location-class.md) | The location of the first waypoint of the sub leg.    |
 | `endDescription`   | string   | The description of the last waypoint of the sub leg.                         |
 | `startDescription` | string   | The description of the first waypoint of the sub leg.                        |

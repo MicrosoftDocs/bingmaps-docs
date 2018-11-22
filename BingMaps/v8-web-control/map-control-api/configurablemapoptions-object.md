@@ -20,5 +20,5 @@ This is the root object which defines a configurable map.
 
 | Name       | Type                      | Description                            |
 |------------|---------------------------|----------------------------------------|
-| mapOptions | [MapOptions](../v8-web-control/mapoptions-object.md)                | **Required**. Initial map options.     |
-| modules    | [ConfigurableMapModule](../v8-web-control/configurablemapmodule-object.md)\[\] | List of configuration modules to load. |
+| mapOptions | [MapOptions](mapoptions-object.md)                | **Required**. Initial map options.     |
+| modules    | [ConfigurableMapModule](configurablemapmodule-object.md)\[\] | List of configuration modules to load. |

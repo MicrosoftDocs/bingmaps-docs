@@ -17,13 +17,13 @@ ms.service: "bing-maps"
 Heat maps, also known as density maps, are a type of overlay on a map used to represent the density of data using different colors. Heat maps are often used to show the data “hot spots” on a map. Heat maps are useful when you have a lot of data you want to look at on the map. If you were to display tens of thousands of pushpins on the map you will likely find that the performance of the map degrades and due to the number of pushpins majority, if not all of the map is covered, thus making it unusable. Rendering the data as a heat map has a lot better performance and helps make better sense of the density of the data while still being able to see and use the map.
 
 ## Concepts
-  * [Heat Map Color Gradients](../v8-web-control/heat-map-color-gradients.md)
+  * [Heat Map Color Gradients](heat-map-color-gradients.md)
   
 ## Examples
-  * [Basic Heat Map Example](../v8-web-control/basic-heat-map-example.md)
-  * [Customized Heat Map Example](../v8-web-control/customized-heat-map-example.md)
-  * [Render GeoJSON as Heat Map](../v8-web-control/render-geojson-as-heat-map.md)
+  * [Basic Heat Map Example](basic-heat-map-example.md)
+  * [Customized Heat Map Example](customized-heat-map-example.md)
+  * [Render GeoJSON as Heat Map](render-geojson-as-heat-map.md)
   
 ## Related Topics
-  * [HeatMapLayer Class](../v8-web-control/heatmaplayer-class.md)
-  * [HeatMapLayerOptions Object](../v8-web-control/heatmaplayeroptions-object.md)
+  * [HeatMapLayer Class](../../modules/heat-map-module/heatmaplayer-class.md)
+  * [HeatMapLayerOptions Object](../../modules/heat-map-module/heatmaplayeroptions-object.md)

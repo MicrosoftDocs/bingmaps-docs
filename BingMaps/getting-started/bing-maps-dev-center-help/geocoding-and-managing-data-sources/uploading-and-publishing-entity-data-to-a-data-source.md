@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Uploading and Publishing Entity Data to a Data Source
 You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  
   
- After the entity data is published to a data source, you can query the data source by using the [Query API](../../../spatial-data-services/query-api/index.md). You can also edit published entity data as described in [Editing a Data Source](../getting-started/editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
+ After the entity data is published to a data source, you can query the data source by using the [Query API](../../../spatial-data-services/query-api/index.md). You can also edit published entity data as described in [Editing a Data Source](editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
   
  ![Bing Maps Account Center Flow](../getting-started/media/bingmapsportalflowdiagram.jpg "Bing Maps Account Center Flow")  
   
@@ -188,7 +188,7 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
   
  **To upload the file that contains your data schema and entity data, follow these steps.**  
   
-1.  Sign in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/) with your Bing Maps account. If you do not have a Bing Maps account, see [Creating a Bing Maps Account](../getting-started/creating-a-bing-maps-account.md).  
+1.  Sign in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/) with your Bing Maps account. If you do not have a Bing Maps account, see [Creating a Bing Maps Account](../creating-a-bing-maps-account.md).  
   
 2.  In the Bing Maps Dev Center, select the **Upload data to a data source** under **Data Sources**.  
   
@@ -230,13 +230,13 @@ EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|Adm
  Note that geocoded data downloads are not available after you publish the entity data to a data source. If you do not publish your geocoded data, it will be available for 14 days.  
   
 ## Publish Entity Data to a Data Source [optional]  
- When you are ready to publish entities that geocoded successfully, click **Publish**. When you publish your data, the published data source appears on the **Published Data Sources** tab and the **Geocoded** and **Failed** download files are no longer available. To query the data source, you will need a using the in[Query API](../../../spatial-data-services/query-api/index.md). You can find this URL on the **View Data Source Information** page under **Data Sources**. You can also edit the entity data and the data scheme of the published data source. For more information about editing the entity data of a published data source, see [Editing a Data Source](../getting-started/editing-a-data-source.md).  
+ When you are ready to publish entities that geocoded successfully, click **Publish**. When you publish your data, the published data source appears on the **Published Data Sources** tab and the **Geocoded** and **Failed** download files are no longer available. To query the data source, you will need a using the in[Query API](../../../spatial-data-services/query-api/index.md). You can find this URL on the **View Data Source Information** page under **Data Sources**. You can also edit the entity data and the data scheme of the published data source. For more information about editing the entity data of a published data source, see [Editing a Data Source](editing-a-data-source.md).  
   
 ## Transaction Accounting  
- Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).  
+ Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../understanding-bing-maps-transactions.md).  
   
 ## See Also  
- [Getting Data Source Information](../getting-started/getting-data-source-information.md)   
- [Editing a Data Source](../getting-started/editing-a-data-source.md)   
- [Downloading a Data Source](../getting-started/downloading-a-data-source.md)   
- [Deleting a Data Source](../getting-started/deleting-a-data-source.md)
+ [Getting Data Source Information](getting-data-source-information.md)   
+ [Editing a Data Source](editing-a-data-source.md)   
+ [Downloading a Data Source](downloading-a-data-source.md)   
+ [Deleting a Data Source](deleting-a-data-source.md)

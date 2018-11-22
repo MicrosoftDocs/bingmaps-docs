@@ -22,21 +22,21 @@ Below are some ways you could use the Query API to search a data source that con
 * Use Query Near a Route to search for all restaurants along a route.
 * Use Query by Property to search for all restaurants within 20 miles that have more than 20 employees.
 
-Bing Maps V8 exposes the Query API through the [QueryAPIManager class](../v8-web-control/queryapimanager-class.md) in the Spatial Data Services module.
+Bing Maps V8 exposes the Query API through the [QueryAPIManager class](../../../modules/spatial-data-service-module/queryapimanager-class.md) in the Spatial Data Services module.
 
 ## Examples
 
-  * [Find By Property](../v8-web-control/find-by-property-example.md)
-  * [Find Nearby](../v8-web-control/find-nearby-example.md)
-  * [Basic Intersection Search](../v8-web-control/basic-intersection-search-example.md)
-  * [Choropleth Map](../v8-web-control/choropleth-map-example.md)
-  * [Paged Search Results](../v8-web-control/paged-search-results-example.md)
+  * [Find By Property](find-by-property-example.md)
+  * [Find Nearby](find-nearby-example.md)
+  * [Basic Intersection Search](basic-intersection-search-example.md)
+  * [Choropleth Map](choropleth-map-example.md)
+  * [Paged Search Results](paged-search-results-example.md)
 
 ## Related Topics
 
-  * [QueryAPIManager Class](../v8-web-control/queryapimanager-class.md)
-  * [QueryAPIOptions Object](../v8-web-control/queryapioptions-object.md)
-  * [SpatialFilterOptions Object](../v8-web-control/spatialfilteroptions-object.md)
-  * [Filter Class](../v8-web-control/filter-class.md)
-  * [FilterGroup Class](../v8-web-control/filtergroup-class.md)
+  * [QueryAPIManager Class](../../../modules/spatial-data-service-module/queryapimanager-class.md)
+  * [QueryAPIOptions Object](../../../modules/spatial-data-service-module/queryapioptions-object.md)
+  * [SpatialFilterOptions Object](../../../modules/spatial-data-service-module/spatialfilteroptions-object.md)
+  * [Filter Class](../../../modules/spatial-data-service-module/filter-class.md)
+  * [FilterGroup Class](../../../modules/spatial-data-service-module/filtergroup-class.md)
    

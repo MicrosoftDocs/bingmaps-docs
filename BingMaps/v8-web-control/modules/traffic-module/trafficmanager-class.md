@@ -18,7 +18,7 @@ The **TrafficManager** class provides the ability to show traffic flow and incid
 
 ## Constructor
 
-> TrafficManager(map: [Map](../v8-web-control/map-class.md))
+> TrafficManager(map: [Map](../../map-control-api/map-class.md))
 
 ## Methods
 
@@ -28,7 +28,7 @@ Name                   | Type                | Description
 `hideFlow()`           |                     | Hides the traffic flow layer.
 `hideIncidents()`      |                     | Hides all traffic incidents.
 `hideLegend()`         |                     | Hides the traffic legend.
-setOptions(options: [TrafficOptions](../v8-web-control/trafficoptions-object.md)) | | Sets the options for the traffic manager.  
+setOptions(options: [TrafficOptions](trafficoptions-object.md)) | | Sets the options for the traffic manager.  
 `show()`               |                     | Displays all traffic data.
 `showFlow()`           |                     | Displays the traffic flow layer.
 `showIncidents()`      |                     | Displays all traffic incidents.

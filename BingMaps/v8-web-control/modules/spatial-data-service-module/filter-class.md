@@ -18,7 +18,7 @@ The Fitler class defines the logic behind a filter expression that can be execut
 
 ## Constructor
 
-> Filter(propertyName: string, operator: string | [FilterCompareOperator](../v8-web-control/filtercompareoperator-enumeration.md), value: any)
+> Filter(propertyName: string, operator: string | [FilterCompareOperator](filtercompareoperator-enumeration.md), value: any)
 
 ## Methods
 

@@ -18,21 +18,21 @@ The Directions Module allows you to calculate a route and display it on the map.
 
 ## Examples
 
-* [Directions Input Panel](../v8-web-control/directions-input-panel.md)
-* [Calculate Driving Directions](../v8-web-control/calculate-driving-directions.md)
-* [Calculate Transit Directions](../v8-web-control/calculate-transit-directions.md)
-* [Directions Module Events](../v8-web-control/directions-module-events.md)
-* [Directions with Options](../v8-web-control/directions-with-options.md)
+* [Directions Input Panel](directions-input-panel.md)
+* [Calculate Driving Directions](calculate-driving-directions.md)
+* [Calculate Transit Directions](calculate-transit-directions.md)
+* [Directions Module Events](directions-module-events.md)
+* [Directions with Options](directions-with-options.md)
 
 ## Related Topics
 
-* [DirectionsManager Class](../v8-web-control/directionsmanager-class.md)
-* [DirectionsRenderOptions Object](../v8-web-control/directionsrenderoptions-object.md)
-* [DirectionsRequestOptions Object](../v8-web-control/directionsrenderoptions-object.md)
-* [DistanceUnit Enumeration](../v8-web-control/distanceunit-enumeration.md)
+* [DirectionsManager Class](../../modules/directions-module/directionsmanager-class.md)
+* [DirectionsRenderOptions Object](../../modules/directions-module/directionsrenderoptions-object.md)
+* [DirectionsRequestOptions Object](../../modules/directions-module/directionsrenderoptions-object.md)
+* [DistanceUnit Enumeration](../../modules/directions-module/distanceunit-enumeration.md)
 * [RouteAvoidance Enumeration](../v8-web-control/routeavoidance-enumeration.md)
-* [RouteMode Enumeration](../v8-web-control/routemode-enumeration.md)
-* [RouteOptimization Enumeration](../v8-web-control/routeoptimization-enumeration.md)
-* [TimeTypes Enumeration](../v8-web-control/timetypes-enumeration.md)
-* [Waypoint Class](../v8-web-control/waypoint-class.md)
-* [WaypointOptions Object](../v8-web-control/waypointoptions-object.md)
+* [RouteMode Enumeration](../../modules/directions-module/routemode-enumeration.md)
+* [RouteOptimization Enumeration](../../modules/directions-module/routeoptimization-enumeration.md)
+* [TimeTypes Enumeration](../../modules/directions-module/timetypes-enumeration.md)
+* [Waypoint Class](../../modules/directions-module/waypoint-class.md)
+* [WaypointOptions Object](../../modules/directions-module/waypointoptions-object.md)

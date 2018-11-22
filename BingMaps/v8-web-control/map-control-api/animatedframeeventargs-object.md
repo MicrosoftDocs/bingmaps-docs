@@ -14,9 +14,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # AnimatedFrameEventArgs Object
-The event arguments for when a layer frame is being loaded in an [AnimatedTileLayer](../v8-web-control/animatedtilelayer-class.md).
+The event arguments for when a layer frame is being loaded in an [AnimatedTileLayer](animatedtilelayer-class.md).
 
 | Name              | Type              | Description                                        |
 |-------------------|-------------------|----------------------------------------------------|
-| `animatedTileLayer` | [AnimatedTileLayer](../v8-web-control/animatedtilelayer-class.md) | The animated tile layer that the frame belongs to. |
+| `animatedTileLayer` | [AnimatedTileLayer](animatedtilelayer-class.md) | The animated tile layer that the frame belongs to. |
 | `index`             | number            | The index of the frame being loaded.               |

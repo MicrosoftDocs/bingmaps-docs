@@ -81,15 +81,15 @@ The GeoJson class has the following static methods.
 
 Name                                                             | Return Type                  | Description
 ---------------------------------------------------------------- | ---------------------------- | -----------------------------
-read(geoJson: IGeoJsonObject _or_ string, styles?: [StylesOptions](../v8-web-control/stylesoptions-object.md))    | [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md)[] | Takes in a GeoJSON object or string of GeoJSON data and parses it into Bing Maps shapes (Pushpin, Polyline, Polygon). Default styles can be specified as an option. An array of shapes will be returned if the GeoJSON object is a multipart geometry, such as MultiPoint, MultiLineString, MultiLineString, GeometryCollection or FeatureCollection.
-readFromUrl(url: string, callback: function(data: [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md)[]), jsonpQueryParam?: string, styles?: [StylesOptions](../v8-web-control/stylesoptions-object.md)) | | Takes a URL to GeoJSON file and downloads and parses it into Bing Maps shapes and then returns them through a callback function. If the GeoJSON file is hosted on a different domain, and [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is not enabled, but does support [JSONP](https://en.wikipedia.org/wiki/JSONP), you will need to specify the name of JSONP URL parameter that can be used to download the file across different domains. Default styles can be specified as an option.
-write(data: [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md)[])                              | IGeoJsonObject               | Takes a Bing Maps shape or array of shapes and converts them into a GeoJSON object. 
+read(geoJson: IGeoJsonObject _or_ string, styles?: [StylesOptions](../../map-control-api/stylesoptions-object.md))    | [IPrimitive](../../map-control-api/iprimitive-class.md) _or_ [IPrimitive](../../map-control-api/iprimitive-class.md)[] | Takes in a GeoJSON object or string of GeoJSON data and parses it into Bing Maps shapes (Pushpin, Polyline, Polygon). Default styles can be specified as an option. An array of shapes will be returned if the GeoJSON object is a multipart geometry, such as MultiPoint, MultiLineString, MultiLineString, GeometryCollection or FeatureCollection.
+readFromUrl(url: string, callback: function(data: [IPrimitive](../../map-control-api/iprimitive-class.md) _or_ [IPrimitive](../../map-control-api/iprimitive-class.md)[]), jsonpQueryParam?: string, styles?: [StylesOptions](../../map-control-api/stylesoptions-object.md)) | | Takes a URL to GeoJSON file and downloads and parses it into Bing Maps shapes and then returns them through a callback function. If the GeoJSON file is hosted on a different domain, and [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is not enabled, but does support [JSONP](https://en.wikipedia.org/wiki/JSONP), you will need to specify the name of JSONP URL parameter that can be used to download the file across different domains. Default styles can be specified as an option.
+write(data: [IPrimitive](../../map-control-api/iprimitive-class.md) _or_ [IPrimitive](../../map-control-api/iprimitive-class.md)[])                              | IGeoJsonObject               | Takes a Bing Maps shape or array of shapes and converts them into a GeoJSON object. 
 
 
 ## Examples
 
-  * [Read Local GeoJSON Object](../v8-web-control/read-local-geojson-object-example.md)
-  * [Read GeoJSON using HTML5 FileReader](../v8-web-control/read-geojson-using-html5-filereader.md)
-  * [Read GeoJSON from the Same Domain](../v8-web-control/read-same-domain-geojson-example.md)
-  * [Read GeoJSON using JSONP](../v8-web-control/read-geojson-from-the-web-using-jsonp-example.md)
-  * [Write a Bing Maps Shape as GeoJSON](../v8-web-control/write-bing-maps-shape-as-geojson-example.md)
+  * [Read Local GeoJSON Object](../../map-control-concepts/geojson-module-examples/read-local-geojson-object-example.md)
+  * [Read GeoJSON using HTML5 FileReader](../../map-control-concepts/geojson-module-examples/read-geojson-using-html5-filereader.md)
+  * [Read GeoJSON from the Same Domain](../../map-control-concepts/geojson-module-examples/read-same-domain-geojson-example.md)
+  * [Read GeoJSON using JSONP](../../map-control-concepts/geojson-module-examples/read-geojson-from-the-web-using-jsonp-example.md)
+  * [Write a Bing Maps Shape as GeoJSON](../../map-control-concepts/geojson-module-examples/write-bing-maps-shape-as-geojson-example.md)

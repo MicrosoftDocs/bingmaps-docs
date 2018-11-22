@@ -20,5 +20,5 @@ This class extends the Pushpin class and has all the same methods and properties
 
 Name                  | Type          | Description
 --------------------- | ------------- | ------------------------------------
-`containedPushpins`   | [Pushpin](../v8-web-control/pushpin-class.md)[]     | An array of all the pushpins that are in the cluster.
+`containedPushpins`   | [Pushpin](../../map-control-api/pushpin-class.md)[]     | An array of all the pushpins that are in the cluster.
 `gridKey`             | number        | The grid cell key that can be used retrieve the clustered pushpin(s) from the clustering layer. This is useful when creating a clickable list that link items in the list to clusters or pushpins on the map. Your list just needs to store the `gridKey` value.

@@ -20,34 +20,34 @@ ms.service: "bing-maps"
 
 The GeoXml module makes it easy to read and write common geospatial XML file formats such as [KML (Keyhole Markup Language),](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) KMZ (compressed KML), [GeoRSS](https://en.wikipedia.org/wiki/GeoRSS), [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language) (Geography Markup Language, exposed via GeoRSS), and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) (GPS Exchange Format).
 
-There are two ways to make use of this module. The first is to use the static methods in the [GeoXml class](../v8-web-control/geoxml-class.md) to read/write the raw data. This gives you full control over the data and how it is rendered, if you choose to render it. The second option is to use the [GeoXmlLayer](../v8-web-control/geoxmllayer-class.md) which handles the importing of the XML data and generates a data layer which you can add to the map like any other layer. It handles all the rendering for you. This is a quick and easy way to get your geospatial XML data on the map with as little as 3 lines of code.
+There are two ways to make use of this module. The first is to use the static methods in the [GeoXml class](geoxml-class.md) to read/write the raw data. This gives you full control over the data and how it is rendered, if you choose to render it. The second option is to use the [GeoXmlLayer](geoxmllayer-class.md) which handles the importing of the XML data and generates a data layer which you can add to the map like any other layer. It handles all the rendering for you. This is a quick and easy way to get your geospatial XML data on the map with as little as 3 lines of code.
 
 > [!TIP]
-> If GeoJSON data is passed into the [GeoXmlLayer](../v8-web-control/geoxmllayer-class.md) or the read functions of the [GeoXml class](../v8-web-control/geoxml-class.md), it will automatically load the [GeoJSON module](../v8-web-control/geojson-module.md) and read the data.
+> If GeoJSON data is passed into the [GeoXmlLayer](geoxmllayer-class.md) or the read functions of the [GeoXml class](geoxml-class.md), it will automatically load the [GeoJSON module](../geojson-module/index.md) and read the data.
 
 ## API Reference
 
-* [GeoXml Class](../v8-web-control/geoxml-class.md)
-* [GeoXmlCompressedFormat Enumeration](../v8-web-control/geoxmlcompressedformat-enumeration.md)
-* [GeoXmlDataSet Object](../v8-web-control/geoxmldataset-object.md)
-* [GeoXmlFormat Enumeration](../v8-web-control/geoxmlformat-enumeration.md)
-* [GeoXmlLayer Class](../v8-web-control/geoxmllayer-class.md)
-* [GeoXmlLayerOptions Object](../v8-web-control/geoxmllayeroptions-object.md)
-* [GeoXmlReadOptions Object](../v8-web-control/geoxmlreadoptions-object.md)
-* [GeoXmlStats Object](../v8-web-control/geoxmlstats-object.md)
-* [GeoXmlSummaryMetadata Object](../v8-web-control/geoxmlsummarymetadata-object.md)
-* [GeoXmlWriteOptions Object](../v8-web-control/geoxmlwriteoptions-object.md)
-* [KmlScreenOverlay Class](../v8-web-control/kmlscreenoverlay-class.md)
+* [GeoXml Class](geoxml-class.md)
+* [GeoXmlCompressedFormat Enumeration](geoxmlcompressedformat-enumeration.md)
+* [GeoXmlDataSet Object](geoxmldataset-object.md)
+* [GeoXmlFormat Enumeration](geoxmlformat-enumeration.md)
+* [GeoXmlLayer Class](geoxmllayer-class.md)
+* [GeoXmlLayerOptions Object](geoxmllayeroptions-object.md)
+* [GeoXmlReadOptions Object](geoxmlreadoptions-object.md)
+* [GeoXmlStats Object](geoxmlstats-object.md)
+* [GeoXmlSummaryMetadata Object](geoxmlsummarymetadata-object.md)
+* [GeoXmlWriteOptions Object](geoxmlwriteoptions-object.md)
+* [KmlScreenOverlay Class](kmlscreenoverlay-class.md)
 * [KmlScreenOverlayOptions Object](../v8-web-control/kmlscreenoverlayoptions-object.md)
 
 ## Examples
 
- * [Read Geospatial XML String](../v8-web-control/read-geospatial-xml-string.md)
- * [Read Geospatial XML from URL](../v8-web-control/read-geospatial-xml-from-url.md)
- * [Read GeoXmlLayer with XML String](../v8-web-control/read-geoxmllayer-with-xml-string.md)
- * [Read Geospatial XML Files from Same Domain](../v8-web-control/read-geospatial-xml-files-from-same-domain.md)
- * [Reading Geospatial XML Files Cross Domain](../v8-web-control/reading-geospatial-xml-files-cross-domain.md)
- * [Writing Geospatial XML data](../v8-web-control/writing-geospatial-xml-data.md)
+ * [Read Geospatial XML String](../../map-control-concepts/geoxml-module-examples/read-geospatial-xml-string.md)
+ * [Read Geospatial XML from URL](../../map-control-concepts/geoxml-module-examples/read-geospatial-xml-from-url.md)
+ * [Read GeoXmlLayer with XML String](../../map-control-concepts/geoxml-module-examples/read-geoxmllayer-with-xml-string.md)
+ * [Read Geospatial XML Files from Same Domain](../../map-control-concepts/geoxml-module-examples/read-geospatial-xml-files-from-same-domain.md)
+ * [Reading Geospatial XML Files Cross Domain](../../map-control-concepts/geoxml-module-examples/reading-geospatial-xml-files-cross-domain.md)
+ * [Writing Geospatial XML data](../../map-control-concepts/geoxml-module-examples/writing-geospatial-xml-data.md)
 
 ## Supported Namespaces
 

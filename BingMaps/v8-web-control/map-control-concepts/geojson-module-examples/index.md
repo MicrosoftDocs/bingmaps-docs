@@ -18,12 +18,12 @@ GeoJSON is a common file format used for storing spatial data as a JSON object. 
 
 ## Examples
 
-* [Read Local GeoJSON Object](../v8-web-control/read-local-geojson-object-example.md)
-* [Read GeoJSON using HTML5 FileReader](../v8-web-control/read-geojson-using-html5-filereader.md)
-* [Read GeoJSON from the Same Domain](../v8-web-control/read-same-domain-geojson-example.md)
-* [Read GeoJSON using JSONP](../v8-web-control/read-geojson-from-the-web-using-jsonp-example.md)
-* [Write a Bing Maps Shape as GeoJSON](../v8-web-control/write-bing-maps-shape-as-geojson-example.md)
+* [Read Local GeoJSON Object](read-local-geojson-object-example.md)
+* [Read GeoJSON using HTML5 FileReader](read-geojson-using-html5-filereader.md)
+* [Read GeoJSON from the Same Domain](read-same-domain-geojson-example.md)
+* [Read GeoJSON using JSONP](read-geojson-from-the-web-using-jsonp-example.md)
+* [Write a Bing Maps Shape as GeoJSON](write-bing-maps-shape-as-geojson-example.md)
   
 ## Related Topics
 
-* [GeoJSON Module](../v8-web-control/geojson-module.md)
+* [GeoJSON Module](../../modules/geojson-module/index.md)

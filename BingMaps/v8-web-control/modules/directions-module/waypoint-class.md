@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Waypoint Class
-In order to calculate a route between locations you need to first add all the locations as Waypoints to the [DirectionsManager](../v8-web-control/directionsmanager-class.md). When creating an instance of the Waypoint class you must pass in an object containing [WaypointOptions](../v8-web-control/waypointoptions-object.md).
+In order to calculate a route between locations you need to first add all the locations as Waypoints to the [DirectionsManager](directionsmanager-class.md). When creating an instance of the Waypoint class you must pass in an object containing [WaypointOptions](waypointoptions-object.md).
 
 ## Constructor
 
@@ -26,6 +26,6 @@ In order to calculate a route between locations you need to first add all the lo
 |-----------------------------------------|----------|--------------------------------------------------------------------------|
 | `dispose()`                             |          | Releases any resources associated with the waypoint.                     |
 | `getAddress()`                          | string   | Returns the address associated with the waypoint.                        |
-| `getLocation()`                         | [Location](../v8-web-control/location-class.md) | Returns the location of the waypoint.             |
+| `getLocation()`                         | [Location](../../map-control-api/location-class.md) | Returns the location of the waypoint.             |
 | `isViapoint()`                          | boolean  | Returns a boolean value indicating whether the waypoint is a via point. A via point is a location that your route is guaranteed to pass through. There can be multiple via points between two stop points. |
-| setOptions(options: [WaypointOptions](../v8-web-control/waypointoptions-object.md) |          | Sets options for the waypoint. For these options to take effect, you must recalculate the route.    
+| setOptions(options: [WaypointOptions](waypointoptions-object.md) |          | Sets options for the waypoint. For these options to take effect, you must recalculate the route.    

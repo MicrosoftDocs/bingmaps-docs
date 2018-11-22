@@ -18,12 +18,12 @@ Configuration driven maps allow you to quickly and easily create a map with your
 
 Map configuration files can be loaded in one of two ways:
 
-* In code using the [ConfigurableMap class](../v8-web-control/configurablemap-class.md) in Bing Maps V8. This class will create a map instance based on the specified configuration file. Your code can then add additional functionality to the map using the Bing Maps V8 API. See the [Load a Configurable Map with Code example](../v8-web-control/load-a-configurable-map-with-code-example.md).
-* As a URL parameter of the Bing Maps configurable map page which can then be viewed in a browser as-is or embedded into a web app using an iframe. See the [IFrameable Configuration Map example](../v8-web-control/iframeable-configuration-map-example.md).
+* In code using the [ConfigurableMap class](../../map-control-api/configurablemap-class.md) in Bing Maps V8. This class will create a map instance based on the specified configuration file. Your code can then add additional functionality to the map using the Bing Maps V8 API. See the [Load a Configurable Map with Code example](load-a-configurable-map-with-code-example.md).
+* As a URL parameter of the Bing Maps configurable map page which can then be viewed in a browser as-is or embedded into a web app using an iframe. See the [IFrameable Configuration Map example](iframeable-configuration-map-example.md).
 
 ## Configuration file format
 
-A map configuration file defines the options to use when loading the map as well as the modules and datasets to load. The root JSON object is a [ConfigurableMapOptions object](../v8-web-control/configurablemapoptions-object.md). Here is an example JSON configuration file which loads the map at a specified location and zoom, with three data layers which are loaded via the GeoXml module.
+A map configuration file defines the options to use when loading the map as well as the modules and datasets to load. The root JSON object is a [ConfigurableMapOptions object](../../map-control-api/configurablemapoptions-object.md). Here is an example JSON configuration file which loads the map at a specified location and zoom, with three data layers which are loaded via the GeoXml module.
 
 ```
 {
@@ -58,7 +58,7 @@ A version of this file is hosted by the Bing Maps team here:
 
 `https://bingmapsisdk.blob.core.windows.net/isdksamples/configmap2.json`
 
-This can be loaded using the [ConfigurableMap class](../v8-web-control/configurablemap-class.md) in a web app, or into the Bing Maps configurable maps page using the following URL:
+This can be loaded using the [ConfigurableMap class](../../map-control-api/configurablemap-class.md) in a web app, or into the Bing Maps configurable maps page using the following URL:
 
 `https://www.bing.com/maps/configurable?config=https%3A%2F%2Fbingmapsisdk.blob.core.windows.net%2Fisdksamples%2Fconfigmap2.json`
 
@@ -70,12 +70,12 @@ Here is a screenshot of the map that is rendered when loading this configuration
 
 ## Examples
 
-* [IFrameable Configuration Map example](../v8-web-control/iframeable-configuration-map-example.md)
-* [Load a Configurable Map with Code example](../v8-web-control/load-a-configurable-map-with-code-example.md)
+* [IFrameable Configuration Map example](iframeable-configuration-map-example.md)
+* [Load a Configurable Map with Code example](load-a-configurable-map-with-code-example.md)
 
 ## Related Topics
 
-* [ConfigurableMap class](../v8-web-control/configurablemap-class.md)
-* [ConfigurableMapModule Object](../v8-web-control/configurablemapmodule-object.md)
-* [ConfigurableMapOptions object](../v8-web-control/configurablemapoptions-object.md)
-* [PostModuleAction Object](../v8-web-control/postmoduleaction-object.md)
+* [ConfigurableMap class](../../map-control-api/configurablemap-class.md)
+* [ConfigurableMapModule Object](../../map-control-api/configurablemapmodule-object.md)
+* [ConfigurableMapOptions object](../../map-control-api/configurablemapoptions-object.md)
+* [PostModuleAction Object](../../map-control-api/postmoduleaction-object.md)

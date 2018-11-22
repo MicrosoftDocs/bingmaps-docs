@@ -23,4 +23,4 @@ Options that are used to customize how the GeoXml writes XML.
 | `prettyPrint`    | boolean      | A boolean indicating if the generated XML should be use new lines and indents to make the generated nicely formatted. Default: **true** |
 | `roundLocations` | boolean      | A boolean indicating if Location and LocationRect values should be rounded off to 6 decimals. Default: **false** |
 | `validate`       | boolean      | A boolean indicating if the shapes should be made valid before writing. If set to true, will use the Geometry.makeValid function of the SpatialMath module. Default: **false** |
-| `xmlFormat`      | [GeoXmlFormat](../v8-web-control/geoxmlformat-enumeration.md) | The XML format to write the shapes to. Default: **Kml**   |
+| `xmlFormat`      | [GeoXmlFormat](geoxmlformat-enumeration.md) | The XML format to write the shapes to. Default: **Kml**   |

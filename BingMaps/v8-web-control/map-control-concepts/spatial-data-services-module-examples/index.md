@@ -21,28 +21,28 @@ This module wraps the [Query](../spatial-data-services/query-api.md) and [GeoDat
 
 ## Examples
 
-   * [Filter Example](../v8-web-control/filter-example.md) 
+   * [Filter Example](filter-example.md) 
 
 **Query API**
-  * [Find By Property](../v8-web-control/find-by-property-example.md)
-  * [Find Nearby](../v8-web-control/find-nearby-example.md)
-  * [Basic Intersection Search](../v8-web-control/basic-intersection-search-example.md)
-  * [Along a Route Search](../v8-web-control/along-a-route-search.md)
-  * [Choropleth Map](../v8-web-control/choropleth-map-example.md)
-  * [Paged Search Results](../v8-web-control/paged-search-results-example.md)
+  * [Find By Property](query-api/find-by-property-example.md)
+  * [Find Nearby](query-api/find-nearby-example.md)
+  * [Basic Intersection Search](query-api/basic-intersection-search-example.md)
+  * [Along a Route Search](query-api/along-a-route-search.md)
+  * [Choropleth Map](query-api/choropleth-map-example.md)
+  * [Paged Search Results](query-api/paged-search-results-example.md)
   
 **GeoData API**
-  * [Load a Single Boundary from the GeoData Service](../v8-web-control/load-single-boundary-geodata-example.md)
-  * [Load Multiple Boundaries from the GeoData Service](../v8-web-control/load-multiple-boundaries-geodata-example.md)
-  * [Search Boundary](../v8-web-control/search-boundary-example.md)
+  * [Load a Single Boundary from the GeoData Service](geodata-api/load-single-boundary-geodata-example.md)
+  * [Load Multiple Boundaries from the GeoData Service](geodata-api/load-multiple-boundaries-geodata-example.md)
+  * [Search Boundary](geodata-api/search-boundary-example.md)
 
 ## Related Topics
 
-  * [QueryAPIManager Class](../v8-web-control/queryapimanager-class.md)
-  * [QueryAPIOptions Object](../v8-web-control/queryapioptions-object.md)
-  * [SpatialFilterOptions Object](../v8-web-control/spatialfilteroptions-object.md)
-  * [GeoDataApiManager Class](../v8-web-control/geodataapimanager-class.md)
-  * [GetBoundaryRequestOptions Object](../v8-web-control/getboundaryrequestoptions-object.md) 
-  * [Filter Class](../v8-web-control/filter-class.md)
-  * [FilterGroup Class](../v8-web-control/filtergroup-class.md)
+  * [QueryAPIManager Class](../../modules/spatial-data-service-module/queryapimanager-class.md)
+  * [QueryAPIOptions Object](../../modules/spatial-data-service-module/queryapioptions-object.md)
+  * [SpatialFilterOptions Object](../../modules/spatial-data-service-module/spatialfilteroptions-object.md)
+  * [GeoDataApiManager Class](../../modules/spatial-data-service-module/geodataapimanager-class.md)
+  * [GetBoundaryRequestOptions Object](../../modules/spatial-data-service-module/getboundaryrequestoptions-object.md) 
+  * [Filter Class](../../modules/spatial-data-service-module/filter-class.md)
+  * [FilterGroup Class](../../modules/spatial-data-service-module/filtergroup-class.md)
    

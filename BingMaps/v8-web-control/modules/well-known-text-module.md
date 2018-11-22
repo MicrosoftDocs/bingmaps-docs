@@ -38,14 +38,14 @@ The WellKnownText module only has one static class called WellKnownText that all
 
 Name                                         | Return Value                   | Description
 -------------------------------------------- | ------------------------------ | ----------------------------------------
-read(wkt: string, styles?: [StylesOptions](../v8-web-control/stylesoptions-object.md))         | [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md)[]   | Reads the data in well known text format and returns the shapes.
-write(data: [IPrimitive](../v8-web-control/iprimitive-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md)[])          | string                         | Writes the data as a well known text.
+read(wkt: string, styles?: [StylesOptions](../map-control-api/stylesoptions-object.md))         | [IPrimitive](../map-control-api/iprimitive-class.md) _or_ [IPrimitive](../map-control-api/iprimitive-class.md)[]   | Reads the data in well known text format and returns the shapes.
+write(data: [IPrimitive](../map-control-api/iprimitive-class.md) _or_ [IPrimitive](../map-control-api/iprimitive-class.md)[])          | string                         | Writes the data as a well known text.
 
 
 ## Examples
 
-  * [Read Well Known Text](../v8-web-control/well-known-text-read-example.md)
-  * [Write Well Known Text](../v8-web-control/well-known-text-write-example.md)
+  * [Read Well Known Text](../map-control-concepts/well-known-text-examples/well-known-text-read-example.md)
+  * [Write Well Known Text](../map-control-concepts/well-known-text-examples/well-known-text-write-example.md)
   
   
 

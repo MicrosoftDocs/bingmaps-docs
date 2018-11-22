@@ -20,7 +20,7 @@ You can also save a lot of development time by using the modular framework in Bi
 
 ### References
 
-  * [Out-of-the-Box Modules you can use](../v8-web-control/modules.md)
-  * [Module Loading Methods](../v8-web-control/module-loading-methods.md)
-  * [Implementing Modules](../v8-web-control/implementing-modules.md)
-  * [Creating Custom Modules](../v8-web-control/creating-custom-modules.md)
+  * [Out-of-the-Box Modules you can use](../../modules/index.md)
+  * [Module Loading Methods](module-loading-methods.md)
+  * [Implementing Modules](implementing-modules.md)
+  * [Creating Custom Modules](creating-custom-modules.md)

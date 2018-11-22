@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Controlling an AnimatedTileLayer
-This example shows how to control an [AnimatedTileLayer](../v8-web-control/animatedtilelayer-class.md) by using the `play`, `pause` and `stop` functions. For this example the weather radar tile service from the [Iowa Environmental Mesonet of Iowa State University](http://www.mesonet.agron.iastate.edu/ogc/) and animates it. This service provides radar images for the last 50 minutes over the USA broken up into 5 minute increments.
+This example shows how to control an [AnimatedTileLayer](../../map-control-api/animatedtilelayer-class.md) by using the `play`, `pause` and `stop` functions. For this example the weather radar tile service from the [Iowa Environmental Mesonet of Iowa State University](http://www.mesonet.agron.iastate.edu/ogc/) and animates it. This service provides radar images for the last 50 minutes over the USA broken up into 5 minute increments.
 
 ```
 <!DOCTYPE html>

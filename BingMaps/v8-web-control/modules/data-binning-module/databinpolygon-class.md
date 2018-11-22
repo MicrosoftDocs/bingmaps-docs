@@ -20,4 +20,4 @@ This class is an extension of the Polygon class and has all the same methods, ev
 
 | Name        | Type        | Description                                                                    |
 |-------------|-------------|--------------------------------------------------------------------------------|
-| `dataBinInfo` | [DataBinInfo](../v8-web-control/databininfo-object.md) | Information about the data bin; the contained pushpins and calculated metrics. |
+| `dataBinInfo` | [DataBinInfo](databininfo-object.md) | Information about the data bin; the contained pushpins and calculated metrics. |

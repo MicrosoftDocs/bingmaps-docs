@@ -25,7 +25,7 @@ Before you begin developing your application, you need to create a developer acc
 
 ## Topics
 
-  * [Creating a Basic Map Control](../v8-web-control/creating-a-basic-map-control.md)
-  * [Setting Map Control URL Parameters](../v8-web-control/setting-map-control-parameters.md)
-  * [Map Control Branches](../v8-web-control/map-control-branches.md)
-  * [Customize Map Options on Load](../v8-web-control/customize-map-options-on-load-example.md)
+  * [Creating a Basic Map Control](creating-a-basic-map-control.md)
+  * [Setting Map Control URL Parameters](setting-map-control-parameters.md)
+  * [Map Control Branches](map-control-branches.md)
+  * [Customize Map Options on Load](customize-map-options-on-load-example.md)

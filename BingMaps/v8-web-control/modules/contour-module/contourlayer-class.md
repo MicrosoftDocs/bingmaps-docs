@@ -14,11 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # ContourLayer Class
-The ContourLayer class takes an array of [ContourLine](../v8-web-control/contourline-class.md) and organizes them and creates non-overlapping polygon to represent each contour area.
+The ContourLayer class takes an array of [ContourLine](contourline-class.md) and organizes them and creates non-overlapping polygon to represent each contour area.
 
 ## Constructor
 
-> ContourLayer(contourLines: [ContourLine](../v8-web-control/contourline-class.md)\[\], options?: [ContourLayerOptions](../v8-web-control/contourlayeroptions-object.md))
+> ContourLayer(contourLines: [ContourLine](contourline-class.md)\[\], options?: [ContourLayerOptions](contourlayeroptions-object.md))
 
 ## Methods
 
@@ -26,26 +26,26 @@ The ContourLayer class takes an array of [ContourLine](../v8-web-control/contour
 | Name                                           | Return Type         | Description                                                                 |
 |------------------------------------------------|---------------------|-----------------------------------------------------------------------------|
 | `clear()`                                        |                     | Clears all data on the contour layer.                                       |
-| `getContourLines()`                              | [ContourLine](../v8-web-control/contourline-class.md)\[\]     | Gets the contour lines of this layer.                                       |
-| `getContourPolygons()`                             | [Polygon](../v8-web-control/polygon-class.md)\[\]         | Gets the polygons that were generated from the contour lines in this layer. |
-| `getOptions()`                                  | [ContourLayerOptions](../v8-web-control/contourlayeroptions-object.md) | Retrieves the options of this contour layer.                                |
+| `getContourLines()`                              | [ContourLine](contourline-class.md)\[\]     | Gets the contour lines of this layer.                                       |
+| `getContourPolygons()`                             | [Polygon](../../map-control-api/polygon-class.md)\[\]         | Gets the polygons that were generated from the contour lines in this layer. |
+| `getOptions()`                                  | [ContourLayerOptions](contourlayeroptions-object.md) | Retrieves the options of this contour layer.                                |
 | `getVisible()` | boolean |Gets a boolean that indicates if the layer is visible or not. | 
 | `getZIndex()` | number | Gets the zIndex of the layer. | 
-| setContourLines(contourLines: [ContourLine](../v8-web-control/contourline-class.md)\[\]) |                     | Sets the contour lines used to calculate the polygon areas of this layer.   |
-| setOptions(options: [ContourLayerOptions](../v8-web-control/contourlayeroptions-object.md))       |                     | Sets the options of the contour layer.                                      |
+| setContourLines(contourLines: [ContourLine](contourline-class.md)\[\]) |                     | Sets the contour lines used to calculate the polygon areas of this layer.   |
+| setOptions(options: [ContourLayerOptions](contourlayeroptions-object.md))       |                     | Sets the options of the contour layer.                                      |
 | `setVisible(show: boolean)` | | Sets the visibility of the layer. |
-| `setZIndex(idx: number)` | | Sets the zIndex of the layer. See also: [zIndexing in Bing Maps V8](../v8-web-control/zindexing-in-bing-maps-v8.md)  |
+| `setZIndex(idx: number)` | | Sets the zIndex of the layer. See also: [zIndexing in Bing Maps V8](../../articles/zindexing-in-bing-maps-v8.md)  |
 
 ## Events ##
 
 
 | Name   | Arguments    | Description   |
 |--------|--------------|---------------|
-| `click`      | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a contour line in the layer.               |
-| `dblclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a contour line in the layer. |
-| `mousedown`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a contour line in the layer.                    |
-| `mouseover`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by a contour line in the layer.                               |
-| `mouseout`   | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by a contour line in the layer.                                    |
-| `mouseup`    | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a contour line  in the layer.             |
-| `rightclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a contour line in the layer. |
+| `click`      | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on a contour line in the layer.               |
+| `dblclick` | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on a contour line in the layer. |
+| `mousedown`  | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on a contour line in the layer.                    |
+| `mouseover`  | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by a contour line in the layer.                               |
+| `mouseout`   | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by a contour line in the layer.                                    |
+| `mouseup`    | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on a contour line  in the layer.             |
+| `rightclick` | [MouseEventArgs](../../map-control-api/mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on a contour line in the layer. |
 

@@ -22,5 +22,5 @@ Properties
 | Name            | Type               | Description               |
 |-----------------|--------------------|---------------------------|
 | addLayerFromUrl | string             | A URL to load the data layer from. Currently supports data in GeoJSON, GeoRSS (with inline GML), GPX, KML, and KMZ formats. Note that your data files must be hosted on a publically accessable endpoint and have CORS ([Cross-origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)) enabled to allow cross domain access. |
-| geoXmlOption    | [GeoXmlLayerOptions](../v8-web-control/geoxmllayeroptions-object.md) | Options to use when loading data via the GeoXml module.  |
-| geoJsonOption   | [GeoJsonReadOptions](../v8-web-control/geojsonreadoptions-object.md) | Options to use when loading data via the GeoJson module. |
+| geoXmlOption    | [GeoXmlLayerOptions](../modules/geoxml-module/geoxmllayeroptions-object.md) | Options to use when loading data via the GeoXml module.  |
+| geoJsonOption   | [GeoJsonReadOptions](../modules/geojson-module/geojsonreadoptions-object.md) | Options to use when loading data via the GeoJson module. |

@@ -18,14 +18,14 @@ The Clustering module allows you to easily add in client side clustering to your
 
 ## Examples
 
-  * [Basic Clustering Example](../v8-web-control/basic-clustering-example.md)
-  * [Customizing Clustered Pushpins](../v8-web-control/customizing-clustered-pushpins.md)
-  * [Clusters with a List and Linking](../v8-web-control/clusters-with-a-list-and-linking.md)
-  * [Zoom into Clusters](../v8-web-control/zoom-into-clusters.md)
+  * [Basic Clustering Example](basic-clustering-example.md)
+  * [Customizing Clustered Pushpins](customizing-clustered-pushpins.md)
+  * [Clusters with a List and Linking](clusters-with-a-list-and-linking.md)
+  * [Zoom into Clusters](zoom-into-clusters.md)
 
 ## Related Topics
 
-  * [ClusterLayer Class](../v8-web-control/clusterlayer-class.md)
-  * [ClusterLayerOptions Object](../v8-web-control/clusterlayeroptions-object.md)
-  * [ClusterPlacementType Enumeration](../v8-web-control/clusterplacementtype-enumeration.md)
-  * [ClusterPushpin Class](../v8-web-control/clusterpushpin-class.md)
+  * [ClusterLayer Class](../../modules/clustering-module/clusterlayer-class.md)
+  * [ClusterLayerOptions Object](../../modules/clustering-module/clusterlayeroptions-object.md)
+  * [ClusterPlacementType Enumeration](../../modules/clustering-module/clusterplacementtype-enumeration.md)
+  * [ClusterPushpin Class](../../modules/clustering-module/clusterpushpin-class.md)

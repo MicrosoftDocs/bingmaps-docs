@@ -28,16 +28,16 @@ In most calculations the distance or area unit parameters are optional. The defa
 
 ## API Reference
 
-  * [AreaUnits Enumeration](../v8-web-control/areaunits-enumeration.md)
-  * [BufferEndCap Enumeration](../v8-web-control/bufferendcap-enumeration.md)
-  * [Core Calculations](../v8-web-control/core-calculations.md)
-  * [DistanceUnits Enumeration](../v8-web-control/distanceunits-enumeration.md)
-  * [Geometry Calculations](../v8-web-control/geometry-calculations.md)
-  * [Tile Calculations](../v8-web-control/tile-calculations.md)
+  * [AreaUnits Enumeration](areaunits-enumeration.md)
+  * [BufferEndCap Enumeration](bufferendcap-enumeration.md)
+  * [Core Calculations](core-calculations.md)
+  * [DistanceUnits Enumeration](distanceunits-enumeration.md)
+  * [Geometry Calculations](geometry-calculations.md)
+  * [Tile Calculations](tile-calculations.md)
   
 ## Examples
 
-  * [Basic Core Spatial Math](../v8-web-control/basic-core-spatial-math-example.md)
-  * [Geolocation Accuracy Circle](../v8-web-control/geolocation-accuracy-circle-example.md)
-  * [Geometry Binary Operations](../v8-web-control/geometry-binary-operations.md)
-  * [Calculate Tile Bounds](../v8-web-control/calculate-tile-bounds.md) 
+  * [Basic Core Spatial Math](../../map-control-concepts/spatial-math-module-examples/basic-core-spatial-math-example.md)
+  * [Geolocation Accuracy Circle](../../map-control-concepts/spatial-math-module-examples/geolocation-accuracy-circle-example.md)
+  * [Geometry Binary Operations](../../map-control-concepts/spatial-math-module-examples/geometry-binary-operations.md)
+  * [Calculate Tile Bounds](../../map-control-concepts/spatial-math-module-examples/calculate-tile-bounds.md) 

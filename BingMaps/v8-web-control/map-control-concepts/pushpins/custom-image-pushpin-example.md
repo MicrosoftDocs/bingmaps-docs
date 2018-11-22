@@ -18,7 +18,7 @@ The default pushpin icon is great, but at some point you may want to change this
 
 ![poi_custom.png](../v8-web-control/media/bmv8-poi-custom.png) poi_custom.png
 
-You can use the following code to create a pushpin using the image of the sun. An anchor is used to specify what part of the image should be anchored to the location of the pushpin. In this example, we are using an anchor that is the approximate center of the image – 22 pixels from the left and 16 pixels from the top. If an anchor isn't specified, the anchor of the default pushpin will be used. If your image is either a different size or is meant to be anchored in a different place on the image when compared to the default pushpin, you will likely find that it appears as if the pushpin is moving away from the location as users zoom in on the map.  See more about this via the [Anchoring Pushpins](../v8-web-control/anchoring-pushpins.md) topic.
+You can use the following code to create a pushpin using the image of the sun. An anchor is used to specify what part of the image should be anchored to the location of the pushpin. In this example, we are using an anchor that is the approximate center of the image – 22 pixels from the left and 16 pixels from the top. If an anchor isn't specified, the anchor of the default pushpin will be used. If your image is either a different size or is meant to be anchored in a different place on the image when compared to the default pushpin, you will likely find that it appears as if the pushpin is moving away from the location as users zoom in on the map.  See more about this via the [Anchoring Pushpins](anchoring-pushpins.md) topic.
 
 ```
 <!DOCTYPE html>

@@ -23,4 +23,4 @@ ms.service: "bing-maps"
 > [!NOTE]
 >  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
- **Transaction Accounting**: Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).
+ **Transaction Accounting**: Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../understanding-bing-maps-transactions.md).

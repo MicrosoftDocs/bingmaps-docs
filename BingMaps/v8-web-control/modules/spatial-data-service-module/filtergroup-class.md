@@ -18,7 +18,7 @@ A class that groups two or more logical filters or filter groups together. It ca
 
 ## Constructor
 
-> FilterGroup(filters: ([Filter](../v8-web-control/filter-class.md) _or_ [FilterGroup](../v8-web-control/filtergroup-class.md))[], operator: [FilterLogicalOperator](../v8-web-control/filterlogicaloperator-enumeration.md), not?: boolean)
+> FilterGroup(filters: ([Filter](filter-class.md) _or_ [FilterGroup](filtergroup-class.md))[], operator: [FilterLogicalOperator](filterlogicaloperator-enumeration.md), not?: boolean)
 
 ## Methods
 

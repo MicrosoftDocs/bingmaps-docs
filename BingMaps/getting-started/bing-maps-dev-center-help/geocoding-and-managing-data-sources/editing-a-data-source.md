@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 You can edit the entity data and the data schema of any data source associated with a Bing Maps account on [Bing Maps Dev Center](https://www.bingmapsportal.com/). This includes data sources that were uploaded by using Bing Spatial Data Services.  
   
- As an alternative to editing the entity data and data schema on the Bing Maps Dev Center, you can also download a data source, make your changes and upload and publish the updated file. For more information, see [Downloading a Data Source](../getting-started/downloading-a-data-source.md).  
+ As an alternative to editing the entity data and data schema on the Bing Maps Dev Center, you can also download a data source, make your changes and upload and publish the updated file. For more information, see [Downloading a Data Source](downloading-a-data-source.md).  
   
 > [!NOTE]
 > For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  

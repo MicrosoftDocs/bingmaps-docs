@@ -22,22 +22,22 @@ The Bing Maps control provides many events to allow your application to respond 
 
 ## Examples
 
-* [Map Events](../v8-web-control/map-events.md)
+* [Map Events](../map/map-events.md)
 * [Pushpin Events](../v8-web-control/pushpin-events-example.md)
-* [Polyline Events](../v8-web-control/polyline-events.md)
+* [Polyline Events](../map-shapes-polylines-and-polygons/polyline-events.md)
 * [Polygon Events](../v8-web-control/polygon-events.md)
-* [Data Layer Events](../v8-web-control/data-layer-events.md)
-* [Right Click Events for Shapes](../v8-web-control/right-click-events-for-shapes.md)
+* [Data Layer Events](../layers/data-layer-events.md)
+* [Right Click Events for Shapes](right-click-events-for-shapes.md)
 
 ## Related Topics
 
-* [Events Class](../v8-web-control/events-class.md)
-* [Map Class ](../v8-web-control/map-class.md)
-* [Pushpin Class](../v8-web-control/pushpin-class.md)
-* [Polyline Class](../v8-web-control/polyline-class.md)
-* [Polygon Class](../v8-web-control/polygon-class.md)
-* [Layer Class](../v8-web-control/layer-class.md)
-* [MouseEventArgs Object](../v8-web-control/mouseeventargs-object.md)
+* [Events Class](../../map-control-api/events-class.md)
+* [Map Class ](../../map-control-api/map-class.md)
+* [Pushpin Class](../../map-control-api/pushpin-class.md)
+* [Polyline Class](../../map-control-api/polyline-class.md)
+* [Polygon Class](../../map-control-api/polygon-class.md)
+* [Layer Class](../../map-control-api/layer-class.md)
+* [MouseEventArgs Object](../../map-control-api/mouseeventargs-object.md)
 
 ## Basic Example
 

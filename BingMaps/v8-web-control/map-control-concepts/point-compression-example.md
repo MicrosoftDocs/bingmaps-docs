@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Point Compression Example
 ## Related Topics
 
-* [PointCompression Class](../v8-web-control/pointcompression-class.md)
+* [PointCompression Class](../map-control-api/pointcompression-class.md)
 
 ## Example
 

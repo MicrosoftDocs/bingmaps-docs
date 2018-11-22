@@ -17,10 +17,10 @@ ms.service: "bing-maps"
 The Bing Maps V8 web control has been designed to work well on mobile devices that support HTML5. Mobile devices typically have high resolution screens and limited computing power. As such the Bing Maps V8 control adapts to mobile environments by automatically doing the following:
 
 * Enables the **liteMode** map option which disables vector labels and instead renders the map labels server side on the map tiles. You can override this behavior by setting this value to false when loading the map.
-* The navigation bar (zoom buttons and map type dropdown) will switch into the **compact** [NavigationBarMode](../v8-web-control/navigationbarmode-enumeration.md) which uses less space than the default navigation bar and is better suited for mobile apps.
+* The navigation bar (zoom buttons and map type dropdown) will switch into the **compact** [NavigationBarMode](../map-control-api/navigationbarmode-enumeration.md) which uses less space than the default navigation bar and is better suited for mobile apps.
 * The map will load High DPI map tiles when the map is used on a high resolution screen.
 
-A complete list of supported browsers can be found [here](../v8-web-control/supported-browsers.md).
+A complete list of supported browsers can be found [here](../supported-browsers.md).
 
 ## Viewport metatag
 

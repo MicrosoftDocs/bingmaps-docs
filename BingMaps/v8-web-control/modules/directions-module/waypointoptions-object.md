@@ -20,4 +20,4 @@ The following is a list of properties that are available in the WaypointOptions 
 |--------------|----------|--------------|
 | `address`    | string   | The address string of the waypoint. For example, the following strings are valid for this parameter: "Seattle", "1 Microsoft Way, Redmond, WA". Either the address or location property must be specified. |
 | `isViaPoint` | boolean  | A boolean indicating whether the waypoint is a via point. A via point is a point along the route that is not a stop point. Set this property to true if you just want the route to pass through this location. Default: **false**     |
-| `location`   | [Location](../v8-web-control/location-class.md) | The location of the waypoint. Either the `address` or `location` property must be specified.          |
+| `location`   | [Location](../../map-control-api/location-class.md) | The location of the waypoint. Either the `address` or `location` property must be specified.          |

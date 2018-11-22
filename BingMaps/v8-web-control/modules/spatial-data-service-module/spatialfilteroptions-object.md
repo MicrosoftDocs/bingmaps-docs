@@ -21,11 +21,11 @@ Represents the spatial filter options for querying a data source that is hosted 
 Name                    | Type                       | Description
 ----------------------- | -------------------------- | ----------------------------------
 spatialFilterType       | string                     | **Required**. One of the following values:<br/><br/>&nbsp; • **nearby** – Searches in a radius around a location.<br/>&nbsp; • **nearRoute** – Searches for results that are within 1 mile of a route.<br/>&nbsp; • **intersects** – Searches for results that intersect with the specified geometry.<br/><br/>**Note**: Note that the NavteqNA and NavteqEU data sources only support nearby queries. 
-location                | string _or_ [Location](../v8-web-control/location-class.md)       | Location at which the filter should be applied (only for **nearby filter**).
+location                | string _or_ [Location](../../map-control-api/location-class.md)       | Location at which the filter should be applied (only for **nearby filter**).
 radius                  | number                     | Radius to use when performing a nearby search.  The distance in kilometers and must be between 0.16 and 1000 kilometers. (only for **nearby filter**).
-start                   | string _or_ [Location](../v8-web-control/location-class.md)       | Start location of the route (only for **nearRoute filter**)
-end                     | string _or_ [Location](../v8-web-control/location-class.md)       | End location of the route (only for **nearRoute filter**).
-intersects              | string _or_ [LocationRect](../v8-web-control/locationrect-class.md) _or_ [IPrimitive](../v8-web-control/iprimitive-class.md) | Intersection object. Can be a well known text string or a LocationRect object.  (only for **intersects filter**).
+start                   | string _or_ [Location](../../map-control-api/location-class.md)       | Start location of the route (only for **nearRoute filter**)
+end                     | string _or_ [Location](../../map-control-api/location-class.md)       | End location of the route (only for **nearRoute filter**).
+intersects              | string _or_ [LocationRect](../../map-control-api/locationrect-class.md) _or_ [IPrimitive](../../map-control-api/iprimitive-class.md) | Intersection object. Can be a well known text string or a LocationRect object.  (only for **intersects filter**).
 
 If performing a **nearRoute** query the following additional properties may optionally also be specified in in the **SpatialFilterOptions** object.
 
@@ -39,4 +39,4 @@ If performing a **nearRoute** query the following additional properties may opti
 
 
 > [!TIP]
-> The Bing Maps Spatial Data Services does all distance calculations in kilometers. You can use the Distance conversion functionality in the [Spatial Math module](../v8-web-control/spatial-math-module.md) if you prefer to work a different distance unit such as miles, meters, yards or feet.
+> The Bing Maps Spatial Data Services does all distance calculations in kilometers. You can use the Distance conversion functionality in the [Spatial Math module](../spatial-math-module/index.md) if you prefer to work a different distance unit such as miles, meters, yards or feet.

@@ -18,16 +18,16 @@ The following is a list of option properties that can be used with a TileSource.
 
 Name              | Type                    | Description
 ----------------- | ----------------------- | ---------------------------
-`bounds`          | [LocationRect](../v8-web-control/locationrect-class.md) | A bounding box that specifies where tiles are available. <br/><br/>Note: This will not crop tiles to the specific bounding box, it limits the tiles it loads to those that intersect this bounding box.
+`bounds`          | [LocationRect](locationrect-class.md) | A bounding box that specifies where tiles are available. <br/><br/>Note: This will not crop tiles to the specific bounding box, it limits the tiles it loads to those that intersect this bounding box.
 `maxZoom`         | number                  | The maximum zoom level tiles that tiles should be rendered at.
 `minZoom`         | number                  | The minimum zoom level tiles that tiles should be rendered at.
-`uriConstructor`  | string _or_ function([PyramidTileId](../v8-web-control/pyramidtileid-class.md)): string    | **Required**. This can be a string or a callback function that constructs the URLs used to retrieve tiles from the tile source. When using a string, the uriConstructor will allow you to specify placeholders that will be replaced with the tiles value (i.e. {quadkey}). See the Tile URL Parameters section for a list of supported parameters. <br/><br/>Besides using formatted tile URLs, you can also specify a callback function as the uriConstructor. This is useful if you need to be able to build custom tile URL’s that may require some additional calculations for a tile.<br/><br/>**Note**: When rendered on a high DPI screen such as a mobile device, the map may request tiles from a higher zoom level and scale them down to increase the DPI of your tile layer and create a crisper image.
+`uriConstructor`  | string _or_ function([PyramidTileId](pyramidtileid-class.md)): string    | **Required**. This can be a string or a callback function that constructs the URLs used to retrieve tiles from the tile source. When using a string, the uriConstructor will allow you to specify placeholders that will be replaced with the tiles value (i.e. {quadkey}). See the Tile URL Parameters section for a list of supported parameters. <br/><br/>Besides using formatted tile URLs, you can also specify a callback function as the uriConstructor. This is useful if you need to be able to build custom tile URL’s that may require some additional calculations for a tile.<br/><br/>**Note**: When rendered on a high DPI screen such as a mobile device, the map may request tiles from a higher zoom level and scale them down to increase the DPI of your tile layer and create a crisper image.
 
 **_Tip_**: Setting the `bounds`, `minZoom` and `maxZoom` of a tile source is useful if you only have tiles available in a specific area, as this will prevent tiles for outside of that area from being requested. This will result in less requests being made to your tile server for tiles that don't exist or are not needed.
 
 ## Tile URL Parameters
 
-The following is a list of all the possible tile URL parameters that are supported by the [TileSource](../v8-web-control/tilesource-class.md) class and can be in the `uriConstructor` URL.
+The following is a list of all the possible tile URL parameters that are supported by the [TileSource](tilesource-class.md) class and can be in the `uriConstructor` URL.
 
 URL           | Parameter Description
 ------------- | -------------------------

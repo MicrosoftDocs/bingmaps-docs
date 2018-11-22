@@ -18,7 +18,7 @@ Represents a tile layer that can be overlaid on top of the map.
 
 ## Constructor
 
-> TileLayer(options: [TileLayerOptions](../v8-web-control/tilelayeroptions-object.md))
+> TileLayer(options: [TileLayerOptions](tilelayeroptions-object.md))
 
 ## Properties
 
@@ -33,20 +33,20 @@ The TileLayer class has the following methods.
 Name                        | Return Type      | Description
 --------------------------- | ---------------- | ----------------------------
 `getOpacity()`                | number           | Returns the opacity of the tile layer, defined as a double between 0 (not visible) and 1.
-`getTileSource()`             | [TileSource](../v8-web-control/tilesource-class.md)       | Returns the tile source of the tile layer.
+`getTileSource()`             | [TileSource](tilesource-class.md)       | Returns the tile source of the tile layer.
 `getVisible()`                | boolean          | Gets a boolean that indicates if the tile layer is visible or not.
 `getZIndex()`                 | number           | Gets the zIndex of the tile layer.
 `setOpacity(opacity: number)`  |                  | Sets the opacity of the tile layer. Value must be a number between 0 and 1.
-setOptions(opt: [TileLayerOptions](../v8-web-control/tilelayeroptions-object.md)) |            | Sets options for the tile layer. Note that the TileSource can only be set when the tile layer is created and cannot be updated.
+setOptions(opt: [TileLayerOptions](tilelayeroptions-object.md)) |            | Sets options for the tile layer. Note that the TileSource can only be set when the tile layer is created and cannot be updated.
 `setVisible(show: boolean)`    |                  | Sets the visibility of the tile layer.
 `setZIndex(idx: number)`       |                  | Sets the zIndex of the tile layer.
 
 ## Examples
 
-  * [Basic Tile Layer Example](../v8-web-control/basic-tile-layer-example.md)
-  * [X, Y, Zoom Tile Layer](../v8-web-control/x-y-zoom-tilelayer.md)
-  * [WMS Tile Layer Example](../v8-web-control/wms-tile-layer-example.md)
-  * [Base Map Tile Layer Example](../v8-web-control/base-map-tile-layer-example.md)
+  * [Basic Tile Layer Example](../map-control-concepts/layers/basic-tile-layer-example.md)
+  * [X, Y, Zoom Tile Layer](../map-control-concepts/layers/x-y-zoom-tilelayer.md)
+  * [WMS Tile Layer Example](../map-control-concepts/layers/wms-tile-layer-example.md)
+  * [Base Map Tile Layer Example](../map-control-concepts/layers/base-map-tile-layer-example.md)
 
 ## See Also
-  * [TileLayerOptions Object](../v8-web-control/tilelayeroptions-object.md) 
+  * [TileLayerOptions Object](tilelayeroptions-object.md) 

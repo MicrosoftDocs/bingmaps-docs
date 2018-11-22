@@ -18,12 +18,12 @@ Custom Overlays allow you to create and insert your own custom layers into the m
 
 ## Examples
 
-* [Simple Static Overlay](../v8-web-control/simple-static-overlay.md)
-* [Topography Overlay](../v8-web-control/topography-overlay.md)
-* [HTML Pushpin Overlay](../v8-web-control/html-pushpin-overlay.md)
-* [Dynamic Canvas Overlay](../v8-web-control/dynamic-canvas-overlay.md)
+* [Simple Static Overlay](simple-static-overlay.md)
+* [Topography Overlay](topography-overlay.md)
+* [HTML Pushpin Overlay](html-pushpin-overlay.md)
+* [Dynamic Canvas Overlay](dynamic-canvas-overlay.md)
 
 ## Related Topics
 
-* [CustomOverlay Class](../v8-web-control/customoverlay-class.md)
-* [CustomOverlayOptions Object](../v8-web-control/customoverlayoptions-object.md)
+* [CustomOverlay Class](../../map-control-api/customoverlay-class.md)
+* [CustomOverlayOptions Object](../../map-control-api/customoverlayoptions-object.md)

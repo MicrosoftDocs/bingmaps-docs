@@ -20,6 +20,6 @@ The Bing Maps V8 web control provides two types of traffic data through the Traf
 
 ## API Reference
 
-  * [TrafficManager Class](../v8-web-control/trafficmanager-class.md)
-  * [TrafficOptions Object](../v8-web-control/trafficoptions-object.md)
+  * [TrafficManager Class](trafficmanager-class.md)
+  * [TrafficOptions Object](trafficoptions-object.md)
   

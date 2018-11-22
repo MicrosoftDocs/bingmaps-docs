@@ -19,13 +19,13 @@ The Bing Maps SDK provides the ability to do forward and reverse geocoding throu
 
 ## Examples
 
-  * [Basic Geocode Example](../v8-web-control/basic-geocode-example.md)
-  * [User Input Geocode Example](../v8-web-control/user-input-geocode-example.md)
-  * [Basic Reverse Geocode Example](../v8-web-control/basic-reverse-geocode-example.md)
+  * [Basic Geocode Example](basic-geocode-example.md)
+  * [User Input Geocode Example](user-input-geocode-example.md)
+  * [Basic Reverse Geocode Example](basic-reverse-geocode-example.md)
 
 ## Related Topics
 
-* [Address Object](../v8-web-control/address-object.md)
+* [Address Object](../../modules/autosuggest-module/address-object.md)
 * [GeocodeRequestOptions Object](../v8-web-control/geocoderequestoptions-object.md)
 * [GeocodeResult Object](../v8-web-control/geocoderesult-object.md)
 * [MatchCode Enumeration](../v8-web-control/matchcode-enumeration.md)

@@ -22,5 +22,5 @@ An object that contains information about an infobox event.
 | `originalEvent` | MouseEvent | The original JavaScript mouse event object.                           |
 | `pageX`      | number  | The x-value of the pixel coordinate on the page of the mouse cursor.        |
 | `pageY`      | number  | The y-value of the pixel coordinate on the page of the mouse cursor.        |
-| `target`     | [Infobox](../v8-web-control/infobox-class.md) | The infobox object that fired the event.              |
+| `target`     | [Infobox](infobox-class.md) | The infobox object that fired the event.              |
 | `targetType` | string  | The type of the object that fired the event. This will always be 'infobox'. |

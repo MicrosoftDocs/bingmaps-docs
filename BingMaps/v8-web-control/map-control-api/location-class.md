@@ -37,9 +37,9 @@ The Location class has the following static methods.
 
 Method                                       | Return Value  | Description
 -------------------------------------------- | ------------- | --------------------------------
-areEqual(loc1: [Location](../v8-web-control/location-class.md), loc2: [Location](../v8-web-control/location-class.md))   | boolean       | Determines if the specified [Location](../v8-web-control/location-class.md) objects are equal.
+areEqual(loc1: [Location](location-class.md), loc2: [Location](location-class.md))   | boolean       | Determines if the specified [Location](location-class.md) objects are equal.
 `normalizeLongitude(longitude: number)`       | number        | Normalizes the specified longitude so that it is between -180 and 180.
-`parseLatLong(str: string)` | [Location](../v8-web-control/location-class.md) | Parses a location string of the form "lat,long". 
+`parseLatLong(str: string)` | [Location](location-class.md) | Parses a location string of the form "lat,long". 
 
 ## Methods
 
@@ -47,5 +47,5 @@ The Location class has the following methods.
 
 Method               | Return Value         | Description
 -------------------- | -------------------- | ----------------------------------
-`clone()`            | [Location](../v8-web-control/location-class.md)             | Returns a copy of the Location object.
+`clone()`            | [Location](location-class.md)             | Returns a copy of the Location object.
 `toString()`         | string               | Converts the Location object to a string.

@@ -57,4 +57,4 @@ This example shows how to get all the shapes that are in the drawing manager at 
 ```
 
 > [!TIP]
-> If you want to get a shape right after it was drawn, use the `drawingEnded` event on the [DrawingManager](../v8-web-control/drawingmanager-class.md).
+> If you want to get a shape right after it was drawn, use the `drawingEnded` event on the [DrawingManager](../../modules/drawing-tools-module/drawingmanager-class.md).

@@ -14,16 +14,16 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # GeoData API
-The [GeoData API](../spatial-data-services/geodata-api.md) is a component of the Bing Spatial Data Services. You can use the GeoData API to retrieve administrative boundarie such as postal codes, states, and countries. Bing Maps V8 exposed this API through the [GeoDataAPIManager](../v8-web-control/geodataapimanager-class.md).   
+The [GeoData API](../spatial-data-services/geodata-api.md) is a component of the Bing Spatial Data Services. You can use the GeoData API to retrieve administrative boundarie such as postal codes, states, and countries. Bing Maps V8 exposed this API through the [GeoDataAPIManager](../../../modules/spatial-data-service-module/geodataapimanager-class.md).   
 
 
 ## Examples
 
-  * [Load a Single Boundary from the GeoData Service](../v8-web-control/load-single-boundary-geodata-example.md)
-  * [Load Multiple Boundaries from the GeoData Service](../v8-web-control/load-multiple-boundaries-geodata-example.md)
-  * [Search Boundary](../v8-web-control/search-boundary-example.md)
+  * [Load a Single Boundary from the GeoData Service](load-single-boundary-geodata-example.md)
+  * [Load Multiple Boundaries from the GeoData Service](load-multiple-boundaries-geodata-example.md)
+  * [Search Boundary](search-boundary-example.md)
 
 ## Related Topics
 
-  * [GeoDataAPIManager Class](../v8-web-control/geodataapimanager-class.md)
-  * [GetBoundaryRequestOptions Object](../v8-web-control/getboundaryrequestoptions-object.md) 
+  * [GeoDataAPIManager Class](../../../modules/spatial-data-service-module/geodataapimanager-class.md)
+  * [GetBoundaryRequestOptions Object](../../../modules/spatial-data-service-module/getboundaryrequestoptions-object.md) 

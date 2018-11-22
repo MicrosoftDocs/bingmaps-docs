@@ -18,11 +18,11 @@ Contour Lines, also known as isolines, are lines that connect points that share 
 
 ## Examples
 
-* [Basic Contour Layer](../v8-web-control/basic-contour-layer.md)
-* [Contours from GeoJSON data](../v8-web-control/contours-from-geojson-data.md)
+* [Basic Contour Layer](basic-contour-layer.md)
+* [Contours from GeoJSON data](contours-from-geojson-data.md)
 
 ## Related Topics
 
-* [ContourLayer Class](../v8-web-control/contourlayer-class.md)
-* [ContourLayerOptions Object](../v8-web-control/contourlayeroptions-object.md)
-* [ContourLine Class](../v8-web-control/contourline-class.md) 
+* [ContourLayer Class](../../modules/contour-module/contourlayer-class.md)
+* [ContourLayerOptions Object](../../modules/contour-module/contourlayeroptions-object.md)
+* [ContourLine Class](../../modules/contour-module/contourline-class.md) 

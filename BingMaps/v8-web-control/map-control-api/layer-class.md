@@ -34,14 +34,14 @@ Name                                                     | Return Type       | D
 `clear()`                                                |                   | Removes all the data in the layer. 
 `dispose()`                                              |                   | Cleans up any resources this object is consuming.
 `getId()`                                                | string            | Gets the id of the layer. 
-`getPrimitives()`                                        | [IPrimitive](../v8-web-control/iprimitive-class.md)[]      | Gets an array of shapes that are in the layer. This can be used to iterate over the individual shapes.
+`getPrimitives()`                                        | [IPrimitive](iprimitive-class.md)[]      | Gets an array of shapes that are in the layer. This can be used to iterate over the individual shapes.
 `getVisible()`                                           | boolean           | Gets a value indicating whether the layer is visible or not.
 `getZIndex()`                                            | number            | Gets the zIndex of the layer.
-`remove(primitive: IPrimitive)`                          | [IPrimitive](../v8-web-control/iprimitive-class.md)        | Removes a shape from the layer and returns it.
-`removeAt(index: number)`                                | [IPrimitive](../v8-web-control/iprimitive-class.md)        | Removes a shape from the layer at the specified index. 
+`remove(primitive: IPrimitive)`                          | [IPrimitive](iprimitive-class.md)        | Removes a shape from the layer and returns it.
+`removeAt(index: number)`                                | [IPrimitive](iprimitive-class.md)        | Removes a shape from the layer at the specified index. 
 `setPrimitives(primitives: IPrimitive[])`                |                   | Replaces all shapes in the layer with the new array of shapes that have been provided.
 `setVisible(value: boolean)`                              |                   | Sets whether the layer is visible or not.
-`setZIndex(zIndex: number)`                               |                   | Sets the zIndex of the layer. See also: [zIndexing in Bing Maps V8](../v8-web-control/zindexing-in-bing-maps-v8.md) 
+`setZIndex(zIndex: number)`                               |                   | Sets the zIndex of the layer. See also: [zIndexing in Bing Maps V8](../articles/zindexing-in-bing-maps-v8.md) 
 
 ## Events ##
 
@@ -49,17 +49,17 @@ The Layer class allows you to add events which are triggered when interacting wi
 
 | Name   | Arguments    | Description   |
 |--------|--------------|---------------|
-| `click`      | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on an IPrimitive shape in the layer.               |
-| `dblclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on an IPrimitive shape in the layer. |
-| `mousedown`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on an IPrimitive shape in the layer.                    |
-| `mouseover`  | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by an IPrimitive shape in the layer.                               |
-| `mouseout`   | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by an IPrimitive shape in the layer.                                    |
-| `mouseup`    | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on an IPrimitive shape in the layer.             |
-| `rightclick` | [MouseEventArgs](../v8-web-control/mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on an IPrimitive shape in the layer. |
+| `click`      | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse is used to click the map or when a touch end event occurs on an IPrimitive shape in the layer.               |
+| `dblclick` | [MouseEventArgs](mouseeventargs-object.md)| Occurs when the mouse is used to double click the map or when a touch end event occurs on an IPrimitive shape in the layer. |
+| `mousedown`  | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the left mouse button is pressed or a touch start event occurs on an IPrimitive shape in the layer.                    |
+| `mouseover`  | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse cursor moves over top of the area covered by an IPrimitive shape in the layer.                               |
+| `mouseout`   | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the mouse cursor moves out of the area covered by an IPrimitive shape in the layer.                                    |
+| `mouseup`    | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the left mouse button is lifted up or when the touch end event occurs on an IPrimitive shape in the layer.             |
+| `rightclick` | [MouseEventArgs](mouseeventargs-object.md) | Occurs when the right mouse button is used to click the map or when a long touch press occurs on an IPrimitive shape in the layer. |
 
 
 **_Note for Bing Maps V7 developers_**: In the Bing Maps V7 SDK, a class called `EntityCollection` was used to create data layers on the map. This class has been deprecated and replaced with the `Layer` class. However, to minimize migration efforts we have added an `EntityCollection` class for backwards compatibility which wraps the `Layer` class. This wrapper flattens all child entity collections of an `EntityCollection` into a single layer. This may result in some rendering differences when compared to V7. This `EntityCollection` class should only be used if migrating an app from V7 that requires minimal code changes.
 
 ## See Also
 
-  * [Layer Examples](../v8-web-control/layers.md)
+  * [Layer Examples](../map-control-concepts/layers/index.md)

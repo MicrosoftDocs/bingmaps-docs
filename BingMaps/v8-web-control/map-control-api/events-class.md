@@ -37,4 +37,4 @@ Microsoft.Maps.Events.removeHandler(handlerId);
 
 ## See Also
 
-* [Event Examples](../v8-web-control/event-examples.md)
+* [Event Examples](../map-control-concepts/event-examples/index.md)

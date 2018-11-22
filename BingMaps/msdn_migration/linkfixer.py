@@ -5,6 +5,10 @@ from collections import namedtuple, defaultdict
 
 BuildData = namedtuple('BuildData', 'source_file_parts dest_file_parts old_dest_link') 
 
+def print(*s):
+    with open('msdn_migration/linker_log.txt', 'a') as f:
+        for _s in s:
+            f.write(_s)
 
 def check_extension(file_name, ext):
     return file_name.split('.')[-1] == ext
@@ -15,7 +19,7 @@ def parse_msg(msg):
         bad_link = msg.split(':(')[1].split(').')[0]
         bad_link_parts = bad_link.split('/')
         bad_link_parts.remove('~')
-        return bad_link.replace('~', '..'), bad_link_parts
+        return f'../{bad_link_parts[0]}/{bad_link_parts[-1]}', bad_link_parts
     return None
 
 def get_updated_parts(link_data, old_dest_link_parts):
@@ -48,8 +52,7 @@ def get_error_data(df, link_data):
 
                 # get dest file
                 new_dest_path_parts = get_updated_parts(link_data, dest_path_parts)
-                print(new_dest_path_parts)
-                new_filename = new_dest_path_parts[-1]
+
                 source_path_parts = f.split('/')
                 source_path_parts.remove('BingMaps')
                 datum = BuildData(source_path_parts, new_dest_path_parts, old_dest_link)
@@ -60,6 +63,7 @@ def replace_link(file_str, old_link, link):
     '''Problem: OBS replaces '../../../' etc. with '~'
     '''
     new_file_str = file_str
+
     try:
         index = file_str.index(old_link)
         n = len(old_link)
@@ -76,6 +80,7 @@ def replace_link(file_str, old_link, link):
             new_file_str = top + link + bot
             new_file_str = replace_link(new_file_str, old_link, link)
     except ValueError:
+        print('val error!')
         return new_file_str
     finally:
         return new_file_str

@@ -21,5 +21,5 @@ Represents the copyright object for a boundary returned by the [GeoData API](../
 Name                   | Type               | Description
 ---------------------- | ------------------ | ------------
 `CopyrightURL`           | string             | The copyright URL for the GeoData service.
-`Sources`                | [CopyrightSource](../v8-web-control/copyrightsource-object.md)[] | A collection of [CopyrightSource objects](../v8-web-control/copyrightsource-object.md) that give information about the sources of the polygon data that is returned.
+`Sources`                | [CopyrightSource](copyrightsource-object.md)[] | A collection of [CopyrightSource objects](copyrightsource-object.md) that give information about the sources of the polygon data that is returned.
 

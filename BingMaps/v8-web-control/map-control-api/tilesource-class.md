@@ -28,13 +28,13 @@ The TileSource class has the following methods.
 
 Name                      | Return Type    | Description
 ------------------------- | -------------- | -----------------------------------------
-`getBounds()`             | [LocationRect](../v8-web-control/locationrect-class.md)   | Gets the specified bounding box of the of the tile source.
+`getBounds()`             | [LocationRect](locationrect-class.md)   | Gets the specified bounding box of the of the tile source.
 `getHeight()`             | number         | Returns the pixel height of each tile in the tile source.
 `getMaxZoom()`            | number         | Gets the maximum zoom level specified for the tile source.
 `getMinZoom()`            | number         | Gets the minimum zoom level specified for the tile source.
-`getUriConstructor()`     | string _or_  function([PyramidTileId](../v8-web-control/pyramidtileid-class.md)): string       | Returns a string or callback function that constructs tile URLs used to retrieve tiles for the tile layer.
+`getUriConstructor()`     | string _or_  function([PyramidTileId](pyramidtileid-class.md)): string       | Returns a string or callback function that constructs tile URLs used to retrieve tiles for the tile layer.
 `getWidth()`              | number         | Returns the pixel width of each tile in the tile source.
 
 
 ## See Also
-  * [TileSourceOptions Object](../v8-web-control/tilesourceoptions-object.md)
+  * [TileSourceOptions Object](tilesourceoptions-object.md)

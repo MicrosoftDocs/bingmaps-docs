@@ -30,4 +30,4 @@ Definition                                                                      
 
 ## See Also
 
-* [Test Data Generator Example](../v8-web-control/test-data-generator-example.md) 
+* [Test Data Generator Example](../map-control-concepts/test-data-generator-example.md) 

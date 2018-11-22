@@ -305,11 +305,11 @@ Angular 1.6 has changed how it handles JSONP. First off you need to white list t
 
 ## Examples
 
-* [Elevation Profiles](../v8-web-control/elevation-profiles.md)
+* [Elevation Profiles](elevation-profiles.md)
 
 ## Related Topics
 
-* [Directions Module](../v8-web-control/directions-module.md)
-* [Search Module](../v8-web-control/search-module.md)
-* [Traffic Module](../v8-web-control/traffic-module.md)
-* [PointCompression Class](../v8-web-control/pointcompression-class.md)
+* [Directions Module](../../modules/directions-module/index.md)
+* [Search Module](../../modules/search-module/index.md)
+* [Traffic Module](../../modules/traffic-module/index.md)
+* [PointCompression Class](../../map-control-api/pointcompression-class.md)

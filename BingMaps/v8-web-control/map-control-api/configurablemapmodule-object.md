@@ -14,11 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # ConfigurableMapModule Object
-Defines which module should be loaded, and the data sets that should be loaded with it. Currently supports the "Microsoft.Maps.GeoXml" and "Microsoft.Maps.GeoJson" modules. Additional modules can be specified and will be loaded, but will not do anything other than load those modules into the web app, which is useful when loading the configuration file via the [ConfigurableMap class](../v8-web-control/configurablemap-class.md).
+Defines which module should be loaded, and the data sets that should be loaded with it. Currently supports the "Microsoft.Maps.GeoXml" and "Microsoft.Maps.GeoJson" modules. Additional modules can be specified and will be loaded, but will not do anything other than load those modules into the web app, which is useful when loading the configuration file via the [ConfigurableMap class](configurablemap-class.md).
 
 ## Properties
 
 | Name          | Type                                    | Description                                         |
 |---------------|-----------------------------------------|-----------------------------------------------------|
 | moduleName    | string                                  | **Required**. Initial map options.                      |
-| moduleOptions | [PostModuleAction](../v8-web-control/postmoduleaction-object.md) _or_ [PostModuleAction](../v8-web-control/postmoduleaction-object.md)\[\] | A set of steps to execute after a module is loaded. |
+| moduleOptions | [PostModuleAction](postmoduleaction-object.md) _or_ [PostModuleAction](postmoduleaction-object.md)\[\] | A set of steps to execute after a module is loaded. |

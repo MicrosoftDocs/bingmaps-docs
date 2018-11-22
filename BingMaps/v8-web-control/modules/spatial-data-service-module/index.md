@@ -28,8 +28,8 @@ The following static classes are exposed through the Microsoft.Maps.SpatialDataS
 
 Name                                                | Description
 --------------------------------------------------- | ------------------------
-[QueryAPIManager](../v8-web-control/queryapimanager-class.md)	    | Provides that ability to query data sources that are hosted by the Bing Spatial Data Services using the Query API.
-[GeoDataAPIManager](../v8-web-control/geodataapimanager-class.md)  | Provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the GeoData API in the Bing Spatial Data Services.
+[QueryAPIManager](queryapimanager-class.md)	    | Provides that ability to query data sources that are hosted by the Bing Spatial Data Services using the Query API.
+[GeoDataAPIManager](geodataapimanager-class.md)  | Provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the GeoData API in the Bing Spatial Data Services.
 
 ##  Classes
 
@@ -37,16 +37,16 @@ The following classes are available in the Microsoft.Maps.SpatialDataServices na
 
 Name                                       | Description
 ------------------------------------------ | --------------------------
-[Filter](../v8-web-control/filter-class.md)            | A class that defines the logic for a filter that can generate a string version of the filter logic that is compatible with the Bing spatial Data Services and can also process the filter logic against a JSON object.
-[FilterGroup](../v8-web-control/filtergroup-class.md)     | A class that defines the group of filters, and can generate a string version of the filter logic that is compatible with the Bing spatial Data Services and can also process the filter logic against a JSON object.
-[GetBoundaryRequestOptions](../v8-web-control/getboundaryrequestoptions-object.md) | Contains options for boundary data. 
-[GeoDataResultSet](../v8-web-control/geodataresultset-object.md)| A set of results returned by the GeoData API.
-[GeoDataResult](../v8-web-control/geodataresult-object.md) | A specific result returned by the GeoData API.
-[Metadata](../v8-web-control/metadata-object.md) | Contains metadata for a boundary returned by the GeoData API.   
-[Name](../v8-web-control/name-object.md) | The name for a boundary returned by the GeoData API. 
-[GeoDataPrimitive](../v8-web-control/geodataprimitive-object.md) | Describes a primitive for a boundary returned by the GeoData API.  
-[Copyright](../v8-web-control/copyright-object.md) | Information on copyright for a boundary returned by the GeoData API.  
-[CopyrightSource](../v8-web-control/copyrightsource-object.md) | Represents the copyright source for a boundary returned by the GeoData API.  
+[Filter](filter-class.md)            | A class that defines the logic for a filter that can generate a string version of the filter logic that is compatible with the Bing spatial Data Services and can also process the filter logic against a JSON object.
+[FilterGroup](filtergroup-class.md)     | A class that defines the group of filters, and can generate a string version of the filter logic that is compatible with the Bing spatial Data Services and can also process the filter logic against a JSON object.
+[GetBoundaryRequestOptions](getboundaryrequestoptions-object.md) | Contains options for boundary data. 
+[GeoDataResultSet](geodataresultset-object.md)| A set of results returned by the GeoData API.
+[GeoDataResult](geodataresult-object.md) | A specific result returned by the GeoData API.
+[Metadata](metadata-object.md) | Contains metadata for a boundary returned by the GeoData API.   
+[Name](name-object.md) | The name for a boundary returned by the GeoData API. 
+[GeoDataPrimitive](geodataprimitive-object.md) | Describes a primitive for a boundary returned by the GeoData API.  
+[Copyright](copyright-object.md) | Information on copyright for a boundary returned by the GeoData API.  
+[CopyrightSource](copyrightsource-object.md) | Represents the copyright source for a boundary returned by the GeoData API.  
 
 ## Enumeration
 
@@ -54,21 +54,21 @@ The following enumerations are available in the Microsoft.Maps.SpatialDataServic
 
 Name                                                                    | Description
 ----------------------------------------------------------------------- | ----------------------
-[FilterCompareOperator](../v8-web-control/filtercompareoperator-enumeration.md)        | Specifies how to compare the filters value against the corresponding property value.
-[FilterLogicalOperator](../v8-web-control/filterlogicaloperator-enumeration.md)         | Specifies how two or more filters are linked together.    
+[FilterCompareOperator](filtercompareoperator-enumeration.md)        | Specifies how to compare the filters value against the corresponding property value.
+[FilterLogicalOperator](filterlogicaloperator-enumeration.md)         | Specifies how two or more filters are linked together.    
 
 ## Examples
-   * [Filter Example](../v8-web-control/filter-example.md) 
+   * [Filter Example](../../map-control-concepts/spatial-data-services-module-examples/filter-example.md) 
 
 **Query API**
-  * [Find By Property](../v8-web-control/find-by-property-example.md)
-  * [Find Nearby](../v8-web-control/find-nearby-example.md)
-  * [Basic Intersection Search](../v8-web-control/basic-intersection-search-example.md)
-  * [Along a Route Search](../v8-web-control/along-a-route-search.md)
-  * [Choropleth Map](../v8-web-control/choropleth-map-example.md)
-  * [Paged Search Results](../v8-web-control/paged-search-results-example.md)
+  * [Find By Property](../../map-control-concepts/spatial-data-services-module-examples/query-api/find-by-property-example.md)
+  * [Find Nearby](../../map-control-concepts/spatial-data-services-module-examples/query-api/find-nearby-example.md)
+  * [Basic Intersection Search](../../map-control-concepts/spatial-data-services-module-examples/query-api/basic-intersection-search-example.md)
+  * [Along a Route Search](../../map-control-concepts/spatial-data-services-module-examples/query-api/along-a-route-search.md)
+  * [Choropleth Map](../../map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md)
+  * [Paged Search Results](../../map-control-concepts/spatial-data-services-module-examples/query-api/paged-search-results-example.md)
   
 **GeoData API**
-  * [Load a Single Boundary from the GeoData Service](../v8-web-control/load-single-boundary-geodata-example.md)
-  * [Load Multiple Boundaries from the GeoData Service](../v8-web-control/load-multiple-boundaries-geodata-example.md)
-  * [Search Boundary](../v8-web-control/search-boundary-example.md)
+  * [Load a Single Boundary from the GeoData Service](../../map-control-concepts/spatial-data-services-module-examples/geodata-api/load-single-boundary-geodata-example.md)
+  * [Load Multiple Boundaries from the GeoData Service](../../map-control-concepts/spatial-data-services-module-examples/geodata-api/load-multiple-boundaries-geodata-example.md)
+  * [Search Boundary](../../map-control-concepts/spatial-data-services-module-examples/geodata-api/search-boundary-example.md)

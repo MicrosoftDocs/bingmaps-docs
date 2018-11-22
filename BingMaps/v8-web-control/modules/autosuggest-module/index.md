@@ -22,12 +22,12 @@ The Autosuggest module takes in a string of text and provides a list of suggeste
 
 ## API Reference
 
-  * [AutosuggestManager Class](../v8-web-control/autosuggestmanager-class.md)
-  * [AutosuggestOptions Object](../v8-web-control/autosuggestoptions-object.md)
-  * [SuggestionResult Object](../v8-web-control/suggestionresult-object.md)
-  * [Address Object](../v8-web-control/address-object.md)
+  * [AutosuggestManager Class](autosuggestmanager-class.md)
+  * [AutosuggestOptions Object](autosuggestoptions-object.md)
+  * [SuggestionResult Object](suggestionresult-object.md)
+  * [Address Object](address-object.md)
 
 
 ## Examples
-  * [Default Autosuggest User Interface](../v8-web-control/default-autosuggest-user-interface-example.md)
-  * [Filling in an Address Form](../v8-web-control/filling-in-an-address-form-example.md) 
+  * [Default Autosuggest User Interface](../../map-control-concepts/autosuggest-module-examples/default-autosuggest-user-interface-example.md)
+  * [Filling in an Address Form](../../map-control-concepts/autosuggest-module-examples/filling-in-an-address-form-example.md) 

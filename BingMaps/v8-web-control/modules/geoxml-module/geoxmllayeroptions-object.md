@@ -21,10 +21,10 @@ Options used to customize how a GeoXmlLayer renders.
 | `allowKmlScreenOverlays`  | boolean               | Specifies if KML ScreenOverlays should be read or ignored. Default: **true**                              |
 | `autoUpdateMapView`       | boolean               | A boolean indicating if the map should automatically update the view when a data set is loaded. Default: **true**   |
 | `captureGpxPathWaypoints` | boolean               | Specifies whether the individual waypoint data of a GPX Route or Track should be captured. If set to true, the shape will have a metadata.waypoints property that is an array of pushpins that contains the details of each waypoint along the track. Default: **false** |
-| `defaultStyles`           | [StylesOptions](../v8-web-control/stylesoptions-object.md)         | The default styles to apply to shapes that don't have a defined style in the XML. |
+| `defaultStyles`           | [StylesOptions](../../map-control-api/stylesoptions-object.md)         | The default styles to apply to shapes that don't have a defined style in the XML. |
 | `error`                   | function(msg: string) | A callback function that is triggered when an error occurs when reading an XML document.  |
 | `ignoreVisibility`        | boolean               | Specifies if shapes visible tags should be used to set the visible property of its equivalent Bing Maps shape. Default: **true** |
-| `infoboxOptions`          | [InfoboxOptions](../v8-web-control/infoboxoptions-object.md)        | Options used to customize how the default infobox renders. |
+| `infoboxOptions`          | [InfoboxOptions](../../map-control-api/infoboxoptions-object.md)        | Options used to customize how the default infobox renders. |
 | `layerName` | string | An optional name to identify the layer by. |
 | `maxNetworkLinkDepth`     | number                | The maximum depth of network links in a KML file. Default: **3** Example: when set to 3 file1 links to file2 which links to file3 but won't open links in file3. |
 | `maxNetworkLinks`         | number                | The maximum number of network links that a single KML file can have. Default: **10** |

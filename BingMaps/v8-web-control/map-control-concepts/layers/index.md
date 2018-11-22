@@ -17,19 +17,19 @@ ms.service: "bing-maps"
 In Bing Maps V8 we have introduced a new Layer class that makes it easy to separate multiple data sets as layers.
 
 ### Examples
-  * [Data Layer Events](../v8-web-control/data-layer-events.md)
-  * [Basic Tile Layer](../v8-web-control/basic-tile-layer-example.md)
-  * [X, Y, Zoom Tile Layer](../v8-web-control/x-y-zoom-tilelayer.md)
-  * [WMS Tile Layer Example](../v8-web-control/wms-tile-layer-example.md)
-  * [Base Map Tile Layer Example](../v8-web-control/base-map-tile-layer-example.md)
-  * [Animated Weather Radar Map](../v8-web-control/animated-weather-radar-map.md)
-  * [AnimatedTileLayer Events](../v8-web-control/animatedtilelayer-events.md)
-  * [Controlling an AnimatedTileLayer](../v8-web-control/controlling-an-animatedtilelayer.md)
+  * [Data Layer Events](data-layer-events.md)
+  * [Basic Tile Layer](basic-tile-layer-example.md)
+  * [X, Y, Zoom Tile Layer](x-y-zoom-tilelayer.md)
+  * [WMS Tile Layer Example](wms-tile-layer-example.md)
+  * [Base Map Tile Layer Example](base-map-tile-layer-example.md)
+  * [Animated Weather Radar Map](animated-weather-radar-map.md)
+  * [AnimatedTileLayer Events](animatedtilelayer-events.md)
+  * [Controlling an AnimatedTileLayer](controlling-an-animatedtilelayer.md)
   
 ### References
-  * [Layer Class](../v8-web-control/layer-class.md)
-  * [TileLayer Class](../v8-web-control/tilelayer-class.md)
-  * [TileLayerOptions Object](../v8-web-control/tilelayeroptions-object.md)
-  * [TileSource Class](../v8-web-control/tilesource-class.md)
-  * [TileSourceOptions Object](../v8-web-control/tilesourceoptions-object.md)
+  * [Layer Class](../../map-control-api/layer-class.md)
+  * [TileLayer Class](../../map-control-api/tilelayer-class.md)
+  * [TileLayerOptions Object](../../map-control-api/tilelayeroptions-object.md)
+  * [TileSource Class](../../map-control-api/tilesource-class.md)
+  * [TileSourceOptions Object](../../map-control-api/tilesourceoptions-object.md)
    

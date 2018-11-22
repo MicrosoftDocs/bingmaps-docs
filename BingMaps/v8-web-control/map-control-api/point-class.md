@@ -33,8 +33,8 @@ The following is a list of methods that are part of the Point class.
 
 Name                                         | Return Type         | Description
 -------------------------------------------- | ------------------- | ------------------------------------------------------------
-`add(point: Point)`                          | [Point](../v8-web-control/point-class.md)               | Adds the x and y values of two points and returns a new Point.
-`clone()`                                    | [Point](../v8-web-control/point-class.md)               | Returns a copy of the Point object.
+`add(point: Point)`                          | [Point](point-class.md)               | Adds the x and y values of two points and returns a new Point.
+`clone()`                                    | [Point](point-class.md)               | Returns a copy of the Point object.
 `equals(point: Point, tolerance?: number)`   | boolean             | Compares the x and y values of two points to see if they are equal. If a tolerance value is specified, it checks to see if the linear distance between the points is less than or equal to the tolerance value.
-`subtract(point: Point)`                     | [Point](../v8-web-control/point-class.md)               | Subtracts the x and y values of a points and returns a new Point.
+`subtract(point: Point)`                     | [Point](point-class.md)               | Subtracts the x and y values of a points and returns a new Point.
 `toString()`                                 | string              | Converts the Point object into a string.

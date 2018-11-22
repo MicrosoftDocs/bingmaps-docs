@@ -20,17 +20,17 @@ The drawing tools module provides tools that allow the user to draw and edit sha
 
 ## API Reference ##
 
-* [DrawingBarAction Enumeration](../v8-web-control/drawingbaraction-enumeration.md)
-* [DrawingManager Class](../v8-web-control/drawingmanager-class.md)
-* [DrawingManagerOptions Object](../v8-web-control/drawingmanageroptions-object.md)
-* [DrawingMode Enumeration](../v8-web-control/drawingmode-enumeration.md)
-* [DrawingModeChangedData Object](../v8-web-control/drawingmodechangeddata-object.md)
-* [DrawingTools Class](../v8-web-control/drawingtools-class.md)
-* [ShapeType Enumeration](../v8-web-control/shapetype-enumeration.md)
+* [DrawingBarAction Enumeration](drawingbaraction-enumeration.md)
+* [DrawingManager Class](drawingmanager-class.md)
+* [DrawingManagerOptions Object](drawingmanageroptions-object.md)
+* [DrawingMode Enumeration](drawingmode-enumeration.md)
+* [DrawingModeChangedData Object](drawingmodechangeddata-object.md)
+* [DrawingTools Class](drawingtools-class.md)
+* [ShapeType Enumeration](shapetype-enumeration.md)
 
 ## Examples ##
 
-* [Display Drawing Toolbar on Map](../v8-web-control/display-drawing-toolbar-on-map.md)
-* [DrawingManager Events](../v8-web-control/drawingmanager-events.md)
-* [Edit an Existing Shape](../v8-web-control/edit-an-existing-shape.md) 
-* [Get Shapes from DrawingManager](../v8-web-control/get-shapes-from-drawingmanager.md)
+* [Display Drawing Toolbar on Map](../../map-control-concepts/drawing-tools-module-examples/display-drawing-toolbar-on-map.md)
+* [DrawingManager Events](../../map-control-concepts/drawing-tools-module-examples/drawingmanager-events.md)
+* [Edit an Existing Shape](../../map-control-concepts/drawing-tools-module-examples/edit-an-existing-shape.md) 
+* [Get Shapes from DrawingManager](../../map-control-concepts/drawing-tools-module-examples/get-shapes-from-drawingmanager.md)

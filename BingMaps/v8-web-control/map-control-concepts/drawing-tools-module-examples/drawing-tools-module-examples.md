@@ -18,14 +18,14 @@ The drawing tools module provides tools that allow the user to draw and edit sha
 
 ## Examples
 
-* [Display Drawing Toolbar on Map](../v8-web-control/display-drawing-toolbar-on-map.md)
-* [DrawingManager Events](../v8-web-control/drawingmanager-events.md)
-* [Edit an Existing Shape](../v8-web-control/edit-an-existing-shape.md) 
-* [Get Shapes from DrawingManager](../v8-web-control/get-shapes-from-drawingmanager.md)
+* [Display Drawing Toolbar on Map](display-drawing-toolbar-on-map.md)
+* [DrawingManager Events](drawingmanager-events.md)
+* [Edit an Existing Shape](edit-an-existing-shape.md) 
+* [Get Shapes from DrawingManager](get-shapes-from-drawingmanager.md)
 
 ## Related Topics
 
-* [DrawingManager Class](../v8-web-control/drawingmanager-class.md)
-* [DrawingMode Enumeration](../v8-web-control/drawingmode-enumeration.md)
-* [DrawingTools Class](../v8-web-control/drawingtools-class.md)
-* [ShapeType Enumeration](../v8-web-control/shapetype-enumeration.md)
+* [DrawingManager Class](../../modules/drawing-tools-module/drawingmanager-class.md)
+* [DrawingMode Enumeration](../../modules/drawing-tools-module/drawingmode-enumeration.md)
+* [DrawingTools Class](../../modules/drawing-tools-module/drawingtools-class.md)
+* [ShapeType Enumeration](../../modules/drawing-tools-module/shapetype-enumeration.md)

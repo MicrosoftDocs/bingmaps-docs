@@ -26,16 +26,16 @@ In most calculations the distance or area unit parameters are optional. The defa
 
 ## Examples
 
-  * [Basic Core Spatial Math](../v8-web-control/basic-core-spatial-math-example.md)
-  * [Geolocation Accuracy Circle](../v8-web-control/geolocation-accuracy-circle-example.md)
-  * [Geometry Binary Operations](../v8-web-control/geometry-binary-operations.md)
-  * [Calculate Tile Bounds](../v8-web-control/calculate-tile-bounds.md) 
+  * [Basic Core Spatial Math](basic-core-spatial-math-example.md)
+  * [Geolocation Accuracy Circle](geolocation-accuracy-circle-example.md)
+  * [Geometry Binary Operations](geometry-binary-operations.md)
+  * [Calculate Tile Bounds](calculate-tile-bounds.md) 
 
 ## Related Topics
 
-  * [AreaUnits Enumeration](../v8-web-control/areaunits-enumeration.md)
-  * [Core Calculations](../v8-web-control/core-calculations.md)
-  * [DistanceUnits Enumeration](../v8-web-control/distanceunits-enumeration.md)
-  * [Geometry Calculations](../v8-web-control/geometry-calculations.md)
-  * [Tile Calculations](../v8-web-control/tile-calculations.md)
+  * [AreaUnits Enumeration](../../modules/spatial-math-module/areaunits-enumeration.md)
+  * [Core Calculations](../../modules/spatial-math-module/core-calculations.md)
+  * [DistanceUnits Enumeration](../../modules/spatial-math-module/distanceunits-enumeration.md)
+  * [Geometry Calculations](../../modules/spatial-math-module/geometry-calculations.md)
+  * [Tile Calculations](../../modules/spatial-math-module/tile-calculations.md)
   

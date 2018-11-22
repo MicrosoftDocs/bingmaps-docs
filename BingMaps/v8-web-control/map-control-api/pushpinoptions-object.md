@@ -18,8 +18,8 @@ When creating a pushpin, a location must be passed as an argument to the constru
 
 | Name                 | Type     | Description     |
 |----------------------|----------|-----------------|
-| `anchor`             | [Point](../v8-web-control/point-class.md) | The point on the pushpin icon, in pixels, which is anchored to the pushpin location. An anchor of (0,0) is the top left corner of the icon.    |
-| `color`              | string _or_ [Color](../v8-web-control/color-class.md) | Specifies what color to make the default pushpin.     |
+| `anchor`             | [Point](point-class.md) | The point on the pushpin icon, in pixels, which is anchored to the pushpin location. An anchor of (0,0) is the top left corner of the icon.    |
+| `color`              | string _or_ [Color](color-class.md) | Specifies what color to make the default pushpin.     |
 | `cursor`             | string       | The css cursor to show when pushpin has mouse events on it. Default value is **pointer** (hand). |
 | `draggable`          | boolean      | A boolean indicating whether the pushpin can be dragged to a new position with the mouse or by touch.|
 | `enableClickedStyle` | boolean      | Specifies whether to enable the clicked style on the pushpin. To unselect a pushpin, simply click it again. Alternatively, you can disable then reenable this property.  |
@@ -29,7 +29,7 @@ When creating a pushpin, a location must be passed as an argument to the constru
 | `subTitle`           | string       | A secondary title label value to display under the pushpin. Uses label collision detection. This label automatically changes color between white and dark grey depending on which map style is selected. Requires the title label to be set. |
 | `title`              | string       | The title label value to display under the pushpin. This label automatically changes color between white and dark grey depending on which map style is selected. Pushpin Titles support label collision detection, as described below.       |
 | `text`               | string       | A short string of text that is overlaid on top of the pushpin.  |
-| `textOffset`         | [Point](../v8-web-control/point-class.md)         | The amount the text is shifted from the pushpin icon. The default value is (0,5).  |
+| `textOffset`         | [Point](point-class.md)         | The amount the text is shifted from the pushpin icon. The default value is (0,5).  |
 | `visible`            | boolean      | A boolean indicating whether to show or hide the pushpin. The default value is true. A value of false indicates that the pushpin is hidden, although it is still an entity on the map.                                                       |
 
 The **title** and **subTitle** labels render below the pushpin but may not always be displayed. If a label on the map collides with the pushpins label, the maps label will either move out of the way, or will be hidden. If a lot of pushpins are displayed on the, some colliding pushpin labels will be hidden to so that the displayed labels are readable.

@@ -55,4 +55,4 @@ If you run this code, a notification will be displayed asking if you want to sha
 
 ## See Also
 
-  * [Geolocation Accuracy Circle Example](../v8-web-control/geolocation-accuracy-circle-example.md)
+  * [Geolocation Accuracy Circle Example](../spatial-math-module-examples/geolocation-accuracy-circle-example.md)

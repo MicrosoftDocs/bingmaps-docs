@@ -14,11 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # ContourLayerOptions Object
-These options can be used to with the [ContourLayer](../v8-web-control/contourlayer-class.md) class.
+These options can be used to with the [ContourLayer](contourlayer-class.md) class.
 
 | Name           | Type                                    | Description                                                                                                                                   |
 |----------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | `colorCallback`  | function(contourValue: number _or_ string) | A callback function which defines the color of the contour line fill. The callback function must return a CSS color string or a Color object. |
-| `polygonOptions` | [PolygonOptions](../v8-web-control/polygonoptions-object.md)                          | The polygon options that apply to all contour lines in this layer.                                                                            |
+| `polygonOptions` | [PolygonOptions](../../map-control-api/polygonoptions-object.md)                          | The polygon options that apply to all contour lines in this layer.                                                                            |
 | `visible`        | boolean                                 | A boolean indicating if the layer is visible or not.                                                                                          |
 | `zIndex`         | number                                  | The z-index of the layer.                                                                                                                     |

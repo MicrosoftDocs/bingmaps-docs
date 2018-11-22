@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Customizing Clustered Pushpins
-By default, the clustering layer uses the default pushpin and sets the text option to the number of pushpins that are in the cluster. Customizing the clustered pushpins can be done by passing a callback function into the `clusteredPinCallback` option of the cluster layer. This callback will receive a reference to a [ClusterPushpin](../v8-web-control/clusterpushpin-class.md) object which is special pushpin that has a couple of extra properties on it. You can customize the ClusterPushpin the same way you would a standard pushpin, using the `setOptions` function. For example:
+By default, the clustering layer uses the default pushpin and sets the text option to the number of pushpins that are in the cluster. Customizing the clustered pushpins can be done by passing a callback function into the `clusteredPinCallback` option of the cluster layer. This callback will receive a reference to a [ClusterPushpin](../../modules/clustering-module/clusterpushpin-class.md) object which is special pushpin that has a couple of extra properties on it. You can customize the ClusterPushpin the same way you would a standard pushpin, using the `setOptions` function. For example:
 
 ```
 var clusterLayer = new Microsoft.Maps.ClusterLayer(pins, {
@@ -27,7 +27,7 @@ var clusterLayer = new Microsoft.Maps.ClusterLayer(pins, {
 });
 ```
 
-There are many different ways to customize a pushpin in Bing Maps such as using a URL to an image or SVG file, using inline SVG or a Base64 image string. Documentation on how to create these different types of custom pushpins [here](../v8-web-control/pushpins.md).
+There are many different ways to customize a pushpin in Bing Maps such as using a URL to an image or SVG file, using inline SVG or a Base64 image string. Documentation on how to create these different types of custom pushpins [here](../pushpins/index.md).
 
 In this code example, instead of simply using a custom image to represent a clustered pushpin, we will see how to dynamically create an inline SVG icon based on the number of pushpins that are in the cluster. Clusters will be represented using a circle. The more pushpins in the cluster the larger the circle will become, using a logarithmic scale. Since the size of the circles will grow, we will increase the grid size used by the clustering layer to accommodate this. Additionally, if a cluster has less than 10 pushpins, the circle will be green, less than 100 pushpins, yellow, more than 100, red. 
 

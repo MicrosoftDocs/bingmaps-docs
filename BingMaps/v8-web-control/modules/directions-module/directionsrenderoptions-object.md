@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # DirectionsRenderOptions Object
-You can set options for how to the route is rendered by passing an object containing direction render options to the `setRenderOptions` method of the [DirectionsManager](../v8-web-control/directionsmanager-class.md). The following is a list of properties that are available in the DirectionsRenderOptions object.
+You can set options for how to the route is rendered by passing an object containing direction render options to the `setRenderOptions` method of the [DirectionsManager](directionsmanager-class.md). The following is a list of properties that are available in the DirectionsRenderOptions object.
 
 | Name                          | Type       | Description                                                        |
 |-------------------------------|------------|--------------------------------------------------------------------|
@@ -26,11 +26,11 @@ You can set options for how to the route is rendered by passing an object contai
 | `displayRouteSelector`          | boolean    | A boolean indicating whether to display the route selector control. Default: **true**                                                                |
 | `displayStepWarnings`           | boolean    | A boolean indicating whether to display direction warnings. Default: **true**                                                                        |
 | `displayWalkingWarning`         | boolean    | A boolean indicating whether to display a warning about walking directions. Default: **true**                                                        |
-| `drivingPolylineOptions` | [PolylineOptions](../v8-web-control/polylineoptions-object.md) | The polyline options that define how to draw the route line on the map, if the **RouteMode** is driving. |
-| `firstWaypointPushpinOptions` | [PushpinOptions](../v8-web-control/pushpinoptions-object.md) | The pushpin options that define how the first waypoint should be rendered. | 
+| `drivingPolylineOptions` | [PolylineOptions](../../map-control-api/polylineoptions-object.md) | The polyline options that define how to draw the route line on the map, if the **RouteMode** is driving. |
+| `firstWaypointPushpinOptions` | [PushpinOptions](../../map-control-api/pushpinoptions-object.md) | The pushpin options that define how the first waypoint should be rendered. | 
 | `itineraryContainer`            | DOMElement | The DOM element inside which the directions itinerary will be rendered.                                                                                           |
-| `lastWaypointPushpinOptions` | [PushpinOptions](../v8-web-control/pushpinoptions-object.md) | The pushpin options that define how the last waypoint should be rendered. | 
+| `lastWaypointPushpinOptions` | [PushpinOptions](../../map-control-api/pushpinoptions-object.md) | The pushpin options that define how the last waypoint should be rendered. | 
 | `showInputPanel`                | boolean    | A boolean indicating whether to show the input panel. Default: **false**                                                                             |
-| `transitPolylineOptions` | [PolylineOptions](../v8-web-control/polylineoptions-object.md) | The options that define how to draw the route line on the map, if the **RouteMode** is transit. | 
-| `walkingPolylineOptions` | [PolylineOptions](../v8-web-control/polylineoptions-object.md) | The options that define how to draw the route line on the map, if the **RouteMode** is walking. |
-| `waypointPushpinOptions` | [PushpinOptions](../v8-web-control/pushpinoptions-object.md) | The options that define the pushpin to use for all route waypoints by default. The first and last waypoints in the route will be overriden by firstWaypointPushpinOptions and lastWaypointPushpinOptions if set. |
+| `transitPolylineOptions` | [PolylineOptions](../../map-control-api/polylineoptions-object.md) | The options that define how to draw the route line on the map, if the **RouteMode** is transit. | 
+| `walkingPolylineOptions` | [PolylineOptions](../../map-control-api/polylineoptions-object.md) | The options that define how to draw the route line on the map, if the **RouteMode** is walking. |
+| `waypointPushpinOptions` | [PushpinOptions](../../map-control-api/pushpinoptions-object.md) | The options that define the pushpin to use for all route waypoints by default. The first and last waypoints in the route will be overriden by firstWaypointPushpinOptions and lastWaypointPushpinOptions if set. |

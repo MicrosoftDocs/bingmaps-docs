@@ -52,9 +52,9 @@ Name                          | Type                   | Description
 
 ## Examples
 
-  *  [Displaying a User Location](../v8-web-control/displaying-a-user-location-example.md)
-  *  [Continuously Tracking a Users' Location](../v8-web-control/continuously-tracking-a-user-location-example.md)
+  *  [Displaying a User Location](displaying-a-user-location-example.md)
+  *  [Continuously Tracking a Users' Location](continuously-tracking-a-user-location-example.md)
 
 ## See Also
 
-  * [Geolocation Accuracy Circle Example](../v8-web-control/geolocation-accuracy-circle-example.md)
+  * [Geolocation Accuracy Circle Example](../spatial-math-module-examples/geolocation-accuracy-circle-example.md)

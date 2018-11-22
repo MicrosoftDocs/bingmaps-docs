@@ -93,8 +93,8 @@ var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
 **Additional Resources:**
 
 * [Pushpin Interactive Code Samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPushpin+JS)
-* [Pushpin Class](../v8-web-control/pushpin-class.md)
-* [Additional Pushpin Code Samples](../v8-web-control/pushpins.md)
+* [Pushpin Class](../map-control-api/pushpin-class.md)
+* [Additional Pushpin Code Samples](../map-control-concepts/pushpins/index.md)
 
 ## Setting the Color of a Polygon or Polyline
 
@@ -121,8 +121,8 @@ In this scenario, V8 requires 26% less code than V7, however the performance imp
 
 **Additional Resources:**
 
-* [Colors in V8](../v8-web-control/colors.md)
-* [Color Class](../v8-web-control/color-class.md)
+* [Colors in V8](../map-control-concepts/colors.md)
+* [Color Class](../map-control-api/color-class.md)
 
 ## Getting the Location of a Mouse Event
 
@@ -153,7 +153,7 @@ In this scenario, V8 requires 40% less code than V7.
 
 **Additional Resources:**
 
-* [Events Class](../v8-web-control/events-class.md)
+* [Events Class](../map-control-api/events-class.md)
 * [Events interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addEventHandler+JS)
 
 ## Adding Events to an Array of Shapes
@@ -186,7 +186,7 @@ In this scenario, V8 requires 15% less code than V7. However, the shapes are sto
 
 **Additional Resources:**
 
-* [Layer class](../v8-web-control/layer-class.md)
+* [Layer class](../map-control-api/layer-class.md)
 * [Layer interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addMultipleLayerItems+JS)
 
 ## Polygons with holes
@@ -219,7 +219,7 @@ Not including the code to create the polygon object, V8 requires writing 74% les
 
 **Additional Resource:**
 
-* [Polygon Class](../v8-web-control/polygon-class.md)
+* [Polygon Class](../map-control-api/polygon-class.md)
 * [Polygon interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPolygon+JS)
 
 ## Loading Multiple Modules
@@ -246,7 +246,7 @@ V8 requires 32% less code than V7 when loading two modules at the same time. V8 
 
 **Additional Resources:**
 
-* [Modular Framework](../v8-web-control/modular-framework.md)
+* [Modular Framework](../map-control-concepts/modular-framework/index.md)
 * [Modular Framework interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadingModules+JS)
 
 ## Adding Tile Layers to the Map
@@ -337,7 +337,7 @@ In this scenario, V8 requires 73% less code than V7.
 **Additional Resources:**
 
 * [Tile Layer interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerQuadKey+JS)
-* [TileSource options](../v8-web-control/tilesourceoptions-object.md)
+* [TileSource options](../map-control-api/tilesourceoptions-object.md)
 
 ## Bing Maps REST Services
 
@@ -352,10 +352,10 @@ If using the REST service or Search module to power a search textbox, you may fi
 
 **Additional Resources:**
 
-* [Autosuggest module](../v8-web-control/autosuggest-module.md)
+* [Autosuggest module](../modules/autosuggest-module/index.md)
 * [Autosuggest module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)
-* [Directions module](../v8-web-control/directions-module.md)
+* [Directions module](../modules/directions-module/index.md)
 * [Directions module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS)
-* [Search module](../v8-web-control/search-module.md)
+* [Search module](../modules/search-module/index.md)
 * [Search module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#searchByAddress+JS)
 * [Bing Maps REST Services](../rest-services/index.md)

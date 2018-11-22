@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # GeoJsonReadOptions Object
-Options used to customize how a GeoJson file is read and loaded via the [Configuration Driven Maps framework](../v8-web-control/configuration-driven-maps-framework.md).
+Options used to customize how a GeoJson file is read and loaded via the [Configuration Driven Maps framework](../../map-control-concepts/configuration-driven-maps-framework/index.md).
 
 ## Properties
 
@@ -22,4 +22,4 @@ Options used to customize how a GeoJson file is read and loaded via the [Configu
 |-----------------|---------------|------------------------|
 | jsonpQueryParam | string        | If the GeoJSON file is hosted on a different domain, and [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is not enabled, but does support [JSONP](https://en.wikipedia.org/wiki/JSONP), you will need to specify the name of JSONP URL parameter that can be used to download the file across different domains. |
 | layerName       | string        | An optional name to identify the layer by.   |
-| style           | [StylesOptions](../v8-web-control/stylesoptions-object.md) | The styles to apply to shapes that don't have a defined style in the XML.  |
+| style           | [StylesOptions](../../map-control-api/stylesoptions-object.md) | The styles to apply to shapes that don't have a defined style in the XML.  |
