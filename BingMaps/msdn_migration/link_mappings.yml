@@ -1062,18 +1062,6 @@
     - msdn: https://msdn.microsoft.com/en-us/library/dn642354.aspx
       old-docs: south-america-transit-coverage.md
       new-docs: transit-coverage/north-america.md
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
-    - msdn: 
-      old-docs: 
-      new-docs: 
 - path: spatial-data-services
   links:
     - msdn: https://msdn.microsoft.com/en-us/library/ff701734.aspx

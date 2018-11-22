@@ -3,7 +3,7 @@ import sys
 import yaml
 from collections import namedtuple, defaultdict
 
-BuildData = namedtuple('BuildData', 'source_file_parts dest_file_parts old_dest_link new_filename') 
+BuildData = namedtuple('BuildData', 'source_file_parts dest_file_parts old_dest_link') 
 
 
 def check_extension(file_name, ext):
@@ -18,9 +18,9 @@ def parse_msg(msg):
         return bad_link.replace('~', '..'), bad_link_parts
     return None
 
-def get_updated_parts(link_data, source_link_parts):
-    service = source_link_parts[0]
-    old_md_file = source_link_parts[-1]
+def get_updated_parts(link_data, old_dest_link_parts):
+    service = old_dest_link_parts[0]
+    old_md_file = old_dest_link_parts[-1]
     for serv in link_data:
         if serv.get('path') == service:
             for link_dict in serv.get('links'):
@@ -48,10 +48,11 @@ def get_error_data(df, link_data):
 
                 # get dest file
                 new_dest_path_parts = get_updated_parts(link_data, dest_path_parts)
+                print(new_dest_path_parts)
                 new_filename = new_dest_path_parts[-1]
                 source_path_parts = f.split('/')
                 source_path_parts.remove('BingMaps')
-                datum = BuildData(source_path_parts, new_dest_path_parts, old_dest_link, new_filename)
+                datum = BuildData(source_path_parts, new_dest_path_parts, old_dest_link)
                 yield datum
 
 
@@ -71,10 +72,11 @@ def replace_link(file_str, old_link, link):
                     top.pop()
                 else:
                     break
+            print('updated file!')
             new_file_str = top + link + bot
             new_file_str = replace_link(new_file_str, old_link, link)
     except ValueError:
-        pass
+        return new_file_str
     finally:
         return new_file_str
 
@@ -119,21 +121,26 @@ def update_links(obs_cvs_file, yaml_data_file):
     mapper = FileMap(ignore_dir=ignore)
         
     for data in get_error_data(df, yaml_links):
-       
-        new_dest = list(data.dest_file_parts)
-        new_dest[-1] = data.new_filename
 
-        source = mapper.get_path(*data.source_file_parts)
-        dest = mapper.get_path(*new_dest)
+        try:
+            source = mapper.get_path(*data.source_file_parts)
+            dest = mapper.get_path(*data.dest_file_parts)
        
-        link = mapper.create_link(source, dest)
+        except IndexError:
+            print(f'bad source/dest: {data.source_file_parts} \n\t {new_dest}')
+            exit(1)
 
-        if link:
-            if link == '.':
-                link = data.new_filename
-            # print(f'Data: {data}')
-            # print(f'Link: "{link}"\n')
-            update_file(mapper, data, link)
+        finally:
+            link = mapper.create_link(source, dest)
+
+            if link:
+                if link == '.':
+                    link =  data.dest_file_parts[-1]
+                print(f'Data: {data}')
+                print(f'Link: "{link}"\n')
+                update_file(mapper, data, link)
+            else:
+                print(f'link not created! From {source} to {dest}')
             
 if __name__=='__main__':
     print('\nLoading link fixer, usage:\n\n\t$> link_fixer {csv_report_file} {yaml_link_file}\n')

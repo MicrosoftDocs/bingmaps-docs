@@ -30,7 +30,7 @@ class FileMap:
 
     @property
     def file_names(self):
-        return [f.name for f in self.files]
+        return frozenset([f.name for f in self.files])
         
     def get_path(self, *path_names, full=False):
         '''Returns a `Path` object from a list of folder/file names.
@@ -51,20 +51,24 @@ class FileMap:
         if head in self.file_names:
             for f in self.files:
                 if f.name == head:
-                    return f
-            raise IndexError('False positive: file not found')
+                    ret = f
+                    break
+            if not ret:
+                print(self.file_names)
+                raise IndexError(f'False positive: file not found: {f}')
         else:
             for kid in self.children:
                 if kid.path.name == head:
                     ret = kid.get_path(*tail)
                     break
-        return ret.absolute() if full else ret
+        return ret.absolute() if full and bool(ret is not None) else ret
             
 
     def create_link(self, source_path, dest_path):
         from os.path import relpath
 
         if None in [source_path, dest_path]:
+            
             return None
     
         path = str(relpath(dest_path, start=source_path)).replace('\\', '/')
