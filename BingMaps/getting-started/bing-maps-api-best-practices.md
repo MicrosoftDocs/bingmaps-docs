@@ -211,9 +211,7 @@ map.getCredentials(function (c) {
   
  **Bing Maps WPF Controls**  
   
-```
-  
-      C#  
+```Csharp 
 string sessionKey;  
   
 map.CredentialsProvider.GetCredentials((c) =>  
@@ -248,7 +246,7 @@ To obtain a session key, you must establish a Bing Maps session. A Bing Maps ses
   
 ### Encode address values before geocoding
 
-Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as %20 and ampersands (&) are encoded as %26. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](http://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/en-us/library/system.uri.aspx) class.  
+Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](http://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/en-us/library/system.uri.aspx) class.  
   
 > [!IMPORTANT]
->  For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (&) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand rather than %26.
+>  For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (`&`) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand (`&`) rather than `%26`.

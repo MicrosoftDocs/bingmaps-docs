@@ -1,7 +1,7 @@
 ---
 title: "Updating Your Bing Maps Account | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "11/26/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Updating Your Bing Maps Account
+
 This topic describes how to:  
   
 -   Change the Microsoft account associated with your Bing Maps Account  
@@ -22,7 +23,7 @@ This topic describes how to:
   
 ## Change the Microsoft account associated with your Bing Maps Account
 
- To change the Microsoft account that you use to log in to the Bing Maps Dev Center ([HYPERLINK "https://www.bingmapsportal.com/" https://www.bingmapsportal.com/](https://www.bingmapsportal.com/)), you must email [mpnet@microsoft.com](mailto:mpnet@microsoft.com) your request and include the following information:  
+ To change the Microsoft account that you use to log in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/), you must email [mpnet@microsoft.com](mailto:mpnet@microsoft.com) your request and include the following information:  
   
 -   Your Bing Maps Dev Center account ID.  
   
@@ -42,8 +43,9 @@ This topic describes how to:
   
 2.  After you sign in, click **Edit** under **Personal details** and note the **Unique ID** at the bottom of the page.  
   
-## Update your Bing Maps Dev Center information  
- To update your Bing Maps Dev Center information:  
+## Update your Bing Maps Dev Center information
+
+To update your Bing Maps Dev Center information:  
   
 1.  Sign in to the [Bing Maps Dev Center](https://www.bingmapsportal.com/).  
   
