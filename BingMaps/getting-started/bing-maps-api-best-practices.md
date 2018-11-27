@@ -218,14 +218,16 @@ map.CredentialsProvider.GetCredentials((c) =>
 {  
     sessionKey = c.ApplicationId;  
 });  
-  
-Visual Basic  
+```
+
+**Visual Basic**
+
+```vb
 Dim sessionKey As String  
   
 map.CredentialsProvider.GetCredentials(Function(c)   
 sessionKey = c.ApplicationId  
 End Function)  
-  
 ```  
   
 ## Guidelines for both Bing Maps services and Bing Maps controls
