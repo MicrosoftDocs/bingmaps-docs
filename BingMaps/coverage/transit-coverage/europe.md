@@ -721,7 +721,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[Verkehrsgemeinschaft Emsland-Süd](http://www.vge-emsland-sued.de/) 
 |Regional|[Verkehrsgemeinschaft Grafschaft Bentheim](http://www.vgb-mob.de/) 
 |Regional|[Verkehrsgemeinschaft Osnabrück](http://www.vos.info/) 
-|Regional|[Verkehrsgesellschaft Ennepe-Ruhr mbH](www.ver-kehr.de) 
+|Regional|[Verkehrsgesellschaft Ennepe-Ruhr mbH](http://www.ver-kehr.de) 
 |Regional|[Verkehrsgesellschaft Landkreis Gifhorn mbH](http://www.vlg-gifhorn.de/) 
 |Regional|[Verkehrsgesellschaft Landkreis Nienburg](http://www.vln-nienburg.de/) 
 |Regional|[Verkehrsgesellschaft Rastatt mbH](http://www.kvv.de) 
