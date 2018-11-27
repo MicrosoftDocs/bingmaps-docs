@@ -23,8 +23,7 @@ __Unit of elevation__: Meters.
   
 [!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
-### Get elevations for latitude and longitude coordinates.**  
-  
+### Get elevations for latitude and longitude coordinates  
  Elevations are returned for each set of coordinates. Both the parameters `points` and `key` are required.  
   
 
@@ -40,7 +39,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2
 http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsAPIKey}  
 ```  
   
- ### Get elevations at equally-spaced locations within an area on the Earth defined as a bounding box 
+ ### Get elevations at equally-spaced locations within a bounding box 
   
  The rectangular area defined by the four (4) bounding box coordinates (south latitude, west longitude, north latitude, east longitude) is divided into rows and columns. The edges of the bounding box account for two (2) of the rows and two (2) of the columns. Elevations are returned for the vertices of the grid created by the rows and columns. For example, if you had specified `rows=4` and `columns=4`, then 16 elevations are returned. The elevation values are ordered starting with the southwest corner, and then proceed west to east and south to north. This is illustrated in the following diagram. The elevation points are numbered in the order that they are returned.  
   
@@ -52,7 +51,7 @@ The parameters `bounds`, `rows`, `cols`, and `key` are required.
 http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsAPIKey}  
 ```  
   
-### Get the offset of the geoid sea level Earth model from the ellipsoid Earth model at a set of latitude and longitude coordinates
+### Get the offset of the geoid sea level Earth model from the ellipsoid Earth model
   
  This request returns the offset in meters of the geoid model (`heights=sealevel`) from the ellipsoid model (`heights=ellipsoid`) at each location (`difference=geoid_sealevel - ellipsoid_sealevel`).  
   

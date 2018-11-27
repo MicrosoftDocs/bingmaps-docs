@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Basic Contour Layer
+
 This example takes contour line data that represents elevations around Mount Rainer. Each contour line has an elevation assigned to it in meters. The colour of the contour areas will be based on the elevation where a value of 4000 or more will be green, 3500 to 4000 will be light green, 3000 to 3500 more will be yellow, and 2000 to 3000 will be orange.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,6 +104,6 @@ This example takes contour line data that represents elevations around Mount Rai
 
 Running this code in a browser will display colored contour areas representing the elevation of the land around Mount Rainer.
 
-![BMV8_BasicContourLayer](..//media/bmv8-basiccontourlayer.PNG)
+![BMV8_BasicContourLayer](../../media/bmv8-basiccontourlayer.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)

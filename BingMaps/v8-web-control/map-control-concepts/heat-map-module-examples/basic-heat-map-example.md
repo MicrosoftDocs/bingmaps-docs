@@ -48,4 +48,4 @@ The following example loads 1,000 random locations into a heat map that are with
 
 Here is what this random heat map looks like when the map is loaded over Redmond, WA. 
 
-![Basic Heatmap on a Map](..//media/bmv8-basicheatmapexample-map.png)
+![Basic Heatmap on a Map](../../media/bmv8-basicheatmapexample-map.png)

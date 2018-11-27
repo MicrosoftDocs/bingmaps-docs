@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Directions with Options
-When calculating directions request options can be used to modify how the route is calculated. Render options can be used to customize how the route is displayed on the map. In this example dirving directions are calculated in kilometers and set to avoid highways. The route line is rendered green and thick, while the title of all waypoints are replaced with an empty string to hide the default behaviour.
 
-```
+When calculating directions request options can be used to modify how the route is calculated. Render options can be used to customize how the route is displayed on the map. In this example driving directions are calculated in kilometers and set to avoid highways. The route line is rendered green and thick, while the title of all waypoints are replaced with an empty string to hide the default behaviour.
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,7 +74,7 @@ When calculating directions request options can be used to modify how the route 
 
 Running this code will display a map with a route from London, UK to Madrid, Spain, going through Paris France which looks like this.
 
-![BMV8_DirectionsWithOptions](..//media/bmv8-directionswithoptions.PNG)
+![BMV8_DirectionsWithOptions](../../media/bmv8-directionswithoptions.PNG)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Directions_WithOptions)
 

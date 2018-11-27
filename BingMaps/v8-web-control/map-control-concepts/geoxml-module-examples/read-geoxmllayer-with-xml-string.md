@@ -52,6 +52,6 @@ Raw XML data that is stored as a string can be passed into the GeoXxml read func
 
 Here is what this GeoRSS data looks like on the map. 
 
-![BMV8_BasicGeoXml](..//media/bmv8-basicgeoxml.PNG)
+![BMV8_BasicGeoXml](../../media/bmv8-basicgeoxml.PNG)
  
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Basic)

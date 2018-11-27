@@ -146,7 +146,7 @@ Next is to create a simple web page that calls this proxy service. The URL that 
 
 Running this code, a map will load displaying the location of recent earthquakes. This data is hosted on the USGS Earthquake website.
 
-![BMV8_GeoXmlCrossDomain](..//media/bmv8-geoxmlcrossdomain.PNG)
+![BMV8_GeoXmlCrossDomain](../../media/bmv8-geoxmlcrossdomain.PNG)
  
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Cross%20Domain)
 

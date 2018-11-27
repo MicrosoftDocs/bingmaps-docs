@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Read GeoJSON from the Web using JSONP Example
 In this example we will use the USGS Earthquake REST service to load in recent earthquakes from around the world. This REST service is documented [here](http://earthquake.usgs.gov/fdsnws/event/1/) and supports returning data in GeoJSON format. It also supports JSONP for cross domain requests. The name of the URL parameter used for JSONP requests in this service is “callback”.  
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,6 +50,6 @@ In this example we will use the USGS Earthquake REST service to load in recent e
 
 When you run this code, you should see a large number of pushpins showing where earthquakes have occurred over the past 30 days with a magnitude of 3 or higher.
 
-![Earthquakes on a Map](..//media/bmv8-geojsonearthquakes.png)
+![Earthquakes on a Map](../../media/bmv8-geojsonearthquakes.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoJsonReadExternal+JS)

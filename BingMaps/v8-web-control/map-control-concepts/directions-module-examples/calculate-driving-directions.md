@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Calculate Driving Directions
+
 The following example shows how to calculate driving directions from “Seattle, WA” to a “Work” location that has coordinates (47.64, -122.1297). The directions are displayed on the map and instructions are rendered in a div element with an id of `directionsItinerary`.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,4 +62,4 @@ The following example shows how to calculate driving directions from “Seattle,
 
 If you run this code in a web browser, you will see a route drawn on the map with turn by turn instructions displayed underneath it like this.
 
-![BMV8_BasicDrivingDirectionsExample](..//media/bmv8-basicdrivingdirectionsexample.png)
+![BMV8_BasicDrivingDirectionsExample](../../media/bmv8-basicdrivingdirectionsexample.png)

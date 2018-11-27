@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Contours from GeoJSON data
+
 This example downloads earthquake intensity contour data from the USGS for earthquake [M7.0 – 1km WSW of Kumamoto-shi, Japan](http://earthquake.usgs.gov/earthquakes/eventpage/us20005iis#executive). The contour areas are colored based on the intensity of the earthquake felt in that area.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -126,6 +127,6 @@ This example downloads earthquake intensity contour data from the USGS for earth
 
 Running this code in a browser will display color code areas which represent the earthquake intensity measured in that area.
 
-![BMV8_ContourLayer_FromGeoJson](..//media/bmv8-contourlayer-fromgeojson.PNG)
+![BMV8_ContourLayer_FromGeoJson](../../media/bmv8-contourlayer-fromgeojson.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#contourLayerFromGeoJson+JS)

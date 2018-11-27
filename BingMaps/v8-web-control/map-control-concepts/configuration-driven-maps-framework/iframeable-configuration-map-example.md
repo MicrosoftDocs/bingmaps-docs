@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # IFrameable Configuration Map Example
+
 A map configuration file can be loaded as a URL parameter of the Bing Maps configurable map page which can then be viewed in a browser as-is or embedded into a web app using an iframe. The Bing Maps configurable maps page URL has the following structure:
 
 `https://www.bing.com/maps/configurable?config=[Encoded URL to your configuration file]`
@@ -33,7 +34,7 @@ This can be loaded using the Bing Maps configurable maps page using the followin
 
 The following code loads the configurable map on a webpage using an iframe.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,6 +50,6 @@ The following code loads the configurable map on a webpage using an iframe.
 
 Here is a screenshot of the map that is rendered when loading this configuration file.
 
-![BMV8_ConfigMap](..//media/bmv8-configmap.PNG)
+![BMV8_ConfigMap](../../media/bmv8-configmap.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#IFramable%20Configuration%20Map)

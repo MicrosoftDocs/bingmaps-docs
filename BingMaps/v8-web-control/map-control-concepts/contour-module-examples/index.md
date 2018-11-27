@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Contour Module Examples
+
 Contour Lines, also known as isolines, are lines that connect points that share a characteristic of equal value. These are often used for visualizing data such as elevations, temperatures, and earthquake intensities on a flat 2D map. This module makes it easy to take contour line data and visualize them on Bing Maps as non-overlapping colored areas. 
 
 ## Examples

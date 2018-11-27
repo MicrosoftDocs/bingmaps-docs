@@ -14,11 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Bivariant Data Binning
+
 Since the size and the color can both be customized based on an aggregate value it is possible to have a single data bin represent two data metrics (bivariant).
 
-In this example, each pushpin in the data set has a custom 'sales' metadata value which is assigned a random number. The color of each data bin is based on the total realtive sum of sales in all pushpins the data bin contains. The scale of each data bin is based on the total number of pushpins in each bin. This is an example of a bivariate data binning layer which uses two types of visualizations to represent two variables; color and scale. If we assume that each pushpin represented a customer. A data bin that is red would indicate that the total sales in that area is low, however, if the bin was also small, this would indicate that there isn't a lot of pushpins in that data bin which could explain why the total sales in that bin is low.
+In this example, each pushpin in the data set has a custom 'sales' metadata value which is assigned a random number. The color of each data bin is based on the total relative sum of sales in all pushpins the data bin contains. The scale of each data bin is based on the total number of pushpins in each bin. This is an example of a bivariate data binning layer which uses two types of visualizations to represent two variables; color and scale. If we assume that each pushpin represented a customer. A data bin that is red would indicate that the total sales in that area is low, however, if the bin was also small, this would indicate that there isn't a lot of pushpins in that data bin which could explain why the total sales in that bin is low.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,6 +95,6 @@ In this example, each pushpin in the data set has a custom 'sales' metadata valu
 
 Running this code will render a map covered in hexagons of differenct sizes and color, based on the pushpin data each bin contains.
 
-![BMV8_BivariateHexBins](..//media/bmv8-bivariatehexbins.PNG)
+![BMV8_BivariateHexBins](../../media/bmv8-bivariatehexbins.PNG)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#bivariateDataBins+JS)

@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Clustering Example
+
 The following code example loads the Clustering module and then generates 1,000 random pushpins that are within the current map view using the [TestDataGenerator class](../../map-control-api/testdatagenerator-class.md), which is built into the V8 map control. It then creates an instance of the ClusterLayer class and passes in the pushpins to be clustered and inserts it into the map. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,6 +51,6 @@ The following code example loads the Clustering module and then generates 1,000 
 
 Running this code in a browser will display a map with a bunch of pushpins on it. Those that have numbers on them are clusters of pushpins. As you zoom the map towards a cluster you will see the cluster break apart into its individual pushpins.
 
-![Basic Image Clustering on a Map](..//media/bmv8-basicclusteringexample.png)
+![Basic Image Clustering on a Map](../../media/bmv8-basicclusteringexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)

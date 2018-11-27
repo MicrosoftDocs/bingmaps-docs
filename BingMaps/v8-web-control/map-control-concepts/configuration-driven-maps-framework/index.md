@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Configuration Driven Maps framework
+
 Configuration driven maps allow you to quickly and easily create a map with your data with little to no coding required. Instead create a JSON configuration fill that species the data sets you want to render along with some map options and then easily generate a map from this. Besides providing a minimal coding option for creating map apps, configuration driven maps are great for creating reusable map apps which are data driven. Take for example SharePoint, every user has different permissions and access to different data sets. This can easily be programmatically defined as a configuration file which can then be used to provide all users with a similar map application, but with only the data sets they have access to.
 
 Map configuration files can be loaded in one of two ways:
@@ -25,7 +27,7 @@ Map configuration files can be loaded in one of two ways:
 
 A map configuration file defines the options to use when loading the map as well as the modules and datasets to load. The root JSON object is a [ConfigurableMapOptions object](../../map-control-api/configurablemapoptions-object.md). Here is an example JSON configuration file which loads the map at a specified location and zoom, with three data layers which are loaded via the GeoXml module.
 
-```
+```json
 {
   "mapOptions": {
     "credentials": "YOUR_BING_MAPS_KEY",
@@ -64,7 +66,7 @@ This can be loaded using the [ConfigurableMap class](../../map-control-api/confi
 
 Here is a screenshot of the map that is rendered when loading this configuration file.
 
-![BMV8_ConfigMap](..//media/bmv8-configmap.PNG)
+![BMV8_ConfigMap](../../media/bmv8-configmap.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#Load%20a%20Configurable%20Map%20with%20Code)
 

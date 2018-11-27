@@ -78,7 +78,7 @@ This sample shows how to read a geospatial XML file that is hosted on the same d
 
 If you run this code it will load the specified GeoRSS feed and render it on the map.
 
-![BMV8_GeoRssSample](..//media/bmv8-georsssample.PNG)
+![BMV8_GeoRssSample](../../media/bmv8-georsssample.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read%20from%20Url)
 

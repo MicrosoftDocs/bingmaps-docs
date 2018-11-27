@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Read Same Domain GeoJSON Example
 The following code example takes a URL to a GeoJSON file that is hosted on the same domain as the application or has CORS enabled on the hosting server and parses it into a Bing Maps shape using the GeoJSON module, then adds it to the map. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,4 +51,4 @@ The following code example takes a URL to a GeoJSON file that is hosted on the s
 
 Here is what this GeoJSON file looks like on the map. All the country boundaries displayed as polygons.
 
-![Read GeoJSON on a Map](..//media/bmv8-readsamedomaingeojsonexample-map.png)
+![Read GeoJSON on a Map](../../media/bmv8-readsamedomaingeojsonexample-map.png)

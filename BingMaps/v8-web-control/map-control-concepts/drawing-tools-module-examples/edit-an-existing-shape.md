@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Edit an Existing Shape
+
 This example shows how to take an existing polygon and enable editing on it.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,6 +50,6 @@ This example shows how to take an existing polygon and enable editing on it.
 
 Running this code in a browser will display a map with polygon on it. The vertices and edges of the polygon will have little handles on them so you can drag them to edit the shape of the polygon.
 
-![BMV8_DrawingToolsEditShapeExample](..//media/bmv8-drawingtoolseditshapeexample.png)
+![BMV8_DrawingToolsEditShapeExample](../../media/bmv8-drawingtoolseditshapeexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtEditPolygon+JS)

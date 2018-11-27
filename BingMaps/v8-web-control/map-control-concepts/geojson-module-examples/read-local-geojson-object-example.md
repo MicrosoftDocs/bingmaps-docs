@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Read Local GeoJSON Object Example
 The following code example takes a locally defined GeoJSON object and parses it into a Bing Maps shape using the GeoJSON module, then adds it to the map. When parsing the GeoJSON object, the options for polygons is set such that they will have a semi-transparent red fill color, a stroke thickness of 5 pixels, and a stroke color of white.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,4 +69,4 @@ The following code example takes a locally defined GeoJSON object and parses it 
 
 Here is what this GeoJSON object looks like on the map. It is a polygon that outlines a soccer field on the Microsoft campus.
 
-![GeoJSON Shape on a Map](..//media/bmv8-readlocalgeojsonobjectexample-map.png)
+![GeoJSON Shape on a Map](../../media/bmv8-readlocalgeojsonobjectexample-map.png)

@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Color Scale Gradient Data Bins
+
 This example shows how to use a linear gradient to assign colors to data bins based on the relative number of pushpins in each bin. Data bins that are white have the most pushpins, while those that are darker in color have less.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -104,6 +105,6 @@ This example shows how to use a linear gradient to assign colors to data bins ba
 
 Running this code in your browser will display a map filled with hexagon data bins that are colored based on the number of pushpins in each bin using a linear gradient as a color source.
 
-![BMV8_GradientHexBins](..//media/bmv8-gradienthexbins.PNG)
+![BMV8_GradientHexBins](../../media/bmv8-gradienthexbins.PNG)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)

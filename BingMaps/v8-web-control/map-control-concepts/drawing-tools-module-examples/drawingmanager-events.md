@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # DrawingManager Events
+
 The example adds a bunch of events to the drawing manager that is created by the drawing tools module. As the different events first a label will be highlighted in green to indicate which event(s) have fired.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,4 +73,4 @@ The example adds a bunch of events to the drawing manager that is created by the
 
 Running this code in a browser you will see the different events highlighted in green as you draw a shape on the map.
 
-![BMV8_DrawingToolsEventsExample](..//media/bmv8-drawingtoolseventsexample.png)
+![BMV8_DrawingToolsEventsExample](../../media/bmv8-drawingtoolseventsexample.png)
