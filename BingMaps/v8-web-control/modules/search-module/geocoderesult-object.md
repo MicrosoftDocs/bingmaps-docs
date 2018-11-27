@@ -20,4 +20,4 @@ Represents a geocode result in the Search module.
 
 Name          | Type                                             | Description
 ------------- | ------------------------------------------------ | ------------------------------------
-`results`       | [PlaceResult](../v8-web-control/placeresult-object.md)[]         | An array of geocode results.
+`results`       | [PlaceResult](placeresult-object.md)[]         | An array of geocode results.

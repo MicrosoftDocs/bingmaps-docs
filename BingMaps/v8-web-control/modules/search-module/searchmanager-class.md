@@ -27,5 +27,5 @@ The **SearchManager** class has the following methods available:
 
 Name                                          | Description
 --------------------------------------------- | ------------------------
-geocode(opt: [GeocodeRequestOptions](../v8-web-control/geocoderequestoptions-object.md))                  | Matches the address or place query in the specified request options to a location and returns the results to the request options callback function.
-reverseGeocode(opt: [ReverseGeocodeRequestOptions](../v8-web-control/reversegeocoderequestoptions-object.md))    | Matches the specified location to an address and returns the address results to the specified request options callback function.
+geocode(opt: [GeocodeRequestOptions](geocoderequestoptions-object.md))                  | Matches the address or place query in the specified request options to a location and returns the results to the request options callback function.
+reverseGeocode(opt: [ReverseGeocodeRequestOptions](reversegeocoderequestoptions-object.md))    | Matches the specified location to an address and returns the address results to the specified request options callback function.

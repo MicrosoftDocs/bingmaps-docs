@@ -26,11 +26,11 @@ The Bing Maps SDK provides the ability to do forward and reverse geocoding throu
 ## Related Topics
 
 * [Address Object](../../modules/autosuggest-module/address-object.md)
-* [GeocodeRequestOptions Object](../v8-web-control/geocoderequestoptions-object.md)
-* [GeocodeResult Object](../v8-web-control/geocoderesult-object.md)
-* [MatchCode Enumeration](../v8-web-control/matchcode-enumeration.md)
-* [MatchConfidence Enumeration](../v8-web-control/matchconfidence-enumeration.md)
-* [PlaceResult Object](../v8-web-control/placeresult-object.md)
-* [ReverseGeocodeRequestOptions Object](../v8-web-control/reversegeocoderequestoptions-object.md)
-* [SearchManager Class](../v8-web-control/searchmanager-class.md)
+* [GeocodeRequestOptions Object](../../modules/search-module/geocoderequestoptions-object.md)
+* [GeocodeResult Object](../../modules/search-module/geocoderesult-object.md)
+* [MatchCode Enumeration](../../modules/search-module/matchcode-enumeration.md)
+* [MatchConfidence Enumeration](../../modules/search-module/matchconfidence-enumeration.md)
+* [PlaceResult Object](../../modules/search-module/placeresult-object.md)
+* [ReverseGeocodeRequestOptions Object](../../modules/search-module/reversegeocoderequestoptions-object.md)
+* [SearchManager Class](../../modules/search-module/searchmanager-class.md)
   
