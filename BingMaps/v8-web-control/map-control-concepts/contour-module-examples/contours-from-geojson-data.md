@@ -126,6 +126,6 @@ This example downloads earthquake intensity contour data from the USGS for earth
 
 Running this code in a browser will display color code areas which represent the earthquake intensity measured in that area.
 
-![BMV8_ContourLayer_FromGeoJson](../v8-web-control/media/bmv8-contourlayer-fromgeojson.PNG)
+![BMV8_ContourLayer_FromGeoJson](..//media/bmv8-contourlayer-fromgeojson.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#contourLayerFromGeoJson+JS)

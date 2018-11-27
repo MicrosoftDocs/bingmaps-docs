@@ -66,6 +66,6 @@ Displaying the boundary of a single location is useful, but sometimes you need t
 
 Running this code will load a map that displays the boundaries of 5 zip codes that are in the city of Bellevue, WA.
 
-![Multiple Boundaries on a Map](../v8-web-control/media/bmv8-geodatamultipleboundaries.png)
+![Multiple Boundaries on a Map](..//media/bmv8-geodatamultipleboundaries.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadMultipleBoundaries+JS)

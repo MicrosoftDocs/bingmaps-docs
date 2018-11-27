@@ -64,6 +64,6 @@ The GeoXml module provides the ability to convert shapes into a spatial XML docu
 
 If you run this sample you will see a map with some random pushpins and polygons on it, as well as a textarea below the map which contains the KML markup for these shapes.
 
-![BMV8_GeoXmlWrite](../v8-web-control/media/bmv8-geoxmlwrite.PNG)
+![BMV8_GeoXmlWrite](..//media/bmv8-geoxmlwrite.PNG)
  
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Write)

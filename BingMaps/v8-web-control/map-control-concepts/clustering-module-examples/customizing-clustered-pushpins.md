@@ -105,6 +105,6 @@ In this code example, instead of simply using a custom image to represent a clus
 
 Running this code in a browser will cluster 3,000 random pushpins and display them as scaled and colored circles. 
 
-![BMV8_CustomClusteredPushpinsExample](../v8-web-control/media/bmv8-customclusteredpushpinsexample.png)
+![BMV8_CustomClusteredPushpinsExample](..//media/bmv8-customclusteredpushpinsexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#customizeClusteredPushpins+JS)

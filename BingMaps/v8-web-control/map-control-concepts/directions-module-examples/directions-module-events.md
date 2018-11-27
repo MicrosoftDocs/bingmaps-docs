@@ -90,4 +90,4 @@ This example shows how to use events with the directions manager. A route from �
 
 Running this code will display the route from “Seattle, WA” to “Redmond, WA” on the map along with the distance and travel time with traffic below the map.
 
-![Directions Event Example](../v8-web-control/media/bmv8-directionseventexample.PNG)
+![Directions Event Example](..//media/bmv8-directionseventexample.PNG)

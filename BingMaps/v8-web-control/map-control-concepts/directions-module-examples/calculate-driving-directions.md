@@ -61,4 +61,4 @@ The following example shows how to calculate driving directions from “Seattle,
 
 If you run this code in a web browser, you will see a route drawn on the map with turn by turn instructions displayed underneath it like this.
 
-![BMV8_BasicDrivingDirectionsExample](../v8-web-control/media/bmv8-basicdrivingdirectionsexample.png)
+![BMV8_BasicDrivingDirectionsExample](..//media/bmv8-basicdrivingdirectionsexample.png)

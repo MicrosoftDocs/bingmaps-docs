@@ -57,4 +57,4 @@ The following code creates a simple polygon that has a red outline and a semi-tr
 
 Here is what this polygon would look like when zoomed out.
 
-![Polygon on a Map](../v8-web-control/media/bmv8-basicpushpinexample.png)
+![Polygon on a Map](..//media/bmv8-basicpushpinexample.png)

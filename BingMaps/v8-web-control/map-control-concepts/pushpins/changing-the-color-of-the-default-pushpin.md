@@ -50,4 +50,4 @@ The default pushpin works well for most applications, but sometimes its useful t
 
 Runing this code in a browser will display a red pushpin in the center of the map.
 
-![BMV8_ChangePushpinColor](../v8-web-control/media/bmv8-changepushpincolor.png)
+![BMV8_ChangePushpinColor](..//media/bmv8-changepushpincolor.png)

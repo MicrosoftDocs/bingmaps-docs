@@ -21,7 +21,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAABmJLR0QA/w
 ```
 
 This base64 image string generates an image that looks like this: &nbsp;
-![Bubble Icon](../v8-web-control/media/bmv8-custompushpinusingbase64imageexample-icon.png)
+![Bubble Icon](..//media/bmv8-custompushpinusingbase64imageexample-icon.png)
  
 To create a custom pushpin out of this base64 image string, simply pass it into the `icon` property of the pushpin, like so:
 
@@ -59,4 +59,4 @@ To create a custom pushpin out of this base64 image string, simply pass it into 
 
 Here is what this pushpin looks like on the map.
 
-![BMV8_Base64PushpinExample](../v8-web-control/media/bmv8-base64pushpinexample.png) 
+![BMV8_Base64PushpinExample](..//media/bmv8-base64pushpinexample.png) 

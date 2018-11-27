@@ -89,4 +89,4 @@ Pushpins, polylines, and polygons support a number of mouse events, however righ
 
 Running this code in a browser will display a map that has a pushpin and polygon rendered on it. If you right click either of these, an infobox will be displayed for that shape.
 
-![BMV8_RightClickShapes](../v8-web-control/media/bmv8-rightclickshapes.PNG)
+![BMV8_RightClickShapes](..//media/bmv8-rightclickshapes.PNG)

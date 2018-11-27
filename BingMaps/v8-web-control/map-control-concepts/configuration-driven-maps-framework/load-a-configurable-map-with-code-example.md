@@ -57,6 +57,6 @@ In addition to being able to load a map configuration file via an iframe, they c
 
 Here is a screenshot of the map that is rendered when loading this configuration file. 5 seconds after the map is loaded, the map will zoom in.
 
-![BMV8_ConfigMap](../v8-web-control/media/bmv8-configmap.PNG)
+![BMV8_ConfigMap](..//media/bmv8-configmap.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#Load%20a%20Configurable%20Map%20with%20Code)

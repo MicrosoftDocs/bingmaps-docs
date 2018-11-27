@@ -72,6 +72,6 @@ The following example shows how to calculate transit directions from “Redmond,
 
 Running this code will display a transit route from “Redmond, WA” to “Seattle, WA” with a departure time that is an hour from now, instructions are displayed below the map. 
 
-![BMV8_TransitDirectionsExample2](../v8-web-control/media/bmv8-transitdirectionsexample2.PNG)
+![BMV8_TransitDirectionsExample2](..//media/bmv8-transitdirectionsexample2.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateTransitRoute+JS)

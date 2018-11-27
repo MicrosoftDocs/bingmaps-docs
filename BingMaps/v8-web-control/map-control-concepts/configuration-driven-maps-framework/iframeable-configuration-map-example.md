@@ -49,6 +49,6 @@ The following code loads the configurable map on a webpage using an iframe.
 
 Here is a screenshot of the map that is rendered when loading this configuration file.
 
-![BMV8_ConfigMap](../v8-web-control/media/bmv8-configmap.PNG)
+![BMV8_ConfigMap](..//media/bmv8-configmap.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#IFramable%20Configuration%20Map)

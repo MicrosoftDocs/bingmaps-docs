@@ -62,6 +62,6 @@ This code sample shows how to dynamically create SVG circles for pushpins icons.
 ```
 Running this code adds two circle pushpins of different radiis at random locations on the map. One is white with a black outline and the other is blue.
 
-![BMV8_DynamicSvgExample](../v8-web-control/media/bmv8-dynamicsvgexample.png)
+![BMV8_DynamicSvgExample](..//media/bmv8-dynamicsvgexample.png)
 
 **Note:** You can also add the text “{color}” into your SVG string and the pushpin will replace this placeholder with the value of the `color` property of the specified pushpin option.

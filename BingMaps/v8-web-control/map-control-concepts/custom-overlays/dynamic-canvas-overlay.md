@@ -186,7 +186,7 @@ Implementing this canvas overlay is fairly easy and in this example we will simp
 
 Running this code will render 10,000 red circles within the current map view. As you pan and zoom you will see how the canvas moves with the map and renders new data only after the map has finished moving.
 
-![BMV8_CanvasOverlayExample](../v8-web-control/media/bmv8-canvasoverlayexample.PNG)
+![BMV8_CanvasOverlayExample](..//media/bmv8-canvasoverlayexample.PNG)
 
 You can easily reuse the canvas overlay module and change who and what is rendered on the canvas. The above example works great but could be faster. Instead of drawing each individual circle, we could instead draw a circle on an off screen canvas then draw as an image. This would equire less calculations by the underlay canvas and thus would be much faster to render. Here is a modified version of the canvas overlay callback that does this. If you don’t see any different when rendering 10,000 locations, increase it to 50,000.
 

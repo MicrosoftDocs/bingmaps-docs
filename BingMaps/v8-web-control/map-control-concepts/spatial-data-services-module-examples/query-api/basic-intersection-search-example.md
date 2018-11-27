@@ -72,4 +72,4 @@ This example shows how to make a simple intersection query against a data source
 
 When loaded this code will retrieve results from the Fourth Coffee Shop sample data source as you pan and zoom the map that fall within the map bounds. 
 
-![BMV8_BasicIntersectionExample](../v8-web-control/media/bmv8-basicintersectionexample.png)
+![BMV8_BasicIntersectionExample](..//media/bmv8-basicintersectionexample.png)

@@ -73,7 +73,7 @@ In order to add a tile layer to the map, you first need a source of map tile dat
 
 Running this code will display an aerial map with a tile layer of hurricane Katrina overlaid on top. Notice that the image scales as you zoom the map. 
 
-![BMV8_BasicTileLayerExample](../v8-web-control/media/bmv8-basictilelayerexample.png)
+![BMV8_BasicTileLayerExample](..//media/bmv8-basictilelayerexample.png)
 
 ## Additional Resources
 

@@ -66,4 +66,4 @@ This example takes a Bing Maps shape and uses the GeoJSON module to generate a G
 
 When you run this code you should see the map center over top of Wyoming with its boundaries drawn out with a polygon, and an alert message displayed showing the GeoJSON equivalent of this polygon.
 
-![GeoJSON Markup from a Bing Maps Shape](../v8-web-control/media/bmv8-geojson-write.png)
+![GeoJSON Markup from a Bing Maps Shape](..//media/bmv8-geojson-write.png)

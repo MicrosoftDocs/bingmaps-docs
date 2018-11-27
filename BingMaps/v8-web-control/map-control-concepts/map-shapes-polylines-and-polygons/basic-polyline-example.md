@@ -52,4 +52,4 @@ The following code creates a polyline that is red in color, has a thickness of 3
 
 Here is what this polyline would look like when zoomed out. 
 
-![BMV8_BasicPolylineExample](../v8-web-control/media/bmv8-basicpolylineexample.png)
+![BMV8_BasicPolylineExample](..//media/bmv8-basicpolylineexample.png)

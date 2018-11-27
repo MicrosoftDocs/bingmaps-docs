@@ -71,6 +71,6 @@ The following example shows how to add a viewchange event to the map and have th
 
 As you pan the map you will notice that the location information for the center of the map will appear below the map. 
 
-![View change results beneath a map](../v8-web-control/media/bmv8-mapviewchangeeventexample.png)
+![View change results beneath a map](..//media/bmv8-mapviewchangeeventexample.png)
  
 **_Tip_**: Some of the events, such as the mouse related events, pass an event argument to the event handler. This event argument can contain important information such as a reference to the target object the event is attached to, or the pixel coordinates where the mouse event occurred. If you want to get the coordinates of a mouse event, use the `location` property of the event argument.

@@ -63,4 +63,4 @@ This example shows how to create and infobox with the options that hide the poin
 
 This code displays an infobox that doesn’t have a pointer or close button but does have two link buttons. 
 
-![BMV8_InfoboxOptionsExample](../v8-web-control/media/bmv8-infoboxoptionsexample2.png)
+![BMV8_InfoboxOptionsExample](..//media/bmv8-infoboxoptionsexample2.png)

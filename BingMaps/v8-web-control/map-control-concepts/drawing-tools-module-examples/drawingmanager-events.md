@@ -72,4 +72,4 @@ The example adds a bunch of events to the drawing manager that is created by the
 
 Running this code in a browser you will see the different events highlighted in green as you draw a shape on the map.
 
-![BMV8_DrawingToolsEventsExample](../v8-web-control/media/bmv8-drawingtoolseventsexample.png)
+![BMV8_DrawingToolsEventsExample](..//media/bmv8-drawingtoolseventsexample.png)

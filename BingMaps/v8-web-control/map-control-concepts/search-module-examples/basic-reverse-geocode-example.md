@@ -72,6 +72,6 @@ The following code sample shows how to make a reverse geocode request using the 
 
 Here is what the result looks like when centered over a location in Redmond, WA.
 
-![Reverse Geocode Exapmle Map](../v8-web-control/media/bmv8-reversegeocodeexample.png)
+![Reverse Geocode Exapmle Map](..//media/bmv8-reversegeocodeexample.png)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Reverse%20Geocode)

@@ -118,4 +118,4 @@ This example creates a simple overlay that consists of 4 buttons that allow you 
 
 Running this code will display 4 arrow buttons in the top left corner of the map. When pressed they will pan the map by 30 pixels in the specified direction.
 
-![BMV8_PanningOverlayExample](../v8-web-control/media/bmv8-panningoverlayexample.PNG)
+![BMV8_PanningOverlayExample](..//media/bmv8-panningoverlayexample.PNG)

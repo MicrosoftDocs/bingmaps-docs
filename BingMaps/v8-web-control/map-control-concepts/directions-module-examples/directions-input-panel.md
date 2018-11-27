@@ -78,4 +78,4 @@ The following examples shows how to display the built in input panel for calcula
 
 Running this code will display the directions input panel in the top left corner of the page with the map to the right of it. As you type in locations the suggested will be displayed. When directions are calculated, the turn by turn instructions will be displayed in below the input panel. Here is what this looks like while typing in “New York” as the starting location. 
 
-![BMV8_DirectionsInputPanelExample](../v8-web-control/media/bmv8-directionsinputpanelexample.PNG)
+![BMV8_DirectionsInputPanelExample](..//media/bmv8-directionsinputpanelexample.PNG)

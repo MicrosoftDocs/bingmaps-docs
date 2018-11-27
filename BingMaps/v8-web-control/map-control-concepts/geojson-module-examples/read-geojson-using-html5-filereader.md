@@ -94,4 +94,4 @@ This code examples shows how to enable drag and drop a local GeoJSON file onto a
 
 The following image shows the neighborhood boundaries of Los Angeles that came from a GeoJSON file that was downloaded from the [Los Angeles Times Boundaries API](http://boundaries.latimes.com/sets/).
 
-![BMV8_GeoJSON_LA](../v8-web-control/media/bmv8-geojson-la.png)
+![BMV8_GeoJSON_LA](..//media/bmv8-geojson-la.png)

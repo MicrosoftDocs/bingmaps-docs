@@ -135,4 +135,4 @@ This example shows how to dynamically create a list of the pushpins that are cur
 
 Running this code in a browser will generate 100 random pushpins, each with a different title value. All pushpins, including clustered pushpins have a click event on them which opens up an infobox. An infobox for a clustered pushpin shows a list of all the pushpins that are within that cluster. Below the map a list of all pushpins that are currently displayed on the map is shown. Clicking on any of these will also open up the corresponding infobox on the map. 
 
-![BMV8_ClusteringListExample](../v8-web-control/media/bmv8-clusteringlistexample.png)
+![BMV8_ClusteringListExample](..//media/bmv8-clusteringlistexample.png)

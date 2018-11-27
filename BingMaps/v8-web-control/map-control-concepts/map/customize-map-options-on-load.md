@@ -48,6 +48,6 @@ As mentioned before, you can customize the map when loading it. Use the followin
 ```
 This results in the map being loaded, zoomed in over London, UK with the aerial imagery displayed.
 
-![BMV8_MapOptionsOnLoad](../v8-web-control/media/bmv8-mapoptionsonload.png)
+![BMV8_MapOptionsOnLoad](..//media/bmv8-mapoptionsonload.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadMapWithOptions+JS)

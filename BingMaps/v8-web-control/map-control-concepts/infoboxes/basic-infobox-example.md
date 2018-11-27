@@ -52,6 +52,6 @@ The following code shows how to add an infobox with a title and description to t
 
 This code will add an infobox to the center of the map like this.
 
-![Basic Infobox on a Map](../v8-web-control/media/bmv8-basicinfoboxexample2.png)
+![Basic Infobox on a Map](..//media/bmv8-basicinfoboxexample2.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultInfobox+JS)

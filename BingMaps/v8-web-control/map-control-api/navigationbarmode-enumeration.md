@@ -18,6 +18,6 @@ The NavigationBarMode can be used to customize the layout and style of the navig
 
 | Name | Description    | Example   
 | ---- | -------------- | :------: |                                         
-| `compact`  | A compact navigation bar that includes a smaller drop down for the map type and zoom buttons. Recommended for small maps or screen such as a mobile device. | ![Compact Navigation Bar](../v8-web-control/media/compact-navigation-bar.PNG)
-| `default`  | The default navigation bar that has a drop down for the map type, a locate me button, and zoom buttons. Recommended for medium to large maps in desktop browsers.  | ![Nav bar](../v8-web-control/media/nav-bar.png)
-| `minified` | A minified navigation bar that has a button to toggle between road and aerial maps, zoom buttons, and a button to turn traffic information on and off. Recommended for small maps or screen such as a mobile device. | ![Minified Nav Bar](../v8-web-control/media/minified-nav-bar.png)
+| `compact`  | A compact navigation bar that includes a smaller drop down for the map type and zoom buttons. Recommended for small maps or screen such as a mobile device. | ![Compact Navigation Bar](../media/compact-navigation-bar.PNG)
+| `default`  | The default navigation bar that has a drop down for the map type, a locate me button, and zoom buttons. Recommended for medium to large maps in desktop browsers.  | ![Nav bar](../media/nav-bar.png)
+| `minified` | A minified navigation bar that has a button to toggle between road and aerial maps, zoom buttons, and a button to turn traffic information on and off. Recommended for small maps or screen such as a mobile device. | ![Minified Nav Bar](../media/minified-nav-bar.png)

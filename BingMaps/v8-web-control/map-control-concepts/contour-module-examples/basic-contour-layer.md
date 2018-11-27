@@ -103,6 +103,6 @@ This example takes contour line data that represents elevations around Mount Rai
 
 Running this code in a browser will display colored contour areas representing the elevation of the land around Mount Rainer.
 
-![BMV8_BasicContourLayer](../v8-web-control/media/bmv8-basiccontourlayer.PNG)
+![BMV8_BasicContourLayer](..//media/bmv8-basiccontourlayer.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)

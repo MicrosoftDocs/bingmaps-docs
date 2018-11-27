@@ -97,4 +97,4 @@ This example uses the `onFrameLoaded` event of the [AnimatedTileLayer](../../map
 
 Running this code will display a map that is animating through weather radar tile layers. With each frame of the animation a message is displayed in the top left corner of the map related to the time stamp for the currently displayed tile layer frame. 
 
-![BMV8_AnimatedTileLayer_Events](../v8-web-control/media/bmv8-animatedtilelayer-events.PNG)
+![BMV8_AnimatedTileLayer_Events](..//media/bmv8-animatedtilelayer-events.PNG)

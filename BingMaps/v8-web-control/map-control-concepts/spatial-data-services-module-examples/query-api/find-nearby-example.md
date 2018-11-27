@@ -74,6 +74,6 @@ One of the most common types of searches done with a map is a nearby search, als
 
 Running this code will load a map that displays the locations of gas stations. As you pan and zoom the map new data will be pulled in. Here is a screenshot of gas stations in Bellevue, WA.
 
-![Search Results on a Map](../v8-web-control/media/bmv8-basicfindnearbyexample.png)
+![Search Results on a Map](..//media/bmv8-basicfindnearbyexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsNearbySearch+JS)

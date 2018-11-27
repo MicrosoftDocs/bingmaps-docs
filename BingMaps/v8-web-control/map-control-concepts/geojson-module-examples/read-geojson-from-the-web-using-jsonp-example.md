@@ -50,6 +50,6 @@ In this example we will use the USGS Earthquake REST service to load in recent e
 
 When you run this code, you should see a large number of pushpins showing where earthquakes have occurred over the past 30 days with a magnitude of 3 or higher.
 
-![Earthquakes on a Map](../v8-web-control/media/bmv8-geojsonearthquakes.png)
+![Earthquakes on a Map](..//media/bmv8-geojsonearthquakes.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoJsonReadExternal+JS)

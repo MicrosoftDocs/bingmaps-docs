@@ -193,7 +193,7 @@ In this scenario, V8 requires 15% less code than V7. However, the shapes are sto
 
 When Bing Maps v7 was released only simply polygons were supported. However, over time as more and more developers started integrating more complex spatial data on Bing Maps support for polygons with holes was needed. A great example is the borders of South Africa. Within the main borders of South Africa is a land locked country called Lesotho. In order to correctly draw the borders of South Africa a hole needs to be cut out of a polygon for Lesotho.
 
-![BMV8_SouthAfricaBorders](../v8-web-control/media/bmv8-southafricaborders.png)
+![BMV8_SouthAfricaBorders](..//media/bmv8-southafricaborders.png)
 
 Some developers created [workarounds](https://rbrundritt.wordpress.com/2011/06/10/advance-shapes-in-bing-maps-v7/) in Bing Maps V7 initially, and not long after the Bing Maps team added the AdvancedShapes module. Knowing that this is a more commonly used feature in today’s apps, V8 supports polygons with holes in the core library. An AdvancedShapes module is no longer required, however, to reduce migration efforts, if you do use the AdvancedShapes code from V7, *it will continue to work in V8*.
 

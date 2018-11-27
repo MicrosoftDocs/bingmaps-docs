@@ -52,4 +52,4 @@ The following code creates a pushpin at the center of the map that has a text va
 
 Here is what this pushpin would look like.
 
-![BMV8_DefaultPushpinExample](../v8-web-control/media/bmv8-defaultpushpinexample.png)
+![BMV8_DefaultPushpinExample](..//media/bmv8-defaultpushpinexample.png)

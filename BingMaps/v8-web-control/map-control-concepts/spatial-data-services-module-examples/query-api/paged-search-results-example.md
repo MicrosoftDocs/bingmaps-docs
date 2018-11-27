@@ -161,6 +161,6 @@ This code example takes a data source and performs an initial radial search of 1
 
 Running this code will load a map that display up to 10 Forth Coffee Cup locations at a time that are within 10 kilometers of Bellevue, WA. Pressing the forward or backwards button will trigger a new request that pages through the results of the initial query. Additionally, each result is displayed in a list, clicking on an item will result in the map zooming and centering over that location. This is a very common set of functionalities used in store locators.
 
-![Paged Search Results on a Map](../v8-web-control/media/bmv8-pagednearbyresultsexample.png)
+![Paged Search Results on a Map](..//media/bmv8-pagednearbyresultsexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsPageResults+JS)

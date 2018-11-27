@@ -52,7 +52,7 @@ This sample shows how to load a geospatial XML file that is hosted on the same d
 
 Running this sample (when you have the sample GeoRSS file) will load a map that looks like this.
  
-![BMV8_GeoRssSample](../v8-web-control/media/bmv8-georsssample.PNG)
+![BMV8_GeoRssSample](..//media/bmv8-georsssample.PNG)
  
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Same%20Domain)
 

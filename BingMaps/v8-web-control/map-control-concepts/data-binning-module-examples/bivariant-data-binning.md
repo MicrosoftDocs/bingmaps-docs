@@ -94,6 +94,6 @@ In this example, each pushpin in the data set has a custom 'sales' metadata valu
 
 Running this code will render a map covered in hexagons of differenct sizes and color, based on the pushpin data each bin contains.
 
-![BMV8_BivariateHexBins](../v8-web-control/media/bmv8-bivariatehexbins.PNG)
+![BMV8_BivariateHexBins](..//media/bmv8-bivariatehexbins.PNG)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#bivariateDataBins+JS)

@@ -69,4 +69,4 @@ The following code example takes a locally defined GeoJSON object and parses it 
 
 Here is what this GeoJSON object looks like on the map. It is a polygon that outlines a soccer field on the Microsoft campus.
 
-![GeoJSON Shape on a Map](../v8-web-control/media/bmv8-readlocalgeojsonobjectexample-map.png)
+![GeoJSON Shape on a Map](..//media/bmv8-readlocalgeojsonobjectexample-map.png)

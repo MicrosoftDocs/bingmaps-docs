@@ -74,6 +74,6 @@ This example shows how to add events to the data binning layer which will fire w
 
 Running this code in the browser will display hexagon bins on the map. If you however the mouse pointer over one of the polygons, its outline stroke color will turn red. Clicking on the data bin will display the number of pushpins that are in the data bin.
 
-![BMV8_DataBinning_Events](../v8-web-control/media/bmv8-databinning-events.png)
+![BMV8_DataBinning_Events](..//media/bmv8-databinning-events.png)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicBinningWithEvents+JS)

@@ -23,7 +23,7 @@ Binary operations are logical processes such as addition, subtraction or not. Ta
 
 The Spatial Math module also has a `UnionAggregate` function which can take in an array of shapes of any length and performs an optimized union operation against them.
 
-![BMV8_BinaryOperations](../v8-web-control/media/bmv8-binaryoperations.png)
+![BMV8_BinaryOperations](..//media/bmv8-binaryoperations.png)
 
 This example loads a map with two random polygons displayed on it. Below the map 5 buttons are displayed, each triggering a different binary operation to be performed against the polygons.
 
@@ -113,6 +113,6 @@ This example loads a map with two random polygons displayed on it. Below the map
 
 Running this code, press one of the 5 buttons to perform a binary operation against the displayed polygons. The resulting shape will be outlined in red and while it’s fill color will be made transparent so that the original polygons can still be seen. The following is an example that shows the result when performing the intersection operation.
 
-![BMV8_SpatialMathIntersectionExample](../v8-web-control/media/bmv8-spatialmathintersectionexample.PNG)
+![BMV8_SpatialMathIntersectionExample](..//media/bmv8-spatialmathintersectionexample.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#binaryOperations+JS)

@@ -76,6 +76,6 @@ One of the most common scenarios where an infobox is displayed, is when a user c
 
 Running this code will display a pushpin on the map. If you click on it, an infobox will appear filled in with the metadata for that pushpin.
 
-![BMV8_InfoboxWhenPinClicked](../v8-web-control/media/bmv8-infoboxwhenpinclicked2.png) 
+![BMV8_InfoboxWhenPinClicked](..//media/bmv8-infoboxwhenpinclicked2.png) 
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#displayInfoboxOnClickPushpin+JS)

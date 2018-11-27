@@ -61,6 +61,6 @@ This example loads 50,000 random locations into the heat map layer. The heat map
 
 Here is what this heat map looks like over the USA.
 
-![Customized Heatmap Example on a Map](../v8-web-control/media/bmv8-customizedheatmapexample-map.png)
+![Customized Heatmap Example on a Map](..//media/bmv8-customizedheatmapexample-map.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#customizedHeatMap+JS)

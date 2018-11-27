@@ -66,6 +66,6 @@ This example attaches several mouse events to a polygon. When these events fire 
 
 If you run this code and hover and click the polygon you will see all these different events fire.
 
-![BMV8_PolygonEventsExample](../v8-web-control/media/bmv8-polygoneventsexample.png)
+![BMV8_PolygonEventsExample](..//media/bmv8-polygoneventsexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#polygonAllEvents+JS)

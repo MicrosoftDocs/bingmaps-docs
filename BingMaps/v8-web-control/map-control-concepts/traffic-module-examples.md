@@ -53,7 +53,7 @@ This examples shows how to display traffic data on top of the map.
 
 If you run this code in a browser and zoom into a city that is likely to have a lot of traffic like New York city, you will see color coded roads indicating the flow of traffic and possibly triangle icons indicating traffic incidents on the road. If you hover over and incident a tooltip will appear with some details about the incident.
 
-![BMV8_TrafficModuleExample](../v8-web-control/media/bmv8-trafficmoduleexample.png)
+![BMV8_TrafficModuleExample](..//media/bmv8-trafficmoduleexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#trafficHideShowTraffic+JS)
 

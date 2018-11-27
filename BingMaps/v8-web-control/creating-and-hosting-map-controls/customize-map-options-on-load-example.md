@@ -27,5 +27,5 @@ var map = new Microsoft.Maps.Map('#myMap', {
 
 This results in the map being loaded, zoomed in over London, UK with the aerial imagery displayed.
 
-![London Aerial Sample Image](../v8-web-control/media/bmv8-customizemapoptionsonload-londonaerial.png)
+![London Aerial Sample Image](..//media/bmv8-customizemapoptionsonload-londonaerial.png)
 

@@ -18,17 +18,17 @@ One of the most common issues developers come across when using custom pushpins 
   
 For example, consider the following pushpin, which is 24 pixels wide and 26 pixels tall. For this pushpin we would want the bottom point of the pushpin to align with the pushpins location coordinate which in this case would need an x offset that is half the wide and a y offset equal to the height of the image. This would require an anchor point of (12, 36):
 
-![Pushpin Dimensions](../v8-web-control/media/bmv8-anchoringpushpins-dimensions.png)
+![Pushpin Dimensions](..//media/bmv8-anchoringpushpins-dimensions.png)
  
 Here are some addition pushpin images and anchor values that can be used to properly position the pushpin.
 
-![Aligned with Center](../v8-web-control/media/bmv8-anchoringpushpins-aligncenter.png)
+![Aligned with Center](..//media/bmv8-anchoringpushpins-aligncenter.png)
 #### Align with Center Anchor: (17, 17)
 
-![Aligned with Point](../v8-web-control/media/bmv8-anchoringpushpins-alignwithpoint.png)
+![Aligned with Point](..//media/bmv8-anchoringpushpins-alignwithpoint.png)
 #### Align with Point Anchor: (3, 30)
 
-![Aligned Pushpin](../v8-web-control/media/bmv8-anchoringpushpins-alignpushpin.png)
+![Aligned Pushpin](..//media/bmv8-anchoringpushpins-alignpushpin.png)
 #### Align with Point Anchor: (3, 30)
 
 

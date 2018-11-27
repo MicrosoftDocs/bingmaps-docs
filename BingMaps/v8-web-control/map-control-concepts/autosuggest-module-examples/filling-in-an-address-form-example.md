@@ -86,4 +86,4 @@ This example shows how to use the selected result from the default autosuggest U
 
 Here is what this code sample looks like when typing in “1 M” and selecting the first result, in this case “1 Microsoft Way, Redmond, WA”. Notice how the form has been filled out after selecting a suggestion. 
  
-![Filling in an Address Form Example](../v8-web-control/media/bmv8-autosuggestaddressform.png)
+![Filling in an Address Form Example](..//media/bmv8-autosuggestaddressform.png)

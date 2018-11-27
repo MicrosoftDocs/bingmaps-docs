@@ -73,4 +73,4 @@ Many applications add mouse events to shapes by looping through each shape and a
 
 If you run this code and hover and click any of the shapes, you will see all these different events fire.
 
-![BMV8_LayerEventsExample](../v8-web-control/media/bmv8-layereventsexample.png)
+![BMV8_LayerEventsExample](..//media/bmv8-layereventsexample.png)

@@ -73,7 +73,7 @@ When calculating directions request options can be used to modify how the route 
 
 Running this code will display a map with a route from London, UK to Madrid, Spain, going through Paris France which looks like this.
 
-![BMV8_DirectionsWithOptions](../v8-web-control/media/bmv8-directionswithoptions.PNG)
+![BMV8_DirectionsWithOptions](..//media/bmv8-directionswithoptions.PNG)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Directions_WithOptions)
 

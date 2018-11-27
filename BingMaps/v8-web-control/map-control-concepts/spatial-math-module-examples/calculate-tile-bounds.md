@@ -72,4 +72,4 @@ This example uses some of the Tile math functions in the Spatial Math library. T
 
 Running this code will load the map and display a polygon and pushpin above each map tile in the current map view.
 
-![BMV8_TileBoundsExample](../v8-web-control/media/bmv8-tileboundsexample.PNG)
+![BMV8_TileBoundsExample](..//media/bmv8-tileboundsexample.PNG)

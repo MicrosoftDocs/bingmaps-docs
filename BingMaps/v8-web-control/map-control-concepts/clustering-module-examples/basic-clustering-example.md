@@ -49,6 +49,6 @@ The following code example loads the Clustering module and then generates 1,000 
 
 Running this code in a browser will display a map with a bunch of pushpins on it. Those that have numbers on them are clusters of pushpins. As you zoom the map towards a cluster you will see the cluster break apart into its individual pushpins.
 
-![Basic Image Clustering on a Map](../v8-web-control/media/bmv8-basicclusteringexample.png)
+![Basic Image Clustering on a Map](..//media/bmv8-basicclusteringexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)

@@ -71,4 +71,4 @@ This example shows how to control an [AnimatedTileLayer](../../map-control-api/a
 
 Running this code displays a map with an animated weather radar. Below the map are buttons that can be used to play, pause, and stop the animation.
 
-![BMV8_AnimatedTileLayer_Controls](../v8-web-control/media/bmv8-animatedtilelayer-controls.PNG)
+![BMV8_AnimatedTileLayer_Controls](..//media/bmv8-animatedtilelayer-controls.PNG)

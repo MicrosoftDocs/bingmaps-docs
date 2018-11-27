@@ -22,7 +22,7 @@ In addition to creating a custom pushpin by loading an SVG file, you can also pa
 </svg>
 ```
 
-This SVG creates a yellow circle with an orange outline that looks like this: &nbsp; ![BMV8_SunnySvg](../v8-web-control/media/bmv8-sunnysvg.png)
+This SVG creates a yellow circle with an orange outline that looks like this: &nbsp; ![BMV8_SunnySvg](..//media/bmv8-sunnysvg.png)
  
 To create a custom pushpin out of this SVG, convert the SVG into a string and then pass it into the `icon` property of the pushpin, like so:
 
@@ -55,6 +55,6 @@ To create a custom pushpin out of this SVG, convert the SVG into a string and th
 ```
 Here is what this pushpin looks like on the map.
 
-![BMV8_InlineSvgExample](../v8-web-control/media/bmv8-inlinesvgexample.png)
+![BMV8_InlineSvgExample](..//media/bmv8-inlinesvgexample.png)
  
 [Try it here](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromSvg+JS)

@@ -51,6 +51,6 @@ This code sample loads in earthquake data for the last 30 days from the United S
 
 Here is what this heat map looks like over the Pacific Ocean which is surrounded by the [Ring of Fire](https://en.wikipedia.org/wiki/Ring_of_Fire), an area where a large number of earthquakes and volcanic eruptions occur. 
 
-![Ring of Fire on a Map](../v8-web-control/media/bmv8-ringoffireexample-map.png)
+![Ring of Fire on a Map](..//media/bmv8-ringoffireexample-map.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#heatMapFromGeoJson+JS)

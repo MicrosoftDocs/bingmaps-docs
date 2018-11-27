@@ -59,4 +59,4 @@ This example shows how to take the [NOAA Base Reflective Weather Radar WMS servi
 
 Running this code will display weather radar data over the USA.
 
-![BMV8_WMSTileLayerExample](../v8-web-control/media/bmv8-wmstilelayerexample.PNG)
+![BMV8_WMSTileLayerExample](..//media/bmv8-wmstilelayerexample.PNG)

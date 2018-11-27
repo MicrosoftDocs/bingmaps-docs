@@ -70,6 +70,6 @@ In this example the encoded string “x90uhio4sQmhuGwxrGz8sGp-zP5ooKpx9Eiz7Ip2vF
 
 Running this code will display a Polyline, that is derived from the provided encoded string, on to of the map. In this case it represents a section of the 520 highway in Bellevue, WA.
 
-![BMV8_PointCompressionExample](../v8-web-control/media/bmv8-pointcompressionexample.png)
+![BMV8_PointCompressionExample](..//media/bmv8-pointcompressionexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)

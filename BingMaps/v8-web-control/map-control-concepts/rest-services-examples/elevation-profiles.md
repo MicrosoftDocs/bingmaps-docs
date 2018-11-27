@@ -216,4 +216,4 @@ The Bing Maps REST services provides a number of useful services. The [Elevation
 
 If you run this code in a browser, you will see a map with a route from Seattle, WA to Redmond, WA displayed. Below the map will be a chart displaying the elevation profile of the route.
 
-![BMV8_ElevationProfile](../v8-web-control/media/bmv8-elevationprofile.PNG)
+![BMV8_ElevationProfile](..//media/bmv8-elevationprofile.PNG)

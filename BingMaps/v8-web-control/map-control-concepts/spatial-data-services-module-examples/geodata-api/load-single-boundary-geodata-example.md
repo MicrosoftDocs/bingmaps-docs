@@ -62,6 +62,6 @@ This examples renders a PopulatedPlace (city, town) boundary for the Location th
 
 Running this code will display a map with the boundaries of Toronto displayed. 
 
-![Single Boundary on a Map](../v8-web-control/media/bmv8-geodatasingleboundary.png)
+![Single Boundary on a Map](..//media/bmv8-geodatasingleboundary.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadSingleBoundary+JS)

@@ -51,4 +51,4 @@ The following code example takes a URL to a GeoJSON file that is hosted on the s
 
 Here is what this GeoJSON file looks like on the map. All the country boundaries displayed as polygons.
 
-![Read GeoJSON on a Map](../v8-web-control/media/bmv8-readsamedomaingeojsonexample-map.png)
+![Read GeoJSON on a Map](..//media/bmv8-readsamedomaingeojsonexample-map.png)

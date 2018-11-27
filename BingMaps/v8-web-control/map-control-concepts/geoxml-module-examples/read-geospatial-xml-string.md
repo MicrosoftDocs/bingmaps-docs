@@ -82,6 +82,6 @@ This sample shows how to read geospatial XML data stroed in a string. When readi
 
 If you run this sample you will see a simple polygon that was defined in a string in GeoRSS format rendered on the map.
 
-![BMV8_BasicGeoXml](../v8-web-control/media/bmv8-basicgeoxml.PNG)
+![BMV8_BasicGeoXml](..//media/bmv8-basicgeoxml.PNG)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read)

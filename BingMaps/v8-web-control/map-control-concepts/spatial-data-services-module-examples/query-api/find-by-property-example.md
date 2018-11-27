@@ -67,4 +67,4 @@ One of the simpliest ways to query a data source is to do a property based searc
 
 Running this code will search for the first 25 gas stations in the [NavteqNA data source](../spatial-data-services/navteqna.md).
 
-![BMV8_FindByPropertyExample](../v8-web-control/media/bmv8-findbypropertyexample.PNG)
+![BMV8_FindByPropertyExample](..//media/bmv8-findbypropertyexample.PNG)
