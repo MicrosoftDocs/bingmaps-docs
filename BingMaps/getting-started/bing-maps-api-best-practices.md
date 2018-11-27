@@ -211,7 +211,7 @@ map.getCredentials(function (c) {
   
  **Bing Maps WPF Controls**  
   
-```C#
+```CSharp
 string sessionKey;  
   
 map.CredentialsProvider.GetCredentials((c) =>  
