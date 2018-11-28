@@ -18,7 +18,9 @@ Use the following URL templates to get a static map. You can also display a rout
 
  The default map size is 350 pixels by 350 pixels.
 
-> [!TIP] **Static map metadata**: To get the size and center point of the image and the locations and size of the pushpins on the map, set the `mapMetadata` parameter to `1 ` (true). When you request static map metadata, the metadata is returned instead of the map image.  
+> [!TIP] 
+>
+> **Static map metadata**: To get the size and center point of the image and the locations and size of the pushpins on the map, set the `mapMetadata` parameter to `1 ` (true). When you request static map metadata, the metadata is returned instead of the map image.  
  
   
 ## URL Templates
@@ -335,7 +337,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Ro
  
 ### Get Street Side Images using the StreetSide Imagery API
 
-The following URL request gets an image of Bergen Place in Ballard, Seattle, with a pitch of 5&deg; (upwards) and a heading of 145&deg; (degrees clockwise from North, which is at 0&deg;). The zoom level is 5. For more details about the Streetside Imagery API, see [Getting Streetside Tiles from Imagery Metadata](Getting%20Streetside%20Tiles%20From%20Imagery%20Metadata.md).
+The following URL request gets an image of Bergen Place in Ballard, Seattle, with a pitch of 5&deg; (upwards) and a heading of 145&deg; (degrees clockwise from North, which is at 0&deg;). The zoom level is 5. For more details about the Streetside Imagery API, see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting-streetside-tiles-from-imagery-metadata.md).
 
 If you examine the response headers, you'll find that `X-VE-SS-CaptureDate` is set to `Wed, 16 Jul 2014 17:13:06 GMT`.
 

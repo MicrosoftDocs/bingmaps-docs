@@ -37,9 +37,9 @@ For a more in-depth example of the Multi-Itinerary API, see [ADD LINK TO ARTICLE
 
 The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItineray` resource which includes a list of agent itineraries with travel instructions and route information. 
 
-For more information about these resources, see [Optimized Itinerary Data](Optimized%20Itinerary%20Data.md).
+For more information about these resources, see [Optimized Itinerary Data](optimized-itinerary-Data.md).
 
-See [Asynchronous Requests](Asynchronous%20Requests.md) for how to use Bing Maps REST asynchronous requests.
+See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests.md) for how to use Bing Maps REST asynchronous requests.
 
 ## API Templates
 
@@ -150,7 +150,7 @@ Here is the list of parameters.
 
 ## Responses
 
-See [Optimized Itinerary Data](Optimized%20Itinerary%20Data.md) for information on response data.
+See [Optimized Itinerary Data](optimized-Itinerary-data.md) for information on response data.
 
 ## Examples
 

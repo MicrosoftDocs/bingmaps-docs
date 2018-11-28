@@ -88,7 +88,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerP
 |`include`|`incl`|**Optional.** Specifies to provide additional information about the imagery as part of the response.|The only option for this parameter is ImageryProviders. When this parameter value is specified, information about the imagery providers is returned in the response.<br /><br /> **Example**: `include=ImageryProviders`|  
 |`orientation`|`dir`|**Optional.** The orientation of the viewport to use for the imagery metadata. This option only applies to Birdseye imagery.|A double value between 0 to 360, where 0 = North [**default**], 90 = East, 180 = South, 270 = West.<br /><br /> **Example**: `orientation=253.21`|  
 |`uriScheme`||**Optional.** Specifies the scheme that image URL in the response should use.|Two values can be specified; http (default), https.<br /><br /> **Example**: `uriScheme=https`|  
-|`zoomLevel`|`zl`|**Required if a centerPoint is specified and imagerySet is set to Road, Aerial or AerialWithLabels** The level of zoom to use for the imagery metadata.|An integer between 1 and 21. **Note:**  Some imagery may not be available at all zoom levels for all locations. If imagery is not available at a location, a message is returned in the `ErrorDetails` collection of the response. For more information about this collection, see [Common Response Description](../Topic/Common%20Response%20Description.md). <br /><br /> **Example**: `zoomLevel=10`|  
+|`zoomLevel`|`zl`|**Required if a centerPoint is specified and imagerySet is set to Road, Aerial or AerialWithLabels** The level of zoom to use for the imagery metadata.|An integer between 1 and 21. **Note:**  Some imagery may not be available at all zoom levels for all locations. If imagery is not available at a location, a message is returned in the `ErrorDetails` collection of the response. For more information about this collection, see [Common Response Description](../common-response-description.md). <br /><br /> **Example**: `zoomLevel=10`|  
   
 ## Response  
 
@@ -96,7 +96,7 @@ When metadata for Birdseye or BirdseyeWithLabels imagery is requested, a Birdsey
 
 For other imagery types, an ImageryMetadata resource is returned. The ImageryMetadata resource may contain a map tile URL. For more information about the map tile URL and other metadata returned, see [Imagery Metadata](../imagery/imagery-metadata.md). For more information about the common response syntax for the Bing Maps REST services, see [Common Response Description](../common-response-description.md). 
 
-These URLs support JSON (application/json) and XML (application/xml) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../Topic/Output%20Parameters.md).  
+These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the output (o) parameter. For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 ## Examples
 
