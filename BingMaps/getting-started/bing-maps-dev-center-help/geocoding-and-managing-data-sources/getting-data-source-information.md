@@ -15,6 +15,6 @@ ms.service: "bing-maps"
 ---
 # Getting Data Source Information
 
-Click the **View data source information** under **Data Sources** in the Bing Maps Dev Center to view the master key, query key and query URL for all data sources associated with your Bing Maps account. This includes data sources that were created by using the [Bing Maps Dev Center](https://www.bingmapsportal.com/) or by using the Bing Maps Spatial Data Services [Data Source Management API](../spatial-data-services/data-source-management-api.md). Query URLs are only provided for data sources that have been published.  
+Click the **View data source information** under **Data Sources** in the Bing Maps Dev Center to view the master key, query key and query URL for all data sources associated with your Bing Maps account. This includes data sources that were created by using the [Bing Maps Dev Center](https://www.bingmapsportal.com/) or by using the Bing Maps Spatial Data Services [Data Source Management API](../../../spatial-data-services/data-source-management-api/index.md). Query URLs are only provided for data sources that have been published.  
   
  **Transaction Accounting**: Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../understanding-bing-maps-transactions.md).

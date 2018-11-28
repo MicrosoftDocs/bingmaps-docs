@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 When you make a data source public, it can be queried by anyone with a Bing Maps Key and the query URL. A private data source can only be queried using the query key you specify or the master key. There are two ways to set the data source access to public or private.  
   
 > [!NOTE]
->  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
+>  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md).  
   
 -   **On upload**: When you upload data to a data source, and publish it without geocoding, you have the option to specify whether the data source is public or private.  
   

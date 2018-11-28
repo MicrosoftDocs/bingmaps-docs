@@ -26,10 +26,10 @@ The following topics describe how to use the Bing Maps Dev Center at [https://ww
 |[Deleting a Data Source](deleting-a-data-source.md)|Describes how to delete a data source.|  
 |[Getting Data Source Information](getting-data-source-information.md)|Describes how to get master key and query URL information for all the data sources that associated with a Bing Maps Dev Center.|  
 |[Making a Data Source Public or Private](making-a-data-source-public-or-private.md)|Describes how to specify data source access as private (can be queried by query key or master key only) or public (can be queried by anyone with a Bing Maps Key and the query URL).|  
-|[Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)|Describes the limits on geocoding and managing data sources using the Bing Maps Dev Center and Bing Spatial Data Services.|  
+|[Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md)|Describes the limits on geocoding and managing data sources using the Bing Maps Dev Center and Bing Spatial Data Services.|  
   
 > [!NOTE]
->  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
+>  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md).  
   
 ### Transaction Accounting
 

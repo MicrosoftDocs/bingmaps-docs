@@ -20,7 +20,7 @@ You can edit the entity data and the data schema of any data source associated w
  As an alternative to editing the entity data and data schema on the Bing Maps Dev Center, you can also download a data source, make your changes and upload and publish the updated file. For more information, see [Downloading a Data Source](downloading-a-data-source.md).  
   
 > [!NOTE]
-> For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
+> For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md).
   
 <a name="BKMKEditGeocode"></a>   
 ## Edit Entity Data  
