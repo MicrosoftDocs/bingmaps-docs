@@ -92,4 +92,4 @@ The following table describes the properties that are available in the 4 differe
 
 ## See Also ##
 
-[Bing Maps V8 - Choropleth Map Example](../v8-web-control/choropleth-map-example.md)
+[Bing Maps V8 - Choropleth Map Example](../../v8-web-control/map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md)

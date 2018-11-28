@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 The Bing™ Maps REST Services Application Programming Interface (API) provides a Representational State Transfer (REST) interface to perform tasks such as creating a static map with pushpins, geocoding an address, retrieving imagery metadata, or creating a route.  
   
-Transaction accounting is provided when you use the Bing Maps REST Services. For more information about billable and non-billable transactions for the Bing Maps REST Services, see [Viewing Bing Maps Transaction Reports](../getting-started/understanding-bing-maps-transactions.md).  
+Transaction accounting is provided when you use the Bing Maps REST Services. For more information about billable and non-billable transactions for the Bing Maps REST Services, see [Viewing Bing Maps Transaction Reports](../getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md).  
 
 For information about geocoding large sets of spatial data using a REST Interface, see the [Bing Spatial Data Services](../spatial-data-services/index.md).
 

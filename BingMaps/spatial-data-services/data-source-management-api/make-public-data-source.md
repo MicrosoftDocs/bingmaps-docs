@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Make a Data Source Public
+
 Use the following URLs to make your data source publicly accessible or to make it private. A public data source can be queried by anyone with a Bing Maps Key. A private data source can only queried using the data source query key only.  
   
- You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to change the public status of a data source. For more information, see [Making a Data Source Public or Private](http://msdn.microsoft.com/en-us/library/dn151784.aspx).  
+ You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to change the public status of a data source. For more information, see [Making a Data Source Public or Private](../../getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/making-a-data-source-public-or-private.md).  
   
  A job is created when you change the public status of a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
   
@@ -52,7 +53,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
   
 -   XML: **application/xml**  
   
- For information about the response, see [Response Data](data-source-management-api/download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
+ For information about the response, see [Response Data](download-data-source-dataflow/download-data-source-dataflow-response-description.md).  
   
 ## Examples  
  **EXAMPLE: Make a data source publicly available.** .  
@@ -63,7 +64,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
 http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/FourthCoffeeSample/$updatedatasource?setPublic=1&o=xml&key=MasterKey  
 ```  
   
- The status of `Created` in the response indicates that the job to make the data source public has been created. This operation is expected to take only a few minutes. You can confirm that the data source is public by requesting data source information with the [Get Data Source Information](data-source-management-api/get-data-source-information.md) API. Depending on the request and response format, one of the following parameters should be set to true: bsi:isPublic="true","IsPublic":"true", or IsPublic="true".  
+ The status of `Created` in the response indicates that the job to make the data source public has been created. This operation is expected to take only a few minutes. You can confirm that the data source is public by requesting data source information with the [Get Data Source Information](get-data-source-information.md) API. Depending on the request and response format, one of the following parameters should be set to true: bsi:isPublic="true","IsPublic":"true", or IsPublic="true".  
   
  **URL with XML Response**  
   

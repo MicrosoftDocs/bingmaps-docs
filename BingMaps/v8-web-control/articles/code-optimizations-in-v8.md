@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Code Optimizations in V8
+
 One common piece of feedback the Bing Maps team has received from developers over the years about Bing Maps v7 is that the API is well structured, and easy to use. The development team for Bing Maps V8 really took this to heart and made an effort to not only maintain this when creating new features but to also ensure these features are easy to use with other features in Bing Maps. In addition to this the team spent some time investigating common tasks developers were doing with Bing Maps V7 and looked at ways to reduce the amount of code required to accomplish these tasks. Many of these also provide a small performance improvement as well. The following is a list of some of these common tasks and the code optimizations that have been made available in V8. It is ***very important*** to note that in all of these cases, the v7 code for accomplishing these tasks is still fully supported by V8. If you are migrating a V7 app to V8, you do not need to implement any of these code optimizations, however, you may find these useful if adding additional features to your app, are looking to make performance improvements, or if you want to clean up your code.
 
 ## Loading the Map
@@ -22,15 +23,15 @@ When loading an instance of Bing Maps, you have to specify the DOM element in wh
 
 **Before: V7**
 
-```
+```javascript
 map = new Microsoft.Maps.Map(document.getElementById("myMap"), {
     credentials: "YOUR BING MAPS KEY"
 });
 ```
 
-**After: V8** – Credentials are spcefied in the map script URL.
+**After: V8** – Credentials are specified in the map script URL.
 
-```
+```javascript
 map = new Microsoft.Maps.Map('#myMap');
 ```
 
@@ -42,7 +43,7 @@ In most versions of Bing Maps, adding an array of shapes to the map requires loo
 
 **Before: V7**
 
-```
+```javascript
 var shapes = [];
 
 for (var i = 0; i < shapes.length; i++) {
@@ -52,7 +53,7 @@ for (var i = 0; i < shapes.length; i++) {
 
 **After: V8**
 
-```
+```javascript
 var shapes = [];
 
 map.entities.push(shapes);
@@ -107,13 +108,13 @@ Using CSS colors is a bit more familiar when creating web apps and using them in
 
 **Before: V7**
 
-```
+```javascript
 polygon.setOptions({ fillColor: new Microsoft.Maps.Color(128,255,0,0) });
 ```
 
 **After: V8**
 
-```
+```javascript
 polygon.setOptions({ fillColor: 'rgba(255,0,0,0.5)' }); 
 ```
 
@@ -130,7 +131,7 @@ When using mouse events, it is common to get the location of where the mouse eve
 
 **Before: V7**
 
-```
+```javascript
 Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
     var point = new Microsoft.Maps.Point(e.getX(), e.getY());
     var loc = e.target.tryPixelToLocation(point);
@@ -141,7 +142,7 @@ Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
 
 **After: V8**
 
-```
+```javascript
 Microsoft.Maps.Events.addHandler(map, 'click', function (e) {
     var loc = e.location;
 
@@ -162,7 +163,7 @@ A common task is to add a click or some other mouse event to an array of shapes.
 
 **Before: V7**
 
-```
+```javascript
 var shapes = [];
 
 for (var i = 0; i < shapes.length; i++) {
@@ -173,7 +174,7 @@ for (var i = 0; i < shapes.length; i++) {
 
 **After: V8**
 
-```
+```javascript
 var shapes = [];
 
 var layer = new Microsoft.Maps.Layer();
@@ -193,13 +194,13 @@ In this scenario, V8 requires 15% less code than V7. However, the shapes are sto
 
 When Bing Maps v7 was released only simply polygons were supported. However, over time as more and more developers started integrating more complex spatial data on Bing Maps support for polygons with holes was needed. A great example is the borders of South Africa. Within the main borders of South Africa is a land locked country called Lesotho. In order to correctly draw the borders of South Africa a hole needs to be cut out of a polygon for Lesotho.
 
-![BMV8_SouthAfricaBorders](../../media/bmv8-southafricaborders.png)
+![BMV8_SouthAfricaBorders](../media/bmv8-southafricaborders.png)
 
 Some developers created [workarounds](https://rbrundritt.wordpress.com/2011/06/10/advance-shapes-in-bing-maps-v7/) in Bing Maps V7 initially, and not long after the Bing Maps team added the AdvancedShapes module. Knowing that this is a more commonly used feature in today’s apps, V8 supports polygons with holes in the core library. An AdvancedShapes module is no longer required, however, to reduce migration efforts, if you do use the AdvancedShapes code from V7, *it will continue to work in V8*.
 
 **Before: v7**
 
-```
+```javascript
 var polygon = new Microsoft.Maps.Polygon(/*ring data*/);
 
 Microsoft.Maps.loadModule('Microsoft.Maps.AdvancedShapes', function () {
@@ -209,7 +210,7 @@ Microsoft.Maps.loadModule('Microsoft.Maps.AdvancedShapes', function () {
 
 **After: V8**
 
-```
+```javascript
 var polygon = new Microsoft.Maps.Polygon(/*ring data*/);
 
 map.entities.push(polygon);
@@ -228,7 +229,7 @@ Modules allow you to load additional features and functionalities when needed. O
 
 **Before: V7**
 
-```
+```javascript
 Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function () {
     Microsoft.Maps.loadModule('Microsoft.Maps.HeatMap', function () {
     });
@@ -237,7 +238,7 @@ Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function () {
 
 **After: V8**
 
-```
+```javascript
 Microsoft.Maps.loadModule(['Microsoft.Maps.GeoJson', 'Microsoft.Maps.HeatMap'], function () {
 });
 ```
@@ -261,7 +262,7 @@ Bing Maps V7 supports quadkey ids, but adding the other two types as tile layers
 
 **Before: V7 - Z, Y, Zoom Tile Layer**
 
-```
+```javascript
 var xyzTileUrl = 'http://tileServerUrl/{zoom}/{y}/{x}';
 
 var tileLayer = new Microsoft.Maps.TileLayer({
@@ -279,7 +280,7 @@ map.layers.insert(tileLayer);
 
 **After: V8 - Z, Y, Zoom Tile Layer**
 
-```
+```javascript
 var xyzTileUrl = 'http://tileServerUrl/{zoom}/{y}/{x}';
 
 var tileLayer = new Microsoft.Maps.TileLayer({
@@ -295,7 +296,7 @@ In this scenario, V8 requires 36% less code than V7.
 
 **Before: V7 – WMS Tile Layer**
 
-```
+```javascript
 var wmsTileService = 'https://tileServerUrl?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=CoolData&width=256&height=256&BBOX=';
 
 var tileLayer = new Microsoft.Maps.TileLayer({
@@ -319,7 +320,7 @@ map.layers.insert(tileLayer);
 
 **After: V8 – WMS Tile Layer**
 
-```
+```javascript
 var wmsTileService = 'https://tileServerUrl?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=CoolData&width=256&height=256&BBOX='
 
 var tileLayer = new Microsoft.Maps.TileLayer({
