@@ -21,6 +21,6 @@ ms.service: "bing-maps"
  To delete a data source, go to the **Manage data sources** page under **Data sources** on the [Bing Maps Dev Center](http://www.bingmapsportal.com), and click the **Published Data Sources** tab. Click **Delete** for the data source that you want to delete.  
   
 > [!NOTE]
->  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
+>  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md)  
   
  **Transaction Accounting**: Transactions are counted when you use the Bing Maps Dev Center to create and manage data sources. For more information about these transactions, see [Understanding Bing Maps Transactions](../understanding-bing-maps-transactions.md).

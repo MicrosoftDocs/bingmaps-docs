@@ -26,5 +26,5 @@ The [Bing Maps Dev Center](https://www.bingmapsportal.com/) provides account man
 -   [Creating a Bing Maps Account](creating-a-bing-maps-account.md)    
 -   [Getting a Bing Maps Key](getting-a-bing-maps-key.md)    
 -   [Understanding Bing Maps Transactions](understanding-bing-maps-transactions.md)    
--   [Geocoding and Managing Data Sources](geocoding-and-managing-data-sources.md)    
+-   [Geocoding and Managing Data Sources](geocoding-and-managing-data-sources/index.md)
 -   [Updating Your Bing Maps Account](updating-your-bing-maps-account.md)  

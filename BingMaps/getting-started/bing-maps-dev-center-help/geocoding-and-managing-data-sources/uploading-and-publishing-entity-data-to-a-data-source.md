@@ -18,11 +18,11 @@ You can upload, geocode, and publish entity data to a data source by using the B
   
  After the entity data is published to a data source, you can query the data source by using the [Query API](../../../spatial-data-services/query-api/index.md). You can also edit published entity data as described in [Editing a Data Source](editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  
   
- ![Bing Maps Account Center Flow](../getting-started/media/bingmapsportalflowdiagram.jpg "Bing Maps Account Center Flow")  
+ ![Bing Maps Account Center Flow](../../media/bingmapsportalflowdiagram.jpg "Bing Maps Account Center Flow")  
   
 > [!NOTE]
->  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
-  
+>  For information on data source limits that apply to this feature, see [Geocode and Data Source Limits](../../../spatial-data-services/geocode-and-data-source-limits.md).
+
 ## Entity Data and Data Schema  
 
  To upload, geocode and publish entity data to a data source, you must create a file that contains a data schema and a set of entity data. Supported data file formats include KML, ESRI Shapefiles (SHP), XML, comma-separated values (CSV), tab-delimited values and pipe-delimited (&#124;) values. The data file that you upload must use UTF-8 encoding.  
@@ -37,13 +37,13 @@ You can upload, geocode, and publish entity data to a data source by using the B
   
 |Property|Description|  
 |--------------|-----------------|  
-|Latitude|[**Required in data schema**]. A double value that represents degrees of latitude.<br /><br /> Valid range of latitude values: [-90, +90]<br /><br /> **Example**: 47.673099|  
-|Longitude|[**Required in data schema**] A double value that represents degrees of latitude.<br /><br /> Valid range of longitude values: [-180, +180]<br /><br /> **Example**: -122.11871|  
-|AddressLine|The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.<br /><br /> **Example**: 1 Microsoft Way|  
-|Locality|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries.<br /><br /> **Example**: Seattle|  
-|AdminDistrict|A string specifying the subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.<br /><br /> **Example**: WA|  
-|PostalCode|A string specifying the post code, postal code, or ZIP Code of an address.<br /><br /> **Example**: 98178|  
-|CountryRegion|A string specifying the country or region name of an address.<br /><br /> **Example**: United States|  
+|`Latitude`|[**Required in data schema**]. A double value that represents degrees of latitude.<br /><br /> Valid range of latitude values: [-90, +90]<br /><br /> **Example**: 47.673099|  
+|`Longitude`|[**Required in data schema**] A double value that represents degrees of latitude.<br /><br /> Valid range of longitude values: [-180, +180]<br /><br /> **Example**: -122.11871|  
+|`AddressLine`|The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.<br /><br /> **Example**: 1 Microsoft Way|  
+|`Locality`|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries.<br /><br /> **Example**: Seattle|  
+|`AdminDistrict`|A string specifying the subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.<br /><br /> **Example**: WA|  
+|`PostalCode`|A string specifying the post code, postal code, or ZIP Code of an address.<br /><br /> **Example**: 98178|  
+|`CountryRegion`|A string specifying the country or region name of an address.<br /><br /> **Example**: United States|  
   
  If you provide complete address data and latitude and longitude values, your entity data is not changed by the upload and geocode process. However, if you want to reverse geocode latitude and longitude values from address data, leave the latitude properties fields empty. Similarly, if you provide address data and do not provide latitude and longitude values, the address data is geocoded.  
   
@@ -55,12 +55,12 @@ You can upload, geocode, and publish entity data to a data source by using the B
   
 |XML Data Type|OData Type|  
 |-------------------|----------------|  
-|string|Edm.String<br /><br /> The maximum string length is 2560 characters.|  
-|long|Edm.Int64|  
-|Boolean|Edm.Boolean|  
-|double|Edm.Double|  
-|dateTime|Edm.DateTime|  
-|anyType|Edm.Geography<br /><br /> A Well-Known Text representation of the geographical shape.<br /><br /> The maximum number of points a single geography object can have is 100,000.|  
+|`string`|`Edm.String`<br /><br /> The maximum string length is 2560 characters.|  
+|`long`|`Edm.Int64`|  
+|`Boolean`|`Edm.Boolean`|  
+|`double`|`Edm.Double`|  
+|`dateTime`|`Edm.DateTime`|  
+|`anyType`|`Edm.Geography`<br /><br /> A Well-Known Text representation of the geographical shape.<br /><br /> The maximum number of points a single geography object can have is 100,000.|  
   
 ### Property Name Requirements  
 
@@ -88,7 +88,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
   
  In addition to other characters, such a comma or a hyphen (-), you can use the pipe (&#124;) character in XML entity values. The entity type name (FourthCoffeeShops in the example) supports hyphens (-) and underscores (_).  
   
- For additional information about creating a data schema and input values including available types and limits, see [Load Data Source Data Schema and Sample Input](http://msdn.microsoft.com/en-us/library/gg585138.aspx).  
+ For additional information about creating a data schema and input values including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
 ```xml
 <?xml version="1.0" standalone="yes"?>  
@@ -141,7 +141,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 ```  
   
 ### Example: CSV Data Schema and Entity Data  
- The following is an example of a comma-separated value (CSV) data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](http://msdn.microsoft.com/en-us/library/gg585138.aspx). Save your CSV file with a .txt file name extension for upload.  
+ The following is an example of a comma-separated value (CSV) data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md). Save your CSV file with a .txt file name extension for upload.  
   
 ```  
 Bing Spatial Data Services, 1.0, FourthCoffeeShops  
@@ -151,7 +151,7 @@ EntityID(Edm.String,primaryKey),AddressLine(Edm.String),Locality(Edm.String),Adm
 ```  
   
 ### Example: TAB Data Schema and Entity Data  
- The following is an example of tab-delimited value data schema and input data. Tabs are represented in this example by "->" **for illustration purposes only**. Do not use "->" in your input file. Insert tabs as separators instead. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](http://msdn.microsoft.com/en-us/library/gg585138.aspx). Save your tab-delimited file with a .txt file name extension for upload.  
+ The following is an example of tab-delimited value data schema and input data. Tabs are represented in this example by "->" **for illustration purposes only**. Do not use "->" in your input file. Insert tabs as separators instead. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md). Save your tab-delimited file with a .txt file name extension for upload.  
   
 ```  
 Bing Spatial Data Services,1.0,FourthCoffeeShops  
@@ -161,7 +161,7 @@ EntityID(Edm.String,primaryKey)->AddressLine(Edm.String)->Locality(Edm.String)->
 ```  
   
 ### Sample Pipe Data Schema and Input Data  
- The following is an example of pipe-delimited value data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](http://msdn.microsoft.com/en-us/library/gg585138.aspx).  
+ The following is an example of pipe-delimited value data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
 ```  
 Bing Spatial Data Services,1.0,FourthCoffeeShops  
