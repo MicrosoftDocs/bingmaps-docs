@@ -30,7 +30,7 @@ The Directions Module allows you to calculate a route and display it on the map.
 * [DirectionsRenderOptions Object](../../modules/directions-module/directionsrenderoptions-object.md)
 * [DirectionsRequestOptions Object](../../modules/directions-module/directionsrenderoptions-object.md)
 * [DistanceUnit Enumeration](../../modules/directions-module/distanceunit-enumeration.md)
-* [RouteAvoidance Enumeration](../v8-web-control/routeavoidance-enumeration.md)
+* [RouteAvoidance Enumeration](../../modules/directions-module/routeavoidance-enumeration.md)
 * [RouteMode Enumeration](../../modules/directions-module/routemode-enumeration.md)
 * [RouteOptimization Enumeration](../../modules/directions-module/routeoptimization-enumeration.md)
 * [TimeTypes Enumeration](../../modules/directions-module/timetypes-enumeration.md)

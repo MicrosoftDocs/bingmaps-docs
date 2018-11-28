@@ -37,7 +37,7 @@ The Bing Maps V8 Web Control is designed to be easy adopt and use in your web ap
 | [GeoJSON Module Examples](geojson-module-examples/index.md) | This module makes it easy to import or export data in GeoJSON format. |
 | [GeoXml Module Examples](geoxml-module-examples/index.md)| The GeoXml module makes it easy to read and write common geospatial XML file formats such as [KML (Keyhole Markup Language),](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) KMZ (compressed KML), [GeoRSS](https://en.wikipedia.org/wiki/GeoRSS), [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language) (Geography Markup Language, exposed via GeoRSS), and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) (GPS Exchange Format). |
 | [Heat Map Layer Module Examples](heat-map-module-examples/index.md) | The module allows you to render an array of Location objects as a density based heat map. |
-| [Search Module Examples](../v8-web-control/search-module-examples.md) | Provides an easy method for geocoding address and searching for points of interest from JavaScript. |
+| [Search Module Examples](search-module-examples/index.md) | Provides an easy method for geocoding address and searching for points of interest from JavaScript. |
 | [Spatial Data Services Module Examples](spatial-data-services-module-examples/index.md) | This module wraps the Query and GeoData REST API’s in the Bing Spatial Dara Services and expose them as an easy to use JavaScript library.  |
 | [Spatial Math Module Examples](spatial-math-module-examples/index.md) | The module provides a bunch of useful spatial math functions. |
 | [Traffic Module Examples](traffic-module-examples.md) | Adds a traffic incident and flow data to the map. |

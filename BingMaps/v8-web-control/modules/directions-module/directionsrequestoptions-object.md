@@ -22,7 +22,7 @@ You can set options for how to calculate the route by passing an object containi
 |---------------------|--------------------|--------------------------------------|
 | `distanceUnit`      | [DistanceUnit](distanceunit-enumeration.md)  | The unit to use when displaying direction distances. The default value is based on the specified culture.            |
 | `maxRoutes`         | number             | The number of routes to calculate. If the *routeMode* is; <br/><br/>&nbsp; •	Driving, up to 3 routes<br/>&nbsp; •	Walking, only 1 route is supported<br/>&nbsp; •	Transit, up to 6 routes <br/><br/>Default: **3**  |
-| `routeAvoidance`    | [RouteAvoidance](../v8-web-control/routeavoidance-enumeration.md)\[\] | The features to avoid when calculating the route. Default: **none**                |
+| `routeAvoidance`    | [RouteAvoidance](routeavoidance-enumeration.md)\[\] | The features to avoid when calculating the route. Default: **none**                |
 | `routeDraggable`    | boolean            | A boolean indicating whether the route line on the map can be dragged with the mouse cursor. Default: **true**<br/><br/>Truck based routes currently do not support being dragged.     |
 | `routeIndex`        | number             | If multiple routes are returned, the index of the route and directions to display. |
 | `routeMode`         | [RouteMode](routemode-enumeration.md) | The type of directions to calculate. Default: **driving**                          |

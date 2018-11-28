@@ -32,7 +32,7 @@ Pushpins, sometimes known as MapIcons or Markers, are the primary method in the 
   * [Custom Canvas Pushpin](custom-canvas-pushpin-example.md)
   * [Font based Pushpins](font-based-pushpins.md)
   * [Image and Canvas Pushpin](image-and-canvas-pushpin-example.md)
-  * [Pushpin Events](../v8-web-control/pushpin-events-example.md)
+  * [Pushpin Events](pushpin-events-example.md)
   * [Pushpin Hover Style](pushpin-hover-style.md) 
   * [Anchoring Pushpins](anchoring-pushpins.md) 
 

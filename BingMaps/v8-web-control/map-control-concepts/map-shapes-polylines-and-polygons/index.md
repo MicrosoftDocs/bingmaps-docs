@@ -22,7 +22,7 @@ Frequently, you want to add a simple annotation to the map, which [Pushpins](../
   * [Polyline Events](polyline-events.md)
   * [Basic Polygons](basic-polygon-example.md)
   * [Polygons with Holes](polygons-with-holes-example.md)
-  * [Polygon Events](../v8-web-control/polygon-events.md) 
+  * [Polygon Events](polygon-events.md) 
 
 ### References
 

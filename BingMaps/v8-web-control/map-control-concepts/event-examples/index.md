@@ -23,9 +23,9 @@ The Bing Maps control provides many events to allow your application to respond 
 ## Examples
 
 * [Map Events](../map/map-events.md)
-* [Pushpin Events](../v8-web-control/pushpin-events-example.md)
+* [Pushpin Events](../pushpins/pushpin-events-example.md)
 * [Polyline Events](../map-shapes-polylines-and-polygons/polyline-events.md)
-* [Polygon Events](../v8-web-control/polygon-events.md)
+* [Polygon Events](../map-shapes-polylines-and-polygons/polygon-events.md)
 * [Data Layer Events](../layers/data-layer-events.md)
 * [Right Click Events for Shapes](right-click-events-for-shapes.md)
 

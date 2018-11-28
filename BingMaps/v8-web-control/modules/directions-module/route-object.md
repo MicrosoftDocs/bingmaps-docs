@@ -18,5 +18,5 @@ Represents a route.
 
 | Name	      | Type        | Description                                                                             |
 |-------------|-------------|-----------------------------------------------------------------------------------------|
-| `routeLegs` |	[RouteLeg](../v8-web-control/routeleg-object.md)[]	|The legs of the route. Each route leg represents the route between two waypoints. |
+| `routeLegs` |	[RouteLeg](routeleg-object.md)[]	|The legs of the route. Each route leg represents the route between two waypoints. |
 | `routePath` | [Location\[\]](../../map-control-api/location-class.md) | An array of locations that makes up the path of the route.

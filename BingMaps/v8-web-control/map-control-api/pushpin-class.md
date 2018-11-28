@@ -79,7 +79,7 @@ Name            | Arguments | Description
   * [Font based Pushpins](../map-control-concepts/pushpins/font-based-pushpins.md)
   * [HTML Pushpin Overlay](../map-control-concepts/custom-overlays/html-pushpin-overlay.md)
   * [Image and Canvas Pushpin](../map-control-concepts/pushpins/image-and-canvas-pushpin-example.md)
-  * [Pushpin Events](../v8-web-control/pushpin-events-example.md)
+  * [Pushpin Events](../map-control-concepts/pushpins/pushpin-events-example.md)
   * [Pushpin Hover Style](../map-control-concepts/pushpins/pushpin-hover-style.md) 
   * [Anchoring Pushpins](../map-control-concepts/pushpins/anchoring-pushpins.md) 
   
