@@ -14,11 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Search Boundary Example
+
 In common uses of this module, developers will retrieve boundaries when the entity type of the boundary to return is specified. This is useful to get the boundary of a location that has a different entity type than your input data.  
 
 However, what if you want to get the boundary of a location and don't know what it's entity type is? In this code sample, the search module is used to geocode a user's inputted location. If the geocoded result has an entity type value that is supported by the GeoData API, a boundary will then be requested and rendered on the map if available. In this sample, the level of detail of the polygons is set to 1 so that they are more detailed. If a location is passed in that does not have a supported boundary or a boundary can't be found, a pushpin will be displayed on the map instead.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -121,6 +122,6 @@ However, what if you want to get the boundary of a location and don't know what 
 
 Running this code will load a textbox, a button and a map. Type in a location into the textbox and press search. If the location has an entity type value that is supported by the GeoData API, a boundary will be requested and if available, displayed on the map. Here is an example when searching for New York City.
 
-![Search Boundary on a Map](../../media/bmv8-geodataboundarysearch.png)
+![Search Boundary on a Map](../../../media/bmv8-geodataboundarysearch.png)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadBoundaryFromSearch+JS)

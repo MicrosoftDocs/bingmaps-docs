@@ -18,11 +18,11 @@ When specifying the URL to the map control in a script reference, additional URL
 
 ## Setting Parameters
 
-To add a parameter to the map control src URL, add a "?", the parameter, and set it "=" to one of the allowable values. Use "&" to separate parameters. 
+To add a parameter to the map control src URL, add a `?`, the parameter, and set it `=` to one of the allowable values. Use `&` to separate parameters. 
 
 The following example sets the map control URL such that it triggers a callback function called GetMap after the script has finished loading. It also loads the experimental branch of the map control in Italian.
 
-```
+```html
 <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&branch=experimental&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 ```
 
@@ -49,7 +49,7 @@ Here is an example of Bing Maps with the language parameter set to "fr" and the 
 
 The resulting map looks like this:
 
-![French localized map](../../media/bmv8-franchlocalizedmap.PNG)
+![French localized map](../media/bmv8-franchlocalizedmap.PNG)
 
 ### Supported Languages
 

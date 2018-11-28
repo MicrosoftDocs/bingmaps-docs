@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Load Single Boundary GeoData Example
+
 This examples renders a PopulatedPlace (city, town) boundary for the Location that is in the center of the map view when the map is loaded. The center of the map is set to (43.7, -79.3834) which is a location in Toronto, Ontario, Canada.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,6 +63,6 @@ This examples renders a PopulatedPlace (city, town) boundary for the Location th
 
 Running this code will display a map with the boundaries of Toronto displayed. 
 
-![Single Boundary on a Map](../../media/bmv8-geodatasingleboundary.png)
+![Single Boundary on a Map](../../../media/bmv8-geodatasingleboundary.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadSingleBoundary+JS)

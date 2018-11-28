@@ -22,7 +22,7 @@ ms.service: "bing-maps"
 
 In this example the encoded string “x90uhio4sQmhuGwxrGz8sGp-zP5ooKpx9Eiz7Ip2vFko8E56xEl-zEyhkG” is decoded into an array of Locations. The array of locations is then displayed on the map as a Polyline and map view set accordingly so that we can see what it looks like. To demonstrate and verify the encoding/decoding logic this example then encodes the Locations and compares the two strings to ensure they are the same.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,6 +70,6 @@ In this example the encoded string “x90uhio4sQmhuGwxrGz8sGp-zP5ooKpx9Eiz7Ip2vF
 
 Running this code will display a Polyline, that is derived from the provided encoded string, on to of the map. In this case it represents a section of the 520 highway in Bellevue, WA.
 
-![BMV8_PointCompressionExample](../../media/bmv8-pointcompressionexample.png)
+![BMV8_PointCompressionExample](../media/bmv8-pointcompressionexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)

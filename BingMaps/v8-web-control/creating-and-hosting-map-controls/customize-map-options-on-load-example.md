@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Customize Map Options on Load Example
+
 You can customize the map as you load it. Use the following code to update how the map is loaded in the GetMap function such that it sets the type to aerial, the zoom level to 10, and the map center over London, UK (51.50632, -0.12714).
 
-```
+```javascript
 var map = new Microsoft.Maps.Map('#myMap', {
     credentials: 'Your Bing Maps Key',
     center: new Microsoft.Maps.Location(51.50632, -0.12714),
@@ -27,5 +28,4 @@ var map = new Microsoft.Maps.Map('#myMap', {
 
 This results in the map being loaded, zoomed in over London, UK with the aerial imagery displayed.
 
-![London Aerial Sample Image](../../media/bmv8-customizemapoptionsonload-londonaerial.png)
-
+![London Aerial Sample Image](../media/bmv8-customizemapoptionsonload-londonaerial.png)
