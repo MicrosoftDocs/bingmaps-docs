@@ -139,4 +139,4 @@ This example loads the Spatial Data Services module on its own as a map isn't re
 
 Running this code will display a line of text for each test and either the word “passed” or “true” if the filter logic performed as expected.
 
-![BMV8_FilterExample](..//media/bmv8-filterexample.PNG)
+![BMV8_FilterExample](../../media/bmv8-filterexample.PNG)

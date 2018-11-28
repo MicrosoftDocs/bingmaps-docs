@@ -75,6 +75,6 @@ The following code sample shows how to make a geocode request using the Search m
 
 Here is what the resulting map looks like.
 
-![Geocoding Result on a Map](..//media/bmv8-basicgecodeexample.png)
+![Geocoding Result on a Map](../../media/bmv8-basicgecodeexample.png)
 
 [Try it now](http://bingmapsv8samples.azurewebsites.net/#Geocode)

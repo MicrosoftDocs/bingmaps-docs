@@ -75,4 +75,4 @@ For many apps the default infobox and the various options for customizing it wor
 
 This code creates an infobox sing custom HTML which contains an image and a link.
 
-![BMV8_CustomInfoboxExample](..//media/bmv8-custominfoboxexample2.png)
+![BMV8_CustomInfoboxExample](../../media/bmv8-custominfoboxexample2.png)

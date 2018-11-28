@@ -67,6 +67,6 @@ This example uses the [AnimatedTileLayer](../../map-control-api/animatedtilelaye
 
 If you run this code you will briefly see a loading message on the map which is pre-loading the map tiles in the current map view for the animation. Once this message disappears the animation will begin and smoothly transition between each tile layer. If you pan or zoom the map the loading screen will appear again as new map tiles are preloaded for the new map view.
 
-![BMV8_AnimatedWeatherRadar](..//media/bmv8-animatedweatherradar.PNG)
+![BMV8_AnimatedWeatherRadar](../../media/bmv8-animatedweatherradar.PNG)
 
 [Try it now](http://www.bing.com/api/maps/mapcontrol/isdk#weatherRadarMap+JS)

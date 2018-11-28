@@ -66,6 +66,6 @@ This example attaches several mouse events to a polyline. When these events fire
 
 If you run this code and hover and click the polyline you will see all these different events fire.
 
-![BMV8_PolylineEvents](..//media/bmv8-polylineevents.png)
+![BMV8_PolylineEvents](../../media/bmv8-polylineevents.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#polylineAllEvents+JS)

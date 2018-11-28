@@ -18,8 +18,8 @@ This enumeration is used to specify the shape of data bin rendered in the layer.
 
 | Name          | Description                                             | Example |
 |---------------|---------------------------------------------------------|---------|
-| `circle`        | Renders data bins as circles in a square grid.          | ![BMV8_CircleDataBin](..//media/bmv8-circledatabin.PNG) |
-| `hexagon`       | Renders data bins as hexagons with a flat top edge.     | ![BMV8_HexDataBin](..//media/bmv8-hexdatabin.PNG)
-| `hexCircle`     | Renders data bins as circles in a hexagonal grid.       | ![BMV8_HexCircleDataBin](..//media/bmv8-hexcircledatabin.PNG) |
-| `pointyHexagon` | Renders data bins as hexagons with a pointy top corner. | ![BMV8_PointyHexDataBin](..//media/bmv8-pointyhexdatabin.PNG) |
-| `square`        | Renders data bins as a square grid.                     | ![BMV8_SquareDataBin](..//media/bmv8-squaredatabin.PNG) |
+| `circle`        | Renders data bins as circles in a square grid.          | ![BMV8_CircleDataBin](../../media/bmv8-circledatabin.PNG) |
+| `hexagon`       | Renders data bins as hexagons with a flat top edge.     | ![BMV8_HexDataBin](../../media/bmv8-hexdatabin.PNG)
+| `hexCircle`     | Renders data bins as circles in a hexagonal grid.       | ![BMV8_HexCircleDataBin](../../media/bmv8-hexcircledatabin.PNG) |
+| `pointyHexagon` | Renders data bins as hexagons with a pointy top corner. | ![BMV8_PointyHexDataBin](../../media/bmv8-pointyhexdatabin.PNG) |
+| `square`        | Renders data bins as a square grid.                     | ![BMV8_SquareDataBin](../../media/bmv8-squaredatabin.PNG) |

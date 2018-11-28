@@ -29,7 +29,7 @@ The Bing Map V8 provides a Search, Direction and Traffic modules which wraps sev
 
 The Bing Maps REST services can be accessed using GET requests with JSONP. The following examples show how to access the Bing Maps REST Location API to geocode a query and display the matching results in a table using different JavaScript frameworks. All of these examples will look like this in a browser.
 
-![BMV8_RestExample](..//media/bmv8-restexample.PNG)
+![BMV8_RestExample](../../media/bmv8-restexample.PNG)
 
 ### Standard JavaScript
 

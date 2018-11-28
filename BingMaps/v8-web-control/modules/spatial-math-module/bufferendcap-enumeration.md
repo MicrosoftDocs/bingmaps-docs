@@ -24,4 +24,4 @@ This enumeration defines how the end of a line should be buffered. You can acces
 
 The following diagram shows the different between these different end caps.
 
-![BMV8_BufferEndCaps](..//media/bmv8-bufferendcaps.png)
+![BMV8_BufferEndCaps](../../media/bmv8-bufferendcaps.png)

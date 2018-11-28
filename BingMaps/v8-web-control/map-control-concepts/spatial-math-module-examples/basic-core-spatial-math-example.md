@@ -79,4 +79,4 @@ The following example shows how to use a number of the core Spatial Math functio
 
 Running this code will display a map with a geodesic line, with two pushpins on it. Below the map some calculated values are displayed.
 
-![BMV8_SpatialMathBasics](..//media/bmv8-spatialmathbasics.PNG)
+![BMV8_SpatialMathBasics](../../media/bmv8-spatialmathbasics.PNG)

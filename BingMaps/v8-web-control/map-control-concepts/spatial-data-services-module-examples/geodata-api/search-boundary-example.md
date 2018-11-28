@@ -121,6 +121,6 @@ However, what if you want to get the boundary of a location and don't know what 
 
 Running this code will load a textbox, a button and a map. Type in a location into the textbox and press search. If the location has an entity type value that is supported by the GeoData API, a boundary will be requested and if available, displayed on the map. Here is an example when searching for New York City.
 
-![Search Boundary on a Map](..//media/bmv8-geodataboundarysearch.png)
+![Search Boundary on a Map](../../media/bmv8-geodataboundarysearch.png)
  
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadBoundaryFromSearch+JS)

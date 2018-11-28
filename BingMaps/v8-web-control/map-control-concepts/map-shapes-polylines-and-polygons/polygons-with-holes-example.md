@@ -68,4 +68,4 @@ The following code is an example that creates a complex polygon that has a hole 
 
 Here is what this complex polygon would look like when zoomed out.
 
-![Polygon with a Hole on a Map](..//media/bmv8-polygonwithholeexample.png)
+![Polygon with a Hole on a Map](../../media/bmv8-polygonwithholeexample.png)

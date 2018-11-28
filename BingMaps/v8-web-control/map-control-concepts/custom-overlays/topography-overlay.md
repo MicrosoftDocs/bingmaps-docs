@@ -96,6 +96,6 @@ This example creates a custom overlay that streaches an image such that the corn
 
 Running this code will overlay a topographic image of a mountain range on top of the map. As you pan and zoom you will notice that the corners of the image stay bounded to the specified bounding box and streaches as needed based on zoom level.
 
-![BMV8_TopographicOverlayExample](..//media/bmv8-topographicoverlayexample.PNG)
+![BMV8_TopographicOverlayExample](../../media/bmv8-topographicoverlayexample.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#imageOverlay+JS)

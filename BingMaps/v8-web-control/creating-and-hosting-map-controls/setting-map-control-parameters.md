@@ -49,7 +49,7 @@ Here is an example of Bing Maps with the language parameter set to "fr" and the 
 
 The resulting map looks like this:
 
-![French localized map](..//media/bmv8-franchlocalizedmap.PNG)
+![French localized map](../../media/bmv8-franchlocalizedmap.PNG)
 
 ### Supported Languages
 

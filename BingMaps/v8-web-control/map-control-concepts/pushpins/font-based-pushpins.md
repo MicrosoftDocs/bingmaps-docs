@@ -75,4 +75,4 @@ One great source for pushpin icons is font based glyphs. This example shows how 
 
 Running this code will display a pushpin that looks like a red truck. 
 
-![BMV8_FontBasedPushpins](..//media/bmv8-fontbasedpushpins.PNG)
+![BMV8_FontBasedPushpins](../../media/bmv8-fontbasedpushpins.PNG)

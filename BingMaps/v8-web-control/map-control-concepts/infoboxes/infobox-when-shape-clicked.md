@@ -76,4 +76,4 @@ Often it is useful to be able to display an infobox when any `IPrimitive` shape;
 
 Running this code will display a polygon on the map. If you click on it, an infobox will appear filled in with the metadata for that polygon. 
 
-![BMV8_InfoboxShapeClicked](..//media/bmv8-infoboxshapeclicked2.png)
+![BMV8_InfoboxShapeClicked](../../media/bmv8-infoboxshapeclicked2.png)

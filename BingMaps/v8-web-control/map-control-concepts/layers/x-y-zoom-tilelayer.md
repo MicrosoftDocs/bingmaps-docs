@@ -54,6 +54,6 @@ This example shows how to display a tile layer that uses an X, Y and Zoom tile U
 
 Running this code in a browser will display a weather radar tile layer over top of the USA. 
  
-![BMV8_TileLayerXYZoom](..//media/bmv8-tilelayerxyzoom.PNG)
+![BMV8_TileLayerXYZoom](../../media/bmv8-tilelayerxyzoom.PNG)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerPublicXYZoom+JS)

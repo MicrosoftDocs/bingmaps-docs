@@ -116,4 +116,4 @@ Often infoboxes are displayed when a user clicks or hovers over a pushpin. Anoth
 
 If you run this code and hover over a pushpin you will see a tooltip appear that displays the title property of the pushpin. If you click on the pushpin a detailed infobox will appear that contains the title and description.
 
-![BMV8_InfoboxExpandingTooltipExample](..//media/bmv8-infoboxexpandingtooltipexample.png)
+![BMV8_InfoboxExpandingTooltipExample](../../media/bmv8-infoboxexpandingtooltipexample.png)

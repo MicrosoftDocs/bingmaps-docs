@@ -175,6 +175,6 @@ The following code shows how to implement this module by adding a simple HTML el
 
 Running this code will display three HTML pushpins on the map that consist of a white box containing some red text.
 
-![BMV8_HtmlPushpinOverlayExample](..//media/bmv8-htmlpushpinoverlayexample.png)
+![BMV8_HtmlPushpinOverlayExample](../../media/bmv8-htmlpushpinoverlayexample.png)
 
 A more in-depth code sample which includes support for dragging of HTML pushpins can be found [here](http://bingmapsv8samples.azurewebsites.net/#Html%20Pushpin%20Layer). 

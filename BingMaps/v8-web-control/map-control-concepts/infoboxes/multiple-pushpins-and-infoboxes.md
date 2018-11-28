@@ -79,4 +79,4 @@ When you have a lot of pushpins and only want to show one infobox at a time, the
 
 Running this code will display 5 pushpins on the map. If you click on any of them, you will see an infobox appear with details for that pushpin.
 
-![BMV8_MultiplePushpinsAndInfobox](..//media/bmv8-multiplepushpinsandinfobox2.png)
+![BMV8_MultiplePushpinsAndInfobox](../../media/bmv8-multiplepushpinsandinfobox2.png)

@@ -79,6 +79,6 @@ This example shows how all the different events for the map work by highlight a 
 ```
 This code loads a map. As you interactive with it using a mouse or touch you will see the different map events highlighted as they are fired.
 
-![BMV8_MapEvents](..//media/bmv8-mapevents.png)
+![BMV8_MapEvents](../../media/bmv8-mapevents.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#mapMouseEvents+JS)

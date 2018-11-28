@@ -66,6 +66,6 @@ This example attaches several mouse events to a pushpin. When these events are t
 
 If you run this code and hover and click the pushpin you will see all these different events fire.
 
-![BMV8_PushpinEventExample](..//media/bmv8-pushpineventexample.png)
+![BMV8_PushpinEventExample](../../media/bmv8-pushpineventexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#pushpinAllEvents+HTML)

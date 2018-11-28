@@ -83,6 +83,6 @@ In this example, a function is created that takes in a heading and draws an arro
 
 Here is what this pushpin looks like on the map.
  
-![BMV8_ArrowPushpinExample](..//media/bmv8-arrowpushpinexample.png)
+![BMV8_ArrowPushpinExample](../../media/bmv8-arrowpushpinexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromCanvas+JS)

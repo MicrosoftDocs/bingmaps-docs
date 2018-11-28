@@ -62,4 +62,4 @@ This example shows how to hide the base map tiles and display a custom map tile 
 
 Running this code in a browser will display a map of the USA using the USGS National Map style. In addition to using different colors and label styles, additional map details appear at lower zoom levels such as elevation contour lines.
 
-![BMV8_TileLayer_BaseMercator](..//media/bmv8-tilelayer-basemercator.PNG)
+![BMV8_TileLayer_BaseMercator](../../media/bmv8-tilelayer-basemercator.PNG)

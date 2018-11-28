@@ -41,7 +41,7 @@ There are two different ways to change the map view. One way is to use the **set
 </body>
 </html>
 ```
-![BMV8_ChangeMapView](..//media/bmv8-changemapview.png)
+![BMV8_ChangeMapView](../../media/bmv8-changemapview.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#setMapViewOptions+JS)
 

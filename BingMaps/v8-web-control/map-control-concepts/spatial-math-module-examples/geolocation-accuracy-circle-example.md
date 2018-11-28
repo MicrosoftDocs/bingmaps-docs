@@ -59,4 +59,4 @@ When using the HTML Geolocation library, it may be useful to be able to display 
 
 Running this code, you will initially be prompted by the browser to share your location. If you share your location the map will zoom in and display a pushpin and an accuracy circle for your location.
 
-![BMV8_SpatialMathGeolocationAccuracyCircle](..//media/bmv8-spatialmathgeolocationaccuracycircle.PNG)
+![BMV8_SpatialMathGeolocationAccuracyCircle](../../media/bmv8-spatialmathgeolocationaccuracycircle.PNG)
