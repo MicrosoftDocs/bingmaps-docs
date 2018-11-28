@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Paged Search Results Example
+
 This code example takes a data source and performs an initial radial search of 10 kilometers. It then displays the first 10 results on the map and also creates a list of the results below the map. Clicking on any item in the list below the map triggers an event that looks up the associated pushpin, then zooms and centers the map over it. Because there are more than 10 results for the initial query, this code sample lets you page through the results (10 at a time.) The Forth Coffee Cup data source is used in this example and contains a set of fictitious coffee shop locations. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -161,6 +163,6 @@ This code example takes a data source and performs an initial radial search of 1
 
 Running this code will load a map that display up to 10 Forth Coffee Cup locations at a time that are within 10 kilometers of Bellevue, WA. Pressing the forward or backwards button will trigger a new request that pages through the results of the initial query. Additionally, each result is displayed in a list, clicking on an item will result in the map zooming and centering over that location. This is a very common set of functionalities used in store locators.
 
-![Paged Search Results on a Map](../../media/bmv8-pagednearbyresultsexample.png)
+![Paged Search Results on a Map](../../../media/bmv8-pagednearbyresultsexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsPageResults+JS)

@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Find By Property Example
-One of the simpliest ways to query a data source is to do a property based search. This can easily be achieved with the Spatial Data Services module by specifying a data source and a filter.
 
-```
+One of the simplest ways to query a data source is to do a property based search. This can easily be achieved with the Spatial Data Services module by specifying a data source and a filter.
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,6 +66,6 @@ One of the simpliest ways to query a data source is to do a property based searc
 </html>
 ```
 
-Running this code will search for the first 25 gas stations in the [NavteqNA data source](../spatial-data-services/navteqna.md).
+Running this code will search for the first 25 gas stations in the [NavteqNA data source](../../../../spatial-data-services/public-data-sources/navteqna.md).
 
-![BMV8_FindByPropertyExample](../../media/bmv8-findbypropertyexample.PNG)
+![BMV8_FindByPropertyExample](../../../media/bmv8-findbypropertyexample.PNG)

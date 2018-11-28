@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Choropleth Map Example
-This code example retrieves [US state boundaries from a Spatial Data Source](../spatial-data-services/2010-us-census-data-sources.md) that contains US census data. These boundaries are color coded based on the population metric. 
 
-```
+This code example retrieves [US state boundaries from a Spatial Data Source](../../../../spatial-data-services/public-data-sources/2010-us-census-data-sources.md) that contains US census data. These boundaries are color coded based on the population metric. 
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -164,6 +165,6 @@ This code example retrieves [US state boundaries from a Spatial Data Source](../
 
 Running this code will display a map of the USA with color coded US states based on population. A legend for the colors is overlaid on top the map as well. If you click on any of the states, a notification will appear which specifies which state was clicked and its population.  
 
-![Choropleth Map](../../media/bmv8-sdschoroplethmapexample.png)
+![Choropleth Map](../../../media/bmv8-sdschoroplethmapexample.png)
 
 [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsChoroplethMap+JS)

@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Basic Intersection Search Example
+
 This example shows how to make a simple intersection query against a data source using the map bounds. As you pan and zoom the map a new query is made to load in new data for the map bounds.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,4 +73,4 @@ This example shows how to make a simple intersection query against a data source
 
 When loaded this code will retrieve results from the Fourth Coffee Shop sample data source as you pan and zoom the map that fall within the map bounds. 
 
-![BMV8_BasicIntersectionExample](../../media/bmv8-basicintersectionexample.png)
+![BMV8_BasicIntersectionExample](../../../media/bmv8-basicintersectionexample.png)

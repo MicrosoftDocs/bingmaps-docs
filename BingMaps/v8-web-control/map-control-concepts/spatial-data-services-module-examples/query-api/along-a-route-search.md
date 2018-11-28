@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Along a Route Search
 This example shows how to search for locations along a route. It uses the built-in direction input panel and the Fourth Coffee Sample data source to search for coffee shops that are along a route.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -174,4 +174,4 @@ This example shows how to search for locations along a route. It uses the built-
 
 Running this code will display a map and the directions input panel. Calculating a route from "Redmond, WA" to "Seattle, WA" will display a route on the map and nearby coffee shops. Clicking on a coffee shop will show the name of the coffee shop and the type of store it is.
 
-![BMV8_FindAlongRouteExample](../../media/bmv8-findalongrouteexample.PNG) 
+![BMV8_FindAlongRouteExample](../../../media/bmv8-findalongrouteexample.PNG) 
