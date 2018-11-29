@@ -19,7 +19,7 @@ ms.service: "bing-maps"
 
 ## Create a Bing Maps Account and Get a Key
 
-Before you begin developing your application, you need to create a developer account on the Bing Maps Account Center. A Bing Maps Developer Account allows you to create a Bing Maps Key to use in your map application. Getting a key is described in the [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md) topic.
+Before you begin developing your application, you need to create a developer account on the Bing Maps Account Center. A Bing Maps Developer Account allows you to create a Bing Maps Key to use in your map application. Getting a key is described in the [Getting a Bing Maps Key](../../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md) topic.
 
 ## Loading a map
 
