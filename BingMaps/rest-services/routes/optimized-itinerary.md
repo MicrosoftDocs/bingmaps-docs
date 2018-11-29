@@ -23,7 +23,7 @@ A maximum of two agent shifts are allowed for synchronous Optimize Itinerary API
 - (a) two agents, each with a single shift, or 
 - (b) a single agent with two or fewer shifts 
 
-can be used with synchronous calls. 
+can be used with synchronous calls. For synchronous calls, there is also a maximum of twenty (20) itinerary items.
 
 If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen of fewer shifts are allowed, and up to one hundred itinerary items may be scheduled.  
 
@@ -33,7 +33,7 @@ Below is a visual representation of each of the `M` agents and their assigned it
 
 ![Multi_Itin_Image](../media/Multi-TSP_Illustration.png)
 
-For a more in-depth example of the Multi-Itinerary API, see [ADD LINK TO ARTICLE HERE](#).
+For a more in-depth example of the Multi-Itinerary API, see [Create an Optimized Itinerary](../../articles/create-an-optimized-itinerary.md).
 
 The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItineray` resource which includes a list of agent itineraries with travel instructions and route information. 
 
@@ -45,7 +45,7 @@ See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests
 
 > [!NOTE]
 > 
-> We recommend that developers keep URLs under 2083 characters in length, and for Optimized Itinerary API URL requests with many agents and item waypoints, an HTTP POST request should be used instead of HTTP GET request.
+> We recommend that developers keep URLs under 2083 characters in length, and for Optimized Itinerary API URL requests with many agents and item waypoints, an HTTP POST request should be used instead of an HTTP GET request.
 
 ### Synchronous GET Optimize Itinerary
 
@@ -84,18 +84,18 @@ Here is a template POST body, in JSON format, which should be used for both sync
                         "longitude": ...
                     }
                 }
-			]
+            ]
         }
     ],
     "itineraryItems": [
         {
-            "OpeningTime": "...",
-            "ClosingTime": "...",
-            "DwellTime": "...",
-            "Priority": ...,
-            "Location": {
-                "Latitude": ...,
-                "Longitude": ...
+            "openingTime": "...",
+            "closingTime": "...",
+            "dwellTime": "...",
+            "priority": ...,
+            "location": {
+                "latitude": ...,
+                "longitude": ...
             }
         }
     ]

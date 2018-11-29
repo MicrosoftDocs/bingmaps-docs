@@ -40,7 +40,7 @@ The developer must provide specific information about each agent and itinerary i
 * Business opening time
 * Business ending time
 * Location (Query of Point)
-* Item Priority (on a scale from `1` to `99`, from lowest to highest)
+* Item Priority (on a scale from `1` to `100`, from lowest to highest)
 
 ## Example
 
@@ -153,7 +153,7 @@ The body of the POST request is as follows:
                         "longitude": -122.337095
                     }
                 }
-			]
+            ]
         },
         {
             "name": "Charlie",
@@ -182,7 +182,7 @@ The body of the POST request is as follows:
                         "longitude": -122.337095
                     }
                 }
-			]
+            ]
         },
         {
             "name": "Andre",
@@ -211,7 +211,7 @@ The body of the POST request is as follows:
                         "longitude": -122.195686
                     }
                 }
-			]
+            ]
         }
     ],
     "itineraryItems": [
