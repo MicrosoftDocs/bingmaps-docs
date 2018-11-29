@@ -96,11 +96,25 @@ __Andre__:
 ![andre_starting_image.png](media/andre_starting_image.png)
 
 
-
-
-
-
 ### Formatting the Itinerary Data
+
+We will use 13 itinerary items. To simplify things, we'll assume all the coffee shops our agents are delivering goods to have the same opening and closing hours. However, we will assign different priorities and dwell times to each shop (for our example, the priorities and dwell times are chosen randomly).
+
+|Coffee Shop | Coordiantes | Dwell Time | Priority |
+|----------|--------------|---|----|
+Starbucks   |  47.6140060424805,-122.347236633301 | 01:31:08.3850000 | 2
+Storyville Coffee Company|    47.6088790893555,-122.340362548828 | 02:00:00.00 | 5
+Seattle Coffee Works|   47.6087913513184,-122.339477539062 | 00:05:00.00 | 67
+Monorail Espresso|  47.6110000610352,-122.33544921875 | 00:30:00.00 | 14
+Moore Coffee | 47.6116981506348,-122.34105682373 | 03:00:00.00 | 9
+Citizen  | 47.6257209777832,-122.345993041992 | 00:10:00.00 | 23
+Bang Bang Cafe  | 47.6139373779297,-122.349090576172 | 01:15:00.00 | 7
+Espresso Vivace  | 47.6237602233887,-122.32063293457 | 00:01:00.00 | 54
+Cafe Cesura  | 47.6195220947266,-122.196739196777 | 01:15:00.00 | 34
+Top Pot Doughnuts  | 47.6186218261719,-122.198760986328 | 00:05:00.00 | 6
+Seattle Coffee Gear | 47.6176605224609,-122.196708679199 | 00:18:00.00 | 8
+777 Cafe | 47.6168899536133,-122.19686126709 | 00:19:30.00 | 91
+Starbucks | 47.614330291748,-122.199150085449 | 00:45:00.00 | 99
 
 
 ### GET vs POST Requests
