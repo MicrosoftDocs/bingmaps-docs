@@ -115,7 +115,7 @@ https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync
 Post an asynchronous optimized itinerary from agent shift and item itinerary information specified with the `itineraryAgents` and `itineraryItems`. parameters in the POST body of the URL request. 
 
 ```url
-https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync
+https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?key={BingMapsKey}
 ```
 
 ## API Parameters
@@ -163,7 +163,7 @@ The Optimized Itinerary API uses a special syntax to specify the working shifts 
 
 This information is expressed in the Agent/Shift information format below:
 
-```
+```url
 itineraryAgents=
     agentX_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+20:00:00|47.7070790545669,-122.355226696231;
     agentY_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+20:00:00|1317 E Republican St, Seattle, WA 98102
@@ -180,7 +180,8 @@ Opening Time|Closing Time|Dwell Time|Location|Priority|
 |`11/09/2017+09:00:00` | `11/09/2017+18:00:00` | `02:34:48.5430000` | `47.6962193175262,-122.342180147243` | 16 |
 
 These itinerary items are expressed using the API syntax signature as follows:
-```
+
+```url
 itineraryItems=
     11/09/2017+09:00:00_11/09/2017+18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;
     11/09/2017+09:00:00_11/09/2017+18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;
