@@ -1,0 +1,11 @@
+from filemap import FileMap
+from pandas import read_excel
+mapper = FileMap(ignore_dir=['msdn_migration'])
+
+
+def get_http_data():
+    reuturn read_excel('msdn_migration/bad_http_links.xlsx')
+
+
+with row in get_http_data().iterrow():
+    print(row)
