@@ -107,4 +107,4 @@ Running this code in your browser will display a map filled with hexagon data bi
 
 ![BMV8_GradientHexBins](../../media/bmv8-gradienthexbins.PNG)
  
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)

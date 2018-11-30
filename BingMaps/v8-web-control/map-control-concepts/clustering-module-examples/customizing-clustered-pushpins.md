@@ -108,4 +108,4 @@ Running this code in a browser will cluster 3,000 random pushpins and display th
 
 ![BMV8_CustomClusteredPushpinsExample](../../media/bmv8-customclusteredpushpinsexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#customizeClusteredPushpins+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#customizeClusteredPushpins+JS)

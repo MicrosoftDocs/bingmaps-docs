@@ -53,4 +53,4 @@ Running this code in a browser will display a map with a bunch of pushpins on it
 
 ![Basic Image Clustering on a Map](../../media/bmv8-basicclusteringexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)

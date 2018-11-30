@@ -50,4 +50,4 @@ Here is what these polygons look like when running this code. Note that since th
 
 ![Test Data Generator](../../media/bmv8-testdatageneratorexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPolygonsWithHoles+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPolygonsWithHoles+JS)

@@ -196,7 +196,7 @@ End Function)
  The data contracts for the Bing Maps REST Services are large but straight forward. All classes need to have a DataContract attribute, and all public properties that are to be serialized need to have a DataMember attribute, and both a getter and a setter in C#. See [JSON Data Contracts](../rest-services/json-data-contracts.md) for the latest set of contracts.  
   
 ## See Also  
- [Bing Maps REST Service Tips & Tricks](http://blogs.bing.com/maps/2013/02/14/bing-maps-rest-service-tips-tricks/)   
- [Geocoding With the Search Charm (Blog)](http://blogs.bing.com/maps/2013/06/20/geocoding-with-the-search-charm/)   
+ [Bing Maps REST Service Tips & Tricks](https://blogs.bing.com/maps/2013/02/14/bing-maps-rest-service-tips-tricks/)   
+ [Geocoding With the Search Charm (Blog)](https://blogs.bing.com/maps/2013/06/20/geocoding-with-the-search-charm/)   
  [Geocoding with the Search Charm (Code)](https://code.msdn.microsoft.com/Geocoding-with-the-Search-b1dcbf8a)   
  [How to Share Maps Using the Share Charm in Windows Store Apps](http://blogs.msdn.com/b/rbrundritt/archive/2013/11/08/how-to-share-maps-using-the-share-charm-in-windows-store-apps.aspx)

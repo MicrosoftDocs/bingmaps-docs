@@ -64,7 +64,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
   
 -   JSON (application/json)  
   
- When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. For more information about Atom response formats, see [OData AtomPub Format](http://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
+ When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. For more information about Atom response formats, see [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
   
  **Response Fields**  
   

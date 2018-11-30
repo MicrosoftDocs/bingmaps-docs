@@ -75,4 +75,4 @@ Running this code will display a transit route from “Redmond, WA” to “Seat
 
 ![BMV8_TransitDirectionsExample2](../../media/bmv8-transitdirectionsexample2.PNG)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateTransitRoute+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateTransitRoute+JS)

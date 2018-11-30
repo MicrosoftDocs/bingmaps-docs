@@ -33,11 +33,11 @@ This article will describe how to write a PHP application that can interact with
   
  **Microsoft IIS 6 or 7** can also be used to host PHP applications, and we tested several of the examples on it to confirm that they work. If you are using IIS to host PHP, you may also want to install **FastCGI**, which improves performance of CGI applications in IIS. You can find a very detailed set of instructions for installing and configuring FastCGI and PHP at:  
   
--   IIS 6 - [http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
+-   IIS 6 - [https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
   
--   IIS 7 - [http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
+-   IIS 7 - [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
   
- To use the code in this article in the Windows environment, you will need to download the php_http extension from [http://downlaods.php.net/pierre](http://downloads.php.net/pierre/). For more information about which download to choose, see the **Which version do I choose?** on the PHP for Windows download page: [http://windows.php.net/download/](http://windows.php.net/download/).  
+ To use the code in this article in the Windows environment, you will need to download the php_http extension from [http://downlaods.php.net/pierre](https://downloads.php.net/pierre/). For more information about which download to choose, see the **Which version do I choose?** on the PHP for Windows download page: [https://windows.php.net/download/](https://windows.php.net/download/).  
   
  You will also need to activate the php_openssl extension. If you are using Wampserver, you can activate the php_openssl extension by selecting it from the WampServer taskbar menu under PHP->PHP extensions->php_openssl.  
   
@@ -179,7 +179,7 @@ function do_post_request($url, $data, $optional_headers = null)
 }  
 ```  
   
- The sample code in Listing 6 includes a custom function, **do_post_request**, which generates and sends an HTTP request using the classes provided by the **php_http** extension. If this extension is not included in your version of PHP, you can download it from [http://downloads.php.net/pierre/](http://downloads.php.net/pierre/).  
+ The sample code in Listing 6 includes a custom function, **do_post_request**, which generates and sends an HTTP request using the classes provided by the **php_http** extension. If this extension is not included in your version of PHP, you can download it from [https://downloads.php.net/pierre/](https://downloads.php.net/pierre/).  
   
  The $response object returned in Listing 6 is an HTTP response. You can pull information out of it by extracting its body (which is in XML format) and then using the PHP XML classes to extract what you need, as shown in Listing 7.  
   

@@ -65,4 +65,4 @@ Running this code will display a map with the boundaries of Toronto displayed.
 
 ![Single Boundary on a Map](../../../media/bmv8-geodatasingleboundary.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadSingleBoundary+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadSingleBoundary+JS)

@@ -41,9 +41,9 @@ This article will describe how to write a PHP application that can interact with
   
  **Microsoft IIS 6 or 7** can also be used to host PHP applications, and we tested several of the examples on it to confirm that they work. If you are using IIS to host PHP, you may also want to install **FastCGI**, which improves performance of CGI applications in IIS. You can find a very detailed set of instructions for installing and configuring FastCGI and PHP at:  
   
--   IIS 6 - [http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
+-   IIS 6 - [https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
   
--   IIS 7 - [http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
+-   IIS 7 - [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
   
  There are many other servers that can be configured to host PHP, and you are free to use any of those instead if you are more familiar with their functionality.  
   

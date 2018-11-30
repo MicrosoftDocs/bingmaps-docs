@@ -165,4 +165,4 @@ Running this code will load a map that display up to 10 Forth Coffee Cup locatio
 
 ![Paged Search Results on a Map](../../../media/bmv8-pagednearbyresultsexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsPageResults+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsPageResults+JS)

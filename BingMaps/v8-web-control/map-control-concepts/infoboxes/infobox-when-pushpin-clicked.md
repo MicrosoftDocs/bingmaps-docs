@@ -78,4 +78,4 @@ Running this code will display a pushpin on the map. If you click on it, an info
 
 ![BMV8_InfoboxWhenPinClicked](../../media/bmv8-infoboxwhenpinclicked2.png) 
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#displayInfoboxOnClickPushpin+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#displayInfoboxOnClickPushpin+JS)

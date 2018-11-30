@@ -24,17 +24,15 @@ for row in get_http_data():
 
     # exit(1)
     strip_head = 'https://github.com/MicrosoftDocs/bingmaps-docs/blob/master/BingMaps/'
-    
+    head_len = len(strip_head)
 
     test_url_raw = row[-1]
     
 
     if broken_url_head in test_url_raw:
-        source_file_parts = row[1].strip(strip_head).split('/')
+        source_file_parts = row[1][head_len:].split('/')
         length = len(test_url_raw)
         link = test_url_raw[N+1: length - M]
-
-        source_file_parts[-1] += '.md'
 
         path = mapper.get_path(*source_file_parts)
 
@@ -48,8 +46,10 @@ for row in get_http_data():
                 new_link = link.replace('http://', 'https://')
                 new_html = html.replace(link, new_link)
                 print(f'link:\n\t{link}\nnew link:\n\t{new_link}')
-                # assert(html != new_html)
+                if html != new_html:
 
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write(new_html)
-                    print(f'replaced: {path}')
+                    with open(path, 'w', encoding='utf-8') as f:
+                        f.write(new_html)
+                        print(f'replaced: {path}')
+        else:
+            print(f'\nError:\n\t{source_file_parts}\n')

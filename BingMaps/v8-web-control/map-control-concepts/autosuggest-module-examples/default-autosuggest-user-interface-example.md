@@ -61,4 +61,4 @@ Here is what the autosuggest UI looks like when typing in the letters “Se”. 
   
 ![Default Autosuggest Dropdown](../../media/bmv8-autosuggestexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)

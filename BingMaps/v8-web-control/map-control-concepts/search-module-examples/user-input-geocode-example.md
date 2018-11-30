@@ -113,4 +113,4 @@ Here is what this looks like when you do a search for “Paris”.
 
 ![User Input for Geocoding](../../media/bmv8-geocodeuserinputexample.png)
 
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#Geocode_SearchResults)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#Geocode_SearchResults)

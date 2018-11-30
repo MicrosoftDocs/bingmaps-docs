@@ -115,4 +115,4 @@ Running this code, press one of the 5 buttons to perform a binary operation agai
 
 ![BMV8_SpatialMathIntersectionExample](../../media/bmv8-spatialmathintersectionexample.PNG)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#binaryOperations+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#binaryOperations+JS)

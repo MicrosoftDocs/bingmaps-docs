@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # 2010 US Census Data Sources
-These data sources contain a subset of 2010 US Census data sourced from the [US Census Bureau](http://census.gov/). The United States collects census data once every ten years. The last US Census was in 2010 and the next one is scheduled for 2020. These data sources provide Census data based on 4 types of geographical boundaries; states, counties, ZTCA5 (Zip Code Tabulation Area), and the 111<sup>th</sup> Congressional Districts.
+These data sources contain a subset of 2010 US Census data sourced from the [US Census Bureau](https://census.gov/). The United States collects census data once every ten years. The last US Census was in 2010 and the next one is scheduled for 2020. These data sources provide Census data based on 4 types of geographical boundaries; states, counties, ZTCA5 (Zip Code Tabulation Area), and the 111<sup>th</sup> Congressional Districts.
 
 ## Query URLs ##
 

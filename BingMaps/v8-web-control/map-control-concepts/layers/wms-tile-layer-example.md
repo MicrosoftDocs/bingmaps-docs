@@ -21,7 +21,7 @@ When using a WMS service as a tile layer, the bounding box information of each m
 
 Note to be confused with the bounding box of the map tiles, WMS services usually publish the bounding box in which data is available. It is a good practice to specify this information when creating a tile layer as it will limit the tiles it requests to that area. 
 
-This example shows how to take the [NOAA Base Reflective Weather Radar WMS service](http://www.nws.noaa.gov/gis/services.html) and display it as a tile layer on the map. 
+This example shows how to take the [NOAA Base Reflective Weather Radar WMS service](https://www.nws.noaa.gov/gis/services.html) and display it as a tile layer on the map. 
 
 ```
 <!DOCTYPE html>

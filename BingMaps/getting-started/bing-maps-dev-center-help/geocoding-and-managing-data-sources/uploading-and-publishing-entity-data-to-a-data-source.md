@@ -51,7 +51,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 
  You can have a total of 350 properties in your schema. The latitude and longitude properties do not count towards this maximum.  
   
- The following table shows the supported data types for the data schema. These data types map to a set of OData types that are used by the data source. You must use the XML data types in an XML data schema. If you use one of the delimited formats for your data and data schema (values separated by commas, tabs or pipe (&#124;) characters), you must use the OData types in the data schema. Descriptions of OData types are found in the [OData Protocol Overview](http://www.odata.org/developers/protocols/overview).  
+ The following table shows the supported data types for the data schema. These data types map to a set of OData types that are used by the data source. You must use the XML data types in an XML data schema. If you use one of the delimited formats for your data and data schema (values separated by commas, tabs or pipe (&#124;) characters), you must use the OData types in the data schema. Descriptions of OData types are found in the [OData Protocol Overview](https://www.odata.org/developers/protocols/overview).  
   
 |XML Data Type|OData Type|  
 |-------------------|----------------|  

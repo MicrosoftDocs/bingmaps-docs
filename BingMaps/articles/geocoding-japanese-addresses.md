@@ -79,7 +79,7 @@ http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegr
 |**Request type**|**Address values/strings or coordinates**|**Example URL**|  
 |Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
 |Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
-|Geocode a postal code using URL address parameters|PostalCode = 108-0075|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=108-0075&o=xml&key=YourBingMapsKey&c=ja|  
+|Geocode a postal code using URL address parameters|PostalCode = 108-0075|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=108-0075&o=xml&key=YourBingMapsKey&c=ja|  
 |Geocode a postal code using a single address string|Query = 〒108-0075|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=%e3%80%92108%2d0075&o=xml&key=YourBingMapsKey&c=ja|  
 |Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|http://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
   
@@ -180,7 +180,7 @@ GeocodeRequest/ConfidenceFilter/MinimumConfidence
  Example: 2-16-3 Konan Minato-ku, Tokyo 108-0075 Japan  
   
 ## Japanese and Latin (Hepburn/Hebon) Character Sets  
- When you geocode a Japanese address, you can specify the address using any of the native character sets -- Kanji, Hiragana, Katakana – as well as [Hepburn Romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Hepburn Romanization, also known as Hebon, is a system for writing the Japanese language using the Latin alphabet.  
+ When you geocode a Japanese address, you can specify the address using any of the native character sets -- Kanji, Hiragana, Katakana – as well as [Hepburn Romanization](https://en.wikipedia.org/wiki/Hepburn_romanization). Hepburn Romanization, also known as Hebon, is a system for writing the Japanese language using the Latin alphabet.  
   
  You can also geocode an address that uses more than one characters set. For example, you can specify different parts of an address in Kanji and the Latin Hepburn system or Kanji and Katakana and still geocode the address. The following example shows an address written using Kanji and Hepburn Romanization.  
   

@@ -52,4 +52,4 @@ Running this code will load a map and display a pushpin at the coordinates (47.6
 
 ![Shapes on a Map](../../media/bmv8-readwkt.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktAddPoint+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktAddPoint+JS)

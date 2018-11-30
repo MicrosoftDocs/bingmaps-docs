@@ -134,33 +134,33 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New South Wales|Sydney|[train replacement bus operators](http://transportnsw.info)| 
 |Northern Territory|Alice Springs|[Public Transport](https://nt.gov.au/driving/public-transport-cycling)| 
 |Northern Territory|Darwin|[Public Transport - Department of Infrastructure Planning and Logistics](http://www.nt.gov.au/publictransport)| 
-|Queensland|Airlie Beach|[QConnect - Whitsunday Transit](http://www.whitsundaytransit.com.au/)| 
-|Queensland|Allenstown|[QConnect - Yeppoon](http://www.youngsbusservice.com.au/default2.html)| 
-|Queensland|Bowen|[QConnect - Bowen](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#bowen)| 
+|Queensland|Airlie Beach|[QConnect - Whitsunday Transit](https://www.whitsundaytransit.com.au/)| 
+|Queensland|Allenstown|[QConnect - Yeppoon](https://www.youngsbusservice.com.au/default2.html)| 
+|Queensland|Bowen|[QConnect - Bowen](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#bowen)| 
 |Queensland|Brisbane|[TransLink](http://www.translink.com.au)| 
-|Queensland|Bundaberg|[QConnect - Duffys & Stewarts](http://www.qld.gov.au/transport/public/transport/timetables/qconnect/)| 
+|Queensland|Bundaberg|[QConnect - Duffys & Stewarts](https://www.qld.gov.au/transport/public/transport/timetables/qconnect/)| 
 |Queensland|Cairns|[TransLink](http://www.sunbus.com.au)| 
 |Queensland|Gladstone|[QConnect - Buslink](http://www.buslinkqld.com.au/gladstone/gladstone.htm?)| 
-|Queensland|Gympie|[QConnect - Gympie](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#gympie)| 
+|Queensland|Gympie|[QConnect - Gympie](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#gympie)| 
 |Queensland|Innisfail|[QConnect - Trans North](http://www.transnorthbus.com/innisfail.asp)| 
-|Queensland|Kilcoy|[QConnect - Kilcoy](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#kilcoy_caboolture)| 
-|Queensland|Mackay|[QConnect - Mackay Transit Coaches](http://www.mackaytransit.com.au/)| 
-|Queensland|Magnetic Island|[QConnect - Magnetic Island Bus Service](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#magnetic)| 
-|Queensland|Maleny|[QConnect - Glass House Country Coaches](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx)| 
-|Queensland|Regional|[QConnect - Wide Bay Transit](http://www.widebaytransit.com.au/)| 
+|Queensland|Kilcoy|[QConnect - Kilcoy](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#kilcoy_caboolture)| 
+|Queensland|Mackay|[QConnect - Mackay Transit Coaches](https://www.mackaytransit.com.au/)| 
+|Queensland|Magnetic Island|[QConnect - Magnetic Island Bus Service](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#magnetic)| 
+|Queensland|Maleny|[QConnect - Glass House Country Coaches](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx)| 
+|Queensland|Regional|[QConnect - Wide Bay Transit](https://www.widebaytransit.com.au/)| 
 |Queensland|Rockhampton|[QConnect - Sunbus](http://www.sunbus.com.au)| 
-|Queensland|Toowoomba|[QConnect - Bus QLD](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#toowoomba)| 
-|Queensland|Warwick|[QConnect - Warwick](http://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#warwick)| 
-|South Australia|Adelaide|[Adelaide Metro (Industrial Service - Torrens Transit)](http://www.adelaidemetro.com.au/)| 
-|South Australia|Adelaide|[Adelaide Metro (Rail Commissioner)](http://www.adelaidemetro.com.au/)| 
-|South Australia|Adelaide|[Adelaide Metro (School Service - SouthLink)](http://www.adelaidemetro.com.au/)| 
-|South Australia|Adelaide|[Adelaide Metro (School Service - Torrens Transit)](http://www.adelaidemetro.com.au/)| 
-|South Australia|Adelaide|[Adelaide Metro (SouthLink)](http://www.adelaidemetro.com.au/)| 
-|South Australia|Adelaide|[Adelaide Metro (Torrens Transit)](http://www.adelaidemetro.com.au/)| 
+|Queensland|Toowoomba|[QConnect - Bus QLD](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#toowoomba)| 
+|Queensland|Warwick|[QConnect - Warwick](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#warwick)| 
+|South Australia|Adelaide|[Adelaide Metro (Industrial Service - Torrens Transit)](https://www.adelaidemetro.com.au/)| 
+|South Australia|Adelaide|[Adelaide Metro (Rail Commissioner)](https://www.adelaidemetro.com.au/)| 
+|South Australia|Adelaide|[Adelaide Metro (School Service - SouthLink)](https://www.adelaidemetro.com.au/)| 
+|South Australia|Adelaide|[Adelaide Metro (School Service - Torrens Transit)](https://www.adelaidemetro.com.au/)| 
+|South Australia|Adelaide|[Adelaide Metro (SouthLink)](https://www.adelaidemetro.com.au/)| 
+|South Australia|Adelaide|[Adelaide Metro (Torrens Transit)](https://www.adelaidemetro.com.au/)| 
 |Tasmania|Devonport|[Merseylink](http://www.merseylink.com.au)| 
 |Tasmania|Hobart|[Metro Tasmania](http://www.metrotas.com.au)| 
 |Tasmania|Hobart|[Tassielink](http://www.tassielink.com.au)| 
-|Victoria|Mornington|[Mornington Railway](http://morningtonrailway.org.au/)| 
+|Victoria|Mornington|[Mornington Railway](https://morningtonrailway.org.au/)| 
 |Victoria|Regional|[PTV](http://www.ptv.vic.gov.au)| 
 |Western Australia|Perth|[2K Tours](http://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
 |Western Australia|Perth|[TransAlbany](http://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
@@ -201,7 +201,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Auckland|[Waiheke Bus Company](http://www.aucklandtransport.govt.nz) 
 |Christchurch|[Metro Christchurch](http://metroinfo.org.nz) 
 |Hamilton|[Busit](http://www.busit.co.nz) 
-|Timaru|[Metro Timaru](http://www.metroinfo.org.nz/timIndex.html) 
+|Timaru|[Metro Timaru](https://www.metroinfo.org.nz/timIndex.html) 
 |Wellington|[Classic Coaches](http://www.metlink.org.nz) 
 |Wellington|[East By West Ferry](http://www.metlink.org.nz) 
 |Wellington|[Go Wellington](http://www.metlink.org.nz) 
@@ -227,22 +227,22 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
 |Ahmedabad|[AMTS](http://www.amts.co.in/) 
 |Bangalore|[Bangalore Metro Rail Corporation](http://www.bmrc.co.in/) 
-|Bangalore|[Bangalore Metropolitan Transport Corporation](http://www.mybmtc.com/) 
-|Chennai|[Chennai Metro Rail Limited](http://chennaimetrorail.org/) 
+|Bangalore|[Bangalore Metropolitan Transport Corporation](https://www.mybmtc.com/) 
+|Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
 |Chennai|[MTC](http://www.mtcbus.org/) 
 |Hyderabad|[Hyderabad Metro Rail Limited](http://hmrl.telangana.gov.in) 
-|Hyderabad|[Telangana State Road Transport Corporation](http://www.hyderabadbusroutes.in/) 
-|Kolkata|[CSTC](http://cstc.org.in/) 
-|Kolkata|[Calcutta Tramways Company (1978) Limited](http://www.calcuttatramways.com/) 
-|Kolkata|[Metro Railway Kolkata](http://kolmetro.com/) 
+|Hyderabad|[Telangana State Road Transport Corporation](https://www.hyderabadbusroutes.in/) 
+|Kolkata|[CSTC](https://cstc.org.in/) 
+|Kolkata|[Calcutta Tramways Company (1978) Limited](https://www.calcuttatramways.com/) 
+|Kolkata|[Metro Railway Kolkata](https://kolmetro.com/) 
 |Kolkata|[NBSTC](http://www.nbstc.in/) 
 |Kolkata|[SBSTC](http://sbstc.co.in/) 
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation/) 
-|Mumbai|[BEST](http://www.bestundertaking.com/) 
+|Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](http://www.mumbai-metro.com) 
 |Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/mumbai-monorail-p) 
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
-|Mumbai|[TMT](http://www.thanecity.gov.in/) 
+|Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](http://businfo.dimts.in) 
 |New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
 |New Delhi|[Delhi Transport Corporation](http://www.dtc.nic.in) 
@@ -257,10 +257,10 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Johor Bahru|[Syarikat Pengangkutan Handal Indah Sdn Bhd](https://www.causewaylink.com.my) 
-|Kuala Lumpur|[MYrapid Kuala Lumpur](http://myrapid.com.my/) 
+|Kuala Lumpur|[MYrapid Kuala Lumpur](https://myrapid.com.my/) 
 
 ## Thailand
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Regional|[Greenbus Thailand, LT.D.](http://www.greenbusthailand.com/website/en/) 
+|Regional|[Greenbus Thailand, LT.D.](https://www.greenbusthailand.com/website/en/) 
 |Regional|[Kwanwiang Transport, LTD.](https://www.facebook.com/khwanwiang.transport) 

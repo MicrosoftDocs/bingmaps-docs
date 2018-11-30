@@ -15,11 +15,11 @@ ms.service: "bing-maps"
 ---
 # Understanding Scale and Resolution
 
-One of the more difficult questions to answer about a [Bing](http://bing.com/) map involves determining the exact scale or resolution of a particular image.  The answer is complicated as resolution depends on several factors including the current latitude and longitude. Scale is further dependent on screen resolution.  In this article we will look at the factors that affect scale and resolution and provide you with formulas you can use to calculate approximate values.  
+One of the more difficult questions to answer about a [Bing](https://bing.com/) map involves determining the exact scale or resolution of a particular image.  The answer is complicated as resolution depends on several factors including the current latitude and longitude. Scale is further dependent on screen resolution.  In this article we will look at the factors that affect scale and resolution and provide you with formulas you can use to calculate approximate values.  
   
 ## The Mercator Projection  
 
-The first problem with both scale and resolution is that the world is neither flat, nor spherical.  Any flat representation of the planet is therefore a compromise between accuracy and convenience.  The [Mercator projection](http://en.wikipedia.org/wiki/Mercator_projection) is one of the traditional map projections and offers some very compelling advantages:  
+The first problem with both scale and resolution is that the world is neither flat, nor spherical.  Any flat representation of the planet is therefore a compromise between accuracy and convenience.  The [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection) is one of the traditional map projections and offers some very compelling advantages:  
   
 -   The map is conformal.  In other words, that means that the scale is constant around any position.  In other words, once we have our "x" scale, we also know our "y" scale for a map segment.  
   

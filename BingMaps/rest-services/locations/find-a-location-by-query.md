@@ -64,14 +64,14 @@ http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeigh
 >   
 >  Parameters are not case-sensitive.  
 >   
->  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](http://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](http://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
+>  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](http://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
   
 
 |Parameters|Alias|Description|Values|  
 |----------------|-----------|-----------------|------------|  
 |`query`|`q`|**Required.** Location information.|A string that contains information about a location, such as an address or landmark name.<br /><br /> **Structured URL examples**:<br /><br /> White%20House<br /><br /> 1600%20Pennsylvania%20Ave%20NW%20Washington,%20DC<br /><br /> **Unstructured URL examples**:<br /><br /> query=White%20House<br /><br /> q=1600%20Pennsylvania%20Ave%20NW%20Washington,%20DC|  
 |`includeNeighborhood`|`inclnb`|**Optional.** Specifies to include the neighborhood with the address information the response when it is available.|One of the following values:<br /><br /> -   1: Include neighborhood information when available.<br />-   0 **[default]**: Do not include neighborhood information.<br /><br /> **Example:**<br /><br /> inclnb=1|  
-|`include`|`incl`|**Optional.** Specifies to include additional information in the response.|One or more of the following options:<br /><br /> -   queryParse: Specifies that the response shows how the query string was parsed into address values, such as addressLine, locality, adminDistrict, and postalCode.<br />-   ciso2: Specifies to include the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm).<br /><br /> If you specify more than one include value, separate the values with a comma.<br /><br /> **Examples**:<br /><br /> incl=queryParse<br /><br /> incl=queryParse,ciso2|  
+|`include`|`incl`|**Optional.** Specifies to include additional information in the response.|One or more of the following options:<br /><br /> -   queryParse: Specifies that the response shows how the query string was parsed into address values, such as addressLine, locality, adminDistrict, and postalCode.<br />-   ciso2: Specifies to include the [two-letter ISO country code](https://www.iso.org/iso/country_codes.htm).<br /><br /> If you specify more than one include value, separate the values with a comma.<br /><br /> **Examples**:<br /><br /> incl=queryParse<br /><br /> incl=queryParse,ciso2|  
 |`maxResults`|`maxRes`|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> maxResults=10|  
 
 ## Response

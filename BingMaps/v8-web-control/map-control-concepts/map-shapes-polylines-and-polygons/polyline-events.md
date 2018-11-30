@@ -68,4 +68,4 @@ If you run this code and hover and click the polyline you will see all these dif
 
 ![BMV8_PolylineEvents](../../media/bmv8-polylineevents.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#polylineAllEvents+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#polylineAllEvents+JS)

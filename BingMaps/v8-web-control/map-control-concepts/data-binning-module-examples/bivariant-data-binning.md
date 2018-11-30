@@ -97,4 +97,4 @@ Running this code will render a map covered in hexagons of differenct sizes and 
 
 ![BMV8_BivariateHexBins](../../media/bmv8-bivariatehexbins.PNG)
  
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#bivariateDataBins+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#bivariateDataBins+JS)

@@ -81,4 +81,4 @@ This code loads a map. As you interactive with it using a mouse or touch you wil
 
 ![BMV8_MapEvents](../../media/bmv8-mapevents.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#mapMouseEvents+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#mapMouseEvents+JS)

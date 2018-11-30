@@ -57,4 +57,4 @@ Here is what this pushpin looks like on the map.
 
 ![BMV8_InlineSvgExample](../../media/bmv8-inlinesvgexample.png)
  
-[Try it here](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromSvg+JS)
+[Try it here](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromSvg+JS)

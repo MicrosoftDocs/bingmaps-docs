@@ -98,9 +98,9 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
 -   JSON (application/json)  
   
- When the output format is set to Atom, the response contains a collection of Atom entries that are part of an Atom feed. For more information about these Atom response formats, see [OData AtomPub Format](http://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
+ When the output format is set to Atom, the response contains a collection of Atom entries that are part of an Atom feed. For more information about these Atom response formats, see [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
   
- When the output format is JSON, the response format for both types of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](http://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
+ When the output format is JSON, the response format for both types of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
   
 ## Examples  
  **EXAMPLE: Query a data source by specifying a bounding box.**  

@@ -54,4 +54,4 @@ This code will add an infobox to the center of the map like this.
 
 ![Basic Infobox on a Map](../../media/bmv8-basicinfoboxexample2.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultInfobox+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultInfobox+JS)

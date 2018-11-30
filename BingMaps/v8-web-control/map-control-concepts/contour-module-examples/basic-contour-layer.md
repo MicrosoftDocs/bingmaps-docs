@@ -106,4 +106,4 @@ Running this code in a browser will display colored contour areas representing t
 
 ![BMV8_BasicContourLayer](../../media/bmv8-basiccontourlayer.PNG)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)

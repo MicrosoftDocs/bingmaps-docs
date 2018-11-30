@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Colors
-Colors are used by a number of classes in Bing Maps such as Polylines and Polygons and can be specified in one of two ways. The first method is to use [CSS3 color strings](http://www.w3.org/wiki/CSS3/Color). All CSS3 colors are supported, including [extended named colors](http://www.w3.org/wiki/CSS3/Color/Extended_color_keywords). Here are some examples of the different CSS3 color strings you can use.
+Colors are used by a number of classes in Bing Maps such as Polylines and Polygons and can be specified in one of two ways. The first method is to use [CSS3 color strings](https://www.w3.org/wiki/CSS3/Color). All CSS3 colors are supported, including [extended named colors](https://www.w3.org/wiki/CSS3/Color/Extended_color_keywords). Here are some examples of the different CSS3 color strings you can use.
 
 Color Type         | Example                    | Description
 ------------------ | -------------------------- | -----------------------

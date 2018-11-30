@@ -34,5 +34,5 @@ Use the following formats to specify locations and areas on the Earth.
 |`formattedAddress`|A string specifying the complete address. This address may not include the country or region.<br /><br /> **Example**: `1 Microsoft Way, Redmond, WA 98052-8300`|  
 |`postalCode`|A string specifying the post code, postal code, or ZIP Code of an address.<br /><br /> **Example**: `98178`|  
 |`countryRegion`|A string specifying the country or region name of an address.<br /><br /> **Example**: `United States`|  
-|`countryRegionIso2`|A string specifying the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm).<br /><br /> You must specify `include=ciso2` in your request to return this ISO country code.<br /><br /> **Example**: `US`|  
+|`countryRegionIso2`|A string specifying the [two-letter ISO country code](https://www.iso.org/iso/country_codes.htm).<br /><br /> You must specify `include=ciso2` in your request to return this ISO country code.<br /><br /> **Example**: `US`|  
 |`landmark`|A string specifying the name of the landmark when there is a landmark associated with an address.<br /><br /> **Example**: `Eiffel Tower`|

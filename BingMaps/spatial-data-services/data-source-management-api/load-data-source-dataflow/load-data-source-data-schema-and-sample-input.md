@@ -71,7 +71,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
 ### Location properties  
  Your data schema must include a location object that specifies the entity location. This object can be a latitude and longitude pair or a geographical object..  
   
- Supported geographical objects are SQL Server geography types, such as a line string or polygon. A geographical value must be specified using the [well-known text (WKT)](http://en.wikipedia.org/wiki/Well-known_text) format. For a list of supported geographical types, see [Geography Types](../../data-source-management-api/load-data-source-dataflow/geography-types.md).  
+ Supported geographical objects are SQL Server geography types, such as a line string or polygon. A geographical value must be specified using the [well-known text (WKT)](https://en.wikipedia.org/wiki/Well-known_text) format. For a list of supported geographical types, see [Geography Types](../../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
  The data schema must include a set of latitude and longitude properties or at most one geography property. You can also include both.  
   
@@ -106,7 +106,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
 ### More about entity properties and data types  
  You can have a total of 350 properties in your schema.  The latitude and longitude properties do not count towards this maximum.  
   
- You must use the XML data types in an XML data schema. If you use one of the delimited formats for your data and data schema (values separated by commas, tabs or pipe (&#124;) characters), you must use the OData types in the data schema. Descriptions of OData types are found in the [OData Protocol Overview](http://www.odata.org/developers/protocols/overview).  
+ You must use the XML data types in an XML data schema. If you use one of the delimited formats for your data and data schema (values separated by commas, tabs or pipe (&#124;) characters), you must use the OData types in the data schema. Descriptions of OData types are found in the [OData Protocol Overview](https://www.odata.org/developers/protocols/overview).  
   
  The following table shows the supported data types for the data schema. These data types map to a set of OData types that are used by the data source.  
   

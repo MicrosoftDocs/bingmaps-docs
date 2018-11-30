@@ -54,4 +54,4 @@ Running this code in a browser will display a map with the drawing toolbar displ
 
 ![BMV8_DrawingToolbarExample](../../media/bmv8-drawingtoolbarexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtDrawThings+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtDrawThings+JS)

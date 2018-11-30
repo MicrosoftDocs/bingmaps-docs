@@ -55,7 +55,7 @@ If you run this code in a browser and zoom into a city that is likely to have a 
 
 ![BMV8_TrafficModuleExample](../../media/bmv8-trafficmoduleexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#trafficHideShowTraffic+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#trafficHideShowTraffic+JS)
 
 ## See Also
 

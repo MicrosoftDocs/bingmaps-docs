@@ -29,7 +29,7 @@ var tileLayer = new Microsoft.Maps.TileLayer({ mercator: tileSource });
 map.layers.insert(tileLayer);
 ```
 
-In order to add a tile layer to the map, you first need a source of map tile data. For this example, an [image of Huricane Katrina](http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=15395) which was sourced from the [NASA/GSFC, Rapid Response team](https://earthdata.nasa.gov/earth-observation-data/near-real-time/rapid-response) was broken up into a set of tiles using a tool called [Microsoft MapCruncher](https://www.microsoft.com/en-us/download/details.aspx?id=22420). The generated tiles use a quadkey naming system and have been generated for the first 10 zoom levels of Bing Maps. The following code example shows how to add this tile layer to the map, by first defining a tile source which includes the URL to the tiles and the map bounds and zoom range of the tiles. By specifying the map bounds and zoom range of the tiles, we can save the map from requesting tiles in areas where we know there are none. Once the tile source is defined it can be used to create a tile layer.
+In order to add a tile layer to the map, you first need a source of map tile data. For this example, an [image of Huricane Katrina](https://earthobservatory.nasa.gov/NaturalHazards/view.php?id=15395) which was sourced from the [NASA/GSFC, Rapid Response team](https://earthdata.nasa.gov/earth-observation-data/near-real-time/rapid-response) was broken up into a set of tiles using a tool called [Microsoft MapCruncher](https://www.microsoft.com/en-us/download/details.aspx?id=22420). The generated tiles use a quadkey naming system and have been generated for the first 10 zoom levels of Bing Maps. The following code example shows how to add this tile layer to the map, by first defining a tile source which includes the URL to the tiles and the map bounds and zoom range of the tiles. By specifying the map bounds and zoom range of the tiles, we can save the map from requesting tiles in areas where we know there are none. Once the tile source is defined it can be used to create a tile layer.
 
 ```
 <!DOCTYPE html>
@@ -80,6 +80,6 @@ Running this code will display an aerial map with a tile layer of hurricane Katr
 Here are some great tile layer sources that you may find useful:
 * [Data.gov](https://catalog.data.gov/dataset?q=wms&sort=score+desc%2C+name+asc)
 * [USGS](http://cumulus.cr.usgs.gov/services.php)
-* [USGS (The National Map)](http://basemap.nationalmap.gov/arcgis/rest/services)
-* [NOAA Weather Service](http://www.nws.noaa.gov/gis/services.html)
-* [Iowa Environmental Mesonet of Iowa State University](http://mesonet.agron.iastate.edu/ogc/)
+* [USGS (The National Map)](https://basemap.nationalmap.gov/arcgis/rest/services)
+* [NOAA Weather Service](https://www.nws.noaa.gov/gis/services.html)
+* [Iowa Environmental Mesonet of Iowa State University](https://mesonet.agron.iastate.edu/ogc/)

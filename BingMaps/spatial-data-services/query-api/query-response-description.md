@@ -18,7 +18,7 @@ When you query a data source using the Query API, the response returns a list of
   
  If a response format is not specified by using the `$format` query option, the results are returned in ATOM format. You can also set the `$format` parameter to `json` if you want to have the response returned in JSON format.  
   
- The data schema for the query is based on the [OData AtomPub Format](http://www.odata.org/developers/protocols/atom-format) for ATOM responses and the [OData: JavaScript Object Notation (JSON) Format](http://www.odata.org/developers/protocols/json-format) for JSON responses. More details and example responses for each type of query are found in the specific query topics.  
+ The data schema for the query is based on the [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) for ATOM responses and the [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) for JSON responses. More details and example responses for each type of query are found in the specific query topics.  
   
 ## Query API Response Examples  
  The following examples show sample responses for a Query API. The property names, such as IsWiFiHotSpot, are the names assigned to these properties according to the data source schema.  
@@ -62,7 +62,7 @@ When you query a data source using the Query API, the response returns a list of
 ### JSON Example  
   
 > [!NOTE]
->  The DateTime properties are specified in the JSON response by using the [ODATA JSON Serialization format for Edm.DateTime](http://www.odata.org/developers/protocols/json-format#PrimitiveTypes). This format uses the following formula:  
+>  The DateTime properties are specified in the JSON response by using the [ODATA JSON Serialization format for Edm.DateTime](https://www.odata.org/developers/protocols/json-format#PrimitiveTypes). This format uses the following formula:  
 >   
 >  "\\/Date(\<ticks>["+" &#124; "-" \<offset>)\\/"  
 >   

@@ -22,7 +22,7 @@ Name                   | Type                                      | Description
 `callback`               | function(result: [GeocodeResult](geocoderesult-object.md), userData: any)       | A reference to a function to call when a successful result is returned from the geocode request. 
 `count`                  | number                                    | The maximum number of results to return. The maximum number that can be returned is 20.
 `errorCallback`          | function (request: [GeocodeRequestOptions](geocoderequestoptions-object.md))                                 | A reference to a function to call when the request is returned with an error. The error callback function will receive an object containing the geocode request options used in the request.
-`includeCountryIso2`     | boolean                                   | Specifies to include the [two-letter ISO country code](http://www.iso.org/iso/country_codes.htm).
+`includeCountryIso2`     | boolean                                   | Specifies to include the [two-letter ISO country code](https://www.iso.org/iso/country_codes.htm).
 `includeNeighborhood`    | boolean                                   | A boolean that specifies that neighborhood information should be included when available. <br/><br/>**Note**: This feature isn’t available in all locations.
 `timeout`                | number                                    | A number indicating how long to wait, in seconds, for the geocode request to return. The default value is 5 seconds.
 `userData`               | any                                       | An object containing any data that needs to be passed to the callback when the request is completed.

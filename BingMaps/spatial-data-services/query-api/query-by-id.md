@@ -68,9 +68,9 @@ queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=
   
 -   JSON (application/json)  
   
- When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. When information about a single entity is requested using the *entityTypeName*(*entityID*) format , a single Atom Entry is returned. When the $filter=entityId in (*entityId1*, *entityId2*, *entityIdN*) format is used to get entity information, a collection of Atom Entries is returned as part of an Atom feed. For more information about these Atom response formats, see [OData AtomPub Format](http://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
+ When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. When information about a single entity is requested using the *entityTypeName*(*entityID*) format , a single Atom Entry is returned. When the $filter=entityId in (*entityId1*, *entityId2*, *entityIdN*) format is used to get entity information, a collection of Atom Entries is returned as part of an Atom feed. For more information about these Atom response formats, see [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
   
- When the output format is JSON, the response format for both type of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](http://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
+ When the output format is JSON, the response format for both type of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
   
 ## Examples  
  **EXAMPLE: Get entity information by specifying the entity ID.**  
@@ -123,7 +123,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON Response**  
   
- The DateTime properties are specified in the JSON response by using the [ODATA JSON Serialization format for Edm.DateTime](http://www.odata.org/developers/protocols/json-format#PrimitiveTypes). This format uses the following formula:  
+ The DateTime properties are specified in the JSON response by using the [ODATA JSON Serialization format for Edm.DateTime](https://www.odata.org/developers/protocols/json-format#PrimitiveTypes). This format uses the following formula:  
   
  "\\/Date(\<ticks>["+" &#124; "-" \<offset>)\\/"  
   

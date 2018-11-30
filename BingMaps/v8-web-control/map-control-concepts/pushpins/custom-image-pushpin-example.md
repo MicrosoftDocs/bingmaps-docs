@@ -55,4 +55,4 @@ Here is what this pushpin looks like on the map.
 
 ![BMV8_CustomImagePushpin](../../media/bmv8-customimagepushpin.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromImage+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromImage+JS)

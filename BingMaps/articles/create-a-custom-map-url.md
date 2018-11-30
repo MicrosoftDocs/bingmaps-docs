@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Create a Custom Map URL
 
-If you want to email someone a map URL or embed a map into your website, you can get the map you need in most cases by clicking **Share** at http://bing.com/maps. From the **Share** dialog box, you can click **Customize and Preview** to further customize your map URL. However, there may be times when you want more control or options such as search results and items in your places list.  In this case, you can use the information in this article to build your own Bing Maps URL. `  
+If you want to email someone a map URL or embed a map into your website, you can get the map you need in most cases by clicking **Share** at https://bing.com/maps. From the **Share** dialog box, you can click **Customize and Preview** to further customize your map URL. However, there may be times when you want more control or options such as search results and items in your places list.  In this case, you can use the information in this article to build your own Bing Maps URL. `  
   
 ## Getting Started  
 
@@ -23,17 +23,17 @@ To create your map link, start with the base URL for Bing Maps shown below, and 
   
 1.  To build your own URL, start with the base map URL:  
   
-     `http://bing.com/maps/default.aspx`  
+     `https://bing.com/maps/default.aspx`  
   
 2.  Add a question mark (?):  
   
-     `http://bing.com/maps/default.aspx?`  
+     `https://bing.com/maps/default.aspx?`  
   
 3.  Add the first parameter that you want to use, and then set the value of the parameter by using an equal sign (=):  
   
      This example sets the centerpoint of the map.  
   
-     `http://bing.com/maps/default.aspx?cp=47.677797~-122.122013`  
+     `https://bing.com/maps/default.aspx?cp=47.677797~-122.122013`  
   
 ## General parameters  
  The following are some common parameters that customize your map.  
@@ -41,7 +41,7 @@ To create your map link, start with the base URL for Bing Maps shown below, and 
 
 |**Parameter**|**Definition**|**Example**|**Details**| 
 |-|-|-|-| 
-|cp|center point|cp=47.677797~-122.122013|Defines where the center of the map should be. Use the following format for the cp parameter:<br /><br /> `Latitude~Longitude`<br /><br /> Both values must be expressed in [decimal degrees](http://en.wikipedia.org/wiki/Decimal_degrees). Latitude and longitude are commonly presented in decimal degrees as two numbers, such as -47.677797 (latitude) and -122.122013 (longitude).|  
+|cp|center point|cp=47.677797~-122.122013|Defines where the center of the map should be. Use the following format for the cp parameter:<br /><br /> `Latitude~Longitude`<br /><br /> Both values must be expressed in [decimal degrees](https://en.wikipedia.org/wiki/Decimal_degrees). Latitude and longitude are commonly presented in decimal degrees as two numbers, such as -47.677797 (latitude) and -122.122013 (longitude).|  
 |lvl|zoom level|lvl=5|Defines the zoom level of the map view. Valid values are 1-20. This parameter is ignored when a search parameter, such as **ss** or **where1**, is specified. A table of search parameters is provided below.|  
 |style|map view|style=r|Defines the map view. Valid values for this parameter include:<br /><br /> -   **a**: Display an aerial view of the map.<br /><br /> -   **r**: Display a road view of the map.<br /><br /> -   **h**: Display an aerial view of the map with labels.<br /><br /> -   **o**: Use this value to display a bird's eye (oblique) view of the map.<br /><br /> -   **b**: Display a bird's eye (oblique) with labels view of the map.|  
 |scene|scene ID reference|scene=3715328|Specifies the ID of the bird's eye (oblique) image tile to display. You can use this parameter with a **lvl** value of 1 or 2 and a **dir** value to view different formats of the map image.|  
@@ -51,15 +51,15 @@ To create your map link, start with the base URL for Bing Maps shown below, and 
 ### Examples  
  To open Bing Maps with the map centered on a specific location with a zoom level of 12, and the map view set to the road map view:  
   
- `http://bing.com/maps/default.aspx?cp=43.901683~-69.522416&lvl=12&style=r`  
+ `https://bing.com/maps/default.aspx?cp=43.901683~-69.522416&lvl=12&style=r`  
   
  To open Bing Maps with the map centered on a specific location, the map view set to bird's eye (oblique) image, and a specified zoom level and scene:  
   
- `http://bing.com/maps/default.aspx?cp=37.814692~-122.477339&style=o&lvl=1&dir=0&scene=1140291`  
+ `https://bing.com/maps/default.aspx?cp=37.814692~-122.477339&style=o&lvl=1&dir=0&scene=1140291`  
   
  To open Bing Maps with the map centered on a specific location, the map view set to bird’s eye (oblique), and with a traffic overlay displayed:  
   
- `http://bing.com/maps/default.aspx?cp=47.621065~-122.352534&style=o&lvl=14&trfc=1`  
+ `https://bing.com/maps/default.aspx?cp=47.621065~-122.352534&style=o&lvl=14&trfc=1`  
   
 ## Search parameters
 
@@ -83,11 +83,11 @@ To create a map that displays specific search results, use the following paramet
   
 -   To open Bing Maps to a specific address:  
   
-     `http://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,%20Redmond,%20WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
+     `https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,%20Redmond,%20WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
   
 -   To open Bing Maps with a business search:  
   
-     `http://bing.com/maps/default.aspx?ss=yp.Pizza~sst.1~pg.2`  
+     `https://bing.com/maps/default.aspx?ss=yp.Pizza~sst.1~pg.2`  
   
 ## Driving directions parameters  
  To create a map that displays directions from a specific start and end point, use the following parameters.  
@@ -118,15 +118,15 @@ To create a map that displays specific search results, use the following paramet
   
 -   To open Bing Maps and show a route from a specific address to a specific point:  
   
-     `http://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,Redmond,WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
+     `https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,Redmond,WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
   
 -   To open Bing Maps and show the driving directions panel with a start address only:  
   
-     `http://bing.com/maps/default.aspx?rtp=adr.Seattle,WA`  
+     `https://bing.com/maps/default.aspx?rtp=adr.Seattle,WA`  
   
 -   To open Bing Maps and show driving directions to a fictitious pizza restaurant in Redmond, WA:  
   
-     `http://bing.com/maps/default.aspx?rtp=~pos.rycz2z4tpkxm_555%20NE%2055th%20St,Redmond,WA_Pizza%20Parlor_425-555-5555`  
+     `https://bing.com/maps/default.aspx?rtp=~pos.rycz2z4tpkxm_555%20NE%2055th%20St,Redmond,WA_Pizza%20Parlor_425-555-5555`  
   
 ## Collections editor and collections parameters  
  To create a map that displays information from the collections editor or a specific collection, use the following parameters.  
@@ -151,11 +151,11 @@ To create a map that displays specific search results, use the following paramet
   
 -   To open Bing Maps and add the address "1 Microsoft Way, Redmond, WA 98052" to the collections editor:  
   
-     `http://bing.com/maps/default.aspx?sp=adr.1%20Microsoft%20Way%2C%20Redmond%2C%20WA%2098052`  
+     `https://bing.com/maps/default.aspx?sp=adr.1%20Microsoft%20Way%2C%20Redmond%2C%20WA%2098052`  
   
 -   To open Bing Maps and add a polyline to the collections editor:  
   
-     `http://bing.com/maps/default.aspx?sp=Polyline.47.68_-122.12_48.68_-123.12_49.68_-122.12_LINE_some%20notes_http://bing.com__%2300ff00__4px_Single_Solid`  
+     `https://bing.com/maps/default.aspx?sp=Polyline.47.68_-122.12_48.68_-123.12_49.68_-122.12_LINE_some%20notes_http://bing.com__%2300ff00__4px_Single_Solid`  
   
 > [!NOTE]
 >  The parameters described in this topic are subject to change.

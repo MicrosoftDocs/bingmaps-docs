@@ -124,4 +124,4 @@ Running this code will load a textbox, a button and a map. Type in a location in
 
 ![Search Boundary on a Map](../../../media/bmv8-geodataboundarysearch.png)
  
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadBoundaryFromSearch+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadBoundaryFromSearch+JS)

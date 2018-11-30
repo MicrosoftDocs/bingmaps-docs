@@ -52,4 +52,4 @@ Running this code in a browser will display a map with polygon on it. The vertic
 
 ![BMV8_DrawingToolsEditShapeExample](../../media/bmv8-drawingtoolseditshapeexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtEditPolygon+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtEditPolygon+JS)

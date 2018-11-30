@@ -77,4 +77,4 @@ Running this code will load a map that displays the locations of gas stations. A
 
 ![Search Results on a Map](../../../media/bmv8-basicfindnearbyexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsNearbySearch+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsNearbySearch+JS)

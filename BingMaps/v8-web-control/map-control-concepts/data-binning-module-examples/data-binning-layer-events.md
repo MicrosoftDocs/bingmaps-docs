@@ -77,4 +77,4 @@ Running this code in the browser will display hexagon bins on the map. If you ho
 
 ![BMV8_DataBinning_Events](../../media/bmv8-databinning-events.png)
  
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicBinningWithEvents+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicBinningWithEvents+JS)

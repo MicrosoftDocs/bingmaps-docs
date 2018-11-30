@@ -70,4 +70,4 @@ Running this code will display a map with a polyline in the shape of a star draw
 
 ![Well Known Text from Shapes on a Map](../../media/bmv8-writewkt.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktWriteToWkt+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktWriteToWkt+JS)

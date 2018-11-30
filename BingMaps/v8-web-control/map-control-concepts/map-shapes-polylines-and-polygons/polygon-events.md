@@ -69,4 +69,4 @@ If you run this code and hover and click the polygon you will see all these diff
 
 ![BMV8_PolygonEventsExample(../../media/bmv8-polygoneventsexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#polygonAllEvents+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#polygonAllEvents+JS)

@@ -50,4 +50,4 @@ This results in the map being loaded, zoomed in over London, UK with the aerial 
 
 ![BMV8_MapOptionsOnLoad](../../media/bmv8-mapoptionsonload.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadMapWithOptions+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadMapWithOptions+JS)

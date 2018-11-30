@@ -4,7 +4,7 @@ The following list describes the latest new features on the Bing Maps Dev Portal
   
  **July, 2014**  
   
- The Bing Maps Account Center has a new home (http://www.bing.com/dev/maps) and has been renamed Bing Maps Dev Center. These help pages have been updated for the new Dev Center. The functionality of the dev center has not changed.  
+ The Bing Maps Account Center has a new home (https://www.bing.com/dev/maps) and has been renamed Bing Maps Dev Center. These help pages have been updated for the new Dev Center. The functionality of the dev center has not changed.  
   
  **May, 2014**  
   

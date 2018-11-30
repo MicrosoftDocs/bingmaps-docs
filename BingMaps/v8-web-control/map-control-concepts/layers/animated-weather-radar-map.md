@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Animated Weather Radar Map
-This example uses the [AnimatedTileLayer](../../map-control-api/animatedtilelayer-class.md) to animate through an array of tile layers. For this example the weather radar tile service from the [Iowa Environmental Mesonet of Iowa State University](http://www.mesonet.agron.iastate.edu/ogc/) and animates it. This service provides radar images for the last 50 minutes over the USA broken up into 5 minute increments.
+This example uses the [AnimatedTileLayer](../../map-control-api/animatedtilelayer-class.md) to animate through an array of tile layers. For this example the weather radar tile service from the [Iowa Environmental Mesonet of Iowa State University](https://www.mesonet.agron.iastate.edu/ogc/) and animates it. This service provides radar images for the last 50 minutes over the USA broken up into 5 minute increments.
 
 ```
 <!DOCTYPE html>
@@ -69,4 +69,4 @@ If you run this code you will briefly see a loading message on the map which is 
 
 ![BMV8_AnimatedWeatherRadar](../../media/bmv8-animatedweatherradar.PNG)
 
-[Try it now](http://www.bing.com/api/maps/mapcontrol/isdk#weatherRadarMap+JS)
+[Try it now](https://www.bing.com/api/maps/mapcontrol/isdk#weatherRadarMap+JS)

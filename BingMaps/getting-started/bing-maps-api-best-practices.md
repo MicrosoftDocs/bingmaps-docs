@@ -44,7 +44,7 @@ These best practices provide guidelines for using the Bing Maps APIs.
 Please adhere to the following guidelines when coding for Bing Maps services.  
   
 > [!TIP]
->  When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](http://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
+>  When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](https://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
   
 ### Use batch geocoding when you need to geocode or reverse-geocode a large number of items  
  If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up 200, 000 addresses at a time for a single non-billable transaction.  
@@ -76,7 +76,7 @@ For those of you that have been having issues consuming the Bing Maps REST Servi
   
 - The documentation on how to consume the JSON responses from the Bing Maps REST services can be found on MSDN on the [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md) page.  
   
-- If you are using Java then take a look at how the REST services are handled in the [Bing Maps Android SDK](http://bingmapsandroidsdk.codeplex.com/).  
+- If you are using Java then take a look at how the REST services are handled in the [Bing Maps Android SDK](https://bingmapsandroidsdk.codeplex.com/).  
   
 ### Geocoding
 
@@ -86,7 +86,7 @@ Unless you are geocoding English addresses in the US you should specify a cultur
   
 |**Language**|**Method**|**Example**|  
 |------------------|----------------|-----------------|  
-|**JavaScript**|[encodeURIComponent](http://www.w3schools.com/jsref/jsref_encodeURIComponent.asp)|encodeURIComponent(*query*)|  
+|**JavaScript**|[encodeURIComponent](https://www.w3schools.com/jsref/jsref_encodeURIComponent.asp)|encodeURIComponent(*query*)|  
 |**C#/VB**|[Uri](http://msdn.microsoft.com/en-us/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
   
  When geocoding free form queries use the unstructured URL format rather than the structured format. The unstructured URL format tends to be much more successful for these types of queries. Note: the structured format actually overlaps with the reverse geocoding URL request format and can return odd results if your query is just made up of numbers.  
@@ -131,7 +131,7 @@ If you want to retrieve the coordinates that make up the route line along the ro
 
 When requesting a static map image from Bing Maps the imagery service the service will automatically choose the best image format to return the image in for best resolution. Note: this may not be the preferred image type in some cases. For example, the service may return Ordnance Survey maps in PNG format; you may find you prefer these maps returned as JPG of GIF format. You can specify the image type using the [format](https://rbrundritt.wordpress.com/2012/01/06/bing-maps-rest-service-net-libraries/) parameter.  
   
- The Imagery service can return two different types of metadata. The [first type](https://rbrundritt.wordpress.com/2009/08/01/ve-silverlight-control-%e2%80%93-pushpins-infoboxes-and-best-map-view/) of metadata gives you information about the imagery in Bing Maps for a specific location, zoom level and map type. This is useful if you want to find the age of the imagery or want to know is a specific type of imagery is available for a certain location. The [second type](https://msdn.microsoft.com/en-us/library/hh667439.aspx) of metadata is for a static image generated from the imagery service. This second metadata may include information such as pixel coordinates of pushpins on your image. This is useful if you want to be able to tie events to the generated image or create an [HTML image map](http://www.w3schools.com/TAGS/tag_map.asp).  
+ The Imagery service can return two different types of metadata. The [first type](https://rbrundritt.wordpress.com/2009/08/01/ve-silverlight-control-%e2%80%93-pushpins-infoboxes-and-best-map-view/) of metadata gives you information about the imagery in Bing Maps for a specific location, zoom level and map type. This is useful if you want to find the age of the imagery or want to know is a specific type of imagery is available for a certain location. The [second type](https://msdn.microsoft.com/en-us/library/hh667439.aspx) of metadata is for a static image generated from the imagery service. This second metadata may include information such as pixel coordinates of pushpins on your image. This is useful if you want to be able to tie events to the generated image or create an [HTML image map](https://www.w3schools.com/TAGS/tag_map.asp).  
   
 ### Reducing Usage Transactions
 
@@ -248,7 +248,7 @@ To obtain a session key, you must establish a Bing Maps session. A Bing Maps ses
   
 ### Encode address values before geocoding
 
-Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](http://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/en-us/library/system.uri.aspx) class.  
+Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/en-us/library/system.uri.aspx) class.  
   
 > [!IMPORTANT]
 >  For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (`&`) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand (`&`) rather than `%26`.

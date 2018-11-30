@@ -60,7 +60,7 @@ YYYY-MM-DDThh:mm:ss.sZ
   
  XML Example: 2011-06-29T23:44:56.593Z  
   
- For more information about UTC time see [W3C Date and Time Formats](http://www.w3.org/TR/NOTE-datetime).  
+ For more information about UTC time see [W3C Date and Time Formats](https://www.w3.org/TR/NOTE-datetime).  
   
 ## Examples
 

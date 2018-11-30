@@ -72,4 +72,4 @@ Running this code will display a Polyline, that is derived from the provided enc
 
 ![BMV8_PointCompressionExample](../media/bmv8-pointcompressionexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)

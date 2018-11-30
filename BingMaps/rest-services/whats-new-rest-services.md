@@ -69,7 +69,7 @@ The Bing Maps Autosuggest API is a service which, given both a request with a us
   
  **Specify include=cios2 to receive the two-letter ISO country code when you geocode or reverse-geocode. [[Locations](locations/index.md)]**  
   
- When you specify `include=cios2` in your Locations API request, the [two-letter ISO 3166 country code](http://www.iso.org/iso/country_codes.htm) is returned in for each address in the response in a new a `CountryRegionIso2` field.  
+ When you specify `include=cios2` in your Locations API request, the [two-letter ISO 3166 country code](https://www.iso.org/iso/country_codes.htm) is returned in for each address in the response in a new a `CountryRegionIso2` field.  
   
  **Example**  
   

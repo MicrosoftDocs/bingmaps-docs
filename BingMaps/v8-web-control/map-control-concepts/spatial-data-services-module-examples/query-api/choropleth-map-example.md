@@ -167,4 +167,4 @@ Running this code will display a map of the USA with color coded US states based
 
 ![Choropleth Map](../../../media/bmv8-sdschoroplethmapexample.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsChoroplethMap+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsChoroplethMap+JS)

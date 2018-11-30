@@ -44,12 +44,12 @@ Sign up for the Bing Maps API for Enterprise in the Azure Marketplace [here](htt
 
 The following resources are available for Bing Maps developers:
 
-* [Bing Maps V8 Interactive SDK](http://www.bing.com/api/maps/sdk/mapcontrol/isdk) - Provides interactive code samples which you can edit and test out your own map control code.
-* [Bing Maps V8 Code Sample project](http://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
+* [Bing Maps V8 Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk) - Provides interactive code samples which you can edit and test out your own map control code.
+* [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
 * [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions) - These can be used to provide intellisense and richer error catching functionality to your IDE.
 * Connect with other Bing Maps developers on the [Bing Maps Web Controls Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=bingmapsajax&filter=alltypes&sort=lastpostdesc).
 * Visit the [Bing Maps for Enterprise](http://www.microsoft.com/maps) website.
-* Read the [Bing Maps Developer blog](http://blogs.bing.com/maps)
+* Read the [Bing Maps Developer blog](https://blogs.bing.com/maps)
 * Manage your Bing Maps account through the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
 * Review the [terms of use](http://www.microsoft.com/maps/product/terms.html) for Bing Maps.
 * Need technical support, try the Bing Maps forums. If you have an Enterprise Bing Maps license, find addition support information [here](https://www.microsoft.com/maps/support.aspx).

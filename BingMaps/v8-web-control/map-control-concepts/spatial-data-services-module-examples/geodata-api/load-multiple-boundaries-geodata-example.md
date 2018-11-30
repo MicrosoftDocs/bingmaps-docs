@@ -69,4 +69,4 @@ Running this code will load a map that displays the boundaries of 5 zip codes th
 
 ![Multiple Boundaries on a Map](../../../media/bmv8-geodatamultipleboundaries.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadMultipleBoundaries+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsLoadMultipleBoundaries+JS)
