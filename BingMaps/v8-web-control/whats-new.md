@@ -127,7 +127,7 @@ When you calculate a route using the directions manager you can now easily get a
 
 The Spatial Math module has a new function that calculates a cardinal spline that passes through a specified array of locations. 
 
-[Try it now](http://www.bing.com/api/maps/mapcontrol/isdk?autoRedirect=false#getCardinalSpline+JS)
+[Try it now](https://www.bing.com/api/maps/mapcontrol/isdk?autoRedirect=false#getCardinalSpline+JS)
 
 **Multiple Map Support**
 
@@ -137,7 +137,7 @@ Bing Maps V8 now supports loading multiple map instances on a single page.
 
 The Bing Maps team has made 2010 US Census data available through the Bing Spatial Data Services for easy use in your application. This data has been exposed through 4 different data sources, each containing census data based on a different type of geographical region; states, counties, ZCTA5 (Zip code tabulation area), and the 111th Congressional districts. 
 
-[Documentation](../spatial-data-services/public-data-sources/2010-us-census-data-sources.md) | [Code Samples](map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
+[Documentation](../spatial-data-services/public-data-sources/2010-us-census-data-sources.md) | [Code Samples](map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md) | [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#sdsChoroplethMap+JS)
 
 ## October 2016
 
@@ -163,13 +163,13 @@ The team plans to put the main release branch into a code freeze for the months 
 
 This module provides makes it easy to create data bins from arrays of pushpins and display them on the map.
  
-[Documentation](modules/data-binning-module/index.md) | [Code Samples](map-control-concepts/data-binning-module-examples/index.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
+[Documentation](modules/data-binning-module/index.md) | [Code Samples](map-control-concepts/data-binning-module-examples/index.md) | [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
 
 **Contour Module**
 
 This module makes it easy to take contour line data and visualize it on Bing Maps as non-overlapping colored areas. 
 
-[Documentation](modules/contour-module/index.md) | [Code Samples](map-control-concepts/contour-module-examples/index.md) | [Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)
+[Documentation](modules/contour-module/index.md) | [Code Samples](map-control-concepts/contour-module-examples/index.md) | [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicContourLayer+JS)
 
 **Double Click Support**
 
@@ -191,7 +191,7 @@ This update includes 30+ bug fixes and several new features. The [TypeScript def
 
 Makes it easy to smoothly animate through and array of tile layers. 
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#weatherRadarMap+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#weatherRadarMap+JS)
 
 **High Contrast Support**
 
@@ -205,7 +205,7 @@ Three new road map styles have been added; grayscale, canvasDark and canvasLight
 
 The infobox class now supports HTML descriptions values. The infobox class also automatically scales to fit it's content. Maximum width and height values can be specified. 
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#infoboxWithIFrame+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#infoboxWithIFrame+JS)
 
  **Polygon & Polyline generalization**
  
@@ -231,13 +231,13 @@ This is the first regular update to the main release branch of V8 since the init
 
 The Spatial Math module has had a massive addition consisting of 24 spatial geometry calculations, bringing the total number of calculations available in the spatial math module to 47. Some of these calculations include: binary operations of shapes (intersection, difference, union), convex and concave hulls, Voronoi diagrams, shape validation and much more. 
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#binaryOperations+JS).
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#binaryOperations+JS).
  
 **Draggable Pushpins**
 
 Easily move drag pushpins around on the map by setting the `draggable` pushpin option to true. 
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#pushpinDragEvents+JS).
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#pushpinDragEvents+JS).
 
 **Custom Overlays**
 
@@ -245,7 +245,7 @@ Custom overlays allow you to create your own custom rendering layers with the ma
 
 **TypeScript Definitions**
 
-Last week we released TypeScript definitions available for Bing Maps V8 on GitHub. You can find the announcement [here](http://blogs.bing.com/maps/August-2016/TypeScript-Definitions-for-Bing-Maps-V8-Released-o). These definitions have been updated to include all the new features that are in this release. 
+Last week we released TypeScript definitions available for Bing Maps V8 on GitHub. You can find the announcement [here](https://blogs.bing.com/maps/August-2016/TypeScript-Definitions-for-Bing-Maps-V8-Released-o). These definitions have been updated to include all the new features that are in this release. 
 
 **Transit Direction support in Japan**
 

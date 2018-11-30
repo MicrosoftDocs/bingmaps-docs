@@ -38,17 +38,18 @@ for row in get_http_data():
 
         path = mapper.get_path(*source_file_parts)
 
-        html = None
-        with open(path, 'r', encoding='utf-8') as f:
-            html = f.read()
+        if path:
+            html = None
+            with open(path, 'r', encoding='utf-8') as f:
+                html = f.read()
 
 
-        if html:
-            new_link = link.replace('http://', 'https://')
-            new_html = html.replace(link, new_link)
-            print(f'link:\n\t{link}\nnew link:\n\t{new_link}')
-            assert(html != new_html)
+            if html:
+                new_link = link.replace('http://', 'https://')
+                new_html = html.replace(link, new_link)
+                print(f'link:\n\t{link}\nnew link:\n\t{new_link}')
+                # assert(html != new_html)
 
-            with open(path, 'w', encoding='utf-8') as f:
-                f.write(new_html)
-                print(f'replaced: {path}')
+                with open(path, 'w', encoding='utf-8') as f:
+                    f.write(new_html)
+                    print(f'replaced: {path}')

@@ -63,7 +63,7 @@ Not including the code to create the array of shapes, V8 requires 60% less code 
 
 ## Changing the Color of the Pushpins
 
-One of the most common questions that developers ask on the forums is how to change the color of the default pushpin. In previous versions of Bing Maps there were [a couple of solution](http://blogs.bing.com/maps/2015/02/05/visualizing-point-based-business-intelligence-data-on-bing-maps);
+One of the most common questions that developers ask on the forums is how to change the color of the default pushpin. In previous versions of Bing Maps there were [a couple of solution](https://blogs.bing.com/maps/2015/02/05/visualizing-point-based-business-intelligence-data-on-bing-maps);
 
 -   Create a custom pushpin image in an image editor and then pass a URL to this image to the pushpin. However, if you wanted several different colors, this meant creating several different images.
 
@@ -93,7 +93,7 @@ var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
 
 **Additional Resources:**
 
-* [Pushpin Interactive Code Samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPushpin+JS)
+* [Pushpin Interactive Code Samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPushpin+JS)
 * [Pushpin Class](../map-control-api/pushpin-class.md)
 * [Additional Pushpin Code Samples](../map-control-concepts/pushpins/index.md)
 
@@ -102,7 +102,7 @@ var pin = new Microsoft.Maps.Pushpin(map.getCenter(), {
 In Bing Maps V7 changing the color of Polygon or Polylines required using the Color class. In V8, colors can be defined in several ways;
 
 * Use the Color class
-* Use [CSS3 color strings](http://www.w3.org/wiki/CSS3/Color). All CSS3 colors are supported, including [extended named colors](http://www.w3.org/wiki/CSS3/Color/Extended_color_keywords).
+* Use [CSS3 color strings](https://www.w3.org/wiki/CSS3/Color). All CSS3 colors are supported, including [extended named colors](https://www.w3.org/wiki/CSS3/Color/Extended_color_keywords).
 
 Using CSS colors is a bit more familiar when creating web apps and using them instead of the Color class has a slight performance benefit as there is no need to create an instance of the Color class which would use more memory then a simple CSS color string.
 
@@ -155,7 +155,7 @@ In this scenario, V8 requires 40% less code than V7.
 **Additional Resources:**
 
 * [Events Class](../map-control-api/events-class.md)
-* [Events interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addEventHandler+JS)
+* [Events interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addEventHandler+JS)
 
 ## Adding Events to an Array of Shapes
 
@@ -188,7 +188,7 @@ In this scenario, V8 requires 15% less code than V7. However, the shapes are sto
 **Additional Resources:**
 
 * [Layer class](../map-control-api/layer-class.md)
-* [Layer interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addMultipleLayerItems+JS)
+* [Layer interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addMultipleLayerItems+JS)
 
 ## Polygons with holes
 
@@ -221,7 +221,7 @@ Not including the code to create the polygon object, V8 requires writing 74% les
 **Additional Resource:**
 
 * [Polygon Class](../map-control-api/polygon-class.md)
-* [Polygon interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPolygon+JS)
+* [Polygon interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPolygon+JS)
 
 ## Loading Multiple Modules
 
@@ -248,7 +248,7 @@ V8 requires 32% less code than V7 when loading two modules at the same time. V8 
 **Additional Resources:**
 
 * [Modular Framework](../map-control-concepts/modular-framework/index.md)
-* [Modular Framework interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadingModules+JS)
+* [Modular Framework interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadingModules+JS)
 
 ## Adding Tile Layers to the Map
 
@@ -337,7 +337,7 @@ In this scenario, V8 requires 73% less code than V7.
 
 **Additional Resources:**
 
-* [Tile Layer interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerQuadKey+JS)
+* [Tile Layer interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerQuadKey+JS)
 * [TileSource options](../map-control-api/tilesourceoptions-object.md)
 
 ## Bing Maps REST Services
@@ -354,9 +354,9 @@ If using the REST service or Search module to power a search textbox, you may fi
 **Additional Resources:**
 
 * [Autosuggest module](../modules/autosuggest-module/index.md)
-* [Autosuggest module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)
+* [Autosuggest module interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)
 * [Directions module](../modules/directions-module/index.md)
-* [Directions module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS)
+* [Directions module interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS)
 * [Search module](../modules/search-module/index.md)
-* [Search module interactive code samples](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#searchByAddress+JS)
+* [Search module interactive code samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#searchByAddress+JS)
 * [Bing Maps REST Services](../../rest-services/index.md)

@@ -43,7 +43,7 @@ There are two different ways to change the map view. One way is to use the **set
 ```
 ![BMV8_ChangeMapView](../../media/bmv8-changemapview.png)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#setMapViewOptions+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#setMapViewOptions+JS)
 
 One common scenario that developers come across is that they wish to display a set of objects on the map. They may mark these locations on the map using pushpins; however, this won’t set the map view to show those locations. You can use an array of locations used to create the Pushpins, and pass them into the **fromLocations** function on the **Microsoft.Maps.LocationRect** class. This function will return a **LocationRect** that encloses all the Location objects passed into it. This **LocationRect** can then be passed to the bounds setting property when setting the map view. Some developers may notice that this results in some pushpins being cut off at the maps edge. The reason for this is that the **fromLocations** function only calculates the bounding box based on the **Location** objects, and not on the additional area that the pushpin icons use. To accommodate this scenario, the padding setting can be used to buffer the view by a specified number of pixels. Generally setting this value to twice as large as the width/height of your pushpin icons works well. Here is a code sample that demonstrates how this can be done.
 

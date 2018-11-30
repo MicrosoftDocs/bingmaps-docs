@@ -98,4 +98,4 @@ Running this code will overlay a topographic image of a mountain range on top of
 
 ![BMV8_TopographicOverlayExample](../../media/bmv8-topographicoverlayexample.PNG)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#imageOverlay+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#imageOverlay+JS)
