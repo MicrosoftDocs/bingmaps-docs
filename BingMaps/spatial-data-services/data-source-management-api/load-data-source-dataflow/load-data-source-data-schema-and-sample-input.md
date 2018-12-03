@@ -35,7 +35,7 @@ You must provide a data schema and a set of input data to create a data source w
 #### Defining an entity ID in an XML schema  
  When you use XML to format your data, add the following entity ID declaration to the XSLT schema.  
   
-```  
+```xml
 <xs:unique name="Constraint1" msdata:PrimaryKey="true">  
   <xs:selector xpath=".//DataSourceName" />  
   <xs:field xpath="EntityIDStringProperty" />  
@@ -45,7 +45,7 @@ You must provide a data schema and a set of input data to create a data source w
   
  The following XSLT example specifies the ShopID property as the entity ID for the FourthCoffeeShops data source.  
   
-```  
+```xml
 <xs:unique name="Constraint1" msdata:PrimaryKey="true">  
   <xs:selector xpath=".//FourthCoffeeShops" />  
   <xs:field xpath="ShopID" />  
@@ -64,9 +64,7 @@ You must provide a data schema and a set of input data to create a data source w
 ### Version string  
  If you are using a text format for your input data, you must insert the following text data schema version information at the beginning of the data schema. Currently, the only text data schema version is 1.0.  
   
-```  
-Bing Spatial Data Services, 1.0, FourthCoffeeShops  
-```  
+`Bing Spatial Data Services, 1.0, FourthCoffeeShops`  
   
 ### Location properties  
  Your data schema must include a location object that specifies the entity location. This object can be a latitude and longitude pair or a geographical object..  
@@ -142,7 +140,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
   
  In addition to other characters, such as a comma and hyphen (-), you can also use the pipe (&#124;) character in XML entity values.  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8"?>  
 <FourthCoffeeSampleData>  
   <xs:schema id="FourthCoffeeSample" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">  
@@ -241,7 +239,7 @@ Bing Spatial Data Services, 1.0, FourthCoffeeShops
   
 ### Text data schema and input separated by commas (CSV)  
   
-```  
+```csv
 Bing Spatial Data Services, 1.0, FourthCoffeeShops  
 Phone(Edm.String),EntityID(Edm.String,primaryKey),Longitude(Edm.Double),Latitude(Edm.Double),StoreLayout(Edm.Geography),CountryRegion(Edm.String),Open(Edm.Int64),Close(Edm.Int64)  
 303-555-0188,-22067,9.87443416667,57.00376611111,"POLYGON((9.86445 57.13876,9.89266 57.13876,9.89266 56.94234,9.86445 56.94234,9.86445 57.13876))",Danmark,700,1800  
@@ -251,7 +249,7 @@ Phone(Edm.String),EntityID(Edm.String,primaryKey),Longitude(Edm.Double),Latitude
 ### Text data schema and input separated by tabs  
  In the following example, a tab character is represented by an arrow: ->.  
   
-```  
+```csv
 Bing Spatial Data Services, 1.0, FourthCoffeeShops  
 Phone(Edm.String)->EntityID(Edm.String,primaryKey)->Longitude(Edm.Double)->Latitude(Edm.Double)->StoreLayout(Edm.Geography)->CountryRegion(Edm.String)->Open(Edm.Int64)->Close(Edm.Int64)  
 303-555-0188->-22067->9.87443416667->57.00376611111->POLYGON((9.86445 57.13876,9.89266 57.13876,9.89266 56.94234,9.86445 56.94234,9.86445 57.13876))->Danmark->700->1800  
@@ -260,7 +258,7 @@ Phone(Edm.String)->EntityID(Edm.String,primaryKey)->Longitude(Edm.Double)->Latit
   
 ### Text data schema and input separated by pipe characters (&#124;)  
   
-```  
+```csv
 Bing Spatial Data Services, 1.0, FourthCoffeeShops  
 Phone(Edm.String)|EntityID(Edm.String,primaryKey)|Longitude(Edm.Double)|Latitude(Edm.Double)|StoreLayout(Edm.Geography)|CountryRegion(Edm.String)|Open(Edm.Int64)|Close(Edm.Int64)  
 303-555-0188|-22067|9.87443416667|57.00376611111|POLYGON((9.86445 57.13876,9.89266 57.13876,9.89266 56.94234,9.86445 56.94234,9.86445 57.13876))|Danmark|700|1800  

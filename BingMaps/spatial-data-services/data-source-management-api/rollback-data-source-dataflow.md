@@ -32,7 +32,7 @@ Use the following URLs to rollback a data source to a previous version. Up to tw
   
  To find the job ID for the data source version you want to restore, query for information about a data source using the `showAllVersions` parameter. For more information, see [Get Data Source Information](../data-source-management-api/get-data-source-information.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/previousVersionJobId/dataSourceName?output=output&key=masterKey  
 ```  
   
@@ -40,7 +40,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/previousVer
   
  After you start the rollback process, you can check status using the URL provided in the response to the rollback request. When the data source rollback is completed, the status field in the response is set to `Completed`. The status URL has the following structure.  
   
-```  
+```url 
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/rollbackJobId?output=output&key=masterKey  
 ```  
   
@@ -66,13 +66,13 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/rollbackJob
 ## Example  
  **EXAMPLE**: Make a request to roll back a data source to a previous version of the data and schema. This URL starts a rollback dataflow job.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/e60b410fdbe845f3a1337f4f54f16e97/FourthCoffeeShop?o=xml&key=masterKey  
 ```  
   
  **XML Response**  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8"?>  
 <Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Copyright>Copyright ©2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -107,7 +107,7 @@ http://dev.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/e60b410fdbe845f
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -144,7 +144,7 @@ http://dev.virtualearth.net/REST/v1/Dataflows/DataSourceRollback/e60b410fdbe845f
   
  **Example:** Get the status of the DataSourceRollback dataflow job. When the `Status` is set to `Completed`, the rollback is complete.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceRollback/e60b410fdbe845f3a1337f4f54f16e97?key=masterKey  
 ```  
   
@@ -152,7 +152,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceRollback/e60b410fdb
   
  The `dataSource` link provides the query URL for the restored data source.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8" ?>  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -189,7 +189,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceRollback/e60b410fdb
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

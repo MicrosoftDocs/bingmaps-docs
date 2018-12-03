@@ -73,13 +73,13 @@ The Bing Maps Autosuggest API is a service which, given both a request with a us
   
  **Example**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%20Way?o=xml&include=ciso2&key=BingMapsKey  
 ```  
   
  **Example address response**  
   
-```  
+```xml
 <Address>  
   <AddressLine>1 Microsoft Way</AddressLine>  
   <AdminDistrict>WA</AdminDistrict>  
@@ -100,7 +100,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%
   
  The following road map example uses icons 64 and 66 to display the road route endpoints which are identified as “1” and “2”.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key=BingMapsKey  
 ```  
   

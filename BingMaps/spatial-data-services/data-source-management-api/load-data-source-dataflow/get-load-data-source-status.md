@@ -30,7 +30,7 @@ Use the following URL to get the status of a load data source job.
   
  When the load data source job is complete, the response to this status URL contains another `link` field with the `role` attribute set to `datasource`. This link field contains a unique URL that you can use to query the data source. For more information, see [Response Data](../../data-source-management-api/load-data-source-dataflow/load-data-source-dataflow-response-description.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?output=output&key=masterKey  
 ```  
   
@@ -67,7 +67,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/DataFlowJobID?o
   
  **URL with XML Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac04942b7cb003c9608c547?o=xml&key=b1c323ea23d99d267d99d267bbb814  
 ```  
   
@@ -75,7 +75,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
   
  In this response, the `Status` field is set to `Pending` because the load data source job is in process.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"    
                xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -110,7 +110,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
   
  In this response, the `Status` field is set to `Completed` and a new `link` field that has the role `attribute` set to `datasource` and the name attribute set to `service` is also returned.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"   
                xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -144,7 +144,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
   
  **URL with JSON Responses**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac04942b7cb003c9608c547?key=b1c323ea23d99d267d99d267bbb814  
 ```  
   
@@ -152,7 +152,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
   
  In this response, the `status` field is set to `Pending` because the load data source job is in process.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -189,7 +189,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDatasource/f8293dc72ac0494
   
  In this response, the `Status` field is set to `Completed` and a new `links` value that has the role `attribute` set to `"datasource"` and the name attribute set to `"service"` is also returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

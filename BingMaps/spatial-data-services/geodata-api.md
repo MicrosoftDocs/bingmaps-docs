@@ -28,13 +28,13 @@ Use the following URLs to request a set of polygons that describe the boundaries
   
  **Get the set of boundary polygons for an entity that contains the specified latitude and longitude.**  
   
-```  
+```url
 http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(latitude,longitude,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
 ```  
   
  **Get the set of boundary polygons for an entity that contains the specified address string. The address is geocoded to get a corresponding latitude and longitude.**  
   
-```  
+```url
 http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(address,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
 ```  
   
@@ -139,7 +139,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
 ### Decompression Algorithm  
  The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](http://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
   
-```  
+```csharp
 public const string safeCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";  
   
 private static bool TryParseEncodedValue(string value, out List<Location> parsedValue)  
@@ -207,16 +207,17 @@ private static bool TryParseEncodedValue(string value, out List<Location> parsed
   
 ```  
   
-## Examples  
- **EXAMPLE:** Get polygons that make up the PostCode1 entity that contains the coordinates (47.64054,-122.12934). Metadata is also requested.  
+## Examples
+
+**EXAMPLE:** Get polygons that make up the PostCode1 entity that contains the coordinates (47.64054,-122.12934). Metadata is also requested.  
   
-```  
+```url
 https://platform.bing.com/geo/spatial/v1/public/geodata?spatialFilter=GetBoundary(47.64054,-122.12934,1,'PostCode1',1,1,'en','us')&key=BingMapsKey  
 ```  
   
  URL with ATOM response  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <d:feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
   <bsi:copyright>© 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  
@@ -259,7 +260,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
   
  URL with JSON response  
   
-```  
+```json
 {  
    "d":{  
       "Copyright":"\u00a9 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  
@@ -300,7 +301,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
 }  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <d:feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
   <bsi:copyright>© 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  

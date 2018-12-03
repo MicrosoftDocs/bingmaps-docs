@@ -47,7 +47,7 @@ The NAVTEQEU data source contains information about points of interest (POIs) in
   
  **Base Query URL**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/c2ae584bbccc4916a0acf75d1e6947b4/NavteqEU/NavteqPOIs  
 ```  
   
@@ -55,6 +55,6 @@ http://spatial.virtualearth.net/REST/v1/data/c2ae584bbccc4916a0acf75d1e6947b4/Na
   
  The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any Bing Maps Key.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/c2ae584bbccc4916a0acf75d1e6947b4/NavteqEU/NavteqPOIs?spatialFilter=nearby(50.1120796203613,8.68340969085693,100)&$select=EntityID,Latitude,Longitude,DisplayName,__Distance,LanguageCode&$top=3&key=anyBingMapsKey  
 ```

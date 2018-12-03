@@ -28,7 +28,7 @@ ms.service: "bing-maps"
 ## Text File Schema  
  The following text file schema shows how the input and output values for the Geocode Dataflow are organized in a text file. Note that there are GeocodeRequest, GeocodeResponse, and ReverseGeocodeRequest values. The Geocode Request fields define location information to geocode. The ReverseGeocodeRequest fields provide latitude and longitude information to reverse geocode. The GeocodeResponse fields are populated with the processed output data. Each item of data must provide information or a blank entry for each of these fields. Descriptions of the fields are provided in the Data Schema Definitions section below.  
   
-```  
+```text
 GeocodeEntity/@Id  
 GeocodeEntity/GeocodeRequest/@Culture  
 GeocodeEntity/GeocodeRequest/@Query  
@@ -64,7 +64,7 @@ GeocodeEntity/ReverseGeocodeRequest/Location/@Longitude
   
  The following two input values show an address to geocode and a latitude and longitude pair to reverse geocode. Note that both examples contain a value or blank space for each element in the text file schema.  
   
-```  
+```csv
 1,en-US,,16630 Redmond Way,WA,,,,Redmond,98052,,,,,,,,,,,,,,,,,,,,,,,,  
 2,en-gb,,,,,,,,,,,,,,,,,,,,,,,,,,,,53.77848387,-1.719561517  
 ```  
@@ -72,7 +72,7 @@ GeocodeEntity/ReverseGeocodeRequest/Location/@Longitude
 ## XML Schema  
  The following schema is the XML schema for spatial data. Descriptions of the fields are provided in the Data Schema Definitions section below.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/search/local/2010/5/geocode" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
   <xs:element name="GeocodeFeed">  
@@ -186,7 +186,7 @@ GeocodeEntity/ReverseGeocodeRequest/Location/@Longitude
   
  The following two input values show a location to geocode and a latitude and longitude pair to reverse geocode.  
   
-```  
+```xml
 <GeocodeFeed>  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
     <GeocodeRequest Culture="en-US">  
@@ -201,8 +201,9 @@ GeocodeEntity/ReverseGeocodeRequest/Location/@Longitude
 </GeocodeFeed>  
 ```  
   
-## Data Schema Definitions  
- The following table provides descriptions of the fields in the spatial data schema. Field values are not case-sensitive.  
+## Data Schema Definitions
+
+The following table provides descriptions of the fields in the spatial data schema. Field values are not case-sensitive.  
   
 |Field|Operation|Values|  
 |-----------|---------------|------------|  
@@ -229,6 +230,6 @@ GeocodeEntity/ReverseGeocodeRequest/Location/@Longitude
 |RooftopLocation.Latitude<br /><br /> RooftopLocation.Longitude|Geocode Response|A pair of double values representing degrees of latitude and longitude that are associated with an address.|  
 |InterpolatedLocation.Latitude<br /><br /> InterpolatedLocation.Longitude|Geocode Response|A pair of double values representing degrees of latitude and longitude that are the result of interpolating between two points.|  
 |Confidence|Geocode Response|A string specifying the confidence of the result.<br /><br /> The following are possible confidence values:<br /><br /> -   Low<br />-   Medium<br />-   High|  
-|DisplayName|Geocode Response|A string specifying the display name for the response.<br /><br /> **Example**: 16552 NE 74th St, Redmond, WA 98052-7804|  
+|DisplayName|Geocode Response|A string specifying the display name for the response.<br /><br /> **Example**: 16552 NE 74th St, Redmond, WA 98052-7804|
 |StatusCode|Geocode Response|A string that provides information about the success of the operation.<br /><br /> **Examples**:<br /><br /> Success<br /><br /> BadRequest|  
 |FaultReason|Geocode Response|Information about an error that occurred during the geocode dataflow job. This value is provided only for data that was not processed successfully.<br /><br /> **Example**: The Address.FormattedAddress property must not be specified because it is an output-only property.|

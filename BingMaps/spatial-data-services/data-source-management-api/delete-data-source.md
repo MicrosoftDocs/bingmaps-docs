@@ -34,7 +34,7 @@ Use the following URL to delete a data source. To delete a data source, a delete
   
  The URL uses the **HTTP DELETE** method so you cannot delete a datasource by typing the URL directly in the address bar of a browser. See the **Example** section for more information.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName?key=masterKey  
 ```  
   
@@ -60,7 +60,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName?key=masterK
   
  The following request deletes a data source. The key parameter must be set to the data source master key. You cannot submit this URL directly from the Address bar in a browser because the URL uses the HTTP DELETE method. You may want to use a tool such as [Fiddler](https://www.fiddler2.com/fiddler2/) or [cURL](https://curl.haxx.se/) to submit this URL request.  
   
-```  
+```url
 DELETE http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f94922212345/ADataSourceName?key=masterKey HTTP/1.1  
 ```  
   

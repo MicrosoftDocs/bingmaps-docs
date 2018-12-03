@@ -20,7 +20,7 @@ Use the following URL to get a list of all dataflow and data source jobs that we
   
 ## URL Template  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKey&output=output  
 ```  
   
@@ -51,7 +51,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
 ## Example  
  **Get a list of all dataflow and data source jobs that were submitted in the last 15 days.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey  
 ```  
   
@@ -59,7 +59,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
   
  This example returns the following response that lists all the pending and completed jobs from the last 15 days.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -151,7 +151,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
   
  This XML response is returned when output=xml is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://spatial.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  

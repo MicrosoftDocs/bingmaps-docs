@@ -28,7 +28,7 @@ Use the following URLs to get information about one or more data sources.
   
  The key parameter in this URL is set to any Bing Maps Key that belongs to the Bing Maps Account.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data?$format=formatQueryOption&key=anyKeyFromTheBingMapsAccount  
 ```  
   
@@ -42,7 +42,7 @@ http://spatial.virtualearth.net/REST/v1/data?$format=formatQueryOption&key=anyKe
   
  The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName?$format=formatQueryOption&showAllVersions=showAllVerions&key=anyKeyFromTheBingMapsAccount  
 ```  
   
@@ -52,7 +52,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName?$format=for
   
  The key parameter in this URL is set to any Bing Maps Key that belongs to the Bing Maps Account.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/$metadata?key=anyKeyFromTheBingMapsAccount  
 ```  
   
@@ -64,7 +64,7 @@ http://spatial.virtualearth.net/REST/v1/data/$metadata?key=anyKeyFromTheBingMaps
   
  The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$metadata?showAllVersions=showAllVersions&key=anyKeyFromTheBingMapsAccount  
 ```  
   
@@ -102,13 +102,13 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$metadata?s
   
  **URL with Atom Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data?key=anyKeyFromTheBingMapsAccount  
 ```  
   
  The following response provides two unique URLs that represent two data sources that belong to a Bing Maps Account. You can use these URLs to query the data sources.  
   
-```  
+```xml
 <app:service xmlns:app="http://www.w3.org/2007/app"   
                   xmlns:atom="http://www.w3.org/2005/Atom"   
                   xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
@@ -131,11 +131,11 @@ http://spatial.virtualearth.net/REST/v1/data?key=anyKeyFromTheBingMapsAccount
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data?$format=json&key=anyKeyFromTheBingMapsAccount  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "Copyright":"© 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -169,11 +169,11 @@ http://spatial.virtualearth.net/REST/v1/data?$format=json&key=anyKeyFromTheBingM
   
  The following response provides a URL that you can use to query data source.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample?showAllVersions=3&key=anyKeyFromTheBingMapsAccount  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8"?>  
 <app:service xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:app="http://www.w3.org/2007/app">  
   <bsi:copyright>© 2013 Microsoft and its suppliers. This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  
@@ -208,11 +208,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample?$format=json&key=anyKeyFromTheBingMapsAccount  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "Copyright":"© 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -234,11 +234,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  Atom is the only supported response type when you request metadata.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/$metadata?key=anyKeyFromTheBingMapsAccount  
 ```  
   
-```  
+```xml
 <edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">  
   <edmx:DataServices DataServiceVersion="1.0">  
     <Schema Namespace="FourthCoffeeSampleDataSource" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">  

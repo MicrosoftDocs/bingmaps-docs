@@ -28,7 +28,7 @@ Use the following URL to search a data source for one or more entities by entity
   
  **Query for a single entity by specifying the entity ID string.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName(entityId)?jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -36,7 +36,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  You can query for up to 50 entity ID strings with this URL.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?$filter=entityId in (entityId1,entityId2,entityIdN)&queryoption1&  
 queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
@@ -79,11 +79,11 @@ queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=
   
  **URL with Atom Response**  
   
-```  
-http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops('-22067')?key=queryKey  
+```url
+http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops('-22067')?key=queryKey 
 ```  
   
-```  
+```xml
 <entry xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns="http://www.w3.org/2005/Atom">  
   <id>https://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops('-22067')</id>  
   <title type="text" />  
@@ -133,11 +133,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  \<offset> = number of minutes to add or subtract  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops('-22067')?$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -178,11 +178,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with Atom Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?$filter=entityId in('-22067','-7891')&$select=Latitude,Longitude,AddressLine,PrimaryCity,PostalCode&key=queryKey  
 ```  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:d359c52a-63a7-469d-bad9-7b54baada637;id=54</id>  
@@ -222,11 +222,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?$filter=entityId in('-22067','-7891')&$select=Latitude,Longitude,AddressLine,PrimaryCity,PostalCode&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  

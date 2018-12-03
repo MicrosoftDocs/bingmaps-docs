@@ -13,8 +13,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Metadata Object
-Represents the metadata object for a boundary returned by the [GeoData API](../spatial-data-services/geodata-api.md). 
+
+Represents the metadata object for a boundary returned by the [GeoData API](../../../spatial-data-services/geodata-api.md). 
 
 ## Properties
 

@@ -26,14 +26,14 @@ Use the following URL to search a data source for one or more entities by specif
   
  **Query for one or more entities by specifying property values and a distance to search.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName  
 /entityTypeName?spatialFilter=nearby(latitude,longitude,distance)&$filter=filterString&queryOption1&queryOption2&queryOptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
  **Query for one or more entities by specifying property values and a bounding box to search.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName  
 /entityTypeName?bbox(southLatitude,westLongitude,northLatitude,eastLongitude)&$filter=filterString&queryOption1&queryOption2&queryOptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
@@ -42,7 +42,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName
   
  Available geography objects are defined in [Geography Types](../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=intersects(geography)&$filter=filterString&queryOption1&queryOption2&queryOptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -84,13 +84,12 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  **URL with Atom response**  
   
-```  
- HYPERLINK "http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23  
-/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,2)&$filter=StoreType%20Eq" http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23  
+```url
+http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23  
 /FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,2)&$filter=StoreType%20Eq%20'Coffee Shop'&$select=IsWiFiHotSpot&$orderby=IsWiFiHotSpot&key=queryKey  
 ```  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:876b2e49-e480-40b8-8282-9929ced06f7f;id=46</id>  
@@ -152,13 +151,12 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  **URL with JSON response**  
   
-```  
- HYPERLINK "http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf94961  
-33d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,2)&$filter=StoreType%20Eq%20'Coffee" http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf94961  
+```url
+http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf94961  
 33d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,2)&$filter=StoreType%20Eq%20'Coffee Shop'&$select=IsWiFiHotSpot&$orderby=IsWiFiHotSpot&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -204,11 +202,11 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  **URL with Atom response**  
   
-```  
-http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,10)&$filter=StartsWith(PrimaryCity,'Clear')%20eq%20true&$orderby=IsWheelchairAccessible&$select=DisplayName,IsWheelChairAccessible,Latitude,Longitude&key=queryKey  
+```url
+http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,10)&$filter=StartsWith(PrimaryCity,'Clear')%20eq%20true&$orderby=IsWheelchairAccessible&$select=DisplayName,IsWheelChairAccessible,Latitude,Longitude&key=queryKey
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text"></title>  
@@ -286,11 +284,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(27.894007,-82.670776,10)&$filter=StartsWith(PrimaryCity,'Clear')%20eq%20true&$orderby=IsWheelchairAccessible&$select=DisplayName,IsWheelChairAccessible,Latitude,Longitude&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2012 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  

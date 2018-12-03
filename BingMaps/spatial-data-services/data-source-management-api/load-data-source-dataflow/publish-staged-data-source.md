@@ -32,7 +32,7 @@ Use the following URL to publish a staged data source.
   
  This URL will publish a staged data source that was created by setting loadOperation=completeStaged or incrementalStaging when you created a [Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/$commit?output=output&key=masterKey  
 ```  
   
@@ -40,7 +40,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/$commit?out
   
  After you start the publishing process, you can check status using the URL provided in the response to the publish request. When the staged data source is published and available to query, the `Status` field in the $getstatus response is set to `Completed`. The status URL has the following structure.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/jobs/publishJobId/$getstatus?output=output&key=masterKey  
 ```  
   
@@ -66,7 +66,7 @@ http://spatial.virtualearth.net/REST/v1/data/jobs/publishJobId/$getstatus?output
 ## Examples  
  **EXAMPLE: Publish a staged data source.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f94922212345/MyDataSourceName/$commit?o=xml&key=MyDataSourceMasterKey  
 ```  
   
@@ -74,7 +74,7 @@ http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f94922212345/MyDat
   
  This URL will return a response similar to the following example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8"?>  
 <Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -106,7 +106,7 @@ http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f94922212345/MyDat
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -139,13 +139,13 @@ http://spatial.virtualearth.net/REST/v1/data/12ccc26d9e9412345f94922212345/MyDat
   
  **Example:** Get the status of the DataSourcePublishFromStaged data source job. When the `Status` is set to `Completed`, the staged data source is successfully published. Not that this URL is from the response in the previous example with the master key added.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/data/jobs/3627f4ab4882498074e79cda29f3a/$getstatus?key=masterKey  
 ```  
   
  **XML Response**  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -176,7 +176,7 @@ https://spatial.virtualearth.net/REST/v1/data/jobs/3627f4ab4882498074e79cda29f3a
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

@@ -65,13 +65,13 @@ When you use the Query API, you can specify query options that define what data 
   
  **Search a set distance from a location**  
   
-```  
+```url
 spatialFilter=nearby(latitude,longitude,maximum distance in kilometers)  
 ```  
   
  **Search in a bounding box (an area defined by pairs of longitude and latitude values)**  
   
-```  
+```url
 spatialFilter=bbox(South Latitude,West Longitude,North Latitude,East Longitude)  
 ```  
   
@@ -79,7 +79,7 @@ spatialFilter=bbox(South Latitude,West Longitude,North Latitude,East Longitude)
   
  When you perform a nearRoute search, entities that are within one (1) mile or 1.6 kilometers are returned.  
   
-```  
+```url
 spatialFilter=nearRoute(latitude or ddress of route start,longitude or address of route end)  
 ```  
   
@@ -87,7 +87,7 @@ spatialFilter=nearRoute(latitude or ddress of route start,longitude or address o
   
  When you perform an ‘intersects’ search, entities that are within the geographical area defined by the specified geography are returned. Supported geography types include polygon and line string and are also used to define geography properties for entities. To see definitions of these types, see [Geography Types](../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
-```  
+```url
 spatialFilter=intersects('geography description')  
 ```  
   

@@ -234,7 +234,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?ma
   
  This example specifies the same map parameters as the previous example and adds the mapMetadata parameter to get the map metadata. Map metadata includes the map size, area and center point and the position and size of the pushpins. To see the XML and JSON responses for this request and for descriptions of the metadata information, see [Static Map Data](static-map-data.md).  
   
-```  
+```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsAPIKey}
 ```  
   
@@ -361,7 +361,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/?key={BingMapsAPIKey}
   
  You must include the following settings in the HTTP POST Header.  
   
-```  
+```url
 Content-Length: insertLengthOfHTTPBody  
 Content-Type: text/plain; charset=utf-8  
 ```  
@@ -372,7 +372,7 @@ Content-Type: text/plain; charset=utf-8
   
  **Example 1**  
   
-```  
+```url
 pp=38.889586530732335,-77.05010175704956;23;LM\r\n  
 pp=38.88772364638439,-77.0472639799118;7;KM\r\n  
 pp=38.890479451480054,-77.04744637012482;1;VM\r\n  
@@ -381,7 +381,7 @@ pp=38.8896854931628,-77.03519403934479;45;WM
   
  **Example 2**  
   
-```  
+```url
 pp=38.889586530732335,-77.05010175704956;23;LM&pp=38.88772364638439,-77.0472639799118;7;KM\r\n  
 pp=38.890479451480054,-77.04744637012482;1;VM&pp=38.8896854931628,-77.03519403934479;45;WM 
 ```  
@@ -468,11 +468,11 @@ And here is the resulting PNG image:
 
 ![Draw Curved Lines in Bay Area](../media/CurvedLinesBayArea.png)
 
-### Draw Pushpoins on a map of the USA using the `drawCurve` Parameter
+### Draw Pushpoints on a map of the USA using the `drawCurve` Parameter
 
 Use the `pp` parameter, along with `drawCurve`, to draw pushpins on an image and join them with straight or curved lines.
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=l,,3&key={BingMapsAPIKey}
 ```
 
@@ -482,7 +482,7 @@ Here is the resulting JPEG image:
 
 Like in the previous example, `l` in the `drawCurve` parameter can be changed to `cv` to draw curved lines:
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cl,,3&key={BingMapsAPIKey}
 ```
 

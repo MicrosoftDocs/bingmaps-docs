@@ -29,7 +29,7 @@ Use the following URLs to make your data source publicly accessible or to make i
 ## URL templates  
  **Set a data source to publicly accessible by setting the setPublic parameter.**.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateDataSource?setPublic=setPublic&key=masterKey  
 ```  
   
@@ -60,7 +60,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$updateData
   
  The following request makes the specified data source public.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/FourthCoffeeSample/$updatedatasource?setPublic=1&o=xml&key=MasterKey  
 ```  
   
@@ -68,7 +68,7 @@ http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/Fo
   
  **URL with XML Response**  
   
-```xaml  
+```xml  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
           xmlns:xsd="http://www.w3.org/2001/XMLSchema"   
           xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -106,7 +106,7 @@ http://spatial.virtualearth.net/REST/v1/data/d2accd5bf52e486f8261c4889d5940d6/Fo
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

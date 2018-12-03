@@ -30,7 +30,7 @@ Use the following URL to download entity data from a published data source.
   
  This URL creates a DataSourceDownload job that downloads entity data and the data schema for a data source. You can download the published data source or up to two (2) prior versions or a staged version by specifying a data source job ID.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/dataSourceName?output=output&jobId=jobId&key=DataSourceMasterKey  
 ```  
   
@@ -67,7 +67,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/da
   
  The response specifies a status URL that you can use to monitor the download job status. This status URL is highlighted in the response examples below. See [Get Download Data Source Job Status](../../data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md) to learn how to use the status URL to determine when the download job is complete.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e9412345f94922212345/DataSourceName?o=xml&key=DataSourceMasterKey  
 ```  
   
@@ -75,7 +75,7 @@ http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e941234
   
  This URL will return a response similar to the following example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -109,7 +109,7 @@ http://spatial.virtualearth.net/REST/v1/data/DataSourceDownload/12ccc26d9e941234
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

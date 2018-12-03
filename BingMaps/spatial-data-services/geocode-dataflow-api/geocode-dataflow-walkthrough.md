@@ -23,7 +23,7 @@ The following steps show how to use  the Geocode Dataflow API and version 2.0 of
   
  The following is an XML example that contains data to geocode. You can find examples in other formats in [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" Version="2.0">  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -71,13 +71,13 @@ The following steps show how to use  the Geocode Dataflow API and version 2.0 of
 > [!NOTE]
 >  Both HTTP and HTTPS protocols are supported. The HTTPS protocol is recommended for geocode jobs that require you to secure your information.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=Geocode%20Demo&input=xml&output=xml&key=YourBingMapsKey  
 ```  
   
  When you make this request, the response includes a `DataflowJob` resource. This resource contains a set `Link` elements that define URLs. When you initiate a job, the response you receive contains a URL that you can use to get job status. After the job has completed, additional URLs are provided to download the geocoded results. The following response includes a URL for getting status as described in the next section. For more information about the `DataflowJob` resource, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2010 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the  
  content and any results may not be used, reproduced or transmitted in any manner without express written permission  
@@ -113,11 +113,11 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=Geocode%20
   
  Based on the example response above, you would make the following URL request to get job status. The job status is defined by the `Status` field. Continue to check status until it shows that the job has `Completed`. Then you can download the results as described in the next section.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf?key=YourBingMapsKey  
 ```  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2010 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the   
 content and any results may not be used, reproduced or transmitted in any manner without express written permission   
@@ -159,13 +159,13 @@ from Microsoft Corporation.</Copyright>
   
  **URL (name=succeeded)**  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/succeeded?key=BingMapsKey  
 ```  
   
  **Successful Geocode Results**  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed Version="2.0" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="010">  
@@ -259,13 +259,13 @@ https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d26
   
  **URL (name=failed)**  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/failed?key=BingMapsKey  
 ```  
   
  **Failed Geocode Results**  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed Version="2.0" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="004">  
@@ -277,5 +277,4 @@ https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d26
     <TraceId>2f2a8ea2402842198b6d9d6a62b03eeb</TraceId>  
   </GeocodeEntity>  
 </GeocodeFeed>  
-  
 ```

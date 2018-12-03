@@ -29,7 +29,7 @@ Use the following URL to get a list of all data sources that are public. This in
 ## URL Templates  
  **Get a list of all public data sources.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList?$format=format&key=anyBingMapsKey  
 ```  
   
@@ -45,11 +45,11 @@ http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList?$format=fo
   
  **URL with XML Response**  
   
-```  
+```url
 HYPERLINK "http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList?$format=atom&key=" http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList?$format=atom&key=anyBingMapsKey  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <app:service xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
   <bsi:copyright>© 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  
@@ -72,7 +72,7 @@ HYPERLINK "http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList
   
  **URL with JSON Response**  
   
-```  
+```json
 {  
   "d": {  
     "Copyright": "\u00a9 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  

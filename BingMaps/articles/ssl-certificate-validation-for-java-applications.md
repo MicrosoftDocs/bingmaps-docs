@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # SSL Certificate Validation for Java Applications
 Bing Maps APIs support both HTTP and HTTPS requests that use Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols. The SSL and TLS endpoints are secured by certificates. For example, when you query a data source directly from your browser by using the [Bing Spatial Data Services (SDS)](http://msdn.microsoft.com/en-us/library/ff701734.aspx), as in the following example, you can view the certificate chain by clicking the “lock” icon.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/data/  
   f22876ec257b474b82fe2ffcb8393150/  
   NavteqNA/  
@@ -38,7 +38,7 @@ https://spatial.virtualearth.net/REST/v1/data/
   
  Java provides a [“keytool”](http://docs.oracle.com/javase/1.4.2/docs/tooldocs/solaris/keytool.html) in order to manage your “keystore”. To view a list of currently installed certificates, open a command prompt and run the following command from the `bin` directory of the JRE.  
   
-```  
+```console
 keytool -list -keystore ..\lib\security\cacerts  
 ```  
   
@@ -56,7 +56,7 @@ keytool -list -keystore ..\lib\security\cacerts
   
 2.  Open a command prompt and run the following “keytool” command from the `bin` directory of the JRE. This starts the certificate installation. You must insert the directory path to the downloaded certificate from step 1 before running the command. If you are running the Windows operating system, you will need to run the command prompt as an administrator.  
   
-    ```  
+    ```console
     keytool -importcert -file "InsertCertificateDownloadLocation\bc2025.crt" -keystore ..\lib\security\cacerts -alias baltimorecybertrustca  
     ```  
   

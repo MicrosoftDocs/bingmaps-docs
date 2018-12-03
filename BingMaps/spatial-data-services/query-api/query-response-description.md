@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Query Response Description
+
 When you query a data source using the Query API, the response returns a list of entities that met the query criteria. Information returned for each entity includes a [Query by ID](../query-api/query-by-id.md) URL that returns the complete information for that entity. Depending on the query options, all or a subset of the entity properties are also returned.  
   
  If a response format is not specified by using the `$format` query option, the results are returned in ATOM format. You can also set the `$format` parameter to `json` if you want to have the response returned in JSON format.  
@@ -25,7 +27,7 @@ When you query a data source using the Query API, the response returns a list of
   
 ### ATOM Example  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:876b2e49-e480-40b8-8282-9929ced06f7f;id=46</id>  
@@ -72,7 +74,7 @@ When you query a data source using the Query API, the response returns a list of
 >   
 >  \<offset> = number of minutes to add or subtract  
   
-```  
+```json
 {  
    "d":{  
       "results":[  

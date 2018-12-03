@@ -38,7 +38,7 @@ Use the following URL to create, stage and update a data source. This URL create
   
  The master key and the query key must be different Bing Maps Keys from the same .  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?dataSourceName=dataSourceName&loadOperation=loadOperation&dataLocation=dataLocation&setPublic=setPublic&input=input&output=output&key=masterKey&queryKey=queryKey  
 ```  
   
@@ -100,11 +100,11 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?dataSourceName=
   
  **URL and XML response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=complete&input=xml&o=xml&key=masterKey&query=queryKey  
 ```  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
           xmlns:xsd="http://www.w3.org/2001/XMLSchema"   
           xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
@@ -139,11 +139,11 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=c
   
  The response returns a URL that you can use to get status of the dataflow job that was created. The URL is provided as the value of a `"url"` element under `links` with the attribute `"role"` set to `"self"`.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=complete&input=xml&key=masterKey&queryKey=queryKey  
 ```  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -181,13 +181,13 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=c
   
  The input format for creating a data source and adding or updating entities is the same. If you are also deleting entries, you must add a schema property named __deleteEntity to your schema  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=incremental&input=xml&o=xml&key=masterKey  
 ```  
   
  **EXAMPLE: Create a load data source job to create a new data source and use the `dataLocation` parameter to specify the location of the input data.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?loadOperation=complete&dataLocation=http://myAzureAccount.blob.core.windows.net/myEntityData&input=x  
 ml&o=xml&key=masterKey&queryKey=queryKey  
 ```  

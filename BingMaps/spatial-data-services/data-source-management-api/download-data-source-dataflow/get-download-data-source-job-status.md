@@ -28,7 +28,7 @@ Use the following URL to get the status of a download data source job.
   
  A status URL in the following format without the output parameter and master key is provided in the response to the URL request that you made to [Create a Download Job](../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md). The status URL is specified in a `link` field with an attribute of `self`. This URL with the data source master key provides the status of the job.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/DataSourceName?output=output&key=DataSourceMasterKey  
 ```  
   
@@ -59,7 +59,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/DataSourceN
 ## Examples  
  This example requests status information in XML format for a download job for MyDataSourceName data source. When the job status is complete, a download URL is included in the response that you can use to download data. See [Get Downloaded Data](../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md) for more information. The example responses are for a completed job and the download URL is highlighted.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourceName?o=xml&key=DataSourceMasterKey  
 ```  
   
@@ -67,7 +67,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourc
   
  This URL will return a response similar to the following example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -102,7 +102,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/MyDataSourc
   
  If o=xml was not specified in the response, a JSON response similar to the following example is returned.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  

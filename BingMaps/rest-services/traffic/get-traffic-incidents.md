@@ -31,7 +31,7 @@ GET
   
  **Get traffic incidents.**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocationCodes}?severity={severity1,severity2,severityN}&type={type1,type2,typeN}&key={BingMapsKey}  
 ```  
   

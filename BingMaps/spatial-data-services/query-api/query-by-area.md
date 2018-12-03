@@ -40,13 +40,13 @@ Use the following URLs to search a data source for entity types that are within 
   
  **Search using latitude, longitude and distance.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=nearby(latitude,longitude,distance)&queryoption1&queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
  **Search using an address string and distance.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=nearby(addressString,distance)&queryoption1&queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -54,7 +54,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  A bounding box defines an area using latitude and longitude pairs.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=bbox(southLatitude,westLongitude,northLatitude,eastLongitude)&queryOption1&queryOption2&queryOptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -62,7 +62,7 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  Available geography objects are defined in [Geography Types](../data-source-management-api/load-data-source-dataflow/geography-types.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=intersects(geography)& queryOption1&queryOption2&queryOptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -84,7 +84,8 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
 |queryKey|**Required**. The Bing Maps Key to use to access the data source.|The Bing Maps Keys that you can use for a data source are specified when the data source is created. For example, there may be a single query key you must use to query the data source or you may be able to use any Bing Maps Key. For more information about specifying query keys when a data source is created, see [Create a Load Data Source Job](../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
 ## Response  
- The response to this URL contains the results of the query.  
+
+The response to this URL contains the results of the query.  
   
  If the $orderby query option is not specified as part of the request, the results are sorted as follows:  
   
@@ -103,17 +104,18 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
  When the output format is JSON, the response format for both types of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
   
 ## Examples  
- **EXAMPLE: Query a data source by specifying a bounding box.**  
+
+**EXAMPLE: Query a data source by specifying a bounding box.**  
   
  This example queries for coffee shops within an area defined by a bounding box (a pair of latitudes and longitudes).The $select and $top query options request the entity ID, latitude and longitude for the first three (3) entities that meet the search criteria.  
   
  **URL with Atom Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=bbox(40.7801465817126,-74.46958923339845,40.88535150706938,-74.163070678710937)&$select=EntityID,Latitude,Longitude&$top=3&key=queryKey  
 ```  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:d359c52a-63a7-469d-bad9-7b54baada637;id=45</id>  
@@ -161,11 +163,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=bbox(40.7801465817126,-74.46958923339845,40.88535150706938,-74.163070678710937)&$select=EntityID,Latitude,Longitude&$top=3&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -205,11 +207,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with Atom Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$select=EntityID,Latitude,Longitude,__Distance&$top=3&key=queryKey  
 ```  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:d359c52a-63a7-469d-bad9-7b54baada637;id=46</id>  
@@ -255,16 +257,15 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
     </content>  
   </entry>  
 </feed>  
-  
 ```  
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter&$select=EntityID,Latitude,Longitude,__Distance&$top=3&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -307,11 +308,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with ATOM Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter=IsWifiHotSpot%20eq%201&$select=DisplayName,Latitude,Longitude&$top=3&key=queryKey  
 ```  
   
-```  
+```xml
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text" />  
   <id>uuid:9d7fa138-2948-4928-8e41-62a6c2daad08;id=1503</id>  
@@ -359,11 +360,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter=IsWifiHotSpot%20eq%201&$select=DisplayName,Latitude,Longitude&$top=3&format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2011 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft’s express written permission.",  
@@ -400,7 +401,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  This example queries for coffee shops within a given distance of a point with wifi. The query returns the complete set of entity properties and the distance for all the entities that meet the search criteria.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearby('1 Microsoft Way Redmond WA 98052',5)&$filter=IsWifiHotSpot%20eq%201&$select=*,__Distance&key=queryKey  
 ```  
   
@@ -408,11 +409,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  **URL with ATOM Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c239ddf9496133d4f23/SampleDataSource/SampleEntityType?SpatialFilter=intersects('POLYGON((-112 42,-112 41,-123 41,-123 42,-112 42))'&$select=intersection('POLYGON((-112 42,-112 41,-123 41,-123 42,-112 42))'),EntityID&$top=2&key=queryKey  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text"></title>  
@@ -446,11 +447,11 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c239ddf9496133d4f23/Sa
   
  **URL with JSON Response**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c239ddf9496133d4f23/SampleDataSource/SampleEntityType?SpatialFilter=intersects('POLYGON((-112 42,-112 41,-123 41,-123 42,-112 42))'&$select=intersection('POLYGON((-112 42,-112 41,-123 41,-123 42,-112 42))'),EntityID&$top=2&$format=json&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  

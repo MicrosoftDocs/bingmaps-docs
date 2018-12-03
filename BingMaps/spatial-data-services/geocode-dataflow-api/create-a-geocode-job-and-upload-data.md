@@ -30,7 +30,7 @@ Use the following URL to upload a set of spatial data and to create a job to geo
   
  The data that you upload can contain both data to geocode and data to reverse geocode. The geocode process detects the type of data for each entry and performs the appropriate action.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=output&dataLocation=dataLocation&key=BingMapsKey  
 ```  
   
@@ -64,18 +64,19 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=out
 ## Examples  
  This example creates a geocode job for spatial data that is provided in an xml format.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMapsKey  
 ```  
   
  This example creates a geocode job for spatial data that is provided in an xml format and assigns a description “My dataflow” to the job.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMapsKey  
 ```  
   
-## Response  
- The response to this URL contains a representation of the geocode dataflow job instance.  
+## Response
+
+The response to this URL contains a representation of the geocode dataflow job instance.  
   
  This URL supports the following response formats.  
   
@@ -85,10 +86,11 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMaps
   
  For information about the response, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
-## Sample Code  
- The following code shows how to create a job to geocode spatial data. The data you want to geocode is uploaded as part of the job creation process. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
+## Sample Code
+
+The following code shows how to create a job to geocode spatial data. The data you want to geocode is uploaded as part of the job creation process. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
-```  
+```csharp
 //Creates a geocode dataflow job and uploads spatial data to process.  
 //Parameters:   
 //   dataFilePath: The path to the file that contains the spatial data to geocode.  
@@ -173,7 +175,6 @@ static string CreateJob(string dataFilePath, string dataFormat, string key, stri
         }  
     }  
 }  
-  
 ```  
   
 ## HTTP Status Codes  

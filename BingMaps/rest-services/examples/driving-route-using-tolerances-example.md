@@ -18,7 +18,7 @@ The following example shows how to request a driving route between two locations
   
  This example is the same as the request that is described in the [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md) with the addition of tolerances. Examples of the additional content that is returned when tolerances are specified are shown below in JSON and XML formats.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1=44.943828508257866,-93.09332862496376&optmz=distance&rpo=Points&tl=0.00000344978,0.0000218840,0.000220577,0.00188803,0.0169860,0.0950130,0.846703&key=BingMapsKey  
 ```  
   
@@ -28,7 +28,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1
   
  These generalizations would be added to the complete response shown in [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md).  
   
-```  
+```json
 {  
    "routePath":{  
         -- route path points --  
@@ -87,7 +87,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=44.979035,-93.26493&wp.1
   
  You receive the following XML version of the route path generalizations when the output=xml parameter is set in the request.  
   
-```  
+```xml
 <RoutePath>  
    – route path points --  
   <RoutePathGeneralization>  

@@ -37,9 +37,8 @@ The first problem with both scale and resolution is that the world is neither fl
   
  At any latitude and zoom level, you can determine the scale by using the following equation:  
   
-```  
-Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)  
-```  
+`Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)`
+
   
  Remember that the zoom level goes from 1 to 19, and that latitude goes from -90 to 90 (assuming your cosine function works with degrees; if you need radians, multiply the latitude by Pi/180).  The equation naturally fails if you get too close to either pole, as the Mercator projection also fails when you get too close to the poles.  
   
@@ -68,9 +67,7 @@ Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)
   
  The equation becomes:  
   
-```  
-Map scale = 1 : (ScreenRes pixels/inch * 39.37 inches/meter * 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel))  
-```  
+`Map scale = 1 : (ScreenRes pixels/inch * 39.37 inches/meter * 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel))`
   
  For example, assuming a typical screen resolution of 85 pixels/inch and a zoom level of 13, you would have a resolution of 1 : 85 * 39.37 * 19.11 or 1 : 63950.  That means that every inch on the screen translates to 63,950 inches, or about 1 mile.  For those metrically inclined, that would be 1 cm on the screen mapping to 63950 centimeters, or about 0.64 kilometers.  
   

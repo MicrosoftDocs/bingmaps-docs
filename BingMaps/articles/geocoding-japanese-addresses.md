@@ -39,7 +39,7 @@ Japanese geocoding is complex because addresses can be expressed using four diff
 ### Geocode using URL address parameters  
  If you know the parsed address, you can specify each component separately using the following URL template and the URL parameters in the table. This type of request will give the best result because the address string does not need to be parsed.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=  
 locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMapsKey  
 ```  
@@ -60,14 +60,14 @@ locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMa
 ### Geocode using a single query string  
  If it’s not possible or convenient to separate out the components of the address, you can specify a single address string in the request:  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?q=addressString&culture=ja&key=YourBingMapsKey  
 ```  
   
 ### Reverse-geocode  
  To reverse-geocode a Japanese address, specify the latitude and longitude of the location in the request.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegrees?key=YourBingMapsKey  
 ```  
   
@@ -144,9 +144,10 @@ This XML file does not appear to have any style information associated with it. 
 ```  
   
 ## Geocoding with Bing Spatial Data Services  
+
  You can geocode a set of addresses using the Bing Spatial Data Services using the [Geocode Dataflow API](../spatial-data-services/index.md). Like the Locations API, the Geocode Dataflow API allows you to geocode a Japanese address by identifying its components or by specifying a single address string. The Geocode Dataflow data schema includes the following input values.  
   
-```  
+```Values
 Id  
 GeocodeRequest/Culture  
 GeocodeRequest/Query  
@@ -159,7 +160,6 @@ GeocodeRequest/Address/Locality
 GeocodeRequest/Address/PostalCode  
 GeocodeRequest/Address/PostalTown  
 GeocodeRequest/ConfidenceFilter/MinimumConfidence  
-  
 ```  
   
  To specify individual components, use the same address definitions as defined above for the Locations API (such as GeocodeRequest/Address/AddressLine and GeocodeRequest/Address/AdminDistrict). To specify a single address query string use GeocodeRequest/Query. For more information about this data schema and how to use the Geocode Dataflow, see [Geocode Dataflow API](../spatial-data-services/index.md),  [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md), and [Walkthrough](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-walkthrough.md).  

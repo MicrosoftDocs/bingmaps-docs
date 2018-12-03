@@ -32,7 +32,7 @@ Use the following URL to search a data source for entities that are within one (
   
  Use the query options to specify the properties that you want to return and to provide other options such as the number of results to return.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeName?spatialFilter=nearRoute(startRoute,endRoute)&avoid=avoid&optimize=optimize&distanceBeforeFirstTurn=distanceBeforeFirstTurn&heading=heading&travelMode=travelMode&queryoption1&queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=isStaging&key=queryKey  
 ```  
   
@@ -65,8 +65,9 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
 |optimize|optmz|**Optional.** Specifies what parameters to use to optimize the route on the map.|One of the following values:<br /><br /> -   distance: The route is calculated to minimize the distance. Traffic information is not used.<br />-   time **[default]**: The route is calculated to minimize the time. Traffic information is not used.<br />-   timeWithTraffic: The route is calculated to minimize the time and uses current traffic information.<br /><br /> **Example**: optimize=time|  
 |travelMode||**Optional.** The mode of travel for the route.|One of the following values:<br /><br /> -   Driving **[default]**<br />-   Walking|  
   
-## Response  
- The response to this URL contains the results of the query.  
+## Response
+
+The response to this URL contains the results of the query.  
   
  Results are returned in ascending order. If the $orderby query option is not specified as part of the request, the results are sorted as follows:  
   
@@ -86,8 +87,9 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  When the output format is JSON, the response format for both types of requests is a collection of JSON Entries in a “results” container. For more information about the JSON response format, see [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) and the JSON examples in the **Examples** section.  
   
-## Examples  
- **EXAMPLE: Query a data source for entities near a route.**  
+## Examples
+
+**EXAMPLE: Query a data source for entities near a route.**  
   
  The following example queries for coffee shops along a route between Webster, Texas and Kemah, Texas. Coffee shops within one (1) mile of the route are returned in the response. Because [FourthCoffeeSample Data Source](../public-data-sources/fourthcoffeesample.md) is a public data source, you can use any Bing Maps Key for the query key.  
   
@@ -95,17 +97,17 @@ http://spatial.virtualearth.net/REST/v1/data/accessId/dataSourceName/entityTypeN
   
  Specifying address values  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearRoute('Webster,TX','Kemah,TX')&$select=EntityID,Latitude,Longitude,DisplayName,Phone&$top=3&key=queryKey  
 ```  
   
  Specifying latitude and longitude values  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearRoute('29.5386,-95.1194','29.5431,-95.01831')&$select=EntityID,Latitude,Longitude,DisplayName,Phone&$top=3&key=queryKey  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text"></title>  
@@ -162,17 +164,17 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  Specifying address values  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearRoute('Webster,TX','Kemah,TX')&$select=EntityID,Latitude,Longitude,DisplayName,Phone&$top=3&$format=json&key=queryKey  
 ```  
   
  Specifying latitude and longitude values  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?spatialFilter=nearRoute('29.5386,-95.1194','29.5431,-95.01831')&$select=EntityID,Latitude,Longitude,DisplayName,Phone&$format=json&$top=3&key=queryKey  
 ```  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2012 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  
@@ -216,7 +218,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
  The following example adds additional route parameters to the previous example that can affect the route.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/FourthCoffeeShops?&spatialFilter=nearRoute('Webster,TX','Kemah,TX')&$select=EntityID,Latitude,Longitude&avoid=tolls&optimize=time&travelMode=driving&output=xml&key=queryKey  
 ```  
   

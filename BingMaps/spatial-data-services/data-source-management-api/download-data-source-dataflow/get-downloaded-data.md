@@ -20,14 +20,13 @@ A download URL is returned in the job status response when download job has comp
   
  **XML**  
   
-```  
-<Link role="output" name="succeeded">https://spatial.virtualearth.net/REST/v1/dataflows/Download/MyDataSourceName/output/succeeded</Link>  
-  
+```url
+<Link role="output" name="succeeded">https://spatial.virtualearth.net/REST/v1/dataflows/Download/MyDataSourceName/output/succeeded</Link>
 ```  
   
  **JSON**  
   
-```  
+```json
 "links":[  
       {  
          "name":"succeeded",  
@@ -35,12 +34,11 @@ A download URL is returned in the job status response when download job has comp
          "url":"https:\/\/spatial.virtualearth.net\/REST\/v1\/dataflows\/DataSourceDownload\/MyDataSourceName\/output\/succeeded"  
       }  
 ]  
-  
 ```  
   
  To download the entity data, you must add the master key for the data source to the download URL.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/MyDataSourceName/output/succeeded?key=DataSourceMasterKey  
 ```  
   
@@ -48,7 +46,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/MyDataSour
   
  The following shows and example of downloaded entity data.  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>  
 <MainRoot>  
   <xs:schema xmlns="" xmlns:xs="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="MyDataSourceName">  

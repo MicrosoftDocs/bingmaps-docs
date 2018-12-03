@@ -28,7 +28,7 @@ Use the following URL to get the status of a geocode job.
   
  The Bing Maps Key that you specify must be the same Bing Maps Key that you used to create the job. A URL in the following format without the Bing Maps Key is provided in the response to the URL request that you made to [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md). The URL is specified in a `link` field with an attribute of `self`. For more information, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&key=BingMapsKey  
 ```  
   
@@ -43,10 +43,11 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&ke
 |key||**Required**. The Bing Maps Key that you used to create the geocode job.|A Bing Maps Key from the [Bing Maps Account Center](http://www.bingmapsportal.com).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
-## Examples  
- This example requests resource information for the job with an ID of e14b1d9bd65c4b9d99d267bbb8102ccf that was created by using the Bing Maps Key b1c323ea234b1c323ea234b1c323ea234.  
+## Examples
+
+This example requests resource information for the job with an ID of e14b1d9bd65c4b9d99d267bbb8102ccf that was created by using the Bing Maps Key b1c323ea234b1c323ea234b1c323ea234.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/e14b1d9bd65c4b9d99d267bbb8102ccf?key=b1c323ea234b1c323ea234b1c323ea234  
 ```  
   
@@ -62,7 +63,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/e14b1d9bd65c4b9d99d267
 ## Sample Code  
  The following code shows how to get the status of a geocode job. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
-```  
+```csharp
 class DownloadDetails  
 {  
     public string jobStatus { get; set; }  
@@ -73,7 +74,7 @@ class DownloadDetails
   
 ```  
   
-```  
+```csharp
 //Checks the status of a dataflow job and defines the URLs to use to download results when the job is completed.  
 //Parameters:   
 //   dataflowJobLocation: The URL to use to check status for a job.  

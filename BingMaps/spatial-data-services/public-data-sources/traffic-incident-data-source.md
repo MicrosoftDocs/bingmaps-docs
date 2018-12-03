@@ -43,7 +43,7 @@ The TrafficIncident data source contains information traffic incidents. You can 
   
  **Base Query URL**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/TrafficIncidents/TrafficIncident  
 ```  
   
@@ -51,7 +51,7 @@ http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/Tr
   
  The following query example queries for traffic incidents along a route from Houston, Texas to Galveston, Texas by using the [Query Near a Route](../query-api/query-near-route.md) API. The query key you use can be any Bing Maps Key.  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/TrafficIncidents/TrafficIncident?spatialFilter=nearRoute('Houston,TX','Galveston,Tx')&key=anyBingMapsKey  
 ```  
   
@@ -59,7 +59,7 @@ http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/Tr
   
  This request returns traffic incident information in the following format.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">  
   <title type="text"></title>  
@@ -126,7 +126,7 @@ http://spatial.virtualearth.net/REST/v1/data/8F77935E46704C718E45F52D0D5550A6/Tr
   
  When you specify $format=json in the URL, the response returns traffic incident information in the following JSON format.  
   
-```  
+```json
 {  
    "d":{  
       "__copyright":"\u00a9 2012 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  

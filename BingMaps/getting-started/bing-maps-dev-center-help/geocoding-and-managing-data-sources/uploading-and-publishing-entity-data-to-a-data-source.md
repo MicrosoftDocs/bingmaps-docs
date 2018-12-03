@@ -143,7 +143,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 ### Example: CSV Data Schema and Entity Data  
  The following is an example of a comma-separated value (CSV) data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md). Save your CSV file with a .txt file name extension for upload.  
   
-```  
+```csv
 Bing Spatial Data Services, 1.0, FourthCoffeeShops  
 EntityID(Edm.String,primaryKey),AddressLine(Edm.String),Locality(Edm.String),AdminDistrict(Edm.String),PostalCode(Edm.String),CountryRegion(Edm.String),Phone(Edm.String),Manager(Edm.String),Latitude(Edm.Double),Longitude(Edm.Double)  
 1000,1 Microsoft Way,Redmond,WA,98052,,303-555-0188,Alan Steiner,,  
@@ -153,7 +153,7 @@ EntityID(Edm.String,primaryKey),AddressLine(Edm.String),Locality(Edm.String),Adm
 ### Example: TAB Data Schema and Entity Data  
  The following is an example of tab-delimited value data schema and input data. Tabs are represented in this example by "->" **for illustration purposes only**. Do not use "->" in your input file. Insert tabs as separators instead. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md). Save your tab-delimited file with a .txt file name extension for upload.  
   
-```  
+```csv
 Bing Spatial Data Services,1.0,FourthCoffeeShops  
 EntityID(Edm.String,primaryKey)->AddressLine(Edm.String)->Locality(Edm.String)->AdminDistrict(Edm.String)->PostalCode(Edm.String)->CountryRegion(Edm.String)->Phone(Edm.String)->Manager(Edm.String)->Latitude(Edm.Double)->Longitude(Edm.Double)  
 1000->1 Microsoft Way->Redmond->WA->98052->->303-555-0188->Alan Steiner->->  
@@ -163,7 +163,7 @@ EntityID(Edm.String,primaryKey)->AddressLine(Edm.String)->Locality(Edm.String)->
 ### Sample Pipe Data Schema and Input Data  
  The following is an example of pipe-delimited value data schema and input data. The header is required and specifies the data schema version. For more information about this format including available types and limits, see [Load Data Source Data Schema and Sample Input](../../../spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
-```  
+```csv
 Bing Spatial Data Services,1.0,FourthCoffeeShops  
 EntityID(Edm.String,primaryKey)|AddressLine(Edm.String)|Locality(Edm.String)|AdminDistrict(Edm.String)|PostalCode(Edm.String)|CountryRegion(Edm.String)|Phone(Edm.String)|Manager(Edm.String)|Latitude(Edm.Double)|Longitude(Edm.Double)  
 1000|1 Microsoft Way|Redmond|WA|98052||303-555-0188|Alan Steiner||  

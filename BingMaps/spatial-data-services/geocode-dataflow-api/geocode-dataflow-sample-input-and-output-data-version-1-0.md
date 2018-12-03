@@ -25,7 +25,7 @@ ms.service: "bing-maps"
   
 ### Input  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -64,7 +64,7 @@ ms.service: "bing-maps"
 ### Successful Output  
  The locations were geocoded successfully.  
   
-```  
+```xml
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
   
   <GeocodeEntity xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" Id="001">  
@@ -127,9 +127,10 @@ ms.service: "bing-maps"
 ```  
   
 ### Error Output  
- The following location was not geocoded successfully.  
+
+The following location was not geocoded successfully.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="005" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -142,10 +143,11 @@ ms.service: "bing-maps"
   
 ```  
   
-## XML Unstructured Query Input Example  
- For XML input data, you can also geocode an address without specifying its distinct address parts. The following example shows an unstructured query request.  
+## XML Unstructured Query Input Example
+
+For XML input data, you can also geocode an address without specifying its distinct address parts. The following example shows an unstructured query request.  
   
-```  
+```xml
 <GeocodeFeed >  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
     <GeocodeRequest Culture="en-ca" Query=457 Kirkpatrick Crescent NW Edmonton Alberta, Canada T6L">  
@@ -158,7 +160,7 @@ ms.service: "bing-maps"
   
 ### Input  
   
-```  
+```text
 1|en-US||16630 Redmond Way|WA|USA|||Redmond|98052||||||||||||||||||||||  
 2|en-US||16552 NE 74th St|WA||||Redmond|||High||||||||||||||||||||||  
 3|en-US|Seattle Space Needle||||||||||||||||||||||||||||  
@@ -176,7 +178,7 @@ ms.service: "bing-maps"
 ### Successful Output  
  The following is an example list of locations that were geocoded successfully.  
   
-```  
+```text
 1|en-US||16630 Redmond Way|WA|USA|||Redmond|98052|||16630 Redmond Way|WA|United States||16630 Redmond Way, Redmond, WA 98052-4434|Redmond|98052-4434||47.673302|-122.118576|47.673099|-122.11871|High|16630 Redmond Way, Redmond, WA 98052-4434|Address|Success|||  
 2|en-US||16552 NE 74th St|WA||||Redmond|||High|16552 NE 74th St|WA|United States||16552 NE 74th St, Redmond, WA 98052-7804|Redmond|98052-7804||||47.670211|-122.119581|High|16552 NE 74th St, Redmond, WA 98052-7804|Address|Success|||  
 3|en-US|Seattle Space Needle|||||||||||Washington|United States||Space Needle, WA|Seattle|||47.620495|-122.34931|||High|Space Needle, WA|LandmarkBuilding|Success|||  
@@ -193,9 +195,8 @@ ms.service: "bing-maps"
 ### Error Output  
  The following is an example list of locations that were not geocoded successfully.  
   
-```  
-4|en-US||||||||||||||||||||||||||BadRequest|Either Query or Address must be specified.||  
-```  
+`
+4|en-US||||||||||||||||||||||||||BadRequest|Either Query or Address must be specified.|| `  
   
 ## Tab Example  
   
@@ -204,7 +205,7 @@ ms.service: "bing-maps"
   
 ### Input  
   
-```  
+```text
 1->en-US->->16630 Redmond Way->WA->USA->->->Redmond->98052->->->->->->->->->->->->->->->->->->->->->->->->  
 2->en-US->->16552 NE 74th St->WA->->->->Redmond->->->High->->->->->->->->->->->->->->->->->->->->->->  
 3->en-US->Seattle Space Needle->->->->->->->->->->->->->->->->->->->->->->->->->->->->  
@@ -222,7 +223,7 @@ ms.service: "bing-maps"
 ### Successful Output  
  The following is an example list of locations that were geocoded successfully.  
   
-```  
+```text
 1->en-US->->16630 Redmond Way->WA->USA->->->Redmond->98052->->->16630 Redmond Way->WA->United States->->16630 Redmond Way, Redmond, WA 98052-4434->Redmond->98052-4434->->47.673302->-122.118576->47.673099->-122.11871->High->16630 Redmond Way, Redmond, WA 98052-4434->Address->Success->->->  
 2->en-US->->16552 NE 74th St->WA->->->->Redmond->->->High->16552 NE 74th St->WA->United States->->16552 NE 74th St, Redmond, WA 98052-7804->Redmond->98052-7804->->->->47.670211->-122.119581->High->16552 NE 74th St, Redmond, WA 98052-7804->Address->Success->->->  
 3->en-US->Seattle Space Needle->->->->->->->->->->->Washington->United States->->Space Needle, WA->Seattle->->->47.620495->-122.34931->->->High->Space Needle, WA->LandmarkBuilding->Success->->->  
@@ -240,7 +241,7 @@ ms.service: "bing-maps"
 ### Error Output  
  The following is an example list of locations that were not geocoded successfully.  
   
-```  
+```text
 4->en-US->->->->->->->->->->->->->->->->->->->->->->->->->->BadRequest->Either Query or Address must be specified.->->->->->->->->->->->->->->->->->->->->->BadRequest->The Address.FormattedAddress property must not be specified as it is an output-only property.->->  
 ```  
   
@@ -248,7 +249,7 @@ ms.service: "bing-maps"
   
 ### Input  
   
-```  
+```csv
 1,en-US,,16630 Redmond Way,WA,USA,,,Redmond,98052,,,,,,,,,,,,,,,,,,,,,,  
 2,en-US,,16552 NE 74th St,WA,,,,Redmond,,,High,,,,,,,,,,,,,,,,,,,,,,  
 3,en-US,Seattle Space Needle,,,,,,,,,,,,,,,,,,,,,,,,,,,,  
@@ -266,7 +267,7 @@ ms.service: "bing-maps"
 ### Successful Output  
  The following is an example list of locations that were geocoded successfully.  
   
-```  
+```csv
 1,en-US,,16630 Redmond Way,WA,USA,,,Redmond,98052,,,16630 Redmond Way,WA,United States,,"16630 Redmond Way, Redmond, WA 98052-4434",Redmond,98052-4434,,47.673302,-122.118576,47.673099,-122.11871,High,"16630 Redmond Way, Redmond, WA 98052-4434",Address,Success,,,  
 2,en-US,,16552 NE 74th St,WA,,,,Redmond,,,High,16552 NE 74th St,WA,United States,,"16552 NE 74th St, Redmond, WA 98052-7804",Redmond,98052-7804,,,,47.670211,-122.119581,High,"16552 NE 74th St, Redmond, WA 98052-7804",Address,Success,,,  
 3,en-US,Seattle Space Needle,,,,,,,,,,,Washington,United States,,"Space Needle, WA",Seattle,,,47.620495,-122.34931,,,High,"Space Needle, WA",LandmarkBuilding,Success,,,  
@@ -283,6 +284,6 @@ ms.service: "bing-maps"
 ### Error Output  
  The following is an example list of locations that were not geocoded successfully.  
   
-```  
+```csv
 4,en-US,,,,,,,,,,,,,,,,,,,,,,,,,,BadRequest,Either Query or Address must be specified.,,  
 ```

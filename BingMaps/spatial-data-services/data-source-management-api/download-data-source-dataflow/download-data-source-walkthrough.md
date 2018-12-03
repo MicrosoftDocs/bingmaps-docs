@@ -22,7 +22,7 @@ Use the DataSourceDownload API to download entity data for a published data sour
 ### Create the Download Data Source Job  
  To start the download process, create a DataSourceDownload URL request using the following format.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/DataSourceName?output=xml&key=DataSourceMasterKey  
 ```  
   
@@ -30,7 +30,7 @@ https://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/D
   
  Note that the job status is set to Pending. Job status values include Pending, Completed and Aborted. The next section describes how to use the status URL to monitor job status and to get the location of the downloaded entity data.  
   
-```  
+```xml
 <Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the  
  content and any results may not be used, reproduced or transmitted in any manner without express written permission  
@@ -64,7 +64,7 @@ https://spatial.virtualearth.net/REST/v1/Dataflows/DataSourceDownload/accessId/D
 ## Check Job Status  
  To monitor the status of your download job, use the status URL described in the previous section with your data source master key.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/DataSourceName?output=xml&key=DataSourceMasterKey  
 ```  
   
@@ -72,7 +72,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/DataSource
   
  The following response shows that the job is completed and specifies a download URL.  These fields are highlighted. The next section describes the download data and how to access it.  
   
-```  
+```xml
 <Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the   
 content and any results may not be used, reproduced or transmitted in any manner without express written permission   
@@ -109,7 +109,7 @@ from Microsoft Corporation.</Copyright>
 ## Get the downloaded data  
  To access the downloaded entity data, use the download URL described in the previous section with the data source master key.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/DataSourceName/output/succeeded?key=DataSourceMasterKey  
 ```  
   
@@ -117,7 +117,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/DataSourceDownload/DataSource
   
  The following sample data is an example of downloaded entity data.  
   
-```  
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>  
 <MainRoot>  
   <xs:schema xmlns="" xmlns:xs="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="DataSourceName">  

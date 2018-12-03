@@ -46,17 +46,13 @@ The response returned by a Traffic URL contains one or more TrafficIncident reso
   
  For JSON responses, the time is specified as UTC time in milliseconds using the epoch (start time) of January 1, 1970, 00:00:00.  The JSON field uses the following format.  
   
-```  
-Date(milliseconds)  
-```  
+`Date(milliseconds)`  
   
  JSON Example: Date(1295704800000)  
   
  For XML responses, the time is specified as UTC time and uses the following format. A time zone offset is not specified.  
   
-```  
-YYYY-MM-DDThh:mm:ss.sZ  
-```  
+`YYYY-MM-DDThh:mm:ss.sZ`
   
  XML Example: 2011-06-29T23:44:56.593Z  
   
@@ -112,7 +108,7 @@ YYYY-MM-DDThh:mm:ss.sZ
   
 ### XML Example  
   
-```  
+```xml
 <TrafficIncident>  
   <Point>  
     <Latitude>38.64829</Latitude>  

@@ -22,7 +22,7 @@ ms.service: "bing-maps"
 
 The following code sample shows how to create two random polygons that have a scaleFactor of 0.5, random polygon options and a hole. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,6 +48,6 @@ The following code sample shows how to create two random polygons that have a sc
 
 Here is what these polygons look like when running this code. Note that since the polygons are random, the polygons that will be generated when you run this code will look different. 
 
-![Test Data Generator](../../media/bmv8-testdatageneratorexample.png)
+![Test Data Generator](../media/bmv8-testdatageneratorexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPolygonsWithHoles+JS)

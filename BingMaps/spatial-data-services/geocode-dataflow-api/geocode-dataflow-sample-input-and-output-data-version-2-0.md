@@ -22,7 +22,7 @@ The following examples show sample input and output data for version 2.0 of the 
   
 ### Input  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" Version="2.0">  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -67,7 +67,7 @@ The following examples show sample input and output data for version 2.0 of the 
 ### Successful Output  
  The following is an example list of locations that were geocoded successfully.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed Version="2.0" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="001">  
@@ -162,7 +162,7 @@ The following examples show sample input and output data for version 2.0 of the 
 ### Error Output  
  The following location was not geocoded successfully.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed Version="2.0" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="004">  
@@ -181,7 +181,7 @@ The following examples show sample input and output data for version 2.0 of the 
   
 ### Input  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/AddressLine| GeocodeRequest/Address/AdminDistrict| GeocodeRequest/Address/CountryRegion| GeocodeRequest/Address/AdminDistrict2| GeocodeRequest/Address/FormattedAddress| GeocodeRequest/Address/Locality| GeocodeRequest/Address/PostalCode| GeocodeRequest/Address/PostalTown| GeocodeRequest/ConfidenceFilter/MinimumConfidence|ReverseGeocodeRequest/IncludeEntityTypes| ReverseGeocodeRequest/Location/Latitude| ReverseGeocodeRequest/Location/Longitude| GeocodeResponse/Address/AddressLine| GeocodeResponse/Address/AdminDistrict| GeocodeResponse/Address/CountryRegion| GeocodeResponse/Address/AdminDistrict2| GeocodeResponse/Address/FormattedAddress| GeocodeResponse/Address/Locality| GeocodeResponse/Address/PostalCode| GeocodeResponse/Address/PostalTown| GeocodeResponse/Address/Neighborhood| GeocodeResponse/Address/Landmark| GeocodeResponse/Confidence| GeocodeResponse/Name| GeocodeResponse/EntityType| GeocodeResponse/MatchCodes| GeocodeResponse/Point/Latitude| GeocodeResponse/Point/Longitude| GeocodeResponse/BoundingBox/EastLongitude| GeocodeResponse/BoundingBox/NorthLatitude| GeocodeResponse/BoundingBox/WestLongitude| GeocodeResponse/BoundingBox/SouthLatitude| GeocodeResponse/QueryParseValues| GeocodeResponse/GeocodePoints| StatusCode| FaultReason| TraceId  
 1|en-US||One Microsoft Way|WA||||Redmond|98052  
@@ -193,7 +193,7 @@ Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/Address
 ### Successful Output  
  The following locations were geocoded successfully.  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/AddressLine| GeocodeRequest/Address/AdminDistrict| GeocodeRequest/Address/CountryRegion| GeocodeRequest/Address/AdminDistrict2| GeocodeRequest/Address/FormattedAddress| GeocodeRequest/Address/Locality| GeocodeRequest/Address/PostalCode| GeocodeRequest/Address/PostalTown| GeocodeRequest/ConfidenceFilter/MinimumConfidence|ReverseGeocodeRequest/IncludeEntityTypes| ReverseGeocodeRequest/Location/Latitude| ReverseGeocodeRequest/Location/Longitude| GeocodeResponse/Address/AddressLine| GeocodeResponse/Address/AdminDistrict| GeocodeResponse/Address/CountryRegion| GeocodeResponse/Address/AdminDistrict2| GeocodeResponse/Address/FormattedAddress| GeocodeResponse/Address/Locality| GeocodeResponse/Address/PostalCode| GeocodeResponse/Address/PostalTown| GeocodeResponse/Address/Neighborhood| GeocodeResponse/Address/Landmark| GeocodeResponse/Confidence| GeocodeResponse/Name| GeocodeResponse/EntityType| GeocodeResponse/MatchCodes| GeocodeResponse/Point/Latitude| GeocodeResponse/Point/Longitude| GeocodeResponse/BoundingBox/EastLongitude| GeocodeResponse/BoundingBox/NorthLatitude| GeocodeResponse/BoundingBox/WestLongitude| GeocodeResponse/BoundingBox/SouthLatitude| GeocodeResponse/QueryParseValues| GeocodeResponse/GeocodePoints| StatusCode| FaultReason| TraceId  
 2|en-US||One Microsoft Way|WA||||Redmond|98052||||||1 Microsoft Way|WA|United States|King Co.|1 Microsoft Way, Redmond, WA 98052|Redmond|98052||||High|1 Microsoft Way, Redmond, WA 98052|Address|Good|47.6401305198669|-122.129731848836|-122.122088595645|47.6439932374376|-122.137375102026|47.6362678022963||[{"Longitude":"47.6401305198669","Latitude":"-122.129731848836","UsageTypes":"Display","Type":"Point","CalculationMethod":"InterpolationOffset"},{"Longitude":"47.6401546597481","Latitude":"-122.129788175225",  
@@ -206,7 +206,7 @@ Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/Address
 ### Error Output  
  The following location was not geocoded successfully.  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/AddressLine| GeocodeRequest/Address/AdminDistrict| GeocodeRequest/Address/CountryRegion| GeocodeRequest/Address/AdminDistrict2| GeocodeRequest/Address/FormattedAddress| GeocodeRequest/Address/Locality| GeocodeRequest/Address/PostalCode| GeocodeRequest/Address/PostalTown| GeocodeRequest/ConfidenceFilter/MinimumConfidence|ReverseGeocodeRequest/IncludeEntityTypes| ReverseGeocodeRequest/Location/Latitude| ReverseGeocodeRequest/Location/Longitude| GeocodeResponse/Address/AddressLine| GeocodeResponse/Address/AdminDistrict| GeocodeResponse/Address/CountryRegion| GeocodeResponse/Address/AdminDistrict2| GeocodeResponse/Address/FormattedAddress| GeocodeResponse/Address/Locality| GeocodeResponse/Address/PostalCode| GeocodeResponse/Address/PostalTown| GeocodeResponse/Address/Neighborhood| GeocodeResponse/Address/Landmark| GeocodeResponse/Confidence| GeocodeResponse/Name| GeocodeResponse/EntityType| GeocodeResponse/MatchCodes| GeocodeResponse/Point/Latitude| GeocodeResponse/Point/Longitude| GeocodeResponse/BoundingBox/EastLongitude| GeocodeResponse/BoundingBox/NorthLatitude| GeocodeResponse/BoundingBox/WestLongitude| GeocodeResponse/BoundingBox/SouthLatitude| GeocodeResponse/QueryParseValues| GeocodeResponse/GeocodePoints| StatusCode| FaultReason| TraceId  
 5|en-gb||||||||||||||||||||||||||||||||||||BadRequest|To geocode a location, you must specify at least one address field.|"8e16af3752454e56aa71eed6ddb70534"  
@@ -219,7 +219,7 @@ Id| GeocodeRequest/Culture| GeocodeRequest/Query| GeocodeRequest/Address/Address
   
 ### Input  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/AddressLine-> GeocodeRequest/Address/AdminDistrict-> GeocodeRequest/Address/CountryRegion-> GeocodeRequest/Address/AdminDistrict2-> GeocodeRequest/Address/FormattedAddress-> GeocodeRequest/Address/Locality-> GeocodeRequest/Address/PostalCode-> GeocodeRequest/Address/PostalTown->GeocodeRequest/ConfidenceFilter/MinimumConfidence->ReverseGeocodeRequest/IncludeEntityTypes-> ReverseGeocodeRequest/Location/Latitude-> ReverseGeocodeRequest/Location/Longitude-> GeocodeResponse/Address/AddressLine-> GeocodeResponse/Address/AdminDistrict-> GeocodeResponse/Address/CountryRegion-> GeocodeResponse/Address/AdminDistrict2-> GeocodeResponse/Address/FormattedAddress-> GeocodeResponse/Address/Locality-> GeocodeResponse/Address/PostalCode-> GeocodeResponse/Address/PostalTown-> GeocodeResponse/Address/Neighborhood-> GeocodeResponse/Address/Landmark-> GeocodeResponse/Confidence-> GeocodeResponse/Name-> GeocodeResponse/EntityType-> GeocodeResponse/MatchCodes-> GeocodeResponse/Point/Latitude-> GeocodeResponse/Point/Longitude-> GeocodeResponse/BoundingBox/EastLongitude-> GeocodeResponse/BoundingBox/NorthLatitude-> GeocodeResponse/BoundingBox/WestLongitude-> GeocodeResponse/BoundingBox/SouthLatitude-> GeocodeResponse/QueryParseValues-> GeocodeResponse/GeocodePoints-> StatusCode-> FaultReason-> TraceId  
 1->en-US->->One Microsoft Way->WA->->->->Redmond->98052->->->  
@@ -231,7 +231,7 @@ Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/Addr
 ### Successful Output  
  The locations were geocoded successfully.  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/AddressLine-> GeocodeRequest/Address/AdminDistrict-> GeocodeRequest/Address/CountryRegion-> GeocodeRequest/Address/AdminDistrict2-> GeocodeRequest/Address/FormattedAddress-> GeocodeRequest/Address/Locality-> GeocodeRequest/Address/PostalCode-> GeocodeRequest/Address/PostalTown->GeocodeRequest/ConfidenceFilter/MinimumConfidence->ReverseGeocodeRequest/IncludeEntityTypes-> ReverseGeocodeRequest/Location/Latitude-> ReverseGeocodeRequest/Location/Longitude-> GeocodeResponse/Address/AddressLine-> GeocodeResponse/Address/AdminDistrict-> GeocodeResponse/Address/CountryRegion-> GeocodeResponse/Address/AdminDistrict2-> GeocodeResponse/Address/FormattedAddress-> GeocodeResponse/Address/Locality-> GeocodeResponse/Address/PostalCode-> GeocodeResponse/Address/PostalTown-> GeocodeResponse/Address/Neighborhood-> GeocodeResponse/Address/Landmark-> GeocodeResponse/Confidence-> GeocodeResponse/Name-> GeocodeResponse/EntityType-> GeocodeResponse/MatchCodes-> GeocodeResponse/Point/Latitude-> GeocodeResponse/Point/Longitude-> GeocodeResponse/BoundingBox/EastLongitude-> GeocodeResponse/BoundingBox/NorthLatitude-> GeocodeResponse/BoundingBox/WestLongitude-> GeocodeResponse/BoundingBox/SouthLatitude-> GeocodeResponse/QueryParseValues-> GeocodeResponse/GeocodePoints-> StatusCode-> FaultReason-> TraceId  
 1->en-US->->One Microsoft Way->WA->->->->Redmond->98052->->->->->->1 Microsoft Way->WA->United States->King Co.->1 Microsoft Way, Redmond, WA 98052->Redmond->98052->->->->High->1 Microsoft Way, Redmond, WA 98052->Address->Good->47.6401305198669->-122.129731848836->-122.122088595645->47.6439932374376->-122.137375102026->47.6362678022963->->[{"Longitude":"47.6401305198669","Latitude":"-122.129731848836","UsageTypes":"Display","Type":"Point","CalculationMethod":"InterpolationOffset"},{"Longitude":"47.6401546597481","Latitude":"-122.129788175225","UsageTypes":"Route","Type":"Point","CalculationMethod":"Interpolation"}]->Success->->b1f7542aeb32475c896a7891bfe70a4a  
@@ -242,7 +242,7 @@ Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/Addr
 ### Error Output  
  The following location was not geocoded successfully.  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/AddressLine-> GeocodeRequest/Address/AdminDistrict-> GeocodeRequest/Address/CountryRegion-> GeocodeRequest/Address/AdminDistrict2-> GeocodeRequest/Address/FormattedAddress-> GeocodeRequest/Address/Locality-> GeocodeRequest/Address/PostalCode-> GeocodeRequest/Address/PostalTown->GeocodeRequest/ConfidenceFilter/MinimumConfidence->ReverseGeocodeRequest/IncludeEntityTypes-> ReverseGeocodeRequest/Location/Latitude-> ReverseGeocodeRequest/Location/Longitude-> GeocodeResponse/Address/AddressLine-> GeocodeResponse/Address/AdminDistrict-> GeocodeResponse/Address/CountryRegion-> GeocodeResponse/Address/AdminDistrict2-> GeocodeResponse/Address/FormattedAddress-> GeocodeResponse/Address/Locality-> GeocodeResponse/Address/PostalCode-> GeocodeResponse/Address/PostalTown-> GeocodeResponse/Address/Neighborhood-> GeocodeResponse/Address/Landmark-> GeocodeResponse/Confidence-> GeocodeResponse/Name-> GeocodeResponse/EntityType-> GeocodeResponse/MatchCodes-> GeocodeResponse/Point/Latitude-> GeocodeResponse/Point/Longitude-> GeocodeResponse/BoundingBox/EastLongitude-> GeocodeResponse/BoundingBox/NorthLatitude-> GeocodeResponse/BoundingBox/WestLongitude-> GeocodeResponse/BoundingBox/SouthLatitude-> GeocodeResponse/QueryParseValues-> GeocodeResponse/GeocodePoints-> StatusCode-> FaultReason-> TraceId  
 5->en-gb->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->BadRequest->To geocode a location, you must specify at least one address field.->4e9f3b476f7f4e0388ccc69d36ffe422  
@@ -252,7 +252,7 @@ Id-> GeocodeRequest/Culture-> GeocodeRequest/Query-> GeocodeRequest/Address/Addr
   
 ### Input  
   
-```  
+```csv
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/BoundingBox/NorthLatitude, GeocodeResponse/BoundingBox/WestLongitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052  
@@ -264,7 +264,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
 ### Successful Output  
  The following is an example list of locations that were geocoded successfully.  
   
-```  
+```csv
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/BoundingBox/NorthLatitude, GeocodeResponse/BoundingBox/WestLongitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052,,,,,,1 Microsoft Way,WA,United States,King Co.,"1 Microsoft Way, Redmond, WA 98052",Redmond,98052,,,,High,"1 Microsoft Way, Redmond, WA 98052",Address,Good,47.6401305198669,-122.129731848836,-122.122088595645,47.6439932374376,-122.137375102026,47.6362678022963,,"[{""Longitude"":""47.6401305198669"",""Latitude"":""-122.129731848836"",""UsageTypes"":""Display"",""Type"":""Point"",""CalculationMethod"":""InterpolationOffset""},{""Latitude"":""47.6401546597481"",""Longitude"":""-122.129788175225"",""UsageTypes"":""Route"",""Type"":""Point"",""CalculationMethod"":""Interpolation""}]",Success,,"87898b72f9ba4de2bd29b7c877057eff"  
@@ -275,7 +275,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
 ### Error Output  
  The following is an example list of locations that were not geocoded successfully.  
   
-```  
+```csv
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/BoundingBox/NorthLatitude, GeocodeResponse/BoundingBox/WestLongitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 5,en-gb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BadRequest,"To geocode a location, you must specify at least one address field.",e459b7b9ea1446cda80197f1569df669  

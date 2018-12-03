@@ -18,7 +18,7 @@ The URLs to download results from a Geocode Job are provided when your job has c
   
  **XML**  
   
-```  
+```xml
 <Link role="output" name="succeeded">https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879fbb0556e67e/output/succeeded</Link>  
 <Link role="output" name="failed">https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879fbb0556e67e/output/failed</Link>  
   
@@ -26,7 +26,7 @@ The URLs to download results from a Geocode Job are provided when your job has c
   
  **JSON**  
   
-```  
+```json
 "links":[  
       {  
          "name":"succeeded",  
@@ -44,7 +44,7 @@ The URLs to download results from a Geocode Job are provided when your job has c
   
  To use these URLs, you must add the Bing Maps Key parameter that you used to create the job. For example, to download the data that was processed successfully in the above example, you would add the parameter key *MyDataflowJobKey* where *MyDataflowJobKey* is the Bing Maps Key that you used to create the job.  
   
-```  
+```url
 https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879fbb0556e67e/output/succeeded?key=MyDataflowJobKey  
 ```  
   
@@ -53,7 +53,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/Geocode/5bf10c37df944083b1879
 ## Sample Code  
  The following code shows how to download the results of a geocode job. The geocoded results are saved in text files. This code is part of a complete Geocode Dataflow code sample. To view the complete code sample, see [Sample Code](../geocode-dataflow-api/geocode-dataflow-sample-code.md). You may also want to read the [Walkthrough](../geocode-dataflow-api/geocode-dataflow-walkthrough.md) to get a step-by-step description of how to use the Geocode Dataflow. The walkthrough includes example URLs and HTTP responses.  
   
-```  
+```csharp
 //Downloads job results to files names Success.txt (successfully geocoded results) and   
 //   Failed.txt (info about spatial data that was not geocoded successfully).  
 //Parameters:   

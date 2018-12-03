@@ -18,7 +18,7 @@ The following Visual Basic code shows how to upload entity data to a data source
   
 ## Classes that upload spatial data and check the status of a Load Data Source Dataflow job  
   
-```  
+```csharp
 Imports System  
 Imports System.Collections.Generic  
 Imports System.Linq  
@@ -171,7 +171,7 @@ Class SpatialDataUploading
   
 ### Support Classes  
   
-```  
+```csharp
 Imports System  
 Imports System.Collections.Generic  
 Imports System.Windows.Media.Imaging  

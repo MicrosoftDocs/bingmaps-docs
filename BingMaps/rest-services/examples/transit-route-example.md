@@ -16,13 +16,13 @@ ms.service: "bing-maps"
 # Transit Route Example
 The following example shows how to request a transit route between the Golden Gate Bridge and Fisherman’s Wharf in San Francisco for 3 PM on the current day. Responses are shown for both XML and JSON formats.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/Routes/Transit?wp.0=Golden%20Gate%20Bridge&wp.1=Fishermans%20Wharf&timeType=Departure&dateTime=3:00:00PM&output=xml&key=BingMapsKey  
 ```  
   
  **JSON Response**  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -402,7 +402,7 @@ http://dev.virtualearth.net/REST/V1/Routes/Transit?wp.0=Golden%20Gate%20Bridge&w
   
  Set output=xml to the URL to get an XML response.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2014 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  

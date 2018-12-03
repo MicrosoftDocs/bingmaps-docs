@@ -24,7 +24,7 @@ The Geospatial Endpoint Service is a REST service that provides information abou
   
  **Get the service information for the language and region specified.**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=BingMapsKey  
 ```  
   
@@ -32,7 +32,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=B
   
  The latitude and longitude coordinates are reverse-geocoded to determine the location. If this location corresponds to a non-disputed country or region, then this location overrides the userRegion value in the request. However, if the coordinates are in a disputed country or region, then the userRegion in the request is used. For example, if the coordinates represent a disputed area along the border of India and China, and userRegion is set to IN (India) in the request and the language is set to hi-in (Hindi), then IN services for Hindi are returned. In the same example, if the userRegion is set to CN (China) and the language is set to zh-hans (Simplified Chinese), then CN services for Simplified Chinese are returned in the response.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latitude,longitude?key=BingMapsKey  
 ```  
   
@@ -60,14 +60,14 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latit
   
  For example, a common endpoint for geocoding is `dev.virtualearth.net\REST\v1\Locations`. However, this URL does not return any results without adding parameters. The following example shows how to geocode an address by providing address information and a Bing Maps Key.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20WA%2098052&o=xml&key=YourBingMapsKey  
 ```  
   
 ### Response Fields  
  The following example shows the general structure for the JSON response. You can also request an XML response. Example requests and JSON and XML responses are provided in the [Examples](../articles/geospatial-endpoint-service.md#examples) section.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -187,11 +187,11 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
   
  Language: **fr-fr (French)**, userRegion: **FR (France)**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey  
 ```  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -267,7 +267,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey
   
  You would receive the following JSON response if the output=xml parameter was set in this example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -345,11 +345,11 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey
   
  Language: **en-us (English)**, userRegion: **CU (Cuba)**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey  
 ```  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -376,7 +376,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey
   
  You would receive the following JSON response if the output=xml parameter was set in this example. Note that the **Services** array does not appear.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -406,11 +406,11 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey
   
  Note that the response shows CN as the region because the latitude and longitude are in a disputed area.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key=BingMapsKey  
 ```  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -474,7 +474,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
   
  You would receive the following JSON response if the output=xml parameter was set in this example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
@@ -534,11 +534,11 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
   
  Note that the response shows IN as the region because the latitude and longitude coordinates are in a disputed area.  
   
-```  
+```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key=BingMapsKey  
 ```  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -626,7 +626,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376
   
  You would receive the following JSON response if the output=xml parameter was set in this example.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  

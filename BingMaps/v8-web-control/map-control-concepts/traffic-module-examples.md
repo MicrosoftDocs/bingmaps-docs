@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Traffic Module Examples
 
 The Bing Maps SDK provides two types of traffic data through the Traffic module. The first type is a tile layer that shows traffic flow data. This highlights roads with different colors to indicate what the flow of traffic is like compared to the speed limits on those roads. The second type of traffic data is traffic incidents. Traffic incidents are point based data that represent things like road closures, accidents, and construction. Traffic data coverage information can be found [here](../../coverage/traffic-coverage.md).
@@ -54,7 +55,7 @@ This examples shows how to display traffic data on top of the map.
 
 If you run this code in a browser and zoom into a city that is likely to have a lot of traffic like New York city, you will see color coded roads indicating the flow of traffic and possibly triangle icons indicating traffic incidents on the road. If you hover over and incident a tooltip will appear with some details about the incident.
 
-![BMV8_TrafficModuleExample](../../media/bmv8-trafficmoduleexample.png)
+![BMV8_TrafficModuleExample](../media/bmv8-trafficmoduleexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#trafficHideShowTraffic+JS)
 

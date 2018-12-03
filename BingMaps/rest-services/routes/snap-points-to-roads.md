@@ -65,13 +65,13 @@ URI parameter alias’s will be supported only for GET requests.
 
 *HTTP POST Request URL*
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key={BingMapsKey}
 ```
 
 *POST Header*
 
-```
+```url
 Content-Length: insertLengthOfHTTPBody
 Content-Type: application/json
 ```
@@ -102,13 +102,13 @@ https://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync?points={points}&inte
 
 *HTTP POST Request URL*
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync?key={BingMapsKey}
 ```
 
 *POST Header*
 
-```
+```url
 Content-Length: insertLengthOfHTTPBody
 Content-Type: application/json
 ```
@@ -146,12 +146,12 @@ The following is a list of parameters that are supported by the Snap to Road API
 
 | Parameter              | GET Alias | Description  |
 |------------------------|-------|--------------|
-| points                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 100 points for synchronhous requests, and 1,000 points for asynchrnous requests.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
-| interpolate            | intpl | **Optional**. Indicates if the space between the snapped points should be filled with additional points along the road, thus returning the full route path. Default: **false**<br/><br/>**Example**: interpolate=true                                                                                                                                                   |
-| includeSpeedLimit      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
-| includeTruckSpeedLimit | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
-| speedUnit              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
-| travelMode             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** (coming soon)<br/><br/>**Example:** travelMode=driving |
+| `points`                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 100 points for synchronhous requests, and 1,000 points for asynchrnous requests.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
+| `interpolate`            | intpl | **Optional**. Indicates if the space between the snapped points should be filled with additional points along the road, thus returning the full route path. Default: **false**<br/><br/>**Example**: interpolate=true                                                                                                                                                   |
+| `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
+| `includeTruckSpeedLimit` | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
+| `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
+| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** (coming soon)<br/><br/>**Example:** travelMode=driving |
 
 ## Examples
 
@@ -163,19 +163,19 @@ In this case, consider a trucking company that wants to do periodic safety revie
 
 *HTTP GET Request URL*
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key=BingMapsKey
 ```
 
 *HTTP POST Request URL*
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key=BingMapsKey
 ```
 
 *HTTP POST Header*
 
-```
+```url
 Content-Length: 402
 Content-Type: application/json
 ```

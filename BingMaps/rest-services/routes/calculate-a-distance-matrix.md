@@ -118,7 +118,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?key={BingMapsAPIKey}
 
 *POST Header*
 
-```
+```html
 Content-Length: insertLengthOfHTTPBody
 Content-Type: application/json
 ```
@@ -169,7 +169,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key={BingMapsAPI
 
 *HTTP POST Header*
 
-```
+```url
 Content-Length: insertLengthOfHTTPBody
 Content-Type: application/json
 ```
@@ -268,7 +268,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?key={BingMapsAPIKey}
 
 *HTTP POST Header*
 
-```
+```url
 Content-Length: 450
 Content-Type: application/json
 ```
@@ -319,7 +319,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?key={BingMapsAPIKey}
 
 *HTTP POST Header*
 
-```
+```html
 Content-Length: 497
 Content-Type: application/json
 ```
@@ -371,7 +371,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key={BingMapsAPI
 
 *HTTP POST Header*
 
-```
+```html
 Content-Length: 497
 Content-Type: application/json
 ```
@@ -429,7 +429,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key={BingMapsAPI
 
 *HTTP POST Header*
 
-```
+```html
 Content-Length: 564
 Content-Type: application/json
 ```

@@ -18,7 +18,7 @@ The following C# code shows how to upload entity data to a data source by using 
   
 ## Classes that upload spatial data and check the status of a Load Data Source Dataflow job  
   
-```  
+```csharp 
 using System;  
 using System.IO;  
 using System.Net;  
@@ -193,7 +193,7 @@ namespace BingMapsCsExamples.Examples.Phase2
   
 ### Support Classes  
   
-```  
+```csharp
 using System;  
 using System.IO;  
 using System.Net;  

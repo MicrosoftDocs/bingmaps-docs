@@ -29,7 +29,7 @@ The Geocode Dataflow API data schema version 2.0 is an update to the data schema
   
  The following fields can be used in text files. Definitions are provided below.  
   
-```  
+```text
 Id  
 GeocodeRequest/Culture  
 GeocodeRequest/Query  
@@ -77,7 +77,7 @@ TraceId
   
  **Example Text File Input**  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/BoundingBox/WestLongitude,GeocodeResponse/BoundingBox/NorthLatitude,GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052  
@@ -87,7 +87,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
   
  **Example Text File Output**  
   
-```  
+```text
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/BoundingBox/WestLongitude,GeocodeResponse/BoundingBox/NorthLatitude,GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052,,,,,,1 Microsoft Way,WA,United States,King Co.,"1 Microsoft Way, Redmond, WA 98052",Redmond,98052,,,,High,"1 Microsoft Way, Redmond, WA 98052",Address,Good,47.6401305198669,-122.129731848836,47.6362678022963,-122.137375102026,47.6439932374376,-122.122088595645,,"[{""Longitude"":""47.6401305198669"",""Latitude"":""-122.129731848836"",""UsageTypes"":""Display"",""Type"":""Point"",""CalculationMethod"":""InterpolationOffset""},{""Longitude"":""47.6401546597481"",""Latitude"":""-122.129788175225"",""UsageTypes"":""Route"",""Type"":""Point"",""CalculationMethod"":""Interpolation""}]",Success,,"87898b72f9ba4de2bd29b7c877057eff"  
@@ -98,7 +98,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
 ## XML Schema  
  The following schema is the XML schema for spatial data. Descriptions of the fields are provided in the Data Schema Definitions section below.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/search/local/2010/5/geocode" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
   <xs:element name="GeocodeFeed">  
@@ -223,7 +223,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
   
  **Example XML Input**  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" Version="2.0">  
   <GeocodeEntity Id="001" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -254,7 +254,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
   
  **Example XML Output**  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <GeocodeFeed Version="2.0" xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode" >  
   <GeocodeEntity Id="001">  
@@ -377,6 +377,6 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
   
  Geocode point data is provided as a JSON-formatted string for text files as shown in the following example.  
   
-```  
+```json
 [{""Longitude"":""47.6401305198669"",""Latitude"":""-122.129731848836"",""UsageTypes"":""Display"",""Type"":""Point"",""CalculationMethod"":""InterpolationOffset""},{""Latitude"":""47.6401546597481"",""Longitude"":""-122.129788175225"",""UsageTypes"":""Route"",""Type"":""Point"",""CalculationMethod"":""Interpolation""}]  
 ```

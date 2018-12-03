@@ -126,7 +126,7 @@ To make the map seamless, and to ensure that aerial images from different source
 ### Sample Code  
  The following sample C# code illustrates how to implement the functions described in this document.  These functions can be easily translated into other programming languages as needed.  
   
-```  
+```CSharp
   
 //------------------------------------------------------------------------------  
 // <copyright company="Microsoft">  
