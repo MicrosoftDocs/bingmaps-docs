@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DirectionsManager Class
+
 The DirectionsManager is the primary class in the Directions module. It contains methods for calculating directions and displaying a route on a map.
 
 ## Constructor
@@ -44,5 +46,5 @@ removeWaypoint(waypointOrIndex: [Waypoint](waypoint-class.md) _or_ number)    | 
 
 | Name                | Arguments                | Description                                                               |
 |---------------------|--------------------------|---------------------------------------------------------------------------|
-| `directionsError`   | [DirectionsErrorEventArgs](../v8-web-control/directionserroreventargs-object.md) | Occurs when calculating the directions caused an error.                   |
-| `directionsUpdated` | [DirectionsEventArgs](../v8-web-control/directionserroreventargs-object.md)      | Occurs when the directions calculation was successful and the itinerary and route on the map have been updated. |
+| `directionsError`   | [DirectionsErrorEventArgs](directionserroreventargs-object.md) | Occurs when calculating the directions caused an error.                   |
+| `directionsUpdated` | [DirectionsEventArgs](directionserroreventargs-object.md)      | Occurs when the directions calculation was successful and the itinerary and route on the map have been updated. |

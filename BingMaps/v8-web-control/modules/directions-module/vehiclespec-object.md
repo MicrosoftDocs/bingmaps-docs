@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # VehicleSpec Object
+
 Specifies the vehicle attributes to use when calculating a truck route.
 
 | **Name**                  | **Type** | **Description**                                                                                                                                            |
@@ -36,9 +37,9 @@ Specifies the vehicle attributes to use when calculating a truck route.
 
 ## Example
 
-The following is an example how to sepecify a vehicle specification as part of a truck route request.
+The following is an example how to specify a vehicle specification as part of a truck route request.
 
-```
+```javascript
 directionsManager.setRequestOptions({
 	routeMode: Microsoft.Maps.Directions.RouteMode.truck,
 	vehicleSpec: {
@@ -63,4 +64,4 @@ directionsManager.setRequestOptions({
 
 ## See Also:
 
-* [Calculate a Truck Route](../rest-services/routes/calculate-a-truck-route.md)
+* [Calculate a Truck Route](../../../rest-services/routes/calculate-a-truck-route.md)

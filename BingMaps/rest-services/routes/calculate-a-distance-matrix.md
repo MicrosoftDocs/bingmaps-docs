@@ -96,8 +96,7 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 
 ## URL Template
 
-> [!NOTE]
-> These templates support both HTTP and HTTPS protocols. To use this API, you must have a [Bing Maps key](/bing-maps-docs/getting-started/getting-a-bing-maps-key.md).
+[!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
 
 **Synchronous Distance Matrix Request URL (GET)**
 

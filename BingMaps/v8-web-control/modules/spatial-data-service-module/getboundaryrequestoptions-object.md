@@ -14,9 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # GetBoundaryRequestOptions Object
-Represents the options for requests boundary data from the [GeoData API](../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
+
+Represents the options for requests boundary data from the [GeoData API](../../../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
 
 ## Properties
+
 Name                | Type               | Description
 ------------------- | ------------------ | --------------------------
 `lod`               | number             | The level of detail for the boundary polygons returned. An integer between 0 and 3, where 0 specifies the coarsest level of boundary detail and 3 specifies the best. Default: **0**

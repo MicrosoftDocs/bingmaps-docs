@@ -20,7 +20,7 @@ The DataBinningLayer class which makes it easy to create data bins from arrays o
 
 ## Constructor
 
-> DataBinningLayer(pushpins?: [Pushpin](Pushpin%20Class.md)\[\], options?: [DataBinningOptions](DataBinningOptions%20Object.md))
+> DataBinningLayer(pushpins?: [Pushpin](../../map-control-api/pushpin-class.md)\[\], options?: [DataBinningOptions](databinningoptions-object.md)
 
 ## Methods
 
