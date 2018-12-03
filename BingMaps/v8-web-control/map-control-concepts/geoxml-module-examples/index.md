@@ -40,4 +40,4 @@ The GeoXml module makes it easy to read and write common geospatial XML file for
 * [GeoXmlSummaryMetadata Object](../../modules/geoxml-module/geoxmlsummarymetadata-object.md)
 * [GeoXmlWriteOptions Object](../../modules/geoxml-module/geoxmlwriteoptions-object.md)
 * [KmlScreenOverlay Class](../../modules/geoxml-module/kmlscreenoverlay-class.md)
-* [KmlScreenOverlayOptions Object](../v8-web-control/kmlscreenoverlayoptions-object.md)
+* [KmlScreenOverlayOptions Object](../../modules/geoxml-module/kmlscreenoverlayoptions-object.md)

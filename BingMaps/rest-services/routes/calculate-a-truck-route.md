@@ -27,7 +27,7 @@ The Bing Maps Truck Routing API is an extension of the existing Bing Maps Routin
 
 When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](../routes/route-data.md). You can also view the example URL and response values in the **Examples** section.
 
-Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](/bing-maps-docs/coverage/truck-routing-coverage.md) for details.
+Truck routing is only available in certain countries/regions, see the [Truck Routing Coverage documentation](../../coverage/truck-routing-coverage.md) for details.
 
 ## API Limits
 

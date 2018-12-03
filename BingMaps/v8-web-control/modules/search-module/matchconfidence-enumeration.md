@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # MatchConfidence Enumeration
+
 Defines the level of confidence that the geocoded location result is a match.
 
 | Name | Description |
@@ -23,4 +24,4 @@ Defines the level of confidence that the geocoded location result is a match.
 | `low`     | The confidence of the match is low.     |
 | `unknown` | The confidence of the match is unknown. |
 
-Additional details are defined in the [Bing Maps REST Location API](../rest-services/locations/index.md)
+Additional details are defined in the [Bing Maps REST Location API](../../../rest-services/locations/index.md)

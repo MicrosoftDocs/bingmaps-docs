@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # MatchCode Enumeration
+
 Defines the geocoding level of the location match found by the geocoder.
 
 | Name | Description |
@@ -24,4 +25,4 @@ Defines the geocoding level of the location match found by the geocoder.
 | `upHierarchy` | The match was found by a broader search.                  |
 | `modified`    | The match was found, but possibly using a modified query. |
 
-Additional details are defined in the [Bing Maps REST Location API](../rest-services/locations/index.md)
+Additional details are defined in the [Bing Maps REST Location API](../../../rest-services/locations/index.md)

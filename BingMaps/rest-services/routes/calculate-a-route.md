@@ -35,7 +35,7 @@ http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1={wayPpoint1}&viaWaypoint.2
   
  **Find a walking, driving or transit route by specifying the mode of travel.**  
   
- For a list of transit agencies, see [Bing Maps Transit Coverage](/bing-maps/docs/coverage/bing-maps-transit-coverage.md). You can request up to three (3) driving or transit route options between two waypoints by using the maxSolutions parameter.  
+ For a list of transit agencies, see [Bing Maps Transit Coverage](../../coverage/transit-coverage/index.md). You can request up to three (3) driving or transit route options between two waypoints by using the maxSolutions parameter.  
   
 ```url 
 http://dev.virtualearth.net/REST/v1/Routes/{travelMode}?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&tolerances={tolerances}&distanceUnit={distanceUnit}&key={BingMapsKey}

@@ -14,13 +14,14 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Map
+
 The map is the primary control in the Bing Maps V8 Map Control that provides an interactive surface for visualizing your data.
 
 ### Examples
 
   * [Customize Map Options on Load](customize-map-options-on-load.md)
   * [Change the Map View](change-the-map-view.md)
-  * [Check Bird’s eye Coverage Availability](../v8-web-control/check-bird’s-eye-coverage-availability.md)
+  * [Check Bird’s eye Coverage Availability](check-birds-eye-coverage-availability.md)
   * [Map Events](map-events.md)
 
 ### Related Topics

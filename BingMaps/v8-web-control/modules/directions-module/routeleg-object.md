@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # RouteLeg Object
 
 Represents a leg of a route. A route leg is the part of the route between two stop waypoints.
@@ -21,9 +22,9 @@ Represents a leg of a route. A route leg is the part of the route between two st
 |-----------------------|--------------------|----------------------------------------------------------------------------|
 | endTime               | Date           | The end time of the route leg. This property only applies when the routeMode of the DirectionsRequestOptions is set to **transit**.           |
 | endWaypointLocation   | [Location](../../map-control-api/location-class.md) | The location of the last waypoint of this leg.                |
-| itineraryItems        | [DirectionsStep](directions-module/directionsstep-object.md)\[\] | The directions steps associated with this route leg.                                                                                          |
+| itineraryItems        | [DirectionsStep](directionsstep-object.md)\[\] | The directions steps associated with this route leg.                                                                                          |
 | originalRouteIndex    | number             | The index of the route to which this route leg belongs.                    |
 | startTime             | Date           | The start time of the route leg. This property only applies when the routeMode of the DirectionsRequestOptions is set to **transit**.         |
 | startWaypointLocation | [Location](../../map-control-api/location-class.md) | The location of the first waypoint of this route leg.         |
-| subLegs               | [RouteSubLeg](directions-module/routesubleg-object.md)\[\]    | The sub legs of this route leg. A sub leg of a route is the part of the route between a stop point and a via point or between two via points. |
-| summary               | [RouteSummary](directions-module/routesummary-object.md) | The summary which describes this route leg.          |
+| subLegs               | [RouteSubLeg](routesubleg-object.md)\[\]    | The sub legs of this route leg. A sub leg of a route is the part of the route between a stop point and a via point or between two via points. |
+| summary               | [RouteSummary](routesummary-object.md) | The summary which describes this route leg.          |

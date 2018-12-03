@@ -14,7 +14,8 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # REST Services Examples
-The [Bing Maps REST services](../rest-services/index.md) provide a number of API's which provide several funcationalities:
+
+The [Bing Maps REST services](../../../rest-services/index.md) provide a number of APIs which provide several functionalities:
 
 * Geocode Addresses
 * Reverse Geocode locations
@@ -23,7 +24,7 @@ The [Bing Maps REST services](../rest-services/index.md) provide a number of API
 * Get Traffic incident data
 * Get elevation data 
 
-The Bing Map V8 provides a Search, Direction and Traffic modules which wraps several of the API's in the Bing Maps REST services. Not all of the API's are exposed in V8, however even when there is a module, sometimes it is useful to directly access the raw data from the REST services without using the modules. 
+The Bing Map V8 provides a Search, Direction and Traffic modules which wraps several of the APIs in the Bing Maps REST services. Not all of the APIs are exposed in V8, however even when there is a module, sometimes it is useful to directly access the raw data from the REST services without using the modules. 
 
 ## Accessing the REST services from JavaScript
 
@@ -35,7 +36,7 @@ The Bing Maps REST services can be accessed using GET requests with JSONP. The f
 
 REST services can be called using standard JavaScript by simply appending a script tag containing the REST URL to the page.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,7 +97,7 @@ REST services can be called using standard JavaScript by simply appending a scri
 
 [JQuery](http://jquery.com) is a very popular JavaScript framework that makes it easier to developer JavaScript that works across different browsers. jQuery provides three of different functions to make HTTP GET requests to services; jQuery.ajax ($.ajax), jQuery.get ($.get) and jQuery.getJSON ($.getJSON). The jQuery.get and jQuery.getJSON function is meant to be a simplified version of the jQuery.ajax function but have less functionality. The jQuery.get and jQuery.getJSON functions do not support cross-domain requests or JSONP whereas the jQuery.ajax function does. In order to make a cross-domain request using the jQuery.ajax function you have to specify that it uses JSONP and set the dataType property to JSONP. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -167,7 +168,7 @@ REST services can be called using standard JavaScript by simply appending a scri
 
 AngularJS is an open source JavaScript framework that lets you build well structured, easily testable and maintainable front-end applications by using the Model-View-Controller (MVC) pattern. AngularJS has a function $http.jsonp which allows you to easily make JSONP requests. Angular requires that JSONP parameter of the REST request URL point to JSON_CALLBACK.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -230,9 +231,9 @@ AngularJS is an open source JavaScript framework that lets you build well struct
 
 ### Angular 1.6
 
-Angular 1.6 has changed how it handles JSONP. First off you need to white list the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded "&jsonp=JSON_CALLBACK" value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
+Angular 1.6 has changed how it handles JSONP. First off you need to white list the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded `&jsonp=JSON_CALLBACK` value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # FilterLogicalOperator Enumeration
+
 An enumeration that defines how two or more filters are linked together.  
 
 Name            | String Operator      | Description

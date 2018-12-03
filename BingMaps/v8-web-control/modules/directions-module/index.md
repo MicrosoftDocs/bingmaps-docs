@@ -14,14 +14,15 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Directions Module
+
 **Namespace:** Microsoft.Maps.Directions
 
 This section contains reference documentation for the Microsoft.Maps.Directions API, which contains types that allow you to calculate route directions and display them on your Bing Maps V8 Control. The direction module can calculate driving, walking and public transit directions. Use the calculateDirections method of the DirectionsManager Class to calculate a route. Interactive code samples can be found in the [Bing Maps V8 Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS).
 
 ## API Reference ##
 
-* [DirectionsErrorEventArgs Object](../v8-web-control/directionserroreventargs-object.md)
-* [DirectionsEventArgs Object](../v8-web-control/directionserroreventargs-object.md)
+* [DirectionsErrorEventArgs Object](directionserroreventargs-object.md)
+* [DirectionsEventArgs Object](directionserroreventargs-object.md)
 * [DirectionsManager Class](directionsmanager-class.md)
 * [DirectionsRenderOptions Object](directionsrenderoptions-object.md)
 * [DirectionsRequestOptions Object](directionsrenderoptions-object.md)

@@ -14,7 +14,8 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Copyright Object
-Represents the copyright object for a boundary returned by the [GeoData API](../spatial-data-services/geodata-api.md). 
+
+Represents the copyright object for a boundary returned by the [GeoData API](../../../spatial-data-services/geodata-api.md). 
 
 ## Properties
 

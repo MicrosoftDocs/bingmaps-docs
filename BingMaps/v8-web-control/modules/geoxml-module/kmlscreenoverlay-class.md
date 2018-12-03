@@ -18,7 +18,7 @@ Overlays HTML elements within the map container that are above the map.
 
 ## Constructor
 
-> KmlScreenOverlay(htmlElement?: string *or* HTMLElement, options?: [KmlScreenOverlayOptions](../v8-web-control/kmlscreenoverlayoptions-object.md))
+> KmlScreenOverlay(htmlElement?: string *or* HTMLElement, options?: [KmlScreenOverlayOptions](kmlscreenoverlayoptions-object.md))
 
 ## Properties
 
@@ -36,5 +36,5 @@ Overlays HTML elements within the map container that are above the map.
 | `getMap()`                                            | [Map](../../map-control-api/map-class.md)         | Returns the map that this overlay is attached to.                                               |
 | `getVisible()`                                        | boolean     | Gets a boolean indicating if the screen overlay is visible or not.                              |
 | `setHtmlElement(htmlElement: string *or* HTMLElement)` |             | Updates the html element of this screen overlay.                                                |
-| setOptions(options: [KmlScreenOverlayOptions](../v8-web-control/kmlscreenoverlayoptions-object.md))        |             | Sets the options to customize the screen overlay.                                               |
+| setOptions(options: [KmlScreenOverlayOptions](kmlscreenoverlayoptions-object.md))        |             | Sets the options to customize the screen overlay.                                               |
 | `setVisible(value: boolean)`                          |             | Sets whether the layer is visible or not.                                                       |

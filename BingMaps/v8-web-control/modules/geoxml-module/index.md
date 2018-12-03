@@ -38,7 +38,7 @@ There are two ways to make use of this module. The first is to use the static me
 * [GeoXmlSummaryMetadata Object](geoxmlsummarymetadata-object.md)
 * [GeoXmlWriteOptions Object](geoxmlwriteoptions-object.md)
 * [KmlScreenOverlay Class](kmlscreenoverlay-class.md)
-* [KmlScreenOverlayOptions Object](../v8-web-control/kmlscreenoverlayoptions-object.md)
+* [KmlScreenOverlayOptions Object](kmlscreenoverlayoptions-object.md)
 
 ## Examples
 

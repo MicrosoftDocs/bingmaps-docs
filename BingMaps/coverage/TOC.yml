@@ -22,5 +22,5 @@
           href: transit-coverage/north-america.md
         - name: South America
           href: transit-coverage/south-america.md
-#    - name: Truck Routing Coverage
-#      href: truck-routing-coverage.md
+    - name: Truck Routing Coverage
+      href: truck-routing-coverage.md

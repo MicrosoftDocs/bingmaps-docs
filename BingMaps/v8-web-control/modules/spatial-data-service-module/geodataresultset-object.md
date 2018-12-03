@@ -14,12 +14,13 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # GeoDataResultSet Object
-Represents the set of results returned by the [GeoData API](../spatial-data-services/geodata-api.md).
+
+Represents the set of results returned by the [GeoData API](../../../spatial-data-services/geodata-api.md).
 
 ## Properties
 
 Name            | Type                  | Description
 --------------- | --------------------- | --------------------------------
-`Copyright`       | string                | Copyright information for the [GeoData API](../spatial-data-services/geodata-api.md).
+`Copyright`       | string                | Copyright information for the [GeoData API](../../../spatial-data-services/geodata-api.md).
 `location`        | string _or_ [Location](../../map-control-api/location-class.md)  | The location provided in the query that generated this result.
 `results`         | [GeoDataResult](geodataresult-object.md)[]      | Results of the boundary data.

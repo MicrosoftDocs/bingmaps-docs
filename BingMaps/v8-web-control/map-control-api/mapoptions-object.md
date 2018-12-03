@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # MapOptions Object
+
 The following map options can be used to customize the map. Some of the map options can be changed after the map has loaded by using the **setOptions** function on the map.
 
 Name                      | Type                | Description
@@ -22,7 +24,7 @@ Name                      | Type                | Description
 `allowInfoboxOverflow` | boolean | A boolean indicating if the infobox is allowed to overflow outside the bounds of the map. Default: **false**
 `backgroundColor` | string _or_ [Color](color-class.md) | The color to use for the map control background. The default color is #EAE8E1.<br/><br/>This property can only be set when using the Map constructor.
 `credentials`               | string              | **Deprecated.** The Bing Maps Key used to authenticate the application. This property can only be set when using the Map constructor. <br/><br/>It is recommended that the Bing Maps key be set as a URL parameter of the Bing Maps script reference as documented in the [Setting Map Control Parameters](../creating-and-hosting-map-controls/setting-map-control-parameters.md) document. This option will continue to work.
-`customMapStyle` | CustomMapStyle | Custom map styles used to modify the look and feel of the base map. See [Custom Map Styles in Bing Maps](../articles/custom-map-styles-in-bing-maps.md) for more information.
+`customMapStyle` | CustomMapStyle | Custom map styles used to modify the look and feel of the base map. See [Custom Map Styles in Bing Maps](../../articles/custom-map-styles-in-bing-maps.md) for more information.
 `disableBirdseye` | boolean | A boolean indicating whether to disable the bird’s eye map type. The default value is false. If this property is set to true, bird’s eye will be removed from the map navigation control and the birdseye MapTypeId is disabled. Additionally, the auto map type will only display road or aerial.<br/><br/>This property can only be set when using the Map constructor. Default: **false**
 `disableKeyboardInput` | boolean | A boolean value indicating whether to disable the user’s ability to change the map type through the keyboard. Default: **false**
 `disableMapTypeSelectorMouseOver` | boolean | A boolean value indicating if mousing over the map type selector should open it or not. Default: **false**

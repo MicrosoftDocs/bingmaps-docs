@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Check Bird’s eye Coverage Availability
+
 The Microsoft.Maps namespace has a static function that can be used to check if Bird’s eye imagery is available in at a specified location.
 
 | **Name**                                                                                                   | **Return Type** | **Description**                                                                     |
@@ -22,7 +23,7 @@ The Microsoft.Maps namespace has a static function that can be used to check if 
 
 The following code demonstrates how to check if bird’s eye imagery is available for a specified location and then loads the map into bird’s eye or aerial mode accordingly.
 
-```
+```javascript
 var map;
 var loc = new Microsoft.Maps.Location(45.464210, 9.190396);
 
