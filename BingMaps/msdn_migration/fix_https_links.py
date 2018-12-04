@@ -26,9 +26,32 @@ for row in get_http_data():
     strip_head = 'https://github.com/MicrosoftDocs/bingmaps-docs/blob/master/BingMaps/'
     head_len = len(strip_head)
 
-    test_url_raw = row[-1]
+    # test_url_raw = row[-1]
+    test_url_raw = row[4]
     
+    strip_external_head = ' URL: "'
+    strip_external_tail = '",\nReasonPhrase: '
+    
+    if strip_external_head in test_url_raw:
+        link = test_url_raw\
+               .strip(strip_external_head)[1]\
+               .strip(strip_external_tail)[0]
 
+        path = mapper.get_path(*source_file_parts)
+
+        if path:
+            html = None
+            with open(path, 'r', encoding='utf-8') as f:
+                html = f.read()
+
+            if html:
+                new_link = link.replace('https://', 'http://')
+                new_html = html.replace(link, new_link)
+
+                with open(path, 'w', encoding='utf-8') as f:
+                    f.write(new_html)
+
+    '''
     if broken_url_head in test_url_raw:
         source_file_parts = row[1][head_len:].split('/')
         length = len(test_url_raw)
@@ -53,3 +76,4 @@ for row in get_http_data():
                     print(f'replaced: {path}')
         else:
             print(f'\nError:\n\t{source_file_parts}\n')
+    '''

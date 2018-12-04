@@ -286,7 +286,6 @@ This article has demonstrated how to use PHP to access the Bing Spatial Data Ser
   
  You can find full API documentation for the Bing Spatial Data Services at:  [Bing Spatial Data Services](../spatial-data-services/index.md)  
   
- The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   
 ## Complete PHP Sample Code  
  The following is the complete code sample discussed in this article. This sample runs off the data provided in Listing 5. You must also replace the placeholder text with your Bing Maps Key.  

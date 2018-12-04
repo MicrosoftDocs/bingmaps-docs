@@ -15,7 +15,6 @@ ms.service: "bing-maps"
 ---
 # Asia Australia Pacific Transit Coverage
 
-
 Bing Maps APIs provide transit information for the following transit agencies in Asia and the Pacific.  
  
 ## Australia
@@ -133,16 +132,16 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New South Wales|Sydney|[Wingham Buslines](https://transportnsw.info)| 
 |New South Wales|Sydney|[train replacement bus operators](https://transportnsw.info)| 
 |Northern Territory|Alice Springs|[Public Transport](https://nt.gov.au/driving/public-transport-cycling)| 
-|Northern Territory|Darwin|[Public Transport - Department of Infrastructure Planning and Logistics](https://www.nt.gov.au/publictransport)| 
+|Northern Territory|Darwin|[Public Transport - Department of Infrastructure Planning and Logistics](https://nt.gov.au/driving/public-transport-cycling)| 
 |Queensland|Airlie Beach|[QConnect - Whitsunday Transit](https://www.whitsundaytransit.com.au/)| 
 |Queensland|Allenstown|[QConnect - Yeppoon](https://www.youngsbusservice.com.au/default2.html)| 
 |Queensland|Bowen|[QConnect - Bowen](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#bowen)| 
 |Queensland|Brisbane|[TransLink](https://www.translink.com.au)| 
 |Queensland|Bundaberg|[QConnect - Duffys & Stewarts](https://www.qld.gov.au/transport/public/transport/timetables/qconnect/)| 
 |Queensland|Cairns|[TransLink](https://www.sunbus.com.au)| 
-|Queensland|Gladstone|[QConnect - Buslink](https://www.buslinkqld.com.au/gladstone/gladstone.htm?)| 
+|Queensland|Gladstone|[QConnect - Buslink](http://www.buslinkqld.com.au/gladstone/gladstone.htm?)| 
 |Queensland|Gympie|[QConnect - Gympie](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#gympie)| 
-|Queensland|Innisfail|[QConnect - Trans North](https://www.transnorthbus.com/innisfail.asp)| 
+|Queensland|Innisfail|[QConnect - Trans North](http://www.transnorthbus.com/innisfail.asp)| 
 |Queensland|Kilcoy|[QConnect - Kilcoy](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#kilcoy_caboolture)| 
 |Queensland|Mackay|[QConnect - Mackay Transit Coaches](https://www.mackaytransit.com.au/)| 
 |Queensland|Magnetic Island|[QConnect - Magnetic Island Bus Service](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#magnetic)| 
@@ -162,20 +161,20 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Tasmania|Hobart|[Tassielink](https://www.tassielink.com.au)| 
 |Victoria|Mornington|[Mornington Railway](https://morningtonrailway.org.au/)| 
 |Victoria|Regional|[PTV](https://www.ptv.vic.gov.au)| 
-|Western Australia|Perth|[2K Tours](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransAlbany](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransBroome](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransBunbury](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransBusselton](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransCarnarvon](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransCollie](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransEsperance](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransGeraldton](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransGoldfields](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransHedland](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransKarratha](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransManjimup](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
-|Western Australia|Perth|[TransNarrogin](https://www.pta.wa.gov.au/OurServices/RegionalTownBusServices/tabid/62/Default.aspx)| 
+|Western Australia|Perth|[2K Tours](http://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransAlbany](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransBroome](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransBunbury](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransBusselton](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransCarnarvon](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransCollie](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransEsperance](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransGeraldton](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransGoldfields](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransHedland](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransKarratha](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransManjimup](https://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[TransNarrogin](https://www.pta.wa.gov.au/ )| 
 |Western Australia|Perth|[Transperth](https://www.transperth.wa.gov.au)| 
 |Western Australia|Perth|[Transwa](https://www.transwa.wa.gov.au)| 
 
@@ -224,34 +223,34 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## India
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Ahmedabad|[ABRTS](https://www.ahmedabadbrts.org/) 
-|Ahmedabad|[AMTS](https://www.amts.co.in/) 
-|Bangalore|[Bangalore Metro Rail Corporation](https://www.bmrc.co.in/) 
+|Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
+|Ahmedabad|[AMTS](http://www.amts.co.in/) 
+|Bangalore|[Bangalore Metro Rail Corporation](http://www.bmrc.co.in/) 
 |Bangalore|[Bangalore Metropolitan Transport Corporation](https://www.mybmtc.com/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
-|Chennai|[MTC](https://www.mtcbus.org/) 
+|Chennai|[MTC](http://www.mtcbus.org/) 
 |Hyderabad|[Hyderabad Metro Rail Limited](https://hmrl.telangana.gov.in) 
 |Hyderabad|[Telangana State Road Transport Corporation](https://www.hyderabadbusroutes.in/) 
 |Kolkata|[CSTC](https://cstc.org.in/) 
 |Kolkata|[Calcutta Tramways Company (1978) Limited](https://www.calcuttatramways.com/) 
 |Kolkata|[Metro Railway Kolkata](https://kolmetro.com/) 
-|Kolkata|[NBSTC](https://www.nbstc.in/) 
-|Kolkata|[SBSTC](https://sbstc.co.in/) 
-|Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation/) 
+|Kolkata|[NBSTC](http://www.nbstc.in/) 
+|Kolkata|[SBSTC](http://sbstc.co.in/) 
+|Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mumbai-metro.com) 
-|Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/mumbai-monorail-p) 
-|Mumbai|[NMMT](https://www.nmmtonline.com/) 
+|Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/mumbai-monorail-p) 
+|Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
-|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://businfo.dimts.in) 
-|New Delhi|[Delhi Metro Rail Corporation](https://www.delhimetrorail.com) 
-|New Delhi|[Delhi Transport Corporation](https://www.dtc.nic.in) 
-|New Delhi|[Haryana Roadways Faridabad City Bus Service](https://hartrans.gov.in) 
-|New Delhi|[Haryana Roadways Gurgaon City Bus Service](https://hartrans.gov.in) 
+|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](http://businfo.dimts.in) 
+|New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
+|New Delhi|[Delhi Transport Corporation](http://www.dtc.nic.in) 
+|New Delhi|[Haryana Roadways Faridabad City Bus Service](http://hartrans.gov.in) 
+|New Delhi|[Haryana Roadways Gurgaon City Bus Service](http://hartrans.gov.in) 
 |New Delhi|[Indian Railway](https://erail.in) 
-|New Delhi|[Rapid MetroRail Gurgaon Limited](https://www.rapidmetrogurgaon.com) 
-|New Delhi|[Uttar Pradesh State Road Transport Corporation](https://www.upsrtc.com) 
-|Pune|[PMPML](https://www.pmpml.org/) 
+|New Delhi|[Rapid MetroRail Gurgaon Limited](http://www.rapidmetrogurgaon.com) 
+|New Delhi|[Uttar Pradesh State Road Transport Corporation](http://www.upsrtc.com) 
+|Pune|[PMPML](http://www.pmpml.org/) 
 
 ## Malaysia
 |Locality|Transit Agency|

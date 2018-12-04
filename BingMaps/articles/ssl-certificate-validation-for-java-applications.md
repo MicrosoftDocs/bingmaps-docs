@@ -38,7 +38,7 @@ https://spatial.virtualearth.net/REST/v1/data/
   
  For Java applications, private keys and the associated X.509 certificate chains that authenticate the corresponding public keys are found in the “keystore”. The “keystore” also manages certificates from trusted entities. After you install the Java Runtime Environment (JRE) or the Java Development Kit (JDK), you will find the “keystore” in the `/lib/security` directory of your JRE. By default, this subdirectory contains a file named **cacerts** that contains certificates for many Root Certificate Authorities (Root CAs).  
   
- Java provides a [“keytool”](http://docs.oracle.com/javase/1.4.2/docs/tooldocs/solaris/keytool.html) in order to manage your “keystore”. To view a list of currently installed certificates, open a command prompt and run the following command from the `bin` directory of the JRE.  
+ Java provides a [“keytool”](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/keytool.html) in order to manage your “keystore”. To view a list of currently installed certificates, open a command prompt and run the following command from the `bin` directory of the JRE.  
   
 ```console
 keytool -list -keystore ..\lib\security\cacerts  
