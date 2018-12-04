@@ -31,7 +31,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?key=BingMapsKey
 
 HTTP POST Header
 
-```
+```url
 Content-Length: 450
 Content-Type: application/json
 ```

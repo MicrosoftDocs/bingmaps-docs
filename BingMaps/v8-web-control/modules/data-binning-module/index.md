@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Data Binning Module
+
 **Namespace**: Microsoft.Maps
 
 **Module Name**: Microsoft.Maps.DataBinning

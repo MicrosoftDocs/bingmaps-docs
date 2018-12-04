@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DrawingMode Enumeration
+
 The different drawing modes that the drawing manager can be set to. This can be accessed by **Microsoft.Maps.DrawingTools.DrawingMode.[mode_name]**.
 
 | Name       | Description                                                  |

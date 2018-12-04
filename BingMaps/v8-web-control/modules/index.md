@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Modules
+
 The Bing Maps V8 web control use a modular framework as a way to minimize loading of a bunch of features and functionalities that may not be needed. The base map control consists of a number of core features such as support for pushpins, polylines, polygons, and tile layers.  Modules allow users to load only the features and functionalities they need, rather than loading everything up when the application starts. You can save yourself a lot of development time by using modules and avoid reinventing the wheel. 
 
 Within the Bing Maps V8 web control, the following modules are provided:
@@ -31,7 +33,7 @@ Name                                   | Description
 [Microsoft.Maps.GeoXml](geoxml-module/index.md) | The GeoXml module makes it easy to read and write common geospatial XML file formats such as [KML (Keyhole Markup Language),](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) KMZ (compressed KML), [GeoRSS](https://en.wikipedia.org/wiki/GeoRSS), [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language) (Geography Markup Language, exposed via GeoRSS), and [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) (GPS Exchange Format).
 [Microsoft.Maps.HeatMap](heat-map-module/index.md)            | The module allows you to render an array of Location objects as a density based heat map.
 [Microsoft.Maps.Search](search-module/index.md)                  | Provides an easy method for geocoding address and reverse geocoding locations from JavaScript.
-[Microsoft.Maps.SpatialDataService](spatial-data-service-module/index.md)      | This module wraps the Query and GeoData REST API’s in the Bing Spatial Dara Services and expose them as an easy to use JavaScript library.
+[Microsoft.Maps.SpatialDataService](spatial-data-service-module/index.md)      | This module wraps the Query and GeoData REST APIs in the Bing Spatial Data Services and expose them as an easy to use JavaScript library.
 [Microsoft.Maps.SpatialMath](spatial-math-module/index.md)             | The module provides a bunch of useful spatial math functions.
 [Microsoft.Maps.Traffic](traffic-module/index.md) | Adds a traffic incident and flow data to the map.
 [Microsoft.Maps.WellKnownText](well-known-text-module.md)           | This module makes it easy to import or export data in Well Known Text format.

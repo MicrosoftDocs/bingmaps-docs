@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DirectionsErrorEventArgs Object
+
 The following is a list of properties that are available in the DirectionsErrorEventArgs object.
 
 | Name           | Type              | Description                                        |

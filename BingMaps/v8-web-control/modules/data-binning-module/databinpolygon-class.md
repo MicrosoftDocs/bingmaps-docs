@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DataBinPolygon Class
+
 This class is an extension of the Polygon class and has all the same methods, events and properties of that class. In addition to this, the DataBinPolygon also exposes additional details about the data bin through its `dataBinInfo` property.
 
 ## Properties

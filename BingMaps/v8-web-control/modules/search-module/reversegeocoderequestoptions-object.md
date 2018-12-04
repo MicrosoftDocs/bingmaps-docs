@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ReverseGeocodeRequestOptions Object
+
 In order to reverse geocode a location you need to pass an object containing reverse geocode request options into the reverseGeocode method. The following is a list of properties that can be included in a reverse geocode request.
 
 Name                         | Type                                           | Description

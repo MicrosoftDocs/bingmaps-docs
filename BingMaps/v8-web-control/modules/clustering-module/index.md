@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Clustering Module
+
 **Module Name**: Microsoft.Maps.Clustering
 
 **Namespace**: Microsoft.Maps 

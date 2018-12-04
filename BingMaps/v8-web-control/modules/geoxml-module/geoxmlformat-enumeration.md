@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXmlFormat Enumeration
+
 An enumeration of different GeoXML file formats.
 
 | Name     | Description                          |

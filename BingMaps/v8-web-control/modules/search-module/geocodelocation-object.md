@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeocodeLocation Object
+
 Represents a geocode location object.
 
 ## Properties

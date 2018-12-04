@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DrawingManagerOptions Object
+
 An object that contains options to change the settings of the drawing manager.
 
 | Name   | Type            | Description                                       |

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DirectionsStep Object
+
 Represents one direction in a set of route directions.
 
 | Name                    | Type               | Description                                                             |

@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # MatchCode Enumeration
 
 Defines the geocoding level of the location match found by the geocoder.

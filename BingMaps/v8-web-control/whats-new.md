@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # What&#39;s New
+
 The following is a list of key features added to the Bing Maps V8 Web control dring one of its regular updates. Details about smaller changes to the API interface (i.e. new function parameters) can be found in the [Bing Maps V8 TypeScript Definition commit history](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions/commits/master). 
 
 ## January 2018
@@ -80,7 +82,7 @@ Two new static methods have been added the LocationRect class. The first is call
 
 **Get Autosuggest suggestions programmatically**
 
-The autosuggest manager in Bing Maps has a `getSuggestions` function which can be used to retrieve autosuggest suggestions without having to attach a textbox to the autoggestion manager. Currently the suggestions returned by this function do not have their bestView property set and address suggestions do not have location coordinates. These suggestions can easily be enriched by using the Search module to geocode the suggestion.
+The autosuggest manager in Bing Maps has a `getSuggestions` function which can be used to retrieve autosuggest suggestions without having to attach a textbox to the autosuggestion manager. Currently the suggestions returned by this function do not have their bestView property set and address suggestions do not have location coordinates. These suggestions can easily be enriched by using the Search module to geocode the suggestion.
 
 **TypeScript Definitions Updated**
 
@@ -104,7 +106,7 @@ The Bing Maps V8 control has a new map option called **customMapStyle** which ca
 
 **Direction Route Line & Waypoint Style Options**
 
-With this relase the route line and waypoints can be customized using the [DirectionsRenderOptions](modules/directions-module/directionsrenderoptions-object.md). 
+With this release the route line and waypoints can be customized using the [DirectionsRenderOptions](modules/directions-module/directionsrenderoptions-object.md). 
 
 **Postal Code support added to Auto Suggest module**
 

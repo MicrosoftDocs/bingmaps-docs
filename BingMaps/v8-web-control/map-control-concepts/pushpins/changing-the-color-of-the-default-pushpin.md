@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Changing the color of the default Pushpin
+
 The default pushpin works well for most applications, but sometimes its useful to be able to change its color. Rather than having to having to create a custom pushpin image that is your desired color, you can simply set the color property in the pushpin options. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

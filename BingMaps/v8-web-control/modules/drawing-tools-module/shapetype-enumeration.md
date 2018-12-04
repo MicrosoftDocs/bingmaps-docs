@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ShapeType Enumeration
+
 The different types of shapes that are created or edited by the drawing tools. This can be accessed by **Microsoft.Maps.DrawingTools.ShapeType.[shapeType_name]**.
 
 | Name       | Description        |

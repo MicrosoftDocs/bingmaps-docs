@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Default Pushpin with Text Example
+
 The following code creates a pushpin at the center of the map that has a text value set to "1". A title value set to "Microsoft" and a subTitle value set to "City Center".
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

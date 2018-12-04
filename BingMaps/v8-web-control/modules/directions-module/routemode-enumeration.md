@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # RouteMode Enumeration
+
 Defines the type of route to calculate. The `Microsoft.Maps.Directions.RouteMode` enumeration has the following options.
 
 | Name      | Description                        |

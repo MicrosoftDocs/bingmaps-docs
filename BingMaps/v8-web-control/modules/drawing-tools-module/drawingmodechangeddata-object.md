@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DrawingModeChangedData Object
+
 An object that contains the event arguments for when the drawing mode changes in the drawing tools.
 
 | Name  | Type        | Description                                    |

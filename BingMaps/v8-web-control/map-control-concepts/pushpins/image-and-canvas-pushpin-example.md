@@ -13,14 +13,16 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Image and Canvas Pushpin Example
+
 Its fairly easy to create a custom pushpin using an HTML5 canvas, however if you are trying to draw an image on your canvas it can be a bit tricky. Images load asynchronously, as such you need to load them before you can draw them to the canvas. This code example shows how to create custom colored pushpins that use an image as a template. The template image looks like this:
 
 ![BMV8_TemplateImagePushpin](../../media/bmv8-templateimagepushpin.png) &nbsp; TransparentPushpin.png
 
 Note that the circular part of the pushpin has some transparency. By drawing a circle filled with a desired color on a canvas and then overlaying this image on top we end up with a nice easy way to create custom colored pushpins that fit an image template.
 
- ```
+ ```html
 <!DOCTYPE html>
 <html>
 <head>

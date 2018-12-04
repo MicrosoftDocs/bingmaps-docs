@@ -1,5 +1,5 @@
 ---
-title: "Developer Resources3 | Microsoft Docs"
+title: "Developer Resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Developer Resources
+
 This topic contains support resources and contact information.
 
 ## Create a Bing Maps Account & Key
@@ -40,7 +42,7 @@ The second method is recommended for all other applications that generate less t
 
 Sign up for the Bing Maps API for Enterprise in the Azure Marketplace [here](https://azure.microsoft.com/en-us/marketplace/partners/bingmaps/mapapis/). If you do not have an Azure account, you will have to create one and provide a credit card. Fill out the forms provided and select the transaction level that meets your monthly transaction requirements. Note that you can change this at any time. One benefit of license Bing Maps through the Azure Marketplace is that you get the flexibility of licensing on a month to month basis, rather than being locked into a contract for one of more years.
 
-## Developer Resources
+## Developer Resource Links
 
 The following resources are available for Bing Maps developers:
 

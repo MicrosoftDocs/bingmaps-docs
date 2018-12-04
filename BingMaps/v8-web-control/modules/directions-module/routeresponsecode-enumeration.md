@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # RouteResponseCode Enumeration
+
 Contains response codes for a route calculation request.
 
 | Response Code | Name                           | Description                                                                                                                                                                     |

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # FilterGroup Class
+
 A class that groups two or more logical filters or filter groups together. It can be executed against a JSON or generate a filter string that can be used with the Bing Spatial Data Services.
 
 ## Constructor

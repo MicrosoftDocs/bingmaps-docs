@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geometry Calculations
+
 A set of methods that perform spatial calculations against shapes. These static methods are exposed through the `Microsoft.Maps.SpatialMath.Geometry` namespace.
 
 > [!NOTE]
@@ -60,4 +62,4 @@ If you require higher accuracy spatial calculations, create a webservice and use
 
 Also note, there may be instances where, when visualizing results of a calculations, they look to have a larger margin of error. For instance, the calculated centroid of a 100KM line may appear to be several meters away from the line itself. The reason for this is that due to the Mercator projection of the map, “straight lines” between two locations should in fact be rendered as curved geodesic lines, however, for simplicity and performance, the map renders a geometric straight line. If you were to pass the line through the `getGeodesicPath` function the line and the centroid would intersect.
 
-There is partial support for shapes which cross the anti-merdian (-180/180 degress longitude). To help reduce "world wrap" issues, the spatial math module automatically splits result shapes along this line if they cross the anti-merdian.
+There is partial support for shapes which cross the anti-meridian (-180/180 degrees longitude). To help reduce "world wrap" issues, the spatial math module automatically splits result shapes along this line if they cross the anti-meridian.

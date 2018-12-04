@@ -13,8 +13,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # HeatMapLayer Class
-This is the main class thate provides that heat map functionality.
+
+This is the main class that provides that heat map functionality.
 
 ## Constructor
 

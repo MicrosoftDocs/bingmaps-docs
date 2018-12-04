@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXmlWriteOptions Object
+
 Options that are used to customize how the GeoXml writes XML.
 
 | Name             | Type         | Description  |

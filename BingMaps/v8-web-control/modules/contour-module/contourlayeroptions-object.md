@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ContourLayerOptions Object
+
 These options can be used to with the [ContourLayer](contourlayer-class.md) class.
 
 | Name           | Type                                    | Description                                                                                                                                   |

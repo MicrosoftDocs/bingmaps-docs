@@ -26,13 +26,13 @@ In this case, consider a person that is looking to rent an apartment near their 
 
 **HTTP GET Request URL**
 
-```
+```url
 http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=Minutes&dateTime=2017-11-27T18:00:00-08:00&travelMode=Driving&key=BingMapsKey
 ```
 
 Once the initial request is made a *requestId* will be returned. A *requestId* is a unique identifier for the asynchronous request. This can be used to monitor the status of the request until it is completed, at which point the response will include a *resultUrl* property which the resulting isochrone can be downloaded from. The following URL checks that status of an asynchronous request that has a *requestId* of “90b07189-33d8-4cbf-866a-1bd5c5b4f474”.
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key=BingMapsKey
 ```
 
@@ -42,7 +42,7 @@ The following image shows the resulting isochrone.
 
 **JSON Response**
 
-```
+```json
 {
     "authenticationResultCode": "ValidCredentials",
     "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
@@ -68,7 +68,7 @@ The following image shows the resulting isochrone.
 
 Add *&output=xml* to the original request URL to get the XML response.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
     <Copyright>Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
@@ -107,7 +107,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=9d7
 
 **JSON Response**
 
-```
+```json
 {
     "authenticationResultCode": "ValidCredentials",
     "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
@@ -134,7 +134,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=9d7
 
 Add *&output=xml* to the original request URL to get the XML response.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
     <Copyright>Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
@@ -167,7 +167,7 @@ When an asynchronous isochrone request has completed, the status response will i
 
 **JSON Response**
 
-```
+```json
 {
     "authenticationResultCode": "ValidCredentials",
     "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
@@ -494,7 +494,7 @@ When an asynchronous isochrone request has completed, the status response will i
 
 **XML Response**
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
     <Copyright>Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>

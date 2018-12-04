@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DataBinningOptions Object
+
 A set options the define how a data binning layer is rendered.
 
 | Name                | Type                                                                         | Description                                                                                                                                                                                                                                                                    |

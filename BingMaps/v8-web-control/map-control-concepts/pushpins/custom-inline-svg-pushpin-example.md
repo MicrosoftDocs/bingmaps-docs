@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Custom Inline SVG Pushpin Example
+
 In addition to creating a custom pushpin by loading an SVG file, you can also pass in inline SVG strings as custom pushpins. This is useful if you want to dynamically create an SVG element in code. Take the following SVG markup. 
 
-```
+```html
 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
     <circle cx="25" cy="25" r="20" stroke="orange" stroke-width="4" fill="yellow" />
 </svg>
@@ -26,7 +28,7 @@ This SVG creates a yellow circle with an orange outline that looks like this: &n
  
 To create a custom pushpin out of this SVG, convert the SVG into a string and then pass it into the `icon` property of the pushpin, like so:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

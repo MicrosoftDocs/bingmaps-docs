@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Map Control Concepts
+
 The Bing Maps V8 Web Control is designed to be easy adopt and use in your web applications, and familiar to anyone who has worked with Maps or Geospatial data.   Below, you'll find the major set of Map concepts and examples that will help you. 
 
 

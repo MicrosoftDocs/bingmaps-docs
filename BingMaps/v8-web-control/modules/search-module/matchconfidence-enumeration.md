@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # MatchConfidence Enumeration
 
 Defines the level of confidence that the geocoded location result is a match.

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # AutosuggestManager Class
+
 The AutosuggestManager is the primary class in the Autosuggest module.
 
 ## Constructor

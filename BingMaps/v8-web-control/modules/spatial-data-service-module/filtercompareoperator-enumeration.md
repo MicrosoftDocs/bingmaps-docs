@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # FilterCompareOperator Enumeration
 
 An enumeration that defines how to compare the filters value against the corresponding property value.  

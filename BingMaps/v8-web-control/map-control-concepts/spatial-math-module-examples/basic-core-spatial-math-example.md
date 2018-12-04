@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Core Spatial Math Example
+
 The following example shows how to use a number of the core Spatial Math functions. It uses north west and south east coordinates of the map to calculate a geodesic line between these points (line that follows the curvature of the earth), the midpoint of this line, a point that is 300 miles from the north west coordinate along the line, the length of the line, the heading between the coordinates, and the also converts the north west coordinate into Degree Minute Second format.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

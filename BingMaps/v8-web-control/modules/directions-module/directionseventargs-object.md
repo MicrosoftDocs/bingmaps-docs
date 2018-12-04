@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DirectionsEventArgs Object
+
 The following is a list of properties that are available in the DirectionsEventArgs object.
 
 | Name         | Type             | Description                                                                     |

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # QueryAPIOptions Object
+
 Represents the options for querying a data source that is hosted in the Bing Spatial Data Services.
 
 ## Properties

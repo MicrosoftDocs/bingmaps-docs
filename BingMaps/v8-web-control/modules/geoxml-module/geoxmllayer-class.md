@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXmlLayer Class
+
 A layer that loads and renders geospatial XML data on the map.
 
 ## Constructor
@@ -40,7 +42,7 @@ A layer that loads and renders geospatial XML data on the map.
 | `setOptions(options: GeoXmlLayerOptions)`                            |                         | Sets the options used for loading and rendering data into the GeoXmlLayer. |
 | `setVisible(value: boolean)`                                         |                         | Sets whether the layer is visible or not.                                  |
 
-## Events ##
+## Events
 
 The GeoXmlLayer class allows you to add events which are triggered when interacting with the `IPimitive` shapes that are in the layer. The benefit of this is that you only need to add the event on the layer and not on each individual shape. This results in less memory being used by the application and slightly faster response times by the events. Events are not added to Ground or Screen Overlays.
 

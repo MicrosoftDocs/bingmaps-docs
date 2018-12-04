@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Route Object
+
 Represents a route.
 
 | Name	      | Type        | Description                                                                             |

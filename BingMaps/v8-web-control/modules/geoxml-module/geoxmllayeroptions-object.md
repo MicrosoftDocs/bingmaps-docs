@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXmlLayerOptions Object
+
 Options used to customize how a GeoXmlLayer renders.
 
 | Name                      | Type                  | Description   |

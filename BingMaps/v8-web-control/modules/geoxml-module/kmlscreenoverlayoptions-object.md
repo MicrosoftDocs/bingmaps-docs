@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # KmlScreenOverlayOptions Object
+
 The options for customizing screen overlays.
 
 | Name               | Type    | Description                                                                                                       |

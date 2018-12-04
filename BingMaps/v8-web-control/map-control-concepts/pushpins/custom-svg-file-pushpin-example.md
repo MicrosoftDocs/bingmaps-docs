@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Custom SVG File Pushpin Example
+
 You can create map images using Scalable Vector Graphics (SVG). These images will look better across different sizes and device display resolutions. This example takes a SVG that is stored in a file called “cylinder.svg” and contains the following markup:
 
-```
+```html
 <svg xmlns="http://www.w3.org/2000/svg"
      width="20" height="40">
   <defs>
@@ -38,7 +40,7 @@ This SVG creates a nice 3D cylinder that looks like this: &nbsp;
  
 To create a custom pushpin out of this SVG, simply pass the path the SVG file into the `icon` property of the pushpin, like so:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

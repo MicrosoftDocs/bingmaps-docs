@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geometry Binary Operations
+
 Binary operations are logical processes such as addition, subtraction or not. Take for example the following operations:
 
 * `difference(A, B)` – This calculation takes the shape A and subtracts the area of shape B.
@@ -27,7 +29,7 @@ The Spatial Math module also has a `UnionAggregate` function which can take in a
 
 This example loads a map with two random polygons displayed on it. Below the map 5 buttons are displayed, each triggering a different binary operation to be performed against the polygons.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

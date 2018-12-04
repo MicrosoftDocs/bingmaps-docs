@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Autosuggest Module
+
 **Module Name**: Microsoft.Maps.Autosuggest
 
 **Namespace**: Microsoft.Maps 
@@ -26,7 +28,6 @@ The Autosuggest module takes in a string of text and provides a list of suggeste
   * [AutosuggestOptions Object](autosuggestoptions-object.md)
   * [SuggestionResult Object](suggestionresult-object.md)
   * [Address Object](address-object.md)
-
 
 ## Examples
   * [Default Autosuggest User Interface](../../map-control-concepts/autosuggest-module-examples/default-autosuggest-user-interface-example.md)

@@ -13,12 +13,14 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Drawing Tools Module
+
 **Namespace**: Microsoft.Maps.DrawingTools
 
 The drawing tools module provides tools that allow the user to draw and edit shapes on the map. Individual shapes can be created and/or edited on their own, or you can enable the drawing manager which provides a toolbar of drawing tools to choose from and the ability to draw and edit multiple shapes on the map. 
 
-## API Reference ##
+## API Reference
 
 * [DrawingBarAction Enumeration](drawingbaraction-enumeration.md)
 * [DrawingManager Class](drawingmanager-class.md)
@@ -28,7 +30,7 @@ The drawing tools module provides tools that allow the user to draw and edit sha
 * [DrawingTools Class](drawingtools-class.md)
 * [ShapeType Enumeration](shapetype-enumeration.md)
 
-## Examples ##
+## Examples
 
 * [Display Drawing Toolbar on Map](../../map-control-concepts/drawing-tools-module-examples/display-drawing-toolbar-on-map.md)
 * [DrawingManager Events](../../map-control-concepts/drawing-tools-module-examples/drawingmanager-events.md)

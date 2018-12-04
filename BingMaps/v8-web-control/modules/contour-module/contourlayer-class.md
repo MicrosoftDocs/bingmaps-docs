@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ContourLayer Class
+
 The ContourLayer class takes an array of [ContourLine](contourline-class.md) and organizes them and creates non-overlapping polygon to represent each contour area.
 
 ## Constructor
@@ -36,7 +38,7 @@ The ContourLayer class takes an array of [ContourLine](contourline-class.md) and
 | `setVisible(show: boolean)` | | Sets the visibility of the layer. |
 | `setZIndex(idx: number)` | | Sets the zIndex of the layer. See also: [zIndexing in Bing Maps V8](../../articles/zindexing-in-bing-maps-v8.md)  |
 
-## Events ##
+## Events
 
 
 | Name   | Arguments    | Description   |

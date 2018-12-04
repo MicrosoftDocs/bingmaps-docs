@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # RouteSummary Object
+
 Represents a route summary.
 
 |   Name          |   Type   |   Description                                                                                                                                                                          |

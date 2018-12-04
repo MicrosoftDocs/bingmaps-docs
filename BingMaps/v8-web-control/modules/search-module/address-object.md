@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Address Object
+
 Represents a structured address.
 
 Name               | Type       | Description

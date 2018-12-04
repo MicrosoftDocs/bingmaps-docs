@@ -13,24 +13,26 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Distance Matrix Histogram Example
+
 This example returns a distance matrix histogram between a set of origins and destinations between June 15<sup>th</sup>, 2017 at 1PM PST and June 15<sup>th</sup>, 2017 at 5PM PST with a resolution of 2 (30-minute intervals). This request will automatically use predictive traffic data to provide accurate estimates. This example shows the complete asynchronous request process from the initial request, as well as checking the status until completed. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats.
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&startTime=2017-06-15T13:00:00-07:00&endTime=2017-06-15T17:00:00-7:00&resolution=2&key=BingMapsKey
 ```
 
 **HTTP POST Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key=BingMapsKey
 ```
 
 HTTP POST Header
 
-```
+```url
 Content-Length: 564
 Content-Type: application/json
 ```
@@ -129,7 +131,7 @@ When making an asynchronous request to the distance matrix service the initial r
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestId=df07c5b2-179c-4eb2-a392-bee2bd804ae8&key=BingMapsKey
 ```
 

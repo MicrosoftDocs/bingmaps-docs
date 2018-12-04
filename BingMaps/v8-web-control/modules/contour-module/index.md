@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Contour Module
+
 **Namespace**: Microsoft.Maps
 
 **Module Name**: Microsoft.Maps.Contour

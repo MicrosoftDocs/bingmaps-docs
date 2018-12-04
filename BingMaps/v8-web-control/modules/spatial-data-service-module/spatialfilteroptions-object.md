@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # SpatialFilterOptions Object
+
 Represents the spatial filter options for querying a data source that is hosted in the Bing Spatial Data Services.
 
 ## Properties

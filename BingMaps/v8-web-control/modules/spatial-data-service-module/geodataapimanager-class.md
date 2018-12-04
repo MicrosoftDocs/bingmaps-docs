@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoDataAPIManager Class
 
 This is a static class that provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the [GeoData API](../../../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
@@ -23,7 +24,7 @@ Name                    | Definition | Description
 ----------------------- | ---------- | --------------------------------
 `getBoundary`           | getBoundary(<br/>locations: string _or_ [Location](../../map-control-api/location-class.md) _or_ (string _or_ [Location](../../map-control-api/location-class.md))[], request: [GetBoundaryRequestOptions](getboundaryrequestoptions-object.md), credentials: string _or_ [Map](../../map-control-api/map-class.md), callback: function(results: [GeoDataResultSet](geodataresultset-object.md)), styles?: [PolygonOptions](../../map-control-api/polygonoptions-object.md), errorCallback?: function(locationValue: string _or_ [Location](../../map-control-api/location-class.md) , networkStatus: string)) | Gets a boundary for the specified request. Takes in location which could be a Location coordinate or a string address, or an array of either of these. A Bing Maps key or a reference to a map control is used for authentication. A callback function is used to return the results to you.<br/><br/>If the location value is a string, it will be geocoded and the coordinates of the result will be used to find a boundary of the specified **entityType** that intersects with this coordinate.<br/><br/>Optionally polygon style options can be specified which will be used to style the boundary polygons returned by this API.<br/><br/>An error callback can be specified that will be triggered when an error occurs when searching for a boundary. The error callback will receive the location value that the error occurred for and a network status value. 
 
-## Network Status Paramter
+## Network Status Parameter
 
 The networkStatus parameter in the error callback can have the following values.
 

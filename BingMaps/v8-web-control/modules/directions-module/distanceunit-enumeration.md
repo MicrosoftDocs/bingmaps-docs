@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # DistanceUnit Enumeration
+
  The `Microsoft.Maps.Directions.DistanceUnit` enumeration has the following options.
 
 | Name         | Description               |

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXmlSummaryMetadata Object
+
 Summary metadata provided at the document level of the XML feed data set.
 
 | Name          | Type         | Description                                                              |
