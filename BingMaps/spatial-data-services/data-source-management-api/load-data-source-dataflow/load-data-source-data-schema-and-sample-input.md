@@ -23,7 +23,7 @@ You must provide a data schema and a set of input data to create a data source w
   
  You must specify an entity ID and include latitude and longitude properties in your schema. The following sections describe how to specify the entity ID.  
   
- If you are using XML format, you can use [System.Data.Dataset](http://msdn.microsoft.com/en-us/library/system.data.dataset.aspx) to generate the data schema, primary key information and the input data.  
+ If you are using XML format, you can use [System.Data.Dataset](https://msdn.microsoft.com/en-us/library/system.data.dataset.aspx) to generate the data schema, primary key information and the input data.  
   
  The Bing Spatial Data Services only supports UTF-8 encoded input data.  
   

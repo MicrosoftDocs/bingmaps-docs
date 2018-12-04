@@ -24,7 +24,7 @@ Bing Spatial Data Services provides REST APIs that work with large sets of spati
 > [!NOTE]
 >  Before using this API, review the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
- You can also use Bing Maps Dev Center to geocode entities and to create and manage your data sources. For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx). The Bing Spatial Data Services and the Bing Maps Dev Center can be used interchangeably to manage data sources for a single Bing Maps Account.  
+ You can also use Bing Maps Dev Center to geocode entities and to create and manage your data sources. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/en-us/library/hh698204.aspx). The Bing Spatial Data Services and the Bing Maps Dev Center can be used interchangeably to manage data sources for a single Bing Maps Account.  
   
 ## How to: Geocode and reverse-geocode spatial data  
  Use the [Geocode Dataflow API](geocode-dataflow-api/index.md) to create dataflow jobs that geocode and reverse-geocode large sets of data. For more information, see [Geocode Dataflow API](geocode-dataflow-api/index.md). For an example of the complete process, see the [Walkthrough](geocode-dataflow-api/geocode-dataflow-walkthrough.md)  
@@ -54,7 +54,7 @@ Bing Spatial Data Services provides REST APIs that work with large sets of spati
  Use the [Get Data Source Information](data-source-management-api/get-data-source-information.md) API to get information about a data source such as the entity type and properties that it stores. You can also request information about all of the data sources that belong to a Bing Maps Account.  
   
 ## How to: Use the Spatial Data Services with other Bing Maps APIs  
- Read the [Show Spatial Data Search Results on a Map](http://msdn.microsoft.com/en-us/library/hh305205.aspx) and [Searching for Traffic Incidents Along a Route](http://msdn.microsoft.com/en-us/library/hh779734.aspx) articles to learn how integrate Bing Spatial Data Services with [Bing Maps Rest Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) and the [Bing Maps AJAX Control, Version 7.0](http://msdn.microsoft.com/en-us/library/gg427610.aspx).  
+ Read the [Show Spatial Data Search Results on a Map](https://msdn.microsoft.com/en-us/library/hh305205.aspx) and [Searching for Traffic Incidents Along a Route](https://msdn.microsoft.com/en-us/library/hh779734.aspx) articles to learn how integrate Bing Spatial Data Services with [Bing Maps Rest Services](https://msdn.microsoft.com/en-us/library/ff701713.aspx) and the [Bing Maps AJAX Control, Version 7.0](https://msdn.microsoft.com/en-us/library/gg427610.aspx).  
   
 ## Public Data Sources  
  The following are public data sources that you can access with any Bing Maps Key.  
@@ -67,4 +67,4 @@ Bing Spatial Data Services provides REST APIs that work with large sets of spati
 |[FourthCoffeeSample Data Source](public-data-sources/fourthcoffeesample.md)|FourthCoffeeSample is a data source with sample data.|  
   
 ## Transaction Accounting  
- Transactions are counted for each Bing Spatial Data Services request sent with a valid Bing Maps Key. For information about billable and non-billable transactions for the Bing Spatial Data Services and how to view them, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).
+ Transactions are counted for each Bing Spatial Data Services request sent with a valid Bing Maps Key. For information about billable and non-billable transactions for the Bing Spatial Data Services and how to view them, see [Viewing Bing Maps Usage Reports](https://msdn.microsoft.com/en-us/library/ff859477.aspx).

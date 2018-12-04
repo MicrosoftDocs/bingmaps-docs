@@ -137,7 +137,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
 |PopulationClass|string|The approximate population within this entity.<br /><br /> **Example**: PopClass20000to99999|  
   
 ### Decompression Algorithm  
- The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](http://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
+ The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](https://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
   
 ```csharp
 public const string safeCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";  

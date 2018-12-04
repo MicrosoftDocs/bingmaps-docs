@@ -36,7 +36,7 @@ using System.Xml;
   
 //This C# code sample shows how to geocode data using the Geocode Dataflow REST API.  
 //For more information on this API, see the Bing Spatial Data Services SDK on MSDN:  
-// http://msdn.microsoft.com/en-us/library/ff701734.aspx  
+// https://msdn.microsoft.com/en-us/library/ff701734.aspx  
 namespace GeocodeDataFlowExample  
 {  
     //A summary of status information returned in the response when you check   
@@ -286,7 +286,7 @@ namespace GeocodeDataFlowExample
         // Where:  
         // <dataFilePath> is a path to the data file containing entities to geocode.  
         // <dataFormat> is one of these types: xml, csv, tab, pipe.  
-        // <key> is a Bing Maps Key from http://www.bingmapsportal.com.  
+        // <key> is a Bing Maps Key from https://www.bingmapsportal.com.  
         // <description> is an optional description for the dataflow job.  
         //  
   

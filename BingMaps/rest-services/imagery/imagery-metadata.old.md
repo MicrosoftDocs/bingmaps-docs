@@ -45,7 +45,7 @@ The response returned by an Imagery Metadata URL request contains a resource tha
 |URI placeholder|Description|  
 |---------------------|-----------------|  
 |{culture}|The culture of the map. The culture value determines the language that is used to display text. For a list of cultures that are supported by the Imagery API, see [Culture Parameter](../common-parameters-and-types/culture-parameter.md).|  
-|{quadkey}|The quadkey of the tile. For information about quadkeys, see [Bing Maps Tile System](http://msdn.microsoft.com/en-us/library/bb259689.aspx)|  
+|{quadkey}|The quadkey of the tile. For information about quadkeys, see [Bing Maps Tile System](https://msdn.microsoft.com/en-us/library/bb259689.aspx)|  
 |{subdomain}|The sub-domain to use to retrieve tiles to allow maximum performance for network calls. The value values are t0, t1, t2, or t3.|  
 |{tileId}|TileId is an index from 0 to (tilesX * tilesY) - 1 indicating a specific tile in the scene. 0 is top left corner and tiles are numbered in row order. So increasing values go left to right and then top to bottom.|  
 |{zoom}|The zoom level of the map.|  

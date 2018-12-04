@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Download a Data Source Dataflow
 Use the Data Source Download Dataflow API to download entity data from a published data source.  
   
- You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to download a data source. For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx).  
+ You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to download a data source. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/en-us/library/hh698204.aspx).  
   
  You can download a data source in three steps.  
   

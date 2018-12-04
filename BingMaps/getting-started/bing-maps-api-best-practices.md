@@ -87,7 +87,7 @@ Unless you are geocoding English addresses in the US you should specify a cultur
 |**Language**|**Method**|**Example**|  
 |------------------|----------------|-----------------|  
 |**JavaScript**|[encodeURIComponent](https://www.w3schools.com/jsref/jsref_encodeURIComponent.asp)|encodeURIComponent(*query*)|  
-|**C#/VB**|[Uri](http://msdn.microsoft.com/en-us/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
+|**C#/VB**|[Uri](https://msdn.microsoft.com/en-us/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
   
  When geocoding free form queries use the unstructured URL format rather than the structured format. The unstructured URL format tends to be much more successful for these types of queries. Note: the structured format actually overlaps with the reverse geocoding URL request format and can return odd results if your query is just made up of numbers.  
   

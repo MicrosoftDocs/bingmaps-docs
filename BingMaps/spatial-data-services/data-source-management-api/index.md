@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Data Source Management API
-Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](http://www.bingmapsportal.com). The table below provides links to the documentation for both methods.  
+Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](https://www.bingmapsportal.com). The table below provides links to the documentation for both methods.  
   
  **Before using this API, review the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   
@@ -22,15 +22,15 @@ Use the Data Source Management API to create and manage data sources that store 
   
 |Data Source Action|Using Bing Spatial Data Services|Using Bing Maps Account Center|  
 |------------------------|--------------------------------------|------------------------------------|  
-|**Create**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
-|**Update**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
-|**Make Public**|[Make a Data Source Public](../data-source-management-api/make-public-data-source.md)|[Available only with the Bing Spatial Data Services.](http://msdn.microsoft.com/en-us/library/dn151784.aspx)|  
+|**Create**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](https://msdn.microsoft.com/en-us/library/gg650600)|  
+|**Update**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](https://msdn.microsoft.com/en-us/library/gg650600)|  
+|**Make Public**|[Make a Data Source Public](../data-source-management-api/make-public-data-source.md)|[Available only with the Bing Spatial Data Services.](https://msdn.microsoft.com/en-us/library/dn151784.aspx)|  
 |**Query**|[Query API](../query-api/index.md)|Use Spatial Data Services [Query API](../query-api/index.md)|  
-|**Download**|[Download a Data Source Dataflow](../data-source-management-api/download-data-source-dataflow/index.md)|[Downloading a Data Source](http://msdn.microsoft.com/en-us/library/hh698203)|  
-|**Stage**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](http://msdn.microsoft.com/en-us/library/gg650600)|  
-|**Rollback**|[Rollback a Data Source Dataflow](../data-source-management-api/rollback-data-source-dataflow.md)|[Rollback a Data Source](http://msdn.microsoft.com/en-us/library/dn167663.aspx)|  
-|**Delete**|[Delete a Data Source](../data-source-management-api/delete-data-source.md)|[Deleting a Data Source](http://msdn.microsoft.com/en-us/library/hh290820)|  
-|**Get Info**|[Get Data Source Information](../data-source-management-api/get-data-source-information.md)|[Getting Data Source Information](http://msdn.microsoft.com/en-us/library/hh127034)|  
+|**Download**|[Download a Data Source Dataflow](../data-source-management-api/download-data-source-dataflow/index.md)|[Downloading a Data Source](https://msdn.microsoft.com/en-us/library/hh698203)|  
+|**Stage**|[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|[Uploading and Publishing Entity Data to a Data Source](https://msdn.microsoft.com/en-us/library/gg650600)|  
+|**Rollback**|[Rollback a Data Source Dataflow](../data-source-management-api/rollback-data-source-dataflow.md)|[Rollback a Data Source](https://msdn.microsoft.com/en-us/library/dn167663.aspx)|  
+|**Delete**|[Delete a Data Source](../data-source-management-api/delete-data-source.md)|[Deleting a Data Source](https://msdn.microsoft.com/en-us/library/hh290820)|  
+|**Get Info**|[Get Data Source Information](../data-source-management-api/get-data-source-information.md)|[Getting Data Source Information](https://msdn.microsoft.com/en-us/library/hh127034)|  
   
 ## In this Section  
   

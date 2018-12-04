@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Get Data Source Information
 Use the following URLs to get information about one or more data sources.  
   
- You can view the query URL, master key, and query key for all data sources associated with a Bing Maps Account on [Bing Maps Account Center](http://www.bingmapsportal.com). For more information, see [Getting Data Source Information](http://msdn.microsoft.com/en-us/library/hh127034).  
+ You can view the query URL, master key, and query key for all data sources associated with a Bing Maps Account on [Bing Maps Account Center](https://www.bingmapsportal.com). For more information, see [Getting Data Source Information](https://msdn.microsoft.com/en-us/library/hh127034).  
   
 ## Supported HTTP Methods  
  GET  

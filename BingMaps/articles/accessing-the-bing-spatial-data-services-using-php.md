@@ -63,7 +63,7 @@ This article will describe how to write a PHP application that can interact with
 ```  
   
 ## Authentication  
- All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx).  
   
  When you send an HTTP request to the Geocode Dataflow API, which we will discuss in the next section of this article, you must include the Bing Maps Key as a parameter. For example, you might send an HTTP request like the one shown in Listing 2.  
   

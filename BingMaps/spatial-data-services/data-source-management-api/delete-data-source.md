@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Delete a Data Source
 Use the following URL to delete a data source. To delete a data source, a delete data source job is created.  
   
- You can also use the [Bing Maps Account Center](http://www.bingmapsportal.com) to delete a data source. For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx).  
+ You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to delete a data source. For more information, see [Creating and Managing Data Sources](../../getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/index.md).  
   
  A job is created when you delete a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
   

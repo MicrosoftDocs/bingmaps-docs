@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Geocode Dataflow Data Schema - Version 2.0
-The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](http://msdn.microsoft.com/en-us/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
+The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](https://msdn.microsoft.com/en-us/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
   
 -   Text files with values separated by comma, tab, or pipe (&#124;) characters.  
   

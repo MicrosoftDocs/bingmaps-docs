@@ -460,8 +460,8 @@ When the request is not successful, the response returns one of the following er
   
 ## See Also  
  
-- [Bing Maps Tile System](http://msdn.microsoft.com/en-us/library/bb259689.aspx)
-- [Building Your Own Tile Server](http://msdn.microsoft.com/en-us/library/bb545006.aspx)   
-- [Understanding Scale and Resolution](http://msdn.microsoft.com/en-us/library/aa940990.aspx)   
+- [Bing Maps Tile System](https://msdn.microsoft.com/en-us/library/bb259689.aspx)
+- [Building Your Own Tile Server](https://msdn.microsoft.com/en-us/library/bb545006.aspx)   
+- [Understanding Scale and Resolution](https://msdn.microsoft.com/en-us/library/aa940990.aspx)   
 - [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
 - [JSON Data Contracts](../json-data-contracts.md)

@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # Query Near a Route
 Use the following URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. You can use the [Query Options](../query-api/query-options.md) such as $filter and $select to further specify the entity information that would like to return. For example, you can search the [Traffic Incident Data Source](../public-data-sources/traffic-incident-data-source.md) for all traffic incidents along a route and request that only the severity, description and location (latitude and longitude) be returned.  
   
- For an example application of how to use **Query Near a Route** and [Bing Maps AJAX Control, Version 7.0](http://msdn.microsoft.com/en-us/library/gg427610.aspx) to show traffic incidents along a route on a map, see [Searching for Traffic Incidents Along a Route](http://msdn.microsoft.com/en-us/library/hh779734.aspx).  
+ For an example application of how to use **Query Near a Route** and [Bing Maps AJAX Control, Version 7.0](https://msdn.microsoft.com/en-us/library/gg427610.aspx) to show traffic incidents along a route on a map, see [Searching for Traffic Incidents Along a Route](https://msdn.microsoft.com/en-us/library/hh779734.aspx).  
   
 ## Supported HTTP Methods  
  GET, HEAD  

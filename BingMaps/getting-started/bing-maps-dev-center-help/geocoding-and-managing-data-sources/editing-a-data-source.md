@@ -32,7 +32,7 @@ You can edit the entity data and the data schema of any data source associated w
   
 ## Edit Entity Data Schema
 
- To edit the entity data schema for a data source, go to the **Manage my data sources** page under **Data sources** on [Bing Maps Account Center](http://www.bingmapsportal.com), and click the **Published Data Sources** tab. Click **Edit Schema** for the data source schema, and then make your changes.  
+ To edit the entity data schema for a data source, go to the **Manage my data sources** page under **Data sources** on [Bing Maps Account Center](https://www.bingmapsportal.com), and click the **Published Data Sources** tab. Click **Edit Schema** for the data source schema, and then make your changes.  
   
 > [!IMPORTANT]
 > After you make changes, you **must publish your changes to the schema** to apply them to the data source.

@@ -22,11 +22,11 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
   
 -   Store and query entities with a location, such as set of retail stores or restaurants using our [Data Source Management API](data-source-management-api/index.md) and [Query API](query-api/index.md).  
   
- **Bing Maps Account Center (alternative)**:  You can also manage data sources and geocode using the [Bing Maps Account Center](http://www.bingmapsportal.com). For more information, see [Creating and Managing Data Sources](http://msdn.microsoft.com/en-us/library/hh698204.aspx).  
+ **Bing Maps Account Center (alternative)**:  You can also manage data sources and geocode using the [Bing Maps Account Center](https://www.bingmapsportal.com). For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/en-us/library/hh698204.aspx).  
   
  **Download this documentation**: [CHM](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=58f58f96-d9dc-4f23-a2e6-6b25d0d742c1&displaylang=en) &#124; [PDF](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=b0c49ebe-c27a-4cfe-b6a9-c8d5406ce5dd&displaylang=en)  
   
- Transaction accounting is provided when you use the Bing Spatial Data Services. For more information about billable and non-billable transactions for the Bing Spatial Data Services, see [Usage Transactions](http://msdn.microsoft.com/en-us/library/ff859477.aspx). There are also some use limits for this API. For more information, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
+ Transaction accounting is provided when you use the Bing Spatial Data Services. For more information about billable and non-billable transactions for the Bing Spatial Data Services, see [Usage Transactions](https://msdn.microsoft.com/en-us/library/ff859477.aspx). There are also some use limits for this API. For more information, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
 ## In this Section  
   

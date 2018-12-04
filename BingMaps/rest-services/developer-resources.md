@@ -27,7 +27,7 @@ ms.service: "bing-maps"
 |[Facebook](https://www.facebook.com/Bing)|Get interesting info on Bing Maps. Bing Maps is part of the Bing Facebook page.|  
   
 ## Account Issues  
- If you are having issues when [Creating a Bing Maps Account](http://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
+ If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
   
 ## Licensing Questions  
  For information about free-use and enterprise licenses when using Bing Maps in your application, see the [Bing Maps Licensing Tool](http://www.microsoft.com/maps/Licensing/licensing.aspx) or [Contact Us](http://www.microsoft.com/maps/contact-us.aspx).

@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Get Status of a Geocode Job
+
 Use the following URL to get the status of a geocode job.  
   
 ## Supported HTTP Methods  
@@ -40,7 +41,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&ke
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |jobID||**Required.** The ID of the job.|When you request a dataflow job, the job ID is returned in the ID field of the response. For more information, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).<br /><br /> **Example**: e14b1d9bd65c4b9d99d267bbb8102ccf|  
-|key||**Required**. The Bing Maps Key that you used to create the geocode job.|A Bing Maps Key from the [Bing Maps Account Center](http://www.bingmapsportal.com).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
+|key||**Required**. The Bing Maps Key that you used to create the geocode job.|A Bing Maps Key from the [Bing Maps Account Center](https://www.bingmapsportal.com).<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
 ## Examples
