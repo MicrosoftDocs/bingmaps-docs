@@ -40,7 +40,12 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/BingMaps/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "titleSuffix": "Bing Maps",
+      "ms.date": "12/03/2018",
+      "author": "v-chrfr",
+      "ms.service": "bing-maps",
+      "ms.prod": "bing-maps"
     },
     "fileMetadata": {},
     "template": [],
