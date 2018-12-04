@@ -66,6 +66,7 @@ http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.3
   "traceId": "3f6f6409f04d4e4b93dcdd50fee6b508|CO3124D6DA|7.7.0.0"
 }
 ```
+
 For more information about this resource, see the [Imagery Metadata](../rest-services/imagery/imagery-metadata.md).
 
 <a name="panorama"></a>
@@ -171,7 +172,7 @@ namespace GridBuilder
                         break;
                 }
             }
-                
+
             for (int i = 2; i < bit_map_size; i++)
             {
                 for (int j = 2; j < bit_map_size; j++)

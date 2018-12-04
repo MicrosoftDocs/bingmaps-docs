@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Create a Custom Map URL
 
 If you want to email someone a map URL or embed a map into your website, you can get the map you need in most cases by clicking **Share** at https://bing.com/maps. From the **Share** dialog box, you can click **Customize and Preview** to further customize your map URL. However, there may be times when you want more control or options such as search results and items in your places list.  In this case, you can use the information in this article to build your own Bing Maps URL. `  
@@ -51,15 +52,21 @@ To create your map link, start with the base URL for Bing Maps shown below, and 
 ### Examples  
  To open Bing Maps with the map centered on a specific location with a zoom level of 12, and the map view set to the road map view:  
   
- `https://bing.com/maps/default.aspx?cp=43.901683~-69.522416&lvl=12&style=r`  
+ ```url
+https://bing.com/maps/default.aspx?cp=43.901683~-69.522416&lvl=12&style=r
+```  
   
  To open Bing Maps with the map centered on a specific location, the map view set to bird's eye (oblique) image, and a specified zoom level and scene:  
   
- `https://bing.com/maps/default.aspx?cp=37.814692~-122.477339&style=o&lvl=1&dir=0&scene=1140291`  
+ ```url
+https://bing.com/maps/default.aspx?cp=37.814692~-122.477339&style=o&lvl=1&dir=0&scene=1140291
+```
   
  To open Bing Maps with the map centered on a specific location, the map view set to bird’s eye (oblique), and with a traffic overlay displayed:  
   
- `https://bing.com/maps/default.aspx?cp=47.621065~-122.352534&style=o&lvl=14&trfc=1`  
+ ```url
+https://bing.com/maps/default.aspx?cp=47.621065~-122.352534&style=o&lvl=14&trfc=1
+```  
   
 ## Search parameters
 
@@ -79,18 +86,23 @@ To create a map that displays specific search results, use the following paramet
 |sst|search parameter modifier|sst.1|You can append the **sst** parameter to a search string using a tilde (~) to specify how the search results are sorted. Use the following values with the sst parameter to specify the sort option.<br /><br /> **0**: Relevance<br /><br /> **1**: Distance<br /><br /> **2**: Rating|  
 |pg|search  parameter modifier|pg.2|You can append the **pg** parameter to a search string using a tilde (~) to specify which page of results to display.|  
   
-### Example  
+### Examples
   
--   To open Bing Maps to a specific address:  
+#### Open Bing Maps to a specific address:  
   
-     `https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,%20Redmond,%20WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
+```url
+https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,%20Redmond,%20WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0
+```
   
--   To open Bing Maps with a business search:  
+#### Open Bing Maps with a business search:  
   
-     `https://bing.com/maps/default.aspx?ss=yp.Pizza~sst.1~pg.2`  
+```url
+https://bing.com/maps/default.aspx?ss=yp.Pizza~sst.1~pg.2
+```  
   
-## Driving directions parameters  
- To create a map that displays directions from a specific start and end point, use the following parameters.  
+## Driving directions parameters
+
+To create a map that displays directions from a specific start and end point, use the following parameters.  
   
 |**Parameter**|**Definition**|**Example**|**Details**|  
 |-|-|-|-|  
@@ -100,10 +112,9 @@ To create a map that displays specific search results, use the following paramet
 |limit|limit|limit=D|Defines whether the route is limited by the arrival or departure time or chooses the last possible train that day. Use the following values:<br /><br /> -   **D**: Depart at<br /><br /> -   **A**: Arrive by<br /><br /> -   **LT**: Last train (Japanese market only)|  
 |time|time|time=201009302015|Defines the time for which the Depart or Arrive limit is based upon and based on the 24-hour timekeeping system. Example represents Sept 30, 2010 at 8:15pm. Use the following format: `YYYYMMDDhhmm`|  
   
- **Rtp Parameter Identifiers**  
+ ## Rtp Parameter Identifiers
   
  Use the following identifiers with the **rtp** parameter to specify the endpoints of a route.  
-  
 
 |**Identifier for rtp**|**Definition**|**Example**|**Details**| 
 |-|-|-|-|  
@@ -116,27 +127,34 @@ To create a map that displays specific search results, use the following paramet
   
 ### Example  
   
--   To open Bing Maps and show a route from a specific address to a specific point:  
+#### Open Bing Maps and show a route from a specific address to a specific point 
   
-     `https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,Redmond,WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0`  
+```url
+https://bing.com/maps/default.aspx?rtp=adr.One%20Microsoft%20Way,Redmond,WA%2098052~pos.45.23423_-122.1232_MyPlace&rtop=0~1~0
+```  
   
--   To open Bing Maps and show the driving directions panel with a start address only:  
+#### Open Bing Maps and show the driving directions panel with a start address only 
   
-     `https://bing.com/maps/default.aspx?rtp=adr.Seattle,WA`  
+```url
+https://bing.com/maps/default.aspx?rtp=adr.Seattle,WA
+```  
   
--   To open Bing Maps and show driving directions to a fictitious pizza restaurant in Redmond, WA:  
+#### Open Bing Maps and show driving directions to a fictitious pizza restaurant in Redmond, WA  
   
-     `https://bing.com/maps/default.aspx?rtp=~pos.rycz2z4tpkxm_555%20NE%2055th%20St,Redmond,WA_Pizza%20Parlor_425-555-5555`  
+```url
+https://bing.com/maps/default.aspx?rtp=~pos.rycz2z4tpkxm_555%20NE%2055th%20St,Redmond,WA_Pizza%20Parlor_425-555-5555
+``` 
   
-## Collections editor and collections parameters  
- To create a map that displays information from the collections editor or a specific collection, use the following parameters.  
+## Collections editor and collections parameters
+
+To create a map that displays information from the collections editor or a specific collection, use the following parameters.  
 
 |**Parameter**|**Definition**|**Example**|**Details**|  
 |-|-|-|-|  
 |sp|collections editor|sp=adr.One%20Microsoft%20Way,Redmond,WA|Defines a specific entity, address, or pin to add to the map.<br /><br /> Collections editor items are defined as a category and value, separated by a period. There are five categories: **adr**, **point**, **polyline**, **polygon**, and **yp**. These are described in the next table.<br /><br /> Separate multiple items with a tilde (~). If an item contains a tilde, make sure the tilde is encoded as %7E.|  
 |cid|collection ID|cid=15A41C376|Specifies the collection that you want to display by using the ID assigned to that collection. For the collection ID parameter, use the following format:<br /><br /> `cid=collection ID`|  
   
- **Collections Categories**  
+## Collections Categories
   
  Use the following formats to add values to a collection.  
   
@@ -149,13 +167,17 @@ To create a map that displays specific search results, use the following paramet
   
 ### Examples  
   
--   To open Bing Maps and add the address "1 Microsoft Way, Redmond, WA 98052" to the collections editor:  
+#### Open Bing Maps and add the address "1 Microsoft Way, Redmond, WA 98052" to the collections editor
   
-     `https://bing.com/maps/default.aspx?sp=adr.1%20Microsoft%20Way%2C%20Redmond%2C%20WA%2098052`  
+```url
+https://bing.com/maps/default.aspx?sp=adr.1%20Microsoft%20Way%2C%20Redmond%2C%20WA%2098052
+```  
   
--   To open Bing Maps and add a polyline to the collections editor:  
+### Open Bing Maps and add a polyline to the collections editor:  
   
-     `https://bing.com/maps/default.aspx?sp=Polyline.47.68_-122.12_48.68_-123.12_49.68_-122.12_LINE_some%20notes_http://bing.com__%2300ff00__4px_Single_Solid`  
+```url
+https://bing.com/maps/default.aspx?sp=Polyline.47.68_-122.12_48.68_-123.12_49.68_-122.12_LINE_some%20notes_http://bing.com__%2300ff00__4px_Single_Solid
+```  
   
 > [!NOTE]
 >  The parameters described in this topic are subject to change.

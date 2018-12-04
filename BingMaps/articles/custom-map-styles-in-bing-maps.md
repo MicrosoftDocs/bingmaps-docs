@@ -101,19 +101,19 @@ For example, take the following JSON style which colors water areas red and thei
 
 The string formatted version of this style looks like this (long form):
 
-```
+```url
 water|fillColor:FF0000;labelColor:00FF00_road|fillColor:0000FF_global|landColor:FFFFFF 
 ```
 
 Here is the same style using the short form version:
 
-```
+```url
 wt|fc:FF0000;lbc:00FF00_rd|fc:0000FF_g|landColor:FFFFFF
 ```
 
 This can then be appended to a REST Static Image request or a tile URL. For example:
 
-```
+```url
 http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?&key=[YOUR_BING_MAPS_KEY]&st=wt|fc:FF0000;lbc:00FF00_rd|fc:0000FF_g|landColor:FFFFFF
 ```
 
@@ -389,7 +389,7 @@ Here are some sample custom map styles.
 
 **REST Style**
 
-```
+```url
 me|lbc:ffffff;loc:000000_pl|bsc:144b53;boc:00000000_pt|ic:0c4152;fc:000000;sc:0c4152_trs|sc:000000;fc:000000_hg|sc:158399;fc:000000_cah|sc:158399;fc:000000_ard|sc:157399;fc:000000_mr|sc:157399;fc:000000_rl|sc:146474;fc:000000_str|fc:115166_wt|fc:021019_ar|fc:115166_g|lc:0b334d
 ```
 
@@ -431,7 +431,7 @@ me|lbc:ffffff;loc:000000_pl|bsc:144b53;boc:00000000_pt|ic:0c4152;fc:000000;sc:0c
 
 **REST Style**
 
-```
+```url
 me|lv:0_ar|v:0_trs|v:0_cr|bsc:444444;boc:00000000;fc:888888;v:1_ad|bv:0_wt|fc:ffffff_pt|v:0
 ```
 
@@ -479,7 +479,7 @@ me|lv:0_ar|v:0_trs|v:0_cr|bsc:444444;boc:00000000;fc:888888;v:1_ad|bv:0_wt|fc:ff
 
 **REST Style**
 
-```
+```url
 vg|fc:c5dea2_np|v:0;lv:0_trs|loc:ffffff;fc:ffffff;sc:d7d6d5_wt|fc:b1bdd6;lbc:ffffff;loc:9aa9ca_str|fc:d7d6d5_ipr|v:0_ima|v:0_g|lc:e7e6e5;srv:0
 ```
 

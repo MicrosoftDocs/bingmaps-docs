@@ -13,5 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Creating a Store Locator using Bing Maps and Azure
+
 Coming soon!
