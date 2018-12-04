@@ -561,7 +561,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |North Carolina|Durham|[Duke Transit](https://parking.duke.edu/)| 
 |North Carolina|Fayetteville|[FAST](https://www.ridefast.net/)| 
 |North Carolina|Greensboro|[Greensboro Transit Authority](https://www.greensboro-nc.gov/index.aspx?page=2180)| 
-|North Carolina|Greensboro|[High Point Transit System](http://www.highpointnc.gov/hi-tran)| 
+|North Carolina|Greensboro|[High Point Transit System](https://www.highpointnc.gov/hi-tran)| 
 |North Carolina|Greensboro|[Piedmont Authority for Regional Transportation](https://www.partnc.org/)| 
 |North Carolina|Hendersonville|[Apple Country Transit](http://www.hendersoncountync.org/planning/actransit/index.html)| 
 |North Carolina|Raleigh|[GoCary](https://www.townofcary.org/Departments/fdts/trafficandtransportation/GoCary.htm)| 
