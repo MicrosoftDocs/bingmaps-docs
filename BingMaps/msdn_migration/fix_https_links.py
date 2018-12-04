@@ -46,10 +46,10 @@ for row in get_http_data():
                 new_link = link.replace('http://', 'https://')
                 new_html = html.replace(link, new_link)
                 print(f'link:\n\t{link}\nnew link:\n\t{new_link}')
-                if html != new_html:
 
-                    with open(path, 'w', encoding='utf-8') as f:
-                        f.write(new_html)
-                        print(f'replaced: {path}')
+
+                with open(path, 'w', encoding='utf-8') as f:
+                    f.write(new_html)
+                    print(f'replaced: {path}')
         else:
             print(f'\nError:\n\t{source_file_parts}\n')

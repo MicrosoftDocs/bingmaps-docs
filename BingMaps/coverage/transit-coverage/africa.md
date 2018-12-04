@@ -20,7 +20,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Kenya
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Nairobi|[Approved SACCOs - University of Nairobi C4D Lab reporting/sharing](http://www.digitalmatatus.com) 
+|Nairobi|[Approved SACCOs - University of Nairobi C4D Lab reporting/sharing](https://www.digitalmatatus.com) 
 
 ## South Africa
 |Locality|Transit Agency|
