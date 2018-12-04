@@ -18,26 +18,26 @@ This example makes an asynchronous truck routing request for a truck that is tra
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key=BingMapsKey
 ```
 
 **HTTP POST Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key=BingMapsKey
 ```
 
 *HTTP POST Header*
 
-```
+```url
 Content-Length: 227            
  Content-Type: application/json
 ```
 
 *HTTP POST Body*
 
-```
+```json
 {
     "waypoints": [{
         "address": "590 Crane Ave, Pittsburgh, PA"

@@ -442,7 +442,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?key={BingMapsAPIKey}
   
  **HTTP POST Header**  
   
-```
+```url
 Content-Length: insertLengthOfHTTPBody  
 Content-Type: text/plain; charset=utf-8  
   
@@ -450,7 +450,7 @@ Content-Type: text/plain; charset=utf-8
   
  **HTTP POST Body**  
   
-```  
+```url
 points=38.8895,77.0501,38.8877,-77.0472,38.8904,-77.0474,38.8896,77.0351  
 ```  
   

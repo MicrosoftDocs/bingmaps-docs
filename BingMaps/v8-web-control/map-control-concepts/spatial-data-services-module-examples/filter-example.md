@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Filter Example
+
 This example shows how to use the `execute` and `toString` functions of the [Filter](../../modules/spatial-data-service-module/filter-class.md) and [FilterGroup](../../modules/spatial-data-service-module/filtergroup-class.md) classes by performing a bunch of tests. The output of the `toString` functions are compared against their expected values. The `execute` functions are tested against an arbitrary JSON object that has the following structure. 
 
-```
+```javascript
 var myJsonObject = {
     id: 1,
     title: 'My Object',
@@ -30,7 +32,7 @@ var myJsonObject = {
 This example loads the Spatial Data Services module on its own as a map isn't required to use this module.
 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

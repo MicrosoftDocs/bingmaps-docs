@@ -50,7 +50,7 @@ This article will describe how to write a PHP application that can interact with
   
  **Listing 1 - PHP starter code for working with Bing Spatial Data Services Geocode Dataflow API**  
   
-```  
+```html
 <<html>  
   <head><title>Using the Bing Spatial Data Geocode Dataflow API</title></head>  
   <body>  
@@ -69,15 +69,15 @@ This article will describe how to write a PHP application that can interact with
   
  **Listing 2 - Authenticating using a Bing Maps Key**  
   
-```  
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=YourBingMapsKeyHere  
-  
+```url
+http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=YourBingMapsKeyHere
 ```  
   
  In all of the examples in this article, you will see the Bing Maps Key sent to the Bing Spatial Data Services Geocode Dataflow API in this way.  
   
-## Working with the Geocode Dataflow API  
- The Geocode Dataflow API is a REST web service that allows you to pass in a list of addresses to be geocoded. The API will attempt to geocode each of the requests and, when finished, provide a link to two sets of data: one set of data lists the results of the successfully geocoded addresses, and another lists any addresses that were not geocoded successfully. You can provide this data in XML, CSV, tab-delimited or pipe-delimited formats. The geocoded data is returned in the same format. As explained below, the Geocode Dataflow API requires that you include additional information in your HTTP request beyond the URI with parameters.  
+## Working with the Geocode Dataflow API
+
+The Geocode Dataflow API is a REST web service that allows you to pass in a list of addresses to be geocoded. The API will attempt to geocode each of the requests and, when finished, provide a link to two sets of data: one set of data lists the results of the successfully geocoded addresses, and another lists any addresses that were not geocoded successfully. You can provide this data in XML, CSV, tab-delimited or pipe-delimited formats. The geocoded data is returned in the same format. As explained below, the Geocode Dataflow API requires that you include additional information in your HTTP request beyond the URI with parameters.  
   
  Working with the Geocode Dataflow API involves the following steps:  
   
@@ -85,7 +85,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
      **Listing 3 - URI format for starting a geocode job with the Geocode Dataflow API**  
   
-    ```  
+    ```url
     http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=BingMapsKey  
   
     ```  
@@ -96,7 +96,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
      **Listing 4 - URI format for checking the status of a geocode job**  
   
-    ```  
+    ```url
     http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key=BingMapsKey  
     ```  
   
@@ -115,7 +115,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
  **Listing 5 - Sample XML file to be used as input for the Geocode Dataflow API**  
   
-```  
+```xml
 <GeocodeFeed>  
   <GeocodeEntity Id="001"  
              xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -155,7 +155,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
  **Listing 6 - Starting a geocode job using the Geocode Dataflow API**  
   
-```  
+```php
 $key = "Insert Your Bing Maps Key Here";  
 $url = "http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=MyJob&input=xml&output=xml&key=".$key;  
   
@@ -185,7 +185,7 @@ function do_post_request($url, $data, $optional_headers = null)
   
  **Listing 7 - Working with response data from the Geocode Dataflow request to start a geocode job**  
   
-```  
+```php
 // Convert the response body into an XML element so we can extract data  
 $responseBody = new SimpleXMLElement($response);  
   
@@ -204,7 +204,7 @@ echo " Job Status: ".$jobStatus."<br><br>";
   
  **Listing 8 - Checking the status of your geocode job**  
   
-```  
+```php
 // Call the API to determine the status of all geocode jobs associated with a Bing Maps key  
 echo "Checking status until complete...<br>";  
 while ($jobStatus != "Completed")   
@@ -235,7 +235,7 @@ while ($jobStatus != "Completed")
   
  **Listing 9 - Obtaining the URL to the successfully geocoded results for a geocode job**  
   
-```  
+```php
   
 //Iterate through the links provided with the first geocode job and extract the 'succeeded' link  
 $Links = $responseBody->ResourceSets->ResourceSet->Resources->DataflowJob->Link;  
@@ -252,7 +252,7 @@ foreach ($Links as $Link) {
   
  **Listing 10 - Getting the successfully geocoded results of a job**  
   
-```  
+```php
 // Access the URL for the successful requests, and convert response to an XML element  
 $successUrl .= "?output=xml&key=".$key;  
 $successResponse = file_get_contents($successUrl);  
@@ -263,7 +263,7 @@ $successResponseBody = new SimpleXMLElement($successResponse);
   
  **Listing 11 - Extracting data from successful geocode job results**  
   
-```  
+```php
 // Loop through the geocoded results and output addresses and lat/long coordinates  
 foreach ($successResponseBody->GeocodeEntity as $entity) {  
   echo $entity->GeocodeResponse->Address['FormattedAddress'],"<br>";  
@@ -280,8 +280,9 @@ foreach ($successResponseBody->GeocodeEntity as $entity) {
   
  Note that in Listing 11, we need to check which type of location has been provided with each result. Some results may include Rooftop Location coordinates, while others will have Interpolated Location coordinates. The code in Listing 11 prefers Rooftop Location coordinates, and only prints out Interpolated Location coordinates it the Rooftop ones do not exist.You can find complete information on the Geocode Dataflow API, as well as additional data samples and walkthroughs, in the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/index.md).  
   
-## Conclusions and Further Reading  
- This article has demonstrated how to use PHP to access the Bing Spatial Data Services Geocode Dataflow API.  
+## Conclusions and Further Reading
+
+This article has demonstrated how to use PHP to access the Bing Spatial Data Services Geocode Dataflow API.  
   
  You can find full API documentation for the Bing Spatial Data Services at:  [Bing Spatial Data Services](../spatial-data-services/index.md)  
   
@@ -290,7 +291,7 @@ foreach ($successResponseBody->GeocodeEntity as $entity) {
 ## Complete PHP Sample Code  
  The following is the complete code sample discussed in this article. This sample runs off the data provided in Listing 5. You must also replace the placeholder text with your Bing Maps Key.  
   
-```  
+```php
 <html>  
   <head>  
     <title>Using the Bing Spatial Data Geocode Dataflow API</title>  

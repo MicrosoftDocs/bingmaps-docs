@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Events Class
+
 Events can be added and removed by using the methods available through the `Microsoft.Maps.Events` class. The Events class has the following static methods available.
 
 Name                                                                                            | Type      | Description
@@ -27,7 +28,7 @@ Name                                                                            
 
 The following code sample demonstrates how to add and remove events. The target is the object you want to add the event to (i.e. the map), the eventName is the name of the event to attach as a string, and the handler is a callback function that is called when the event is triggered. When an event is added, the addHandler method returns an object (handlerId). This object can be passed to the removeHandler method later to detach the event from the target object.
 
-```
+```javascript
 //Attach an event
 var handlerId = Microsoft.Maps.Events.addHandler(target, 'eventName', handler);
 

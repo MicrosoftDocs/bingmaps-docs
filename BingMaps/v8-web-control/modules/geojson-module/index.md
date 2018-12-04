@@ -13,14 +13,16 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoJSON Module
+
 **Module Name**: Microsoft.Maps.GeoJson
 
 **Namespace**: Microsoft.Maps.GeoJSON
 
 GeoJSON is a common file format used for storing spatial data as a JSON object. This file format tends to be more compact then its XML equivalents. This results in a much smaller file size, making it ideal for transferring spatial data to web and mobile applications. When storing in a file the **.js** or **.json** file extensions are usually used, however occasionally you may come across some files that use **.geojson**. The following is an example of a GeoJSON file containing the location of New York.
 
-```
+```json
 {
     "type": "FeatureCollection",
     "features": [

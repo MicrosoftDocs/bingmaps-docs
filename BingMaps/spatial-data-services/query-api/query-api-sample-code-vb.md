@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Query API Sample Code (VB)
+
 The following Visual Basic code provides examples of how to query a data source using the [Query API](../query-api/index.md).  
   
-```  
+``` vb
 Imports System  
 Imports System.Net  
 Imports System.Xml  
@@ -214,6 +216,5 @@ Public Class SpatialDataQuerying
   
 #End Region ';  
   
-End Class  
-  
+End Class
 ```

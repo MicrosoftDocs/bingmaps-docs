@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Customize Map Options on Load
+
 As mentioned before, you can customize the map when loading it. Use the following code to update how the map is loaded in the `GetMap` function such that it sets the type to aerial, the zoom level to 10, and the map center over London, UK (51.50632, -0.12714).
 
-``` 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,6 +48,7 @@ As mentioned before, you can customize the map when loading it. Use the followin
 </body>
 </html>
 ```
+
 This results in the map being loaded, zoomed in over London, UK with the aerial imagery displayed.
 
 ![BMV8_MapOptionsOnLoad](../../media/bmv8-mapoptionsonload.png)

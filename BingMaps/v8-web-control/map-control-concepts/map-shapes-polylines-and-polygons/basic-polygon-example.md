@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Basic Polygon Example
+
 The following code creates a simple polygon that has a red outline and a semi-transparent green fill color, and has a stroke thickness of 2 pixels. 
 
-``` 
+```html
 <!DOCTYPE html>
 <html>
 <head>

@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Simple Static Overlay
+
 This example creates a simple overlay that consists of 4 buttons that allow you to pan the map in different directions. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

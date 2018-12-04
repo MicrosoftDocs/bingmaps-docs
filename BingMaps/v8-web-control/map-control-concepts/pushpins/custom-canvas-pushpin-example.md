@@ -13,12 +13,14 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Custom Canvas Pushpin Example
+
 You can see how to dynamically create a custom image using an HTML5 canvas and use it to create a custom pushpin.
 
 In this example, a function is created that takes in a heading and draws an arrow on a canvas such that it is rotated to point in the direction of the heading. This function then uses the HTML5 canvas `toDataURL` function to generate a base64 image string which is then passed into the `icon` property of the pushpin.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

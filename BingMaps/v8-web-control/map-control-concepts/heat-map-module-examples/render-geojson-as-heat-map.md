@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Render GeoJSON as Heat Map
+
 This code sample loads in earthquake data for the last 30 days from the United States Geological Survey (USGS) and displays them as a heatmap layer. The USGS data makes a number of earthquake data feeds available in GeoJSON format on their website [here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

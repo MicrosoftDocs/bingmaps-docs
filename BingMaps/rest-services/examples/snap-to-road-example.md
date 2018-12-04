@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Snap to Road Example
+
 The following example shows how to snap points to the road.
 
 In this case, consider a trucking company that wants to do periodic safety reviews of the routes that their truck drivers take. The trucks have built-in GPS devices that collect GPS points as the truck drives along its route. The company wants to snap the GPS points to the likely road taken for accuracy because often times collected GPS points can deviate from the actual road the driver was on due to occasional GPS signal interference (i.e.: trees, buildings, etc.). The company also wants to get the posted truck speed limit of the road that the truck was on to compare to the actual speed the driver was travelling.
@@ -24,26 +26,26 @@ Responses are shown for both XML and JSON formats.
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key=BingMapsKey 
 ```
 
 **HTTP POST Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key=BingMapsKey
 ```
 
 **HTTP POST Header**
 
-```
+```url
 Content-Length: 402
 Content-Type: application/json
 ```
 
 **HTTP POST Body**
 
-```
+```json
 {
     "points":  [
         { "latitude": 47.590868, "longitude": -122.336729 },
@@ -60,7 +62,7 @@ Content-Type: application/json
 
 **JSON Response**
 
-```
+```json
 {
     "authenticationResultCode": "ValidCredentials",
     "brandLogoUri": "http:\/\/veplatppe.maps.live-int.com\/Branding\/logo_powered_by.png",
@@ -122,7 +124,7 @@ Content-Type: application/json
 
 Add *&output=xml* to the URL above to get the XML response.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
   <Copyright>Copyright © 2017 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>

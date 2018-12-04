@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Polyline Events
+
 This example attaches several mouse events to a polyline. When these events fire they highlight a label to indicate which event fired. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

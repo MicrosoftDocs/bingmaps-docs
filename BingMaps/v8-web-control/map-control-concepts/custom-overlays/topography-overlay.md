@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Topography Overlay
-This example creates a custom overlay that streaches an image such that the corners are binded to a bounding box on the map. This is useful when you want to overlay a georeferenced image on that map without having to turn it into a tile layer. Some common scenarios where this might be used is when overlaying images of floor plans, campus maps, or individual satellite images on the map. 
 
-```
+This example creates a custom overlay that stretches an image such that the corners are binded to a bounding box on the map. This is useful when you want to overlay a geo-referenced image on that map without having to turn it into a tile layer. Some common scenarios where this might be used is when overlaying images of floor plans, campus maps, or individual satellite images on the map. 
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,7 +95,7 @@ This example creates a custom overlay that streaches an image such that the corn
 </html>
 ```
 
-Running this code will overlay a topographic image of a mountain range on top of the map. As you pan and zoom you will notice that the corners of the image stay bounded to the specified bounding box and streaches as needed based on zoom level.
+Running this code will overlay a topographic image of a mountain range on top of the map. As you pan and zoom you will notice that the corners of the image stay bounded to the specified bounding box and stretches as needed based on zoom level.
 
 ![BMV8_TopographicOverlayExample](../../media/bmv8-topographicoverlayexample.PNG)
 

@@ -13,9 +13,8 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Creating a Basic Map Control
-
-
 
 ## Create a Bing Maps Account and Get a Key
 
@@ -27,19 +26,19 @@ Displaying the default map, which includes all of the navigation functionality, 
 
 1.	At the top of the HTML page, add the following DOCTYPE declaration.
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 2.	In the header section of an HTML page, add a META element with the charset attribute set to "utf-8", as follows:
 
-```
+```html
 <meta charset="utf-8" />
 ```
 
 Alternatively, you can also use the older HTML4 method of specifying that UTF8 character sets are used:
 
-```
+```html
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 ```
 
@@ -47,13 +46,13 @@ Alternatively, you can also use the older HTML4 method of specifying that UTF8 c
 
 3. In the header section or the body of the page add a reference to the map control script. You specify your Bing Maps key as part of the map script URL.  The map control can be loaded asynchronously by specifying a callback function in the script URL and by adding "async defer" to the script tag as follows:
 
-```
+```html
 <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 ```
 
 To use SSL, change http to https:
 
-```
+```html
 <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 ```
 
@@ -64,13 +63,13 @@ This will result in the browser inheriting the protocol from the website and aut
 
 4.	In the body of the page, add a DIV element to the page to contain the map. The size of the map is defined by the height and width of the DIV element. The position of the map is set by using the "position", "top", and "left" properties. You can set these values either inline or by defining the values in a style class and then referencing that class, as follows.
 
-```
+```html
 <div id="myMap" style='position:relative;width:600px;height:400px;'></div>
 ```
 
 or CSS Style:
 
-```
+```html
 #myMap {
     position: relative;
     width: 600px;
@@ -79,14 +78,14 @@ or CSS Style:
 ```
 
 HTML
-```
+```html
 <div id="myMap"></div>
 ```
 
 
 5.	Next, within a new script tag, create a function that can be called when your application loads.
 
-```
+```html
 <script type="text/javascript">
    function GetMap()
    {
@@ -96,7 +95,7 @@ HTML
 
 If loading the map synchronously, you can trigger the GetMap function by adding it to the onload event of the body tag.
  
-```
+```html
 <body onload="GetMap();">
 
 var map = new Microsoft.Maps.Map('#myMap');
@@ -107,7 +106,7 @@ var map = new Microsoft.Maps.Map('#myMap');
 
 The following is the full code required for loading a map asynchronously.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Geocode Example
+
 The following code sample shows how to make a geocode request using the Search module. This code loads the search module if it isn’t already loaded, geocodes “New York, NY”, adds a pushpin to that location, and sets the map view over the result.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

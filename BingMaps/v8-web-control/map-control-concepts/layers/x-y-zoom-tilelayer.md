@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # X, Y, Zoom TileLayer
+
 This example shows how to display a tile layer that uses an X, Y and Zoom tile URL schema. The source of this tile layer is a weather radar overlay from the [Iowa Environmental Mesonet of Iowa State University](http://mesonet.agron.iastate.edu/ogc/).
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,4 +58,4 @@ Running this code in a browser will display a weather radar tile layer over top 
  
 ![BMV8_TileLayerXYZoom](../../media/bmv8-tilelayerxyzoom.PNG)
 
-[Try it now](http://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerPublicXYZoom+JS)
+[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerPublicXYZoom+JS)
