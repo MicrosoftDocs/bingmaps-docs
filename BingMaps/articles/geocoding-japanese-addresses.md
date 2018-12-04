@@ -40,7 +40,7 @@ Japanese geocoding is complex because addresses can be expressed using four diff
  If you know the parsed address, you can specify each component separately using the following URL template and the URL parameters in the table. This type of request will give the best result because the address string does not need to be parsed.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=  
+https://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=  
 locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMapsKey  
 ```  
   
@@ -61,14 +61,14 @@ locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMa
  If it’s not possible or convenient to separate out the components of the address, you can specify a single address string in the request:  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?q=addressString&culture=ja&key=YourBingMapsKey  
+https://dev.virtualearth.net/REST/v1/Locations?q=addressString&culture=ja&key=YourBingMapsKey  
 ```  
   
 ### Reverse-geocode  
  To reverse-geocode a Japanese address, specify the latitude and longitude of the location in the request.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegrees?key=YourBingMapsKey  
+https://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegrees?key=YourBingMapsKey  
 ```  
   
 ### Japanese Geocode and Reverse-Geocode URL Examples  
@@ -77,11 +77,11 @@ http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegr
 ||||  
 |-|-|-|  
 |**Request type**|**Address values/strings or coordinates**|**Example URL**|  
-|Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
-|Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
+|Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
+|Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
 |Geocode a postal code using URL address parameters|PostalCode = 108-0075|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=108-0075&o=xml&key=YourBingMapsKey&c=ja|  
-|Geocode a postal code using a single address string|Query = 〒108-0075|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=%e3%80%92108%2d0075&o=xml&key=YourBingMapsKey&c=ja|  
-|Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|http://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
+|Geocode a postal code using a single address string|Query = 〒108-0075|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=%e3%80%92108%2d0075&o=xml&key=YourBingMapsKey&c=ja|  
+|Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|https://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
   
 ### Geocode Response  
  When you make a geocode request using the Locations API URLs and a location is found that matches the address, a response is returned with the latitude and longitude, a confidence and other information. The following is an example of an XML response returned by a Locations API geocode request. For more information about the fields returned in a Locations API response and the equivalent JSON response format, see [Location Data](../rest-services/locations/location-data.md).  
@@ -90,12 +90,12 @@ http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegr
   
 ```xml
 This XML file does not appear to have any style information associated with it. The document tree is shown below.  
-<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
+<Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns="https://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
   </Copyright>  
   <BrandLogoUri>  
-    http://dev.virtualearth.net/Branding/logo_powered_by.png  
+    https://dev.virtualearth.net/Branding/logo_powered_by.png  
   </BrandLogoUri>  
   <StatusCode>200</StatusCode>  
   <StatusDescription>OK</StatusDescription>  
