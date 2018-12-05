@@ -1,8 +1,10 @@
 from filemap import FileMap
-
+from pandas import read_excel
 from os.path import expanduser as ospath
 
-data_file = 'msdn_migration/bad_http_links.csv'
+# data_file = 'msdn_migration/bad_http_links.csv'
+
+data_file = 'msdn_migration/bad_external_links.csv'
 
 mapper = FileMap(ignore_dir=['msdn_migration'])
 
@@ -11,8 +13,20 @@ def get_http_data():
     with open(data_file, 'r', encoding='utf-8') as f:
         for n, line in enumerate(f.readlines()):
             if n > 0:
-                yield line.split(',')
-            
+                row = line.split(',')
+                yield row
+
+def get_excel_data():
+    with open(data_file, 'r', encoding='utf-8') as f:
+        lines = list(f.readlines())
+        n = len(lines)
+        for i in range(1, n, 3):
+            rows = lines[i].split(',')
+            print(rows)
+            source = rows[1]
+            link = rows[6].split('URL: ""')[1].split('""')[0]
+            yield source, link
+            # i += 2
 
 broken_url_head = 'The following referenced link ['
 broken_url_tail = '] supports HTTPS. Please change the link to use HTTPS.\n'
@@ -20,36 +34,32 @@ broken_url_tail = '] supports HTTPS. Please change the link to use HTTPS.\n'
 N = len(broken_url_head)
 M = len(broken_url_tail)
     
-for row in get_http_data():
+for source, link in get_excel_data():
 
-    # exit(1)
     strip_head = 'https://github.com/MicrosoftDocs/bingmaps-docs/blob/master/BingMaps/'
     head_len = len(strip_head)
 
     # test_url_raw = row[-1]
-    test_url_raw = row[4]
+
+    # test_url_raw = row[5]
+    # print(test_url_raw)
+    # exit(1)
     
-    strip_external_head = ' URL: "'
-    strip_external_tail = '",\nReasonPhrase: '
-    
-    if strip_external_head in test_url_raw:
-        link = test_url_raw\
-               .strip(strip_external_head)[1]\
-               .strip(strip_external_tail)[0]
+    source_file_parts = source[head_len:].split('/')
 
-        path = mapper.get_path(*source_file_parts)
+    path = mapper.get_path(*source_file_parts)
 
-        if path:
-            html = None
-            with open(path, 'r', encoding='utf-8') as f:
-                html = f.read()
+    if path:
+        html = None
+        with open(path, 'r', encoding='utf-8') as f:
+            html = f.read()
 
-            if html:
-                new_link = link.replace('https://', 'http://')
-                new_html = html.replace(link, new_link)
+        if html:
+            new_link = link.replace('https://', 'http://')
+            new_html = html.replace(link, new_link)
 
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write(new_html)
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(new_html)
 
     '''
     if broken_url_head in test_url_raw:
