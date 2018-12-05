@@ -110,7 +110,7 @@ Add &output=xml to the original request URL to get the XML response.
 When making an asynchronous request to the truck routing service the initial response includes a *RouteProxyAsyncResult* which includes a unique *requestId*. This *requestId* can be used to check the status of the asynchronous truck routing request by using the following HTTP GET URL. The response from the initial request and all responses using the following status request URL will include a field which indicates an estimated amount of time remaining until the requested truck routing has been generated. The responses shown below in both XML and JSON formats are example of the status returned when the truck routing request has been completed.
 HTTP GET Request URL
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key=BingMapsKey
 ```
 

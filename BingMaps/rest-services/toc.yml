@@ -73,10 +73,10 @@
         href: routes/maneuver-types.md
       - name: Warning Types
         href: routes/warning-types.md
-      - name: Optimized Itinerary
-        href: routes/optimized-itinerary.md
-      - name: Optimized Itinerary Data
-        href: routes/optimized-itinerary-data.md
+      # - name: Optimized Itinerary
+      #  href: routes/optimized-itinerary.md
+      # - name: Optimized Itinerary Data
+      #  href: routes/optimized-itinerary-data.md
   - name: Traffic
     maintainContext: true
     href: traffic/index.md

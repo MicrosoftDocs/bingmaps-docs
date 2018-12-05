@@ -26,8 +26,8 @@ The IsochroneResponse resource contains the polygons that represent the requeste
 
 | JSON     | XML      | Type        | Description                                     |
 |----------|----------|-------------|-------------------------------------------------|
-| origin   | Origin   | Cooridnate  | The origin point used to calculate the isochrone area. |
-| polygons | Polygons | Polygon\[\] | The polygons that represent the isochrone area. |
+| `origin`   | `Origin`   | `Cooridnate`  | The origin point used to calculate the isochrone area. |
+| `polygons` | `Polygons` | `Polygon`\[\] | The polygons that represent the isochrone area. |
 
 ## Polygon Class
 
@@ -35,7 +35,7 @@ This class represents a polygon object.
 
 | JSON        | XML         | Type               | Description     |
 |-------------|-------------|--------------------|-----------------|
-| coordinates | Coordinates | double\[\]\[\]\[\] | The coordinate rings that make up the polygon. Where double\[\] represents a single coordinate \[latitude, longitude\], and double\[\]\[\] represents a single ring within a polygon. |
+| `coordinates` | `Coordinates` | `double`\[\]\[\]\[\] | The coordinate rings that make up the polygon. Where double\[\] represents a single coordinate \[latitude, longitude\], and double\[\]\[\] represents a single ring within a polygon. |
 
 ## See Also
 
