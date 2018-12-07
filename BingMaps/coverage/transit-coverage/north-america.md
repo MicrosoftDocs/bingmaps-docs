@@ -554,6 +554,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New York|Regional|[Dutchess County Public Transit](https://www.co.dutchess.ny.us/CountyGov/Departments/PublicWorks/PLLoopbus.htm)| 
 |New York|Regional|[Ulster County Area Transit](https://ulstercountyny.gov/ucat/ulster-county-area-transit)| 
 |New York|Rochester|[Rochester-Genesee Regional Transportation Authority](https://www.rgrta.com)| 
+|New York|Suffolk County|[Suffolk County Transit](http://www.sct-bus.org)|
 |North Carolina|Asheville|[Asheville Redefines Transit](https://www.ashevillenc.gov/Departments/Transit.aspx)| 
 |North Carolina|Chapel Hill|[Chapel Hill Transit](https://www.chtransit.org)| 
 |North Carolina|Charlotte|[CATS](https://www.ridetransit.org)| 
