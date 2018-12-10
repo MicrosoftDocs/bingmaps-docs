@@ -103,6 +103,16 @@
     href: common-parameters-and-types/index.md
     maintainContext: true
     items:
+      - name: Type Identifiers
+        href: common-parameters-and-types/type-identifiers/index.md
+        maintainContext: true
+        items:
+          - name: Eat Drink Identifiers
+            href: common-parameters-and-types/type-identifiers/eat-drink-types.md
+          - name: See Do Identifiers
+            href: common-parameters-and-types/type-identifiers/see-do-types.md
+          - name: Shop Identifiers
+            href: common-parameters-and-types/type-identifiers/shop-types.md
       - name: Base URL Structure
         href: common-parameters-and-types/base-url-structure.md
       - name: Culture Parameter
