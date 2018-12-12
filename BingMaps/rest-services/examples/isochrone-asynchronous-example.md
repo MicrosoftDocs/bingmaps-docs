@@ -68,7 +68,7 @@ The following image shows the resulting isochrone.
 
 **XML Response**
 
-Add *&output=xml* to the original request URL to get the XML response.
+Add `&output=xml` to the original request URL to get the XML response.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,7 +103,7 @@ When making an asynchronous request to the isochrone service the initial respons
 
 **HTTP GET Request URL**
 
-```
+```url
 https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key=BingMapsKey
 ```
 

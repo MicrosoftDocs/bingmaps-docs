@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # WMS Tile Layer Example
+
 [Web Mapping Services](https://en.wikipedia.org/wiki/Web_Map_Service) (WMS) is an Open Geospatial Consortium (OGC) standard for serving georeferenced map images. There are lots of data available in this format that can be overlaid on top of Bing Maps. 
 
 WMS services usually require that certain information is specified such as the image width, height, bounding box and coordinate system. When using a WMS service as a tile layer, the width and height can be set to 256, which is the size of the map tiles used in Bing Maps. Coordinate systems supported by a WMS service varies from service to service. One that works well with Bing Maps in many cases is CRS:84 which is for the WGS 84 projection system which is used by GPS devices. 
@@ -23,7 +25,7 @@ Note to be confused with the bounding box of the map tiles, WMS services usually
 
 This example shows how to take the [NOAA Base Reflective Weather Radar WMS service](https://www.nws.noaa.gov/gis/services.html) and display it as a tile layer on the map. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

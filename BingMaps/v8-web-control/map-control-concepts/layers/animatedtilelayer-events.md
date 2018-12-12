@@ -14,9 +14,10 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # AnimatedTileLayer Events
+
 This example uses the `onFrameLoaded` event of the [AnimatedTileLayer](../../map-control-api/animatedtilelayer-class.md) class to update a message about the currently display tile layer in the animation. For this example the weather radar tile service from the [Iowa Environmental Mesonet of Iowa State University](https://www.mesonet.agron.iastate.edu/ogc/) and animates it. This service provides radar images for the last 50 minutes over the USA broken up into 5 minute increments. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
