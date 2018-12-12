@@ -21,14 +21,14 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[אגד](https://www.egged.co.il) 
-|Regional|[אגד תעבורה](https://www.egged-taavura.co.il) 
+|Regional|[אגד תעבורה](http://www.egged-taavura.co.il/) 
 |Regional|[אפיקים](https://www.afikim-t.co.il/) 
 |Regional|[גי.בי.טורס](https://www.gb-tours.com) 
 |Regional|[גלים](http://www.galeem.co.il/) 
-|Regional|[דן](https://www.dan.co.il) 
+|Regional|[דן](http://www.dan.co.il/) 
 |Regional|[דן באר שבע](http://www.danbr7.co.il/) 
 |Regional|[דן בדרום](http://www.danbadarom.co.il/) 
-|Regional|[דן צפון](http://www.haifahaifa.co.il/archives/5622) 
+|Regional|[דן צפון](https://haifahaifa.co.il/) 
 |Regional|[ירושלים - עיסאוויה מחנה שעפאט איחוד](https://www.callkav.gov.il/) 
 |Regional|[ירושלים-אבו-תור-ענאתא איחוד](https://www.callkav.gov.il/) 
 |Regional|[ירושלים-אלווסט איחוד](https://www.callkav.gov.il/) 
@@ -39,13 +39,13 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[כרמלית](https://www.carmelithaifa.co.il) 
 |Regional|[מועצה אזורית גולן](https://www.golan.org.il/) 
 |Regional|[מטרופולין](https://www.metropoline.com) 
-|Regional|[נסיעות ותיירות](https://www.ntt-buses.com) 
-|Regional|[נתיב אקספרס](https://www.nateevexpress.com) 
-|Regional|[סופרבוס](https://www.superbus.co.il) 
+|Regional|[נסיעות ותיירות](http://www.ntt-buses.com/) 
+|Regional|[נתיב אקספרס](http://www.nateevexpress.com/) 
+|Regional|[סופרבוס](http://www.superbus.co.il/) 
 |Regional|[סיטי פס](https://www.citypass.co.il) 
-|Regional|[קווים](https://www.kavim-t.co.il) 
+|Regional|[קווים](http://www.kavim-t.co.il/) 
 |Regional|[רכבת ישראל](https://www.rail.co.il) 
-|Regional|[ש.א.מ](https://www.nazareth-unbs.com) 
+|Regional|[ש.א.מ](http://www.nazareth-unbs.com/) 
 
 ## Turkey
 |Locality|Transit Agency|

@@ -242,7 +242,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/mumbai-monorail-p) 
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
-|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](http://businfo.dimts.in) 
+|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/Symposium_on_Public.html) 
 |New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
 |New Delhi|[Delhi Transport Corporation](http://www.dtc.nic.in) 
 |New Delhi|[Haryana Roadways Faridabad City Bus Service](http://hartrans.gov.in) 
