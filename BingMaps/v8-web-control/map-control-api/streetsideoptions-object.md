@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # StreetsideOptions Object
+
 The following streetside options can be used to customize how the streetside map mode is displayed to the user.
 
 Name                           | Type              | Description

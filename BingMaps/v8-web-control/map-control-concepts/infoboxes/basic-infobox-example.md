@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Infobox Example
+
 The following code shows how to add an infobox with a title and description to the center of the map. 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

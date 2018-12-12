@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # InfoboxEventArgs Object
+
 An object that contains information about an infobox event.
 
 | Name       | Type    | Description                                                                 |

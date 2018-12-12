@@ -1,3 +1,19 @@
+---
+title: "Autosuggest | Microsoft Docs"
+ms.custom: ""
+ms.date: "02/28/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: f04e3fe7-8308-4d64-8180-455780d8376e
+caps.latest.revision: 21
+author: "rbrundritt"
+ms.author: "richbrun"
+manager: "stevelom"
+ms.service: "bing-maps"
+---
+
 # Bing Maps Autosuggest API
 
 Given a request with a user’s location and a partial query (called a `query prefix`), the Bing Maps Autosuggest API returns a list of suggested entities which the user is most likely searching for. These entities are ranked from most to least likely. Requests can be called using user locations (as the geocoordinates of the user, including a radius representing your confidence in the accuracy of the user’s location), and/or as a geographic region (either a circle or rectangle, but not both).  

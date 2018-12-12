@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Pushpin Class
+
 Pushpins, sometimes also referred to as markers or MapIcons on other mapping platforms, are one of the primary ways of marking a location on a map. The Pushpin class derives from the `IPrimitive` interface.
 
 **Note:** When an array of pushpins are added to the map or a layer, the first pushpin is rendered last. The idea being that if the array contained search results, the first/most relevant result would be rendered on top rather than being covered by other nearby pushpins. This is a fundamental change made to improve the user experience from how previous versions of Bing Maps rendered pushpins.

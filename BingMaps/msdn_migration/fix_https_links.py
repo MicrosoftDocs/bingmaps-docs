@@ -31,6 +31,31 @@ def get_excel_data():
 broken_url_head = 'The following referenced link ['
 broken_url_tail = '] supports HTTPS. Please change the link to use HTTPS.\n'
 
+def get_url(array):
+    for a in array:
+        if 'URL' in a:
+            return a.split('URL: ""')[1].split('""')[0]
+    return None
+
+d = {}
+
+lines = list(get_http_data())
+n = len(lines)
+
+for i in range(0, n, 3):
+    if len(lines[i]) > 1:
+        sources = lines[i][1]
+        d[sources] = get_url(lines[i+2])
+        # d[sources] = lines[i+2][0].split('URL: ""')[1].split('""')[0]
+from pprint import pprint
+pprint(d)
+    
+    
+
+
+
+
+'''
 N = len(broken_url_head)
 M = len(broken_url_tail)
     
@@ -55,13 +80,23 @@ for source, link in get_excel_data():
             html = f.read()
 
         if html:
-            new_link = link.replace('https://', 'http://')
-            new_html = html.replace(link, new_link)
+            non_sec = 'http://'
+            sec = 'https://'
 
+            if sec in new_link:
+                _out = sec
+                _in = new_sec
+            else:
+                _out = new_sec
+                _in = sec
+            
+            
+            new_link = link.replace(_out, _in)
+            new_html = html.replace(link, new_link)
+            
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(new_html)
 
-    '''
     if broken_url_head in test_url_raw:
         source_file_parts = row[1][head_len:].split('/')
         length = len(test_url_raw)
@@ -86,4 +121,4 @@ for source, link in get_excel_data():
                     print(f'replaced: {path}')
         else:
             print(f'\nError:\n\t{source_file_parts}\n')
-    '''
+'''

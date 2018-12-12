@@ -13,8 +13,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Read Geospatial XML Files from Same Domain
-This sample shows how to load a geospatial XML file that is hosted on the same domain as the application using a relative URL into a GeoXmlLayer. This sample will read in a sample GeoRSS file which you can find [here](http://bingmapsv8samples.azurewebsites.net/GeoXml/Data/GeoRSS/SampleGeoRss.xml) and render it on the map. 
+
+This sample shows how to load a geospatial XML file that is hosted on the same domain as the application using a relative URL into a GeoXmlLayer. This sample will read in a sample GeoRSS file which you can find [here](https://bingmapsv8samples.azurewebsites.net/GeoXml/Data/GeoRSS/SampleGeoRss.xml) and render it on the map. 
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +56,7 @@ Running this sample (when you have the sample GeoRSS file) will load a map that 
  
 ![BMV8_GeoRssSample](../../media/bmv8-georsssample.PNG)
  
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Same%20Domain)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Same%20Domain)
 
 **Note:** Not all file and mime types are enabled in all servers. If using .NET, it is recommended to add the following to the web.config file:
 

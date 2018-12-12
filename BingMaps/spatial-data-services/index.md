@@ -24,7 +24,7 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
   
  **Bing Maps Account Center (alternative)**:  You can also manage data sources and geocode using the [Bing Maps Account Center](https://www.bingmapsportal.com). For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/en-us/library/hh698204.aspx).  
   
- **Download this documentation**: [CHM](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=58f58f96-d9dc-4f23-a2e6-6b25d0d742c1&displaylang=en) &#124; [PDF](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=b0c49ebe-c27a-4cfe-b6a9-c8d5406ce5dd&displaylang=en)  
+ **Download this documentation**: [CHM](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=58f58f96-d9dc-4f23-a2e6-6b25d0d742c1&displaylang=en) &#124; [PDF](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b0c49ebe-c27a-4cfe-b6a9-c8d5406ce5dd&displaylang=en)  
   
  Transaction accounting is provided when you use the Bing Spatial Data Services. For more information about billable and non-billable transactions for the Bing Spatial Data Services, see [Usage Transactions](https://msdn.microsoft.com/en-us/library/ff859477.aspx). There are also some use limits for this API. For more information, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  
   
@@ -46,4 +46,4 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
 |[Developer Resources](../spatial-data-services/developer-resources.md)|Provides a set of helpful links and references for the developer.|  
   
 ## See Also  
- [Terms and Conditions](http://www.microsoft.com/maps/product/terms.html)
+ [Terms and Conditions](https://www.microsoft.com/maps/product/terms.html)

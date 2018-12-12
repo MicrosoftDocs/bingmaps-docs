@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Map Keyboard Shortcuts
+
 The map has a number of keyboard shortcuts built in that make it easier to use the map. These work when the map has focus.
 
 ## 2D Map

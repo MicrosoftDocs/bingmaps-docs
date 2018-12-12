@@ -1,3 +1,18 @@
+---
+title: "Location Recognition | Microsoft Docs"
+ms.custom: ""
+ms.date: "12/11/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: d16845e0-c89f-4523-a59f-c29a7e22f108
+caps.latest.revision: 55
+ms.author: "v-chrfr"
+manager: "stevelom"
+ms.service: "bing-maps"
+---
+
 # Location Recognition
 
 Given a pair of location coordinates (latitude, longitude), the Location Recognition API returns a list of entities ranked by their proximity to that location. The URL response contains three components: local business entities near that location (e.g. restaurants, hotels, office buildings, transit stations, etc.), natural points of interest near that location (e.g. beaches, valleys, etc.), and a reverse geocoded address of that location. See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a list of supported entity types. You can specify the type of entities you want to receive by setting the `includeEntityTypes` parameter in the URL.

@@ -52,4 +52,4 @@ Here is a screenshot of the map that is rendered when loading this configuration
 
 ![BMV8_ConfigMap](../../media/bmv8-configmap.PNG)
 
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#IFramable%20Configuration%20Map)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#IFramable%20Configuration%20Map)

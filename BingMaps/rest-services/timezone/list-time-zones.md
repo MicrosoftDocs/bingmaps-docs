@@ -1,3 +1,18 @@
+---
+title: "List Time Zones | Microsoft Docs"
+ms.custom: ""
+ms.date: "12/11/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: fa146e18-716a-49b7-88b3-17f78e617245
+caps.latest.revision: 6
+ms.author: "v-chrfr"
+manager: "stevelom"
+ms.service: "bing-maps"
+---
+
 # List Time Zones
 
 The list operation retrieves all available time zone data for either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) time zone standard. Additionally, information about any particular time zone can be retrieved using the ID for that time zone formatted in either the IANA or Windows time zone standard.
@@ -8,7 +23,7 @@ The list operation retrieves all available time zone data for either the [IANA](
 >
 > These templates support both HTTP and HTTPS.
 
-### Get a Full List of Timezones for a Given Standard (Windows or IANA)
+### Get a Full List of Time zones for a Given Standard (Windows or IANA)
 
 The Time Zone API list operation returns a complete list of time zone information for either the [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone standard. In the request URL specify `timezonestandard = WINDOWS` or `timezonestandard = IANA` to retrieve a list of Windows or IANA Time Zone information, respectively.
 

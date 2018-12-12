@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Dynamic Canvas Overlay
 
 This example shows how to use a canvas to create a custom rendering layer. 
@@ -189,7 +190,7 @@ Running this code will render 10,000 red circles within the current map view. As
 
 ![BMV8_CanvasOverlayExample](../../media/bmv8-canvasoverlayexample.PNG)
 
-You can easily reuse the canvas overlay module and change who and what is rendered on the canvas. The above example works great but could be faster. Instead of drawing each individual circle, we could instead draw a circle on an off screen canvas then draw as an image. This would equire less calculations by the underlay canvas and thus would be much faster to render. Here is a modified version of the canvas overlay callback that does this. If you don’t see any different when rendering 10,000 locations, increase it to 50,000.
+You can easily reuse the canvas overlay module and change who and what is rendered on the canvas. The above example works great but could be faster. Instead of drawing each individual circle, we could instead draw a circle on an off screen canvas then draw as an image. This would require less calculations by the underlay canvas and thus would be much faster to render. Here is a modified version of the canvas overlay callback that does this. If you don’t see any different when rendering 10,000 locations, increase it to 50,000.
 
 ```javascript
 //Implement the new custom overlay class.

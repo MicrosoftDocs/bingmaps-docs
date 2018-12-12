@@ -36,7 +36,7 @@ Name                                          | Return Type          | Descripti
 `setPushpins(pushpins: Pushpin[])`            |                      | Sets the array of pushpins that are used in the clustering layer.
 `setVisible(visible: boolean)` |  | Sets the visibility of the cluster layer.
 
-## Events ##
+## Events
 
 
 | Name   | Arguments    | Description   |

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # 2010 US Census Data Sources
+
 These data sources contain a subset of 2010 US Census data sourced from the [US Census Bureau](https://census.gov/). The United States collects census data once every ten years. The last US Census was in 2010 and the next one is scheduled for 2020. These data sources provide Census data based on 4 types of geographical boundaries; states, counties, ZTCA5 (Zip Code Tabulation Area), and the 111<sup>th</sup> Congressional Districts.
 
 ## Query URLs ##
@@ -41,7 +43,7 @@ The following are the Query URL’s that can be used to access the US Census dat
 | https://spatial.virtualearth.net/REST/v1/data/f42cab32d0ee41738d90856badd638d3/USCensus2010\_ZCTA5/ZCTA5 |
 |----------------------------------------------------------------------------------------------------------|
 
-## Entity Properties ##
+## Entity Properties
 
 The following table describes the properties that are available in the 4 different US Census geographical boundary data sources.
 

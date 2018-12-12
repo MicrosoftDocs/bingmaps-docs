@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Read Geospatial XML String
+
 This sample shows how to read geospatial XML data stored in a string. When reading geospatial XML data using the read and readFromUrl functions you have complete control of the data, you can render it or simply extract information from it. In this sample we will render it on the map. 
 
 ```html
@@ -84,4 +86,4 @@ If you run this sample you will see a simple polygon that was defined in a strin
 
 ![BMV8_BasicGeoXml](../../media/bmv8-basicgeoxml.PNG)
 
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read)

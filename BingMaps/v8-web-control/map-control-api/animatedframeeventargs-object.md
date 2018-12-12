@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # AnimatedFrameEventArgs Object
+
 The event arguments for when a layer frame is being loaded in an [AnimatedTileLayer](animatedtilelayer-class.md).
 
 | Name              | Type              | Description                                        |

@@ -35,7 +35,7 @@ Below is a visual representation of each of the `M` agents and their assigned it
 
 For a more in-depth example of the Multi-Itinerary API, see [Create an Optimized Itinerary](../../articles/create-an-optimized-itinerary.md).
 
-The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItineray` resource which includes a list of agent itineraries with travel instructions and route information. 
+The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItinerary` resource which includes a list of agent itineraries with travel instructions and route information. 
 
 For more information about these resources, see [Optimized Itinerary Data](optimized-itinerary-Data.md).
 
@@ -54,6 +54,7 @@ Get a synchronous optimized itinerary from agent shift and waypoint item lists s
 ```url
 https://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents={Agent/Shift Information}&itineraryItems={Waypoint Items}&type={type}&roadnetwork={roadnetwork}&costvalue={value}&key={BingMapsKey}
 ```
+
 ### Synchronous POST Optimize Itinerary
 
 Send an HTTP POST synchronous request to get an optimized itinerary from agent shift and waypoint item lists specified with the `itineraryAgents` and `itineraryItems` parameters.

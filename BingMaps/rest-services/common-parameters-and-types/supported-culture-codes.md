@@ -1,6 +1,5 @@
 ---
 title: "Supported Culture Codes | Microsoft Docs"
-
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"

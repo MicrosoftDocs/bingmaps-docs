@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Read GeoJSON from the Web using JSONP Example
+
 In this example we will use the USGS Earthquake REST service to load in recent earthquakes from around the world. This REST service is documented [here](https://earthquake.usgs.gov/fdsnws/event/1/) and supports returning data in GeoJSON format. It also supports JSONP for cross domain requests. The name of the URL parameter used for JSONP requests in this service is “callback”.  
 
 ```html

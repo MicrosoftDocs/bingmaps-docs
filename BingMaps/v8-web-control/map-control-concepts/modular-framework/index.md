@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Modular Framework
+
 The Bing Maps V8 SDK uses a modular framework as a way to minimize loading of features and functionalities that may not be needed. The base map control consists of a number of core features such as support for pushpins, polylines, polygons, and tile layers. Modules allow users to load only the features and functionalities they need, rather than loading everything up when the application starts. 
 
 You can also save a lot of development time by using the modular framework in Bing Maps V8 for your own custom modules, as well. 

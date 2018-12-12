@@ -1,3 +1,19 @@
+---
+title: "What's New | Microsoft Docs"
+ms.custom: ""
+ms.date: "02/28/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: d90d6d54-9c6c-4d45-add9-b2be68dbb8e4
+caps.latest.revision: 21
+author: "v-chrfr"
+ms.author: "v-chrfr"
+manager: "stevelom"
+ms.service: "bing-maps"
+---
+
 # What's New
 
 The following list describes the latest new features on the Bing Maps Dev Portal.

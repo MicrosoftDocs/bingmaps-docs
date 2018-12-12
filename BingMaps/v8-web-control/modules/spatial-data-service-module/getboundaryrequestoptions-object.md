@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GetBoundaryRequestOptions Object
 
 Represents the options for requests boundary data from the [GeoData API](../../../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.

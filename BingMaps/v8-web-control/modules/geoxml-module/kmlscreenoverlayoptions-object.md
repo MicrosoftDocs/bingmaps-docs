@@ -20,5 +20,5 @@ The options for customizing screen overlays.
 
 | Name               | Type    | Description                                                                                                       |
 |--------------------|---------|-------------------------------------------------------------------------------------------------------------------|
-| `belowNavigationBar` | boolean | A boolean indicating if the screen overlay can be displayed above or below the navigaiton bar. Default: **false** |
+| `belowNavigationBar` | boolean | A boolean indicating if the screen overlay can be displayed above or below the navigation bar. Default: **false** |
 | `visible`            | boolean | The visibility of the screen overlay. Default: **true**                                                           |

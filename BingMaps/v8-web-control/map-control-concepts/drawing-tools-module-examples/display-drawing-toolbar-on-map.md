@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Display Drawing Toolbar on Map
 
 This example shows how to add a drawing toolbar to the map so that the user can draw shapes.

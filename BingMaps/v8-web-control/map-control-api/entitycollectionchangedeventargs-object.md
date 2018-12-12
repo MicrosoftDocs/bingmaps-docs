@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # EntityCollectionChangedEventArgs Object
+
 **Deprecated**: This class is deprecated in Bing Maps V8. The new [Layer class](layer-class.md) should be used instead. This class is still available in V8, but has been added to provide partial backwards compatibility with V7 apps for simple use cases such as adding individual shapes directly to the map, rather than to a layer or collection.
 
 Represents the event argument returned by the [EntityCollection](entitycollection-class.md) events.

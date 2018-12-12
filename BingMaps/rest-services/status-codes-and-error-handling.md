@@ -14,7 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Status Codes and Error Handling
-## Handling empty responses  
+
+Information on status codes and error handling.
+
+## Handling empty responses
+
  Occasionally, the servers processing service requests can be overloaded, and you may receive some responses that contain no results for queries that you would normally receive a result. To identify this situation, check the HTTP headers of the response. If the HTTP header X-MS-BM-WS-INFO is set to 1, it is best to wait a few seconds and try again.  
   
  This may happen occasionally for Basic or Trial Bing Maps Keys, and rarely for Enterprise Bing Maps Keys. If you are experiencing this behavior continually with an Enterprise Bing Maps Key, contact [Bing Maps Enterprise Support](https://support.microsoft.com/oas/default.aspx?prid=13766&st=1).  

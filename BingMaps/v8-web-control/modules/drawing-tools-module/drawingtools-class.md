@@ -31,7 +31,7 @@ The **DrawingTools** class has the following methods.
 | create(shapeType: [ShapeType](shapetype-enumeration.md), created?: function(shape: [IPrimitive](../../map-control-api/iprimitive-class.md)))  |             | Initializes the drawing layer and instructs it to create a new shape of a given type. A callback function can be provided which is invoked when the new shape as be initially created. |
 | `dispose()` |             | Disposes the instance of the DrawingTools class. |
 | edit(shape: [IPrimitive](../../map-control-api/iprimitive-class.md))                               |             | Adds a shape to the drawing layer and puts it into edit mode. |
-| finish(finished?: function(shape: [IPrimitive](../../map-control-api/iprimitive-class.md))) | | Finishes any shape create / edit operation currently in progress, and returns the shape that was created or editted. |
+| finish(finished?: function(shape: [IPrimitive](../../map-control-api/iprimitive-class.md))) | | Finishes any shape create / edit operation currently in progress, and returns the shape that was created or edited. |
 | showDrawingManager(function(manager?: [DrawingManager](drawingmanager-class.md))) |             | Creates a drawing manager which allows multi-shape editing and displays the toolbar.  |
 
 ## Events

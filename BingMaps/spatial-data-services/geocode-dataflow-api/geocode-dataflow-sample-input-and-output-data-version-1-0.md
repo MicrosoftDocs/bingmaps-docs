@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocode Dataflow Sample Input and Output Data Version 1.0
+
 > [!NOTE]
 >  If you are a new user, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) to learn how to use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
   
@@ -61,7 +63,8 @@ ms.service: "bing-maps"
   
 ```  
   
-### Successful Output  
+### Successful Output
+
  The locations were geocoded successfully.  
   
 ```xml

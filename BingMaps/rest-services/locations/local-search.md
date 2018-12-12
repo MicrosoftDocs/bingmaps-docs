@@ -31,6 +31,7 @@ Make a Local Search API request based on a string query by specifying a user loc
 ```url
 https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userLocation={point}&key={BingMapsAPIKey}
 ```
+
 ### Search by Query Restricted to a Bounding Box
 
 Make a Local Search API request based on a string query within the specified bounding box using the `userMapView` parameter.
@@ -38,6 +39,7 @@ Make a Local Search API request based on a string query within the specified bou
 ```url
 https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userMapView={lat,lon,lat,lon}&key={BingMapsAPIKey}
 ```
+
 ### Search by Query Restricted to a Circular Region
 
 Make a Local Search API request based on a string query within the specified circular region using the `userCircularMapView` parameter.

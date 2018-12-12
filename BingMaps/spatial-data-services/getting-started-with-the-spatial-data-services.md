@@ -13,13 +13,16 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Getting Started with the Spatial Data Services
+
 Bing Spatial Data Services provides REST APIs that work with large sets of spatial data. With these APIs you can geocode spatial data and you can store data that has a spatial component in data sources that you can query.  
   
  See the links in the **How to:** sections below to find out more information.  
   
-## Getting Started  
- To get started with the Bing Spatial Data Services, you must have a [Bing Maps Key](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
+## Getting Started
+
+To get started with the Bing Spatial Data Services, you must have a [Bing Maps Key](https://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
 > [!NOTE]
 >  Before using this API, review the [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)  

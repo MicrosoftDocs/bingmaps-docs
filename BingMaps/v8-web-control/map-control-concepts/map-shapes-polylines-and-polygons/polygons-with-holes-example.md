@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Polygons with Holes Example
+
 The following code is an example that creates a complex polygon that has a hole cut out of it. 
 
-``` 
+```html
 <!DOCTYPE html>
 <html>
 <head>

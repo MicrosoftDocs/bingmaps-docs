@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # KmlScreenOverlay Class
+
 Overlays HTML elements within the map container that are above the map.
 
 ## Constructor

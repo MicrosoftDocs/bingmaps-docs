@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Query Options
+
 When you use the Query API, you can specify query options that define what data is returned and how it is formatted. Query options are specified as URL parameters. The query options used by the Query API include a subset of the query options defined by an [Open Data Protocol (OData) specification](https://www.odata.org/developers/protocols). In addition to the OData query options, the Query API also provides custom query options, such as a spatial filter. Use spatial filter to define the area to query.  
   
 ## OData Query Options  

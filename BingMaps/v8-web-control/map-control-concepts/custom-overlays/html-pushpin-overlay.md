@@ -13,11 +13,13 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # HTML Pushpin Overlay
+
 In Bing Maps V8 all data layers, with the exception of custom overlays, are rendered using an HTML5 canvas. This provides increased rendering performance, but has some limitions. The most notable being that HTML elements can’t easily be rendered as pushpins.
 This example shows how to create a HTML Pushpin Layer using a custom overlay. Additionally, this example also stores the code for this custom overlay in a separate JavaScript file and exposes it as a custom module so that it can be easily reused in any Bing Maps V8 application. This JavaScript is stored in a file called **HtmlPushpinLayerModule.js** and contains the following code:
 
-```
+```javascript
 //A simple class that defines a HTML pushpin.
 var HtmlPushpin = function (loc, html, anchor) {
     this.location = loc;
@@ -127,7 +129,7 @@ Microsoft.Maps.moduleLoaded('HtmlPushpinLayerModule');
 
 The following code shows how to implement this module by adding a simple HTML element to the center of the map.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -177,4 +179,4 @@ Running this code will display three HTML pushpins on the map that consist of a 
 
 ![BMV8_HtmlPushpinOverlayExample](../../media/bmv8-htmlpushpinoverlayexample.png)
 
-A more in-depth code sample which includes support for dragging of HTML pushpins can be found [here](http://bingmapsv8samples.azurewebsites.net/#Html%20Pushpin%20Layer). 
+A more in-depth code sample which includes support for dragging of HTML pushpins can be found [here](https://bingmapsv8samples.azurewebsites.net/#Html%20Pushpin%20Layer). 

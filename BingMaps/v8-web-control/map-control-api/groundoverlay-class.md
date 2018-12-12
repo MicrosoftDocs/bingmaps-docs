@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GroundOverlay Class
+
 A map overlay that binds an image to a bounding box area on the map.
 
 ## Constructor
@@ -43,6 +45,6 @@ GroundOverlay(options: [GroundOverlayOptions](groundoverlayoptions-object.md))
 ## GroundOverlay Samples:
 
 -   [Simply Ground Overlay](https://www.bing.com/api/maps/mapcontrol/isdk?autoRedirect=false#simpleGroundOverlay+JS)
--   [Basic Ground Overlay](http://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay)
--   [Ground Overlay with Options](http://bingmapsv8samples.azurewebsites.net/#Ground%20Overlay%20Options)
--   [SVG Ground Overlay](http://bingmapsv8samples.azurewebsites.net/#SVG%20Ground%20Overlay)
+-   [Basic Ground Overlay](https://bingmapsv8samples.azurewebsites.net/#Basic%20Ground%20Overlay)
+-   [Ground Overlay with Options](https://bingmapsv8samples.azurewebsites.net/#Ground%20Overlay%20Options)
+-   [SVG Ground Overlay](https://bingmapsv8samples.azurewebsites.net/#SVG%20Ground%20Overlay)

@@ -18,5 +18,5 @@ The NavigationBarOrientation enumeration is used to define how the navigation ba
 
 | Name   | Description                                                                        |
 |------------|----------------------------------------------------------------------------------------|
-| `horizontal` | Repositions the buttons in the navigation bar such that they are aligned horizontally. |
-| `vertical`   | Repositions the buttons in the navigation bar such that they are aligned vertically.   |
+| `horizontal` | Re-positions the buttons in the navigation bar such that they are aligned horizontally. |
+| `vertical`   | Re-positions the buttons in the navigation bar such that they are aligned vertically.   |

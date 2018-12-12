@@ -95,7 +95,7 @@ REST services can be called using standard JavaScript by simply appending a scri
 
 ### jQuery
 
-[JQuery](http://jquery.com) is a very popular JavaScript framework that makes it easier to developer JavaScript that works across different browsers. jQuery provides three of different functions to make HTTP GET requests to services; jQuery.ajax ($.ajax), jQuery.get ($.get) and jQuery.getJSON ($.getJSON). The jQuery.get and jQuery.getJSON function is meant to be a simplified version of the jQuery.ajax function but have less functionality. The jQuery.get and jQuery.getJSON functions do not support cross-domain requests or JSONP whereas the jQuery.ajax function does. In order to make a cross-domain request using the jQuery.ajax function you have to specify that it uses JSONP and set the dataType property to JSONP. 
+[JQuery](https://jquery.com) is a very popular JavaScript framework that makes it easier to developer JavaScript that works across different browsers. jQuery provides three of different functions to make HTTP GET requests to services; jQuery.ajax ($.ajax), jQuery.get ($.get) and jQuery.getJSON ($.getJSON). The jQuery.get and jQuery.getJSON function is meant to be a simplified version of the jQuery.ajax function but have less functionality. The jQuery.get and jQuery.getJSON functions do not support cross-domain requests or JSONP whereas the jQuery.ajax function does. In order to make a cross-domain request using the jQuery.ajax function you have to specify that it uses JSONP and set the dataType property to JSONP. 
 
 ```html
 <!DOCTYPE html>

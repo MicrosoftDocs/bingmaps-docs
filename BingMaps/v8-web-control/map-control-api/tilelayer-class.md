@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # TileLayer Class
+
 Represents a tile layer that can be overlaid on top of the map. 
 
 ## Constructor

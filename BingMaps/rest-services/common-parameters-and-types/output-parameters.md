@@ -70,7 +70,7 @@ http://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?output=json&jsonp=MyCa
   
 For this example, the body of the response contains the following function call.  
   
-```
+```javascript
 MyCallbackFunction({"authenticationResultCode":"ValidCredentials",  
   "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
   "copyright":"Copyright © 2010 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",  

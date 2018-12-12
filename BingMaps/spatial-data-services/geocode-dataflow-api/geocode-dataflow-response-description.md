@@ -14,10 +14,12 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Geocode Dataflow Response Description
+
 The following tables describe the response syntax for a Geocode Dataflow request in a set of hierarchical tables. Examples in JSON and XML formats are also provided.  
   
 ## Response  
- The following fields are the top-level fields in the Geocode Dataflow response. Additional tables describe the fields in each of the collections.  
+
+The following fields are the top-level fields in the Geocode Dataflow response. Additional tables describe the fields in each of the collections.  
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  

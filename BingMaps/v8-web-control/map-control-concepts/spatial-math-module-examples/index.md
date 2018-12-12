@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Spatial Math Module Examples
+
 The Spatial Math module provides several commonly required spatial calculations.   
 
 The Spatial Math module has three core parts:

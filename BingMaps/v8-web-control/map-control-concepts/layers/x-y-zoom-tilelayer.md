@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 
 # X, Y, Zoom TileLayer
 
-This example shows how to display a tile layer that uses an X, Y and Zoom tile URL schema. The source of this tile layer is a weather radar overlay from the [Iowa Environmental Mesonet of Iowa State University](http://mesonet.agron.iastate.edu/ogc/).
+This example shows how to display a tile layer that uses an X, Y and Zoom tile URL schema. The source of this tile layer is a weather radar overlay from the [Iowa Environmental Mesonet of Iowa State University](https://mesonet.agron.iastate.edu/ogc/).
 
 ```html
 <!DOCTYPE html>
@@ -41,7 +41,7 @@ This example shows how to display a tile layer that uses an X, Y and Zoom tile U
         //Weather radar tiles from Iowa Environmental Mesonet of Iowa State University
         var weatherTileLayer = new Microsoft.Maps.TileLayer({
             mercator: new Microsoft.Maps.TileSource({
-                uriConstructor: 'http://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{zoom}/{x}/{y}.png'
+                uriConstructor: 'https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{zoom}/{x}/{y}.png'
             })
         });
         map.layers.insert(weatherTileLayer);

@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Traffic Incident Data
 
 The response returned by a Traffic URL contains one or more TrafficIncident resources. Each TrafficIncident resource contains information about a traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. This following table provides descriptions of the TrafficIncident resource fields and is followed by JSON and XML examples.  
@@ -25,26 +26,27 @@ The response returned by a Traffic URL contains one or more TrafficIncident reso
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|point|Point|Point|**Required.** The latitude and longitude coordinates where you encounter the incident.|  
-|congestion|CongestionInfo|string|A description of the congestion.<br /><br /> Examples:<br /><br /> -   generally slow<br />-   sluggish|  
-|description|Description|string|A description of the incident.<br /><br /> Examples:<br /><br /> -   W 95th St between Switzer Rd and Bluejacket Dr - construction<br />-   WB Johnson Dr at I-435 - bridge repair|  
-|detour|detourInfo|string|A description of a detour.<br /><br /> Examples:<br /><br /> -   Take 63rd St to Roe Ave and head south to 67th St<br />-   take US-40 to Blue Ridge Cut-Off|  
-|start|StartTimeUTC|UTC Time|**Required.** The time the incident occurred. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
-|end|EndTimeUTC|UTC Time|**Required.** The time that the traffic incident will end. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
-|incidentId|IncidentId|long|**Required.** A unique ID for the incident.|  
-|lane|LaneInfo|string|A description specific to lanes, such as lane closures.<br /><br /> Examples:<br /><br /> -   All lanes blocked<br />-   Left lane blocked|  
-|lastModified|LastModifiedUTC|DateTime|**Required.** The time the incident information was last updated. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
-|roadClosed|RoadClosed|Boolean|**Required.** A value of `true` indicates that there is a road closure.|  
-|severity|Severity|integer|**Required.** Specifies the level of importance of incident.<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious|  
-|toPoint|ToPoint|Point|The coordinates of the end of a traffic incident, such as the end of a construction zone.|  
-|locationCodes|LocationCodes|string collection|A collection of traffic location codes. This field is provided when you set the includeLocationCodes parameter to true in the request. These codes associate an incident with pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country.|  
-|type|Type|integer|**Required.** Specifies the type of incident.<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather|  
-|verified|Verified|Boolean|**Required.** A value of `true` indicates that the incident has been visually verified or otherwise officially confirmed by a source like the local police department.|  
+|`point`|`Point`|`Point`|**Required.** The latitude and longitude coordinates where you encounter the incident.|  
+|`congestion`|`CongestionInfo`|`string`|A description of the congestion.<br /><br /> Examples:<br /><br /> -   generally slow<br />-   sluggish|  
+|`description`|`Description`|`string`|A description of the incident.<br /><br /> Examples:<br /><br /> -   W 95th St between Switzer Rd and Bluejacket Dr - construction<br />-   WB Johnson Dr at I-435 - bridge repair|  
+|`detour`|`detourInfo`|`string`|A description of a detour.<br /><br /> Examples:<br /><br /> -   Take 63rd St to Roe Ave and head south to 67th St<br />-   take US-40 to Blue Ridge Cut-Off| 
+|`start`|`StartTimeUTC`|UTC Time|**Required.** The time the incident occurred. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
+|`end`|`EndTimeUTC`|UTC Time|**Required.** The time that the traffic incident will end. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
+|`incidentId`|`IncidentId`|`long`|**Required.** A unique ID for the incident.|  
+|`lane`|`LaneInfo`|`string`|A description specific to lanes, such as lane closures.<br /><br /> Examples:<br /><br /> -   All lanes blocked<br />-   Left lane blocked|  
+|`lastModified`|`LastModifiedUTC`|DateTime|**Required.** The time the incident information was last updated. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
+|`roadClosed`|`RoadClosed`|`Boolean`|**Required.** A value of `true` indicates that there is a road closure.|  
+|`severity`|`Severity`|`integer`|**Required.** Specifies the level of importance of incident.<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious|  
+|`toPoint`|`ToPoint`|`Point`|The coordinates of the end of a traffic incident, such as the end of a construction zone.|  
+|`locationCodes`|`LocationCodes`|string collection|A collection of traffic location codes. This field is provided when you set the includeLocationCodes parameter to true in the request. These codes associate an incident with pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country.|  
+|`type`|`Type`|`integer`|**Required.** Specifies the type of incident.<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather|  
+|`verified`|`Verified`|`boolean    |**Required.** A value of `true` indicates that the incident has been visually verified or otherwise officially confirmed by a source like the local police department.|  
   
 ### About time values  
- Time values in the TrafficIncident resource data use UTC time. The format for XML and JSON responses are different.  
+
+Time values in the TrafficIncident resource data use UTC time. The format for XML and JSON responses are different.  
   
- For JSON responses, the time is specified as UTC time in milliseconds using the epoch (start time) of January 1, 1970, 00:00:00.  The JSON field uses the following format.  
+For JSON responses, the time is specified as UTC time in milliseconds using the epoch (start time) of January 1, 1970, 00:00:00.  The JSON field uses the following format.  
   
 `Date(milliseconds)`  
   

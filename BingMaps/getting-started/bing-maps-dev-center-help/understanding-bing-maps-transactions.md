@@ -45,7 +45,7 @@ When you use any [Bing Maps API](../../rest-services/index.md) with a Bing Maps 
 
 ## Billable versus non-billable transactions  
 
-Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for more about licensing and transaction limits, [contact the licensing team](https://www.microsoft.com/maps/) or read the [Bing Maps Terms of Use](http://www.microsoft.com/maps/product/terms.html).  
+Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for more about licensing and transaction limits, [contact the licensing team](https://www.microsoft.com/maps/) or read the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).  
   
 ### Using Session IDs to make billable transactions non-billable
 
@@ -83,6 +83,7 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |RESTImagery-BasicMetadata|REST Services|No|Any time an [Imagery](../../rest-services/imagery/imagery-metadata.md) URL request is made to get basic imagery metadata that does not contain a map tile URI, one (1) transaction is counted.|  
 |RESTLocationRecog|REST Services|Yes<sup>3</sup>| Any time a [Location Recognition](../../rest-services/locations/location-recognition.md) URL request is made to get location information about entities such as local businesses, natural points of interests, and a reverse geocoded address for a specified latitude and longitude coordinate, one (1) transaction is counted.|
 |RESTLocations|REST Services|Yes<sup>3</sup>|Any time a [Locations](../../rest-services/locations/index.md) URL request is made to geocode or reverse-geocode location data, one (1) transaction is counted.|
+|RESTLocalSearch| REST Services | Yes<sup>3</sup>| Any time a [Local Search](../../rest-services/locations/local-search.md) URL request is made to find a route, one (1) transaction is counted.|
 |RESTRoutes|REST Services|Yes<sup>3</sup>|Any time a [Routes](../../rest-services/routes/index.md) URL request is made to find a route, one (1) transaction is counted.|
 |RESTTimezone|REST Services|Yes<sup>3</sup>| Any time a [Time Zone](../../rest-services/timezone/index.md) URL request is made to retrieve a time zone for a location by point or query, convert a UTC datetime to a time zone, or retrieve information about IANA the Windows time zone standards, one (1) transaction is counted. |
 |RESTTraffic|REST Services|Yes<sup>3</sup>|Any time a [Traffic](../../rest-services/traffic/index.md) URL request is made to get traffic incident information, one (1) transaction is counted.|

@@ -13,18 +13,20 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # LayerCollection Class
+
 The layers property of the map is a LayerCollection object and contains all the layers that have been added to the map.
 
 **Note:** This class extends the Array class and can be iterated over just like an array. The class is only exposed in the `map.layers` property. No other instance of this class can be created.
 
-## Properties ##
+## Properties
 
 | Name | Type | Description                         |
 |----------|----------|-----------------------------------------|
 | `length`   | number   | The number of layers in the collection. |
 
-## Methods ##
+## Methods
 
 | Name                            | Return Type | Description                                               |
 |-------------------------------------|--------|------------------------------------------------------------------------|

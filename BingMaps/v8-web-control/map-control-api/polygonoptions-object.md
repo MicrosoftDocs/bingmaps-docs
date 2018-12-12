@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # PolygonOptions Object
+
 The following polygon option properties can be used to create customized polygons. 
 
 Name               | Type                        | Description

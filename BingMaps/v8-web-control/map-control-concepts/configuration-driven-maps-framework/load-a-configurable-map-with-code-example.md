@@ -61,4 +61,4 @@ Here is a screenshot of the map that is rendered when loading this configuration
 
 ![BMV8_ConfigMap](../../media/bmv8-configmap.PNG)
 
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#Load%20a%20Configurable%20Map%20with%20Code)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#Load%20a%20Configurable%20Map%20with%20Code)

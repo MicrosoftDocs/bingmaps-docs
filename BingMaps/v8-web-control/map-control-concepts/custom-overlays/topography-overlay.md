@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Topography Overlay
 
 This example creates a custom overlay that stretches an image such that the corners are binded to a bounding box on the map. This is useful when you want to overlay a geo-referenced image on that map without having to turn it into a tile layer. Some common scenarios where this might be used is when overlaying images of floor plans, campus maps, or individual satellite images on the map. 

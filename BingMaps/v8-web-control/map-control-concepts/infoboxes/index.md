@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Infoboxes
+
 An infobox, also sometimes refer to as an info window or popup, is a simple panel that displays information over top the map. This is often used to display information linked to a location after clicking on a pushpin.
 
 ### Examples

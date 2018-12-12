@@ -13,11 +13,14 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Status Codes and Error Handling
+
 Each response to a request provides an HTTP status code. This article describes these codes.  
   
 ## HTTP Status Codes  
- The following table lists the most common HTTP status codes. Additional information may be provided with a specific request.  
+
+The following table lists the most common HTTP status codes. Additional information may be provided with a specific request.  
   
 |HTTP Status Code|Description|Details|  
 |----------------------|-----------------|-------------|  

@@ -13,12 +13,14 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # IPrimitiveChangedEventArgs Object
+
 A IPrimitiveChangedEventArgs object that is returned when a **changed** event occurs on an IPrimitve shape.
 
 ## Properties
 
 | Name       | Type       | Description                                                    |
 |------------|------------|----------------------------------------------------------------|
-| `name`     | string     | The IPrimitive shape the event occured on.                     |
-| `sender`   | [IPrimitive](iprimitive-class.md) | The name of the change that occured; 'locations' or 'options'. |
+| `name`     | string     | The IPrimitive shape the event occurred on.                     |
+| `sender`   | [IPrimitive](iprimitive-class.md) | The name of the change that occurred; 'locations' or 'options'. |

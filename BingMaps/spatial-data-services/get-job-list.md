@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Get Job List
+
 Use the following URL to get a list of all dataflow and data source jobs that were submitted in the last 15 days for the account associated with the Bing Maps Key specified in the request. Jobs are created when you geocode entities and create or modify a data source. Both pending and completed jobs are returned with pending jobs listed first. Note that download jobs are not included in this list.  
   
  Some data source processes may include more than one jobs. For example, if you stage a data source and then publish it, you will have run both a DataSourceIncrementalStaging joband a DataSourcePublishFromStaged job. This is important because there are limits to the number of jobs you can run in a given time period. For more information about job limits and other API requirements, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
@@ -218,5 +219,4 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
     </ResourceSet>  
   </ResourceSets>  
 </Response>  
-  
 ```

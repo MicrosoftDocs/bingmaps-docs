@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Default Autosuggest User Interface Example
 
 The following code example shows how to add the default autosuggest functionality to a textbox. To do this you first need to define a DIV element where the suggestions will be rendered as well as a textbox where the user will be typing their query. After that, you need to load the autosuggest module, and attach an instance of the AutosuggestManager to the suggestions div and textbox. You will also need to specify a callback handler that will be called when the user selects a suggestion.  When running this sample and typing in the textbox, suggestions will be displayed. If you select a suggestion, the pushpin will be displayed and a map centered over the location.

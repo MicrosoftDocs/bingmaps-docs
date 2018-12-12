@@ -16,7 +16,14 @@ ms.service: "bing-maps"
 # What's New in the REST Services
 
 The Bing Maps REST Services contains the following new features.  
- 
+
+### December, 2018
+
+**New Local Search API**
+
+The Bing Maps [Local Search](locations/local-search.md) API returns a list of US business entities filtered by [business type](common-parameters-and-types/type-identifiers/index.md) at a location by point or query.
+
+
 ### August, 2018
 
 **New Time Zone API**

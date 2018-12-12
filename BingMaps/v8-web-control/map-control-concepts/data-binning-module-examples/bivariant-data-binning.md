@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Bivariant Data Binning
 
 Since the size and the color can both be customized based on an aggregate value it is possible to have a single data bin represent two data metrics (bivariant).

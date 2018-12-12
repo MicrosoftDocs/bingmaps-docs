@@ -78,4 +78,4 @@ Running this code will display a map with a route from London, UK to Madrid, Spa
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Directions_WithOptions)
 
-See also this sample on [Fully Custom Waypoint Pushpins](https://bingmapsv8samples.azurewebsites.net/#Fully%20Custom%20Waypoint%20Pushpinshttp://bingmapsv8samples.azurewebsites.net/)
+See also this sample on [Fully Custom Waypoint Pushpins](https://bingmapsv8samples.azurewebsites.net/#Fully%20Custom%20Waypoint%20Pushpinshttps://bingmapsv8samples.azurewebsites.net/)

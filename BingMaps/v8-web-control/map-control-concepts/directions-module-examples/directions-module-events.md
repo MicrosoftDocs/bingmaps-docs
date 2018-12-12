@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Directions Module Events
 
 This example shows how to use events with the directions manager. A route from “Seattle, WA” to “Redmond, WA” is calculated and instead of displaying the turn by turn directions, after the route is calculated the route summary information is used instead to display the distance and travel time with traffic.

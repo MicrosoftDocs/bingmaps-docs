@@ -283,7 +283,7 @@ We will begin this example by assuming that you have used the Locations API to g
   
  **Listing 11 - General URI format for requesting a map from the Imagery API, using a center point**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel=zoomLevel&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&key=BingMapsKey
 ```  
   

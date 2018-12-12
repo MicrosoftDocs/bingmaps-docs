@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Map Control Branches
+
 There are two branches of the Bing Maps V8 SDK that can be accessed. This provides the option to access new features as soon as they are available, even if those features have not been thoroughly tested or completed.
 
 Branch	     | Description
@@ -25,7 +27,7 @@ Branch	     | Description
 
 To point your application to a specific branch simply add `&branch=[branch_version]` to the map script URL. If a branch is not specified, the release branch is automatically loaded. For example, the following URL can be used to load the experimental branch.
 
-```
+```javascript
 <script type='text/javascript' src='http//www.bing.com/api/maps/mapcontrol?callback=GetMap&branch=experimental&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 
 <script>

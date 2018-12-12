@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # InfoboxActions Object
+
 The following is a list of infobox action properties that can be used to create clickable links in infoboxes.
 
 Name           | Type      | Description

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ViewOptions Object
+
 The following view options that can be used when loading the map or when using the **setView** function.
 
 Name          | Type            | Description

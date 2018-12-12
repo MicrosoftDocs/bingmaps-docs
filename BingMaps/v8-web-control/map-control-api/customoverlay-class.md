@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # CustomOverlay Class
+
 You can use this class to create custom overlays on top of the map. These can be static overlays such as custom navigation bars, or dynamic overlays such as custom visualization layers. Custom overlays can be added to the map just like any other layer using the `map.layers` property.
 
 ## Constructor
@@ -39,7 +41,7 @@ To implement, inherit this class through the prototype property of your custom c
 
 For example:
 
-```
+```javascript
 //Define a custom overlay class that inherits from the CustomOverlay class.
 MyCustomOverlay.prototype = new Microsoft.Maps.CustomOverlay();
 

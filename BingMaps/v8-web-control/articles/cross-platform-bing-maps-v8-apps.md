@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Cross Platform Bing Maps V8 apps
+
 The Bing Maps V8 web control has been designed to work well on mobile devices that support HTML5. Mobile devices typically have high resolution screens and limited computing power. As such the Bing Maps V8 control adapts to mobile environments by automatically doing the following:
 
 * Enables the **liteMode** map option which disables vector labels and instead renders the map labels server side on the map tiles. You can override this behavior by setting this value to false when loading the map.
@@ -26,7 +28,7 @@ A complete list of supported browsers can be found [here](../supported-browsers.
 
 The following viewport should be used in mobile apps.
 
-```
+```xml
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
 ```
 
@@ -55,14 +57,14 @@ In both of these scenarios, add the following content URI's and set WinRT access
 
 To whitelist these domains in a native Windows 10, open the **config.xml** file in your Cordova project and near top of the file you should see "&lt;access origin="\*" /&gt;" after this line add the following two lines:
 
-```
+```xml
 <access origin="*.bing.com" subdomains="true" />
 <access origin="*.virtualearth.net" subdomains="true" />
 ```
 
 If you project doesn’t work after whitelisting these URLs ensure that the version of Windows that your app targets is 10. There is a preference property in the **config.xml** file that specifies the target version of Windows. Make sure it is set to 10.0 like this:
 
-```
+```xml
 <preference name="windows-target-version" value="10.0" />
 ```
 
@@ -76,7 +78,7 @@ If you project doesn’t work after whitelisting these URLs ensure that the vers
 
 Whitelisting is done using a Content Security Policy (CSP). The following CSP works well for iOS and Android apps.
 
-```
+```xml
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline' https://*.bing.com https://*.virtualearth.net; style-src 'self' 'unsafe-inline' https://*.bing.com https://*.virtualearth.net; media-src *">
 ```
 
@@ -84,7 +86,7 @@ Whitelisting is done using a Content Security Policy (CSP). The following CSP wo
 
 Putting together the best practices mentioned above here is a simple code sample that loads a full screen map in a Cordova app.
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -119,7 +121,7 @@ Putting together the best practices mentioned above here is a simple code sample
 
 Some legacy web apps and environments may automatically run in compatibility mode. 
 
-```
+```xml
 <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge" />
 ```
 
@@ -129,7 +131,7 @@ It is possible to add the Bing Maps V8 control to a WinForm or WPF app by hostin
 
 By default, the WebBrowser control in WinForm and WPF apps does not use the latest version of Internet Explorer and often uses a version that doesn’t support HTML5. As such, you need to add a metatag to the head of your HTML file which forces the browser to use the latest version of Internet Explorer available on the user’s machine.
 
-```
+```xml
 <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge" />
 ```
 

@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # PolylineOptions Object
+
 The following polyline option properties can be used to create customized polylines.
 
 Name             | Type                   | Description

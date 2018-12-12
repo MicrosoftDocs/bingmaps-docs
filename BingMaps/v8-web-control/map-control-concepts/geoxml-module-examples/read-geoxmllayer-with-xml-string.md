@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Read GeoXmlLayer with XML String
+
 Raw XML data that is stored as a string can be passed into the GeoXxml read functions and GeoXmlLayer class. This sample shows how to easily pass in a string of GeoRSS data into a GeoXmlLayer and overlay it on the map.
 
 ```html

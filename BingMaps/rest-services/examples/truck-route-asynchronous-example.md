@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Truck Route Asynchronous Example
+
 This example makes an asynchronous truck routing request for a truck that is transporting a flammable material between Pittsburgh Brashear High School (590 Crane Ave, Pittsburgh, PA) and Duquesne University (600 Forbes Ave, Pittsburgh, PA). Vehicles carrying flammable material must avoid the Liberty Tunnel which most other vehicles would take when travelling between these two locations. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats.
 
 **HTTP GET Request URL**

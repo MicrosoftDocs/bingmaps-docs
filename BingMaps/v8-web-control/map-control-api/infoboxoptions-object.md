@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # InfoboxOptions Object
+
 The following infobox option properties can be used to create customized infoboxes.
 
 | Name            | Type               | Description                                                                                     |

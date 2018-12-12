@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Common Response Description
 
 The response to a Bing Maps REST Services URL request includes the status of the request and one or more resources that contain location, imagery, or route information. The resource information that is returned depends on the Bing Maps REST Services URL that is used and the parameter values that are provided with it. For example, a [Locations](locations/index.md) URL returns one or more Location resources that provide location information based on the values in the URL request.  

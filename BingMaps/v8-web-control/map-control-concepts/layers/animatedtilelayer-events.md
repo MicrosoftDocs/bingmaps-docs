@@ -25,8 +25,8 @@ This example uses the `onFrameLoaded` event of the [AnimatedTileLayer](../../map
 	<script type='text/javascript'>
     var map, animatedLayer;
 
-    //Weather tile url from Iowa Environmental Mesonet (IEM): http://mesonet.agron.iastate.edu/ogc/
-    var urlTemplate = 'http://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-{timestamp}/{zoom}/{x}/{y}.png';
+    //Weather tile url from Iowa Environmental Mesonet (IEM): https://mesonet.agron.iastate.edu/ogc/
+    var urlTemplate = 'https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-{timestamp}/{zoom}/{x}/{y}.png';
 
     //The time stamps values for the IEM service for the last 50 minutes broken up into 5 minute increments.
     var timestamps = ['900913-m50m', '900913-m45m', '900913-m40m', '900913-m35m', '900913-m30m', '900913-m25m', '900913-m20m', '900913-m15m', '900913-m10m', '900913-m05m', '900913'];

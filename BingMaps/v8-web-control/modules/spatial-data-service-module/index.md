@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Spatial Data Service Module
 
 **Module Name**: Microsoft.Maps.SpatialDataService

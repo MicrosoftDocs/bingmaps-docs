@@ -44,11 +44,11 @@ The Autosuggest manager now lets you specify a country to limit suggestions to u
 
 **Enable CORs on tile layers**
 
-This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](http://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](map-control-api/mapoptions-object.md) for more details.
+This new map option enables CORs (Cross Resource Sharing) on the base map tiles, as well as on all tile layers. This allows accessing the pixel data of the map canvas without any browser security issues. Check out [this demo](https://bingmapsv8samples.azurewebsites.net/#Map%20Image%20Generator) that uses this and the map canvas to generate a static image of the map. See [map options](map-control-api/mapoptions-object.md) for more details.
 
 **Customize the Drawing toolbar**
 
-You can now limit which toolbar options appear in the drawing toolbar. [Code Sample](http://bingmapsv8samples.azurewebsites.net/#Custom%20Drawing%20Toolbar)
+You can now limit which toolbar options appear in the drawing toolbar. [Code Sample](https://bingmapsv8samples.azurewebsites.net/#Custom%20Drawing%20Toolbar)
 
 **GeoXmlLayer Events**
 
@@ -102,7 +102,7 @@ Thee Birdseye map type provides high resolution imagery that is taken at a 45 de
 
 The Bing Maps V8 control has a new map option called **customMapStyle** which can be used to customize elements of the map such as road color, visibility of certain types of labels and much more. 
 
-[Try it now](http://bingmapsv8samples.azurewebsites.net/#Simple%20Style%20Editor)
+[Try it now](https://bingmapsv8samples.azurewebsites.net/#Simple%20Style%20Editor)
 
 **Direction Route Line & Waypoint Style Options**
 
@@ -345,4 +345,4 @@ Creating a demo or testing out some custom code and need some test data? Use the
 
 **Backwards Compatibility**
 
-Bing Maps V8 is approximately 90% backwards compatible with V7. For information about V7 features that have been deprecated, please see the [Bing Maps V7 to V8 Migration Guide](http://social.technet.microsoft.com/wiki/contents/articles/34563.bing-maps-v7-to-v8-migration-guide.aspx).
+Bing Maps V8 is approximately 90% backwards compatible with V7. For information about V7 features that have been deprecated, please see the [Bing Maps V7 to V8 Migration Guide](https://social.technet.microsoft.com/wiki/contents/articles/34563.bing-maps-v7-to-v8-migration-guide.aspx).

@@ -22,7 +22,8 @@ When you query a data source using the Query API, the response returns a list of
   
  The data schema for the query is based on the [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) for ATOM responses and the [OData: JavaScript Object Notation (JSON) Format](https://www.odata.org/developers/protocols/json-format) for JSON responses. More details and example responses for each type of query are found in the specific query topics.  
   
-## Query API Response Examples  
+## Query API Response Examples
+
  The following examples show sample responses for a Query API. The property names, such as IsWiFiHotSpot, are the names assigned to these properties according to the data source schema.  
   
 ### ATOM Example  

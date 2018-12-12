@@ -13,14 +13,17 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # FourthCoffeeSample
+
 The FourthCoffeeSample data source is a sample data source that you can use to learn how to query and get data source information by using the  Bing Spatial Data Services.  
   
 > [!NOTE]
 >  All Query API transactions are billable transactions including queries to the FourthCoffeeSample data source. Therefore, you may want to create an evaluation account to use with this data source. For more information about how to create an evaluation account, see [Getting a Bing Maps Key](../../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).  
   
-## Entity Properties  
- The following table describes the properties that you can query. These properties make up the FourthCoffeeShops entity type that is used by the FourthCoffeeSample data source.  
+## Entity Properties
+
+The following table describes the properties that you can query. These properties make up the FourthCoffeeShops entity type that is used by the FourthCoffeeSample data source.  
   
 |Property|Data Type|Example Value|  
 |--------------|---------------|-------------------|  

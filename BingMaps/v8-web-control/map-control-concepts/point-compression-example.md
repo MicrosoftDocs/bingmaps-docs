@@ -14,9 +14,8 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Point Compression Example
-## Related Topics
 
-* [PointCompression Class](../map-control-api/pointcompression-class.md)
+Example using the [PointCompression Class](../map-control-api/pointcompression-class.md).
 
 ## Example
 

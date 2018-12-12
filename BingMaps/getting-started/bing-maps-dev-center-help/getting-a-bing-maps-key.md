@@ -37,18 +37,18 @@ To use the [Bing Maps APIs](../../rest-services/index.md), you must have a Bing 
   
     -   **Application URL**: The URL of the application. This is an optional field which is useful in helping you remember the purpose of that key in the future.  
   
-    -   **Key type**:  Required.  Select the key type that you want to create. You can find  descriptions of key and application types [here](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
+    -   **Key type**:  Required.  Select the key type that you want to create. You can find  descriptions of key and application types [here](https://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
-    -   **Application type**:  Required. Select the application type that best represents the application that will use this key. You can find descriptions of key and application types [here](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
+    -   **Application type**:  Required. Select the application type that best represents the application that will use this key. You can find descriptions of key and application types [here](https://www.microsoft.com/maps/create-a-bing-maps-key.aspx).  
   
 5.  Click the **Create** button. The new key displays in the list of available keys. Use this key to authenticate your Bing Maps application as described in the documentation for the Bing Maps API you are using.  
   
 ## Upgrading Your Account  
- If you want to upgrade your account to be an enterprise account, contact [Bing Maps for Enterprise](http://www.microsoft.com/maps/contact.aspx).  
+ If you want to upgrade your account to be an enterprise account, contact [Bing Maps for Enterprise](https://www.microsoft.com/maps/contact.aspx).  
   
 <a name="bmtou"></a>   
 ## Bing Maps Terms of Use  
- For information on Bing Maps usage rights, see [Microsoft® Bing™ Map Platform APIs Terms of Use](http://www.microsoft.com/maps/product/terms.html).  
+ For information on Bing Maps usage rights, see [Microsoft® Bing™ Map Platform APIs Terms of Use](https://www.microsoft.com/maps/product/terms.html).  
   
 ## Usage Transactions  
  When you use the Bing Maps APIs with a valid Bing Maps Key, usage transactions are logged.  

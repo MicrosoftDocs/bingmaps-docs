@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ConfigurableMapOptions Object
+
 This is the root object which defines a configurable map.
 
 ## Properties

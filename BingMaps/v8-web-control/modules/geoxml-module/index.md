@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoXml Module
+
 **Module name**: Microsoft.Maps.GeoXml
 
 **Namespace**: Microsoft.Maps
@@ -141,7 +143,7 @@ The GeoXml module supports the following KML elements.
 | `south`              | yes     | yes     |                                                                                                                            |
 | `Style`              | yes     | yes     |                                                                                                                            |
 | `StyleMap`           | partial | no      | Only the normal style in a `StyleMap` is supported.                                                                        |
-| `styleUrl`           | partial | yes     | External style URL's not supported.                                                                                        |
+| `styleUrl`           | partial | yes     | External style URLs not supported.                                                                                        |
 | `text`               | yes     | yes     | Replacement of `$[geDirections]` is not supported                                                                          |
 | `textColor`          | yes     | yes     |                                                                                                                            |
 | `TimeSpan`           | yes     | yes     |                                                                                                                            |

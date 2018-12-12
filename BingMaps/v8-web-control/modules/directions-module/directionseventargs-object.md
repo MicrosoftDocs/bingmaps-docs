@@ -20,5 +20,5 @@ The following is a list of properties that are available in the DirectionsEventA
 
 | Name         | Type             | Description                                                                     |
 |--------------|------------------|---------------------------------------------------------------------------------|
-| routeSummary | [RouteSummary](routesummary-object.md)\[\] | The route summary (or summaries) of the route(s) defined in the route property. |
-| route        | [Route](route-object.md)\[\]        | The calculated route (or routes, if the route mode is transit).                 |
+| `routeSummary` | [`RouteSummary`](routesummary-object.md)\[\] | The route summary (or summaries) of the route(s) defined in the route property. |
+| `route`        | [`Route`](route-object.md)\[\]        | The calculated route (or routes, if the route mode is transit).                 |

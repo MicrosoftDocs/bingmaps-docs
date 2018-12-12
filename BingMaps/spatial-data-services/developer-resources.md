@@ -14,15 +14,15 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Developer Resources
-## Developer Resources  
- Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
+
+Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   
 |||  
 |-|-|  
 |[Bing Maps Forums](http://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
 |[Bing Maps Blog](https://www.bing.com/community/site_blogs/b/maps/default.aspx)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Ricky Brundritt’s Blog](https://rbrundritt.wordpress.com/)|Get code samples and guidance from Ricky Brundritt.|  
-|[Bing Maps Resources](http://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
+|[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
 |[Twitter (@BingMaps)](https://rbrundritt.wordpress.com/)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
 |[Facebook](https://www.facebook.com/Bing)|Get interesting info on Bing Maps. Bing Maps is part of the Bing Facebook page.|  
   
@@ -30,4 +30,4 @@ ms.service: "bing-maps"
  If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
   
 ## Licensing Questions  
- For information about free-use and enterprise licenses when using Bing Maps in your application, see the [Bing Maps Licensing Tool](http://www.microsoft.com/maps/Licensing/licensing.aspx) or [Contact Us](http://www.microsoft.com/maps/contact-us.aspx).
+ For information about free-use and enterprise licenses when using Bing Maps in your application, see the [Bing Maps Licensing Tool](https://www.microsoft.com/maps/Licensing/licensing.aspx) or [Contact Us](https://www.microsoft.com/maps/contact-us.aspx).

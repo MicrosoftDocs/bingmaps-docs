@@ -37,8 +37,8 @@ If you are new to Bing Maps or developed with it for years, you will surely find
 
 In depth migration guides can be found here:
 
-* [Migrating from Bing Maps V6.3](http://social.technet.microsoft.com/wiki/contents/articles/34568.bing-maps-v6-3-to-v8-migration-guide.aspx)
-* [Migrating from Bing Maps V7](http://social.technet.microsoft.com/wiki/contents/articles/34563.bing-maps-v7-to-v8-migration-guide.aspx)
+* [Migrating from Bing Maps V6.3](https://social.technet.microsoft.com/wiki/contents/articles/34568.bing-maps-v6-3-to-v8-migration-guide.aspx)
+* [Migrating from Bing Maps V7](https://social.technet.microsoft.com/wiki/contents/articles/34563.bing-maps-v7-to-v8-migration-guide.aspx)
 
 Additional you can find information about discontinued Bing Maps controls [here](https://www.microsoft.com/maps/discon-control-migrat-guide.aspx).
 

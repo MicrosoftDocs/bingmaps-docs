@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # MouseEventArgs Object
+
 A MouseEventArgs object is returned by many the mouse event handlers.
 
 ## Methods
@@ -34,7 +36,7 @@ A MouseEventArgs object is returned by many the mouse event handlers.
 | `location`  | [Location](location-class.md) | The map location of where the event occurred. |
 | `pageX`     | number   | The x-value of the pixel coordinate on the page of the mouse cursor. |
 | `pageY`     | number   | The y-value of the pixel coordinate on the page of the mouse cursor. |
-| `point`     | [Point](point-class.md) | The pixel coordinate of the mouse cusrsor relative to the top left corner of the map div. |
+| `point`     | [Point](point-class.md) | The pixel coordinate of the mouse cursor relative to the top left corner of the map div. |
 | `target`    | [Map](map-class.md) _or_ [IPrimitive](iprimitive-class.md) | The object that triggered the event.                                                           |
 | `targetType` | string | The type of the object that the event is attached to. Valid values include the following: ‘map’, 'layer', ‘polygon’, ‘polyline’, or ‘pushpin’ |
 | `wheelDelta` | number | The number of units that the mouse wheel has changed. |

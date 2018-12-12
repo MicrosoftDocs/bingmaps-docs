@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Developer Resources
-## Developer Resources  
+
  Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   
 |||  

@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Infobox with Options
+
 This example shows how to create and infobox with the options that hide the pointer and close button, and additional has two action links.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

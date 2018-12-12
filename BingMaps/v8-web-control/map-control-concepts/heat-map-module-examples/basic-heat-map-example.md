@@ -13,10 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Heat Map Example
+
 The following example loads 1,000 random locations into a heat map that are within the initial view of a loaded map.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

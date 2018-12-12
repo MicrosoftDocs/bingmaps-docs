@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Getting Traffic Incident Data
 
 You can get traffic incident information along a route using the [Routes](routes/index.md) and for a geographical area by using the [Traffic](traffic/index.md). Traffic incident information is provided in two ways:  

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Map Shapes: Polylines and Polygons
+
 Frequently, you want to add a simple annotation to the map, which [Pushpins](../pushpins/index.md) are well suited for.  Some times you will want to highlight a geographic region, or draw additional paths between points on the map.  To do this, you will want to use [polygon](../../map-control-api/polygon-class.md) and [polyline](../../map-control-api/polyline-class.md) classes, respectively.
 
 ### Examples

@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Distance Matrix Data
+
 The response returned when making an asynchronous request to the Distance Matrix API contains a `DistanceMatrixAsyncStatus` resource which provides information on the status of the request.
 
 The response returned when making a synchronous request to the Distance Matrix API contains a `DistanceMatrix` resource. The information provided in the `DistanceMatrix` resource includes an array of results which correspond to each origin and destination pair in the request. If the request was made asynchronously, the response would provide a request id which can be used to query the status of the asynchronous request.

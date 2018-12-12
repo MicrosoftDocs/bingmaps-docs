@@ -33,7 +33,7 @@ The second method is recommended for all other applications that generate less t
 
 1.  Create a Bing Maps account at the [Bing Maps Dev Center](https://www.bingmapsportal.com/). You can find documentation on how to create a Bing Maps account [here](../getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account.md).
 2.  Create a Bing Maps key.
-    1.  We invite you to use the "basic" key type and free use terms outlined in the [Bing Maps Terms of Use (TOU)](http://www.microsoft.com/maps/product/terms.html) as you migrate to Bing Maps. Production applications outside the free use thresholds in the TOU will need a Bing Maps Enterprise account. For assistance with Bing Maps licensing, please contact
+    1.  We invite you to use the "basic" key type and free use terms outlined in the [Bing Maps Terms of Use (TOU)](https://www.microsoft.com/maps/product/terms.html) as you migrate to Bing Maps. Production applications outside the free use thresholds in the TOU will need a Bing Maps Enterprise account. For assistance with Bing Maps licensing, please contact
         [maplic@microsoft.com](mailto:maplic@microsoft.com) (including your Bing Maps Account Center ID).
     2.  Enterprise customers are advised to use keys of type “basic” for all pre‐production application testing. An enterprise key should be created and used for production use.
     3.  See the MSDN documentation for more information on [Getting a Bing Maps key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).
@@ -50,10 +50,10 @@ The following resources are available for Bing Maps developers:
 * [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
 * [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions) - These can be used to provide intellisense and richer error catching functionality to your IDE.
 * Connect with other Bing Maps developers on the [Bing Maps Web Controls Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=bingmapsajax&filter=alltypes&sort=lastpostdesc).
-* Visit the [Bing Maps for Enterprise](http://www.microsoft.com/maps) website.
+* Visit the [Bing Maps for Enterprise](https://www.microsoft.com/maps) website.
 * Read the [Bing Maps Developer blog](https://blogs.bing.com/maps)
 * Manage your Bing Maps account through the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
-* Review the [terms of use](http://www.microsoft.com/maps/product/terms.html) for Bing Maps.
+* Review the [terms of use](https://www.microsoft.com/maps/product/terms.html) for Bing Maps.
 * Need technical support, try the Bing Maps forums. If you have an Enterprise Bing Maps license, find addition support information [here](https://www.microsoft.com/maps/support.aspx).
 
 ## Account Issues

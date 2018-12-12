@@ -14,6 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Color Class
+
 Creating an instance of the Color class can be done in one of two ways. The first is to specify values for all the properties in the constructor. The second is to use the static method fromHex which parses a string Hex color value into a Bing Maps Color. The following code shows how these two methods can be used to create a Location objects.
 
 **Note:** In addition to using the Color class to specify the color of a shape in Bing Maps, [CSS3 color strings](../map-control-concepts/colors.md) can also be used. 
@@ -56,11 +57,11 @@ Name                       | Return Type    | Description
 
 ## Example
 
-``` 
+```javascript
 var color = new Microsoft.Maps.Color(150, 0, 255, 0);
 ```
 
-```
+```javascript
 //From a string Hex color
 var color = Microsoft.Maps.Color.fromHex('#00FF00');
 ```

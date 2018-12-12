@@ -13,11 +13,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Directly accessing the Bing Maps tiles
 
 Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](http://www.microsoft.com/maps/product/terms.html).
 
-In order to access the Bing Maps tiles in a supported way you will first need to get the current tile URL's from the Bing Maps Imagery REST service every time your application starts. The main purpose of this is to ensure your application is using the latest tile URLs, which helps to prevent your application from breaking, and also provides a way to track the usage of the service in such a way that aligns with the Bing Maps terms of use. The [Bing Maps REST Imagery Medata service](imagery/get-imagery-metadata.md) can be used to get the current tile URLs. If you need to use this service from .NET, see the [Using the REST Services with .NET](using-the-rest-services-with-net.md) document. Making a request to the imagery service like this:
+In order to access the Bing Maps tiles in a supported way you will first need to get the current tile URLs from the Bing Maps Imagery REST service every time your application starts. The main purpose of this is to ensure your application is using the latest tile URLs, which helps to prevent your application from breaking, and also provides a way to track the usage of the service in such a way that aligns with the Bing Maps terms of use. The [Bing Maps REST Imagery Medata service](imagery/get-imagery-metadata.md) can be used to get the current tile URLs. If you need to use this service from .NET, see the [Using the REST Services with .NET](using-the-rest-services-with-net.md) document. Making a request to the imagery service like this:
 
 ```url
 http://dev.virtualearth.net/REST/V1/Imagery/Metadata/Road?output=json&include=ImageryProviders&key=BingMapsKey

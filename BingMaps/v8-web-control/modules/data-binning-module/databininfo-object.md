@@ -20,5 +20,5 @@ The result of a calculated data bin.
 
 | Name              | Type           | Description                                                                                                                     |
 |-------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------|
-| containedPushpins | [Pushpin](../../map-control-api/pushpin-class.md)\[\]    | An array of all the pushpins that are in the data bin.                                                                          |
-| metrics           | [DataBinMetrics](databinmetrics-object.md) | A set of calculated metric values determined using the aggregationProperty value of all the pushpins contained in the data bin. |
+| `containedPushpins` | [Pushpin](../../map-control-api/pushpin-class.md)\[\]    | An array of all the pushpins that are in the data bin.                                                                          |
+| `metrics`           | [DataBinMetrics](databinmetrics-object.md) | A set of calculated metric values determined using the aggregationProperty value of all the pushpins contained in the data bin. |

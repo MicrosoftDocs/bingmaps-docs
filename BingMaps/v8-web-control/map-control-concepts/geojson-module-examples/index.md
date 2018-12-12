@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # GeoJSON Module Examples
+
 GeoJSON is a common file format used for storing spatial data as a JSON object. The GeoJSON module makes it easy to import data that is in this format into Bing Maps.
 
 ## Examples

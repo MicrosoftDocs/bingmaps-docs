@@ -13,6 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Edit an Existing Shape
 
 This example shows how to take an existing polygon and enable editing on it.

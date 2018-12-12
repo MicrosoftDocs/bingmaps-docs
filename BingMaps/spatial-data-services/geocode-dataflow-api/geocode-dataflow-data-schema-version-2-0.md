@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocode Dataflow Data Schema - Version 2.0
+
 The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](https://msdn.microsoft.com/en-us/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
   
 -   Text files with values separated by comma, tab, or pipe (&#124;) characters.  
@@ -77,7 +79,7 @@ TraceId
   
  **Example Text File Input**  
   
-```text
+```csv
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/BoundingBox/WestLongitude,GeocodeResponse/BoundingBox/NorthLatitude,GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052  
@@ -87,7 +89,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
   
  **Example Text File Output**  
   
-```text
+```csv
 Bing Spatial Data Services, 2.0  
 Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/AddressLine, GeocodeRequest/Address/AdminDistrict, GeocodeRequest/Address/CountryRegion, GeocodeRequest/Address/AdminDistrict2, GeocodeRequest/Address/FormattedAddress, GeocodeRequest/Address/Locality, GeocodeRequest/Address/PostalCode, GeocodeRequest/Address/PostalTown, GeocodeRequest/ConfidenceFilter/MinimumConfidence,ReverseGeocodeRequest/IncludeEntityTypes, ReverseGeocodeRequest/Location/Latitude, ReverseGeocodeRequest/Location/Longitude, GeocodeResponse/Address/AddressLine, GeocodeResponse/Address/AdminDistrict, GeocodeResponse/Address/CountryRegion, GeocodeResponse/Address/AdminDistrict2, GeocodeResponse/Address/FormattedAddress, GeocodeResponse/Address/Locality, GeocodeResponse/Address/PostalCode, GeocodeResponse/Address/PostalTown, GeocodeResponse/Address/Neighborhood, GeocodeResponse/Address/Landmark, GeocodeResponse/Confidence, GeocodeResponse/Name, GeocodeResponse/EntityType, GeocodeResponse/MatchCodes, GeocodeResponse/Point/Latitude, GeocodeResponse/Point/Longitude, GeocodeResponse/BoundingBox/SouthLatitude, GeocodeResponse/BoundingBox/WestLongitude,GeocodeResponse/BoundingBox/NorthLatitude,GeocodeResponse/BoundingBox/EastLongitude, GeocodeResponse/QueryParseValues, GeocodeResponse/GeocodePoints, StatusCode, FaultReason, TraceId  
 1,en-US,,One Microsoft Way,WA,,,,Redmond,98052,,,,,,1 Microsoft Way,WA,United States,King Co.,"1 Microsoft Way, Redmond, WA 98052",Redmond,98052,,,,High,"1 Microsoft Way, Redmond, WA 98052",Address,Good,47.6401305198669,-122.129731848836,47.6362678022963,-122.137375102026,47.6439932374376,-122.122088595645,,"[{""Longitude"":""47.6401305198669"",""Latitude"":""-122.129731848836"",""UsageTypes"":""Display"",""Type"":""Point"",""CalculationMethod"":""InterpolationOffset""},{""Longitude"":""47.6401546597481"",""Latitude"":""-122.129788175225"",""UsageTypes"":""Route"",""Type"":""Point"",""CalculationMethod"":""Interpolation""}]",Success,,"87898b72f9ba4de2bd29b7c877057eff"  

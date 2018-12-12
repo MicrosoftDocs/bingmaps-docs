@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Implementing Modules
+
 Implementing modules is fairly easy and consists of the following two steps:
 
 1.	Register the module if it isn’t already registered. This step can be skipped if using any of the built in modules in Bing Maps.

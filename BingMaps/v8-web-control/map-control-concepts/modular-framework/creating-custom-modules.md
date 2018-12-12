@@ -13,7 +13,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Creating Custom Modules
+
 The Bing Maps Modular framework allows you to create reusable blocks of code that tie into Bing Maps. This saves on development time and is a great way to improve code quality by re-using proven and tested modules.  
 
 The basic overview of how to create a module:
@@ -35,7 +37,7 @@ The basic overview of how to create a module:
 
 The following example shows a common way of structuring a custom module. 
 
-```
+```javascript
 var MyModule = function (map) {
     var localVariable = "";
 
@@ -61,7 +63,7 @@ Microsoft.Maps.moduleLoaded('MyModule');
 
 If this module was stored saved in a folder called js and a file called MyModule.js, the following code can register and load it.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

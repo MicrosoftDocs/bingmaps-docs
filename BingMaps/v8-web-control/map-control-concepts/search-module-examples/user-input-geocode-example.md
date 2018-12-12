@@ -111,6 +111,7 @@ This code sample displays a search textbox and button long with a map. When the 
 </body>
 </html>
 ```
+
 Here is what this looks like when you do a search for “Paris”. 
 
 ![User Input for Geocoding](../../media/bmv8-geocodeuserinputexample.png)

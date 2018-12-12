@@ -51,14 +51,14 @@ A set of methods that perform spatial calculations against shapes. These static 
 
 **Important Note:** Many of these calculations use 2D geometry calculations with different projected planes to approximate there equivalent spatially accurate calculations. This introduces a margin of error. When testing the area calculation and comparing the results to the geography area calculation in SQL, the following differences in calculated values where observed when testing against shapes of different sizes:
 
-| Approximate Boundary Size | V8 Area (meters) | SQL Geoography Area (meters) | Difference |
+| Approximate Boundary Size | V8 Area (meters) | SQL Geography Area (meters) | Difference |
 |---------------------------|------------------|------------------------------|------------|
 | Residential Property      | 3721.63          | 3723.94                      | 0.062%     |
 | City                      | 68204696         | 68241644                     | 0.054%     |
 | US State Boundary         | 186866383894     | 187876559258                 | 0.54%      |
 | USA Country               | 8569210057215    | 8693955435213                | 1.45%      |
 
-If you require higher accuracy spatial calculations, create a webservice and use the [Microsoft SQL Server Spatial Types library](https://www.nuget.org/packages/Microsoft.SqlServer.Types). This is a .NET library that can be used on its own and doesn't require installing SQL.
+If you require higher accuracy spatial calculations, create a web service and use the [Microsoft SQL Server Spatial Types library](https://www.nuget.org/packages/Microsoft.SqlServer.Types). This is a .NET library that can be used on its own and doesn't require installing SQL.
 
 Also note, there may be instances where, when visualizing results of a calculations, they look to have a larger margin of error. For instance, the calculated centroid of a 100KM line may appear to be several meters away from the line itself. The reason for this is that due to the Mercator projection of the map, “straight lines” between two locations should in fact be rendered as curved geodesic lines, however, for simplicity and performance, the map renders a geometric straight line. If you were to pass the line through the `getGeodesicPath` function the line and the centroid would intersect.
 
