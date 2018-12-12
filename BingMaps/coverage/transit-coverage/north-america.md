@@ -26,7 +26,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Alberta|Fort McMurray|[Wood Buffalo Transit Services](https://www.rmwb.ca/Municipal-Government/municipal_departments/Public-Operations/Wood-Buffalo-Transit.htm)| 
 |Alberta|Lethbridge|[Lethbridge Transit](https://myride.lethbridge.ca/)| 
 |Alberta|Medicine Hat|[City of Medicine Hat](https://www.medicinehat.ca/)| 
-|Alberta|Red Deer|[The City of Red Deer](http://www.reddeer.ca/city-services/transit/)| 
+|Alberta|Red Deer|[The City of Red Deer](https://www.reddeer.ca/city-services/transit/)| 
 |Alberta|St. Albert|[St. Albert Transit](https://stalbert.ca/city/transit/)| 
 |British Columbia|Campbell River|[BC Transit - Campbell River Transit System](https://bctransit.com/campbell-river/)| 
 |British Columbia|Cowichan Valley|[BC Transit - Cowichan Valley Regional Transit System](https://www.bctransit.com/cowichan-valley/)| 
@@ -57,7 +57,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Newfoundland and Labrador|St. John's|[METROBUS](https://www.metrobus.com)| 
 |Nova Scotia|Halifax|[Halifax Transit](https://www.halifax.ca/transit)| 
 |Ontario|Barrie|[Barrie Transit](https://www.barrie.ca/)| 
-|Ontario|Brampton|[Brampton Transit](http://www.brampton.ca/en/residents/transit/Pages/Home.aspx)| 
+|Ontario|Brampton|[Brampton Transit](https://www.brampton.ca/en/residents/transit/Pages/Home.aspx)| 
 |Ontario|Burlington|[Burlington Transit](https://www.burlingtontransit.ca/en/index.aspx)| 
 |Ontario|Cornwall|[Cornwall Transit](https://www.cornwall.ca/en/transit/cornwalltransit.asp)| 
 |Ontario|Greater Sudbury|[Greater Sudbury Transit](https://www.greatersudbury.ca/living/transit/)| 
@@ -65,7 +65,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ontario|Hamilton|[Hamilton Street Railway](https://www.hamilton.ca/hsr)| 
 |Ontario|Kingston|[Kingston Transit](https://www.cityofkingston.ca/residents/transit)| 
 |Ontario|London|[London Transit](http://www.londontransit.ca/)| 
-|Ontario|Mississauga|[MiWay](http://www.mississauga.ca/portal/miway| 
+|Ontario|Mississauga|[MiWay](http://www.mississauga.ca/portal/miway)| 
 |Ontario|Niagara Falls|[Fort Erie Transit](https://www.forterie.ca/pages/PublicTransitInformation)| 
 |Ontario|Niagara Falls|[Niagara Falls Transit](https://www.niagarafalls.ca/transit)| 
 |Ontario|Niagara Falls|[Niagara Parks Commission WeGo](https://www.wegoniagarafalls.com/)| 
@@ -124,7 +124,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Mexico City|[Corredores Concesionados](http://www.semovi.df.gob.mx/) 
-|Mexico City|[Ferrocarriles Suburbanos](https://www.fsuburbanos.com/) 
+|Mexico City|[Ferrocarriles Suburbanos](#)
 |Mexico City|[Metrobús](http://www.metrobus.df.gob.mx/) 
 |Mexico City|[NOCHEBÚS Corredores concesionados](http://www.semovi.df.gob.mx/) 
 |Mexico City|[RTP Regresa seguro a casa](#) 
@@ -146,9 +146,9 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Alaska|Regional|[Inter-Island Ferry Authority](https://www.interislandferry.com/)| 
 |Alaska|Sitka|[The RIDE](https://ridesitka.com)| 
 |Arizona|Bullhead City|[Bullhead Area Transit System](https://www.bullheadcity.com/departments/human-services-transit/transportation)| 
-|Arizona|Cottonwood|[Cottonwood Area Transit](http://cottonwoodaz.gov/161/Cottonwood-Area-Transit-CAT)| 
+|Arizona|Cottonwood|[Cottonwood Area Transit](https://cottonwoodaz.gov/161/Cottonwood-Area-Transit-CAT)| 
 |Arizona|Flagstaff|[Northern Arizona Intergovernmental Public Transportation Authority](https://www.mountainline.az.gov)| 
-|Arizona|Fort Defiance|[Navajo Transit System](http://www.navajotransit.navajo-nsn.gov/)| 
+|Arizona|Fort Defiance|[Navajo Transit System](https://www.navajotransit.navajo-nsn.gov/)| 
 |Arizona|Phoenix|[Valley Metro](https://www.valleymetro.org)| 
 |Arizona|Sierra Vista|[City of Sierra Vista](https://www.sierravistaaz.gov/city-departments/transit/)| 
 |Arizona|Tucson|[SunTran](https://www.SunTran.com)| 
@@ -233,7 +233,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Madera|[Madera County Connection](http://www.maderactc.org/public-transit/?referrer=gtfs)| 
 |California|Mendocino County|[Mendocino Transit Authority](https://www.mendocinotransit.org/?referrer=gtfs)| 
 |California|Merced|[The Bus](https://www.mercedthebus.com/)| 
-|California|Modesto|[Ceres Area Transit](http://www.ci.ceres.ca.us/220/Ceres-Area-Transit-CAT)| 
+|California|Modesto|[Ceres Area Transit](https://www.ci.ceres.ca.us/220/Ceres-Area-Transit-CAT)| 
 |California|Modesto|[Modesto Area Express](https://www.modestoareaexpress.com/)| 
 |California|Modesto|[Stanislaus Regional Transit](https://www.srt.org/)| 
 |California|Modesto|[Turlock Transit](https://www.turlocktransit.com/)| 
@@ -284,7 +284,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Tahoe|[North Lake Tahoe Express - 24 hour advance reservations required](https://bit.ly/1PmcYOH)| 
 |California|Tahoe|[Tahoe Transportation District](https://www.tahoetransportation.org/)| 
 |California|Tahoe|[Tahoe Truckee Area Regional Transit](https://tahoetruckeetransit.com)| 
-|California|Tehama County|[Susanville Indian Rancheria Public Transportation Program](http://www.transitunlimited.org/Susanville_Indian_Rancheria_Public_Transportation_Program)| 
+|California|Tehama County|[Susanville Indian Rancheria Public Transportation Program](https://www.transitunlimited.org/Susanville_Indian_Rancheria_Public_Transportation_Program)| 
 |California|Tehama County|[Tehama Rural Area Express](https://www.taketrax.com/)| 
 |California|Thousand Palms|[Sunline Transit Agency](https://www.sunline.org)| 
 |California|Tiburon|[AT](https://www.angelislandferry.com)| 
@@ -354,7 +354,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Florida|Pompano Beach|[SFRTA/Tri-Rail](https://www.tri-rail.com)| 
 |Florida|Port Richey|[Pasco County Public Transportation](https://www.pascocountyfl.net/index.aspx?NID=243)| 
 |Florida|Regional|[Lake County](https://www.ridelakexpress.com)| 
-|Florida|Regional|[Lee County Transit](http://www.leegov.com/leetran)| 
+|Florida|Regional|[Lee County Transit](https://www.leegov.com/leetran)| 
 |Florida|Sanford|[Sanford Community Redevelopment Agency](https://www.sanfordfl.gov/trolley)| 
 |Florida|Sarasota|[Sarasota County Area Transit](https://www.scgov.net/government/departments/scat-bus-service)| 
 |Florida|St. Augustine|[Sunshine Bus Company](https://www.sunshinebus.net/)| 
@@ -501,7 +501,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Montana|Bozeman|[Streamline](https://www.streamlinebus.com/)| 
 |Montana|Butte|[Butte-Silver Bow](https://www.buttebus.org/)| 
 |Montana|Missoula|[Mountain Line](https://www.mountainline.com)| 
-|Montana|Missoula|[UDASH - University of Montana](http://www.umt.edu/transportation/)| 
+|Montana|Missoula|[UDASH - University of Montana](https://www.umt.edu/transportation/)| 
 |Nebraska|Lincoln|[Lincoln StarTran](https://startran.lincoln.ne.gov)| 
 |Nebraska|Omaha|[Metro Transit Omaha](http://ometro.com/)| 
 |Nevada|Carson City|[Jump Around Carson](https://carson.org/residents/community-links/services/jac-jump-around-carson)| 
@@ -784,7 +784,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Wisconsin|Eau Claire|[Eau Claire Transit](http://www.ci.eau-claire.wi.us/departments/transit)| 
 |Wisconsin|Janesville|[Janesville Transit System](http://www.ci.janesville.wi.us/index.aspx?page=124)| 
 |Wisconsin|La Crosse|[Municipal Transit Utility](https://www.cityoflacrosse.org/MTU)| 
-|Wisconsin|Madison|[Metro Transit-City of Madison](http://www.cityofmadison.com/metro/)| 
+|Wisconsin|Madison|[Metro Transit-City of Madison](https://www.cityofmadison.com/metro/)| 
 |Wisconsin|Milwaukee|[Milwaukee County Transit System](https://www.ridemcts.com)| 
 |Wisconsin|Oshkosh|[GO Transit (City of Oshkosh)](https://www.ci.oshkosh.wi.us/Transit/)| 
 |Wisconsin|Racine|[Ryde](https://www.ryderacine.com/)| 
