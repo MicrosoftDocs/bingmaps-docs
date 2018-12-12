@@ -23,6 +23,8 @@
         href: locations/find-a-location-by-query.md
       - name: Location Recognition
         href: locations/location-recognition.md
+      - name: Local Search
+        href: locations/local-search.md
 #      - name: Location Recognition (TEST SPLIT)
 #        href: locations/location-recog-test.md
 #      - name: Location Recognition (TEST LINK)

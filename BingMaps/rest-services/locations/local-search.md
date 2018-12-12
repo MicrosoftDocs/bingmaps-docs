@@ -357,7 +357,7 @@ The JSON response:
 
 ### Search for coffee in Downtown Seattle by Type
 
-Instead of searching by a query, the Local Search API allows us to search at a location for local entities what match a comma-separated list of string type identifiers. For example, looking at the available [Type IDs](Type%20Identifiers.md), we find that the best match for "coffee" is the string ID `CoffeeAndTea`. So we set the parameter `type` to `CoffeeAndTea`.
+Instead of searching by a query, the Local Search API allows us to search at a location for local entities what match a comma-separated list of string type identifiers. For example, looking at the available [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md), we find that the best match for "coffee" is the string ID `CoffeeAndTea`. So we set the parameter `type` to `CoffeeAndTea`.
 
 Here is the URL, using the same location the previous example:
 
@@ -508,7 +508,7 @@ And here is the XML response:
 
 Suppose we want to find either movie theaters or Korean restaurants within a 300 meter radius right in the middle of Ballard, Seattle.
 
-Searching the string [Type IDs](Type%20Identifiers.md), we find two matches for our type strings: `MovieTheaters` and `KoreanRestaurants`. So we set the parameter `type` to `MovieTheaters,KoreanRestaurants`, and we specify the `userCircularMapView`  instead of the `userLocation` parameter.
+Searching the string [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md), we find two matches for our type strings: `MovieTheaters` and `KoreanRestaurants`. So we set the parameter `type` to `MovieTheaters,KoreanRestaurants`, and we specify the `userCircularMapView`  instead of the `userLocation` parameter.
 
 The resulting URL is:
 
@@ -639,8 +639,9 @@ And the JSON response:
 ```
 
 ## HTTP Status Codes
-> [!NOTE]
-> For more details about these HTTP status codes, see [Status Codes and Error Handling](Status%20Codes%20and%20Error%20Handling2.md).
+
+[!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
+
 
 When the request is successful, the following HTTP status code is returned:
 - 200
