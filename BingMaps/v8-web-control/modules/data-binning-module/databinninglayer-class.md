@@ -1,5 +1,5 @@
 ---
-title: "DataBinningOptions Object | Microsoft Docs"
+title: "DataBinningOptions Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/29/2018"
 ms.reviewer: ""

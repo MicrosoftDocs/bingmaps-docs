@@ -49,8 +49,9 @@ This article will describe how to write a PHP application that can interact with
   
  Finally, in terms of a development environment, you can use anything from a text editor such as Windows Notepad to a full-fledged PHP IDE such as PHP Designer to write your code.  
   
-### PHP Starter Code  
- This article contains numerous samples of interacting with Bing Maps REST Services APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
+### PHP Starter Code
+
+This article contains numerous samples of interacting with Bing Maps REST Services APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
   
  **Listing 1 - PHP starter code for working with Bing Maps REST Services APIs**  
   
@@ -151,7 +152,6 @@ $postalCode = str_ireplace(" ","%20",$_POST['zipcode']);
 // Compose URI for Locations API request  
 $findURL = $baseURL."/".$country."/".$adminDistrict."/".$postalCode."/".$locality."/"  
  .$addressLine."?output=xml&key=".$key;  
-  
 ```  
   
  For each of the parameters accepted from the user, we use the PHP **str_ireplace** method to encode the spaces in the URL with the %20 character so that the URI is correctly formed. We then append all of the parameters together in a URI string, which will look something like this:  
@@ -219,8 +219,7 @@ $response = new SimpleXMLElement($output);
 $latitude =  
 $response->ResourceSets->ResourceSet->Resources->Location->Point->Latitude;  
 $longitude =  
-$response->ResourceSets->ResourceSet->Resources->Location->Point->Longitude;  
-  
+$response->ResourceSets->ResourceSet->Resources->Location->Point->Longitude;
 ```  
   
  Notice that the code is almost identical to that used for accessing the Locations API using an address; the only difference is the structure of the URI.  
@@ -410,7 +409,6 @@ $routesURL =
   $baseURL."/".$travelMode."?wp.0=".$wayPoint0."&wp.1=".$wayPoint1  
    ."&optimize=".$optimize."&routePathOutput=".$routePathOutput  
    ."&distanceUnit=".$distanceUnit."&output=xml&key=".$key;  
-  
 ```  
   
  Note that the set of points returned when you specify **routePathOutput=points** is different (and in addition to) the maneuver points that are used to provide driving directions along the route. Whereas maneuver points represent only places along a route where the driver or walker must take action (e.g., take a turn), the **points** array includes all points required to draw the line representing the route on a map (including all curves in roads and other geographic features).  
@@ -783,7 +781,6 @@ function imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick = 1)
     );  
     imagefilledpolygon($image, $points, 4, $color);  
     return imagepolygon($image, $points, 4, $color);  
-    }  
-  
+    }
 ?>  
 ```

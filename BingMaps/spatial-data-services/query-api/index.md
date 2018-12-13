@@ -1,5 +1,5 @@
 ---
-title: "Query API2 | Microsoft Docs"
+title: "Query API | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

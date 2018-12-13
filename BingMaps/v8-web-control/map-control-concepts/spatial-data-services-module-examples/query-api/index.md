@@ -1,5 +1,5 @@
 ---
-title: "Query API1 | Microsoft Docs"
+title: "Query API Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,8 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Query API
+
+# Query API Examples
 
 The [Query API](../../../../spatial-data-services/query-api/index.md) is a component of the Bing Spatial Data Services. You can use the Query API to query a data source for information about entities in that data source. For example, if the data source contains restaurant entities, you can query for French restaurants nearby or you can get information about a specific restaurant. Each query response can return a maximum number of 250 results.
 

@@ -1,5 +1,5 @@
 ---
-title: "Release History1 | Microsoft Docs"
+title: "REST Release History | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Release History
+# REST APIs Release History
 
 The following is a release history for the Bing Maps REST Services starting with January, 2014.  
   

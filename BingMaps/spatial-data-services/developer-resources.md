@@ -1,5 +1,5 @@
 ---
-title: "Developer Resources1 | Microsoft Docs"
+title: "Spatial Data Services Developer Resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Developer Resources
+# Spatial Data Services Developer Resources
 
 Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Release History2 | Microsoft Docs"
+title: "Spatial Data Services Release History | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,8 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Release History
+# Spatial Data Services Release History
+
 The following is a release history for Bing Spatial Data Services starting with January, 2013.  
   
 |Date and Affected APIs|Release notes|  

@@ -1,5 +1,5 @@
 ---
-title: "Address Object | Microsoft Docs"
+title: "Address Object (Autosuggest Module) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Address Object
+# Address Object (Autosuggest Module)
 
 Represents a structured address.
 

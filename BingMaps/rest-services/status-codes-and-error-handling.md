@@ -1,5 +1,5 @@
 ---
-title: "Status Codes and Error Handling2 | Microsoft Docs"
+title: "REST Status Codes and Error Handling | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Status Codes and Error Handling
+# REST API Status Codes and Error Handling
 
 Information on status codes and error handling.
 

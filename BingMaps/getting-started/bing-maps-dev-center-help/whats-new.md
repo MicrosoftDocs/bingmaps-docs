@@ -1,5 +1,5 @@
 ---
-title: "What's New | Microsoft Docs"
+title: "What's New (Getting Started) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

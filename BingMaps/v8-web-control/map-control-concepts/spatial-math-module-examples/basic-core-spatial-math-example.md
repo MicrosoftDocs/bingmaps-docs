@@ -38,7 +38,7 @@ The following example shows how to use a number of the core Spatial Math functio
             var northWest = bounds.getNorthwest();
             var southEast = bounds.getSoutheast();
 
-            //Calculate a geodesic path between the two points (line the follows curvature of the earth).
+            //Calculate a geodesic path between the two points (line that follows the curvature of the earth).
             var path = Microsoft.Maps.SpatialMath.getGeodesicPath([northWest, southEast]);
             var poly = new Microsoft.Maps.Polyline(path);
             map.entities.push(poly);

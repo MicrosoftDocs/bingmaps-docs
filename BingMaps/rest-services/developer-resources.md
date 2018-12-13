@@ -1,5 +1,5 @@
 ---
-title: "Developer Resources2 | Microsoft Docs"
+title: "REST Developer Resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,7 +13,8 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Developer Resources
+
+# REST Developer Resources
 
  Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   
@@ -25,9 +26,11 @@ ms.service: "bing-maps"
 |[Bing Maps Resources](http://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
 |[Twitter (@BingMaps)](https://rbrundritt.wordpress.com/)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
 |[Facebook](https://www.facebook.com/Bing)|Get interesting info on Bing Maps. Bing Maps is part of the Bing Facebook page.|  
-  
+
 ## Account Issues  
- If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
-  
+
+If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
+
 ## Licensing Questions  
- For information about free-use and enterprise licenses when using Bing Maps in your application, see the [Bing Maps Licensing Tool](http://www.microsoft.com/maps/Licensing/licensing.aspx) or [Contact Us](http://www.microsoft.com/maps/contact-us.aspx).
+
+For information about free-use and enterprise licenses when using Bing Maps in your application, see the [Bing Maps Licensing Tool](http://www.microsoft.com/maps/Licensing/licensing.aspx) or [Contact Us](http://www.microsoft.com/maps/contact-us.aspx).

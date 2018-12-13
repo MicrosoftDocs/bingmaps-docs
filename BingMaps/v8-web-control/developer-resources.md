@@ -1,5 +1,5 @@
 ---
-title: "Developer Resources | Microsoft Docs"
+title: "V8 Web Controls Developer Resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Developer Resources
+# V8 Web Controls Developer Resources
 
 This topic contains support resources and contact information.
 
