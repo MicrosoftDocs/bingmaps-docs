@@ -19,7 +19,7 @@ Use the following resources to learn more about Bing Maps, get your questions an
   
 |||  
 |-|-|  
-|[Bing Maps Forums](http://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
+|[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
 |[Bing Maps Blog](https://www.bing.com/community/site_blogs/b/maps/default.aspx)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Ricky Brundritt’s Blog](https://rbrundritt.wordpress.com/)|Get code samples and guidance from Ricky Brundritt.|  
 |[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  

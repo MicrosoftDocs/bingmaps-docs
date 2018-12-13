@@ -45,5 +45,5 @@ Additional you can find information about discontinued Bing Maps controls [here]
 ## See also:
 
   * [Bing Maps V8 Interactive Code Samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
-  * [Terms and Conditions](http://go.microsoft.com/fwlink?LinkID=66121)
+  * [Terms and Conditions](https://go.microsoft.com/fwlink?LinkID=66121)
   

@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 
 # Directly accessing the Bing Maps tiles
 
-Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](http://www.microsoft.com/maps/product/terms.html).
+Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](https://www.microsoft.com/maps/product/terms.html).
 
 In order to access the Bing Maps tiles in a supported way you will first need to get the current tile URLs from the Bing Maps Imagery REST service every time your application starts. The main purpose of this is to ensure your application is using the latest tile URLs, which helps to prevent your application from breaking, and also provides a way to track the usage of the service in such a way that aligns with the Bing Maps terms of use. The [Bing Maps REST Imagery Medata service](imagery/get-imagery-metadata.md) can be used to get the current tile URLs. If you need to use this service from .NET, see the [Using the REST Services with .NET](using-the-rest-services-with-net.md) document. Making a request to the imagery service like this:
 
@@ -35,6 +35,6 @@ You can then replace the different parts of the URL to request each tile as need
 * [Bing Maps Tile System](../articles/bing-maps-tile-system.md)
 * [Understanding Scale and Resolution](../articles/understanding-scale-and-resolution.md)
 
-In addition to this, the query will also return information on the imagery providers and copyright information which should be displayed with the imagery to align with the requirments of the [terms of use](http://www.microsoft.com/maps/product/terms.html).
+In addition to this, the query will also return information on the imagery providers and copyright information which should be displayed with the imagery to align with the requirments of the [terms of use](https://www.microsoft.com/maps/product/terms.html).
 
-Licensing queries can be sent [here](http://www.microsoft.com/maps/contact-us.aspx).
+Licensing queries can be sent [here](https://www.microsoft.com/maps/contact-us.aspx).

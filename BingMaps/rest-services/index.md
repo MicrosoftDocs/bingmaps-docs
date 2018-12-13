@@ -46,4 +46,4 @@ If you plan to use the REST services from .NET the Bing Maps team has released a
   
 ## See Also
 
-[Terms and Conditions](http://www.microsoft.com/maps/product/terms.html)
+[Terms and Conditions](https://www.microsoft.com/maps/product/terms.html)
