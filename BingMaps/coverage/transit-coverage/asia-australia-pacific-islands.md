@@ -161,7 +161,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Tasmania|Hobart|[Tassielink](https://www.tassielink.com.au)| 
 |Victoria|Mornington|[Mornington Railway](https://morningtonrailway.org.au/)| 
 |Victoria|Regional|[PTV](https://www.ptv.vic.gov.au)| 
-|Western Australia|Perth|[2K Tours](http://www.pta.wa.gov.au/ )| 
+|Western Australia|Perth|[2K Tours](https://www.pta.wa.gov.au/ )| 
 |Western Australia|Perth|[TransAlbany](https://www.pta.wa.gov.au/ )| 
 |Western Australia|Perth|[TransBroome](https://www.pta.wa.gov.au/ )| 
 |Western Australia|Perth|[TransBunbury](https://www.pta.wa.gov.au/ )| 
@@ -229,7 +229,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Bangalore|[Bangalore Metropolitan Transport Corporation](https://www.mybmtc.com/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
 |Chennai|[MTC](http://www.mtcbus.org/) 
-|Hyderabad|[Hyderabad Metro Rail Limited](https://hmrl.telangana.gov.in) 
+|Hyderabad|[Hyderabad Metro Rail Limited](https://hmrl.co.in/) 
 |Hyderabad|[Telangana State Road Transport Corporation](https://www.hyderabadbusroutes.in/) 
 |Kolkata|[CSTC](https://cstc.org.in/) 
 |Kolkata|[Calcutta Tramways Company (1978) Limited](https://www.calcuttatramways.com/) 
