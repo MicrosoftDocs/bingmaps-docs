@@ -23,6 +23,14 @@ Given a pair of location coordinates (latitude, longitude), the Location Recogni
 >- Search by query is not supported
 >- Only USA locations are supported, other countries will be added soon
 
+## URL Template
+
+### Get a list of entities at a specific location
+
+```url
+https://dev.virtualearth.net/REST/v1/LocationRecog/{point}?radius={search_radius}&top={number_of_results}&datetime={visit_date_time}&distanceunit={dist_unit}&verboseplacenames={true_or_false}&includeEntityTypes={list_of_entity_types}&key={BingMapsKey}
+```
+
 ## API Parameters
 
 |Parameters|Alias|Description|Values|  
