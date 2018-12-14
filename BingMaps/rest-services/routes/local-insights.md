@@ -96,21 +96,20 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsyncCallback?requestId=
 |`timeUnit` |`tu` |**Optional**. The unit of time for the parameter `maxTime`. |A string: either `second` or `minute`.<br /><br />Default: `second`|
 |`maxDistance`  |`maxDist` | **Required, if `travelMode` is Driving or Walking.** The longest possible distance used define the geographic region in which to search for local entities.<br /><br />**Note**: Distance-based Local Insight API calls are unavailable for transit.<br /><br />**Note**: Cannot be used when `maxTime` is specified.|Any positive integer less than or equal to 50 miles.<br /><br />*Example*: `maxDistance = 40` |
 |`distanceUnit` |`du` | **Optional**. The unit of distance for the `maxDistance` parameter. |Possible values:<br /><br />-	`mile` or `mi`<br />-	`kilometer` or `km`<br /><br />Default: `kilometer`|
-|`types`|`cats`|**Required**. A comma separated list of type IDs. | A comma separated list of string type IDs. See the [Type IDs](../common-parameters-and-types/type-identifiers/index.md) for the complete list of possible type ID values.<br />*Example*: `types = MovieTheaters,Parks` |
+|`type`||**Required**. A comma separated list of type IDs. | A comma separated list of string type IDs. See the [Type IDs](../common-parameters-and-types/type-identifiers/index.md) for the complete list of possible type ID values.<br />*Example*: `types = MovieTheaters,Parks` |
 |`dateTime` |`dt` | **Optional, available only if `travelModel` is Driving or Transit**. The datetime time stamp used to calculate isochrone routes when the `maxTime` parameter is specified.|A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for [DateTime values, see DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx).<br />*Examples*:<br />- `dateTime = 03/01/2011 05:42:00`<br />- `dateTime = 05:42:00` [assumes the current day]<br />- `dateTime=03/01/2011` [assumes the current time]         |
 |`optimize` |`optmz` |**Optional**. Specifies what parameters to use to optimize the isochrone route.| One of the following values:<br />- `distance`: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br />- `time`: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br /><br />Default: `time`<br /><br />*Example*: `optimize = time`.|
 |`startTime`| | __Optional for Driving, but required if making asynchronous Driving request__. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. | A date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br /><br />*Example*: `startTime = 2017-06-15T8:00:00-07:00`|
 |`travelMode` |`mode`|**Optional**. Indicates the which routing profile to snap the points to.| Possible values:<br /><br />- `driving`<br />- `walking`<br />- `transit`<br /><br />Default: `driving`<br />*Example*: `travelMode = walking`.|
 
-
 ## Examples
 
-### Synchronous Get Local Insights by Driving Time
+### Get Local Insights by Driving Time by Query
 
 This example gets a list of local insights that are either Movie Theaters or Department Stores within a thirty minute drive of the Redmond Microsoft Campus. Two string types are used: `DepartmentStores` and `MovieTheaters`.
 
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/LocalInsights?Waypoint=1%20Microsoft%20Way,Redmond,WA&TravelMode=Driving&Optimize=time&MaxTime=30&TimeUnit=Minute&cats=DepartmentStores,MovieTheaters&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/V1/Routes/LocalInsights?Waypoint=1%20Microsoft%20Way,Redmond,WA&TravelMode=Driving&Optimize=time&MaxTime=30&TimeUnit=Minute&type=DepartmentStores,MovieTheaters&key={BingMapsAPIKey}
 ```
 
 Here is the successful JSON response.
@@ -261,5 +260,150 @@ Here is the successful JSON response.
   "statusCode": 200,
   "statusDescription": "OK",
   "traceId": "40b9d0d37c344ce99e75a80d62e5112a|DAPZHU-DEV|7.7.0.0|Ref A: 814E90439D604CA5A5995AA54709F5EC Ref B: CO1EDGE0420 Ref C: 2018-10-15T21:44:55Z"
+}
+```
+
+### Get Local Insights by Driving Time by Point
+
+This example returns local entities at a point in Edmonds, Washington State, `47.811091,-122.369512`, within twenty minutes driving time. In this example, the local entities are parks and parking lots, using the Type IDs `Parks` and `Parking`.
+
+```url
+https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsAPIKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking&o=xml
+```
+
+And the XML response:
+
+```xml
+<Response>
+    <Copyright>Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
+    <BrandLogoUri>https://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>
+    <StatusCode>200</StatusCode>
+    <StatusDescription>OK</StatusDescription>
+    <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>
+    <TraceId>f003e095ab82470e88e3cbc5983b0d5e|MW10000A84|7.7.0.0</TraceId>
+    <ResourceSets>
+        <ResourceSet>
+            <EstimatedTotal>1</EstimatedTotal>
+            <Resources>
+                <Resource xsi:type="LocalInsightsResponse">
+                    <Origin>
+                        <Latitude>47.811091</Latitude>
+                        <Longitude>-122.369512</Longitude>
+                    </Origin>
+                    <CategoryTypeResults>
+                        <CategoryTypeResult>
+                            <CategoryName>Parks</CategoryName>
+                            <CategorySummary>5 Parks in 20 Minutes by Driving</CategorySummary>
+                            <Entities>
+                                <LocalInsightsEntity>
+                                    <EntityName>Richmond Beach Center Park</EntityName>
+                                    <Latitude>47.77205339744016</Latitude>
+                                    <Longitude>-122.38522949061662</Longitude>
+                                </LocalInsightsEntity>
+                                <LocalInsightsEntity>
+                                    <EntityName>Meadowdale Playfields</EntityName>
+                                    <Latitude>47.847783158175339</Latitude>
+                                    <Longitude>-122.32521969622377</Longitude>
+                                </LocalInsightsEntity>
+                                <LocalInsightsEntity>
+                                    <EntityName>Drug Rehab Lake Forest Park</EntityName>
+                                    <Latitude>47.7546081542969</Latitude>
+                                    <Longitude>-122.277923583984</Longitude>
+                                </LocalInsightsEntity>
+                                <LocalInsightsEntity>
+                                    <EntityName>Lake Forest Park City Hall</EntityName>
+                                    <Latitude>47.753910811869261</Latitude>
+                                    <Longitude>-122.27754771953607</Longitude>
+                                </LocalInsightsEntity>
+                                <LocalInsightsEntity>
+                                    <EntityName>Dogwood Play Park</EntityName>
+                                    <Latitude>47.72104</Latitude>
+                                    <Longitude>-122.29211</Longitude>
+                                </LocalInsightsEntity>
+                            </Entities>
+                        </CategoryTypeResult>
+                        <CategoryTypeResult>
+                            <CategoryName>Parking</CategoryName>
+                            <CategorySummary>0 Parking in 20 Minutes by Driving</CategorySummary>
+                            <Entities/>
+                        </CategoryTypeResult>
+                    </CategoryTypeResults>
+                </Resource>
+            </Resources>
+        </ResourceSet>
+    </ResourceSets>
+</Response>
+```
+
+### Get Local Insights by Driving Distance by Point
+
+This example uses the same point in Edmonds as in the last example, but instead search for parks and parking entities by driving distance. In this example, the response returns entities within 10 miles of the specified point. 
+
+```url
+https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsAPIKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking
+```
+
+Here is the JSON response:
+
+```json
+{
+  "authenticationResultCode": "ValidCredentials",
+  "brandLogoUri": "https://dev.virtualearth.net/Branding/logo_powered_by.png",
+  "copyright": "Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+  "resourceSets": [
+    {
+      "estimatedTotal": 1,
+      "resources": [
+        {
+          "__type": "LocalInsightsResponse:http://schemas.microsoft.com/search/local/ws/rest/v1",
+          "categoryTypeResults": [
+            {
+              "categoryTypeName": "Parks",
+              "categoryTypeSummary": "5 Parks in 10 Miles by Driving",
+              "entities": [
+                {
+                  "entityName": "Richmond Beach Center Park",
+                  "latitude": 47.77205339744016,
+                  "longitude": -122.38522949061662
+                },
+                {
+                  "entityName": "Meadowdale Playfields",
+                  "latitude": 47.84778315817534,
+                  "longitude": -122.32521969622377
+                },
+                {
+                  "entityName": "Drug Rehab Lake Forest Park",
+                  "latitude": 47.7546081542969,
+                  "longitude": -122.277923583984
+                },
+                {
+                  "entityName": "Lake Forest Park City Hall",
+                  "latitude": 47.75391081186926,
+                  "longitude": -122.27754771953607
+                },
+                {
+                  "entityName": "Dogwood Play Park",
+                  "latitude": 47.72104,
+                  "longitude": -122.29211
+                }
+              ]
+            },
+            {
+              "categoryTypeName": "Parking",
+              "categoryTypeSummary": "0 Parking in 10 Miles by Driving",
+              "entities": []
+            }
+          ],
+          "origin": {
+            "latitude": 47.811091,
+            "longitude": -122.369512
+          }
+        }
+      ]
+    }
+  ],
+  "statusCode": 200,
+  "statusDescription": "OK",
+  "traceId": "7125b438817b4a7bb68470a1fb06a1a1|MW10000A85|7.7.0.0"
 }
 ```
