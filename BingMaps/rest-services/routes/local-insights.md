@@ -102,6 +102,10 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsyncCallback?requestId=
 |`startTime`| | __Optional for Driving, but required if making asynchronous Driving request__. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. | A date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br /><br />*Example*: `startTime = 2017-06-15T8:00:00-07:00`|
 |`travelMode` |`mode`|**Optional**. Indicates the which routing profile to snap the points to.| Possible values:<br /><br />- `driving`<br />- `walking`<br />- `transit`<br /><br />Default: `driving`<br />*Example*: `travelMode = walking`.|
 
+## Response
+
+See [Local Insights Data](local-insights-data.md).
+
 ## Examples
 
 ### Get Local Insights by Driving Time by Query
