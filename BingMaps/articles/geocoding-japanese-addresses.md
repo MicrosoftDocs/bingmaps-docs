@@ -11,6 +11,7 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Geocoding Japanese Addresses
 Japanese geocoding is complex because addresses can be expressed using four different character sets – three native sets (Kanji, Hiragana, Katakana) as well as the Latin (western) alphabet. Also, Japan uses the Japanese address system which is different from the western address system.  The [Bing Maps REST Services](../rest-services/index.md) and [Bing Spatial Data Services](../spatial-data-services/index.md) offer flexibility to handle the custom needs of Japanese address geocoding and support these key features:  
@@ -30,7 +31,7 @@ Japanese geocoding is complex because addresses can be expressed using four diff
  The Bing Maps APIs are designed to look for and handle the complexity of Japanese geocoding, and will return results for a great variety of situations. However, note that there can be situations where due to the complexity, geocoding may not be successful.  
   
 ## Geocode using the Bing Maps REST Services Locations API  
- You can use the [Locations](../rest-services/locations-api.md) (part of the Bing Maps REST Services) to geocode Japanese addresses. Each address component can be specified as a separate URL parameter or you can specify the entire address string.  
+ You can use the [Locations](../rest-services/locations/index.md) (part of the Bing Maps REST Services) to geocode Japanese addresses. Each address component can be specified as a separate URL parameter or you can specify the entire address string.  
   
 > [!IMPORTANT]
 > Japanese address values in native character sets (Kanji, Katakana, Hiragana) must be base-64 encoded UTF-8 strings.  
@@ -38,8 +39,8 @@ Japanese geocoding is complex because addresses can be expressed using four diff
 ### Geocode using URL address parameters  
  If you know the parsed address, you can specify each component separately using the following URL template and the URL parameters in the table. This type of request will give the best result because the address string does not need to be parsed.  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=  
+```url
+https://dev.virtualearth.net/REST/v1/Locations?countryRegion=countryRegion&adminDistrict=adminDistrict&locality=  
 locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMapsKey  
 ```  
   
@@ -59,15 +60,15 @@ locality&postalCode=postalCode&addressLine=addressLine&culture=ja&key=YourBingMa
 ### Geocode using a single query string  
  If it’s not possible or convenient to separate out the components of the address, you can specify a single address string in the request:  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations?q=addressString&culture=ja&key=YourBingMapsKey  
+```url
+https://dev.virtualearth.net/REST/v1/Locations?q=addressString&culture=ja&key=YourBingMapsKey  
 ```  
   
 ### Reverse-geocode  
  To reverse-geocode a Japanese address, specify the latitude and longitude of the location in the request.  
   
-```  
-http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegrees?key=YourBingMapsKey  
+```url
+https://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegrees?key=YourBingMapsKey  
 ```  
   
 ### Japanese Geocode and Reverse-Geocode URL Examples  
@@ -76,25 +77,25 @@ http://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDegr
 ||||  
 |-|-|-|  
 |**Request type**|**Address values/strings or coordinates**|**Example URL**|  
-|Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
-|Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|http://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
-|Geocode a postal code using URL address parameters|PostalCode = 108-0075|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=108-0075&o=xml&key=YourBingMapsKey&c=ja|  
-|Geocode a postal code using a single address string|Query = 〒108-0075|http://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=%e3%80%92108%2d0075&o=xml&key=YourBingMapsKey&c=ja|  
-|Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|http://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
+|Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
+|Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
+|Geocode a postal code using URL address parameters|PostalCode = 108-0075|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=108-0075&o=xml&key=YourBingMapsKey&c=ja|  
+|Geocode a postal code using a single address string|Query = 〒108-0075|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&postalCode=%e3%80%92108%2d0075&o=xml&key=YourBingMapsKey&c=ja|  
+|Reverse-geocode a latitude and longitude|Latitude=35<br /><br /> Longitude=139|https://dev.virtualearth.net/REST/v1/Locations/35,139?o=xml&key=YourBingMapsKey|  
   
 ### Geocode Response  
- When you make a geocode request using the Locations API URLs and a location is found that matches the address, a response is returned with the latitude and longitude, a confidence and other information. The following is an example of an XML response returned by a Locations API geocode request. For more information about the fields returned in a Locations API response and the equivalent JSON response format, see [Location Data](../rest-services/location-data.md).  
+ When you make a geocode request using the Locations API URLs and a location is found that matches the address, a response is returned with the latitude and longitude, a confidence and other information. The following is an example of an XML response returned by a Locations API geocode request. For more information about the fields returned in a Locations API response and the equivalent JSON response format, see [Location Data](../rest-services/locations/location-data.md).  
   
  Japanese address information in the response is returned using Japanese native character sets only (Kanji, Katakana, Hiragana). Latin character representations of Japanese addresses are not returned in the response.  
   
-```  
+```xml
 This XML file does not appear to have any style information associated with it. The document tree is shown below.  
-<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
+<Response xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns="https://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>  
     Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.  
   </Copyright>  
   <BrandLogoUri>  
-    http://dev.virtualearth.net/Branding/logo_powered_by.png  
+    https://dev.virtualearth.net/Branding/logo_powered_by.png  
   </BrandLogoUri>  
   <StatusCode>200</StatusCode>  
   <StatusDescription>OK</StatusDescription>  
@@ -143,9 +144,10 @@ This XML file does not appear to have any style information associated with it. 
 ```  
   
 ## Geocoding with Bing Spatial Data Services  
- You can geocode a set of addresses using the Bing Spatial Data Services using the [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md). Like the Locations API, the Geocode Dataflow API allows you to geocode a Japanese address by identifying its components or by specifying a single address string. The Geocode Dataflow data schema includes the following input values.  
+
+ You can geocode a set of addresses using the Bing Spatial Data Services using the [Geocode Dataflow API](../spatial-data-services/index.md). Like the Locations API, the Geocode Dataflow API allows you to geocode a Japanese address by identifying its components or by specifying a single address string. The Geocode Dataflow data schema includes the following input values.  
   
-```  
+```Values
 Id  
 GeocodeRequest/Culture  
 GeocodeRequest/Query  
@@ -158,10 +160,9 @@ GeocodeRequest/Address/Locality
 GeocodeRequest/Address/PostalCode  
 GeocodeRequest/Address/PostalTown  
 GeocodeRequest/ConfidenceFilter/MinimumConfidence  
-  
 ```  
   
- To specify individual components, use the same address definitions as defined above for the Locations API (such as GeocodeRequest/Address/AddressLine and GeocodeRequest/Address/AdminDistrict). To specify a single address query string use GeocodeRequest/Query. For more information about this data schema and how to use the Geocode Dataflow, see [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api.md),  [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-data-schema-version-2-0.md), and [Walkthrough](../spatial-data-services/geocode-dataflow-walkthrough.md).  
+ To specify individual components, use the same address definitions as defined above for the Locations API (such as GeocodeRequest/Address/AddressLine and GeocodeRequest/Address/AdminDistrict). To specify a single address query string use GeocodeRequest/Query. For more information about this data schema and how to use the Geocode Dataflow, see [Geocode Dataflow API](../spatial-data-services/index.md),  [Data Schema  v2.0](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md), and [Walkthrough](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-walkthrough.md).  
   
 ## Japanese and Western Address Systems  
  The Japanese address system formats addresses in the opposite order of addresses in western countries such as the United States and Europe. In the western address system, you begin with the address details and then proceed to the larger categories such as city and state and postal code. In the Japanese system, the larger categories are listed first and finish with the address details. The Bing Maps REST Services and the Bing Spatial Data Services support geocoding for addresses that use either the Japanese or western address system for all character sets.  For example, you can specify an address using Kanji in the western address system or you can specify an address in Latin characters using the Japanese address system and the API will detect the order.  For best results, specify the values in the exact order shown below for each system.  
@@ -179,7 +180,7 @@ GeocodeRequest/ConfidenceFilter/MinimumConfidence
  Example: 2-16-3 Konan Minato-ku, Tokyo 108-0075 Japan  
   
 ## Japanese and Latin (Hepburn/Hebon) Character Sets  
- When you geocode a Japanese address, you can specify the address using any of the native character sets -- Kanji, Hiragana, Katakana – as well as [Hepburn Romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Hepburn Romanization, also known as Hebon, is a system for writing the Japanese language using the Latin alphabet.  
+ When you geocode a Japanese address, you can specify the address using any of the native character sets -- Kanji, Hiragana, Katakana – as well as [Hepburn Romanization](https://en.wikipedia.org/wiki/Hepburn_romanization). Hepburn Romanization, also known as Hebon, is a system for writing the Japanese language using the Latin alphabet.  
   
  You can also geocode an address that uses more than one characters set. For example, you can specify different parts of an address in Kanji and the Latin Hepburn system or Kanji and Katakana and still geocode the address. The following example shows an address written using Kanji and Hepburn Romanization.  
   

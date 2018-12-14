@@ -11,6 +11,7 @@ caps.latest.revision: 10
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Using the REST Services with .NET
 > [!IMPORTANT]
@@ -23,7 +24,7 @@ manager: "stevelom"
  Each Bing Maps REST Services request is made using a URI and additional query parameters that specify the information to return. Some REST Services APIs support HTTP POST requests that you can use when the query parameter data increases the URL length beyond browser limits. You can specify XML or JSON format for the response. A JSON response is typically 25%-40% smaller than an XML response, and will take less time for the client to download. This topic focuses on JSON responses only.  
   
 ## Making use of sessions  
- All Bing Maps REST Services require a Bing Maps Key. If you are using the Bing Maps REST Services with one of the Bing Maps controls, such as AJAX, WPF, Windows Store app SDK, you can use a Bing Maps key as a session key. A session key can be used for all requests to the Bing Maps REST Services. The benefit of using a session key is that you are billed for one transaction per session and all calls to the REST services within that session are non-billable. For more information about billed transactions, see [Viewing Bing Maps Usage Reports](http://msdn.microsoft.com/en-us/library/ff859477.aspx).  
+ All Bing Maps REST Services require a Bing Maps Key. If you are using the Bing Maps REST Services with one of the Bing Maps controls, such as AJAX, WPF, Windows Store app SDK, you can use a Bing Maps key as a session key. A session key can be used for all requests to the Bing Maps REST Services. The benefit of using a session key is that you are billed for one transaction per session and all calls to the REST services within that session are non-billable. For more information about billed transactions, see [Viewing Bing Maps Usage Reports](../getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md).  
   
  The following examples show how to create a session key from an instance of Bing Maps control using .NET.  
   
@@ -195,7 +196,7 @@ End Function)
  The data contracts for the Bing Maps REST Services are large but straight forward. All classes need to have a DataContract attribute, and all public properties that are to be serialized need to have a DataMember attribute, and both a getter and a setter in C#. See [JSON Data Contracts](../rest-services/json-data-contracts.md) for the latest set of contracts.  
   
 ## See Also  
- [Bing Maps REST Service Tips & Tricks](http://blogs.bing.com/maps/2013/02/14/bing-maps-rest-service-tips-tricks/)   
- [Geocoding With the Search Charm (Blog)](http://blogs.bing.com/maps/2013/06/20/geocoding-with-the-search-charm/)   
+ [Bing Maps REST Service Tips & Tricks](https://blogs.bing.com/maps/2013/02/14/bing-maps-rest-service-tips-tricks/)   
+ [Geocoding With the Search Charm (Blog)](https://blogs.bing.com/maps/2013/06/20/geocoding-with-the-search-charm/)   
  [Geocoding with the Search Charm (Code)](https://code.msdn.microsoft.com/Geocoding-with-the-Search-b1dcbf8a)   
- [How to Share Maps Using the Share Charm in Windows Store Apps](http://blogs.msdn.com/b/rbrundritt/archive/2013/11/08/how-to-share-maps-using-the-share-charm-in-windows-store-apps.aspx)
+ [How to Share Maps Using the Share Charm in Windows Store Apps](https://blogs.msdn.com/b/rbrundritt/archive/2013/11/08/how-to-share-maps-using-the-share-charm-in-windows-store-apps.aspx)

@@ -11,15 +11,17 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Get Job List
+
 Use the following URL to get a list of all dataflow and data source jobs that were submitted in the last 15 days for the account associated with the Bing Maps Key specified in the request. Jobs are created when you geocode entities and create or modify a data source. Both pending and completed jobs are returned with pending jobs listed first. Note that download jobs are not included in this list.  
   
  Some data source processes may include more than one jobs. For example, if you stage a data source and then publish it, you will have run both a DataSourceIncrementalStaging joband a DataSourcePublishFromStaged job. This is important because there are limits to the number of jobs you can run in a given time period. For more information about job limits and other API requirements, see [Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md).  
   
 ## URL Template  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKey&output=output  
 ```  
   
@@ -27,7 +29,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
-|key||**Required**. A Bing Maps Key associated with the Bing Maps Account that you want to query.|A Bing Maps Key obtained from the Bing Maps Account Center that is associated with the account you want to query. For information about how to get a Bing Maps Key, see [Getting a Bing Maps Key](../getting-started/getting-a-bing-maps-key.md).<br /><br /> Example: key=abc123def456ghi789abc123def456ghi789|  
+|key||**Required**. A Bing Maps Key associated with the Bing Maps Account that you want to query.|A Bing Maps Key obtained from the Bing Maps Account Center that is associated with the account you want to query. For information about how to get a Bing Maps Key, see [Getting a Bing Maps Key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).<br /><br /> Example: key=abc123def456ghi789abc123def456ghi789|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: output=xml|  
   
 ## Response  
@@ -50,7 +52,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
 ## Example  
  **Get a list of all dataflow and data source jobs that were submitted in the last 15 days.**  
   
-```  
+```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey  
 ```  
   
@@ -58,7 +60,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
   
  This example returns the following response that lists all the pending and completed jobs from the last 15 days.  
   
-```  
+```json
 {  
    "authenticationResultCode":"ValidCredentials",  
    "brandLogoUri":"http:\/\/spatial.virtualearth.net\/Branding\/logo_powered_by.png",  
@@ -150,7 +152,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
   
  This XML response is returned when output=xml is added to the URL.  
   
-```  
+```xml
 <Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">  
   <Copyright>Copyright © 2013 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
   <BrandLogoUri>http://spatial.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  
@@ -217,5 +219,4 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey
     </ResourceSet>  
   </ResourceSets>  
 </Response>  
-  
 ```

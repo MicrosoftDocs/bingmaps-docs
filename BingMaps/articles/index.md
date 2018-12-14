@@ -11,8 +11,11 @@ caps.latest.revision: 51
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
+
 # Bing Maps Articles
+
 The following articles provide background information and cross-API information for Bing Maps APIs.  
   
 |Article|Description|  

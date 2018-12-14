@@ -14,7 +14,9 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "msdn-migration/**",
+          "msdn_migration/**"
         ]
       }
     ],
@@ -28,7 +30,9 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**"
+          "_themes.pdf/**",
+          "msdn-migration/**",
+          "msdn_migration/**"
         ]
       }
     ],
@@ -36,7 +40,11 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/BingMaps/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "titleSuffix": "Bing Maps",
+      "ms.date": "12/03/2018",
+      "author": "v-chrfr",
+      "ms.service": "bing-maps"
     },
     "fileMetadata": {},
     "template": [],

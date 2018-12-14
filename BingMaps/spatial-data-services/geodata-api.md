@@ -11,6 +11,7 @@ caps.latest.revision: 17
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Geodata API
 Use the following URLs to request a set of polygons that describe the boundaries of a geographic entity, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address.  
@@ -27,13 +28,13 @@ Use the following URLs to request a set of polygons that describe the boundaries
   
  **Get the set of boundary polygons for an entity that contains the specified latitude and longitude.**  
   
-```  
+```url
 http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(latitude,longitude,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
 ```  
   
  **Get the set of boundary polygons for an entity that contains the specified address string. The address is geocoded to get a corresponding latitude and longitude.**  
   
-```  
+```url
 http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(address,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
 ```  
   
@@ -45,7 +46,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
 |Parameter|Description|Values|  
 |-|-|-|  
 |latitude, longitude|**An address or latitude and longituede is required.** A  latitude and longitude specifying a point inside the entity you are requesting.  For example, when you request the boundaries of the United States, you can specify any latitude-longitude pair that falls within the land area of the United States.|A set of double values representing degrees of latitude and longitude.<br /><br /> Valid range of latitude values: [-90, +90]<br /><br /> **Example**: 47.673099<br /><br /> Valid range of longitude values: [-180, +180]<br /><br /> **Example**: -122.11871|  
-|address|**An address or latitude and longitude is required.** An address stringthat is geocoded by the service to get latitude and longitude coordinates.<br /><br /> Note: This call will result in two individual usage transactions: RESTLocations (for geocoding) and RESTSpatialDataService:Geodata.   For more information about usage transactions, see [Understanding Bing Maps Transactions](../getting-started/understanding-bing-maps-transactions.md).|A string that contains address information such as street address, locality (such as a city), admin district (such as a state).<br /><br /> **Example**: ‘1 Microsoft Way Redmond WA 98052’|  
+|address|**An address or latitude and longitude is required.** An address stringthat is geocoded by the service to get latitude and longitude coordinates.<br /><br /> Note: This call will result in two individual usage transactions: RESTLocations (for geocoding) and RESTSpatialDataService:Geodata.   For more information about usage transactions, see [Understanding Bing Maps Transactions](../getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md).|A string that contains address information such as street address, locality (such as a city), admin district (such as a state).<br /><br /> **Example**: ‘1 Microsoft Way Redmond WA 98052’|  
 |LevelOfDetail|**Required.** The level of detail for the boundary polygons returned.|An integer between 0 and 3, where 0 specifies the coarsest level of boundary detail and 3 specifies the best.|  
 |entityType|**Required.** The entity type to return.<br /><br /> Note that not all entity types are available for each location.|A string that contains one of the following the entity types.<br /><br /> -   **CountryRegion**: Country or region<br /><br /> -   **AdminDivision1**: First administrative level within the country/region level, such as a state or a province.<br /><br /> -   **AdminDivision2**: Second administrative level within  the country/region level, such as a county.<br /><br /> -   **Postcode1**: The smallest post code category, such as a zip code.<br /><br /> -   **Postcode2**: The next largest post code category after Postcode1 that is created by aggregating Postcode1 areas.<br /><br /> -   **Postcode3**: The next largest post code category after Postcode2 that is created by aggregating Postcode2 areas.<br /><br /> -   **Postcode4**: The next largest post code category after Postcode3 that is created by aggregating Postcode3 areas.<br /><br /> -   **Neighborhood:** A section of a populated place that is typically well-known, but often with indistinct boundaries.<br /><br /> -   **PopulatedPlace**: A concentrated area of human settlement, such as a city, town or village.|  
 |getAllPolygons|**Required.** Specifies whether the response should include all of the boundary polygons for the requested entity or just return a single polygon that represents the main outline of the entity.|A Boolean value.<br /><br /> -   0 or false: Return only the main outline.<br />-   1 or true: Return all polygons.<br /><br /> **Example**: If you are requesting the boundary of the United States, a value of 1 or true returns a large number of polygons which include Alaska, Hawaii and various outlying islands. However, a value of value of 0 returns a single polygon representing the main outline of the continental United States.|  
@@ -63,7 +64,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
   
 -   JSON (application/json)  
   
- When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. For more information about Atom response formats, see [OData AtomPub Format](http://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
+ When the output format is set to Atom, the results are returned in the response as one or more Atom Entries. For more information about Atom response formats, see [OData AtomPub Format](https://www.odata.org/developers/protocols/atom-format) and the Atom examples in the **Examples** section.  
   
  **Response Fields**  
   
@@ -136,9 +137,9 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
 |PopulationClass|string|The approximate population within this entity.<br /><br /> **Example**: PopClass20000to99999|  
   
 ### Decompression Algorithm  
- The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](http://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
+ The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](https://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
   
-```  
+```csharp
 public const string safeCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";  
   
 private static bool TryParseEncodedValue(string value, out List<Location> parsedValue)  
@@ -206,16 +207,17 @@ private static bool TryParseEncodedValue(string value, out List<Location> parsed
   
 ```  
   
-## Examples  
- **EXAMPLE:** Get polygons that make up the PostCode1 entity that contains the coordinates (47.64054,-122.12934). Metadata is also requested.  
+## Examples
+
+**EXAMPLE:** Get polygons that make up the PostCode1 entity that contains the coordinates (47.64054,-122.12934). Metadata is also requested.  
   
-```  
+```url
 https://platform.bing.com/geo/spatial/v1/public/geodata?spatialFilter=GetBoundary(47.64054,-122.12934,1,'PostCode1',1,1,'en','us')&key=BingMapsKey  
 ```  
   
  URL with ATOM response  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <d:feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
   <bsi:copyright>© 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  
@@ -258,7 +260,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
   
  URL with JSON response  
   
-```  
+```json
 {  
    "d":{  
       "Copyright":"\u00a9 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.",  
@@ -299,7 +301,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
 }  
 ```  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <d:feed xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:bsi="http://schemas.microsoft.com/bing/spatial/2010/11/odata">  
   <bsi:copyright>© 2013 Microsoft and its suppliers.  This API and any results cannot be used or accessed without Microsoft's express written permission.</bsi:copyright>  

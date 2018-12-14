@@ -11,9 +11,11 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Accessing the Bing Maps REST Services using PHP
-This article will describe how to write a PHP application that can interact with the [Bing Maps REST Services](http://msdn.microsoft.com/en-us/library/ff701713.aspx) APIs.  
+
+This article will describe how to write a PHP application that can interact with [Bing Maps REST Services](../rest-services/index.md) APIs.  
   
  Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  
   
@@ -39,20 +41,21 @@ This article will describe how to write a PHP application that can interact with
   
  **Microsoft IIS 6 or 7** can also be used to host PHP applications, and we tested several of the examples on it to confirm that they work. If you are using IIS to host PHP, you may also want to install **FastCGI**, which improves performance of CGI applications in IIS. You can find a very detailed set of instructions for installing and configuring FastCGI and PHP at:  
   
--   IIS 6 - [http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
+-   IIS 6 - [https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
   
--   IIS 7 - [http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
+-   IIS 7 - [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
   
  There are many other servers that can be configured to host PHP, and you are free to use any of those instead if you are more familiar with their functionality.  
   
  Finally, in terms of a development environment, you can use anything from a text editor such as Windows Notepad to a full-fledged PHP IDE such as PHP Designer to write your code.  
   
-### PHP Starter Code  
- This article contains numerous samples of interacting with Bing Maps REST Services APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
+### PHP Starter Code
+
+This article contains numerous samples of interacting with Bing Maps REST Services APIs using PHP. If you are already familiar with PHP, you may not need any assistance creating and setting up a PHP page in which to include your Bing Maps code. However, if you need assistance getting started, you may want to being with the following simple PHP page, which includes a form that asks for the user’s Bing Maps Key, an address to be geocoded, and a zoom level for the map to be returned. Bing Maps Keys are discussed in the Authentication section below.  
   
  **Listing 1 - PHP starter code for working with Bing Maps REST Services APIs**  
   
-```  
+```html
 <html>  
   <head>  
     <title>Using PHP and Bing Maps REST Services APIs</title>  
@@ -81,13 +84,13 @@ This article will describe how to write a PHP application that can interact with
  We will use this simple page as a starting point for our Locations and Imagery API examples, building on it as necessary to show different options for searching.  
   
 ## Authentication  
- All Bing Maps REST Services APIs require authentication from the client each time they are called. In order to authenticate against any of the REST Services APIs, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All Bing Maps REST Services APIs require authentication from the client each time they are called. In order to authenticate against any of the REST Services APIs, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).  
   
  When you send an HTTP request to one of the REST Services APIs, which we will discuss in the next section of this article, you must include the Bing Maps Key as a parameter. For example, you might send an HTTP request like the one shown in Listing 2.  
   
  **Listing 2 - Authenticating using a Bing Maps key**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/US/NY/10007/New York/291 Broadway?output=xml&key=yourKeyHere  
 ```  
   
@@ -120,7 +123,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/NY/10007/New York/291 Broadway?
   
  **Listing 3 - URI format for geocoding by address**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/countryRegion/adminDistrict/postalCode/locality/addressLine?key=yourBingMapsKey  
 ```  
   
@@ -134,7 +137,7 @@ http://dev.virtualearth.net/REST/v1/Locations/countryRegion/adminDistrict/postal
   
  **Listing 4 - Geocoding a location by address using REST Services Locations API**  
   
-```  
+```php
 // URL of Bing Maps REST Services Locations API   
 $baseURL = "http://dev.virtualearth.net/REST/v1/Locations";  
   
@@ -149,14 +152,13 @@ $postalCode = str_ireplace(" ","%20",$_POST['zipcode']);
 // Compose URI for Locations API request  
 $findURL = $baseURL."/".$country."/".$adminDistrict."/".$postalCode."/".$locality."/"  
  .$addressLine."?output=xml&key=".$key;  
-  
 ```  
   
  For each of the parameters accepted from the user, we use the PHP **str_ireplace** method to encode the spaces in the URL with the %20 character so that the URI is correctly formed. We then append all of the parameters together in a URI string, which will look something like this:  
   
  **Listing 5 - REST Services Locations sample URI**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/US/ny/10007/new%20york/291%20broadway?output=xml&key=yourBingMapsKey  
 ```  
   
@@ -168,7 +170,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/ny/10007/new%20york/291%20broad
   
  **Listing 6 - Working with response data from the Locations API**  
   
-```  
+```php
 // get the response from the Locations API and store it in a string  
 $output = file_get_contents($findURL);  
   
@@ -182,16 +184,17 @@ $longitude =
  $response->ResourceSets->ResourceSet->Resources->Location->Point->Longitude;  
 ```  
   
- The response from a geocode operation may, of course, include multiple results, in which case **ResourceSet** would be an indexed array. **ResourceSets** includes an element, **EstimatedTotal**, which you can use to easily determine the number of results. Each Resource, in addition to point location information, also contains a **BoundingBox** element that indicates northeast and southwest points for use in determining an optimal map view for the results, as well as additional EntityType elements that contain further information (usually a fully formatted Address) about the location that was geocoded. You can find complete documentation for the information returned from the Locations API at [Location Data](../rest-services/location-data.md).  
+ The response from a geocode operation may, of course, include multiple results, in which case **ResourceSet** would be an indexed array. **ResourceSets** includes an element, **EstimatedTotal**, which you can use to easily determine the number of results. Each Resource, in addition to point location information, also contains a **BoundingBox** element that indicates northeast and southwest points for use in determining an optimal map view for the results, as well as additional EntityType elements that contain further information (usually a fully formatted Address) about the location that was geocoded. You can find complete documentation for the information returned from the Locations API at [Location Data](../rest-services/locations/location-data.md).  
   
-### Geocoding by Query  
- If you don’t want to provide all of the information required by the Address method, or you want to geocode a location in a country that does not have a supported URL, you can perform a geocode operation using a query instead. A query is an unstructured string, which might be something like “119 Spadina Ave, Toronto, Ontario”.  
+### Geocoding by Query
+
+If you don’t want to provide all of the information required by the Address method, or you want to geocode a location in a country that does not have a supported URL, you can perform a geocode operation using a query instead. A query is an unstructured string, which might be something like “119 Spadina Ave, Toronto, Ontario”.  
   
  The URI format for accessing the Locations API using a query is as follows:  
   
  **Listing 7 - URI format for geocoding by query**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/locationQuery?key=BingMapsKey  
 ```  
   
@@ -199,7 +202,7 @@ http://dev.virtualearth.net/REST/v1/Locations/locationQuery?key=BingMapsKey
   
  **Listing 8 - Geocoding a location by query using the REST Services Locations API**  
   
-```  
+```php
 // Store the query in a PHP variable (assuming you obtained it from the form)  
 $query = str_ireplace(" ","%20",$_POST['query']);  
   
@@ -216,20 +219,20 @@ $response = new SimpleXMLElement($output);
 $latitude =  
 $response->ResourceSets->ResourceSet->Resources->Location->Point->Latitude;  
 $longitude =  
-$response->ResourceSets->ResourceSet->Resources->Location->Point->Longitude;  
-  
+$response->ResourceSets->ResourceSet->Resources->Location->Point->Longitude;
 ```  
   
  Notice that the code is almost identical to that used for accessing the Locations API using an address; the only difference is the structure of the URI.  
   
-### Reverse Geocoding  
- You can use the Locations API to reverse geocode an address from a point as well. To reverse geocode, you provide a latitude and longitude representing a location on the map, and the Locations API will return location information (including formatted address) of whatever is at that location (street address or place). You will get an empty response (EstimatedTotal = 0) if Bing Maps is unable to find an address that matches the location you specified.  
+### Reverse Geocoding
+
+You can use the Locations API to reverse geocode an address from a point as well. To reverse geocode, you provide a latitude and longitude representing a location on the map, and the Locations API will return location information (including formatted address) of whatever is at that location (street address or place). You will get an empty response (EstimatedTotal = 0) if Bing Maps is unable to find an address that matches the location you specified.  
   
  The URI format for a reverse geocode request is as follows:  
   
  **Listing 9 - URI format for reverse geocoding by point**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Locations/point?key=BingMapsKey  
 ```  
   
@@ -237,7 +240,7 @@ http://dev.virtualearth.net/REST/v1/Locations/point?key=BingMapsKey
   
  **Listing 10 - Reverse geocoding using the Locations API**  
   
-```  
+```php
 $point = "43.64,-79.39";  
 $revGeocodeURL = $baseURL."/".$point."?output=xml&key=".$key;  
   
@@ -245,16 +248,16 @@ $rgOutput = file_get_contents($revGeocodeURL);
 $rgResponse = new SimpleXMLElement($rgOutput);  
   
 $address = $rgResponse->ResourceSets->  
- ResourceSet->Resources->Location->Address->FormattedAddress;  
-  
+ ResourceSet->Resources->Location->Address->FormattedAddress;
 ```  
   
  Note that the FormattedAddress element combines the street address, city, state, country, and postal code.  
   
- You can find complete information on the Locations API and its operations at [Locations](../rest-services/locations-api.md).  
+ You can find complete information on the Locations API and its operations at [Locations](../rest-services/locations/index.md).  
   
-## Working with the Imagery API  
- The Bing Maps REST Services Imagery API allows you to request a customized static map image based on information you specify in a URI. You can also request imagery metadata and map tile URLs. As with the Locations API, request URIs for the Imagery API must include parameters. For example, to request a static map, you must specify the center point of the map and/or any pushpins you want to appear on it, as well as other options such as map style, size, and zoom level.  
+## Working with the Imagery API
+
+The Bing Maps REST Services Imagery API allows you to request a customized static map image based on information you specify in a URI. You can also request imagery metadata and map tile URLs. As with the Locations API, request URIs for the Imagery API must include parameters. For example, to request a static map, you must specify the center point of the map and/or any pushpins you want to appear on it, as well as other options such as map style, size, and zoom level.  
   
  The Imagery API actually allows you to request maps based on three main types of input:  
   
@@ -266,21 +269,21 @@ $address = $rgResponse->ResourceSets->
   
  In all three of these cases, you can also provide one or more pushpin locations to be displayed on the map, as well as additional options.  
   
- We will focus on the first option (requesting a map by a center point) in this article; you can find the URI format and information about parameters for all three options at [Imagery](../rest-services/imagery-api.md).  
+ We will focus on the first option (requesting a map by a center point) in this article; you can find the URI format and information about parameters for all three options at [Imagery](../rest-services/imagery/index.md).  
   
 > [!NOTE]
 >  You can find the complete sample described in this section in the **Code Samples** section at the end of this article.  
   
-### Generating a Map using the Imagery API  
- We will begin this example by assuming that you have used the Locations API to geocode an address, as described in the previous section of this article. You will need to obtain the latitude and longitude coordinates of the geocoded location, as demonstrated in the previous section of this article.  
+### Generating a Map using the Imagery API
+
+We will begin this example by assuming that you have used the Locations API to geocode an address, as described in the previous section of this article. You will need to obtain the latitude and longitude coordinates of the geocoded location, as demonstrated in the previous section of this article.  
   
  The general URI format for getting an image by specifying a center point is:  
   
  **Listing 11 - General URI format for requesting a map from the Imagery API, using a center point**  
   
-```  
-http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel=zoomLevel&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&key=BingMapsKey  
-  
+```url
+http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel=zoomLevel&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&key=BingMapsKey
 ```  
   
  A brief description of the parameters for this URI follows:  
@@ -295,13 +298,13 @@ http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel
   
 -   **mapLayer** – This optional parameter allows you to specify additional layers to appear on top of the map. Currently the only option available is **TrafficFlow**.  
   
--   **pushpin** – This parameter allows you to specify one or more pushpins to appear on the generated map. You can include up to 18 sets of pushpin parameters URI. A pushpin must include a latitude and longitude at which the pushpin will be placed, and can also include an iconStyle (see [Pushpin Syntax and Icon Styles](../rest-services/pushpin-syntax-and-icon-styles.md) for a list of icon styles) and a label (two-character maximum). The format for a pushpin property is: `pushpin=latitude,longitude;iconStyle;label`. Example: `pushpin=47.620548,-122.34874;5;P1`  
+-   **pushpin** – This parameter allows you to specify one or more pushpins to appear on the generated map. You can include up to 18 sets of pushpin parameters URI. A pushpin must include a latitude and longitude at which the pushpin will be placed, and can also include an iconStyle (see [Pushpin Syntax and Icon Styles](../rest-services/common-parameters-and-types/pushpin-syntax-and-icon-styles.md) for a list of icon styles) and a label (two-character maximum). The format for a pushpin property is: `pushpin=latitude,longitude;iconStyle;label`. Example: `pushpin=47.620548,-122.34874;5;P1`  
   
  Assuming we already have a latitude and longitude available, the PHP code for generating a URI to access the Imagery API might look something like this:  
   
  **Listing 12 - Requesting a map image from the Imagery API**  
   
-```  
+```php
 // Save the base URL for the Imagery API to a string  
 $imageryBaseURL = "http://dev.virtualearth.net/REST/v1/Imagery/Map";  
   
@@ -313,19 +316,19 @@ $zoomLevel = "15";
   
 // Display the image in the browser    
 echo "<img src='".$imageryURL = $imageryBaseURL."/".$imagerySet."/".$centerPoint."/".$zoomLevel."?pushpin=".$pushpin."&key=".$key."'>";  
+```
   
-```  
+Notice that each time this page is loaded, a new image is requested from the Imagery API. The advantage of this is that the image will be updated if map data changes (e.g. streets are added/changed/removed). The disadvantage is that if the REST APIs are unavailable or the access point changes, the image will no longer load. In a real world scenario, you would likely want to cache a backup image in case of API unavailability.  
   
- Notice that each time this page is loaded, a new image is requested from the Imagery API. The advantage of this is that the image will be updated if map data changes (e.g. streets are added/changed/removed). The disadvantage is that if the REST APIs are unavailable or the access point changes, the image will no longer load. In a real world scenario, you would likely want to cache a backup image in case of API unavailability.  
-  
- The code in Listing 12 will produce a map image like figure 1 (assuming a geocoded address at 291 Broadway, New York, NY).  
+The code in Listing 12 will produce a map image like figure 1 (assuming a geocoded address at 291 Broadway, New York, NY).  
   
  **Figure1 - Results of retrieving an image using the Imagery API**  
   
  ![Results of retrieving image using Imagery Service](../articles/media/restphparticlefig2.png "Results of retrieving image using Imagery Service")  
   
-## Working with the Routes API  
- The Bing Maps Routes API is a REST web service that allows you to get routing information for two or more locations. As with the SOAP Routing service, the Routes API can provide routing information for both driving and walking routes, and is able to include additional layers such as traffic information in the response data.  
+## Working with the Routes API
+
+The Bing Maps Routes API is a REST web service that allows you to get routing information for two or more locations. As with the SOAP Routing service, the Routes API can provide routing information for both driving and walking routes, and is able to include additional layers such as traffic information in the response data.  
   
  A call to the Routes API requires a URI that specifies at least two, and up to twenty-five, waypoints. Waypoints can be identified by latitude and longitude coordinates, landmark names, or addresses. Waypoints are numbered (starting at 0) and the route is generated by using the waypoints in sequential order.  
   
@@ -347,7 +350,7 @@ echo "<img src='".$imageryURL = $imageryBaseURL."/".$imagerySet."/".$centerPoint
   
  **Listing 13 - General URI format for accessing the Routes API**  
   
-```  
+```url
 http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPoint2&wayPoint.n=wayPointn&optimize=optimize&routePathOutput=routePathOutput&distanceUnit=distanceUnit&key=BingMapsKey  
 ```  
   
@@ -355,7 +358,7 @@ http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPo
   
  **Listing 14 - A simple PHP form that obtains a Bing Maps Key, origin address, and destination address from the user**  
   
-```  
+```html
 <html>  
   <head>  
     <title>Using PHP and Bing Maps REST Services Routes API</title>  
@@ -386,7 +389,7 @@ http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPo
   
  **Listing 15 - Constructing a Routes API URI**  
   
-```  
+```php
 // URL of Bing Maps REST Services Routes API;   
 $baseURL = "http://dev.virtualearth.net/REST/v1/Routes";  
   
@@ -406,7 +409,6 @@ $routesURL =
   $baseURL."/".$travelMode."?wp.0=".$wayPoint0."&wp.1=".$wayPoint1  
    ."&optimize=".$optimize."&routePathOutput=".$routePathOutput  
    ."&distanceUnit=".$distanceUnit."&output=xml&key=".$key;  
-  
 ```  
   
  Note that the set of points returned when you specify **routePathOutput=points** is different (and in addition to) the maneuver points that are used to provide driving directions along the route. Whereas maneuver points represent only places along a route where the driver or walker must take action (e.g., take a turn), the **points** array includes all points required to draw the line representing the route on a map (including all curves in roads and other geographic features).  
@@ -415,22 +417,21 @@ $routesURL =
   
  **Listing 16 - Getting a response from the Routes API and working with the response as an XML object**  
   
-```  
+```php
 // Get output from Routes API and convert to XML element using php_xml  
 $output = file_get_contents($routesURL);    
 $response = new SimpleXMLElement($output);  
   
 // Extract and print number of routes from response  
 $numRoutes = $response->ResourceSets->ResourceSet->EstimatedTotal;  
-echo "Number of routes found: ".$numRoutes."<br>";  
-  
+echo "Number of routes found: ".$numRoutes."<br>";
 ```  
   
  Assuming the call produced a successful route, we can get the route instructions by looping through the itinerary items and pulling out the instruction text, as shown in  Listing 17.  
   
  **Listing 17 - Extracting and printing route instructions from Routes API response**  
   
-```  
+```php
 // Extract and print route instructions from response  
 $itinerary =   
   $response->ResourceSets->ResourceSet->Resources->Route->RouteLeg->ItineraryItem;  
@@ -441,8 +442,7 @@ for ($i = 0; $i < count($itinerary); $i++) {
   echo "<li>".$instruction."</li>";  
 }  
 echo "</ol>";  
-  
-```  
+```
   
  The code in Listing 17 will produce output something like figure 2.  
   
@@ -450,14 +450,14 @@ echo "</ol>";
   
  ![Output from code to check status of geocode job](../articles/media/restphparticlefig3.png "Output from code to check status of geocode job")  
   
- You can find a complete description of the Routes API and its options at [Routes](../rest-services/routes-api.md).  
+ You can find a complete description of the Routes API and its options at [Routes](../rest-services/routes/index.md).  
   
-## Conclusions and Further Reading  
- This article has demonstrated how to use PHP to access the three Bing Maps REST Services APIs. We have shown how you can geocode and reverse geocode locations using the Locations API, generate customized static maps using the Imagery API, and create routes using the Routes API.  
+## Conclusions and Further Reading
+
+This article has demonstrated how to use PHP to access the three Bing Maps REST Services APIs. We have shown how you can geocode and reverse geocode locations using the Locations API, generate customized static maps using the Imagery API, and create routes using the Routes API.  
   
  You can find full API documentation for the Bing Maps REST Services at: [Bing Maps REST Services](../rest-services/index.md)  
-  
- The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
+
   
 ## Code Samples  
  The following sections provide the complete code samples described in this article.  
@@ -465,7 +465,7 @@ echo "</ol>";
 ### Locations and Imagery Code Sample  
  Save this sample to a file named BingMaps_REST_LocationsSample.php.  This sample geocodes specific address information or a query using the Locations API and then displays a static map using the Imagery API.  
   
-```  
+```html
 <html>  
   <head>  
     <title>Using PHP and Bing Maps REST Services APIs</title>  
@@ -541,10 +541,11 @@ else
 </html>  
 ```  
   
-### Locations Reverse Geocode Sample  
- Save this sample to a file named BingMaps_REST_ReverseGeocodeSample.php. This sample shows how to use the Locations API to reverse-geocode a pair of latitude and longitude values.  
+### Locations Reverse Geocode Sample
+
+Save this sample to a file named BingMaps_REST_ReverseGeocodeSample.php. This sample shows how to use the Locations API to reverse-geocode a pair of latitude and longitude values.  
   
-```  
+```html
 <html>  
   <head>  
     <title>Using PHP and Bing Maps REST Services Locations API</title>  
@@ -586,10 +587,11 @@ else
 </html>  
 ```  
   
-### Routes Code Sample  
- Save this sample to a file named BingMaps_REST_RoutesSample.php. You will also need the BingMapsHelperFunctions code provided later in this section.  
+### Routes Code Sample
+
+Save this sample to a file named BingMaps_REST_RoutesSample.php. You will also need the BingMapsHelperFunctions code provided later in this section.  
   
-```  
+```html
 <html>  
   <head>  
     <title>Using PHP and Bing Maps REST Services Routes API</title>  
@@ -662,7 +664,7 @@ else
 ### BingMapsHelperFunctions Code Sample  
  Save this code to a file named BingMapsHelperFunctions.php. This PHP code is referenced in the Routes code sample.  
   
-```  
+```php
 <?php  
   
 function LatLongToPixel(&$x, &$y, $lat, $long, $clat, $clong, $zoom, $mapWidth, $mapHeight)  
@@ -779,7 +781,6 @@ function imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick = 1)
     );  
     imagefilledpolygon($image, $points, 4, $color);  
     return imagepolygon($image, $points, 4, $color);  
-    }  
-  
+    }
 ?>  
 ```

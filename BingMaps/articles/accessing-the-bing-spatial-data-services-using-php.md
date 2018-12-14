@@ -11,8 +11,10 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Accessing the Bing Spatial Data Services using PHP
+
 This article will describe how to write a PHP application that can interact with the Bing Spatial Data Services Geocode Dataflow API.  
   
  The Bing Spatial Data Services is a RESTful web service. Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  
@@ -31,11 +33,11 @@ This article will describe how to write a PHP application that can interact with
   
  **Microsoft IIS 6 or 7** can also be used to host PHP applications, and we tested several of the examples on it to confirm that they work. If you are using IIS to host PHP, you may also want to install **FastCGI**, which improves performance of CGI applications in IIS. You can find a very detailed set of instructions for installing and configuring FastCGI and PHP at:  
   
--   IIS 6 - [http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](http://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
+-   IIS 6 - [https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/](https://learn.iis.net/page.aspx/247/using-fastcgi-to-host-php-applications-on-iis-60/)  
   
--   IIS 7 - [http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
+-   IIS 7 - [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/](https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/)  
   
- To use the code in this article in the Windows environment, you will need to download the php_http extension from [http://downlaods.php.net/pierre](http://downloads.php.net/pierre/). For more information about which download to choose, see the **Which version do I choose?** on the PHP for Windows download page: [http://windows.php.net/download/](http://windows.php.net/download/).  
+ To use the code in this article in the Windows environment, you will need to download the php_http extension from [http://downlaods.php.net/pierre](https://downloads.php.net/pierre/). For more information about which download to choose, see the **Which version do I choose?** on the PHP for Windows download page: [https://windows.php.net/download/](https://windows.php.net/download/).  
   
  You will also need to activate the php_openssl extension. If you are using Wampserver, you can activate the php_openssl extension by selecting it from the WampServer taskbar menu under PHP->PHP extensions->php_openssl.  
   
@@ -48,7 +50,7 @@ This article will describe how to write a PHP application that can interact with
   
  **Listing 1 - PHP starter code for working with Bing Spatial Data Services Geocode Dataflow API**  
   
-```  
+```html
 <<html>  
   <head><title>Using the Bing Spatial Data Geocode Dataflow API</title></head>  
   <body>  
@@ -61,21 +63,21 @@ This article will describe how to write a PHP application that can interact with
 ```  
   
 ## Authentication  
- All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](http://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx).  
   
  When you send an HTTP request to the Geocode Dataflow API, which we will discuss in the next section of this article, you must include the Bing Maps Key as a parameter. For example, you might send an HTTP request like the one shown in Listing 2.  
   
  **Listing 2 - Authenticating using a Bing Maps Key**  
   
-```  
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=YourBingMapsKeyHere  
-  
+```url
+http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=YourBingMapsKeyHere
 ```  
   
  In all of the examples in this article, you will see the Bing Maps Key sent to the Bing Spatial Data Services Geocode Dataflow API in this way.  
   
-## Working with the Geocode Dataflow API  
- The Geocode Dataflow API is a REST web service that allows you to pass in a list of addresses to be geocoded. The API will attempt to geocode each of the requests and, when finished, provide a link to two sets of data: one set of data lists the results of the successfully geocoded addresses, and another lists any addresses that were not geocoded successfully. You can provide this data in XML, CSV, tab-delimited or pipe-delimited formats. The geocoded data is returned in the same format. As explained below, the Geocode Dataflow API requires that you include additional information in your HTTP request beyond the URI with parameters.  
+## Working with the Geocode Dataflow API
+
+The Geocode Dataflow API is a REST web service that allows you to pass in a list of addresses to be geocoded. The API will attempt to geocode each of the requests and, when finished, provide a link to two sets of data: one set of data lists the results of the successfully geocoded addresses, and another lists any addresses that were not geocoded successfully. You can provide this data in XML, CSV, tab-delimited or pipe-delimited formats. The geocoded data is returned in the same format. As explained below, the Geocode Dataflow API requires that you include additional information in your HTTP request beyond the URI with parameters.  
   
  Working with the Geocode Dataflow API involves the following steps:  
   
@@ -83,7 +85,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
      **Listing 3 - URI format for starting a geocode job with the Geocode Dataflow API**  
   
-    ```  
+    ```url
     http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=BingMapsKey  
   
     ```  
@@ -94,7 +96,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
      **Listing 4 - URI format for checking the status of a geocode job**  
   
-    ```  
+    ```url
     http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key=BingMapsKey  
     ```  
   
@@ -113,7 +115,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
  **Listing 5 - Sample XML file to be used as input for the Geocode Dataflow API**  
   
-```  
+```xml
 <GeocodeFeed>  
   <GeocodeEntity Id="001"  
              xmlns="http://schemas.microsoft.com/search/local/2010/5/geocode">  
@@ -147,13 +149,13 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=descriptio
   
 -   Tab-delimited  
   
- You can get complete details on the data structure required by the Geocode Dataflow API for all these formats at [Data Schema v1.0](../spatial-data-services/geocode-dataflow-data-schema-version-1-0.md).  
+ You can get complete details on the data structure required by the Geocode Dataflow API for all these formats at [Data Schema v1.0](../spatial-data-services/geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md).  
   
  To begin a geocode job, we can use the following PHP code:  
   
  **Listing 6 - Starting a geocode job using the Geocode Dataflow API**  
   
-```  
+```php
 $key = "Insert Your Bing Maps Key Here";  
 $url = "http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=MyJob&input=xml&output=xml&key=".$key;  
   
@@ -177,13 +179,13 @@ function do_post_request($url, $data, $optional_headers = null)
 }  
 ```  
   
- The sample code in Listing 6 includes a custom function, **do_post_request**, which generates and sends an HTTP request using the classes provided by the **php_http** extension. If this extension is not included in your version of PHP, you can download it from [http://downloads.php.net/pierre/](http://downloads.php.net/pierre/).  
+ The sample code in Listing 6 includes a custom function, **do_post_request**, which generates and sends an HTTP request using the classes provided by the **php_http** extension. If this extension is not included in your version of PHP, you can download it from [https://downloads.php.net/pierre/](https://downloads.php.net/pierre/).  
   
  The $response object returned in Listing 6 is an HTTP response. You can pull information out of it by extracting its body (which is in XML format) and then using the PHP XML classes to extract what you need, as shown in Listing 7.  
   
  **Listing 7 - Working with response data from the Geocode Dataflow request to start a geocode job**  
   
-```  
+```php
 // Convert the response body into an XML element so we can extract data  
 $responseBody = new SimpleXMLElement($response);  
   
@@ -202,7 +204,7 @@ echo " Job Status: ".$jobStatus."<br><br>";
   
  **Listing 8 - Checking the status of your geocode job**  
   
-```  
+```php
 // Call the API to determine the status of all geocode jobs associated with a Bing Maps key  
 echo "Checking status until complete...<br>";  
 while ($jobStatus != "Completed")   
@@ -233,7 +235,7 @@ while ($jobStatus != "Completed")
   
  **Listing 9 - Obtaining the URL to the successfully geocoded results for a geocode job**  
   
-```  
+```php
   
 //Iterate through the links provided with the first geocode job and extract the 'succeeded' link  
 $Links = $responseBody->ResourceSets->ResourceSet->Resources->DataflowJob->Link;  
@@ -250,7 +252,7 @@ foreach ($Links as $Link) {
   
  **Listing 10 - Getting the successfully geocoded results of a job**  
   
-```  
+```php
 // Access the URL for the successful requests, and convert response to an XML element  
 $successUrl .= "?output=xml&key=".$key;  
 $successResponse = file_get_contents($successUrl);  
@@ -261,7 +263,7 @@ $successResponseBody = new SimpleXMLElement($successResponse);
   
  **Listing 11 - Extracting data from successful geocode job results**  
   
-```  
+```php
 // Loop through the geocoded results and output addresses and lat/long coordinates  
 foreach ($successResponseBody->GeocodeEntity as $entity) {  
   echo $entity->GeocodeResponse->Address['FormattedAddress'],"<br>";  
@@ -278,17 +280,17 @@ foreach ($successResponseBody->GeocodeEntity as $entity) {
   
  Note that in Listing 11, we need to check which type of location has been provided with each result. Some results may include Rooftop Location coordinates, while others will have Interpolated Location coordinates. The code in Listing 11 prefers Rooftop Location coordinates, and only prints out Interpolated Location coordinates it the Rooftop ones do not exist.You can find complete information on the Geocode Dataflow API, as well as additional data samples and walkthroughs, in the Bing Spatial Data Services documentation at [Bing Spatial Data Services](../spatial-data-services/index.md).  
   
-## Conclusions and Further Reading  
- This article has demonstrated how to use PHP to access the Bing Spatial Data Services Geocode Dataflow API.  
+## Conclusions and Further Reading
+
+This article has demonstrated how to use PHP to access the Bing Spatial Data Services Geocode Dataflow API.  
   
  You can find full API documentation for the Bing Spatial Data Services at:  [Bing Spatial Data Services](../spatial-data-services/index.md)  
   
- The author of this article is Craig Wills at [Infusion Development](http://www.infusion.com/).  
   
 ## Complete PHP Sample Code  
  The following is the complete code sample discussed in this article. This sample runs off the data provided in Listing 5. You must also replace the placeholder text with your Bing Maps Key.  
   
-```  
+```php
 <html>  
   <head>  
     <title>Using the Bing Spatial Data Geocode Dataflow API</title>  

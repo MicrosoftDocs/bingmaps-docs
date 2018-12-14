@@ -11,12 +11,15 @@ caps.latest.revision: 11
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Understanding Scale and Resolution
-One of the more difficult questions to answer about a [Bing](http://bing.com/) map involves determining the exact scale or resolution of a particular image.  The answer is complicated as resolution depends on several factors including the current latitude and longitude. Scale is further dependent on screen resolution.  In this article we will look at the factors that affect scale and resolution and provide you with formulas you can use to calculate approximate values.  
+
+One of the more difficult questions to answer about a [Bing](https://bing.com/) map involves determining the exact scale or resolution of a particular image.  The answer is complicated as resolution depends on several factors including the current latitude and longitude. Scale is further dependent on screen resolution.  In this article we will look at the factors that affect scale and resolution and provide you with formulas you can use to calculate approximate values.  
   
 ## The Mercator Projection  
- The first problem with both scale and resolution is that the world is neither flat, nor spherical.  Any flat representation of the planet is therefore a compromise between accuracy and convenience.  The [Mercator projection](http://en.wikipedia.org/wiki/Mercator_projection) is one of the traditional map projections and offers some very compelling advantages:  
+
+The first problem with both scale and resolution is that the world is neither flat, nor spherical.  Any flat representation of the planet is therefore a compromise between accuracy and convenience.  The [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection) is one of the traditional map projections and offers some very compelling advantages:  
   
 -   The map is conformal.  In other words, that means that the scale is constant around any position.  In other words, once we have our "x" scale, we also know our "y" scale for a map segment.  
   
@@ -28,14 +31,14 @@ One of the more difficult questions to answer about a [Bing](http://bing.com/) m
   
  The practical effect of using the Mercator projection is that our local maps are easy to understand and draw, but that the scale and resolution are going to change as a function of latitude and longitude.  
   
-### Calculating Resolution  
+### Calculating Resolution
+
  Map resolution is a function of the latitude, the zoom level, and a constant value.  The constant is based on the diameter of the Earth and the equations Microsoft used to set the zoom levels.  
   
  At any latitude and zoom level, you can determine the scale by using the following equation:  
   
-```  
-Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)  
-```  
+`Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)`
+
   
  Remember that the zoom level goes from 1 to 19, and that latitude goes from -90 to 90 (assuming your cosine function works with degrees; if you need radians, multiply the latitude by Pi/180).  The equation naturally fails if you get too close to either pole, as the Mercator projection also fails when you get too close to the poles.  
   
@@ -64,11 +67,10 @@ Map resolution = 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel)
   
  The equation becomes:  
   
-```  
-Map scale = 1 : (ScreenRes pixels/inch * 39.37 inches/meter * 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel))  
-```  
+`Map scale = 1 : (ScreenRes pixels/inch * 39.37 inches/meter * 156543.04 meters/pixel * cos(latitude) / (2 ^ zoomlevel))`
   
  For example, assuming a typical screen resolution of 85 pixels/inch and a zoom level of 13, you would have a resolution of 1 : 85 * 39.37 * 19.11 or 1 : 63950.  That means that every inch on the screen translates to 63,950 inches, or about 1 mile.  For those metrically inclined, that would be 1 cm on the screen mapping to 63950 centimeters, or about 0.64 kilometers.  
   
-### Conclusion  
+### Conclusion
+
  In practical terms, you shouldn't ever really need to worry about resolution or scale for most mapping tasks.  Just use the built in scale and let Microsoft do the math.  However, if you need to precisely map your points or calculate your own distances, you should be familiar with both equations described above.

@@ -1,0 +1,26 @@
+- name: Bing Maps Coverage
+  href: index.md
+  maintainContext: true 
+  items: 
+    - name: Bing Maps Geographic Coverage
+      href: geographic-coverage.md
+    - name: Bing Maps Traffic Coverage
+      href: traffic-coverage.md
+    - name: Bing Maps Transit Coverage
+      href: transit-coverage/index.md
+      maintainContext: true 
+      items: 
+        - name: Africa
+          href: transit-coverage/africa.md
+        - name: Asia / Australia / Pacific Islands
+          href: transit-coverage/asia-australia-pacific-islands.md
+        - name: Europe
+          href: transit-coverage/europe.md
+        - name: Middle East
+          href: transit-coverage/middle-east.md
+        - name: North America
+          href: transit-coverage/north-america.md
+        - name: South America
+          href: transit-coverage/south-america.md
+    - name: Truck Routing Coverage
+      href: truck-routing-coverage.md

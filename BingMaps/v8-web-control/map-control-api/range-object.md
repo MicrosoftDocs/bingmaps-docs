@@ -1,0 +1,23 @@
+---
+title: "Range Object | Microsoft Docs"
+ms.custom: ""
+ms.date: "02/28/2018"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: b4597a73-a453-4ee2-81e5-f0ff074f8d21
+caps.latest.revision: 2
+author: "rbrundritt"
+ms.author: "richbrun"
+manager: "stevelom"
+ms.service: "bing-maps"
+---
+# Range Object
+
+The following describes the Range object returned by the maps **getZoomRange** function.
+
+| Name     | Type     | Description        |
+|----------|----------|--------------------|
+| min      | number   | The minimum value. |
+| max      | number   | The maximum value. |

@@ -11,12 +11,15 @@ caps.latest.revision: 8
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
+ms.service: "bing-maps"
 ---
 # Bing Maps Tile System
+
 Bing Maps provides a world map that users can directly manipulate to pan and zoom.  To make this interaction as fast and responsive as possible, we chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display.  This document describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the Bing Maps Tile System.  
   
 ## Map Projection  
- To make the map seamless, and to ensure that aerial images from different sources line up properly, we have to use a single projection for the entire world.  We chose to use the **Mercator projection**, which looks like this:  
+
+To make the map seamless, and to ensure that aerial images from different sources line up properly, we have to use a single projection for the entire world.  We chose to use the **Mercator projection**, which looks like this:  
   
  ![150afcdc&#45;99eb&#45;4296&#45;9948&#45;19c0a65727a3](../articles/media/150afcdc-99eb-4296-9948-19c0a65727a3.jpg "150afcdc-99eb-4296-9948-19c0a65727a3")  
   
@@ -123,7 +126,7 @@ Bing Maps provides a world map that users can directly manipulate to pan and zoo
 ### Sample Code  
  The following sample C# code illustrates how to implement the functions described in this document.  These functions can be easily translated into other programming languages as needed.  
   
-```  
+```CSharp
   
 //------------------------------------------------------------------------------  
 // <copyright company="Microsoft">  
