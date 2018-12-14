@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 
 Description of a successful [Local Insights](local-insights.md) request. Please see [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md) for a list of business types.
 
-## `LocalInsightsResponse` 
+## `LocalInsightsResponse`
 
 |JSON | XML | Field Description |
 |-----|-----|-------------------|
@@ -34,12 +34,12 @@ Description of a successful [Local Insights](local-insights.md) request. Please 
 }
 ```
 
-## Business Type Resource
+## Business Category Type Resource
 
 |JSON | XML | Field Description |
 |-----|-----|-------------------|
-|`typeName`|`TypeName`| String name/ID for the specified category. |
-|`typeSummary` | `TypeSummary`| Summary of how many entities fall under this type, given the specified time or driving limits.<br /><br />Example: `5 Department Stores in 30 Minutes by Driving`|
+|`categoryTypeName`|`CategoryTypeName`| String name/ID for the specified category. |
+|`categoryTypeSummary` | `CategoryTypeSummary`| Summary of how many entities fall under this type, given the specified time or driving limits.<br /><br />Example: `5 Department Stores in 30 Minutes by Driving`|
 |`entities` | `Entities`| List of entity resources. |
    
 
@@ -48,3 +48,55 @@ Description of a successful [Local Insights](local-insights.md) request. Please 
 |JSON | XML | Field Description |
 |-----|-----|-------------------|
 |`entityName` | `EntityName` | Name of entity. |
+|`latitude`|`Latitude`| Latitude of entity. |
+|`longitude`|`Longitude`| Longitude of entity.|
+
+## Example
+
+```json
+{
+   "__type": "LocalInsightsResponse:http://schemas.microsoft.com/search/local/ws/rest/v1",
+   "categoryTypeResults": [
+   {
+      "categoryTypeName": "Parks",
+      "categoryTypeSummary": "5 Parks in 10 Miles by Driving",
+      "entities": [
+         {
+         "entityName": "Richmond Beach Center Park",
+         "latitude": 47.77205339744016,
+         "longitude": -122.38522949061662
+         },
+         {
+         "entityName": "Meadowdale Playfields",
+         "latitude": 47.84778315817534,
+         "longitude": -122.32521969622377
+         },
+         {
+         "entityName": "Drug Rehab Lake Forest Park",
+         "latitude": 47.7546081542969,
+         "longitude": -122.277923583984
+         },
+         {
+         "entityName": "Lake Forest Park City Hall",
+         "latitude": 47.75391081186926,
+         "longitude": -122.27754771953607
+         },
+         {
+         "entityName": "Dogwood Play Park",
+         "latitude": 47.72104,
+         "longitude": -122.29211
+         }
+      ]
+   },
+   {
+      "categoryTypeName": "Parking",
+      "categoryTypeSummary": "0 Parking in 10 Miles by Driving",
+      "entities": []
+   }
+   ],
+   "origin": {
+   "latitude": 47.811091,
+   "longitude": -122.369512
+   }
+}
+```
