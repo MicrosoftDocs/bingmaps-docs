@@ -94,7 +94,7 @@ Elevation calculations can vary based on the model of the Earth used and the zoo
   
  **Earth model**: The Elevations API uses two Earth models – an ellipsoid model that is equivalent to a GPS calculation, and geoid sea level model that is what is commonly referred to as altitude above sea level.  
   
- The ellipsoid model approximates the Earth as an ellipsoid and uses the [World Geodetic System (WGS84)](http://en.wikipedia.org/wiki/World_Geodetic_Systemhttp://en.wikipedia.org/wiki/World_Geodetic_System). With the ellipsoid model, the elevation is calculated as a height above the ellipsoid.  
+ The ellipsoid model approximates the Earth as an ellipsoid and uses the [World Geodetic System (WGS84)](https://en.wikipedia.org/wiki/World_Geodetic_System). With the ellipsoid model, the elevation is calculated as a height above the ellipsoid.  
   
  The geoid sea level model is an approximation of Mean Sea Level that uses an equipotential surface of the Earth’s gravitational field. The geoid model uses the Earth Gravitational Model 2008 (EGM2008 2.5’). Because gravity varies by location, the geoid sea level model is not a smooth shape like the ellipsoid model.  
   
@@ -102,7 +102,7 @@ Elevation calculations can vary based on the model of the Earth used and the zoo
   
  The following diagram shows how the ellipsoid and geoid sea level models can vary and how elevation is measured for both models.  
   
- ![Ellipsoid and Geoid Sea Level elevatoin values](../media/restservices-elevationearthmodels.png "Ellipsoid and Geoid Sea Level elevatoin values")  
+ ![Ellipsoid and Geoid Sea Level elevation values](../media/restservices-elevationearthmodels.png "Ellipsoid and Geoid Sea Level elevatoin values")  
   
  **Zoom level** : A zoom level is returned in the response, and reflects the resolution of the data used to compute the elevation. A higher zoom level indicates higher resolution data and more accurate elevation values. At lower zoom levels, the data is further apart and interpolated points are less accurate. For information about the data resolution at different zoom levels, see [Understanding Scale and Resolution](../../articles/understanding-scale-and-resolution.md).  
   

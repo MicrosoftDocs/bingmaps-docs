@@ -1,9 +1,233 @@
 - path: rest-services
   links:
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701707.aspx
+      old-docs:
+      new-docs: common-response-description.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj870778.aspx
+      old-docs:
+      new-docs: json-data-contracts.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701703.aspx
+      old-docs:
+      new-docs: status-codes-and-error-handling.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt823633.aspx
+      old-docs:
+      new-docs: directly-accessing-the-bing-maps-tiles.md
+    - msdn: https://msdn.microsoft.com/en-us/library/dn554305.aspx
+      old-docs:
+      new-docs: release-history.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh881827.aspx
+      old-docs:
+      new-docs: developer-resources.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701702.aspx
+      old-docs:
+      new-docs: getting-started-with-the-bing-maps-rest-services.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441727.aspx
+      old-docs:
+      new-docs: whats-new-rest-services.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441728.aspx
+      old-docs:
+      new-docs: getting-traffic-incident-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj819168.aspx
+      old-docs:
+      new-docs: using-the-rest-services-with-net.md
     - msdn: https://msdn.microsoft.com/en-us/library/ff701713.aspx
       old-docs: index.md
       new-docs: index.md
-
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701723.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701720.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/base-url-structure.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701709.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/culture-parameter.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701701.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/output-parameters.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701704.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/user-context-parameters.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814661.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/asynchronous-requests.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701726.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/location-and-area-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701719.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/pushpin-syntax-and-icon-styles.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441729.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/supported-culture-codes.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt847178.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/location-and-recognition-entity-types.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt832793.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/type-identifiers/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt832794.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/type-identifiers/see-do-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt832800.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/type-identifiers/eat-drink-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt832802.aspx
+      old-docs:
+      new-docs: common-parameters-and-types/type-identifiers/shop-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701715.aspx
+      old-docs:
+      new-docs: locations/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701714.aspx
+      old-docs:
+      new-docs: locations/find-a-location-by-address.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701710.aspx
+      old-docs:
+      new-docs: locations/find-a-location-by-point.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701711.aspx
+      old-docs:
+      new-docs: locations/find-a-location-by-query.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt847173.aspx
+      old-docs:
+      new-docs: locations/location-recognition.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt832854.aspx
+      old-docs:
+      new-docs: locations/local-search.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701725.aspx
+      old-docs:
+      new-docs: locations/location-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj158959.aspx
+      old-docs:
+      new-docs: elevations/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj158961.aspx
+      old-docs:
+      new-docs: elevations/get-elevations.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj158957.aspx
+      old-docs:
+      new-docs: elevations/elevation-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/jj158958.aspx
+      old-docs:
+      new-docs: elevations/point-compression-algorithm.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701721.aspx
+      old-docs:
+      new-docs: imagery/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff701724.aspx
+      old-docs:
+      new-docs: imagery/get-a-static-map.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff701716.aspx
+      old-docs:
+      new-docs: imagery/get-imagery-metadata.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff701712.aspx
+      old-docs:
+      new-docs: imagery/imagery-metadata.md
+    - msdn: https://msdn.microsoft.com/en-US/library/hh667439.aspx
+      old-docs:
+      new-docs: imagery/static-map-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff701705.aspx
+      old-docs:
+      new-docs: routes/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt827298.aspx
+      old-docs:
+      new-docs: routes/calculate-a-distance-matrix.md
+    - msdn: https://msdn.microsoft.com/en-US/library/ff701717.aspx
+      old-docs:
+      new-docs: routes/calculate-a-route.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt814923.aspx
+      old-docs:
+      new-docs: routes/calculate-a-truck-route.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt814921.aspx
+      old-docs:
+      new-docs: routes/calculate-an-isochrone.md
+    - msdn: https://msdn.microsoft.com/en-us/library/ff967514.aspx
+      old-docs:
+      new-docs: routes/calculate-routes-from-major-roads.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt827296.aspx
+      old-docs:
+      new-docs: routes/distance-matrix-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814920.aspx
+      old-docs:
+      new-docs: routes/isochrone-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg650392.aspx
+      old-docs:
+      new-docs: routes/maneuver-types.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt270292.aspx
+      old-docs:
+      new-docs: routes/route-data.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt814926.aspx
+      old-docs:
+      new-docs: routes/snap-points-to-roads.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814928.aspx
+      old-docs:
+      new-docs: routes/snap-to-road-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441731.aspx
+      old-docs:
+      new-docs: routes/warning-types.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt829691.aspx
+      old-docs:
+      new-docs: autosuggest.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt829726.aspx
+      old-docs:
+      new-docs: timezone/index.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt829733.aspx
+      old-docs:
+      new-docs: timezone/convert-local-time-zone.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt829732.aspx
+      old-docs:
+      new-docs: timezone/find-time-zone.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt829734.aspx
+      old-docs:
+      new-docs: timezone/list-time-zones.md
+    - msdn: https://msdn.microsoft.com/en-US/library/mt829735.aspx
+      old-docs:
+      new-docs: timezone/time-zone-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441725.aspx
+      old-docs:
+      new-docs: traffic/index.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh441726.aspx
+      old-docs:
+      new-docs: traffic/get-traffic-incidents.md
+    - msdn: https://msdn.microsoft.com/en-US/library/hh441730.aspx
+      old-docs:
+      new-docs: traffic/get-incident-data.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt827294.aspx
+      old-docs:
+      new-docs: examples/distance-matrix-asynchronous-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt827295.aspx
+      old-docs:
+      new-docs: examples/distance-matrix-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt827293.aspx
+      old-docs:
+      new-docs: examples/distance-matrix-histogram-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg636957.aspx
+      old-docs:
+      new-docs: examples/driving-route-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/hh148136.aspx
+      old-docs:
+      new-docs: examples/driving-route-using-tolerance-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg636956.aspx
+      old-docs:
+      new-docs: examples/driving-route-with-route-path-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt845658.aspx
+      old-docs:
+      new-docs: examples/isochrone-asynchronous-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814919.aspx
+      old-docs:
+      new-docs: examples/isochrone-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814927.aspx
+      old-docs:
+      new-docs: examples/snap-to-road-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg636958.aspx
+      old-docs:
+      new-docs: examples/transit-route-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt829329.aspx
+      old-docs:
+      new-docs: examples/truck-route-asynchronous-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/mt814924.aspx
+      old-docs:
+      new-docs: examples/truck-route-example.md
+    - msdn: https://msdn.microsoft.com/en-us/library/gg636955.aspx
+      old-docs:
+      new-docs: examples/walking-route-example.md
 - path: v8-web-control
   links: 
     - msdn: https://msdn.microsoft.com/en-us/library/mt712556.aspx

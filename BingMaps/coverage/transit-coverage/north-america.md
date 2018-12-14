@@ -557,7 +557,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New York|Suffolk County|[Suffolk County Transit](http://www.sct-bus.org)|
 |North Carolina|Asheville|[Asheville Redefines Transit](https://www.ashevillenc.gov/Departments/Transit.aspx)| 
 |North Carolina|Chapel Hill|[Chapel Hill Transit](https://www.townofchapelhill.org/town-hall/departments-services/transit| 
-|North Carolina|Charlotte|[CATS](https://www.ridetransit.org)| 
+|North Carolina|Charlotte|[CATS](http://www.ridetransit.org)| 
 |North Carolina|Concord|[Concord Kannapolis Area Transit](http://www.ckrider.com/)| 
 |North Carolina|Durham|[Duke Transit](https://parking.duke.edu/)| 
 |North Carolina|Fayetteville|[FAST](https://www.ridefast.net/)| 
