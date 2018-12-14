@@ -71,6 +71,10 @@
         href: routes/snap-points-to-roads.md
       - name: Route Data
         href: routes/route-data.md
+      - name: Local Insights
+        href: routes/local-insights.md
+      - name: Local Insights Data
+        href: routes/local-insights-data.md
       - name: Manuever Types
         href: routes/maneuver-types.md
       - name: Warning Types
@@ -101,7 +105,7 @@
         href: timezone/list-time-zones.md
       - name: Time Zone Data
         href: timezone/time-zone-data.md
-  - name: Common Paramaters and Types
+  - name: Common Parameters and Types
     href: common-parameters-and-types/index.md
     maintainContext: true
     items:

@@ -24,6 +24,7 @@ Use the Routes API to create a route that includes two or more locations and to 
 |[Calculate a Truck Route](calculate-a-truck-route.md)|Calculate routes which take into consideration truck attributes. Such as size, weight, and type of cargo.|  
 |[Calculate Routes from Major Roads](calculate-routes-from-major-roads.md)|Get driving routes to a location from major roads in four directions (West, North, East and South)|  
 |[Snap Points to Roads](snap-points-to-roads.md)|Take GPS points and snap them to the nearest, most logical road segment to form a path.|  
+|[Local Insights](local-insights.md)| Returns local business entities centered at a location within a maximum driving time or distance traveled.|
 |[Route Data](route-data.md)|View response field definitions|  
 |[Maneuver Types](maneuver-types.md)|View maneuver type definitions|  
 |[Warning Types](warning-types.md)|View warning type definitions|  

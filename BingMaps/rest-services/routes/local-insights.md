@@ -30,18 +30,18 @@ Successful synchronous Local Insights API calls return a `LocalInsights` Respons
 
 #### Get Local Insights By Travel Time
 
-Get a list of local insights at a waypoint – specified either as a coordinate or an address query – with a maximal traveling time radius specified by the `maxTime` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `types` parameter. The time unit is specified with `timeUnit` as either `minute` or `second` and the only permitted value of `optimize` is `time`.
+Get a list of local insights at a waypoint – specified either as a coordinate or an address query – with a maximal traveling time radius specified by the `maxTime` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The time unit is specified with `timeUnit` as either `minute` or `second` and the only permitted value of `optimize` is `time`.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}&maxTime={MaxTime}&timeUnit={second_or_minute}&types={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}&maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsAPIKey}
 ```
 
 #### Get Local Insights By Travel Distance
 
-Get a list of local insights at a waypoint – specified either as a coordinate pair or an address query – with a maximal traveling distance radius specified by the `maxDistance` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `types` parameter. The distance unit is specified with `distanceUnit` as either `mile` or `kilometer` and the only permitted value of `optimize` is `distance`. 
+Get a list of local insights at a waypoint – specified either as a coordinate pair or an address query – with a maximal traveling distance radius specified by the `maxDistance` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The distance unit is specified with `distanceUnit` as either `mile` or `kilometer` and the only permitted value of `optimize` is `distance`. 
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&types={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsAPIKey}
 ```
 
 > [!NOTE]
@@ -63,7 +63,7 @@ See the [Asynchronous Requests](../common-parameters-and-types/asynchronous-requ
 Asynchronous GET Local Insights call by time.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxTime={MaxTime}&timeUnit={second_or_minute}&types={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsAPIKey}
 ```
 
 #### Asynchronous Get Local Insights by Distance
@@ -71,7 +71,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordina
 Asynchronous GET Local Insights call by distance.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&types={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsAPIKey}
 ```
 
 #### Get Status of Asynchronous Request by RequestID
@@ -96,7 +96,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsyncCallback?requestId=
 |`timeUnit` |`tu` |**Optional**. The unit of time for the parameter `maxTime`. |A string: either `second` or `minute`.<br /><br />Default: `second`|
 |`maxDistance`  |`maxDist` | **Required, if `travelMode` is Driving or Walking.** The longest possible distance used define the geographic region in which to search for local entities.<br /><br />**Note**: Distance-based Local Insight API calls are unavailable for transit.<br /><br />**Note**: Cannot be used when `maxTime` is specified.|Any positive integer less than or equal to 50 miles.<br /><br />*Example*: `maxDistance = 40` |
 |`distanceUnit` |`du` | **Optional**. The unit of distance for the `maxDistance` parameter. |Possible values:<br /><br />-	`mile` or `mi`<br />-	`kilometer` or `km`<br /><br />Default: `kilometer`|
-|`type`||**Required**. A comma separated list of type IDs. | A comma separated list of string type IDs. See the [Type IDs](../common-parameters-and-types/type-identifiers/index.md) for the complete list of possible type ID values.<br />*Example*: `types = MovieTheaters,Parks` |
+|`type`||**Required**. A comma separated list of type IDs. | A comma separated list of string type IDs. See the [Type IDs](../common-parameters-and-types/type-identifiers/index.md) for the complete list of possible type ID values.<br />*Example*: `type = MovieTheaters,Parks` |
 |`dateTime` |`dt` | **Optional, available only if `travelModel` is Driving or Transit**. The datetime time stamp used to calculate isochrone routes when the `maxTime` parameter is specified.|A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for [DateTime values, see DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx).<br />*Examples*:<br />- `dateTime = 03/01/2011 05:42:00`<br />- `dateTime = 05:42:00` [assumes the current day]<br />- `dateTime=03/01/2011` [assumes the current time]         |
 |`optimize` |`optmz` |**Optional**. Specifies what parameters to use to optimize the isochrone route.| One of the following values:<br />- `distance`: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br />- `time`: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br /><br />Default: `time`<br /><br />*Example*: `optimize = time`.|
 |`startTime`| | __Optional for Driving, but required if making asynchronous Driving request__. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. | A date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br /><br />*Example*: `startTime = 2017-06-15T8:00:00-07:00`|
