@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# What's New
+# What's New with Bing Maps
 
 The following list describes the latest new features on the Bing Maps Dev Portal.
   

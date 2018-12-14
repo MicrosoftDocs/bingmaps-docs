@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# What's New
+# What's New with Bing Map's V8 Web Controls
 
 The following is a list of key features added to the Bing Maps V8 Web control dring one of its regular updates. Details about smaller changes to the API interface (i.e. new function parameters) can be found in the [Bing Maps V8 TypeScript Definition commit history](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions/commits/master). 
 
