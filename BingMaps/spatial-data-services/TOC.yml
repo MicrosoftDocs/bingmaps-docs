@@ -7,8 +7,7 @@
     - name: "What's New"
       href: whats-new-in-bing-spatial-data-services.md
     - name: "Public Data Sources"
-      href: index.md
-      maintainContext: true
+      href: public-data-sources/index.md    
       items:
         - name: "FourthCoffeeSample Data Source"
           href: public-data-sources/fourthcoffeesample.md
