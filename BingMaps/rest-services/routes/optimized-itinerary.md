@@ -14,13 +14,15 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
+
+
 # Optimize Multiple Itineraries
 
 The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the delivery locations, expected delivery durations, and driving directions for each item assigned to that agent. 
 
-Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be also be specified to either `TravelTime` or `TravelDistance`; this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
+Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be set to either `TravelTime` or `Distance`: this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
 
-A maximum of two agent shifts are allowed for synchronous Optimize Itinerary API requests, meaning that only either 
+A maximum of two agent shifts are allowed for synchronous Multi-Itinerary Optimization API requests, meaning that only either 
 
 - (a) two agents, each with a single shift, or 
 - (b) a single agent with two or fewer shifts 
@@ -29,7 +31,7 @@ can be used with synchronous calls. For synchronous calls, there is also a maxim
 
 If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen of fewer shifts are allowed, and up to one hundred itinerary items may be scheduled.  
 
-This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 16`) where each inspector has one more shifts and the number of shifts shall not exceed one hundred. 
+This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 16`) where each inspector has one more shifts and the number of shifts shall not exceed (16) sixteen. There is a limit of 100 food deliveries.
 
 Below is a visual representation of each of the `M` agents and their assigned itineraries, where each agent `1`, `2`, ..., `M` can have a variable number of shifts `4`, `X`, ..., `Z`.
 
@@ -37,9 +39,9 @@ Below is a visual representation of each of the `M` agents and their assigned it
 
 For a more in-depth example of the Multi-Itinerary API, see [Create an Optimized Itinerary](../../articles/create-an-optimized-itinerary.md).
 
-The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItinerary` resource which includes a list of agent itineraries with travel instructions and route information. 
+The Multi-Itinerary Optimization API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItinerary` resource which includes a list of agent itineraries with travel instructions and route information. 
 
-For more information about these resources, see [Optimized Itinerary Data](optimized-itinerary-Data.md).
+For more information about these resources, see [Multi-Itinerary Optimization Data](optimized-itinerary-Data.md).
 
 See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests.md) for how to use Bing Maps REST asynchronous requests.
 
@@ -157,40 +159,40 @@ See [Optimized Itinerary Data](optimized-Itinerary-data.md) for information on r
 
 ## Examples
 
-The Optimized Itinerary API uses a special syntax to specify the working shifts for each agent and item information. For example, suppose we have two agents, which we'll name `agentX` and `agentY`, with the following shift and location information. Locations can be specified using coordinates or an address string, and times are given in local datetime strings.
+The Multi-Itinerary Optimization API uses a special syntax to specify the working shifts for each agent and item information. For example, suppose we have two agents, which we'll name `agentX` and `agentY`, with the following shift and location information. Locations can be specified using coordinates or an address string, and times are given in local datetime strings.
 
 |Agent|Shift Start Time|Start Location|Shift End Time|End Location|
 |:---:|----------------|--------------|--------------|------------|
-|`agentX`|`11/09/2017+08:00:00`|`47.694117204371,-122.378188970181`|`11/09/2017+20:00:00`|`47.7070790545669,-122.355226696231`|
-|`agentY`|`11/09/2017+08:00:00`|`47.694117204371,-122.378188970181`|`11/09/2017+20:00:00`|`1317 E Republican St, Seattle, WA 98102`|
+|`agentX`|`2018-12-24T08:00:00`|`47.694117204371,-122.378188970181`|`2018-12-24T20:00:00`|`47.7070790545669,-122.355226696231`|
+|`agentY`|`2018-12-24T08:00:00`|`47.694117204371,-122.378188970181`|`2018-12-24T20:00:00`|`1317 E Republican St, Seattle, WA 98102`|
 
 This information is expressed in the Agent/Shift information format below:
 
 ```url
 itineraryAgents=
-    agentX_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+20:00:00|47.7070790545669,-122.355226696231;
-    agentY_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+20:00:00|1317 E Republican St, Seattle, WA 98102
+    agentX_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T20:00:00|47.7070790545669,-122.355226696231;
+    agentY_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T20:00:00|1317 E Republican St, Seattle, WA 98102
 ```
 
 The following are sample Itinerary Items information. 
 
 Opening Time|Closing Time|Dwell Time|Location|Priority|
 |------------|------------|----------|--------|--------|
-|`11/09/2017+09:00:00`| `11/09/2017+18:00:00` | `01:31:08.3850000`| `47.692290770423,-122.385954752402` | 5 |
-|`11/09/2017+09:00:00` | `11/09/2017+18:00:00` | `01:00:32.6770000` | `47.6798098928389,-122.383036445391` | 88 |
-|`11/09/2017+09:00:00`|`11/09/2017+18:00:00`|`01:18:33.1900000` | `47.6846639223203,-122.364839942855` | 1|
-|`11/09/2017+09:00:00` | `11/09/2017+18:00:00` | `01:04:48.7630000` | `47.6867440824094,-122.354711700877` | 3|
-|`11/09/2017+09:00:00` | `11/09/2017+18:00:00` | `02:34:48.5430000` | `47.6962193175262,-122.342180147243` | 16 |
+|`2018-12-24T09:00:00`| `2018-12-24T18:00:00` | `01:31:08.3850000`| `47.692290770423,-122.385954752402` | 5 |
+|`2018-12-24T09:00:00` | `2018-12-24T18:00:00` | `01:00:32.6770000` | `47.6798098928389,-122.383036445391` | 88 |
+|`2018-12-24T09:00:00`|`2018-12-24T18:00:00`|`01:18:33.1900000` | `47.6846639223203,-122.364839942855` | 1|
+|`2018-12-24T09:00:00` | `2018-12-24T18:00:00` | `01:04:48.7630000` | `47.6867440824094,-122.354711700877` | 3|
+|`2018-12-24T09:00:00` | `2018-12-24T18:00:00` | `02:34:48.5430000` | `47.6962193175262,-122.342180147243` | 16 |
 
 These itinerary items are expressed using the API syntax signature as follows:
 
 ```url
 itineraryItems=
-    11/09/2017+09:00:00_11/09/2017+18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;
-    11/09/2017+09:00:00_11/09/2017+18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;
-    11/09/2017+09:00:00_11/09/2017+18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;
-    11/09/2017+09:00:00_11/09/2017+18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;
-    11/09/2017+09:00:00_11/09/2017+18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16
+    2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;
+    2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;
+    2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;
+    2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;
+    2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16
 ```
 
 ### Synchronous GET Optimize Itinerary Example
@@ -198,7 +200,7 @@ itineraryItems=
 Using the above example, the HTTP GET request URL is as follows:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents=%20agentName_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+11:00:00|47.7070790545669,-122.355226696231_11/09/2017+13:00:00|47.694117204371,-122.378188970181|11/09/2017+19:00:00|47.7070790545669,-122.355226696231&itineraryItems=11/09/2017+09:00:00_11/09/2017+18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;11/09/2017+09:00:00_11/09/2017+18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;11/09/2017+09:00:00_11/09/2017+18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;11/09/2017+09:00:00_11/09/2017+18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;11/09/2017+09:00:00_11/09/2017+18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents=%20agentName_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T11:00:00|47.7070790545669,-122.355226696231_2018-12-24T13:00:00|47.694117204371,-122.378188970181|2018-12-24T19:00:00|47.7070790545669,-122.355226696231&itineraryItems=2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
 ```
 
 The Synchronous JSON response is below:
@@ -839,7 +841,7 @@ The response is the same as the GET request above.
 Using the same information as above, an asynchronous request can be made with the follow URL:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?itineraryAgents=%20agentName_11/09/2017+08:00:00|47.694117204371,-122.378188970181|11/09/2017+11:00:00|47.7070790545669,-122.355226696231_11/09/2017+13:00:00|47.694117204371,-122.378188970181|11/09/2017+19:00:00|47.7070790545669,-122.355226696231&itineraryItems=11/09/2017+09:00:00_11/09/2017+18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;11/09/2017+09:00:00_11/09/2017+18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;11/09/2017+09:00:00_11/09/2017+18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;11/09/2017+09:00:00_11/09/2017+18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;11/09/2017+09:00:00_11/09/2017+18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?itineraryAgents=%20agentName_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T11:00:00|47.7070790545669,-122.355226696231_2018-12-24T13:00:00|47.694117204371,-122.378188970181|2018-12-24T19:00:00|47.7070790545669,-122.355226696231&itineraryItems=2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
 ```
 
 The JSON response returns information about the Async request:
