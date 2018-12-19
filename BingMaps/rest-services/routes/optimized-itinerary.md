@@ -14,9 +14,11 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Optimized Itinerary
+# Optimize Multiple Itineraries
 
-The Bing Maps Optimize Itinerary API returns an itinerary schedule for one or more agents to travel between multiple itinerary items. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the delivery locations, expected delivery durations, and driving directions for each item assigned to that agent. Item schedules are optimized by either driving distance, delivery time, or item priorities.
+The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the delivery locations, expected delivery durations, and driving directions for each item assigned to that agent. 
+
+Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be also be specified to either `TravelTime` or `TravelDistance`; this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
 
 A maximum of two agent shifts are allowed for synchronous Optimize Itinerary API requests, meaning that only either 
 
@@ -147,7 +149,7 @@ Here is the list of parameters.
 |`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents. | A semi-colon separated list of Itinerary Items. See below for examples.|
 |`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.|
 |`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`.|
-|`costvalue`|`cv` | **Optional**. The parameter used to optimize itineraries. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time.<br />- `Distance`: Optimize according to distance traveled.<br />- `Priority`: Optimize according to item priorities. |
+|`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled |
 
 ## Responses
 
@@ -832,8 +834,6 @@ To send a synchronous POST request, set the POST head `Content-Type: application
 
 The response is the same as the GET request above.
 
-
-
 ### Asynchronous GET Optimize Itinerary Example 
 
 Using the same information as above, an asynchronous request can be made with the follow URL:
@@ -869,6 +869,7 @@ The JSON response returns information about the Async request:
   "traceId": "b7049d3fe4d1448d929c04f25b491d2f|CO31CF6474|7.7.0.0"
 }
 ```
+
 Here we see that the request has been accepted, but the request has not yet been completed. We can call the `callbackUrl` to get updates on the Async request. When the asynchronous request is completed, a JSON response will be returned with the optimized itinerary information in the same format as the synchronous request.
 
 ## HTTP Status Codes
