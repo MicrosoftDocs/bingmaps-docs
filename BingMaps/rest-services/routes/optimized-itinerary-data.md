@@ -14,7 +14,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Optimized Itinerary Data
+#  Multi-Itinerary Optimization Data
 
 The response returned when making a request to Optimize Itinerary API contains an `OptimizeItinerary` resource. The information provided in the `OptimizeItinerary` resource includes an array of `AgentItineraries` corresponding to each agent defined in the request. 
 

@@ -18,9 +18,9 @@ ms.service: "bing-maps"
 
 The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the delivery locations, expected delivery durations, and driving directions for each item assigned to that agent. 
 
-Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be also be specified to either `TravelTime` or `TravelDistance`; this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
+Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be set to either `TravelTime` or `TravelDistance`: this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
 
-A maximum of two agent shifts are allowed for synchronous Optimize Itinerary API requests, meaning that only either 
+A maximum of two agent shifts are allowed for synchronous Multi-Itinerary Optimization API requests, meaning that only either 
 
 - (a) two agents, each with a single shift, or 
 - (b) a single agent with two or fewer shifts 
@@ -37,9 +37,9 @@ Below is a visual representation of each of the `M` agents and their assigned it
 
 For a more in-depth example of the Multi-Itinerary API, see [Create an Optimized Itinerary](../../articles/create-an-optimized-itinerary.md).
 
-The Optimize Itinerary API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItinerary` resource which includes a list of agent itineraries with travel instructions and route information. 
+The Multi-Itinerary Optimization API supports both HTTP GET and POST requests, and successful requests return an `OptimizedItinerary` resource which includes a list of agent itineraries with travel instructions and route information. 
 
-For more information about these resources, see [Optimized Itinerary Data](optimized-itinerary-Data.md).
+For more information about these resources, see [Multi-Itinerary Optimization Data](optimized-itinerary-Data.md).
 
 See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests.md) for how to use Bing Maps REST asynchronous requests.
 
@@ -157,7 +157,7 @@ See [Optimized Itinerary Data](optimized-Itinerary-data.md) for information on r
 
 ## Examples
 
-The Optimized Itinerary API uses a special syntax to specify the working shifts for each agent and item information. For example, suppose we have two agents, which we'll name `agentX` and `agentY`, with the following shift and location information. Locations can be specified using coordinates or an address string, and times are given in local datetime strings.
+The Multi-Itinerary Optimization API uses a special syntax to specify the working shifts for each agent and item information. For example, suppose we have two agents, which we'll name `agentX` and `agentY`, with the following shift and location information. Locations can be specified using coordinates or an address string, and times are given in local datetime strings.
 
 |Agent|Shift Start Time|Start Location|Shift End Time|End Location|
 |:---:|----------------|--------------|--------------|------------|
