@@ -130,6 +130,9 @@ There are two basic parameters for the Optimize Itinerary API:
 - `itineraryAgents`: a *list of agent shift information* which includes the name, shift times and shift starting and ending locations for agent, and 
 - `itineraryItems`: a *list of item information* with location, priority, and dwell time, and business closing and opening times for each item to be scheduled.
 
+> [!IMPORTANT]
+> All DateTime strings must be in ISO format: `YYYY-MM-DDTHH:MM:SS`.
+
 The information for these parameters must be formatted using the following syntactic signatures:
 
 |Parameter | Syntax Signature |
@@ -160,9 +163,6 @@ See [Optimized Itinerary Data](optimized-Itinerary-data.md) for information on r
 ## Examples
 
 The Multi-Itinerary Optimization API uses a special syntax to specify the working shifts for each agent and item information. For example, suppose we have two agents, which we'll name `agentX` and `agentY`, with the following shift and location information. Locations can be specified using coordinates or an address string, and times are given in local datetime strings.
-
-> [!IMPORTANT]
-> All DateTime strings must be in ISO format: `YYYY-MM-DDTHH:MM:SS`.
 
 |Agent|Shift Start Time|Start Location|Shift End Time|End Location|
 |:---:|----------------|--------------|--------------|------------|
