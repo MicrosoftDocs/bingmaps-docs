@@ -15,7 +15,10 @@ ms.service: "bing-maps"
 ---
 # NAVTEQNA
 
-The NAVTEQNA data source contains information about points of interest (POIs) in North America. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.  
+> [!CAUTION]
+> The NAVTEQNA data source will be shutting down on **March 1, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQNA will return an error message. For a potential alternate solution, you can consider using the [Local Search](../../rest-services/locations/local-search.md) API, which returns a list of business entities centered around a location or a geographic region.
+
+The NAVTEQNA data source contains information about points of interest (POIs) in North America. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
   
 > [!IMPORTANT]
 >  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.                                              **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
