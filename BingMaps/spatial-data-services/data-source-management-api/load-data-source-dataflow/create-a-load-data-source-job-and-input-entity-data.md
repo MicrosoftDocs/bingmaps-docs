@@ -36,7 +36,7 @@ Use the following URL to create, stage and update a data source. This URL create
   
  Before using this API, make sure you know the [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md) which include data and job limits.  
   
- The master key and the query key must be different Bing Maps Keys from the same .  
+ The master key and the query key must be different Bing Maps Keys from the same account.  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/LoadDataSource?dataSourceName=dataSourceName&loadOperation=loadOperation&dataLocation=dataLocation&setPublic=setPublic&input=input&output=output&key=masterKey&queryKey=queryKey  
