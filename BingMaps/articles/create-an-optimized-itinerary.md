@@ -95,6 +95,7 @@ __Andre__:
 
 ![andre_starting_image.png](media/andre_starting_image.png)
 
+
 ### Formatting the Itinerary Data
 
 We will use 13 itinerary items. To simplify things, we'll assume all the coffee shops our agents are delivering goods to have the same opening and closing hours. However, we will assign different priorities and dwell times to each shop (for our example, the priorities and dwell times are chosen randomly).

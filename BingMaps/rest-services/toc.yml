@@ -25,10 +25,6 @@
         href: locations/location-recognition.md
       - name: Local Search
         href: locations/local-search.md
-#      - name: Location Recognition (TEST SPLIT)
-#        href: locations/location-recog-test.md
-#      - name: Location Recognition (TEST LINK)
-#        href: https://review.docs.microsoft.com/en-us/rest/api/bingmaps/location/location-recognition
       - name: Location Data
         href: locations/location-data.md
   - name: Elevations

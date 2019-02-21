@@ -130,6 +130,9 @@ There are two basic parameters for the Optimize Itinerary API:
 - `itineraryAgents`: a *list of agent shift information* which includes the name, shift times and shift starting and ending locations for agent, and 
 - `itineraryItems`: a *list of item information* with location, priority, and dwell time, and business closing and opening times for each item to be scheduled.
 
+> [!IMPORTANT]
+> All DateTime strings must be in ISO format: `YYYY-MM-DDTHH:MM:SS`.
+
 The information for these parameters must be formatted using the following syntactic signatures:
 
 |Parameter | Syntax Signature |
