@@ -48,10 +48,7 @@ Please adhere to the following guidelines when coding for Bing Maps services.
   
 ### Use batch geocoding when you need to geocode or reverse-geocode a large number of items  
  If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up 200, 000 addresses at a time for a single non-billable transaction.  
-  
-> [!NOTE]
->  There is a 1M limit of free geocode entities per year  
-  
+    
 ### Use the Find by Query API  
  The Bing Maps REST Services Locations API provides options for geocoding addresses. The recommended method is to pass in addresses as single-line queries using the `Find by Query` API. This will this will help ensure that the parts of the address are correctly categorized and will probably give you the most accurate results.  
   
@@ -72,11 +69,7 @@ We recommend the Bing Maps REST services rather than SOAP services. They are new
   
 ### Using the REST services in managed code
 
-For those of you that have been having issues consuming the Bing Maps REST Services APIs using .NET, please note the following resources:  
-  
-- The documentation on how to consume the JSON responses from the Bing Maps REST services can be found on MSDN on the [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md) page.  
-  
-- If you are using Java then take a look at how the REST services are handled in the [Bing Maps Android SDK](https://bingmapsandroidsdk.codeplex.com/).  
+For those of you that have been having issues consuming the Bing Maps REST Services APIs using .NET, the documentation on how to consume the JSON responses from the Bing Maps REST services can be found on MSDN on the [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md) page.  
   
 ### Geocoding
 
