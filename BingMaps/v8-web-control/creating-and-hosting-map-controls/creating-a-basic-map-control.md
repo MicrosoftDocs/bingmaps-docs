@@ -98,7 +98,7 @@ If loading the map synchronously, you can trigger the GetMap function by adding 
 ```html
 <body onload="GetMap();">
 
-var map = new Microsoft.Maps.Map('#myMap');
+var map = new Microsoft.Maps.Map('#myMap', {});
 ```
 
 6.	Finally, you can create an instance of the Map Class in the GetMap function. There are two different ways to do this in the Bing Maps V8 SDK. The recommended way to load the map is to use the asynchronous method which loads all the required resources needed by the map in the background and then triggers a callback function when the map has been loaded.  When loading the map, you need to add a reference to the DIV element where you want the map to load. Here is how to load the map asynchronously:
@@ -121,7 +121,7 @@ The following is the full code required for loading a map asynchronously.
     <script type='text/javascript'>
     function GetMap()
     {
-        var map = new Microsoft.Maps.Map('#myMap');
+        var map = new Microsoft.Maps.Map('#myMap', {});
 
         //Add your post map load code here.
     }
