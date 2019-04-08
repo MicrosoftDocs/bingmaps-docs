@@ -136,6 +136,25 @@ ms.date: "02/28/2018"
                             </div>
                             </a>
                         </li>
+<li>
+                            <a href="https://www.microsoft.com/download/details.aspx?id=27165">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Test to be replaced" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Test Test - A test of the test</h3>
+                                            <p>Ut quis justo eleifend, aliquet sem laoreet, aliquet turpis. Pellentesque mollis vel odio a porttitor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
 						<li>
 							<a href="/bingmaps/articles">
 							<div class="cardSize">
