@@ -137,18 +137,18 @@ ms.date: "02/28/2018"
                             </a>
                         </li>
 <li>
-                            <a href="https://www.microsoft.com/download/details.aspx?id=27165">
+                            <a href="https://github.com/Microsoft/MapsSDK-Unity">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Test to be replaced" />
+                                                <img src="https://github.com/Microsoft/MapsSDK-Unity/blob/master/Content/Icon_Docs.svg" alt="Maps SDK" />
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Test Test - A test of the test</h3>
-                                            <p>Ut quis justo eleifend, aliquet sem laoreet, aliquet turpis. Pellentesque mollis vel odio a porttitor.</p>
+                                            <h3>Maps SDK, A Microsoft Garage Project</h3>
+                                            <p>Learn how to add maps to your Mixed Reality Unity project.</p>
                                         </div>
                                     </div>
                                 </div>
