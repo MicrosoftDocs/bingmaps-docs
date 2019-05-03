@@ -8,9 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-author: "v-chrfr"
-ms.author: "v-chrfr"
-manager: "stevelom"
+author: "yasong"
+ms.author: "yasong"
+manager: "lorenhil"
 ms.service: "bing-maps"
 ---
 
@@ -53,7 +53,7 @@ See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests
 
 ### Synchronous GET Optimize Itinerary
 
-Get a synchronous optimized itinerary from agent shift and waypoint item lists specified with the `agents` and `itineraryItems` parameters.
+Get a synchronous optimized itinerary from agent shift and waypoint item lists specified with the `itineraryAgents` and `itineraryItems` parameters.
 
 ```url
 https://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents={Agent/Shift Information}&itineraryItems={Waypoint Items}&type={type}&roadnetwork={roadnetwork}&costvalue={value}&key={BingMapsKey}
@@ -109,7 +109,7 @@ Here is a template POST body, in JSON format, which should be used for both sync
 
 ### Asynchronous GET Optimize Itinerary 
 
-Get an asynchronous optimized itinerary from agent shift and item itinerary information specified with the `agents` and `itineraryItems` parameters.
+Get an asynchronous optimized itinerary from agent shift and item itinerary information specified with the `itineraryAgents` and `itineraryItems` parameters.
 
 
 ```url
@@ -117,7 +117,7 @@ https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync
 ```
 ### Asynchronous POST Optimize Itinerary 
 
-Post an asynchronous optimized itinerary from agent shift and item itinerary information specified with the `agents` and `itineraryItems`. parameters in the POST body of the URL request. 
+Post an asynchronous optimized itinerary from agent shift and item itinerary information specified with the `itineraryAgents` and `itineraryItems`. parameters in the POST body of the URL request. 
 
 ```url
 https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?key={BingMapsKey}
@@ -127,7 +127,7 @@ https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?key={BingMaps
 
 There are two basic parameters for the Optimize Itinerary API: 
 
-- `agents`: a *list of agent shift information* which includes the name, shift times and shift starting and ending locations for agent, and 
+- `itineraryAgents`: a *list of agent shift information* which includes the name, shift times and shift starting and ending locations for agent, and 
 - `itineraryItems`: a *list of item information* with location, priority, and dwell time, and business closing and opening times for each item to be scheduled.
 
 > [!IMPORTANT]
@@ -137,7 +137,7 @@ The information for these parameters must be formatted using the following synta
 
 |Parameter | Syntax Signature |
 |------:|:-----------------|
-|`agents` |`{agent_name}_{shift_0};{shift_1}; ... {shift_n};`|
+|`itineraryAgents` |`{agent_name}_{shift_0};{shift_1}; ... {shift_n};`|
 |`shift_n`|`{start_time}`&#124;`{start_lat,lon}`&#124;`{end_time}`&#124;`{end_lat,lon}`|
 |`itineraryItems`| `{opening_time}_{closing_time}_{dwell_time}_{lat,lon}_{priority}`|
 
@@ -150,11 +150,17 @@ Here is the list of parameters.
 
 |Parameter|Alias|Description|Values|
 |:-------:|:---:|-----------|------|
-|`agents`|`itinAgt` | **Required**. List of agent itinerary information. | A semi-colon separated string of Agent/Shift information. See below for examples.|
+|`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information. | A semi-colon separated string of Agent/Shift information. See below for examples.|
 |`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents. | A semi-colon separated list of Itinerary Items. See below for examples.|
 |`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.|
 |`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`.|
 |`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled |
+
+## API Limits
+
+The API supports up to 3 agents and 20 waypoints for Basic account customers. For paying customers, the API supports up to 10 agents and 100 waypoints.
+
+We may increase the API limits in the future based on customer feedback and needs.
 
 ## Responses
 
@@ -172,7 +178,7 @@ The Multi-Itinerary Optimization API uses a special syntax to specify the workin
 This information is expressed in the Agent/Shift information format below:
 
 ```url
-agents=
+itineraryAgents=
     agentX_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T20:00:00|47.7070790545669,-122.355226696231;
     agentY_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T20:00:00|1317 E Republican St, Seattle, WA 98102
 ```
@@ -203,7 +209,7 @@ itineraryItems=
 Using the above example, the HTTP GET request URL is as follows:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?agents=%20agentName_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T11:00:00|47.7070790545669,-122.355226696231_2018-12-24T13:00:00|47.694117204371,-122.378188970181|2018-12-24T19:00:00|47.7070790545669,-122.355226696231&itineraryItems=2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents=%20agentName_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T11:00:00|47.7070790545669,-122.355226696231_2018-12-24T13:00:00|47.694117204371,-122.378188970181|2018-12-24T19:00:00|47.7070790545669,-122.355226696231&itineraryItems=2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
 ```
 
 The Synchronous JSON response is below:
