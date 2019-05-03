@@ -1,17 +1,12 @@
-
 ---
 title: "Create an Optimized Itinerary | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/26/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: "5/6/2019"
 ms.topic: "article"
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-author: "v-chrfr"
-ms.author: "v-chrfr"
-manager: "stevelom"
+author: "eriklind"
+ms.author: "eriklind"
+manager: "dirabel"
 ms.service: "bing-maps"
 ---
 
