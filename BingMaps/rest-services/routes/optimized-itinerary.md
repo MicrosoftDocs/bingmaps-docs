@@ -158,7 +158,7 @@ Here is the list of parameters.
 
 ## API Limits
 
-The API supports up to 3 agents and 20 waypoints for Basic account customers. For paying customers, the API supports up to 10 agents and 100 waypoints.
+The API supports up to 3 agents and 20 waypoints for Basic account customers. For Enterprise account customers, the API supports up to 10 agents and 100 waypoints.
 
 We may increase the API limits in the future based on customer feedback and needs.
 
