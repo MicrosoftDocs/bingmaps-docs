@@ -143,7 +143,7 @@ ms.date: "02/28/2018"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://raw.githubusercontent.com/Microsoft/MapsSDK-Unity/master/Content/Icon_Docs.svg?sanitize=true" alt="Maps SDK" />
+                                                <img src="https://raw.githubusercontent.com/MicrosoftDocs/bingmaps-docs/live/BingMaps/sdk-native/media/mobile.svg?sanitize=true" alt="Maps SDK" />
                                             </div>
                                         </div>
                                         <div class="cardText">
