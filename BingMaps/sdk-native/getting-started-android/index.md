@@ -30,6 +30,17 @@ In your project's `app` folder, create a file named `secrets.gradle` and put the
 
     ext.credentialsKey = "ENTER YOUR KEY HERE"
 
+
+In your `project/build.gradle` file, inside `allprojects`, insert the following block in `repositories`:
+
+>```
+> repositories {
+>         maven {
+>             url  "https://microsoft-maps.bintray.com/Maven"
+>         }
+> }
+>```
+
 In your `app/build.gradle` file, apply this line at the top to import the external variables from newly created file:
 
     apply from: 'secrets.gradle'
