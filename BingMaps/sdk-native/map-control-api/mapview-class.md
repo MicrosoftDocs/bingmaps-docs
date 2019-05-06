@@ -1048,7 +1048,7 @@ _See also:_ [OnCameraChangingListener](Android/OnCameraChangingListener-interfac
 
 Fired when the render states of the map has changed.
 
-_See also:_ [MapLoadingStatus](MapLoadingStatus.md)
+_See also:_ [MapLoadingStatus](MapLoadingStatus-enumeration.md)
 
 **Android**
 
