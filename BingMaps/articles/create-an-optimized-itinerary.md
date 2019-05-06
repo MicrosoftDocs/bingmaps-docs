@@ -9,7 +9,6 @@ ms.author: "eriklind"
 manager: "dirabel"
 ms.service: "bing-maps"
 ---
-
 # Create an Optimized Multi-Itinerary
 
 The Bing Maps [Multi-Itinerary Optimization API](../rest-services/routes/optimized-itinerary.md) returns a delivery schedule for a set of agents and itinerary times.
