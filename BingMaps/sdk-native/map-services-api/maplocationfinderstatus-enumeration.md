@@ -64,4 +64,4 @@ An unknown error has occured while processing the request.
 
 ## See also
 
-* [MapLocationResult](MapLocationResult-class.md)
+* [MapLocationResult](MapLocationFinderResult-class.md)

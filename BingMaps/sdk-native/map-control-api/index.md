@@ -38,7 +38,7 @@ Name                                                                         | D
 [MapAnimationKind](MapAnimationKind-enumeration.md)                          | Describes types of animations supported for camera transitions.
 [MapCameraChangeCause](MapCameraChangeCause-enumeration.md)                  | Specifies the reason the position of the map's camera has changed. iOS only.
 [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)    | Describes the behavior of a MapIcon when it collides with other map features.
-[MapLoadingStatus](MapLoadingStatus-enumeration.md)                          | The status of the map indicating how much of the map is currently being. rendered.
+[MapLoadingStatus](maploadingstatus-enumeration.md)                          | The status of the map indicating how much of the map is currently being. rendered.
 [MapProjection](MapProjection-enumeration.md)                                | Controls how the map projects the world onto the screen.
 [MapRenderMode](MapRenderMode-enumeration.md)                                | Defines primary data source for rendering map.
 [UserLocationTrackingMode](userlocationtrackingmode-enumeration.md)          | Controls how tracking of the users location is done for the map.

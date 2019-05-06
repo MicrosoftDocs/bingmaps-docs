@@ -149,7 +149,7 @@ Key-value pairs specifying how the query string was parsed into address values, 
 ## See also
 
 * [MapLocationFinder](MapLocationFinder-class.md)
-* [MapLocationResult](MapLocationResult-class.md)
+* [MapLocationResult](MapLocationFinderResult-class.md)
 * [MapLocationAddress](MapLocationAddress-class.md)
 * [MapLocationPoint](MapLocationPoint-class.md)
 * [MapLocationMatchCode](MapLocationMatchCode-enumeration.md)

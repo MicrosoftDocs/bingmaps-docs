@@ -143,7 +143,7 @@ ms.date: "02/28/2018"
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="sdk-native/media/mobile.svg" alt="Maps SDK" />
+                                                <img src="/bingmaps/sdk-native/media/mobile.svg" alt="Maps SDK" />
                                             </div>
                                         </div>
                                         <div class="cardText">

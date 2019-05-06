@@ -52,7 +52,7 @@ Forms and sends a reverse geocoding request by geolocation.
 _See also:_
 * [MapLocationOptions](MapLocationOptions-class.md)
 * (Android) [MapLocationCallback](Android/MapLocationCallback-interface.md) | (iOS) [MapLocationFinderResultHandler](iOS/MapLocationFinderResultHandler-interface.md)
-* [Geolocation](../../MapControl/API/Geolocation-class.md)
+* [Geolocation](../map-control-api/Geolocation-class.md)
 
 **Android**
 

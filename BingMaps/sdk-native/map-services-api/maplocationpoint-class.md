@@ -8,7 +8,7 @@ Contains geospatial data for a specific point associated with the location retur
 
 The geolocation for the resource.
 
-_See also:_ [Geolocation](../../MapControl/API/Geolocation-class.md)
+_See also:_ [Geolocation](../map-control-api/Geolocation-class.md)
 
 **Android**
 

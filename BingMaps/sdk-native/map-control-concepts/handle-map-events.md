@@ -28,11 +28,11 @@ The following example show how to add a pushpin when user hold over a map.
 
 ### Map tapped event
 
-The following example shows how to change [MapIcon](../map-control-api/MapIcon-class) image and z index of containing layer when a pusphin is tapped.
+The following example shows how to change [MapIcon](../map-control-api/MapIcon-class.md) image and z index of containing layer when a pusphin is tapped.
 
 **Swift**
 
-At first, add extension for [MSMapElementCollection](../map-control-api/MapElementCollection-class) to conform to the Sequence Protocol in order to use for-in loop. 
+At first, add extension for [MSMapElementCollection](../map-control-api/MapElementCollection-class.md) to conform to the Sequence Protocol in order to use for-in loop. 
 
 > ```swift
 > // This will allow for-in works on MSMapElementCollection.elements

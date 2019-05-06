@@ -41,4 +41,4 @@ The MapView has downloaded all it can to render the current view, but some resou
 
 ## See also
 
-* [MapView](MapView-class.md#MapLoadingStatusChanged)
+* [MapView](MapView-class.md)

@@ -1,9 +1,9 @@
 # Display points of interest on the map
 
-Use [MapIcon](../map-control-api/MapIcon-class) to add a graphical image and text at a
+Use [MapIcon](../map-control-api/MapIcon-class.md) to add a graphical image and text at a
 location within the map.
 
-To get your pushpin to look pixel-perfect, you'll also want to review how to [anchor your MapIcons](anchoring-mapIcons) to make them
+To get your pushpin to look pixel-perfect, you'll also want to review how to [anchor your MapIcons](anchoring-mapIcons.md) to make them
 align with the chosen location on a map.
 
 ## Examples
@@ -82,7 +82,7 @@ You can also use SVG image to create [MapImage]() to specify custom image.
 ![SVG Icon](media/icons-svg.png)
 
 _See also:_
-* [Icons](map-icons)
-* [MapIcon](../map-control-api/MapIcon-class)
-* [MapImage](../map-control-api/MapImage-class)
-* [MapElementLayer](../map-control-api/MapElementLayer-class)
+* [Icons](map-icons.md)
+* [MapIcon](../map-control-api/MapIcon-class.md)
+* [MapImage](../map-control-api/MapImage-class.md)
+* [MapElementLayer](../map-control-api/MapElementLayer-class.md)

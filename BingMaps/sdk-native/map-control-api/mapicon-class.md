@@ -52,7 +52,7 @@ Default is set to MapElementCollisionBehavior.REMAIN_VISIBLE
 >```objectivec
 > @property (nonatomic) MSMapElementCollisionBehavior collisionBehaviorDesired
 >```
-_See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior.md)
+_See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)
 
 ### Flyout
 

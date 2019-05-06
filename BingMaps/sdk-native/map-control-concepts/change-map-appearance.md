@@ -2,7 +2,7 @@
 
 ## Default Map Style Sheets
 
-The pre-built Map Style Sheets establish the fundamental mode that a map view will render in.  Available options are specified on [MapStyleSheets](../map-control-api/MapStyleSheets-class)
+The pre-built Map Style Sheets establish the fundamental mode that a map view will render in.  Available options are specified on [MapStyleSheets](../map-control-api/MapStyleSheets-class.md)
 
 ### Examples
 
@@ -86,4 +86,4 @@ Also, you can start with an existing sheet and then use JSON to override any ele
 ![Custom Map style 2](media/change-map-styles-custom02.png)
 
 _See also_
-[Map Style Sheets](map-styles-sheets)
+[Map Style Sheets](map-styles-sheets.md)

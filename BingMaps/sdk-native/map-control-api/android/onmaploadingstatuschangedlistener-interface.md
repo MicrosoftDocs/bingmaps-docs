@@ -13,5 +13,5 @@ Listener used with MapView.MapLoadingStatusChanged event.
 
 ## See also
 
-* [MapLoadingStatus](../MapLoadingStatus.md)
+* [MapLoadingStatus](../maploadingstatus-enumeration.md)
 * [MapView](../MapView-class.md)

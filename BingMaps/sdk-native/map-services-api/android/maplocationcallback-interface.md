@@ -12,4 +12,4 @@ Handles MapLocationResult returned by MapLocationFinder geocoding request.
 ## See also
 
 * [MapLocationFinder](../MapLocationFinder-class.md)
-* [MapLocationResult](../MapLocationResult-class.md)
+* [MapLocationResult](../MapLocationFinderResult-class.md)
