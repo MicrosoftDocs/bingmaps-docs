@@ -18,6 +18,7 @@ Use the Routes API to create a route that includes two or more locations and to 
   
 |||  
 |-|-|  
+|[Calculate Optimized Itinerary Routes](optimized-itinerary.md)|Get optimized routes for multiple itineraries and multiple agents with time windows.|
 |[Calculate a Distance Matrix](calculate-a-distance-matrix.md)|Calculate travel times and distances between a set of origins and destinations. Optionally calculate traffic based distance matrices over a period of time.|  
 |[Calculate an Isochrone](calculate-an-isochrone.md)|Calculate time-specific, isoline polygons for the distance that is reachable from a given location and supports multiple modes of transportation (i.e., driving, walking, and public transit).|  
 |[Calculate a Route](calculate-a-route.md)|Get a walking, driving or transit route by specifying a series of waypoints.|  
