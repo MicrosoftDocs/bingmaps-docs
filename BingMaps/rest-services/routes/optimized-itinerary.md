@@ -160,6 +160,8 @@ Here is the list of parameters.
 
 The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 10 itineraryAgents and 100 itineraryItems per request.
 
+The Multi-Itinerary Optimization API doesn't currently support China, Japan and South Korea.
+
 ## Responses
 
 See [Optimized Itinerary Data](optimized-Itinerary-data.md) for information on response data.
