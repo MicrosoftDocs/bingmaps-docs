@@ -53,6 +53,8 @@
     href: routes/index.md
     maintainContext: true
     items:
+      - name: Calculate Optimized Itinerary Routes
+        href: routes/optimized-itinerary.md
       - name: Calculate a Distance Matrix
         href: routes/calculate-a-distance-matrix.md
       - name: Calculate a Isochrone

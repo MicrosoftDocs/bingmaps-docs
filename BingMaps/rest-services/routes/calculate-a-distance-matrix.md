@@ -72,7 +72,7 @@ For example, a matrix that has 2 origins, 5 destinations, and retrieves time int
 
 **How to calculate total number of billable transactions a request will generate**
 
-A billable transaction is generated for every 2 cells in a matrix, rounded up to the nearest whole integer. For a simple matrix, billable transactions will be calculated using the following formula:
+A billable transaction is generated for every 4 cells in a matrix, rounded up to the nearest whole integer. For a simple matrix, billable transactions will be calculated using the following formula:
 
 ![Total Billable Transactions Calculation](../media/DistanceMatrixTransactionCalculation3_new.PNG)
 

@@ -25,7 +25,7 @@ Given a request with a user’s location and a partial query (called a `query pr
 
 There are three possible kinds of entities: Addresses/Roads, Places, and Businesses. Requests can be specified to return any combination of these entities.
 
-Presently, `Business` entities are only available in the `en-US` culture.
+Presently, `Business` entities are only available in the following countries: `US`, `CA`, `AU`, `IN`, `DE`, `FR`, `ES`, `IT` and `BR`. These are irrespective of the culture parameter.
 
 ## API Signature
 

@@ -1,16 +1,16 @@
 ---
 title: "Optimized Itinerary | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/26/2018"
+ms.date: "05/03/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-author: "v-chrfr"
-ms.author: "v-chrfr"
-manager: "stevelom"
+author: "yasong"
+ms.author: "yasong"
+manager: "lorenhil"
 ms.service: "bing-maps"
 ---
 
@@ -31,9 +31,9 @@ can be used with synchronous calls. For synchronous calls, there is also a maxim
 
 If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen of fewer shifts are allowed, and up to one hundred itinerary items may be scheduled.  
 
-This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 16`) where each inspector has one more shifts and the number of shifts shall not exceed (16) sixteen. There is a limit of 100 food deliveries.
+This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 11`) where each inspector has one or more shifts. <? and the number of shifts shall not exceed (16) sixteen.?> There is a limit of 100 food deliveries.
 
-Below is a visual representation of each of the `M` agents and their assigned itineraries, where each agent `1`, `2`, ..., `M` can have a variable number of shifts `4`, `X`, ..., `Z`.
+Below is a visual representation of each of the `M` agents and their assigned itineraries, where each agent `1`, `2`, ..., `M` can have a variable number of shifts N<sub>1</sub>, N<sub>2</sub>, ..., N<sub>M</sub> .<?`4`, `X`, ..., `Z`.?>
 
 ![Multi_Itin_Image](../media/Multi-TSP_Illustration.png)
 
@@ -152,9 +152,15 @@ Here is the list of parameters.
 |:-------:|:---:|-----------|------|
 |`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information. | A semi-colon separated string of Agent/Shift information. See below for examples.|
 |`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents. | A semi-colon separated list of Itinerary Items. See below for examples.|
-|`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.|
-|`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`.|
-|`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled |
+|`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.<br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value.|
+|`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`. <br /><br />Default: true <br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value. |
+|`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled <br /><br />Default: TravelTime|
+
+## API Limits
+
+The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 10 itineraryAgents and 100 itineraryItems per request.
+
+The Multi-Itinerary Optimization API doesn't currently support China, Japan and South Korea.
 
 ## Responses
 
