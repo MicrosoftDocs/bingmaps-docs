@@ -225,3 +225,4 @@ http://dev.virtualearth.net/REST/V1/Routes/Driving?o=xml&wp.0=44.979035,-93.2649
  * [Transit Route Example](../examples/transit-route-example.md)   
  * [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md)   
  * [Driving Route using Tolerances Example](../examples/driving-route-using-tolerances-example.md)
+ * [Find an Optimized Route with Multiple Waypoints Example](../examples/optimized-waypoints-example.md)
