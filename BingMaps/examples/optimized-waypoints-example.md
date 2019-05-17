@@ -30,7 +30,7 @@ When the `optimizeWaypoints` parameter is set to `false` (the default value), th
 
 For example, a driving route with five waypoints which is not optimized is visualized below using the [Bing Maps V8 Web Control](https://msdn.microsoft.com/library/mt712542.aspx). Driving directions are always given in the same order as specified in the request URL, i.e., the ordering `wp.0`, `wp.1`, `wp.2`, `wp.3`, `wp.4`.
 
-![aUnoptimizedWaypointsSmall](../media/aUnoptimizedWaypointsSmall.PNG)
+![BM-aUnoptimizedWaypointsSmall](../media/BM_aUnoptimizedWaypointsSmall.PNG)
 
 The waypoints for this route can be optimized by setting the parameter `optimizeWaypoints` to `true` and, optionally, by specifying one of the following values for the `optimize` parameter (the default value is `time`):
 
@@ -64,7 +64,7 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 
 Below is the same route, but with `optimizeWaypoints` set to `true`. The waypoints are rearranged to optimize driving travel time: `wp.0`, `wp.3`, `wp.2`, `wp.1`, `wp.4`.
 
-![aOptimizedWaypointsSmall](../media/aOptimizedWaypointsSmall.PNG)
+![BM-aOptimizedWaypointsSmall](../media/BM_aOptimizedWaypointsSmall.PNG)
 
 Next we show how to use the Routes API to minimize driving time for the current traffic situation using these five waypoints.
 
