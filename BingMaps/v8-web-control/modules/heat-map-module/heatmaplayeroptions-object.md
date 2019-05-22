@@ -26,3 +26,4 @@ Name                 | Type                    | Description
 `radius`             | number                  | The radius to draw each data point on the map. Default: **10** 
 `unit`               | string             | The distance units of the radius. Possible values are:<br/><br/>&nbsp; • `pixels`<br/>&nbsp; • `meters`<br/><br/>When set to pixels the size of each data point will always be the same radius, regardless of zoom level. When set to meters, the size of the data points will scale based on zoom level so as to ensure that the radius is spatially accurate. Default: **pixels**  
 `visible` | boolean | A boolean indicating if the heat map layer is visible or not.
+`drawOrder` | number | In case of multiple overlay, draw order defines the order of heat map in relation to labels/Poi's. drawOrder can be between -100 to -1 to display the heat map below the Labels/Pois or 1 to 100 to display the heat map above it. Default: **-2**
