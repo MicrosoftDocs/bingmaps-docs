@@ -23,3 +23,4 @@ The following is a list of option properties that can be used when initializing 
 | Name          | Type    | Description                  |
 |---------------|---------|------------------------------|
 | beneathLabels | boolean | Specifies if the custom overlay should be rendered above or below the label layer of the map. When above, elements in the overlay can be clickable. Default: **true** |
+| drawOrder | number | In case of multiple overlay, draw order defines the order of overlay in relation to labels/Poi's. drawOrder can be between -100 to -1 to display the overlay below the Labels/Pois or 1 to 100 to display the overlay above it. If this option is set, then beneathLabels is ignored. Default: **-1** |
