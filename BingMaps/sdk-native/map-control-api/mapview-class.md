@@ -445,8 +445,8 @@ Computes a location from point on the screen, with an option to select desired a
 **Android**
 
 >```java
-> Optional<Geolocation> locationFromOffset(Point offset)  
-> Optional<Geolocation> locationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
+> Optional<Geolocation> getLocationFromOffset(Point offset)  
+> Optional<Geolocation> getLocationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
 >```
 
 **iOS**
@@ -463,7 +463,7 @@ Returns the pixel offset of the location inside the MapView, if possible. Locati
 **Android**
 
 >```java
-> Optional<Point> offsetFromLocation(Geolocation location)
+> Optional<Point> getOffsetFromLocation(Geolocation location)
 >```
 
 **iOS**
