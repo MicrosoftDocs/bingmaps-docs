@@ -22,6 +22,7 @@ The response returned by a Locations URL contains one or more Location resources
   
 [!INCLUDE [get-common-response-note](../../includes/get-common-response-note.md)]
 
+
 ### Top-level Locations Resource Fields
 
 The following fields are the top-level fields in the Locations resource.
