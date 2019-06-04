@@ -1,7 +1,7 @@
 ---
 title: "Location Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/30/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
