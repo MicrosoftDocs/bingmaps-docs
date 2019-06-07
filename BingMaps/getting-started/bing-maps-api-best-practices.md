@@ -1,7 +1,7 @@
 ---
 title: "Bing Maps API Best Practices | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "06/07/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -47,7 +47,7 @@ Please adhere to the following guidelines when coding for Bing Maps services.
 >  When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](https://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
   
 ### Use batch geocoding when you need to geocode or reverse-geocode a large number of items  
- If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up 200, 000 addresses at a time for a single non-billable transaction.  
+ If you have a set of addresses to geocode, you can significantly reduce transactions by using the Geocode Dataflow API to batch geocode up to 200,000 addresses in a single request. Each entity/address counts as a single transaction; non-billable up to one million transactions per year, but **billable** beyond one million transactions. 
     
 ### Use the Find by Query API  
  The Bing Maps REST Services Locations API provides options for geocoding addresses. The recommended method is to pass in addresses as single-line queries using the `Find by Query` API. This will this will help ensure that the parts of the address are correctly categorized and will probably give you the most accurate results.  
