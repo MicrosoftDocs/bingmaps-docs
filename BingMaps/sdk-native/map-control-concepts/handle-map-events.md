@@ -122,7 +122,7 @@ Finally add the buildings/parks layer to map and impelment handler for user tapp
 >     createCityParksCollection();
 >     mapView.layers.add(buildingsLayer)
 >     mapView.layers.add(cityParksLayer)
->     mapView.addUserDidTapHandler { (point:CGPoint) -> Bool in
+>     mapView.addUserDidTapHandler { (point:CGPoint, location:MSGeolocation?) -> Bool in
 >         let tappedElements = self.mapView.findMapElements(atOffset: point)
 >         if tappedElements.isEmpty {
 >             return false
