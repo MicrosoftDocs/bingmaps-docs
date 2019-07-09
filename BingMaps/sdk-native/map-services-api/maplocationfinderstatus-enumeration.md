@@ -13,7 +13,8 @@ Represents the status of a completed geocoding request.
 >    INVALID_CREDENTIALS(3),
 >    NETWORK_FAILURE(4),
 >    SERVER_ERROR(5),
->    UNKNOWN_ERROR(6);
+>    UNKNOWN_ERROR(6),
+>    EMPTY_RESPONSE(7);
 >}
 >```
 
@@ -28,7 +29,8 @@ Represents the status of a completed geocoding request.
 >    MSMapLocationFinderStatusInvalidCredentials = 3,
 >    MSMapLocationFinderStatusNetworkFailure = 4,
 >    MSMapLocationFinderStatusServerError = 5,
->    MSMapLocationFinderStatusUnknownError = 6
+>    MSMapLocationFinderStatusUnknownError = 6,
+>    MSMapLocationFinderStatusEmptyResponse = 7
 >};
 >```
 
@@ -61,6 +63,10 @@ A server error has occured while processing the request.
 ### UnknownError
 
 An unknown error has occured while processing the request.
+
+### EmptyResponse
+
+The request succeeded but the response was empty.
 
 ## See also
 
