@@ -7,9 +7,19 @@ Event arguments passed to MapView.DoubleTapped callback.
 
 ### Position
 
+Gets the location of the pointer input in client coordinate.
+
 >```java
 > final android.graphics.Point position
 >```
+
+### Location
+
+Gets the geographic location that corresponds to where the MapControl received user input.
+
+>```java
+> final Geolocation location
+> ```
 
 ## See also
 

@@ -53,7 +53,7 @@ Next, in the same file, inside `buildTypes` block, insert following block next t
 
 And finally, inside `dependencies` block, add the following lines:
 
-    implementation 'com.microsoft.maps:maps-sdk:0.1.0'
+    implementation 'com.microsoft.maps:maps-sdk:0.2.0'
 
 ## Adding a map view to your activity
 

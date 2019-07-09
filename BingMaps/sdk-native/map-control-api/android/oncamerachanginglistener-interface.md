@@ -7,11 +7,11 @@ Listener used with MapView.CameraChanging event.
 > public interface OnCameraChangingListener
 > {
 >     /** Called when camera stops moving. */
->     public boolean onCameraChanging(CameraChangingEventArgs e);
+>     public boolean onCameraChanging(MapCameraChangingEventArgs e);
 > }
 >```
 
 ## See also
 
-* [CameraChangingEventArgs](CameraChangingEventArgs-class.md)
+* [MapCameraChangingEventArgs](MapCameraChangingEventArgs-class.md)
 * [MapView](../MapView-class.md)

@@ -151,7 +151,7 @@ The language to be used when rendering locale-specific strings like country and 
 > @property (nonatomic) NSString *language
 >```  
 
-### credentialsKey
+### CredentialsKey
 
 The license key authorizing use of the map. Get credentials at [www.bingmapsportal.com](http://www.bingmapsportal.com/).
 
@@ -422,7 +422,7 @@ MapIcon's flyout can be shown.
 > - (NSSet<MSMapElement *> *)findMapElementsAtOffset:(CGPoint)offset
 >```  
 
-### doesViewContainLocation
+### isLocationInView
 
 Whether the given location is visible in the MapView.
 
@@ -1018,7 +1018,7 @@ _See also:_ [OnCameraChangedListener](Android/OnCameraChangedListener-interface.
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapCameraDidChangeHandler)(MSMapCameraChangeCause)  
+> typedef BOOL (^MSMapCameraDidChangeHandler)(MSMapCameraChangeReason, MSMapCamera*) 
 > - (MSMapHandlerId)addCameraDidChangeHandler:(MSMapCameraDidChangeHandler)handler  
 > - (BOOL)removeCameraDidChangeHandler:(MSMapHandlerId)handlerId
 >```  
@@ -1039,7 +1039,7 @@ _See also:_ [OnCameraChangingListener](Android/OnCameraChangingListener-interfac
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapCameraWillChangeHandler)(MSMapCameraChangeCause, BOOL)  
+> typedef BOOL (^MSMapCameraWillChangeHandler)(MSMapCameraChangeReason, MSMapCamera*, BOOL) 
 > - (MSMapHandlerId)addCameraWillChangeHandler:(MSMapCameraWillChangeHandler)handler  
 > - (BOOL)removeCameraWillChangeHandler:(MSMapHandlerId)handlerId
 >```  
@@ -1083,7 +1083,7 @@ _See also:_ [OnMapDoubleTappedListener](Android/OnMapDoubleTappedListener-interf
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserDidDoubleTapHandler)(CGPoint) 
+> typedef BOOL (^MSMapUserDidDoubleTapHandler)(CGPoint, MSGeolocation*);
 > - (MSMapHandlerId)addUserDidDoubleTapHandler:(MSMapUserDidDoubleTapHandler)handler
 > - (BOOL)removeUserDidDoubleTapHandler:(MSMapHandlerId)handlerId
 >```  
@@ -1104,7 +1104,7 @@ _See also:_ [OnMapHoldingListener](Android/OnMapHoldingListener-interface.md)
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserIsHoldingHandler)(CGPoint)
+> typedef BOOL (^MSMapUserIsHoldingHandler)(CGPoint, MSGeolocation*)
 > - (MSMapHandlerId)addUserIsHoldingHandler:(MSMapUserIsHoldingHandler)handler
 > - (BOOL)removeUserIsHoldingHandler:(MSMapHandlerId)handlerId
 >```  
@@ -1125,7 +1125,7 @@ _See also:_ [OnMapTappedListener](Android/OnMapTappedListener-interface.md)
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserDidTapHandler)(CGPoint)
+> typedef BOOL (^MSMapUserDidTapHandler)(CGPoint, MSGeolocation*)
 > - (MSMapHandlerId)addUserDidTapHandler:(MSMapUserDidTapHandler)handler
 > - (BOOL)removeUserDidTapHandler:(MSMapHandlerId)handlerId
 >```  

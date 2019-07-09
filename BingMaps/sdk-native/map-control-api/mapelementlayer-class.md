@@ -15,6 +15,29 @@ Displays primitives on the map.  The z-order of a primitive is in order of inser
 > @interface MSMapElementLayer : MSMapLayer
 >```
 
+## Events
+
+### MapElementTapped
+
+Occurs when the user taps a [MapElement](mapelement-class.md) that has been add to the MapElementsLayer.
+
+**Android**
+
+>```java
+> void addOnMapElementTappedListener(OnMapElementTappedListener listener)
+> void removeOnMapElementTappedListener(OnMapElementTappedListener listener)
+>```
+ 
+_See also:_ [OnMapElementTappedListener](Android/OnMapElementTappedListener-interface.md)
+
+**iOS**
+
+>```objectivec
+> typedef BOOL (^MSMapElementLayerUserDidTapHandler)(CGPoint, MSGeolocation*_Nonnull, NSMutableSet<MSMapElement *> *_Nonnull)
+> - (MSMapHandlerId)addUserDidTapHandler:(MSMapElementLayerUserDidTapHandler)handler  
+> - (BOOL)removeUserDidTapHandler:(MSMapHandlerId)handlerId
+>```  
+
 ## Properties
 
 ### elements
