@@ -24,7 +24,7 @@ ms.service: "bing-maps"
 |[Bing Maps Blog](https://www.bing.com/community/site_blogs/b/maps/default.aspx)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Ricky Brundritt’s Blog](https://rbrundritt.wordpress.com/)|Get code samples and guidance from Ricky Brundritt.|  
 |[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
-|[Twitter (@BingMaps)](https://rbrundritt.wordpress.com/)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
+|[Twitter (@BingMaps)](https://twitter.com/bingmaps/)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
 |[Facebook](https://www.facebook.com/Bing)|Get interesting info on Bing Maps. Bing Maps is part of the Bing Facebook page.|  
 
 ## Account Issues  
