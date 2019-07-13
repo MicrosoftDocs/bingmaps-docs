@@ -54,11 +54,7 @@ Only billable transactions count towards the free-use limits for Basic keys, and
 Bing Maps service requests originating from a Bing Maps control that use a session ID instead of the Bing Maps key are non-billable up to 25 requests per session. The 26th transaction and every transaction thereafter will be billable. For example, if you make a Bing Maps REST Services request to geocode an address from the Bing Maps V8 web control and use the [Map.getCredentials](../../v8-web-control/map-control-api/map-class.md) method to get the session ID for authentication, the resulting transaction is recorded as non-billable even though it is listed as a billable transaction in the table below.  
   
  You must use the Bing Maps Key that you used to load the map control to request a session ID. This session ID is only valid for the map control session. For the Bing Maps V8 web control, a session begins with the load of the map into a user’s browser and ends when the browser is closed or the user moves to a different page. Similarly for the WPF control, a session begins when the map control is loaded by the application and ends when the application is closed. Note that the Windows 10 UWP Map control does not provide access to session keys but instead provides native geocoding and routing functionalities which automatically make use of sessions. For more information about how to get a session ID from the Bing Maps Key, see [Using the REST Services with .NET](../../rest-services/using-the-rest-services-with-net.md) and [Map Class](../../v8-web-control/map-control-api/map-class.md). Note that if you make service requests with a Bing Maps Key instead of a session ID within the session, you will be charged for all billable requests.  
-  
-> [!NOTE]
->  <sup>1</sup> Bing Spatial Data Services transactions have one exception to free-use within sessions:  
->    
-> -   Bing Spatial Data Services batch geocode transactions (Dataflow:BatchGeocode) become billable when you reach one (1) million batch geocode transactions within a year, even when you use a session ID. 
+
   
 ## Bing Maps Transactions by API  
  The following tables define transactions for all the APIs.  
