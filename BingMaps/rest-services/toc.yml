@@ -73,7 +73,7 @@
         href: routes/local-insights.md
       - name: Local Insights Data
         href: routes/local-insights-data.md
-      - name: Manuever Types
+      - name: Maneuver Types
         href: routes/maneuver-types.md
       - name: Warning Types
         href: routes/warning-types.md
