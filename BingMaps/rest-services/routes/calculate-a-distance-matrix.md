@@ -82,7 +82,7 @@ When calculating a matrix which includes a histogram, only the first 30 time int
 
 ![Total Async Billable Transactions Calculation](../media/DistanceMatrixAsyncTransactionCalculation3_new.PNG)
 
-For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15 minute increments (resolution = 1) over 24 hours, will generate 150 cells where Ceiling(0.5 \* 2 \* 5 \* Min(30, 24/0.25)) = Ceiling(0.5 \* 2 \* 5 \* Min(30, 96)) = Ceiling(0.5 \* 2 \* 5 \* **30**) = 150. Note that 24/0.25 = 24 \* 4 = 96, but since only the first increments per origin-destination pair is counted towards billable transaction, 66 time intervals are excluded from the transaction calculation per origin-destination pair, thus saving you a total of 330 billable transactions in this scenario.
+For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15 minute increments (resolution = 1) over 24 hours, will generate 75 cells where Ceiling(0.25 \* 2 \* 5 \* Min(30, 24/0.25)) = Ceiling(0.25 \* 2 \* 5 \* Min(30, 96)) = Ceiling(0.25 \* 2 \* 5 \* **30**) = 75. Note that 24/0.25 = 24 \* 4 = 96, but since only the first increments per origin-destination pair is counted towards billable transaction, 66 time intervals are excluded from the transaction calculation per origin-destination pair, thus saving you a total of 165 billable transactions in this scenario.
 
 ## Supported HTTP Methods
 
