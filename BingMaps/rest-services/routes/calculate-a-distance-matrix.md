@@ -76,7 +76,7 @@ A billable transaction is generated for every 4 cells in a matrix, rounded up to
 
 ![Total Billable Transactions Calculation](../media/DistanceMatrixTransactionCalculation3_new.PNG)
 
-For example, a matrix that has 2 origins, and 5 destinations, will generate 5 billable transactions where Ceiling(0.5 \* 2 \* 5) = 5.
+For example, a matrix that has 2 origins, and 5 destinations, will generate 3 billable transactions where Ceiling(0.25 \* 2 \* 5) = 3.
 
 When calculating a matrix which includes a histogram, only the first 30 time intervals in each origin-destination pair are counted towards billable transactions, any additional time intervals are provided for free.
 
