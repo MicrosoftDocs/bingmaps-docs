@@ -18,8 +18,8 @@ Display a line by using the [MapPolyline](../map-control-api/MapPolyline-class.m
 >
 >     let mapPolyline = MSMapPolyline()
 >     let geopath = MSGeopath()
->     geopath.add(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
->     geopath.add(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude+0.001))
+>     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
+>     geopath.addLocation(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude+0.001))
 >
 >     mapPolyline.path = geopath
 >     mapPolyline.strokeColor = UIColor.black
@@ -74,9 +74,9 @@ Display a multi-point shape on a map by using the [MapPolygon](../map-control-ap
 >
 >     let mapPolygon = MSMapPolygon()
 >     let geopath = MSGeopath()
->     geopath.add(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude-0.001))
->     geopath.add(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
->     geopath.add(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude+0.001))
+>     geopath.addLocation(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude-0.001))
+>     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
+>     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude+0.001))
 >
 >     mapPolygon.path = geopath
 >     mapPolygon.zIndex = 1

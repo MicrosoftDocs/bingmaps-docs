@@ -30,7 +30,7 @@ The description to be displayed on the default flyout.  This is ignored if custo
 
 ### PlacementOffset
 
-Relative location of the flyout compared to the MapIcon it is anchored to.
+Relative location of the flyout compared to the MapIcon it is anchored to. The x and y offset range between (0, 0) and (1, 1). The default is (0.5, 0.0) which is the top center. 
 
 **Android**
 
