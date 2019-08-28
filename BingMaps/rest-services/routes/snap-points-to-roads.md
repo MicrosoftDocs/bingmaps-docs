@@ -152,7 +152,7 @@ The following is a list of parameters that are supported by the Snap to Road API
 | `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
 | `includeTruckSpeedLimit` | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
 | `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
-| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** (coming soon)<br/><br/>**Example:** travelMode=driving |
+| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving |
 
 ## Examples
 
