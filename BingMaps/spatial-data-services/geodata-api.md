@@ -1,5 +1,5 @@
 ---
-title: "Geodata API1 | Microsoft Docs"
+title: "Geodata API | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

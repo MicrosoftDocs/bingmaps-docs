@@ -21,7 +21,7 @@ Given a pair of location coordinates (latitude, longitude), the Location Recogni
 > [!NOTE]
 >- This template supports both HTTP and HTTPS protocols
 >- Search by query is not supported
->- Only USA locations are supported, other countries will be added soon
+>- Locations in Canada, Germany, Italy, Spain and USA are supported, other countries will be added soon
 
 ## URL Template
 
