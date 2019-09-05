@@ -19,6 +19,9 @@ See [Icons](../map-control-concepts/map-icons.md) for more details on capabiliti
 
 ## Properties
 
+<!-- 
+Allow drop feature is cut for V1 of the SDK.
+
 ### AllowDrop
 
 Whether this MapIcon can be drop target for purposes of drag-and-drop operation. Default is false.
@@ -34,7 +37,7 @@ Whether this MapIcon can be drop target for purposes of drag-and-drop operation.
 
 >```objectivec
 > @property (nonatomic) BOOL allowDrop
->```  
+>```   -->
 
 ### CollisionBehaviorDesired
 Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.
@@ -114,7 +117,8 @@ Returns whether the flyout for this MapIcon is currently visible or not.
 **Android**
 
 >```java
-> boolean getFlyoutShown()
+> boolean getIsFlyoutVisible()
+> public void setIsFlyoutVisible(boolean visible)
 >```
 
 **iOS**
@@ -144,7 +148,7 @@ _See also:_ [MSGeolocation](Geolocation-class.md)
 >```  
 
 ### NormalizedAnchorPoint
-The offset coordinate in pixels to display the icon relative to the selected location. (0,0) will place the upper left of the image at the location.
+The offset coordinate in pixels to display the icon relative to the selected location. (0, 0) will place the upper left of the image at the location. The default is (0, 0)
 
 _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 

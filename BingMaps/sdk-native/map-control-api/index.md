@@ -36,7 +36,7 @@ Name                                                                         | D
 [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)            | Indicates what an altitude value is relative to.
 [CopyrightDisplay](Android/CopyrightDisplay-enumeration.md)                  | Controls how the copyright is displayed on the map.
 [MapAnimationKind](MapAnimationKind-enumeration.md)                          | Describes types of animations supported for camera transitions.
-[MapCameraChangeCause](MapCameraChangeCause-enumeration.md)                  | Specifies the reason the position of the map's camera has changed. iOS only.
+[MapCameraChangeReason](MapCameraChangeReason-enumeration.md)                | Specifies the reason the position of the map's camera has changed. iOS only.
 [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)    | Describes the behavior of a MapIcon when it collides with other map features.
 [MapLoadingStatus](maploadingstatus-enumeration.md)                          | The status of the map indicating how much of the map is currently being. rendered.
 [MapProjection](MapProjection-enumeration.md)                                | Controls how the map projects the world onto the screen.
