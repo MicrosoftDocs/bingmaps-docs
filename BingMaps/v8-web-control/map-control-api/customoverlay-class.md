@@ -57,7 +57,7 @@ MyCustomOverlay.prototype.onLoad = function () {
     //Logic to perform after overlay has been added to the map.
 };
 
-MyCustomOverlay.prototype.onAdd = function () {
+MyCustomOverlay.prototype.onRemove = function () {
     //Logic to perform when overlay has been removed from the map.
 };
 
