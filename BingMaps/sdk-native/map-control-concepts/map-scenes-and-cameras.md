@@ -1,5 +1,5 @@
 
-## Scenes and Cameras
+# Scenes and Cameras
 
 Because the Map View can show both oblique and nadir views, as well as 3D topology, it is important to carefully set your view so that
 obstacles, such as mountains, do not get in your way.  
@@ -7,9 +7,9 @@ To help with this, the Bing Maps Native control supports a concept of "scenes" a
 primary tool for establishing a view.  
 Via the [MapScene](../map-control-api/MapScene-class.md) static methods, you can establish different perspectives and the map will automatically choose the best "camera" for that perspective based on environmental factors, including the user's current view within the map.
 
-### Examples
+## Examples
 
-#### Set the initial location of a map 
+### Set the initial location of a map 
 
 The following example shows how to set the starting location of an map using `setScene`. This sets the map to be zoomed in over London, UK on start up.
 
@@ -25,7 +25,7 @@ The following example shows how to set the starting location of an map using `se
 > }
 > ```
 
-#### Handle completion after the camera arrives
+### Handle completion after the camera arrives
 
 The following example shows how to move the camera to Seattle with a default animation and handle the animation being complete.
 
@@ -46,7 +46,7 @@ The following example shows how to move the camera to Seattle with a default ani
 >     }
 > ```
 
-#### Show the location and a radius of 1000 meters around the location. Animate to it with a linear style animation
+### Show the location and a radius of 1000 meters around the location. Animate to it with a linear style animation
 
 **Java**
 
@@ -70,7 +70,7 @@ The following example shows how to move the camera to Seattle with a default ani
 > [self.mMap setScene:scene withAnimationKind:MSMapAnimationKindLinear]
 >```
 
-#### Show an area on the screen
+### Show an area on the screen
 
 **Java**
 
