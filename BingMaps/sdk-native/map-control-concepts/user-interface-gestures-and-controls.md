@@ -5,7 +5,7 @@ By default, our map shows a toolbar with controls that the user can use to navig
 
 ![User Interface Controls](media/User-interface-controls.png)
 
-Our map also supports multiple gestures to navigate, such as zoom, rotate, pan, and tilt.
+Our map also supports multiple gestures to navigate, such as pan, rotate, tilt, and zoom.
 
 In some scenarios, it may be desirable to disable these controls and/or gestures.
 
@@ -18,9 +18,9 @@ In some scenarios, it may be desirable to disable these controls and/or gestures
 >``` Java
 > MapUserInterfaceOptions uiOptions = mMap.getUserInterfaceOptions();
 > // disable zoom control
-> uiOptions.setZoomControlsEnabled(false);
+> uiOptions.setZoomButtonsVisible(false);
 > // disable zoom gesture
-> uiOptions.setZoomGesturesEnabled(false);
+> uiOptions.setZoomGestureEnabled(false);
 >```
 
 **Swift**
@@ -28,9 +28,9 @@ In some scenarios, it may be desirable to disable these controls and/or gestures
 >``` swift
 > let uiOptions = self.mapView.userInterfaceOptions
 > // disable zoom control
-> uiOptions.isZoomButtonsVisible  = false
+> uiOptions.zoomButtonsVisible  = false
 > // disable zoom gesture
-> uiOptions.isZoomGesturesEnabled = false
+> uiOptions.zoomGestureEnabled = false
 >```
 
 **Objective-C**
@@ -38,7 +38,7 @@ In some scenarios, it may be desirable to disable these controls and/or gestures
 >``` objectivec
 > MSMapUserInterfaceOptions *uiOptions = [self.mapView userInterfaceOptions];
 > // disable zoom control
-> [uiOptions setIsZoomControlVisible:NO]
+> uiOptions.zoomButtonsVisible  = NO
 > // disable zoom gesture
-> [uiOptions setIsZoomEnabled:NO]
+> uiOptions.zoomGestureEnabled  = NO
 >```

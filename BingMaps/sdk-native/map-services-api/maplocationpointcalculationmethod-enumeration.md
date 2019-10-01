@@ -5,7 +5,7 @@ The method that was used to compute the geocode point.
 **Android**
 
 >```java
->public enum MapLocationPoint.CalculationMethod
+>public enum MapLocationPointCalculationMethod
 >{
 >    UNKNOWN(0),
 >    INTERPOLATION(1),
@@ -18,11 +18,11 @@ The method that was used to compute the geocode point.
 **iOS**
 
 >```objectivec
->typedef NS_ENUM(NSInteger, >MSMapLocationPointCalculationMethod)
+>typedef NS_ENUM(NSInteger, MSMapLocationPointCalculationMethod)
 >{
 >    MSMapLocationPointCalculationMethodUnknown = 0,
 >    MSMapLocationPointCalculationMethodInterpolation = 1,
->    MSMapLocationPointCalculationMethodInterpolationOffset >= 2,
+>    MSMapLocationPointCalculationMethodInterpolationOffset = 2,
 >    MSMapLocationPointCalculationMethodParcelCentroid = 3,
 >    MSMapLocationPointCalculationMethodRooftop = 4
 >};

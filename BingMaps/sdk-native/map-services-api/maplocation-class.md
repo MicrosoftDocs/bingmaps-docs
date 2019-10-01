@@ -22,20 +22,20 @@ The name of the resource.
 
 ### Point
 
-The geolocation for the resource.
+The geopoint for the resource.
 
-_See also:_ [Geolocation](../map-control-api/Geolocation-class.md)
+_See also:_ [Geopoint](../map-control-api/Geopoint-class.md)
 
 **Android**
 
 >```java
->Geolocation getPoint()
+>Geopoint getPoint()
 >```
 
 **iOS**
 
 >```objectivec
->@property (nonatomic, readonly) MSGeolocation* point
+>@property (nonatomic, readonly) MSGeopoint* point
 >```
 
 ### Address
@@ -149,7 +149,7 @@ Key-value pairs specifying how the query string was parsed into address values, 
 ## See also
 
 * [MapLocationFinder](MapLocationFinder-class.md)
-* [MapLocationResult](MapLocationFinderResult-class.md)
+* [MapLocationFinderResult](MapLocationFinderResult-class.md)
 * [MapLocationAddress](MapLocationAddress-class.md)
 * [MapLocationPoint](MapLocationPoint-class.md)
 * [MapLocationMatchCode](MapLocationMatchCode-enumeration.md)

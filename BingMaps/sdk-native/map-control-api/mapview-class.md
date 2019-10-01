@@ -13,7 +13,7 @@ This is the master class for using the Map functionality within maps.
 
 >```objectivec
 > @interface MSMapView : UIView
->```  
+>```
 
 _See also:_ [UIView](https://developer.apple.com/documentation/uikit/uiview)
 
@@ -22,8 +22,8 @@ _See also:_ [UIView](https://developer.apple.com/documentation/uikit/uiview)
 **Android**
 
 >```java
-> MapView(android.content.Context context)  
-> MapView(android.content.Context context, android.util.AttributeSet attributes)
+> MapView(android.content.Context context, MapRenderMode rasterRenderMode)
+> MapView(android.content.Context context, android.util.AttributeSet attributeSet, MapRenderMode rasterRenderMode)
 >```
 
 ## Properties
@@ -44,7 +44,7 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 
 >```objectivec
 > @property (nonatomic, readonly) MSGeoboundingBox *mapBounds
->```  
+>```
 
 ### BuildingsVisible
 
@@ -53,7 +53,7 @@ Whether 3D buildings are rendered on the map.
 **Android**
 
 >```java
-> boolean getBuildingsVisible()  
+> boolean isBuildingsVisible()
 > void setBuildingsVisible(boolean visible)
 >```
 
@@ -61,7 +61,7 @@ Whether 3D buildings are rendered on the map.
 
 >```objectivec
 > @property (nonatomic) BOOL buildingsVisible
->```  
+>```
 
 ### BusinessLandmarksVisible
 
@@ -70,7 +70,7 @@ Whether business landmarks (e.g., restaurants, hotels) are rendered on the map.
 **Android**
 
 >```java
-> boolean getBusinessLandmarksVisible()  
+> boolean isBusinessLandmarksVisible()
 > void setBusinessLandmarksVisible(boolean visible)
 >```
 
@@ -78,7 +78,7 @@ Whether business landmarks (e.g., restaurants, hotels) are rendered on the map.
 
 >```objectivec
 > @property (nonatomic) BOOL businessLandmarksVisible
->```  
+>```
 
 ### Camera
 
@@ -97,26 +97,26 @@ _See also:_ [MapCamera](MapCamera-class.md)
 
 >```objectivec
 > @property (nonatomic, readonly) MSMapCamera *camera
->```  
+>```
 
 ### Center
 
 Gets the center of the current view.  Keep in mind that in oblique views (where some horizon is shown),
 the "center" that is returned may not be at the physical center of the control's viewable rectangle.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> Geolocation getCenter()
+> Geopoint getCenter()
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic, readonly) MSGeolocation *mapCenter
->```  
+> @property (nonatomic, readonly) MSGeopoint *mapCenter
+>```
 
 ### Heading
 
@@ -132,8 +132,8 @@ The heading of the view in degrees where 0 is north, 90 is east, 180 is south, a
 **iOS**
 
 >```objectivec
-> @property (nonatomic) double heading
->```  
+> @property (nonatomic) CLLocationDirection heading
+>```
 
 ### Language
 
@@ -142,14 +142,15 @@ The language to be used when rendering locale-specific strings like country and 
 **Android**
 
 >```java
-> boolean setLanguage(String language)
+> String getLanguage()
+> void setLanguage(String language)
 >```
 
 **iOS**
 
 >```objectivec
 > @property (nonatomic) NSString *language
->```  
+>```
 
 ### CredentialsKey
 
@@ -165,7 +166,7 @@ The license key authorizing use of the map. Get credentials at [www.bingmapsport
 
 >```objectivec
 > @property (nonatomic) IBInspectable NSString *credentialsKey
->```  
+>```
 
 ### Layers
 Gets developer-added layers of content for the map.  
@@ -185,7 +186,7 @@ _See also:_ [MapLayerCollection](MapLayerCollection-class.md)
 
 >```objectivec
 > @property (nonatomic, readonly) MSMapLayerCollection *layers
->```  
+>```
 
 
 ### RenderMode
@@ -206,7 +207,7 @@ _See also:_ [MapRenderMode](MapRenderMode-enumeration.md)
 
 >```objectivec
 > @property (nonatomic) MSMapRenderMode renderMode
->```  
+>```
 
 ### Projection
 
@@ -231,7 +232,7 @@ _See also:_ [MapProjection](MapProjection-enumeration.md)
 
 Size of rendered map in pixels.
 
-Note that in Android, class `android.graphics.Point` is used since  `android.util.Size` is only available in API level 21.
+Note that in Android, class `android.graphics.Point` is used since `android.util.Size` is only available in API level 21.
 
 **Android**
 
@@ -244,11 +245,12 @@ Note that in Android, class `android.graphics.Point` is used since  `android.uti
 
 >```objectivec 
 > @property (nonatomic) CGSize mapSize
->```  
+>```
 
 ### Pitch
 
-The pitch in degrees where -90 is looking straight down and 0 is looking towards the horizon. Valid values are between -10 and -90.
+The pitch of the camera in degrees, where 0 is looking straight down (minimum) and 90 is looking towards the horizon (maximum). Values outside of this range will throw an exception.
+Note that pitch may be limited in some views.
 
 **Android**
 
@@ -261,7 +263,7 @@ The pitch in degrees where -90 is looking straight down and 0 is looking towards
 
 >```objectivec
 > @property (nonatomic) double pitch
->```  
+>```
 
 ### Region
 
@@ -270,14 +272,15 @@ The region of the world to display a map for. Different regions of the world hav
 **Android**
 
 >```java
-> boolean setRegion(String region)
+> String getRegion()
+> void setRegion(String region)
 >```
 
 **iOS**
 
 >```objectivec
 > @property (nonatomic) NSString *region
->```  
+>```
 
 ### TransitFeaturesVisible
 
@@ -286,7 +289,7 @@ Whether transit features (e.g., transit stops) are rendered on the map.
 **Android**
 
 >```java
-> boolean getTransitFeaturesVisible()  
+> boolean isTransitFeaturesVisible()
 > void setTransitFeaturesVisible(boolean visible)
 >```
 
@@ -313,42 +316,92 @@ _See also:_ [MapUserInterfaceOptions](MapUserInterfaceOptions-class.md)
 
 >```objectivec
 > @property (nonatomic, readonly) MSMapUserInterfaceOptions *userInterfaceOptions
->```  
+>```
 
-### UserLocationTrackingMode
+### ZoomLevel
 
-Options for controlling how user location tracking is done.
-
-_See also:_ [UserLocationTrackingMode](userlocationtrackingmode-enumeration.md)
+Gets the zoom level of the current view.
 
 **Android**
 
 >```java
-> UserLocationTrackingMode getUserLocationTrackingMode()  
-> void setUserLocationTrackingMode(UserLocationTrackingMode mode)
+> double getZoomLevel()
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) MSMapUserLocationTrackingMode userLocationTrackingMode
+> @property (nonatomic, readonly) double zoomLevel
 >```
 
-### UserLocationVisible
+## Life cycle methods (Android only)
 
-Whether the user's location is shown on the map.
+You must override life cycle methods in parent fragment/activity and call respective MapView methods below from the callback.
 
-**Android**
+_See also:_ https://developer.android.com/guide/components/activities/activity-lifecycle
+
+### onCreate
+
+Map handler for created state.
 
 >```java
-> boolean getUserLocationVisible()
-> public LocationStatus setUserLocationVisible(boolean userLocationVisible, int permissionRequestCode)
+> void onCreate(Bundle savedInstanceState)
 >```
 
-**iOS**
+### onStart
 
->```objectivec
-> @property (nonatomic) IBInspectable BOOL userLocationVisible
+Map handler for started state.
+
+>```java
+> void onStart()
+>```
+
+### onResume
+
+Map handler for resumed state. Start the map, creating the rendering resources as necessary.
+
+>```java
+> void onResume()
+>```
+
+### onPause
+
+Map handler for paused state. Suspends the map, freeing up resources as necessary.
+
+>```java
+> void onPause()
+>```
+
+### onSaveInstanceState
+
+Map handler for save instance state.
+
+>```java
+> void onSaveInstanceState(Bundle outState)
+>```
+
+### onStop
+
+Map handler for stopped state.
+
+>```java
+> void onStop()
+>```
+
+### onDestroy
+
+Map handler for destroyed state. Dispose the map, releasing all resources.
+
+>```java
+> void onDestroy()
+>```
+
+### onLowMemory
+
+Map handler for low memory event.
+
+>```java
+> void onLowMemory()
 >```
 
 ## Methods
@@ -367,7 +420,7 @@ The background color of the map that is rendered if there is nothing else to ren
 
 >```objectivec
 > - (void)setMapBackgroundColor:(UIColor *)color
->```  
+>```
 
 
 ### cancelAnimation
@@ -384,7 +437,7 @@ Cancels the active animation, if running. If an animation is not running, this m
 
 >```objectivec
 > - (void)cancelAnimation
->```  
+>```
 
 ### captureImage
 
@@ -401,9 +454,10 @@ _See also:_ [CaptureScreenshotListener](Android/CaptureScreenShotListener-interf
 **iOS**
 
 > ```objectivec
-> typedef void (^MSMapDidCaptureImageCallback)(UIImage * _Nullable)  
->  - (void)beginCaptureImageWithCompletionCallback:(MSMapDidCaptureImageCallback)callback
+> - (void)beginCaptureImageWithCompletionCallback:(MSMapDidCaptureImageCallback)callback
 >```
+
+_See also:_ [MSMapDidCaptureImageCallback](iOS/MSMapDidCaptureImageCallback-interface.md)
 
 ### findMapElementsAtOffset
 
@@ -420,7 +474,7 @@ MapIcon's flyout can be shown.
 
 >```objectivec
 > - (NSSet<MSMapElement *> *)findMapElementsAtOffset:(CGPoint)offset
->```  
+>```
 
 ### isLocationInView
 
@@ -429,73 +483,52 @@ Whether the given location is visible in the MapView.
 **Android**
 
 >```java
-> boolean isLocationInView(Geolocation location)
+> boolean isLocationInView(Geopoint location)
 >```
 
 **iOS**
 
 >```objectivec
-> - (BOOL)doesViewContainLocation:(MSGeolocation *)location
->```  
+> - (BOOL)doesViewContainLocation:(MSGeopoint *)location
+>```
 
 ### locationFromOffset
 
-Computes a location from point on the screen, with an option to select desired altitude reference system. Note that result value is not guaranteed (for example, if you try to get a location from a point that is in the sky).
+Converts a point on the map (pixel offset) to a geographic location, with an option to select a desired altitude reference system. Note that the return value can be null, for instance, a point in the sky will fail to return a location.
 
 **Android**
 
 >```java
-> Optional<Geolocation> getLocationFromOffset(Point offset)  
-> Optional<Geolocation> getLocationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
+> Geopoint getLocationFromOffset(Point offset)  
+> Geopoint getLocationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
 >```
 
 **iOS**
 
 >```objectivec
-> - (BOOL)tryToConvertOffset:(CGPoint)offset intoLocation:(MSGeolocation * _Nullable * _Nonnull)location  
-> - (BOOL)tryToConvertOffset:(CGPoint)offset usingAltitudeReferenceSystem:(MSAltitudeReferenceSystem)altitudeReferenceSystem intoLocation:(MSGeolocation * _Nullable * _Nonnull)location
->```  
+> - (BOOL)tryToConvertOffset:(CGPoint)offset 
+>               intoLocation:(MSGeopoint * _Nullable * _Nonnull)location  
+> - (BOOL)tryToConvertOffset:(CGPoint)offset 
+>     usingAltitudeReference:(MSAltitudeReferenceSystem)altitudeReferenceSystem 
+>               intoLocation:(MSGeopoint * _Nullable * _Nonnull)location
+>```
 
 ### offsetFromLocation
 
-Returns the pixel offset of the location inside the MapView, if possible. Locations that are not in view will fail to return an offset.
+Converts a geographic location to a point on the map (pixel offset). Note that the return value can be null, for instance, locations that are not in view will fail to return an offset.
 
 **Android**
 
 >```java
-> Optional<Point> getOffsetFromLocation(Geolocation location)
+> Point getOffsetFromLocation(Geopoint location)
 >```
 
 **iOS**
 
 >```objectivec
-> - (BOOL)tryToConvertLocation:(MSGeolocation *)location intoOffset:(CGPoint *)offset
->```  
-
-### radiusFromViewCenter
-
-Returns the radius of the current view if possible (horizontally, measured from the center point to the side of the screen). This method should be used in place of zoom level as is typically used on controls.
-
-**Android**
-
->```java
-> Optional<Double> getRadiusFromViewCenter()
+> - (BOOL)tryToConvertLocation:(MSGeopoint *)location intoOffset:(CGPoint *)offset
 >```
 
-**iOS**
-
->```objectivec
-> @property (nonatomic, readonly) NSNumber *radiusFromViewCenter
->```
-
-### resume (Android only)
-
-Resumes after a previous call to suspend().
-
->```java
-> void resume()
->```  
- 
 ### rotate
 
 Rotates the map by the specified number of degrees.
@@ -509,8 +542,8 @@ Rotates the map by the specified number of degrees.
 **iOS**
 
 >```objectivec
-> - (void)rotateDegrees:(double)degrees
->```  
+> - (void)rotateWithDegrees:(CLLocationDirection)degrees
+>```
 
 ### rotateTo
 
@@ -525,8 +558,8 @@ Performs a rotate operation to a particular point. rotateTo(0) will put the MapV
 **iOS**
 
 >```objectivec
-> - (void)rotateTo:(double)degrees
->```  
+> - (void)rotateToDegrees:(CLLocationDirection)degrees
+>```
 
 ### beginRotate
 
@@ -535,14 +568,18 @@ Performs a rotate operation and invokes the callback when complete.
 **Android**
 
 >```java
-> void beginRotate(double degrees, SetSceneListener listener)
+> void beginRotate(double degrees, OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
-> - (void)beginRotateDegrees:(double)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback
->```  
+> - (void)beginRotateWithDegrees:(CLLocationDirection)degrees completionCallback:(MSMapDidChangeSceneCallback)callback
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### beginRotateTo
 
@@ -551,14 +588,18 @@ Perform a rotate operation to a particular point and invokes the callback when c
 **Android**
 
 >```java
-> void beginRotateTo(double angle, SetSceneListener listener)
+> void beginRotateTo(double angle, OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 > ```objectivec
-> - (void)beginRotateToDegrees:(double)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback;
+> - (void)beginRotateToDegrees:(CLLocationDirection)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback;
 >```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### setMapStyleSheet
 
@@ -596,7 +637,7 @@ _See also:_
 
 >```objectivec
 > - (void)setScene:(MSMapScene *)scene withAnimationKind:(MSMapAnimationKind)kind
->```  
+>```
 
 ### beginSetScene
 
@@ -609,27 +650,18 @@ _See also:_
 **Android**
 
 >```java
-> void beginSetScene(MapScene scene, MapAnimationKind kind, SetSceneListener listener)
+> void beginSetScene(MapScene scene, MapAnimationKind kind, OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
 > - (void)beginSetScene:(MSMapScene *)scene withAnimationKind:(MSMapAnimationKind)kind withCompletionCallback:(MSMapDidChangeSceneCallback)callback
->```  
+>```
 
-### setSceneWithAnimation (Android only)
-
-Sets the scene of the map with a specific animation. This allows customizing the duration of the animation.
-
-_See also:_
-
-* [MapScene](MapScene-class.md)
-* [DefaultMapCameraAnimation](Android/DefaultMapCameraAnimation-class.md)
-
->```java
-> void setSceneWithAnimation(MapScene scene, MapCameraAnimation animation)
->```  
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### startContinuousPan
 
@@ -644,7 +676,7 @@ Performs an continuous pan operation.
 **iOS**
 
 > ```objectivec
-> - (void)startContinuousPan:(double)horizontalPixelsPerSecond :(double)verticalPixelsPerSecond
+> - (void)startContinuousPanWithHorizontalPixelsPerSecond:(double)horizontalPixelsPerSecond verticalPixelsPerSecond:(double)verticalPixelsPerSecond
 >```
 
 ### startContinuousRotate
@@ -661,7 +693,7 @@ Starts a continuous rotate operation.
 
 >```objectivec
 > - (void)startContinuousRotateWithDegreesPerSecond:(double)degreesPerSecond
->```  
+>```
 
 ### startContinuousTilt
 
@@ -677,7 +709,7 @@ Performs a continuous tilt operation. Call `stopContinuousTilt` to stop an in-pr
 
 >```objectivec
 > - (void)startContinuousTiltWithDegreesPerSecond:(double)degreesPerSecond
->```  
+>```
 
 ### startContinuousZoom
 
@@ -693,7 +725,7 @@ Performs an ongoing zoom operation.
 
 >```objectivec
 > - (void)startContinuousZoomWithZoomLevelsPerSecond:(double)zoomLevelsPerSecond
->```  
+>```
 
 ### stopContinuousPan
 
@@ -725,7 +757,7 @@ Stops a previously started rotate operation
 
 >```objectivec
 > - (void)stopContinuousRotate
->```  
+>```
 
 ### stopContinuousTilt
 
@@ -741,7 +773,7 @@ Stops an in-progress tilt operation.
 
 >```objectivec
 > - (void)stopContinuousTilt
->```  
+>```
 
 ### stopContinuousZoom
 
@@ -757,19 +789,11 @@ Stops a continuous zoom operation.
 
 >```objectivec
 > - (void)stopContinuousZoom
->```  
-
-### suspend(Android only)
-
-Suspends the map, freeing up resources as necessary. This should be called if the app is being put in the background to allow the app to behave better while in the background.
-
->```java
-> void suspend()
 >```
 
 ### tilt
 
-Performs a tilt operation.
+Performs an operation to tilt the map's camera from its current position. Valid values are between -90 and 90. Invalid values will be clamped.
 
 **Android**
 
@@ -780,32 +804,65 @@ Performs a tilt operation.
 **iOS**
 
 >```objectivec
-> - (void)tiltDegrees:(double)degrees
->```  
-
-### tiltTo (Android only)
-
-Performs a tilt operation to a particular point. `tiltTo(0)` to have the map face nadir.
-
->```java
-> void tiltTo(double angleInDegrees)
+> - (void)tiltWithDegrees:(double)degrees
 >```
 
 ### beginTilt
 
-Performs a tilt operation and invokes the callback when complete.
+Performs an operation to tilt the map's camera from its current position and invokes the callback when complete. Valid values are between -90 and 90. Invalid values will be clamped.
 
 **Android**
 
 >```java
-> `void beginTilt(double degrees, SetSceneListener listener)
+> `void beginTilt(double degrees, OnMapSceneCompletedListener listener)
+>```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
+
+**iOS**
+
+>```objectivec
+> - (void)beginTiltWithDegrees:(double)degrees completionCallback:(MSMapDidChangeSceneCallback)callback
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
+
+### tiltTo
+
+Performs a tilt operation to a particular point. `tiltTo(0)` to have the map face nadir. Valid values are between 0 and 90. Invalid values will be clamped.
+
+
+**Android**
+
+>```java
+> void tiltTo(double degrees)
 >```
 
 **iOS**
 
 >```objectivec
-> - (void)beginTiltDegrees:(double)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback
->```  
+> - (void)tiltToDegrees:(double)degrees
+>``` 
+
+### beginTiltTo
+
+Performs a tiltTo operation and invokes the callback when complete. Valid values are between 0 and 90. Invalid values will be clamped.
+
+**Android**
+
+>```java
+> `void beginTiltTo(double degrees, OnMapSceneCompletedListener listener)
+>```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
+
+**iOS**
+
+>```objectivec
+> - (void)beginTiltToDegrees:(double)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### canTiltDown
 
@@ -821,7 +878,7 @@ Returns true if tilting down (away from nadir) is possible.
 
 >```objectivec
 > - (BOOL)canTiltDown
->```  
+>```
 
 ### canTiltUp
 
@@ -837,7 +894,7 @@ Returns true if tilting up (towards nadir) is possible.
 
 >```objectivec
 > - (BOOL)canTiltUp
->```  
+>```
 
 ### zoomIn
 
@@ -855,7 +912,7 @@ Note that this void is also repeatable, such that if called multiple times in ra
 
 >```objectivec
 > - (void)zoomIn
->```  
+>```
 
 #### zoomOut
 
@@ -872,7 +929,7 @@ Note that this method is also repeatable, such that if called multiple times in 
 
 >```objectivec
 > - (void)zoomOut
->```  
+>```
 
 ### beginZoomIn
 
@@ -881,14 +938,18 @@ Performs a zoom in operation, equivalent to double tapping on the map, and invok
 **Android**
 
 >```java
-> `void beginZoomIn(SetSceneListener listener)
+> `void beginZoomIn(OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
 > - (void)beginZoomInWithCompletionCallback:(MSMapDidChangeSceneCallback)callback
->```  
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### beginZoomOut
 
@@ -897,14 +958,18 @@ Performs a zoom out operation, equivalent to double tapping on the map, and invo
 **Android**
 
 >```java
-> `void beginZoomOut(SetSceneListener listener)
+> `void beginZoomOut(OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
 > - (void)beginZoomOutWithCompletionCallback:(MSMapDidChangeSceneCallback)callback
->```  
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### canZoomIn
 Returns true if calling zoomIn will affect camera.
@@ -950,7 +1015,7 @@ Perform a pan operation from the current location.
 **iOS**
 
 >```objectivec
-> - (void)pan:(double)horizontalPixels :(double)verticalPixels
+> - (void)panWithHorizontalPixels:(double)horizontalPixels verticalPixels:(double)verticalPixels
 >```
 
 ### beginPan
@@ -960,14 +1025,18 @@ Perform a pan operation from the current location, and invokes the provided call
 **Android**
 
 >```java
-> `void beginPan(double horizontalPixels, double verticalPixels, SetSceneListener listener)
+> `void beginPan(double horizontalPixels, double verticalPixels, OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
-> -(void)beginPanWithCompletionCallback:(double)horizontalPixels :(double)verticalPixels :(MSMapDidChangeSceneCallback)callback
+> -(void)beginPanWithHorizontalPixels:(double)horizontalPixels verticalPixels:(double)verticalPixels completionCallback:(MSMapDidChangeSceneCallback)callback
 >```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ### panTo
 
@@ -982,7 +1051,7 @@ Perform a pan operation from the current location to the specified location.
 **iOS**
 
 >```objectivec
-> - (void)panTo:(MSMapLocation *)location
+> - (void)panToLocation:(MSGeopoint *)location
 >```
 
 ### beginPanTo
@@ -991,14 +1060,18 @@ Perform a pan operation from the current location to the specified location and 
 **Android**
 
 >```java
-> ``void beginPanTo(Location location, SetSceneListener listener)
+> ``void beginPanTo(Location location, OnMapSceneCompletedListener listener)
 >```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
 
 **iOS**
 
 >```objectivec
->- (void)beginPanToWithCompletionCallback:(MSMapLocation *)location :(MSMapDidChangeSceneCallback)callback
+>- (void)beginPanToLocation:(MSGeopoint *)location withCompletionCallback:(MSMapDidChangeSceneCallback)callback
 >```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
 ## Events
 
@@ -1009,19 +1082,20 @@ Fired when the camera location changed.
 **Android**
 
 >```java
-> void addOnCameraChangedListener(OnCameraChangedListener listener) 
-> void removeOnCameraChangedListener(OnCameraChangedListener listener)
+> void addOnMapCameraChangedListener(OnMapCameraChangedListener listener) 
+> void removeOnMapCameraChangedListener(OnMapCameraChangedListener listener)
 >```
  
-_See also:_ [OnCameraChangedListener](Android/OnCameraChangedListener-interface.md)
+_See also:_ [OnMapCameraChangedListener](Android/OnMapCameraChangedListener-interface.md)
 
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapCameraDidChangeHandler)(MSMapCameraChangeReason, MSMapCamera*) 
 > - (MSMapHandlerId)addCameraDidChangeHandler:(MSMapCameraDidChangeHandler)handler  
 > - (BOOL)removeCameraDidChangeHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapCameraDidChangeHandler](iOS/MSMapCameraDidChangeHandler-interface.md)
 
 ### CameraChanging
 
@@ -1030,19 +1104,20 @@ Fired when the camera location is changing. This event is fired frequently and i
 **Android**
 
 >```java
-> void addOnCameraChangingListener(OnCameraChangingListener listener)  
-> void removeOnCameraChangingListener(OnCameraChangingListener listener)
+> void addOnMapCameraChangingListener(OnMapCameraChangingListener listener)  
+> void removeOnMapCameraChangingListener(OnMapCameraChangingListener listener)
 >```
 
-_See also:_ [OnCameraChangingListener](Android/OnCameraChangingListener-interface.md)
+_See also:_ [OnMapCameraChangingListener](Android/OnMapCameraChangingListener-interface.md)
 
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapCameraWillChangeHandler)(MSMapCameraChangeReason, MSMapCamera*, BOOL) 
 > - (MSMapHandlerId)addCameraWillChangeHandler:(MSMapCameraWillChangeHandler)handler  
 > - (BOOL)removeCameraWillChangeHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapCameraWillChangeHandler](iOS/MSMapCameraWillChangeHandler-interface.md)
 
 ### MapLoadingStatusChanged
 
@@ -1062,10 +1137,11 @@ _See also:_ [MapLoadingStatusChangedListener](Android/OnMapLoadingStatusChangedL
 **iOS**
 
 >```objectivec 
-> typedef BOOL (^MSMapLoadingStatusDidChangeHandler)(MSMapLoadingStatus)
 > - (MSMapHandlerId)addLoadingStatusDidChangeHandler:(MSMapLoadingStatusDidChangeHandler)handler 
 > - (BOOL)removeLoadingStatusDidChangeHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapLoadingStatusDidChangeHandler](iOS/MSMapLoadingStatusDidChangeHandler-interface.md)
 
 ### DoubleTapped
 
@@ -1083,10 +1159,11 @@ _See also:_ [OnMapDoubleTappedListener](Android/OnMapDoubleTappedListener-interf
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserDidDoubleTapHandler)(CGPoint, MSGeolocation*);
 > - (MSMapHandlerId)addUserDidDoubleTapHandler:(MSMapUserDidDoubleTapHandler)handler
 > - (BOOL)removeUserDidDoubleTapHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapUserDidDoubleTapHandler](iOS/MSMapUserDidDoubleTapHandler-interface.md)
 
 ### Holding
 
@@ -1104,10 +1181,11 @@ _See also:_ [OnMapHoldingListener](Android/OnMapHoldingListener-interface.md)
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserIsHoldingHandler)(CGPoint, MSGeolocation*)
 > - (MSMapHandlerId)addUserIsHoldingHandler:(MSMapUserIsHoldingHandler)handler
 > - (BOOL)removeUserIsHoldingHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapUserIsHoldingHandler](iOS/MSMapUserIsHoldingHandler-interface.md)
 
 ### Tapped
 
@@ -1125,7 +1203,8 @@ _See also:_ [OnMapTappedListener](Android/OnMapTappedListener-interface.md)
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapUserDidTapHandler)(CGPoint, MSGeolocation*)
 > - (MSMapHandlerId)addUserDidTapHandler:(MSMapUserDidTapHandler)handler
 > - (BOOL)removeUserDidTapHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapUserDidTapHandler](iOS/MSMapUserDidTapHandler-interface.md)

@@ -41,13 +41,13 @@ For developer guides, blogs and other resources, check out [Bing Maps Resources]
   
 |||  
 |-|-|  
+|[Bing Maps SDK for Android and iOS](../sdk-native/index.md)|The Bing Maps SDK for Android and iOS lets developers integrate a fully featured map control into mobile applications.|  
 |[Bing Maps V8 Web Control](../v8-web-control/index.md)|The Bing Maps V8 Web Control is the latest Bing Maps JavaScript API. Combine the AJAX map control with the [Bing Maps REST Services](../rest-services/index.md) and the [Bing Spatial Data Services](../spatial-data-services/index.md) to create powerful Web sites and mobile applications with the latest imagery and location functionality. An interactive SDK for Bing Maps V8 is at [https://www.bing.com/api/maps/sdk/mapcontrol/isdk](https://www.bing.com/api/maps/sdk/mapcontrol/isdk).|  
 |[Bing Maps in Windows UWP](https://docs.microsoft.com/windows/uwp/maps-and-location/)|Bing Maps is built into the Windows UWP developer APIs. See the [Windows documentation](https://docs.microsoft.com/windows/uwp/maps-and-location/) for more information|  
 |[Bing Maps REST Services](../rest-services/index.md)|The Bing Maps REST Services uses REST URLs to perform tasks such as creating a map with pushpins, geocoding an address, retrieving imagery metadata or calculating a route.|  
 |[Bing Spatial Data Services](../spatial-data-services/index.md)|The Bing Spatial Data Services uses REST URLs to geocode and reverse-geocode large sets of spatial data and to create and query data sources. A data source contains sets of data for a user-defined entity type that has a spatial component. For example you can create a data source for a set of stores and then query this data source to find stores near a location.|  
 |[Bing Maps WPF Control](https://www.microsoft.com/download/en/details.aspx?id=27165)|The Bing Maps WPF Control SDK lets developers integrate Bing Maps into rich [Windows Presentation Foundation](https://msdn.microsoft.com/en-us/library/ms754130.aspx) (WPF) applications. Using a software + services approach, the Bing Maps WPF Control retrieves the latest Bing Maps imagery for your WPF application using Bing’s cloud-based architecture. The Bing Maps WPF Control SDK also supports [Microsoft Surface](https://www.microsoft.com/surface/en/us/default.aspx) touch interface for creating rich touch-enabled applications.<br /><br /> To start using the Bing Maps WPF Control, download the [Bing Maps Windows Presentation Foundation Control SDK](https://www.microsoft.com/download/en/details.aspx?id=27165).|  
-|[Bing Maps SDK for Android and iOS](../sdk-native/index.md)|The Bing Maps SDK for Android and iOS lets developers integrate a fully featured map control into mobile applications.|  
-  
+
  Using a version of Bing Maps not listed here? Check the [Discontinued Control Migration Guidelines](https://www.microsoft.com/maps/discon-control-migrat-guide.aspx) to see if the version of Bing Maps you are using is nearing end of life, and if so, find out how to migrate to a newer version of Bing Maps.  
   
 

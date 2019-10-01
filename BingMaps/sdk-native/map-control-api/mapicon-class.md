@@ -57,6 +57,7 @@ Default is set to MapElementCollisionBehavior.REMAIN_VISIBLE
 >```
 _See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)
 
+
 ### Flyout
 
 The flyout associated with this MapIcon.
@@ -64,7 +65,7 @@ The flyout associated with this MapIcon.
 **Android**
 
 >```java
-> MapFlyout getMapFlyout()
+> MapFlyout getFlyout()
 >```
 
 **iOS**
@@ -72,6 +73,7 @@ The flyout associated with this MapIcon.
 >```objectivec 
 > @property (nonatomic, nullable) MSMapFlyout *flyout
 >```  
+
 
 ### Image
 
@@ -89,42 +91,27 @@ _See also:_ [MapImage](MapImage-class.md)
 **iOS**
 
 >```objectivec
-> @property (nonatomic) MSMapImage *image
->```  
+> @property (nullable, nonatomic) MSMapImage *image
+>```
 
-### IsFlat
+_Passsing null/nil will reset the MapIcon to use the default image._
+
+
+### Flat
 
 Determines whether the icon should appear to lie parallel and flat to the earth, versus standing up and facing the user. The default is false.
 
 **Android**
 
 >```java
-> boolean getIsFlat()
-> void setIsFlat(boolean isFlat)  
+> boolean isFlat()
+> void setFlat(boolean isFlat)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isFlat
->```  
-
-
-### IsFlyoutVisible
-
-Returns whether the flyout for this MapIcon is currently visible or not.
-
-**Android**
-
->```java
-> boolean getIsFlyoutVisible()
-> public void setIsFlyoutVisible(boolean visible)
->```
-
-**iOS**
-
-> ```objectivec
-> @property (nonatomic) BOOL isFlyoutVisible
+> @property (nonatomic) BOOL flat
 >```  
 
 
@@ -132,23 +119,23 @@ Returns whether the flyout for this MapIcon is currently visible or not.
 
 The location of the MapIcon.
 
-_See also:_ [MSGeolocation](Geolocation-class.md)
+_See also:_ [MSGeopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> Geolocation getLocation()
-> void setLocation(Geolocation location)
+> Geopoint getLocation()
+> void setLocation(Geopoint location)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) MSGeolocation *location
+> @property (nonatomic) MSGeopoint *location
 >```  
 
 ### NormalizedAnchorPoint
-The offset coordinate in pixels to display the icon relative to the selected location. (0, 0) will place the upper left of the image at the location. The default is (0, 0)
+The offset coordinate in pixels to display the icon relative to the selected location. `(0, 0)` will place the upper left corner of the image at the location. The default is `(0.5, 0.5)`.
 
 _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 
@@ -200,6 +187,7 @@ The rotation in degrees of the icon around the anchor point clockwise. Values gr
 >```objectivec
 > @property (nonatomic) float rotation
 >```  
+
 
 ### Title
 

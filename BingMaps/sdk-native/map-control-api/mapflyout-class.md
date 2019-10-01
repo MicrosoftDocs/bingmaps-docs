@@ -1,7 +1,7 @@
 
 # MapFlyout Class
 
-Represents a user control that display lightweight UI that is either information or requires user interaction.
+Represents a user control that displays lightweight informational UI.
 
 **Android**
 
@@ -12,74 +12,168 @@ Represents a user control that display lightweight UI that is either information
 **iOS**
 
 >```objectivec
-> @interface MSMapFlyout : UIView
+> @interface MSMapFlyout : NSObject
 >```
-
-_See also:_ [UIView](https://developer.apple.com/documentation/uikit/uiview)
 
 ## Properties
 
-### Description (Android only)
+### Visible
 
-The description to be displayed on the default flyout.  This is ignored if custom template selector (Android only) is used.
-
->```java
-> String getDescription()  
-> void setDescription(String description)
->```
-
-### PlacementOffset
-
-Relative location of the flyout compared to the MapIcon it is anchored to. The x and y offset range between (0, 0) and (1, 1). The default is (0.5, 0.0) which is the top center. 
+Whether flyout is currently being displayed.
 
 **Android**
 
 >```java
-> android.graphics.PointF getPlacementOffset()
-> void setPlacementOffset(android.graphics.PointF placementOffset)
+> boolean isVisible()
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) CGPoint placementOffset
+> @property (nonatomic, readonly) BOOL visible
 >```
 
-### LightDismissEnabled (Android only)
 
-Whether the flyout can be closed by clicking or tapping off of it. The default is true.
+### Title
+
+Primary text to be displayed on flyout's default view. *Can be null.*
+
+**Android**
 
 >```java
-> boolean getLightDismissEnabled()  
-> void setLightDismissEnabled(boolean lightDismissEnabled)
+> String getTitle()
+> void setTitle(String title)
 >```
 
-### Title (Android only)
+**iOS**
 
-The title to be displayed on the default flyout. This is ignored if a custom template selector (Android only) is used.
+>```objectivec
+> @property (nonatomic, nullable) NSString *title
+>```
+
+### Description
+
+Secondary text to be displayed on flyout's default view. *Can be null.*
+
+**Android**
 
 >```java
-> String getTitle()  
-> void setTitle (String title)
+> String getDescription()
+> void setDescription(String description)
 >```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, nullable) NSString *description
+>```
+
+### NormalizedRelativePosition
+
+Position on the associated MapIcon that the flyout will be anchored to.  
+Possible values range between `(0, 0)` and `(1, 1)`. The default is `(0.5, 0.0)` (top center).
+
+**Android**
+
+>```java
+> android.graphics.PointF getNormalizedRelativePosition()
+> void setNormalizedRelativePosition(android.graphics.PointF position)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) CGPoint normalizedRelativePosition
+>```
+
+### LightDismissEnabled
+
+Whether flyout can be closed by tapping outside of it. *Defaults to true.*
+
+**Android**
+
+>```java
+> boolean isLightDismissEnabled()
+> void setLightDismissEnabled(boolean enabled)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) BOOL lightDismissEnabled
+>```
+
+### CustomViewAdapter
+
+Provides custom view for the flyout. If set to null, the default view with flyout's title and description will be used.  
+***Important: View will be rendered on canvas, with interactive elements no longer interactive.***
+
+**Android**
+
+>```java
+> void setCustomViewAdapter(MapFlyout.CustomViewAdapter adapter)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) MSMapFlyoutCustomViewAdapter customViewAdapter
+>```
+
+_See also:_ [MapFlyoutCustomViewAdapter](mapflyoutcustomviewadapter-interface.md)
 
 ## Methods
 
-### setTemplateSelector (Android only)
+### Show
 
-Sets template selector for the flyout.
+Shows the flyout at the specified relative position. If another flyout is active at the time, it will be hidden.
 
->```java
-> void setTemplateSelector(MapFlyout TemplateSelector selector)
->```
-
-## Events
-
-### Tapped (Android only)
-
-Fired when the flyout is tapped by the user.
+**Android**
 
 >```java
-> void addOnTappedListener(OnMapFlyoutTappedListener listener)  
-> void removeOnTappedListener(OnMapFlyoutTappedListener listener)
+> void show()
 >```
+
+**iOS**
+
+>```objectivec
+> - (void)show
+>```
+
+
+### Hide
+
+Hides the flyout.
+
+**Android**
+
+>```java
+> void hide()
+>```
+
+**iOS**
+
+>```objectivec
+> - (void)hide
+>```
+
+
+### StyleDefaultView
+
+Styles default view with customizable background color and text color.
+
+**Android**
+
+>```java
+> void styleDefaultView(int colorBackground, int colorText)
+>```
+
+**iOS**
+
+>```objectivec
+> - (void)styleDefaultViewWithBackgroundColor:(UIColor*)backgroundColor textColor:(UIColor*)textColor
+>```
+
+## See also
+
+* [MapFlyoutCustomViewAdapter](mapflyoutcustomviewadapter-interface.md)

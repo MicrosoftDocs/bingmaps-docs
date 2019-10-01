@@ -28,7 +28,7 @@ _See also:_ [MapLayer](MapLayer-class.md)
 **iOS**
 
 >```objectivec
-> - (id)initWithImage:(UIImage*)image geoBoundingBox:(MSGeoboundingBox *)box
+> - (id)initWithImage:(UIImage*)image boundingBox:(MSGeoboundingBox *)boundingBox
 >```
 
 ## See Also

@@ -30,5 +30,5 @@ Gets whether this is the first frame change since cameraChanging event occurs.
 
 ## See also
 
-* [OnCameraChangingListener](OnCameraChangingListener-interface.md)
+* [OnMapCameraChangingListener](OnMapCameraChangingListener-interface.md)
 * [MapView](../MapView-class.md)

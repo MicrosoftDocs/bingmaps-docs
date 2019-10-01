@@ -12,10 +12,11 @@ Displays a line on a map.
 **iOS**
 
 >```objectivec
-> @interface MSMapPolyline : MSMapPathElement
+> @interface MSMapPolyline : MSMapElement
 >```
 
-_See also:_ [MSMapPathElement](iOS/MSMapPathElement-class.md)
+_See also:_ [MapElement](mapelement-class.md)
+
 
 ## Properties
 
@@ -31,8 +32,6 @@ The path making up this line.
 >```
 
 **iOS**
-
-Inherited from [MSMapPathElement](iOS/MSMapPathElement-class.md)
 
 >```objectivec
 > @property (nonatomic) MSGeopath *path  
@@ -62,7 +61,7 @@ Indicates whether the line is dashed.
 **Android**
 
 >```java
-> boolean getStrokeDashed()  
+> boolean isStrokeDashed()
 > void setStrokeDashed(boolean isDashed)
 >```
 
@@ -91,4 +90,5 @@ The width of the line to use for the outside of the polygon.
 
 ## See Also
 
-[Drawing with Polylines and Polygons](../map-control-concepts/map-polylines-and-polygons.md)
+* [Drawing with Polylines and Polygons](../map-control-concepts/map-polylines-and-polygons.md)
+* [MapElement](mapelement-class.md)
