@@ -2,9 +2,6 @@
 
 Welcome to the Bing Maps SDK for Android and iOS!
 
-> Note: The SDK for Android and iOS is currently available as a developer preview.  Although we encourage you to try out the SDK in your own
-prototype code now, we caution the use in production code at this time.
-
 The **Bing Maps SDK for Android** and **Bing Maps SDK for iOS** are libraries for building mapping applications for Android and iOS.
 The SDKs feature a native map control and an accompanying map services API set.
 
@@ -41,4 +38,5 @@ Area                                                             | Description
 ## See also
 
 * [Bing Maps SDK Code Samples](https://github.com/Microsoft/MapsSDK-native)
+* [Breaking API changes in version 1.0](v1-breaking-changes.md)
 * [Terms and Conditions](https://go.microsoft.com/fwlink?LinkID=66121)

@@ -17,7 +17,7 @@ Base class for a layer on the map. Not directly usable, only exists to provide f
 
 ## Properties
 
-### IsVisible
+### Visible
 Whether this layer is rendered or not.
 
 **Android**
@@ -30,7 +30,7 @@ Whether this layer is rendered or not.
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isVisible
+> @property (nonatomic) BOOL visible
 >```
 
 ### ZIndex

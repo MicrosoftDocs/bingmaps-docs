@@ -33,16 +33,17 @@ _See also:_ [OnMapElementTappedListener](Android/OnMapElementTappedListener-inte
 **iOS**
 
 >```objectivec
-> typedef BOOL (^MSMapElementLayerUserDidTapHandler)(CGPoint, MSGeolocation*_Nonnull, NSMutableSet<MSMapElement *> *_Nonnull)
-> - (MSMapHandlerId)addUserDidTapHandler:(MSMapElementLayerUserDidTapHandler)handler  
+> - (MSMapHandlerId)addUserDidTapHandler:(MSMapElementLayerUserDidTapHandler)handler
 > - (BOOL)removeUserDidTapHandler:(MSMapHandlerId)handlerId
->```  
+>```
+
+_See also:_ [MSMapElementLayerUserDidTapHandler](iOS/MSMapElementLayerUserDidTapHandler-interface.md)
 
 ## Properties
 
 ### elements
 
-The map elements in this layer. This collection may be freely modified.  
+The map elements in this layer. This collection may be freely modified.
 _See also:_ [MapElementCollection](MapElementCollection-class.md)
 
 **Android**

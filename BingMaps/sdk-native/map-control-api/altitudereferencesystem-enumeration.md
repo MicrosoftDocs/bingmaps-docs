@@ -33,24 +33,24 @@ An altitude reference system to indicate what an altitude value is relative to.
 
 ### Unspecified
 
-The altitude value has no meaning
+The altitude value has no meaning.
 
 ### Terrain
 
-The altitude value is relative to the terrain (not including surface objects like trees and buildings)
+The altitude value is relative to the terrain (not including surface objects like trees and buildings).
 
 ### Ellipsoid
 
-The altitude value is relative to the WGS84 ellipsoid
+The altitude value is relative to the WGS84 ellipsoid.
 
 ### Geoid
 
-The altitude value is relative to the geoid
+The altitude value is relative to sea level.
 
 ### Surface
 
-The altitude value is relative to the surface (including objects like buildings that are on top of the terrain)
+The altitude value is relative to the surface (including objects like buildings that are on top of the terrain).
 
 ## See Also
 
-[Geolocation](Geolocation-class.md)
+[Geopoint](Geopoint-class.md)

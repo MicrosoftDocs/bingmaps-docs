@@ -5,10 +5,11 @@
 Name                                                                   | Details
 ----------------------------------------------------------------       | ------------------------------------------------------
 [CustomTileMapLayer](CustomTileMapLayer-class.md)                      | Allows a developer to generate custom tiles on the client to overlay on the map.
-[DefaultMapCameraAnimation](Android/DefaultMapCameraAnimation-class.md)| Lets a developer supply custom parameters for driving animated transitions on a map. Android only.
-[GeoboundingBox](GeoboundingBox-class.md)                              | Used to describe a geographical rectangle.
-[Geolocation](Geolocation-class.md)                                    | Describes a geographic point.
-[Geopath](Geopath-class.md)                                            | Describes an ordered collection of points, usable for defining a polyline or polygon.
+[GeoboundingBox](GeoboundingBox-class.md)                              | Describes a geographical rectangle.
+[Geopath](Geopath-class.md)                                            | Describes an ordered series of geographic points, usable for defining a polyline or polygon.
+[Geopoint](Geopoint-class.md)                                          | Describes a geographic point.
+[Geoposition](Geoposition-class.md)                                    | Describes a geographic position's basic information: latitude, longitude, and altitude.
+[Geoshape](Geoshape-class.md)                                          | Describes a geographic shape.
 [GroundOverlayMapLayer](GroundOverlayMapLayer-class.md)                | Displays an image in a geographic area.
 [MapCamera](MapCamera-class.md)                                        | A collection of properties that describes a camera from which to view a map
 [MapElement](MapElement-class.md)                                      | Base abstract class that serves as foundation for elements within the map.
@@ -35,10 +36,10 @@ Name                                                                         | D
 ----------------------------------------------------------------             | ------------------------------------------------------
 [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)            | Indicates what an altitude value is relative to.
 [CopyrightDisplay](Android/CopyrightDisplay-enumeration.md)                  | Controls how the copyright is displayed on the map.
+[GeoshapeType](GeoshapeType-enumeration.md)                                  | Describes the shape of a geographic region.
 [MapAnimationKind](MapAnimationKind-enumeration.md)                          | Describes types of animations supported for camera transitions.
 [MapCameraChangeReason](MapCameraChangeReason-enumeration.md)                | Specifies the reason the position of the map's camera has changed. iOS only.
 [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)    | Describes the behavior of a MapIcon when it collides with other map features.
 [MapLoadingStatus](maploadingstatus-enumeration.md)                          | The status of the map indicating how much of the map is currently being. rendered.
 [MapProjection](MapProjection-enumeration.md)                                | Controls how the map projects the world onto the screen.
 [MapRenderMode](MapRenderMode-enumeration.md)                                | Defines primary data source for rendering map.
-[UserLocationTrackingMode](userlocationtrackingmode-enumeration.md)          | Controls how tracking of the users location is done for the map.

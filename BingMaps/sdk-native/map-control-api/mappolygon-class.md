@@ -1,7 +1,7 @@
 
 # MapPolygon class
 
-Draws a filled shape upon the map.
+Draws a complex filled shape upon the map.
 
 **Android**
 
@@ -12,31 +12,30 @@ Draws a filled shape upon the map.
 **iOS**
 
 >```objectivec
-> @interface MSMapPolygon : MSMapPathElement
->```  
+> @interface MSMapPolygon : MSMapElement
+>```
 
->_See also:_ [MSMapPathElement](iOS/MSMapPathElement-class.md)
+_See also:_ [MapElement](mapelement-class.md)
+
 
 ## Properties
 
-### Path
+### Paths
 
-The path making up this polygon.
+The paths making up rings of this polygon.
 
 **Android**
 
 >```java
-> Geopath getPath()  
-> void setPath(Geopath path)
+> List<Geopath> getPaths()
+> void setPaths(List<Geopath> paths)
 >```
 
 **iOS**
 
-Inherited from [MSMapPathElement](iOS/MSMapPathElement-class.md
-
 >```objectivec
-> @property (nonatomic) MSGeopath *path
->```  
+> @property (nonatomic) NSArray<MSGeopath *> *paths
+>```
 
 
 ### FillColor
@@ -54,7 +53,7 @@ The color to use to fill the inside of the polygon.
 
 >```objectivec
 > @property (nonatomic) UIColor *fillColor
->```  
+>```
 
 
 ### StrokeColor
@@ -81,7 +80,7 @@ Indicates whether the line is dashed.
 **Android**
 
 >```java
-> boolean getStrokeDashed()
+> boolean isStrokeDashed()
 > void setStrokeDashed(boolean isDashed)
 >```
 
@@ -110,4 +109,5 @@ The width of the line to use for the outside of the polygon.
 
 ## See Also
 
-[Drawing with Polylines and Polygons](../map-control-concepts/map-polylines-and-polygons.md)
+* [Drawing with Polylines and Polygons](../map-control-concepts/map-polylines-and-polygons.md)
+* [MapElement](mapelement-class.md)

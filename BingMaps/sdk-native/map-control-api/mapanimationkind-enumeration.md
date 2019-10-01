@@ -32,7 +32,6 @@ Specifies the animation to use when you change the view of the map. For example,
 ### Default
 
 Default animation. This will do linear animations if close, parabolic animations if distant)
-For Android, see [DefaultMapCameraAnimation](Android/DefaultMapCameraAnimation-class.md).)
 
 ### None
 

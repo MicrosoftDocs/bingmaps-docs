@@ -1,6 +1,6 @@
 # Icons
 
-**Icons**, sometimes known as Point of Interest (POI), Pushpins or Markers, are the primary method in the Bing Maps native controls to add
+**Icons**, sometimes known as Point of Interest (POI), Pushpins, or Markers, are the primary method in the Bing Maps native controls to add
 a graphical image and text at a location within the map.
 
 Use [MapIcon](../map-control-api/MapIcon-class.md) to add a point of interest on the map. You will also want to review how to [anchor your icons](anchoring-mapIcons.md) to

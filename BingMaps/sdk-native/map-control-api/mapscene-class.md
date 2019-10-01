@@ -24,101 +24,101 @@ MapScene contains static methods for creating specific versions of MapScene.  No
 
 Creates a map scene that displays a given location. The MapView determines how much around the point to display. For finer grained control of how close to the location to place the camera use `ofLocationAndRadius`.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> MapSceneOfLocation createFromLocation(Geolocation location)  
-> MapSceneOfLocation createFromLocation(Geolocation location, double headingInDegrees, double pitchInDegrees)>
+> MapScene createFromLocation(Geopoint location)
+> MapScene createFromLocation(Geopoint location, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)>
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location heading:(double)heading pitch:(double)pitch
->```  
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
 
 ### createFromLocationAndRadius
 
 Creates a map scene that displays the specified location and an amount of space around it.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> MapSceneOfLocationAndRadius createFromLocationAndRadius(Geolocation location, double radiusInMeters) 
-> MapSceneOfLocationAndRadius createFromLocationAndRadius(Geolocation location, double radiusInMeters, double headingInDegrees, double pitchInDegrees)
+> MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters) 
+> MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location radius:(double)radius
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location radius:(double)radius heading:(double)heading pitch:(double)pitch
->```  
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location radius:(CLLocationDistance)radius
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location radius:(CLLocationDistance)radius heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
 
 ### createFromLocationAndZoomLevel
 
 Creates a map scene that displays the specified location from the given zoom level.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> MapSceneOfLocationWithZoomLevel createFromLocationAndZoomLevel(Geolocation location, double zoomLevel) 
-> MapSceneOfLocationWithZoomLevel createFromLocationAndZoomLevel(Geolocation location, double zoomLevel, double headingInDegrees, double pitchInDegrees)
+> MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel) 
+> MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location zoomLevel:(double)zoomLevel
-> + (instancetype)sceneWithLocation:(MSGeolocation *)location zoomLevel:(double)zoomLevel heading:(double)heading pitch:(double)pitch
->```  
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location zoomLevel:(double)zoomLevel
+> + (instancetype)sceneWithLocation:(MSGeopoint *)location zoomLevel:(double)zoomLevel heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
 
 ### createFromLocations
 
 Creates a map scene that displays all of the locations, if possible.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> MapSceneOfLocations createFromLocations(java.lang.Iterable<Geolocation> locations)
-> MapSceneOfLocations createFromLocations(java.lang.Iterable<Geolocation> locations, double headingInDegrees, double pitchInDegrees)
+> MapScene createFromLocations(java.lang.Iterable<Geopoint> locations)
+> MapScene createFromLocations(java.lang.Iterable<Geopoint> locations, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithLocations:(NSArray<MSGeolocation *> *)locations
->```+ (instancetype)sceneWithLocations:(NSArray<MSGeolocation *> *)locations heading:(double)heading pitch:(double)pitch
->```  
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
 
 ### createFromLocationsAndMargin
 
 Creates a map scene that displays all of the locations with specified additional margin in density-independent pixels, if possible.
 
-_See also:_ [Geolocation](Geolocation-class.md)
+_See also:_ [Geopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> MapSceneOfLocationsWithMargin createFromLocationsAndMargin(java.lang.Iterable<Geolocation> locations, double marginInDeviceIndependentPixels)
-> MapSceneOfLocationsWithMargin createFromLocationsAndMargin(java.lang.Iterable<Geolocation> locations, double marginInDeviceIndependentPixels, double headingInDegrees, double pitchInDegrees)
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels)
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithLocations:(NSArray<MSGeolocation *> *)locations margin:(double)margin
-> + (instancetype)sceneWithLocations:(NSArray<MSGeolocation *> *)locations margin:(double)margin heading:(double)heading pitch:(double)pitch
-> ```  
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin heading:(CLLocationDirection)heading pitch:(double)pitch
+> ```
 
 ### createFromBoundingBox
 
@@ -129,14 +129,15 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 **Android**
 
 >```java
-> MapSceneOfBoundingBox createFromBoundingBox(GeoboundingBox boundingBox)
+> MapScene createFromBoundingBox(GeoboundingBox boundingBox)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)geoBoundingBox
->```  
+> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox
+> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox heading:(CLLocationDirection)heading pitch:(double)pitch;
+>```
 
 ### createFromBoundingBoxAndMargin
 
@@ -147,14 +148,14 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 **Android**
 
 >```java
-> MapSceneOfBoundingBoxWithMargin createFromBoundingBoxAndMargin(GeoboundingBox boundingBox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels)
+> MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingBox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels)
 >```
 
 **iOS**
 
 >```objectivec
-> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)geoBoundingBox leftMargin:(double)leftMargin topMargin:(double)topMargin rightMargin:(double)rightMargin bottomMargin:(double)bottomMargin
-> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)geoBoundingBox leftMargin:(double)leftMargin topMargin:(double)topMargin rightMargin:(double)rightMargin bottomMargin:(double)bottomMargin heading:(double)heading pitch:(double)pitch
+> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox leftMargin:(double)leftMargin topMargin:(double)topMargin rightMargin:(double)rightMargin bottomMargin:(double)bottomMargin
+> + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox leftMargin:(double)leftMargin topMargin:(double)topMargin rightMargin:(double)rightMargin bottomMargin:(double)bottomMargin heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
 ### createFromCamera
@@ -166,14 +167,14 @@ _See also:_ [MapCamera](MapCamera-class.md)
 *Android**
 
 >```java
-> MapSceneFromCamera createFromCamera(MapCamera camera)
+> MapScene createFromCamera(MapCamera camera)
 >```
 
 **iOS**
 
 >```objectivec
 > + (instancetype)sceneWithCamera:(MSMapCamera *)camera
->```  
+>```
 
 ## See Also
 

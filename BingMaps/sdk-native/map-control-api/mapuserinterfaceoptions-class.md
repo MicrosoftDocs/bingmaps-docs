@@ -11,30 +11,13 @@ A container class for various properties that can be used to configure interacti
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > @interface MSMapUserInterfaceOptions : NSObject
 >```
 
 ## Properties
 
-### isZoomButtonsVisible
-
-Whether the zoom in and zoom out buttons are displayed.
-
-**Android**
-
->```java
-> boolean isZoomButtonsVisible()
-> void setZoomButtonsVisible(final boolean visible)
->```
-
-**iOS**
-
->```objectivec
-> @property (nonatomic) BOOL isZoomButtonsVisible
->```
-
-### isCompassButtonVisible
+### CompassButtonVisible
 
 Whether the compass is displayed.
 
@@ -48,10 +31,9 @@ Whether the compass is displayed.
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isCompassButtonVisible
+> @property (nonatomic) BOOL compassButtonVisible
 >```
-
-### isTiltButtonVisible
+### TiltButtonVisible
 
 Whether the tilt button is displayed.
 
@@ -65,93 +47,99 @@ Whether the tilt button is displayed.
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isTiltButtonVisible
+> @property (nonatomic) BOOL tiltButtonVisible
 >```
 
-### isMyLocationButtonVisible
 
-Whether my location button is displayed.
+### ZoomButtonsVisible
+
+Whether the zoom in and zoom out buttons are displayed.
 
 **Android**
 
 >```java
-> boolean isMyLocationButtonVisible()
-> void setMyLocationButtonVisible(boolean visible)
+> boolean isZoomButtonsVisible()
+> void setZoomButtonsVisible(final boolean visible)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isMyLocationButtonVisible
+> @property (nonatomic) BOOL zoomButtonsVisible
 >```
 
-### isRotateGesturesEnabled
 
-Whether a user can use a twisting rotate finger gesture to rotate out of north-up
-
-**Android**
-
->```java
-> boolean isRotateGesturesEnabled()
-> void setRotateGesturesEnabled(boolean enabled)
->```
-
-**iOS**
-
->```objectivec
-> @property (nonatomic) BOOL isRotateGesturesEnabled
->```
-
-### isTiltGesturesEnabled
-
-Whether a user can use a two-finger gesture to tilt in and out of nadir views.
-
-**Android**
-
->```java
-> boolean isTiltGesturesEnabled()
-> void setTiltGesturesEnabled(boolean enabled)
->```
-
-**iOS**
-
-> ```objectivec
-> @property (nonatomic) BOOL isTiltGesturesEnabled
->```
-
-### isPanGesturesEnabled
+### PanGestureEnabled
 
 Whether a user can pan (scroll) the map around using gestures
 
 **Android**
 
 >```java
-> boolean isPanGesturesEnabled()
-> void setPanGesturesEnabled(boolean enabled)
+> boolean isPanGestureEnabled()
+> void setPanGestureEnabled(boolean enabled)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isPanGesturesEnabled
+> @property (nonatomic) BOOL panGestureEnabled
 >```
 
-### isZoomGesturesEnabled
+
+### RotateGestureEnabled
+
+Whether a user can use a twisting rotate finger gesture to rotate out of north-up
+
+**Android**
+
+>```java
+> boolean isRotateGestureEnabled()
+> void setRotateGestureEnabled(boolean enabled)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) BOOL rotateGestureEnabled
+>```
+
+
+### TiltGestureEnabled
+
+Whether a user can use a two-finger gesture to tilt in and out of nadir views.
+
+**Android**
+
+>```java
+> boolean isTiltGestureEnabled()
+> void setTiltGestureEnabled(boolean enabled)
+>```
+
+**iOS**
+
+> ```objectivec
+> @property (nonatomic) BOOL tiltGestureEnabled
+>```
+
+
+### ZoomGestureEnabled
 
 Whether a user can use a two-finger gesture to zoom in and out of the map.
 
 **Android**
 
 >```java
-> boolean isZoomGesturesEnabled()
-> void setZoomGesturesEnabled(boolean enabled)
+> boolean isZoomGestureEnabled()
+> void setZoomGestureEnabled(boolean enabled)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isZoomGesturesEnabled
+> @property (nonatomic) BOOL zoomGestureEnabled
 >```
+
 
 ### CopyrightDisplay
 
@@ -167,5 +155,5 @@ Controls whether copyright is displayed on mobile form factor sized MapViews. Th
 **iOS**
 
 >```objectivec
-> @property (nonatomic) BOOL isCopyrightVisible
+> @property (nonatomic) MSCopyrightDisplay copyrightDisplay
 >```

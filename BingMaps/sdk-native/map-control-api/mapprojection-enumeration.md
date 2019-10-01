@@ -16,7 +16,7 @@ Controls how the map projects the world onto the screen.
 **iOS**
 
 >``` objectivec
-> typedef NS_ENUM(NSInteger, MSMapProjection
+> typedef NS_ENUM(NSInteger, MSMapProjection)
 > {
 >     MSMapProjectionMercator,
 >     MSMapProjectionGlobe,

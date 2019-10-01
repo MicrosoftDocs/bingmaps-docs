@@ -48,25 +48,8 @@ Whether the item is visible or not.
 **iOS**
 
 >```objectivec 
-> @property (nonatomic) BOOL isVisible
+> @property (nonatomic) BOOL visible
 > ```
-
-#### HitTestVisible
-
-Whether this shape is hit testable.  Default is false for MapPolygon and MapPolyline and true for MapIcon. Note that adding lots of elements that are hit testable can negatively impact user experence.
-
-**Android**
-
->```java
-> boolean isHitTestVisible()
-> void setHitTestVisible(boolean hitTestVisible)
->```
-
-**iOS**
-
->```objectivec
-> @property (nonatomic) BOOL isHitTestVisible
->```
 
 #### Tag
 
