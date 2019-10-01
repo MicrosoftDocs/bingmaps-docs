@@ -22,5 +22,5 @@ Gets the current position of the map's camera.
 
 ## See also
 
-* [OnCameraChangedListener](OnCameraChangedListener-interface.md)
+* [OnMapCameraChangedListener](OnMapCameraChangedListener-interface.md)
 * [MapView](../MapView-class.md)

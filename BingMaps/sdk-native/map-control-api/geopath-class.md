@@ -1,73 +1,66 @@
 
 # MSGeopath class
 
-Represents a collection of Locations that form a path.
+Represents an ordered series of geographic points that form a path.
 
 **Android**
 
 >```java
-> public class Geopath implements Iterable<Geolocation>
+> public class Geopath extends Geoshape implements Iterable<Geoposition>
 >```
 
 **iOS**
 
 >```objectivec
-> @interface MSGeopath : NSObject<NSFastEnumeration>
+> @interface MSGeopath : MSGeoshape<NSFastEnumeration>
 >```
 
-## Methods
 
-### Add
-Adds a new location to the set of locations in the Geopath.
+## Constructors
+
+Constructor takes one argument: a non-empty collection of Geopositions that form the Geopath.  
+All Geopositions must use the same altitude reference system.
 
 **Android**
 
 >```java
-> `void add(Geolocation location)
+> Geopath(List<Geoposition> positions)
 >```
 
 **iOS**
 
 >```objectivec
-> - (void)addLocation:(MSGeolocation *)loc
+> + (instancetype)geopathWithPositions:(NSArray<MSGeoposition*>*)positions
 >```
 
-### Insert (iOS Only)
-Inserts a new location at a specific index in the path.
+_See also:_ [Geoposition](geoposition-class.md)
 
->```objectivec
-> - (void)insertLocation:(MSGeolocation *)loc atIndex:(NSUInteger)index
->```
-
-
-### Remove
-Removes a specfic location from the Geopath. Return true if found.
-
-**Android**
-
->```java
-> boolean remove(Geolocation location)
-> ```
-
-**iOS**
-
->```objectivec 
-> - (BOOL)removeLocation:(MSGeolocation *)loc
->```  
-
-### RemoveAtIndex (iOS Only)
-Removes a location at a specific index.
-
->```objectivec
-> - (void)removeLocationAtIndex:(NSUInteger)index
->```
 
 ## Properties
 
-### Size
-The number of locations in the Geopath.
+### AltitudeReferenceSystem
 
-**Android** 
+Altitude reference system used for all positions in the geopath.
+
+**Android**
+
+>```java
+> AltitudeReferenceSystem getAltitudeReferenceSystem()
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, readonly) MSMapAltitudeReferenceSystem altitudeReferenceSystem
+>```
+
+_See also:_ [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)
+
+### Size
+
+The number of positions in the Geopath.
+
+**Android**
 
 >```java
 > int size()
@@ -76,7 +69,11 @@ The number of locations in the Geopath.
 **iOS**
 
 >```objectivec
-> @property (readonly) NSUInteger count
+> @property (nonatomic, readonly) NSUInteger size
 >```
 
-_See also:_ [Geolocation](Geolocation-class.md)
+
+## See Also
+
+* [Geoshape](Geoshape-class.md)
+* [Geoposition](Geoposition-class.md)

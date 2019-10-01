@@ -2,7 +2,7 @@
 
 ## Default Map Style Sheets
 
-The pre-built Map Style Sheets establish the fundamental mode that a map view will render in.  Available options are specified on [MapStyleSheets](../map-control-api/MapStyleSheets-class.md)
+The pre-built Map Style Sheets establish the fundamental mode that a map view will render in.  Available options are specified in [MapStyleSheets](../map-control-api/MapStyleSheets-class.md)
 
 ### Examples
 
@@ -25,6 +25,41 @@ You can create your own Map Style Sheet by writing custom JSON and passing it to
 ### Examples
 
 The following example shows how to create a custom map style sheet from JSON and set the style of the map.
+
+**Java**
+
+>```java
+> String customMapStyleString = 
+> "{" +
+>     "\"version\": \"1.0\"," +
+>     "\"settings\": {" +
+>    "\"landColor\": \"#FFFFFF\"," +
+>    "\"spaceColor\": \"#000000\"" +
+>     "}," +
+>     "\"elements\": {" +
+>         "\"mapElement\": {" +
+>             "\"labelColor\": \"#000000\"," +
+>             "\"labelOutlineColor\": \"#FFFFFF\"" +
+>         "}," +
+>        "\"water\": {" +
+>             "\"fillColor\": \"#DDDDDD\"" +
+>         "}," +
+>         "\"area\": {" +
+>             "\"fillColor\": \"#EEEEEE\"" +
+>         "}," +
+>         "\"political\": {" +
+>             "\"borderStrokeColor\": \"#CCCCCC\"," +
+>             "\"borderOutlineColor\": \"#00000000\"" +
+>         "}" +
+>     "}" +
+> "}";
+>
+> final MapStyleSheet styleSheetFromJson = MapStyleSheet.fromJson(customMapStyleString);
+> if (styleSheetFromJson != null) 
+> {
+>   mapView.setMapStyleSheet(styleSheetFromJson);
+> }
+>```
 
 **Swift**
 
@@ -62,7 +97,28 @@ The following example shows how to create a custom map style sheet from JSON and
 
 ![Custom map style 1](media/change-map-styles-custom01.png)
 
-Also, you can start with an existing sheet and then use JSON to override any elements that you want. The following example update existing RoadDark style to change only the color of water area.  
+Also, you can start with an existing sheet and then use JSON to override any elements that you want. The following example updates the existing RoadDark style to change only the color of water. 
+
+**Java**
+
+>```java
+> String customMapStyleString = 
+> "{" +
+>     "\"version\": \"1.0\"," +
+>     "\"elements\": {" +
+>           "\"water\": {" +
+>               "\"fillColor\": \"#DDDDDD\"" +
+>           "}" +
+>     "}" +
+> "}";
+>
+> final MapStyleSheet styleSheetFromJson = MapStyleSheet.fromJson(customMapStyleString);
+> if (styleSheetFromJson != null) 
+> {
+>     final MapStyleSheet builtInSheet = MapStyleSheets.roadDark();
+>     mMap.setMapStyleSheet(MapStyleSheet.combine(new ArrayList<MapStyleSheet>() {{ add(styleSheetFromJson); > add(builtInSheet); }}));
+> }
+>```
 
 **Swift**
 

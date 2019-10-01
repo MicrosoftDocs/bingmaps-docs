@@ -46,7 +46,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 >   use_frameworks!
 >
 >   # Pods for SampleApp
->   pod 'MicrosoftMapsSDK', '~> 0.2.0'
+>   pod 'MicrosoftMapsSDK', '~> 1.0.0'
 > end
 >```
 
@@ -59,7 +59,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 1. Add UIView to the scene and set its class to MSMapView  
 ![Add the map](media/add-map.png "Add the map")  
 
-2. Add the following import to UIViewController
+2. Add the following import to ViewController
 
 >```swift
 > import MicrosoftMaps
@@ -88,7 +88,7 @@ Let's go through a common scenario to set map scene to a specific location on st
 First, declare the location. Say, we want to show Seattle and Bellevue and choose Lake Washington in between:
 
 >```swift
-> let LOCATION_LAKE_WASHINGTON = MSGeolocation(latitude: 47.609466, longitude: -122.265185)
+> let LOCATION_LAKE_WASHINGTON = MSGeopoint(latitude: 47.609466, longitude: -122.265185)
 >```
 
 Then override your ViewController's `viewDidLoad` method with a `setScene` call:
@@ -112,7 +112,7 @@ First, declare the element layer as class member:
 > private var pinLayer: MSMapElementLayer!
 >```
 
-Next step, initialize and add it to map view's layers in your `onCreate` method:
+Next step, initialize and add it to map view's layers in your `viewDidLoad` method:
 
 >```swift
 > pinLayer = MSMapElementLayer()
@@ -122,8 +122,8 @@ Next step, initialize and add it to map view's layers in your `onCreate` method:
 Use the following snippet to add pins:
 
 >```swift
-> let location = MSGeolocation(...) // your pin lat-long coordinates
-> let pinBitmap = MSMapImage(...)  // your pin graphic
+> let location = MSGeopoint(...) // your pin lat-long coordinates
+> let pinBitmap = MSMapImage(...)  // your pin graphic (optional)
 >
 > let pushpin = MSMapIcon()
 > pushpin.location = location

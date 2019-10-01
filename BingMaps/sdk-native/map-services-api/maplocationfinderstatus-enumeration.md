@@ -70,4 +70,4 @@ The request succeeded but the response was empty.
 
 ## See also
 
-* [MapLocationResult](MapLocationFinderResult-class.md)
+* [MapLocationFinderResult](MapLocationFinderResult-class.md)

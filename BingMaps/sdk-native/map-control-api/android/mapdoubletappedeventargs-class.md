@@ -18,7 +18,7 @@ Gets the location of the pointer input in client coordinate.
 Gets the geographic location that corresponds to where the MapControl received user input.
 
 >```java
-> final Geolocation location
+> final Geopoint location
 > ```
 
 ## See also
