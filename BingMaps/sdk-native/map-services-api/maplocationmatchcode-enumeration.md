@@ -9,7 +9,7 @@ Similarly, a geocoded location with match codes of `Ambiguous` and `UpHierarchy`
 **Android**
 
 >```java
->public enum MapLocation.MatchCode
+>public enum MapLocationMatchCode
 >{
 >    UNKNOWN(0),
 >    GOOD(1),

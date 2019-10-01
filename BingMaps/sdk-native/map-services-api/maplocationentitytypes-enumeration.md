@@ -1,4 +1,4 @@
-# MapLocationEntityType enumeration
+# MapLocationEntityTypes enumeration
 
 Specifies the entity types that you want returned in the response for a geocoding request. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.
 
@@ -9,7 +9,7 @@ The values can be combined using bitwise `OR`.
 **Android**
 
 >```java
->public class MapLocationEntityType
+>public class MapLocationEntityTypes
 >{
 >    public static final int NOT_SET = 0;
 >    public static final int ADDRESS = 1;
@@ -25,7 +25,7 @@ The values can be combined using bitwise `OR`.
 **iOS**
 
 >```objectivec
->typedef NS_OPTIONS(NSUInteger, MSMapLocationEntityType)
+>typedef NS_OPTIONS(NSUInteger, MSMapLocationEntityTypes)
 >{
 >    MSMapLocationEntityTypeNotSet = 0,
 >    MSMapLocationEntityTypeAddress = 1,

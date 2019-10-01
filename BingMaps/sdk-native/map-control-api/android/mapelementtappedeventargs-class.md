@@ -10,7 +10,7 @@ Event arguments passed to MapElementLayer.MapElementTapped callback.
 Gets the geographic location that corresponds to where the [MapElementsLayer](../MapElementLayer-class.md) received user input.
 
 >```java
-> final Geolocation location
+> final Geopoint location
 >```
 
 ### MapElements

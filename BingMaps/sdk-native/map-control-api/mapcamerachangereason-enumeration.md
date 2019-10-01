@@ -26,10 +26,10 @@ Specifies the reason the position of the map's camera has changed.
 > ```
 
 ### System
-The position of the map's camera changed programmatically.
+The system changed the position of the map's camera.
 
 ### UserInteraction
 The user manually changed the position of the map's camera.
 
 ### Programmatic
-The system changed the position of the map's camera.
+The position of the map's camera changed programmatically.

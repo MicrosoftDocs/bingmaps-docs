@@ -24,7 +24,7 @@ Creates a new MapStyleSheet from an input string. Returns false in iOS and Optio
 **Android**
 
 >```java
-> public static Optional<MapStyleSheet> fromJson(String json)
+> public static MapStyleSheet fromJson(String json)
 >```
 
 **iOS**

@@ -1,13 +1,13 @@
 
-# OnCameraChangedListener interface (Android only)
+# OnMapCameraChangedListener interface (Android only)
 
 Listener used with MapView.CameraChanged event.
 
 > ```java
-> public interface OnCameraChangedListener
+> public interface OnMapCameraChangedListener
 > {
 >     /** Called when camera stops moving. */
->     public boolean onCameraChanged(MapCameraChangedEventArgs e);
+>     public boolean onMapCameraChanged(MapCameraChangedEventArgs e);
 > }
 >```
 

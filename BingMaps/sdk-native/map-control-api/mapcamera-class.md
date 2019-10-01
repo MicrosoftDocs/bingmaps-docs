@@ -16,30 +16,30 @@ Describes a camera in a MapView.
 
 ## Constructors
 
-If not specified, Geolocation defaults to (latitude: 0, longitude: 0), Heading to 0, Pitch to -90, and VerticalFieldOfView defaults to not set (null).
+If not specified, Geopoint defaults to (latitude: 0, longitude: 0), Heading to 0, Pitch to -90, and VerticalFieldOfView defaults to not set (null).
 
 **Android**
 
 >```java
 > MapCamera()
-> MapCamera(Geolocation cameraLocation) 
-> MapCamera(Geolocation cameraLocation, double heading, double pitch)
-> MapCamera(Geolocation cameraLocation, double heading, double pitch, double verticalFieldOfView)
+> MapCamera(Geopoint cameraLocation) 
+> MapCamera(Geopoint cameraLocation, double heading, double pitch)
+> MapCamera(Geopoint cameraLocation, double heading, double pitch, double verticalFieldOfView)
 >```
 
 **iOS**
 
 >```objectivec + (instancetype)camera
-> + (instancetype)cameraWithLocation:(MSGeolocation *)location
-> + (instancetype)cameraWithLocation:(MSGeolocation *)location heading:(double)heading pitch:(double)pitch
-> + (instancetype)cameraWithLocation:(MSGeolocation *)location heading:(double)heading pitch:(double)pitch verticalFieldOfView:(double)fov
+> + (instancetype)cameraWithLocation:(MSGeopoint *)location
+> + (instancetype)cameraWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch
+> + (instancetype)cameraWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch verticalFieldOfView:(double)fov
 >```  
 
 ## Properties
 
 ### Heading
 
-The heading in degrees. 0 == north, 90 == east, 180 == south, 270 == west. Values less than 0 or greater than 360 are wrapped.
+The heading in degrees. 0 corresponds to north, 90 to east, 180 to south, and 270 to west. Values less than 0 or greater than 360 are wrapped.
 
 **Android**
 
@@ -51,31 +51,32 @@ The heading in degrees. 0 == north, 90 == east, 180 == south, 270 == west. Value
 **iOS**
 
 >```objectivec
-> @property (nonatomic) double heading
+> @property (nonatomic) CLLocationDirection heading
 >```  
 
 
 ### Location
 
 The location of the MapCamera.  
-_See also:_ [MSGeolocation](Geolocation-class.md)
+_See also:_ [MSGeopoint](Geopoint-class.md)
 
 **Android**
 
 >```java
-> Geolocation getLocation()
-> void setLocation(Geolocation location)
+> Geopoint getLocation()
+> void setLocation(Geopoint location)
 >```
 
 **iOS**
 
 >```objectivec
-> @property (nonatomic) MSGeolocation *location
+> @property (nonatomic) MSGeopoint *location
 >```  
 
 ### Pitch
 
-The pitch of the camera in degrees where -90 is looking straight down, 0 is looking at the tangent of the earth, and 90 is looking straight up.
+The pitch of the map in degrees, where 0 is looking straight down (minimum) and 90 is looking towards the horizon (maximum). Values outside of this range will throw an exception.
+Note that pitch may be limited in some views.
 
 **Android**
 

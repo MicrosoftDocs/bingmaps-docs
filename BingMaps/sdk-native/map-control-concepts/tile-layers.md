@@ -133,29 +133,30 @@ The following examples show how to provide custom tiles by specifying the callba
 
 ### Overlay tiles by binding an image to a bounding box area on a map 
 
-The following example shows how to overlay tiles by instantiating an `GroundOverlayMapLayer` and specify image and bounding box of the layer.
+The following example shows how to overlay tiles by instantiating a `GroundOverlayMapLayer` and specifying the image and bounding box of the layer.
 
 **Swift**
 
 > ``` swift
 > let url = URL(string: "https://bingmapsisdk.blob.core.windows.net/isdksamples/us_counties.png")
-> let northwest = MSGeolocation(latitude: 50, longitude: -126)
-> let southeast = MSGeolocation(latitude: 25, longitude: -66)
+> let northwest = MSGeopoint(latitude: 50, longitude: -126)
+> let southeast = MSGeopoint(latitude: 25, longitude: -66)
 > let boundingBox = MSGeoboundingBox(northwest: northwest, southeast: southeast)
-> do{
+> do {
 >     let data = try Data(contentsOf: url!)
->     groundOverlayLayer = MSMapGroundOverlayMapLayer(image:UIImage(data:data)!,
->                     geoBoundingBox: boundingBox)
+>     groundOverlayLayer = MSMapGroundOverlayMapLayer(
+>         image:UIImage(data:data)!,
+>         boundingBox: boundingBox)
 >
->     let scene = MSMapScene(location: MSGeolocation(latitude: 40, longitude: -98), zoomLevel: 4 )
+>     let scene = MSMapScene(location: MSGeopoint(latitude: 40, longitude: -98), zoomLevel: 4)
 >     self.mapView.setScene(scene, with: .none)
 >     mapView.layers.add(groundOverlayLayer)
 > }
-> catch{
+> catch {
 > }
 >```
 
-## Removing overlay from map
+## Removing overlay tiles from a map
 
 The following example shows how to remove all overlay tiles from a map.
 

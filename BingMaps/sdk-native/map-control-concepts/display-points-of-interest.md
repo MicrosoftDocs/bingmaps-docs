@@ -14,7 +14,7 @@ align with the chosen location on a map.
 
 > ```Java
 > MapIcon icon = new MapIcon();
-> icon.setLocation(new Geolocation(0, 0));
+> icon.setLocation(new Geopoint(0, 0));
 > MapElementLayer elementLayer = new MapElementLayer();
 > elementLayer.getElements().add(icon);
 > mMap.getLayers().add(elementLayer);
@@ -24,10 +24,10 @@ align with the chosen location on a map.
 
 > ```objectivec
 > MSMapIcon *icon = [MSMapIcon icon];
-> icon.location = [MSGeolocation geolocationWithLatitude:0
->                                              longitude:0
->                                               altitude:0
->                                altitudeReferenceSystem:MSMapAltitudeReferenceSystemSurface];
+> icon.location = [MSGeopoint geopointWithLatitude:0
+>                                        longitude:0
+>                                         altitude:0
+>                          altitudeReferenceSystem:MSMapAltitudeReferenceSystemSurface];
 > MSMapElementLayer* elementLayer = [MSMapElementLayer layer]
 > [elementLayer.elements addMapElement:icon];
 > [mMap.layers addMapLayer:elementLayer]
@@ -37,7 +37,7 @@ align with the chosen location on a map.
 
 ### Set a pushpin image
 
-The following example shows how to assign custom image loaded from resource and center the image on the location.
+The following example shows how to assign a custom image loaded from resource, and center the image on the location.
 
 **Java**
 
@@ -62,14 +62,14 @@ The following example shows how to assign custom image loaded from resource and 
 
 ### Add a pushpin with SVG image
 
-You can also use SVG image to create [MapImage]() to specify custom image.
+You can also use an SVG image to create a [MapImage](../map-control-api/MapImage-class.md) to specify the custom image.
 
 **Swift**
 
 > ``` swift
 > func addSvgIconAtMapCenter() {
 >     let mapIcon = MSMapIcon()
->     mapIcon.location = MSGeolocation(latitude: mapView.mapCenter.latitude, longitude: mapView.mapCenter.longitude)
+>     mapIcon.location = MSGeopoint(latitude: mapView.mapCenter.position.latitude, longitude: mapView.mapCenter.position.longitude)
 >     let svgString = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\"><circle cx=\"25\" cy=\"25\" r=\"20\" stroke=\"orange\" stroke-width=\"4\" fill=\"yellow\" /></svg>"
 >     let svgData = svgString.data(using: .utf8)
 >     mapIcon.image = MSMapImage(svgImage: svgData!)

@@ -7,19 +7,19 @@ Frequently, you want to add a simple annotation to the map, which [MapIcons](../
 
 ### Adding a line
 
-Display a line by using the [MapPolyline](../map-control-api/MapPolyline-class.md). The following example shows how to add a dashed black line on an map.
+Display a line by using the [MapPolyline](../map-control-api/MapPolyline-class.md). The following example shows how to add a dashed black line on a map.
 
 **Swift**
 
 > ``` swift
 > func drawLineOnMap() {
->     let centerLatitude = mapView.mapCenter.latitude;
->     let centerLongitude = mapView.mapCenter.longitude;
+>     let centerLatitude = mapView.mapCenter.position.latitude;
+>     let centerLongitude = mapView.mapCenter.position.longitude;
 >
 >     let mapPolyline = MSMapPolyline()
->     let geopath = MSGeopath()
->     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
->     geopath.addLocation(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude+0.001))
+>     let geopath = MSGeopath(positions:
+>           [MSGeoposition(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001),
+>            MSGeoposition(latitude: centerLatitude+0.0005, longitude: centerLongitude+0.001)])
 >
 >     mapPolyline.path = geopath
 >     mapPolyline.strokeColor = UIColor.black
@@ -39,14 +39,16 @@ Display a line by using the [MapPolyline](../map-control-api/MapPolyline-class.m
 >``` objectivec
 > - (void) drawLineOnMap
 > {
->     MSGeolocation *center = self.mapView.mapCenter;
->     double centerLatitude = center.latitude;
->     double centerLongitude = center.longitude;
+>     MSGeopoint *center = self.mapView.mapCenter;
+>     double centerLatitude = center.position.latitude;
+>     double centerLongitude = center.position.longitude;
+>
+>     NSMutableArray<MSGeoposition*>* positions;
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude-0.0005 longitude: centerLongitude-0.001]];
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude+0.0005 longitude: centerLongitude+0.001]];
 >
 >     MSMapPolyline* mapPolyline = [MSMapPolyline polyline];
->     MSGeopath *geopath = [MSGeopath geopath];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude-0.0005 longitude: centerLongitude-0.001]];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude+0.0005 longitude: centerLongitude+0.001]];
+>     MSGeopath *geopath = [MSGeopath geopathWithPositions:positions];
 >
 >     mapPolyline.path = geopath;
 >     mapPolyline.strokeColor = [UIColor blackColor];
@@ -63,22 +65,22 @@ Display a line by using the [MapPolyline](../map-control-api/MapPolyline-class.m
 
 ### Adding a shape
 
-Display a multi-point shape on a map by using the [MapPolygon](../map-control-api/MapPolygon-class.md). The following example show how to add a red box with blue outline on a map.
+Display a multi-point shape on a map by using the [MapPolygon](../map-control-api/MapPolygon-class.md). The following example show how to add a red box with a blue outline on a map.
 
 **Swift**
 
 > ``` swift
 > func highlightArea() {
->     let centerLatitude = mapView.mapCenter.latitude;
->     let centerLongitude = mapView.mapCenter.longitude;
+>     let centerLatitude = mapView.mapCenter.position.latitude;
+>     let centerLongitude = mapView.mapCenter.position.longitude;
 >
 >     let mapPolygon = MSMapPolygon()
->     let geopath = MSGeopath()
->     geopath.addLocation(MSGeolocation(latitude: centerLatitude+0.0005, longitude: centerLongitude-0.001))
->     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001))
->     geopath.addLocation(MSGeolocation(latitude: centerLatitude-0.0005, longitude: centerLongitude+0.001))
+>     let geopath = MSGeopath(positions:
+>         [MSGeoposition(latitude: centerLatitude+0.0005, longitude: centerLongitude-0.001),
+>         MSGeoposition(latitude: centerLatitude-0.0005, longitude: centerLongitude-0.001),
+>         MSGeoposition(latitude: centerLatitude-0.0005, longitude: centerLongitude+0.001)])
 >
->     mapPolygon.path = geopath
+>     mapPolygon.paths = [geopath]
 >     mapPolygon.zIndex = 1
 >     mapPolygon.fillColor = UIColor.red
 >     mapPolygon.strokeColor = UIColor.blue
@@ -97,18 +99,20 @@ Display a multi-point shape on a map by using the [MapPolygon](../map-control-ap
 >``` objectivec
 > - (void) highlightArea
 > {
->     MSGeolocation *center = self.mapView.mapCenter;
->     double centerLatitude = center.latitude;
->     double centerLongitude = center.longitude;
+>     MSGeopoint *center = self.mapView.mapCenter;
+>     double centerLatitude = center.position.latitude;
+>     double centerLongitude = center.position.longitude;
+>
+>     NSMutableArray<MSGeoposition*>* positions;
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude+0.0005 longitude: centerLongitude-0.001]];
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude-0.0005 longitude: centerLongitude-0.001]];
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude-0.0005 longitude: centerLongitude+0.001]];
+>     [positions addObject:[MSGeoposition geopositionWithLatitude: centerLatitude+0.0005 longitude: centerLongitude+0.001]];
 >
 >     MSMapPolygon* mapPolygon = [MSMapPolygon polygon];
->     MSGeopath *geopath = [MSGeopath geopath];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude+0.0005 longitude: centerLongitude-0.001]];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude-0.0005 longitude: centerLongitude-0.001]];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude-0.0005 longitude: centerLongitude+0.001]];
->     [geopath addLocation:[MSGeolocation geolocationWithLatitude: centerLatitude+0.0005 longitude: centerLongitude+0.001]];
+>     MSGeopath *geopath = [MSGeopath geopathWithPositions:positions];
 >
->     mapPolygon.path = geopath;
+>     mapPolygon.paths = [NSArray arrayWithObject:geopath];
 >     mapPolygon.zIndex = 1;
 >     mapPolygon.fillColor = [UIColor redColor];
 >     mapPolygon.strokeColor = [UIColor blueColor];

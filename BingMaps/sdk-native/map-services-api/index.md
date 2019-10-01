@@ -16,7 +16,7 @@ Name                                                        | Details
 
 Name                                                                                  | Details
 ------------------------------------------------------------------------------------- | ------------------------------------------------------
-[MapLocationEntityType](MapLocationEntityType-enumeration.md)                         | The entity types to be included in the response for a geocoding request.
+[MapLocationEntityTypes](MapLocationEntityTypes-enumeration.md)                       | The entity types to be included in the response for a geocoding request.
 [MapLocationMatchCode](MapLocationMatchCode-enumeration.md)                           | The geocoding level for a location returned from a geocoding request.
 [MapLocationPointCalculationMethod](MapLocationPointCalculationMethod-enumeration.md) | The method that was used to compute the geopoint for a location returned from a geocoding request.
 [MapLocationPointUsageType](MapLocationPointUsageType-enumeration.md)                 | The best use for the geopoint for a location returned from a geocoding request.
@@ -24,7 +24,7 @@ Name                                                                            
 
 ## Interfaces
 
-Name                                                                                    | Details
---------------------------------------------------------------------------------------- | ------------------------------------------------------
-[MapLocationCallback](Android/MapLocationCallback-interface.md) (Android)               | Represents an interface for handling the results of a request, on Android.
-[MapLocationFinderResultHandler](iOS/MapLocationFinderResultHandler-interface.md) (iOS) | Represents an interface for handling the results of a request, on iOS.
+Name                                                                                                  | Details
+----------------------------------------------------------------------------------------------------- | ------------------------------------------------------
+[OnMapLocationFinderResultListener](Android/OnMapLocationFinderResultListener-interface.md) (Android) | Represents an interface for handling the results of a request, on Android.
+[MapLocationFinderResultHandler](iOS/MapLocationFinderResultHandler-interface.md) (iOS)               | Represents an interface for handling the results of a request, on iOS.
