@@ -191,6 +191,17 @@ Static images are returned in one of the following formats. You can specify the 
   
 
 ## Examples
+
+### Get a Road map with building footprints
+ This example gets a Road map with building footprints along with a pushpin based on a specified center point at zoom level 18.
+  
+```url
+http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?mapSize=500,500&pp=47.645523,-122.139059;66&mapLayer=Basemap,Buildings&key={BingMapsAPIKey}
+```  
+  
+ This example returns the following image.  
+  
+  ![Building Footprints Static Map Example](../media/BuildingFootprintsWithPushpin.PNG)
   
 ### Get a map with Road imagery and traffic flow based on a query  
  This example gets a map with road imagery based on a query result Bellevue, Washington. Traffic flow is also included on the map.  
