@@ -98,6 +98,25 @@ ms.date: "02/28/2018"
                             </div>
                             </a>
                         </li>
+                         <li>
+                            <a href="/bingmaps/sdk-native">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://raw.githubusercontent.com/MicrosoftDocs/bingmaps-docs/live/BingMaps/sdk-native/media/mobile.svg?sanitize=true" alt="Maps SDK" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Bing Maps SDK for Android and iOS</h3>
+                                            <p>Learn how to add maps to your Android and iOS project.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
                         <li>
                             <a href="/windows/uwp/maps-and-location">
                             <div class="cardSize">
@@ -130,25 +149,6 @@ ms.date: "02/28/2018"
                                         <div class="cardText">
                                             <h3>Bing Maps WPF Control</h3>
                                             <p>Learn how to use the Bing Maps Windows Presentation Foundation (WPF) Control.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/bingmaps/sdk-native">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://raw.githubusercontent.com/MicrosoftDocs/bingmaps-docs/live/BingMaps/sdk-native/media/mobile.svg?sanitize=true" alt="Maps SDK" />
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Bing Maps SDK for Android and iOS</h3>
-                                            <p>Learn how to add maps to your Android and iOS project.</p>
                                         </div>
                                     </div>
                                 </div>
