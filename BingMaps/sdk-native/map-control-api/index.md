@@ -35,7 +35,7 @@ Name                                                                   | Details
 Name                                                                         | Details
 ----------------------------------------------------------------             | ------------------------------------------------------
 [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)            | Indicates what an altitude value is relative to.
-[CopyrightDisplay](Android/CopyrightDisplay-enumeration.md)                  | Controls how the copyright is displayed on the map.
+[CopyrightDisplay](CopyrightDisplay-enumeration.md)                  | Controls how the copyright is displayed on the map.
 [GeoshapeType](GeoshapeType-enumeration.md)                                  | Describes the shape of a geographic region.
 [MapAnimationKind](MapAnimationKind-enumeration.md)                          | Describes types of animations supported for camera transitions.
 [MapCameraChangeReason](MapCameraChangeReason-enumeration.md)                | Specifies the reason the position of the map's camera has changed. iOS only.
