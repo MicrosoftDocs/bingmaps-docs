@@ -28,7 +28,7 @@ In some scenarios, it may be desirable to disable these controls and/or gestures
 >``` swift
 > let uiOptions = self.mapView.userInterfaceOptions
 > // disable zoom control
-> uiOptions.zoomButtonsVisible  = false
+> uiOptions.zoomButtonsVisible = false
 > // disable zoom gesture
 > uiOptions.zoomGestureEnabled = false
 >```
@@ -36,9 +36,9 @@ In some scenarios, it may be desirable to disable these controls and/or gestures
 **Objective-C**
 
 >``` objectivec
-> MSMapUserInterfaceOptions *uiOptions = [self.mapView userInterfaceOptions];
+> MSMapUserInterfaceOptions *uiOptions = self.mapView.userInterfaceOptions;
 > // disable zoom control
-> uiOptions.zoomButtonsVisible  = NO
+> uiOptions.zoomButtonsVisible = NO
 > // disable zoom gesture
-> uiOptions.zoomGestureEnabled  = NO
+> uiOptions.zoomGestureEnabled = NO
 >```
