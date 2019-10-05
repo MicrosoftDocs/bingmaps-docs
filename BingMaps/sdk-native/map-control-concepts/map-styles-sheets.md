@@ -30,7 +30,7 @@ Usually a default base map style is combined with custom JSON to change the appe
 The style sheet JSON API is described [here](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
 
-# Changing the appearance of the map
+## Changing the appearance of the map
 
 See some examples for [How to change the appearance of the map](change-map-appearance.md).
 

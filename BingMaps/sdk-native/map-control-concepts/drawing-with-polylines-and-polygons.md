@@ -1,15 +1,15 @@
 # Drawing with Polylines and Polygons
 
-Frequently, you want to add a simple annotation to the map, which [MapIcons](../map-control-api/mapIcon-class)
+Frequently, you want to add a simple annotation to the map, which [MapIcons](../map-control-api/mapIcon-class.md)
 are well suited for. Sometimes you will want to highlight a geographic region, or draw additional paths between points on the map. To do
-this, you will want to use [MapPolygon](../map-control-api/mappolygon-class) and
-[MapPolyline](../map-control-api/MapPolyline-class) classes, respectively.
+this, you will want to use [MapPolygon](../map-control-api/mappolygon-class.md) and
+[MapPolyline](../map-control-api/MapPolyline-class.md) classes, respectively.
 
 ## Examples
 
 ### Adding a line
 
-Display a line by using the [MapPolyline](../map-control-api/mappolyline-class).
+Display a line by using the [MapPolyline](../map-control-api/mappolyline-class.md).
 The following example shows how to add a dashed black line on a map.
 
 **Swift**
@@ -64,7 +64,7 @@ The following example shows how to add a dashed black line on a map.
 
 ### Adding a shape
 
-Display a multi-point shape on a map by using the [MapPolygon](../map-control-api/mappolygon-class).
+Display a multi-point shape on a map by using the [MapPolygon](../map-control-api/mappolygon-class.md).
 The following exampe shows how to add a red box with blue outline on a map.
 
 **Swift**
@@ -123,4 +123,4 @@ The following exampe shows how to add a red box with blue outline on a map.
 >```
 
 _See also_
-[Map Polylines and Polygons](map-polylines-and-polygons)
+[Map Polylines and Polygons](map-polylines-and-polygons.md)
