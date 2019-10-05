@@ -9,7 +9,7 @@ create and combine multiple style sheets, where later sheets override settings s
 ## Default Map Style Sheets
 
 The pre-built Style Sheets establish the fundamental mode that a map view will render in.
-Available options are specified on [MapStyleSheets](../map-control-api/MapStyleSheets-class.md):
+Available options are specified in [MapStyleSheets](../map-control-api/MapStyleSheets-class.md):
 
 | Style Sheet                 | Description |
 | ----------------------------| ----------- |
@@ -27,15 +27,14 @@ Available options are specified on [MapStyleSheets](../map-control-api/MapStyleS
 You can create your own **Map Style Sheet** by writing custom JSON that overrides the default settings.
 Usually a default base map style is combined with custom JSON to change the appearance of the map.
 
-The style sheet JSON API is described [here](https://docs.microsoft.com/en-us/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+The style sheet JSON API is described [here](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
 
-# Changing the appearance of the map
+## Changing the appearance of the map
 
-See some examples for [How to change the appearance of the map](change-map-appearance.md)
+See some examples for [How to change the appearance of the map](change-map-appearance.md).
 
-_See also:_
-
+_See also_:
 * [MapStyleSheet](../map-control-api/MapStyleSheet-class.md)
-* [Map Style Sheet JSON API](https://docs.microsoft.com/en-us/windows/uwp/maps-and-location/elements-of-map-style-sheet)
+* [Map Style Sheet JSON API](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)
 * [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft)

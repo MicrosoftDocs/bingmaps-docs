@@ -12,17 +12,31 @@ align with the chosen location on a map.
 
 **Java**
 
-> ```Java
+>```Java
 > MapIcon icon = new MapIcon();
-> icon.setLocation(new Geopoint(0, 0));
+> icon.setLocation(new Geopoint(0, 0, 0, AltitudeReferenceSystem.SURFACE));
 > MapElementLayer elementLayer = new MapElementLayer();
 > elementLayer.getElements().add(icon);
 > mMap.getLayers().add(elementLayer);
-> ```
+>```
+
+**Swift**
+
+>```swift
+> let icon = MSMapIcon()
+> icon.location = MSGeopoint(
+>     latitude: 0,
+>     longitude: 0,
+>     altitude: 0,
+>     altitudeReferenceSystem: .surface)
+> let elementLayer = MSMapElementLayer()
+> elementLayer.elements.add(icon)
+> mMap.layers.add(elementLayer)
+>```
 
 **Objective-C**
 
-> ```objectivec
+>```objectivec
 > MSMapIcon *icon = [MSMapIcon icon];
 > icon.location = [MSGeopoint geopointWithLatitude:0
 >                                        longitude:0
@@ -31,7 +45,7 @@ align with the chosen location on a map.
 > MSMapElementLayer* elementLayer = [MSMapElementLayer layer]
 > [elementLayer.elements addMapElement:icon];
 > [mMap.layers addMapLayer:elementLayer]
-> ```
+>```
 
 ![Default icon](media/icons-default.png)
 
@@ -41,24 +55,24 @@ The following example shows how to assign a custom image loaded from resource, a
 
 **Java**
 
-> ```Java
+>```Java
 > icon.setImage(new MapImage(BitmapFactory.decodeResource(getResources(), imageIndex)));
-> icon.setNormalizedAnchorPoint(new PointF(0.5f, 0.5f));  // Center the image on the location
-> ```
+> icon.setNormalizedAnchorPoint(new PointF(0.5f, 1.0f));  // Center against the bottom of the image
+>```
 
 **Swift**
 
-> ``` swift
+>```swift
 > icon.image = MSMapImage(uiImage:UIImage(named: "pushpin")!)
-> icon.normalizedAnchorPoint = CGPoint(x:0.5, y:0.5)
-> ```
+> icon.normalizedAnchorPoint = CGPoint(x:0.5, y:1.0)
+>```
 
 **Objective-C**
 
-> ```objectivec
+>```objectivec
 > icon.image = [MSMapImage imageWithUIImage:[UIImage imageNamed:@"pushpin"]];
-> icon.normalizedAnchorPoint = CGPointMake(0.5f, 0.5f);  // Center the image on the location
-> ```
+> icon.normalizedAnchorPoint = CGPointMake(0.5f, 1.0f);  // Center against the bottom of the image
+>```
 
 ### Add a pushpin with SVG image
 
@@ -66,7 +80,7 @@ You can also use an SVG image to create a [MapImage](../map-control-api/MapImage
 
 **Swift**
 
-> ``` swift
+>```swift
 > func addSvgIconAtMapCenter() {
 >     let mapIcon = MSMapIcon()
 >     mapIcon.location = MSGeopoint(latitude: mapView.mapCenter.position.latitude, longitude: mapView.mapCenter.position.longitude)
@@ -81,7 +95,7 @@ You can also use an SVG image to create a [MapImage](../map-control-api/MapImage
 
 ![SVG Icon](media/icons-svg.png)
 
-_See also:_
+_See also_:
 * [Icons](map-icons.md)
 * [MapIcon](../map-control-api/MapIcon-class.md)
 * [MapImage](../map-control-api/MapImage-class.md)

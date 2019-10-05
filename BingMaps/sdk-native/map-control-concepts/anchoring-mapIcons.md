@@ -1,8 +1,14 @@
 # Anchoring MapIcons
 
-One of the most common issues developers come across when using custom MapIcons is that when they zoom the map it appears as if their MapIcon is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor point value in the pushpin options. The anchor point specifies which pixel coordinate of the image, relative to the top left corner of the image, should overlap the pushpins location coordinate.
-  
-For example, consider the following MapIcon, which is 24 pixels wide and 36 pixels tall. For this pushpin we would want the bottom point of the pushpin to align with the pushpins location coordinate which in this case would need an x offset that is half the wide and a y offset equal to the height of the image. This would require an anchor point of (0.5, 1.0):
+
+One of the most common issues developers come across when using custom **Map Icons** is that when they zoom the map it appears as if their
+*MapIcon* is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor point value in the pushpin
+options. The anchor point specifies which pixel coordinate of the image, relative to the top left corner of the image, should overlap the
+pushpins location coordinate.
+
+For example, consider the following Map Icon, which is 24 pixels wide and 36 pixels tall. For this pushpin we would want the bottom point
+of the pushpin to align with the pushpins location coordinate, which in this case would need an _X_ offset that is half the width and a _Y_
+offset equal to the height of the image. This would require an anchor point of (0.5, 1.0):
 
 ![MapIcon Dimensions](media/bmv8-anchoring-pushpins-dimensions.png)
 

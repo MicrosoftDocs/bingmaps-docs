@@ -1,4 +1,3 @@
-
 # Events
 
 The Bing Maps API provides events that allow your application to respond to user actions.
@@ -11,17 +10,14 @@ The following example shows how to add a pushpin when a user holds their finger 
 
 **Swift**
 
-> ``` swift
-> mapView.addUserIsHoldingHandler{ (point:CGPoint) -> Bool in
->     var location:MSGeopoint!
->     if self.mapView.try(toConvertOffset: point, intoLocation: &location) {
+>```swift
+> mapView.addUserIsHoldingHandler{ (point:CGPoint, location:MSGeopoint?) -> Bool in
+>     if (location != nil) {
 >         let pushpin = MSMapIcon()
 >         pushpin.location = location
 >         self.pinLayer.elements.add(pushpin)
->
 >         return true
 >     }
->
 >    return false
 > }
 >```
@@ -32,24 +28,24 @@ The following example shows how to change a [MapIcon](../map-control-api/MapIcon
 
 **Swift**
 
-First, add an extension for [MSMapElementCollection](../map-control-api/MapElementCollection-class.md) to conform to the Sequence Protocol in order to use a for-in loop. 
+First, add an extension for [MSMapElementCollection](../map-control-api/MapElementCollection-class.md) to conform to the Sequence Protocol in order to use a for-in loop.
 
-> ```swift
+>```swift
 > // This will allow for-in works on MSMapElementCollection.elements
 > extension MSMapElementCollection: Sequence {
 >     public func makeIterator() -> NSFastEnumerationIterator {
 >         return NSFastEnumerationIterator(self)
 >     }
 > }
-> ```
+>```
 
 Second, add the following methods and variables to UIViewController:
 
-> ```swift
+>```swift
 > // Create two layers in ViewController
 > private var buildingsLayer: MSMapElementLayer!
 > private var cityParksLayer: MSMapElementLayer!
-> 
+>
 > // Create and add pushpin to building locations in  building layer
 > func createCityBuildingsCollection() {
 >     buildingsLayer = MSMapElementLayer()
@@ -66,7 +62,7 @@ Second, add the following methods and variables to UIViewController:
 >     pushpin3.title = "Municipal Court of Seattle"
 >     buildingsLayer.elements.add(pushpin3)
 > }
-> 
+>
 > // Create and add pusphin to city park locaiton in city parks layer
 > func createCityParksCollection() {
 >     cityParksLayer = MSMapElementLayer()
@@ -87,8 +83,8 @@ Second, add the following methods and variables to UIViewController:
 >     pushpin4.title = "Kobe Terrace Park"
 >     cityParksLayer.elements.add(pushpin4)
 > }
-> 
-> // Change z index of layer and icon images 
+>
+> // Change z index of layer and icon images
 > func selectLayer(selectedLayer: MSMapElementLayer) {
 >     var deselectedLayer: MSMapElementLayer
 >     if selectedLayer == buildingsLayer {
@@ -113,9 +109,9 @@ Second, add the following methods and variables to UIViewController:
 >```
 
 
-Finally add the buildings/parks layer to the map and implement the handler for a user tapped interaction. 
+Finally add the buildings/parks layer to the map and implement the handler for a user tapped interaction.
 
-> ``` swift
+>```swift
 > override func viewDidLoad() {
 >
 >     createCityBuildingsCollection();
