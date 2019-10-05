@@ -6,9 +6,9 @@ Bing Maps native controls support the concept of **polylines** and **polygons**,
 Use [MapPolyline](../map-control-api/MapPolyline-class.md) to represent a polyline and
 [MapPolygon](../map-control-api/MapPolygon-class.md) to represent a multi-point shape on the map.
 
-# Drawing with Polylines and Polygons
+## Drawing with Polylines and Polygons
 
-See some examples for [How to display a line or shape the map](drawing-with-polylines-and-polygons).
+See some examples for [How to display a line or shape the map](drawing-with-polylines-and-polygons.md).
 
 _See also_:
 * [MapPolyline](../map-control-api/MapPolyline-class.md)
