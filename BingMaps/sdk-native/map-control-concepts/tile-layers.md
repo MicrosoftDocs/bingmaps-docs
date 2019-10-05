@@ -1,9 +1,8 @@
-
 # Tile Layers
 
 In the Bing Maps native controls we have introduced a TileLayer class that makes it easy to separate multiple data sets as layers.
 
-Note that two different types of tile layers are provided, giving you flexibility in how you overlay custom information on the map.
+Note that a few different types of tile layers are provided, giving you flexibility in how you overlay custom information on the map.
 
 Class                                                     |  Description
 ----------------------------------------------------------| -------------------
@@ -16,7 +15,7 @@ Also, an out-of-the box TileMapLayer is provider for displaying Traffic Flow:
 
 Class                                                  |  Description
 ------------------------------------------------------ | -------------------
-[TrafficFlowMapLayer](../map-control-api/TrafficFlowMapLayer-class.md)   | Displays traffic on a map.
+[TrafficFlowMapLayer](../map-control-api/TrafficFlowMapLayer-class.md)      | Displays traffic on the map.
 
 ## Examples
 
@@ -24,46 +23,48 @@ Class                                                  |  Description
 
 **Android**
 
->``` Java
+>```java
 >TrafficFlowMapLayer trafficFlowMapLayer = new TrafficFlowMapLayer();
 >mMap.getLayers().add(trafficFlowMapLayer);
 >```
 
 **Swift**
 
->``` swift
+>```swift
 > let trafficLayer = MSMapTrafficFlowMapLayer()
 > mMap.layers.add(trafficLayer)
 >```
 
 **Objective-C**
 
->``` Objectivec
+>```Objectivec
 >MSMapTrafficFlowMapLayer *trafficLayer = [MSMapTrafficFlowMapLayer layer];
 >[self.mMap.layers addMapLayer:trafficLayer];
 >```
 
-### Overlay tiles from a web service 
+### Overlay tiles from a web service
 
-The following example shows how to overlay tiles retrieved from a web services by instantiating an `UriTileMapLayer` and specifying the format of URL to the tiles.
+The following example shows how to overlay tiles retrieved from a web services by instantiating an `UriTileMapLayer` and specifying the
+format of URL to the tiles.
 
 **Swift**
 
-> ```swift
-> let urlLayer = MSMapUriTileMapLayer();
-> urlLayer.uriFormatString = http://www.<web service name>.com/z={zoomlevel}&x={x}&y={y}
-> self.mapView.layers.add(urlLayer);
-> ```
+>```swift
+> let urlLayer = MSMapUriTileMapLayer()
+> urlLayer.uriFormatString = "http://www.<web service name>.com/z={zoomlevel}&x={x}&y={y}"
+> self.mapView.layers.add(urlLayer)
+>```
 
 ### Overlay tiles from a custom source
 
-The following example shows how to overlay custom tiles on a map by using `CustomTileMapLayer`. Create tiles programmatically in memory on the fly, or write your own code to load existing tiles from another source.
+The following example shows how to overlay custom tiles on a map by using `CustomTileMapLayer`. Create tiles programmatically in memory on
+the fly, or write your own code to load existing tiles from another source.
 
 The following examples show how to provide custom tiles by specifying the callback which return tiled image to be displayed on a map.
 
 **swift**
 
-> ``` swift
+>```swift
 > // In your ViewController, subclass of MKMapViewDelegate.
 > class ViewController: UIViewController, MSMapCustomTileMapLayerDelegate {
 >
@@ -73,7 +74,7 @@ The following examples show how to provide custom tiles by specifying the callba
 > customLayer.delegate = self;
 > self.mapView.layers.add(customLayer)
 > ...
-> 
+>
 > // This example creates random colored tiles with random alpha value between 200 and 255 (fully opaque).
 > func customTileMapLayerOnBitmapRequestedAt(x: Int32, y: Int32, zoom: Int32, completionHandler: ((Data?) -> Void)!) {
 >     let pixelHeight:Int32 = 256
@@ -129,39 +130,41 @@ The following examples show how to provide custom tiles by specifying the callba
 >
 >     completionHandler(image.pngData())
 > }
-> ```
+>```
 
-### Overlay tiles by binding an image to a bounding box area on a map 
+### Overlay tiles by binding an image to a bounding box area on a map
 
-The following example shows how to overlay tiles by instantiating a `GroundOverlayMapLayer` and specifying the image and bounding box of the layer.
+The following example shows how to overlay tiles by instantiating a `GroundOverlayMapLayer` and specifying the image and bounding box of
+the layer.
 
 **Swift**
 
-> ``` swift
+>```swift
 > let url = URL(string: "https://bingmapsisdk.blob.core.windows.net/isdksamples/us_counties.png")
-> let northwest = MSGeopoint(latitude: 50, longitude: -126)
-> let southeast = MSGeopoint(latitude: 25, longitude: -66)
-> let boundingBox = MSGeoboundingBox(northwest: northwest, southeast: southeast)
-> do {
+> let boundingBox = MSGeoboundingBox(
+>     northwestCorner: MSGeoposition(latitude: 50, longitude: -126),
+>     southeastCorner: MSGeoposition(latitude: 25, longitude: -66))
+>
+> do{
 >     let data = try Data(contentsOf: url!)
 >     groundOverlayLayer = MSMapGroundOverlayMapLayer(
 >         image:UIImage(data:data)!,
 >         boundingBox: boundingBox)
 >
->     let scene = MSMapScene(location: MSGeopoint(latitude: 40, longitude: -98), zoomLevel: 4)
+>     let scene = MSMapScene(location: MSGeopoint(latitude: 40, longitude: -98), zoomLevel: 4 )
 >     self.mapView.setScene(scene, with: .none)
 >     mapView.layers.add(groundOverlayLayer)
 > }
-> catch {
+> catch{
 > }
 >```
 
-## Removing overlay tiles from a map
+## Removing overlay from map
 
 The following example shows how to remove all overlay tiles from a map.
 
 **Swift**
 
->``` swift
+>```swift
 > self.mapView.layers.clear();
-> ```
+>```
