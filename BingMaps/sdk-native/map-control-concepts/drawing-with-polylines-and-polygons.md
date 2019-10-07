@@ -12,6 +12,30 @@ this, you will want to use [MapPolygon](../map-control-api/mappolygon-class.md) 
 Display a line by using the [MapPolyline](../map-control-api/mappolyline-class.md).
 The following example shows how to add a dashed black line on a map.
 
+**Java**
+
+>```java
+> void drawLineOnMap() {
+>     Geoposition center = mapView.getCenter().getPosition();
+>
+>     ArrayList<Geoposition> geopoints = new ArrayList<Geoposition>();
+>     geopoints.add(new Geoposition(center.getLatitude() - 0.0005, center.getLongitude() - 0.001));
+>     geopoints.add(new Geoposition(center.getLatitude() + 0.0005, center.getLongitude() + 0.001));
+>
+>     MapPolyline mapPolyline = new MapPolyline();
+>     mapPolyline.setPath(new Geopath(geopoints));
+>     mapPolyline.setStrokeColor(Color.BLACK);
+>     mapPolyline.setStrokeWidth(3);
+>     mapPolyline.setStrokeDashed(true);
+>
+>     // Add Polyline to a layer on the map control.
+>     MapElementLayer linesLayer = new MapElementLayer();
+>     linesLayer.setZIndex(1.0f);
+>     linesLayer.getElements().add(mapPolyline);
+>     mapView.getLayers().add(linesLayer);
+> }
+>```
+
 **Swift**
 
 >```swift
@@ -66,6 +90,31 @@ The following example shows how to add a dashed black line on a map.
 
 Display a multi-point shape on a map by using the [MapPolygon](../map-control-api/mappolygon-class.md).
 The following exampe shows how to add a red box with blue outline on a map.
+
+**Java**
+
+>```java
+> void highlightArea() {
+>     Geoposition center = mapView.getCenter().getPosition();
+>
+>     ArrayList<Geoposition> geopoints = new ArrayList<Geoposition>();
+>     geopoints.add(new Geoposition(center.getLatitude() + 0.0005, center.getLongitude() - 0.001));
+>     geopoints.add(new Geoposition(center.getLatitude() - 0.0005, center.getLongitude() - 0.001));
+>     geopoints.add(new Geoposition(center.getLatitude() - 0.0005, center.getLongitude() + 0.001));
+>
+>     MapPolygon mapPolygon = new MapPolygon();
+>     mapPolygon.setPaths(Arrays.asList(new Geopath(geopoints)));
+>     mapPolygon.setFillColor(Color.RED);
+>     mapPolygon.setStrokeColor(Color.BLUE);
+>     mapPolygon.setStrokeWidth(3);
+>     mapPolygon.setStrokeDashed(false);
+>
+>     MapElementLayer highlightsLayer = new MapElementLayer();
+>     highlightsLayer.setZIndex(1.0f);
+>     highlightsLayer.getElements().add(mapPolygon);
+>     mapView.getLayers().add(highlightsLayer);
+> }
+>```
 
 **Swift**
 

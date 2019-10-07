@@ -39,7 +39,7 @@ The path making up this line.
 
 ### StrokeColor
 
-The color to use to draw the border of the polygon.
+The color in ARGB format to use to draw the border of the polygon. The default value is blue (0xff0000ff).
 
 **Android**
 
@@ -73,7 +73,7 @@ Indicates whether the line is dashed.
 
 ### StrokeWidth
 
-The width of the line to use for the outside of the polygon.
+The width of the line to use for the outside of the polygon. The default value is 1.
 
 **Android**
 
