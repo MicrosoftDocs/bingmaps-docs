@@ -160,7 +160,7 @@ Hides the flyout.
 
 ### StyleDefaultView
 
-Styles default view with customizable background color and text color.
+Styles default view with customizable background color and text color in ARGB format. The default background color is dark gray (0xff555555) and text color is white (0xffffffff)
 
 **Android**
 
