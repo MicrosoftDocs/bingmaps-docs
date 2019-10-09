@@ -33,6 +33,8 @@ Whether the compass is displayed.
 >```objectivec
 > @property (nonatomic) BOOL compassButtonVisible
 >```
+
+
 ### TiltButtonVisible
 
 Whether the tilt button is displayed.
@@ -143,7 +145,7 @@ Whether a user can use a two-finger gesture to zoom in and out of the map.
 
 ### CopyrightDisplay
 
-Controls whether copyright is displayed on mobile form factor sized MapViews. This is only available to internal Microsoft customers.
+Controls whether copyright is displayed on mobile form factor sized map views.
 
 **Android**
 
@@ -157,3 +159,5 @@ Controls whether copyright is displayed on mobile form factor sized MapViews. Th
 >```objectivec
 > @property (nonatomic) MSCopyrightDisplay copyrightDisplay
 >```
+
+_See also:_ [CopyrightDisplay enumeration](copyrightdisplay-enumeration.md)

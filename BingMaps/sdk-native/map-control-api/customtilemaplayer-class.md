@@ -42,7 +42,7 @@ Clears the tile cache so that all tiles will be requested again from the provide
 Callback that is invoked when a map requests a tile map. The callback is responsible for providing the data back to the map synchronously.
 
 > ```java 
-> void addOnBitmapRequestedListener(OnBitmapRequestedListener listener)  
+> void addOnBitmapRequestedListener(OnBitmapRequestedListener listener)
 > void removeBitmapRequestedListener()
 >```
 
