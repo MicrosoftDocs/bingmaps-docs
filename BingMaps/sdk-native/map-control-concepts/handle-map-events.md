@@ -28,7 +28,7 @@ The following example shows how to change a [MapIcon](../map-control-api/MapIcon
 
 **Swift**
 
-First, add a [Sequence extension for MSMapElementCollection](../map-control-api/MapElementCollection-class.md#Sequence-protocol-in-Swift).  
+First, add a [Sequence extension for MSMapElementCollection](../map-control-api/MapElementCollection-class.md#sequence-protocol-in-swift).  
 Second, add the following methods and variables to UIViewController:
 
 >```swift

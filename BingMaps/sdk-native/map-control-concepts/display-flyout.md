@@ -11,7 +11,7 @@ Flyouts are represented by [MapFlyout class](../map-control-api/mapflyout-class.
 The following example shows how to create a flyout with title and description, and set it to an existing map icon. When
 user taps an icon that has a flyout attached, flyout will be shown.  
 Flyouts are light-dismissable by default, meaning they can be hidden by tapping elsewhere. This behavior is controlled by
-[LightDismissEnabled property](../map-control-api/mapflyout-class.md#LightDismissEnabled).
+[LightDismissEnabled property](../map-control-api/mapflyout-class.md#lightdismissenabled).
 
 **Java**
 
@@ -110,7 +110,7 @@ once, assuming that `pinLayer` variable is the map element layer with your map i
 >```
 
 _Note: to be able to iterate through `Elements` property of `MapElementLayer` in Swift, you will need to add
-[Sequence extension for MSMapElementCollection](../map-control-api/MapElementCollection-class.md#Sequence-protocol-in-Swift)._
+[Sequence extension for MSMapElementCollection](../map-control-api/MapElementCollection-class.md#sequence-protocol-in-swift)._
 
 **Objective-C**
 >```objectivec
