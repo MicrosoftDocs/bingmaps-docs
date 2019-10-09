@@ -138,6 +138,20 @@ Returns the number of items in the collection.
 > @property (readonly) NSUInteger count
 >```
 
+## Notes
+
+### Sequence protocol in Swift
+
+In Swift, to be able to iterate through `MSMapElementCollection` using a `for-in` loop, you will need to add the following extension that conforms to the required `Sequence` protocol.
+
+>```swift
+> extension MSMapElementCollection: Sequence {
+>     public func makeIterator() -> NSFastEnumerationIterator {
+>         return NSFastEnumerationIterator(self)
+>     }
+> }
+>```
+
 ## See Also
 
 * [MapView](MapView-class.md)

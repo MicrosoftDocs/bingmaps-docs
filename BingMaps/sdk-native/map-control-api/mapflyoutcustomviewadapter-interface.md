@@ -16,6 +16,12 @@ If a null view is returned, the default view with flyout's title and description
 > typedef UIView* _Nullable (^MSMapFlyoutCustomViewAdapter)(MSMapElement*)
 >```
 
+## Parameters
+
+### MapElement
+The map element that the flyout is being invoked on.
+
 ## See also
 
+* [MapElement](mapelement-class.md)
 * [MapFlyout](mapflyout-class.md)
