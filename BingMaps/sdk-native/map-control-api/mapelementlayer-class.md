@@ -6,7 +6,7 @@ Displays primitives on the map.  The z-order of a primitive is in order of inser
 **Android**
 
 >```java
-> class MapElementLayer extends MapLaye
+> class MapElementLayer extends MapLayer
 >```
 
 **iOS**

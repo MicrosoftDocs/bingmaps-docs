@@ -28,17 +28,7 @@ The following example shows how to change a [MapIcon](../map-control-api/MapIcon
 
 **Swift**
 
-First, add an extension for [MSMapElementCollection](../map-control-api/MapElementCollection-class.md) to conform to the Sequence Protocol in order to use a for-in loop.
-
->```swift
-> // This will allow for-in works on MSMapElementCollection.elements
-> extension MSMapElementCollection: Sequence {
->     public func makeIterator() -> NSFastEnumerationIterator {
->         return NSFastEnumerationIterator(self)
->     }
-> }
->```
-
+First, add a [Sequence extension for MSMapElementCollection](../map-control-api/MapElementCollection-class.md#Sequence-protocol-in-Swift).  
 Second, add the following methods and variables to UIViewController:
 
 >```swift

@@ -15,11 +15,11 @@ See [Icons](../map-control-concepts/map-icons.md) for more details on capabiliti
 
 >```objectivec
 > @interface MSMapIcon : MSMapElement
->```  
+>```
 
 ## Properties
 
-<!-- 
+<!--
 Allow drop feature is cut for V1 of the SDK.
 
 ### AllowDrop
@@ -29,7 +29,7 @@ Whether this MapIcon can be drop target for purposes of drag-and-drop operation.
 **Android**
 
 >```java
-> boolean isAllowDrop()  
+> boolean isAllowDrop()
 > void setAllowDrop(boolean)
 >```
 
@@ -37,17 +37,20 @@ Whether this MapIcon can be drop target for purposes of drag-and-drop operation.
 
 >```objectivec
 > @property (nonatomic) BOOL allowDrop
->```   -->
+>```
+-->
 
-### CollisionBehaviorDesired
-Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.
-Default is set to MapElementCollisionBehavior.REMAIN_VISIBLE
+### DesiredCollisionBehavior
+Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.  
+Default is set to `MapElementCollisionBehavior.REMAIN_VISIBLE`.
+
+_See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)
 
 **Android**
 
 >```java
-> MapElementCollisionBehavior getCollisionBehaviorDesired() 
-> void setCollisionBehaviorDesired(MapElementCollisionBehavior behavior)
+> MapElementCollisionBehavior getDesiredCollisionBehavior()
+> void setDesiredCollisionBehavior(MapElementCollisionBehavior behavior)
 >```
 
 **iOS**
@@ -55,24 +58,26 @@ Default is set to MapElementCollisionBehavior.REMAIN_VISIBLE
 >```objectivec
 > @property (nonatomic) MSMapElementCollisionBehavior collisionBehaviorDesired
 >```
-_See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)
 
 
 ### Flyout
 
 The flyout associated with this MapIcon.
 
+_See also:_ [MapFlyout](mapflyout-class.md)
+
 **Android**
 
 >```java
 > MapFlyout getFlyout()
+> void setFlyout(MapFlyout flyout)
 >```
 
 **iOS**
 
->```objectivec 
+>```objectivec
 > @property (nonatomic, nullable) MSMapFlyout *flyout
->```  
+>```
 
 
 ### Image
@@ -84,7 +89,7 @@ _See also:_ [MapImage](MapImage-class.md)
 **Android**
 
 >```java
-> MapImage getImage() 
+> MapImage getImage()
 > void setImage(MapImage image)
 >```
 
@@ -112,7 +117,7 @@ Determines whether the icon should appear to lie parallel and flat to the earth,
 
 >```objectivec
 > @property (nonatomic) BOOL flat
->```  
+>```
 
 
 ### Location
@@ -132,7 +137,7 @@ _See also:_ [MSGeopoint](Geopoint-class.md)
 
 >```objectivec
 > @property (nonatomic) MSGeopoint *location
->```  
+>```
 
 ### NormalizedAnchorPoint
 The offset coordinate in pixels to display the icon relative to the selected location. `(0, 0)` will place the upper left corner of the image at the location. The default is `(0.5, 0.5)`.
@@ -142,7 +147,7 @@ _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 **Android**
 
 >```java
-> android.graphics.PointF getNormalizedAnchorPoint()  
+> android.graphics.PointF getNormalizedAnchorPoint()
 > void setNormalizedAnchorPoint(android.graphics.PointF point)
 >```
 
@@ -150,7 +155,7 @@ _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 
 >```objectivec
 > @property (nonatomic) CGPoint normalizedAnchorPoint
->```  
+>```
 
 
 ### Opacity
@@ -160,15 +165,15 @@ Determines whether the icon should render transparently. 1 means completely opaq
 **Android**
 
 >```java
-> float getOpacity()  
+> float getOpacity()
 > void setOpacity(float opacity)
 >```
 
 **iOS**
 
->```objectivec 
+>```objectivec
 > @property (nonatomic) float opacity
->```  
+>```
 
 
 ### Rotation
@@ -178,7 +183,7 @@ The rotation in degrees of the icon around the anchor point clockwise. Values gr
 **Android**
 
 >```java
-> float getRotation() 
+> float getRotation()
 > void setRotation(float)
 >```
 
@@ -186,7 +191,7 @@ The rotation in degrees of the icon around the anchor point clockwise. Values gr
 
 >```objectivec
 > @property (nonatomic) float rotation
->```  
+>```
 
 
 ### Title
@@ -208,4 +213,5 @@ Text to be displayed along side the MapIcon.
 
 ## See Also
 
-[Icons](../map-control-concepts/map-icons.md)
+* [Icons](../map-control-concepts/map-icons.md)
+* [MapFlyout class](mapflyout-class.md)
