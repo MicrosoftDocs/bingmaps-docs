@@ -13,7 +13,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Bing Maps Traffic Coverage
+# Bing Maps Traffic Coverage Test
 
 Bing Maps APIs provide traffic coverage for the following countries. Traffic incident text is provided in the primary language of the country where the incident occurs.  
   
