@@ -203,7 +203,7 @@ http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?ma
  This example returns the following image.  
   
   ![Building Footprints Static Map Example](../media/BuildingFootprintsWithPushpin.PNG)
-  
+
 ### Get a map with Road imagery and traffic flow based on a query  
  This example gets a map with road imagery based on a query result Bellevue, Washington. Traffic flow is also included on the map.  
   
