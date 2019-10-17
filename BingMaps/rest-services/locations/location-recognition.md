@@ -56,7 +56,7 @@ For more information about the location entity types, see  [Location Recognition
 
 ## Response
 
-One or more entities are returned in the response when you make a request using this URL.  
+One or more entities are returned in the response when you make a request using this URL.
 
 |Field Name|Description|  
 |----------------|----------------|
