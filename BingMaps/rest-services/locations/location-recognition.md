@@ -280,6 +280,12 @@ We can also make the same request, but this time searching for business entities
 http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key={BingMapsAPIKey}&r=.5&distanceUnit=mi&includeEntityTypes=address&output=json
 ```
 
+This example sets the `type` parameter, which will limit the returned business entities to the specified POI category type(s), in this case hotels and motels.
+
+```url
+http://dev.virtualearth.net/REST/v1/locationrecog/47.609722,-122.333056?key={BingMapsAPIKey}&r=.5&distanceUnit=mi&type=HotelsAndMotels&output=json
+```
+
 ## HTTP Status Codes
 
 [!INCLUDE [get-status-code-note](../../includes/get-status-code-note.md)]
