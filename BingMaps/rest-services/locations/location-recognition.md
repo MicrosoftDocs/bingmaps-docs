@@ -41,7 +41,8 @@ https://dev.virtualearth.net/REST/v1/LocationRecog/{point}?radius={search_radius
 |`dateTime`||**Optional.** Date and time at which the location is visited, in UTC format. When this parameter is specified, entities closed at that day and/or time are ranked lower than entities which are open.|Example: `2018-05-09 13:34:42Z`| 
 |`distanceUnit`||**Optional.** Unit for the radius parameter. |Use one of the following values: <br />- `kilometer`, or `km`<br />- `mile`, or `mi` <br /><br /> Default value is `km`.|  
 |`verboseplacenames`||**Optional.** Either `true` or `false`.<br><br/>- If `false`: "admin1" & country names will be in their official form (e.g.: “WA” for Washington state in USA and full name, e.g. "Occitanie" in France).<br/><br/>-If `true`: "admin1" names will be in expanded form (e.g. Washington), and "countryRegion" field with full name is added to address.|Default value is `false`.| 
-|`includeEntityTypes`||**Optional.** Specifies the entity types returned in the response. Only the specified types will be returned. If no entity types are found at the location point, then no location information is returned in the response.<br /><br /> See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a description of the values.|A comma separated list of entity types selected from the following options:<br>- `businessAndPOI`<br>- `naturalPOI`<br>- `address` <br><br>Default value is `businessAndPOI`.| 
+|`includeEntityTypes`||**Optional.** Specifies the entity types returned in the response. Only the specified types will be returned. If no entity types are found at the location point, then no location information is returned in the response.<br /><br /> See [Location Recognition Entity Types](../common-parameters-and-types/location-and-recognition-entity-types.md) for a description of the values.|A comma separated list of entity types selected from the following options:<br>- `businessAndPOI`<br>- `naturalPOI`<br>- `address` <br><br>Default value is `businessAndPOI`.|
+|`type`|  | **Optional**. Specifies which business and POI category types to limit the entities returned by the Location Recognition API to if using the includeEntityTypes parameter value of `businessAndPOI` (which is the default value).| A comma-separated list of string type identifiers. See the [list of available Type IDs](../common-parameters-and-types/type-identifiers/index.md)|
 |`output`|`o`|**Optional.** Output format for the response.|The following values are supported:<br>- `JSON` <br>- `XML`<br><br>Default value is `JSON`.|
 
 ## Include Entity Types
@@ -266,8 +267,6 @@ HTTP Request in JSON:
     "traceId": "6503238c004d4d9384a77d6bd61de26d|CO3035AD45|7.7.0.0"
 }
 ```
-
-This example gets entities situated at a specified location and requests the response in xml format.
 
 This example gets entities for a specified latitude and longitude and requests the results in XML format.
 
