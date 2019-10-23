@@ -137,7 +137,7 @@ ms.date: "02/28/2018"
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.microsoft.com/download/details.aspx?id=27165">
+                            <a href="https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">

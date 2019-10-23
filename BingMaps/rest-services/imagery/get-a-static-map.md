@@ -346,9 +346,9 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Ro
 ```  
   
   ![Shows ending point of a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpointsEndingPoint.png)
-
-
-### Get a Bird's Eye map
+ 
+ 
+ ### Get a Bird's Eye map
 This example gets a Bird's Eye map with a West orientation (dir=270) at zoom level 20. The map has a width of 900 pixels and a height of 700 pixels.
 
 ```url
@@ -357,7 +357,7 @@ http://dev.virtualearth.net/REST/V1/Imagery/Map/Birdseye/37.802297,-122.405844/2
 This example returns the following image.
 
   ![Bird's Eye Static Map Example](../media/BirdsEyeStaticMap.PNG)
-
+ 
 ### Get Street Side Images using the StreetSide Imagery API
 
 The following URL request gets an image of Bergen Place in Ballard, Seattle, with a pitch of 5&deg; (upwards) and a heading of 145&deg; (degrees clockwise from North, which is at 0&deg;). The zoom level is 5. For more details about the Streetside Imagery API, see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting-streetside-tiles-from-imagery-metadata.md).

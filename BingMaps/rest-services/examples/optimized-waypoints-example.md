@@ -45,7 +45,7 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 <td style="text-align: center;">Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
+<td style="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
 <td style="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="odd">
