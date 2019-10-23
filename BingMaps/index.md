@@ -98,7 +98,7 @@ ms.date: "02/28/2018"
                             </div>
                             </a>
                         </li>
-                         <li>
+                        <li>
                             <a href="/bingmaps/sdk-native">
                             <div class="cardSize">
                                 <div class="cardPadding">
