@@ -134,7 +134,7 @@ https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?key={BingMaps
 There are two basic parameters for the Optimize Itinerary API: 
 
 - `itineraryAgents`: a *list of agent shift information* which includes the name, shift times, shift starting and ending locations for agent, and capacity of the agent's vehicle, and 
-- `itineraryItems`: a *list of item information* with name, location, priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. 
+- `itineraryItems`: a *list of item information* with location name, location, priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. 
 
 > [!IMPORTANT]
 > All DateTime strings must be in ISO format: `YYYY-MM-DDTHH:MM:SS`.
