@@ -831,7 +831,7 @@ To send a synchronous POST request, set the POST head `Content-Type: application
                 "Latitude": 47.6846639223203,
                 "Longitude": -122.364839942855
             },
-            dropOffFrom": [
+            dropOffFrom: [
                 "loc1"                
             ]
         },
