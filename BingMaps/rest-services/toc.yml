@@ -77,11 +77,6 @@
         href: routes/local-insights.md
       - name: Local Insights Data
         href: routes/local-insights-data.md
-
-      # - name: Optimized Itinerary
-      #  href: routes/optimized-itinerary.md
-      # - name: Optimized Itinerary Data
-      #  href: routes/optimized-itinerary-data.md
   - name: Traffic
     maintainContext: true
     href: traffic/index.md
