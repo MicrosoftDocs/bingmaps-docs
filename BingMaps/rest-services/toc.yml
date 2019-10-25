@@ -53,30 +53,31 @@
     href: routes/index.md
     maintainContext: true
     items:
-      - name: Calculate Optimized Itinerary Routes
-        href: routes/optimized-itinerary.md
-      - name: Calculate a Distance Matrix
-        href: routes/calculate-a-distance-matrix.md
-      - name: Calculate a Isochrone
-        href: routes/calculate-an-isochrone.md
       - name: Calculate a Route
         href: routes/calculate-a-route.md
       - name: Calculate a Truck Route
         href: routes/calculate-a-truck-route.md
       - name: Calculate Routes from Major Roads
         href: routes/calculate-routes-from-major-roads.md
-      - name: Snap Points to Roads
-        href: routes/snap-points-to-roads.md
       - name: Route Data
         href: routes/route-data.md
-      - name: Local Insights
-        href: routes/local-insights.md
-      - name: Local Insights Data
-        href: routes/local-insights-data.md
       - name: Manuever Types
         href: routes/maneuver-types.md
       - name: Warning Types
         href: routes/warning-types.md
+      - name: Calculate Optimized Itinerary Routes
+        href: routes/optimized-itinerary.md
+      - name: Calculate a Distance Matrix
+        href: routes/calculate-a-distance-matrix.md
+      - name: Calculate a Isochrone
+        href: routes/calculate-an-isochrone.md
+      - name: Snap Points to Roads
+        href: routes/snap-points-to-roads.md
+      - name: Local Insights
+        href: routes/local-insights.md
+      - name: Local Insights Data
+        href: routes/local-insights-data.md
+
       # - name: Optimized Itinerary
       #  href: routes/optimized-itinerary.md
       # - name: Optimized Itinerary Data
