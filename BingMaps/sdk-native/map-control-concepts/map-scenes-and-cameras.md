@@ -1,3 +1,8 @@
+---
+title: "Map Scenes and Cameras | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Scenes and Cameras
 
 Because the Map View can show both oblique and nadir views, as well as 3D topology, it is important to carefully set your view so that

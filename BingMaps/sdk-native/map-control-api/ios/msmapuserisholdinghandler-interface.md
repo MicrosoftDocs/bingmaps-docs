@@ -1,5 +1,9 @@
+---
+title: "MSMapUserIsHoldingHandler Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MSMapUserIsHoldingHandler interface (iOS only)
+# MSMapUserIsHoldingHandler Interface (iOS only)
 
 Handler used with MapView.Holding event. Return true from this event to prevent other OnMapHoldingListeners from receiving this event or false to allow other listeners to receive his notification as well. Events are processed in the order they were attached to the MapView.
 

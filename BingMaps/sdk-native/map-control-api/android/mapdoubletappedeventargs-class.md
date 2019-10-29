@@ -1,5 +1,9 @@
+---
+title: "MapDoubleTappedEventArgs Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapDoubleTappedEventArgs class (Android only)
+# MapDoubleTappedEventArgs Class (Android only)
 
 Event arguments passed to MapView.DoubleTapped callback.
 
@@ -19,7 +23,7 @@ Gets the geographic location that corresponds to where the MapControl received u
 
 >```java
 > final Geopoint location
-> ```
+>```
 
 ## See also
 

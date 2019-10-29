@@ -1,5 +1,9 @@
+---
+title: "MapStyleSheet Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapStyleSheet class
+# MapStyleSheet Class
 
 Represents a set of rules that define the style of the map in a map control.
 
@@ -31,7 +35,7 @@ Creates a new MapStyleSheet from an input string. Returns false in iOS and Optio
 
 >```objectivec
 > + (BOOL)tryToParseJson:(NSString*)json intoStyleSheet:(MSMapStyleSheet * _Nullable * _Nonnull)styleSheet
-> ```  
+>```
 
 ### combine
 
@@ -47,7 +51,7 @@ Combines several MapStyleSheets into one.
 
 >```objectivec
 > + (instancetype)combineStyleSheets:(NSArray*)styleSheetsToCombine
->````
+>```
 
 ## See Also
 

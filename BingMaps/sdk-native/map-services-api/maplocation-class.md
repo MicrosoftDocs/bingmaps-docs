@@ -1,4 +1,9 @@
-# MapLocation
+---
+title: "MapLocation Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocation Class
 
 Contains data about a specific location returned from a geocoding request.
 

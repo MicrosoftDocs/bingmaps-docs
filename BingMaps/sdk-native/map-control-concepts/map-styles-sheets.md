@@ -1,3 +1,8 @@
+---
+title: "Map Style Sheets | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Style Sheets
 
 The Bing Maps SDK supports both default and custom Map Style Sheets.

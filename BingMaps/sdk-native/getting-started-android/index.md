@@ -1,3 +1,8 @@
+---
+title: "Getting Started with Android | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Getting Started with Android
 
 This tutorial goes through creating an Android app with a Bing Maps Native Control step-by-step.
@@ -59,7 +64,7 @@ And finally, inside `dependencies` block, add the following lines:
 
 Add following markup to your activity layout (`app/res/layout/{your_layout_file}.xml`). This will be the map view:
 
->``` xml
+>```xml
 > <FrameLayout
 >     android:id="@+id/map_view"
 >     android:layout_width="match_parent"
@@ -69,28 +74,28 @@ Add following markup to your activity layout (`app/res/layout/{your_layout_file}
 
 Add these imports to your source file:
 
-> ```java
+>```java
 > import com.microsoft.maps.MapRenderMode;
 > import com.microsoft.maps.MapView;
 >```
 
 At the top of your activity class, declare a MapView:
 
-> ```java
+>```java
 > private MapView mMapView;
 >```
 
 Place following code in your activity's `onCreate` method, after `setContentView` call, to initialize the map view:
 
-> ```java
+>```java
 > mMapView = new MapView(this, MapRenderMode.VECTOR);  // or use MapRenderMode.RASTER for 2D map
 > mMapView.setCredentialsKey(BuildConfig.CREDENTIALS_KEY);
 > ((FrameLayout)findViewById(R.id.map_view)).addView(mMapView);
 >```
 
-Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onResume`, `onPause`, `onSaveInstanceState`,  `onStop`, `onDestroy`, and `onLowMemory` to call respective MapView methods from the callbacks as follow:
+Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onResume`, `onPause`, `onSaveInstanceState`, `onStop`, `onDestroy`, and `onLowMemory` to call respective MapView methods from the callbacks as follow:
 
->``` java
+>```java
 > @Override
 > public void onCreate(Bundle savedInstanceState)
 > {
@@ -99,15 +104,15 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onStart() {
 >     super.onStart();
 >     mMapView.onStart();
 > }
-> ```
+>```
 
-> ```java
+>```java
 > @Override
 > protected void onResume() {
 >     super.onResume();
@@ -115,7 +120,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onPause() {
 >     super.onPause();
@@ -123,7 +128,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onSaveInstanceState(Bundle outState) {
 >     super.onSaveInstanceState(outState);
@@ -131,7 +136,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onStop() {
 >     super.onStop();
@@ -139,7 +144,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onDestroy() {
 >     super.onDestroy();
@@ -147,7 +152,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > }
 >```
 
->``` java
+>```java
 > @Override
 > protected void onLowMemory() {
 >     super.onLowMemory();
@@ -165,7 +170,7 @@ Let's go through a common scenario to set map scene to a specific location on st
 
 First, add following imports:
 
->``` java
+>```java
 > import com.microsoft.maps.Geopoint;
 > import com.microsoft.maps.MapAnimationKind;
 > import com.microsoft.maps.MapScene;

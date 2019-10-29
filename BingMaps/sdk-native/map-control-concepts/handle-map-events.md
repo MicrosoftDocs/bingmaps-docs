@@ -1,3 +1,8 @@
+---
+title: "Map Events | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Events
 
 The Bing Maps API provides events that allow your application to respond to user actions.

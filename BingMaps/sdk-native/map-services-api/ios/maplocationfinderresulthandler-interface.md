@@ -1,9 +1,14 @@
-# MapLocationFinderResultHandler typedef (iOS only)
+---
+title: "MapLocationFinderResultHandler Interface | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationFinderResultHandler Interface (iOS only)
 
 Handles MapLocationFinderResult returned by MapLocationFinder geocoding request.
 
 >```objectivec
->typedef void (^MSMapLocationFinderResultHandler)>(MSMapLocationFinderResult*);
+> typedef void (^MSMapLocationFinderResultHandler)>(MSMapLocationFinderResult*);
 >```
 
 ## See also

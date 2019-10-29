@@ -1,5 +1,9 @@
+---
+title: "CopyrightDisplay Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# CopyrightDisplay enumeration
+# CopyrightDisplay Enumeration
 
 Controls the display of the copyright on the Map.
 
@@ -15,13 +19,13 @@ Controls the display of the copyright on the Map.
 
 **iOS**
 
->``` objectivec
+>```objectivec
 > typedef NS_ENUM(NSInteger, MSCopyrightDisplay)
 > {
 >     MSCopyrightDisplayAlways,
 >     MSCopyrightDisplayAllowHiding
 > }
-> ```
+>```
 
 ## Values
 

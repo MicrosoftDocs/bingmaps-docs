@@ -1,5 +1,9 @@
+---
+title: "MapElementCollisionBehavior Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapElementCollisionBehavior enum
+# MapElementCollisionBehavior Enumeration
 
 Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.
 

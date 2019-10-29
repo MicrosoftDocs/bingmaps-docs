@@ -1,4 +1,9 @@
-# MapLocationPoint
+---
+title: "MapLocationPoint Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationPoint Class
 
 Contains geospatial data for a specific point associated with the location returned from a geocoding request.
 

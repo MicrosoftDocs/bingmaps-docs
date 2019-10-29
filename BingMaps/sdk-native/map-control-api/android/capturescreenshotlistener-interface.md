@@ -1,4 +1,9 @@
-# CaptureScreenshotListener interface (Android only)
+---
+title: "CaptureScreenshotListener Interface | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# CaptureScreenshotListener Interface (Android only)
 
 Callback interface to notify when a Bitmap has been captured as a result of a call to MapView.captureImage.
 

@@ -1,4 +1,9 @@
-# CameraChangingEventArgs class (Android only)
+---
+title: "MapCameraChangingEventArgs Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapCameraChangingEventArgs Class (Android only)
 
 Event arguments passed to MapView.CameraChanging callback.
 

@@ -1,5 +1,9 @@
+---
+title: "MapCameraChangeReason Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapCameraChangeReason enumeration
+# MapCameraChangeReason Enumeration
 
 Specifies the reason the position of the map's camera has changed.
 
@@ -12,7 +16,7 @@ Specifies the reason the position of the map's camera has changed.
 >     USER_INTERACTION,
 >     PROGRAMMATIC,
 > }
-> ```
+>```
 
 **iOS**
 
@@ -23,7 +27,7 @@ Specifies the reason the position of the map's camera has changed.
 >      MSMapCameraChangeReasonUserInteraction,
 >      MSMapCameraChangeReasonProgrammatic
 > }
-> ```
+>```
 
 ### System
 The system changed the position of the map's camera.

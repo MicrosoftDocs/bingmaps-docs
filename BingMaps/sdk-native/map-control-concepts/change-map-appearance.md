@@ -1,3 +1,8 @@
+---
+title: "Changing the appearance of the map | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Changing the appearance of the map
 
 ## Default Map Style Sheets

@@ -1,5 +1,9 @@
-# Anchoring MapIcons
+---
+title: "Anchoring MapIcons | Microsoft Docs"
+author: "bmnxplat"
+---
 
+# Anchoring MapIcons
 
 One of the most common issues developers come across when using custom **Map Icons** is that when they zoom the map it appears as if their
 *MapIcon* is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor point value in the pushpin

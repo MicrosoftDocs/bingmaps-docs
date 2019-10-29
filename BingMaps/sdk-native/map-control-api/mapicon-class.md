@@ -1,5 +1,9 @@
+---
+title: "MapIcon Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapIcon class
+# MapIcon Class
 
 Displays a graphical image and optional text on the Map.
 
@@ -41,6 +45,7 @@ Whether this MapIcon can be drop target for purposes of drag-and-drop operation.
 -->
 
 ### DesiredCollisionBehavior
+
 Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.  
 Default is set to `MapElementCollisionBehavior.REMAIN_VISIBLE`.
 
@@ -60,6 +65,24 @@ _See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeratio
 >```
 
 
+### Flat
+
+Determines whether the icon should appear to lie parallel and flat to the earth, versus standing up and facing the user. The default is false.
+
+**Android**
+
+>```java
+> boolean isFlat()
+> void setFlat(boolean isFlat)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) BOOL flat
+>```
+
+
 ### Flyout
 
 The flyout associated with this MapIcon.
@@ -70,7 +93,7 @@ _See also:_ [MapFlyout](mapflyout-class.md)
 
 >```java
 > MapFlyout getFlyout()
-> void setFlyout(MapFlyout flyout)
+> void setFlyout(@Nullable MapFlyout flyout)
 >```
 
 **iOS**
@@ -90,7 +113,7 @@ _See also:_ [MapImage](MapImage-class.md)
 
 >```java
 > MapImage getImage()
-> void setImage(MapImage image)
+> void setImage(@Nullable MapImage image)
 >```
 
 **iOS**
@@ -100,24 +123,6 @@ _See also:_ [MapImage](MapImage-class.md)
 >```
 
 _Passsing null/nil will reset the MapIcon to use the default image._
-
-
-### Flat
-
-Determines whether the icon should appear to lie parallel and flat to the earth, versus standing up and facing the user. The default is false.
-
-**Android**
-
->```java
-> boolean isFlat()
-> void setFlat(boolean isFlat)
->```
-
-**iOS**
-
->```objectivec
-> @property (nonatomic) BOOL flat
->```
 
 
 ### Location
@@ -139,7 +144,9 @@ _See also:_ [MSGeopoint](Geopoint-class.md)
 > @property (nonatomic) MSGeopoint *location
 >```
 
+
 ### NormalizedAnchorPoint
+
 The offset coordinate in pixels to display the icon relative to the selected location. `(0, 0)` will place the upper left corner of the image at the location. The default is `(0.5, 0.5)`.
 
 _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
@@ -214,4 +221,5 @@ Text to be displayed along side the MapIcon.
 ## See Also
 
 * [Icons](../map-control-concepts/map-icons.md)
+* [MapElement](mapelement-class.md)
 * [MapFlyout class](mapflyout-class.md)

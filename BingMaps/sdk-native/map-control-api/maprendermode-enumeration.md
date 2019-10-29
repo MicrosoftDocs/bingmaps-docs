@@ -1,5 +1,9 @@
+---
+title: "MapRenderMode Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapRenderMode enumeration
+# MapRenderMode Enumeration
 
 Defines primary data source for rendering map.
 
@@ -14,7 +18,7 @@ Defines primary data source for rendering map.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > typedef NS_ENUM(NSInteger, MSMapRenderMode)
 > {
 >     MSMapRenderModeRaster,

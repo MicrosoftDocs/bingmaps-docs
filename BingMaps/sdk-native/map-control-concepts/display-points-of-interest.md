@@ -1,3 +1,8 @@
+---
+title: "Display points of interest on the map | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Display points of interest on the map
 
 Use [MapIcon](../map-control-api/MapIcon-class.md) to add a graphical image and text at a
