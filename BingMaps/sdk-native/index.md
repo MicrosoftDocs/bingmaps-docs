@@ -1,3 +1,8 @@
+---
+title: "Bing Maps SDK for Android and iOS | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Bing Maps SDK for Android and iOS
 
 Welcome to the Bing Maps SDK for Android and iOS!

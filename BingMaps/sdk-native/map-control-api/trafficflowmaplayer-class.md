@@ -1,5 +1,9 @@
+---
+title: "TrafficFlowMapLayer Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# TrafficFlowMapLayer
+# TrafficFlowMapLayer Class
 
 Display traffic flow on the map.
 

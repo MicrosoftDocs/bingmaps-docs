@@ -1,4 +1,9 @@
-# MapLocationMatchCode enumeration
+---
+title: "MapLocationMatchCode Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationMatchCode Enumeration
 
 The geocoding level for each geopoint for a location returned from a geocoding request.
 

@@ -1,5 +1,9 @@
+---
+title: "OnMapCameraChangingListener Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# OnMapCameraChangingListener interface (Android only)
+# OnMapCameraChangingListener Interface (Android only)
 
 Listener used with MapView.CameraChanging event.
 

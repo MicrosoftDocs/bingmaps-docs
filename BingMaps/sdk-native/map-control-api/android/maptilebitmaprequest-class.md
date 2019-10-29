@@ -1,5 +1,9 @@
+---
+title: "MapTileBitmapRequest Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapTileBitmapRequest class (Android only)
+# MapTileBitmapRequest Class (Android only)
 
 Contains data that a custom tile map layer developer can set to represent the requested tile.
 

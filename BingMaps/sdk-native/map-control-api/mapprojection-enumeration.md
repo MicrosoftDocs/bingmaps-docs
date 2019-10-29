@@ -1,5 +1,9 @@
+---
+title: "MapProjection Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapProjection enumeration
+# MapProjection Enumeration
 
 Controls how the map projects the world onto the screen.
 
@@ -15,13 +19,13 @@ Controls how the map projects the world onto the screen.
 
 **iOS**
 
->``` objectivec
+>```objectivec
 > typedef NS_ENUM(NSInteger, MSMapProjection)
 > {
 >     MSMapProjectionMercator,
 >     MSMapProjectionGlobe,
 > }
-> ```
+>```
 
 ## Values
 

@@ -1,5 +1,9 @@
+---
+title: "MapElementTappedEventArgs Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapElementTappedEventArgs class (Android only)
+# MapElementTappedEventArgs Class (Android only)
 
 Event arguments passed to MapElementLayer.MapElementTapped callback.
 

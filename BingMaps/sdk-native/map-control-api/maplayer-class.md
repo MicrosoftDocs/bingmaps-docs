@@ -1,5 +1,9 @@
+---
+title: "MapLayer Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapLayer
+# MapLayer Class
 
 Base class for a layer on the map. Not directly usable, only exists to provide functionality common to all MapLayers.
 

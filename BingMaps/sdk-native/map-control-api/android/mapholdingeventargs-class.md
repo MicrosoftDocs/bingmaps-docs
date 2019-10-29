@@ -1,5 +1,9 @@
+---
+title: "MapHoldingEventArgs Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapHoldingEventArgs class (Android only)
+# MapHoldingEventArgs Class (Android only)
 
 Event arguments passed to MapView.Holding callback.
 
@@ -19,7 +23,7 @@ Gets the geographic location that corresponds to where the MapControl received u
 
 >```java
 > final Geopoint location
-> ```
+>```
 
 ## See also
 

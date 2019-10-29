@@ -1,5 +1,9 @@
+---
+title: "Geoposition Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# Geoposition class
+# Geoposition Class
 
 Represents a geographic position.
 

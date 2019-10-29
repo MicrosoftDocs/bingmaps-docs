@@ -1,3 +1,8 @@
+---
+title: "MapLocationFinder Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # MapLocationFinder Class
 
 Forms and sends geocoding requests.

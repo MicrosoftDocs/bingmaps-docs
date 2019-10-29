@@ -1,5 +1,9 @@
+---
+title: "MSMapElementLayerUserDidTapHandler Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MSMapElementLayerUserDidTapHandler interface (iOS only)
+# MSMapElementLayerUserDidTapHandler Interface (iOS only)
 
 Handler used with MapElementLayer.MapElementTapped event. Return true from this event to indicate whether it has been handled, or false otherwise.
 

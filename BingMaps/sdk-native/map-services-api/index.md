@@ -1,3 +1,8 @@
+---
+title: "MapServices API Reference | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # MapServices API Reference
 
 ## Classes 

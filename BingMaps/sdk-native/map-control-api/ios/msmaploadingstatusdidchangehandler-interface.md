@@ -1,9 +1,13 @@
+---
+title: "MSMapLoadingStatusDidChangeHandler Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MSMapLoadingStatusDidChangeHandler interface (iOS only)
+# MSMapLoadingStatusDidChangeHandler Interface (iOS only)
 
 Handler used with MapView.MapLoadingStatusChanged event. Return true from this event to indicate whether it has been handled, or false otherwise.
 
->```objectivec 
+>```objectivec
 > typedef BOOL (^MSMapLoadingStatusDidChangeHandler)(MSMapLoadingStatus)
 >```
 

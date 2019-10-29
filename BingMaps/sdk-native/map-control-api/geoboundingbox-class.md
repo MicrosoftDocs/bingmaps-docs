@@ -1,5 +1,9 @@
+---
+title: "GeoboundingBox Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# GeoboundingBox class
+# GeoboundingBox Class
 
 Represents a bounded geographic area.
 
@@ -51,7 +55,7 @@ The latitude of the northern border of the bounding box.
 
 >```java
 > double getNorth()
-> ```
+>```
 
 **iOS**
 
@@ -68,7 +72,7 @@ The longitude of the eastern border of the bounding box.
 
 >```java
 > double getEast()
-> ```
+>```
 
 **iOS**
 
@@ -84,7 +88,7 @@ The latitude of the southern border of the bounding box.
 
 >```java
 > double getSouth()
-> ```
+>```
 
 **iOS**
 
@@ -100,7 +104,7 @@ The longitude of the western border of the bounding box.
 
 >```java
 > double getWest()
-> ```
+>```
 
 **iOS**
 
@@ -167,7 +171,7 @@ _See also:_ [Geoposition](Geoposition-class.md)
 
 >```java
 > Geoposition getNorthwestCorner()
-> ```
+>```
 
 **iOS**
 
@@ -184,7 +188,7 @@ _See also:_ [Geoposition](Geoposition-class.md)
 
 >```java
 > Geoposition getSoutheastCorner()
-> ```
+>```
 
 **iOS**
 

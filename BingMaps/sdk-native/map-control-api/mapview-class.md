@@ -1,3 +1,7 @@
+---
+title: "MapView Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
 # MapView Class
 
@@ -453,7 +457,7 @@ _See also:_ [CaptureScreenshotListener](Android/CaptureScreenShotListener-interf
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > - (void)beginCaptureImageWithCompletionCallback:(MSMapDidCaptureImageCallback)callback
 >```
 
@@ -595,7 +599,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > - (void)beginRotateToDegrees:(CLLocationDirection)degrees withCompletionCallback:(MSMapDidChangeSceneCallback)callback;
 >```
 
@@ -675,7 +679,7 @@ Performs an continuous pan operation.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > - (void)startContinuousPanWithHorizontalPixelsPerSecond:(double)horizontalPixelsPerSecond verticalPixelsPerSecond:(double)verticalPixelsPerSecond
 >```
 
@@ -798,7 +802,7 @@ Performs an operation to tilt the map's camera from its current position. Valid 
 **Android**
 
 >```java
-> `void tilt(double degrees)
+> void tilt(double degrees)
 >```
 
 **iOS**
@@ -814,7 +818,7 @@ Performs an operation to tilt the map's camera from its current position and inv
 **Android**
 
 >```java
-> `void beginTilt(double degrees, OnMapSceneCompletedListener listener)
+> void beginTilt(double degrees, OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -842,7 +846,7 @@ Performs a tilt operation to a particular point. `tiltTo(0)` to have the map fac
 
 >```objectivec
 > - (void)tiltToDegrees:(double)degrees
->``` 
+>```
 
 ### beginTiltTo
 
@@ -851,7 +855,7 @@ Performs a tiltTo operation and invokes the callback when complete. Valid values
 **Android**
 
 >```java
-> `void beginTiltTo(double degrees, OnMapSceneCompletedListener listener)
+> void beginTiltTo(double degrees, OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -871,7 +875,7 @@ Returns true if tilting down (away from nadir) is possible.
 **Android**
 
 >```java
-> `boolean canTiltDown()
+> boolean canTiltDown()
 >```
 
 **iOS**
@@ -887,7 +891,7 @@ Returns true if tilting up (towards nadir) is possible.
 **Android**
 
 >```java
-> `boolean canTiltUp()
+> boolean canTiltUp()
 >```
 
 **iOS**
@@ -905,7 +909,7 @@ Note that this void is also repeatable, such that if called multiple times in ra
 **Android**
 
 >```java
-> `void zoomIn()
+> void zoomIn()
 >```
 
 **iOS**
@@ -914,7 +918,7 @@ Note that this void is also repeatable, such that if called multiple times in ra
 > - (void)zoomIn
 >```
 
-#### zoomOut
+### zoomOut
 
 Performs a zoom out operation, equivalent to clicking the zoom out button on the map.
 Note that this method is also repeatable, such that if called multiple times in rapid order (e.g., the user repeatedly presses the zoom out button), the resulting operation is still smooth.
@@ -922,7 +926,7 @@ Note that this method is also repeatable, such that if called multiple times in 
 **Android**
 
 >```java
-> `void zoomOut()
+> void zoomOut()
 >```
 
 **iOS**
@@ -938,7 +942,7 @@ Performs a zoom in operation, equivalent to double tapping on the map, and invok
 **Android**
 
 >```java
-> `void beginZoomIn(OnMapSceneCompletedListener listener)
+> void beginZoomIn(OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -958,7 +962,7 @@ Performs a zoom out operation, equivalent to double tapping on the map, and invo
 **Android**
 
 >```java
-> `void beginZoomOut(OnMapSceneCompletedListener listener)
+> void beginZoomOut(OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -977,7 +981,7 @@ Returns true if calling zoomIn will affect camera.
 **Android**
 
 >```java
-> `boolean canZoomIn()
+> boolean canZoomIn()
 >```
 
 **iOS**
@@ -992,7 +996,7 @@ Returns true if calling zoomOut will affect camera.
 **Android**
 
 >```java
-> `boolean canZoomOut()
+> boolean canZoomOut()
 >```
 
 **iOS**
@@ -1009,7 +1013,7 @@ Perform a pan operation from the current location.
 **Android**
 
 >```java
-> `void pan(double horizontalPixels, double verticalPixels)
+> void pan(double horizontalPixels, double verticalPixels)
 >```
 
 **iOS**
@@ -1025,7 +1029,7 @@ Perform a pan operation from the current location, and invokes the provided call
 **Android**
 
 >```java
-> `void beginPan(double horizontalPixels, double verticalPixels, OnMapSceneCompletedListener listener)
+> void beginPan(double horizontalPixels, double verticalPixels, OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1045,7 +1049,7 @@ Perform a pan operation from the current location to the specified location.
 **Android**
 
 >```java
-> `void panTo(Location location)
+> void panTo(Geopoint location)
 >```
 
 **iOS**
@@ -1060,7 +1064,7 @@ Perform a pan operation from the current location to the specified location and 
 **Android**
 
 >```java
-> ``void beginPanTo(Location location, OnMapSceneCompletedListener listener)
+> void beginPanTo(Geopoint location, OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1082,7 +1086,7 @@ Fired when the camera location changed.
 **Android**
 
 >```java
-> void addOnMapCameraChangedListener(OnMapCameraChangedListener listener) 
+> void addOnMapCameraChangedListener(OnMapCameraChangedListener listener)
 > void removeOnMapCameraChangedListener(OnMapCameraChangedListener listener)
 >```
  
@@ -1091,7 +1095,7 @@ _See also:_ [OnMapCameraChangedListener](Android/OnMapCameraChangedListener-inte
 **iOS**
 
 >```objectivec
-> - (MSMapHandlerId)addCameraDidChangeHandler:(MSMapCameraDidChangeHandler)handler  
+> - (MSMapHandlerId)addCameraDidChangeHandler:(MSMapCameraDidChangeHandler)handler
 > - (BOOL)removeCameraDidChangeHandler:(MSMapHandlerId)handlerId
 >```
 
@@ -1104,7 +1108,7 @@ Fired when the camera location is changing. This event is fired frequently and i
 **Android**
 
 >```java
-> void addOnMapCameraChangingListener(OnMapCameraChangingListener listener)  
+> void addOnMapCameraChangingListener(OnMapCameraChangingListener listener)
 > void removeOnMapCameraChangingListener(OnMapCameraChangingListener listener)
 >```
 
@@ -1113,7 +1117,7 @@ _See also:_ [OnMapCameraChangingListener](Android/OnMapCameraChangingListener-in
 **iOS**
 
 >```objectivec
-> - (MSMapHandlerId)addCameraWillChangeHandler:(MSMapCameraWillChangeHandler)handler  
+> - (MSMapHandlerId)addCameraWillChangeHandler:(MSMapCameraWillChangeHandler)handler
 > - (BOOL)removeCameraWillChangeHandler:(MSMapHandlerId)handlerId
 >```
 
@@ -1128,7 +1132,7 @@ _See also:_ [MapLoadingStatus](MapLoadingStatus-enumeration.md)
 **Android**
 
 >```java
-> void addOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)  
+> void addOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
 > void removeOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
 >```
 
@@ -1150,7 +1154,7 @@ Fired when the map is double tapped by the user.
 **Android**
 
 >```java
-> void addOnMapDoubleTappedListener(OnMapDoubleTappedListener listener)  
+> void addOnMapDoubleTappedListener(OnMapDoubleTappedListener listener)
 > void removeOnMapDoubleTappedListener(OnMapDoubleTappedListener listener)
 >```
 
@@ -1194,7 +1198,7 @@ Fired when the map is tapped by the user.
 **Android**
 
 >```java
-> void addOnMapTappedListener(OnMapTappedListener listener) 
+> void addOnMapTappedListener(OnMapTappedListener listener)
 > void removeOnMapTappedListener(OnMapTappedListener listener)
 >```
 

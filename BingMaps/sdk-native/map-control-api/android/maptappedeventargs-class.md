@@ -1,5 +1,9 @@
+---
+title: "MapTappedEventArgs Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapTappedEventArgs class (Android only)
+# MapTappedEventArgs Class (Android only)
 
 Event arguments passed to MapView.Tapped callback.
 
@@ -11,7 +15,7 @@ Gets the location of the pointer input in client coordinate.
 
 >```java
 > final android.graphics.Point position
-> ```
+>```
 
 ### Location
 
@@ -19,7 +23,7 @@ Gets the geographic location that corresponds to where the MapControl received u
 
 >```java
 > final Geopoint location
-> ```
+>```
 
 ## See also
 

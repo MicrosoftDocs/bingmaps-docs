@@ -1,5 +1,9 @@
+---
+title: "MSMapDidChangeSceneCallback Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MSMapDidChangeSceneCallback interface (iOS only)
+# MSMapDidChangeSceneCallback Interface (iOS only)
 
 Callback interface to notify when the map scene has successfully changed after asyncronous methods such as MapView.beginRotate, MapView.beginSetScene.
 

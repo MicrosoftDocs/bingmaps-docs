@@ -1,5 +1,9 @@
+---
+title: "AltitudeReferenceSystem Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapAltitudeReferenceSystem enumeration
+# AltitudeReferenceSystem Enumeration
 
 An altitude reference system to indicate what an altitude value is relative to.
 

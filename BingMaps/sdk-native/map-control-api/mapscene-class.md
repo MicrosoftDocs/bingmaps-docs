@@ -1,3 +1,7 @@
+---
+title: "MapScene Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
 # MapScene Class
 
@@ -12,7 +16,7 @@ MapScenes can be created via static factory methods on MapScene or descendants c
 
 **iOS**
 
->``` objectivec
+>```objectivec
 > @interface MSMapScene : NSObject
 >```
 
@@ -118,7 +122,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 >```objectivec
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin heading:(CLLocationDirection)heading pitch:(double)pitch
-> ```
+>```
 
 ### createFromBoundingBox
 

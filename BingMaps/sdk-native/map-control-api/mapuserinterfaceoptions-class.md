@@ -1,5 +1,9 @@
+---
+title: "MapUserInterfaceOptions Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapUserInterfaceOptions class
+# MapUserInterfaceOptions Class
 
 A container class for various properties that can be used to configure interactivity for the control.
 
@@ -120,7 +124,7 @@ Whether a user can use a two-finger gesture to tilt in and out of nadir views.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > @property (nonatomic) BOOL tiltGestureEnabled
 >```
 

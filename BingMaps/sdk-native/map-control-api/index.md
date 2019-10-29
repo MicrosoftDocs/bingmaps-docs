@@ -1,3 +1,8 @@
+---
+title: "API Reference | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # API Reference
 
 ## Classes

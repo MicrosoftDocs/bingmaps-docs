@@ -1,3 +1,8 @@
+---
+title: "Tile Layers | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Tile Layers
 
 In the Bing Maps native controls we have introduced a TileLayer class that makes it easy to separate multiple data sets as layers.
@@ -151,7 +156,7 @@ the layer.
 >         image:UIImage(data:data)!,
 >         boundingBox: boundingBox)
 >
->     let scene = MSMapScene(location: MSGeopoint(latitude: 40, longitude: -98), zoomLevel: 4 )
+>     let scene = MSMapScene(location: MSGeopoint(latitude: 40, longitude: -98), zoomLevel: 4)
 >     self.mapView.setScene(scene, with: .none)
 >     mapView.layers.add(groundOverlayLayer)
 > }
@@ -159,7 +164,7 @@ the layer.
 > }
 >```
 
-## Removing overlay from map
+## Removing overlay tiles from a map
 
 The following example shows how to remove all overlay tiles from a map.
 

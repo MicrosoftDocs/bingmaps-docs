@@ -1,4 +1,9 @@
-# MapLocationFinderResult
+---
+title: "MapLocationFinderResult Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationFinderResult Class
 
 Contains status code and result location data for a geocoding request.
 

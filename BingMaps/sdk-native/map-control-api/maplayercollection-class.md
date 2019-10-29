@@ -1,5 +1,9 @@
+---
+title: "MapLayerCollection Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapLayerCollection class
+# MapLayerCollection Class
 
 Contains all the layers that have been added to the map.
 

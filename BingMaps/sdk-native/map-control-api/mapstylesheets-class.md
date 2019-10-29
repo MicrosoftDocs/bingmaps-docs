@@ -1,5 +1,9 @@
+---
+title: "MapStyleSheets Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapStyleSheets class
+# MapStyleSheets Class
 
 Contains built-in MapStyleSheets for easily changing how the MapView is rendered.
 
@@ -25,13 +29,13 @@ A map style that renders nothing. Useful if you want to display a custom set of 
 
 >```java
 > static MapStyleSheet empty()
-> ```
+>```
 
 **iOS**
 
 >```objectivec
 > + (MSMapStyleSheet *)empty
->````
+>```
 
 ### Aerial
 
@@ -41,12 +45,12 @@ A photorealistic map style with no labels, roads, or borders.
 
 >```java
 > static MapStyleSheet aerial()
-> ```
+>```
 
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)aerial()
+> + (MSMapStyleSheet *)aerial
 >```
 
 ### AerialWithOverlay
@@ -62,7 +66,7 @@ A photorealistic map style with labels, roads, and borders.
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)aerial()
+> + (MSMapStyleSheet *)aerialWithOverlay
 >```
 
 ### RoadLight
@@ -78,7 +82,7 @@ A road map style with a light theme.
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadLight()
+> + (MSMapStyleSheet *)roadLight
 >```
 
 ### RoadCanvasLight
@@ -94,7 +98,7 @@ A road map style with a light theme which has some of the details such as hill s
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadCanvasLight()
+> + (MSMapStyleSheet *)roadCanvasLight
 >```
 
 ### RoadDark
@@ -111,7 +115,7 @@ A road map style with a dark theme.
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadDark()
+> + (MSMapStyleSheet *)roadDark
 >```
 
 ### RoadHighContrastLight
@@ -127,7 +131,7 @@ A road map style with a light theme with a higher contrast than RoadLight.
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadHighContrastLight()
+> + (MSMapStyleSheet *)roadHighContrastLight
 >```
 
 ### RoadHighContrastDark
@@ -143,7 +147,7 @@ A road map style with a light theme with a higher contrast than RoadDark.
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadHighContrastDark()
+> + (MSMapStyleSheet *)roadHighContrastDark
 >```
 
 ## See Also

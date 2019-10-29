@@ -1,4 +1,9 @@
-# MapLocationPointUsageType enumeration
+---
+title: "MapLocationPointUsageType Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationPointUsageType Enumeration
 
 The best use for the geocode point. Each geocode point is defined as a `Route` point, a `Display` point or `RouteAndDisplay`.
 
