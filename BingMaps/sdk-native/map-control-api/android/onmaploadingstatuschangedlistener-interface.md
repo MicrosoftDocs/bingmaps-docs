@@ -1,5 +1,9 @@
+---
+title: "OnMapLoadingStatusChangedListener Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# OnMapLoadingStatusChangedListener interface (Android only)
+# OnMapLoadingStatusChangedListener Interface (Android only)
 
 Listener used with MapView.MapLoadingStatusChanged event.
 

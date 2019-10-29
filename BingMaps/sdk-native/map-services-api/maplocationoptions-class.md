@@ -1,4 +1,9 @@
-# MapLocationOptions class
+---
+title: "MapLocationOptions Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationOptions Class
 
 Forms optional parameters for a geocoding request.
 

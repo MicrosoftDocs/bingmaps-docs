@@ -1,5 +1,9 @@
+---
+title: "MapPolyline Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapPolyline class
+# MapPolyline Class
 
 Displays a line on a map.
 
@@ -52,7 +56,7 @@ The color in ARGB format to use to draw the border of the polygon. The default v
 
 >```objectivec
 > @property (nonatomic) UIColor *strokeColor
->```  
+>```
 
 ### StrokeDashed
 
@@ -69,7 +73,7 @@ Indicates whether the line is dashed.
 
 >```objectivec
 > @property BOOL strokeDashed
->```  
+>```
 
 ### StrokeWidth
 
@@ -86,7 +90,7 @@ The width of the line to use for the outside of the polygon. The default value i
 
 >```objectivec
 > @property int strokeWidth
->```  
+>```
 
 ## See Also
 

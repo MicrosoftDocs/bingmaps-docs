@@ -1,5 +1,9 @@
+---
+title: "MapElement Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapElement class
+# MapElement Class
 
 Represents an element displayed on a MapControl.
 
@@ -11,11 +15,45 @@ Represents an element displayed on a MapControl.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > @interface MSMapElement : NSObject
 >```
 
 ## Properties
+
+### Tag
+
+Gets or sets an arbitrary object value that can be used to store custom information about this object.
+
+**Android**
+
+>```java
+> Object getTag()
+> void setTag(Object newTag)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) id tag;
+>```
+
+### Visible
+
+Whether the item is visible or not.
+
+**Android**
+
+>```java
+> boolean isVisible()
+> void setVisible(boolean visible)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) BOOL visible
+>```
 
 ### ZIndex
 
@@ -32,40 +70,6 @@ The ZIndex of the map element. Elements with a higher ZIndex will render on top 
 
 >```objectivec
 > @property (nonatomic) int zIndex
->```
-
-#### Visible
-
-Whether the item is visible or not.
-
-**Android**
-
->```java
->boolean isVisible()
->void setVisible(boolean visible)
->```
-
-**iOS**
-
->```objectivec 
-> @property (nonatomic) BOOL visible
-> ```
-
-#### Tag
-
-Gets or sets an arbitrary object value that can be used to store custom information about this object.
-
-**Android**
-
->```java
-> Object getTag()
-> void setTag(Object newTag)
->```
-
-**iOS**
-
->```objectivec
-> @property (nonatomic) id tag;
 >```
 
 ## See Also

@@ -1,3 +1,8 @@
+---
+title: "Map Polylines and Polygons | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Polylines and Polygons
 
 Sometimes you will want to draw additional paths between two or more points on the map, or highlight a geographic region. To do this, the

@@ -1,4 +1,9 @@
-# MapLocationFinderStatus enumeration
+---
+title: "MapLocationFinderStatus Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationFinderStatus Enumeration
 
 Represents the status of a completed geocoding request.
 

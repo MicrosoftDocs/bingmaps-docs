@@ -1,3 +1,8 @@
+---
+title: "Drawing with Polylines and Polygons | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Drawing with Polylines and Polygons
 
 Frequently, you want to add a simple annotation to the map, which [MapIcons](../map-control-api/mapIcon-class.md)

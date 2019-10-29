@@ -1,5 +1,9 @@
+---
+title: "Geoshape Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# Geoshape class
+# Geoshape Class
 
 Represents a geographic shape.
 

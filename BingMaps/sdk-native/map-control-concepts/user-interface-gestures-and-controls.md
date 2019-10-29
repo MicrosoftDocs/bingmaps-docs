@@ -1,3 +1,8 @@
+---
+title: "User Interface Gestures and Controls | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # User Interface Gestures and Controls
 
 By default, the map shows a toolbar with controls that the user can use to navigate the map. These controls are compass, zoom and tilt.

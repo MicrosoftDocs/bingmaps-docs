@@ -1,9 +1,13 @@
+---
+title: "OnMapElementTappedListener Interface | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# OnMapElementTappedListener interface (Android only)
+# OnMapElementTappedListener Interface (Android only)
 
 Listener used with MapElementLayer.MapElementTapped event.
 
-> ```java
+>```java
 > public interface OnMapElementTappedListener
 > {
 >     public boolean onMapElementTapped(MapElementTappedEventArgs e);

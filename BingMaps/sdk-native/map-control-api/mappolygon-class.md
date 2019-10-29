@@ -1,5 +1,9 @@
+---
+title: "MapPolygon Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapPolygon class
+# MapPolygon Class
 
 Draws a complex filled shape upon the map.
 
@@ -22,7 +26,7 @@ _See also:_ [MapElement](mapelement-class.md)
 
 ### Paths
 
-The paths making up rings of this polygon.
+The paths making up rings of this polygon. The use of paths and shapes are mutually exclusive.
 
 **Android**
 
@@ -71,7 +75,7 @@ The color in ARGB format to use to draw the border of the polygon. The default v
 
 >```objectivec
 > @property (nonatomic) UIColor *strokeColor
->```  
+>```
 
 ### StrokeDashed
 

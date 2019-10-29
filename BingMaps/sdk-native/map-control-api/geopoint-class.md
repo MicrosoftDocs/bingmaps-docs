@@ -1,5 +1,9 @@
+---
+title: "Geopoint Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# Geopoint class
+# Geopoint Class
 
 Represents a geographic point.
 
@@ -94,7 +98,7 @@ Returns a location in a new altitude reference system. This method leverages a p
 
 >```java
 > Geopoint toAltitudeReferenceSystem(AltitudeReferenceSystem newAltitudeReferenceSystem, MapView mapView)
->``` 
+>```
 
 **iOS**
 

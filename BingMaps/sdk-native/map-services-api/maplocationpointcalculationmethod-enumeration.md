@@ -1,4 +1,9 @@
-# MapLocationPointCalculationMethod enumeration
+---
+title: "MapLocationPointCalculationMethod Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationPointCalculationMethod Enumeration
 
 The method that was used to compute the geocode point.
 

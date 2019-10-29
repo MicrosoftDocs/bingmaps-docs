@@ -1,3 +1,8 @@
+---
+title: "MapServices Class | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # MapServices Class
 
 Provides common methods for map services such as [MapLocationFinder](MapLocationFinder-class.md).

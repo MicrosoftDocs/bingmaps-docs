@@ -1,3 +1,8 @@
+---
+title: "Map Icons | Microsoft Docs"
+author: "bmnxplat"
+---
+
 # Icons
 
 **Icons**, sometimes known as Points of Interest (POI), Pushpins, or Markers, are the primary method in the Bing Maps native controls to add

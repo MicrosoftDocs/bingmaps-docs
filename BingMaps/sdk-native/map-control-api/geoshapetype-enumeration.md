@@ -1,4 +1,9 @@
-# GeoshapeType enumeration
+---
+title: "GeoshapeType Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# GeoshapeType Enumeration
 
 Indicates the shape of the geographic region.
 
@@ -15,14 +20,14 @@ Indicates the shape of the geographic region.
 
 **iOS**
 
->``` objectivec
+>```objectivec
 > typedef NS_ENUM(NSInteger, MSGeoshapeType)
 > {
 >      MSGeoshapeTypeGeopoint,
 >      MSGeoshapeTypeGeopath,
 >      MSGeoshapeTypeGeoboundingBox
 > }
-> ```
+>```
 
 ## Values
 

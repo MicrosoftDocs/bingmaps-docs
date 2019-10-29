@@ -1,5 +1,9 @@
+---
+title: "GroundOverlayMapLayer Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# GroundOverlayMapLayer class
+# GroundOverlayMapLayer Class
 
 Displays an image in a geographic area.
 
@@ -23,7 +27,7 @@ _See also:_ [MapLayer](MapLayer-class.md)
 
 >```java
 > GroundOverlayMapLayer(android.graphics.Bitmap bitmap, GeoboundingBox latLongBox)
-> ```
+>```
 
 **iOS**
 

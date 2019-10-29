@@ -1,12 +1,17 @@
-# OnMapLocationFinderResultListener interface (Android only)
+---
+title: "OnMapLocationFinderResultListener Interface | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# OnMapLocationFinderResultListener Interface (Android only)
 
 Handles MapLocationFinderResult returned by MapLocationFinder geocoding request.
 
 >```java
->public interface OnMapLocationFinderResultListener
->{
->    void onMapLocationFinderResult(MapLocationFinderResult result);
->}
+> public interface OnMapLocationFinderResultListener
+> {
+>     void onMapLocationFinderResult(MapLocationFinderResult result);
+> }
 >```
 
 ## See also

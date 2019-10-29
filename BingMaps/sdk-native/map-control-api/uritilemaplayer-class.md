@@ -1,3 +1,7 @@
+---
+title: "MapUriTileMapLayer Class | Microsoft Docs"
+author: "bmnxplat"
+---
  
 # MapUriTileMapLayer Class
 

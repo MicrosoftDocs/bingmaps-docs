@@ -1,5 +1,9 @@
+---
+title: "MapLoadingStatus Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapLoadingStatus enumeration
+# MapLoadingStatus Enumeration
 
 Specifies the LoadingStatus of the MapControl.
 
@@ -16,14 +20,14 @@ Specifies the LoadingStatus of the MapControl.
 
 **iOS**
 
->``` objectivec
+>```objectivec
 > typedef NS_ENUM(NSInteger, MSMapLoadingStatus)
 > {
 >     MSMapLoadingStatusUpdating = 0,
 >     MSMapLoadingStatusComplete,
 >     MSMapLoadingStatusCompleteWithMissingData
 > };
-> ```
+>```
 
 ## Values
 

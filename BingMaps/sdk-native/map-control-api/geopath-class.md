@@ -1,5 +1,9 @@
+---
+title: "Geopath Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MSGeopath class
+# Geopath Class
 
 Represents an ordered series of geographic points that form a path.
 

@@ -1,5 +1,9 @@
+---
+title: "MapElementCollection Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapElementCollection class 
+# MapElementCollection Class
 
 Contains all the elements that have been added to the map.
 
@@ -100,7 +104,7 @@ Removes the specified element from the collection.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > - (BOOL)removeMapElement:(MSMapElement *)mapElement
 >```
 
@@ -116,7 +120,7 @@ Removes element at the specified index from the collection.
 
 **iOS**
 
-> ```objectivec
+>```objectivec
 > - (void)removeMapElementAtIndex:(NSUInteger)index
 >```
 

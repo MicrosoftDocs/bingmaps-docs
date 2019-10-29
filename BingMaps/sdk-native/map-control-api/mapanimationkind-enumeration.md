@@ -1,5 +1,9 @@
+---
+title: "MapAnimationKind Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapAnimationKind enumeration
+# MapAnimationKind Enumeration
 
 Specifies the animation to use when you change the view of the map. For example, you can specify animation when calling setScene and beginSetScene.
 
@@ -25,7 +29,7 @@ Specifies the animation to use when you change the view of the map. For example,
 >      MSMapAnimationKindNone,
 >      MSMapAnimationKindLinear,
 > }
-> ```
+>```
 
 ## Values
 

@@ -1,4 +1,9 @@
-# MapLocationEntityTypes enumeration
+---
+title: "MapLocationEntityTypes Enumeration | Microsoft Docs"
+author: "bmnxplat"
+---
+
+# MapLocationEntityTypes Enumeration
 
 Specifies the entity types that you want returned in the response for a geocoding request. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.
 

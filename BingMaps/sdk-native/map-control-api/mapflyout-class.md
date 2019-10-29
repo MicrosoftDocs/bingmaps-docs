@@ -1,3 +1,7 @@
+---
+title: "MapFlyout Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
 # MapFlyout Class
 
@@ -42,7 +46,7 @@ Primary text to be displayed on flyout's default view. *Can be null.*
 
 >```java
 > String getTitle()
-> void setTitle(String title)
+> void setTitle(@Nullable String title)
 >```
 
 **iOS**
@@ -59,7 +63,7 @@ Secondary text to be displayed on flyout's default view. *Can be null.*
 
 >```java
 > String getDescription()
-> void setDescription(String description)
+> void setDescription(@Nullable String description)
 >```
 
 **iOS**
@@ -111,7 +115,7 @@ Provides custom view for the flyout. If set to null, the default view with flyou
 **Android**
 
 >```java
-> void setCustomViewAdapter(MapFlyout.CustomViewAdapter adapter)
+> void setCustomViewAdapter(@Nullable MapFlyout.CustomViewAdapter adapter)
 >```
 
 **iOS**

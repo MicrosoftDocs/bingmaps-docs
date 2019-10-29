@@ -1,5 +1,9 @@
+---
+title: "CustomTileMapLayer Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# CustomTileMapLayer class
+# CustomTileMapLayer Class
 
 Display tiles based on developer-supplied bytes returned in callbacks.
 
@@ -27,7 +31,7 @@ Clears the tile cache so that all tiles will be requested again from the provide
 
 >```java
 > void clearTileCache()
-> ```
+>```
 
 **iOS**
 
@@ -41,7 +45,7 @@ Clears the tile cache so that all tiles will be requested again from the provide
 
 Callback that is invoked when a map requests a tile map. The callback is responsible for providing the data back to the map synchronously.
 
-> ```java 
+>```java 
 > void addOnBitmapRequestedListener(OnBitmapRequestedListener listener)
 > void removeBitmapRequestedListener()
 >```
@@ -53,7 +57,7 @@ _See also:_
 
 >```objectivec
 > @property (nonatomic, weak) id<MSMapCustomTileMapLayerDelegate> delegate
->```  
+>```
 
 _See also:_
 [MSMapCustomTileMapLayerDelegate](iOS/MSMapCustomTileMapLayerDelegate-protocol.md)

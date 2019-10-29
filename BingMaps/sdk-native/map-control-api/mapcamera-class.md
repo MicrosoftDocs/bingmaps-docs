@@ -1,5 +1,9 @@
+---
+title: "MapCamera Class | Microsoft Docs"
+author: "bmnxplat"
+---
 
-# MapCamera class
+# MapCamera Class
 
 Describes a camera in a MapView.
 
@@ -33,7 +37,7 @@ If not specified, Geopoint defaults to (latitude: 0, longitude: 0), Heading to 0
 > + (instancetype)cameraWithLocation:(MSGeopoint *)location
 > + (instancetype)cameraWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch
 > + (instancetype)cameraWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch verticalFieldOfView:(double)fov
->```  
+>```
 
 ## Properties
 
@@ -52,7 +56,7 @@ The heading in degrees. 0 corresponds to north, 90 to east, 180 to south, and 27
 
 >```objectivec
 > @property (nonatomic) CLLocationDirection heading
->```  
+>```
 
 
 ### Location
@@ -71,7 +75,7 @@ _See also:_ [MSGeopoint](Geopoint-class.md)
 
 >```objectivec
 > @property (nonatomic) MSGeopoint *location
->```  
+>```
 
 ### Pitch
 
@@ -89,7 +93,7 @@ Note that pitch may be limited in some views.
 
 >```objectivec
 > @property (nonatomic) double pitch
->```  
+>```
 
 ### VerticalFieldOfView
 
@@ -106,4 +110,4 @@ The vertical field of view in degrees. It may be null for MapCameras created wit
 
 >```objectivec
 > @property (nonatomic, nullable) NSNumber *verticalFieldOfView
->```  
+>```
