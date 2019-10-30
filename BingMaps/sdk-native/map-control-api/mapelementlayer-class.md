@@ -1,6 +1,6 @@
 ---
 title: "MapElementLayer Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapElementLayer Class

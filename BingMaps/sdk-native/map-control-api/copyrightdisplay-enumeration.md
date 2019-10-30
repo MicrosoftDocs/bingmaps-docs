@@ -1,6 +1,6 @@
 ---
 title: "CopyrightDisplay Enumeration | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # CopyrightDisplay Enumeration

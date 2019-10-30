@@ -1,6 +1,6 @@
 ---
 title: "MapScene Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapScene Class

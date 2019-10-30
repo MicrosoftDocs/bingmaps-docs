@@ -1,6 +1,6 @@
 ---
 title: "MapDoubleTappedEventArgs Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapDoubleTappedEventArgs Class (Android only)

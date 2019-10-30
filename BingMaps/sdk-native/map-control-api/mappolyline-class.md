@@ -1,6 +1,6 @@
 ---
 title: "MapPolyline Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapPolyline Class

@@ -1,6 +1,6 @@
 ---
 title: "Map Control Concepts | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Map Control Concepts

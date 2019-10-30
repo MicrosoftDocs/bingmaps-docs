@@ -1,6 +1,6 @@
 ---
 title: "MSMapCameraWillChangeHandler Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapCameraWillChangeHandler Interface (iOS only)

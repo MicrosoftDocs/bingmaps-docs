@@ -1,6 +1,6 @@
 ---
 title: "MapServices Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapServices Class

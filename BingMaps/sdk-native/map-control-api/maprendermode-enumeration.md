@@ -1,6 +1,6 @@
 ---
 title: "MapRenderMode Enumeration | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapRenderMode Enumeration

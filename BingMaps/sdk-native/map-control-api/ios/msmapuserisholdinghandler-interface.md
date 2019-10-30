@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserIsHoldingHandler Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapUserIsHoldingHandler Interface (iOS only)

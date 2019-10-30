@@ -1,6 +1,6 @@
 ---
 title: "MapServices API Reference | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapServices API Reference

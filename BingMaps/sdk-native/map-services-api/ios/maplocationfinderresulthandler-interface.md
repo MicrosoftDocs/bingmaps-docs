@@ -1,6 +1,6 @@
 ---
 title: "MapLocationFinderResultHandler Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocationFinderResultHandler Interface (iOS only)

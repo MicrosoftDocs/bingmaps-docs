@@ -1,6 +1,6 @@
 ---
 title: "Tile Layers | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Tile Layers

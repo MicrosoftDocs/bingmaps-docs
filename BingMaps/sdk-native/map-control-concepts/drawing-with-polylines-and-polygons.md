@@ -1,6 +1,6 @@
 ---
 title: "Drawing with Polylines and Polygons | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Drawing with Polylines and Polygons

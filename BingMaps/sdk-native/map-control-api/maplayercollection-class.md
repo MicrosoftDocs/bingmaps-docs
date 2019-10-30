@@ -1,6 +1,6 @@
 ---
 title: "MapLayerCollection Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLayerCollection Class

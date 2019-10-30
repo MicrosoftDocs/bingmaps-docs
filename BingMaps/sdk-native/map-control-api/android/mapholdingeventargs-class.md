@@ -1,6 +1,6 @@
 ---
 title: "MapHoldingEventArgs Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapHoldingEventArgs Class (Android only)
