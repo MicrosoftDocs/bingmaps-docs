@@ -1,6 +1,6 @@
 ---
 title: "GeoboundingBox Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # GeoboundingBox Class

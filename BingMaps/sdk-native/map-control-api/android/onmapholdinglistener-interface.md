@@ -1,6 +1,6 @@
 ---
 title: "OnMapHoldingListener Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # OnMapHoldingListener Interface (Android only)

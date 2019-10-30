@@ -1,6 +1,6 @@
 ---
 title: "Geopath Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Geopath Class

@@ -1,6 +1,6 @@
 ---
 title: "MapTileBitmapRequestedEventArgs Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapTileBitmapRequestedEventArgs Class (Android only)

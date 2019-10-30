@@ -1,6 +1,6 @@
 ---
 title: "MapCamera Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapCamera Class

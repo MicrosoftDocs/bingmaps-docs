@@ -1,6 +1,6 @@
 ---
 title: "GroundOverlayMapLayer Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # GroundOverlayMapLayer Class

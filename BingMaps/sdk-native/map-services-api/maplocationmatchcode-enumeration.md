@@ -1,6 +1,6 @@
 ---
 title: "MapLocationMatchCode Enumeration | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocationMatchCode Enumeration

@@ -1,6 +1,6 @@
 ---
 title: "MapLocation Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocation Class

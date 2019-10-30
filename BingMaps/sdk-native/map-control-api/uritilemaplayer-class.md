@@ -1,6 +1,6 @@
 ---
 title: "MapUriTileMapLayer Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
  
 # MapUriTileMapLayer Class
@@ -23,7 +23,7 @@ Display tiles based on developer-supplied URLs.
 
 ### UriFormatString
 
-The URI format template to use.  See [this article](http://msdn.microsoft.com/en-us/library/windowsphone/develop/windows.ui.xaml.controls.maps.httpmaptiledatasource.uriformatstring.aspx) for acceptable tokens that get replaced.
+The URI format template to use.  See [this article](https://msdn.microsoft.com/library/windowsphone/develop/windows.ui.xaml.controls.maps.httpmaptiledatasource.uriformatstring.aspx) for acceptable tokens that get replaced.
 
 **Android**
 

@@ -1,6 +1,6 @@
 ---
 title: "MapImage Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapImage Class

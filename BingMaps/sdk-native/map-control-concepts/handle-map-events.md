@@ -1,6 +1,6 @@
 ---
 title: "Map Events | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Events

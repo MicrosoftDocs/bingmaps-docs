@@ -1,6 +1,6 @@
 ---
 title: "Display points of interest on the map | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Display points of interest on the map

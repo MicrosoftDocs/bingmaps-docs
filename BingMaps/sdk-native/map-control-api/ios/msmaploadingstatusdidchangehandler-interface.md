@@ -1,6 +1,6 @@
 ---
 title: "MSMapLoadingStatusDidChangeHandler Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapLoadingStatusDidChangeHandler Interface (iOS only)

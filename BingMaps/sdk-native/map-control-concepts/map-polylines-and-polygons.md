@@ -1,6 +1,6 @@
 ---
 title: "Map Polylines and Polygons | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Polylines and Polygons

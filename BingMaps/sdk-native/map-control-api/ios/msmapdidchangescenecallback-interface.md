@@ -1,6 +1,6 @@
 ---
 title: "MSMapDidChangeSceneCallback Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapDidChangeSceneCallback Interface (iOS only)

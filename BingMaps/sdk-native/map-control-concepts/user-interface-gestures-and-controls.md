@@ -1,6 +1,6 @@
 ---
 title: "User Interface Gestures and Controls | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # User Interface Gestures and Controls

@@ -1,6 +1,6 @@
 ---
 title: "MapPolygon Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapPolygon Class

@@ -1,6 +1,6 @@
 ---
 title: "MapLocationFinderResult Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocationFinderResult Class

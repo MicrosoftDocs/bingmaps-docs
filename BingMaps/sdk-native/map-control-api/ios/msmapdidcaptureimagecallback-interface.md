@@ -1,6 +1,6 @@
 ---
 title: "MSMapDidCaptureImageCallback Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapDidCaptureImageCallback Interface (iOS only)

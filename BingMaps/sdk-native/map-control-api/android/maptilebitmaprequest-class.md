@@ -1,6 +1,6 @@
 ---
 title: "MapTileBitmapRequest Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapTileBitmapRequest Class (Android only)
