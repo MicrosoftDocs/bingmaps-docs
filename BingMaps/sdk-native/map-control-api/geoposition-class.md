@@ -1,6 +1,6 @@
 ---
 title: "Geoposition Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Geoposition Class

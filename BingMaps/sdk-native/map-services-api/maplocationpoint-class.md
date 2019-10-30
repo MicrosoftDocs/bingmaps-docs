@@ -1,6 +1,6 @@
 ---
 title: "MapLocationPoint Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocationPoint Class

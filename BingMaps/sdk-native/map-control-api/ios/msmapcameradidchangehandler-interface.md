@@ -1,6 +1,6 @@
 ---
 title: "MSMapCameraDidChangeHandler Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MSMapCameraDidChangeHandler Interface (iOS only)

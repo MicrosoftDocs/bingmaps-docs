@@ -1,6 +1,6 @@
 ---
 title: "MapLocationOptions Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapLocationOptions Class

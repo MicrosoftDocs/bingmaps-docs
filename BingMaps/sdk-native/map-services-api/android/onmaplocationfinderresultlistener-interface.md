@@ -1,6 +1,6 @@
 ---
 title: "OnMapLocationFinderResultListener Interface | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # OnMapLocationFinderResultListener Interface (Android only)

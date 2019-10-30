@@ -1,6 +1,6 @@
 ---
 title: "MapStyleSheets Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapStyleSheets Class

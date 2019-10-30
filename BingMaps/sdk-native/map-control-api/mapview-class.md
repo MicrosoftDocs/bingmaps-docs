@@ -1,6 +1,6 @@
 ---
 title: "MapView Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapView Class

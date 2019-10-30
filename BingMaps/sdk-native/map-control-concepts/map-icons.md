@@ -1,6 +1,6 @@
 ---
 title: "Map Icons | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # Icons

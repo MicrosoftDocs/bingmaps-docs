@@ -1,6 +1,6 @@
 ---
 title: "MapElementCollisionBehavior Enumeration | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapElementCollisionBehavior Enumeration

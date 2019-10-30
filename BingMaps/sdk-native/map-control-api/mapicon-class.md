@@ -1,6 +1,6 @@
 ---
 title: "MapIcon Class | Microsoft Docs"
-author: "bmnxplat"
+author: "pablocan"
 ---
 
 # MapIcon Class
