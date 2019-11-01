@@ -96,17 +96,17 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |Route-DistanceMatrix|REST Services|Yes|Any time a synchronous [Distance Matrix](../../rest-services/routes/calculate-a-distance-matrix.md) request is made, one (1) transaction is counted for every four (4) cells calculated in the matrix.|  
 |Route-DistanceMatrixAsync|REST Services|Yes|Any time an asynchronous [Distance Matrix](../../rest-services/routes/calculate-a-distance-matrix.md) request is made, one (1) transaction is counted for every four (4) cells calculated in the matrix.|  
 |Route-DistanceMatrixAsyncCallback|REST Services|No|Any time the status of an asynchronous [Distance Matrix](../../rest-services/routes/calculate-a-distance-matrix.md) request is checked.|  
-|Route-Isochrone|REST Services|Yes|Any time a synchronous [Isochrone](../../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
-|Route-IsochroneAsync|REST Services|Yes|Any time an asynchronous [Isochrone](../../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
+|Route-Isochrone|REST Services|Yes<sup>3|Any time a synchronous [Isochrone](../../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
+|Route-IsochroneAsync|REST Services|Yes<sup>3|Any time an asynchronous [Isochrone](../../rest-services/routes/calculate-an-isochrone.md) request is made, one (1) transaction is counted.|  
 |Route-IsochroneAsyncCallback|REST Services|No|Any time the status of an asynchronous [Isochrone](../../rest-services/routes/calculate-an-isochrone.md) request is checked.|
 |Routes-OptimizeItinerary|REST Services|Yes|Any time a synchronous [Multi-Itinerary Optimization](../../rest-services/routes/optimized-itinerary.md) request is made, the number of transactions counted is based on the number of itineraryAgents multiplied by the number of itineraryItems in the request.|  
 |Routes-OptimizeItineraryAsync|REST Services|Yes|Any time an asynchronous [Multi-Itinerary Optimization](../../rest-services/routes/optimized-itinerary.md) request is made, the number of transactions counted is based on the number of itineraryAgents multiplied by the number of itineraryItems in the request.|
 |Routes-OptimizeItineraryAsyncCallback|REST Services|No|Any time the status of an asynchronous [Multi-Itinerary Optimization](../../rest-services/routes/optimized-itinerary.md) request is checked.|  
-|Route-SnapToRoad|REST Services|Yes|Any time a synchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
-|Route-SnapToRoadAsync|REST Services|Yes|Any time an asynchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoad|REST Services|Yes<sup>3|Any time a synchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
+|Route-SnapToRoadAsync|REST Services|Yes<sup>3|Any time an asynchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
 |Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is checked.|  
-|Route-Truck|REST Services|Yes|Any time a synchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
-|Route-TruckAsync|REST Services|Yes|Any time an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
+|Route-Truck|REST Services|Yes<sup>3|Any time a synchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
+|Route-TruckAsync|REST Services|Yes<sup>3|Any time an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
 |Route-TruckAsyncCallback|REST Services|No|Any time the status of an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is checked.| 
   
  <sup>3</sup>This transaction is not billable if the service request is made using a [session ID](#using-session-ids-to-make-billable-transactions-non-billable) from a Web or WPF Control session or from the AutoSuggest Module of the Web Control.  
