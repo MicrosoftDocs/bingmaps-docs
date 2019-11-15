@@ -57,6 +57,12 @@ Removes all MapLayers from the collection
 
 Returns true if the collection contains the specified layer.
 
+**Android**
+
+>```java
+> boolean contains(MapLayer layer)
+>```
+
 **iOS**
 
 >```objectivec
