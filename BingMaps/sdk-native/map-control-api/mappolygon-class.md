@@ -41,6 +41,24 @@ The paths making up rings of this polygon. The use of paths and shapes are mutua
 > @property (nonatomic) NSArray<MSGeopath *> *paths
 >```
 
+### Shapes
+
+The shapes making up the rings of this polygon. The use of paths and shapes are mutually exclusive.
+
+**Android**
+
+>```java
+> List<? extends Geoshape> getShapes()
+> void setShapes(List<? extends Geoshape> shapes)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) NSArray<MSGeoshape *> *shapes
+>```
+
+_See also:_ [Geoshape](Geoshape-class.md)
 
 ### FillColor
 

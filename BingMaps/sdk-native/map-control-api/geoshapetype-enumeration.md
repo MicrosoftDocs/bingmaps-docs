@@ -13,6 +13,7 @@ Indicates the shape of the geographic region.
 > public enum GeoshapeType
 > {
 >      GEOPOINT,
+>      GEOCIRCLE,
 >      GEOPATH,
 >      GEOBOUNDINGBOX
 > }
@@ -24,6 +25,7 @@ Indicates the shape of the geographic region.
 > typedef NS_ENUM(NSInteger, MSGeoshapeType)
 > {
 >      MSGeoshapeTypeGeopoint,
+>      MSGeoshapeTypeGeocircle,
 >      MSGeoshapeTypeGeopath,
 >      MSGeoshapeTypeGeoboundingBox
 > }
@@ -34,6 +36,10 @@ Indicates the shape of the geographic region.
 ### Geopoint
 
 The geographic region is a point.
+
+### Geocircle
+
+The geographic region is a circle with a center point and a radius.
 
 ### Geopath
 

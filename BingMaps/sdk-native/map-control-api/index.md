@@ -11,6 +11,7 @@ Name                                                                   | Details
 ----------------------------------------------------------------       | ------------------------------------------------------
 [CustomTileMapLayer](CustomTileMapLayer-class.md)                      | Allows a developer to generate custom tiles on the client to overlay on the map.
 [GeoboundingBox](GeoboundingBox-class.md)                              | Describes a geographical rectangle.
+[Geocircle](Geocircle-class.md)                                        | Describes a geographical circle with a center point and radius.
 [Geopath](Geopath-class.md)                                            | Describes an ordered series of geographic points, usable for defining a polyline or polygon.
 [Geopoint](Geopoint-class.md)                                          | Describes a geographic point.
 [Geoposition](Geoposition-class.md)                                    | Describes a geographic position's basic information: latitude, longitude, and altitude.
