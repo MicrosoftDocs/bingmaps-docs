@@ -72,9 +72,27 @@ Secondary text to be displayed on flyout's default view. *Can be null.*
 > @property (nonatomic, nullable) NSString *description
 >```
 
+### NormalizedAnchorPoint
+
+Point on the flyout that will be used as its anchor.  
+Possible values range between `(0, 0)` and `(1, 1)`. The default is `(0.5, 1.0)` (bottom center).
+
+**Android**
+
+>```java
+> android.graphics.PointF getNormalizedAnchorPoint()
+> void setNormalizedAnchorPoint(android.graphics.PointF point)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) CGPoint normalizedAnchorPoint
+>```
+
 ### NormalizedRelativePosition
 
-Position on the associated MapIcon that the flyout will be anchored to.  
+Point on the associated MapIcon that the flyout will be anchored to.  
 Possible values range between `(0, 0)` and `(1, 1)`. The default is `(0.5, 0.0)` (top center).
 
 **Android**

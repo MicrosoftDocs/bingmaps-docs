@@ -322,6 +322,23 @@ _See also:_ [MapUserInterfaceOptions](MapUserInterfaceOptions-class.md)
 > @property (nonatomic, readonly) MSMapUserInterfaceOptions *userInterfaceOptions
 >```
 
+### ViewPadding
+
+Sets the padding inside a map control.
+
+**Android**
+
+>```java
+> void setViewPadding(double left, double top, double right, double bottom)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic) UIEdgeInsets viewPadding
+>```
+
+_See also:_ [UIEdgeInsets](https://developer.apple.com/documentation/uikit/uiedgeinsets)
 ### ZoomLevel
 
 Gets the zoom level of the current view.
@@ -425,7 +442,6 @@ The background color of the map that is rendered if there is nothing else to ren
 >```objectivec
 > - (void)setMapBackgroundColor:(UIColor *)color
 >```
-
 
 ### cancelAnimation
 
@@ -935,6 +951,22 @@ Note that this method is also repeatable, such that if called multiple times in 
 > - (void)zoomOut
 >```
 
+### zoomTo
+
+Performs a zoom operation to the specified zoom level.
+
+**Android**
+
+>```java
+> void zoomTo(double zoomLevel)
+>```
+
+**iOS**
+
+>```objectivec
+> - (void)zoomToLevel:(double)zoomLevel
+>```
+
 ### beginZoomIn
 
 Performs a zoom in operation, equivalent to double tapping on the map, and invokes the provided callback when the zoom is complete.
@@ -971,6 +1003,26 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 >```objectivec
 > - (void)beginZoomOutWithCompletionCallback:(MSMapDidChangeSceneCallback)callback
+>```
+
+_See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
+
+### BeginZoomTo
+
+Performs a zoom operation to the specified zoom level and invokes the provided callback when the zoom is complete.
+
+**Android**
+
+>```java
+> void beginZoomTo(double zoomLevel, OnMapSceneCompletedListener listener)
+>```
+
+_See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
+
+**iOS**
+
+>```objectivec
+> - (void)beginZoomToLevel:(double)level, withCompletionCallback:(MSMapDidChangeSceneCallback)callback
 >```
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)

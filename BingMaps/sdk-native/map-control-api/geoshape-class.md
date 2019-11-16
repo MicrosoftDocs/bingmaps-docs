@@ -60,5 +60,6 @@ _See also:_ [GeoshapeType](GeoshapeType-enumeration.md)
 ## See Also
 
 * [GeoboundingBox](Geoboundingbox-class.md)
+* [Geocircle](Geocircle-class.md)
 * [Geopath](Geopath-class.md)
 * [Geopoint](Geopoint-class.md)

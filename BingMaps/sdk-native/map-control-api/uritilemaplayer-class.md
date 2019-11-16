@@ -2,7 +2,7 @@
 title: "MapUriTileMapLayer Class | Microsoft Docs"
 author: "pablocan"
 ---
- 
+
 # MapUriTileMapLayer Class
 
 Display tiles based on developer-supplied URLs.
