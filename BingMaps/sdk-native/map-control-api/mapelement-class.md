@@ -21,6 +21,48 @@ Represents an element displayed on a MapControl.
 
 ## Properties
 
+### MapStyleSheetEntry
+
+Gets or sets the name of an entry in the map's style sheet that you'd like to apply to this MapElement. Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheetentries) class.
+
+**Android**
+
+>```java
+> String getMapStyleSheetEntry()
+> void setMapStyleSheetEntry(@Nullable String mapStyleSheetEntry)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, nullable) NSString *mapStyleSheetEntry;
+>```
+
+_See also:_ 
+* [MapStyleSheet](MapStyleSheet-class.md)
+* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)
+
+### MapStyleSheetEntryState
+
+Gets or sets the name of the state of this MapElement. If the style sheet defines a style for that state, that style is applied to this element. Values defined in the style sheet for the state override values defined in the MapStyleSheetEntry.
+
+**Android**
+
+>```java
+> String getMapStyleSheetEntryState()
+> void setMapStyleSheetEntryState(@Nullable String mapStyleSheetEntryState)
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, nullable) id mapStyleSheetEntryState;
+>```
+
+_See also:_ 
+* [MapStyleSheet](MapStyleSheet-class.md)
+* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)
+
 ### Tag
 
 Gets or sets an arbitrary object value that can be used to store custom information about this object.
