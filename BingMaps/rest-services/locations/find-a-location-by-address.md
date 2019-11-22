@@ -28,17 +28,13 @@ When you make a request by using one of the following URL templates, the respons
     
 ### Get the latitude and longitude coordinates based on a set of address values for any country
 
-__Unstructured URL__  
-
-An unstructured URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
+A URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
 
 You can get information for a location in any country by setting one or more of the parameters in the following URL.  
   
 ```url
 http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&adminDistrict={adminDistrict}&locality={locality}&postalCode={postalCode}&addressLine={addressLine}&userLocation={userLocation}&userIp={userIp}&usermapView={usermapView}&includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
-
- __Structured URLs__
 
 Get the latitude and longitude coordinates based on a set of address values for specific countries**  
   
