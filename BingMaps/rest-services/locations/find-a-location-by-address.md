@@ -84,11 +84,11 @@ http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{add
 > [!IMPORTANT]
 >  **About Special Characters**  
 >   
->  When you specify location information using one of the structured URLs, do not use values that contain special characters such as a period (`.`), a comma (`,`), a colon (`:`), or a plus sign (`+`). A hyphen is acceptable as a placeholder but should not be used as part of a parameter value in a structured URL. If the location information contains any special characters use the unstructured URL template or the [Find a Location by Query](find-a-location-by-query.md) API.  
+>  When you specify location information using one of the structured URLs, do not use values that contain special characters such as a period (`.`), a comma (`,`), a colon (`:`), or a plus sign (`+`). A hyphen is acceptable as a placeholder but should not be used as part of a parameter value in a structured URL. If the location information contains any special characters use the following structured URL template or the [Find a Location by Query](find-a-location-by-query.md) API.  
 >   
 >  For example, if you want to get latitude and longitude values for the address "100 Main St. Somewhere, WA 98001" that contains a period (.), use one of the following query formats.
 >   
->  __Unstructured query__: `http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key={BingMapsApIKey}`  
+>`http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key={BingMapsAPIKey}`  
 >   
 >  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key={BingMapsAPIKey}`  
 
