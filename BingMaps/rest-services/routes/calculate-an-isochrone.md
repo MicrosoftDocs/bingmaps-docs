@@ -44,7 +44,7 @@ See [Asynchronous Requests documentation](../common-parameters-and-types/asynchr
 
 ## Supported HTTP Methods
 
-GET
+GET, POST
 
 ## URL Template
 
@@ -73,6 +73,7 @@ The initial asynchronous response includes a `callbackUrl` property which contai
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback?requestId={requestId}&key={BingMapsKey}
 ```
+
 
 **Synchronous POST Requests**
 
