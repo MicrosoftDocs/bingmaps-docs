@@ -58,7 +58,7 @@ When making a GET request the URL should look something like this:
 https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
-**Asynchronous GET Request**
+**Asynchronous GET Requests**
 
 Creates a job to calculate an isochrone using an asynchronous GET request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
 
@@ -73,6 +73,22 @@ The initial asynchronous response includes a `callbackUrl` property which contai
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback?requestId={requestId}&key={BingMapsKey}
 ```
+
+**Synchronous POST Requests**
+
+When making a POST request the URL should look something like this:
+
+```url
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?key={BingMapsKey}
+```
+**Asynchronous POST Requests**
+
+Creates a job to calculate an isochrone using an asynchronous POST request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
+
+```url
+https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?key={BingMapsKey}
+````
+
 
 ## Template Parameters
 
@@ -198,7 +214,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b
 
 The following image shows the resulting isochrone.
 
-![BM_Isochrone30Minute](../media/bm-isochrone30minute.PNG)
+![BM_NewIsochrone30Minute](../media/newisochrone.png)
 
 To view the complete XML and JSON responses, see [Isochrone Asynchronous Example](../examples/isochrone-asynchronous-example.md).
 
