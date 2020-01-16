@@ -17,6 +17,11 @@ ms.service: "bing-maps"
 
 Bing Maps APIs provide transit information for the following transit agencies in South America.  
 
+## Argentina
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Buenos Aires|[Subte de Buenos Aires](http://www.buenosaires.gob.ar/subte)
+
 ## Brazil
 |Locality|Transit Agency|
 |:--------------------|--------------|
@@ -42,8 +47,10 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Chapecó|[Transporte Turismo Tiquin](https://www.tiquin.com.br) 
 |Curitiba|[URBS](https://www.urbs.curitiba.pr.gov.br) 
 |Florianopolis|[Consórcio Fênix](https://www.consorciofenix.com.br) 
+|Fortaleza|[COMPANHIA CEARENSE DE TRANSPORTES METROPOLITANOS](http://www.metrofor.ce.gov.br) 
 |Fraiburgo|[Santa Teresinha - Fraiburgo](https://www.santateresinha.com/site/) 
 |Gaspar|[Coletivo Caturani](https://www.coletivocaturani.com.br/) 
+|Indaiatuba|[Sou Indaiatuba](http://www.souindaiatuba.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Fretamento](https://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Guaramirim](https://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Intermunicipal Corupá](https://www.canarinho.com.br) 
@@ -52,6 +59,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Jaragua do Sul|[Viação Canarinho Ltda - Jaraguá](https://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Rodoviário](https://www.canarinho.com.br) 
 |Londrina|[LondriSul](https://www.londrisul.com.br) 
+|Londrina|[TIL Transportes Coletivos S/A](http://www.tiltransportes.com.br) 
 |Londrina|[Transportes Coletivos Grande Londrina](#) 
 |Marilia|[Grande Marília](https://www.amtumarilia.com.br) 
 |Marilia|[Sorriso de Marília](https://www.amtumarilia.com.br) 
@@ -72,7 +80,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Sao Paulo|[Empresa Metropolitana de Transportes Urbanos de São Paulo S.A.](https://www.emtu.sp.gov.br/EMTU/home.htm) 
 |Sao Paulo|[SPTRANS](https://www.sptrans.com.br/?versao=221018) 
 |Telemaco Borba|[VINSA](https://www.vinsa.com.br) 
-|Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br/capa/teutonia/itinerario_teutonia.html) 
+|Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br/capa/teutonia/itinerario_teutonia.html)
+|Tramandai|[Expresso São José - ANTT](http://https://www.saojosebus.com.br) 
+|Tramandai|[Expresso São José - Metroplan / Daer](http://www.saojosebus.com.br) 
+|Tramandai|[Expresso São José - Rotas Escolares](http://www.saojosebus.com.br) 
+|Tramandai|[Expresso São José - Urbano](http://www.saojosebus.com.br)  
 |Uberaba|[Prefeitura de Uberaba](http://www.uberaba.mg.gov.br/portal/conteudo,8403) 
 |Valinhos|[Sou Valinhos](https://www.souvalinhos.com.br) 
 |Videira|[Santa Teresinha - Videira](https://www.santateresinha.com/site/) 
@@ -83,4 +95,15 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Santiago|[Metro de Santiago](https://www.metro.cl) 
 |Santiago|[MetroTren Nos](https://www.trencentral.cl/bin/link.cgi/servicios/metrotren-nos/) 
 |Santiago|[Transantiago](https://www.transantiago.cl) 
+
+## Colombia
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Bogota|[Transmilenio-Alimentadores](http://www.sitp.gov.co) 
+|Bogota|[Transmilenio-Complementaria](http://www.sitp.gov.co) 
+|Bogota|[Transmilenio-Dual](http://www.sitp.gov.co) 
+|Bogota|[Transmilenio-Especial](http://www.sitp.gov.co) 
+|Bogota|[Transmilenio-Troncal](http://www.sitp.gov.co) 
+|Bogota|[Transmilenio-Urbana](http://www.sitp.gov.co) 
+
 
