@@ -165,7 +165,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Arizona|Phoenix|[Valley Metro](https://www.valleymetro.org)| 
 |Arizona|Sierra Vista|[City of Sierra Vista](https://www.sierravistaaz.gov/city-departments/transit/)| 
 |Arizona|Tucson|[SunTran](https://www.SunTran.com)| 
-|Arizona|Tucson|[University of AZ - Cat Tran - Free Shuttle Service](https://parking.arizona.edu/campus-services/cattran/| 
+|Arizona|Tucson|[University of AZ - Cat Tran - Free Shuttle Service](https://parking.arizona.edu/campus-services/cattran/)| 
 |Arizona|Yuma|[Yuma County Intergovernmental Public Transportation Authority](https://www.ycipta.org)| 
 |Arkansas|Jonesboro|[Jet](https://jonesboro.org/281/JET)| 
 |Arkansas|Little Rock|[Rock Region METRO](https://rrmetro.org/)| 
@@ -239,7 +239,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Los Angeles|[LA Go Bus](http://https://dpw.lacounty.gov/transit/)| 
 |California|Los Angeles|[LADOT](https://www.ladottransit.com)| 
 |California|Los Angeles|[Lawndale Beat](http://www.lawndalecity.org/html/DEPTHTML/CSD/Beat.htm)| 
-|California|Los Angeles|[LAX](https://www.flylax.com/en/flyaway-bus| 
+|California|Los Angeles|[LAX](https://www.flylax.com/en/flyaway-bus)| 
 |California|Los Angeles|[Long Beach Transit](https://ridelbt.com/)| 
 |California|Los Angeles|[Metro - Los Angeles](https://www.metro.net)| 
 |California|Los Angeles|[Metrolink Trains](https://www.metrolinktrains.com)| 
@@ -498,7 +498,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Massachusetts|Regional|[Peter Pan Bus Lines](https://peterpanbus.com/)| 
 |Massachusetts|Regional|[Yankee Line](http://yankeeline.us/)| 
 |Massachusetts|Southeastern|[Southeastern Regional Transit Authority](http://www.srtabus.com/)| 
-|Massachusetts|Springfield|[PVTA](http://www.pvta.com/| 
+|Massachusetts|Springfield|[PVTA](http://www.pvta.com/)| 
 |Massachusetts|Worcester|[WRTA](https://www.therta.com/)| 
 |Michigan|Ann Arbor|[Ann Arbor Area Transportation Authority](https://www.TheRide.org)| 
 |Michigan|Ann Arbor|[University of Michigan Transportation Services](https://ltp.umich.edu)| 
@@ -603,7 +603,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New York|Rochester|[Rochester-Genesee Regional Transportation Authority](https://www.rgrta.com)| 
 |New York|Suffolk County|[Suffolk County Transit](http://www.sct-bus.org)|
 |North Carolina|Asheville|[Asheville Redefines Transit](https://www.ashevillenc.gov/Departments/Transit.aspx)| 
-|North Carolina|Chapel Hill|[Chapel Hill Transit](https://www.townofchapelhill.org/town-hall/departments-services/transit| 
+|North Carolina|Chapel Hill|[Chapel Hill Transit](https://www.townofchapelhill.org/town-hall/departments-services/transit)| 
 |North Carolina|Charlotte|[CATS](https://www.ridetransit.org)| 
 |North Carolina|Concord|[Concord Kannapolis Area Transit](http://www.ckrider.com/)| 
 |North Carolina|Durham|[Duke Transit](https://parking.duke.edu/)| 
@@ -623,10 +623,10 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ohio|Akron|[METRO](https://www.akronmetro.org)| 
 |Ohio|Athens|[Athens Public Transit](https://www.athenstransit.org/)| 
 |Ohio|Butler|[Butler County Regional Transit Authority](http://www.butlercountyrta.com/)| 
-|Ohio|Cincinnati|[Southwest Ohio Regional Transit Authority](http://www.go-metro.com/| 
+|Ohio|Cincinnati|[Southwest Ohio Regional Transit Authority](http://www.go-metro.com/)| 
 |Ohio|Cleveland|[Greater Cleveland Regional Transit Authority](https://www.riderta.com)| 
 |Ohio|Columbus|[Central Ohio Transit Authority](https://www.cota.com)| 
-|Ohio|Dayton|[Greater Dayton RTA](http://www.i-riderta.org/| 
+|Ohio|Dayton|[Greater Dayton RTA](http://www.i-riderta.org/)| 
 |Ohio|Delaware|[Delaware Area Transit Agency](http://www.ridedata.com/_index.php)| 
 |Ohio|Lake County|[Laketran](https://www.laketran.com/)|
 |Ohio|Lima|[Allen County Regional Transit Authority](http://www.acrta.com)|  
@@ -664,7 +664,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Oregon|Medford|[RVTD](https://www.rvtd.org)| 
 |Oregon|Milton-Freewater|[City of Milton-Freewater](https://www.mfcity.com/public_transportation)| 
 |Oregon|Molalla|[South Clackamas Transportation District](https://sctd.org/)| 
-|Oregon|Newport|[Lincoln County Transit](https://www.co.lincoln.or.us/transit| 
+|Oregon|Newport|[Lincoln County Transit](https://www.co.lincoln.or.us/transit)| 
 |Oregon|Oakridge|[Diamond Express](https://www.ltd.org/diamondex/)| 
 |Oregon|Oregon City|[CCC Xpress](https://www.clackamas.edu/campus-life/transportation)| 
 |Oregon|Pendelton|[Kayak Public Transit](http://ctuir.org/tribal-services/planning/kayak-public-transit)| 
@@ -707,7 +707,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Pennsylvania|Regional|[CATA](https://www.catabus.com)| 
 |Pennsylvania|Regional|[Clydesdale Lines LLC.](http://https://clydesdalebus.com/)| 
 |Pennsylvania|Regional|[Martz Trailways](https://webstore.martztrailways.com)| 
-|Pennsylvania|Regional|[rabbittransit](http://www.rabbittransit.org/| 
+|Pennsylvania|Regional|[rabbittransit](http://www.rabbittransit.org/)| 
 |Rhode Island|Providence|[Rhode Island Public Transit Authority](https://www.ripta.com/)| 
 |Rhode Island|Regional|[Block Island Ferry](https://www.blockislandferry.com)| 
 |Rhode Island|Regional|[Vineyard Fast Ferry](https://www.vineyardfastferry.com/)| 
