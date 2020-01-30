@@ -28,7 +28,7 @@ Certain data available in the [Bing Maps v8 web control](../v8-web-control/index
 
 ## What are the requirements for use of ODbL data?
 
- **Attribute:** If you use data under an ODbL license, you must provide attribution to the source of the data. If you are using the [Bing Maps v8 web control](../v8-web-control/index.md) API, such credits are already listed in the Bing Suppliers Page (<https://bingexplore.azurewebsites.net/bing-data-suppliers/en/)> that is linked from the Bing Maps TOU that you must link to under the terms of the Bing Maps API agreement. However, Microsoft cannot give you specific guidelines about attribution, as the final method of attribution will vary based on your use case.
+ **Attribute:** If you use data under an ODbL license, you must provide attribution to the source of the data. If you are using the [Bing Maps v8 web control](../v8-web-control/index.md) API, such credits are already listed in the Bing Suppliers Page (<https://bingexplore.azurewebsites.net/bing-data-suppliers/en/>) that is linked from the Bing Maps TOU that you must link to under the terms of the Bing Maps API agreement. However, Microsoft cannot give you specific guidelines about attribution, as the final method of attribution will vary based on your use case.
 
 - **Share-Alike:** If you adapt any database that is subject to the ODbL, either by adding your own or third-party content, or by removing or modifying inaccurate content, the resulting adapted version of the database must also be released under the ODbL.
 
