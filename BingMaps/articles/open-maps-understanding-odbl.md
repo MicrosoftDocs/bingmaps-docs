@@ -22,9 +22,9 @@ Certain data available in the [Bing Maps v8 web control](../v8-web-control/index
 
  The Open Database License (ODbL) is an open source data license that enables users to utilize the data in their products, services and applications, subject to certain license requirements. The ODbL was developed by Open Data Commons and is used by several open source mapping initiatives, such as OpenStreetMap and Paris Open Data. Microsoft is including map data from databases under ODbL licenses in its APIs in order to provide a robust mapping solution to users.
 
- >[!TIP]
- **This page is for informational purposes only**. It does not constitute legal advice or interpretation.  For information about using data subject to ODbL, seek the guidance of an attorney. Microsoft is not liable or responsible for your use of any data subject to ODbL.
- >
+ >[!WARNING]
+ > **This page is for informational purposes only**. It does not constitute legal advice or interpretation.  For information about using data subject to ODbL, seek the guidance of an attorney. Microsoft is not liable or responsible for your use of any data subject to ODbL.
+ 
 
 ## What are the requirements for use of ODbL data?
 
