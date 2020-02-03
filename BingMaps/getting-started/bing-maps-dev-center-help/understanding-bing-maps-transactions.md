@@ -45,7 +45,7 @@ When you use any [Bing Maps API](../../rest-services/index.md) with a Bing Maps 
 
 ## Billable versus non-billable transactions  
 
-Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for more about licensing and transaction limits, [contact the licensing team](https://www.microsoft.com/maps/) or read the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).  
+Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for info about licensing and transaction limits, [please see the Bing Maps licensing page](https://www.microsoft.com/en-us/maps/licensing) and review the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html). 
   
 ### Using Session IDs to make billable transactions non-billable
 
