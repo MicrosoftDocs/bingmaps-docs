@@ -21,7 +21,7 @@ Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outli
 In order to access the Bing Maps tiles in a supported way you will first need to get the current tile URLs from the Bing Maps Imagery REST service every time your application starts. The main purpose of this is to ensure your application is using the latest tile URLs, which helps to prevent your application from breaking, and also provides a way to track the usage of the service in such a way that aligns with the Bing Maps terms of use. The [Bing Maps REST Imagery Medata service](imagery/get-imagery-metadata.md) can be used to get the current tile URLs. If you need to use this service from .NET, see the [Using the REST Services with .NET](using-the-rest-services-with-net.md) document. Making a request to the imagery service like this:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Metadata/Road?output=json&include=ImageryProviders&key=BingMapsKey
+http://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&include=ImageryProviders&key=BingMapsKey
 ```
 
 This will return a response that contains an Image URL property. This URL will look something like this:
