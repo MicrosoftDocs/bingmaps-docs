@@ -15,9 +15,7 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Transit Coverage
 
-Find Bing Maps API transit coverage in the topics below.  
-  
- Last update: November 19, 2018
+Find Bing Maps API transit coverage in the topics below.
   
 -   [Africa](africa.md)  
   
