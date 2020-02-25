@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 # NAVTEQEU
 
 > [!CAUTION]
-> The NAVTEQEU data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQEU will return an error message. A replacement datasource is in the works and this documentation will be updated with further details once the replacement datasource is available for use.
+> The NAVTEQEU data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQEU will return an error message. A replacement data source is in the works and this documentation will be updated with further details once the replacement data source is available for use.
 
 The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.
   
