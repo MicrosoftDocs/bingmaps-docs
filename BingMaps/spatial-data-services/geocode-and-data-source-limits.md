@@ -33,7 +33,7 @@ When you geocode entities or perform data source actions such as creating or upd
   
 -   The maximum number of entities a data source can have is 2,500 entities.  
 
--   Polygon shapefiles and KML files can have a maximum of 50 polygons in the file and each polygon can have a maximum of 250 points. 
+-   Polygon shapefiles and KML files can have a maximum of 50 polygons and each polygon can have a maximum of 250 points. 
   
 -   Data that is batch geocoded must use UTF-8 encoding, and can have a maximum of 50 entities. Compressed data files are accepted.  
   
@@ -51,7 +51,7 @@ When you geocode entities or perform data source actions such as creating or upd
   
 -   Data that is geocoded or uploaded to a data source must use UTF-8 encoding, and can have up to 300 MB of uncompressed data and a maximum of 200,000 entities. Compressed data files are accepted, but the uncompressed limit applies.  
 
--   Polygon shapefiles and KML files can have a maximum of 200,000 polygons in the file and each polygon can have a maximum of 100,000 points.
+-   Polygon shapefiles and KML files can have a maximum of 200,000 polygons and each polygon can have a maximum of 100,000 points.
   
 -   You can download geocode results for up to 14 calendar days after a geocode job completes.  
   
