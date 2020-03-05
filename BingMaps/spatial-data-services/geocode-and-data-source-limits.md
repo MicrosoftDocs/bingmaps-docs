@@ -16,8 +16,8 @@ ms.service: "bing-maps"
 # Geocode and Data Source Limits
 
 This topic describes account limits for a Bing Maps Account when you use the Bing Spatial Data Services or the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to geocode entities and manage data sources.  
-
-When you geocode entities or perform data source actions such as creating or updating a data source using either the Bing Spatial Data Services or the Bing Maps Dev Center, a job is created to perform the action. See [Get Job List](../spatial-data-services/get-job-list.md) for a list of jobs that count towards the following limits.
+  
+ When you geocode entities or perform data source actions such as creating or updating a data source using either the Bing Spatial Data Services or the Bing Maps Dev Center, a job is created to perform the action. See [Get Job List](../spatial-data-services/get-job-list.md) for a list of jobs that count towards the following limits.
 
 **Note:** The Bing Maps Spatial Data Services (i.e.: [Geocode Dataflow API](../spatial-data-services/geocode-dataflow-api) and [Data Source Management API](../spatial-data-services/data-source-management-api)) do not have a service level agreement (SLA) specifically for job processing completion time. However, smaller jobs will typically process faster than larger jobs. The processing completion time for each job can take up to 12 hours, generally much faster than that.
 
