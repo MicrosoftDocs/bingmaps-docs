@@ -20,6 +20,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Australia
 |Admin District|Locality|Transit Agency|
 |:--------------------|--------------|--------------------| 
+|Australian Capital Territory|Canberra|[Canberra Metro Operations](http://https://www.transport.act.gov.au/)|
 |Australian Capital Territory|Canberra|[Transport Canberra](https://www.transport.act.gov.au)| 
 |New South Wales|Brisbane|[Byron Easybus](https://www.byronbayshuttle.com.au/?utm_source=AddTransit&utm_medium=GTFS)| 
 |New South Wales|Sydney|[Allen's Coaches](https://transportnsw.info)| 
@@ -146,6 +147,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Queensland|Mackay|[QConnect - Mackay Transit Coaches](https://www.mackaytransit.com.au/)| 
 |Queensland|Magnetic Island|[QConnect - Magnetic Island Bus Service](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#magnetic)| 
 |Queensland|Maleny|[QConnect - Glass House Country Coaches](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx)| 
+|Queensland|North Stradbroke Island|[North Stradbroke Island Buses](http://www.stradbrokeislandbuses.com.au)| 
 |Queensland|Regional|[QConnect - Wide Bay Transit](https://www.widebaytransit.com.au/)| 
 |Queensland|Rockhampton|[QConnect - Sunbus](https://www.sunbus.com.au)| 
 |Queensland|Toowoomba|[QConnect - Bus QLD](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#toowoomba)| 
