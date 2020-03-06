@@ -44,7 +44,7 @@ See [Asynchronous Requests documentation](../common-parameters-and-types/asynchr
 
 ## Supported HTTP Methods
 
-GET
+GET, POST
 
 ## URL Template
 
@@ -58,7 +58,7 @@ When making a GET request the URL should look something like this:
 https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
-**Asynchronous GET Request**
+**Asynchronous GET Requests**
 
 Creates a job to calculate an isochrone using an asynchronous GET request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
 
@@ -73,6 +73,23 @@ The initial asynchronous response includes a `callbackUrl` property which contai
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback?requestId={requestId}&key={BingMapsKey}
 ```
+
+
+**Synchronous POST Requests**
+
+When making a POST request the URL should look something like this:
+
+```url
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?key={BingMapsKey}
+```
+**Asynchronous POST Requests**
+
+Creates a job to calculate an isochrone using an asynchronous POST request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
+
+```url
+https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?key={BingMapsKey}
+````
+
 
 ## Template Parameters
 
@@ -90,7 +107,35 @@ The following is a list of parameters that are supported by the Isochrone API.
 | `distanceUnit` | `du`  | **Optional**. The units in which the maxDistance value is specified. One of the following values:<br/><br/> • **mile** or **mi**<br/> • **kilometer** or **km** \[default\]<br/><br/>**Example**: distanceUnit=mi |
 | `dateTime`  | `dt`  | **Optional** **for time based Driving and Transit**. When a maxTime value is specified, predictive traffic data is used to calculate the best isochrone route for the specified date time. This is not supported for distanced based queries.<br/><br/>A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for DateTime values, see [DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx). <br/><br/>**Examples**:<br/><br/>dateTime=03/01/2011 05:42:00<br/><br/>dateTime=05:42:00 \[assumes the current day\]<br/><br/>dateTime=03/01/2011 \[assumes the current time\] |
 | `optimize` | `optmz` | **Optional.** Specifies what parameters to use to optimize the isochrone route. One of the following values:<br/><br/> • **distance**: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br/> • **time** [default]: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br/> • **timeWithTraffic**: The route is calculated to minimize the time and uses current or predictive traffic information depending on if a dateTime value is specified. Use with maxTime.<br/><br/>**Example:** optimize=distance |
-| `travelMode`   | `mode`   | **Optional.** Indicates the which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking**<br/> • **transit**<br/><br/>**Example:** travelMode=walking  |
+| `travelMode`   | `mode`   | **Optional.** Indicates the which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking**<br/> • **transit**<br/>• **truck** <br/><br/><br/>**Example:** travelMode=walking <br/><br /> **Note**: <br/><br/> For travelMode=truck, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. For more details about vehicle attributes, please check the Calculate a Truck Route API doc: https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-truck-route. <br /><br /> |
+
+*Template POST body with vehicle attributes*
+```json
+{
+    "waypoint":string,
+    "distanceUnit": string,
+    "travelMode": string,
+    "optimize": string,
+    "maxDistance" : number,
+    "vehicleSpec": {
+        "dimensionUnit": string,
+        "weightUnit": string,
+        "vehicleHeight": number,
+        "vehicleWidth": number,
+        "vehicleLength": number,
+        "vehicleWeight": number,
+        "vehicleAxles": number,
+        "vehicleTrailers": number,
+        "vehicleSemi": bool,
+        "vehicleMaxGradient": number,
+        "vehicleMinTurnRadius": number,
+        "vehicleAvoidCrossWind": bool,
+        "vehicleAvoidGroundingRisk": bool,
+        "vehicleHazardousMaterials": string,
+        "vehicleHazardousPermits": string
+    }
+}
+```
 
 ## Examples
 
@@ -110,6 +155,36 @@ In this case, consider a delivery company that has some electric vehicles in the
 
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&travelMode=driving&key=BingMapsKey
+```
+
+For isochrones with specific vehicle attributes, below are the example POST request URLs.  
+
+*URL Template for Synchronous POST  request*
+```url
+https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualearth.net%2FREST%2Fv1%2FRoutes%2FIsochrones%3Fkey&amp;data=02%7C01%7Cyasong%40microsoft.com%7C08d8aa10e2be4c1c8a8e08d7825ab785%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637121198441257460&amp;sdata=Dz8aDorHqG7%2FgWFaaJmvEDamsVfP3lcuNAt%2Bf6SP7ug%3D&amp;reserved=0={BingMapsKey}
+```
+
+*Asynchronous POST request*
+```url
+https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualearth.net%2FREST%2Fv1%2FRoutes%2FIsochronesAsync%3Fkey&amp;data=02%7C01%7Cyasong%40microsoft.com%7C08d8aa10e2be4c1c8a8e08d7825ab785%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637121198441257460&amp;sdata=8clzM%2Bk0HrDeBjlw2yhMMGQWFg%2FhL7fdmkYSRfge3Vc%3D&amp;reserved=0={BingMapsKey}
+```
+*Example POST Body with vehicle attributes*
+```json
+{
+    "waypoint":"31.520759,-97.133597",
+    "distanceUnit": "mile",
+    "travelMode": "Truck",
+    "optimize": "distance",
+    "maxDistance" : 30,
+    "vehicleSpec": {
+        "vehicleHeight": 10,
+        "vehicleWidth": 12,
+        "vehicleLength": 20,
+        "vehicleWeight": 5000,
+        "vehicleAxles": 2,
+        "vehicleTrailers": 1
+    }
+}
 ```
 
 To view the complete XML and JSON responses, see [Isochrone Example](../examples/isochrone-example.md).
@@ -140,7 +215,7 @@ https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b
 
 The following image shows the resulting isochrone.
 
-![BM_Isochrone30Minute](../media/bm-isochrone30minute.PNG)
+![BM_NewIsochrone30Minute](../media/newisochrone.png)
 
 To view the complete XML and JSON responses, see [Isochrone Asynchronous Example](../examples/isochrone-asynchronous-example.md).
 
