@@ -62,8 +62,8 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 
 ## Country/Region Coverage Table
   
-|Country/Region|Road Data / Routing (Driving and Walking)|Traffic|Truck Routing|Geocoding|  
-|-----------------|-----------------|-------|-------|-----------------|  
+|Country / Region|Road Data / Routing  (Driving and Walking)|Traffic|Truck  Routing|Geocoding|  
+|:---|:---:|:---:|:---:|:---:|  
 |Afghanistan|Major Roads Only|||Street Name|
 |Åland Islands|Good|   x   ||Address|
 |Albania|Good|||Street Name|
