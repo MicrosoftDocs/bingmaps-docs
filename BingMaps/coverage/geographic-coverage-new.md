@@ -20,10 +20,6 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 - Traffic
 - Truck Routing
 - Geocoding
-
-, and geocoding support for each country/region. Also see [Bing Maps Transit Coverage](transit-coverage/index.md) and [Bing Maps Traffic Coverage](traffic-coverage.md).  
-  
- A set of values are given for road data, geocoding precision and route support. The following list defines these values.  
   
 ## Road Data / Routing (Driving and Walking)  
   
@@ -67,7 +63,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 ## Country/Region Coverage Table
   
 |Country/Region|Road Data / Routing (Driving and Walking)|Traffic|Truck Routing|Geocoding|  
-|---------------------|------------------------------------------|----|----|-------------------------|  
+|-----------------|----------------------------------|----|----|-------------------------|  
 |Afghanistan|Major Roads Only|||Street Name|
 |Åland Islands|Good|x||Address|
 |Albania|Good|||Street Name|
