@@ -152,7 +152,39 @@ The following is a list of parameters that are supported by the Snap to Road API
 | `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
 | `includeTruckSpeedLimit` | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
 | `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
-| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** (coming soon)<br/><br/>**Example:** travelMode=driving |
+| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving <br/><br /> **Note**: <br/><br/> For trucks, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. <br /><br /> For more details about vehicle attributes, please check the Calculate a Truck Route API doc: https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-truck-route. <br /><br />|
+
+*Template POST body with vehicle attributes*
+```json
+{
+    "points": [{
+        "latitude": number,
+        "longitude": number
+    }],
+    "interpolate": bool,
+    "includeSpeedLimit": bool,
+    "includeTruckSpeedLimit": bool,
+    "speedUnit": string,
+    "travelMode": string,
+    "vehicleSpec": {
+        "dimensionUnit": string,
+        "weightUnit": string,
+        "vehicleHeight": number,
+        "vehicleWidth": number,
+        "vehicleLength": number,
+        "vehicleWeight": number,
+        "vehicleAxles": number,
+        "vehicleTrailers": number,
+        "vehicleSemi": bool,
+        "vehicleMaxGradient": number,
+        "vehicleMinTurnRadius": number,
+        "vehicleAvoidCrossWind": bool,
+        "vehicleAvoidGroundingRisk": bool,
+        "vehicleHazardousMaterials": string,
+        "vehicleHazardousPermits": string
+    }
+}
+```
 
 ## Examples
 
@@ -196,6 +228,32 @@ Content-Type: application/json
     "speedUnit": "MPH",
     "travelMode": "driving"
 }
+```
+
+Below is an example of HTTP POST Body with vehicle spec:
+
+```json
+{
+    "points":  [
+        { "latitude": 47.590868, "longitude": -122.336729 },
+        { "latitude": 47.601604, "longitude": -122.336042 },
+        { "latitude": 47.608490, "longitude": -122.342410 },
+        { "latitude": 47.610568, "longitude": -122.345064 }    
+    ],
+    "includeSpeedLimit": true,
+    "includeTruckSpeedLimit": true,
+    "speedUnit": "MPH",
+    "travelMode": "driving",
+    "vehicleSpec": {
+        "vehicleHeight": 10,
+        "vehicleWidth": 12,
+        "vehicleLength": 20,
+        "vehicleWeight": 5000,
+        "vehicleAxles": 2,
+        "vehicleTrailers": 1
+    }
+}
+
 ```
 
 Notice that both standard and truck speed limits are requested in this query. The reason for this is few roads have posted truck speed limits, when there is no posted truck speed limit the value returned will be 0. When this occurs, the standard posted speed limit is assumed to also apply to trucks as well.

@@ -149,7 +149,7 @@ The following is an example of an itinerary item that contains both warnings and
   
 ## Traffic incident information within a geographical area (Traffic API)
 
-The [Traffic API](traffic/index.md) returns a list of traffic incidents in a geographical area and provides incident details and traffic location codes. Traffic incident details include information such as the incident description, severity, location, road closures, type of incident, time of incident and detours. See [Traffic Incident Data](traffic/traffic-incident-data.md) for a list of the incident details that may be returned. Traffic incidents reported by the Traffic API include common traffic problems, such as accidents and disabled vehicles, as well as other potential causes of traffic, such as sports events.  
+The [Traffic API](traffic/index.md) returns a list of traffic incidents in a geographical area and provides incident details and traffic location codes. Traffic incident details include information such as the incident description, severity, location, road closures, type of incident, and time of incident. See [Traffic Incident Data](traffic/traffic-incident-data.md) for a list of the incident details that may be returned. Traffic incidents reported by the Traffic API include common traffic problems, such as accidents and disabled vehicles, as well as other potential causes of traffic, such as sports events.  
   
  To use the Traffic API, you must specify an area defined as a bounding box. A bounding box is a set of longitudes and latitudes that define an area. See [Location and Area Types](common-parameters-and-types/location-and-area-types.md) for more information about a bounding box.  
   
@@ -167,7 +167,6 @@ The [Traffic API](traffic/index.md) returns a list of traffic incidents in a geo
    },  
    "congestion":"",  
    "description":"in both directions between MO-2\/MO-7 and MO-291\/Cantrell Rd - construction",  
-   "detour":"",  
    "end":"\/Date(1316217600000)\/",  
    "incidentId":214828828,  
    "lane":"Total Lanes lane blocked",  
