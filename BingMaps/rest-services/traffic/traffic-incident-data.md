@@ -29,7 +29,6 @@ The response returned by a Traffic URL contains one or more TrafficIncident reso
 |`point`|`Point`|`Point`|**Required.** The latitude and longitude coordinates where you encounter the incident.|  
 |`congestion`|`CongestionInfo`|`string`|A description of the congestion.<br /><br /> Examples:<br /><br /> -   generally slow<br />-   sluggish|  
 |`description`|`Description`|`string`|A description of the incident.<br /><br /> Examples:<br /><br /> -   W 95th St between Switzer Rd and Bluejacket Dr - construction<br />-   WB Johnson Dr at I-435 - bridge repair|  
-|`detour`|`detourInfo`|`string`|A description of a detour.<br /><br /> Examples:<br /><br /> -   Take 63rd St to Roe Ave and head south to 67th St<br />-   take US-40 to Blue Ridge Cut-Off| 
 |`start`|`StartTimeUTC`|UTC Time|**Required.** The time the incident occurred. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
 |`end`|`EndTimeUTC`|UTC Time|**Required.** The time that the traffic incident will end. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
 |`incidentId`|`IncidentId`|`long`|**Required.** A unique ID for the incident.|  
@@ -78,7 +77,6 @@ For JSON responses, the time is specified as UTC time in milliseconds using the 
    },  
    "congestion":"",  
    "description":"in both directions between MO-2\/MO-7 and MO-291\/Cantrell Rd - construction",  
-   "detour":"",  
    "end":"\/Date(1316217600000)\/",  
    "incidentId":214828828,  
    "lane":"Total Lanes lane blocked",  
@@ -125,7 +123,6 @@ For JSON responses, the time is specified as UTC time in milliseconds using the 
   <Verified>true</Verified>  
   <RoadClosed>false</RoadClosed>  
   <Description>in both directions between MO-2/MO-7 and MO-291/Cantrell Rd - construction</Description>  
-  <DetourInfo/>  
   <LaneInfo>Total Lanes lane blocked</LaneInfo>  
   <CongestionInfo/>  
   <ToPoint>  
