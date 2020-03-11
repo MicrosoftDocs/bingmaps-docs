@@ -57,7 +57,7 @@ Flyouts also support custom views through [MapFlyoutCustomViewAdapter interface]
 > MapFlyout flyout = new MapFlyout();
 > flyout.setCustomViewAdapter(new MapFlyout.CustomViewAdapter() {
 >     @Override
->     public View getView(MapElement mapElement){
+>     public View getFlyoutView(MapElement mapElement){
 >         if (mapElement instanceof MapIcon)
 >         {
 >             MapIcon icon = (MapIcon)mapElement;

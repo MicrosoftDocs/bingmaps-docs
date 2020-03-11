@@ -52,7 +52,7 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 
 ### BuildingsVisible
 
-Whether 3D buildings are rendered on the map.
+Determines whether 3D buildings are rendered on the map.
 
 **Android**
 
@@ -69,7 +69,7 @@ Whether 3D buildings are rendered on the map.
 
 ### BusinessLandmarksVisible
 
-Whether business landmarks (e.g., restaurants, hotels) are rendered on the map.
+Determines whether business landmarks (e.g., restaurants, hotels) are rendered on the map.
 
 **Android**
 
@@ -105,7 +105,7 @@ _See also:_ [MapCamera](MapCamera-class.md)
 
 ### Center
 
-Gets the center of the current view.  Keep in mind that in oblique views (where some horizon is shown),
+Returns the center of the current view. Keep in mind that in oblique views (where some horizon is shown),
 the "center" that is returned may not be at the physical center of the control's viewable rectangle.
 
 _See also:_ [Geopoint](Geopoint-class.md)
@@ -124,7 +124,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 
 ### Heading
 
-The heading of the view in degrees where 0 is north, 90 is east, 180 is south, and 270 is west. Valid values are between 0 and 360.
+Specifies the heading of the view in degrees where `0` is north, `90` is east, `180` is south, and `270` is west.  
+Valid values are between `0` and `360`.
 
 **Android**
 
@@ -141,7 +142,11 @@ The heading of the view in degrees where 0 is north, 90 is east, 180 is south, a
 
 ### Language
 
-The language to be used when rendering locale-specific strings like country and city names. Example values: "en", "fr", "jp".
+Specifies the language to be used when rendering locale-specific strings like country and city names.  
+The string can be an ISO 639 two-letter lowercase culture code associated with a language. Example values: `"en"`,
+`"fr"`, `"ja"`.  
+The string can optionally be combined with an ISO 3166 two-letter uppercase subculture code associated with a country
+or region (delimited by `-`). Example values: `"en-US"`, `"ko-KR"`, `"ja-JP"`.
 
 **Android**
 
@@ -158,7 +163,7 @@ The language to be used when rendering locale-specific strings like country and 
 
 ### CredentialsKey
 
-The license key authorizing use of the map. Get credentials at [www.bingmapsportal.com](http://www.bingmapsportal.com/).
+Specifies the license key authorizing use of the map. Get credentials at [www.bingmapsportal.com](http://www.bingmapsportal.com/).
 
 **Android**
 
@@ -173,7 +178,7 @@ The license key authorizing use of the map. Get credentials at [www.bingmapsport
 >```
 
 ### Layers
-Gets developer-added layers of content for the map.  
+Returns developer-added layers of content for the map.  
 Note that this concept of independent layers doesn't exist on the Windows version of the control.
 Rather, on Windows, directly add any elements you may have the to the MapElements collection exposed
 on the control.
@@ -195,8 +200,8 @@ _See also:_ [MapLayerCollection](MapLayerCollection-class.md)
 
 ### RenderMode
 
-Whether to render maps using raster tiles or vector data. Raster tiles will generally give a faster framerate at the expense
-of less readable text.
+Determines whether to render maps using raster tiles or vector data. Raster tiles will generally give a faster framerate
+at the expense of less readable text.
 
 _See also:_ [MapRenderMode](MapRenderMode-enumeration.md)
 
@@ -215,7 +220,7 @@ _See also:_ [MapRenderMode](MapRenderMode-enumeration.md)
 
 ### Projection
 
-The projection used to render the map.
+Specifies the projection used to render the map.
 
 _See also:_ [MapProjection](MapProjection-enumeration.md)
 
@@ -234,7 +239,7 @@ _See also:_ [MapProjection](MapProjection-enumeration.md)
 
 ### MapSize
 
-Size of rendered map in pixels.
+Specifies the size of rendered map in device-independent pixels.
 
 Note that in Android, class `android.graphics.Point` is used since `android.util.Size` is only available in API level 21.
 
@@ -253,7 +258,8 @@ Note that in Android, class `android.graphics.Point` is used since `android.util
 
 ### Pitch
 
-The pitch of the camera in degrees, where 0 is looking straight down (minimum) and 90 is looking towards the horizon (maximum). Values outside of this range will throw an exception.
+Specifies the pitch of the camera in degrees, where `0` is looking straight down (minimum) and `90` is looking towards
+the horizon (maximum). Values outside of this range will cause an exception.  
 Note that pitch may be limited in some views.
 
 **Android**
@@ -271,7 +277,9 @@ Note that pitch may be limited in some views.
 
 ### Region
 
-The region of the world to display a map for. Different regions of the world have different views of the world including borders and contested regions. Example values: "us", "ca", "fr".
+Specifies the region of the world to display a map for. Different regions of the world have different views of the
+world including borders and contested regions.  
+Example values: `"us"`, `"ca"`, `"fr"`.
 
 **Android**
 
@@ -288,7 +296,7 @@ The region of the world to display a map for. Different regions of the world hav
 
 ### TransitFeaturesVisible
 
-Whether transit features (e.g., transit stops) are rendered on the map.
+Determines whether transit features (e.g., transit stops) are rendered on the map.
 
 **Android**
 
@@ -305,8 +313,7 @@ Whether transit features (e.g., transit stops) are rendered on the map.
 
 ### UserInterfaceOptions
 
-Returns a container class that lets a developer access configuration controls for the map user
-interface.
+Returns a container class that lets a developer access configuration controls for the map user interface.
 
 _See also:_ [MapUserInterfaceOptions](MapUserInterfaceOptions-class.md)
 
@@ -324,7 +331,7 @@ _See also:_ [MapUserInterfaceOptions](MapUserInterfaceOptions-class.md)
 
 ### ViewPadding
 
-Sets the padding inside a map control.
+Specifies the padding inside the map control in device-independent pixels.
 
 **Android**
 
@@ -339,9 +346,10 @@ Sets the padding inside a map control.
 >```
 
 _See also:_ [UIEdgeInsets](https://developer.apple.com/documentation/uikit/uiedgeinsets)
+
 ### ZoomLevel
 
-Gets the zoom level of the current view.
+Returns the zoom level of the current view.
 
 **Android**
 
@@ -355,9 +363,9 @@ Gets the zoom level of the current view.
 > @property (nonatomic, readonly) double zoomLevel
 >```
 
-## Life cycle methods (Android only)
+## Lifecycle methods (Android only)
 
-You must override life cycle methods in parent fragment/activity and call respective MapView methods below from the callback.
+You must override lifecycle methods in parent fragment/activity and call respective MapView methods below from the callback.
 
 _See also:_ https://developer.android.com/guide/components/activities/activity-lifecycle
 
@@ -498,7 +506,7 @@ MapIcon's flyout can be shown.
 
 ### isLocationInView
 
-Whether the given location is visible in the MapView.
+Returns whether the given location is visible in the map view.
 
 **Android**
 
@@ -514,9 +522,12 @@ Whether the given location is visible in the MapView.
 
 ### locationFromOffset
 
-Converts a point on the map (pixel offset) to a geographic location, with an option to select a desired altitude reference system. Note that the return value can be null, for instance, a point in the sky will fail to return a location.
+Converts a point relative to the map view to a geographic location, with an option to select a desired altitude reference
+system. Note that the return value can be null: for instance, a point in the sky will fail to return a location.
 
 **Android**
+
+These methods operate with screen pixels.
 
 >```java
 > Geopoint getLocationFromOffset(Point offset)  
@@ -524,6 +535,8 @@ Converts a point on the map (pixel offset) to a geographic location, with an opt
 >```
 
 **iOS**
+
+These methods operate with device-independent points.
 
 >```objectivec
 > - (BOOL)tryToConvertOffset:(CGPoint)offset 
@@ -690,13 +703,13 @@ Performs an continuous pan operation.
 **Android**
 
 >```java
-> void startContinuousPan(double horizontalPixelsPerSecond, double verticalPixelsPerSecond)
+> void startContinuousPan(double horizontalDeviceIndependentPixelsPerSecond, double verticalDeviceIndependentPixelsPerSecond)
 >```
 
 **iOS**
 
 >```objectivec
-> - (void)startContinuousPanWithHorizontalPixelsPerSecond:(double)horizontalPixelsPerSecond verticalPixelsPerSecond:(double)verticalPixelsPerSecond
+> - (void)startContinuousPanWithHorizontalPointsPerSecond:(double)horizontalPointsPerSecond verticalPointsPerSecond:(double)verticalPointsPerSecond
 >```
 
 ### startContinuousRotate
@@ -1065,13 +1078,13 @@ Perform a pan operation from the current location.
 **Android**
 
 >```java
-> void pan(double horizontalPixels, double verticalPixels)
+> void pan(double horizontalDeviceIndependentPixels, double verticalDeviceIndependentPixels)
 >```
 
 **iOS**
 
 >```objectivec
-> - (void)panWithHorizontalPixels:(double)horizontalPixels verticalPixels:(double)verticalPixels
+> - (void)panWithHorizontalPoints:(double)horizontalPoints verticalPoints:(double)verticalPoints
 >```
 
 ### beginPan
@@ -1081,7 +1094,7 @@ Perform a pan operation from the current location, and invokes the provided call
 **Android**
 
 >```java
-> void beginPan(double horizontalPixels, double verticalPixels, OnMapSceneCompletedListener listener)
+> void beginPan(double horizontalDeviceIndependentPixels, double verticalDeviceIndependentPixels, OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1089,7 +1102,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 **iOS**
 
 >```objectivec
-> -(void)beginPanWithHorizontalPixels:(double)horizontalPixels verticalPixels:(double)verticalPixels completionCallback:(MSMapDidChangeSceneCallback)callback
+> -(void)beginPanWithHorizontalPoints:(double)horizontalPoints verticalPoints:(double)verticalPoints completionCallback:(MSMapDidChangeSceneCallback)callback
 >```
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
@@ -1175,35 +1188,13 @@ _See also:_ [OnMapCameraChangingListener](Android/OnMapCameraChangingListener-in
 
 _See also:_ [MSMapCameraWillChangeHandler](iOS/MSMapCameraWillChangeHandler-interface.md)
 
-### MapLoadingStatusChanged
-
-Fired when the render states of the map has changed.
-
-_See also:_ [MapLoadingStatus](MapLoadingStatus-enumeration.md)
-
-**Android**
-
->```java
-> void addOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
-> void removeOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
->```
-
-_See also:_ [MapLoadingStatusChangedListener](Android/OnMapLoadingStatusChangedListener-interface.md)
-
-**iOS**
-
->```objectivec 
-> - (MSMapHandlerId)addLoadingStatusDidChangeHandler:(MSMapLoadingStatusDidChangeHandler)handler 
-> - (BOOL)removeLoadingStatusDidChangeHandler:(MSMapHandlerId)handlerId
->```
-
-_See also:_ [MSMapLoadingStatusDidChangeHandler](iOS/MSMapLoadingStatusDidChangeHandler-interface.md)
-
 ### DoubleTapped
 
 Fired when the map is double tapped by the user.
 
 **Android**
+
+The `Position` value of this event's arguments is in screen pixels.
 
 >```java
 > void addOnMapDoubleTappedListener(OnMapDoubleTappedListener listener)
@@ -1213,6 +1204,8 @@ Fired when the map is double tapped by the user.
 _See also:_ [OnMapDoubleTappedListener](Android/OnMapDoubleTappedListener-interface.md)
 
 **iOS**
+
+The `Position` value of this event's arguments is in device-independent points.
 
 >```objectivec
 > - (MSMapHandlerId)addUserDidDoubleTapHandler:(MSMapUserDidDoubleTapHandler)handler
@@ -1227,6 +1220,8 @@ Fired when finger is held on the map by the user.
 
 **Android**
 
+The `Position` value of this event's arguments is in screen pixels.
+
 >```java
 > void addOnMapHoldingListener(OnMapHoldingListener listener)
 > void removeOnMapHoldingListener(OnMapHoldingListener listener)
@@ -1236,6 +1231,8 @@ _See also:_ [OnMapHoldingListener](Android/OnMapHoldingListener-interface.md)
 
 **iOS**
 
+The `Position` value of this event's arguments is in device-independent points.
+
 >```objectivec
 > - (MSMapHandlerId)addUserIsHoldingHandler:(MSMapUserIsHoldingHandler)handler
 > - (BOOL)removeUserIsHoldingHandler:(MSMapHandlerId)handlerId
@@ -1243,11 +1240,37 @@ _See also:_ [OnMapHoldingListener](Android/OnMapHoldingListener-interface.md)
 
 _See also:_ [MSMapUserIsHoldingHandler](iOS/MSMapUserIsHoldingHandler-interface.md)
 
+### LoadingStatusChanged
+
+Fired when the loading status of the map has changed.
+
+_See also:_ [MapLoadingStatus](MapLoadingStatus-enumeration.md)
+
+**Android**
+
+>```java
+> void addOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
+> void removeOnMapLoadingStatusChangedListener(OnMapLoadingStatusChangedListener listener)
+>```
+
+_See also:_ [MapLoadingStatusChangedListener](Android/OnMapLoadingStatusChangedListener-interface.md)
+
+**iOS**
+
+>```objectivec
+> - (MSMapHandlerId)addLoadingStatusDidChangeHandler:(MSMapLoadingStatusDidChangeHandler)handler
+> - (BOOL)removeLoadingStatusDidChangeHandler:(MSMapHandlerId)handlerId
+>```
+
+_See also:_ [MSMapLoadingStatusDidChangeHandler](iOS/MSMapLoadingStatusDidChangeHandler-interface.md)
+
 ### Tapped
 
 Fired when the map is tapped by the user.
 
 **Android**
+
+The `Position` value of this event's arguments is in screen pixels.
 
 >```java
 > void addOnMapTappedListener(OnMapTappedListener listener)
@@ -1257,6 +1280,8 @@ Fired when the map is tapped by the user.
 _See also:_ [OnMapTappedListener](Android/OnMapTappedListener-interface.md)
 
 **iOS**
+
+The `Position` value of this event's arguments is in device-independent points.
 
 >```objectivec
 > - (MSMapHandlerId)addUserDidTapHandler:(MSMapUserDidTapHandler)handler

@@ -11,7 +11,7 @@ If a null view is returned, the default view with flyout's title and description
 >```java
 > public interface MapFlyout.CustomViewAdapter
 > {
->     public View getView(MapElement mapElement);
+>     public View getFlyoutView(MapElement mapElement);
 > }
 >```
 
