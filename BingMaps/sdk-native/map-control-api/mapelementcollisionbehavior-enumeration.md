@@ -27,23 +27,23 @@ Specifies the behavior of a MapIcon when it collides with other map features due
 >     MSMapElementCollisionBehaviorRemainVisible,
 >     MSMapElementCollisionBehaviorRemainAlwaysVisible
 > }
+>```
 
 ## Values
 
 ### Hide
 
- Hide the MapIcon when it collides with other map elements
+Hide the MapIcon when it collides with other map elements.
 
 ### RemainVisible
 
-Show MapIcon at all zoom levels. REMAIN_VISIBLE applies to the MapIcon image only. Text from the map icon may still be hidden at times.
-Even when the I's CollisionBehaviorDesired property is set to REMAIN_VISIBLE
+Show MapIcon at all zoom levels. Applies to the map icon image only.
+If it collides with base or user map elements, its icon can be overlapped with them. Text for the map icon may still be hidden at times.
 
 ### RemainAlwaysVisible
 
-Always show the map point. If it collides with base or user map entities, it is overlapped with them.
-This applies to the map point image only. Text from the map point may still be hidden at times by another
-user map elements (but not by base map elements)
+Show MapIcon at all zoom levels. Applies to the map icon image and text.
+If it collides with base or user map elements, its icon and text can be overlapped with them. Text for the map icon may still be hidden at times by other user map elements (but not by base map elements).
 
 ## See Also
 

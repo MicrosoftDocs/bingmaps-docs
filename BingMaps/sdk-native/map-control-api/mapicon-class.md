@@ -28,7 +28,7 @@ Allow drop feature is cut for V1 of the SDK.
 
 ### AllowDrop
 
-Whether this MapIcon can be drop target for purposes of drag-and-drop operation. Default is false.
+Whether this icon can be drop target for purposes of drag-and-drop operation. The default value is `false`.
 
 **Android**
 
@@ -46,8 +46,8 @@ Whether this MapIcon can be drop target for purposes of drag-and-drop operation.
 
 ### DesiredCollisionBehavior
 
-Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.  
-Default is set to `MapElementCollisionBehavior.REMAIN_VISIBLE`.
+Specifies the behavior of the icon when it collides with other map features due to zoom level.  
+The default value is `MapElementCollisionBehavior.REMAIN_VISIBLE`.
 
 _See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeration.md)
 
@@ -61,7 +61,7 @@ _See also:_ [MapElementCollisionBehavior](MapElementCollisionBehavior-enumeratio
 **iOS**
 
 >```objectivec
-> @property (nonatomic) MSMapElementCollisionBehavior collisionBehaviorDesired
+> @property (nonatomic) MSMapElementCollisionBehavior desiredCollisionBehavior
 >```
 
 
@@ -85,7 +85,7 @@ Determines whether the icon should appear to lie parallel and flat to the earth,
 
 ### Flyout
 
-The flyout associated with this MapIcon.
+Specifies the flyout associated with this icon.
 
 _See also:_ [MapFlyout](mapflyout-class.md)
 
@@ -105,7 +105,7 @@ _See also:_ [MapFlyout](mapflyout-class.md)
 
 ### Image
 
-The image associated with this MapIcon.
+Specifies the image associated with this icon.
 
 _See also:_ [MapImage](MapImage-class.md)
 
@@ -122,12 +122,12 @@ _See also:_ [MapImage](MapImage-class.md)
 > @property (nullable, nonatomic) MSMapImage *image
 >```
 
-_Passsing null/nil will reset the MapIcon to use the default image._
+_Passing null/nil will reset the icon to use the default image._
 
 
 ### Location
 
-The location of the MapIcon.
+Specifies the location of the icon.
 
 _See also:_ [MSGeopoint](Geopoint-class.md)
 
@@ -147,7 +147,10 @@ _See also:_ [MSGeopoint](Geopoint-class.md)
 
 ### NormalizedAnchorPoint
 
-The offset coordinate in pixels to display the icon relative to the selected location. `(0, 0)` will place the upper left corner of the image at the location. The default is `(0.5, 0.5)`.
+Specifies the anchor point for the icon. The anchor point is the point on the icon that is positioned at the geographic
+location specified by Location property. For example, for a pin icon this generally will be the tip of the pin.  
+`(0, 0)` represents the upper left corner of the graphical image, while `(1, 1)` represents its bottom right corner. The
+default value is `(0.5, 0.5)`.
 
 _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 
@@ -167,7 +170,8 @@ _See also:_ [Anchoring MapIcons](../map-control-concepts/anchoring-mapIcons.md)
 
 ### Opacity
 
-Determines whether the icon should render transparently. 1 means completely opaque, and 0 means completely transparent. This is in addition to any transparency defined in the image. The default is 1 (completely opaque).
+Specifies the opacity of the rendered icon, in addition to any transparency defined in the image.  
+`1` means completely opaque, and `0` means completely transparent. The default value is `1`.
 
 **Android**
 
@@ -185,7 +189,8 @@ Determines whether the icon should render transparently. 1 means completely opaq
 
 ### Rotation
 
-The rotation in degrees of the icon around the anchor point clockwise. Values greater than 360 or less than 0 are accepted. The default is 0 (no rotation).
+Specifies the rotation in degrees of the icon around the anchor point clockwise. Values greater than `360` or less than
+`0` are accepted. The default is `0` (no rotation).
 
 **Android**
 
@@ -203,7 +208,7 @@ The rotation in degrees of the icon around the anchor point clockwise. Values gr
 
 ### Title
 
-Text to be displayed along side the MapIcon.
+Specifies the text to be displayed alongside the icon.
 
 **Android**
 

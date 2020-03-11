@@ -40,7 +40,7 @@ Gets or sets the name of an entry in the map's style sheet that you'd like to ap
 
 _See also:_ 
 * [MapStyleSheet](MapStyleSheet-class.md)
-* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)
+* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)  
 
 ### MapStyleSheetEntryState
 
@@ -61,7 +61,7 @@ Gets or sets the name of the state of this MapElement. If the style sheet define
 
 _See also:_ 
 * [MapStyleSheet](MapStyleSheet-class.md)
-* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)
+* [Map Style Sheet Reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet)   
 
 ### Tag
 

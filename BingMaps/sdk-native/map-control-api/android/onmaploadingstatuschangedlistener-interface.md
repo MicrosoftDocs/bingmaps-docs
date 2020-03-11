@@ -11,7 +11,7 @@ Listener used with MapView.MapLoadingStatusChanged event.
 > public interface OnMapLoadingStatusChangedListener
 > {
 >    /** Called when the map loading status changes **/
->    public boolean onMapLoadingStatusChanging(MapLoadingStatus status);
+>    public boolean onMapLoadingStatusChanged(MapLoadingStatus status);
 > }
 >```
 
