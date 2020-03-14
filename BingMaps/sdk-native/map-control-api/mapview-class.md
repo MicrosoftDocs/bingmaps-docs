@@ -279,7 +279,8 @@ Note that pitch may be limited in some views.
 
 Specifies the region of the world to display a map for. Different regions of the world have different views of the
 world including borders and contested regions.  
-Example values: `"us"`, `"ca"`, `"fr"`.
+The string can be an ISO 3166 two-letter uppercase code associated with a country or region. 
+Example values: `"US"`, `"CA"`, `"FR"`.
 
 **Android**
 
