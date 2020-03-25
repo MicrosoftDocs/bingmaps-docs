@@ -1,13 +1,12 @@
 ---
-title: Bing Maps Navteq POI Entity Types documentation
-ms.service:  Bing Maps Platform
-ms.date: 03/20/2020
-ms.author: eriklind
-manager: dirabel
-author: eriklindeman
-ms.topic: article
-description: Bing Maps Spatial Data Services Navteq points of interest (POI) data source category details. The NavteqNA and NavteqEU POI data sources are deprecated.
-
+title: "POI Entity Types | Microsoft Docs"
+ms.date: "03/25/2020"
+ms.author: "eriklind"
+manager: "dirabel"
+author: "eriklindeman"
+ms.topic: "article"
+description: "Bing Maps Spatial Data Services Navteq points of interest (POI) data source category details. The NavteqNA and NavteqEU POI data sources are deprecated."
+ms.service: "bing-maps"
 ---
 # NAVTEQ POI Entity Types
 
