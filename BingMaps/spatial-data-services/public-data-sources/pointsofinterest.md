@@ -15,10 +15,10 @@ ms.service: "bing-maps"
 ---
 # PointsOfInterest
 
-The PointsOfInterest data source contains information about points of interest (POIs) in many countries of the world (see list of countries below). You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
+The PointsOfInterest data source contains information about points of interest (POIs) for over 200 countries worldwide. POI coverage varies by country. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
 
 > [!NOTE]
->  For migrating from the deprecated NAVTEQNA and NAVTEQEU data sources to the superceding PointsOfInterest data source, simply update the accessID from 'f22876ec257b474b82fe2ffcb8393150' to 'Microsoft', dataSourceName from 'NavteqNA' or 'NavteqEU' to 'PointsOfInterest' and entityTypeName from 'NavteqPOIs' to 'Locations' in the base query URL. An example base query URL for the PointsOfInterest data source is documented below.
+>  For migrating from the deprecated NAVTEQNA and NAVTEQEU data sources to the superceding PointsOfInterest data source, simply remove the accessID (i.e.: 'f22876ec257b474b82fe2ffcb8393150'), change dataSourceName from 'NavteqNA' or 'NavteqEU' to 'Microsoft' and change entityTypeName from 'NavteqPOIs' to 'PointsOfInterest' in the base query URL. An example base query URL for the PointsOfInterest data source is documented below.
   
 > [!IMPORTANT]
 >  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.                                              
@@ -55,7 +55,7 @@ The PointsOfInterest data source contains information about points of interest (
  **Base Query URL**  
   
 ```url 
-http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest/Locations  
+http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest
 ```  
   
  **Query Example**  
@@ -63,5 +63,5 @@ http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest/Location
  The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any Bing Maps Key. For complete information about querying a data source, see [Query API](../query-api/index.md).  
   
 ```url
-http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest/Locations?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter=EntityTypeID%20eq%20'6000'&$select=EntityID,DisplayName,Latitude,Longitude,__Distance&$top=3&key=anyBingMapsKey  
+http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter=EntityTypeID%20eq%20'6000'&$select=EntityID,DisplayName,Latitude,Longitude,__Distance&$top=3&key=anyBingMapsKey  
 ```
