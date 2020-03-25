@@ -4,7 +4,7 @@ ms.service:  Bing Maps Platform
 ms.date: 03/20/2020
 ms.author: eriklind
 manager: dirabel
-author: elindeman
+author: eriklindeman
 ms.topic: article
 description: Bing Maps Spatial Data Services Navteq points of interest (POI) data source category details. The NavteqNA and NavteqEU POI data sources are deprecated.
 
