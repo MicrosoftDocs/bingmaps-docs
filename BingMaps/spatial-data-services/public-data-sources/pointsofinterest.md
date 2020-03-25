@@ -1,14 +1,9 @@
 ---
 title: "PointsOfInterest | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/05/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: "03/25/2020"
 ms.topic: "article"
-ms.assetid: ?
-caps.latest.revision: 24
-author: "eriklind"
+description: "Bing Maps Spatial Data Services PointsOfInterest data source details"
+author: "eriklindeman"
 ms.author: "eriklind"
 manager: "dirabel"
 ms.service: "bing-maps"
