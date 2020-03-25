@@ -46,7 +46,7 @@ The following table describes the properties that you can query to get informati
 |EntityTypeID|Edm.String|3000|  
   
 ## Entity Types  
- For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/poi-entity-types.md).  
+ For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
   
 ## How to query the NAVTEQEU data source  
  You can query the NAVTEQEU data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  
