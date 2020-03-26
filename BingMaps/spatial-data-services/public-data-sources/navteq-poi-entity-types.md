@@ -11,7 +11,7 @@ ms.service: "bing-maps"
 # NAVTEQ POI Entity Types
 
 > [!NOTE]
->  The NAVTEQNA and NAVTEQEU data sources are deprecated and will be shutdown on July 6, 2020. Please use the superceding PointsOfInterest data source.
+>  The NAVTEQNA and NAVTEQEU data sources are deprecated and will be shutdown on July 6, 2020. Please use the superceding [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source.
 
 The following table shows the Standard Industry Code (SIC) entity IDs that are returned by the NAVTEQNA and NAVTEQEU data sources. POI entities may not be available for every location.  
   
