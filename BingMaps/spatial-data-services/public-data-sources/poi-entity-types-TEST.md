@@ -12,8 +12,8 @@ ms.service: "bing-maps"
 
 The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
   
-|Entity Type ID|Entity Type Name|NavteqNA|NavteqEU|  
-|--------------------|----------------------|--------------|--------------|  
+|Entity Type ID|Entity Type Name|  
+|--------------------|----------------------|  
 |2084|Winery|X|X|  
 |3578|ATM|X|X|  
 |4013|Train Station|X|X|  
