@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 # NAVTEQNA
 
 > [!CAUTION]
-> The NAVTEQNA data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQNA will return an error message. A replacement data source is in the works and this documentation will be updated with further details once the replacement data source is available for use. For a potential alternate solution, consider using the [Local Search API](../../rest-services/locations/local-search.md), which returns a list of business entities centered around a location or a geographic region.
+> The NAVTEQNA data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQNA will return an error message. The replacement data source is the [PointsOfInterest data source](../public-data-sources/pointsofinterest.md), please migrate to that data source before July 6, 2020 to avoid service disruption if using the NAVTEQNA data source.
 
 The NAVTEQNA data source contains information about points of interest (POIs) in North America. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.  
   
@@ -43,7 +43,7 @@ The NAVTEQNA data source contains information about points of interest (POIs) in
 |EntityTypeID|Edm.String|2084|  
   
 ## Entity Types  
- For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
+ For a complete list of the entity type IDs that you can query, see [NAVTEQ POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
   
 ## How to query the NAVTEQNA data source  
  You can query NAVTEQNA data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  
