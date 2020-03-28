@@ -15,7 +15,7 @@ The following table shows the entity IDs for the points of interest (POI) catego
 > [!NOTE]
 >  If migrating to the PointsOfInterest data source from the deprecated NAVTEQNA and/or NAVTEQEU data sources, the PointsOfInterest data source supports the same Entity Type ID's used by the NAVTEQNA and NAVTEQEU data sources.
   
-|Entity Name|Entity Type ID|  
+|Entity Type Name|Entity Type ID|  
 |--------------------|----------------------|  
 |Agricultural Structure|	6|
 |Airport|	4581|
