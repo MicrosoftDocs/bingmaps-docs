@@ -27,4 +27,4 @@ The Bing Spatial Data Services provide the following public data sources for you
 |[Traffic Incident Data Source](../public-data-sources/traffic-incident-data-source.md)|This data source contains traffic incident data that you can use to query for traffic incidents in an area by using the [Query by Area](../query-api/query-by-area.md) API.|  
 |[2010 US Census Data Sources](../public-data-sources/2010-us-census-data-sources.md)|These data sources contain a subset of 2010 US Census data sourced from the US Census Bureau.|  
   
- For the list of Standard Industry Code (SIC) entity type IDs that you can query for the NAVTEQNA and NAVTEQEU data sources, see [POI Entity Types](../public-data-sources/poi-entity-types.md).
+ For the list of entity type IDs that you can query for the PointsOfInterest data source, see [POI Entity Types](../public-data-sources/poi-entity-types.md).
