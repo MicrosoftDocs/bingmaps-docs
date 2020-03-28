@@ -43,7 +43,7 @@ The NAVTEQNA data source contains information about points of interest (POIs) in
 |EntityTypeID|Edm.String|2084|  
   
 ## Entity Types  
- For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
+ For a complete list of the entity type IDs that you can query, see [NAVTEQ POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
   
 ## How to query the NAVTEQNA data source  
  You can query NAVTEQNA data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  
