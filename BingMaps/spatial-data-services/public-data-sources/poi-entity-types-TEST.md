@@ -32,7 +32,7 @@ The following table shows the entity IDs for the points of interest (POI) catego
 |Bowling Alley/Centre|	7933|
 |Bridge|	19|
 |Bus Station|	4170|
-|Business Facility (Administrative/Office Building, Business Center, Business Structure and Factory)|	5000|
+|Business Facility (Administrative/Office Building, Business Center and Factory)|	5000|
 |Camp  (Campground)|	9517|
 |Casino|	7985|
 |Cemetery|	9591|
@@ -111,7 +111,7 @@ The following table shows the entity IDs for the points of interest (POI) catego
 |Stadium  (Sports Centre)|	7997|
 |Store|	259|
 |Tollgate|	283|
-|Tourist Attraction (Ancient Site, Aquarium, Garden, Landmark Building and Tourist Structure)|	7999|
+|Transportation Service (Metro Station, Railway and Transportation Structure)|	7999|
 |Trailhead|	236|
 |Tramway|	262|
 |Transportation Service (Metro Station, Railway and Transportation Structure)|	9593|
