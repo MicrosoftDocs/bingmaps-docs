@@ -20,7 +20,7 @@ The Bing Spatial Data Services provide the following public data sources for you
   
 |Data Source|Description|  
 |-----------------|-----------------|  
-|[PointsOfInterest Data Source](../public-data-sources/pointsofinterest.md)|This data source contains points of interest worldwide. This data source is the replacement for the deprecated NAVTEQNA and NAVTEQEU data sources.
+|[PointsOfInterest Data Source](../public-data-sources/pointsofinterest.md)|This data source contains points of interest worldwide. It is also the replacement for the deprecated NAVTEQNA and NAVTEQEU data sources.
 |[FourthCoffeeSample Data Source](../public-data-sources/fourthcoffeesample.md)|This data source contains sample data. The examples provided in the [Query API](../query-api/index.md) documentation use this data source.|  
 |[NAVTEQNA Data Source](../public-data-sources/navteqna.md)|This data source contains points of interest for North America.<br/><br/>NOTE: This data source is deprecated and will be shutdown on July 6, 2020. Please use an alternative data source.|  
 |[NAVTEQEU Data Source](../public-data-sources/navteqeu.md)|This data source contains points of interest for Europe.<br/><br/>NOTE: This data source is deprecated and will be shutdown on July 6, 2020. Please use an alternative data source.|  
