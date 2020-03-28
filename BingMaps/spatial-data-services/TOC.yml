@@ -21,9 +21,9 @@
         - name: "2010 US Census Data Sources"
           href: public-data-sources/2010-us-census-data-sources.md
         - name: "POI Entity Types"
-          href: public-data-sources/poi-entity-types.md
+          href: public-data-sources/poi-entity-types/poi-entity-types.md
         - name: "NAVTEQ POI Entity Types"
-          href: public-data-sources/navteq-poi-entity-types.md
+          href: public-data-sources/poi-entity-types/navteq-poi-entity-types.md
     - name: "Status Codes and Error Handling"
       href: status-codes-and-error-handling.md
     - name: "Get Job List"
