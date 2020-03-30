@@ -27,13 +27,13 @@ The PointsOfInterest data source contains information about points of interest (
 |EntityID (Primary Key)|Edm.String|987654321123456789|  
 |Name|Edm.String|Contoso Cafe|  
 |DisplayName|Edm.String|Contoso Cafe|  
-|Latitude|Edm.Double|47.6396204|  
-|Longitude|Edm.Double|-122.1285259|  
+|Latitude|Edm.Double|47.610005|  
+|Longitude|Edm.Double|-122.185992|  
 |AddressLine|Edm.String|1234 Main Street|  
-|Locality|Edm.String|Redmond|  
+|Locality|Edm.String|Bellevue|  
 |AdminDistrict|Edm.String|Washington|  
 |AdminDistrict2|Edm.String|King|  
-|PostalCode|Edm.String|98052|  
+|PostalCode|Edm.String|98004|  
 |CountryRegion|Edm.String|USA|  
 |Phone|Edm.String|+(1)-(425)1231234|  
 |EntityTypeID|Edm.String|9996|  
