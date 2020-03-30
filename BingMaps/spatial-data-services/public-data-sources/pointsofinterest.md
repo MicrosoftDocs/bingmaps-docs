@@ -17,25 +17,25 @@ The PointsOfInterest data source contains information about points of interest (
   
 > [!IMPORTANT]
 >  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.                                              
-**Note:**  The PointsOfInterest data sources do not support the intersects and nearRoute filters.  
+**Note:**  The PointsOfInterest data source does not support the intersects and nearRoute filters.  
   
 ## POI Entity Properties  
- The following table describes the properties that you can query to get information about worldwide points of interest. These properties make up the Microsoft entity type that is used by the PointsOfInterest data source.  
+ The following table describes the properties that you can query to get information about worldwide points of interest. These properties make up the PointsOfInterest entity type that is used by the Microsoft data source.  
   
 |Property|Data Type|Example Value|  
 |--------------|---------------|-------------------|  
-|EntityID (Primary Key)|Edm.String|111|  
-|Name|Edm.String|Coho Vineyard & Winery|  
-|DisplayName|Edm.String|Coho Vineyard & Winery|  
-|Latitude|Edm.Double|50.792458|  
-|Longitude|Edm.Double|-1.146712|  
+|EntityID (Primary Key)|Edm.String|987654321123456789|  
+|Name|Edm.String|Contoso Bakery|  
+|DisplayName|Edm.String|Contoso Bakery|  
+|Latitude|Edm.Double|47.6396204|  
+|Longitude|Edm.Double|-122.1285259|  
 |AddressLine|Edm.String|1234 Main Street|  
-|Locality|Edm.String|Helena|  
-|AdminDistrict|Edm.String|Montana|  
-|AdminDistrict2|Edm.String|Lewis and Clark|  
-|PostalCode|Edm.String|98146|  
+|Locality|Edm.String|Redmond|  
+|AdminDistrict|Edm.String|Washington|  
+|AdminDistrict2|Edm.String|King|  
+|PostalCode|Edm.String|98052|  
 |CountryRegion|Edm.String|USA|  
-|Phone|Edm.String|800-5550111|  
+|Phone|Edm.String|+(1)-(425)1231234|  
 |EntityTypeID|Edm.String|2084|  
   
 ## Entity Types  
