@@ -10,7 +10,7 @@ ms.service: "bing-maps"
 ---
 # PointsOfInterest
 
-The PointsOfInterest data source contains information about points of interest (POIs) for over 200 countries worldwide. POI coverage varies by country. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
+The PointsOfInterest data source contains information about points of interest (POIs) for over 150 countries worldwide. POI coverage varies by country. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
 
 > [!NOTE]
 >  For migrating from the deprecated NAVTEQNA and NAVTEQEU data sources to the superceding PointsOfInterest data source, simply remove the accessID (i.e.: 'f22876ec257b474b82fe2ffcb8393150'), change dataSourceName from 'NavteqNA' or 'NavteqEU' to 'Microsoft' and change entityTypeName from 'NavteqPOIs' to 'PointsOfInterest' in the base query URL. An example base query URL for the PointsOfInterest data source is documented below.
