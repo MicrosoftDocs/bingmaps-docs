@@ -10,6 +10,8 @@
       href: public-data-sources/index.md
       maintainContext: true
       items:
+        - name: "PointsOfInterest Data Source"
+          href: public-data-sources/pointsofinterest.md
         - name: "FourthCoffeeSample Data Source"
           href: public-data-sources/fourthcoffeesample.md
         - name: "NAVTEQNA Data Source"
