@@ -25,8 +25,8 @@ The PointsOfInterest data source contains information about points of interest (
 |Property|Data Type|Example Value|  
 |--------------|---------------|-------------------|  
 |EntityID (Primary Key)|Edm.String|987654321123456789|  
-|Name|Edm.String|Contoso Bakery|  
-|DisplayName|Edm.String|Contoso Bakery|  
+|Name|Edm.String|Contoso Cafe|  
+|DisplayName|Edm.String|Contoso Cafe|  
 |Latitude|Edm.Double|47.6396204|  
 |Longitude|Edm.Double|-122.1285259|  
 |AddressLine|Edm.String|1234 Main Street|  
@@ -36,7 +36,7 @@ The PointsOfInterest data source contains information about points of interest (
 |PostalCode|Edm.String|98052|  
 |CountryRegion|Edm.String|USA|  
 |Phone|Edm.String|+(1)-(425)1231234|  
-|EntityTypeID|Edm.String|2084|  
+|EntityTypeID|Edm.String|9996|  
   
 ## Entity Types  
  For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/poi-entity-types.md).  
