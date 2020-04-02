@@ -10,6 +10,8 @@
       href: public-data-sources/index.md
       maintainContext: true
       items:
+        - name: "PointsOfInterest Data Source"
+          href: public-data-sources/pointsofinterest.md
         - name: "FourthCoffeeSample Data Source"
           href: public-data-sources/fourthcoffeesample.md
         - name: "NAVTEQNA Data Source"
@@ -22,6 +24,8 @@
           href: public-data-sources/2010-us-census-data-sources.md
         - name: "POI Entity Types"
           href: public-data-sources/poi-entity-types.md
+        - name: "NAVTEQ POI Entity Types"
+          href: public-data-sources/navteq-poi-entity-types.md
     - name: "Status Codes and Error Handling"
       href: status-codes-and-error-handling.md
     - name: "Get Job List"

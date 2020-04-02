@@ -45,7 +45,7 @@ When you use any [Bing Maps API](../../rest-services/index.md) with a Bing Maps 
 
 ## Billable versus non-billable transactions  
 
-Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for more about licensing and transaction limits, [contact the licensing team](https://www.microsoft.com/maps/) or read the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).  
+Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for info about licensing and transaction limits, [please see the Bing Maps licensing page](https://www.microsoft.com/en-us/maps/licensing) and review the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).
   
 ### Using Session IDs to make billable transactions non-billable
 
@@ -128,6 +128,7 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |RESTSpatialDataService:SetDataSourcePublicOrPrivate|Spatial Data Services|No|Any time a URL request is made to [Make a Data Source Public](../../spatial-data-services/data-source-management-api/make-public-data-source.md), one (1) transaction is counted.|  
 |RESTSpatialDataService:Query|Spatial Data Services|Yes<sup>4</sup>|Any time a [Query API](../../spatial-data-services/query-api/index.md) URL request is made to query a data source, one (1) transaction is counted.<br /><br /> When a [Query by Area](../../spatial-data-services/query-api/query-by-area.md) URL request is made with an address string that must be geocoded, one RESTLocations transaction is also counted.|  
 |RESTSpatialDataService:Geodata|Spatial Data Services|Yes|Any time a [Geodata API](../../spatial-data-services/geodata-api.md) URL request is made to get boundary data, one (1) transaction is counted.<br /><br /> When a [Geodata API](../../spatial-data-services/geodata-api.md) URL request is made with an address string that must be geocoded, one RESTLocations transaction is also counted.|  
+|RESTSpatialDataService:QueryPointsOfInterest|Spatial Data Services|Yes<sup>4</sup>|Any time a [Query API](../../spatial-data-services/query-api/index.md) URL request is made to query the [PointsOfInterest](../../spatial-data-services/public-data-sources/pointsofinterest.md) data source, one (1) transaction is counted.<br /><br /> When a [Query by Area](../../spatial-data-services/query-api/query-by-area.md) URL request is made with an address string that must be geocoded, one RESTLocations transaction is also counted.| 
 
 <sup>4</sup>This transaction is not billable if the service request is made using a [session ID](#using-session-ids-to-make-billable-transactions-non-billable) from an Web or WPF Control session.
 

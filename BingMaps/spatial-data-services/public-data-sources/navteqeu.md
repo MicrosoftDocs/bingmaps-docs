@@ -16,7 +16,10 @@ ms.service: "bing-maps"
 
 # NAVTEQEU
 
-The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.  
+> [!CAUTION]
+> The NAVTEQEU data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQEU will return an error message. The replacement data source is the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source, please migrate to that data source before July 6, 2020 to avoid service disruption if using the NAVTEQEU data source.
+
+The NAVTEQEU data source contains information about points of interest (POIs) in Europe. You can query this data source by using the Bing Spatial Data Services[Query API](../query-api/index.md) and any Bing Maps Key.
   
 > [!IMPORTANT]
 >  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location. **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
@@ -43,7 +46,7 @@ The following table describes the properties that you can query to get informati
 |EntityTypeID|Edm.String|3000|  
   
 ## Entity Types  
- For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/poi-entity-types.md).  
+ For a complete list of the entity type IDs that you can query, see [NAVTEQ POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
   
 ## How to query the NAVTEQEU data source  
  You can query the NAVTEQEU data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  

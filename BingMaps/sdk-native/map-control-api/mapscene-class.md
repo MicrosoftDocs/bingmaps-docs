@@ -124,6 +124,46 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
+### createFromLocationsAndMaxZoomLevel
+
+Creates a map scene that displays all of the locations without zooming in further than a desired maximum zoom level, if possible.
+
+_See also:_ [Geopoint](Geopoint-class.md)
+
+**Android**
+
+>```java
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel)
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+>```
+
+**iOS**
+
+>```objectivec
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations maxZoomLevel:(double)maxZoomLevel
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations maxZoomLevel:(double)maxZoomLevel heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
+
+### createFromLocationsAndMinRadius
+
+Creates a map scene that displays all of the locations without zooming in further than a minimum amount of space around the center, if possible.
+
+_See also:_ [Geopoint](Geopoint-class.md)
+
+**Android**
+
+>```java
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters)
+> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+>```
+
+**iOS**
+
+>```objectivec
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations minRadius:(double)minRadius
+> + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations minRadius:(double)minRadius heading:(CLLocationDirection)heading pitch:(double)pitch
+>```
+
 ### createFromBoundingBox
 
 Creates a map scene to display a particular bounding box. Equivalent to createFromLocations with each of the corners of the bounding box as points.
@@ -134,6 +174,7 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 
 >```java
 > MapScene createFromBoundingBox(GeoboundingBox boundingBox)
+> MapScene createFromBoundingBox(GeoboundingBox boundingbox, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -153,6 +194,7 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 
 >```java
 > MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingBox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels)
+> MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingbox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**

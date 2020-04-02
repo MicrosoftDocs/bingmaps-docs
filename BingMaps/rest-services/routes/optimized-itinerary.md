@@ -1,7 +1,7 @@
 ---
 title: "Optimized Itinerary | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/03/2019"
+ms.date: "05/03/2019" Last updated "02/12/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 
 # Optimize Multiple Itineraries
 
-The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the delivery locations, expected delivery durations, and driving directions for each item assigned to that agent. 
+The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the assigned delivery locations, as well as driving distance and time from the previous location, the scheduled arrival time, and expected delivery duration for each location (ItineraryItem) assigned to that agent. 
 
 Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities; if all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be set to either `TravelTime` or `Distance`: this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
 
@@ -89,19 +89,25 @@ Here is a template POST body, in JSON format, which should be used for both sync
                         "longitude": ...
                     }
                 }
-            ]
+            ], 
+            "capacity": [...]
         }
     ],
     "itineraryItems": [
         {
+            "name": "locationName",
             "openingTime": "...",
             "closingTime": "...",
             "dwellTime": "...",
             "priority": ...,
+            "quantity" :[...],            
             "location": {
                 "latitude": ...,
                 "longitude": ...
-            }
+            },
+            "dropOffFrom": [
+                "..."                
+            ]
         }
     ]
 }
@@ -127,8 +133,8 @@ https://dev.virtualearth.net/REST/V1/Routes/OptimizeItineraryAsync?key={BingMaps
 
 There are two basic parameters for the Optimize Itinerary API: 
 
-- `itineraryAgents`: a *list of agent shift information* which includes the name, shift times and shift starting and ending locations for agent, and 
-- `itineraryItems`: a *list of item information* with location, priority, and dwell time, and business closing and opening times for each item to be scheduled.
+- `itineraryAgents`: a *list of agent shift information* which includes the name, shift times, shift starting and ending locations for agent, and capacity of the agent's vehicle, and 
+- `itineraryItems`: a *list of item information* with location name, location, priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. 
 
 > [!IMPORTANT]
 > All DateTime strings must be in ISO format: `YYYY-MM-DDTHH:MM:SS`.
@@ -150,15 +156,15 @@ Here is the list of parameters.
 
 |Parameter|Alias|Description|Values|
 |:-------:|:---:|-----------|------|
-|`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information. | A semi-colon separated string of Agent/Shift information. See below for examples.|
-|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents. | A semi-colon separated list of Itinerary Items. See below for examples.|
+|`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information: including the agent name, shift starting and ending locations for agent, and capacity of the agent's vehicle. | A semi-colon separated string of Agent/Shift information for GET requests, and JSON or XML list for POST body. <br /> <br />**Note:** <br/><br/> •  `capacity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the vehicle capacity in terms of volume, weight, pallet or case count, or passenger count, etc. <br /><br /> See below for examples.|
+|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents, including the location name, location (lat/lon), priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered to or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. | A semi-colon separated list of Itinerary Items for GET requests, and JSON or XML list for POST body. <br /><br /> **Note**: <br/><br/> •  `quantity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the load quantity in terms of volume, weight, pallets or case count, or passenger count, etc., that the vehicle delivers to or picks up from each location. A positive value denotes pick up, while a negative value denotes drop off. <br /><br /> •  `dropOffFrom` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) that defines the location(s) that the agent needs to visit before visting the current location. <br /><br /> See below for examples.|
 |`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.<br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value.|
 |`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`. <br /><br />Default: true <br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value. |
 |`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled <br /><br />Default: TravelTime|
 
 ## API Limits
 
-The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 10 itineraryAgents and 100 itineraryItems per request.
+The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 20 itineraryAgents and 300 itineraryItems per request.
 
 The Multi-Itinerary Optimization API doesn't currently support China, Japan and South Korea.
 
@@ -751,7 +757,7 @@ And here is the same response, but formatted in XML:
 </Response>
 ```
 
-### Synchronous GET Optimize Itinerary Example
+### Synchronous POST Optimize Itinerary Example
 
 To send a synchronous POST request, set the POST head `Content-Type: application/json`, and add the above agent and waypoint item information to the body of the POST request:
 
@@ -785,59 +791,79 @@ To send a synchronous POST request, set the POST head `Content-Type: application
                         "longitude": -122.395226696231
                     }
                 }
-            ]
+            ],
+            "capacity": [16]
         }
     ],
     "itineraryItems": [
         {
+            "name": "loc1",
             "OpeningTime": "2017-11-09T09:00:00",
             "ClosingTime": "2017-11-09T18:00:00",
             "DwellTime": "01:31:08.3850000",
             "Priority": 5,
+            "quantity" : [10],             
             "Location": {
                 "Latitude": 47.692290770423,
                 "Longitude": -122.385954752402
             }
         },
         {
+            "name": "loc2",
             "OpeningTime": "2017-11-09T09:00:00",
             "ClosingTime": "2017-11-09T18:00:00",
             "DwellTime": "01:00:32.6770000",
             "Priority": 88,
+            "quantity" :[10],
             "Location": {
                 "Latitude": 47.6798098928389,
                 "Longitude": -122.383036445391
             }
         },
         {
+            "name": "loc3",
             "OpeningTime": "2017-11-09T09:00:00",
             "ClosingTime": "2017-11-09T18:00:00",
             "DwellTime": "01:18:33.1900000",
             "Priority": 1,
+            "quantity" :[-1],
             "Location": {
                 "Latitude": 47.6846639223203,
                 "Longitude": -122.364839942855
-            }
+            },
+            dropOffFrom: [
+                "loc1"                
+            ]
         },
         {
+            "name": "loc4",
             "OpeningTime": "2017-11-09T09:00:00",
             "ClosingTime": "2017-11-09T18:00:00",
             "DwellTime": "01:04:48.7630000",
             "Priority": 3,
+            "quantity" :[-3],
             "Location": {
                 "Latitude": 47.6867440824094,
                 "Longitude": -122.354711700877
-            }
+            },
+            "dropOffFrom": [
+                "loc1"                
+            ]
         },
         {
+            "name": "loc5",
             "OpeningTime": "2017-11-09T09:00:00",
             "ClosingTime": "2017-11-09T18:00:00",
             "DwellTime": "02:34:48.5430000",
             "Priority": 16,
+            "quantity" :[-3],
             "Location": {
                 "Latitude": 47.6962193175262,
                 "Longitude": -122.342180147243
-            }
+            },
+            "dropOffFrom": [
+                "loc2"                
+            ]
         }
     ]
 }

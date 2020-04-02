@@ -29,3 +29,4 @@ The following articles provide background information and cross-API information 
 |[Geospatial Endpoint Service](geospatial-endpoint-service.md)| The Geospatial Endpoint Service is a REST service that provides information about Geospatial Platform services for the language and geographical region you specify. |
 |[SSL Certificate Validation for Java Applications](../articles/ssl-certificate-validation-for-java-applications.md)|Explains how to download and install SSL certificates for Java applications.|  
 |[Understanding Scale and Resolution](../articles/understanding-scale-and-resolution.md)|Explains how to determine the scale and resolution of an image.|  
+|[Open Maps: understanding ODbL](../articles/open-maps-understanding-odbl.md)|Explains Bing Maps use of Open Data under ODbL license.|  

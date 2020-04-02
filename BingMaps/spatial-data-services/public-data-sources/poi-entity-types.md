@@ -1,107 +1,125 @@
 ---
 title: "POI Entity Types | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: "03/25/2020"
+ms.author: "eriklind"
+manager: "dirabel"
+author: "eriklindeman"
 ms.topic: "article"
-ms.assetid: 9d8e98b5-d659-412e-a5b7-974807055d3b
-caps.latest.revision: 7
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
+description: "Bing Maps Spatial Data Services PointsOfInterest points of interest (POI) data source category details. The PointsOfInterest data source is a new POI data source and also the replacement to the deprecated NavteqNA and NavteqEU POI data sources."
 ms.service: "bing-maps"
 ---
 # POI Entity Types
 
-The following table shows the Standard Industry Code (SIC) entity IDs that are returned by the NAVTEQNA and NAVTEQEU data sources. POI entities may not be available for every location.  
+The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
+
+> [!NOTE]
+>  If migrating to the PointsOfInterest data source from the deprecated NAVTEQNA and/or NAVTEQEU data sources, the PointsOfInterest data source supports the same Entity Type ID's used by the NAVTEQNA and NAVTEQEU data sources.
   
-|Entity Type ID|Entity Type Name|NavteqNA|NavteqEU|  
-|--------------------|----------------------|--------------|--------------|  
-|2084|Winery|X|X|  
-|3578|ATM|X|X|  
-|4013|Train Station|X|X|  
-|4100|Commuter Rail Station|X|X|  
-|4170|Bus Station|X|X|  
-|4444|Named Place|X|X|  
-|4482|Ferry Terminal|X|X|  
-|4493|Marina|X|X|  
-|4580|Public Sports Airport||X|  
-|4581|Airport|X|X|  
-|5000|Business Facility|X|X|  
-|5400|Grocery Store|X|X|  
-|5511|Auto Dealerships|X|X|  
-|5512|Auto Dealership-Used Cars||X|  
-|5540|Petrol/Gasoline Station|X|X|  
-|5571|Motorcycle Dealership|X|X|  
-|5800|Restaurant|X|X|  
-|5813|Nightlife||X|  
-|5999|Historical Monument|X|X|  
-|6000|Bank|X|X|  
-|6512|Shopping|X|X|  
-|7011|Hotel|X|X|  
-|7012|Ski Resort|X|X|  
-|7013|Other Accommodation||X|  
-|7014|Ski Lift||X|  
-|7389|Tourist Information|X|X|  
-|7510|Rental Car Agency|X|X|  
-|7520|Parking Lot|X|X|  
-|7521|Parking Garage/House|X|X|  
-|7522|Park & Ride|X|X|  
-|7538|Auto Service & Maintenance|X|X|  
-|7832|Cinema|X|X|  
-|7897|Rest Area|X|X|  
-|7929|Performing Arts|X|X|  
-|7933|Bowling Centre||X|  
-|7940|Sports Complex|X|X|  
-|7947|Park/Recreation Area|X|X|  
-|7985|Casino|X|X|  
-|7990|Convention/Exhibition Centre|X|X|  
-|7992|Golf Course|X|X|  
-|7994|Civic/Community Centre|X|X|  
-|7996|Amusement Park|X|X|  
-|7997|Sports Centre||X|  
-|7998|Ice Skating Rink||X|  
-|7999|Tourist Attraction|X|X|  
-|8060|Hospital|X|X|  
-|8200|Higher Education|X|X|  
-|8211|School|X|X|  
-|8231|Library|X|X|  
-|8410|Museum|X|X|  
-|8699|Automobile Club|X||  
-|9121|City Hall|X|X|  
-|9211|Court House|X|X|  
-|9221|Police Station|X|X|  
-|9517|Campground|X|X|  
-|9522|Truck Stop/Plaza|X||  
-|9525|Government Office||X|  
-|9530|Post Office|X|X|  
-|9535|Convenience Store|X|X|  
-|9537|Clothing Store|X|X|  
-|9545|Department Store|X|X|  
-|9560|Home Specialty Store|X|X|  
-|9565|Pharmacy|X|X|  
-|9567|Specialty Store|X|X|  
-|9568|Sporting Goods Store|X|X|  
-|9583|Medical Service||X|  
-|9590|Residential Area/Building||X|  
-|9591|Cemetery||X|  
-|9592|Highway Exit|X||  
-|9593|Transportation Service|X||  
-|9710|Weigh Station|X||  
-|9714|Cargo Centre|X||  
-|9715|Military Base|X||  
-|9718|Animal Park|X||  
-|9719|Truck Dealership||X|  
-|9986|Home Improvement & Hardware Store|X|X|  
-|9987|Consumer Electronics Store|X|X|  
-|9988|Office Supply & Services Store|X|X|  
-|9991|Industrial Zone||X|  
-|9992|Place of Worship||X|  
-|9993|Embassy||X|  
-|9994|County Council||X|  
-|9995|Bookstore|X|X|  
-|9996|Coffee Shop|X|X|  
-|9998|Hamlet|X|X|  
-|9999|Border Crossing|X|X|
+|Entity Type Name|Entity Type ID|  
+|--------------------|----------------------|  
+|Agricultural Structure|	6|
+|Airport|	4581|
+|Airport Runway|	8|
+|Airport Terminal|	237|
+|Amusement Park|	7996|
+|Apparel Store  (Clothing Store)|	9537|
+|ATM|	3578|
+|Auto Dealership|	5511|
+|Auto Service & Maintenance|	7538|
+|Bank|	6000|
+|Bookstore|	9995|
+|Border Post  (Border Crossing)|	9999|
+|Bowling Alley/Centre|	7933|
+|Bridge|	19|
+|Bus Station|	4170|
+|Business Facility (Administrative/Office Building, Business Center and Factory)|	5000|
+|Camp  (Campground)|	9517|
+|Casino|	7985|
+|Cemetery|	9591|
+|Cinema|	7832|
+|City Hall|	9121|
+|Coffee Shop|	9996|
+|Community Center  (Civic/Community Centre)|	7994|
+|Consumer Electronics Store|	9987|
+|Convenience Store|	9535|
+|Convention Center  (Convention/Exhibition Centre)|	7990|
+|Court House|	9211|
+|Currency Exchange|	220|
+|Dam|	45|
+|Department Store|	9545|
+|Educational Structure|	54|
+|Embassy|	9993|
+|Fast Food|	275|
+|Ferry Terminal|	4482|
+|Financial Structure|	193|
+|Fire Station|	270|
+|Fish Hatchery|	59|
+|Gas Station  (Petrol/Gasoline Station)|	5540|
+|Golf Course|	7992|
+|Government Structure  (Government Office)|	9525|
+|Grocery Store|	5400|
+|Heliport|	73|
+|Higher Education Facility  (Higher Education)|	8200|
+|Historical Monument (Battlefield, Fort and Historical Site)|	5999|
+|Home Improvement (Hardware and Home Furnishing Store)|	9986|
+|Hospital|	8060|
+|Hotel|	7011|
+|Ice Skating Rink|	7998|
+|Industrial Zone|	9991|
+|Information Center  (Tourist Information)|	7389|
+|Junction|	87|
+|Library|	8231|
+|Lighthouse|	94|
+|Marina|	4493|
+|Medical Service (Doctor Office and Medical Structure)|	9583|
+|Military Base|	9715|
+|Motorcycle Dealership|	5571|
+|Multi Modal Station|	238|
+|Museum|	8410|
+|Neighborhood  (Hamlet)|	9998|
+|Nightlife (Bar, Discotheque, Jazz Club, Karaoke Club and Private Club)|	5813|
+|Observation Point|	114|
+|Office Supply Store  (Office Supply & Services Store)|	9988|
+|Other Accommodation (Bed and Breakfast, Cabin, Hostel,  Motel and Resort)|	7013|
+|Park  (Park/Recreation Area)|	7947|
+|Park & Ride|	7522|
+|Parking Garage/House|	7521|
+|Performing Arts (Comedy Club and Theater)|	7929|
+|Personal Care Facility|	303|
+|Pharmacy|	9565|
+|Place of Worship (Church, Mission, Mosque, Temple and Religious Structure)|	9992|
+|Police Station|	9221|
+|Populated Place|	4444|
+|Port|	280|
+|Post Office|	9530|
+|Prison|	137|
+|Railway Station|	4013|
+|Railway Station Entrance|	273|
+|Recreational Structure|	142|
+|Rental Car Agency|	7510|
+|Residential Structure  (Residential Area/Building)|	9590|
+|Rest Area|	7897|
+|Restaurant|	5800|
+|Ruin|	153|
+|School|	8211|
+|Scientific Research Base|	156|
+|Shopping (Market and Shopping Center)|	6512|
+|Ski Area  (Ski Resort)|	7012|
+|Specialty Store (Hobby Store, Pet Store and Warehouse Club)|	9567|
+|Sporting Goods Store|	9568|
+|Sports Complex (Playing Field and Race Track)|	7940|
+|Stadium  (Sports Centre)|	7997|
+|Store|	259|
+|Tollgate|	283|
+|Transportation Service (Metro Station, Railway and Transportation Structure)|	7999|
+|Trailhead|	236|
+|Tramway|	262|
+|Transportation Service (Metro Station, Railway and Transportation Structure)|	9593|
+|Truck Dealership|	9719|
+|Truck Stop  (Truck Stop/Plaza)|	9522|
+|Tunnel|	177|
+|Vehicle Organization Office  (Automobile Club)|	8699|
+|Veterinarian|	304|
+|Weigh Station|	9710|
+|Winery|	2084|
+|Zoo  (Animal Park)|	9718|

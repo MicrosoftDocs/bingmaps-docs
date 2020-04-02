@@ -11,7 +11,7 @@ Event arguments passed to MapView.Holding callback.
 
 ### Position
 
-Gets the location of the pointer input in client coordinate.
+Gets the position of the pointer input in screen pixels, relative to the map view.
 
 >```java
 > final android.graphics.Point position
@@ -19,7 +19,7 @@ Gets the location of the pointer input in client coordinate.
 
 ### Location
 
-Gets the geographic location that corresponds to where the MapControl received user input.
+Gets the geographic location that corresponds to the position from the received user input.
 
 >```java
 > final Geopoint location
