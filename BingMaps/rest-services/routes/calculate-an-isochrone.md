@@ -29,7 +29,7 @@ The Bing Maps Isochrone API provides time-specific, isoline polygons for the dis
 
 When you make a request by using one of the following URL templates, the response returns either a `IsochroneResponse` resource that contains the requested isochrone information or an `RouteProxyAsyncResult ` resource which contains information on the asynchronous request that was made to calculate an isochrone. For more information about these resources, see [Isochrone Data](../routes/isochrone-data.md). You can also view the example URL and response values in the [Examples](calculate-an-isochrone.md#examples) section.
 
-For geographic availability, see the travelMode parameter below.
+For Calculate an Isochrone geographic availability, see the travelMode parameter below.
 
 ## API Limits
 
