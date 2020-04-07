@@ -158,7 +158,7 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 |Philippines|Good|Address|  
 |Russia|Good|Address|  
 |Singapore|Good|Address|  
-|South Korea|Good|Address|  
+|Korea|Good|Address|  
 |Sri Lanka|Fair|Street Name|  
 |Taiwan|Good|Address|  
 |Tajikistan|Major Roads Only|Basic|  

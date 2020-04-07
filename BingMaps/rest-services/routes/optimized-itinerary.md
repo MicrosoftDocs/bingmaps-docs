@@ -45,6 +45,8 @@ For more information about these resources, see [Multi-Itinerary Optimization 
 
 See [Asynchronous Requests](../common-parameters-and-types/asynchronous-requests.md) for how to use Bing Maps REST asynchronous requests.
 
+Optimized Itinerary is available in countries/regions summarized in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea.
+
 ## API Templates
 
 > [!NOTE]
