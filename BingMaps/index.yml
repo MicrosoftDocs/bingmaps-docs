@@ -22,15 +22,15 @@ highlightedContent:
     # Card
     - title: Getting Started with Bing Maps
       itemType: get-started
-      url: https://docs.microsoft.com/en-us/bingmaps/getting-started/
+      url: https://docs.microsoft.com/bingmaps/getting-started/
     # Card
     - title: Bing Maps SDK for Android and iOS
       itemType: reference
-      url: https://docs.microsoft.com/en-us/bingmaps/sdk-native
+      url: https://docs.microsoft.com/bingmaps/sdk-native
     # Card
     - title: Bing Maps Licensing
       itemType: overview
-      url: https://www.microsoft.com/en-us/maps/licensing
+      url: https://www.microsoft.com/maps/licensing
     # Card
     - title: Bing Maps Blog
       itemType: overview
@@ -38,7 +38,7 @@ highlightedContent:
     # Card
     - title: Bing Maps Support
       itemType: overview
-      url: https://www.microsoft.com/en-us/maps/support
+      url: https://www.microsoft.com/maps/support
     # Card
     - title: Open Source Maps
       itemType: reference
@@ -53,23 +53,23 @@ additionalContent:
         # Card
         - title: Bing Maps V8 Web Control
           summary: Learn how to add maps to your web app using JavaScript or TypeScript.
-          url: https://docs.microsoft.com/en-us/bingmaps/v8-web-control
+          url: https://docs.microsoft.com/bingmaps/v8-web-control
         # Card
         - title: Bing Maps REST Services
           summary: Access geocoding, routing, icochrone, static imagery services and more.
-          url: https://docs.microsoft.com/en-us/bingmaps/rest-services
+          url: https://docs.microsoft.com/bingmaps/rest-services
         # Card
         - title: Bing Maps Spatial Data Services
           summary: Batch geocode data, access administrative boundaries, and expose your data as a spatial REST services.
-          url: https://docs.microsoft.com/en-us/bingmaps/spatial-data-services
+          url: https://docs.microsoft.com/bingmaps/spatial-data-services
         # Card
         - title: Windows UWP Map Control
           summary: Learn how to use the Bing Maps control built into the Windows UWP developer APIs using C#, VB, or C++.
-          url: https://docs.microsoft.com/en-us/windows/uwp/maps-and-location
+          url: https://docs.microsoft.com/windows/uwp/maps-and-location
         # Card
         - title: Bing Maps WPF Control
           summary: Learn how to use the Bing Maps Windows Presentation Foundation (WPF) Control.
-          url: https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
+          url: https://docs.microsoft.com/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
         # Card
         - title: Maps SDK, A Microsoft Garage Project
           summary: Learn how to add maps to your Mixed Reality Unity project.
@@ -77,8 +77,8 @@ additionalContent:
         # Card
         - title: Articles
           summary: Articles that provide background information and cross-API information for Bing Maps APIs.
-          url: https://docs.microsoft.com/en-us/bingmaps/articles
+          url: https://docs.microsoft.com/bingmaps/articles
         # Card
         - title: Geographic Coverage Information
           summary: Bing Maps geographic coverage information for geocoding, routing, traffic, and more.
-          url: https://docs.microsoft.com/en-us/bingmaps/coverage
+          url: https://docs.microsoft.com/bingmaps/coverage
