@@ -1,0 +1,84 @@
+### YamlMime:Hub
+
+title: Bing Maps documentation # < 60 chars
+summary: Introduce Bing Maps API. # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: dotnet
+
+metadata:
+  title: Bing Maps documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Introduce Bing Maps API. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: bing-maps #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: rbrundritt #Required; your GitHub user alias, with correct capitalization.
+  ms.author: richbrun #Required; microsoft alias of author; optional team alias.
+  ms.date: 02/28/2018 #Required; mm/dd/yyyy format.
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Getting Started with Bing Maps
+      itemType: get-started
+      url: https://docs.microsoft.com/en-us/bingmaps/getting-started/
+    # Card
+    - title: Bing Maps SDK for Android and iOS
+      itemType: reference
+      url: https://docs.microsoft.com/en-us/bingmaps/sdk-native
+    # Card
+    - title: Bing Maps Licensing
+      itemType: overview
+      url: https://www.microsoft.com/en-us/maps/licensing
+    # Card
+    - title: Bing Maps Blog
+      itemType: overview
+      url: https://blogs.bing.com/maps/
+    # Card
+    - title: Bing Maps Support
+      itemType: overview
+      url: https://www.microsoft.com/en-us/maps/support
+    # Card
+    - title: Open Source Maps
+      itemType: reference
+      url: https://github.com/Microsoft/Maps
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - items:
+        # Card
+        - title: Bing Maps V8 Web Control
+          summary: Learn how to add maps to your web app using JavaScript or TypeScript.
+          url: https://docs.microsoft.com/en-us/bingmaps/v8-web-control
+        # Card
+        - title: Bing Maps REST Services
+          summary: Access geocoding, routing, icochrone, static imagery services and more.
+          url: https://docs.microsoft.com/en-us/bingmaps/rest-services
+        # Card
+        - title: Bing Maps Spatial Data Services
+          summary: Batch geocode data, access administrative boundaries, and expose your data as a spatial REST services.
+          url: https://docs.microsoft.com/en-us/bingmaps/spatial-data-services
+        # Card
+        - title: Windows UWP Map Control
+          summary: Learn how to use the Bing Maps control built into the Windows UWP developer APIs using C#, VB, or C++.
+          url: https://docs.microsoft.com/en-us/windows/uwp/maps-and-location
+        # Card
+        - title: Bing Maps WPF Control
+          summary: Learn how to use the Bing Maps Windows Presentation Foundation (WPF) Control.
+          url: https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
+        # Card
+        - title: Maps SDK, A Microsoft Garage Project
+          summary: Learn how to add maps to your Mixed Reality Unity project.
+          url: https://github.com/Microsoft/MapsSDK-Unity
+        # Card
+        - title: Articles
+          summary: Articles that provide background information and cross-API information for Bing Maps APIs.
+          url: https://docs.microsoft.com/en-us/bingmaps/articles
+        # Card
+        - title: Geographic Coverage Information
+          summary: Bing Maps geographic coverage information for geocoding, routing, traffic, and more.
+          url: https://docs.microsoft.com/en-us/bingmaps/coverage
