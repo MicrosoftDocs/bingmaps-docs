@@ -1,7 +1,7 @@
 ---
 title: "Optimized Itinerary | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/03/2019" Last updated "02/12/2020"
+ms.date: "05/03/2019" Last updated "04/08/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -102,7 +102,8 @@ Here is a template POST body, in JSON format, which should be used for both sync
             "closingTime": "...",
             "dwellTime": "...",
             "priority": ...,
-            "quantity" :[...],            
+            "quantity" :[...], 
+            "depot": ...,
             "location": {
                 "latitude": ...,
                 "longitude": ...
@@ -159,14 +160,14 @@ Here is the list of parameters.
 |Parameter|Alias|Description|Values|
 |:-------:|:---:|-----------|------|
 |`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information: including the agent name, shift starting and ending locations for agent, and capacity of the agent's vehicle. | A semi-colon separated string of Agent/Shift information for GET requests, and JSON or XML list for POST body. <br /> <br />**Note:** <br/><br/> •  `capacity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the vehicle capacity in terms of volume, weight, pallet or case count, or passenger count, etc. <br /><br /> See below for examples.|
-|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents, including the location name, location (lat/lon), priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered to or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. | A semi-colon separated list of Itinerary Items for GET requests, and JSON or XML list for POST body. <br /><br /> **Note**: <br/><br/> •  `quantity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the load quantity in terms of volume, weight, pallets or case count, or passenger count, etc., that the vehicle delivers to or picks up from each location. A positive value denotes pick up, while a negative value denotes drop off. <br /><br /> •  `dropOffFrom` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) that defines the location(s) that the agent needs to visit before visting the current location. <br /><br /> See below for examples.|
+|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents, including the location name, location (lat/lon), priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered to or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. | A semi-colon separated list of Itinerary Items for GET requests, and JSON or XML list for POST body. <br /><br /> **Note**: <br/><br/> •  `quantity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the load quantity in terms of volume, weight, pallets or case count, or passenger count, etc., that the vehicle delivers to or picks up from each location. A positive value denotes pick up, while a negative value denotes drop off. <br /><br /> •  `depot` is an **optional** string, either `true` or `false`, to signify if a location (e.g., a warehouse) can be visited more than once for picking up loads. <br /><br /> Default: false <br /><br /> •  `dropOffFrom` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) that defines the location(s) that the agent needs to visit before visting the current location. <br /><br />  See below for examples.|
 |`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.<br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value.|
 |`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | A string, either `true` or `false`. <br /><br />Default: true <br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value. |
 |`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled <br /><br />Default: TravelTime|
 
 ## API Limits
 
-The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 20 itineraryAgents and 300 itineraryItems per request.
+The API supports up to 3 itineraryAgents and 20 itineraryItems per request for Basic Bing Maps accounts. For Enterprise Bing Maps accounts, the API supports up to 50 itineraryAgents and 500 itineraryItems per request.
 
 The Multi-Itinerary Optimization API doesn't currently support China, Japan and South Korea.
 
@@ -770,27 +771,15 @@ To send a synchronous POST request, set the POST head `Content-Type: application
             "name": "agentName",
             "shifts": [
                 {
-                    "startTime": "2017-11-09T08:00:00",
+                    "startTime": "2019-11-09T08:00:00",
                     "startLocation": {
                         "latitude": 47.694117204371,
                         "longitude": -122.378188970181
                     },
-                    "endTime": "2017-11-09T11:00:00",
+                    "endTime": "2019-11-09T18:00:00",
                     "endLocation": {
                         "latitude": 47.7070790545669,
                         "longitude": -122.355226696231
-                    }
-                },
-                {
-                    "startTime": "2017-11-09T13:00:00",
-                    "startLocation": {
-                        "latitude": 47.695117204371,
-                        "longitude": -122.380188970181
-                    },
-                    "endTime": "2017-11-09T19:00:00",
-                    "endLocation": {
-                        "latitude": 47.7370790545669,
-                        "longitude": -122.395226696231
                     }
                 }
             ],
@@ -800,53 +789,53 @@ To send a synchronous POST request, set the POST head `Content-Type: application
     "itineraryItems": [
         {
             "name": "loc1",
-            "OpeningTime": "2017-11-09T09:00:00",
-            "ClosingTime": "2017-11-09T18:00:00",
-            "DwellTime": "01:31:08.3850000",
-            "Priority": 5,
-            "quantity" : [10],             
-            "Location": {
-                "Latitude": 47.692290770423,
-                "Longitude": -122.385954752402
+            "openingTime": "2019-11-09T09:00:00",
+            "closingTime": "2019-11-09T18:00:00",
+            "dwellTime": "01:31:08.3850000",
+            "priority": 5,
+            "quantity" : [4],             
+            "location": {
+                "latitude": 47.692290770423,
+                "longitude": -122.385954752402
             }
         },
         {
             "name": "loc2",
-            "OpeningTime": "2017-11-09T09:00:00",
-            "ClosingTime": "2017-11-09T18:00:00",
-            "DwellTime": "01:00:32.6770000",
-            "Priority": 88,
-            "quantity" :[10],
-            "Location": {
-                "Latitude": 47.6798098928389,
-                "Longitude": -122.383036445391
+            "openingTime": "2019-11-09T09:00:00",
+            "closingTime": "2019-11-09T18:00:00",
+            "dwellTime": "01:00:32.6770000",
+            "priority": 88,
+            "quantity" :[3],
+            "location": {
+                "latitude": 47.6798098928389,
+                "longitude": -122.383036445391
             }
         },
         {
             "name": "loc3",
-            "OpeningTime": "2017-11-09T09:00:00",
-            "ClosingTime": "2017-11-09T18:00:00",
-            "DwellTime": "01:18:33.1900000",
-            "Priority": 1,
+            "openingTime": "2019-11-09T09:00:00",
+            "closingTime": "2019-11-09T18:00:00",
+            "dwellTime": "01:18:33.1900000",
+            "priority": 1,
             "quantity" :[-1],
-            "Location": {
-                "Latitude": 47.6846639223203,
-                "Longitude": -122.364839942855
+            "location": {
+                "latitude": 47.6846639223203,
+                "longitude": -122.364839942855
             },
-            dropOffFrom: [
+            "dropOffFrom": [
                 "loc1"                
             ]
         },
         {
             "name": "loc4",
-            "OpeningTime": "2017-11-09T09:00:00",
-            "ClosingTime": "2017-11-09T18:00:00",
-            "DwellTime": "01:04:48.7630000",
-            "Priority": 3,
+            "openingTime": "2019-11-09T09:00:00",
+            "closingTime": "2019-11-09T18:00:00",
+            "dwellTime": "01:04:48.7630000",
+            "priority": 3,
             "quantity" :[-3],
-            "Location": {
-                "Latitude": 47.6867440824094,
-                "Longitude": -122.354711700877
+            "location": {
+                "latitude": 47.6867440824094,
+                "longitude": -122.354711700877
             },
             "dropOffFrom": [
                 "loc1"                
@@ -854,14 +843,14 @@ To send a synchronous POST request, set the POST head `Content-Type: application
         },
         {
             "name": "loc5",
-            "OpeningTime": "2017-11-09T09:00:00",
-            "ClosingTime": "2017-11-09T18:00:00",
-            "DwellTime": "02:34:48.5430000",
-            "Priority": 16,
+            "openingTime": "2019-11-09T09:00:00",
+            "closingTime": "2019-11-09T18:00:00",
+            "dwellTime": "02:34:48.5430000",
+            "priority": 16,
             "quantity" :[-3],
-            "Location": {
-                "Latitude": 47.6962193175262,
-                "Longitude": -122.342180147243
+            "location": {
+                "latitude": 47.6962193175262,
+                "longitude": -122.342180147243
             },
             "dropOffFrom": [
                 "loc2"                
