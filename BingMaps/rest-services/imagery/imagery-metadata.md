@@ -35,8 +35,8 @@ These fields are only used only by the Birdseye Metadata resource.
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
 |`orientation`|`Orientation`|`double`|The orientation of the viewport for the imagery metadata in degrees where 0 = North [default], 90 = East, 180 = South, 270 = West.|  
-|`tilesX`|`TilesX`|`integer`|The horizontal dimension of the imagery in number of tiles.|  
-|`tilesY`|`TilesY`|`integer`|The vertical dimension of the imagery in number of tiles.|  
+|`tilesX`|`TilesX`|`integer`|The horizontal dimension of the imagery in number of tiles, at zoom level zoomMax. To determine the approximate number of tiles at a lower zoom level, divide tileX by two (rounding down) for each lower zoom level between zoomMax and the desired level. To determine the exact number of tiles at a different zoom level, make another metadata call specifying the desired zoom level.|  
+|`tilesY`|`TilesY`|`integer`|The vertical dimension of the imagery in number of tiles, at zoom level zoomMax. To determine the approximate number of tiles at a lower zoom level, divide tileY by two (rounding down) for each lower zoom level between zoomMax and the desired level. To determine the exact number of tiles at a different zoom level, make another metadata call specifying the desired zoom level.|  
 
 ## Streetside Metadata Resource Fields
 
