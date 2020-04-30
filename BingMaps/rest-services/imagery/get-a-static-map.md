@@ -366,7 +366,7 @@ The following URL request gets an image of Bergen Place in Ballard, Seattle, wit
 If you examine the response headers, you'll find that `X-VE-SS-CaptureDate` is set to `Wed, 16 Jul 2014 17:13:06 GMT`.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=600,350key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=600,350&key={BingMapsAPIKey}
 ``` 
 
 ![Street View of Ballard](../media/BallardStreetImage.jpg)
