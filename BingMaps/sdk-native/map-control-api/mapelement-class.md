@@ -16,7 +16,7 @@ Represents an element displayed on a MapControl.
 **iOS**
 
 >```objectivec
-> @interface MSMapElement : NSObject
+> @interface MSMapElement : UIAccessibilityElement
 >```
 
 ## Properties
@@ -113,6 +113,27 @@ The ZIndex of the map element. Elements with a higher ZIndex will render on top 
 >```objectivec
 > @property (nonatomic) int zIndex
 >```
+
+
+## Accessibility
+
+Map elements are accessible via corresponding accessibility traits depending on the platform.  
+It is recommended to provide accessibility descriptions for user elements.
+
+### ContentDescription property (Android)
+
+Describes the element for accessibility services.
+
+>```java
+> @Nullable CharSequence getContentDescription()
+> void setContentDescription(@Nullable CharSequence description)
+>```
+
+### UIAccessibilityElement superclass (iOS)
+
+`MSMapElement` inherits from `UIAccessibilityElement` where the information about the element can be provided. Please refer to
+[official documentation](https://developer.apple.com/documentation/uikit/uiaccessibilityelement) for usage and details.
+
 
 ## See Also
 
