@@ -89,6 +89,17 @@ Or, use an *unstructured* URL:
 https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}?zoomLevel={zoomLevel}&heading={heading}&pitch={pitch}&key={BingMapsAPIKey}
 ```
 
+### Get Streetside images at a specified address
+
+Retrieve a street image at a specified address.
+
+```url
+http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}?zoomlevel=0&key={BingMapsAPIKey}
+```
+
+If Streetside imagery is not available for this address, or if the REST Locations call for it does not contain both rooftop and routable (usage type: Route) coordinates, it will return 404 not found error. 
+
+
 ## Draw Lines, Polygons, Circles, and Curves on Static Maps
 
 Using any of the above URL templates, retrieve a static map with some shape drawn on the image by specifying the `drawCurve` parameter.
