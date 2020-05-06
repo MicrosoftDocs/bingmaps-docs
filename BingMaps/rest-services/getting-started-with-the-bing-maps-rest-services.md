@@ -22,9 +22,6 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
   
 ## Bing Maps REST Services  
 
-> [!NOTE]
->  Bing Maps API works ONLY from requests using the standard HTTP ports: 80 (http) or 443 (https).
-
  The following table lists the Bing Maps REST Services and the common tasks they perform. Click the links for API details.  
   
 |REST API|Features|  
@@ -38,6 +35,9 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
 |[Time Zone](../rest-services/timezone/index.md)| - Get a Time Zone by point or query.<br />- Convert UTC datetime to a time zone.<br />- Get information about Windows and IANA time zone standards.|
   
 ### Additional Topics  
+
+> [!NOTE]
+>  Bing Maps API works ONLY from requests using the standard HTTP ports: 80 (http) or 443 (https).
 
  The following topics show examples of how to use the Bing Maps REST Services with other Bing Maps APIs or provide related information.  
   
