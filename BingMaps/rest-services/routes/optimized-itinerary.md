@@ -152,7 +152,7 @@ The information for these parameters must be formatted using the following synta
 
 > [!NOTE]
 >
-> The dwell time is the total estimated time a visit to a scheduled item will take, and  priority must be an integer between `1` and `100`, inclusive.
+> The dwell time is the total estimated time a visit to a scheduled item will take, and  priority must be an integer between `1` and `100`, inclusive. Priority `1` is the lowest priority and `100` is the highest priority. Multiple itinerary items can have the same priority value.
 
 
 Here is the list of parameters.
