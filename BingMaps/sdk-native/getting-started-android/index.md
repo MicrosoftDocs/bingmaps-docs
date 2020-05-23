@@ -56,9 +56,9 @@ Next, in the same file, inside `buildTypes` block, insert following block next t
         it.buildConfigField "String", "CREDENTIALS_KEY", "\"$credentialsKey\""
     }
 
-And finally, inside `dependencies` block, add the following lines:
+And finally, inside `dependencies` block, add the following lines and build your project:
 
-    implementation 'com.microsoft.maps:maps-sdk:1.0.0'
+    implementation 'com.microsoft.maps:maps-sdk:1.1.4'
 
 ## Adding a map view to your activity
 
@@ -85,13 +85,19 @@ At the top of your activity class, declare a MapView:
 > private MapView mMapView;
 >```
 
-Place following code in your activity's `onCreate` method, after `setContentView` call, to initialize the map view:
-
 >```java
-> mMapView = new MapView(this, MapRenderMode.VECTOR);  // or use MapRenderMode.RASTER for 2D map
-> mMapView.setCredentialsKey(BuildConfig.CREDENTIALS_KEY);
-> ((FrameLayout)findViewById(R.id.map_view)).addView(mMapView);
+> @Override
+> protected void onCreate(Bundle savedInstanceState) {
+>   super.onCreate(savedInstanceState);
+>   setContentView(R.layout.{your_layout_file});
+>   mMapView = new MapView(this, MapRenderMode.VECTOR);  // or use MapRenderMode.RASTER for 2D map
+>   mMapView.setCredentialsKey(BuildConfig.CREDENTIALS_KEY);
+>   ((FrameLayout)findViewById(R.id.map_view)).addView(mMapView);
+>   mMapView.onCreate(savedInstanceState);
+>}
 >```
+
+### Handling life cycle events
 
 Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onResume`, `onPause`, `onSaveInstanceState`, `onStop`, `onDestroy`, and `onLowMemory` to call respective MapView methods from the callbacks as follow:
 
@@ -100,6 +106,10 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 > public void onCreate(Bundle savedInstanceState)
 > {
 >     super.onCreate(savedInstanceState);
+>     setContentView(R.layout.{your_layout_file});
+> 
+>     // Code to create your MapView
+> 
 >     mMapView.onCreate(savedInstanceState);
 > }
 >```
@@ -154,7 +164,7 @@ Override Activity and Fragment life cycle methods, `onCreate`, `onStart`, `onRes
 
 >```java
 > @Override
-> protected void onLowMemory() {
+> public void onLowMemory() {
 >     super.onLowMemory();
 >     mMapView.onLowMemory();
 > }
