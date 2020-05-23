@@ -118,7 +118,7 @@ The ZIndex of the map element. Elements with a higher ZIndex will render on top 
 ## Accessibility
 
 Map elements are accessible via corresponding accessibility traits depending on the platform.  
-It is recommended to provide accessibility descriptions for user elements.
+***Note: It is recommended to provide accessibility descriptions for user elements. User elements with missing descriptions may not be accessible.***
 
 ### ContentDescription property (Android)
 
