@@ -51,7 +51,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 >   use_frameworks!
 >
 >   # Pods for SampleApp
->   pod 'MicrosoftMapsSDK', '~> 1.0.0'
+>   pod 'MicrosoftMapsSDK', '~> 1.1.4'
 > end
 >```
 
