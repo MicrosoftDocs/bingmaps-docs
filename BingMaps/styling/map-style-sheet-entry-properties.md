@@ -25,16 +25,24 @@ In this simple JSON style sheet, the "water" entry is a MapElement, so it can se
 {"version":"1.*", "elements":{"water":{"fillColor":"#FF0000"}}}
 ```
 
+## Table description
+
+| Column          | Description |
+|-----------------|-------------|
+| Web             | Whether the property is supported by the web map control and what the URI short name is for it. |
+| Windows         | The minimum version of Windows that supports the entry. |
+| Android and iOS | The minimum version of the iOS or Android control that supports the property. |
+
 ## Version properties
 
-| Property | Type | Web Type | Description |
-|----------|------|----------|-------------|
-| version | String | string | Targeted style sheet version. Used for applicability. "1.0" for default, "1.*" for additional minor features updates. |
+| Property | Type   | Description |
+|----------|--------|-------------|
+| version  | string | Targeted style sheet version. Used for applicability. "1.0" for default, "1.*" for additional minor features updates. |
 
 ## Settings properties
 Web: ISettingStyle
 
-| Name                    | Type    | Web Arg | Windows Min | Android iOS Min | Description |
+| Name                    | Type    | Web     | Windows     | Android and iOS | Description |
 |-------------------------|---------|---------|-------------|-----------------|-------------|
 | atmosphereVisible	      | boolean |         | 1703        | 1.0.0           | A flag that indicates whether the atmosphere appears in the 3D control. |
 | buildingTexturesVisible | boolean |         | 1803        | 1.0.0           | A flag that indicates whether or not to show textures on symbolic 3D buildings that have textures. |
@@ -54,7 +62,7 @@ Web: ISettingStyle
 ## MapElement properties
 Web: IMapElementStyle
 
-| Property          | Type    | Web Args | Windows Min | Android iOS Min | Description |
+| Property          | Type    | Web      | Windows     | Android and iOS | Description |
 |-------------------|---------|----------|-------------|-----------------|-------------|
 | backgroundScale   | number  |          | 1703        | 1.0.0           | Amount by which the background element of an icon should be scaled. For example, use 1 for default and 2 for twice as large. |
 | fillColor         | color   | fc       | 1703        | 1.0.0           | The color that is used for filling polygons, the background of point icons, and for the center of lines if they have split. |
@@ -77,7 +85,7 @@ Web: IBorderedMapElementStyle
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property           | Type    | Web Args | Windows Min | Android iOS Min | Description |
+| Property           | Type    | Web      | Windows     | Android and iOS | Description |
 |--------------------|---------|----------|-------------|-----------------|-------------|
 | borderOutlineColor | color   | boc      | 1703        | 1.0.0           | The secondary or casing line color of the border of a filled polygon. |
 | borderStrokeColor  | color   | bsc      | 1703        | 1.0.0           | The primary line color of the border of a filled polygon. |
@@ -88,7 +96,7 @@ This property group extends the MapElement (web: IMapElementStyle) property grou
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property              | Type    | Web Args | Windows Min | Android iOS Min | Description |
+| Property              | Type    | Web      | Windows     | Android and iOS | Description |
 |-----------------------|---------|----------|-------------|-----------------|-------------|
 | shadowVisible         | boolean |          | 1903        | 1.0.0           | The flag that indicates whether the shadow of icon should be visible or not. |
 | shape-Background      | string  |          | 1903        | 1.0.0           | Shape to use as the background of the icon--replacing any shape that exists there. |
@@ -103,6 +111,6 @@ This property group extends the MapElement (web: IMapElementStyle) property grou
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property              | Type    | Web Args | Windows Min | Android iOS Min | Description |
+| Property              | Type    | Web      | Windows     | Android and iOS | Description |
 |-----------------------|---------|----------|-------------|-----------------|-------------|
 | renderAsSurface       | boolean |          | 1803        |                 | A flag that indicates that a 3D model should be rendered like a building--without depth fading against the ground. |
