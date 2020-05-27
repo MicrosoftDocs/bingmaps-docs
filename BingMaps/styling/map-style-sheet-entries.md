@@ -1,5 +1,5 @@
 ---
-title: "Map Style Sheet Reference in Maps | Microsoft Docs"
+title: "Map Style Sheet Entries | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
@@ -13,63 +13,15 @@ ms.author: ""
 manager: ""
 ms.service: "bing-maps"
 ---
-# Map Style Sheet Reference in Maps
+# Map Style Sheet Entries
 
-Microsoft mapping technologies use map style sheets to define the appearance of maps. A map style sheet is defined using JavaScript Object Notation (JSON) and can be used in:
-* Web site's Map's [customMapStyle option](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/mapoptions-object).
-* A Windows Store application's [MapControl](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) through the [MapStyleSheet.ParseFromJson](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.
-* An Android or iOS application's [MapStyleSheet](https://docs.microsoft.com/en-us/bingmaps/sdk-native/map-control-api/mapstylesheet-class).
+The entries and properties listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a Microsoft map.
 
-Style sheets can be created interactively using the Map Style Sheet Editor application.
-
-## JSON Format Overview
-
-The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
-
-```json
-{"version":"1.*",
-    "settings":{"landColor":"#FFFFFF"},
-    "elements":{"water":{"fillColor":"#FF0000","labelColor":"#00FF00"}, "road":{"fillColor":"#0000FF"}}
-}
-```
-
-This JSON can be used to remove all labels and points from a map.
-
-```json
-{"version":"1.*", "elements":{"mapElement":{"labelVisible":false},"point":{"visible":false}}}
-```
-
-Sometimes the value of a property is transformed to produce the final result. For example, vegetation fillColor has slightly different shades depending on type of the entity being displayed. This behavior can be turned off, thereby using the precise provided value, by using the ignoreTransform property.
-
-```json
-{"version":"1.*",
-    "settings":{"shadedReliefVisible":false},
-    "elements":{"vegetation":{"fillColor":{"value":"#999999","ignoreTransform":true}}}
-}
-```
-
-Web Only URL Format
-For simple style changes with the web control, compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
-
-```url
-water|fillColor:FF0000;labelColor:00FF00_road|fillColor:0000FF_global|landColor:FFFFFF 
-```
-
-...or the short form:
-
-```url
-wt|fc:FF0000;lbc:00FF00_rd|fc:0000FF_g|landColor:FFFFFF
-```
-
-The URL style sheet can then be appended to a REST Static Image request or a tile URL. For example:
-
-```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?&key=[YOUR_BING_MAPS_KEY]&st=wt|fc:FF0000;lbc:00FF00_rd|fc:0000FF_g|landColor:FFFFFF
-```
+Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
 ## Settings and Elements
 
-The JSON entries that can be customized are represented in the following list.  They are represented as a tree structure where setting parent entry properties will override child entry properties.  The properties available to each entry can be found in the entry's property gorup.  This table uses ">" characters to represent levels in the entry hierarchy.
+The JSON entries that can be customized are represented in the following list.  They are represented as a tree structure where setting parent entry properties will override child entry properties.  The properties available to each entry can be found in the entry's property group.  This table uses ">" characters to represent levels in the entry hierarchy.
 
 | Name               | Property Group | Web Arg | Windows Min | Android iOS Min | Description |
 |--------------------|----------------|---------|-------------|-----------------|-------------|
