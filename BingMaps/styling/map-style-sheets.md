@@ -16,15 +16,15 @@ ms.service: "bing-maps"
 # Map Style Sheet Reference in Maps
 
 Microsoft mapping technologies use map style sheets to define the appearance of maps. Map style sheets can be used in:
-* The [Bing Maps web control](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/?redirectedfrom=MSDN) using the [customMapStyle option](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/mapoptions-object).
+* The [Bing Maps web control](https://docs.microsoft.com/bingmaps/v8-web-control/?redirectedfrom=MSDN) using the [customMapStyle option](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/mapoptions-object).
 * The [Windows map control](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) using the [MapStyleSheet.ParseFromJson](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.
-* The [Android or iOS map control](https://docs.microsoft.com/en-us/bingmaps/sdk-native/) using the [MapStyleSheet](https://docs.microsoft.com/bingmaps/sdk-native/map-control-api/mapstylesheet-class) class.
+* The [Android or iOS map control](https://docs.microsoft.com/bingmaps/sdk-native/) using the [MapStyleSheet](https://docs.microsoft.com/bingmaps/sdk-native/map-control-api/mapstylesheet-class) class.
 
 Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
-A map style sheet consists primarily of [entries and properties](map-style-sheet-entries) on those entries that you can override to customize the appearance of your map.
+A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance of your map.
 
-## JSON Format Overview
+## JSON Style Sheet Format 
 
 The primary way to represent a map style sheet is using JavaScript Object Notation (JSON). The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
 
@@ -50,7 +50,7 @@ Sometimes the value of a property is transformed to produce the final result. Fo
 }
 ```
 
-## Web Only URL Format
+## Web Only URL Style Sheet Format
 
 For simple style changes with the web map control, compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
 

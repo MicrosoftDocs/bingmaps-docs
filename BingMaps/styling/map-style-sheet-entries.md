@@ -21,103 +21,43 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 ## Settings and Elements
 
-The JSON entries that can be customized are represented in the following list.  They are represented as a tree structure where setting parent entry properties will override child entry properties.  The properties available to each entry can be found in the entry's property group.  This table uses ">" characters to represent levels in the entry hierarchy.
+The JSON entries that can be customized are represented in the following list.  They are represented as a tree structure where setting parent entry properties will override child entry properties.  The properties available to each entry can be found in the entry's property group.  This table uses ">" to represent levels in the entry hierarchy.
 
 | Name               | Property Group | Web Arg | Windows Min | Android iOS Min | Description |
 |--------------------|----------------|---------|-------------|-----------------|-------------|
-| version            | Version        | version | 1703 | 1.0.0 | The style sheet version that you want to use. |
-| settings           | Settings       | g       | 1703 | 1.0.0 | The settings that apply to the whole style sheet. |
-| mapElement         | MapElement     | me      | 1703 | 1.0.0 | The parent entry to all map entries. |
-| > baseMapElement   | MapElement     | bme     | 1703 | 1.0.0 | The parent entry to all non-user entries. |
-| >> area            | MapElement     | ar      | 1703 | 1.0.0 | Areas describing land use. These should not to be confused with the physical buildings which are under the structure entry. |
-| >>> airport        | MapElement     | ap      | 1703 | 1.0.0 | Areas that encompass airports. |
-| >>> areaOfInterest | MapElement     | ai      | 1709 | 1.0.0 | Areas in which there are a high concentration of businesses or interesting points. |
-| >>> cemetery       | MapElement     | cm      | 1703 | 1.0.0 | Areas that encompass cemeteries. |
-| >>> continent      | MapElement     | ct      | 1703 | 1.0.0 | Continent area labels. |
+| version            | [Version]      | version | 1703 | 1.0.0 | The style sheet version that you want to use. |
+| settings           | [Settings]     | g       | 1703 | 1.0.0 | The settings that apply to the whole style sheet. |
+| mapElement         | [MapElement]   | me      | 1703 | 1.0.0 | The parent entry to all map entries. |
+| > baseMapElement   | [MapElement]   | bme     | 1703 | 1.0.0 | The parent entry to all non-user entries. |
+| >> area            | [MapElement]   | ar      | 1703 | 1.0.0 | Areas describing land use. These should not to be confused with the physical buildings which are under the structure entry. |
+| >>> airport        | [MapElement]   | ap      | 1703 | 1.0.0 | Areas that encompass airports. |
+| >>> areaOfInterest | [MapElement]   | ai      | 1709 | 1.0.0 | Areas in which there are a high concentration of businesses or interesting points. |
+| >>> cemetery       | [MapElement]   | cm      | 1703 | 1.0.0 | Areas that encompass cemeteries. |
+| >>> continent      | [MapElement]   | ct      | 1703 | 1.0.0 | Continent area labels. |
+| >>> education      | [MapElement]   | ed      | 1703 | 1.0.0 | Areas that encompass schools and other educational facilities. |
+| >>> indigenousPeoplesReserve | [MapElement] | ipr | 1703 | 1.0.0 | Areas that encompass indigenous peoples reserves. |
+| >>> industrial     | [MapElement]   | ind     | 1709 | 1.0.0 | Areas that are used for industrial purposes. |
+| >>> island         | [MapElement]   | is      | 1703 | 1.0.0 | Island area labels. |
+| >>> medical        | [MapElement]   | md      | 1703 | 1.0.0 | Areas that are used for medical purposes (For example: a hospital campus). |
+| >>> military       | [MapElement]   | ima     | 1703 | 1.0.0 | Areas that encompass military bases or have military uses. |
+| >>> nautical       | [MapElement]   | nt      | 1703 | 1.0.0 | Areas that are used for nautical related purposes. |
+| >>> neighborhood   | [MapElement]   | nh      | 1703 | 1.0.0 | Neighborhood area labels. |
+| >>> runway         | [MapElement]   | rw      | 1703 | 1.0.0 | Areas that is used as an airplane runway. |
+| >>> sand           | [MapElement]   | sn      | 1703 | 1.0.0 | Sandy areas like beaches. |
+| >>> shoppingCenter | [MapElement]   | sct     | 1703 | 1.0.0 | Areas of ground allocated for malls or other shopping centers. |
+| >>> stadium        | [MapElement]   | sta     | 1703 | 1.0.0 | Areas that encompass stadiums. |
+| >>> underground    | [MapElement]   | ug      | 1709 | 1.0.0 | Underground areas (For example: a metro station footprint). |
+| >>> vegetation     | [MapElement]   | vg      | 1703 | 1.0.0 | Forests, grassy areas, etc. |
+| >>>> forest        | [MapElement]   | fr      | 1703 | 1.0.0 | Areas of forest land. |
+| >>>> golfCourse    | [MapElement]   | gc      | 1703 | 1.0.0 | Areas that encompass golf courses. |
+| >>>> park          | [MapElement]   | pr      | 1703 | 1.0.0 | Areas that encompass parks. |
+| >>>> playingField  | [MapElement]   | pf      | 1703 | 1.0.0 | Extracted pitches such as a baseball field or tennis court. |
+| >>>> reserve       | [MapElement]   | rsv     | 1703 | 1.0.0 | Areas that encompass nature reserves. |
+| >> frozenWater     | [PointStyle]   | fw      | 1903 | 1.0.0 | Frozen water, like glacier. |
+| >> point           | [PointStyle]   | pt      | 1703 | 1.0.0 | All point features that are drawn with an icon of some sort. |
+| >>> address        | [PointStyle]   | adr     | 1803 | 1.0.0 | Address numbers labels. |
 
-## Property Groups
-
-Each JSON entry has a set of properties that can be set on it.  These are listed in the property group for the entry.
-
-### Version properties
-
-| Property | Type | Web Type | Description |
-|----------|------|----------|-------------|
-| version | String | string | Targeted style sheet version. Used for applicability. "1.0" for default, "1.*" for additional minor features updates. |
-
-### Settings properties
-Web: ISettingStyle
-
-| Name                    | Type    | Web Arg | Windows Min | Android iOS Min | Description |
-|-------------------------|---------|---------|-------------|-----------------|-------------|
-| atmosphereVisible	      | boolean |         | 1703        | 1.0.0           | A flag that indicates whether the atmosphere appears in the 3D control. |
-| buildingTexturesVisible | boolean |         | 1803        | 1.0.0           | A flag that indicates whether or not to show textures on symbolic 3D buildings that have textures. |
-| fogColor                | color   |         | 1703        | 1.0.0           | The ARGB color value of the distance fog that appears in the 3D control. |
-| glowColor               | color   |         | 1703        | 1.0.0           | The ARGB color value that might be applied to label glow and icon glow. |
-| imageFamily             | string  |         | 1703        | 1.0.0           | The name of image set to use for this style. Set this value to Default for signs that use fixed colors that are based on the real-world sign. Set this value to Palette for signs that use palette configurable colors. |
-| landColor               | color   | lc      | 1703        | 1.0.0           | The ARGB color value of the land before anything is drawn on that land. |
-| logosVisible            | color   |         | 1703        | 1.0.0           | A flag that indicates whether items that have an Organization property should draw the appropriate Logos or use a generic icon. |
-| officialColorVisible    | boolean |         | 1703        | 1.0.0           | A flag that indicates whether items that have an official color property (such as transit lines in China) should draw that color. For example, turn this value off for a black and white map. |
-| rasterRegionsVisible    | boolean |         | 1703        | 1.0.0           | A flag that indicates whether or not to draw raster regions where they have a better representation than vectors (Japan and Korea). |
-| shadedReliefVisible     | boolean | shadedReliefVisible |  1703 | 1.0.0     | A flag that indicates whether or not to draw elevation shading on the map. |
-| shadowColor             | color   |         | 1809        | 1.0.0           | The color of the shadow behind icons that use shadows. |
-| spaceColor              | color   |         | 1703        | 1.0.0           | The color value for the area around the map. |
-| terrainFlat             | boolean |         |             | 1.1.0 ?         | A flag that indicates whether the terrain should be flat (disabled) on the map. |
-| useDefaultImageColors   | boolean |         | 1703        | 1.0.0           | A flag that indicates whether the original colors in the SVG should be used rather than looking up the palette entry for colors in an image. |
-
-### MapElement properties
-Web: IMapElementStyle
-
-| Property          | Type    | Web Args | Windows Min | Android iOS Min | Description |
-|-------------------|---------|----------|-------------|-----------------|-------------|
-| backgroundScale   | number  |          | 1703        | 1.0.0           | Amount by which the background element of an icon should be scaled. For example, use 1 for default and 2 for twice as large. |
-| fillColor         | color   | fc       | 1703        | 1.0.0           | The color that is used for filling polygons, the background of point icons, and for the center of lines if they have split. |
-| fontFamily        | string  |          | 1703        | 1.0.0           | |
-| fontWeight        | string  |          | 1903        | 1.0.0           | The density of a typeface, in terms of the lightness or heaviness of the strokes. "Light", "Normal", "SemiBold" and "Bold" can be set. |
-| iconColor         | color   |          | 1703        | 1.0.0           | The color of the glyph shown in the middle of a point icon. |
-| iconScale         | number  |          | 1709        | 1.0.0           | Amount by which the glyph of an icon should be scaled. For example, use 1 for default and 2 for twice as large. |
-| labelColor        | color   | lbc      | 1703        | 1.0.0           | The color of a map label. |
-| labelOutlineColor | color   | loc      | 1703        | 1.0.0           | The outline color of a map label. |
-| labelScale        | number  |          | 1703        | 1.0.0           | The amount by which default label sizes are scaled. For example, use 1 for default and 2 for twice as large. |
-| labelVisible      | boolean | lv       | 1703        | 1.0.0           | Species if a map label type is visible or not. |
-| overwriteColor    | boolean |          | 1703        | 1.0.0           | Makes The alpha value of the FillColor overwrite the StrokeColor rather than blend with it. |
-| scale             | number  |          | 1703        | 1.0.0           | The amount by which the whole point's size is scaled. For example, use 1 for default and 2 for twice as large. |
-| strokeColor       | color   | sc       | 1703        | 1.0.0           | The color to use for the outline around polygons, the outline around point icons, and the color of lines. |
-| strokeWidthScale  | number  |          | 1703        | 1.0.0           | The amount by which the stroke of lines are scaled. For example, use 1 for default and 2 for twice as large. |
-| visible           | boolean | v        | 1703        | 1.0.0           | Specifies if the map element is visible or not. |
-
-### BorderedMapElement properties
-Web: IBorderedMapElementStyle
-
-This property group extends the MapElement (web: IMapElementStyle) property group.
-
-| Property           | Type    | Web Args | Windows Min | Android iOS Min | Description |
-|--------------------|---------|----------|-------------|-----------------|-------------|
-| borderOutlineColor | color   | boc      | 1703        | 1.0.0           | The secondary or casing line color of the border of a filled polygon. |
-| borderStrokeColor  | color   | bsc      | 1703        | 1.0.0           | The primary line color of the border of a filled polygon. |
-| borderVisible      | boolean | bv       | 1703        | 1.0.0           | Specifies if a border is visible or not. |
-| borderWidthScale   | number  |          | 1703        | 1.0.0           | The amount by which the stroke of borders are scaled. For example, use 1 for default and 2 for twice as large. |
-
-### PointStyle properties
-
-This property group extends the MapElement (web: IMapElementStyle) property group.
-
-| Property              | Type    | Web Args | Windows Min | Android iOS Min | Description |
-|-----------------------|---------|----------|-------------|-----------------|-------------|
-| shadowVisible         | boolean |          | 1903        | 1.0.0           | The flag that indicates whether the shadow of icon should be visible or not. |
-| shape-Background      | string  |          | 1903        | 1.0.0           | Shape to use as the background of the icon--replacing any shape that exists there. |
-| shape-Icon            | string  |          | 1903        | 1.0.0           | Shape to use as the foreground glyph of the icon--replacing any shape that exists there. |
-| stemAnchorRadiusScale | number  |          | 1803        | 1.0.0           | Amount by which the anchor point of an icon stem should be scaled. For example, use 1 for default and 2 for twice as large. |
-| stemColor             | color   |          | 1703        | 1.0.0           | The color of the stem coming out of the bottom of the icon in 3D mode. |
-| stemHeightScale       | number  |          | 1803        | 1.0.0           | Amount by which the length of the stem of an icon should be scaled. For example, use 1 for default and 2 for twice as long. |
-| stemOutlineColor      | color   |          | 1703        | 1.0.0           | The color of the outline around the stem coming out of the bottom of the icon in 3D mode. |
-| stemWidthScale        | number  |          | 1703        | 1.0.0           | Amount by which the width of the stem of an icon should be scaled. For example, use 1 for default and 2 for twice as long. |
-
-### MapElement3D properties
-
-This property group extends the MapElement (web: IMapElementStyle) property group.
-
-| Property              | Type    | Web Args | Windows Min | Android iOS Min | Description |
-|-----------------------|---------|----------|-------------|-----------------|-------------|
-| renderAsSurface       | boolean |          | 1803        |                 | A flag that indicates that a 3D model should be rendered like a building--without depth fading against the ground. |
-
+[Version]: map-style-sheet-entry-properties.md#version-properties
+[Settings]: map-style-sheet-entry-properties.md#settings-properties
+[MapElement]: map-style-sheet-entry-properties.md#mapelement-properties
+[PointStyle]: map-style-sheet-entry-properties.md#pointstyle-properties
