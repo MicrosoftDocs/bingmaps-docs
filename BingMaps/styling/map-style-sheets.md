@@ -35,7 +35,7 @@ The primary way to represent a map style sheet is using JavaScript Object Notati
 }
 ```
 
-![Style Sample](../articles/media/style-sample.png)
+![Style Sample](../articles/media/style_sample.png)
 
 This JSON can be used to remove all labels and points from a map.
 
