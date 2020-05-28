@@ -21,7 +21,7 @@ Encapsulates a venue, consisting of one or more floors.
 
 | Property        | Type       | Req? | Description |
 |-----------------|------------|------|-------------|
-| id              | string     |  ✔   | [Web Mercator quadkey](../../../articles/bing-maps-tile-system.md) for the tile.  Typically this is a level 10 tile. |
+| id              | string     |  ✔   | [Web Mercator quadkey](../articles/bing-maps-tile-system.md) for the tile.  Typically this is a level 10 tile. |
 | venues          | [venue] [] |      | Venues containing only footprints that overlap this tile. |
 
 ## Example

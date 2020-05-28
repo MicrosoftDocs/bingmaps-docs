@@ -51,7 +51,8 @@ public Point Transform(Point point)
 
 ## Example
 
-See [Sample](sample.md)
+See the venue [sample].
 
 [address]: address.md
 [floor]: floor.md
+[sample]: sample.md
