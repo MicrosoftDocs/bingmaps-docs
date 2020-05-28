@@ -35,6 +35,7 @@ ms.service: "bing-maps"
 [entity]: entity.md
 [floor]: floor.md
 [geometry]: geometry.md
+[inner]: inner.md
 [label]: label.md
 [rectangle]: rectangle.md
 [venue]: venue.md
