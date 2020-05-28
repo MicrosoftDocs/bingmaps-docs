@@ -35,6 +35,8 @@ The primary way to represent a map style sheet is using JavaScript Object Notati
 }
 ```
 
+![Style Sample](../articles/media/style-sample.png)
+
 This JSON can be used to remove all labels and points from a map.
 
 ```json
@@ -69,3 +71,9 @@ The URL style sheet can then be appended to a REST Static Image request or a til
 ```url
 http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?&key=[YOUR_BING_MAPS_KEY]&st=wt|fc:FF0000;lbc:00FF00_rd|fc:0000FF_g|landColor:FFFFFF
 ```
+
+Here is the image this request would return:
+
+![Red Blue Map Style](../articles/media/bmv8-redbluemapstyle.jpg)
+
+If the style is too long for a URL, when using the REST imagery service, the style can be passed in using a POST request. The POST data object format is: `style=[Your custom style]`
