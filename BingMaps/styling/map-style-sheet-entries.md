@@ -101,7 +101,7 @@ The JSON entries that can be customized are represented in the following list.  
 | >>>>>> stadiumPoint                 | [PointStyle]   | stmp     | [1.4] | Stadium icon. |
 | >>>>>> swimmingPoolPoint            | [PointStyle]   | swpp     | [1.4] | Swimming pool icon. |
 | >>>>>> theaterPoint                 | [PointStyle]   | tp       | [1.4] | Theater icon. |
-| >>>>>> wineryPoint                  | [PointStyle]   | wmp      | [1.4] | Winery icon. |
+| >>>>>> wineryPoint                  | [PointStyle]   | wnp      | [1.4] | Winery icon. |
 | >>>>> essentialServicePoint         | [PointStyle]   | esp      | [1.1] | Icons that represent essential services such as parking, banks, gas, etc. |
 | >>>>>> atmPoint                     | [PointStyle]   | atmp     | [1.4] | ATM icon. |
 | >>>>>> automobileRentalPoint        | [PointStyle]   | atmrt    | [1.4] | Automobile rental icon. |
@@ -118,7 +118,7 @@ The JSON entries that can be customized are represented in the following list.  
 | >>>>>> mailPoint                    | [PointStyle]   | mlp      | [1.4] | Mail icon. |
 | >>>>>> marketPoint                  | [PointStyle]   | mktp     | [1.4] | Market icon. |
 | >>>>>> parkingPoint                 | [PointStyle]   | prkp     | [1.4] | Parking icon. |
-| >>>>>> petsPoint                    | [PointStyle]   | ptp      | [1.4] | Pets icon. |
+| >>>>>> PetServicePoint              | [PointStyle]   | ptp      | [1.4] | Pet service icon. |
 | >>>>>> pharmacyPoint                | [PointStyle]   | phmp     | [1.4] | Pharmacy icon. |
 | >>>>>> policePoint                  | [PointStyle]   | plcp     | [1.4] | Police icon. |
 | >>>>>> postalServicePoint           | [PointStyle]   | psts     | [1.4] | Postal service icon. |
@@ -137,7 +137,7 @@ The JSON entries that can be customized are represented in the following list.  
 | >>>>>> hotelPoint                   | [PointStyle]   | htp      | [1.4] | Hotel icon. |
 | >>>>> realEstatePoint               | [PointStyle]   | rep      | [1.1] | Icons that represent real estate businesses. |
 | >>>>> shoppingPoint                 | [PointStyle]   | shp      | [1.1] | Icons that represent hotels and other lodging businesses. |
-| >>>>>> automobileDealerPoint        | [PointStyle]   | atm      | [1.4] | Automobile dealer icon. |
+| >>>>>> automobileDealerPoint        | [PointStyle]   | atmdp    | [1.4] | Automobile dealer icon. |
 | >>>>>> beautyAndSpaPoint            | [PointStyle]   | bsp      | [1.4] | Beauty and spa icon. |
 | >>>>>> bookstorePoint               | [PointStyle]   | bksp     | [1.4] | Bookstore icon. |
 | >>>>>> departmentStorePoint         | [PointStyle]   | dsp      | [1.4] | Department store icon. |
@@ -146,20 +146,20 @@ The JSON entries that can be customized are represented in the following list.  
 | >>>>>> homeApplianceShopPoint       | [PointStyle]   | hasp     | [1.4] | Home appliance shop icon. |
 | >>>>>> mallPoint                    | [PointStyle]   | mllp     | [1.4] | Mall icon. |
 | >>>>>> phoneShopPoint               | [PointStyle]   | psp      | [1.4] | Phone shop icon. |
-| >>>> venuePoint                     | [PointStyle]   | vpt      |       | Encapsulates points that are used primarily in venues. |
-| >>>>> babyChangingPoint             | [PointStyle]   | bcp      |       |   |
-| >>>>> elevatorPoint                 | [PointStyle]   | ep       |       |   |
-| >>>>> entrancePoint                 | [PointStyle]   | enp      |       |   |
-| >>>>> escalatorPoint                | [PointStyle]   | escp     |       |   |
-| >>>>> femaleRestroomPoint           | [PointStyle]   | frp      |       |   |
-| >>>>> mailServicePoint              | [PointStyle]   | msp      |       |   |
-| >>>>> maleRestroomPoint             | [PointStyle]   | mrrp     |       |   |
-| >>>>> meetingPoint                  | [PointStyle]   | mep      |       |   |
-| >>>>> printerPoint                  | [PointStyle]   | prp      |       |   |
-| >>>>> restroomPoint                 | [PointStyle]   | rrp      |       |   |
-| >>>>> stairsPoint                   | [PointStyle]   | sp       |       |   |
-| >>>>> teamPoint                     | [PointStyle]   | tep      |       |   |
-| >>>>> telephonePoint                | [PointStyle]   | tlp      |       |   |
+| >>>> venuePoint                     | [PointStyle]   | vpt      | [1.4] | Encapsulates points that are used primarily in venues. |
+| >>>>> babyChangingPoint             | [PointStyle]   | bcp      | [1.4] | Baby changing station icon. |
+| >>>>> elevatorPoint                 | [PointStyle]   | ep       | [1.4] | Elevator icon. |
+| >>>>> entrancePoint                 | [PointStyle]   | enp      | [1.4] | Entrance icon. |
+| >>>>> escalatorPoint                | [PointStyle]   | escp     | [1.4] | Escalator icon. |
+| >>>>> femaleRestroomPoint           | [PointStyle]   | frp      | [1.4] | Female restroom icon. |
+| >>>>> mailServicePoint              | [PointStyle]   | msp      | [1.4] | Mail service icon. |
+| >>>>> maleRestroomPoint             | [PointStyle]   | mrrp     | [1.4] | Male restroom icon. |
+| >>>>> meetingPoint                  | [PointStyle]   | mep      | [1.4] | Meeting area icon. |
+| >>>>> printerPoint                  | [PointStyle]   | prp      | [1.4] | Printer icon. |
+| >>>>> restroomPoint                 | [PointStyle]   | rrp      | [1.4] | Restroom icon. |
+| >>>>> stairsPoint                   | [PointStyle]   | sp       | [1.4] | Stairs icon. |
+| >>>>> teamPoint                     | [PointStyle]   | tep      | [1.4] | Team area icon. |
+| >>>>> telephonePoint                | [PointStyle]   | tlp      | [1.4] | Telephone icon. |
 | >>> populatedPlace                  | [PointStyle]   | pp       | [1.0] | Icons that represent the size of populated place (For example: a city or town). |
 | >>>> capital                        | [PointStyle]   | cp       | [1.0] | Icons that represent the capital of a populated place. |
 | >>>>> adminDistrictCapital          | [PointStyle]   | adc      | [1.0] | Icons that represent the capital of a state or province. |
@@ -180,36 +180,36 @@ The JSON entries that can be customized are represented in the following list.  
 | >>>> educationBuilding              | [MapElement]   | eb       | [1.0] | Buildings used for education. |
 | >>>> medicalBuilding                | [MapElement]   | mb       | [1.0] | Buildings used for medical purposes such as hospitals. |
 | >>>> transitBuilding                | [MapElement]   | tb       | [1.0] | Buildings used for transit such as airports. |
-| >>> object                          | [MapElement]   | ob       |       | Object such as a desk or statue. |
-| >>> venueFootprint                  | [BorderedMapElement] | vf |       | Encapsulates fundamental structural parts of a venue. |
-| >>>> floor                          | [BorderedMapElement] | fl |       | Area of an individual floor in a venue. |
-| >>>> footprint                      | [BorderedMapElement] | ft |       | Shadow that all above-ground floors cast on the ground. |
-| >>> wall                            | [MapElement]   | wl       |       | A wall. |
-| >>>> activityWall                   | [MapElement]   | awa      |       | Wall around activity rooms. |
-| >>>> foodWall                       | [MapElement]   | fwa      |       | Wall around food rooms. |
-| >>>> secureWall                     | [MapElement]   | swa      |       | Boundary between secure and regular areas. |
-| >>>> shopWall                       | [MapElement]   | shwa     |       | Wall around shop rooms. |
-| >>>> utilityWall                    | [MapElement]   | uwa      |       | Wall around utility rooms. |
-| >>> zone                            | [MapElement]   | zn       |       | Areas and rooms. |
-| >>>> activityZone                   | [MapElement]   | az       |       | Zone for activities. |
-| >>>>> activityRoom                  | [MapElement]   | azr      |       | Room for activities. |
-| >>>> foodZone                       | [MapElement]   | fz       |       | Zone for food services. |
-| >>>>> foodRoom                      | [MapElement]   | fzr      |       | Room for food services. |
-| >>>>> foodShelves                   | [MapElement]   | fzs      |       | Shelves containing food. |
-| >>>> medicalZone                    | [MapElement]   | mz       |       | Zone for medical purposes. |
-| >>>>> medicalShelves                | [MapElement]   | mzs      |       | Shelves containing medical items. |
-| >>>> room                           | [MapElement]   | r        |       | Unclassified room. |
-| >>>> secureZone                     | [MapElement]   | scz      |       | Zone reached through a security checkpoint. |
-| >>>>> secureRoom                    | [MapElement]   | sczr     |       | Area reached through a security checkpoint. |
-| >>>> serviceZone                    | [MapElement]   | sz       |       | Zone for providing services. |
-| >>>>> counter                       | [MapElement]   | szc      |       | Counter used for information, checkout, etc. |
-| >>>>> serviceRoom                   | [MapElement]   | szr      |       | Room for providing services. |
-| >>>> shelves                        | [MapElement]   | sh       |       | Unclassified shelves. |
-| >>>> shopZone                       | [MapElement]   | shz      |       | Zone for shopping. |
-| >>>>> shopRoom                      | [MapElement]   | shzr     |       | Room for shopping. |
-| >>>>> shopShelves                   | [MapElement]   | shzs     |       | Shelves for shopping. |
-| >>>> utilityZone                    | [MapElement]   | uz       |       | Zone of utilitarian value. |
-| >>>>> utilityRoom                   | [MapElement]   | uzr      |       | Room of utilitarian value like stair wells and elevators. |
+| >>> object                          | [MapElement]   | ob       | [1.4] | Object such as a desk or statue. |
+| >>> venueFootprint                  | [BorderedMapElement] | vf | [1.4] | Encapsulates fundamental structural parts of a venue. |
+| >>>> floor                          | [BorderedMapElement] | fl | [1.4] | Area of an individual floor in a venue. |
+| >>>> footprint                      | [BorderedMapElement] | ft | [1.4] | Shadow that all above-ground floors cast on the ground. |
+| >>> wall                            | [MapElement]   | wl       | [1.4] | A wall. |
+| >>>> activityWall                   | [MapElement]   | awa      | [1.4] | Wall around activity rooms. |
+| >>>> foodWall                       | [MapElement]   | fwa      | [1.4] | Wall around food rooms. |
+| >>>> secureWall                     | [MapElement]   | swa      | [1.4] | Boundary between secure and regular areas. |
+| >>>> shopWall                       | [MapElement]   | shwa     | [1.4] | Wall around shop rooms. |
+| >>>> utilityWall                    | [MapElement]   | uwa      | [1.4] | Wall around utility rooms. |
+| >>> zone                            | [MapElement]   | zn       | [1.4] | Areas and rooms. |
+| >>>> activityZone                   | [MapElement]   | az       | [1.4] | Zone for activities. |
+| >>>>> activityRoom                  | [MapElement]   | azr      | [1.4] | Room for activities. |
+| >>>> foodZone                       | [MapElement]   | fz       | [1.4] | Zone for food services. |
+| >>>>> foodRoom                      | [MapElement]   | fzr      | [1.4] | Room for food services. |
+| >>>>> foodShelves                   | [MapElement]   | fzs      | [1.4] | Shelves containing food. |
+| >>>> medicalZone                    | [MapElement]   | mz       | [1.4] | Zone for medical purposes. |
+| >>>>> medicalShelves                | [MapElement]   | mzs      | [1.4] | Shelves containing medical items. |
+| >>>> room                           | [MapElement]   | r        | [1.4] | Unclassified room. |
+| >>>> secureZone                     | [MapElement]   | scz      | [1.4] | Zone reached through a security checkpoint. |
+| >>>>> secureRoom                    | [MapElement]   | sczr     | [1.4] | Area reached through a security checkpoint. |
+| >>>> serviceZone                    | [MapElement]   | sz       | [1.4] | Zone for providing services. |
+| >>>>> counter                       | [MapElement]   | szc      | [1.4] | Counter used for information, checkout, etc. |
+| >>>>> serviceRoom                   | [MapElement]   | szr      | [1.4] | Room for providing services. |
+| >>>> shelves                        | [MapElement]   | sh       | [1.4] | Unclassified shelves. |
+| >>>> shopZone                       | [MapElement]   | shz      | [1.4] | Zone for shopping. |
+| >>>>> shopRoom                      | [MapElement]   | shzr     | [1.4] | Room for shopping. |
+| >>>>> shopShelves                   | [MapElement]   | shzs     | [1.4] | Shelves for shopping. |
+| >>>> utilityZone                    | [MapElement]   | uz       | [1.4] | Zone of utilitarian value. |
+| >>>>> utilityRoom                   | [MapElement]   | uzr      | [1.4] | Room of utilitarian value like stair wells and elevators. |
 | >> transportation                   | [MapElement]   | trs      | [1.0] | Lines that are part of the transportation network (For example: roads, trains, and ferries). |
 | >>> road                            | [MapElement]   | rd       | [1.0] | Lines that represent all roads. |
 | >>>> controlledAccessHighway        | [MapElement]   | cah      | [1.0] | Lines that represent large, controlled access highways. |
