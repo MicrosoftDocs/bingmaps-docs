@@ -19,14 +19,17 @@ A map style sheet defines the appearance of a map in various [Microsoft map cont
 
 Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
-## JSON Style Sheet Format 
+## JSON Style Sheet Format
 
 The primary way to represent a map style sheet is using JavaScript Object Notation (JSON). The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
 
 ```json
-{"version":"1.*",
+{   
+    "version":"1.*",
     "settings":{"landColor":"#FFFFFF"},
-    "elements":{"water":{"fillColor":"#FF0000","labelColor":"#00FF00"}, "road":{"fillColor":"#0000FF"}}
+    "elements":{
+        "water":{"fillColor":"#FF0000","labelColor":"#00FF00"}, 
+        "road":{"fillColor":"#0000FF"}}
 }
 ```
 
@@ -35,13 +38,17 @@ The primary way to represent a map style sheet is using JavaScript Object Notati
 This JSON can be used to remove all labels and points from a map.
 
 ```json
-{"version":"1.*", "elements":{"mapElement":{"labelVisible":false},"point":{"visible":false}}}
+{
+    "version":"1.*", 
+    "elements":{"mapElement":{"labelVisible":false},"point":{"visible":false}}
+}
 ```
 
 Sometimes the value of a property is transformed to produce the final result. For example, vegetation fillColor has slightly different shades depending on type of the entity being displayed. This behavior can be turned off, thereby using the precise provided value, by using the ignoreTransform property.
 
 ```json
-{"version":"1.*",
+{
+    "version":"1.*",
     "settings":{"shadedReliefVisible":false},
     "elements":{"vegetation":{"fillColor":{"value":"#999999","ignoreTransform":true}}}
 }
@@ -49,7 +56,7 @@ Sometimes the value of a property is transformed to produce the final result. Fo
 
 ## Web Only URL Style Sheet Format
 
-For simple style changes with the web map control, compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
+For simple style changes with the [static map control](../rest-services/imagery/get-a-static-map), compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
 
 ```url
 water|fillColor:FF0000;labelColor:00FF00_road|fillColor:0000FF_global|landColor:FFFFFF 

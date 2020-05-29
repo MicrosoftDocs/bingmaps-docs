@@ -15,7 +15,9 @@ ms.service: "bing-maps"
 ---
 # Venue Tile JSON class
 
-Encapsulates a venue, consisting of one or more floors.
+Encapsulates a tile containing the footprints of venues that overlap that tile.  These tiles are used to select a venue.
+
+While this contains a list of [venue] objects, it is expected that these objects will only have an id, a name, and a single [floor] with the footprint [geometry] in it.
 
 ## Properties
 
@@ -30,6 +32,7 @@ Encapsulates a venue, consisting of one or more floors.
 {
   "id": "0212300302",
   "venues": [{
+    "id": "sample-venue",
     "name": { "": "Sample Venue" },
     "floors": [{"entities":[{"type":"Footprint","geometry":[{
       "closed": true,

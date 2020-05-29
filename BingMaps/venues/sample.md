@@ -18,9 +18,11 @@ ms.service: "bing-maps"
 ```json
 {
   "$schema": "https://venuemaps.virtualearth.net/manual/v1.1/Venue.Schema.json",
+  "id": "sample-venue",
   "name": {
     "": "Sample Venue"
   },
+  "isGeoPositioned": true,
   "type": "Building",
   "xy": [0,0],
   "address": {

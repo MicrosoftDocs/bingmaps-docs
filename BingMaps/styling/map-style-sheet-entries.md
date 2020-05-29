@@ -23,8 +23,8 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 The entries shown below are a hierarchy where a [property](map-style-sheet-entry-properties.md) on a parent entry will override child entry properties.  This table uses ">" to represent levels in the entry hierarchy.  The properties available to each entry can be found in the entry's property group.
 
-| Name                                | Property Group | Web      | Style Ver | Description |
-|-------------------------------------|----------------|----------|-----------|-------------|
+| Name                                | Property Group | Web      | Style | Description |
+|-------------------------------------|----------------|----------|-------|-------------|
 | version                             | [Version]      | version  | [1.0] | The style sheet version that you want to use. |
 | settings                            | [Settings]     | g        | [1.0] | The settings that apply to the whole style sheet. |
 | mapElement                          | [MapElement]   | me       | [1.0] | The parent entry to all map entries. |

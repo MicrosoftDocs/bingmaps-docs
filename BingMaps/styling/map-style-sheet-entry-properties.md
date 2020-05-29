@@ -38,8 +38,8 @@ All color values are specified as a hex **\#RRGGBB** or **\#AARRGGBB** string.
 ## Settings properties
 Web: ISettingStyle
 
-| Name                    | Type    | Web     | Style Ver | Description |
-|-------------------------|---------|---------|-----------|-------------|
+| Name                    | Type    | Web     | Style | Description |
+|-------------------------|---------|---------|-------|-------------|
 | atmosphereVisible	      | boolean |         | [1.0] | A flag that indicates whether the atmosphere appears in the 3D control. |
 | buildingTexturesVisible | boolean |         | [1.2] | A flag that indicates whether or not to show textures on symbolic 3D buildings that have textures. |
 | fogColor                | color   |         | [1.0] | The ARGB color value of the distance fog that appears in the 3D control. |
@@ -58,8 +58,8 @@ Web: ISettingStyle
 ## MapElement properties
 Web: IMapElementStyle
 
-| Property          | Type    | Web      | Style Ver | Description |
-|-------------------|---------|----------|-----------|-------------|
+| Property          | Type    | Web      | Style | Description |
+|-------------------|---------|----------|-------|-------------|
 | backgroundScale   | number  |          | [1.0] | Amount by which the background element of an icon should be scaled. For example, use 1 for default and 2 for twice as large. |
 | fillColor         | color   | fc       | [1.0] | The color that is used for filling polygons, the background of point icons, and for the center of lines if they have split. |
 | fontFamily        | string  |          | [1.0] |  |
@@ -81,8 +81,8 @@ Web: IBorderedMapElementStyle
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property           | Type    | Web      | Style Ver | Description |
-|--------------------|---------|----------|-----------|-------------|
+| Property           | Type    | Web      | Style | Description |
+|--------------------|---------|----------|-------|-------------|
 | borderOutlineColor | color   | boc      | [1.0] | The secondary or casing line color of the border of a filled polygon. |
 | borderStrokeColor  | color   | bsc      | [1.0] | The primary line color of the border of a filled polygon. |
 | borderVisible      | boolean | bv       | [1.0] | Specifies if a border is visible or not. |
@@ -92,8 +92,8 @@ This property group extends the MapElement (web: IMapElementStyle) property grou
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property              | Type    | Web      | Style Ver | Description |
-|-----------------------|---------|----------|-----------|-------------|
+| Property              | Type    | Web      | Style | Description |
+|-----------------------|---------|----------|-------|-------------|
 | shadowVisible         | boolean |          | [1.4] | The flag that indicates whether the shadow of icon should be visible or not. |
 | shape-Background      | string  |          | [1.4] | Shape to use as the background of the icon--replacing any shape that exists there. |
 | shape-Icon            | string  |          | [1.4] | Shape to use as the foreground glyph of the icon--replacing any shape that exists there. |
@@ -107,9 +107,9 @@ This property group extends the MapElement (web: IMapElementStyle) property grou
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
 
-| Property              | Type    | Web      | Style Ver | Description |
-|-----------------------|---------|----------|-----------|-------------|
-| renderAsSurface       | boolean |          | [1.2]     | A flag that indicates that a 3D model should be rendered like a building--without depth fading against the ground. |
+| Property              | Type    | Web      | Style | Description |
+|-----------------------|---------|----------|-------|-------------|
+| renderAsSurface       | boolean |          | [1.2] | A flag that indicates that a 3D model should be rendered like a building--without depth fading against the ground. |
 
 [1.0]: map-style-sheet-support.md
 [1.1]: map-style-sheet-support.md

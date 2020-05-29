@@ -34,11 +34,11 @@ Encapsulates an individual entity on the [floor] of a [venue].
 
 ```json
 {
-  "key": "5005",
+  "tag": "5005",
   "name": { "": "Empty Room" },
   "label": { "en-ca": { "text":"Empty\nRoom", "angle":-10,"xy":[0.5, 0.5],"width":5.01E-05,"height":2.1E-05 }},
   "type": "Room",
-  "location": [10, 20],
+  "xy": [0.5, 0.5],
   "geometry": [{"closed":true,"x":[0,1,1,0],"y":[1,1,0,0]}]
 }
 ```
