@@ -13,7 +13,15 @@ ms.author: ""
 manager: ""
 ms.service: "bing-maps"
 ---
-# Map Styling Table of Contents
+# Map Styling
+
+## Getting Started
+
+A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).  
+
+[Map style sheets](map-style-sheets.md) can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
+
+## Table of Contents
 
 | Pages                              |
 |------------------------------------|

@@ -15,7 +15,9 @@ ms.service: "bing-maps"
 ---
 # Venue Maps
 
-[Sample](sample.md)
+## Getting Started
+
+The root class of a venue JSON definition is the [venue].  See also, this [sample] venue.
 
 ## Classes
 
@@ -40,3 +42,4 @@ ms.service: "bing-maps"
 [rectangle]: rectangle.md
 [venue]: venue.md
 [venueTile]: venueTile.md
+[sample]: sample.md
