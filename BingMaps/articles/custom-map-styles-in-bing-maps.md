@@ -19,7 +19,7 @@ Depending on which API or service you are using there are two different ways to 
 
 The JSON style schema is very comprehensive. The Windows 10 UWP map control makes full use of the schema while the Bing Maps V8 Web control and REST services support a subset of the schema. A JSON style created for the Windows 10 UWP map control will work with the V8 Web Control and vice-versa. Any unsupported style settings will simply be ignored.
 
-This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
+This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
 
 ## Custom Map Styles in the Bing Maps V8 Web Control
 
@@ -125,7 +125,7 @@ If the style is too long for a URL, when using the REST imagery service, the sty
 
 ## Style Objects
 
-A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
+A map style sheet consists primarily of [entries](..\styling\map-style-sheet-entries.md) and [properties](..\styling\map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
 Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
