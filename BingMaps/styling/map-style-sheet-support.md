@@ -16,10 +16,10 @@ ms.service: "bing-maps"
 # Map Style Support
 
 Map styling can be applied to a variety of Microsoft map controls:
-* The [Bing Maps web control](../v8-web-control/) using the [customMapStyle option](../v8-web-control/map-control-api/mapoptions-object).
-* The [Static web map control](../rest-services/imagery/get-a-static-map)
+* The [Bing Maps web control](../v8-web-control/index.md) using the [customMapStyle option](../v8-web-control/map-control-api/mapoptions-object.md).
+* The [Static web map control](../rest-services/imagery/get-a-static-map.md)
 * The [Windows map control](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) using the [MapStyleSheet.ParseFromJson](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.
-* The [Android or iOS map control](../sdk-native/) using the [MapStyleSheet](../sdk-native/map-control-api/mapstylesheet-class) class.
+* The [Android or iOS map control](../sdk-native/index.md) using the [MapStyleSheet](../sdk-native/map-control-api/mapstylesheet-class.md) class.
 
 The point at which a particular [entry] or [property] is supported on each map control can be tracked using the style version.  
 
