@@ -46,4 +46,6 @@ While this contains a list of [venue] objects, it is expected that these objects
 }
 ```
 
+[floor]: floor.md
+[geometry]: geometry.md
 [venue]: venue.md
