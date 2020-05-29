@@ -15,11 +15,6 @@ ms.service: "bing-maps"
 ---
 # Map Style Sheet Reference in Maps
 
-Microsoft mapping technologies use map style sheets to define the appearance of maps. Map style sheets can be used in:
-* The [Bing Maps web control](https://docs.microsoft.com/bingmaps/v8-web-control/?redirectedfrom=MSDN) using the [customMapStyle option](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/mapoptions-object).
-* The [Windows map control](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) using the [MapStyleSheet.ParseFromJson](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.
-* The [Android or iOS map control](https://docs.microsoft.com/bingmaps/sdk-native/) using the [MapStyleSheet](https://docs.microsoft.com/bingmaps/sdk-native/map-control-api/mapstylesheet-class) class.
-
 Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
 A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance of your map.
