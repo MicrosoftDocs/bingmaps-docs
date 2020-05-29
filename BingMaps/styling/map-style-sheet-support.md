@@ -20,9 +20,9 @@ Map styling can be applied to a variety of Microsoft map controls:
 * The [Windows map control](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) using the [MapStyleSheet.ParseFromJson](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.
 * The [Android or iOS map control](https://docs.microsoft.com/bingmaps/sdk-native/) using the [MapStyleSheet](https://docs.microsoft.com/bingmaps/sdk-native/map-control-api/mapstylesheet-class) class.
 
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT) which has warnings about levels of support.
+The point at which a particular [entry] or [property] is supported on each map control can be tracked using the style version.  This table shows the minimum version of each control that supports each style version.
 
-The point at which a particular [entry] or [property] is supported on each map control can be tracked using the style version.  This table shows the minimum version of a control that supports each style version.
+Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).  The editor will inform you of what is supported.
 
 | Style Version | Android and iOS | Windows Version | Windows Name          |
 |---------------|-----------------|-----------------|-----------------------|

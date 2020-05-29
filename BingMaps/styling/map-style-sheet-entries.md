@@ -21,7 +21,7 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 ## Settings and Elements
 
-The JSON entries that can be customized are represented in the following list.  They are a tree structure where setting a parent entry [property](map-style-sheet-entry-properties.md) will override child entry properties.  The properties available to each entry can be found in the entry's property group.  This table uses ">" to represent levels in the entry hierarchy.
+The entries shown below are a hierarchy where a [property](map-style-sheet-entry-properties.md) on a parent entry will override child entry properties.  This table uses ">" to represent levels in the entry hierarchy.  The properties available to each entry can be found in the entry's property group.
 
 | Name                                | Property Group | Web      | Style Ver | Description |
 |-------------------------------------|----------------|----------|-----------|-------------|

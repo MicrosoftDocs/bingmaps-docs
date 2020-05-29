@@ -13,9 +13,7 @@ ms.author: ""
 manager: ""
 ms.service: "bing-maps"
 ---
-# Map Styling
-
-## Classes
+# Map Styling Table of Contents
 
 | Pages                              |
 |------------------------------------|
