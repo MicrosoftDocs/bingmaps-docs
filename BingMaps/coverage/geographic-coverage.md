@@ -332,3 +332,5 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 |Country/Region|Road Data / Routing (Driving and Walking)|Geocoding Precision|  
 |---------------------|--------------------------------------------------|-------------------------|  
 |Antarctica|Major Roads Only|Basic|
+
+.
