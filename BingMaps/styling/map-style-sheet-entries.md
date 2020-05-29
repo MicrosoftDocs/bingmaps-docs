@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Map Style Sheet Entries
 
-The entries listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-supported.md).  They can also be used to define how overlaid geometry on a map should be represented.
+The entries listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).  They can also be used to define how overlaid geometry on a map should be represented.
 
 Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
