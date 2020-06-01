@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b4ad52b-0b4a-42ba-9a37-d43cca4854d0
 caps.latest.revision: 48
-author: "dirabel"
+author: "DRMap"
 ms.author: "dirabel"
 ms.service: "bing-maps"
 ---
