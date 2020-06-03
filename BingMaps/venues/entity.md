@@ -22,10 +22,10 @@ Encapsulates an individual entity on the [floor] of a [venue].
 | Property          | Type            | Req? | Description |
 |-------------------|-----------------|------|-------------|
 | address           | [address]       |      | The address of the entity where any missing fields populated from venue address. |
-| geometry          | [geometry] []   |  ✔   | A list of the geometry that define the location or extents of the entity. |
+| geometry          | [geometry] []   |      | A list of any polygons or polylines that define the extents of the entity. |
 | tag               | string          |      | Unique identifier for the entity so that it can be referenced. |
 | label             | culture:[label] |      | The text and placement for possible text labels for the entity and their positions. |
-| xy                | number[]        |      | An X and Y coordinate that, once transform is applied, defines a central location for the entity. |
+| xy                | number[]        |      | An X and Y coordinate that, once transform is applied, defines the location of a point entity or central location for a polygon or polyline entity. |
 | name              | culture:string  |      | Dictionary of culture-specific names for the entity, where an empty key refers to the culture identified by the venue's defaultCultureProperty. |
 | phoneNumber       | string          |      | The phone number for the entity. |
 | type              | [styleEntry]    |  ✔   | The key that identifies how to display the entity. |
