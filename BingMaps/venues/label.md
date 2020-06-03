@@ -15,14 +15,14 @@ ms.service: "bing-maps"
 ---
 # Venue label JSON class
 
-Encapsulates information on how to label a polygon geometry.
+Encapsulates the position and contents of a text label to try to apply to an entity.
 
 ## Properties
 
 | Property | Type           | Req? | Description |
 |----------|----------------|------|-------------|
 | text     | string         |  ✔   | Text to display in the label. |
-| rects    | [rectangle] [] |  ✔   | Rectangles to try to place the text of the label in. |
+| rects    | [rectangle] [] |      | Rectangles to try to place the text of the label in. |
 
 ## Example
 
