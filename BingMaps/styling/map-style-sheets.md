@@ -63,7 +63,7 @@ Sometimes the value of a property is transformed to produce the final result. Fo
 
 ## Web Only URL Style Sheet Format
 
-For simple style changes with the [static map control](../rest-services/imagery/get-a-static-map), compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
+For simple style changes with the [static map control](../rest-services/imagery/get-a-static-map.md), compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
 
 ```url
 water|fillColor:FF0000;labelColor:00FF00_road|fillColor:0000FF_global|landColor:FFFFFF 
