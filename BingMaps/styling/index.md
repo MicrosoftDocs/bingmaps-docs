@@ -28,9 +28,11 @@ A map style sheet defines the appearance of a map in various [Microsoft map cont
 | [map style sheets]                 |
 | [map style sheet entries]          |
 | [map style sheet entry properties] |
+| [map style sheet extensions]       |
 | [map style sheet support]          |
 
 [map style sheets]: map-style-sheets.md
 [map style sheet entries]: map-style-sheet-entries.md
 [map style sheet entry properties]: map-style-sheet-entry-properties.md
+[map style sheet entry extensions]: map-style-sheet-extensions.md
 [map style sheet support]: map-style-sheet-support.md

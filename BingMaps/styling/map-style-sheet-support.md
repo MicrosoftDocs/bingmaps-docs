@@ -27,14 +27,14 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 This table shows the minimum version of each control that supports each style version.
 
-| Style Version | Android and iOS | Windows Release               |
-|---------------|-----------------|-------------------------------|
-|  1.0          |  1.0.0          |  1703 - Creators Update       |
-|  1.1          |  1.0.0          |  1709 - Fall Creators Update  |
-|  1.2          |  1.0.0          |  1803 - April 2018 Update     |
-|  1.3          |  1.0.0          |  1809 - October 2018 Update   |
-|  1.4          |  1.0.0          |  1903 - May 2019 Update       |
-|  1.5          |  1.0.0          |                               |
+| Style Version | Android and iOS | Windows Release                            |
+|---------------|-----------------|--------------------------------------------|
+|  1.0          |  1.0.0          |  1703 - Creators Update (Build 15063)      |
+|  1.1          |  1.0.0          |  1709 - Fall Creators Update (Build 16299) |
+|  1.2          |  1.0.0          |  1803 - April 2018 Update (Build 17134)    |
+|  1.3          |  1.0.0          |  1809 - October 2018 Update (Build 17763)  |
+|  1.4          |  1.0.0          |  1903 - May 2019 Update (Build 18362)      |
+|  1.5          |  1.0.0          |                                            |
 
 [entry]: map-style-sheet-entries.md
 [property]: map-style-sheet-entry-properties.md

@@ -21,7 +21,14 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 ## JSON Style Sheet Format
 
-The primary way to represent a map style sheet is using JavaScript Object Notation (JSON). The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
+The primary way to represent a map style sheet is using JavaScript Object Notation (JSON).  There are four root properties to a style sheet:
+
+1. **version** - Defines the version that the style sheet targets, which effects which entries and properties are valid.  Wildcard characters are supported.
+2. **settings** - A set of properties that apply to the map as a whole rather than a specific element of the map.
+3. **elements** - Settings for specific elements of the map.
+4. **extensions** - Settings for custom elements.  See [Map Style Sheet Extensions](map-style-sheet-extensions.md)
+
+The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
 
 ```json
 {   
