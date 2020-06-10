@@ -33,8 +33,6 @@ Creates a custom entry based on the foodPoint entry.  When a map element's style
 
 ## Create a Custom State
 
-When a state is applied to a map element, it is stacked on top of the element's entry and its properties override or interact with the properties of the entry.  States support the "parent" property to inherit from another state.  There are a few default states provided by the styling system including "disabled", "hover", and "selected", but these don't have to be used.
-
 In this example, when a map element's style sheet entry is set to “myNamespace.myCustomState”, the fillColor of the element will override the entry's fillColor with yellow.
 
 ```json
@@ -45,6 +43,12 @@ In this example, when a map element's style sheet entry is set to “myNamespace
             "fillColor": "#FFFF00"
     } } } }
 ```
+
+When one or more states are applied to a map element, they are stacked on top of the element's entry and their properties override or interact with the properties of the entry.
+
+States support the "parent" property to inherit from another state.  There are a few default states provided by the styling system including "disabled", "hover", and "selected", but these don't have to be used.
+
+Setting the state of a map element to multiple states, usually represented as a semi-colon separated string like "hover;myNamespace.myState", means that each stat is stacked on top of each other and then stacked on the entry.
 
 ### Overriding Transparency
 
