@@ -33,7 +33,9 @@ Creates a custom entry based on the foodPoint entry.  When a map element's style
 
 ## Create a Custom State
 
-When a map element's style sheet entry  is set to “myNamespace.myCustomState”, the fillColor of the element will change to yellow.
+When a state is applied to a map element, it is stacked on top of the element's entry and its properties override or interact with the properties of the entry.  States support the "parent" property to inherit from another state.  There are a few default states provided by the styling system including "disabled", "hover", and "selected", but these don't have to be used.
+
+In this example, when a map element's style sheet entry is set to “myNamespace.myCustomState”, the fillColor of the element will override the entry's fillColor with yellow.
 
 ```json
     { "version": "1.*",
@@ -46,7 +48,7 @@ When a map element's style sheet entry  is set to “myNamespace.myCustomState�
 
 ### Overriding Transparency
 
-The "composition" property was added in style version [1.3].  In this example, two states that, when applied to a map element, will either blend a transparent green color with the existing fillColor or override the existing fillColor with a transparent green color.
+The "composition" property was added in style version [1.3].  In this example, two states that, when applied to a map element, will either blend a transparent green color with the underlying entry's fillColor or override the underlying entry's fillColor with a transparent green color.
 
 ```json
     { "version": "1.*",
@@ -62,7 +64,7 @@ The "composition" property was added in style version [1.3].  In this example, t
 
 ### Swapping Colors
 
-The "property" pointer was added in style version [1.3].  This example shows a state that, when applied to a map element, will swap existing colors around.  This only works for color properties (not numeric or string properties).
+The "property" pointer was added in style version [1.3].  This example shows a state that, when applied to a map element, will swap existing colors around.  This only works for color properties (not numeric or string properties), and it reads the property of the underlying entry (not of the state).
 
 ```json
     { "version": "1.*",
@@ -84,9 +86,8 @@ The "shape" property was added in style version [1.4] and can also be applied to
       "extensions": {
         "myNamespace": {
           "myTeardropBeachState": {
-            "parent":"point",
             "shape": {
-              "background": "Teardrop",
+              "background": "teardrop",
               "icon": "beach"
     } } } } }
 ```
