@@ -19,7 +19,7 @@ Depending on which API or service you are using there are two different ways to 
 
 The JSON style schema is very comprehensive. The Windows 10 UWP map control makes full use of the schema while the Bing Maps V8 Web control and REST services support a subset of the schema. A JSON style created for the Windows 10 UWP map control will work with the V8 Web Control and vice-versa. Any unsupported style settings will simply be ignored.
 
-This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
+This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
 
 ## Custom Map Styles in the Bing Maps V8 Web Control
 
@@ -125,186 +125,9 @@ If the style is too long for a URL, when using the REST imagery service, the sty
 
 ## Style Objects
 
-The following defines the JSON objects that are used for creating custom map styles. All color values are specified as a hex **\#RRGGBB** or **\#AARRGGBB** string. When using the REST/Tile services, do not include hashtags.
+A map style sheet consists primarily of [entries](..\styling\map-style-sheet-entries.md) and [properties](..\styling\map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
-> **Tip:** Ensure that all colors have 6 or 8 characters. If there is any other number of characters, the style will be considered invalid.
-
-### ICustomMapStyle Object
-
-The following properties are available in the custom map style object.
-
-| Name     | URL Param | Type          | Description                             |
-|----------|-----------|---------------|-----------------------------------------|
-| elements |           | IMapElements  | A list of map elements to be styled.    |
-| settings | g         | ISettingStyle | Global settings.                        |
-| version  |           | string        | The version number of the style syntax. |
-
-### IMapElements Object
-
-The following is a list of map elements that can be styled to create a custom map style.
-
-| Name                     | URL Param | Type                     | Description            |
-|--------------------------|-----------|--------------------------|------------------------|
-| adminDistrict            | ad        | IBorderedMapElementStyle | Admin1, state, province, etc. |
-| adminDistrictCapital     | adc       | IMapElementStyle         | Icon representing the capital of a state/province.   |
-| airport                  | ap        | IMapElementStyle         | Area of land encompassing an airport.   |
-| area                     | ar        | IMapElementStyle         | Area of land use, not to be confused with Structure  |
-| arterialRoad             | ard       | IMapElementStyle         | An arterial road is a high-capacity urban road. Its primary function is to deliver traffic from collector roads to freeways or expressways, and between urban centers efficiently. |
-| building                 | bld       | IMapElementStyle         | A structure such as a house, store, factory.  |
-| business                 | bs        | IMapElementStyle         | Restaurant, hospital, school, etc. |
-| capital                  | cp        | IMapElementStyle         | Icon representing the capital populated place. |
-| cemetery                 | cm        | IMapElementStyle         | Area of a cemetery       |
-| continent                | ct        | IMapElementStyle         | Area of a whole continent |
-| controlledAccessHighway  | cah       | IMapElementStyle         | A controlled-access highway is a type of road which has been designed for high-speed vehicular traffic, with all traffic flow and ingress/egress regulated. Also known as a highway, freeway, motorway, expressway, interstate, parkway, autobahn. |
-| countryRegion            | cr        | IBorderedMapElementStyle | A country or independent sovereign state.|
-| countryRegionCapital     | crc       | IMapElementStyle         | Icon representing the capital of a country/region. |
-| district                 | ds        | IBorderedMapElementStyle | Admin2, county, etc. |
-| education                | ed        | IMapElementStyle         | An area of land used for educational purposes such as a school campus. |
-| educationBuilding        | eb        | IMapElementStyle         | A school or other educational building.|
-| foodPoint                | fp        | IMapElementStyle         | Restaurant, café, etc. |
-| forest                   | fr        | IMapElementStyle         | Area of forest land.  |
-| golfCourse               | gc        | IMapElementStyle         | An area of land where the game of golf is played.  |
-| highSpeedRamp            | hsrp      | IMapElementStyle         | Lines representing ramps typically alongside ControlledAccessHighways  |
-| highway                  | hg        | IMapElementStyle         | All other highways other than controlled access highways. |
-| indigenousPeoplesReserve | ipr       | IMapElementStyle         | An area of land reserved for Indigenous people. |
-| island                   | is        | IMapElementStyle         | Labeling of area of an island. |
-| majorRoad                | mr        | IMapElementStyle         | Major roads. |
-| mapElement               | me        | IMapElementStyle         | The base map element in which all other map elements inherit from. |
-| medical                  | md        | IMapElementStyle         | Area of land used for medical purposes. Generally, hospital campuses. |
-| medicalBuilding          | mb        | IMapElementStyle         | A building which provides medical services. |
-| military                 | ima       | IMapElementStyle         | A military area. |
-| naturalPoint             | np        | IMapElementStyle         | A natural point of interest. |
-| nautical                 | nt        | IMapElementStyle         | Area of land used for nautical purposes. |
-| neighborhood             | nh        | IMapElementStyle         | Area defined as a neighborhood. |
-| park                     | pr        | IMapElementStyle         | Area of any kind of park. |
-| peak                     | pk        | IMapElementStyle         | Icon representing the peak of a mountain.|
-| playingField             | pf        | IMapElementStyle         | Extracted pitches such as a baseball |
-| point                    | pt        | IMapElementStyle         | All point features that are rendered with an icon of some sort. |
-| pointOfInterest          | poi       | IMapElementStyle         | Restaurant, hospital, school, marina, ski area, etc. |
-| political                | pl        | IBorderedMapElementStyle | A political border. |
-| populatedPlace           | pp        | IMapElementStyle         | Icon representing size of populated place (city, town, etc).  |
-| railway                  | rl        | IMapElementStyle         | Railway lines |
-| ramp                     | rm        | IMapElementStyle         | Line representing the connecting entrance/exit to a highway. |
-| reserve                  | rsv       | IMapElementStyle         | Area of nature reserve. |
-| river                    | rv        | IMapElementStyle         | River, stream, or other passage. Note that this may be a line or polygon and may connect to non-river water bodies.  |
-| road                     | rd        | IMapElementStyle         | Lines that represent all roads  |
-| roadExit                 | re        | IMapElementStyle         | Icon representing the exit, typically from a controlled access highway. |
-| runway                   | rw        | IMapElementStyle         | Land area covered by a runway. See also Airport for the land area of the whole airport. |
-| sand                     | sn        | IMapElementStyle         | Area generally used for beaches but could be used for sandy areas/golf bunkers in the future.  |
-| shoppingCenter           | sct       | IMapElementStyle         | A shopping center or mall. |
-| stadium                  | sta       | IMapElementStyle         | Area of a stadium. |
-| street                   | st        | IMapElementStyle         | A street.   |
-| structure                | str       | IMapElementStyle         | Buildings and other building-like structures |
-| tollRoad                 | tr        | IMapElementStyle         | A toll road. |
-| trail                    | trl       | IMapElementStyle         | Walking trail, either through park or hiking trail  |
-| transit                  | trn       | IMapElementStyle         | Icon representing a bus stop, train stop, airport, etc. |
-| transitBuilding          | tb        | IMapElementStyle         | A transit building.  |
-| transportation           | trs       | IMapElementStyle         | Lines that are part of the transportation network (roads, trains, ferries, etc.)  |
-| unpavedStreet            | us        | IMapElementStyle         | An unpaved street.  |
-| vegetation               | vg        | IMapElementStyle         | Forests, grassy areas, etc. |
-| volcanicPeak             | vp        | IMapElementStyle         | Icon representing the peak of a volcano.  |
-| water                    | wt        | IMapElementStyle         | Anything that looks like water.   |
-| waterPoint               | wp        | IMapElementStyle         | Icon representing a water feature location such as a waterfall. |
-| waterRoute               | wr        | IMapElementStyle         | Ferry route lines |
-
-### IMapElementStyle Object
-
-The following properties can be used when styling a map element.
-
-| JSON Name         | URL Param | Type    | Description                          |
-|-------------------|-----------|---------|--------------------------------------|
-| fillColor         | fc        | string  | Color used for filling polygons, the background of point icons, and for the center of lines if they have split. |
-| labelColor        | lbc       | string  | The color of a map label.  |
-| labelOutlineColor | loc       | string  | The outline color of a map label.  |
-| labelVisible      | lv        | boolean | Species if a map label type is visible or not. |
-| strokeColor       | sc        | string  | Color used for the outline around polygons, the outline around point icons, and the color of lines.  |
-| visible           | v         | boolean | Specifies if the map element is visible or not. |
-
-### IBorderedMapElementStyle Object
-
-Extends the IMapElementStyle object.
-
-| JSON Name          | URL Param | Type    | Description                                                    |
-|--------------------|-----------|---------|----------------------------------------------------------------|
-| borderOutlineColor | boc       | string  | Secondary/casing line color of the border of a filled polygon. |
-| borderStrokeColor  | bsc       | string  | Primary line color of the border of a filled polygon.          |
-| borderVisible      | bv        | boolean | Specifies if a border is visible or not.                       |
-
-### ISettingStyle Object
-
-Defines the global settings that can be set.
-
-| JSON Name           | URL Param | Type    | Description                        |
-|---------------------|-----------|---------|------------------------------------|
-| landColor           | lc        | string  | A color value that all land is first flushed to before things are drawn on it. |
-| shadedReliefVisible |           | boolean | Specifies whether or not to draw elevation shading on the map. |
-
-## Map Element Style Hierarchy
-
-When styling map elements there is a hierarchy which can be used to apply styles at different levels. For example, if you wanted to make all roads red, you could go and style each road type, or you could simply apply the style to the road elements and all child elements would inherit that style. If you then wanted to only make toll roads green you could then add a style for that element and all other road types would continue to stay red.
-
-Here is the map element hierarchy.
-
--   area
-    -   airport
-    -   cemetery
-    -   continent
-    -   education
-    -   golfCourse
-    -   indigenousPeoplesReserve
-    -   island
-    -   military
-    -   medical
-    -   nautical
-    -   neighborhood
-    -   runway
-    -   sand
-    -   shoppingCenter
-    -   stadium
-    -   vegetation
-        -   forest
-        -   park
-        -   playingField
-        -   reserve
--   point
-    -   naturalPoint
-        -   peak
-            -   volcanicPeak
-        -   waterPoint
-    -   pointOfInterest
-        -   business
-            -   foodPoint
-    -   populatedPlace
-        -   capital
-            -   adminDistrictCapital
-            -   countryRegionCapital
-    -   roadExit
-    -   transit
--   political
-    -   countryRegion
-    -   adminDistrict
-    -   district
--   structure
-    -   building
-        -   educationBuilding
-        -   medicalBuilding
-        -   transitBuilding
--   transportation
-    -   road
-        -   controlledAccessHighway
-            -   highSpeedRamp
-        -   highway
-        -   majorRoad
-        -   arterialRoad
-        -   street
-            -   ramp
-        -   unpavedStreet
-        -   tollRoad
-    -   railway
-    -   trail
-    -   waterRoute
--   water
-    -   river
+Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
 ## Known Limitation
 
@@ -484,7 +307,5 @@ vg|fc:c5dea2_np|v:0;lv:0_trs|loc:ffffff;fc:ffffff;sc:d7d6d5_wt|fc:b1bdd6;lbc:fff
 ```
 
 ## Related Resources
-
-* [Windows 10 UWP Map Control Custom Styles](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
 * [Load Map with Custom Style Sample](https://bingmapsv8samples.azurewebsites.net/#Load%20Map%20with%20Custom%20Style)
 * [Simple Style Editor](https://bingmapsv8samples.azurewebsites.net/#Simple%20Style%20Editor)
