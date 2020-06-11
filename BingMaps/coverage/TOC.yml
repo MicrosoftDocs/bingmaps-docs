@@ -4,8 +4,6 @@
   items: 
     - name: Bing Maps Geographic Coverage
       href: geographic-coverage.md
-    - name: Bing Maps Traffic Coverage
-      href: traffic-coverage.md
     - name: Bing Maps Transit Coverage
       href: transit-coverage/index.md
       maintainContext: true 
@@ -22,5 +20,3 @@
           href: transit-coverage/north-america.md
         - name: South America
           href: transit-coverage/south-america.md
-    - name: Truck Routing Coverage
-      href: truck-routing-coverage.md

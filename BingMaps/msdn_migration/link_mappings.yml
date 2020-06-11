@@ -1264,7 +1264,7 @@
       new-docs: geographic-coverage.md
     - msdn: https://msdn.microsoft.com/en-us/library/jj136866.aspx
       old-docs: bing-maps-traffic-coverage.md
-      new-docs: traffic-coverage.md
+      new-docs: geographic-coverage.md
     - msdn: https://msdn.microsoft.com/en-us/library/hh441739.aspx
       old-docs: bing-maps-transit-coverage.md
       new-docs: transit-coverage/index.md

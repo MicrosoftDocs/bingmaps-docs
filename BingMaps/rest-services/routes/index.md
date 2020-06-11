@@ -38,4 +38,4 @@ Use the Routes API to create a route that includes two or more locations and to 
  * [Driving Route with Route Path Example](../examples/driving-route-with-route-path-example.md)
  * [Driving Route using Tolerances Example](../examples/driving-route-using-tolerances-example.md)
  * [Bing Maps Transit Coverage](../../coverage/index.md)
- * [Truck Routing Coverage](../../coverage/truck-routing-coverage.md)
+ * [Truck Routing Coverage](../../coverage/geographic-coverage.md)
