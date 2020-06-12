@@ -701,13 +701,13 @@
           maintainContext: true 
           items: 
             - name: VenueMapFactory Class
-              href: modules/venue-maps-module/venuemapfactory-class.md
+              href: modules/venue-map-module/venuemapfactory-class.md
             - name: VenueMap Class
-              href: modules/venue-maps-module/venuemap-class.md
+              href: modules/venue-map-module/venuemap-class.md
             - name: VenueMapOptions Object
-              href: modules/venue-maps-module/venuemapoptions-object.md
+              href: modules/venue-map-module/venuemapoptions-object.md
             - name: VenueMapFootprintsLayerOptions Object
-              href: modules/venue-maps-module/venuemapfootprintslayeroptions-object.md
+              href: modules/venue-map-module/venuemapfootprintslayeroptions-object.md
         - name: Well Known Text Module
           href: modules/well-known-text-module.md
     - name: Articles
