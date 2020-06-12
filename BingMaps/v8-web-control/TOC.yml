@@ -696,6 +696,18 @@
               href: modules/traffic-module/trafficmanager-class.md
             - name: TrafficOptions Object
               href: modules/traffic-module/trafficoptions-object.md
+          name: Venue Maps Module
+          href: modules/venue-maps-module/index.md
+          maintainContext: true 
+          items: 
+            - name: VenueMapFactory Class
+              href: modules/venue-maps-module/venuemapfactory-class.md
+              name: VenueMap Class
+              href: modules/venue-maps-module/venuemap-class.md
+              name: VenueMapOptions Object
+              href: modules/venue-maps-module/venuemapoptions-object.md
+              name: VenueMapFootprintsLayerOptions Object
+              href: modules/venue-maps-module/venuemapfootprintslayeroptions-object.md
         - name: Well Known Text Module
           href: modules/well-known-text-module.md
     - name: Articles
