@@ -702,11 +702,11 @@
           items: 
             - name: VenueMapFactory Class
               href: modules/venue-maps-module/venuemapfactory-class.md
-              name: VenueMap Class
+            - name: VenueMap Class
               href: modules/venue-maps-module/venuemap-class.md
-              name: VenueMapOptions Object
+            - name: VenueMapOptions Object
               href: modules/venue-maps-module/venuemapoptions-object.md
-              name: VenueMapFootprintsLayerOptions Object
+            - name: VenueMapFootprintsLayerOptions Object
               href: modules/venue-maps-module/venuemapfootprintslayeroptions-object.md
         - name: Well Known Text Module
           href: modules/well-known-text-module.md
