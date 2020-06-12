@@ -20,7 +20,7 @@ Encapsulates a venue, consisting of one or more floors.
 ## Properties
 
 | Property        | Type           | Req? | Description |
-|-----------------|----------------|------|-------------|
+|-----------------|----------------|:------:|-------------|
 | id              | string         |  ✔   | A unique identifier of the venue. |
 | isGeoPositioned | boolean        |      | Whether this venue, once its coordinates are transformed, has geopositioned longitude, latitude values or engineering coordinates. |
 | defaultCulture  | string         |      | The culture that is used when a string has an empty culture or if this value is not specified, en-us is used as the default. |

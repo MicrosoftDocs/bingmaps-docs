@@ -20,11 +20,11 @@ ms.service: "bing-maps"
 
 **Namespace**: Microsoft.Maps.VenueMaps
 
-[VMJSON](../../venues/index.md) is a file format defined by Microsoft for representing venues. The Bing Maps V8 Web Control uses the Venue Maps Module to dynamically display VMJSON on the map.
+[Venue](../../venues/venue.md) is a JSON format defined by Microsoft for representing venues. [VenueTile](../../venues/venueTile.md) is a JSON format defined by Microsoft that contains footprints that overlap the tile. The Bing Maps V8 Web Control uses the Venue Maps Module to dynamically display venues and venue tiles on the map.
 
 Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) class. A [VenueMap](venuemap-class.md) is associated with a [Map](../../map-control-api/map-class.md) instance. 
 
-The VenueMapFactory can also create a venue map footprints layer. A [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) is also associated with a Map instance.
+The VenueMapFactory can also create a venue map footprints layer. A [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) is also associated with a map instance.
 
 VenueMap                                                            | VenueMapFootprintsLayer
 ---------------------------------------------------------------- | ---------------------------- 

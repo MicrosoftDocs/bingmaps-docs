@@ -29,6 +29,6 @@ When creating a **VenueMapFactory**, the map instance associated with venue map 
 Below are the list of methods for **VenueMapFactory**.
 
 Name                               | Return Type           | Description
----------------------------------- | --------------------- | -----------------------------------
+---------------------------------- | ------------ | -----------------------------------
 `create(options:` [VenueMapOptions](venuemapoptions-object.md) `)` || Creates a [VenueMap](venuemap-class.md) with specifications defined in `options`.
 `createFootprintsLayer(options: ` [VenueMapFootprintsLayerOptions](venuemapfootprintslayeroptions-object.md) `)`| | Creates a [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) with specifications defined in `options`.
