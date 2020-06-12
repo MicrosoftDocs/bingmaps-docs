@@ -30,7 +30,7 @@ Name                                                                   | Details
 [MapPolyline](MapPolyline-class.md)                                    | Displays a line on the map.
 [MapScene](MapScene-class.md)                                          | Base class and provides ways to control what is displayed on the map.
 [MapStyleSheet](MapStyleSheet-class.md)                                | Controls the visual display of the map like road color and size.
-[MapStyleSheets](MapStyleSheets-class.md)                              | Represents a set of rules that define the style of the map in a map control. Android only.
+[MapStyleSheets](MapStyleSheets-class.md)                              | Represents a set of rules that define the style of the map in a map control.
 [MapUserInterfaceOptions](MapUserInterfaceOptions-class.md)            | Used for configuring which user interface elements to display on the Map View.
 [MapView](MapView-class.md)                                            | The core view object that displays a map within a broader map view.
 [TrafficFlowMapLayer](TrafficFlowMapLayer-class.md)                    | Displays active traffic flow on a map.
