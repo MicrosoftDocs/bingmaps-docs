@@ -697,7 +697,7 @@
             - name: TrafficOptions Object
               href: modules/traffic-module/trafficoptions-object.md
           name: Venue Maps Module
-          href: modules/venue-maps-module/index.md
+          href: modules/venue-map-module/index.md
           maintainContext: true 
           items: 
             - name: VenueMapFactory Class
