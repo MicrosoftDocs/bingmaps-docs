@@ -28,7 +28,7 @@ The VenueMapFactory can also create a venue map footprints layer. A [VenueMapFoo
 
 Venue Map                                                            | Venue Map Footprints Layer
 :----------------------------------------------------------------:| :----------------------------:
-<img src="../../media/bmv8-venuemap.png" alt="Venue Map" width="360"/> | <img src="../../media/bmv8-venuemapfootprintslayer.png" alt="Venue Map Footprints Layer" width="360"/>
+<img src="../../media/bmv8-venuemap.png" alt="Venue Map" width="350"/> | <img src="../../media/bmv8-venuemapfootprintslayer.png" alt="Venue Map Footprints Layer" width="350"/>
 
 
 
