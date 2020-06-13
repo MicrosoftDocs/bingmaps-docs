@@ -26,9 +26,9 @@ Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) cla
 
 The VenueMapFactory can also create a venue map footprints layer. A [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) is also associated with a map instance.
 
-VenueMap                                                            | VenueMapFootprintsLayer
+Venue Map                                                            | Venue Map Footprints Layer
 ---------------------------------------------------------------- | ---------------------------- 
-![VenueMap](../../media/bmv8-venuemap.png =250) | ![VenueMapFootprintsLayer](../../media/bmv8-venuemapfootprintslayer.png =250)
+<img src="../../media/bmv8-venuemap.png" alt="Venue Map" width="200"/> | <img src="../../media/bmv8-venuemapfootprintslayer.png" alt="Venue Map Footprints Layer" width="200"/>
 
 
 
