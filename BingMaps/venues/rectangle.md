@@ -23,8 +23,8 @@ Encapsulates an oriented rectangle.
 |----------|----------------|------|-------------|
 | angle    | number         |      | Angle in degrees that the rectangle is rotated counter-clockwise. |
 | xy       | number[]       |  ✔   | An X and Y coordinate that, once transform is applied, defines a center of the rectangle. |
-| width    | number         |  ✔   | The width of the box in fully transformed coordinate space. |
-| height   | number         |  ✔   | The height of the box in fully transformed coordinate space. |
+| width    | number         |  ✔   | The width of the box in Web Mercator degrees. |
+| height   | number         |  ✔   | The height of the box in Web Mercator degrees. |
 
 ## Example
 

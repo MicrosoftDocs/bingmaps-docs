@@ -24,9 +24,9 @@ Encapsulates an individual entity on the [floor] of a [venue].
 | address           | [address]       |      | The address of the entity where any missing fields populated from venue address. |
 | geometry          | [geometry] []   |      | A list of any polygons or polylines that define the extents of the entity. |
 | tag               | string          |      | Unique identifier for the entity so that it can be referenced. |
-| label             | culture:[label] |      | The text and placement for possible text labels for the entity and their positions. |
+| label             | culture:[label] |      | Dictionary of culture-specific text and placement information for possible labels for the entity.  The text in a label is what will be drawn on the map. |
 | xy                | number[]        |      | An X and Y coordinate that, once transform is applied, defines the location of a point entity or central location for a polygon or polyline entity. |
-| name              | culture:string  |      | Dictionary of culture-specific names for the entity, where an empty key refers to the culture identified by the venue's defaultCultureProperty. |
+| name              | culture:string  |      | Dictionary of culture-specific names for the entity, where an empty key refers to the culture identified by the venue's defaultCultureProperty.  The text in the name is what will be displayed outside the map. |
 | phoneNumber       | string          |      | The phone number for the entity. |
 | type              | [styleEntry]    |  ✔   | The key that identifies how to display the entity. |
 

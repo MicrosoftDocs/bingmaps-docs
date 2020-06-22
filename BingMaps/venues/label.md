@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Venue label JSON class
 
-Encapsulates the position and contents of a text label to try to apply to an entity.
+Encapsulates the position and contents of a text label to try to apply to an entity.  Each rectangle should be tested in order and only drawn if it does not overlap a previous one.
 
 ## Properties
 
