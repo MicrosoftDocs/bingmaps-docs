@@ -27,6 +27,7 @@ The entries shown below are a hierarchy where a [property](map-style-sheet-entry
 |-------------------------------------|----------------|----------|-------|-------------|
 | version                             | [Version]      | version  | [1.0] | The style sheet version that you want to use. |
 | settings                            | [Settings]     | g        | [1.0] | The settings that apply to the whole style sheet. |
+| baseMapStyle                        | [BaseMapStyle] |          | [1.4] | Map style from which this map style is derived. |
 | mapElement                          | [MapElement]   | me       | [1.0] | The parent entry to all map entries. |
 | > baseMapElement                    | [MapElement]   | bme      | [1.0] | The parent entry to all non-user entries. |
 | >> area                             | [MapElement]   | ar       | [1.0] | Areas describing land use. These should not to be confused with the physical buildings which are under the structure entry. |
@@ -240,6 +241,7 @@ The entries shown below are a hierarchy where a [property](map-style-sheet-entry
 
 [Version]: map-style-sheet-entry-properties.md#version-properties
 [Settings]: map-style-sheet-entry-properties.md#settings-properties
+[BaseMapStyle]: map-style-sheet-entry-properties.md#basemapstyle
 [MapElement]: map-style-sheet-entry-properties.md#mapelement-properties
 [BorderedMapElement]: map-style-sheet-entry-properties.md#borderedmapelement-properties
 [MapElement3D]: map-style-sheet-entry-properties.md#mapelement3d-properties

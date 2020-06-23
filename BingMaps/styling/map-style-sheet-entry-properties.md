@@ -36,6 +36,7 @@ All color values are specified as a hex **\#RRGGBB** or **\#AARRGGBB** string.
 | version  | string | Targeted style sheet version. Used for applicability. "1.0" for default, "1.*" for additional minor features updates. |
 
 ## Settings properties
+
 Web: ISettingStyle
 
 | Name                    | Type    | Web     | Style | Description |
@@ -55,7 +56,39 @@ Web: ISettingStyle
 | terrainFlat             | boolean |         | [1.5] | A flag that indicates whether the terrain should be flat (disabled) on the map. |
 | useDefaultImageColors   | boolean |         | [1.0] | A flag that indicates whether the original colors in the SVG should be used rather than looking up the palette entry for colors in an image. |
 
+## BaseMapStyle
+
+The baseMapStyle root property specifies which base map style sheet your style sheet is derived from.  It is supported starting at style version [1.4].
+
+In this example, the base map style is set to vibrantLight (the Bing Maps style) and all point features are turned off.
+
+```json
+{
+  "version":"1.*",
+  "baseMapStyle":"vibrantLight",
+  "elements": {
+    "point": {
+      "labelVisible": false,
+      "visible": false
+    }
+  }
+}
+```
+
+| baseMapStyle          | Description |
+|-----------------------|-------------|
+| canvasDark            | Dark canvas style |
+| canvasGray            | Gray canvas style |
+| canvasLight           | Light canvas style |
+| roadHighContrastDark  | High contrast dark symbolic style |
+| roadHighContrastLight | High contrast light symbolic style |
+| aerialWithOverlay     | Photo-real style with labels and icons |
+| roadLight             | Light symbolic style |
+| roadDark              | Dark symbolic style |
+| vibrantLight          | Light vibrant symbolic style (Bing Maps style) |
+
 ## MapElement properties
+
 Web: IMapElementStyle
 
 | Property          | Type    | Web      | Style | Description |
@@ -77,6 +110,7 @@ Web: IMapElementStyle
 | visible           | boolean | v        | [1.0] | Specifies if the map element is visible or not. |
 
 ## BorderedMapElement properties
+
 Web: IBorderedMapElementStyle
 
 This property group extends the MapElement (web: IMapElementStyle) property group.
