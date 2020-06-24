@@ -25,6 +25,7 @@ An image that can be used with [MapIcon](MapIcon-class.md).
 
 >```java
 > MapImage(android.graphics.Bitmap bitmap)
+> MapImage(InputStream stream)
 >```
 
 **iOS**
