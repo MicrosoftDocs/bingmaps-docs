@@ -1,7 +1,7 @@
 ---
-title: "Venue Map Class | Microsoft Docs"
+title: "Venue Map Footprints Layer Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/12/20"
+ms.date: "06/18/20"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
