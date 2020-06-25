@@ -1,14 +1,14 @@
 ---
 title: "Venue Maps Factory Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/12/20"
+ms.date: "06/12/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
-author: "simshap"
+author: "SimonShapiroMsft"
 ms.author: "simshap"
 manager: "cordellj"
 ms.service: "bing-maps"

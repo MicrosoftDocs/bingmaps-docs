@@ -1,21 +1,21 @@
 ---
 title: "Venue Maps Options Object | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/12/20"
+ms.date: "06/12/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
-author: "simshap"
+author: "SimonShapiroMsft"
 ms.author: "simshap"
 manager: "cordellj"
 ms.service: "bing-maps"
 ---
 
 # VenueMapOptions
-Options used to customize how a [Venue](../../venues/venue.md) file is read and loaded via the [VenueMapFactory](venuemapfactory-class.md).
+Options used to customize how a [Venue](../../../venues/venue.md) file is read and loaded via the [VenueMapFactory](venuemapfactory-class.md).
 
 When hosting a venue map at a custom endpoint, the venue map can be loader either using `metadataLoader` or `metadataUrl`. Therefore, only one of `metadataLoader` and `metdataUrl` should be included in **VenueMapOptions**. 
 
