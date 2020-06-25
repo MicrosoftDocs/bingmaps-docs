@@ -17,14 +17,18 @@ ms.service: "bing-maps"
 # VenueMapOptions
 Options used to customize how a [Venue](../../venues/venue.md) file is read and loaded via the [VenueMapFactory](venuemapfactory-class.md).
 
-When hosting a venue map at a custom endpoint, one needs to ensure that the data hosted at `metadataUrl` can be loaded using the method defined in `metadataLoader`. Specifically, one should pay attention to the case where their data is hosted on a different domain where CORS is not enabled. In this case, the hosting site should create another webpage triggered by an additional parameter (referred to below as the JSONP URL parameter) which allows for the file to be downloaded across domains.
+When hosting a venue map at a custom endpoint, the venue map can be loader either using `metadataLoader` or `metadataUrl`. Therefore, only one of `metadataLoader` and `metdataUrl` should be included in **VenueMapOptions**. 
+
+
+
+Specifically, one should pay attention to the case where their data is hosted on a different domain where CORS is not enabled. In this case, the hosting site should create a templated webpage for hosting the data that is triggered by an additional parameter which allows for the file to be downloaded across domains. The parameter name is defined by the hosting website. The value for that parameter should be set to `{callback}`. See [Load Venue Map Using Metadata Url with JSONP](https://www.bing.com/api/maps/mapcontrol/isdk/) for an example of this.
 
 ## Properties
 Name                               | Type           | Description
 ---------------------------------- | --------------------- | -----------------------------------
 `error` | function() | The callback function invoked after venue map creation fails.
-`metadataLoader` | **VenueMapMetadataLoader** | Method called to invoke loading of [Venue](../../venues/venue.md) metadata. If not specified, `Network.downloadJsonp` is invoked.
-`metadataUrl` | string OR function() => string | The custom url endpoint that returns a string or a function that returns a string. If the [Venue](../../venues/venue.md) file is hosted on a different domain, and [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is not enabled, but does support [JSONP](https://en.wikipedia.org/wiki/JSONP), the name of JSONP URL parameter that can be used to download the file across different domains needs to be specified. 
+`metadataLoader` | **VenueMapMetadataLoader** | Method called to invoke loading of [Venue](../../venues/venue.md) metadata. If not specified, the data will be feteched from the value of `metadataUrl`.
+`metadataUrl` | string OR function() => string | The custom url endpoint that returns a string or a function that returns a string. If the url contains the `{callback}` placeholder, it will be fetched as [JSONP](https://en.wikipedia.org/wiki/JSONP). Otherwise, it will be fetched as JSON using [XHR](https://en.wikipedia.org/wiki/XMLHttpRequest). 
 `showFloorSwitcher` | boolean | If `true`, the floor switcher control is shown when this venue is visible. This property is `false` by default.
 `success`| function(VenueMap: [VenueMap](venuemap-class.md) ) | The callback function invoked after a venue map is successfully created.
 `venueMapId` | string | The id of the venue map.

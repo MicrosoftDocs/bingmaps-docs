@@ -15,13 +15,13 @@ ms.service: "bing-maps"
 ---
 
 # VenueMapFactoryClass
-The **VenueMapFactory** class can create instances of the [VenueMap](venuemap-class.md) class and [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) class.
+The **VenueMapFactory** class can create instances of the [VenueMap](venuemap-class.md) class.
 
 ## Constructor
 
 > VenueMapFactory(map: [Map](../../map-control-api/map-class.md))
 
-When creating a **VenueMapFactory**, the map instance associated with venue map factory must be passed.
+When creating a **VenueMapFactory**, instaces created by the factory will be shown on the map associated with the factory.
 
 
 ## Methods
@@ -31,4 +31,3 @@ Below are the list of methods for **VenueMapFactory**.
 Name                               | Return Type           | Description
 ---------------------------------- | ------------ | -----------------------------------
 `create(options:` [VenueMapOptions](venuemapoptions-object.md) `)` || Creates a [VenueMap](venuemap-class.md) with specifications defined in `options`.
-`createFootprintsLayer(options: ` [VenueMapFootprintsLayerOptions](venuemapfootprintslayeroptions-object.md) `)`| | Creates a [VenueMapFootprintsLayer](venuemapfootprintslayer-class.md) with specifications defined in `options`.
