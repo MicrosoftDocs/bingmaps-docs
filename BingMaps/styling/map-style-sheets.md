@@ -17,7 +17,8 @@ ms.service: "bing-maps"
 
 A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).  A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
+> [!TIP]
+> Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
 ## JSON Style Sheet Format
 
@@ -31,7 +32,7 @@ The primary way to represent a map style sheet is using JavaScript Object Notati
 The following JSON can be used to make land appear white, water red, water labels green, and roads fill with blue:
 
 ```json
-{   
+{
     "version":"1.*",
     "settings":{"landColor":"#FFFFFF"},
     "elements":{
@@ -40,7 +41,7 @@ The following JSON can be used to make land appear white, water red, water label
 }
 ```
 
-![Style Sample](../articles/media/style_sample.png)
+![Style Sample](media/style_sample.png)
 
 This JSON can be used to remove all labels and points from a map.
 
@@ -83,6 +84,6 @@ http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?&key=
 
 Here is the image this request would return:
 
-![Red Blue Map Style](../articles/media/bmv8-redbluemapstyle.jpg)
+![Red Blue Map Style](media/bmv8-redbluemapstyle.jpg)
 
 If the style is too long for a URL, when using the REST imagery service, the style can be passed in using a POST request. The POST data object format is: `style=[Your custom style]`

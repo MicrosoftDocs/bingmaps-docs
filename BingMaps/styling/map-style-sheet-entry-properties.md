@@ -17,7 +17,8 @@ ms.service: "bing-maps"
 
 The properties that are grouped and listed below can be set on [entries](map-style-sheet-entries.md) in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).
 
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
+> [!TIP]
+> Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
 
 In this simple JSON style sheet, the "water" entry is a MapElement, so it can set the "fillColor" property.
 
@@ -27,7 +28,8 @@ In this simple JSON style sheet, the "water" entry is a MapElement, so it can se
 
 All color values are specified as a hex **\#RRGGBB** or **\#AARRGGBB** string.
 
-> **Tip:** Ensure that all colors have 6 or 8 characters. If there is any other number of characters, the style will be considered invalid.
+> [!TIP]
+> Ensure that all colors have 6 or 8 characters. If there is any other number of characters, the style will be considered invalid.
 
 ## Version properties
 
