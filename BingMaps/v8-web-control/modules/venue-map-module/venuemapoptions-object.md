@@ -27,7 +27,7 @@ Specifically, one should pay attention to the case where their data is hosted on
 Name                               | Type           | Description
 ---------------------------------- | --------------------- | -----------------------------------
 `error` | function() | The callback function invoked after venue map creation fails.
-`metadataLoader` | **VenueMapMetadataLoader** | Method called to invoke loading of [Venue](../../venues/venue.md) metadata. If not specified, the data will be feteched from the value of `metadataUrl`.
+`metadataLoader` | **VenueMapMetadataLoader** | Method called to invoke loading of [Venue](../../../venues/venue.md) metadata. If not specified, the data will be feteched from the value of `metadataUrl`.
 `metadataUrl` | string OR function() => string | The custom url endpoint that returns a string or a function that returns a string. If the url contains the `{callback}` placeholder, it will be fetched as [JSONP](https://en.wikipedia.org/wiki/JSONP). Otherwise, it will be fetched as JSON using [XHR](https://en.wikipedia.org/wiki/XMLHttpRequest). 
 `showFloorSwitcher` | boolean | If `true`, the floor switcher control is shown when this venue is visible. This property is `false` by default.
 `success`| function(VenueMap: [VenueMap](venuemap-class.md) ) | The callback function invoked after a venue map is successfully created.
