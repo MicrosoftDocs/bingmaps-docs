@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 Encapsulates a hole within a polygon [geometry].
 
+This class is part of the [venue] JSON class structure.
+
 ## Properties
 
 | Property | Type       | Req? | Description |
@@ -34,3 +36,4 @@ Encapsulates a hole within a polygon [geometry].
 ```
 
 [geometry]: geometry.md
+[venue]: venue.md

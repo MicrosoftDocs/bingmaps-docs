@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 Encapsulates an oriented rectangle.
 
+This class is part of the [venue] JSON class structure.
+
 ## Properties
 
 | Property | Type           | Req? | Description |
@@ -36,3 +38,5 @@ Encapsulates an oriented rectangle.
   "height": 2.1E-05
 }
 ```
+
+[venue]: venue.md

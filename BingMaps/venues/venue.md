@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 Encapsulates a venue, consisting of one or more floors.
 
+Data that adheres to this JSON format can be displayed in the [Bing Maps V8 Web Control] by creating a [VenueMap] instance with [VenueMapFactory].create.
+
 ## Properties
 
 | Property        | Type           | Req? | Description |
@@ -56,3 +58,6 @@ See the venue [sample].
 [address]: address.md
 [floor]: floor.md
 [sample]: sample.md
+[Bing Maps V8 Web Control]: ../v8-web-control/index.md
+[VenueMap]: ../v8-web-control/modules/venue-map-module/venuemap-class.md
+[VenueMapFactory]: ../v8-web-control/modules/venue-map-module/venuemapoptions-object.md

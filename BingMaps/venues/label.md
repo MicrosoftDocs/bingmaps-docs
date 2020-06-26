@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 Encapsulates the position and contents of a text label to try to apply to an entity.  Each rectangle should be tested in order and only drawn if it does not overlap a previous one.
 
+This class is part of the [venue] JSON class structure.
+
 ## Properties
 
 | Property | Type           | Req? | Description |
@@ -34,3 +36,4 @@ Encapsulates the position and contents of a text label to try to apply to an ent
 ```
 
 [rectangle]: rectangle.md
+[venue]: venue.md
