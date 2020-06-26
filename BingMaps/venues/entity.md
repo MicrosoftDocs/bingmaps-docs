@@ -30,6 +30,9 @@ Encapsulates an individual entity on the [floor] of a [venue].
 | phoneNumber       | string          |      | The phone number for the entity. |
 | type              | [styleEntry]    |  ✔   | The key that identifies how to display the entity. |
 
+> [!WARNING]
+> Even though entity.geometry technically supports multiple entries, currently only the first one is read.
+
 ## Example
 
 ```json
