@@ -28,18 +28,21 @@ Name                               | Type           | Description
 ---------------------------------- | --------------------- | -----------------------------------
 `error` | function() | The callback function invoked after venue map creation fails.
 `metadataLoader` | **VenueMapMetadataLoader** | Method called to invoke loading of [Venue](../../../venues/venue.md) metadata. If not specified, the data will be feteched from the value of `metadataUrl`.
-`metadataUrl` | string OR function() => string | The custom url endpoint that returns a string or a function that returns a string. If the url contains the `{callback}` placeholder, it will be fetched as [JSONP](https://en.wikipedia.org/wiki/JSONP). Otherwise, it will be fetched as JSON using [XHR](https://en.wikipedia.org/wiki/XMLHttpRequest). 
-`showFloorSwitcher` | boolean | If `true`, the floor switcher control is shown when this venue is visible. This property is `false` by default.
-`success`| function(VenueMap: [VenueMap](venuemap-class.md) ) | The callback function invoked after a venue map is successfully created.
+`metadataUrl` | string | The custom url endpoint that returns a string or a function that returns a string. If the url contains the `{callback}` placeholder, it will be fetched as [JSONP](https://en.wikipedia.org/wiki/JSONP). Otherwise, it will be fetched as JSON using [XHR](https://en.wikipedia.org/wiki/XMLHttpRequest). 
+`showFloorSwitcher` | boolean | If `true`, the floor switcher control is shown when this venue is visible. This property is `false` by default. 
+`success`| function(venueMap: [VenueMap](venuemap-class.md) ) | The callback function invoked after a venue map is successfully created.
 `venueMapId` | string | The id of the venue map.
 
-<br/>
+> [!WARNING]
+> The floor switcher is only shown if the [navbar](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/navigationbarmode-enumeration) is using the `default` style
 <br/>
 
-## VenueMapMetdataLoader Method
+<br/>
+
+## VenueMapMetadataLoader Method
 Parameter                               | Req? | Description
 ----------------------------------  | :---------------------: | -----------------------------------
-`success` | ✔ |The callback function invoked when the data for the venue is to be loaded
 `venueMapId` | ✔ | The ID of the venue to load
+`success` | ✔ |The callback function invoked when the data for the venue is to be loaded
 `error` | |The callback function invoked invoked when there's an error loading the data
 `market` | |Country+language code for the current market
