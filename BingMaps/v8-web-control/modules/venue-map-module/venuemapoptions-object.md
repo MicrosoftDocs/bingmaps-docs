@@ -34,7 +34,7 @@ Name                               | Type           | Description
 `venueMapId` | string | The id of the venue map.
 
 > [!WARNING]
-> The floor switcher is only shown if the [navbar](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/navigationbarmode-enumeration) is using the `default` style
+> The floor switcher is only shown if the [navbar](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-api/navigationbarmode-enumeration) is using the `square` style
 <br/>
 
 <br/>
