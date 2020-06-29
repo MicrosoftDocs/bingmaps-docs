@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 ---
 # Venue label JSON class
 
-Encapsulates the position and contents of a text label to try to apply to an entity.  Each rectangle should be tested in order and only drawn if it does not overlap a previous one.
+Encapsulates the position and contents of a text label to try to apply to an entity.
 
 This class is part of the [venue] JSON class structure.
 
@@ -25,6 +25,12 @@ This class is part of the [venue] JSON class structure.
 |----------|----------------|------|-------------|
 | text     | string         |  ✔   | Text to display in the label. |
 | rects    | [rectangle] [] |      | Rectangles to try to place the text of the label in. |
+
+### Rectangles
+
+Each rectangle should be tested in order and only drawn if the text fits in the rectangle and it does not overlap another label.
+For polygons, the current ordering is that the first rectangle is horizontal and fits within the polygon, and the second is not
+constrained by being horizontal but is the largest oriented rectangle that fits in the polygon.
 
 ## Example
 
