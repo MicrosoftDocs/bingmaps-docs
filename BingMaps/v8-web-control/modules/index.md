@@ -37,5 +37,6 @@ Name                                   | Description
 [Microsoft.Maps.SpatialMath](spatial-math-module/index.md)             | The module provides a bunch of useful spatial math functions.
 [Microsoft.Maps.Traffic](traffic-module/index.md) | Adds a traffic incident and flow data to the map.
 [Microsoft.Maps.WellKnownText](well-known-text-module.md)           | This module makes it easy to import or export data in Well Known Text format.
+[Microsoft.Maps.VenueMaps](venue-map-module/index.md)               | This module makes it easy to display Microsoft's [Venue](../../venues/venue.md) JSON format.
 
 You can also [create custom modules](../map-control-concepts/modular-framework/creating-custom-modules.md), which is a really great way to promote code reuse. 
