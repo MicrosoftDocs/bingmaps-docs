@@ -34,7 +34,7 @@ Name                               | Type           | Description
 `venueMapId` | string | The id of the venue map.
 
 > [!WARNING]
-> The floor switcher is only shown if the [navbar](../../map-control-api/navigationbarmode-enumeration) is using the `square` style
+> The floor switcher is only shown if the [navbar](../../map-control-api/navigationbarmode-enumeration.md) is using the `square` style
 <br/>
 
 <br/>
