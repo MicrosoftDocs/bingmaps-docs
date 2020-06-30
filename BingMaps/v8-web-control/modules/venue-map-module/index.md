@@ -37,10 +37,10 @@ Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) cla
 
 ## Examples
 
-  * [Load Venue Map Using Metadata Url](https://www.bing.com/api/maps/mapcontrol/isdk/customvenuemapmetadataurl)
-  * [Load Venue Map Using Metadata Url with JSONP](https://www.bing.com/api/maps/mapcontrol/isdk/customvenuemapmetadataurljsonp)
-  * [Load Venue Map Using Metadata loader](https://www.bing.com/api/maps/mapcontrol/isdk/customvenuemapmetadataloader)
+  * [Load Venue Map Using Metadata Url](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurl)
+  * [Load Venue Map Using Metadata Url with JSONP](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurljsonp)
+  * [Load Venue Map Using Metadata loader](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataloader)
   * [Set Active Floor](https://www.bing.com/api/maps/mapcontrol/isdk/setactivefloor)
   * [Hide Venue Map](https://www.bing.com/api/maps/mapcontrol/isdk/hidevenuemap)
-  * [Show Floor Switcher](https://www.bing.com/api/maps/mapcontrol/isdk/floorswitcher)
+  * [Show Floor Switcher](https://www.bing.com/api/maps/mapcontrol/isdk/showfloorswitcher)
   
