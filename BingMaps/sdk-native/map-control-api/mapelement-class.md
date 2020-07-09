@@ -104,8 +104,8 @@ The ZIndex of the map element. Elements with a higher ZIndex will render on top 
 **Android**
 
 >```java
-> float getZIndex()
-> void setZIndex(float zIndex)
+> int getZIndex()
+> void setZIndex(int zIndex)
 >```
 
 **iOS**
