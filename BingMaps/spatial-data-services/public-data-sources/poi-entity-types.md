@@ -11,9 +11,6 @@ ms.service: "bing-maps"
 # POI Entity Types
 
 The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
-
-> [!NOTE]
->  If migrating to the PointsOfInterest data source from the deprecated NAVTEQNA and/or NAVTEQEU data sources, the PointsOfInterest data source supports the same Entity Type ID's used by the NAVTEQNA and NAVTEQEU data sources.
   
 |Entity Type Name|Entity Type ID|  
 |--------------------|----------------------|  
