@@ -235,10 +235,11 @@ The entries shown below are a hierarchy where a [property](map-style-sheet-entry
 | >>> scenicRoute                     | [MapElement]   |          | [1.1] | Lines that represent scenic driving routes. |
 | >>> walkingRoute                    | [MapElement]   |          | [1.0] | Lines that represent walking routes. |
 | > userMapElement                    | [MapElement]   |          | [1.0] | All user entries. |
-| >> userBillboard                    | [MapElement]   |          | [1.1] | The styling for default MapBillboard instances. |
-| >> userLine                         | [MapElement]   |          | [1.0] | The styling for default MapPolyline instances. |
-| >> userModel3D                      | [MapElement3D] |          | [1.1] | The styling for default MapModel3D instances. This is primarily for setting renderAsSurface. |
-| >> userPoint                        | [PointStyle]   |          | [1.0] | The styling for default MapIcon instances. |
+| >> userArea                         | [MapElement]   |          | [1.0] | The default styling for user polygons such as [MapPolygon] instances. |
+| >> userBillboard                    | [PointStyle]   |          | [1.1] | The default styling for user billboards such as [MapBillboard] instances. |
+| >> userLine                         | [MapElement]   |          | [1.0] | The default styling for user lines such as [MapPolyline] instances. |
+| >> userModel3D                      | [MapElement3D] |          | [1.1] | The default styling for user 3D models such as [MapModel3D] instances (primarily for setting renderAsSurface). |
+| >> userPoint                        | [PointStyle]   |          | [1.0] | The default styling for user points such as [MapIcon] instances. |
 
 [Version]: map-style-sheet-entry-properties.md#version-properties
 [Settings]: map-style-sheet-entry-properties.md#settings-properties
@@ -247,6 +248,11 @@ The entries shown below are a hierarchy where a [property](map-style-sheet-entry
 [BorderedMapElement]: map-style-sheet-entry-properties.md#borderedmapelement-properties
 [MapElement3D]: map-style-sheet-entry-properties.md#mapelement3d-properties
 [PointStyle]: map-style-sheet-entry-properties.md#pointstyle-properties
+[MapBillboard]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapBillboard
+[MapPolygon]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolygon
+[MapPolyline]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolyline
+[MapModel3D]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapModel3D
+[MapIcon]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapIcon
 [1.0]: map-style-sheet-support.md
 [1.1]: map-style-sheet-support.md
 [1.2]: map-style-sheet-support.md
