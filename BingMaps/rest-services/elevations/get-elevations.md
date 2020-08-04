@@ -48,7 +48,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,l
 The parameters `bounds`, `rows`, `cols`, and `key` are required.
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/{Bounds}?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsAPIKey}  
 ```  
   
 ### Get the offset of the geoid sea level Earth model from the ellipsoid Earth model
