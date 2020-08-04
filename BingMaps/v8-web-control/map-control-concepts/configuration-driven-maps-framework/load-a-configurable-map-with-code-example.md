@@ -44,7 +44,7 @@ In addition to being able to load a map configuration file via an iframe, they c
                     map.setView({ zoom: 5 });
                 }, 5000);
             }, function (errorMsg) {
-                //An error occured, display it.
+                //An error occurred, display it.
                 alert(message);
             });
     }
