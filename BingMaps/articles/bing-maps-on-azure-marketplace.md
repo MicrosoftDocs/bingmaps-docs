@@ -22,7 +22,7 @@ The Bing Maps for Enterprise product licensing option through Azure Marketplace 
 Bing Maps for Enterprise will be removed as an offering on Azure Marketplace and your existing keys will stop working according to the timeline below.
 
 ## Recommendations
-We are recommending that our Azure Marketplace customers transition their mapping solutions to utilize [Azure Maps](https://azure.microsoft.com/services/azure-maps/) and license it through the [Azure Portal](https://portal.azure.com/#home). Customers who still require Bing Maps APIs, please go directly to our other Bing Maps for [Enterprise licensing](https://www.microsoft.com/en-us/maps/licensing) options.
+We are recommending that our Azure Marketplace customers transition their mapping solutions to utilize [Azure Maps](https://azure.microsoft.com/services/azure-maps/) and license it through the [Azure Portal](https://portal.azure.com/#home). Customers who still require Bing Maps APIs, please review our other Bing Maps for [Enterprise licensing](https://www.microsoft.com/en-us/maps/licensing) options.
 
 ## Timeline
 The timeline is as follows:
@@ -46,7 +46,7 @@ Bing Maps for Enterprise licensing through Azure Marketplace was first released 
 
 ### Bing Maps
 - [Bing Maps for Enterprise licensing options](https://www.microsoft.com/en-us/maps/licensing)
-- To contact the Bing Maps for Enterprise licensing team please go to [this page](https://www.microsoft.com/en-us/maps/contact-us) or contact us at maplic@microsoft.com for customers in North America and mapemea@microsoft.com for all other regions
+- To contact the Bing Maps for Enterprise licensing team please go to [this page](https://www.microsoft.com/en-us/maps/contact-us) or contact us at maplic@microsoft.com for customers in the Americas and mapemea@microsoft.com for all other regions
 - [Bing Maps for Enterprise documentation](https://docs.microsoft.com/bingmaps/)
 - [Bing Maps for Enterprise technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=a2a88740-f135-42df-37d0-430a1b6cffc1)
 - Customers that are interested to continue to use Bing Maps for Enterprise are encouraged to sign up for an account/key at the [Bing Maps portal](https://www.bingmapsportal.com/)
