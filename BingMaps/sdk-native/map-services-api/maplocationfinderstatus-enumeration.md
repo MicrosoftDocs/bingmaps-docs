@@ -51,7 +51,7 @@ The request was cancelled by the user.
 
 ### BadResponse
 
-A fatal parsing error has occured while processing the response.
+A fatal parsing error has occurred while processing the response.
 
 ### InvalidCredentials
 
@@ -59,15 +59,15 @@ The credentials provided for the request were not valid.
 
 ### NetworkFailure
 
-A network failure has occured while processing the request.
+A network failure has occurred while processing the request.
 
 ### ServerError
 
-A server error has occured while processing the request.
+A server error has occurred while processing the request.
 
 ### UnknownError
 
-An unknown error has occured while processing the request.
+An unknown error has occurred while processing the request.
 
 ### EmptyResponse
 
