@@ -29,7 +29,7 @@ A maximum of two agent shifts are allowed for synchronous Multi-Itinerary Optimi
 
 can be used with synchronous calls. For synchronous calls, there is also a maximum of twenty (20) itinerary items.
 
-If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen of fewer shifts are allowed, and up to 2,000 itinerary items may be scheduled using a valid enterprise key (Note: Different limitations may apply to basic or trial keys). 
+If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen or fewer shifts are allowed, and up to 2,000 itinerary items may be scheduled using a valid enterprise key (Note: Different limitations may apply to basic keys). 
 
 This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 11`) where each inspector has one or more shifts. <? and the number of shifts shall not exceed (16) sixteen.?> There is a limit of 2,000 food deliveries.
 
