@@ -27,8 +27,8 @@ We are recommending that our Azure Marketplace customers transition their mappin
 ## Timeline
 The timeline is as follows:
 - October 5, 2020: New Bing Maps for Enterprise resources (subscriptions) can no longer be created on Azure Marketplace.
-- November 2, 2020: Bing Maps for Enterprise resources, licensed through Azure Marketplace, which use a free tier (non-paid), are shut down. Existing keys will no longer work as of this date. Resources with a paid tier remain operational.
-o	Free (non-paid) levels include:
+- November 2, 2020: Bing Maps for Enterprise resources, licensed through Azure Marketplace, which use a free tier (non-paid), are shut down. Existing keys will no longer work as of this date. Resources with a paid tier remain operational.  
+Free (non-paid) levels include:
   - Public Website Transactions Level 1
   - Internal Website Transactions Level 1
 -	January 11, 2021: All remaining Bing Maps for Enterprise plans licensed through Azure Marketplace will no longer be accessible through the Azure portal. The existing keys will remain functional within key limits until January 31, 2021.
