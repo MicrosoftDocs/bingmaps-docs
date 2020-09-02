@@ -22,14 +22,15 @@ The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for
 
 Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities. Note that Priority `1` is the lowest priority and `100` is the highest priority. Multiple itinerary items can have the same priority value. If all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be set to either `TravelTime` or `Distance`: this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
 
-A maximum of two agent shifts are allowed for synchronous Multi-Itinerary Optimization API requests, meaning that only either 
+A maximum of five agent shifts are allowed for synchronous Multi-Itinerary Optimization API requests, meaning that only either
 
-- (a) two agents, each with a single shift, or 
-- (b) a single agent with two or fewer shifts 
+- (a) five agents, each with a single shift, or
+- (b) a single agent with five or fewer shifts
 
 can be used with synchronous calls. For synchronous calls, there is also a maximum of twenty (20) itinerary items.
 
-If more than two shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a total of fifteen or fewer shifts are allowed, and up to 2,000 itinerary items may be scheduled using a valid enterprise key (Note: Different limitations may apply to basic keys). 
+If more than five shifts or agents need to be scheduled, an asynchronous request must be used. With asynchronous requests, a maximum of 14 shifts for each defined agent are allowed with an Enterprise key, if using a Basic key then the limit is a maximum of 7 shifts per agent.  Also, with asynchronous requests, a maximum of 2,000 itinerary items may be scheduled if using an Enterprise key.
+ 
 
 This API is ideal for solving delivery scheduling problems. For example, a city office could use this service to schedule inspections for food safety officials. Each official will have variable shifts throughout the day during which time they will travel from business to business in the city to carry out inspections. Care must be made during scheduling to ensure that each inspector has enough time to finish their inspection during each restaurant's or food truck's business hours. In this scenario, there could be `M` food inspectors (where `M < 11`) where each inspector has one or more shifts. <? and the number of shifts shall not exceed (16) sixteen.?> There is a limit of 2,000 food deliveries.
 
