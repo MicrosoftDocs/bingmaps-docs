@@ -65,11 +65,13 @@ The following maneuver type values are returned the [Routes](index.md) in the ma
 |TransitDepart|Get on public transit at transit stop.|  
 |TurnBack|Turn back sharply.|  
 |TurnLeft|Turn left.|  
+|TurnLeftSharp|Take a sharp left turn.|  
 |TurnLeftThenBearLeft|Turn left and then bear left.|  
 |TurnLeftThenBearRight|Turn left and then bear right.|  
 |TurnLeftThenTurnLeft|Turn left and then turn left again.|  
-|TurnLeftThenTurnRight|Turn left and then turn right.|  
+|TurnLeftThenTurnRight|Turn left and then turn right.|
 |TurnRight|Turn right.|  
+|TurnRightSharp|Take a sharp right turn.|  
 |TurnRightThenBearLeft|Turn right and then bear left.|  
 |TurnRightThenBearRight|Turn right and then bear right.|  
 |TurnRightThenTurnLeft|Turn right and then turn left.|  
