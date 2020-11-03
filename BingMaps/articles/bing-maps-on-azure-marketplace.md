@@ -26,12 +26,22 @@ We are recommending that our Azure Marketplace customers transition their mappin
 
 ## Timeline
 The timeline is as follows:
-- October 5, 2020: New Bing Maps for Enterprise resources (subscriptions) can no longer be created on Azure Marketplace.
-- November 2, 2020: Bing Maps for Enterprise resources, licensed through Azure Marketplace, which use a free tier (non-paid), are shut down. Existing keys will no longer work as of this date. Resources with a paid tier remain operational.  
-Free (non-paid) levels include:
-  - Public Website Transactions Level 1
-  - Internal Website Transactions Level 1
--	January 11, 2021: All remaining Bing Maps for Enterprise plans licensed through Azure Marketplace will no longer be accessible through the Azure portal. The existing keys will remain functional within key limits until January 31, 2021.
+- October 5, 2020
+  - New Bing Maps for Enterprise resources (subscriptions) can no longer be created on Azure Marketplace.
+  
+- November 2, 2020:
+  - Free tier:
+    - Free tier (non-paid) resources are shut down. These include the levels “Public Website Transactions Level 1” and “Internal Website Transactions Level 1”. This means the resource will no longer be visible in the Azure Portal.
+    - The generated keys remain functional within key limits until January 31, 2021.
+  - Paid tier:       
+    - Existing resources and keys remain available.
+    - Changes in pricing tiers are no longer possible.
+    - Customers can actively delete their resources. This will also disable the respective key.
+    
+- January 11, 2021: 
+  - All remaining Bing Maps Enterprise resources licensed through the Azure Marketplace will be removed in the Azure Portal.
+  - Customers can no longer access the respective resources in the Azure Portal.
+  - The generated keys remain functional within key limits until January 31, 2021 after which the keys will be disabled.
 
 ## Why is this happening?
 Bing Maps for Enterprise licensing through Azure Marketplace was first released before Azure Maps was created and was used as an easy way to license an enterprise mapping solution within the Azure portal. Then, in early 2018, Azure Maps was launched as a native Azure mapping solution and has become the enterprise mapping solution of choice for our Azure customers.
