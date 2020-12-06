@@ -30,6 +30,15 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Tunisia
 |Locality|Transit Agency|
 |:--------------------|--------------|
+|000000-Regional|[Societe Nationale de Transport Interurbain](http://www.sntri.com.tn) 
+|Jendouba|[Aindrahem](http://srtj.tn) 
+|Jendouba|[Bousalem](http://srtj.tn) 
+|Jendouba|[Fernana](http://srtj.tn) 
+|Jendouba|[Ghardimaou](http://srtj.tn) 
+|Jendouba|[Jendouba](http://srtj.tn) 
+|Jendouba|[Tabarka](http://srtj.tn) 
+|Kairouan|[Societe Regionale de Transport de Kairouan](http://www.soretrak.com.tn) 
+|Medenine|[Medenine](http://srt-medenine.com/) 
 |Tunis|[UABS-Banlieue Sahel](http://www.sncft.com.tn) 
 |Tunis|[UABT-Banlieue Tunis](http://www.sncft.com.tn) 
 |Tunis|[UAGL-Grande Ligne](http://www.sncft.com.tn) 

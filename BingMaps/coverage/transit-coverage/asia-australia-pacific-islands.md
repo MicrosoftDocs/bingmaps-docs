@@ -201,7 +201,9 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Auckland|[Tranzit Group Ltd](https://www.aucklandtransport.govt.nz) 
 |Auckland|[Waiheke Bus Company](https://www.aucklandtransport.govt.nz) 
 |Christchurch|[Metro Christchurch](https://metroinfo.org.nz) 
-|Hamilton|[Busit](https://www.busit.co.nz) 
+|Hamilton|[Busit](https://www.busit.co.nz)
+|Regional|[Otago Regional Council](http://www.orc.govt.nz/buses)  
+|Tauranga|[Baybus](http://www.baybus.co.nz/) 
 |Timaru|[Metro Timaru](https://www.metroinfo.org.nz/timIndex.html) 
 |Wellington|[Classic Coaches](https://www.metlink.org.nz) 
 |Wellington|[East By West Ferry](https://www.metlink.org.nz) 
@@ -254,14 +256,63 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New Delhi|[Uttar Pradesh State Road Transport Corporation](http://www.upsrtc.com) 
 |Pune|[PMPML](http://www.pmpml.org/) 
 
+## Japan
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Fukuoka|[福岡市営渡船](http://port-of-hakata.city.fukuoka.lg.jp/guide/ferry_city/index.html) 
+|Gunma|[永井運輸株式会社](http://https://www.nagai-unyu.net/) 
+|Shimada|[島田市](http://https://www.city.shimada.shizuoka.jp/bouhan/komibus.html) 
+|Yamanashi|[中央市](http://www.city.chuo.yamanashi.jp/sougou/) 
+|Yamanashi|[南アルプス市](http://www.city.minami-alps.yamanashi.jp/) 
+|Yamanashi|[富士川町](http://www.town.fujikawa.yamanashi.jp/) 
+|Yamanashi|[富士急行グループ](http://www.fujikyu.co.jp/) 
+|Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
+|Yamanashi|[山梨交通（静岡営業所管内）](http://yamanashikotsu.co.jp/) 
+|Yamanashi|[甲州市](http://https://www.city.koshu.yamanashi.jp/) 
+|Yamanashi|[甲斐市](http://www.city.kai.yamanashi.jp/) 
+|Yamanashi|[身延町](http://https://www.town.minobu.lg.jp/kurashi/koukyou-koutsu/) 
+|Yamanashi|[韮崎市](http://www.city.nirasaki.lg.jp/)
+
 ## Malaysia
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Johor Bahru|[Syarikat Pengangkutan Handal Indah Sdn Bhd](https://www.causewaylink.com.my) 
 |Kuala Lumpur|[MYrapid Kuala Lumpur](https://myrapid.com.my/) 
 
+## Taiwan
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Regional|[BRT](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[中台灣客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[仁友客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[全航客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[南投客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[台中客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[台灣高鐵](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[和欣客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[巨業交通](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[彰化客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[東南客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[統聯客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[臺灣鐵路](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[苗栗客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[豐原客運](http://citybus.taichung.gov.tw/iTravel/) 
+|Regional|[豐榮客運](http://citybus.taichung.gov.tw/iTravel/)
+
 ## Thailand
 |Locality|Transit Agency|
 |:--------------------|--------------|
+|Chiang Mai|[Chiang Mai](http://www.cmcity.go.th/) 
+|Chiang Mai|[Chiang Mai University, TH](http://transit.cmu.ac.th/index.php) 
+|Chiang Mai|[Chiangmai Romluang Bus Co.,Ltd](http://www.coopthai.com/nct/) 
+|Chiang Mai|[Coopthai NCT, TH](http://www.coopthai.com/nct/) 
+|Chiang Mai|[Lampoon Pattana Transport, TH](http://www.chiangmaidlt.go.th/) 
+|Chiang Mai|[Nakorn Chiangmai Dernrote Co-Operative .,Ltd](http://www.coopthai.com/nct/) 
+|Chiang Mai|[Nakorn Chiangmai Dernrote Co-Operative.,Ltd](http://www.coopthai.com/nct/) 
+|Chiang Mai|[Nakornlanna Co.,Ltd](http://www.nakorn-lanna.net/home/) 
+|Chiang Mai|[Prempracha Transport Co.,Ltd](http://premprachatransports.com/home-th1) 
+|Chiang Mai|[Sankamphaeng Co-Operative.,Ltd](http://www.chiangmaidlt.go.th/) 
+|Chiang Mai|[Sankamphaeng Co-Operative.,Ltd](http://www.coopthai.com/nct/) 
+|Chiang Mai|[Yanyon Nakorn Chiang Mai Co.,Ltd](http://www.yanyonnakornchiangmai.com/index.php) 
 |Regional|[Greenbus Thailand, LT.D.](https://www.greenbusthailand.com/website/en/) 
 |Regional|[Kwanwiang Transport, LTD.](https://www.facebook.com/khwanwiang.transport) 
