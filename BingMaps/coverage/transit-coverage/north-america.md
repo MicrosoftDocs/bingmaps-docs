@@ -126,6 +126,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Mexico
 |Locality|Transit Agency|
 |:--------------------|--------------|
+|Guadalajara|[Sistema de Tren Eléctrico Urbano Guadalajara](http://www.siteur.gob.mx/) 
 |Mexico City|[Corredores Concesionados](http://www.semovi.df.gob.mx/) 
 |Mexico City|[Ferrocarriles Suburbanos](#)
 |Mexico City|[Metrobús](http://www.metrobus.df.gob.mx/) 
@@ -158,6 +159,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Alaska|Regional|[Inter-Island Ferry Authority](https://www.interislandferry.com/)| 
 |Alaska|Sitka|[The RIDE](https://ridesitka.com)| 
 |Arizona|Bullhead City|[Bullhead Area Transit System](https://www.bullheadcity.com/departments/human-services-transit/transportation)| 
+|Arizona|Regional|[Bundu Bus](http://www.bundubus.com/)| 
 |Arizona|Cottonwood|[Cottonwood Area Transit](https://cottonwoodaz.gov/161/Cottonwood-Area-Transit-CAT)| 
 |Arizona|Flagstaff|[Northern Arizona Intergovernmental Public Transportation Authority](https://www.mountainline.az.gov)| 
 |Arizona|Fort Defiance|[Navajo Transit System](https://www.navajotransit.navajo-nsn.gov/)| 
@@ -171,9 +173,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Arkansas|Little Rock|[Rock Region METRO](https://rrmetro.org/)| 
 |California|Agoura Hills|[Kanan Shuttle](http://www.toaks.org/departments/public-works/transit/kanan-shuttle)| 
 |California|Alameda County|[Dumbarton Express](https://www.dumbartonexpress.com)| 
+|California|Alhambra|[Alhambra Community Transit](http://https://www.cityofalhambra.org/resources/public-transportation)| 
 |California|Anaheim|[Anaheim Resort Transportation](https://www.rideart.org/)| 
 |California|Antioch|[3D](https://www.trideltatransit.com)| 
 |California|Antioch|[Tri Delta Transit](https://trideltatransit.com)| 
+|California|Auburn|[Auburn Transit](http://https://www.auburn.ca.gov/192/Transit-Services)| 
 |California|Avalon|[Avalon Transit](http://www.cityofavalon.com/transit)| 
 |California|Bakersfield|[Airport Valet Express](https://bit.ly/airportvaletexpress)| 
 |California|Bakersfield|[Golden Empire Transit District](https://www.getbus.org/)| 
@@ -195,15 +199,20 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Bay Area|[San Francisco Bay Ferry](https://www.sanfranciscobayferry.com)| 
 |California|Bay Area|[San Francisco Municipal Transportation Agency](https://www.sfmta.com)| 
 |California|Bay Area|[Tideline Water Taxi](https://bit.ly/tideline)| 
+|California|Bay Area|[Union City Transit](http://www.uctransit.org)| 
 |California|Bay Area|[VTA](https://www.vta.org)| 
 |California|Beaumont|[Beaumont Pass Transit](https://www.passtransit.com)| 
+|California|Bell Gardens|[Bell Gardens Trolley](http://https://www.bellgardens.org/government/city-departments/public-works/transportation/fixed-route-bus)| 
+|California|Bellflower|[Bellflower Bus](http://https://www.bellflower.org/civicax/filebank/blobdload.aspx?BlobID=26756)| 
 |California|Big Bear Lake|[Mountain Transit](https://www.mountaintransit.org/?referrer=gtfs)| 
 |California|Bishop|[Eastern Sierra Transit Authority](https://www.estransit.com/)| 
 |California|Blythe|[Palo Verde Valley Transit Agency](https://pvvta.com/)| 
 |California|Burbank|[Burbank Bus](http://www.burbankbus.org/)| 
+|California|Calabasas|[Calabasas Transit System](http://https://www.cityofcalabasas.com/government/public-works/transportation-transit-division/shuttle-and-trolley-services)| 
 |California|Cerritos|[Cerritos on Wheels](http://www.cerritos.us/RESIDENTS/transportation.php)| 
 |California|Chico|[B-Line](http://www.blinetransit.com/)| 
 |California|Clovis|[Clovis Transit](http://https://cityofclovis.com/general-services/transit/)|
+|California|Compton|[Compton Renaissance Transit](http://www.comptoncity.org/visitors/cpttrans.asp)| 
 |California|Concord|[County Connection](https://www.countyconnection.com/)| 
 |California|Corona|[Corona Cruiser](https://www.coronaca.gov/government/departments-divisions/public-works/public-transit/corona-cruiser)| 
 |California|Davis|[Unitrans](https://unitrans.ucdavis.edu)| 
@@ -221,6 +230,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Fairfield|[Fairfield and Suisun Transit](https://www.fasttransit.org/)| 
 |California|Fresno|[Fresno County Rural Transit Agency](http://www.ruraltransit.org/)| 
 |California|Fresno|[Fresno Public Transportation (FAX)](https://www.fresno.gov/transportation/fax/)| 
+|California|Galt|[South County Transit Link](http://www.sctlink.com/)|
 |California|Guadalupe|[Guadalupe Flyer](https://www.cityofsantamaria.org/home/showdocument?id=11840)| 
 |California|Guadalupe|[Santa Maria Area Transit](https://www.cityofsantamaria.org/home/showdocument?id=6159)| 
 |California|Hollister|[San Benito County Express](https://www.SanBenitoCountyExpress.org/)| 
@@ -238,6 +248,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Los Angeles|[Gold Coast Transit](https://www.goldcoasttransit.org)| 
 |California|Los Angeles|[LA Go Bus](http://https://dpw.lacounty.gov/transit/)| 
 |California|Los Angeles|[LADOT](https://www.ladottransit.com)| 
+|California|Los Angeles|[La Campana](http://www.cityofbell.org/?NavID=72)| 
 |California|Los Angeles|[Lawndale Beat](http://www.lawndalecity.org/html/DEPTHTML/CSD/Beat.htm)| 
 |California|Los Angeles|[LAX](https://www.flylax.com/en/flyaway-bus)| 
 |California|Los Angeles|[Long Beach Transit](https://ridelbt.com/)| 
@@ -245,12 +256,14 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Los Angeles|[Metrolink Trains](https://www.metrolinktrains.com)| 
 |California|Los Angeles|[OMNITRANS](https://www.omnitrans.org)| 
 |California|Los Angeles|[Orange County Transportation Authority](https://www.octa.net/Bus-Transit/Overview)| 
-|California|Los Angeles|[Palos Verdes Peninsula Transit Authority](http://www.palosverdes.com/pvtransit/)| 
+|California|Los Angeles|[Palos Verdes Peninsula Transit Authority](http://www.palosverdes.com/pvtransit/)|
+|California|Los Angeles|[Spirit Bus](http://www.montereypark.ca.gov/549/Spirit-Bus)|  
 |California|Los Angeles|[Thousand Oaks Transit](https://www.toaks.org/departments/public-works/transit)| 
 |California|Los Angeles|[Valley Express](http://www.valleyexpressbus.org/)| 
 |California|Lower Lake|[Lake Transit](https://www.laketransit.org/)| 
 |California|Madera|[Madera Area Express](http://www.maderactc.org/public-transit/?referrer=gtfs)| 
 |California|Madera|[Madera County Connection](http://www.maderactc.org/public-transit/?referrer=gtfs)| 
+|California|Madera|[Madera Metro](http://https://www.cityofmadera.ca.gov/home/departments/transit/)| 
 |California|Mendocino County|[Mendocino Transit Authority](https://www.mendocinotransit.org/?referrer=gtfs)| 
 |California|Merced|[The Bus](https://www.mercedthebus.com/)| 
 |California|Modesto|[Ceres Area Transit](https://www.ci.ceres.ca.us/220/Ceres-Area-Transit-CAT)| 
@@ -266,6 +279,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Norwalk|[Norwalk Transit System](https://www.norwalk.org/city-hall/departments/norwalk-transit-system-nts)| 
 |California|Oceanside|[North County Transit District](https://www.gonctd.com)| 
 |California|Ojai|[Ojai Trolley Service](https://www.ojaitrolley.com)| 
+|California|Oxnard|[Camarillo Area Transit](http://https://www.cityofcamarillo.org/residents/public_transportation/camarillo_area_transit.php)| 
 |California|Pasadena|[Foothill Transit](http://www.foothilltransit.org)| 
 |California|Pasadena|[Pasadena Transit](http://www.pasadenatransit.net/)| 
 |California|Petaluma|[PE](https://cityofpetaluma.net/pubworks/transit-sub.html)| 
@@ -279,7 +293,9 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Regional|[Sage Stage](https://www.sagestage.com)| 
 |California|Regional|[Tuolumne County Transit](https://www.tuolumnecountytransit.com)| 
 |California|Rio Vista|[Rio Vista Delta Breeze](http://riovistacity.com/delta-breeze-transit-system/)| 
+|California|Ripon|[Blossom Express](http://www.cityofripon.org/residents/around_ripon/blossom_express)| 
 |California|Riverside|[Riverside Transit Agency](https://www.riversidetransit.com)| 
+|California|Rosemead|[Rosemead Explorer](http://www.cityofrosemead.org/government/city_departments/public_works/public_works_superintendent/public_transportation/dial_a_ride_rosemead_explorer)| 
 |California|Roseville|[Roseville Transit](https://www.roseville.ca.us/transit)| 
 |California|Sacramento|[Folsom Stage Lines](https://www.folsom.ca.us/depts/public_works/transit_division.asp)| 
 |California|Sacramento|[Sacramento Regional Transit](https://www.sacrt.com)| 
@@ -315,29 +331,41 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |California|Torrance|[TORRANCE TRANSIT SYSTEM](https://Transit.TorranceCA.gov)| 
 |California|Tracy|[TRACER](http://https://ci.tracy.ca.us/?navId=193)| 
 |California|Trinity County|[Trinity Transit](https://www.trinitytransit.org/?referrer=gtfs)| 
+|California|Tulare|[Tulare County Area Transit](http://tularecounty.ca.gov/rma/index.cfm/public-works/tulare-county-area-transit-tcat/)|
 |California|Vacaville|[Vacaville City Coach](https://www.citycoach.com/)| 
 |California|Vallejo|[SolTrans](http://www.soltransride.com/)| 
 |California|Ventura|[Ventura County Transportation Commission](https://www.goventura.org/)| 
 |California|Victorville|[Victor Valley Transit Authority](https://www.vvta.org)| 
+|California|West Covina|[Go West Shuttle](http://https://www.westcovina.org/home/showdocument?id=725)| 
 |California|Woodland|[Yolo County Transportation District](https://www.yolobus.com/)| 
 |California|Yosemite|[Yosemite Area Regional Transportation System](https://www.yarts.com/?referrer=gtfs)| 
 |California|Yosemite|[Yosemite Valley Shuttle System](https://www.nps.gov/yose/planyourvisit/publictransportation.htm#CP_JUMP_566977)| 
 |California|Yountville|[YV](https://www.ridethevine.com/yountville-trolley)| 
 |California|Yreka|[Siskiyou Transit and General Express](https://www.co.siskiyou.ca.us/)| 
+|Colorado|Black Hawk|[Blackhawk and Central City Tramway](http://site.cityofblackhawk.org/visit-black-hawk/shuttle-service/)| 
 |Colorado|Boulder|[University of Colorado Boulder](https://www.colorado.edu/pts/)| 
+|Colorado|Boulder|[Via Mobility Services](http://buffbus.etaspot.net/)|
+|Colorado|Breckenridge|[Breckenridge Free Ride](http://www.breckfreeride.com)| 
+|Colorado|Colorado Springs|[Envida](http://https://envidacares.org/transportation/)|
 |Colorado|Colorado Springs|[Groome Transportation](http://https://groometransportation.com/colorado-springs/?utm_source=google&utm_medium=transit&utm_campaign=coloradosprings)|
 |Colorado|Colorado Springs|[Mountain Metro Transit](https://coloradosprings.gov/mountain-metro)| 
+|Colorado|Colorado Springs|[TSC Transit](http://https://tellerseniorcoalition.org/transportation)| 
+|Colorado|Cripple Creek|[Cripple Creek Transportation](http://https://new.visitcripplecreek.com/plan/transportation/)| 
 |Colorado|Denver|[Green Ride](http://https://greenrideco.com/?utm_source=google&utm_medium=transit&utm_campaign=greenride)| 
 |Colorado|Denver|[Regional Transportation District](https://rtd-denver.com)| 
+|Colorado|Durango|[Road Runner Transit](http://https://sococaa.org/road-runner-transit/)| 
 |Colorado|Estes Park|[Rocky Mountain National Park](https://www.nps.gov/romo)| 
 |Colorado|Fort Collins|[Transfort](http://www.ridetransfort.com/)| 
 |Colorado|Golden|[Bustang](https://ridebustang.com/)| 
 |Colorado|Grand Junction|[Grand Valley Transit](https://gvt.mesacounty.us)| 
 |Colorado|Greeley|[Greeley](https://greeleyevanstransit.com/ )| 
+|Colorado|Las Animas|[Bent County Transportation](http://www.bentcounty.net/residents/transportation.php#.XxW-UJNKiU-)|
+|Colorado|Montrose|[All Points Transit](http://https://www.allpointstransit.com/)| 
 |Colorado|Regional|[ECO Transit](https://www.eaglecounty.us/Transit/)| 
 |Colorado|Regional|[Gunnison Valley RTA](https://www.gunnisonvalleyrta.com)| 
 |Colorado|Regional|[RFTA](https://www.rfta.com/)| 
 |Colorado|Snowmass Village|[Snowmass Village](https://www.snowmasstransit.com/)| 
+|Colorado|Telluride|[SMART](http://https://www.colorado.gov/smarttelluride)| 
 |Colorado|Vail|[Epic Mountain Express](https://www.epicmountainexpress.com/googlemaps)| 
 |Colorado|Vail|[Vail Transit](https://www.vailgov.com/bus-schedules)| 
 |Colorado|Winter Park|[The Lift](http://www.wpgov.com/223/Transportation-Services)| 
@@ -351,6 +379,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Connecticut|Preston|[Southeast Area Transit District](http://www.seatbus.com)| 
 |Connecticut|Regional|[9 Town Transit](https://estuarytransit.org/)| 
 |Connecticut|Regional|[Shore Line East](https://www.shorelineeast.com/)| 
+|Connecticut|Storrs|[HuskyGo](http://https://transpo.uconn.edu/)|
 |Delaware|Regional|[Dart First State](https://www.dartfirststate.com)| 
 |District of Columbia|Regional|[Altamont Corridor Express](https://www.amtrak.com)| 
 |District of Columbia|Regional|[Amtrak](https://www.amtrak.com)| 
@@ -369,6 +398,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Florida|Brandenton|[Manatee County Area Transit](https://www.mymanatee.org/home/government/departments/public-works/transit-paratransit.html)| 
 |Florida|Brooksville|[Hernando](http://www.hernandobus.com/)| 
 |Florida|Daytona Beach|[Votran](https://www.votran.org)| 
+|Florida|DeFuniak Springs|[GoWal](http://https://www.gowaltransit.com/)|
 |Florida|Florida|[Florida Express Bus](https://webstore.thefloridaexpressbus.com)| 
 |Florida|Fort Walton Beach|[Emerald Coast Rider](https://ecrider.org/)| 
 |Florida|Gainesville|[Regional Transit System](https://www.go-rts.com/)| 
@@ -412,6 +442,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Illinois|Chicago|[Metra](https://www.metrarail.com/)| 
 |Illinois|Chicago|[PACE](https://www.pacebus.com)| 
 |Illinois|Davenport|[Citibus](https://www.cityofdavenportiowa.com/services/citibus_transit)| 
+|Illinois|DeKalb|[DeKalb Public Transit](http://https://www.cityofdekalb.com/473/Transit)| 
 |Illinois|Normal|[Connect Transit](https://www.connect-transit.com)| 
 |Illinois|Regional|[Madison County Transit](http://www.mct.org/)| 
 |Illinois|Regional|[Metro Rock Island County Metropolitan Mass Transit District](https://www.gogreenmetro.com)| 
@@ -433,6 +464,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Iowa|Coralville|[Coralville Transit](https://www.coralville.org/166/Bus-Schedules-Route-Maps)| 
 |Iowa|Des Moines|[Des Moines Area Regional Transit Authority](https://www.ridedart.com)| 
 |Iowa|Fort Dodge|[Dodger Area Rapid Transit](http://www.midascog.net/transit/dart)| 
+|Iowa|Iowa City|[University of Iowa - CAMBUS](http://https://transportation.uiowa.edu/cambus)|
 |Iowa|Marshalltown|[Marshalltown Municipal Transit](https://www.ci.marshalltown.ia.us/static/departments/works/transit.php)| 
 |Iowa|Mason City|[Mason City Public Transit](https://www.masoncity.net/pview.aspx?id=18070&amp;catid=477)| 
 |Iowa|Muscatine|[MuscaBus](https://www.muscatineiowa.gov/75/Public-Transit)| 
@@ -475,7 +507,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Massachusetts|Boston|[Coach Company](http://https://coachco.com/)| 
 |Massachusetts|Boston|[Logan Express](http://www.massport.com/logan-airport/to-from-logan/transportation-options/logan-express/)| 
 |Massachusetts|Boston|[MBTA](https://www.mbta.com)| 
-|Massachusetts|Boston|[Massport](https://www.massport.com)| 
+|Massachusetts|Boston|[Massport](https://www.massport.com)|
+|Massachusetts|Boston|[Plymouth & Brockton Street Railway Co.](http://www.p-b.com/)|  
 |Massachusetts|Brockton|[Brockton Area Transit Authority](https://www.ridebat.com/)| 
 |Massachusetts|Cape Ann|[Cape Ann Transportation](http://canntran.com/)| 
 |Massachusetts|Cape Cod|[Cape Cod Regional Transit Authority (CCRTA)](http://capecodrta.org/)| 
@@ -553,6 +586,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New Hampshire|Nashua|[Nashua](https://www.nashuatransit.com)| 
 |New Hampshire|New England|[Concord Coach Lines](https://webstore.concordcoachlines.com)| 
 |New Hampshire|Regional|[C&J](https://webstore.ridecj.com)| 
+|New Jersey|Bridgewater|[Somerset County](http://www.co.somerset.nj.us/government/public-works/transportation/county-shuttle-schedules)|
 |New Jersey|Newark|[NJ TRANSIT BUS](https://www.njtransit.com/)| 
 |New Jersey|Newark|[NJ TRANSIT RAIL](https://www.njtransit.com/)| 
 |New Jersey|Philadelphia|[Port Authority Transit Corporation](https://www.ridepatco.org/?utm_source=AddTransit&utm_medium=GTFS)| 
@@ -601,6 +635,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New York|Regional|[Groome Transportation](http://https://groometransportation.com)| 
 |New York|Regional|[Ulster County Area Transit](https://ulstercountyny.gov/ucat/ulster-county-area-transit)| 
 |New York|Rochester|[Rochester-Genesee Regional Transportation Authority](https://www.rgrta.com)| 
+|New York|Rome|[Birnie Bus](http://www.birniebus.com/)| 
 |New York|Suffolk County|[Suffolk County Transit](http://www.sct-bus.org)|
 |North Carolina|Asheville|[Asheville Redefines Transit](https://www.ashevillenc.gov/Departments/Transit.aspx)| 
 |North Carolina|Chapel Hill|[Chapel Hill Transit](https://www.townofchapelhill.org/town-hall/departments-services/transit)| 
@@ -623,6 +658,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ohio|Akron|[METRO](https://www.akronmetro.org)| 
 |Ohio|Athens|[Athens Public Transit](https://www.athenstransit.org/)| 
 |Ohio|Butler|[Butler County Regional Transit Authority](http://www.butlercountyrta.com/)| 
+|Ohio|Canton|[SARTA](http://www.sartaonline.com)| 
 |Ohio|Cincinnati|[Southwest Ohio Regional Transit Authority](http://www.go-metro.com/)| 
 |Ohio|Cleveland|[Greater Cleveland Regional Transit Authority](https://www.riderta.com)| 
 |Ohio|Columbus|[Central Ohio Transit Authority](https://www.cota.com)| 
@@ -641,6 +677,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Oregon|Bend|[Cascades East Transit](https://cascadeseasttransit.com/)| 
 |Oregon|Bend|[Central Oregon Breeze](https://cobreeze.com/)| 
 |Oregon|Bend|[HighDesert POINT](https://oregon-point.com/highdesert-point/)| 
+|Oregon|Bend|[Mt. Bachelor](http://https://www.mtbachelor.com/info/mtbachelor-shuttle/)| 
 |Oregon|Brookings|[Curry Public Transit](https://currypublictransit.org/)| 
 |Oregon|Canby|[Canby Area Transit](https://canbyoregon.gov/transportation/CAThomepage.htm)| 
 |Oregon|Coos Bay|[Coos County Area Transit](https://www.coostransit.org/)| 
@@ -649,6 +686,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Oregon|Cottage Grove|[South Lane Wheels](https://southlanewheels.org/)| 
 |Oregon|Eugene|[NorthWest POINT](https://oregon-point.com/northwest-point/)| 
 |Oregon|Florence|[Florence Yachats Connector](https://www.ltd.org/connector/)| 
+|Oregon|Florence|[Link Lane](http://https://link-lane.org/)| 
 |Oregon|Florence|[Rhody Express](https://www.ltd.org/rhody/)| 
 |Oregon|Grants Pass|[Josephine Community Transit](https://www.co.josephine.or.us/SectionIndex.asp?SectionID=164)| 
 |Oregon|Grants Pass|[Rogue Valley Commuter Line](https://www.co.josephine.or.us/page.asp?navid=1718)| 
@@ -761,6 +799,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Virginia|Arlington|[Arlington Transit](https://www.arlingtontransit.com)| 
 |Virginia|Blacksburg|[Blacksburg Transit](https://www.ridebt.org/)| 
 |Virginia|Charlottesville|[Charlottesville Area Transit](http://www.charlottesville.org/departments-and-services/city-services/charlottesville-area-transit-cat)| 
+|Virginia|Danville|[Danville Transit](http://https://www.danville-va.gov/508/Mass-Transit)| 
 |Virginia|Dublin|[Pulaski Area Transit](https://www.nr.edu/transit/pat.php)| 
 |Virginia|Fairfax|[Fairfax CUE](https://www.fairfaxva.gov/government/public-works/transportation-division/cue-bus-system)| 
 |Virginia|Fairfax|[Fairfax Connector](https://www.fairfaxcounty.gov/connector/routes/)| 
@@ -776,6 +815,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Virginia|Regional|[Mountain Lynx Transit - Wytheville](http://district-three.org/index.php/Town-of-Wytheville)| 
 |Virginia|Regional|[New York Shuttle](https://www.nycshuttle.com)| 
 |Virginia|Regional|[Potomac and Rappahannock Transportation Commission](http://www.prtctransit.org/)| 
+|Virginia|Regional|[Virginia Regional Transit](http://https://vatransit.org/)| 
 |Virginia|Roanoke|[Radar Transit](https://www.radartransit.org/)| 
 |Virginia|Roanoke|[Valley Metro](https://www.valleymetro.com/)| 
 |Virginia|Williansburg|[WATA](https://www.gowata.org)| 
