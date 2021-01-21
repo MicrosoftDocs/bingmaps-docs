@@ -55,6 +55,6 @@ The geocode point was matched to the center of a parcel.
 
 The geocode point was matched to the rooftop of a building.
 
-## See also
+## See Also
 
 * [MapLocationPoint](MapLocationPoint-class.md)

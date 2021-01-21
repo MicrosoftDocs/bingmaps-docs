@@ -46,6 +46,6 @@ _See also:_ [MapLocation](MapLocation-class.md)
 >@property (nonatomic, readonly) NSArray<MSMapLocation*>* locations
 >```
 
-## See also
+## See Also
 
 * [MapLocationFinder](MapLocationFinder-class.md)

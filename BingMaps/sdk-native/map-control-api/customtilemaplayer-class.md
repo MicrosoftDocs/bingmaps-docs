@@ -19,26 +19,6 @@ Display tiles based on developer-supplied bytes returned in callbacks.
 > @interface MSMapCustomTileMapLayer : MSMapLayer
 >```
 
-## See Also [MapLayer](MapLayer-class.md)
-
-## Methods
-
-### clearTileCache
-
-Clears the tile cache so that all tiles will be requested again from the provider.
-
-**Android**
-
->```java
-> void clearTileCache()
->```
-
-**iOS**
-
->```objectivec
->- (void)clearTileCache
->```
-
 ## Properties
 
 ### BitmapRequested
@@ -61,3 +41,25 @@ _See also:_
 
 _See also:_
 [MSMapCustomTileMapLayerDelegate](iOS/MSMapCustomTileMapLayerDelegate-protocol.md)
+
+## Methods
+
+### ClearTileCache
+
+Clears the tile cache so that all tiles will be requested again from the provider.
+
+**Android**
+
+>```java
+> void clearTileCache()
+>```
+
+**iOS**
+
+>```objectivec
+>- (void)clearTileCache
+>```
+
+## See Also
+
+[MapLayer](MapLayer-class.md)

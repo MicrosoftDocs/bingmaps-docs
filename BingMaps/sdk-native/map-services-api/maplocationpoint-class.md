@@ -63,7 +63,7 @@ _See also:_ [MapLocationPointUsageType](MapLocationPointUsageType-enumeration.md
 >@property (nonatomic, readonly) MSMapLocationPointUsageType usageType
 >```
 
-## See also
+## See Also
 
 * [MapLocation](MapLocation-class.md)
 * [MapLocationPointCalculationMethod](MapLocationPointCalculationMethod-enumeration.md)

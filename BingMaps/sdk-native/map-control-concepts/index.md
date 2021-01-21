@@ -17,3 +17,4 @@ Concept                                                                         
 [Custom Overlays](tile-layers.md)                                                  | Overlay large images -- such as traffic coverage or weather radar -- to your map.
 [Interacting with maps](user-interface-gestures-and-controls.md)                   | Enable / disable Pan, Rotate, Tilt, and Zoom user interaction.
 [Events](handle-map-events.md)                                                     | Handle events that occur on a map.
+[User Location](user-location.md)                                                  | Show user's location on the map.

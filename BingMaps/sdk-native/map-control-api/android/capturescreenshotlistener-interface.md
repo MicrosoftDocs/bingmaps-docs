@@ -10,10 +10,10 @@ Callback interface to notify when a Bitmap has been captured as a result of a ca
 >```java
 > public interface CaptureScreenShotListener
 > {
->     public void onCaptureScreenShot(android.graphics.Bitmap bitmap);
+>     void onCaptureScreenShot(@Nullable android.graphics.Bitmap bitmap);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapView](../MapView-class.md)

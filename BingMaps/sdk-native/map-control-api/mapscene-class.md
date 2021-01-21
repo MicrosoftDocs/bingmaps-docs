@@ -24,7 +24,7 @@ MapScenes can be created via static factory methods on MapScene or descendants c
 
 MapScene contains static methods for creating specific versions of MapScene.  Note that under the covers this will instantiate MapScenes with different state depending on the method (e.g., multiple locations vs. a single location).
 
-### createFromLocation
+### CreateFromLocation
 
 Creates a map scene that displays a given location. The MapView determines how much around the point to display. For finer grained control of how close to the location to place the camera use `ofLocationAndRadius`.
 
@@ -33,8 +33,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocation(Geopoint location)
-> MapScene createFromLocation(Geopoint location, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)>
+> static MapScene createFromLocation(Geopoint location)
+> static MapScene createFromLocation(Geopoint location, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)>
 >```
 
 **iOS**
@@ -44,7 +44,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocation:(MSGeopoint *)location heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocationAndRadius
+### CreateFromLocationAndRadius
 
 Creates a map scene that displays the specified location and an amount of space around it.
 
@@ -53,8 +53,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters) 
-> MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters) 
+> static MapScene createFromLocationAndRadius(Geopoint location, double radiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -64,7 +64,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocation:(MSGeopoint *)location radius:(CLLocationDistance)radius heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocationAndZoomLevel
+### CreateFromLocationAndZoomLevel
 
 Creates a map scene that displays the specified location from the given zoom level.
 
@@ -73,8 +73,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel) 
-> MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel) 
+> static MapScene createFromLocationAndZoomLevel(Geopoint location, double zoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -84,7 +84,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocation:(MSGeopoint *)location zoomLevel:(double)zoomLevel heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocations
+### CreateFromLocations
 
 Creates a map scene that displays all of the locations, if possible.
 
@@ -93,8 +93,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocations(java.lang.Iterable<Geopoint> locations)
-> MapScene createFromLocations(java.lang.Iterable<Geopoint> locations, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocations(java.lang.Iterable<Geopoint> locations)
+> static MapScene createFromLocations(java.lang.Iterable<Geopoint> locations, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -104,7 +104,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocationsAndMargin
+### CreateFromLocationsAndMargin
 
 Creates a map scene that displays all of the locations with specified additional margin in density-independent pixels, if possible.
 
@@ -113,8 +113,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels)
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double marginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -124,7 +124,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations margin:(double)margin heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocationsAndMaxZoomLevel
+### CreateFromLocationsAndMaxZoomLevel
 
 Creates a map scene that displays all of the locations without zooming in further than a desired maximum zoom level, if possible.
 
@@ -133,8 +133,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel)
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double maxZoomLevel, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -144,7 +144,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations maxZoomLevel:(double)maxZoomLevel heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromLocationsAndMinRadius
+### CreateFromLocationsAndMinRadius
 
 Creates a map scene that displays all of the locations without zooming in further than a minimum amount of space around the center, if possible.
 
@@ -153,8 +153,8 @@ _See also:_ [Geopoint](Geopoint-class.md)
 **Android**
 
 >```java
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters)
-> MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters)
+> static MapScene createFromLocationsAndMargin(java.lang.Iterable<Geopoint> locations, double minRadiusInMeters, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -164,7 +164,7 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > + (instancetype)sceneWithLocations:(NSArray<MSGeopoint *> *)locations minRadius:(double)minRadius heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromBoundingBox
+### CreateFromBoundingBox
 
 Creates a map scene to display a particular bounding box. Equivalent to createFromLocations with each of the corners of the bounding box as points.
 
@@ -173,8 +173,8 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 **Android**
 
 >```java
-> MapScene createFromBoundingBox(GeoboundingBox boundingBox)
-> MapScene createFromBoundingBox(GeoboundingBox boundingbox, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromBoundingBox(GeoboundingBox boundingBox)
+> static MapScene createFromBoundingBox(GeoboundingBox boundingbox, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -184,7 +184,7 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 > + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox heading:(CLLocationDirection)heading pitch:(double)pitch;
 >```
 
-### createFromBoundingBoxAndMargin
+### CreateFromBoundingBoxAndMargin
 
 Creates a map scene to display a particular bounding box with specified margin in device-independent pixels from each side.
 
@@ -193,8 +193,8 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 **Android**
 
 >```java
-> MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingBox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels)
-> MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingbox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
+> static MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingBox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels)
+> static MapScene createFromBoundingBoxAndMargin(GeoboundingBox boundingbox, double leftMarginInDeviceIndependentPixels, double topMarginInDeviceIndependentPixels, double rightMarginInDeviceIndependentPixels, double bottomMarginInDeviceIndependentPixels, @Nullable Double headingInDegrees, @Nullable Double pitchInDegrees)
 >```
 
 **iOS**
@@ -204,16 +204,16 @@ _See also:_ [GeoboundingBox](GeoboundingBox-class.md)
 > + (instancetype)sceneWithBoundingBox:(MSGeoboundingBox *)boundingBox leftMargin:(double)leftMargin topMargin:(double)topMargin rightMargin:(double)rightMargin bottomMargin:(double)bottomMargin heading:(CLLocationDirection)heading pitch:(double)pitch
 >```
 
-### createFromCamera
+### CreateFromCamera
 
 Creates a MapScene that displays from a specified viewpoint instead of displaying a target.
 
 _See also:_ [MapCamera](MapCamera-class.md)
 
-*Android**
+**Android**
 
 >```java
-> MapScene createFromCamera(MapCamera camera)
+> static MapScene createFromCamera(MapCamera camera)
 >```
 
 **iOS**

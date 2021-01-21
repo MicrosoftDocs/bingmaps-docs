@@ -25,7 +25,7 @@ Gets the geographic location that corresponds to the position from the received 
 > final Geopoint location
 >```
 
-## See also
+## See Also
 
 * [OnMapTappedListener](OnMapTappedListener-interface.md)
 * [MapView](../MapView-class.md)

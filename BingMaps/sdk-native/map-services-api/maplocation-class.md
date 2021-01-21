@@ -151,7 +151,7 @@ Key-value pairs specifying how the query string was parsed into address values, 
 >@property (nonatomic, readonly) NSDictionary* queryParseValues
 >```
 
-## See also
+## See Also
 
 * [MapLocationFinder](MapLocationFinder-class.md)
 * [MapLocationFinderResult](MapLocationFinderResult-class.md)

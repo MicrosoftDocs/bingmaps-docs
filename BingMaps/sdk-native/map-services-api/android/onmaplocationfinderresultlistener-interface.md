@@ -14,7 +14,7 @@ Handles MapLocationFinderResult returned by MapLocationFinder geocoding request.
 > }
 >```
 
-## See also
+## See Also
 
 * [MapLocationFinder](../MapLocationFinder-class.md)
 * [MapLocationFinderResult](../MapLocationFinderResult-class.md)

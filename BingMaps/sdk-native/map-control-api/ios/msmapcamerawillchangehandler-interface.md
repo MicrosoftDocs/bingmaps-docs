@@ -11,7 +11,7 @@ Handler used with MapView.CameraChanging event. Return true from this event to i
 > typedef BOOL (^MSMapCameraWillChangeHandler)(MSMapCameraChangeReason, MSMapCamera*, BOOL)
 >```
 
-## See also
+## See Also
 
 * [MapCameraChangeReason](../MapCameraChangeReason-enumeration.md)
 * [MapView](../MapView-class.md)

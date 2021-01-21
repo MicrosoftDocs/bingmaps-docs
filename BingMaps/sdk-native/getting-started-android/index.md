@@ -24,7 +24,7 @@ After Android Studio is installed, create a new project in it.
 
     ![Create a app step 2](media/new-project2.png "Step 2")
 
-3. Select **API 16** as your Minimum API level, choose a name, package, location for your project, and and press **Finish**  
+3. Select **API 19** as your Minimum API level, choose a name, package, location for your project, and and press **Finish**  
 When it comes to language, this tutorial is in **Java**, though feel free to use Kotlin if that's your preference.
 
     ![Create a app step 1](media/new-project3.png "Step 3")
@@ -40,9 +40,10 @@ In your `project/build.gradle` file, inside `allprojects`, insert the following 
 
 >```
 > repositories {
->         maven {
->             url  "https://microsoft-maps.bintray.com/Maven"
->         }
+>         jcenter()
+          maven {
+              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+          }
 > }
 >```
 
@@ -58,7 +59,7 @@ Next, in the same file, inside `buildTypes` block, insert following block next t
 
 And finally, inside `dependencies` block, add the following lines and build your project:
 
-    implementation 'com.microsoft.maps:maps-sdk:1.1.4'
+    implementation 'com.microsoft.maps:maps-sdk:1.2.0'
 
 ## Adding a map view to your activity
 

@@ -20,18 +20,21 @@ _See also:_
 
 **Android**
 
+These methods return a [Future](https://developer.android.com/reference/java/util/concurrent/Future) object that can be used to work with the asynchronous operation including canceling the operation.  
+See also [MapLocationFinderResult](maplocationfinderresult-class.md).
+
 >```java
 >// Default overload: takes string query, options (nullable), and callback.
->void findLocations(String query, MapLocationOptions options, OnMapLocationFinderResultListener callback)
+>Future<MapLocationFinderResult> findLocations(String query, @Nullable MapLocationOptions options, OnMapLocationFinderResultListener callback)
 >
 >// Overload that takes a reference geopoint in addition to the default set of parameters. When you specify this parameter, the location is taken into account and the results returned may be more relevant to the user.
->void findLocations(String query, Geopoint referencePoint, MapLocationOptions options, OnMapLocationFinderResultListener callback)
+>Future<MapLocationFinderResult> findLocations(String query, @Nullable Geopoint referencePoint, @Nullable MapLocationOptions options, OnMapLocationFinderResultListener callback)
 >
 >// Overload that takes a reference geobounding box in addition to the default set of parameters. When you specify this parameter, the geographical area is taken into account when computing the results of a location query.
->void findLocations(String query, GeoboundingBox referenceBoundingBox, MapLocationOptions options, OnMapLocationFinderResultListener callback)
+>Future<MapLocationFinderResult> findLocations(String query, @Nullable GeoboundingBox referenceBoundingBox, @Nullable MapLocationOptions options, OnMapLocationFinderResultListener callback)
 >
 >// Overload that takes both geopoint and geobounding box as reference in addition to the default set of parameters.
->void findLocations(String query, Geopoint referencePoint, GeoboundingBox referenceBoundingBox, MapLocationOptions options, OnMapLocationFinderResultListener callback)
+>Future<MapLocationFinderResult> findLocations(String query, @Nullable Geopoint referencePoint, @Nullable GeoboundingBox referenceBoundingBox, @Nullable MapLocationOptions options, OnMapLocationFinderResultListener callback)
 >```
 
 **iOS**
@@ -63,7 +66,7 @@ _See also:_
 
 >```java
 >// Takes geopoint query, options (nullable), and callback.
->void findLocationsAt(Geopoint location, MapLocationOptions options, OnMapLocationFinderResultListener callback)
+>void findLocationsAt(Geopoint location, @Nullable MapLocationOptions options, OnMapLocationFinderResultListener callback)
 >```
 
 **iOS**
@@ -87,7 +90,7 @@ MapLocationOptions options = new MapLocationOptions()
 
 MapLocationFinder.findLocations("space needle", options, new OnMapLocationFinderResultListener() {
     @Override
-    void onResult(MapLocationFinderResult result)
+    void onMapLocationFinderResult(MapLocationFinderResult result)
     {
         if (result.getStatus() == MapLocationFinderStatus.SUCCESS) {
             List<MapLocation> resultLocations = result.getLocations();

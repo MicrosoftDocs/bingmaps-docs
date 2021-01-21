@@ -129,7 +129,7 @@ _Note: to be able to iterate through `Elements` property of `MapElementLayer` in
 >```
 
 
-## See also:
+## See Also:
 
 * [MapFlyout](../map-control-api/mapflyout-class.md)
 * [MapFlyoutCustomViewAdapter](../map-control-api/mapflyoutcustomviewadapter-interface.md)

@@ -122,6 +122,42 @@ _See also:_ [Geopoint](Geopoint-class.md)
 > @property (nonatomic, readonly) MSGeopoint *mapCenter
 >```
 
+### FullVisibleRegion
+
+Returns the current geopath that is the right-hand traverse of the currently visible area.
+
+_See also:_ [Geopath](geopath-class.md)
+
+**Android**
+
+>```java
+> Geopath getFullVisibleRegion()
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, readonly) MSGeopath *fullVisibleRegion
+>```
+
+### NearVisibleRegion
+
+Returns the current geopath  is the right-hand traverse of the approximate area of interest in the current map view.
+
+_See also:_ [Geopath](geopath-class.md)
+
+**Android**
+
+>```java
+> Geopath getNearVisibleRegion()
+>```
+
+**iOS**
+
+>```objectivec
+> @property (nonatomic, readonly) MSGeopath *nearVisibleRegion
+>```
+
 ### Heading
 
 Specifies the heading of the view in degrees where `0` is north, `90` is east, `180` is south, and `270` is west.  
@@ -255,7 +291,22 @@ Note that in Android, class `android.graphics.Point` is used since `android.util
 >```objectivec 
 > @property (nonatomic) CGSize mapSize
 >```
+<!--
+### PermissionsDelegate (Android only)
 
+Sets the delegate to handle permission requests. Clients should forward requests to the Android framework as appropriate.
+
+>```java
+> @RequiresApi(VERSION_CODES.M)
+> void setPermissionsDelegate(MapPermissionsDelegate delegate)
+>```
+
+_See also:_
+* [MapPermissionsDelegate](android/mappermissionsdelegate-interface.md)
+* [MapPermissionsCallback](android/mappermissionscallback-interface.md)
+* [MapPermissionsRequestArgs](android/mappermissionsrequestargs-class.md)
+* [MapPermissionsRequestReason](android/mappermissionsrequestreason-enumeration.md)
+-->
 ### Pitch
 
 Specifies the pitch of the camera in degrees, where `0` is looking straight down (minimum) and `90` is looking towards
@@ -337,9 +388,13 @@ Specifies the padding inside the map control in device-independent pixels.
 **Android**
 
 >```java
+> void setViewPadding(ViewPadding viewPadding)
+> ViewPadding getViewPadding()
+> 
+> @Deprecated
 > void setViewPadding(double left, double top, double right, double bottom)
 >```
-
+_See also:_ [ViewPadding](ViewPadding-class.md)
 **iOS**
 
 >```objectivec
@@ -364,71 +419,140 @@ Returns the zoom level of the current view.
 > @property (nonatomic, readonly) double zoomLevel
 >```
 
-## Lifecycle methods (Android only)
+### StyleSheet
 
-You must override lifecycle methods in parent fragment/activity and call respective MapView methods below from the callback.
+Specifies the style sheet that defines the style of the map, such as Road Light, Aerial, or other styles.
 
-_See also:_ https://developer.android.com/guide/components/activities/activity-lifecycle
+_See also:_ [MapStyleSheet](MapStyleSheet-class.md)
 
-### onCreate
-
-Map handler for created state.
+**Android**
 
 >```java
-> void onCreate(Bundle savedInstanceState)
+> MapStyleSheet getMapStyleSheet()
+> void setMapStyleSheet(MapStyleSheet mapStyleSheet)
 >```
 
-### onStart
+**iOS**
 
-Map handler for started state.
+>```objectivec
+> @property (nonatomic) MSMapStyleSheet *styleSheet
+>```
+
+### UserLocation
+
+Returns an instance of the MapUserLocation class to access the user location API.
+
+_See also:_ [MapUserLocation](mapuserlocation-class.md)
+
+**Android**
+
+>```java
+> MapUserLocation getUserLocation()
+>```
+
+**iOS**
+
+>```objectivec
+> @property(nonatomic, readonly) MSMapUserLocation* userLocation
+>```
+
+## Lifecycle methods (Android only)
+
+You must override lifecycle methods in parent activity or fragment, and call respective MapView methods listed below.
+
+_See also:_ [Understand the Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
+
+### OnCreate
+
+Map handler for Create event.
+
+_See also:_
+* [android.app.Activity.onCreate(android.os.Bundle)](https://developer.android.com/reference/android/app/Activity#onCreate%28android.os.Bundle%29)
+* [androidx.fragment.app.Fragment.onCreate(android.os.Bundle)](https://developer.android.com/reference/androidx/fragment/app/Fragment#onCreate%28android.os.Bundle%29)
+
+>```java
+> void onCreate(@Nullable Bundle savedInstanceState)
+>```
+
+### OnStart
+
+Map handler for Start event. Starts the map, creating rendering resources as necessary.
+
+_See also:_
+* [android.app.Activity.onStart()](https://developer.android.com/reference/android/app/Activity#onStart%28%29)
+* [androidx.fragment.app.Fragment.onStart()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onStart%28%29)
 
 >```java
 > void onStart()
 >```
 
-### onResume
+### OnResume
 
-Map handler for resumed state. Start the map, creating the rendering resources as necessary.
+Map handler for Resume event.
+
+_See also:_
+* [android.app.Activity.onResume()](https://developer.android.com/reference/android/app/Activity#onResume%28%29)
+* [androidx.fragment.app.Fragment.onResume()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onResume%28%29)
 
 >```java
 > void onResume()
 >```
 
-### onPause
+### OnPause
 
-Map handler for paused state. Suspends the map, freeing up resources as necessary.
+Map handler for Pause event.
+
+_See also:_
+* [android.app.Activity.onPause()](https://developer.android.com/reference/android/app/Activity#onPause%28%29)
+* [androidx.fragment.app.Fragment.onPause()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onPause%28%29)
 
 >```java
 > void onPause()
 >```
 
-### onSaveInstanceState
+### OnSaveInstanceState
 
-Map handler for save instance state.
+Map handler for Save Instance State event.
+
+_See also:_
+* [android.app.Activity.onSaveInstanceState(android.os.Bundle)](https://developer.android.com/reference/android/app/Activity#onSaveInstanceState%28android.os.Bundle%29)
+* [androidx.fragment.app.Fragment.onSaveInstanceState(android.os.Bundle)](https://developer.android.com/reference/androidx/fragment/app/Fragment#onSaveInstanceState%28android.os.Bundle%29)
 
 >```java
 > void onSaveInstanceState(Bundle outState)
 >```
 
-### onStop
+### OnStop
 
-Map handler for stopped state.
+Map handler for Stop event. Suspends the map, freeing up resources as necessary.
+
+_See also:_
+* [android.app.Activity.onStop()](https://developer.android.com/reference/android/app/Activity#onStop%28%29)
+* [androidx.fragment.app.Fragment.onStop()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onStop%28%29)
 
 >```java
 > void onStop()
 >```
 
-### onDestroy
+### OnDestroy
 
-Map handler for destroyed state. Dispose the map, releasing all resources.
+Map handler for Destroy event. Disposes the map, releasing all resources.
+
+_See also:_
+* [android.app.Activity.onDestroy()](https://developer.android.com/reference/android/app/Activity#onDestroy%28%29)
+* [androidx.fragment.app.Fragment.onDestroy()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onDestroy%28%29)
 
 >```java
 > void onDestroy()
 >```
 
-### onLowMemory
+### OnLowMemory
 
-Map handler for low memory event.
+Map handler for Low Memory event.
+
+_See also:_
+* [android.app.Activity.onLowMemory()](https://developer.android.com/reference/android/app/Activity#onLowMemory%28%29)
+* [androidx.fragment.app.Fragment.onLowMemory()](https://developer.android.com/reference/androidx/fragment/app/Fragment#onLowMemory%28%29)
 
 >```java
 > void onLowMemory()
@@ -436,7 +560,7 @@ Map handler for low memory event.
 
 ## Methods
 
-### setBackgroundColor
+### SetBackgroundColor
 
 The background color of the map that is rendered if there is nothing else to render. As soon as map tiles are available to render the background color is controlled by the active MapStyleSheet instead.
 
@@ -452,7 +576,7 @@ The background color of the map that is rendered if there is nothing else to ren
 > - (void)setMapBackgroundColor:(UIColor *)color
 >```
 
-### cancelAnimation
+### CancelAnimation
 
 Cancels the active animation, if running. If an animation is not running, this method does nothing.
 
@@ -468,7 +592,7 @@ Cancels the active animation, if running. If an animation is not running, this m
 > - (void)cancelAnimation
 >```
 
-### captureImage
+### CaptureImage
 
 Begins an asynchronous operation to capture a screenshot of the MapView.
 
@@ -488,7 +612,7 @@ _See also:_ [CaptureScreenshotListener](Android/CaptureScreenShotListener-interf
 
 _See also:_ [MSMapDidCaptureImageCallback](iOS/MSMapDidCaptureImageCallback-interface.md)
 
-### findMapElementsAtOffset
+### FindMapElementsAtOffset
 
 Returns the MapElements that are near a Point offset on the map. This API can be used to implement hit testing of MapElements. For example, on a Tapped event, it can be used to return the closest MapIcon and then that
 MapIcon's flyout can be shown.
@@ -505,7 +629,7 @@ MapIcon's flyout can be shown.
 > - (NSSet<MSMapElement *> *)findMapElementsAtOffset:(CGPoint)offset
 >```
 
-### isLocationInView
+### IsLocationInView
 
 Returns whether the given location is visible in the map view.
 
@@ -521,7 +645,7 @@ Returns whether the given location is visible in the map view.
 > - (BOOL)doesViewContainLocation:(MSGeopoint *)location
 >```
 
-### locationFromOffset
+### LocationFromOffset
 
 Converts a point relative to the map view to a geographic location, with an option to select a desired altitude reference
 system. Note that the return value can be null: for instance, a point in the sky will fail to return a location.
@@ -531,8 +655,8 @@ system. Note that the return value can be null: for instance, a point in the sky
 These methods operate with screen pixels.
 
 >```java
-> Geopoint getLocationFromOffset(Point offset)  
-> Geopoint getLocationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
+> @Nullable Geopoint getLocationFromOffset(Point offset)
+> @Nullable Geopoint getLocationFromOffset(Point offset, AltitudeReferenceSystem desiredAltitudeReferenceSystem)
 >```
 
 **iOS**
@@ -547,14 +671,14 @@ These methods operate with device-independent points.
 >               intoLocation:(MSGeopoint * _Nullable * _Nonnull)location
 >```
 
-### offsetFromLocation
+### OffsetFromLocation
 
 Converts a geographic location to a point on the map (pixel offset). Note that the return value can be null, for instance, locations that are not in view will fail to return an offset.
 
 **Android**
 
 >```java
-> Point getOffsetFromLocation(Geopoint location)
+> @Nullable Point getOffsetFromLocation(Geopoint location)
 >```
 
 **iOS**
@@ -563,7 +687,7 @@ Converts a geographic location to a point on the map (pixel offset). Note that t
 > - (BOOL)tryToConvertLocation:(MSGeopoint *)location intoOffset:(CGPoint *)offset
 >```
 
-### rotate
+### Rotate
 
 Rotates the map by the specified number of degrees.
 
@@ -579,7 +703,7 @@ Rotates the map by the specified number of degrees.
 > - (void)rotateWithDegrees:(CLLocationDirection)degrees
 >```
 
-### rotateTo
+### RotateTo
 
 Performs a rotate operation to a particular point. rotateTo(0) will put the MapView with north up.
 
@@ -595,14 +719,14 @@ Performs a rotate operation to a particular point. rotateTo(0) will put the MapV
 > - (void)rotateToDegrees:(CLLocationDirection)degrees
 >```
 
-### beginRotate
+### BeginRotate
 
 Performs a rotate operation and invokes the callback when complete.
 
 **Android**
 
 >```java
-> void beginRotate(double degrees, OnMapSceneCompletedListener listener)
+> void beginRotate(double degrees, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -615,14 +739,14 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### beginRotateTo
+### BeginRotateTo
 
 Perform a rotate operation to a particular point and invokes the callback when complete. beginRotateTo(0) will put the MapView with north up.
 
 **Android**
 
 >```java
-> void beginRotateTo(double angle, OnMapSceneCompletedListener listener)
+> void beginRotateTo(double angle, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -635,9 +759,12 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### setMapStyleSheet
+### SetMapStyleSheet
 
-Sets the style of the map, such as Road, Aerial, or other styles.
+*DEPRECATED*  
+Use the `StyleSheet` property instead.
+
+Sets the style sheet that defines the style of the map, such as Road Light, Aerial, or other styles.
 
 _See also:_ [MapStyleSheet](MapStyleSheet-class.md)
 
@@ -653,7 +780,7 @@ _See also:_ [MapStyleSheet](MapStyleSheet-class.md)
 > - (void)setStyleSheet:(MSMapStyleSheet*)mapStyleSheet;
 >```
 
-### setScene
+### SetScene
 
 Sets the scene of the map based on the animation provided.
 
@@ -673,7 +800,7 @@ _See also:_
 > - (void)setScene:(MSMapScene *)scene withAnimationKind:(MSMapAnimationKind)kind
 >```
 
-### beginSetScene
+### BeginSetScene
 
 Sets the scene of the map based on the animation provided. When the scene has finished changing, the provided callback is invoked.
 
@@ -684,7 +811,7 @@ _See also:_
 **Android**
 
 >```java
-> void beginSetScene(MapScene scene, MapAnimationKind kind, OnMapSceneCompletedListener listener)
+> void beginSetScene(MapScene scene, MapAnimationKind kind, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -697,9 +824,9 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### startContinuousPan
+### StartContinuousPan
 
-Performs an continuous pan operation.
+Performs a continuous pan operation.
 
 **Android**
 
@@ -713,7 +840,7 @@ Performs an continuous pan operation.
 > - (void)startContinuousPanWithHorizontalPointsPerSecond:(double)horizontalPointsPerSecond verticalPointsPerSecond:(double)verticalPointsPerSecond
 >```
 
-### startContinuousRotate
+### StartContinuousRotate
 
 Starts a continuous rotate operation.
 
@@ -729,7 +856,7 @@ Starts a continuous rotate operation.
 > - (void)startContinuousRotateWithDegreesPerSecond:(double)degreesPerSecond
 >```
 
-### startContinuousTilt
+### StartContinuousTilt
 
 Performs a continuous tilt operation. Call `stopContinuousTilt` to stop an in-progress tilt.
 
@@ -745,7 +872,7 @@ Performs a continuous tilt operation. Call `stopContinuousTilt` to stop an in-pr
 > - (void)startContinuousTiltWithDegreesPerSecond:(double)degreesPerSecond
 >```
 
-### startContinuousZoom
+### StartContinuousZoom
 
 Performs an ongoing zoom operation.
 
@@ -761,7 +888,7 @@ Performs an ongoing zoom operation.
 > - (void)startContinuousZoomWithZoomLevelsPerSecond:(double)zoomLevelsPerSecond
 >```
 
-### stopContinuousPan
+### StopContinuousPan
 
 Stops a continuous pan operation.
 
@@ -777,7 +904,7 @@ Stops a continuous pan operation.
 > - (void)stopContinuousPan
 >```
 
-### stopContinuousRotate
+### StopContinuousRotate
 
 Stops a previously started rotate operation
 
@@ -793,7 +920,7 @@ Stops a previously started rotate operation
 > - (void)stopContinuousRotate
 >```
 
-### stopContinuousTilt
+### StopContinuousTilt
 
 Stops an in-progress tilt operation.
 
@@ -809,7 +936,7 @@ Stops an in-progress tilt operation.
 > - (void)stopContinuousTilt
 >```
 
-### stopContinuousZoom
+### StopContinuousZoom
 
 Stops a continuous zoom operation.
 
@@ -825,7 +952,7 @@ Stops a continuous zoom operation.
 > - (void)stopContinuousZoom
 >```
 
-### tilt
+### Tilt
 
 Performs an operation to tilt the map's camera from its current position. Valid values are between -90 and 90. Invalid values will be clamped.
 
@@ -841,14 +968,14 @@ Performs an operation to tilt the map's camera from its current position. Valid 
 > - (void)tiltWithDegrees:(double)degrees
 >```
 
-### beginTilt
+### BeginTilt
 
 Performs an operation to tilt the map's camera from its current position and invokes the callback when complete. Valid values are between -90 and 90. Invalid values will be clamped.
 
 **Android**
 
 >```java
-> void beginTilt(double degrees, OnMapSceneCompletedListener listener)
+> void beginTilt(double degrees, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -861,7 +988,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### tiltTo
+### TiltTo
 
 Performs a tilt operation to a particular point. `tiltTo(0)` to have the map face nadir. Valid values are between 0 and 90. Invalid values will be clamped.
 
@@ -878,14 +1005,14 @@ Performs a tilt operation to a particular point. `tiltTo(0)` to have the map fac
 > - (void)tiltToDegrees:(double)degrees
 >```
 
-### beginTiltTo
+### BeginTiltTo
 
 Performs a tiltTo operation and invokes the callback when complete. Valid values are between 0 and 90. Invalid values will be clamped.
 
 **Android**
 
 >```java
-> void beginTiltTo(double degrees, OnMapSceneCompletedListener listener)
+> void beginTiltTo(double degrees, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -898,7 +1025,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### canTiltDown
+### CanTiltDown
 
 Returns true if tilting down (away from nadir) is possible.
 
@@ -914,7 +1041,7 @@ Returns true if tilting down (away from nadir) is possible.
 > - (BOOL)canTiltDown
 >```
 
-### canTiltUp
+### CanTiltUp
 
 Returns true if tilting up (towards nadir) is possible.
 
@@ -930,7 +1057,7 @@ Returns true if tilting up (towards nadir) is possible.
 > - (BOOL)canTiltUp
 >```
 
-### zoomIn
+### ZoomIn
 
 Performs a zoom in operation, equivalent to double tapping on the map.
 
@@ -948,7 +1075,7 @@ Note that this void is also repeatable, such that if called multiple times in ra
 > - (void)zoomIn
 >```
 
-### zoomOut
+### ZoomOut
 
 Performs a zoom out operation, equivalent to clicking the zoom out button on the map.
 Note that this method is also repeatable, such that if called multiple times in rapid order (e.g., the user repeatedly presses the zoom out button), the resulting operation is still smooth.
@@ -965,7 +1092,7 @@ Note that this method is also repeatable, such that if called multiple times in 
 > - (void)zoomOut
 >```
 
-### zoomTo
+### ZoomTo
 
 Performs a zoom operation to the specified zoom level.
 
@@ -981,14 +1108,14 @@ Performs a zoom operation to the specified zoom level.
 > - (void)zoomToLevel:(double)zoomLevel
 >```
 
-### beginZoomIn
+### BeginZoomIn
 
 Performs a zoom in operation, equivalent to double tapping on the map, and invokes the provided callback when the zoom is complete.
 
 **Android**
 
 >```java
-> void beginZoomIn(OnMapSceneCompletedListener listener)
+> void beginZoomIn(@Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1001,14 +1128,14 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### beginZoomOut
+### BeginZoomOut
 
 Performs a zoom out operation, equivalent to double tapping on the map, and invokes the provided callback when the zoom is complete.
 
 **Android**
 
 >```java
-> void beginZoomOut(OnMapSceneCompletedListener listener)
+> void beginZoomOut(@Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1028,7 +1155,7 @@ Performs a zoom operation to the specified zoom level and invokes the provided c
 **Android**
 
 >```java
-> void beginZoomTo(double zoomLevel, OnMapSceneCompletedListener listener)
+> void beginZoomTo(double zoomLevel, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1041,7 +1168,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### canZoomIn
+### CanZoomIn
 Returns true if calling zoomIn will affect camera.
 
 **Android**
@@ -1056,7 +1183,7 @@ Returns true if calling zoomIn will affect camera.
 > - (BOOL)canZoomIn
 >```
 
-### canZoomOut
+### CanZoomOut
 Returns true if calling zoomOut will affect camera.
 
 **Android**
@@ -1071,8 +1198,7 @@ Returns true if calling zoomOut will affect camera.
 > - (BOOL)canZoomOut
 >```
 
-
-### pan
+### Pan
 
 Perform a pan operation from the current location.
 
@@ -1088,14 +1214,14 @@ Perform a pan operation from the current location.
 > - (void)panWithHorizontalPoints:(double)horizontalPoints verticalPoints:(double)verticalPoints
 >```
 
-### beginPan
+### BeginPan
 
 Perform a pan operation from the current location, and invokes the provided callback when the pan is complete.
 
 **Android**
 
 >```java
-> void beginPan(double horizontalDeviceIndependentPixels, double verticalDeviceIndependentPixels, OnMapSceneCompletedListener listener)
+> void beginPan(double horizontalDeviceIndependentPixels, double verticalDeviceIndependentPixels, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1108,7 +1234,7 @@ _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-in
 
 _See also:_ [MSMapDidChangeSceneCallback](iOS/MSMapDidChangeSceneCallback-interface.md)
 
-### panTo
+### PanTo
 
 Perform a pan operation from the current location to the specified location.
 
@@ -1124,13 +1250,13 @@ Perform a pan operation from the current location to the specified location.
 > - (void)panToLocation:(MSGeopoint *)location
 >```
 
-### beginPanTo
+### BeginPanTo
 Perform a pan operation from the current location to the specified location and invokes the provided callback when the pan is complete.
 
 **Android**
 
 >```java
-> void beginPanTo(Geopoint location, OnMapSceneCompletedListener listener)
+> void beginPanTo(Geopoint location, @Nullable OnMapSceneCompletedListener listener)
 >```
 
 _See also:_ [OnMapSceneCompletedListener](Android/OnMapSceneCompletedListener-interface.md)
@@ -1290,3 +1416,15 @@ The `Position` value of this event's arguments is in device-independent points.
 >```
 
 _See also:_ [MSMapUserDidTapHandler](iOS/MSMapUserDidTapHandler-interface.md)
+
+
+## Accessibility
+
+MapView is accessible, supporting narrated scenarios as well as keyboard navigation.  
+Currently, it exposes the following accessibility elements:
+
+1. Map view itself, narrated as a description of the current view.
+2. User map elements, potentially interactive.
+3. Toolbar elements, interactive.
+
+_See also:_ [MapElement - Accessibility](mapelement-class.md#Accessibility)

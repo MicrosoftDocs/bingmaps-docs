@@ -11,7 +11,7 @@ Handler used with MapView.DoubleTapped event. Return true from this event to pre
 > typedef BOOL (^MSMapUserDidDoubleTapHandler)(CGPoint, MSGeopoint*)
 >```
 
-## See also
+## See Also
 
 * [Geopoint](../Geopoint-class.md)
 * [MapView](../MapView-class.md)

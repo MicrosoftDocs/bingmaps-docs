@@ -11,7 +11,7 @@ Event arguments passed to MapElementLayer.MapElementTapped callback.
 
 ### Location
 
-Gets the geographic location that corresponds to where the [MapElementsLayer](../MapElementLayer-class.md) received user input.
+Gets the geographic location that corresponds to where the [MapElementLayer](../MapElementLayer-class.md) received user input.
 
 >```java
 > final Geopoint location
@@ -19,7 +19,7 @@ Gets the geographic location that corresponds to where the [MapElementsLayer](..
 
 ### MapElements
 
-Gets a list of map elements that correspond to where the [MapElementsLayer](../MapElementLayer-class.md) received user input.
+Gets a list of map elements that correspond to where the [MapElementLayer](../MapElementLayer-class.md) received user input.
 
 >```java
 > final LinkedList<MapElement> mapElements
@@ -27,13 +27,13 @@ Gets a list of map elements that correspond to where the [MapElementsLayer](../M
 
 ### Position
 
-Gets the physical position on the [MapElementsLayer](../MapElementLayer-class.md) where it received user input.
+Gets the physical position on the [MapElementLayer](../MapElementLayer-class.md) where it received user input.
 
 >```java
 > final android.graphics.Point position
 >```
 
-## See also
+## See Also
 
 * [OnMapElementTappedListener](OnMapElementTappedListener-interface.md)
 * [MapView](../MapView-class.md)

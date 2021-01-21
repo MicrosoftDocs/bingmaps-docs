@@ -69,6 +69,23 @@ A photorealistic map style with labels, roads, and borders.
 > + (MSMapStyleSheet *)aerialWithOverlay
 >```
 
+### RoadDark
+
+A road map style with a dark theme.
+
+**Android**
+
+>```java
+> static MapStyleSheet roadDark()
+>```
+
+
+**iOS**
+
+>```objectivec
+> + (MSMapStyleSheet *)roadDark
+>```
+
 ### RoadLight
 
 A road map style with a light theme.
@@ -101,21 +118,20 @@ A road map style with a light theme which has some of the details such as hill s
 > + (MSMapStyleSheet *)roadCanvasLight
 >```
 
-### RoadDark
+### RoadHighContrastDark
 
-A road map style with a dark theme.
+A road map style with a light theme with a higher contrast than RoadDark.
 
 **Android**
 
 >```java
-> static MapStyleSheet roadDark()
+> static MapStyleSheet roadHighContrastDark()
 >```
-
 
 **iOS**
 
 >```objectivec
-> + (MSMapStyleSheet *)roadDark
+> + (MSMapStyleSheet *)roadHighContrastDark
 >```
 
 ### RoadHighContrastLight
@@ -132,22 +148,6 @@ A road map style with a light theme with a higher contrast than RoadLight.
 
 >```objectivec
 > + (MSMapStyleSheet *)roadHighContrastLight
->```
-
-### RoadHighContrastDark
-
-A road map style with a light theme with a higher contrast than RoadDark.
-
-**Android**
-
->```java
-> static MapStyleSheet roadHighContrastDark()
->```
-
-**iOS**
-
->```objectivec
-> + (MSMapStyleSheet *)roadHighContrastDark
 >```
 
 ## See Also

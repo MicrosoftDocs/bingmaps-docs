@@ -43,7 +43,7 @@ An image that can be used with [MapIcon](MapIcon-class.md).
 The bitmap associated with this MapImage.
 
 >```java
-> android.graphics.Bitmap getBitmap()
+> @Nullable android.graphics.Bitmap getBitmap()
 >```
 
 

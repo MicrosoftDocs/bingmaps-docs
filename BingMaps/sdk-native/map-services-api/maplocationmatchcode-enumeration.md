@@ -53,6 +53,6 @@ The location is one of a set of possible matches. For example, when you query fo
 
 The location represents a move up the geographic hierarchy. This occurs when a match for the location request was not found, so a less precise result is returned.
 
-## See also
+## See Also
 
 * [MapLocation](MapLocation-class.md)

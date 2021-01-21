@@ -29,15 +29,20 @@ All Geopositions must use the same altitude reference system.
 
 >```java
 > Geopath(List<Geoposition> positions)
+> Geopath(List<Geoposition> positions, AltitudeReferenceSystem altitudeReference)
 >```
 
 **iOS**
 
 >```objectivec
 > + (instancetype)geopathWithPositions:(NSArray<MSGeoposition*>*)positions
+> + (instancetype)geopathWithPositions:(NSArray<MSGeoposition*>*)positions
+>              altitudeReferenceSystem:(MSMapAltitudeReferenceSystem)altitudeReferenceSystem
 >```
 
-_See also:_ [Geoposition](geoposition-class.md)
+_See also:_ 
+* [Geoposition](geoposition-class.md)
+* [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)
 
 
 ## Properties
@@ -76,6 +81,21 @@ The number of positions in the Geopath.
 > @property (nonatomic, readonly) NSUInteger size
 >```
 
+## Methods
+
+### GetGeoposition
+
+**Android**
+
+>```java
+> Geoposition get(int index)
+>```
+
+**iOS**
+
+>```objectivec
+> - (MSGeoposition *)positionAtIndex:(NSUInteger)index
+>```
 
 ## See Also
 

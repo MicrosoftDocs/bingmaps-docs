@@ -10,10 +10,10 @@ Callback interface to notify when the map scene has successfully changed after a
 >```java
 > public interface OnMapSceneCompletedListener
 > {
->     public void onMapSceneCompleted(boolean succeeded);
+>     void onMapSceneCompleted(boolean succeeded);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapView](../MapView-class.md)

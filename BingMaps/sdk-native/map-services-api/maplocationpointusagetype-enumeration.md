@@ -51,6 +51,6 @@ Map location point is best used for displaying the corresponding location on the
 
 Map location point can be used for both routing and displaying the location on the map.
 
-## See also
+## See Also
 
 * [MapLocationPoint](MapLocationPoint-class.md)

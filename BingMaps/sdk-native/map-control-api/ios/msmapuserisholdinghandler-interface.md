@@ -11,7 +11,7 @@ Handler used with MapView.Holding event. Return true from this event to prevent 
 > typedef BOOL (^MSMapUserIsHoldingHandler)(CGPoint, MSGeopoint*)
 >```
 
-## See also
+## See Also
 
 * [Geopoint](../Geopoint-class.md)
 * [MapView](../MapView-class.md)

@@ -11,11 +11,11 @@ Listener used with MapView.Tapped event. Return true from this event to prevent 
 > public interface OnMapTappedListener
 >{
 >    /** Called when map is tapped. */
->    public boolean onMapTapped(MapTappedEventArgs e);
+>    boolean onMapTapped(MapTappedEventArgs e);
 >}
 >```
 
-## See also
+## See Also
 
 * [MapTappedEventArgs](MapTappedEventArgs-class.md)
 * [MapView](../MapView-class.md)

@@ -14,11 +14,11 @@ Contains data that a custom tile map layer developer can set to represent the re
 The pixel data used for the request.
 
 >```java
-> byte[] getPixelData()
+> @Nullable byte[] getPixelData()
 > void setPixelData(byte[] pixelData)
 >```
 
-## See also
+## See Also
 
 * [MapTileBitmapRequestedEventArgs](MapTileBitmapRequestedEventArgs-class.md)
 * [CustomTileMapLayer](../CustomTileMapLayer-class.md)

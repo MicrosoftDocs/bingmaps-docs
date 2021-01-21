@@ -14,7 +14,7 @@ Passed to developer code when MapView needs a map tile for a [CustomTileMapLayer
 Returns the X position of the requested tile.
 
 >```java
-> int getX()
+> final int getX()
 >```
 
 ### Y
@@ -22,7 +22,7 @@ Returns the X position of the requested tile.
 Returns the Y position of the requested tile.
 
 >```java
-> int getY()
+> final int getY()
 >```
 
 ### ZoomLevel
@@ -30,7 +30,7 @@ Returns the Y position of the requested tile.
 Returns the zoom level value of the requested tile.
 
 >```java
-> int getZoomLevel()
+> final int getZoomLevel()
 >```
 
 ### Request
@@ -38,7 +38,7 @@ Returns the zoom level value of the requested tile.
 Returns a MapTileBitmapRequest where pixel data can be applied to the map.
 
 >```java
-> MapTileBitmapRequest getRequest()
+> final MapTileBitmapRequest getRequest()
 >```
 
 ## See Also 

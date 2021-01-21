@@ -11,7 +11,7 @@ Handler used with MapElementLayer.MapElementTapped event. Return true from this 
 > typedef BOOL (^MSMapElementLayerUserDidTapHandler)(CGPoint, MSGeopoint*_Nonnull, NSMutableSet<MSMapElement *> *_Nonnull)
 >```
 
-## See also
+## See Also
 
 * [Geopoint](../Geopoint-class.md)
 * [MapElement](../MapElement-class.md)
