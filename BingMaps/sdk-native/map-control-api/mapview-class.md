@@ -1427,4 +1427,4 @@ Currently, it exposes the following accessibility elements:
 2. User map elements, potentially interactive.
 3. Toolbar elements, interactive.
 
-_See also:_ [MapElement - Accessibility](mapelement-class.md#Accessibility)
+_See also:_ [MapElement - Accessibility](mapelement-class.md#accessibility)

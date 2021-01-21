@@ -27,13 +27,15 @@ After Android Studio is installed, create a new project in it.
 3. Select **API 19** as your Minimum API level, choose a name, package, location for your project, and and press **Finish**  
 When it comes to language, this tutorial is in **Java**, though feel free to use Kotlin if that's your preference.
 
-    ![Create a app step 1](media/new-project3.png "Step 3")
+    ![Create a app step 3](media/new-project3.png "Step 3")
 
 ## Including Bing Maps Native Control in your project
 
 In your project's `app` folder, create a file named `secrets.gradle` and put there your Bing Maps Key like shown:
 
-    ext.credentialsKey = "ENTER YOUR KEY HERE"
+```
+ext.credentialsKey = "ENTER YOUR KEY HERE"
+```
 
 
 In your `project/build.gradle` file, inside `allprojects`, insert the following block in `repositories`:
