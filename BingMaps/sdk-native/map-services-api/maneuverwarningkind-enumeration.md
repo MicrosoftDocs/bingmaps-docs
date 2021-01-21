@@ -1,6 +1,6 @@
 ---
 title: "ManeuverWarningKind Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # ManeuverWarningKind Enumeration

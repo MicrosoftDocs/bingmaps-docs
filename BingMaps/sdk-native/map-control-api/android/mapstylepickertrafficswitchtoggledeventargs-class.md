@@ -1,6 +1,6 @@
 ---
 title: "MapStylePickerTrafficSwitchToggledEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapStylePickerTrafficSwitchToggledEventArgs Class (Android only)

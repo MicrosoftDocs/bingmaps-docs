@@ -1,6 +1,6 @@
 ---
 title: "MSMapTrafficIncidentTappedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapTrafficIncidentTappedEventArgs Class (iOS only)

@@ -1,6 +1,6 @@
 ---
 title: "MSMapElementLayerUserDidTapFlyoutHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapElementLayerUserDidTapFlyoutHandler Interface (iOS only)

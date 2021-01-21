@@ -1,6 +1,6 @@
 ---
 title: "MapRouteLineState Enumeration | Microsoft Docs"
-author: "khass"
+ms.author: "khass"
 ---
 
 # MapRouteLineState Enumeration

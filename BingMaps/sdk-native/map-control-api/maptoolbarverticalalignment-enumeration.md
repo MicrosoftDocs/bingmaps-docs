@@ -1,6 +1,6 @@
 ---
 title: "MapToolbarVerticalAlignment Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapToolbarVerticalAlignment Enumeration

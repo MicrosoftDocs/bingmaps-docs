@@ -1,6 +1,6 @@
 ---
 title: "LocationChangedListener Interface | Microsoft Docs"
-author: "krihenri"
+ms.author: "krihenri"
 ---
 
 # LocationChangedListener Interface (Android only)

@@ -1,6 +1,6 @@
 ---
 title: "TrafficIncidentsMapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # TrafficIncidentsMapLayer Class

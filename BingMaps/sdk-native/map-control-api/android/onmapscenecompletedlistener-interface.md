@@ -1,6 +1,6 @@
 ---
 title: "OnMapSceneCompletedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapSceneCompletedListener Interface (Android only)

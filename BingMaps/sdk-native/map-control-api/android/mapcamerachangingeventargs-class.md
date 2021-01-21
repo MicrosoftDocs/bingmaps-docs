@@ -1,6 +1,6 @@
 ---
 title: "MapCameraChangingEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapCameraChangingEventArgs Class (Android only)

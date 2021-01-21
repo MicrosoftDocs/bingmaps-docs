@@ -1,6 +1,6 @@
 ---
 title: "OnMapCameraChangedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapCameraChangedListener Interface (Android only)

@@ -1,6 +1,6 @@
 ---
 title: "OnTrafficIncidentTappedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnTrafficIncidentTappedListener Interface (Android only)

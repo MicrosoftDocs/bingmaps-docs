@@ -1,6 +1,6 @@
 ---
 title: "MapUserLocationOrientation Enumeration | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapUserLocationOrientation Enumeration

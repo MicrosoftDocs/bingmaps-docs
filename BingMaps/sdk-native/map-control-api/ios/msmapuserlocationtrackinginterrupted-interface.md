@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserLocationTrackingInterruptedHandler Interface | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MSMapUserLocationTrackingInterruptedHandler Interface (iOS only)

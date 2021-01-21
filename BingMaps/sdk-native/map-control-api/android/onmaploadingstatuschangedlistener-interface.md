@@ -1,6 +1,6 @@
 ---
 title: "OnMapLoadingStatusChangedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapLoadingStatusChangedListener Interface (Android only)

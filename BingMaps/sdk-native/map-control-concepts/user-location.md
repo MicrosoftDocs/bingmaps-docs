@@ -1,6 +1,6 @@
 ---
 title: "User Location | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # User Location

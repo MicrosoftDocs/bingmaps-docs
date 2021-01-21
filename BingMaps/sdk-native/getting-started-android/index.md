@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Android | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Getting Started with Android

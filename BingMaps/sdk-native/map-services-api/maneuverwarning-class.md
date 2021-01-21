@@ -1,6 +1,6 @@
 ---
 title: "ManeuverWarning Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # ManeuverWarning Class

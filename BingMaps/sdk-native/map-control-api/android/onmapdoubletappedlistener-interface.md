@@ -1,6 +1,6 @@
 ---
 title: "OnMapDoubleTappedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapDoubleTappedListener Interface (Android only)

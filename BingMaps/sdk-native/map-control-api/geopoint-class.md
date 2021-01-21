@@ -1,6 +1,6 @@
 ---
 title: "Geopoint Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Geopoint Class

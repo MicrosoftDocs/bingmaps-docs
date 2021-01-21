@@ -1,6 +1,6 @@
 ---
 title: "TrafficIncidentTappedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # TrafficIncidentTappedEventArgs Class (Android only)

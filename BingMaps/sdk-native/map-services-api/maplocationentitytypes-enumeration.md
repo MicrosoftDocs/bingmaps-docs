@@ -1,6 +1,6 @@
 ---
 title: "MapLocationEntityTypes Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationEntityTypes Enumeration

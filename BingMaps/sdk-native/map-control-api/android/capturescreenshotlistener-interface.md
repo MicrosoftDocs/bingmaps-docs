@@ -1,6 +1,6 @@
 ---
 title: "CaptureScreenshotListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # CaptureScreenshotListener Interface (Android only)

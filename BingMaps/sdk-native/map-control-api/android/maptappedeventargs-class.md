@@ -1,6 +1,6 @@
 ---
 title: "MapTappedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapTappedEventArgs Class (Android only)

@@ -1,6 +1,6 @@
 ---
 title: "GPSMapLocationProvider Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # GPSMapLocationProvider Class (Android only)

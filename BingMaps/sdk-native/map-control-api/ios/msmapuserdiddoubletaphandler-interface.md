@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserDidDoubleTapHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapUserDidDoubleTapHandler Interface (iOS only)

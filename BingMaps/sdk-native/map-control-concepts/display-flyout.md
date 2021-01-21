@@ -1,6 +1,6 @@
 ---
 title: "Display flyout of icon | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Display flyout of icon

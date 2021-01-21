@@ -1,6 +1,6 @@
 ---
 title: "MapFlyoutCustomViewAdapter Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapFlyoutCustomViewAdapter Interface

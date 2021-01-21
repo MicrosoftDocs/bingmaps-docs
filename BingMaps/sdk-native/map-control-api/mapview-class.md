@@ -1,6 +1,6 @@
 ---
 title: "MapView Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapView Class
@@ -199,7 +199,7 @@ or region (delimited by `-`). Example values: `"en-US"`, `"ko-KR"`, `"ja-JP"`.
 
 ### CredentialsKey
 
-Specifies the license key authorizing use of the map. Get credentials at [www.bingmapsportal.com](http://www.bingmapsportal.com/).
+Specifies the license key ms.authorizing use of the map. Get credentials at [www.bingmapsportal.com](http://www.bingmapsportal.com/).
 
 **Android**
 

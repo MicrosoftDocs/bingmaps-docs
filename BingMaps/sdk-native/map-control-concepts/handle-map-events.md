@@ -1,6 +1,6 @@
 ---
 title: "Map Events | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Events

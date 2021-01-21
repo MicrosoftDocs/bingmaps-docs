@@ -1,6 +1,6 @@
 ---
 title: "MapFlyoutTappedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapFlyoutTappedEventArgs Class (Android only)

@@ -1,6 +1,6 @@
 ---
 title: "MapRouteLineTravelMode Enumeration | Microsoft Docs"
-author: "khass"
+ms.author: "khass"
 ---
 
 # MapRouteLineTravelMode Enumeration

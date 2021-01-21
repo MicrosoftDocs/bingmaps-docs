@@ -1,6 +1,6 @@
 ---
 title: "MapStylePickerStyle Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapStylePickerStyle Enumeration

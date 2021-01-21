@@ -1,6 +1,6 @@
 ---
 title: "MapRouteFinder Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteFinder Class

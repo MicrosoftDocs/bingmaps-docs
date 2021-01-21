@@ -1,6 +1,6 @@
 ---
 title: "OnMapUserLocationTrackingInterruptedListener Interface | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # OnMapUserLocationTrackingInterruptedListener Interface (Android only)

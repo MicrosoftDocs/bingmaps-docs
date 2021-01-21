@@ -1,6 +1,6 @@
 ---
 title: "RouteWaypoint Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # RouteWaypoint Class

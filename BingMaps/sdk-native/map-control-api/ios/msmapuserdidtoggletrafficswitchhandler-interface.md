@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserDidToggleTrafficSwitchHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapUserDidToggleTrafficSwitchHandler Interface (iOS only)

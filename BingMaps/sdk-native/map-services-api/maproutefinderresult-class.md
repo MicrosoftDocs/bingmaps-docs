@@ -1,6 +1,6 @@
 ---
 title: "MapRouteFinderResult Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteFinderResult Class

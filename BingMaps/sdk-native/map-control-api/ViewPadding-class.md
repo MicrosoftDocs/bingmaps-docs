@@ -1,6 +1,6 @@
 ---
 title: "ViewPadding Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # ViewPadding class

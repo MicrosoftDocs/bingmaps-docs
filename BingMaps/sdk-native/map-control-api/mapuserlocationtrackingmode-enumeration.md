@@ -1,6 +1,6 @@
 ---
 title: "MapUserLocationTrackingMode Enumeration | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapUserLocationTrackingMode Enumeration

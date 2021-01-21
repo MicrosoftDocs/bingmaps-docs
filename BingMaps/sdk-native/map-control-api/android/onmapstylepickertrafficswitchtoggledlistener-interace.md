@@ -1,6 +1,6 @@
 ---
 title: OnMapStylePickerTrafficSwitchToggledListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapStylePickerTrafficSwitchToggledListener Interface (Android only)

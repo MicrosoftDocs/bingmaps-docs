@@ -1,6 +1,6 @@
 ---
 title: "MapLocationFinderStatus Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationFinderStatus Enumeration

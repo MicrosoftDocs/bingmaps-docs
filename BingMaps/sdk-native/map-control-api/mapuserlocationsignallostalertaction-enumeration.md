@@ -1,6 +1,6 @@
 ---
 title: "MapUserLocationSignalLostAlertAction Enumeration | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapUserLocationSignalLostAlertAction Enumeration

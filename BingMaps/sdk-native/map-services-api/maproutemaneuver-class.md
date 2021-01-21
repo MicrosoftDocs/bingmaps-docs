@@ -1,6 +1,6 @@
 ---
 title: "MapRouteManeuver Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteManeuver Class

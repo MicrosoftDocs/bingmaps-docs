@@ -1,6 +1,6 @@
 ---
 title: "MapImage Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapImage Class

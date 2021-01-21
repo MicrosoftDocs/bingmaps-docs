@@ -1,6 +1,6 @@
 ---
 title: "TrafficIncidentSeverity Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # TrafficIncidentSeverity Enumeration

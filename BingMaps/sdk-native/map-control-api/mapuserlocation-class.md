@@ -1,6 +1,6 @@
 ---
 title: "MapUserLocation Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapUserLocation Class

@@ -1,6 +1,6 @@
 ---
 title: "MapUserLocationTrackingInterruptedEventArgs Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapUserLocationTrackingInterruptedEventArgs Class (Android only)

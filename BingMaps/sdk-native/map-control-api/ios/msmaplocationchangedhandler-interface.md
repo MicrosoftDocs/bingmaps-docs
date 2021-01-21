@@ -1,6 +1,6 @@
 ---
 title: "MSMapLocationChangedHandler Interface | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MSMapLocationChangedHandler Interface (iOS only)

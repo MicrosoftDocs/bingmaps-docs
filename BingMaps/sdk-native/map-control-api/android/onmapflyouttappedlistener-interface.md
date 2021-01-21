@@ -1,6 +1,6 @@
 ---
 title: "OnMapFlyoutTappedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapFlyoutTappedListener Interface (Android only)

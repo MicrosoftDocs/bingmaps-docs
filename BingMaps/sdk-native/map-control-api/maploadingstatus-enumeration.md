@@ -1,6 +1,6 @@
 ---
 title: "MapLoadingStatus Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLoadingStatus Enumeration

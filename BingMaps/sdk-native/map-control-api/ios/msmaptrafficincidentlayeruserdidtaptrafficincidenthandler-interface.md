@@ -1,6 +1,6 @@
 ---
 title: "MSMapTrafficIncidentLayerUserDidTapTrafficIncidentHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapTrafficIncidentLayerUserDidTapTrafficIncidentHandler Interface (iOS only)

@@ -1,6 +1,6 @@
 ---
 title: "MapPermissionsCallback Interface | Microsoft Docs"
-author: "rkot"
+ms.author: "rkot"
 ---
 
 # MapPermissionsCallback Interface (Android only)

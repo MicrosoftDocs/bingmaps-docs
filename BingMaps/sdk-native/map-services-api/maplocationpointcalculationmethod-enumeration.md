@@ -1,6 +1,6 @@
 ---
 title: "MapLocationPointCalculationMethod Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationPointCalculationMethod Enumeration

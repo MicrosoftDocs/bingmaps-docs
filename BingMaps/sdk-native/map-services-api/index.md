@@ -1,6 +1,6 @@
 ---
 title: "MapServices API Reference | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapServices API Reference

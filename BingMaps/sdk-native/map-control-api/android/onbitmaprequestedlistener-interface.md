@@ -1,6 +1,6 @@
 ---
 title: "OnBitmapRequestedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnBitmapRequestedListener Interface (Android only)

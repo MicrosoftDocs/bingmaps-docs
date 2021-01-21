@@ -1,6 +1,6 @@
 ---
 title: "ManeuverWarningSeverity Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # ManeuverWarningSeverity Enumeration

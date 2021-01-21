@@ -1,6 +1,6 @@
 ---
 title: "MSMapLocationProvider Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MSMapLocationProvider Class (iOS only)

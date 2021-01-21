@@ -1,6 +1,6 @@
 ---
 title: "MapFlyout Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapFlyout Class

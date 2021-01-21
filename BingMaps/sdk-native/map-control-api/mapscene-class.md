@@ -1,6 +1,6 @@
 ---
 title: "MapScene Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapScene Class

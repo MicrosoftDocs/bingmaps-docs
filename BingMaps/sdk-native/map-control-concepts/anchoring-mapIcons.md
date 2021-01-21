@@ -1,6 +1,6 @@
 ---
 title: "Anchoring MapIcons | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Anchoring MapIcons

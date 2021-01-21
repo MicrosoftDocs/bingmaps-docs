@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserDidTapHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapUserDidTapHandler Interface (iOS only)

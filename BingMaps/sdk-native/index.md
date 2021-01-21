@@ -1,6 +1,6 @@
 ---
 title: "Bing Maps SDK for Android and iOS | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Bing Maps SDK for Android and iOS

@@ -1,6 +1,6 @@
 ---
 title: "MapRouteRestrictions Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteRestrictions Enumeration

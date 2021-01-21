@@ -1,6 +1,6 @@
 ---
 title: "API Reference | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # API Reference

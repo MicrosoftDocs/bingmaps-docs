@@ -1,6 +1,6 @@
 ---
 title: "Changing the appearance of the map | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Changing the appearance of the map

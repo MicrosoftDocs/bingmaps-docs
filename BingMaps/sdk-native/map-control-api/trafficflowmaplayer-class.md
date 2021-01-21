@@ -1,6 +1,6 @@
 ---
 title: "TrafficFlowMapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # TrafficFlowMapLayer Class

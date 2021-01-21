@@ -1,6 +1,6 @@
 ---
 title: "Breaking API changes in version 1.0 | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Breaking API changes in version 1.0

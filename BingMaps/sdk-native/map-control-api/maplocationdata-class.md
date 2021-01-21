@@ -1,6 +1,6 @@
 ---
 title: "MapLocationData Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapLocationData Class

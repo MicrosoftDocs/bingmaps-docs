@@ -1,6 +1,6 @@
 ---
 title: "MapPermissionsRequestArgs Class | Microsoft Docs"
-author: "rkot"
+ms.author: "rkot"
 ---
 
 # MapPermissionsRequestArgs Class (Android only)

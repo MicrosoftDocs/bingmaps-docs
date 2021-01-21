@@ -1,6 +1,6 @@
 ---
 title: "Map Icons | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Icons

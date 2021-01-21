@@ -1,6 +1,6 @@
 ---
 title: "MapRouteManeuverKind Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteManeuverKind Enumeration

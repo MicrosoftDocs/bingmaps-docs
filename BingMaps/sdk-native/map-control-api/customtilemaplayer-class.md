@@ -1,6 +1,6 @@
 ---
 title: "CustomTileMapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # CustomTileMapLayer Class

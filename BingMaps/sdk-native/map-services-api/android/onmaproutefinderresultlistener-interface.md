@@ -1,6 +1,6 @@
 ---
 title: "OnMapRouteFinderResultListener Interface | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # OnMapRouteFinderResultListener Interface (Android only)

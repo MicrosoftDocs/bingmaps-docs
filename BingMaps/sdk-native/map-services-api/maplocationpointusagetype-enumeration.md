@@ -1,6 +1,6 @@
 ---
 title: "MapLocationPointUsageType Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationPointUsageType Enumeration

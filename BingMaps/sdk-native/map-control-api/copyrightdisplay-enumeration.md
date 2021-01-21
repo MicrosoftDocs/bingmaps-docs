@@ -1,6 +1,6 @@
 ---
 title: "CopyrightDisplay Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # CopyrightDisplay Enumeration

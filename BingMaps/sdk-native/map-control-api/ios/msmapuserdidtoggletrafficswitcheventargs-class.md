@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserDidToggleTrafficSwitchEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapUserDidToggleTrafficSwitchEventArgs Class (iOS only)

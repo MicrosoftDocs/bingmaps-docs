@@ -1,6 +1,6 @@
 ---
 title: "MapStylePickerSelectedStyleChangedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapStylePickerSelectedStyleChangedEventArgs Class (Android only)

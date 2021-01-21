@@ -1,6 +1,6 @@
 ---
 title: "MapRouteDrivingOptions Class | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapRouteDrivingOptions Class

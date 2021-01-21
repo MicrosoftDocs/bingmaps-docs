@@ -1,6 +1,6 @@
 ---
 title: "RouteWaypointType Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # RouteWaypointType Enumeration

@@ -1,6 +1,6 @@
 ---
 title: "MapManeuverNotices Enumeration | Microsoft Docs"
-author: "kezhang"
+ms.author: "kezhang"
 ---
 
 # MapManeuverNotices Enumeration

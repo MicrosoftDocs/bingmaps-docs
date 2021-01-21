@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with iOS | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Getting Started with iOS

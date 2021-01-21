@@ -1,6 +1,6 @@
 ---
 title: "MapLocationProvider Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MapLocationProvider Class (Android only)

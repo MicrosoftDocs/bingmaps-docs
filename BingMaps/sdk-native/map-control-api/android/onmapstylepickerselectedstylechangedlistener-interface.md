@@ -1,6 +1,6 @@
 ---
 title: "OnMapStylePickerSelectedStyleChangedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapStylePickerSelectedStyleChangedListener Interface (Android only)

@@ -1,6 +1,6 @@
 ---
 title: "MSMapElementLayerUserDidTapElementHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapElementLayerUserDidTapElementHandler Interface (iOS only)

@@ -1,6 +1,6 @@
 ---
 title: "MapElement Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapElement Class

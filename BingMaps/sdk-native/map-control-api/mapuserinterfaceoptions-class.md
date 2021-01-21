@@ -1,6 +1,6 @@
 ---
 title: "MapUserInterfaceOptions Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapUserInterfaceOptions Class

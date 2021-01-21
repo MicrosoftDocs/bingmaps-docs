@@ -1,6 +1,6 @@
 ---
 title: "MapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLayer Class

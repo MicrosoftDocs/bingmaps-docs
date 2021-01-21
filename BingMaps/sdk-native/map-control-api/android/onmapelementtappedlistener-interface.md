@@ -1,6 +1,6 @@
 ---
 title: "OnMapElementTappedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapElementTappedListener Interface (Android only)

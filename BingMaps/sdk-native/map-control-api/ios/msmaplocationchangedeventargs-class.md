@@ -1,6 +1,6 @@
 ---
 title: "MSMapLocationChangedEventArgs Class | Microsoft Docs"
-author: "adl"
+ms.author: "adl"
 ---
 
 # MSMapLocationChangedEventArgs Class (iOS only)
