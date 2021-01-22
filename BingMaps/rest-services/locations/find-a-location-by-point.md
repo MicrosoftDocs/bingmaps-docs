@@ -51,6 +51,7 @@ One or more Location resources are returned in the response when you make a requ
 > The Location by Point API returns an additional `intersection` field in the `address` resource for all successful responses. 
 >
 > __Intersection__ Resource
+
 > | JSON | XML | Description |
 > |------|-----|-------------|
 > |`baseStreet` | `BaseStreet` | Primary street for the location. |
