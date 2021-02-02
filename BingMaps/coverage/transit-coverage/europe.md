@@ -876,7 +876,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Göppingen|[OVS](http://https://www.filsland.de/) 
 |Göppingen|[Sihler GmbH](http://https://www.filsland.de/) 
 |Greifswald|[Verkehrsbetrieb Greifswald](https://www.delfi.de)
-|Groß Gerau|[Autobus Sippel](https://www.delfi.de
+|Groß Gerau|[Autobus Sippel](https://www.delfi.de)
 |Grünberg|[Stadt Grünberg](https://www.delfi.de)
 |Hamburg|[Hamburger Verkehrsverbund (HVV)](https://www.hvv.de)
 |Hamburg|[S-Bahn Hamburg](http://https://www.bahn.de) 
