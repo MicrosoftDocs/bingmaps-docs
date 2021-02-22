@@ -38,7 +38,11 @@ _See also:_ [MapRouteManeuver](maproutemaneuver-class.md)
 >  TRAFFIC_CIRCLE_LEFT(22),
 >  TRAFFIC_CIRCLE_RIGHT(23),
 >  TAKE_FERRY(24),
->  INVALID(25);
+>  TAKE_TRANSIT(25),
+>  TRANSFER(26),
+>  WAIT(27),
+>  WALK(28),
+>  INVALID(29);
 >}
 >```
 
@@ -71,6 +75,10 @@ _See also:_ [MapRouteManeuver](maproutemaneuver-class.md)
 >    MSMapRouteManeuverKindTrafficCircleLeft,
 >    MSMapRouteManeuverKindTrafficCircleRight,
 >    MSMapRouteManeuverKindTakeFerry,
+>    MSMapRouteManeuverKindTakeTransit,
+>    MSMapRouteManeuverKindTransfer,
+>    MSMapRouteManeuverKindWait,
+>    MSMapRouteManeuverKindWalk,
 >    MSMapRouteManeuverKindInvalid
 >};
 >```
@@ -176,6 +184,22 @@ Enter the traffic circle on the right.
 ### TakeFerry
 
 Take the ferry.
+
+### TakeTransit
+
+Take transit.
+
+### Transfer
+
+Transfer between public transit trips/runs at a transit stop.
+
+### Wait 
+
+Wait at a public transit stop, before taking a transit trip/run.
+
+### Walk
+
+Walk.
 
 ### Invalid
 

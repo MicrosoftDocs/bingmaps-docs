@@ -17,7 +17,7 @@ See [MSMapLocationProvider](msmaplocationprovider-class.md) for more details on 
 
 ### DesiredAccuracy
 
-Represents desired accuracy level for location tracking. Desired accuracy must be one of CLLocationManager's accuracy constants. If the user only ms.authorized an accuracyms.authorization of CLAccuracyms.authorization.reducedAccuracy, desiredAccuracy will always be kCLLocationAccuracyReduced regardless of what it is set as. Otherwise, the location service will do its best to achieve the requested accuracy, but it is not guaranteed. 
+Represents desired accuracy level for location tracking. Desired accuracy must be one of CLLocationManager's accuracy constants. If the user only authorized an accuracyAuthorization of CLAccuracyAuthorization.reducedAccuracy, desiredAccuracy will always be kCLLocationAccuracyReduced regardless of what it is set as. Otherwise, the location service will do its best to achieve the requested accuracy, but it is not guaranteed. 
 
 Default value is kCLLocationAccuracyNearestTenMeters.
 
