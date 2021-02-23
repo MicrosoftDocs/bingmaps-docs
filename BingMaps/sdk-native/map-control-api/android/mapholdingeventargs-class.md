@@ -1,6 +1,6 @@
 ---
 title: "MapHoldingEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapHoldingEventArgs Class (Android only)
@@ -25,7 +25,7 @@ Gets the geographic location that corresponds to the position from the received 
 > final Geopoint location
 >```
 
-## See also
+## See Also
 
 * [OnMapHoldingListener](OnMapHoldingListener-interface.md)
 * [MapView](../MapView-class.md)

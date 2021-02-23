@@ -1,6 +1,6 @@
 ---
 title: "MSMapCustomTileMapLayerDelegate protocol | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapCustomTileMapLayerDelegate protocol (iOS only)

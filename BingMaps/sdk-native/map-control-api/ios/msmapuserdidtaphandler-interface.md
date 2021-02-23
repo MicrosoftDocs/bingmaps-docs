@@ -1,6 +1,6 @@
 ---
 title: "MSMapUserDidTapHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapUserDidTapHandler Interface (iOS only)
@@ -11,7 +11,7 @@ Handler used with MapView.Tapped event. Return true from this event to prevent o
 > typedef BOOL (^MSMapUserDidTapHandler)(CGPoint, MSGeopoint*)
 >```
 
-## See also
+## See Also
 
 * [Geopoint](../Geopoint-class.md)
 * [MapView](../MapView-class.md)

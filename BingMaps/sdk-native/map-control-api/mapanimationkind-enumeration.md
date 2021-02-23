@@ -1,6 +1,6 @@
 ---
 title: "MapAnimationKind Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapAnimationKind Enumeration

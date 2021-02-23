@@ -1,6 +1,6 @@
 ---
 title: "MapIcon Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapIcon Class
@@ -92,7 +92,7 @@ _See also:_ [MapFlyout](mapflyout-class.md)
 **Android**
 
 >```java
-> MapFlyout getFlyout()
+> @Nullable MapFlyout getFlyout()
 > void setFlyout(@Nullable MapFlyout flyout)
 >```
 
@@ -112,7 +112,7 @@ _See also:_ [MapImage](MapImage-class.md)
 **Android**
 
 >```java
-> MapImage getImage()
+> @Nullable MapImage getImage()
 > void setImage(@Nullable MapImage image)
 >```
 

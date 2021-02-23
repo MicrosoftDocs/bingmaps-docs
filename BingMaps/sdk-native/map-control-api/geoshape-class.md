@@ -1,6 +1,6 @@
 ---
 title: "Geoshape Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Geoshape Class

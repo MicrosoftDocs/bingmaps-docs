@@ -1,6 +1,6 @@
 ---
 title: "MapElementCollection Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapElementCollection Class
@@ -19,9 +19,27 @@ Contains all the elements that have been added to the map.
 > @interface MSMapElementCollection : NSObject<NSFastEnumeration>
 >```
 
+## Properties
+
+### Size
+
+Returns the number of items in the collection.
+
+**Android**
+
+>```java
+> int size()
+>```
+
+**iOS**
+
+>```objectivec
+> @property (readonly) NSUInteger count
+>```
+
 ## Methods
 
-### add
+### Add
 
 Adds a MapIcon, MapPolyline, or MapPolygon to the MapView. Returns false if the MapElement is already in the MapView.
 
@@ -37,7 +55,7 @@ Adds a MapIcon, MapPolyline, or MapPolygon to the MapView. Returns false if the 
 > - (BOOL)addMapElement:(MSMapElement *)mapElement
 >```
 
-### clear
+### Clear
 
 Removes all elements from the collection.
 
@@ -53,7 +71,7 @@ Removes all elements from the collection.
 > - (void)clear
 >```
 
-### contains
+### Contains
 
 Returns true if the collection contains the specified element.
 
@@ -68,7 +86,7 @@ Returns true if the collection contains the specified element.
 >```objectivec
 > - (BOOL)contains:(MSMapElement*)mapElement
 
-### iterator (Android only)
+### Iterator (Android only)
 
 Allows enumerating over the elements in the collection.
 
@@ -76,7 +94,7 @@ Allows enumerating over the elements in the collection.
 > Iterator<MapElement> iterator()
 >```
 
-### insert
+### Insert
 
 Insert the specified element at the specified index.
 
@@ -92,7 +110,7 @@ Insert the specified element at the specified index.
 > - (void)insertMapElement:(MSMapElement *)mapElement atIndex:(NSInteger)index
 >```
 
-### remove
+### Remove
 
 Removes the specified element from the collection.
 
@@ -108,7 +126,7 @@ Removes the specified element from the collection.
 > - (BOOL)removeMapElement:(MSMapElement *)mapElement
 >```
 
-### removeAtIndex
+### RemoveAtIndex
 
 Removes element at the specified index from the collection.
 
@@ -122,24 +140,6 @@ Removes element at the specified index from the collection.
 
 >```objectivec
 > - (void)removeMapElementAtIndex:(NSUInteger)index
->```
-
-## Properties
-
-### size
-
-Returns the number of items in the collection.
-
-**Android**
-
->```java
->  public int size()
->```
-
-**iOS**
-
->```objectivec
-> @property (readonly) NSUInteger count
 >```
 
 ## Notes

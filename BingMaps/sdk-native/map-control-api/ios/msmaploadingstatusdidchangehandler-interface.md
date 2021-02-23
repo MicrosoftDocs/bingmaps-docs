@@ -1,6 +1,6 @@
 ---
 title: "MSMapLoadingStatusDidChangeHandler Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapLoadingStatusDidChangeHandler Interface (iOS only)
@@ -11,7 +11,7 @@ Handler used with MapView.MapLoadingStatusChanged event. Return true from this e
 > typedef BOOL (^MSMapLoadingStatusDidChangeHandler)(MSMapLoadingStatus)
 >```
 
-## See also
+## See Also
 
 * [MapLoadingStatus](../MapLoadingStatus-enumeration.md)
 * [MapView](../MapView-class.md)

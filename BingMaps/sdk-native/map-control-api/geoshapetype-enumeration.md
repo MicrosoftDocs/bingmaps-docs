@@ -1,6 +1,6 @@
 ---
 title: "GeoshapeType Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # GeoshapeType Enumeration

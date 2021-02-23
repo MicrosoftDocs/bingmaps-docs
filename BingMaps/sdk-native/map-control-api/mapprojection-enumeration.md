@@ -1,6 +1,6 @@
 ---
 title: "MapProjection Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapProjection Enumeration

@@ -1,6 +1,6 @@
 ---
 title: "MapLocationFinderStatus Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationFinderStatus Enumeration
@@ -51,7 +51,7 @@ The request was cancelled by the user.
 
 ### BadResponse
 
-A fatal parsing error has occurred while processing the response.
+A fatal parsing error has occured while processing the response.
 
 ### InvalidCredentials
 
@@ -59,20 +59,20 @@ The credentials provided for the request were not valid.
 
 ### NetworkFailure
 
-A network failure has occurred while processing the request.
+A network failure has occured while processing the request.
 
 ### ServerError
 
-A server error has occurred while processing the request.
+A server error has occured while processing the request.
 
 ### UnknownError
 
-An unknown error has occurred while processing the request.
+An unknown error has occured while processing the request.
 
 ### EmptyResponse
 
 The request succeeded but the response was empty.
 
-## See also
+## See Also
 
 * [MapLocationFinderResult](MapLocationFinderResult-class.md)

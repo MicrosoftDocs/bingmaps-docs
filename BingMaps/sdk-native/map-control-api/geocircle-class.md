@@ -1,6 +1,6 @@
 ---
 title: "Geocircle Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Geocircle Class

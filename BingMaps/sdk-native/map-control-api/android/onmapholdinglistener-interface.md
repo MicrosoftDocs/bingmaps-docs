@@ -1,6 +1,6 @@
 ---
 title: "OnMapHoldingListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapHoldingListener Interface (Android only)
@@ -15,7 +15,7 @@ Listener used with MapView.Holding event. Return true from this event to prevent
 > }
 >```
 
-## See also
+## See Also
 
 * [MapHoldingEventArgs](MapHoldingEventArgs-class.md)
 * [MapView](../MapView-class.md)
