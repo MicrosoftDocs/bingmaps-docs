@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with iOS | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Getting Started with iOS
@@ -23,7 +23,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 
     ![Create a swift app step 2](media/new-project2.png "Step 2")
 
-3. Fill options for your project and press **Next**
+3. Fill options for your project and press **Next**. (Choose **Objective-C** to write the project in Objective-C.)
 
     ![Create a swift app step 3](media/new-project3.png "Step 3")
 
@@ -43,7 +43,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 > # Uncomment the next line to define a global platform for your project
 > source 'https://github.com/CocoaPods/Specs.git'
 >
-> platform :ios, '9.0'
+> platform :ios, '9.2'
 >
 > target 'YOUR_APPLICATION_TARGET_NAME' do
 >
@@ -51,7 +51,7 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 >   use_frameworks!
 >
 >   # Pods for SampleApp
->   pod 'MicrosoftMapsSDK', '~> 1.1.4'
+>   pod 'MicrosoftMapsSDK', '~> 1.2.0'
 > end
 >```
 
@@ -70,6 +70,10 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 > import MicrosoftMaps
 >```
 
+>```objectivec
+> #import <MicrosoftMaps/MicrosoftMaps.h>
+>```
+
 3. Create IBOutlet for the map  
     ![Outlet for Swift](media/outlet-swift.png "Outlet for Swift")  
 
@@ -81,6 +85,14 @@ This tutorial goes through creating an iOS app with a Bing Maps Native Control s
 >     // Do any additional setup after loading the view.
 >
 >     mapview.credentialsKey = "Your credentials here"
+> }
+>```
+
+>```objectivec
+> - (void)viewDidLoad {
+>     [super viewDidLoad];
+>
+>     self.mapView.credentialsKey = @"Your credentials here";
 > }
 >```
 
@@ -96,6 +108,16 @@ First, declare the location. Say, we want to show Seattle and Bellevue and choos
 > let LOCATION_LAKE_WASHINGTON = MSGeopoint(latitude: 47.609466, longitude: -122.265185)
 >```
 
+>```objectivec
+> MSGeopoint *LOCATION_LAKE_WASHINGTON = nil;
+>
+> + (void)initialize {
+>     if(!LOCATION_LAKE_WASHINGTON)
+>     LOCATION_LAKE_WASHINGTON = [MSGeopoint geopointWithLatitude:47.609466 
+>                                            longitude:-122.265185];
+> }
+>```
+
 Then override your ViewController's `viewDidLoad` method with a `setScene` call:
 
 >```swift
@@ -104,6 +126,16 @@ Then override your ViewController's `viewDidLoad` method with a `setScene` call:
 >     mapView.credentialsKey = "Your credentials here"
 >     let scene = MSMapScene(location: LOCATION_LAKE_WASHINGTON, zoomLevel: 10 )
 >     self.mapView.setScene(scene, with: .none)
+> }
+>```
+
+>```objectivec
+> - (void)viewDidLoad {
+>     [super viewDidLoad];
+>     self.mapView.credentialsKey = @"Your credentials here";
+>     MSMapScene *scene = [MSMapScene sceneWithLocation:LOCATION_LAKE_WASHINGTON 
+>                                                       zoomLevel:10];
+>     [self.mapView setScene:scene withAnimationKind:MSMapAnimationKindNone];
 > }
 >```
 
@@ -117,12 +149,21 @@ First, declare the element layer as class member:
 > private var pinLayer: MSMapElementLayer!
 >```
 
+>```objectivec
+> MSMapElementLayer *pinLayer;
+>```
+
 Next step, initialize and add it to map view's layers in your `viewDidLoad` method:
 
 >```swift
 > pinLayer = MSMapElementLayer()
 > mapView.layers.add(pinLayer)
  >```
+
+>```objectivec
+> pinLayer = [[MSMapElementLayer alloc] init];
+> [self.mapView.layers addMapLayer:pinLayer];
+>```
 
 Use the following snippet to add pins:
 
@@ -137,12 +178,27 @@ Use the following snippet to add pins:
 > pinLayer.elements.add(pushpin)
 >```
 
+>```objectivec
+> MSGeopoint *location = [MSGeopoint geopointWithLatitude: ...]; // your pin lat-long coordinates
+> MSMapImage *pinBitmap = [[MSMapImage alloc] ...] // your pin graphic (optional)
+>
+> MSMapIcon *pushpin = [[MSMapIcon alloc] init];
+> pushpin.location = location;
+> pushpin.image = pinBitmap;
+>
+> [pinLayer.elements addMapElement:pushpin];
+>```
+
 ***Note**: if pins in your scenario use the same graphic, it is recommended to reuse the associated `MSMapImage` object. Rather than creating a new one for each pin, consider declaring and initializing it similarly to your `MapElementLayer` instance.*
 
 To clear existing pins, just call `clear()` on `Elements` member of the associated layer:
 
 >```swift
 > pinLayer.elements.clear();
+>```
+
+>```objectivec
+> [pinLayer.elements clear];
 >```
 
 ### Styling
@@ -164,6 +220,10 @@ Example setting `aerialWithOverlay` map style:
 > mapView.setStyleSheet(MSMapStyleSheets.aerialWithOverlay())
 >```
 
+>```objectivec
+> [self.mapView setStyleSheet:[MSMapStyleSheets aerialWithOverlay]];
+>```
+
 Bing Maps Native Control also supports custom styling via JSON, using the same format as desktop and iOS controls. Here's an example applying your own style:
 
 >```swift
@@ -177,6 +237,18 @@ Bing Maps Native Control also supports custom styling via JSON, using the same f
 > }
 >```
 
+>```objectivec
+> MSMapStyleSheet *styleSheetFromJson;
+> BOOL result = [MSMapStyleSheet tryToParseJson:yourCustomStyleJsonString 
+>                                intoStyleSheet:&styleSheetFromJson];
+> if (result)
+> {
+>     [self.mapView setStyleSheet:styleSheetFromJson];
+> } else {
+>     // Custom style JSON is invalid
+> }
+>```
+
 
 ### Map projection
 
@@ -185,4 +257,9 @@ Bing Maps Native Control runs on a 3D engine and it supports switching map proje
 >```swift
 > mapView.projection = MSMapProjection.globe
 > mapView.projection = MSMapProjection.mercator
+>```
+
+>```objectivec
+> self.mapView.projection = MSMapProjectionGlobe;
+> self.mapView.projection = MSMapProjectionMercator;
 >```

@@ -1,6 +1,6 @@
 ---
 title: "Bing Maps SDK for Android and iOS | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Bing Maps SDK for Android and iOS
@@ -40,7 +40,7 @@ Area                                                             | Description
 [Map Control API Reference](map-control-api/index.md)            | Documentation on the methods, properties, and basic function of the map control's major types.
 [Map Services API Reference](map-services-api/index.md)          | Documentation on the methods, properties, and usage of MapServices such as geocoding.
 
-## See also
+## See Also
 
 * [Bing Maps SDK Code Samples](https://github.com/Microsoft/MapsSDK-native)
 * [Breaking API changes in version 1.0](v1-breaking-changes.md)

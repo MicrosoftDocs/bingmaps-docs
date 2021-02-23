@@ -1,6 +1,6 @@
 ---
 title: "MapLoadingStatus Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLoadingStatus Enumeration
@@ -43,6 +43,6 @@ The MapView has downloaded all needed data to render the current view
 
 The MapView has downloaded all it can to render the current view, but some resources were unable to be downloaded.
 
-## See also
+## See Also
 
 * [MapView](MapView-class.md)

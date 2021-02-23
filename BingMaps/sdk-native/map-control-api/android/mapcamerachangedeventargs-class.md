@@ -1,6 +1,6 @@
 ---
 title: "MapCameraChangedEventArgs Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapCameraChangedEventArgs Class (Android only)
@@ -9,23 +9,23 @@ Event arguments passed to MapView.CameraChanged callback.
 
 ## Properties
 
-### changeReason
+### ChangeReason
 
 Indicates the reason the CameraChanged event was triggered.
 
 >```java
-> public final MapCameraChangeReason changeReason
+> final MapCameraChangeReason changeReason
 >```
 
-### camera
+### Camera
 
 Gets the current position of the map's camera.
 
 >```java
-> public final MapCamera camera
+> final MapCamera camera
 >```
 
-## See also
+## See Also
 
 * [OnMapCameraChangedListener](OnMapCameraChangedListener-interface.md)
 * [MapView](../MapView-class.md)

@@ -1,6 +1,6 @@
 ---
 title: "MSMapDidCaptureImageCallback Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapDidCaptureImageCallback Interface (iOS only)
@@ -11,6 +11,6 @@ Callback interface to notify when a Bitmap has been captured as a result of a ca
 > typedef void (^MSMapDidCaptureImageCallback)(UIImage * _Nullable)
 >```
 
-## See also
+## See Also
 
 * [MapView](../MapView-class.md)

@@ -1,6 +1,6 @@
 ---
 title: "MapElement Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapElement Class
@@ -70,8 +70,8 @@ Gets or sets an arbitrary object value that can be used to store custom informat
 **Android**
 
 >```java
-> Object getTag()
-> void setTag(Object newTag)
+> @Nullable Object getTag()
+> void setTag(@Nullable Object newTag)
 >```
 
 **iOS**
@@ -118,7 +118,7 @@ The ZIndex of the map element. Elements with a higher ZIndex will render on top 
 ## Accessibility
 
 Map elements are accessible via corresponding accessibility traits depending on the platform.  
-***Note: It is recommended to provide accessibility descriptions for user elements. User elements with missing descriptions may not be accessible.***
+***Note: It is recommended to provide accessibility descriptions for user elements. User elements with missing descriptions will not be accessible.***
 
 ### ContentDescription property (Android)
 

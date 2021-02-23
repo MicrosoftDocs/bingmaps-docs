@@ -1,6 +1,6 @@
 ---
 title: "Map Icons | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Icons
@@ -18,7 +18,7 @@ can add your own user interface elements on top of a [MapFlyout](display-flyout.
 
 See some examples for [How to display pushpins on the map](display-points-of-interest.md).
 
-## See also:
+## See Also:
 
 * [MapIcon](../map-control-api/MapIcon-class.md)
 * [MapImage](../map-control-api/MapImage-class.md)

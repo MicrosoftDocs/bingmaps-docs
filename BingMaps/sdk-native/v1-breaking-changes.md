@@ -1,6 +1,6 @@
 ---
 title: "Breaking API changes in version 1.0 | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Breaking API changes in version 1.0
@@ -166,5 +166,5 @@ Updated various public interfaces, as well as universal and various individual h
 - Removed property: `userLocationVisible`.
 
 
-## See also
+## See Also
 * [Bing Maps SDK for Android and iOS documentation](Index.md)

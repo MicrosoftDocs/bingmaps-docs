@@ -1,6 +1,6 @@
 ---
 title: "MSMapDidChangeSceneCallback Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MSMapDidChangeSceneCallback Interface (iOS only)
@@ -11,6 +11,6 @@ Callback interface to notify when the map scene has successfully changed after a
 > typedef void (^MSMapDidChangeSceneCallback)(bool result)
 >```
 
-## See also
+## See Also
 
 * [MapView](../MapView-class.md)

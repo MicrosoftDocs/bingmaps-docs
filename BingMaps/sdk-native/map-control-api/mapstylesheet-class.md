@@ -1,6 +1,6 @@
 ---
 title: "MapStyleSheet Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapStyleSheet Class
@@ -21,14 +21,14 @@ Represents a set of rules that define the style of the map in a map control.
 
 ## Static methods
 
-### fromJson
+### FromJson
 
 Creates a new MapStyleSheet from an input string. Returns false in iOS and Optional.absent() in Android if the json was invalid.
 
 **Android**
 
 >```java
-> public static MapStyleSheet fromJson(String json)
+> static @Nullable MapStyleSheet fromJson(String json)
 >```
 
 **iOS**
@@ -37,14 +37,14 @@ Creates a new MapStyleSheet from an input string. Returns false in iOS and Optio
 > + (BOOL)tryToParseJson:(NSString*)json intoStyleSheet:(MSMapStyleSheet * _Nullable * _Nonnull)styleSheet
 >```
 
-### combine
+### Combine
 
 Combines several MapStyleSheets into one.
 
 **Android**
 
 >```java
-> public static MapStyleSheet combine(Iterable<MapStyleSheet> mapStyleSheets)
+> static MapStyleSheet combine(Iterable<MapStyleSheet> mapStyleSheets)
 >```
 
 **iOS**

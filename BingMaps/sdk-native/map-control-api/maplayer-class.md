@@ -1,6 +1,6 @@
 ---
 title: "MapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLayer Class
@@ -53,7 +53,7 @@ The z-index of this layer. Layers with higher z-indexes will render on top of th
 > @property (nonatomic) int zIndex
 >```
 
-## See also
+## See Also
 
 * [CustomTileMapLayer](CustomTileMapLayer-class.md)
 * [GroundOverlayMapLayer](GroundOverlayMapLayer-class.md)

@@ -1,6 +1,6 @@
 ---
 title: "MapUriTileMapLayer Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapUriTileMapLayer Class

@@ -1,6 +1,6 @@
 ---
 title: "OnBitmapRequestedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnBitmapRequestedListener Interface (Android only)
@@ -11,11 +11,11 @@ Used by CustomTileMapLayer to call out to developer code when a tile image is re
 > public interface OnBitmapRequestedListener
 > {
 >     /** Called when a bitmap is requested. */
->     public void OnBitmapRequested(MapTileBitmapRequestedEventArgs e);
+>     void OnBitmapRequested(MapTileBitmapRequestedEventArgs e);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapTileBitmapRequestedEventArgs](MapTileBitmapRequestedEventArgs-class.md)
 * [CustomTileMapLayer](../CustomTileMapLayer-class.md)
