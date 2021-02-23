@@ -5,15 +5,15 @@ ms.author: "adl"
 
 # User Location
 
-The ability to show the user's location and track the user's location is an important tool in a map. By using our UserLocation API, you can show the user's location on your map with some customizable features.
+The ability to show the user's location and track the user's location is an important tool in a map. By using our UserLocation API, you can show the user's location on your map with some customizable features. 
 
 There are two main mechanisms this SDK supports to show the user's location:
 
 1. Using the user location toolbar button
-    * This requires minimal integration. A listener can be set to listen for the user location toolbar button tapped event.
-    * Once the user clicks on this toolbar button, it will notify the listener and the tracking mode will be set to CenteredOnUser.
-    * The developer can now request for the user's location permissions and start tracking after receiving those permissions
-2. Using the User Location API to have more control over the user location features.
+    * This requires minimal integration. A listener can be set to listen for the user location toolbar button tapped event. 
+    * Once the user clicks on this toolbar button, it will notify the listener and the tracking mode will be set to CenteredOnUser. 
+    * The developer can now request for the user's location permissions and start tracking after receiving those permissions 
+2. Using the User Location API to have more control over the user location features. 
     * This option provides more flexibility for configuration. However, the developer will have to create their own mechanism to determine when to start tracking
 
 See [MapUserLocation API](../map-control-api/mapuserlocation-class.md) for more information on the API.
@@ -21,13 +21,7 @@ See [MapUserLocation API](../map-control-api/mapuserlocation-class.md) for more 
 ## Features
 
 ### Me Poi Visibility
-* A location provider needs to be passed in to call start tracking.
-  
-  For Android, you can use [GPSMapLocationProvider](../map-control-api/android/gpsmaplocationprovider-class.md). 
- 
-  For iOS, you can use [MSMapLocationProvider](../map-control-api/ios/msmaplocationprovider-class.md). 
-  
-  Read more about their differences in their respective documentations.
+* A location provider needs to be passed in to call start tracking. For Android, you have the option of using [GooglePlayMapLocationProvider](../map-control-api/android/googleplaymaplocationprovider-class.md) or [GPSMapLocationProvider](../map-control-api/android/gpsmaplocationprovider-class.md). For iOS, you can use [MSMapLocationProvider](../map-control-api/ios/msmaplocationprovider-class.md). Read more about their differences in their respective documentations. 
 * To start tracking, it requires the developer to have requested for and obtained the user's location permissions
 * Once tracking is started, the default functionality will show the user's location on the map
 * The user location icon can be configured to be visible or not visible during tracking
@@ -44,14 +38,14 @@ See [MapUserLocation API](../map-control-api/mapuserlocation-class.md) for more 
 * Ability to add and remove listeners to be notified when the user interrupts the map and changes the tracking mode from centeredOnUser back to none
 
 ### Directionality Cone Orientation
-* Ability to set the directionality cone's orientation to be using heading (direction phone is pointing in) or bearing (direction user is moving in).
+* Ability to set the directionality cone's orientation to be using heading (direction phone is pointing in) or bearing (direction user is moving in). 
 
 ### Signal Lost Alert Action
-* Ability to set whether or not the signal lost alert should be shown when signal lost is detected.
+* Ability to set whether or not the signal lost alert should be shown when signal lost is detected. 
 
 ## Examples
 
-### Show the user's location on the map with default settings using MSMapLocationProvider(iOS) and GPSMapLocationProvider(Android)
+### Show the user's location on the map with default settings using MSMapLocationProvider(iOS) and GooglePlayMapLocationProvider(Android)
 
 **iOS**
 
@@ -75,8 +69,8 @@ if (trackingState == MSMapUserLocationTrackingStatePermissionDenied) {
 MapView map = (MapView)findViewById(R.id.map);
 MapUserLocation userLocation = map.getUserLocation();
 
-MapUserLocationTrackingState userLocationTrackingState = userLocation.startTracking(new GPSMapLocationProvider.Builder(getApplicationContext()).build());
-if (userLocationTrackingState == MapUserLocationTrackingState.PERMISSION_DENIED)
+MapUserLocationTrackingState userLocationTrackingState = userLocation.startTracking(new GooglePlayMapLocationProvider.Builder(getApplicationContext()).build());
+if (userLocationTrackingState == MapUserLocationTrackingState.PERMISSION_DENIED) 
 {
     // request for user location permissions and then call startTracking again
 } else if (userLocationTrackingState == MapUserLocationTrackingState.READY)
@@ -100,7 +94,7 @@ MSMapUserLocation* userLocation = mapView.userLocation;
 userLocation.trackingMode = MSMapUserLocationTrackingModeCenteredOnUser;
 [userLocation addUserDidInterruptTrackingHandler:^BOOL(MSMapUserLocationTrackingInterruptedEventArgs* e){
 	// Add your code here to handle the case where tracking mode is changed back to MSMapUserLocationTrackingModeNone
-
+	
 	// Return YES instead if you have consumed the event and don't want other handlers to be notified
 	return NO;
 }];
@@ -119,7 +113,7 @@ userLocation.addOnMapUserLocationTrackingInterruptedListener(new OnMapUserLocati
     public boolean onMapUserLocationTrackingInterrupted(MapUserLocationTrackingInterruptedEventArgs e)
     {
         // Add your code here to handle the case where tracking mode is changed back to MapUserLocationTrackingMode.NONE
-
+        
         // Return true instead if you have consumed the event and don't want other listeners to be notified
         return false;
     }
@@ -132,6 +126,7 @@ userLocation.addOnMapUserLocationTrackingInterruptedListener(new OnMapUserLocati
 
 * [MapUserLocation](../map-control-api/mapuserlocation-class.md)
 * [MapLocationProvider](../map-control-api/android/maplocationprovider-class.md)
+* [GooglePlayMapLocationProvider](../map-control-api/android/googleplaymaplocationprovider-class.md)
 * [GPSMapLocationProvider](../map-control-api/android/gpsmaplocationprovider-class.md)
 * [MSMapLocationProvider](../map-control-api/ios/msmaplocationprovider-class.md)
 * [MapView](../map-control-api/mapview-class.md)

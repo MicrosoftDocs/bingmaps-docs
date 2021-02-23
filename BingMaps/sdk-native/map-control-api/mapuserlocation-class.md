@@ -172,7 +172,7 @@ _See also:_ [MapUserLocationTrackingState](mapuserlocationtrackingstate-enumerat
 > MapUserLocationTrackingState startTracking(MapLocationProvider mapLocationProvider)
 > ```
 
-_See also:_ [MapLocationProvider](android/maplocationprovider-class.md), and [GPSMapLocationProvider](android/gpsmaplocationprovider-class.md) 
+_See also:_ [MapLocationProvider](android/maplocationprovider-class.md), [GooglePlayMapLocationProvider](android/googleplaymaplocationprovider-class.md), and [GPSMapLocationProvider](android/gpsmaplocationprovider-class.md) 
 
 **iOS**
 

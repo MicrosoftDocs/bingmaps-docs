@@ -32,6 +32,36 @@ _See also:_ [UIView](https://developer.apple.com/documentation/uikit/uiview)
 
 ## Properties
 
+### AmbientLightDetection (Android only)
+
+Change how the MapView handles ambient light changes. If set to
+Automatic the MapView will monitor for sensor changes to ambient light
+and automatically switch between light and dark map styles if the map is currently in one
+of the well known map styles (roadLight, roadDark, roadHighContrastLight, roadHighContrastDark, vibrantLight, and vibrantDark.)  
+Default is to not change map styles based on ambient light.
+
+_See also:_ [AmbientLightDetection](ambientlightdetection-enumeration.md)
+
+**Android**
+
+>```java
+> AmbientLightDetection getAmbientLightDetection()
+> void setAmbientLightDetection(AmbientLightDetection newValue)
+>```
+
+### AmbientLightLevelChangingListener (Android only)
+
+Sets the callback that will be called when the map has detected a change in ambient lighting and wants to change the map style, if possible.  
+This callback is only called if the AmbientLightDetection property is set to Automatic.
+
+_See also:_ [AmbientLightStyleChangingListener](android/ambientlightstylechanginglistener-interface.md)
+**Android**
+
+>```java
+> void setAmbientLightLevelChangingListener(@Nullable AmbientLightStyleChangingListener ambientLightStyleChangingListener)
+>```
+
+
 ### Bounds
 
 Returns the current geo-bounding box bounds of the current view.
@@ -1427,4 +1457,4 @@ Currently, it exposes the following accessibility elements:
 2. User map elements, potentially interactive.
 3. Toolbar elements, interactive.
 
-_See also:_ [MapElement - Accessibility](mapelement-class.md#accessibility)
+_See also:_ [MapElement - Accessibility](mapelement-class.md#Accessibility)

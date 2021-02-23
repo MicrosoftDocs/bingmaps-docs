@@ -22,7 +22,7 @@ The latitude and longitude coordinates where you encounter the incident.
 **iOS**
 
 >```objectivec
-> @property(nonatomic, readonly) MSGeopoint* location
+> @property(nonatomic, readonly) MSGeoposition* location
 >```
 
 _See also:_ [Geoposition](Geoposition-class.md)

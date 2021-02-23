@@ -11,11 +11,11 @@ An abstract class that contains common methods for all Android location provider
 > abstract class MapLocationProvider implements SensorEventListener
 >```
 
-See [GPSMapLocationProvider](gpsmaplocationprovider-class.md) for a concrete class you can use.
+See [GooglePlayMapLocationProvider](googleplaymaplocationprovider-class.md) and [GPSMapLocationProvider](gpsmaplocationprovider-class.md) for concrete classes you can choose to use.
 
 See [MapUserLocation](../mapuserlocation-class.md) for more details on how to start tracking user location with a location provider.
 
-## Methods
+## Methods (common for both GooglePlay and GPS location providers)
 
 ### startTracking
 
@@ -33,7 +33,7 @@ Stops a previous call to start tracking. Must be called once for each call to st
 > void stopTracking()
 >```
 
-## Events
+## Events (common for both GooglePlay and GPS location providers)
 
 ### LocationChanged
 
@@ -46,7 +46,7 @@ See [LocationChangedListener](locationchangedlistener-interface.md) for more det
 > boolean removeLocationChangedListener(LocationChangedListener locationChangedListener)
 >```
 
-## Properties
+## Properties (common for both GooglePlay and GPS location providers)
 
 ### LastLocation
 
