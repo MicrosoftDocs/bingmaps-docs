@@ -1,6 +1,6 @@
 ---
 title: "OnMapDoubleTappedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapDoubleTappedListener Interface (Android only)
@@ -11,11 +11,11 @@ Listener used with MapView.DoubleTapped event. Return true from this event to pr
 > public interface OnMapDoubleTappedListener
 > {
 >     /** Called when map is double tapped. */
->     public boolean onMapDoubleTapped(MapDoubleTappedEventArgs e);
+>     boolean onMapDoubleTapped(MapDoubleTappedEventArgs e);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapDoubleTappedEventArgs](MapDoubleTappedEventArgs-class.md)
 * [MapView](../MapView-class.md)

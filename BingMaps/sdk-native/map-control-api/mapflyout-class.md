@@ -1,6 +1,6 @@
 ---
 title: "MapFlyout Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapFlyout Class
@@ -40,12 +40,12 @@ Whether flyout is currently being displayed.
 
 ### Title
 
-Primary text to be displayed on flyout's default view. *Can be null.*
+Primary text to be displayed on flyout's default view. Can be null; empty string is treated as null.
 
 **Android**
 
 >```java
-> String getTitle()
+> @Nullable String getTitle()
 > void setTitle(@Nullable String title)
 >```
 
@@ -57,12 +57,12 @@ Primary text to be displayed on flyout's default view. *Can be null.*
 
 ### Description
 
-Secondary text to be displayed on flyout's default view. *Can be null.*
+Secondary text to be displayed on flyout's default view. Can be null; empty string is treated as null.
 
 **Android**
 
 >```java
-> String getDescription()
+> @Nullable String getDescription()
 > void setDescription(@Nullable String description)
 >```
 
@@ -196,6 +196,6 @@ Styles default view with customizable background color and text color in ARGB fo
 > - (void)styleDefaultViewWithBackgroundColor:(UIColor*)backgroundColor textColor:(UIColor*)textColor
 >```
 
-## See also
+## See Also
 
 * [MapFlyoutCustomViewAdapter](mapflyoutcustomviewadapter-interface.md)

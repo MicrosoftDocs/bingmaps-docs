@@ -1,6 +1,6 @@
 ---
 title: "OnMapCameraChangingListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapCameraChangingListener Interface (Android only)
@@ -11,11 +11,11 @@ Listener used with MapView.CameraChanging event.
 > public interface OnMapCameraChangingListener
 > {
 >     /** Called when camera stops moving. */
->     public boolean onMapCameraChanging(MapCameraChangingEventArgs e);
+>     boolean onMapCameraChanging(MapCameraChangingEventArgs e);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapCameraChangingEventArgs](MapCameraChangingEventArgs-class.md)
 * [MapView](../MapView-class.md)

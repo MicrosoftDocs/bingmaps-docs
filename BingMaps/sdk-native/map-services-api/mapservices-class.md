@@ -1,6 +1,6 @@
 ---
 title: "MapServices Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapServices Class
@@ -9,6 +9,14 @@ Provides common methods for map services such as [MapLocationFinder](MapLocation
 
 ## Static Methods
 
+### SetContext (Android only)
+
+Sets the application context for internal infrastructure. Only required for headless use of map services.
+
+>```java
+> void setContext(Context applicationContext)
+>```
+
 ### SetCredentialsKey
 
 Sets user's Bing Maps key which will then be used for API requests.
@@ -16,13 +24,77 @@ Sets user's Bing Maps key which will then be used for API requests.
 **Android**
 
 >```java
->void setCredentialsKey(String key)
+> void setCredentialsKey(String key)
 >```
 
 **iOS**
 
 >```objectivec
->+ (void)setCredentialsKey:(NSString*)key
+> + (void)setCredentialsKey:(NSString*)key
+>```
+
+### GetLanguage
+
+Gets the user language for the map control.
+
+**Android**
+
+>```java
+> String getLanguage()
+>```
+
+**iOS**
+
+>```objectivec
+> + (NSString*)getLanguage
+>```
+
+### SetLanguage
+
+Sets the user language for the map control.
+
+**Android**
+
+>```java
+> void setLanguage(String language)
+>```
+
+**iOS**
+
+>```objectivec
+> + (void)setLanguage:(NSString*)language
+>```
+
+### GetRegion
+
+Gets the user region for the map control.
+
+**Android**
+
+>```java
+> String getRegion()
+>```
+
+**iOS**
+
+>```objectivec
+> + (NSString*)getRegion
+>```
+
+### SetRegion
+
+Sets the user region for the map control.
+
+**Android**
+
+>```java
+> void setRegion(String region)
+>```
+
+**iOS**
+
+>```objectivec
+> + (void)setRegion:(NSString*)region
 >```
 
 ## See Also

@@ -1,6 +1,6 @@
 ---
 title: "Map Style Sheets | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Style Sheets

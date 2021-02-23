@@ -1,6 +1,6 @@
 ---
 title: "Map Scenes and Cameras | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Scenes and Cameras

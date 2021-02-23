@@ -1,6 +1,6 @@
 ---
 title: "OnMapLoadingStatusChangedListener Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # OnMapLoadingStatusChangedListener Interface (Android only)
@@ -11,11 +11,11 @@ Listener used with MapView.MapLoadingStatusChanged event.
 > public interface OnMapLoadingStatusChangedListener
 > {
 >    /** Called when the map loading status changes **/
->    public boolean onMapLoadingStatusChanged(MapLoadingStatus status);
+>    boolean onMapLoadingStatusChanged(MapLoadingStatus status);
 > }
 >```
 
-## See also
+## See Also
 
 * [MapLoadingStatus](../maploadingstatus-enumeration.md)
 * [MapView](../MapView-class.md)

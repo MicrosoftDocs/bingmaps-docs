@@ -1,6 +1,6 @@
 ---
 title: "Display flyout of icon | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Display flyout of icon
@@ -129,7 +129,7 @@ _Note: to be able to iterate through `Elements` property of `MapElementLayer` in
 >```
 
 
-## See also:
+## See Also:
 
 * [MapFlyout](../map-control-api/mapflyout-class.md)
 * [MapFlyoutCustomViewAdapter](../map-control-api/mapflyoutcustomviewadapter-interface.md)

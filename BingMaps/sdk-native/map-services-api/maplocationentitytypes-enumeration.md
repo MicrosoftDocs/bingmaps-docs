@@ -1,6 +1,6 @@
 ---
 title: "MapLocationEntityTypes Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationEntityTypes Enumeration
@@ -77,6 +77,6 @@ Include second level administrative divisions in the response.
 
 Include countries in the response.
 
-## See also
+## See Also
 
 * [MapLocationOptions](MapLocationOptions-class.md)

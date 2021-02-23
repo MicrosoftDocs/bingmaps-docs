@@ -1,6 +1,6 @@
 ---
 title: "MapCameraChangeReason Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapCameraChangeReason Enumeration

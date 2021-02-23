@@ -1,6 +1,6 @@
 ---
 title: "MapLocationAddress Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapLocationAddress Class
@@ -189,6 +189,6 @@ Specifies the landmark name for the address.
 >@property (nonatomic, readonly) NSString* landmark
 >```
 
-## See also
+## See Also
 
 * [MapLocation](MapLocation-class.md)

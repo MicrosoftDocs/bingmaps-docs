@@ -1,6 +1,6 @@
 ---
 title: "AltitudeReferenceSystem Enumeration | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # AltitudeReferenceSystem Enumeration

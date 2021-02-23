@@ -1,6 +1,6 @@
 ---
 title: "Geopoint Class | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # Geopoint Class
@@ -90,23 +90,6 @@ Creates MSGeopoint object with a position and altitude reference system.
 >          altitudeReferenceSystem:(MSMapAltitudeReferenceSystem)altitudeReferenceSystem
 >```
 
-### ToAltitudeReferenceSystem
-
-Returns a location in a new altitude reference system. This method leverages a passed-in MapView for retrieving data for conversions.
-
-**Android**
-
->```java
-> Geopoint toAltitudeReferenceSystem(AltitudeReferenceSystem newAltitudeReferenceSystem, MapView mapView)
->```
-
-**iOS**
-
->```objectivec
-> - (MSGeopoint *)toAltitudeReferenceSystem:(MSMapAltitudeReferenceSystem)newAltitudeReferenceSystem
->                                       map:(MSMapView *)map
->```
-
 ## Properties
 
 ### Position
@@ -116,7 +99,7 @@ Gets the position of the geographic location.
 **Android**
 
 >```java
-> double getPosition()
+> Geoposition getPosition()
 >```
 
 **iOS**
@@ -141,6 +124,25 @@ Gets the altitude reference system used to describe this location.
 >```
 
 _See also:_ [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)
+
+## Methods
+
+### ToAltitudeReferenceSystem
+
+Returns a location in a new altitude reference system. This method leverages a passed-in MapView for retrieving data for conversions.
+
+**Android**
+
+>```java
+> Geopoint toAltitudeReferenceSystem(AltitudeReferenceSystem newAltitudeReferenceSystem, MapView mapView)
+>```
+
+**iOS**
+
+>```objectivec
+> - (MSGeopoint *)toAltitudeReferenceSystem:(MSMapAltitudeReferenceSystem)newAltitudeReferenceSystem
+>                                       map:(MSMapView *)map
+>```
 
 ## See Also
 

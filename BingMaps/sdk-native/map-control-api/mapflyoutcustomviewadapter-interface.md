@@ -1,6 +1,6 @@
 ---
 title: "MapFlyoutCustomViewAdapter Interface | Microsoft Docs"
-author: "pablocan"
+ms.author: "pablocan"
 ---
 
 # MapFlyoutCustomViewAdapter Interface
@@ -11,7 +11,7 @@ If a null view is returned, the default view with flyout's title and description
 >```java
 > public interface MapFlyout.CustomViewAdapter
 > {
->     public View getFlyoutView(MapElement mapElement);
+>     @Nullable View getFlyoutView(MapElement mapElement);
 > }
 >```
 
@@ -26,7 +26,7 @@ If a null view is returned, the default view with flyout's title and description
 ### MapElement
 The map element that the flyout is being invoked on.
 
-## See also
+## See Also
 
 * [MapElement](mapelement-class.md)
 * [MapFlyout](mapflyout-class.md)
