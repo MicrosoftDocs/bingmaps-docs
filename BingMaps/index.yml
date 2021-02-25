@@ -1,0 +1,77 @@
+### YamlMime:Hub
+
+title: Bing Maps Documentation
+
+metadata:
+  title: Bing Maps Documentation
+  description: Bing Maps API documentation home.
+  author: rbrundritt
+  ms.date: 02/28/2018
+  ms.topic: "article"
+  manager: "stevelom"
+  ms.author: "richbrun"
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Discover # < 60 chars (optional)
+      items:
+        # Card
+        - title: Getting Started with Bing Maps
+          summary: Setup up your Bing Maps account and key.
+          url: /bingmaps/getting-started
+        # Card
+        - title: Bing Maps V8 Web Control
+          summary: Learn how to add maps to your web app using JavaScript or TypeScript.
+          url: /bingmaps/v8-web-control
+        # Card
+        - title: Bing Maps REST Services
+          summary: Access geocoding, routing, icochrone, static imagery services and more.
+          url: /bingmaps/rest-services
+        # Card
+        - title: Bing Maps Spatial Data Services
+          summary: Batch geocode data, access administrative boundaries, and expose your data as a spatial REST services.
+          url: /bingmaps/spatial-data-services
+        # Card
+        - title: Bing Maps SDK for Android and iOS
+          summary: Learn how to add maps to your Android and iOS project.
+          url: /bingmaps/sdk-native
+        # Card
+        - title: Windows UWP Map Control
+          summary: Learn how to add maps to your Mixed Reality Unity project.
+          url: /windows/uwp/maps-and-location
+        # Card
+        - title: Bing Maps WPF Control
+          summary: Learn how to use the Bing Maps Windows Presentation Foundation (WPF) Control.
+          url: https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
+        # Card
+        - title: Maps SDK, A Microsoft Garage Project
+          summary: Learn how to add maps to your Mixed Reality Unity project.
+          url: https://github.com/Microsoft/MapsSDK-Unity
+        # Card
+        - title: Articles
+          summary: Articles that provide background information and cross-API information for Bing Maps APIs.
+          url: /bingmaps/articles
+        # Card
+        - title: Geographic Coverage Information
+          summary: Bing Maps geographic coverage information for geocoding, routing, traffic, and more.
+          url: /bingmaps/coverage
+        # Card
+        - title: Bing Maps Licensing
+          summary: Find out how to license Bing Maps.
+          url: https://www.microsoft.com/maps/licensing/licensing.aspx
+        # Card
+        - title: Bing Maps Blog
+          summary: Stay up to date on Bing Maps.
+          url: https://blogs.bing.com/maps/
+    - title: Support
+      items:
+        # Card
+        - title: Bing Maps Support
+          summary: Get help for the Bing Maps developer APIs.
+          url: https://www.microsoft.com/en-us/maps/support
+        # Card
+        - title: Open Source Maps
+          summary: A list of open source projects related to Microsoft's geospatial and mapping services.
+          url: https://github.com/Microsoft/Maps
