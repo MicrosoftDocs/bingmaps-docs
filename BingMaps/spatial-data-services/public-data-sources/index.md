@@ -20,7 +20,7 @@ The Bing Spatial Data Services provide the following public data sources for you
   
 |Data Source|Description|  
 |-----------------|-----------------|  
-|[PointsOfInterest Data Source](../public-data-sources/pointsofinterest.md)|This data source contains points of interest worldwide. It is also the replacement for the deprecated NAVTEQNA and NAVTEQEU data sources.
+|[PointsOfInterest Data Source](../public-data-sources/pointsofinterest.md)|This data source contains points of interest worldwide. 
 |[FourthCoffeeSample Data Source](../public-data-sources/fourthcoffeesample.md)|This data source contains sample data. The examples provided in the [Query API](../query-api/index.md) documentation use this data source.|  
 |[Traffic Incident Data Source](../public-data-sources/traffic-incident-data-source.md)|This data source contains traffic incident data that you can use to query for traffic incidents in an area by using the [Query by Area](../query-api/query-by-area.md) API.|  
 |[2010 US Census Data Sources](../public-data-sources/2010-us-census-data-sources.md)|These data sources contain a subset of 2010 US Census data sourced from the US Census Bureau.|  
