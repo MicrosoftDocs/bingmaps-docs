@@ -353,7 +353,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
 |Address.Neighborhood|Geocode Response|A string specifying the neighborhood for an address.|  
 |Address.Landmark|Geocode Response|A string specifying a landmark associated with an address.|  
 |ConfidenceFilter.MinimumConfidence|Geocode Request<br /><br /> Reverse Geocode Request|A string specifying the minimum confidence required for the result.<br /><br /> The following are possible confidence values:<br /><br /> -   Low<br />-   Medium<br />-   High<br /><br /> **Example**: High|  
-|StrictMatch|Geocode Request|A boolean value (true&#124;false or1&#124;0) that specifies whether to limit the geocode result to the country or region that is specified in the CountryRegion field.|  
+|StrictMatch|Geocode Request|A boolean value (true&#124;false or1&#124;0) that restricts the geocode result to the country or region that is specified in the CountryRegion field and the state, province or territory specified in the AdminDistrict field.|  
 |Location.Latitude<br /><br /> Location.Longitude|Reverse Geocode Request|A set of double values representing degrees of latitude and longitude.<br /><br /> Valid range of latitude values: [-90, +90]<br /><br /> **Example**: 47.673099<br /><br /> Valid range of longitude values: [-180, +180]<br /><br /> **Example**: -122.11871|  
 |Confidence|Geocode Response|A string specifying the confidence of the result.<br /><br /> The following are possible confidence values:<br /><br /> -   Low<br />-   Medium<br />-   High|  
 |Name|Geocode Response|A string specifying the display name for the response.<br /><br /> **Example**: 16552 NE 74th St, Redmond, WA 98052-7804|  
