@@ -117,7 +117,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{add
 |`include`|`incl`|**Optional.** Specifies additional values to include.|The only value for this parameter is `ciso2`. When you specify `include=ciso2`, the [two-letter ISO country code](https://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> `incl=ciso2`|  
 |`maxResults`|`maxRes`|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> `maxResults=10`|  
 |`strictMatch`|`sm`|**Optional.** Restricts the geocode result to the country or region that is specified in the countryRegion field and the state, province or territory specified in the adminDistrict field.|One of the following values:<br /><br /> - `1`: Restrict results to the specified countryRegion and adminDistrict.<br />- `0` **[default]**: Do not restrict results to the specified countryRegion and adminDistrict.<br /><br /> **Example:**<br /> `strictMatch=1`|  
-  
+
 ## Response
 
 One or more Location resources are returned in the response when you make a request by using these URL templates. For more information about the Location resource, see [Location Data](location-data.md). For more information about the common response syntax for the Bing Maps REST Services, see [Common Response Description](../common-response-description.md). Responses are provided for some URL examples in the following section.  
