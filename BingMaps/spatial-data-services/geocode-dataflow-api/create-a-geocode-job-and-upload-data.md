@@ -69,13 +69,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=out
 ```url
 http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMapsKey  
 ```  
-  
- This example creates a geocode job for spatial data that is provided in an xml format and assigns a description “My dataflow” to the job.  
-  
-```url
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMapsKey  
-```  
-  
+
 ## Response
 
 The response to this URL contains a representation of the geocode dataflow job instance.  
