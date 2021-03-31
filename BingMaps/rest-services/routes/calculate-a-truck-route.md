@@ -123,6 +123,7 @@ Content-Type: application/json
 
 > [!NOTE]
 >  For truck routing, vehicle attributes are specified inside of a `vehicleSpec` object in POST requests.
+>  Different regions may have different definitions for the truck classification and types, e.g., light truck, medium truck, heavy truck, etc. To get the most accurate results of the route restrictions based on the truck specs, please specify the vehicle attributes using `vehicleHeight`, `vehicleWidth`, `vehicleLength`, `vehicleWeight`, `vehicleAxles`, etc. in the `vehicleSpec` object of the POST requests. 
 
 **Asynchronous Truck Routing Request URL (GET)**
 
