@@ -128,8 +128,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
                   <xs:attribute name="Culture" type="xs:string" use="optional" />  
                   <xs:attribute name="IncludeEntityTypes" type="xs:string" use="optional" />  
                   <xs:attribute name="IncludeNeighborhood" type="xs:boolean" use="optional" />  
-                  <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />
-                  <xs:attribute name="StrictMatch" type="xs:boolean" use="optional" />
+                  <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />  
                 </xs:complexType>  
               </xs:element>  
               <xs:element minOccurs="0" maxOccurs="1" name="GeocodeRequest">  
@@ -154,6 +153,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
                   <xs:attribute name="IncludeQueryParse" type="xs:boolean" use="optional" />  
                   <xs:attribute name="IncludeNeighborhood" type="xs:boolean" use="optional" />  
                   <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />  
+                  <xs:attribute name="StrictMatch" type="xs:boolean" use="optional" />  
                   <xs:attribute name="Query" type="xs:string" use="optional" />  
                 </xs:complexType>  
               </xs:element>  
