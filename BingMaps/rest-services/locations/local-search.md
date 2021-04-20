@@ -77,14 +77,13 @@ Successful Local Search API requests return a list of `LocalSearch` resources.
 
 |JSON|XML|Description|
 |----|----|----------|
-|`type`|`Type`| The type of local entity, e.g. `Restaurant`.|
-|`id`| `ID`|Local entity identifier.| 
+|`entityType`|`EntityType`| The type of local entity, e.g. `Restaurant`.|
 |`name`|`Name`|The name of the local entity, e.g. `Yea's Wok`.|
-|`url`|`URL`| If available, the URL for the local entity.|
+|`Website`|`Website`| If available, the URL for the local entity.|
 |`geocodePoints`|`GeoCodePoints`| A container with the latitude and longitude for the local entity; typically the rooftop of the entity.|
 |`point` | `Point` | A container with a latitude and longitude suitable for providing directions to the local entity. |
 |`address`|`Address`| A container including the `formattedAddress`, `streetAddress`, `locality`, `adminDistrict`, `postalCode`, `countryRegion`, and `neighborhood` fields for the local entity.|
-|`telephone`|`Telephone`| If available, the telephone number for the local entity.|
+|`PhoneNumber`|`PhoneNumber`| If available, the telephone number for the local entity.|
 
 
 ## Examples
@@ -101,257 +100,369 @@ The JSON response:
 
 ```json
 {
-  "authenticationResultCode": "ValidCredentials",
-  "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
-  "copyright": "Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
-  "resourceSets": [
-    {
-      "estimatedTotal": 1,
-      "resources": [
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2021 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
         {
-          "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1/LocalSearch",
-          "entities": [
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.0",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/15229/",
-              "address": {
-                "formattedAddress": "102 1st Ave S, Seattle, WA, 98104",
-                "streetAddress": "102 1st Ave S",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Pioneer Square"
-              },
-              "telephone": "(206) 382-2656"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.1",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/16645/",
-              "geocodePoints": {
-                "latitude": 47.603588104248,
-                "longitude": -122.335548400879
-              },
-              "point": {
-                "latitude": 47.6036911010742,
-                "longitude": -122.335311889648
-              },
-              "address": {
-                "formattedAddress": "823 1st Ave, Seattle, WA, 98104",
-                "streetAddress": "823 1st Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 340-9184"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.2",
-              "name": "Elm Coffee Roasters",
-              "url": "http://elmcoffeeroasters.com/",
-              "geocodePoints": {
-                "latitude": 47.6002197265625,
-                "longitude": -122.33130645752
-              },
-              "point": {
-                "latitude": 47.6002197265625,
-                "longitude": -122.331581115723
-              },
-              "address": {
-                "formattedAddress": "240 2nd Ave S Ste 103, Seattle, WA, 98104",
-                "streetAddress": "240 2nd Ave S Ste 103",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 445-7808"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.3",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/11311/",
-              "geocodePoints": {
-                "latitude": 47.6045303344727,
-                "longitude": -122.330612182617
-              },
-              "point": {
-                "latitude": 47.604736328125,
-                "longitude": -122.330101013184
-              },
-              "address": {
-                "formattedAddress": "701 5th Ave, Seattle, WA, 98104",
-                "streetAddress": "701 5th Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 264-0152"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.4",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/16138/",
-              "geocodePoints": {
-                "latitude": 47.599048614502,
-                "longitude": -122.33268737793
-              },
-              "point": {
-                "latitude": 47.5990524291992,
-                "longitude": -122.332885742188
-              },
-              "address": {
-                "formattedAddress": "400 Occidental Ave S, Seattle, WA, 98104",
-                "streetAddress": "400 Occidental Ave S",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 624-2561"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.5",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/11917/",
-              "geocodePoints": {
-                "latitude": 47.6050415039062,
-                "longitude": -122.334266662598
-              },
-              "point": {
-                "latitude": 47.6052856445312,
-                "longitude": -122.333709716797
-              },
-              "address": {
-                "formattedAddress": "999 3rd Ave, Seattle, WA, 98104",
-                "streetAddress": "999 3rd Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 748-0058"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.6",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/89253/",
-              "geocodePoints": {
-                "latitude": 47.6057090759277,
-                "longitude": -122.330268859863
-              },
-              "point": {
-                "latitude": 47.6054878234863,
-                "longitude": -122.330787658691
-              },
-              "address": {
-                "formattedAddress": "800 5th Ave, Seattle, WA, 98104",
-                "streetAddress": "800 5th Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 623-3425"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.7",
-              "name": "Cherry Street Coffee House",
-              "url": "http://www.cherryst.com/locations",
-              "geocodePoints": {
-                "latitude": 47.6025314331055,
-                "longitude": -122.333778381348
-              },
-              "point": {
-                "latitude": 47.6027069091797,
-                "longitude": -122.333953857422
-              },
-              "address": {
-                "formattedAddress": "103 Cherry St, Seattle, WA, 98104",
-                "streetAddress": "103 Cherry St",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 621-9372"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.8",
-              "name": "Slate Coffee Roasters",
-              "url": "http://www.slatecoffee.com/",
-              "geocodePoints": {
-                "latitude": 47.6025581359863,
-                "longitude": -122.332389831543
-              },
-              "point": {
-                "latitude": 47.6024436950684,
-                "longitude": -122.332672119141
-              },
-              "address": {
-                "formattedAddress": "602 2nd Ave, Seattle, WA, 98104",
-                "streetAddress": "602 2nd Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              }
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.9",
-              "name": "Starbucks",
-              "url": "http://www.starbucks.com/store/8749/",
-              "geocodePoints": {
-                "latitude": 47.5963554382324,
-                "longitude": -122.327346801758
-              },
-              "point": {
-                "latitude": 47.6017303466797,
-                "longitude": -122.327651977539
-              },
-              "address": {
-                "formattedAddress": "700 5th Ave, Seattle, WA, 98104",
-                "streetAddress": "700 5th Ave",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98104",
-                "countryRegion": "US",
-                "neighborhood": "Downtown"
-              },
-              "telephone": "(206) 622-5789"
-            }
-          ],
-          "searchAction": {},
-          "total": 10
+            "estimatedTotal": 10,
+            "resources": [
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.603889465332031,
+                            -122.33554077148437
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "823 1st Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "823 1st Ave, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 340-9184",
+                    "Website": "http://www.starbucks.com/store/16645/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.603809356689453,
+                                -122.33565521240234
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.599094390869141,
+                            -122.33290863037109
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "400 Occidental Ave S",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "400 Occidental Ave S, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 624-2561",
+                    "Website": "http://www.starbucks.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.599094390869141,
+                                -122.33263397216797
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.605205535888672,
+                            -122.33363342285156
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "999 3rd Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "999 3rd Ave, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 748-0058",
+                    "Website": "http://www.starbucks.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.605247497558594,
+                                -122.33421325683594
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.605587005615234,
+                            -122.33090972900391
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "800 5th Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "800 5th Ave, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 623-3425",
+                    "Website": "https://www.starbucks.com/store-locator/store/89253/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.605548858642578,
+                                -122.33027648925781
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Elm Coffee Roasters",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.600246429443359,
+                            -122.33158874511719
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "240 2nd Ave S Ste 103",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "240 2nd Ave S Ste 103, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 445-7808",
+                    "Website": "https://elmcoffeeroasters.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.600181579589844,
+                                -122.33110046386719
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.606231689453125,
+                            -122.33615875244141
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "1191 2nd Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "1191 2nd Ave, Seattle, WA, 98101",
+                        "locality": "Seattle",
+                        "postalCode": "98101"
+                    },
+                    "PhoneNumber": "(206) 652-8924",
+                    "Website": "http://www.starbucks.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.606266021728516,
+                                -122.33662414550781
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.604999542236328,
+                            -122.33952331542969
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "1101 Alaskan Way",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "1101 Alaskan Way, Seattle, WA, 98101",
+                        "locality": "Seattle",
+                        "postalCode": "98101"
+                    },
+                    "PhoneNumber": "(206) 554-7060",
+                    "Website": "https://www.starbucks.com/store-locator/store/16417/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.6048583984375,
+                                -122.33982849121094
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Starbucks",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.6070671081543,
+                            -122.335693359375
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "1201 3rd Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "1201 3rd Ave, Seattle, WA, 98101",
+                        "locality": "Seattle",
+                        "postalCode": "98101"
+                    },
+                    "PhoneNumber": "(206) 467-3079",
+                    "Website": "https://www.starbucks.com/store-locator/store/89252/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.6070671081543,
+                                -122.335693359375
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Cherry Street Coffee House",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.602653503417969,
+                            -122.33394622802734
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "103 Cherry St",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "103 Cherry St, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 621-9372",
+                    "Website": "http://www.cherryst.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.602653503417969,
+                                -122.33394622802734
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Slate Coffee Roasters",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.602470397949219,
+                            -122.33266448974609
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "602 2nd Ave",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "602 2nd Ave, Seattle, WA, 98104",
+                        "locality": "Seattle",
+                        "postalCode": "98104"
+                    },
+                    "PhoneNumber": "(206) 235-6565",
+                    "Website": "http://www.slatecoffee.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.602497100830078,
+                                -122.33243560791016
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statusCode": 200,
-  "statusDescription": "OK",
-  "traceId": "9f8b3a0cf3ea4c35adf3a3dd6c1b13bd|CO39C69F01|7.7.0.0"
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "801b6e061d3e4c838ed631c941280692|CO0000112B|0.0.0.0"
 }
 ```
 
@@ -520,121 +631,159 @@ And the JSON response:
 
 ```json
 {
-  "authenticationResultCode": "ValidCredentials",
-  "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
-  "copyright": "Copyright © 2018 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
-  "resourceSets": [
-    {
-      "estimatedTotal": 1,
-      "resources": [
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2021 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
         {
-          "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1/LocalSearch",
-          "entities": [
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.0",
-              "name": "Majestic Bay Theatres",
-              "url": "http://majesticbay.com/",
-              "point": {
-                "latitude": 47.6689414978027,
-                "longitude": -122.384101867676
-              },
-              "point": {
-                "latitude": 47.6686706542969,
-                "longitude": -122.384101867676
-              },
-              "address": {
-                "formattedAddress": "2044 NW Market St, Seattle, WA, 98107",
-                "streetAddress": "2044 NW Market St",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98107",
-                "countryRegion": "US",
-                "neighborhood": "Ballard"
-              },
-              "telephone": "(206) 781-2229"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.1",
-              "name": "Kimchi House",
-              "url": "http://kimchihouseseattle.com/",
-              "point": {
-                "latitude": 47.6714096069336,
-                "longitude": -122.387870788574
-              },
-              "point": {
-                "latitude": 47.6714096069336,
-                "longitude": -122.387580871582
-              },
-              "address": {
-                "formattedAddress": "5809 24th Ave NW, Seattle, WA, 98107",
-                "streetAddress": "5809 24th Ave NW",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98107",
-                "countryRegion": "US",
-                "neighborhood": "Ballard"
-              },
-              "telephone": "(206) 784-5322"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.2",
-              "name": "Ghost Light Theatricals",
-              "url": "http://ghostlighttheatricals.org/",
-              "point": {
-                "latitude": 47.6690902709961,
-                "longitude": -122.385787963867
-              },
-              "point": {
-                "latitude": 47.6686706542969,
-                "longitude": -122.385787963867
-              },
-              "address": {
-                "formattedAddress": "2220 NW Market St Ste 1, Seattle, WA, 98107",
-                "streetAddress": "2220 NW Market St Ste 1",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98107",
-                "countryRegion": "US",
-                "neighborhood": "Ballard"
-              },
-              "telephone": "(206) 395-5458"
-            },
-            {
-              "type": "LocalBusiness",
-              "id": "https://www.bingapis.com/api/v7/#Places.3",
-              "name": "Careys Cinema and More",
-              "point": {
-                "latitude": 47.6679191589355,
-                "longitude": -122.385711669922
-              },
-              "point": {
-                "latitude": 47.668083190918,
-                "longitude": -122.385475158691
-              },
-              "address": {
-                "formattedAddress": "5425 Ballard Ave NW, Seattle, WA, 98107",
-                "streetAddress": "5425 Ballard Ave NW",
-                "locality": "Seattle",
-                "adminDistrict": "WA",
-                "postalCode": "98107",
-                "countryRegion": "US",
-                "neighborhood": "Ballard"
-              },
-              "telephone": "(206) 353-8222"
-            }
-          ],
-          "searchAction": {},
-          "total": 4
+            "estimatedTotal": 4,
+            "resources": [
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Majestic Bay Theatres",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.668788909912109,
+                            -122.38408660888672
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "2044 NW Market St",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "2044 NW Market St, Seattle, WA, 98107",
+                        "locality": "Seattle",
+                        "postalCode": "98107"
+                    },
+                    "PhoneNumber": "(206) 781-2229",
+                    "Website": "https://majesticbay.com/",
+                    "entityType": "LocalBusiness",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.668788909912109,
+                                -122.38408660888672
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Kimchi House",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.671367645263672,
+                            -122.38759613037109
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "5809 24th Ave NW",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "5809 24th Ave NW, Seattle, WA, 98107",
+                        "locality": "Seattle",
+                        "postalCode": "98107"
+                    },
+                    "PhoneNumber": "(206) 784-5322",
+                    "Website": "http://kimchihouseseattle.com/",
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.671379089355469,
+                                -122.38784790039062
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Ann’s Teriyaki",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.668701171875,
+                            -122.38677215576172
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "2246 NW Market St",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "2246 NW Market St, Seattle, WA, 98107",
+                        "locality": "Seattle",
+                        "postalCode": "98107"
+                    },
+                    "PhoneNumber": "(206) 789-5838",
+                    "Website": null,
+                    "entityType": "Restaurant",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.668891906738281,
+                                -122.38676452636719
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type": "SearchResult:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "name": "Careys Cinema and More",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            47.668243408203125,
+                            -122.38571929931641
+                        ]
+                    },
+                    "Address": {
+                        "addressLine": "5425 Ballard Ave NW",
+                        "adminDistrict": "WA",
+                        "countryRegion": "US",
+                        "formattedAddress": "5425 Ballard Ave NW, Seattle, WA, 98107",
+                        "locality": "Seattle",
+                        "postalCode": "98107"
+                    },
+                    "PhoneNumber": "(206) 353-8222",
+                    "Website": null,
+                    "entityType": "LocalBusiness",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                47.668281555175781,
+                                -122.38566589355469
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statusCode": 200,
-  "statusDescription": "OK",
-  "traceId": "f7d297ceebba48459010e6203418875a|CO389F482F|7.7.0.0"
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "aac0c5ac12214da99286da79724c34ec|CO0000112C|0.0.0.0"
 }
 ```
 
