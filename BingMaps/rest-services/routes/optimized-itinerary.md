@@ -89,9 +89,21 @@ Here is a template POST body, in JSON format, which should be used for both sync
                     "endLocation": {
                         "latitude": ...,
                         "longitude": ...
-                    }
+                    },
+                    "breaks": [
+                        {
+                            "startTime": "...",
+                            "endTime": "...",
+                            "duration": "..."
+                        }
+                    ]
                 }
             ], 
+            "price": {
+                "fixedPrice": ...,
+                "pricePerKM": ...,
+                "pricePerHour": ...
+            },
             "capacity": [...]
         }
     ],
@@ -159,11 +171,11 @@ Here is the list of parameters.
 
 |Parameter|Alias|Description|Values|
 |:-------:|:---:|-----------|------|
-|`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information: including the agent name, shift starting and ending locations for agent, and capacity of the agent's vehicle. | A semi-colon separated string of Agent/Shift information for GET requests, and JSON or XML list for POST body. <br /> <br /> Agent shift starting and ending locations can be expressed using latitudes & longitudes or addresses. For POST requests, express latitude & longitude as "StartLocation" and "EndLocation" and express address as "StartAddress" and "EndAddress".<br /> <br /> **Note:**  <br/><br/> •  `capacity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the vehicle capacity in terms of volume, weight, pallet or case count, or passenger count, etc. <br /><br /> See below for examples.|
-|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents, including the location name, location (lat/lon), priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered to or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. | A semi-colon separated list of Itinerary Items for GET requests, and JSON or XML list for POST body. <br /><br />Itinerary locations can be expressed using latitudes & longitudes or addresses. For POST requests, express latitude & longitude as "Location" and express address as "Address".<br/><br/> **Note**: <br/><br/> • `priority` takes an integer value from `1` to `100`. Use larger values for `priority` to indicate higher priority itinerary items. <br/><br/> •  `quantity` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) defined by numeric values that represent the load quantity in terms of volume, weight, pallets or case count, or passenger count, etc., that the vehicle delivers to or picks up from each location. A positive value denotes pick up, while a negative value denotes drop off. <br /><br /> •  `depot` is an **optional** parameter, either `true` or `false`, to signify if a location (e.g., a warehouse) can be visited more than once for picking up loads. <br /><br /> Default: false <br /><br /> •  `dropOffFrom` is an **optional** parameter (for HTTP POST requests only due to API URL character length limit) that defines the location(s) that the agent needs to visit before visting the current location. <br /><br />  See below for examples.|
+|`itineraryAgents`|`itinAgt` | **Required**. List of agent itinerary information: including the agent name, shift starting and ending locations for agent, and capacity of the agent's vehicle. | A semi-colon separated string of Agent/Shift information for GET requests, and JSON or XML list for POST body. <br /> <br /> Agent shift starting and ending locations can be expressed using latitudes & longitudes or addresses. For POST requests, express latitude & longitude as "StartLocation" and "EndLocation" and express address as "StartAddress" and "EndAddress".<br /><br /> **Notes:** <br/><br/> The bellow optional parameters are available only for HTTP POST requests due to API URL character length limit<br /><br /> •  `breaks` is an **optional** shift parameter allowing you to defined a break window during the shift without specifying a location for it, the break will be inserted in the agents itinerary alongside scheduled items. For example a lunch break of 30 min at noon between 12:00 and 14:00. <br /><br /> •  `price` is an **optional** parameter allowing you to define a combination of fixed and variable prices for each agent to be used as the optimization objective when the `costvalue` parameter is set to `price`. For example the `fixedPrice` can be used to denote the one time cost of using a vehicle and `pricePerKm` or `pricePerHour` can be used to model the cost of how expensive that vehicle is to use. <br /><br /> •  `capacity` is an **optional** parameter defined by numeric values that represent the vehicle capacity in terms of volume, weight, pallet or case count, or passenger count, etc. <br /><br /> See below for examples.|
+|`itineraryItems`|`itinItm` | **Required**. List of itinerary items to be scheduled among the specified agents, including the location name, location (lat/lon), priority, dwell time, business closing and opening times for each item to be scheduled, quantity to be delivered to or picked up from each location, and pickup/drop off sequence dependency with other itineraryItems. | A semi-colon separated list of Itinerary Items for GET requests, and JSON or XML list for POST body. <br /><br />Itinerary locations can be expressed using latitudes & longitudes or addresses. For POST requests, express latitude & longitude as "Location" and express address as "Address".<br/><br/> **Notes**: <br/><br/> • `priority` takes an integer value from `1` to `100`. Use larger values for `priority` to indicate higher priority itinerary items. <br/><br/> The bellow optional parameters are available only for HTTP POST requests due to API URL character length limit<br /><br /> •  `quantity` is an **optional** parameter defined by numeric values that represent the load quantity in terms of volume, weight, pallets or case count, or passenger count, etc., that the vehicle delivers to or picks up from each location. A positive value denotes pick up, while a negative value denotes drop off. <br /><br /> •  `depot` is an **optional** parameter, either `true` or `false`, to signify if a location (e.g., a warehouse) can be visited more than once for picking up loads. <br /><br /> Default: false <br /><br /> •  `dropOffFrom` is an **optional** parameter that defines the location(s) that the agent needs to visit before visting the current location. <br /><br />  See below for examples.|
 |`type`| | **Optional**. Specifies whether traffic data should used to optimize the order of waypoint items. | A string with the following values:<br /><br />- `SimpleRequest` [**Default**]: No traffic data is used.<br /><br />- `TrafficRequest`: Traffic data is used.<br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value.|
 |`roadnetwork`|`rn` | **Optional**. If `true`, uses actual road network information, and both travel distances and travel times between the itinerary locations to calculate optimizations. If `false`, a constant radius is used to measure distances and a constant travel speed is used to calculate travel times between locations. | One of the following values: <br> Either `true` or `false`. <br /><br />Default: true <br /><br />Note:  If the ‘type’ parameter is set to ‘TrafficRequest’, it will automatically use ‘true’ as the ‘roadnetwork’ parameter value. |
-|`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled <br /><br />Default: TravelTime|
+|`costvalue`|`cv` | **Optional**. A parameter used to optimize itineraries _in addition_ to maximizing the sum of item priorities. | A string, with one of the following values:<br /><br />- `TravelTime`: Optimize according to travel time<br />- `Distance`: Optimize according to distance traveled <br />- `Price`: Optimize according to the agents price definition used to build the service response, the secondary objective, along side maximizing the sum of priorities will be to minimize the overall solution price.<br /><br />Default: TravelTime|
 
 ## API Limits
 
@@ -221,7 +233,7 @@ Using the above example, the HTTP GET request URL is as follows:
 http://dev.virtualearth.net/REST/V1/Routes/OptimizeItinerary?itineraryAgents=%20agentName_2018-12-24T08:00:00|47.694117204371,-122.378188970181|2018-12-24T11:00:00|47.7070790545669,-122.355226696231_2018-12-24T13:00:00|47.694117204371,-122.378188970181|2018-12-24T19:00:00|47.7070790545669,-122.355226696231&itineraryItems=2018-12-24T09:00:00_2018-12-24T18:00:00_01:31:08.3850000_47.692290770423,-122.385954752402_5;2018-12-24T09:00:00_2018-12-24T18:00:00_01:00:32.6770000_47.6798098928389,-122.383036445391_88;2018-12-24T09:00:00_2018-12-24T18:00:00_01:18:33.1900000_47.6846639223203,-122.364839942855_1;2018-12-24T09:00:00_2018-12-24T18:00:00_01:04:48.7630000_47.6867440824094,-122.354711700877_3;2018-12-24T09:00:00_2018-12-24T18:00:00_02:34:48.5430000_47.6962193175262,-122.342180147243_16&key={BingMapsAPIKey}
 ```
 
-The Synchronous JSON response is below:
+The Synchronous GET JSON response is below:
 
 ```json
 {
@@ -491,7 +503,7 @@ The Synchronous JSON response is below:
 }
 ```
 
-And here is the same response, but formatted in XML: 
+And here is the same response, but formatted in XML:
 
 ```xml
 <Response>
@@ -762,7 +774,7 @@ And here is the same response, but formatted in XML:
 
 ### Synchronous POST Optimize Itinerary Example
 
-To send a synchronous POST request, set the POST head `Content-Type: application/json`, and add the above agent and waypoint item information to the body of the POST request:
+To send a synchronous POST request, set the POST head `Content-Type: application/json`. In the bellow example we added additional optional sample parameters to the above agent agent and waypoint information to construct the body of the POST request:
 
 ```json
 {
@@ -780,9 +792,24 @@ To send a synchronous POST request, set the POST head `Content-Type: application
                     "endLocation": {
                         "latitude": 47.7070790545669,
                         "longitude": -122.355226696231
-                    }
+                    },
+                    "breaks": [{
+                            "startTime": "2019-11-09T12:00:00",
+                            "endTime": "2019-11-09T14:00:00",
+                            "duration": "00:30:00"
+                        },
+                        {
+                            "startTime": "2019-11-09T16:00:00",
+                            "endTime":"2019-11-09T16:30:00"    
+                        }
+                    ]
                 }
             ],
+            "price": {
+                "fixedPrice": 100.0,
+                "pricePerKM": 1.0,
+                "pricePerHour": 5.0
+            },
             "capacity": [16]
         }
     ],
@@ -791,7 +818,7 @@ To send a synchronous POST request, set the POST head `Content-Type: application
             "name": "loc1",
             "openingTime": "2019-11-09T09:00:00",
             "closingTime": "2019-11-09T18:00:00",
-            "dwellTime": "01:31:08.3850000",
+            "dwellTime": "00:31:08.3850000",
             "priority": 5,
             "quantity" : [4],             
             "location": {
@@ -815,7 +842,7 @@ To send a synchronous POST request, set the POST head `Content-Type: application
             "name": "loc3",
             "openingTime": "2019-11-09T09:00:00",
             "closingTime": "2019-11-09T18:00:00",
-            "dwellTime": "01:18:33.1900000",
+            "dwellTime": "00:18:33.1900000",
             "priority": 1,
             "quantity" :[-1],
             "location": {
@@ -830,7 +857,7 @@ To send a synchronous POST request, set the POST head `Content-Type: application
             "name": "loc4",
             "openingTime": "2019-11-09T09:00:00",
             "closingTime": "2019-11-09T18:00:00",
-            "dwellTime": "01:04:48.7630000",
+            "dwellTime": "00:24:48.7630000",
             "priority": 3,
             "quantity" :[-3],
             "location": {
@@ -845,7 +872,7 @@ To send a synchronous POST request, set the POST head `Content-Type: application
             "name": "loc5",
             "openingTime": "2019-11-09T09:00:00",
             "closingTime": "2019-11-09T18:00:00",
-            "dwellTime": "02:34:48.5430000",
+            "dwellTime": "01:34:48.5430000",
             "priority": 16,
             "quantity" :[-3],
             "location": {
@@ -860,9 +887,348 @@ To send a synchronous POST request, set the POST head `Content-Type: application
 }
 ```
 
-The response is the same as the GET request above.
+The Synchronous POST JSON response is below:
 
-### Asynchronous GET Optimize Itinerary Example 
+```json
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2021 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
+        {
+            "estimatedTotal": 1,
+            "resources": [
+                {
+                    "__type": "OptimizeItinerary:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "agentItineraries": [
+                        {
+                            "agent": {
+                                "capacity": [
+                                    16
+                                ],
+                                "name": "agentName",
+                                "price": {
+                                    "fixedPrice": 100,
+                                    "pricePerHour": 5,
+                                    "pricePerKM": 1
+                                },
+                                "shifts": [
+                                    {
+                                        "breaks": [
+                                            {
+                                                "duration": "00:30:00",
+                                                "endTime": "2019-11-09T14:00:00+00:00",
+                                                "startTime": "2019-11-09T12:00:00+00:00"
+                                            },
+                                            {
+                                                "duration": "00:30:00",
+                                                "endTime": "2019-11-09T16:30:00+00:00",
+                                                "startTime": "2019-11-09T16:00:00+00:00"
+                                            }
+                                        ],
+                                        "endLocation": {
+                                            "latitude": 47.7070790545669,
+                                            "longitude": -122.355226696231
+                                        },
+                                        "endTime": "2019-11-09T18:00:00+00:00",
+                                        "startLocation": {
+                                            "latitude": 47.694117204371,
+                                            "longitude": -122.378188970181
+                                        },
+                                        "startTime": "2019-11-09T08:00:00+00:00"
+                                    }
+                                ]
+                            },
+                            "instructions": [
+                                {
+                                    "duration": "00:00:00",
+                                    "endTime": "2019-11-09T08:00:00+00:00",
+                                    "instructionType": "LeaveFromStartPoint",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "00:00:00",
+                                        "location": {
+                                            "latitude": 47.694117204371,
+                                            "longitude": -122.378188970181
+                                        },
+                                        "name": "",
+                                        "openingTime": "2019-11-09T08:00:00+00:00",
+                                        "priority": 1,
+                                        "quantity": []
+                                    },
+                                    "startTime": "2019-11-09T08:00:00+00:00"
+                                },
+                                {
+                                    "distance": 1306,
+                                    "duration": "00:03:23",
+                                    "endTime": "2019-11-09T08:03:23+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T08:00:00+00:00"
+                                },
+                                {
+                                    "duration": "00:31:08",
+                                    "endTime": "2019-11-09T09:31:08+00:00",
+                                    "instructionType": "VisitLocation",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "00:31:08",
+                                        "location": {
+                                            "latitude": 47.692290770423,
+                                            "longitude": -122.385954752402
+                                        },
+                                        "name": "loc1",
+                                        "openingTime": "2019-11-09T09:00:00+00:00",
+                                        "priority": 5,
+                                        "quantity": [
+                                            4
+                                        ]
+                                    },
+                                    "startTime": "2019-11-09T09:00:00+00:00"
+                                },
+                                {
+                                    "distance": 1687,
+                                    "duration": "00:04:56",
+                                    "endTime": "2019-11-09T09:36:04+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T09:31:08+00:00"
+                                },
+                                {
+                                    "duration": "01:00:32",
+                                    "endTime": "2019-11-09T10:36:36+00:00",
+                                    "instructionType": "VisitLocation",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "01:00:32",
+                                        "location": {
+                                            "latitude": 47.6798098928389,
+                                            "longitude": -122.383036445391
+                                        },
+                                        "name": "loc2",
+                                        "openingTime": "2019-11-09T09:00:00+00:00",
+                                        "priority": 88,
+                                        "quantity": [
+                                            3
+                                        ]
+                                    },
+                                    "startTime": "2019-11-09T09:36:04+00:00"
+                                },
+                                {
+                                    "distance": 1915,
+                                    "duration": "00:06:10",
+                                    "endTime": "2019-11-09T10:42:46+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T10:36:36+00:00"
+                                },
+                                {
+                                    "duration": "00:18:33",
+                                    "endTime": "2019-11-09T11:01:19+00:00",
+                                    "instructionType": "VisitLocation",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [
+                                            "loc1"
+                                        ],
+                                        "dwellTime": "00:18:33",
+                                        "location": {
+                                            "latitude": 47.6846639223203,
+                                            "longitude": -122.364839942855
+                                        },
+                                        "name": "loc3",
+                                        "openingTime": "2019-11-09T09:00:00+00:00",
+                                        "priority": 1,
+                                        "quantity": [
+                                            -1
+                                        ]
+                                    },
+                                    "startTime": "2019-11-09T10:42:46+00:00"
+                                },
+                                {
+                                    "distance": 1173,
+                                    "duration": "00:02:42",
+                                    "endTime": "2019-11-09T11:04:01+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T11:01:19+00:00"
+                                },
+                                {
+                                    "duration": "00:24:48",
+                                    "endTime": "2019-11-09T11:28:49+00:00",
+                                    "instructionType": "VisitLocation",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [
+                                            "loc1"
+                                        ],
+                                        "dwellTime": "00:24:48",
+                                        "location": {
+                                            "latitude": 47.6867440824094,
+                                            "longitude": -122.354711700877
+                                        },
+                                        "name": "loc4",
+                                        "openingTime": "2019-11-09T09:00:00+00:00",
+                                        "priority": 3,
+                                        "quantity": [
+                                            -3
+                                        ]
+                                    },
+                                    "startTime": "2019-11-09T11:04:01+00:00"
+                                },
+                                {
+                                    "distance": 2040,
+                                    "duration": "00:05:24",
+                                    "endTime": "2019-11-09T11:34:13+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T11:28:49+00:00"
+                                },
+                                {
+                                    "duration": "01:34:48",
+                                    "endTime": "2019-11-09T13:09:01+00:00",
+                                    "instructionType": "VisitLocation",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [
+                                            "loc2"
+                                        ],
+                                        "dwellTime": "01:34:48",
+                                        "location": {
+                                            "latitude": 47.6962193175262,
+                                            "longitude": -122.342180147243
+                                        },
+                                        "name": "loc5",
+                                        "openingTime": "2019-11-09T09:00:00+00:00",
+                                        "priority": 16,
+                                        "quantity": [
+                                            -3
+                                        ]
+                                    },
+                                    "startTime": "2019-11-09T11:34:13+00:00"
+                                },
+                                {
+                                    "duration": "00:00:00",
+                                    "endTime": "2019-11-09T13:09:01+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T13:09:01+00:00"
+                                },
+                                {
+                                    "duration": "00:30:00",
+                                    "endTime": "2019-11-09T13:39:01+00:00",
+                                    "instructionType": "TakeABreak",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T14:00:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "00:30:00",
+                                        "location": {},
+                                        "name": "Break",
+                                        "openingTime": "2019-11-09T12:00:00+00:00",
+                                        "priority": 1,
+                                        "quantity": []
+                                    },
+                                    "startTime": "2019-11-09T13:09:01+00:00"
+                                },
+                                {
+                                    "duration": "00:00:00",
+                                    "endTime": "2019-11-09T13:39:01+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T13:39:01+00:00"
+                                },
+                                {
+                                    "duration": "00:30:00",
+                                    "endTime": "2019-11-09T16:30:00+00:00",
+                                    "instructionType": "TakeABreak",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T16:30:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "00:30:00",
+                                        "location": {},
+                                        "name": "Break",
+                                        "openingTime": "2019-11-09T16:00:00+00:00",
+                                        "priority": 1,
+                                        "quantity": []
+                                    },
+                                    "startTime": "2019-11-09T16:00:00+00:00"
+                                },
+                                {
+                                    "distance": 2192,
+                                    "duration": "00:06:27",
+                                    "endTime": "2019-11-09T16:36:27+00:00",
+                                    "instructionType": "TravelBetweenLocations",
+                                    "startTime": "2019-11-09T16:30:00+00:00"
+                                },
+                                {
+                                    "duration": "00:00:00",
+                                    "endTime": "2019-11-09T16:36:27+00:00",
+                                    "instructionType": "ArriveToEndPoint",
+                                    "itineraryItem": {
+                                        "closingTime": "2019-11-09T18:00:00+00:00",
+                                        "dropOffFrom": [],
+                                        "dwellTime": "00:00:00",
+                                        "location": {
+                                            "latitude": 47.7070790545669,
+                                            "longitude": -122.355226696231
+                                        },
+                                        "name": "",
+                                        "openingTime": "2019-11-09T08:00:00+00:00",
+                                        "priority": 1,
+                                        "quantity": []
+                                    },
+                                    "startTime": "2019-11-09T16:36:27+00:00"
+                                }
+                            ],
+                            "route": {
+                                "endLocation": {
+                                    "latitude": 47.7070790545669,
+                                    "longitude": -122.355226696231
+                                },
+                                "endTime": "2019-11-09T16:36:27+00:00",
+                                "startLocation": {
+                                    "latitude": 47.694117204371,
+                                    "longitude": -122.378188970181
+                                },
+                                "startTime": "2019-11-09T08:00:00+00:00",
+                                "totalTravelDistance": 10313,
+                                "totalTravelTime": "00:29:02",
+                                "wayPoints": [
+                                    {
+                                        "latitude": 47.692290770423,
+                                        "longitude": -122.385954752402
+                                    },
+                                    {
+                                        "latitude": 47.6798098928389,
+                                        "longitude": -122.383036445391
+                                    },
+                                    {
+                                        "latitude": 47.6846639223203,
+                                        "longitude": -122.364839942855
+                                    },
+                                    {
+                                        "latitude": 47.6867440824094,
+                                        "longitude": -122.354711700877
+                                    },
+                                    {
+                                        "latitude": 47.6962193175262,
+                                        "longitude": -122.342180147243
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "isAccepted": true,
+                    "isCompleted": true,
+                    "unscheduledItems": [],
+                    "unusedAgents": []
+                }
+            ]
+        }
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "346b4b21c8f946b6ae98890006b837d7|DU00000D72|0.0.0.0|DU00001FA3"
+}
+```
+
+### Asynchronous GET Optimize Itinerary Example
 
 Using the same information as above, an asynchronous request can be made with the follow URL:
 
