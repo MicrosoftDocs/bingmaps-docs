@@ -48,6 +48,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Brussels|[NMBS/SNCB](https://www.belgianrail.be/) 
 |Brussels|[STIB](https://www.stib-mivb.be) 
 
+## Croatia
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Zagreb|[Zagrebački Električni Tramvaj](http://www.zet.hr) 
+
 ## Czechia
 |Locality|Transit Agency|
 |:--------------------|--------------|
@@ -488,6 +493,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ardennes Metropole|[TAC](http://https://www.fluo.eu) 
 |Ardèche|[autocars-chabannes](http://autocars-chabannes.fr/) 
 |Arlysere|[Les Saisies](http://https://www.lessaisies.com) 
+|Aube|[Fluo 10](http://https://www.fluo.eu) 
 |Aubenas|[TOUTENBUS](http://www.toutenbus.fr) 
 |Auxerre|[LEO](http://https://leo.agglo-auxerrois.fr)
 |Aveyron|[liO  Occitanie](http://https://www.lio.laregion.fr/) 
@@ -874,7 +880,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Göppingen|[Merkle GmbH](http://https://www.filsland.de/) 
 |Göppingen|[OVG](http://https://www.filsland.de/) 
 |Göppingen|[OVS](http://https://www.filsland.de/) 
-|Göppingen|[Sihler GmbH](http://https://www.filsland.de/) 
+|Göppingen|[Sihler GmbH](http://https://www.filsland.de/)
+|Gorlitz|[VVO](http://https://www.vvo-online.de)  
 |Greifswald|[Verkehrsbetrieb Greifswald](https://www.delfi.de)
 |Groß Gerau|[Autobus Sippel](https://www.delfi.de)
 |Grünberg|[Stadt Grünberg](https://www.delfi.de)
@@ -954,6 +961,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Leupoldsgrün|[Gemeinde Leupoldsgrün](http://https://www.leupoldsgruen.de/rathaus/buergerbus.html) 
 |Limburg a. d. Lahn|[Stadtverkehr Limburg](https://www.delfi.de)
 |Ludwigslust-Parchim|[Verkehrsgesellschaft Ludwigslust-Parchim](https://www.delfi.de)
+|Magdeburg|[Abellio Rail Mitteldeutschland GmbH](http://https://www.nasa.de/vu/) 
+|Magdeburg|[BördeBus Verkehrsgesellschaft mbH](http://https://www.nasa.de/vu/) 
+|Magdeburg|[Magdeburger Verkehrsbetriebe](http://https://www.nasa.de/vu/) 
+|Magdeburg|[Nahverkehrsgesellschaft Jerichower Land](http://https://www.nasa.de/vu/) 
+|Magdeburg|[PVGS Altmarkkreis Salzwedel](http://https://www.nasa.de/vu/) 
 |Main-Kinzig|[ARGE HRS Omnibus OHG](https://www.delfi.de)
 |Main-Kinzig|[Kreisverkehrsgesellschaft Main-Kinzig mbH](https://www.delfi.de)
 |Marburg|[Stadtwerke Marburg GmbH](https://www.delfi.de)
@@ -1201,6 +1213,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[Hessische Landesbahn](http://https://www.bahn.de) 
 |Regional|[HLB Bus GmbH](https://www.delfi.de)
 |Regional|[HLB Hessenbus Hofheim](https://www.delfi.de)
+|Regional|[hnv](http://https://www.h3nv.de/) 
 |Regional|[Hohenzollerische Landesbahn AG](http://https://www.bahn.de) 
 |Regional|[Ilztalbahn](http://https://www.bahn.de) 
 |Regional|[Ilztalbahn GmbH](http://www.ilztalbahn.eu) 
@@ -1368,6 +1381,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[Schwabenbus Dillingen](https://www.delfi.de)
 |Regional|[Schwarzer](https://www.delfi.de)
 |Regional|[Schweighart](https://www.delfi.de)
+|Regional|[Sonstige](http://https://www.h3nv.de/)
 |Regional|[Sonstige](http://https://www.bahn.de) 
 |Regional|[StWB Stadtwerke Brühl](https://www.stadtbus-bruehl.de/) 
 |Regional|[Stadtbus Bruchsal](https://www.kvv.de) 
@@ -2150,7 +2164,9 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Portugal
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Braga|[Transportes Urbanos de Braga](http://www.tub.pt) 
+|Braga|[Transportes Urbanos de Braga](http://www.tub.pt)
+|Cascais|[Cascais Próxima E.M. S.A.](http://www.mobicascais.pt/) 
+|Cascais|[Scotturb](http://https://www.scotturb.com)  
 |Funchal|[HF - Interurbano](http://www.horariosdofunchal.pt/index.php?option=com_payshop&task=payshop&inter=1&Itemid=386) 
 |Funchal|[HF - Urbano](http://www.horariosdofunchal.pt/)
 |Lisboa|[Carris](https://www.carris.pt) 
@@ -2160,7 +2176,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[CP](https://www.cp.pt/) 
 |Regional|[Fertagus](https://www.fertagus.pt/) 
 |Regional|[Metro de Lisboa](https://www.metrolisboa.pt/) 
-|Regional|[Rodoviária de Lisboa](https://www.rodoviariadelisboa.pt/) 
+|Regional|[Rodoviária de Lisboa](https://www.rodoviariadelisboa.pt/)
+|Regional|[SulFertagus](http://https://www.fertagus.pt/)  
 |Regional|[TST](https://www.tsuldotejo.pt/) 
 
 ## Serbia
@@ -2420,7 +2437,9 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Bizkaia|[El Transbordador de Vizcaya S.L](https://www.puente-colgante.com/) 
 |Caceres|[CACERES](https://caceres.subus.es) 
 |Canary Islands|[Fred. Olsen Express](https://www.fredolsen.es/) 
-|Cantabria|[S.M.T.U. SANTANDER (TUS)](https://www.tusantander.es) 
+|Cantabria|[S.M.T.U. SANTANDER (TUS)](https://www.tusantander.es)
+|Castellón|[TUCS](http://www.tucs.es) 
+|Castellón|[Vía Reservada, SA](http://https://www.tramcastellon.com/)  
 |Catalunya|[Empresa Sagales S.A.](https://www.sagales.com) 
 |Catalunya|[Empresa Sagales S.A. (Transgran)](https://www.transgran.cat/) 
 |Cataluña|[FGC](https://www.fgc.cat) 
@@ -2478,7 +2497,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Olot|[Transports Públics d'Olot](http://www.teisa-bus.com/ca/tpo) 
 |Palma de Mallorca|[Empresa Municipal de Transports Urbans de Palma de Mallorca](https://www.emtpalma.cat) 
 |Pamplona|[Mancomunidad de la Comarca de Pamplona](https://www.mcp.es) 
-|Pamplona|[Transports Ciutat Comtal](https://www.infotuc.es) 
+|Pamplona|[Transports Ciutat Comtal](https://www.infotuc.es)
+|Paterna|[Transport Municipal de Paterna](http://www.tmpaterna.com/)  
 |Peoria|[CityLink](http://www.ridecitylink.org/) 
 |Regional|[ALSA](https://www.alsa.es) 
 |Regional|[AUTOCARES SAMAR - Grupo SAMAR](https://www.samar.es) 
@@ -2494,6 +2514,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Reus|[REUS TRANSPORT](https://www.reustransport.cat) 
 |Sabadell|[TUS](https://www.tus.es) 
 |Salamanca|[Salamanca de Transportes S.A](https://salamancadetransportes.com/) 
+|Sant Vicenç dels Horts|[Santvibus](http://santvibus.com/) 
 |Segovia|[Urbano de Segovia](http://segovia.avanzagrupo.com/)
 |Sevilla|[Metro de Sevilla](https://www.metro-sevilla.es/) 
 |Sevilla|[Transportes Urbanos de Sevilla S.A.M.](https://www.tussam.es) 
@@ -2505,7 +2526,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Toledo|[UNAUTO S.L](https://unauto.es/) 
 |Valdemoro|[AISA](http://https://www.aisa-grupo.com/) 
 |Valencia|[AVSA](http://www.avsa.es) 
-|Valencia|[EMT Valencia](https://www.emtvalencia.es) 
+|Valencia|[EMT Valencia](https://www.emtvalencia.es)
+|Valencia|[LA MARINA GANDIENSE S.L.](http://www.lamarinagandiense.com)  
 |Valencia|[Metro Valencia](https://www.metrovalencia.es) 
 |Valencia|[MetroBus](http://www.tarjetamobilis.es/) 
 |Valladolid|[AUVASA](https://www.auvasa.es) 
