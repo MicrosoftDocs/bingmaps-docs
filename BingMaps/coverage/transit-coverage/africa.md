@@ -22,6 +22,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Nairobi|[Approved SACCOs - University of Nairobi C4D Lab reporting/sharing](https://www.digitalmatatus.com) 
 
+## Mali
+|Locality|Transit Agency|
+|:--------------------|--------------|
+|Bamako|[Sotrama Bamako](http://https://billetexpress.ml) 
+
 ## South Africa
 |Locality|Transit Agency|
 |:--------------------|--------------|

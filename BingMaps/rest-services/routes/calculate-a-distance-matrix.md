@@ -29,25 +29,29 @@ For Calculate a Distance Matrix geographic availability, see the travelMode para
 Requests to the distance matrix API can be done in one of two ways:
 
 * Most requests can be made with a simple synchronous GET or POST request.
-* (**PREVIEW**) More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
 
-A distance matrix can be requested that has up to 2500 origins-destinations pairs which is calculated by multiplying the number of origins, by the number of destinations. For example, you can have 1 origin, and 2500 destinations, or 50 origins and 50 destinations.
+For travel mode driving a distance matrix that has up to 2500 origins-destinations pairs can be requested for Basic Bing Maps accounts, while for Enterprise Bing Maps accounts the origin-destination pairs limit is 10000.
+For travel mode transit and walking a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
+Pairs are calculated by multiplying the number of origins, by the number of destinations. For example 10000 origin-destination pairs can be reached if you have: 1 origin, and 10000 destinations, or 100 origins and 100 destinations defined in your request.
 
-A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 100 origins-destinations pairs when the request is made asynchronously, and 10 origins-destinations pairs when made synchronously. The maximum time interval between the start and end time when calculating a distance matrix histogram is 24 hours.
+* More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
+
+A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 2500 origins-destinations pairs for Basic Bing Maps accounts, for Enterprise Bing Maps accounts the limit is 40000 origins-destinations pairs when the request is made asynchronously.
+The maximum time interval between the start and end time when calculating a distance matrix histogram is 7 days.
 
 ### When to use synchronous vs asynchronous requests
 
 Make synchronous request if the travel mode is driving, walking or transit and:
 
-* The total number of origins-destinations pairs is less than or equal to 2500 and no start time is specified.
+* The total number of origins-destinations pairs is less than or equal to 2500 for Basic or 10000 for Enterprise Bing Maps accounts and no start time is specified when travel mode is driving or less than or equal to 650 for all Bing Maps accounts when travel mode is walking or transit.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**or**
 
-* The travel mode is for driving, the number of origins-destinations pairs is less than or equal to 10 and a start time is specified, but not an end time. This will simply return a single cell for each origin-destination pair that is calculated using predictive traffic data.
+* The travel mode is for driving, the number of origins-destinations pairs is less than or equal to 2500 for Basic or 10000 for Enterprise Bing Maps accounts and a start time is specified, but not an end time. This will simply return a single cell for each origin-destination pair that is calculated using predictive traffic data.
 
-Make an Asynchronous request if the travel mode is for driving, a start time is specified and:
+Make an Asynchronous request if the travel mode is driving and:
 
-* The number of origins-destinations pairs is less than or equal to 100, a start time and an end time is specified.
+* A start time and an end time is specified and the total number of origins-destinations pairs is less than or equal to 2500 for Basic or 40000 for Enterprise Bing Maps accounts and no start time is specified.
 
 If your scenario doesn’t fit either of the parameters outlined above for synchronous and asynchronous requests, you will need to break your request up into smaller chunks. Note that transactions are based on the total number of cells in the resulting matrix and not on the number of requests, so the same number of transactions would be generated if you make two requests that generate 100 cells each or 1 request that generates 200 cells.
 
