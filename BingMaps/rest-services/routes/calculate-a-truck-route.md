@@ -64,7 +64,7 @@ There are a lot of options available for truck routes. As such, some requests co
 **Synchronous Truck Routing Request URL (GET)**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
 **Synchronous Truck Routing Request URL (POST)**
@@ -113,8 +113,6 @@ Content-Type: application/json
         "vehicleSemi": bool,
         "vehicleMaxGradient": number,
         "vehicleMinTurnRadius": number,
-        "vehicleAvoidCrossWind": bool,
-        "vehicleAvoidGroundingRisk": bool,
         "vehicleHazardousMaterials": string,
         "vehicleHazardousPermits": string
     }
@@ -128,7 +126,7 @@ Content-Type: application/json
 **Asynchronous Truck Routing Request URL (GET)**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleAvoidCrossWind={vehicleAvoidCrossWind}&vehicleAvoidGroundingRisk={vehicleAvoidGroundingRisk}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
 ```
 
 **Synchronous Truck Routing Request URL (POST)**
@@ -177,8 +175,6 @@ Content-Type: application/json
         "vehicleSemi": bool,
         "vehicleMaxGradient": number,
         "vehicleMinTurnRadius": number,
-        "vehicleAvoidCrossWind": bool,
-        "vehicleAvoidGroundingRisk": bool,
         "vehicleHazardousMaterials": string,
         "vehicleHazardousPermits": string
     }
@@ -225,8 +221,6 @@ https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId={reques
 | `vehicleSemi` | `semi` | **Optional**. Indicates if the truck is pulling a semi-trailer. Semi-trailer restrictions are mostly used in North America. <br/><br/>**Example**: vehicleSemi=true  |
 | `vehicleMaxGradient` | `vmg`  | **Optional**. The maximum gradient the vehicle can drive measured in degrees.<br/><br/>**Example**: vehicleMaxGradient=10 |
 | `vehicleMinTurnRadius`      | `vmtr`          | **Optional**. The minimum required radius for the vehicle to turn in the specified dimension units.<br/><br/>**Example**: vehicleMinTurnRadius=15 |
-| `vehicleAvoidCrossWind`     | `vacw`  | **Optional**. Indicates if the vehicle shall avoid crosswinds.<br/><br/>**Example**: vehicleAvoidCrossWind=true |
-| `vehicleAvoidGroundingRisk` | `vagr`          | **Optional**. Indicates if the route shall avoid the risk of grounding.<br/><br/>**Example**: vehicleAvoidGroundingRisk=true |
 | `vehicleHazardousMaterials` | `vhm`           | **Optional**. A comma separated and case-sensitive list of one or more hazardous materials for which the vehicle is transporting. Possible values and their aliases are:<br/><br/> • **Combustable** or **C**<br/> • **Corrosive** or **Cr**<br/> • **Explosive** or **E**<br/> • **Flammable** or **F**<br/> • **FlammableSolid** or **FS**<br/> • **Gas** or **G**<br/> • **GoodsHarmfulToWater** or **WH**<br/> • **Organic** or **O**<br/> • **Other**<br/> • **Poison** or **P**<br/> • **PoisonousInhalation** or **PI**<br/> • **Radioactive** or **R**<br/> • **None**<br/><br/>**Examples**<br/><br/>vehicleHazardousMaterials=Explosive,Corrosive<br/><br/>vehicleHazardousMaterials=E,Cr |
 | `vehicleHazardousPermits`   | `vhp`           | **Optional**. A comma separated and case-sensitive list of one or more hazardous materials for which the vehicle has a permit. Possible values and their aliases are:<br/><br/> • **AllAppropriateForLoad**<br/> • **Combustible** or **C**<br/> • **Corrosive** or **Cr**<br/> • **Explosive** or **E**<br/> • **Flammable** or **F**<br/> • **FlammableSolid** or **FS**<br/> • **Gas** or **G**<br/> • **Organic** or **O**<br/> • **Poison** or **P**<br/> • **PoisonousInhalation** or **PI**<br/> • **Radioactive** or **R**<br/> • **None**<br/><br/>**Examples**<br/><br/>vehicleHazardousPermits=Explosive,Corrosive<br/><br/>vehicleHazardousPermits=E,Cr  |
 
