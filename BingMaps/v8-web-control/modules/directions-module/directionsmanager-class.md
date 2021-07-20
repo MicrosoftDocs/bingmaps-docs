@@ -39,7 +39,7 @@ The DirectionsManager is the primary class in the Directions module. It contains
 | `getRouteResult()`                                   | [Route](route-object.md)\[\]      | Returns the current calculated route(s). If the route was not successfully calculated, **null** is returned.                                        |
 removeWaypoint(waypointOrIndex: [Waypoint](waypoint-class.md) _or_ number)    |                          | Sets the specified render options for the route. Use `calculateDirections` to update the route once a waypoint has been removed.                                                                                             |
 | setRenderOptions(options: [DirectionsRenderOptions](directionsrenderoptions-object.md)) |         | Sets the specified render options for the route.  |
-| setRequestOptions(options: [DirectionsRequestOptions](directionsrenderoptions-object.md) |    | Sets the specified route calculation options.
+| setRequestOptions(options: [DirectionsRequestOptions](directionsrequestoptions-object.md) |    | Sets the specified route calculation options.
 | `showInputPanel(inputContainerId: string)` | | Displays an input panel for calculating directions in the specified container. | 
 
 ## Events
