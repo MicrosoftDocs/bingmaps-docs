@@ -1,6 +1,6 @@
 ---
 title: "Get a Static Map | Microsoft Docs"
-description: 
+description: "Demonstrates, using various templates, how to get and display routes on a static map"
 ms.date: 10/20/2021
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -195,7 +195,7 @@ Static images are returned in one of the following formats. You can specify the 
   
 > [!TIP]
 >
-> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](https://docs.microsoft.com/dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern?redirectedfrom=MSDN&view=netframework-4.7.2#System_Globalization_DateTimeFormatInfo_RFC1123Pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
+> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](./dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
   
 ## Examples
 
@@ -305,7 +305,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;
   
  This example returns the following image.  
   
-![Static map with route overlay](../media/SeattleCenteryRoadRoute.png)
+![A map with Road imagery that displays a route between Seattle and Redmond in Washington state. Also shows custom icons 64 and 66 that display as endpoints with the numbers 1 and 2.](../media/SeattleCenteryRoadRoute.png)
 
 ### Get a map with Road imagery centered at a point with a specified zoom level
   
@@ -317,7 +317,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13
   
  This example returns the following image.  
 
- ![Static map with route overlay](../media/SeattleCenteryRoadRouteZoom.png)
+ ![A map that demonstrates using a center point and zoom level to get a map that shows the end of the route between Seattle and Redmond from the previous example.](../media/SeattleCenteryRoadRouteZoom.png)
 
 ### Get maps with Road imagery that displays a transit route and zoomed views of the start and end points
   
@@ -502,17 +502,17 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapS
 
 Here is the resulting JPEG image:
 
-![PolyUSA](../media/PolyUSA.jpg)
+![A map that demonstrates using the push points (pp) parameter with a straight line between push points.](../media/PolyUSA.jpg)
 
 Like in the previous example, `l` in the `drawCurve` parameter can be changed to `cv` to draw curved lines:
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cl,,3&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cv,,3&key={BingMapsAPIKey}
 ```
 
 Here is the resulting JPEG image:
 
-![CurvedPolyUSA](../media/CurvedPolyUSA.jpg)
+![A map that demonstrates using the push points (pp) parameter with a curved line between push points.](../media/CurvedPolyUSA.jpg)
   
 ## HTTP Status Codes  
 
