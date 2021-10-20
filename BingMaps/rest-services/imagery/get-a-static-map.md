@@ -195,7 +195,7 @@ Static images are returned in one of the following formats. You can specify the 
   
 > [!TIP]
 >
-> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](./dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
+> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](/dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
   
 ## Examples
 
