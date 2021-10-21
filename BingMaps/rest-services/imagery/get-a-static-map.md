@@ -1,14 +1,12 @@
 ---
 title: "Get a Static Map | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
+description: "Demonstrates, using various templates, how to get and display routes on a static map"
+ms.date: 10/20/2021
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
+ms.topic: article
+author: stevemunk
+ms.author: v-munksteve
+manager: eriklind
 ms.service: "bing-maps"
 ---
 
@@ -18,21 +16,20 @@ Use the following URL templates to get a static map. You can also display a rout
 
  The default map size is 350 pixels by 350 pixels.
 
-> [!TIP] 
+> [!TIP]
 >
-> **Static map metadata**: To get the size and center point of the image and the locations and size of the pushpins on the map, set the `mapMetadata` parameter to `1 ` (true). When you request static map metadata, the metadata is returned instead of the map image.  
- 
+> **Static map metadata**: To get the size and center point of the image and the locations and size of the pushpins on the map, set the `mapMetadata` parameter to `1` (true). When you request static map metadata, the metadata is returned instead of the map image.  
   
 ## URL Templates
 
 > [!NOTE]
->  These templates support both HTTP and HTTPS protocols.  
-   
+> These templates support both HTTP and HTTPS protocols.  
+
 ### Get a map that is centered at a specified point
   
  When you specify a center point, you must also specify a zoom level.  
   
-```url 
+```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}
 ```  
   
@@ -42,7 +39,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLeve
 https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea={mapArea}&mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata=mapMetadata}&key={BingMapsAPIKey}  
 ```  
   
- ### Get a map with pushpins that does not specify a center point or map area
+### Get a map with pushpins that does not specify a center point or map area
   
  If you do not specify a center point or map area, the map area is chosen to optimize the display of the pushpins.  
   
@@ -66,7 +63,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLeve
 https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/Routes/travelMode?waypoint.1={routeWaypoint1}&waypoint.2={routeWaypoint2}&waypoint.n={routeWaypointn}&mapArea={mapArea}&avoid={avoidOptions}&pushpin={pushpin}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}  
 ```  
   
-### Get a map that is based on a query 
+### Get a map that is based on a query
 
  Get a map based on the specified query.
   
@@ -76,13 +73,14 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize={mapSi
 
 ### Get Streetside images at a specified point
 
-Retrieve a street image at a specified `centerPoint` using the parameters `zoomLevel`, `heading`, and `pitch`. The `heading ` parameter specifies the direction from 0&deg; to 360&deg;, where 0&deg; faces North, and `pitch` specifies the angle from -90&deg; (facing directly down) to 90&deg; (facing directly up) at which the returned image is positioned.
+Retrieve a street image at a specified `centerPoint` using the parameters `zoomLevel`, `heading`, and `pitch`. The `heading` parameter specifies the direction from 0&deg; to 360&deg;, where 0&deg; faces North, and `pitch` specifies the angle from -90&deg; (facing directly down) to 90&deg; (facing directly up) at which the returned image is positioned.
 
 Either use a *structured* URL:
 
 ```url
 https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}?heading={heading}&pitch={pitch}&key={BingMapsAPIKey}
 ```
+
 Or, use an *unstructured* URL:
 
 ```url
@@ -94,11 +92,10 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}?zoomLe
 Retrieve a street image at a specified address.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}?zoomlevel=0&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}?zoomlevel=0&key={BingMapsAPIKey}
 ```
 
 If Streetside imagery is not available for this address, or if the REST Locations call for it does not contain both rooftop and routable (usage type: Route) coordinates, it will return 404 not found error. 
-
 
 ## Draw Lines, Polygons, Circles, and Curves on Static Maps
 
@@ -107,7 +104,6 @@ Using any of the above URL templates, retrieve a static map with some shape draw
 The syntax for this parameter is: `drawCurve=<shape type>,<style type>[;coordinates]`.
 
 Descriptions and the syntax for `shape type`, `style type`, and `coordinates` are below.
-
 
 |Type Value|Name|Description|
 |:------:|:---:|-----|
@@ -136,19 +132,19 @@ If you use the HTTP GET method with any of the following URL templates, you can 
 ## Template Parameters  
   
 > [!NOTE]
->  See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
->   
->  Common parameters include:  
->   
+> See the [Common Parameters and Types](../common-parameters-and-types/index.md) section for additional common parameters to use with these URLs.  
+>
+> Common parameters include:  
+>
 > - [Output Parameters](../common-parameters-and-types/output-parameters.md): Includes response output types and the JSON callback parameters.  
 > - [Culture Parameter](../common-parameters-and-types/culture-parameter.md): Includes a list of the supported cultures.  
 > - [User Context Parameters](../common-parameters-and-types/user-context-parameters.md): Includes parameters that set user location and viewport values to help determine locations. For example, these values may help prioritize a set of possible locations when you get a map based on a location query.  
->   
->  Parameter values are not case-sensitive.  
->   
->  When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, `pushpin=47.610,-122.107` can be shortened to `pp=47.610,-122.107`.  
+>
+> Parameter values are not case-sensitive.  
+>
+> When an alias is provided, you can use the alias to shorten the length of the query parameter. For example, `pushpin=47.610,-122.107` can be shortened to `pp=47.610,-122.107`.  
   
- ## Map Parameters
+## Map Parameters
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
@@ -161,7 +157,7 @@ If you use the HTTP GET method with any of the following URL templates, you can 
 |`imagerySet`||**Required.** The type of imagery.|One of the following values:<br /><br /> -   `Aerial`: Aerial imagery.<br />-   `AerialWithLabels`: Aerial imagery with a road overlay.<br />-   `AerialWithLabelsOnDemand`: Aerial imagery with on-demand road overlay.<br />-   `Streetside`: Street-level imagery.<br />-   `BirdsEye`: Bird's Eye (oblique-angle) imagery.<br />-   `BirdsEyeWithLabels`: Bird’s Eye (oblique-angle) imagery with a road overlay.<br />-   `Road`: Roads without additional imagery.<br />-   `CanvasDark`: A dark version of the road maps.<br />-   `CanvasLight`: A lighter version of the road maps which also has some of the details such as hill shading disabled.<br />-   `CanvasGray`: A grayscale version of the road maps.|  
 |`mapArea`|`ma`|**Required when a center point or set of route points are not specified.** The geographic area to display on the map.|A rectangular area specified as a bounding box. For more information, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> **Example**: `45.219,-122.325,47.610,-122.107`|  
 |`mapLayer`|`ml`|**Optional.** A display layer that renders on top of the imagery set.|-   `Basemap,Buildings`: Building footprints. This layer is only visible on Road map imagery type.<br />-   `OrdnanceSurvey`: Ordnance Survey imagery. This layer is visible only in the UK.<br />-   `TrafficFlow`: Traffic flow layer. <br /><br />**Note:** mapLayer is not supported for Bird's Eye imagery.<br /><br /> **Example**: `mapLayer=TrafficFlow`|  
-|`mapSize`|`ms`|**Optional.** The width and height in pixels of the static map output.|A string that contains a width and a height separated by a comma. The width must be between 80 and 2000 pixels and the height must be between 80 and 1500 pixels. The default map size for static maps is 350 pixels by 350 pixels. If the width or height dimension exceeds the limits, the default dimensions will be used.<br /><br /> **Example**: `mapSize=100,600`|   
+|`mapSize`|`ms`|**Optional.** The width and height in pixels of the static map output.|A string that contains a width and a height separated by a comma. The width must be between 80 and 2000 pixels and the height must be between 80 and 1500 pixels. The default map size for static maps is 350 pixels by 350 pixels. <br /><br />For streetside maps, the maximum size is limited to 400 pixels by 400 pixels when using a basic account key. If a larger size is needed, you will need an [enterprise key](https://www.microsoft.com/maps/create-a-bing-maps-key#enterprise).<br /><br /> **Example**: `mapSize=100,400`|   
 |`mapMetadata`|`mmd`|**Optional**. Specifies whether to return metadata for the static map instead of the image.<br /><br /> The static map metadata includes the size of the static map and the placement and size of the pushpins on the static map.|One of the following values:<br /><br /> -   `1`: Return metadata for the specific image. An image is not returned.<br />-   `0`: Do not return metadata. **[default]**<br />     When you request metadata, the response returns metadata for the map instead of the map image. For more information about the static map metadata, see [Static Map Data](../imagery/static-map-data.md).<br /><br /> **Example:** `mmd=1`|
 |`pitch`| | **Optional, for Streetside**. Controls the camera pitch angle. Positive values point the camera up toward the sky, negative values point down to the ground.| Valid values of type `double` in `[-90, 90]`.<br /><br />  `pitch=0` is a level with the ground. |
 |`orientation`|`dir`|**Optional, for Bird's Eye.** The orientation of view for Bird's Eye imagery. This option only applies to Bird's Eye imagery.|A double value between 0 to 360, where 0 = North [**default**], 90 = East, 180 = South, 270 = West.<br /><br /> **Example**: `orientation=270`|
@@ -185,38 +181,38 @@ If you use the HTTP GET method with any of the following URL templates, you can 
 |`travelMode`||**Optional.** The mode of travel for the route.|One of the following values:<br /><br /> -   `Driving` **[default]**<br />-   `Walking`<br />-   `Transit`|  
 |`waypoint.n`|`wp.n`|**Required.** Specifies two or more locations that define the route and that are in sequential order.|A waypoint location can be specified as a point, a landmark, or an address. You can optionally specify an icon style and add a label of up to three (3) characters for each waypoint. For a list of icon styles, see [Pushpin Syntax and Icon Styles](../common-parameters-and-types/pushpin-syntax-and-icon-styles.md). For more information about Point values, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> Specify waypoints using the following format: `wp.n;iconID;label`. The index (n value) for the set of waypoints in an integer starting with 0 or 1. The waypoint index values must be sequential and must always increment by 1.<br /><br /> You can have a maximum of 25 waypoints.<br /><br /> **Examples**:<br /><br />- `waypoint.1=47.610,-122.107` [Point]<br /><br />- `wp.1=Seattle,WA`  [landmark]<br /><br />- `wp.1=Seattle,WA;66;SEA`  [icon and label]<br /><br />- `waypoint.1=1%20Microsoft%20Way%20Redmond,%20WA` [address]<br /><br /> **Incorrect set of waypoints.** The following set of values is not valid because there is no waypoint.2.<br /><br /> `&waypoint.1=San%20Francisco&waypoint.3=Seattle`|
 
-
 ## Response  
 
 Static images are returned in one of the following formats. You can specify the image format by setting the `format` parameter. Default image formats and the corresponding content-type values returned in the response (such as `image/png`) are defined below.  
   
--   PNG (`image/png`): Default image format for Collins Bart and Ordnance Survey imagery.  
+- PNG (`image/png`): Default image format for Collins Bart and Ordnance Survey imagery.  
   
--   JPEG (`image/jpeg`): Default image format for road, aerial and aerial-with-labels imagery.  
+- JPEG (`image/jpeg`): Default image format for road, aerial and aerial-with-labels imagery.  
   
--   GIF (`image/gif`)  
+- GIF (`image/gif`)  
   
  These URLs support JSON (`application/json`) and XML (`application/xml`) response formats. A JSON response is provided by default unless you request XML output by setting the `output` (`o`) parameter.  For more information, see [Output Parameters](../common-parameters-and-types/output-parameters.md).  
   
 > [!TIP]
 >
-> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](https://docs.microsoft.com/dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern?redirectedfrom=MSDN&view=netframework-4.7.2#System_Globalization_DateTimeFormatInfo_RFC1123Pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
+> When using calling the Imagery API for `StreetSide` Maps, the Response Header `X-VE-SS-CatpureDate` contains the [RFC 1123 datetime stamp](/dotnet/api/system.globalization.datetimeformatinfo.rfc1123pattern) when the image was created. This same information can also be obtained by passing the same latitude and longitude to the [Imagery Metadata API](https://msdn.microsoft.com/library/ff701712.aspx).
   
-
 ## Examples
 
 ### Get a Road map with building footprints
+
  This example gets a Road map with building footprints along with a pushpin based on a specified center point at zoom level 18.
   
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?mapSize=500,500&pp=47.645523,-122.139059;66&mapLayer=Basemap,Buildings&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?mapSize=500,500&pp=47.645523,-122.139059;66&mapLayer=Basemap,Buildings&key={BingMapsAPIKey}
 ```  
   
  This example returns the following image.  
   
   ![Building Footprints Static Map Example](../media/BuildingFootprintsWithPushpin.PNG)
 
-### Get a map with Road imagery and traffic flow based on a query  
+### Get a map with Road imagery and traffic flow based on a query
+
  This example gets a map with road imagery based on a query result Bellevue, Washington. Traffic flow is also included on the map.  
   
 ```url
@@ -227,8 +223,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?mapL
   
   ![Bellevue Center Static Map Example](../media/SeattleCenteryRoadQuery.png)
   
-  
-### Get a map with Aerial imagery based on a query 
+### Get a map with Aerial imagery based on a query
   
 This example gets a map with aerial imagery and labels based on a query result for the Eiffel Tower in Paris. The map has a width of 500 pixels and height of 400 pixels.  
   
@@ -239,9 +234,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/eiffel%20tower
  This example returns the following image.  
   
 ![Static Map Image of the Eiffel Tower](../media/SeattleCenteryArielQuery.png)
-  
 
-  
 ### Get a map with Road imagery and pushpins that is centered at a specified point
   
 This example creates a map with road imagery and places pushpins on the Space Needle, the Pacific Science Center, and the Olympic Sculpture Park in Seattle. The `centerPoint` of the map is set to 47.619048 degrees latitude and -122.35384 degrees longitude. The `zoomLevel` is set to 15.  
@@ -262,7 +255,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?ma
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsAPIKey}
 ```  
   
- ### Get a map with Road imagery and declutter overlapping pushpins
+### Get a map with Road imagery and declutter overlapping pushpins
   
  This example creates a map with road imagery and specifies two pushpins that are located very close together. The `declutterPins` (`dcl`) parameter is set so that the pushpins both appear separately. If the `declutterPins` parameter were not set, the pushpins would overlap. Maps for both cases are shown below.  
   
@@ -272,13 +265,13 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.6156352,-122.2043549/12
   
  This example returns the following image.  
   
-  ![Static Map showing decluttered pushpins](../media/SeattleCenteryRoadDecluttered.png) 
+  ![Static Map showing decluttered pushpins](../media/SeattleCenteryRoadDecluttered.png)
   
  If the declutter parameter was not set in this example, the pushpins would overlap as shown in the following image.  
   
-  ![Static Map showing overlapping pushpins](../media/SeattleCenteryRoadCluttered.png) 
+  ![Static Map showing overlapping pushpins](../media/SeattleCenteryRoadCluttered.png)
   
-### Get a map with Aerial imagery and pushpins without specifying a map area or center point 
+### Get a map with Aerial imagery and pushpins without specifying a map area or center point
   
  This example creates a map with aerial imagery with labels and specifies 5 pushpins. Because a map area or center point is not specified, a map area is chosen that best shows all of the pushpins. The map is optimized to fit the pushpins.
   
@@ -290,8 +283,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels?pp=40.804000,-
   
   ![Static map with pushpins and Aerial imagery](../media/SeattleCenteryArielPushpinOptimized.png)
   
-  
- ### Get a map with Road imagery for a specified map area
+### Get a map with Road imagery for a specified map area
   
  This example gets a map of the specified area that shows road imagery with traffic flow. The map shows the San Francisco metropolitan area and pushpins identify the location of Stanford University and the University of California at Berkeley.  
   
@@ -302,7 +294,6 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/road?mapArea=37.317227,-122.318
  This example returns the following image.  
   
  ![Map Area Static Map](../media/SFRoadTrafficFlow.png)
- 
 
 ### Get a map with Road imagery that displays a route
   
@@ -314,23 +305,20 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;
   
  This example returns the following image.  
   
-![Static map with route overlay](../media/SeattleCenteryRoadRoute.png)
-  
- 
-  
+![A map with Road imagery that displays a route between Seattle and Redmond in Washington state. Also shows custom icons 64 and 66 that display as endpoints with the numbers 1 and 2.](../media/SeattleCenteryRoadRoute.png)
+
 ### Get a map with Road imagery centered at a point with a specified zoom level
   
  This example uses a center point and zoom level to get a map that shows the end of the route between Seattle and Redmond from the previous example. The center point is the latitude and longitude coordinates of Redmond. You can use the [Find a Location by Address](../locations/find-a-location-by-address.md) API to get the latitude and longitude coordinates of a location.  
- 
+
 ```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13099449872971/14/Routes? wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key={BingMapsAPIKey}
 ```  
   
  This example returns the following image.  
- 
- ![Static map with route overlay](../media/SeattleCenteryRoadRouteZoom.png)
-  
-  
+
+ ![A map that demonstrates using a center point and zoom level to get a map that shows the end of the route between Seattle and Redmond from the previous example.](../media/SeattleCenteryRoadRouteZoom.png)
+
 ### Get maps with Road imagery that displays a transit route and zoomed views of the start and end points
   
  The following examples show how to get a map with road imagery that displays a transit route from the Space Needle in Seattle, Washington to Bellevue Downtown Park in Bellevue, Washington at 3 PM of the current day. The three URL examples display the entire route and zoomed views of the start and end points of the route. Note that the walking segments of the route are displayed as dotted lines.  
@@ -339,18 +327,18 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13
   
 ```url
 https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Routes/Transit?wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&timeType=Departure&dateTime=3:00:00PM&output=xml&key={BingMapsAPIKey}
-```  
+```
+
   ![Shows a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpoints.png)
- 
-  
+
  View the start of the transit route by specifying a center point and zoom level. The center point for this map is the coordinates for the Space Needle that are returned in the response when you request a transit route by using the c[Calculate a Route](../routes/calculate-a-route.md) API. This map includes a walking route that is shown by a dotted line.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.620495,-122.34931/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsAPIKey}  
-```  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.620495,-122.34931/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsAPIKey}
+```
+
  ![Shows starting point of a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpointsStartingPoint.png)
-  
-  
+
  View the end of the transit route by specifying a center point and zoom level. The center point for this map is the coordinates of the Bellevue Downtown Park in that is returned in the response when you request a transit route by using the [Calculate a Route](../routes/calculate-a-route.md) API. This map includes a walking route that is shown by a dotted line.  
   
 ```url
@@ -358,18 +346,19 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Ro
 ```  
   
   ![Shows ending point of a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpointsEndingPoint.png)
- 
- 
- ### Get a Bird's Eye map
+
+### Get a Bird's Eye map
+
 This example gets a Bird's Eye map with a West orientation (dir=270) at zoom level 20. The map has a width of 900 pixels and a height of 700 pixels.
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Birdseye/37.802297,-122.405844/20?dir=270&ms=900,700&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Birdseye/37.802297,-122.405844/20?dir=270&ms=900,700&key={BingMapsAPIKey}
 ```
+
 This example returns the following image.
 
   ![Bird's Eye Static Map Example](../media/BirdsEyeStaticMap.PNG)
- 
+
 ### Get Street Side Images using the StreetSide Imagery API
 
 The following URL request gets an image of Bergen Place in Ballard, Seattle, with a pitch of 5&deg; (upwards) and a heading of 145&deg; (degrees clockwise from North, which is at 0&deg;). The zoom level is 5. For more details about the Streetside Imagery API, see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting-streetside-tiles-from-imagery-metadata.md).
@@ -377,8 +366,8 @@ The following URL request gets an image of Bergen Place in Ballard, Seattle, wit
 If you examine the response headers, you'll find that `X-VE-SS-CaptureDate` is set to `Wed, 16 Jul 2014 17:13:06 GMT`.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=600,350&key={BingMapsAPIKey}
-``` 
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=350,350&key={BingMapsAPIKey}
+```
 
 ![Street View of Ballard](../media/BallardStreetImage.jpg)
   
@@ -386,13 +375,13 @@ http://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795
   
 The following example shows how to request a static map by using the HTTP POST method. When you use this method, you can specify up to 100 pushpins. All pushpins must be in the body of the request. Because the request does not specify a map area or center point and zoom level, the map area is optimized to show all of the pushpins.  
   
- **HTTP POST URL**  
+**HTTP POST URL**
   
 ```url
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/?key={BingMapsAPIKey}  
 ```  
   
- **HTTP POST Header**  
+**HTTP POST Header**  
   
  You must include the following settings in the HTTP POST Header.  
   
@@ -401,11 +390,11 @@ Content-Length: insertLengthOfHTTPBody
 Content-Type: text/plain; charset=utf-8  
 ```  
   
- **HTTP POST Body**  
+**HTTP POST Body**  
   
  When specifying pushpins in the request body, you can use a carriage return (`\r\n`) or an ampersand (`&`) as a delimiter. The following two examples show these options.  
   
- **Example 1**  
+**Example 1**  
   
 ```url
 pp=38.889586530732335,-77.05010175704956;23;LM\r\n  
@@ -414,7 +403,7 @@ pp=38.890479451480054,-77.04744637012482;1;VM\r\n
 pp=38.8896854931628,-77.03519403934479;45;WM   
 ```  
   
- **Example 2**  
+**Example 2**  
   
 ```url
 pp=38.889586530732335,-77.05010175704956;23;LM&pp=38.88772364638439,-77.0472639799118;7;KM\r\n  
@@ -424,8 +413,7 @@ pp=38.890479451480054,-77.04744637012482;1;VM&pp=38.8896854931628,-77.0351940393
  This example returns the following image.  
   
 ![Static map of Washington monuments with pushpins](../media/SeattleMapRoadPost.png)
- 
-  
+
 ### Get a map with Ordnance Survey imagery that is provided in JPEG format  
   
  This example shows a map of Trafalgar Square in Great Britain using Ordnance Survey imagery. The static map is returned in JPEG format. If this image format were not specified in the URL, the static map would be returned in the default PNG format.  
@@ -458,13 +446,14 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Redmond Washington?ms=500,
   
  This example returns the following image.  
   
-![Image showing Redmond polygon](../media/redmondpolygon.png "Image showing Redmond polygon") 
+![Image showing Redmond polygon](../media/redmondpolygon.png "Image showing Redmond polygon")
+
 ### Draw a Green Circle using the `drawCurve` Parameter
 
 This example draws a green circle around the Palo Alto area in California by specifying a circle with the outline line color `64009900` (dark green), the fill color `FF009900` (lime green), with an outline thickness of 2 pixels, and a radius of 50 pixels.
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=c,64009900,FF009900,2,50;37.428175,-122.16968&fmt=png&key={BingMapsAPIKey}``
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=c,64009900,FF009900,2,50;37.428175,-122.16968&fmt=png&key={BingMapsAPIKey}``
 ```
 
 Here is the resulting PNG file:
@@ -476,7 +465,7 @@ Here is the resulting PNG file:
 This example draws an overlapping green polygon across the Bay Area in California. The `drawCurve` parameter is specified as a polygon (`p`) using the same outline and fill colors are above, using the base 64 encoding: `enc:aemcFngthVojs@asV}_GhahA{xXcw\`.
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=p,64009900,FF009900,2;enc:aemcFngthVojs@asV%7d_GhahA%7bxXcw%5C&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=p,64009900,FF009900,2;enc:aemcFngthVojs@asV%7d_GhahA%7bxXcw%5C&key={BingMapsAPIKey}
 ```
 
 Here is the resulting PNG file:
@@ -486,7 +475,7 @@ Here is the resulting PNG file:
 In this example, green lines are drawn across the Bay Area; however, the endpoints of the line are encoded in plain text instead of the encoded polyline format:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=l,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=l,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
 ```  
 
 Here is the resulting PNG image:
@@ -496,7 +485,7 @@ Here is the resulting PNG image:
 Finally, using the same coordinates as above, developers can draw curved lines by changing the first parameter of the `drawCurve` input parameters from `l` to `cv`:
 
 ```url
-http://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=cv,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=cv,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
 ```
 
 And here is the resulting PNG image:
@@ -513,17 +502,17 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapS
 
 Here is the resulting JPEG image:
 
-![PolyUSA](../media/PolyUSA.jpg)
+![A map that demonstrates using the push points (pp) parameter with a straight line between push points.](../media/PolyUSA.jpg)
 
 Like in the previous example, `l` in the `drawCurve` parameter can be changed to `cv` to draw curved lines:
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cl,,3&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cv,,3&key={BingMapsAPIKey}
 ```
 
 Here is the resulting JPEG image:
 
-![CurvedPolyUSA](../media/CurvedPolyUSA.jpg)
+![A map that demonstrates using the push points (pp) parameter with a curved line between push points.](../media/CurvedPolyUSA.jpg)
   
 ## HTTP Status Codes  
 
@@ -531,17 +520,18 @@ Here is the resulting JPEG image:
   
  When the request is successful, the following HTTP status code is returned.  
   
-* 200
+- 200
 
 When the request is not successful, the response returns one of the following errors.
 
-* 400
-* 401
-* 404
-* 429
-* 500
-* 503 
+- 400
+- 401
+- 404
+- 429
+- 500
+- 503
   
-## See Also  
- [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
+## See Also
+
+ [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
  [JSON Data Contracts](../json-data-contracts.md)
