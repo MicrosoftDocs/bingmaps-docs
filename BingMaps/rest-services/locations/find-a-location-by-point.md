@@ -71,7 +71,7 @@ One or more Location resources are returned in the response when you make a requ
 This example gets address information for a specified latitude and longitude and requests the results in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -207,7 +207,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={Bin
  This example requests only country or region information for the same latitude and longitude as the previous example.  
   
 ```url 
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  

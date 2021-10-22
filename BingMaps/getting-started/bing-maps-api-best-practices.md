@@ -83,11 +83,11 @@ Unless you are geocoding English addresses in the US you should specify a cultur
   
 |**Yes**: Unstructured URL|  
 |-------------------------------|  
-|http://dev.virtualearth.net/REST/v1/Locations?`query=locationQuery`&key=BingMapsKey|  
+|http://dev.virtualearth.net/REST/v1/Locations?`query=locationQuery`&key={BingMapsKey}|  
   
 |**No**: Structured URL|  
 |----------------------------|  
-|http://dev.virtualearth.net/REST/v1/Locations/`locationQuery`?key=BingMapsKey|  
+|http://dev.virtualearth.net/REST/v1/Locations/`locationQuery`?key={BingMapsKey}|  
   
  The Bing Maps geocoder will attempt to find the closest match as possible to your query. In some cases, it will not be able to find an exact match. This is where the match code parameter of the returned results becomes useful. The match code parameter is an array of values and can have any combination of the following three values; Good, Ambiguous, or UpHierarchy. If you are only interested in exact matches then keep a look out for UpHierachy as this indicates that your exact query was not found but an upper level address value was found. For example, you attempt to geocode a postal code but instead the associated country is returned as the postal code was not found.  
   
@@ -234,7 +234,7 @@ To obtain a session key, you must establish a Bing Maps session. A Bing Maps ses
     http://BingMapsServiceRequest?key=sessionKey  
   
 -   Billable request  
-    http://BingMapsServiceRequest?key=BingMapsKey  
+    http://BingMapsServiceRequest?key={BingMapsKey}  
   
 ### Encode address values before geocoding
 

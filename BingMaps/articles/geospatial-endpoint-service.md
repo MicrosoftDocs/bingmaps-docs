@@ -25,7 +25,7 @@ The Geospatial Endpoint Service is a REST service that provides information abou
  **Get the service information for the language and region specified.**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key={BingMapsKey}  
 ```  
   
  **Get the service information for the language, region and location coordinates specified.**  
@@ -33,7 +33,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=B
  The latitude and longitude coordinates are reverse-geocoded to determine the location. If this location corresponds to a non-disputed country or region, then this location overrides the userRegion value in the request. However, if the coordinates are in a disputed country or region, then the userRegion in the request is used. For example, if the coordinates represent a disputed area along the border of India and China, and userRegion is set to IN (India) in the request and the language is set to hi-in (Hindi), then IN services for Hindi are returned. In the same example, if the userRegion is set to CN (China) and the language is set to zh-hans (Simplified Chinese), then CN services for Simplified Chinese are returned in the response.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latitude,longitude?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latitude,longitude?key={BingMapsKey}  
 ```  
   
 ## Parameters  
@@ -188,7 +188,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
  Language: **fr-fr (French)**, userRegion: **FR (France)**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key={BingMapsKey}  
 ```  
   
 ```json
@@ -346,7 +346,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey
  Language: **en-us (English)**, userRegion: **CU (Cuba)**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key={BingMapsKey}  
 ```  
   
 ```json
@@ -407,7 +407,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey
  Note that the response shows CN as the region because the latitude and longitude are in a disputed area.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key={BingMapsKey}  
 ```  
   
 ```json
@@ -535,7 +535,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
  Note that the response shows IN as the region because the latitude and longitude coordinates are in a disputed area.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key={BingMapsKey}  
 ```  
   
 ```json

@@ -33,7 +33,7 @@ Successful synchronous Local Insights API calls return a `LocalInsights` Respons
 Get a list of local insights at a waypoint – specified either as a coordinate or an address query – with a maximal traveling time radius specified by the `maxTime` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The time unit is specified with `timeUnit` as either `minute` or `second` and the only permitted value of `optimize` is `time`.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}&maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}&maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsKey}
 ```
 
 #### Get Local Insights By Travel Distance
@@ -41,7 +41,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or
 Get a list of local insights at a waypoint – specified either as a coordinate pair or an address query – with a maximal traveling distance radius specified by the `maxDistance` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The distance unit is specified with `distanceUnit` as either `mile` or `kilometer` and the only permitted value of `optimize` is `distance`. 
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsKey}
 ```
 
 > [!NOTE]
@@ -63,7 +63,7 @@ See the [Asynchronous Requests](../common-parameters-and-types/asynchronous-requ
 Asynchronous GET Local Insights call by time.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxTime={MaxTime}&timeUnit={second_or_minute}&type={type_string_ids}&key={BingMapsKey}
 ```
 
 #### Asynchronous Get Local Insights by Distance
@@ -71,7 +71,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordina
 Asynchronous GET Local Insights call by distance.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsKey}
 ```
 
 #### Get Status of Asynchronous Request by RequestID
@@ -79,7 +79,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync?waypoint={coordina
 Get a RouteProxyAsyncResult response containing the status of an asynchronous URL request by specifying the `requestID`.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsyncCallback?requestId={request_id}&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsyncCallback?requestId={request_id}&key={BingMapsKey}
 ```
 
 > [!NOTE]
@@ -112,7 +112,7 @@ See [Local Insights Data](local-insights-data.md).
 This example gets a list of local insights that are either Movie Theaters or Department Stores within a thirty minute drive of the Redmond Microsoft Campus. Two string types are used: `DepartmentStores` and `MovieTheaters`.
 
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/LocalInsights?Waypoint=1%20Microsoft%20Way,Redmond,WA&TravelMode=Driving&Optimize=time&MaxTime=30&TimeUnit=Minute&type=DepartmentStores,MovieTheaters&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/V1/Routes/LocalInsights?Waypoint=1%20Microsoft%20Way,Redmond,WA&TravelMode=Driving&Optimize=time&MaxTime=30&TimeUnit=Minute&type=DepartmentStores,MovieTheaters&key={BingMapsKey}
 ```
 
 Here is the successful JSON response.
@@ -271,7 +271,7 @@ Here is the successful JSON response.
 This example returns local entities at a point in Edmonds, Washington State, `47.811091,-122.369512`, within twenty minutes driving time. In this example, the local entities are parks and parking lots, using the Type IDs `Parks` and `Parking`.
 
 ```url
-https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsAPIKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking&o=xml
+https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking&o=xml
 ```
 
 And the XML response:
@@ -343,7 +343,7 @@ And the XML response:
 This example uses the same point in Edmonds as in the last example, but instead search for parks and parking entities by driving distance. In this example, the response returns entities within 10 miles of the specified point. 
 
 ```url
-https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsAPIKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking
+https://dev.virtualearth.net/REST/V1/Routes/LocalInsights?key={BingMapsKey}&waypoint=47.811091,-122.369512&travelMode=Driving&optimize=time&MaxTime=20&TimeUnit=Minute&type=parks,parking
 ```
 
 Here is the JSON response:

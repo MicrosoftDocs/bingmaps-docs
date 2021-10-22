@@ -89,7 +89,7 @@ Also see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting
         {
           "__type": "StreetsideMetadata:http://schemas.microsoft.com/search/local/ws/rest/v1",
           "imageHeight": 256,
-          "imageUrl": "http://ecn.{subdomain}.tiles.virtualearth.net/tiles/hs0203232101212100{faceId}{tileId}?g=6617&key={BingMapsAPIKey}",
+          "imageUrl": "http://ecn.{subdomain}.tiles.virtualearth.net/tiles/hs0203232101212100{faceId}{tileId}?g=6617&key={BingMapsKey}",
           "imageUrlSubdomains": [
             "t0",
             "t1",
@@ -131,7 +131,7 @@ Also see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting
             <EstimatedTotal>1</EstimatedTotal>
             <Resources>
                 <ImageryMetadata xsi:type="StreetsideMetadata">
-                    <ImageUrl>http://ecn.{subdomain}.tiles.virtualearth.net/tiles/hs0203232101212100{faceId}{tileId}?g=6617&key={BingMapsAPIKey}</ImageUrl>
+                    <ImageUrl>http://ecn.{subdomain}.tiles.virtualearth.net/tiles/hs0203232101212100{faceId}{tileId}?g=6617&key={BingMapsKey}</ImageUrl>
                     <ImageUrlSubdomains>
                         <string>t0</string>
                         <string>t1</string>
@@ -187,7 +187,7 @@ Also see [Getting Streetside Tiles from Imagery Metadata](../../articles/getting
   
 ```xml  
 <BirdseyeMetadata>
-    <ImageUrl>http://ak.{subdomain}.tiles.virtualearth.net/tiles/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=6644&key={BingMapsAPIKey}</ImageUrl>
+    <ImageUrl>http://ak.{subdomain}.tiles.virtualearth.net/tiles/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=6644&key={BingMapsKey}</ImageUrl>
     <ImageUrlSubdomains>
         <string>t0</string>
         <string>t1</string>

@@ -86,7 +86,7 @@ The Geocode Dataflow API is a REST web service that allows you to pass in a list
      **Listing 3 - URI format for starting a geocode job with the Geocode Dataflow API**  
   
     ```url
-    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=BingMapsKey  
+    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key={BingMapsKey}  
   
     ```  
   
@@ -97,7 +97,7 @@ The Geocode Dataflow API is a REST web service that allows you to pass in a list
      **Listing 4 - URI format for checking the status of a geocode job**  
   
     ```url
-    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key=BingMapsKey  
+    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key={BingMapsKey}  
     ```  
   
      The *JobId* for a geocode job is returned as part of the response when you initially create the job. The status of a geocode job will start out as “Pending” and eventually change to “Completed” when processing is complete.  

@@ -38,7 +38,7 @@ __Structured URL__
  A structured URL specifies the location data as part of the URL path.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/{locationQuery}?includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&include={includeValue}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/{locationQuery}?includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&include={includeValue}&key={BingMapsKey}  
 ```  
 
 __Unstructured URL__
@@ -46,7 +46,7 @@ __Unstructured URL__
  An URL appends the location data to the URL path. In the following template, the location data is specified by using a query parameter that is appended to the end of the URL path.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
 ## API Parameters  
@@ -87,11 +87,11 @@ http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeigh
  The following examples request latitude and longitude information for an address specified by the query string `1 Microsoft way, Redmond WA 98052`. Both URLs return the same information. The results are requested in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?o=xml&key={BingMapsKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20WA%2098052&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20WA%2098052&o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -224,7 +224,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 The following URL performs the same query as the previous example, and also requests query parse information  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?include=queryParse&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/1%20Microsoft%20Way%20Redmond%20WA%2098052?include=queryParse&o=xml&key={BingMapsKey}  
 ```  
   
 This query returns the same response as above with the additional query parse information.  
@@ -268,7 +268,7 @@ This query returns the same response as above with the additional query parse in
 The following example searches for locations associated with the search query "Kings Road". Because the userLocation parameter is specified, the results returned are relevant to the user’s location. For more information about the userLocation parameter and other user context parameters, see [User Context Parameters](../common-parameters-and-types/user-context-parameters.md).  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&query=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&o=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&query=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&o=xml&key={BingMapsKey}  
 ```  
   
 ### Find location information associated with a query string and request neighborhood information 
@@ -276,7 +276,7 @@ http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&query=Kings%20Road&o
 The following example searches for locations associated with the search query "Brookyln New York". Because the `includeNeighborhood` (`inclnb`) parameter is set to 1, the Neighborhood field is returned in the response.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -408,7 +408,7 @@ http://dev.virtualearth.net/REST/v1/Locations/tower%20of%20london?inclnb=1&o=xml
 The following example requests location information for the Eiffel Tower.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -538,7 +538,7 @@ http://dev.virtualearth.net/REST/v1/Locations/Eiffel%20Tower?o=xml&key={BingMaps
  This example provides location information for the query string "New York" and requests up to 10 location results in the response. The default maximum number of locations returned is five (5) results.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?q=Greenville&maxResults=10&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Locations?q=Greenville&maxResults=10&key={BingMapsKey}
 ```  
   
 ## HTTP Status Codes  
