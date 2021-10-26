@@ -286,7 +286,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
                }  
             ],  
             "Copyright":{  
-               "CopyrightURL":"http:\/\/windows.microsoft.com\\/windows-live\/about-bing-data-suppliers",  
+               "CopyrightURL":"http:\/\/windows.microsoft.com\/windows-live\/about-bing-data-suppliers",  
                "Sources":[  
                   {  
                      "SourceID":"8",  
