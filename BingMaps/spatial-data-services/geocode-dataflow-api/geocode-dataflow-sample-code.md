@@ -36,7 +36,7 @@ using System.Xml;
   
 //This C# code sample shows how to geocode data using the Geocode Dataflow REST API.  
 //For more information on this API, see the Bing Spatial Data Services SDK on MSDN:  
-// https://msdn.microsoft.com/en-us/library/ff701734.aspx  
+// https://msdn.microsoft.com/library/ff701734.aspx  
 namespace GeocodeDataFlowExample  
 {  
     //A summary of status information returned in the response when you check   

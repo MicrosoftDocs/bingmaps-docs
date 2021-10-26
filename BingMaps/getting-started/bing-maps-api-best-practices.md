@@ -58,7 +58,7 @@ Please adhere to the following guidelines when coding for Bing Maps services.
 
 In the Bing Maps [terms of use](https://www.microsoft.com/maps/product/terms.html) trial and basic keys are limited in the number of transactions they can generate within a period of time. Public facing Windows Store, Windows Phone, and WPF apps have a limit of 50,000 transactions in a 24 hour period. Internal Windows apps, public facing web sites and non-Windows mobile apps have a limit of 125,000 transactions a year. Rate limiting occurs when the frequency of requests made against the Bing Maps REST and/or SOAP services by an account exceeds these free terms of use. Rate limiting can also occur when the services are under a lot of load. This is done to ensure that the usage from trial and basic keys do no interrupt the services for those using an Enterprise keys. Enterprise keys are not rate limited and the only way to get around rate limiting is to upgrade to an Enterprise key. For more information see our [Bing Maps Licensing Options](https://www.microsoft.com/maps/Licensing/licensing.aspx) page.  
   
-When a request is rate limited, the response will return no results. This may be confusing at first as it looks like Bing Maps was unable to find results. To indicate that the request was rate limited a flag is added to the header of the response (`X-MS-BM-WS-INFO`) which is set to the value of 1 as documented the [Status Codes and Error Handling](https://msdn.microsoft.com/en-us/library/ff701703.aspx) page. To make for a better user experience, applications that use trial or basic keys should look for this flag in the header and handle requests which are rate limited. Something as simple as logging the fact that a request was rate limited in your application log could help when debugging reported issues.  
+When a request is rate limited, the response will return no results. This may be confusing at first as it looks like Bing Maps was unable to find results. To indicate that the request was rate limited a flag is added to the header of the response (`X-MS-BM-WS-INFO`) which is set to the value of 1 as documented the [Status Codes and Error Handling](https://msdn.microsoft.com/library/ff701703.aspx) page. To make for a better user experience, applications that use trial or basic keys should look for this flag in the header and handle requests which are rate limited. Something as simple as logging the fact that a request was rate limited in your application log could help when debugging reported issues.  
   
 ## Bing Maps REST Service Tips and Tricks  
 
@@ -77,7 +77,7 @@ Unless you are geocoding English addresses in the US you should specify a cultur
 |**Language**|**Method**|**Example**|  
 |------------------|----------------|-----------------|  
 |**JavaScript**|[encodeURIComponent](https://www.w3schools.com/jsref/jsref_encodeURIComponent.asp)|encodeURIComponent(*query*)|  
-|**C#/VB**|[Uri](https://msdn.microsoft.com/en-us/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
+|**C#/VB**|[Uri](https://msdn.microsoft.com/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
   
  When geocoding free form queries use the unstructured URL format rather than the structured format. The unstructured URL format tends to be much more successful for these types of queries. Note: the structured format actually overlaps with the reverse geocoding URL request format and can return odd results if your query is just made up of numbers.  
   
@@ -91,9 +91,9 @@ Unless you are geocoding English addresses in the US you should specify a cultur
   
  The Bing Maps geocoder will attempt to find the closest match as possible to your query. In some cases, it will not be able to find an exact match. This is where the match code parameter of the returned results becomes useful. The match code parameter is an array of values and can have any combination of the following three values; Good, Ambiguous, or UpHierarchy. If you are only interested in exact matches then keep a look out for UpHierachy as this indicates that your exact query was not found but an upper level address value was found. For example, you attempt to geocode a postal code but instead the associated country is returned as the postal code was not found.  
   
- If you are using the REST services from server side code, you may find that the results in your application may differ from the results found when using the services locally. The reason for this is that the REST services take your IP address into consideration when making a request. To help reduce this issue you can set the [userIp](https://msdn.microsoft.com/en-us/library/ff701704.aspx) parameter of the request to 127.0.0.1. This will trick the service into thinking you are making the call from a local application and cause it to ignore your IP address.  
+ If you are using the REST services from server side code, you may find that the results in your application may differ from the results found when using the services locally. The reason for this is that the REST services take your IP address into consideration when making a request. To help reduce this issue you can set the [userIp](https://msdn.microsoft.com/library/ff701704.aspx) parameter of the request to 127.0.0.1. This will trick the service into thinking you are making the call from a local application and cause it to ignore your IP address.  
   
- If you have a lot of data you want to geocode at once consider using the [Geocode Dataflow API](https://msdn.microsoft.com/en-us/library/ff701733.aspx) and the batch geocoding functionality. This service allows you to geocode up to 200,000 addresses in a single request.  
+ If you have a lot of data you want to geocode at once consider using the [Geocode Dataflow API](https://msdn.microsoft.com/library/ff701733.aspx) and the batch geocoding functionality. This service allows you to geocode up to 200,000 addresses in a single request.  
   
 ### Reverse Geocoding
 
@@ -109,19 +109,19 @@ Limit your coordinates to 6 decimal places. At 6 decimal places you have an accu
 
 Many of the tips in the geocoding service apply for the routing service, such as being sure to encode your address locations. However, don’t encode coordinate based locations.  
   
-The default distance units are in Kilometers. Use the [distanceUnit](https://msdn.microsoft.com/en-us/library/ff701717.aspx) parameter to change this to miles if that is your preferred unit of measurement.  
+The default distance units are in Kilometers. Use the [distanceUnit](https://msdn.microsoft.com/library/ff701717.aspx) parameter to change this to miles if that is your preferred unit of measurement.  
   
 You can now have up to three possible routes returned by the routing engine for transit and driving directions in certain countries. This may be desirable in some applications but it is best to make this optional to your users. Although the calculation on Bing Maps end is fast, the response from Bing Maps is much larger when returning 3 routes rather than one. This could become an issue for users with slow internet connections (i.e. mobile users).  
   
 When using Bing Maps in areas where geocoding coverage is limited, consider allowing the user to select their start and end point on the map via a click event or by dragging a pushpin. This will allow you to pass in coordinates for your end points rather than an address. The routing engine is capable of calculating routes anywhere there is road data, even if there is no geocoding coverage.  
   
-If you want to retrieve the coordinates that make up the route line along the roads use the [routePathOutput](https://msdn.microsoft.com/en-us/library/ff701717.aspx) parameter.  
+If you want to retrieve the coordinates that make up the route line along the roads use the [routePathOutput](https://msdn.microsoft.com/library/ff701717.aspx) parameter.  
   
 ### Imagery Service  
 
 When requesting a static map image from Bing Maps the imagery service the service will automatically choose the best image format to return the image in for best resolution. Note: this may not be the preferred image type in some cases. For example, the service may return Ordnance Survey maps in PNG format; you may find you prefer these maps returned as JPG of GIF format. You can specify the image type using the [format](https://rbrundritt.wordpress.com/2012/01/06/bing-maps-rest-service-net-libraries/) parameter.  
   
- The Imagery service can return two different types of metadata. The [first type](https://rbrundritt.wordpress.com/2009/08/01/ve-silverlight-control-%e2%80%93-pushpins-infoboxes-and-best-map-view/) of metadata gives you information about the imagery in Bing Maps for a specific location, zoom level and map type. This is useful if you want to find the age of the imagery or want to know is a specific type of imagery is available for a certain location. The [second type](https://msdn.microsoft.com/en-us/library/hh667439.aspx) of metadata is for a static image generated from the imagery service. This second metadata may include information such as pixel coordinates of pushpins on your image. This is useful if you want to be able to tie events to the generated image or create an [HTML image map](https://www.w3schools.com/TAGS/tag_map.asp).  
+ The Imagery service can return two different types of metadata. The [first type](https://rbrundritt.wordpress.com/2009/08/01/ve-silverlight-control-%e2%80%93-pushpins-infoboxes-and-best-map-view/) of metadata gives you information about the imagery in Bing Maps for a specific location, zoom level and map type. This is useful if you want to find the age of the imagery or want to know is a specific type of imagery is available for a certain location. The [second type](https://msdn.microsoft.com/library/hh667439.aspx) of metadata is for a static image generated from the imagery service. This second metadata may include information such as pixel coordinates of pushpins on your image. This is useful if you want to be able to tie events to the generated image or create an [HTML image map](https://www.w3schools.com/TAGS/tag_map.asp).  
   
 ### Reducing Usage Transactions
 
@@ -142,7 +142,7 @@ function ClickGeocode()
  }  
 ```  
   
- A full working sample for the above using JavaScript can be found on MSDN in the [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx) page.  
+ A full working sample for the above using JavaScript can be found on MSDN in the [Geocoding a Location](https://msdn.microsoft.com/library/gg427601.aspx) page.  
   
  **Bing Maps WPF control**  
   
@@ -238,7 +238,7 @@ To obtain a session key, you must establish a Bing Maps session. A Bing Maps ses
   
 ### Encode address values before geocoding
 
-Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/en-us/library/system.uri.aspx) class.  
+Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/library/system.uri.aspx) class.  
   
 > [!IMPORTANT]
 >  For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (`&`) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand (`&`) rather than `%26`.

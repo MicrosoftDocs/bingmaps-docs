@@ -43,7 +43,7 @@ Get the latitude and longitude coordinates based on a set of address values for 
 >   
 >  For countries that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
 >   
->  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
+>  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   
  A structured URL specifies the location data for the country as part of the URL path.  
   
@@ -515,6 +515,6 @@ When the request is not successful, the response returns one of the following er
 ## See Also  
  [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
  [JSON Data Contracts](../json-data-contracts.md)   
- [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)
- [Getting Route Directions](https://msdn.microsoft.com/en-us/library/gg427607.aspx)   
+ [Geocoding a Location](https://msdn.microsoft.com/library/gg427601.aspx)
+ [Getting Route Directions](https://msdn.microsoft.com/library/gg427607.aspx)   
  [Find a location by query](https://www.bingmapsportal.com/ISDK/AjaxV7#RESTServices1)
