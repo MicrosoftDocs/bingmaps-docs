@@ -2482,7 +2482,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Navarra|[AUTOBUSES PARRA  S.L.](https://www.autobusesparra.com) 
 |Navarra|[AUTOBUSES PINEDO  S.A.](#) 
 |Navarra|[AUTOMÓVILES RÍO ALHAMA  S.A.](https://www.arasa.es) 
-|Navarra|[AUTOMÓVILES UREDERRA  S.L.](http://www.autobusesurederra.com/ 
+|Navarra|[AUTOMÓVILES UREDERRA  S.L.](http://www.autobusesurederra.com)
 |Navarra|[CEFERINO APEZETXEA eta SEMEAK  S.L.L.](#) 
 |Navarra|[CONDA  S.A.](https://www.conda.es) 
 |Navarra|[LA BAZTANESA  S.A.](https://www.labaztanesa.com) 
