@@ -40,7 +40,7 @@ The second method is recommended for all other applications that generate less t
 
 ### Method 2: License Bing Maps through Azure Marketplace
 
-Sign up for the Bing Maps API for Enterprise in the Azure Marketplace [here](https://azure.microsoft.com/en-us/marketplace/partners/bingmaps/mapapis/). If you do not have an Azure account, you will have to create one and provide a credit card. Fill out the forms provided and select the transaction level that meets your monthly transaction requirements. Note that you can change this at any time. One benefit of license Bing Maps through the Azure Marketplace is that you get the flexibility of licensing on a month to month basis, rather than being locked into a contract for one of more years.
+Sign up for the Bing Maps API for Enterprise in the Azure Marketplace [here](https://azure.microsoft.com/marketplace/partners/bingmaps/mapapis/). If you do not have an Azure account, you will have to create one and provide a credit card. Fill out the forms provided and select the transaction level that meets your monthly transaction requirements. Note that you can change this at any time. One benefit of license Bing Maps through the Azure Marketplace is that you get the flexibility of licensing on a month to month basis, rather than being locked into a contract for one of more years.
 
 ## Developer Resource Links
 
@@ -49,7 +49,7 @@ The following resources are available for Bing Maps developers:
 * [Bing Maps V8 Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk) - Provides interactive code samples which you can edit and test out your own map control code.
 * [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
 * [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions) - These can be used to provide intellisense and richer error catching functionality to your IDE.
-* Connect with other Bing Maps developers on the [Bing Maps Web Controls Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=bingmapsajax&filter=alltypes&sort=lastpostdesc).
+* Connect with other Bing Maps developers on the [Bing Maps Web Controls Forum](https://social.msdn.microsoft.com/Forums/home?forum=bingmapsajax&filter=alltypes&sort=lastpostdesc).
 * Visit the [Bing Maps for Enterprise](https://www.microsoft.com/maps) website.
 * Read the [Bing Maps Developer blog](https://blogs.bing.com/maps)
 * Manage your Bing Maps account through the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
