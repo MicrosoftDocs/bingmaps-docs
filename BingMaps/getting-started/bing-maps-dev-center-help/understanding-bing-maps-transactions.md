@@ -45,7 +45,7 @@ When you use any [Bing Maps API](../../rest-services/index.md) with a Bing Maps 
 
 ## Billable versus non-billable transactions  
 
-Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for info about licensing and transaction limits, [please see the Bing Maps licensing page](https://www.microsoft.com/en-us/maps/licensing) and review the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).
+Only billable transactions count towards the free-use limits for Basic keys, and Enterprise keys are only charged for billable transactions.  Non-billable transactions do not incur charges and do not count towards free-use limits. To determine if your application will qualify for free use and for info about licensing and transaction limits, [please see the Bing Maps licensing page](https://www.microsoft.com/maps/licensing) and review the [Bing Maps Terms of Use](https://www.microsoft.com/maps/product/terms.html).
   
 ### Using Session IDs to make billable transactions non-billable
 
@@ -152,7 +152,7 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |WS: ReverseGeocode|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the GeocodeServiceClient.ReverseGeocode Method, one (1) transaction is counted.|  
 |WS: Get ImageryMetadata|SOAP Services|No|Any time a request is made using the ImageryServiceClient.GetImageryMetadata Method, one (1) transaction is counted.|  
 |WS: GetMapUri|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the ImageryServiceClient.GetMapUri Method, one (1) transaction is counted.|  
-|WS: CalculateRoute|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the [RouteServiceClient.CalculateRoute Method](https://msdn.microsoft.com/en-us/library/cc981072.aspx) , one (1) transaction is counted.|  
+|WS: CalculateRoute|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the [RouteServiceClient.CalculateRoute Method](https://msdn.microsoft.com/library/cc981072.aspx) , one (1) transaction is counted.|  
 |WS: CalculateRoutesFromMajorRoads|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the RouteServiceClient.CalculateRoutesFromMajorRoads Method   and the   MajorRoutesOptions.ReturnRoutes Property  is set to **false**, one (1) transacation is counted.<br /><br /> Anytime a request is made using the RouteServiceClient.CalculateRoutesFromMajorRoads Method  and the   MajorRoutesOptions.ReturnRoutes Property  is set to **true**, one (1) transaction for the request and additional transactions for each returned route are counted.|  
 |WS: Search|SOAP Services|Yes<sup>5</sup>|Any time a request is made using the SearchServiceClient.Search Method, one (1) transaction is counted.|  
 |WS: PhotoSynthView|SOAP Services|Yes<sup>5</sup>|Any time a Synth associated with a Windows Live ID that corresponds to an enterprise Photosynth account is viewed, one (1) transaction is counted. Every Synth is associated with a Windows Live ID.|  

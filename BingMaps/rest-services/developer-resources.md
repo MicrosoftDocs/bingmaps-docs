@@ -20,7 +20,7 @@ ms.service: "bing-maps"
   
 |||  
 |-|-|  
-|[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
+|[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
 |[Bing Maps Blog](https://blogs.bing.com/maps)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
 |[Twitter (@BingMaps)](https://twitter.com/bingmaps)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
@@ -28,7 +28,7 @@ ms.service: "bing-maps"
 
 ## Account Issues  
 
-If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/en-us/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
+If you are having issues when [Creating a Bing Maps Account](https://msdn.microsoft.com/library/gg650598.aspx), [Getting a Bing Maps Key](https://msdn.microsoft.com/library/ff428642.aspx), or have an account access question, contact [mpnet@microsoft.com](mailto:mpnet@microsoft.com).  
 
 ## Licensing Questions  
 

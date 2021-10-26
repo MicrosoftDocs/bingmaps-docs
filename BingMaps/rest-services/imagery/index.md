@@ -27,5 +27,5 @@ Use the Imagery API to get static maps and Bing™ Maps imagery information.
 |[Static Map Data](static-map-data.md)|Use this description to understand the results returned in a response that contains static map metadata.|  
   
 ## See Also  
- [Show Bing Results on a  Map](https://msdn.microsoft.com/en-us/library/hh305206.aspx)   
- [Displaying Location Search Results Using the REST Services](https://msdn.microsoft.com/en-us/library/gg427601.aspx)
+ [Show Bing Results on a  Map](https://msdn.microsoft.com/library/hh305206.aspx)   
+ [Displaying Location Search Results Using the REST Services](https://msdn.microsoft.com/library/gg427601.aspx)

@@ -2641,5 +2641,5 @@ The optimized route is then returned as a JSON response (if an XML response is r
 
 ## See Also
 
-[Using the REST Services with .NET](https://msdn.microsoft.com/en-us/library/jj819168\(v=msdn.10\))  
-[JSON Data Contracts](https://msdn.microsoft.com/en-us/library/jj870778\(v=msdn.10\))
+[Using the REST Services with .NET](https://msdn.microsoft.com/library/jj819168\(v=msdn.10\))  
+[JSON Data Contracts](https://msdn.microsoft.com/library/jj870778\(v=msdn.10\))

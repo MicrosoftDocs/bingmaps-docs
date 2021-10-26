@@ -1,14 +1,19 @@
 ---
-title: "API Reference | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Control API Reference
+description: Bing Maps Map Control API Reference for the Android and iOS SDK
+author: stevemunk
+ms.author: v-munksteve
+ms.date: 10/26/2021
+ms.topic: reference
+ms.service: bing-maps
 ---
 
-# API Reference
+# Map Control API Reference
 
-## Note
-
-In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.  
-In iOS APIs, all nullability annotations are explicit.
+> [!Note]
+> In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.
+> 
+> In iOS APIs, all nullability annotations are explicit.
 
 ## Classes
 
