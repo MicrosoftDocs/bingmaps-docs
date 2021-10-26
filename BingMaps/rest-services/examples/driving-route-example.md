@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 The following example shows how to request a driving route between two locations that minimizes the use of toll roads. Responses are shown for both XML and JSON formats.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=redmond%2Cwa&wp.1=Issaquah%2Cwa&avoid=minimizeTolls&key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=redmond%2Cwa&wp.1=Issaquah%2Cwa&avoid=minimizeTolls&key={BingMapsKey}  
 ```  
   
  **JSON Response**  

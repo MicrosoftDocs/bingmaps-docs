@@ -27,7 +27,7 @@ __Equivalent Compressed Value__
 The following example shows how to use this encoded value as the points value when you request elevation values along a polyline path.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2Q&samples=20&heights=sealevel&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2Q&samples=20&heights=sealevel&key={BingMapsKey}  
 ```  
   
 ## Algorithm Description
@@ -200,7 +200,7 @@ function encodePoints(points) {
  The following URL is provided for you to **test your algorithm**. You can compare the compressed string computed by this URL for a small number of points to the compressed string computed by your implementation. There is no value in using this to create the compressed string in general because you are subject to the same length limitation as the Elevation API URLs.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points={lat1,long1,lat2,long2,latn,longn}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points={lat1,long1,lat2,long2,latn,longn}&key={BingMapsKey}  
 ```  
   
 ### Example: TEST Request
@@ -208,7 +208,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points={lat1,long
 The following request provides a set of test points in the URL request, and the response returns a compressed string in the `value` (JSON) or `Value` (XML) field.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Elevation/PointCompression?points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248&key={BingMapsKey}  
 ```  
   
 #### JSON TEST Response

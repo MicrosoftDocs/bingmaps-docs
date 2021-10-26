@@ -22,7 +22,7 @@ Using for our location a point in Ballard, Seattle (`47.668687,-122.384795`) we 
 ### URL Request
 
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsKey}
 ```
 
 ### JSON Response

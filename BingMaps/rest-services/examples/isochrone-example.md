@@ -29,7 +29,7 @@ In this case, consider a delivery company that has some electric vehicles in the
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&travelMode=driving&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&travelMode=driving&key={BingMapsKey}
 ```
 
 Responses are shown for both XML and JSON formats.

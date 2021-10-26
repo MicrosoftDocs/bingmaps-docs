@@ -29,7 +29,7 @@ The Bing Maps Local Search API returns a list of business entities centered arou
 Make a Local Search API request based on a string query by specifying a user location.
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userLocation={point}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userLocation={point}&key={BingMapsKey}
 ```
 
 ### Search by Query Restricted to a Bounding Box
@@ -37,7 +37,7 @@ https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userLocation={po
 Make a Local Search API request based on a string query within the specified bounding box using the `userMapView` parameter.
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userMapView={lat,lon,lat,lon}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userMapView={lat,lon,lat,lon}&key={BingMapsKey}
 ```
 
 ### Search by Query Restricted to a Circular Region
@@ -45,7 +45,7 @@ https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userMapView={lat
 Make a Local Search API request based on a string query within the specified circular region using the `userCircularMapView` parameter.
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userCircularMapView={lat,lon,radius}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userCircularMapView={lat,lon,radius}&key={BingMapsKey}
 ```
 
 ### Search by Entity Type
@@ -53,7 +53,7 @@ https://dev.virtualearth.net/REST/v1/LocalSearch/?query={query}&userCircularMapV
 Search for businesses by specifying a comma-separated list of type string IDs at a given location using the `type` parameter. The `userMapView` and `userCircularMapView` parameters can also be used when searching by categories.
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?type={type_string_id_list}&userLocation={point}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?type={type_string_id_list}&userLocation={point}&key={BingMapsKey}
 ```
 
 ## API Parameters
@@ -93,7 +93,7 @@ Successful Local Search API requests return a list of `LocalSearch` resources.
 Pioneer Square, in downtown Seattle, is located at: `47.602038, -122.333964`. Setting the parameter `query` to `coffee` gives us the following Local Search API URL:
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?query=coffee&userLocation=47.602038,-122.333964&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?query=coffee&userLocation=47.602038,-122.333964&key={BingMapsKey}
 ```
 
 The JSON response:
@@ -473,7 +473,7 @@ Instead of searching by a query, the Local Search API allows us to search at a l
 Here is the URL, using the same location the previous example:
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?type=CoffeeAndTea&userLocation=47.602038,-122.333964&o=xml&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?type=CoffeeAndTea&userLocation=47.602038,-122.333964&o=xml&key={BingMapsKey}
 ```
 
 And here is the XML response:
@@ -624,7 +624,7 @@ Searching the string [Type Identifiers](../common-parameters-and-types/type-iden
 The resulting URL is:
 
 ```url
-https://dev.virtualearth.net/REST/v1/LocalSearch/?type=MovieTheaters,KoreanRestaurants&userCircularMapView=47.668979,-122.387562,300&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/LocalSearch/?type=MovieTheaters,KoreanRestaurants&userCircularMapView=47.668979,-122.387562,300&key={BingMapsKey}
 ```   
 
 And the JSON response:

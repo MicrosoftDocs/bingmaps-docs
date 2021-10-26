@@ -30,13 +30,13 @@ Use the following URL templates to get a static map. You can also display a rout
  When you specify a center point, you must also specify a zoom level.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}
 ```  
   
 ### Get a map that shows a specified map area
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea={mapArea}&mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata=mapMetadata}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea={mapArea}&mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&mapMetadata=mapMetadata}&key={BingMapsKey}  
 ```  
   
 ### Get a map with pushpins that does not specify a center point or map area
@@ -44,7 +44,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?mapArea={mapArea}&ma
  If you do not specify a center point or map area, the map area is chosen to optimize the display of the pushpins.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?pushpin={pushpin_1}&pushpin={pushpin_2}&pushpin={pushpin_n}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
 
 ### Get a map that is centered at the specified point and that displays a route
@@ -52,7 +52,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet?pushpin={pushpin_1}&
  You can display a route on a map by specifying a set of waypoints.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel/Routes/travelMode?waypoint.1={routeWaypoint1}&waypoint.2={routeWaypoint2}&waypoint.n={routeWaypointn}&mapSize={mapSize}&avoid={avoidOptions}&pushpin={pushpin}&timeType={timetType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel/Routes/travelMode?waypoint.1={routeWaypoint1}&waypoint.2={routeWaypoint2}&waypoint.n={routeWaypointn}&mapSize={mapSize}&avoid={avoidOptions}&pushpin={pushpin}&timeType={timetType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
   
 ### Get a map that displays a route without specifying a center point. You can choose to specify the map area or you can accept the default
@@ -60,7 +60,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLeve
  You can display a route on a map by specifying a set of waypoints. When a map area or a center point and a zoom level are not specified, a map area is chosen to optimize the display of the route.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/Routes/travelMode?waypoint.1={routeWaypoint1}&waypoint.2={routeWaypoint2}&waypoint.n={routeWaypointn}&mapArea={mapArea}&avoid={avoidOptions}&pushpin={pushpin}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/Routes/travelMode?waypoint.1={routeWaypoint1}&waypoint.2={routeWaypoint2}&waypoint.n={routeWaypointn}&mapArea={mapArea}&avoid={avoidOptions}&pushpin={pushpin}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
   
 ### Get a map that is based on a query
@@ -68,7 +68,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/Routes/travelMode?wa
  Get a map based on the specified query.
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize={mapSize}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/query?mapSize={mapSize}&mapLayer={mapLayer}&format={format}&mapMetadata={mapMetadata}&key={BingMapsKey}  
 ```  
 
 ### Get Streetside images at a specified point
@@ -78,13 +78,13 @@ Retrieve a street image at a specified `centerPoint` using the parameters `zoomL
 Either use a *structured* URL:
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}?heading={heading}&pitch={pitch}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}?heading={heading}&pitch={pitch}&key={BingMapsKey}
 ```
 
 Or, use an *unstructured* URL:
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}?zoomLevel={zoomLevel}&heading={heading}&pitch={pitch}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}?zoomLevel={zoomLevel}&heading={heading}&pitch={pitch}&key={BingMapsKey}
 ```
 
 ### Get Streetside images at a specified address
@@ -92,7 +92,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/Streetside/{centerPoint}?zoomLe
 Retrieve a street image at a specified address.
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}?zoomlevel=0&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}?zoomlevel=0&key={BingMapsKey}
 ```
 
 If Streetside imagery is not available for this address, or if the REST Locations call for it does not contain both rooftop and routable (usage type: Route) coordinates, it will return 404 not found error. 
@@ -204,7 +204,7 @@ Static images are returned in one of the following formats. You can specify the 
  This example gets a Road map with building footprints along with a pushpin based on a specified center point at zoom level 18.
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?mapSize=500,500&pp=47.645523,-122.139059;66&mapLayer=Basemap,Buildings&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?mapSize=500,500&pp=47.645523,-122.139059;66&mapLayer=Basemap,Buildings&key={BingMapsKey}
 ```  
   
  This example returns the following image.  
@@ -216,7 +216,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.645523,-122.139059/18?m
  This example gets a map with road imagery based on a query result Bellevue, Washington. Traffic flow is also included on the map.  
   
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?mapLayer=TrafficFlow&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?mapLayer=TrafficFlow&key={BingMapsKey}  
 ```  
   
  This example returns the following image.  
@@ -228,7 +228,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Bellevue%20Washington?mapL
 This example gets a map with aerial imagery and labels based on a query result for the Eiffel Tower in Paris. The map has a width of 500 pixels and height of 400 pixels.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/eiffel%20tower?mapSize=500,400&key={BingMapsAPIKey} 
+https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/eiffel%20tower?mapSize=500,400&key={BingMapsKey} 
 ```  
   
  This example returns the following image.  
@@ -240,7 +240,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/eiffel%20tower
 This example creates a map with road imagery and places pushpins on the Space Needle, the Pacific Science Center, and the Olympic Sculpture Park in Seattle. The `centerPoint` of the map is set to 47.619048 degrees latitude and -122.35384 degrees longitude. The `zoomLevel` is set to 15.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&key={BingMapsKey}  
 ```  
   
  This example returns the following image.  
@@ -252,7 +252,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?ma
  This example specifies the same map parameters as the previous example and adds the mapMetadata parameter to get the map metadata. Map metadata includes the map size, area and center point and the position and size of the pushpins. To see the XML and JSON responses for this request and for descriptions of the metadata information, see [Static Map Data](static-map-data.md).  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsKey}
 ```  
   
 ### Get a map with Road imagery and declutter overlapping pushpins
@@ -260,7 +260,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?ma
  This example creates a map with road imagery and specifies two pushpins that are located very close together. The `declutterPins` (`dcl`) parameter is set so that the pushpins both appear separately. If the `declutterPins` parameter were not set, the pushpins would overlap. Maps for both cases are shown below.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.6156352,-122.2043549/12?pp=47.6156352,-122.2043549;;1&pp=47.612441,-122.204533;;2&dcl=1&key=BingMapsAPIKey  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.6156352,-122.2043549/12?pp=47.6156352,-122.2043549;;1&pp=47.612441,-122.204533;;2&dcl=1&key={BingMapsKey}  
 ```  
   
  This example returns the following image.  
@@ -276,7 +276,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.6156352,-122.2043549/12
  This example creates a map with aerial imagery with labels and specifies 5 pushpins. Because a map area or center point is not specified, a map area is chosen that best shows all of the pushpins. The map is optimized to fit the pushpins.
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels?pp=40.804000,-74.464460;;1&pp=40.815180,-74.219250;;2&pp=40.881210,-74.168020;;3&pp=40.810830,-74.260250;;4&pp=40.851800,-74.299900;;5&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels?pp=40.804000,-74.464460;;1&pp=40.815180,-74.219250;;2&pp=40.881210,-74.168020;;3&pp=40.810830,-74.260250;;4&pp=40.851800,-74.299900;;5&key={BingMapsKey}  
 ```  
   
  This example returns the following image.  
@@ -288,7 +288,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels?pp=40.804000,-
  This example gets a map of the specified area that shows road imagery with traffic flow. The map shows the San Francisco metropolitan area and pushpins identify the location of Stanford University and the University of California at Berkeley.  
   
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/road?mapArea=37.317227,-122.318439,37.939081,-122.194565&ms=500,600&pp=37.869505,-122.2705;35;BK&pp=37.428175,-122.169680;;ST&ml=TrafficFlow&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/V1/Imagery/Map/road?mapArea=37.317227,-122.318439,37.939081,-122.194565&ms=500,600&pp=37.869505,-122.2705;35;BK&pp=37.428175,-122.169680;;ST&ml=TrafficFlow&key={BingMapsKey}  
 ```  
   
  This example returns the following image.  
@@ -300,7 +300,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/road?mapArea=37.317227,-122.318
  This example gets a map with road imagery that displays a driving route between the cities of Seattle and Redmond in Washington State.  Custom icons 64 and 66 are chosen to display the endpoints which are identified as “1” and “2”.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key={BingMapsAPIKey}   
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key={BingMapsKey}   
 ```  
   
  This example returns the following image.  
@@ -312,7 +312,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Seattle,WA;64;
  This example uses a center point and zoom level to get a map that shows the end of the route between Seattle and Redmond from the previous example. The center point is the latitude and longitude coordinates of Redmond. You can use the [Find a Location by Address](../locations/find-a-location-by-address.md) API to get the latitude and longitude coordinates of a location.  
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13099449872971/14/Routes? wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13099449872971/14/Routes? wp.0=Seattle,WA;64;1&wp.1=Redmond,WA;66;2&key={BingMapsKey}
 ```  
   
  This example returns the following image.  
@@ -326,7 +326,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.678559869527817,-122.13
  View of the complete transit route.  
   
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Routes/Transit?wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&timeType=Departure&dateTime=3:00:00PM&output=xml&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Routes/Transit?wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&timeType=Departure&dateTime=3:00:00PM&output=xml&key={BingMapsKey}
 ```
 
   ![Shows a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpoints.png)
@@ -334,7 +334,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/Routes/Transit?wp.0=Space%
  View the start of the transit route by specifying a center point and zoom level. The center point for this map is the coordinates for the Space Needle that are returned in the response when you request a transit route by using the c[Calculate a Route](../routes/calculate-a-route.md) API. This map includes a walking route that is shown by a dotted line.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.620495,-122.34931/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.620495,-122.34931/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsKey}
 ```
 
  ![Shows starting point of a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpointsStartingPoint.png)
@@ -342,7 +342,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.620495,-122.34931/15/Ro
  View the end of the transit route by specifying a center point and zoom level. The center point for this map is the coordinates of the Bellevue Downtown Park in that is returned in the response when you request a transit route by using the [Calculate a Route](../routes/calculate-a-route.md) API. This map includes a walking route that is shown by a dotted line.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Routes/Transit?timeType=Departure&dateTime=3:00:00PM&wp.0=Space%20Needle&wp.1=Bellevue%20Downtown%20Park&key={BingMapsKey}  
 ```  
   
   ![Shows ending point of a transit route on a static map](../media/SeattleCenteryRoadRouteZoomEndpointsEndingPoint.png)
@@ -352,7 +352,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.615635,-122.20435/15/Ro
 This example gets a Bird's Eye map with a West orientation (dir=270) at zoom level 20. The map has a width of 900 pixels and a height of 700 pixels.
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Birdseye/37.802297,-122.405844/20?dir=270&ms=900,700&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Birdseye/37.802297,-122.405844/20?dir=270&ms=900,700&key={BingMapsKey}
 ```
 
 This example returns the following image.
@@ -366,7 +366,7 @@ The following URL request gets an image of Bergen Place in Ballard, Seattle, wit
 If you examine the response headers, you'll find that `X-VE-SS-CaptureDate` is set to `Wed, 16 Jul 2014 17:13:06 GMT`.
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=350,350&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/47.668687,-122.384795?zoomlevel=5&heading=145&pitch=5&mapSize=350,350&key={BingMapsKey}
 ```
 
 ![Street View of Ballard](../media/BallardStreetImage.jpg)
@@ -378,7 +378,7 @@ The following example shows how to request a static map by using the HTTP POST m
 **HTTP POST URL**
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/?key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/?key={BingMapsKey}  
 ```  
   
 **HTTP POST Header**  
@@ -419,7 +419,7 @@ pp=38.890479451480054,-77.04744637012482;1;VM&pp=38.8896854931628,-77.0351940393
  This example shows a map of Trafalgar Square in Great Britain using Ordnance Survey imagery. The static map is returned in JPEG format. If this image format were not specified in the URL, the static map would be returned in the default PNG format.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/51.506666,-0.129436/15?ml=OrdnanceSurvey&format=jpeg&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/51.506666,-0.129436/15?ml=OrdnanceSurvey&format=jpeg&key={BingMapsKey}
 ```  
   
  This example returns the following image.  
@@ -431,7 +431,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/51.506666,-0.129436/15?ml=
  This example shows a map using the `HighlightEntity` (he=1) parameter with a value of `admindivision1` to show a map with a polygon for Washington State. The latitude and longitude is a point that is within the entity that you want to highlight.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Washington%20State?ms=500,270&c=en-US&he=1&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Washington%20State?ms=500,270&c=en-US&he=1&key={BingMapsKey}
 ```  
   
  This example returns the following image.  
@@ -441,7 +441,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Washington%20State?ms=500,
  This example shows a map using the `HighlightEntity` (`he=1`) parameter with a value of `PopulatedPlace` to show a map with a polygon for the city of Redmond. The latitude and longitude is a point that is within the entity that you want to highlight.  
   
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Redmond Washington?ms=500,270&zl=12&&c=en-US&he=1&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Redmond Washington?ms=500,270&zl=12&&c=en-US&he=1&key={BingMapsKey}
 ```  
   
  This example returns the following image.  
@@ -453,7 +453,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Redmond Washington?ms=500,
 This example draws a green circle around the Palo Alto area in California by specifying a circle with the outline line color `64009900` (dark green), the fill color `FF009900` (lime green), with an outline thickness of 2 pixels, and a radius of 50 pixels.
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=c,64009900,FF009900,2,50;37.428175,-122.16968&fmt=png&key={BingMapsAPIKey}``
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=c,64009900,FF009900,2,50;37.428175,-122.16968&fmt=png&key={BingMapsKey}``
 ```
 
 Here is the resulting PNG file:
@@ -465,7 +465,7 @@ Here is the resulting PNG file:
 This example draws an overlapping green polygon across the Bay Area in California. The `drawCurve` parameter is specified as a polygon (`p`) using the same outline and fill colors are above, using the base 64 encoding: `enc:aemcFngthVojs@asV}_GhahA{xXcw\`.
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=p,64009900,FF009900,2;enc:aemcFngthVojs@asV%7d_GhahA%7bxXcw%5C&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/10?mapSize=500,600&dc=p,64009900,FF009900,2;enc:aemcFngthVojs@asV%7d_GhahA%7bxXcw%5C&key={BingMapsKey}
 ```
 
 Here is the resulting PNG file:
@@ -475,7 +475,7 @@ Here is the resulting PNG file:
 In this example, green lines are drawn across the Bay Area; however, the endpoints of the line are encoded in plain text instead of the encoded polyline format:
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=l,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=l,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsKey}
 ```  
 
 Here is the resulting PNG image:
@@ -485,7 +485,7 @@ Here is the resulting PNG image:
 Finally, using the same coordinates as above, developers can draw curved lines by changing the first parameter of the `drawCurve` input parameters from `l` to `cv`:
 
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=cv,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/37.6288,-122.2565/9?mapSize=400,500&dc=cv,FF009900,3;37.428175,-122.16968_37.737368,-122.422845_37.869505,-122.2705&fmt=png&key={BingMapsKey}
 ```
 
 And here is the resulting PNG image:
@@ -497,7 +497,7 @@ And here is the resulting PNG image:
 Use the `pp` parameter, along with `drawCurve`, to draw pushpins on an image and join them with straight or curved lines.
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=l,,3&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=l,,3&key={BingMapsKey}
 ```
 
 Here is the resulting JPEG image:
@@ -507,7 +507,7 @@ Here is the resulting JPEG image:
 Like in the previous example, `l` in the `drawCurve` parameter can be changed to `cv` to draw curved lines:
 
 ```url
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cv,,3&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/41.03824,-100.76646/3?mapSize=500,500&pp=47.620495,-122.34931;90;&pp=41.88446,-71.23319;90&&pp=25.81692,-80.32291;90&dc=cv,,3&key={BingMapsKey}
 ```
 
 Here is the resulting JPEG image:

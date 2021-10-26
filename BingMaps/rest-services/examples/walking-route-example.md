@@ -19,7 +19,7 @@ ms.service: "bing-maps"
 This example returns a walking route from the Eiffel Tower to the Louvre Museum in Paris, France. The route is optimized for distance. Responses are shown for both XML and JSON formats.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/Walking?wp.0=Eiffel%20Tower&wp.1=louvre%20museum&optmz=distance&output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/Routes/Walking?wp.0=Eiffel%20Tower&wp.1=louvre%20museum&optmz=distance&output=xml&key={BingMapsKey}  
 ```  
   
  **JSON Response**  
