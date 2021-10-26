@@ -1,0 +1,227 @@
+### YamlMime:Landing
+
+title: Bing Maps Documentation
+summary: Microsoft Bing Maps provides developers from all industries with powerful geospatial capabilities. Those geospatial capabilities are packed with the freshest mapping data. Bing Maps is available for both web and mobile applications. Bing Maps is an Bing One API compliant set of REST APIs. The following are only a high-level overview of the services which Bing Maps offers - Maps, Search, Routing, Traffic, Weather, Time Zones, Geolocation, Geofencing, Map Data, Creator, and Spatial Operations. The Web and Android SDKs make development easy, flexible, and portable across multiple platforms.
+
+metadata:
+  title:  Bing Maps Documentation | Microsoft Docs
+  description: Learn about Bing Maps and how to use it to provide geospatial services to your web or mobile application.
+  ms.service: Bing-maps
+  ms.topic: landing-page
+  author: stevemunk
+  ms.author: v-munksteve
+  ms.date: 10/26/2021
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  # Card
+  - title: About Bing Maps
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Getting Started with Bing Maps
+            url: getting-started.md
+      - linkListType: concept
+        links:
+          - text: Understanding Bing Maps Transactions
+            url: /getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions.md
+      - linkListType: how-to-guide
+        links:
+          - text: Create a Bing Maps Account
+            url: /getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account.md
+          - text: Get a Bing Maps Key
+            url: /getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md
+          - text: Updating Your Bing Maps Account
+            url: /getting-started/bing-maps-dev-center-help/updating-your-bing-maps-account.md
+
+  # Card
+  - title: Bing Maps V8 Web Control
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Bing Maps V8 Web Control
+            url: v8-web-control.md
+      - linkListType: concept
+        links:
+          - text: Map Control Concepts
+            url: /v8-web-control/map-control-concepts
+      - linkListType: how-to-guide
+        links:
+          - text: How to articles
+            url: /v8-web-control/articles
+      - linkListType: reference
+        links:
+          - text: Map Control API Reference
+            url: /v8-web-control/map-control-api/
+          - text: The web control modular framework
+            url: /v8-web-control/modules/
+          - text: Developer Resources
+            url: /v8-web-control/developer-resources.md
+          - text: Supported Browsers
+            url: /v8-web-control/supported-browsers.md
+
+  # Card
+  - title: Bing Maps REST Services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: REST Services section overview
+            url: /rest-services/
+      - linkListType: concept
+        links:
+          - text: Getting started with REST Services
+            url: /rest-services/getting-started-with-the-bing-maps-rest-services.md
+      - linkListType: how-to-guide
+        links:
+          - text: Getting Traffic Incident Data
+            url: /rest-services/getting-traffic-incident-data.md
+          - text: Using the REST Services with .NET
+            url: /rest-services/using-the-rest-services-with-net.md
+          - text: Geocode and reverse-geocode location data
+            url: /rest-services/locations/
+          - text: Get elevation information
+            url: /rest-services/elevations/
+          - text: The Imagery API
+            url: /rest-services/imagery/
+          - text: Directions and route information
+            url: /rest-services/routes/
+          - text: Information about traffic incidents
+            url: /rest-services/traffic/
+          - text: Get a list of autosuggested entities from a user's query
+            url: /rest-services/autosuggest.md
+          - text: The Time Zone API
+            url: /rest-services/timezone/
+          - text: The Time Zone API
+            url: /rest-services/timezone/
+      - linkListType: reference
+        links:
+          - text: Common Parameters and Types
+            url: /rest-services/common-parameters-and-types/
+          - text: Common Response Description
+            url: /rest-services/common-response-description.md
+          - text: Status Codes and Error Handling
+            url: /rest-services/status-codes-and-error-handling.md
+          - text: REST Developer Resources
+            url: /rest-services/developer-resources.md
+
+  # Card
+  - title: Bing Spatial Data Services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Bing Spatial Data Services
+            url: /spatial-data-services/
+      - linkListType: concept
+        links:
+          - text: Geocode and Data Source Limits
+            url: /spatial-data-services/geocode-and-data-source-limits.md           
+      - linkListType: how-to-guide
+        links:
+          - text: Get Job List
+            url: /spatial-data-services/get-job-list.md
+          - text: Geocode Dataflow API
+            url: /spatial-data-services/geocode-dataflow-api/
+          - text: Data Source Management API
+            url: /spatial-data-services/data-source-management-api/
+          - text: Query API
+            url: /spatial-data-services/query-api/
+          - text: Geodata API
+            url: /spatial-data-services/geodata-api.md
+      - linkListType: reference
+        links:
+          - text: Status Codes and Error Handling
+            url: /spatial-data-services/status-codes-and-error-handling.md
+          - text: Spatial Data Services Developer Resources
+            url: /spatial-data-services/developer-resources.md
+
+  # Card
+  - title: Bing Maps SDK for Android and iOS
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: SDK for Android and iOS
+            url: /sdk-native/
+      - linkListType: concept
+        links:
+          - text: Map Control Concepts
+            url: sdk-native/map-control-concepts/
+      - linkListType: how-to-guide
+        links:
+          - text: Getting Started with Android
+            url: /sdk-native/getting-started-android/
+          - text: Getting Started with iOS
+            url: /sdk-native/getting-started-ios/
+      - linkListType: reference
+        links:
+          - text: Map Control API Reference
+            url: /sdk-native/map-control-api/
+          - text: MapServices API Reference
+            url: /sdk-native/map-services-api/
+
+  # Card
+  - title: Bing Maps articles
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Articles that provide background and cross-API information for Bing Maps APIs
+            url: /articles/
+
+  # Card
+  - title: Windows UWP map control
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Maps and location overview
+            url: /sdk-native/
+
+  # Card
+  - title: Bing Maps WPF Control
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Bing Maps WPF Control
+            url: /previous-versions/bing/wpf-control
+
+  # Card
+  - title: Bing Maps Coverage
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Geographic Coverage
+            url: /coverage/geographic-coverage.md
+          - text: Transit Coverage
+            url: /coverage/transit-coverage
+
+  # Card
+  - title: Bing Maps Licensing
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Bing Maps Licensing
+            url: https://www.microsoft.com/maps/licensing
+
+  # Card
+  - title: Bing Maps blogs
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Microsoft Bing blogs
+            url: https://blogs.bing.com/maps/
+
+  # Card
+  - title: Bing Maps Support
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Bing Maps Support
+            url: https://www.microsoft.com/maps/support
+            
+  # Card
+  - title: Open Source Map Projects
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Microsoft Open Source Map Projects
+            url: https://github.com/Microsoft/Maps
