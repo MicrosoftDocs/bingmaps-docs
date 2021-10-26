@@ -11,7 +11,8 @@ ms.service: bing-maps
 # Map Control API Reference
 
 > [!Note]
-> In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.  
+> In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.
+> 
 > In iOS APIs, all nullability annotations are explicit.
 
 ## Classes
