@@ -64,7 +64,7 @@ http://dev.virtualearth.net/REST/v1/Locations?query={locationQuery}&includeNeigh
 >   
 >  Parameters are not case-sensitive.  
 >   
->  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
+>  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   
 
 |Parameters|Alias|Description|Values|  

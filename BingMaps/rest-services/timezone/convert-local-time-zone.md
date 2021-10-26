@@ -36,7 +36,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/Convert/?datetime={datetime_utc}&d
 |Parameters |Alias  |Descriptions  |Values |
 |:------|:----:|---------|---------|
 |`dateTime` |`dt`| **Required.** The UTC date time string for the specified location. The date must be specified to apply the correct DST.| The date time string must be in UTC format. If the date is not included, the returned time zone information may be incorrect.<br /><br />*Example*: `2018-05-15T13:14:15Z` |
-|`desttz` | |  **Required**. The ID of the destination time zone.<br /><br />The value of `datetime` will be converted to the local time of this time zone. | Any valid [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) time zone name.<br /><br />*Examples*:<br /><br />- `Americas/LosAngeles`<br />- `Cape Verde Standard Time`|
+|`desttz` | |  **Required**. The ID of the destination time zone.<br /><br />The value of `datetime` will be converted to the local time of this time zone. | Any valid [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) time zone name.<br /><br />*Examples*:<br /><br />- `Americas/LosAngeles`<br />- `Cape Verde Standard Time`|
 |`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](time-zone-data.md). | Either `true` or `false`.<br /><br />Default: `false` |
 |`output`|`o`|**Optional.** Output format of the response.|Format of the response:<br/><br/>- `JSON`<br />- `XML`<br /><br />Default: `JSON`|
 

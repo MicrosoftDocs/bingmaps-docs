@@ -15,7 +15,7 @@ ms.service: "bing-maps"
 
 # List Time Zones
 
-The list operation retrieves all available time zone data for either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) time zone standard. Additionally, information about any particular time zone can be retrieved using the ID for that time zone formatted in either the IANA or Windows time zone standard.
+The list operation retrieves all available time zone data for either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) time zone standard. Additionally, information about any particular time zone can be retrieved using the ID for that time zone formatted in either the IANA or Windows time zone standard.
 
 ## API Templates
 
@@ -25,7 +25,7 @@ The list operation retrieves all available time zone data for either the [IANA](
 
 ### Get a Full List of Time zones for a Given Standard (Windows or IANA)
 
-The Time Zone API list operation returns a complete list of time zone information for either the [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone standard. In the request URL specify `timezonestandard = WINDOWS` or `timezonestandard = IANA` to retrieve a list of Windows or IANA Time Zone information, respectively.
+The Time Zone API list operation returns a complete list of time zone information for either the [Microsoft Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone standard. In the request URL specify `timezonestandard = WINDOWS` or `timezonestandard = IANA` to retrieve a list of Windows or IANA Time Zone information, respectively.
 
 ```url
 https://dev.virtualearth.net/REST/v1/TimeZone/List/?timezonestandard={IANA_or_Windows}&key={BingMapsAPIKey}
@@ -33,7 +33,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/List/?timezonestandard={IANA_or_Wi
 
 ### Time Zone from Time Zone ID (Windows or IANA)
 
-Given a specified Time Zone ID in either the [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone format, e.g. `desttz = America/los_angeles`, the Time Zone API returns information about that time zone.
+Given a specified Time Zone ID in either the [Microsoft Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) or [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Time Zone format, e.g. `desttz = America/los_angeles`, the Time Zone API returns information about that time zone.
 
 ```url
 https://dev.virtualearth.net/REST/v1/TimeZone/?desttz={time_zone_id}&key={BingMapsAPIKey}
@@ -44,7 +44,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?desttz={time_zone_id}&key={BingMa
 
 |Parameters |Alias  |Descriptions  |Values |
 |:------|:----:|---------|---------|
-|`desttz` | |  **Required for getting Time Zone by Local Time Zone ID**. The ID of the destination time zone.| Any valid [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows time zone ID](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values).<br /><br />*Examples*:<br /><br />- `Americas/LosAngeles`<br />- `Cape Verde Standard Time`|
+|`desttz` | |  **Required for getting Time Zone by Local Time Zone ID**. The ID of the destination time zone.| Any valid [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows time zone ID](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values).<br /><br />*Examples*:<br /><br />- `Americas/LosAngeles`<br />- `Cape Verde Standard Time`|
 |`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](time-zone-data.md). | Either `true` or `false`.<br /><br />Default: `false` |
 |`timezonestandard` | `tzstd` | **Required for using the List operation.** Name of the time zone standard. |  One of the following values must be specified:<br /><br />- `IANA`<br />- `Windows`<br /><br />|
 |`output`|`o`|**Optional.** Output format of the response.|Format of the response:<br/><br/>- `JSON`<br />- `XML`<br /><br />Default: `JSON`|
@@ -58,7 +58,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?desttz={time_zone_id}&key={BingMa
 
 Detailed information about Time Zone API responses can be found at [Time Zone Data](time-zone-data.md).
 
-Successful calls to Time Zone API with the ist operation return a list of [TimeZone Resources](time-zone-data.md) with complete information about either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Microsoft Windows](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values) Time Zone standard.
+Successful calls to Time Zone API with the ist operation return a list of [TimeZone Resources](time-zone-data.md) with complete information about either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Microsoft Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) Time Zone standard.
 
 If applicable, daylight savings information is included separately in the [ConvertedTime Resource](time-zone-data.md) and [DSTRule Resource](time-zone-data.md) fields of the response. 
 

@@ -24,7 +24,7 @@ Load Data Source Dataflow API to create a data source that contains entity data 
   
 -   Make your data source public.  
   
- You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to create or update a data source. The Bing Maps Account Center also offers the option to geocode address data on upload. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/en-us/library/hh698204.aspx).  
+ You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to create or update a data source. The Bing Maps Account Center also offers the option to geocode address data on upload. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/library/hh698204.aspx).  
   
  **Before using this API, review the [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).**  
   

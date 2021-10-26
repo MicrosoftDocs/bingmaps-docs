@@ -137,7 +137,7 @@ ms.date: "02/28/2018"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)">
+                            <a href="https://docs.microsoft.com/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -251,7 +251,7 @@ ms.date: "02/28/2018"
 							</a>
 						</li>
 						<li>
-							<a href="https://www.microsoft.com/en-us/maps/support">
+							<a href="https://www.microsoft.com/maps/support">
 							<div class="cardSize">
 								<div class="cardPadding">
 									<div class="card">

@@ -137,7 +137,7 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
 |PopulationClass|string|The approximate population within this entity.<br /><br /> **Example**: PopClass20000to99999|  
   
 ### Decompression Algorithm  
- The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](https://msdn.microsoft.com/en-us/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
+ The point compression algorithm used to generate each compressed polygon ring string is documented in [Point Compression Algorithm](https://msdn.microsoft.com/library/jj158958.aspx). To retrieve the points that make up the polygon, use the following decompression algorithm.  
   
 ```csharp
 public const string safeCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";  
@@ -243,7 +243,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
           </d:Primitive>  
         </d:Primitives>  
         <d:Copyright m:type="Entity.Copyright">  
-          <d:CopyrightURL>http://windows.microsoft.com/en-us/windows-live/about-bing-data-suppliers</d:CopyrightURL>  
+          <d:CopyrightURL>http://windows.microsoft.com/windows-live/about-bing-data-suppliers</d:CopyrightURL>  
           <d:Sources m:type="Collection(Entity.Copyright.Source)">  
             <d:Source m:type="Entity.Copyright.Source">  
               <d:SourceID m:type="Edm.Byte">8</d:SourceID>  
@@ -286,7 +286,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
                }  
             ],  
             "Copyright":{  
-               "CopyrightURL":"http:\/\/windows.microsoft.com\/en-us\/windows-live\/about-bing-data-suppliers",  
+               "CopyrightURL":"http:\/\/windows.microsoft.com\\/windows-live\/about-bing-data-suppliers",  
                "Sources":[  
                   {  
                      "SourceID":"8",  
@@ -323,7 +323,7 @@ B2RM-0iB4tb93CF12B0qCD3vBu6Bo ...
           </d:Primitive>  
         </d:Primitives>  
         <d:Copyright m:type="Entity.Copyright">  
-          <d:CopyrightURL>http://windows.microsoft.com/en-us/windows-live/about-bing-data-suppliers</d:CopyrightURL>  
+          <d:CopyrightURL>http://windows.microsoft.com/windows-live/about-bing-data-suppliers</d:CopyrightURL>  
           <d:Sources m:type="Collection(Entity.Copyright.Source)">  
             <d:Source m:type="Entity.Copyright.Source">  
               <d:SourceID m:type="Edm.Byte">8</d:SourceID>  
