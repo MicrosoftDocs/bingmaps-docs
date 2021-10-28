@@ -20,13 +20,13 @@ This example makes an asynchronous truck routing request for a truck that is tra
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key={BingMapsKey}
 ```
 
 **HTTP POST Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key={BingMapsKey}
 ```
 
 *HTTP POST Header*
@@ -112,7 +112,7 @@ When making an asynchronous request to the truck routing service the initial res
 HTTP GET Request URL
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key={BingMapsKey}
 ```
 
 **JSON Response**

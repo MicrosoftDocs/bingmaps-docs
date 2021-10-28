@@ -195,7 +195,7 @@ If you don’t want to provide all of the information required by the Address me
  **Listing 7 - URI format for geocoding by query**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/locationQuery?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/locationQuery?key={BingMapsKey}  
 ```  
   
  Assuming you obtained a query string from the user (using a similar form field as the ones shown in Listing 1) you could construct a Locations API query request in PHP as shown in Listing 8.  
@@ -233,7 +233,7 @@ You can use the Locations API to reverse geocode an address from a point as well
  **Listing 9 - URI format for reverse geocoding by point**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/point?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/point?key={BingMapsKey}  
 ```  
   
  The *point* must be specified as a pair of latitude and longitude coordinates, separated by a comma. You could use the following PHP code to perform a reverse geocode request (we are hardcoding the point here, but generally this would come from a data source of some kind):  
@@ -283,7 +283,7 @@ We will begin this example by assuming that you have used the Locations API to g
  **Listing 11 - General URI format for requesting a map from the Imagery API, using a center point**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel=zoomLevel&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&key=BingMapsKey
+http://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel=zoomLevel&mapSize=mapSize&pushpin=pushpin&mapLayer=mapLayer&key={BingMapsKey}
 ```  
   
  A brief description of the parameters for this URI follows:  
@@ -351,7 +351,7 @@ The Bing Maps Routes API is a REST web service that allows you to get routing in
  **Listing 13 - General URI format for accessing the Routes API**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPoint2&wayPoint.n=wayPointn&optimize=optimize&routePathOutput=routePathOutput&distanceUnit=distanceUnit&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=wayPoint1&waypoint.2=wayPoint2&wayPoint.n=wayPointn&optimize=optimize&routePathOutput=routePathOutput&distanceUnit=distanceUnit&key={BingMapsKey}  
 ```  
   
  For this example, we will obtain a route from the Routes API that includes only two waypoints: an origin and a destination. We will specify both of these points as addresses, which we can obtain from the user using a simple form like the one shown in Listing 14.  

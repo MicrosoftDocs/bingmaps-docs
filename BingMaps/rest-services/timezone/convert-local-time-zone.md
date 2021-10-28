@@ -28,7 +28,7 @@ The Bing Maps Time Zone API performs time zone conversions. Given any datetime v
 Converts a datetime value in UTC format to local time in the specified time zone. The date component is used to determine the correct day light saving settings. 
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/Convert/?datetime={datetime_utc}&desttz={timezoneid}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/TimeZone/Convert/?datetime={datetime_utc}&desttz={timezoneid}&key={BingMapsKey}
 ```
 
 ## API Parameters
@@ -66,7 +66,7 @@ Notice that there are two separate XML fields containing the DST information. Th
 The URL request:
 
 ```url
-https://dev.virtualearth.net/REST/v1/timezone/convert/?datetime=2018-05-15T13:14:15Z&desttz=america/Los_Angeles&o=xml&includeDstRules=true&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/timezone/convert/?datetime=2018-05-15T13:14:15Z&desttz=america/Los_Angeles&o=xml&includeDstRules=true&key={BingMapsKey}
 
 ```
 
