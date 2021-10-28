@@ -53,7 +53,7 @@ http://spatial.virtualearth.net/REST/v1/dataflows/listjobs?key=AccountBingMapsKe
  **Get a list of all dataflow and data source jobs that were submitted in the last 15 days.**  
   
 ```url
-http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key=BingMapsKey  
+http://spatial.virtualearth.net/REST/v1/Dataflows/ListJobs?key={BingMapsKey}  
 ```  
   
  **JSON Response**  

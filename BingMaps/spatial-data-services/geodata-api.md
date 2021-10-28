@@ -29,13 +29,13 @@ Use the following URLs to request a set of polygons that describe the boundaries
  **Get the set of boundary polygons for an entity that contains the specified latitude and longitude.**  
   
 ```url
-http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(latitude,longitude,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
+http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(latitude,longitude,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key={BingMapsKey}  
 ```  
   
  **Get the set of boundary polygons for an entity that contains the specified address string. The address is geocoded to get a corresponding latitude and longitude.**  
   
 ```url
-http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(address,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key=BingMapsKey  
+http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary(address,levelOfDetail,entityType,getAllPolygons,getEntityMetadata,culture,userRegion)&PreferCuratedPolygons=preferCuratedPolygons&$format=responseFormat&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -212,7 +212,7 @@ private static bool TryParseEncodedValue(string value, out List<Location> parsed
 **EXAMPLE:** Get polygons that make up the PostCode1 entity that contains the coordinates (47.64054,-122.12934). Metadata is also requested.  
   
 ```url
-https://platform.bing.com/geo/spatial/v1/public/geodata?spatialFilter=GetBoundary(47.64054,-122.12934,1,'PostCode1',1,1,'en','us')&key=BingMapsKey  
+https://platform.bing.com/geo/spatial/v1/public/geodata?spatialFilter=GetBoundary(47.64054,-122.12934,1,'PostCode1',1,1,'en','us')&key={BingMapsKey}  
 ```  
   
  URL with ATOM response  

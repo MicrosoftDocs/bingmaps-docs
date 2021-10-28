@@ -26,7 +26,7 @@ Use output parameters to specify the output of the request.
 This example returns the template that you can use to build a map that shows roads. The output is requested in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?output=xml&key={BingMapsKey}  
 ```
   
 This example returns the following response. The URL template is provided by the ImageURL element.  
@@ -65,7 +65,7 @@ This example returns the following response. The URL template is provided by the
 This example gets a JSON object and specifies a callback function and a state parameter value.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?output=json&jsonp=MyCallbackFunction&jsonso=abc3144sd&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?output=json&jsonp=MyCallbackFunction&jsonso=abc3144sd&key={BingMapsKey}  
 ```
   
 For this example, the body of the response contains the following function call.  

@@ -21,13 +21,13 @@ The Bing Maps REST Services are all called by using the following base formats.
 ## HTTP protocol
 
 ```url
-http://dev.virtualearth.net/REST/version/restApi/resourcePath?queryParameters&key=BingMapsKey  
+http://dev.virtualearth.net/REST/version/restApi/resourcePath?queryParameters&key={BingMapsKey}  
 ```
 
 ## HTTPS protocol  
 
 ```url
-https://dev.virtualearth.net/REST/version/restApi/resourcePath?queryParameters&key=BingMapsKey  
+https://dev.virtualearth.net/REST/version/restApi/resourcePath?queryParameters&key={BingMapsKey}  
 ```
 
 ## Template Parameters  
@@ -49,5 +49,5 @@ https://dev.virtualearth.net/REST/version/restApi/resourcePath?queryParameters&k
  The following example request specifies to use version one (`v1`) of the Bing Maps REST Services to find location information for the city of Seattle. The information will be returned in an XML format.  
 
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?q=seattle&output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?q=seattle&output=xml&key={BingMapsKey}  
 ```

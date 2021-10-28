@@ -53,7 +53,7 @@ The following examples show the metadata that is returned for a static map. The 
 The following URL gets static map metadata for the map image. The map image is not returned with static map metadata. XML and JSON static metadata responses are shown below.  
   
 ```url  
-http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/47.619048,-122.35384/15?mapSize=500,500&pp=47.620495,-122.34931;21;AA&pp=47.619385,-122.351485;;AB&pp=47.616295,-122.3556;22&mapMetadata=1&o=xml&key={BingMapsKey}  
 ```  
  
 ![CenterPoint and ZoomLevel Static Map Example](../media/SeattleCenteryRoadPoint.png)

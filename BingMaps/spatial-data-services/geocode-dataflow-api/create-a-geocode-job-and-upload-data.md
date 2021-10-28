@@ -33,7 +33,7 @@ Use the following URL to upload a set of spatial data and to create a job to geo
  The data that you upload can contain both data to geocode and data to reverse geocode. The geocode process detects the type of data for each entry and performs the appropriate action.  
   
 ```url
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=output&dataLocation=dataLocation&key=BingMapsKey  
+http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=output&dataLocation=dataLocation&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -67,7 +67,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=input&output=out
  This example creates a geocode job for spatial data that is provided in an xml format.  
   
 ```url
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key=BingMapsKey  
+http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?input=xml&key={BingMapsKey}  
 ```  
 
 ## Response

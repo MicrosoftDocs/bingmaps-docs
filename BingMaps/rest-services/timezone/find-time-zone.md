@@ -31,7 +31,7 @@ There are two Time Zone API operations to retrieve time zone information for a l
 Given a specified point of latitude and longitude coordinates, like `point = 47,-122`, the Time Zone API returns information about the time zone for that location.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/{point}?datetime={datetime_utc}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/TimeZone/{point}?datetime={datetime_utc}&key={BingMapsKey}
 ``` 
 
 ### Time Zone from Location Name
@@ -41,7 +41,7 @@ Given a query for a location, like `query = Bellevue, WA`, the Time Zone API fin
 To avoid ambiguity when processing location names, make sure to fully qualify the location name with state (administrative region) and country names.
 
 ```url
-https://dev.virtualearth.net/REST/v1/TimeZone/?query={query}&datetime={datetime_utc}&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/TimeZone/?query={query}&datetime={datetime_utc}&key={BingMapsKey}
 ```
 
 ## Template Parameters
@@ -138,7 +138,7 @@ This example sends a request with a point in Alaska to the Time Zone API. It ret
 The URL request: 
 
 ```url
-https://dev.virtualearth.net/REST/v1/timezone/61.768335,-158.808765?key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/timezone/61.768335,-158.808765?key={BingMapsKey}
 ```
 
 JSON response:
@@ -188,7 +188,7 @@ This example sends a request with the query “Bellevue, WA” and returns an XM
 The request URL:
 
 ```url
-https://dev.virtualearth.net/REST/v1/timezone/?query=bellevue,%20wa&output=xml&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/v1/timezone/?query=bellevue,%20wa&output=xml&key={BingMapsKey}
 ```
 
 XML Response:

@@ -72,7 +72,7 @@ A set of Route resources that contain route information from major roads is retu
  This example returns starting points for routes from major roads for the specified street address. The `exclude=routes` parameter is specified so that only the starting points of the major routes are returned. If you do not include this parameter, detailed route instructions are also provided in the response.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20Way%20Redmond%20WA%2098052&exclude=routes&output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20Way%20Redmond%20WA%2098052&exclude=routes&output=xml&key={BingMapsKey}  
 ```  
   
  **XML response**  
@@ -209,7 +209,7 @@ http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=1%20Microsoft%20W
  This example returns routes to Spokane, Washington from major roads.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&output=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/Routes/FromMajorRoads?dest=Spokane%20WA&output=xml&key={BingMapsKey}  
 ```  
   
  **XML response**  

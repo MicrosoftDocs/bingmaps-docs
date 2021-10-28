@@ -204,7 +204,7 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
  The following example queries for congestion type traffic incidents (t=9) that are minor or moderate in severity (s=2,3) and that occur in the bounding box defined by the coordinates (37.0,-105.45,45.0,-94.0). Traffic location codes are requested by setting the includeLocationCodes value 'true' in the URL. The requested output format is XML.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&s=2,3&o=xml&key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&s=2,3&o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  

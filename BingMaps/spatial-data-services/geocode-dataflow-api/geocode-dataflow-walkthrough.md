@@ -161,7 +161,7 @@ from Microsoft Corporation.</Copyright>
  **URL (name=succeeded)**  
   
 ```url
-https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/succeeded?key=BingMapsKey  
+https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/succeeded?key={BingMapsKey}  
 ```  
   
  **Successful Geocode Results**  
@@ -261,7 +261,7 @@ https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d26
  **URL (name=failed)**  
   
 ```url
-https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/failed?key=BingMapsKey  
+https://spatial.virtualearth.net/REST/v1/dataflows/geocode/e14b1d9bd65c4b9d99d267bbb8102ccf/output/failed?key={BingMapsKey}  
 ```  
   
  **Failed Geocode Results**  

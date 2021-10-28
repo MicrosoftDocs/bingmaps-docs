@@ -263,13 +263,13 @@ The following shows how to synchronously calculate the truck route.
 *HTTP GET Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key={BingMapsKey}
 ```
 
 *HTTP POST Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?key={BingMapsKey}
 ```
 
 *HTTP POST Header*
@@ -305,13 +305,13 @@ The following shows how to asynchronously calculate the truck route.
 *HTTP GET Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key={BingMapsKey}
 ```
 
 *HTTP POST Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsync?key={BingMapsKey}
 ```
 
 *HTTP POST Header*
@@ -339,7 +339,7 @@ Content-Type: application/json
 Once the initial request is made a *requestId* will be returned. A *requestId* is a unique identifier for the asynchronous request. This can be used to monitor the status of the request until it is completed, at which point the response will include a *resultURl* property which the resulting truck route can be downloaded from. The following URL checks that status of an asynchronous request that has a *requestId* of "90b07189-33d8-4cbf-866a-1bd5c5b4f474".
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/TruckAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key={BingMapsKey}
 ```
 
 To view the complete XML and JSON responses, see [Truck Route Asynchronous Example](../examples/truck-route-asynchronous-example.md).
