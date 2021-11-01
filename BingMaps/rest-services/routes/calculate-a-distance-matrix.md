@@ -112,6 +112,29 @@ Retrieves a simple distance matrix for a set of origins and destinations using a
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins={lat0,long0;lat1,lon1;latM,lonM}&destinations={lat0,lon0;lat1,lon1;latN,longN}&travelMode={travelMode}&startTime={startTime}&timeUnit={timeUnit}&key={BingMapsKey}
 ```
 
+> [!TIP]
+> When retrieving a transit matrix (distance matrix using `travelMode=transit`), there are some things to note:
+>
+> * There is support for up to 3 transit legs (2 transfers), except in the United Kingdom where up to 5 transit legs (4 transfers) are supported.
+> * The estimated route duration may differ between results from the distance matrix API and using [Bing Maps](https://www.bing.com/maps). This is due to differences in how walking time is calculated. When using the distance matrix API, the total walking distance is limited to 1km, while for Bing maps it’s generally 2.5 km and in some cases as high as 5km.
+> * In some cases the transit matrix may not be generated as fast as results returned when using Bing Maps.
+
+<!--
+
+Open issues:
+
+1. Is this best shown here as a tip, or?
+
+2. "...When using the distance matrix API, the total walking distance is limited to 1km, while for Bing maps it’s generally 2.5 km and in some cases as high as 5km."
+
+    >>> `this would generally be written using numbers from the en-us locale, i.e. distance in miles and modified as needed depending on the users locale. Is this actually 0.62 miles?`
+
+3. "In some cases the transit matrix may not be generated as fast as results returned when using Bing Maps."
+
+    >>> `Would it help to explain why? If so, why?`
+
+-->
+
 **Synchronous Distance Matrix Request URL (POST)**
 
 Retrieves a simple distance matrix for a set of origins and destinations using a HTTP POST request.
@@ -265,6 +288,8 @@ The following example shows how to request a simple driving based distance matri
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&key={BingMapsKey}
 ```
+
+
 
 *HTTP POST Request URL*
 
