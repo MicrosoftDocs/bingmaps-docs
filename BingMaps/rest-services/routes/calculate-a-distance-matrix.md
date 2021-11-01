@@ -1,14 +1,16 @@
 ---
 title: "Calculate a Distance Matrix | Microsoft Docs"
-ms.date: "02/28/2018"
-ms.topic: "article"
+description: describes the Bing Maps Distance Matrix API which provides travel time and distances for a set of origins and destinations.
+ms.date: 10/22/2021
+ms.topic: article
 ms.assetid: 1b06a21d-8204-4a5a-8389-c3983bde4307
 caps.latest.revision: 15
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
+author: stevemunk
+ms.author: v-munksteve
+manager: eriklind
 ms.service: "bing-maps"
 ---
+
 # Calculate a Distance Matrix
 
 The Bing Maps Distance Matrix API provides travel time and distances for a set of origins and destinations. The distances and times returned are based on the routes calculated by the Bing Maps Route API. Times are based on predictive traffic information, depending on the start time specified in the request. Distance matrices can be calculated for driving, walking and public transit routes. This API can also generate distance matrices that optionally includes a histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
@@ -20,9 +22,9 @@ Distance matrices are used in several different types of applications. The most 
 * Calculate the difference in commute times between locations. For example: We are looking to move to a new office, what is the impact on commute times for our staff?
 * Clustering data based on travel time and distances. For example: Find all homes that are within 1 mile of a corner store.
 
-When you make a request by using one of the following URL templates, the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. If a distance matrix histogram is requested, a departure time for when in the histogram the cell it is related to will be included. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
+When you make a request by using one of the following [URL templates](#url-templates), the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. If a distance matrix histogram is requested, a departure time for when in the histogram the cell it is related to will be included. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
 
-For Calculate a Distance Matrix geographic availability, see the travelMode parameter below. 
+For Calculate a Distance Matrix geographic availability, see the travelMode parameter below.
 
 ## API Limits
 
@@ -30,28 +32,28 @@ Requests to the distance matrix API can be done in one of two ways:
 
 * Most requests can be made with a simple synchronous GET or POST request.
 
-For travel mode driving a distance matrix that has up to 2500 origins-destinations pairs can be requested for Basic Bing Maps accounts, while for Enterprise Bing Maps accounts the origin-destination pairs limit is 10000.
-For travel mode transit and walking a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
-Pairs are calculated by multiplying the number of origins, by the number of destinations. For example 10000 origin-destination pairs can be reached if you have: 1 origin, and 10000 destinations, or 100 origins and 100 destinations defined in your request.
+For travel mode driving a distance matrix that has up to 2,500 origins-destinations pairs can be requested for Basic Bing Maps accounts, while for Enterprise Bing Maps accounts the origin-destination pairs limit is 10,000.
+For travel mode transit and walking, a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
+Pairs are calculated by multiplying the number of origins, by the number of destinations. For example 10,000 origin-destination pairs can be reached if you have: 1 origin, and 10,000 destinations, or 100 origins and 100 destinations defined in your request.
 
 * More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
 
-A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 2500 origins-destinations pairs for Basic Bing Maps accounts, for Enterprise Bing Maps accounts the limit is 40000 origins-destinations pairs when the request is made asynchronously.
+A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 2,500 origins-destinations pairs for Basic Bing Maps accounts, for Enterprise Bing Maps accounts the limit is 40,000 origins-destinations pairs when the request is made asynchronously.
 The maximum time interval between the start and end time when calculating a distance matrix histogram is 7 days.
 
 ### When to use synchronous vs asynchronous requests
 
 Make synchronous request if the travel mode is driving, walking or transit and:
 
-* The total number of origins-destinations pairs is less than or equal to 2500 for Basic or 10000 for Enterprise Bing Maps accounts and no start time is specified when travel mode is driving or less than or equal to 650 for all Bing Maps accounts when travel mode is walking or transit.
+* The total number of origins-destinations pairs is less than or equal to 2,500 for Basic or 10,000 for Enterprise Bing Maps accounts and no start time is specified when travel mode is driving or less than or equal to 650 for all Bing Maps accounts when travel mode is walking or transit.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**or**
 
-* The travel mode is for driving, the number of origins-destinations pairs is less than or equal to 2500 for Basic or 10000 for Enterprise Bing Maps accounts and a start time is specified, but not an end time. This will simply return a single cell for each origin-destination pair that is calculated using predictive traffic data.
+* The travel mode is for driving, the number of origins-destinations pairs is less than or equal to 2,500 for Basic or 10,000 for Enterprise Bing Maps accounts and a start time is specified, but not an end time. This will simply return a single cell for each origin-destination pair that is calculated using predictive traffic data.
 
 Make an Asynchronous request if the travel mode is driving and:
 
-* A start time and an end time is specified and the total number of origins-destinations pairs is less than or equal to 2500 for Basic or 40000 for Enterprise Bing Maps accounts and no start time is specified.
+* A start time and an end time is specified and the total number of origins-destinations pairs is less than or equal to 2,500 for Basic or 40,000 for Enterprise Bing Maps accounts and no start time is specified.
 
 If your scenario doesn’t fit either of the parameters outlined above for synchronous and asynchronous requests, you will need to break your request up into smaller chunks. Note that transactions are based on the total number of cells in the resulting matrix and not on the number of requests, so the same number of transactions would be generated if you make two requests that generate 100 cells each or 1 request that generates 200 cells.
 
@@ -100,7 +102,7 @@ POST requests require all parameters to be passed into the body of the request a
 
 Many developers prefer the simplicity of HTTP GET requests which simply require generating a URL. However, browsers and servers have limits on the maximum length that URLs can be. Typically, it is best to keep your URLs under 2083 characters in length. With this in mind, it is recommended to only use HTTP GET requests when your request has less than a total of 50 origins and destinations.
 
-## URL Template
+## URL Templates
 
 [!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
 
@@ -219,7 +221,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 ## Template Parameters
 
 > [!NOTE]
-> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md). 
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).
 
 | Parameters | Description |
 |------------|-------------|
@@ -233,7 +235,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 | `timeUnit`       | **Optional.** The units to use for time durations in the response. One of the following values:<br/><br/> • minute \[default\]<br/> • second<br/><br/>**Example**: timeUnit=second |
 
 > [!TIP]
-> Geocode your origins and destinations ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests and reduce transactions as geocoding of origin and destinations won’t be needed. 
+> Geocode your origins and destinations ahead of time and store that information if you plan to use those locations in future requests. The Bing Maps terms of use allow the geocode result data to be stored for as long as you have a Bing Maps license. This can help speed up future requests and reduce transactions as geocoding of origin and destinations won’t be needed.
 
 ## Response
 
