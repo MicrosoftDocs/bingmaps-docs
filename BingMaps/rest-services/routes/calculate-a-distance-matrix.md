@@ -114,6 +114,14 @@ Retrieves a simple distance matrix for a set of origins and destinations using a
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins={lat0,long0;lat1,lon1;latM,lonM}&destinations={lat0,lon0;lat1,lon1;latN,longN}&travelMode={travelMode}&startTime={startTime}&timeUnit={timeUnit}&key={BingMapsKey}
 ```
 
+> [!TIP]
+> When retrieving a transit matrix (distance matrix using `travelMode=transit`), there are some things to note:
+>
+> * There is support for up to 3 transit legs (2 transfers), except in the United Kingdom where up to 5 transit legs (4 transfers) are supported.
+> * The total walking distance used during route calculations is limited to 0.62 miles (1 km).
+>
+> The estimated route duration may differ between results from the distance matrix API and using [Bing Maps](https://www.bing.com/maps). This is because Bing Maps does not have the limitation in the number of transit legs, and the total walking distance used when calculating a route in Bing Maps is generally up to 1.55 miles (2.5 km) and in some cases as much as 3.1 miles (5 km) as opposed to 0.62 miles (1 km) when using the distance matrix API.
+
 **Synchronous Distance Matrix Request URL (POST)**
 
 Retrieves a simple distance matrix for a set of origins and destinations using a HTTP POST request.
@@ -267,6 +275,8 @@ The following example shows how to request a simple driving based distance matri
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&key={BingMapsKey}
 ```
+
+
 
 *HTTP POST Request URL*
 
