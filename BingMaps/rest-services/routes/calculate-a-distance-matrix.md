@@ -116,24 +116,9 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins={lat0,long0;l
 > When retrieving a transit matrix (distance matrix using `travelMode=transit`), there are some things to note:
 >
 > * There is support for up to 3 transit legs (2 transfers), except in the United Kingdom where up to 5 transit legs (4 transfers) are supported.
-> * The estimated route duration may differ between results from the distance matrix API and using [Bing Maps](https://www.bing.com/maps). This is due to differences in how walking time is calculated. When using the distance matrix API, the total walking distance is limited to 1km, while for Bing maps it’s generally 2.5 km and in some cases as high as 5km.
-> * In some cases the transit matrix may not be generated as fast as results returned when using Bing Maps.
-
-<!--
-
-Open issues:
-
-1. Is this best shown here as a tip, or?
-
-2. "...When using the distance matrix API, the total walking distance is limited to 1km, while for Bing maps it’s generally 2.5 km and in some cases as high as 5km."
-
-    >>> `this would generally be written using numbers from the en-us locale, i.e. distance in miles and modified as needed depending on the users locale. Is this actually 0.62 miles?`
-
-3. "In some cases the transit matrix may not be generated as fast as results returned when using Bing Maps."
-
-    >>> `Would it help to explain why? If so, why?`
-
--->
+> * The total walking distance used during route calculations is limited to 0.62 miles (1 km).
+>
+> The estimated route duration may differ between results from the distance matrix API and using [Bing Maps](https://www.bing.com/maps). This is because Bing Maps does not have the limitation in the number of transit legs, and the total walking distance used when calculating a route in Bing Maps is generally up to 1.55 miles (2.5 km) and in some cases as much as 3.1 miles (5 km) as opposed to 0.62 miles (1 km) when using the distance matrix API.
 
 **Synchronous Distance Matrix Request URL (POST)**
 
