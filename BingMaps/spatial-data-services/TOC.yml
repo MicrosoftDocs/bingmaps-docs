@@ -4,8 +4,6 @@
   items:
     - name: "Getting Started"
       href: getting-started-with-the-spatial-data-services.md
-    - name: "What's New"
-      href: whats-new-in-bing-spatial-data-services.md
     - name: "Public Data Sources"
       href: public-data-sources/index.md
       maintainContext: true

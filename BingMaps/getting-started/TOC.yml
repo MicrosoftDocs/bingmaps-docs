@@ -6,8 +6,6 @@
       href: bing-maps-dev-center-help/index.md
       maintainContext: true 
       items:
-        - name: What's New
-          href: bing-maps-dev-center-help/whats-new.md
         - name: Creating A Bing Maps Account
           href: bing-maps-dev-center-help/creating-a-bing-maps-account.md
         - name: Getting A Bing Maps Key
