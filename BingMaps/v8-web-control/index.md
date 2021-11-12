@@ -1,22 +1,22 @@
 ---
 title: "Bing Maps V8 Web Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "11/05/2021"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ba311cb-baf2-4ea8-9504-040918810594
 caps.latest.revision: 17
-author: "rbrundritt"
-ms.author: "richbrun"
+author: stevemunk
+ms.author: v-munksteve
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
 # Bing Maps V8 Web Control
 
-Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping developer kit optimized for Enterprise scenarios. 
+Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping developer kit optimized for Enterprise scenarios.
 
 Area          | Description
 ------------- | ----------------------
@@ -26,7 +26,6 @@ Area          | Description
 [Modules](modules/index.md) |  Reusable components you can use, including new visualizations, data import libraries, and geospatial utilities.
 [Articles](articles/index.md) | Advanced topics and techniques you can use with the Bing Maps V8 Web Control.
 [Supported Browsers](../v8-web-control/supported-browsers.md) | A list of supported browsers for the Bing Maps V8 Web Control.
-[What's New](whats-new.md) | A list of new features that have been added to Bing Maps V8 through one of the regular updates.  
 [Developer Resources](../v8-web-control/developer-resources.md) |  Information about support resources and contact details.
 
 ## Code Optimizations in V8
@@ -42,8 +41,7 @@ In depth migration guides can be found here:
 
 Additional you can find information about discontinued Bing Maps controls [here](https://www.microsoft.com/maps/discon-control-migrat-guide.aspx).
 
-## See also:
+## See also
 
-  * [Bing Maps V8 Interactive Code Samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
-  * [Terms and Conditions](https://go.microsoft.com/fwlink?LinkID=66121)
-  
+* [Bing Maps V8 Interactive Code Samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
+* [Terms and Conditions](https://go.microsoft.com/fwlink?LinkID=66121)
