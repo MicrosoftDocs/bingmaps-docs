@@ -58,7 +58,7 @@ Displaying the default map, which includes all of the navigation functionality, 
     This will result in the browser inheriting the protocol from the website and automatically selecting HTTP or HTTPS as needed.
 
     > [!TIP]
-    > If you need to call the control without the use of cookies, use the Virtual Earth endpoint rather than the Bing endpoint. To use Virtual Earth endpoint, you would change the URLs in the above examples that start with `www.bing.com` to start with `sdk.virtualearth.net`.
+    > If you need to call the control without the use of cookies, use the Virtual Earth endpoint rather than the Bing endpoint. To use Virtual Earth endpoint, you would change the `src=` in the URLs that start with `www.bing.com` to start with `sdk.virtualearth.net`.
 
 4. In the body of the page, add a DIV element to the page to contain the map. The size of the map is defined by the height and width of the DIV element. The position of the map is set by using the "position", "top", and "left" properties. You can set these values either inline or by defining the values in a style class and then referencing that class, as follows.
 
