@@ -1,6 +1,6 @@
 ---
 ms.date: "02/28/2018"
-ms.topic: "references"
+ms.topic: "reference"
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
