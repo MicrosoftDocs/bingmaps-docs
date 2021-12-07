@@ -1,10 +1,12 @@
 ---
-ms.date: "02/28/2018"
-ms.topic: "reference"
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
-ms.service: "bing-maps"
+title: Traffic API
+description: Traffic API
+ms.date: 02/28/2018
+ms.topic: reference
+author: rbrundritt
+ms.author: richbrun
+manager: stevelom
+ms.service: bing-maps
 ---
 # Traffic API
 
