@@ -6,7 +6,6 @@ ms.date: 11/22/2021
 ms.topic: article
 author: stevemunk
 ms.author: v-munksteve
-manager: eriklind
 ms.service: bing-maps
 ---
 
@@ -18,6 +17,7 @@ This topic contains links to developer resources, support resources and contact 
 
 The following resources are available for Bing Maps developers:
 
+* [Creating a Bing Maps Account](../getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account.md)
 * [Creating a basic map control](/bingmaps/v8-web-control/creating-and-hosting-map-controls/creating-a-basic-map-control)
 * [Bing Maps V8 Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk) Provides interactive code samples that can edit and test out your own map control code.
 * [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
