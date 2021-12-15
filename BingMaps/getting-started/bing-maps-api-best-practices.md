@@ -1,6 +1,7 @@
 ---
 title: Bing Maps API Best Practices
 titleSuffix: Microsoft Bing Maps
+description: Bing Maps API Best Practices
 ms.date: 12/13/2021
 ms.topic: article
 ms.assetid: d90d6d54-9c6c-4d45-add9-b2be68dbb8e4
@@ -30,15 +31,15 @@ Includes:
   
 Includes:  
   
-1. Bing Maps V8 Web Control: Use for web applications.
+1. [Bing Maps V8 Web Control](../v8-web-control/index): Use for web applications.
   
-2. Windows 10 UWP Map control: Use for Windows 10 UWP apps that use C#, C++ or Visual Basic.
+2. [Windows 10 UWP Map control](/windows/uwp/maps-and-location/): Use for Windows 10 UWP apps that use C#, C++ or Visual Basic.
   
-3. Bing Maps WPF Control: Use for Windows Presentation Foundation (WPF) applications.
+3. [Bing Maps WPF Control](/windows/uwp/maps-and-location) ([legacy](/previous-versions/bing/wpf-control/)): Use for Windows Presentation Foundation (WPF) applications.
 
-4. Bing Maps Mobile SDK: Use for iOS and Android applications
+4. [Bing Maps Mobile SDK](../sdk-native/index): Use for iOS and Android applications
 
-5. Bing Map Unity SDK: Use Bing Maps Unity-Based, mixed reality experiences.
+5. [Bing Map Unity SDK](https://github.com/Microsoft/MapsSDK-Unity): Use Bing Maps Unity-Based, mixed reality experiences.
 
 ## Guidelines for Bing Maps services  
 
