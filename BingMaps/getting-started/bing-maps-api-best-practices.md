@@ -31,13 +31,13 @@ Includes:
   
 Includes:  
   
-1. [Bing Maps V8 Web Control](../v8-web-control/index): Use for web applications.
+1. [Bing Maps V8 Web Control](../v8-web-control/index.md): Use for web applications.
   
 2. [Windows 10 UWP Map control](/windows/uwp/maps-and-location/): Use for Windows 10 UWP apps that use C#, C++ or Visual Basic.
   
 3. [Bing Maps WPF Control](/windows/uwp/maps-and-location) ([legacy](/previous-versions/bing/wpf-control/)): Use for Windows Presentation Foundation (WPF) applications.
 
-4. [Bing Maps Mobile SDK](../sdk-native/index): Use for iOS and Android applications
+4. [Bing Maps Mobile SDK](../sdk-native/index.md): Use for iOS and Android applications
 
 5. [Bing Map Unity SDK](https://github.com/Microsoft/MapsSDK-Unity): Use Bing Maps Unity-Based, mixed reality experiences.
 
