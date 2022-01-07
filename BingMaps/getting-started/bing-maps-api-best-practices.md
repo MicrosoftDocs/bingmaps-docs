@@ -1,56 +1,59 @@
 ---
-title: "Bing Maps API Best Practices | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/07/2019"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Bing Maps API Best Practices
+titleSuffix: Microsoft Bing Maps
+description: Bing Maps API Best Practices
+ms.date: 12/13/2021
+ms.topic: article
 ms.assetid: d90d6d54-9c6c-4d45-add9-b2be68dbb8e4
 caps.latest.revision: 21
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
-ms.service: "bing-maps"
+author: stevemunk
+ms.author: v-munksteve
+ms.service: bing-maps
 ---
+
 # Bing Maps API Best Practices
 
 These best practices provide guidelines for using the Bing Maps APIs.  
   
- **Terminology**  
+#### Terminology
   
  The following terms are used in this document to represent API groups. API’s may also be called out individually.  
   
- **Bing Maps services**  
+#### Bing Maps services
   
- Includes:  
+Includes:  
   
-1.  Bing Maps REST Services: Provides geocoding, routing, elevations, imagery and traffic incident information using REST URL requests.  
+1. Bing Maps REST Services: Provides geocoding, routing, elevations, imagery and traffic incident information using REST URL requests.  
   
-2.  Bing Maps Spatial Data Services: Provides batch geocoding, spatial data source (database with spatial entities) management and data source query services using REST URL requests.  
+2. Bing Maps Spatial Data Services: Provides batch geocoding, spatial data source (database with spatial entities) management and data source query services using REST URL requests.  
   
- **Bing Maps controls**  
+#### Bing Maps controls
   
- Includes:  
+Includes:  
   
-1.  Bing Maps V8 Web Control: Use for web applications.  
+1. [Bing Maps V8 Web Control](../v8-web-control/index.md): Use for web applications.
   
-2.  Windows 10 UWP Map control: Use for Windows 10 UWP apps that use C#, C++ or Visual Basic.  
+2. [Windows 10 UWP Map control](/windows/uwp/maps-and-location/): Use for Windows 10 UWP apps that use C#, C++ or Visual Basic.
   
-3.  Bing Maps WPF Control: Use for Windows Presentation Foundation (WPF) applications.  
-  
+3. [Bing Maps WPF Control](/windows/uwp/maps-and-location) ([legacy](/previous-versions/bing/wpf-control/)): Use for Windows Presentation Foundation (WPF) applications.
+
+4. [Bing Maps Mobile SDK](../sdk-native/index.md): Use for iOS and Android applications
+
+5. [Bing Map Unity SDK](https://github.com/Microsoft/MapsSDK-Unity): Use Bing Maps Unity-Based, mixed reality experiences.
+
 ## Guidelines for Bing Maps services  
 
 Please adhere to the following guidelines when coding for Bing Maps services.  
   
 > [!TIP]
->  When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](https://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
+> When using query filters in the Bing Spatial Dara Services specific to OData services, single quotes can be escaped in a text value by using two single quotes side by side. This is particularly useful when you want to filter your data by property when if this property has a single quote in it. Please see [How to escape a single quote to be used in an OData query](https://stackoverflow.com/questions/3979367/how-to-escape-a-single-quote-to-be-used-in-an-odata-query) for more information.  
   
-### Use the Find by Query API  
+### Use the Find by Query API
+
  The Bing Maps REST Services Locations API provides options for geocoding addresses. The recommended method is to pass in addresses as single-line queries using the `Find by Query` API. This will this will help ensure that the parts of the address are correctly categorized and will probably give you the most accurate results.  
   
 > [!TIP]
->  This method will make it easier for the user as they will only need to enter the data into a single textbox rather than filling in multiple textboxes.  
+> This method will make it easier for the user as they will only need to enter the data into a single textbox rather than filling in multiple textboxes.  
   
  For more information on Bing REST Services, please see [Bing Maps REST Service Tips & Tricks](#bing-maps-rest-service-tips-and-tricks) below.  
   
@@ -74,7 +77,7 @@ Unless you are geocoding English addresses in the US you should specify a cultur
   
  Encode address and query parameters. This is especially important when working with non-English languages as special characters often will not work correctly. This is also important if you want to use an ampersand (&) in your query. By encoding an ampersand it will appear in the URL as “%26″. Here are the methods that can be used in different programming languages to encode URL parameters.  
   
-|**Language**|**Method**|**Example**|  
+| **Language**     | **Method**     | **Example**     |  
 |------------------|----------------|-----------------|  
 |**JavaScript**|[encodeURIComponent](https://www.w3schools.com/jsref/jsref_encodeURIComponent.asp)|encodeURIComponent(*query*)|  
 |**C#/VB**|[Uri](https://msdn.microsoft.com/library/system.uri.aspx)|Uri.EscapeDataString (*query*)|  
@@ -127,7 +130,7 @@ When requesting a static map image from Bing Maps the imagery service the servic
 
 If you are using the Bing Maps Rest services in conjunction with one of the Bing Maps map controls, you can significantly reduce the number of transactions your application incurs against your Bing Maps account if you request the Bing Maps key from the map control rather than using your normal Bing Maps key. This is quite often an overlooked feature. When getting the credentials from the map you do not get back your original Bing Maps key. Instead, you get a special session key which you can use as a Bing Maps key to make requests of the Bing Maps services. By doing this, all transactions incurred by this session key will be non-billable. Here are some examples of how to properly use a session key.  
   
- **Bing Maps V8 Web Control**  
+### Bing Maps V8 Web Control
   
 ```javascript
 function ClickGeocode()  
@@ -144,7 +147,7 @@ function ClickGeocode()
   
  A full working sample for the above using JavaScript can be found on MSDN in the [Geocoding a Location](https://msdn.microsoft.com/library/gg427601.aspx) page.  
   
- **Bing Maps WPF control**  
+### Bing Maps WPF control
   
 ```csharp
 Map.CredentialsProvider.GetCredentials((c) =>  
@@ -167,29 +170,30 @@ Please adhere to the following guidelines when coding for Bing Maps controls.
 When you use the Bing Maps V8 control to add maps to your application, you are charged one billable transaction per session. A session is created when you load the map control on a web page and ends when you leave that web page. If you load the map control in a separate web page, you start a new session and are charged another billable transaction. If it’s possible to not change pages and still perform the map operations you need on the same web page, you will save on transactions. For example, if you want to show a map of locations and show directions to a particular location upon request, you will have the fewest transactions if you show the map of locations and the map with directions on the same web page. If you want to make use of any of the Bing Maps services, you can also save transactions by using a session key instead of a Bing Maps Key. For more information, see Use session keys to use Bing Maps services from within Bing Maps controls.  
   
 > [!IMPORTANT]
->  A session key can only be used with the Bing Maps services on the same webpage or application instance that the map control was loaded on.  
+> A session key can only be used with the Bing Maps services on the same webpage or application instance that the map control was loaded on.  
   
 ### Making use of Sessions
 
 This section will go through and highlight many useful tips to help you make the most of your Bing Maps sessions and transactions. This can have a huge impact on the number of billable transactions that get generated by your application and as a result make a big difference in terms of licensing. To start off, there are a couple of definitions you should know.  
   
--   **Bing Maps Session**: A Bing Maps session occurs when one of the map controls is loaded. Any transactions occurred against the Bing Maps services, while within a session is non-billable. Note this requires the application to properly use Bing Maps Keys.  
+- **Bing Maps Session**: A Bing Maps session occurs when one of the map controls is loaded. Any transactions occurred against the Bing Maps services, while within a session is non-billable. Note this requires the application to properly use Bing Maps Keys.  
   
--   **Bing Maps Transaction**: A Bing Maps transaction occurs any time a service request is made. For example, some of the more common services used that incur transactions are: Bing Maps Geocoding, Routing, and Imagery service, Bing Spatial Data Service Query.  
+- **Bing Maps Transaction**: A Bing Maps transaction occurs any time a service request is made. For example, some of the more common services used that incur transactions are: Bing Maps Geocoding, Routing, and Imagery service, Bing Spatial Data Service Query.  
   
--   **Bing Maps Key**: A Bing Maps Key is a unique string that is used to authenticate a user’s Bing Maps application or service request. This is the primary method used for tracking usage of the Bing Maps API’s.  
+- **Bing Maps Key**: A Bing Maps Key is a unique string that is used to authenticate a user’s Bing Maps application or service request. This is the primary method used for tracking usage of the Bing Maps API’s.  
   
  Complete documentation explaining all the different ways sessions and transactions are incurred can be found at [Understanding Bing Maps Transactions](bing-maps-dev-center-help/understanding-bing-maps-transactions.md).  
   
 > [!TIP]
->  Many of the Bing Maps API’s have a method for getting the credentials from the map after you have loaded it using a valid Bing Maps key. One often overlooked feature is that, by getting the credentials from the map, you do not get back your original Bing Maps key. Instead, you get a special session key which you can use as a Bing Maps key to make requests to the Bing Maps services. By doing this, all transactions occurred by this session key will be non-billable. Many developers overlook this feature and opt to simply use their original Bing Maps key, not knowing that they are actually incurring more billable transactions than they need to.  
+> Many of the Bing Maps API’s have a method for getting the credentials from the map after you have loaded it using a valid Bing Maps key. One often overlooked feature is that, by getting the credentials from the map, you do not get back your original Bing Maps key. Instead, you get a special session key which you can use as a Bing Maps key to make requests to the Bing Maps services. By doing this, all transactions occurred by this session key will be non-billable. Many developers overlook this feature and opt to simply use their original Bing Maps key, not knowing that they are actually incurring more billable transactions than they need to.  
   
-#### Implementing Session Keys  
+#### Implementing Session Keys
+
  Implementing session keys is pretty straight forward. You simply use a session key instead of a Bing Maps Key. When using the REST services, simply use your session key with the `key` parameter of your requests.  
   
  The following are examples of how you can generate session keys in the different Bing Maps controls.  
   
- **Bing Maps V8 Web Control**  
+##### Bing Maps V8 Web Control
   
 ```javascript
 var sessionKey;  
@@ -199,7 +203,7 @@ map.getCredentials(function (c) {
 });  
 ```  
   
- **Bing Maps WPF Controls**  
+##### Bing Maps WPF Controls
   
 ```CSharp
 string sessionKey;  
@@ -210,7 +214,7 @@ map.CredentialsProvider.GetCredentials((c) =>
 });  
 ```
 
-**Visual Basic**
+##### Visual Basic
 
 ```vb
 Dim sessionKey As String  
@@ -230,10 +234,10 @@ Bing Maps service requests made in the context of a Bing Maps control session wi
   
 To obtain a session key, you must establish a Bing Maps session. A Bing Maps session is created when you use one of the Bing Maps controls to show a map in your application. If you are using the Bing Maps V8 Web Control, the session ends when you move away from a web page that displays the control. Note that the application displays a map on two separate web pages, each of those web pages is a separate session. For applications that use the Bing Maps for Windows Store apps control (C++, C#, or Visual Basic) or the WPF control, a session is created when you start the application and ends when you close the application. The session key is used in place of the Bing Maps key in the request. For information about how to create a session key, see [Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md) and  [Geocoding a Location](../v8-web-control/map-control-concepts/search-module-examples/index.md).  
   
--   Non-billable request  
+- Non-billable request  
     http://BingMapsServiceRequest?key=sessionKey  
   
--   Billable request  
+- Billable request  
     http://BingMapsServiceRequest?key={BingMapsKey}  
   
 ### Encode address values before geocoding
@@ -241,4 +245,4 @@ To obtain a session key, you must establish a Bing Maps session. A Bing Maps ses
 Make parameter string parameter values UTF-8 encoded strings so that blanks and other special characters are encoded. For example, blank spaces are encoded as `%20` and ampersands (`&`) are encoded as `%26`. Languages that contain more than Latin characters, such as Japanese native character sets, must be encoded. Among options for encoding strings are the JavaScript [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) function and the .NET [System.URI](https://msdn.microsoft.com/library/system.uri.aspx) class.  
   
 > [!IMPORTANT]
->  For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (`&`) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand (`&`) rather than `%26`.
+> For JavaScript, if you wish to geocode cross streets or intersections that may include an ampersand (`&`) in your query we recommend the `encodeURIComponent` function rather than the `encodeURI` function, as `encodeURIComponent` will return the actual ampersand (`&`) rather than `%26`.
