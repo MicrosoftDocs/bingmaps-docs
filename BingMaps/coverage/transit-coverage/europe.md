@@ -571,7 +571,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Haguenau|[RITMO](http://www.carpostal.fr/) 
 |Haut-Rhin|[Lignes de Haute-Alsace](https://www.fluo.eu) 
 |Haute-Corse|[Autocars Les Supers](http://www.Autocars_Les_Supers.com) 
-|Haute-Corse|[Autocars S.A.S.A.I.B.](http://www.Autocars_S.A.S.A.I.B..com) 
+|Haute-Corse|[Autocars S.A.S.A.I.B.](https://www.autocars-iledebeaute-ajaccio-20.fr/) 
 |Haute-Corse|[Autocars de la Casinca](http://www.Autocars_de_la_Casinca.com) 
 |Haute-Corse|[Communauté de commune du Cap Corse](http://www.Communauté_de_commune_du_Cap_Corse.com) 
 |Haute-Corse|[Corsicar Autocars Les Beaux Voyages](http://www.Corsicar_Autocars_Les_Beaux_Voyages.com) 
