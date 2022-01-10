@@ -37,5 +37,5 @@ Use the culture parameter to specify a culture for your request. The culture par
  The following example finds the location for an address string and provides the information in German, which is the language associated with the culture code `de`.  
 
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/Börsenplatz%201%20Frankfurt%20am%20Main%20Hessen%2060313?c=de&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/Börsenplatz%201%20Frankfurt%20am%20Main%20Hessen%2060313?c=de&key={BingMapsKey}  
 ```

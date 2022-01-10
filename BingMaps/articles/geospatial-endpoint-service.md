@@ -25,7 +25,7 @@ The Geospatial Endpoint Service is a REST service that provides information abou
  **Get the service information for the language and region specified.**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key={BingMapsKey}  
 ```  
   
  **Get the service information for the language, region and location coordinates specified.**  
@@ -33,7 +33,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion?key=B
  The latitude and longitude coordinates are reverse-geocoded to determine the location. If this location corresponds to a non-disputed country or region, then this location overrides the userRegion value in the request. However, if the coordinates are in a disputed country or region, then the userRegion in the request is used. For example, if the coordinates represent a disputed area along the border of India and China, and userRegion is set to IN (India) in the request and the language is set to hi-in (Hindi), then IN services for Hindi are returned. In the same example, if the userRegion is set to CN (China) and the language is set to zh-hans (Simplified Chinese), then CN services for Simplified Chinese are returned in the response.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latitude,longitude?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latitude,longitude?key={BingMapsKey}  
 ```  
   
 ## Parameters  
@@ -44,7 +44,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latit
 |userRegion||A country or region.|An ISO 3166-1 alpha-2 region code, such as US, IN, and CN.<br /><br /> **Example**: US<br /><br /> This code represents the United States.|  
 |latitude, longitude||A location on the Earth.<br /><br /> These coordinates are reverse-geocoded to determine the country or region. If this location is in a disputed area, then the userRegion parameter value is used to determine the corresponding region.|The latitude and longitude of the user’s location in degrees.<br /><br /> **Example**: 33.977531,75.726013|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
-|key||Your [Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642).|The GUID value that represents a Bing Maps Key.|  
+|key||Your [Bing Maps Key](https://msdn.microsoft.com/library/ff428642).|The GUID value that represents a Bing Maps Key.|  
   
 ## Response  
  The response returns the following information:  
@@ -174,10 +174,10 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |------------------|---------------------------|-----------------|  
 |Map Imagery|MapTiles|Returns tiles from one of the following map tile services depending on the user region and language specified in the request.<br /><br /> -   On Demand Tile Service: Returns map tiles that are created on the server. This service endpoint will be provided when the user is in a geopolitically sensitive area, such as a disputed area or a country associated with such an area.<br />-   Pre-rendered Tile Service: Returns map tiles that have been pre-rendered during offline processing. This service endpoint will be provided when the user is not in a geopolitically sensitive area.|  
 |Map Imagery|TrafficTiles|Returns map tiles that show traffic flow overlays.|  
-|Map Imagery|StaticMapsB2B|Static Map API (Bing Maps REST Services): Returns static maps for the parameters that you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/en-us/library/ff701724).<br /><br /> **Note**: You must replace the *dev.virtualearth.net* endpoint in the documentation with the endpoint provided in the response.|  
-|Map Metadata|MetadataB2B|Map Imagery Metadata API (Bing Maps REST Services): Returns map metadata for the parameters that you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/en-us/library/ff701712).<br /><br /> **Note**: You must use the endpoint provided in the response to replace the public dev.virtualearth.net endpoint in the documentation.|  
-|Geocode|Geocode|Locations API (Bing Maps REST Services): Returns geocoded or reverse-geocoded location information for the parameters you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/en-us/library/ff701715).<br /><br /> **Note**: You must replace the *dev.virtualearth.net* endpoint in the documentation with the endpoint provided in the response.|  
-|Route|Route|Routes API (Bing Maps REST Services): Returns route information for the parameters you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/en-us/library/ff701705).<br /><br /> **Note**: You must use the endpoint provided in the response to replace the public dev.virtualearth.net endpoint in the documentation.|  
+|Map Imagery|StaticMapsB2B|Static Map API (Bing Maps REST Services): Returns static maps for the parameters that you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/library/ff701724).<br /><br /> **Note**: You must replace the *dev.virtualearth.net* endpoint in the documentation with the endpoint provided in the response.|  
+|Map Metadata|MetadataB2B|Map Imagery Metadata API (Bing Maps REST Services): Returns map metadata for the parameters that you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/library/ff701712).<br /><br /> **Note**: You must use the endpoint provided in the response to replace the public dev.virtualearth.net endpoint in the documentation.|  
+|Geocode|Geocode|Locations API (Bing Maps REST Services): Returns geocoded or reverse-geocoded location information for the parameters you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/library/ff701715).<br /><br /> **Note**: You must replace the *dev.virtualearth.net* endpoint in the documentation with the endpoint provided in the response.|  
+|Route|Route|Routes API (Bing Maps REST Services): Returns route information for the parameters you specify. For parameter descriptions, see the [documentation](https://msdn.microsoft.com/library/ff701705).<br /><br /> **Note**: You must use the endpoint provided in the response to replace the public dev.virtualearth.net endpoint in the documentation.|  
 |Image URL|BingLogo|Returns the attribution logo to display with Bing Maps tiles that do not include Nokia data.|  
 |Image URL|CombinedLogo|Returns the attribution logo to display with Bing Maps tiles that include Nokia data.|  
   
@@ -188,7 +188,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
  Language: **fr-fr (French)**, userRegion: **FR (France)**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key={BingMapsKey}  
 ```  
   
 ```json
@@ -346,7 +346,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key=BingMapsKey
  Language: **en-us (English)**, userRegion: **CU (Cuba)**  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key={BingMapsKey}  
 ```  
   
 ```json
@@ -407,7 +407,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key=BingMapsKey
  Note that the response shows CN as the region because the latitude and longitude are in a disputed area.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key={BingMapsKey}  
 ```  
   
 ```json
@@ -535,7 +535,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
  Note that the response shows IN as the region because the latitude and longitude coordinates are in a disputed area.  
   
 ```url
-http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key=BingMapsKey  
+http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key={BingMapsKey}  
 ```  
   
 ```json

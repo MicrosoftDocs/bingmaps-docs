@@ -71,7 +71,7 @@ One or more Location resources are returned in the response when you make a requ
 This example gets address information for a specified latitude and longitude and requests the results in XML format.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -207,7 +207,7 @@ http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?o=xml&key={Bin
  This example requests only country or region information for the same latitude and longitude as the previous example.  
   
 ```url 
-http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/47.64054,-122.12934?includeEntityTypes=countryRegion&o=xml&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -346,6 +346,6 @@ When the request is not successful, the response returns one of the following er
 ## See Also  
  [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
  [JSON Data Contracts](../json-data-contracts.md)   
- [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)
- [Getting Route Directions](https://msdn.microsoft.com/en-us/library/gg427607.aspx)   
+ [Geocoding a Location](https://msdn.microsoft.com/library/gg427601.aspx)
+ [Getting Route Directions](https://msdn.microsoft.com/library/gg427607.aspx)   
  [Find a location by query](https://www.bingmapsportal.com/ISDK/AjaxV7#RESTServices1)

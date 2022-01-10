@@ -27,13 +27,13 @@ Responses are shown for both XML and JSON formats.
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key=BingMapsKey 
+https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key={BingMapsKey} 
 ```
 
 **HTTP POST Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key={BingMapsKey}
 ```
 
 **HTTP POST Header**

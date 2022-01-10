@@ -30,7 +30,7 @@ Use the following URL to get the status of a geocode job.
  The Bing Maps Key that you specify must be the same Bing Maps Key that you used to create the job. A URL in the following format without the Bing Maps Key is provided in the response to the URL request that you made to [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md). The URL is specified in a `link` field with an attribute of `self`. For more information, see [Response Data](../geocode-dataflow-api/geocode-dataflow-response-description.md).  
   
 ```url
-http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&key=BingMapsKey  
+http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  

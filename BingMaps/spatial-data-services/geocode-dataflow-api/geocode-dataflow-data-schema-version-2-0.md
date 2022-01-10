@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 
 # Geocode Dataflow Data Schema - Version 2.0
 
-The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](https://msdn.microsoft.com/en-us/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
+The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](https://msdn.microsoft.com/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
   
 -   Text files with values separated by comma, tab, or pipe (&#124;) characters.  
   
@@ -128,8 +128,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
                   <xs:attribute name="Culture" type="xs:string" use="optional" />  
                   <xs:attribute name="IncludeEntityTypes" type="xs:string" use="optional" />  
                   <xs:attribute name="IncludeNeighborhood" type="xs:boolean" use="optional" />  
-                  <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />
-                  <xs:attribute name="StrictMatch" type="xs:boolean" use="optional" />
+                  <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />  
                 </xs:complexType>  
               </xs:element>  
               <xs:element minOccurs="0" maxOccurs="1" name="GeocodeRequest">  
@@ -154,6 +153,7 @@ Id, GeocodeRequest/Culture, GeocodeRequest/Query, GeocodeRequest/Address/Address
                   <xs:attribute name="IncludeQueryParse" type="xs:boolean" use="optional" />  
                   <xs:attribute name="IncludeNeighborhood" type="xs:boolean" use="optional" />  
                   <xs:attribute name="MaxResults" type="xs:unsignedByte" use="optional" />  
+                  <xs:attribute name="StrictMatch" type="xs:boolean" use="optional" />  
                   <xs:attribute name="Query" type="xs:string" use="optional" />  
                 </xs:complexType>  
               </xs:element>  

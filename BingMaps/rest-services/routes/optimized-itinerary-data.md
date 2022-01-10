@@ -26,30 +26,53 @@ The following tables describe the `OptimizeItinerary` resource fields.
 
 | JSON | XML | Type | Description |
 |------|-----|------|-------------|
-|`agentItinerary`| `AgentItinerary` | `AgentItinerary` Resource | List of agent resource items.|
+|`agentItineraries`| `AgentItineraries` | `AgentItinerary` Resource | List of AgentItinerary resource items.|
 |`isAccepted`| `IsAccepted` | `boolean` |Boolean value denoting if the request was accepted.|
-|`isCompleted`| `IsCompleted` | `boolean`| Boolean value denoting if the request was accepted.|
+|`isCompleted`| `IsCompleted` | `boolean` | Boolean value denoting if the request was accepted.|
+|`unscheduledItems`| `UnscheduledItems` | `ItineraryItem` Resource | List of ItineraryItem resource items that could not be scheduled with the current constraints.|
+|`unusedAgents`| `UnusedAgents` | `Agent` Resource | List of Agent items that were not used to construct the current solution.|
+
+## `Agent` Resource
+
+| JSON | XML | Type | Description |
+|------|-----|------|-------------|
+|`name` | `Name`| `string`| Agent name, as defined in the request.|
+|`capacity` | `Capacity` | `integer[]` | Agent capacity, as defined in the request.|
+|`price` | `Price` | `Price` Resource | Agent price, as defined in the request or default value.|
+|`shifts`|`Shifts` | `Shift` Resource| Agent shifts, as defined in the request.|
+
+## `ItineraryItem` Resource
+
+| JSON | XML | Type | Description |
+|------|-----|------|-------------|
+|`name` | `Name`| `string`| Item name, as defined in the request.|
+|`openingTime` | `OpeningTime`| `DateTime`| Item opening time window, as defined in the request.|
+|`closingTime` | `ClosingTime`| `DateTime`| Item closing time window, as defined in the request.|
+|`dwellTime` | `DwellTime`| `Duration`| The time required to service the location, as defined in the request.|
+|`location` | `Location`| `Coordinate`| Item location, as defined in the request.|
+|`dropOffFrom` | `DropOffFrom`| `string[]`| String array of item names, allowing to define item ordering constraint, for example go to A before B, as defined in the request.|
+|`priority` | `Priority` | `integer` | Item priority, as defined in the request.|
+|`quantity` | `Quantity` | `integer[]` | Quantity values to be loaded, if positive, or unloaded if negative, as defined in the request.|
+|`depot` | `Depot` | `boolean` | Flag denoting if the item is a depot and multiple trips are allowed to it, as defined in the request.|
 
 ## `AgentItinerary` Resource
 
 | JSON | XML | Type | Description |
 |------|-----|------|-------------|
-|`agent` | `Agent`| `string`| Agent name, as defined in the request.|
+|`agent` | `Agent`| `Agent` Resource| Agent resource associated with the this itinerary, as defined in the request.|
 |`instructions` | `Instructions` | `Instructions` Resource| A sorted array containing the itinerary Instructions.|
 |`route`|`Route` |`Route` Resource| The itinerary route summary information.|
 
-
-##  `Instructions` Resource
+## `Instructions` Resource
 
 | JSON | XML | Type | Description |
 |------|-----|------|-------------|
-|`instructionType` |`InstructionType`| `string`| Type of instruction, any of the following:<br /><br />- `LeaveFromStartPoint` <br />- `TravelBetweenLocations`<br />- `VisitLocation`<br />- `ArriveToEndPoint`|
+|`instructionType` |`InstructionType`| `string`| Type of instruction, any of the following:<br /><br />- `LeaveFromStartPoint` <br />- `TravelBetweenLocations`<br />- `VisitLocation`<br /> - `TakeABreak`<br /> - `ArriveToEndPoint`|
 |`duration` | `Duration` | Time Delta | Estimated travel time. Applies only for `TravelBetweenLocations` instructions.|
 |`distance` |`Distance` | `integer` | Estimate travel distance, in meters. |
 |`startTime`| `StartTime`| `DateTime`| The estimated start time of the instruction. |
 |`endTime`| `EndTime` | `DateTime` | The estimated end time of the instruction. |
-|`itineraryItem`| `ItineraryItem` | Varies. The item type is determined by the request.|Optional value present when the instruction type references a location, agent shift start/end point, or a defined itinerary item. |
-
+|`itineraryItem`| `ItineraryItem` | ItineraryItem Resource. |Optional value present when the instruction type references a location, agent shift start/end point, or a defined itinerary item as defined in the request. |
 
 ## `Route` Resource
 

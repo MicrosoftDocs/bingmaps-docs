@@ -63,7 +63,7 @@ This article will describe how to write a PHP application that can interact with
 ```  
   
 ## Authentication  
- All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx).  
+ All Bing Spatial Data Services require authentication from the client each time they are called. In order to authenticate against the Bing Spatial Data Services Geocode Dataflow API, you will need a Bing Maps Key. For information about how to sign up for a Bing Maps Developer Account and get a Bing Maps Key, see [Getting a Bing Maps Key](https://msdn.microsoft.com/library/ff428642.aspx).  
   
  When you send an HTTP request to the Geocode Dataflow API, which we will discuss in the next section of this article, you must include the Bing Maps Key as a parameter. For example, you might send an HTTP request like the one shown in Listing 2.  
   
@@ -86,7 +86,7 @@ The Geocode Dataflow API is a REST web service that allows you to pass in a list
      **Listing 3 - URI format for starting a geocode job with the Geocode Dataflow API**  
   
     ```url
-    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key=BingMapsKey  
+    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode?description=description&input=input&key={BingMapsKey}  
   
     ```  
   
@@ -97,7 +97,7 @@ The Geocode Dataflow API is a REST web service that allows you to pass in a list
      **Listing 4 - URI format for checking the status of a geocode job**  
   
     ```url
-    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key=BingMapsKey  
+    http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/JobId?key={BingMapsKey}  
     ```  
   
      The *JobId* for a geocode job is returned as part of the response when you initially create the job. The status of a geocode job will start out as “Pending” and eventually change to “Completed” when processing is complete.  

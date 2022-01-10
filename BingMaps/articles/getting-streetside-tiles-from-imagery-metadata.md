@@ -22,7 +22,7 @@ Using for our location a point in Ballard, Seattle (`47.668687,-122.384795`) we 
 ### URL Request
 
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsKey}
 ```
 
 ### JSON Response
@@ -123,7 +123,7 @@ namespace GridBuilder
 
         public void Print_Grid(string save_file_name)
         {
-            // see https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap
+            // see https://docs.microsoft.com/dotnet/api/system.drawing.bitmap
             Bitmap cube_image = new Bitmap(master_size_x, master_size_y);
             Bitmap tmp_image;
 

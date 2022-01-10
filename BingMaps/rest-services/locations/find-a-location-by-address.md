@@ -43,42 +43,42 @@ Get the latitude and longitude coordinates based on a set of address values for 
 >   
 >  For countries that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
 >   
->  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/en-us/library/system.uri.aspx) [.NET].  
+>  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   
  A structured URL specifies the location data for the country as part of the URL path.  
   
  **Canada**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/CA/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/CA/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
  **France**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/FR/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/FR/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
  **Germany**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/DE/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/DE/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
  **United Kingdom**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/UK/{postalCode}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/UK/{postalCode}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
  **United States**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{postalCode}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{addressLine}?includeNeighborhood={includeNeighborhood}&include={includeValue}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
 
 > [!IMPORTANT]
@@ -88,9 +88,9 @@ http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{add
 >   
 >  For example, if you want to get latitude and longitude values for the address "100 Main St. Somewhere, WA 98001" that contains a period (.), use one of the following query formats.
 >   
->`http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key={BingMapsAPIKey}`  
+>`http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=US&adminDistrict=WA&locality=Somewhere&postalCode=98001&addressLine=100%20Main%20St.&key={BingMapsKey}`  
 >   
->  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key={BingMapsAPIKey}`  
+>  **[Find a Location by Query](find-a-location-by-query.md) query**: `http://dev.virtualearth.net/REST/v1/Locations?q=100%20Main%20St.%20Somewhere,%20WA%2098001&key={BingMapsKey}`  
 
 
 ## API Parameters  
@@ -282,7 +282,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/98052/Redmond/1%20Microsoft%
  This example provides location information for the same street address as the previous example, but does not specify the ZIP Code.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/WA/Redmond/1%20Microsoft%20Way?output=xml&key={BingMapsApIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/US/WA/Redmond/1%20Microsoft%20Way?output=xml&key={BingMapsKey}  
 ```  
   
 ### Find location information and request up to 10 location results in the response
@@ -290,7 +290,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/Redmond/1%20Microsoft%20Way?
  This example provides location information for the locality "Greenville" and requests up to 10 location results in the response. The default maximum number of locations returned is five (5) results.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&key={BingMapsKey}
 ```  
   
 ### Find location information by using a structured URL where some parameters have no value
@@ -298,7 +298,7 @@ http://dev.virtualearth.net/REST/v1/Locations?locality=Greenville&maxResults=10&
  This example provides location information for the United States and uses hyphens (`-`) for address values that are not specified.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key={BingMapsKey}  
 ```  
   
 ### Find location information by using an unstructured URL and setting the userLocation parameter
@@ -306,7 +306,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/-/-/-?key={BingMapsAPIKey}
  This example provides location information for an unstructured query for Kings Road in the United Kingdom and uses the userLocation value to prioritize the response. If you remove the userLocation parameter in this example, the results change because the userLocation position prioritizes results that are closer to this location. For more information about the userLocation parameter and other user context parameters, see [User Context Parameters](../common-parameters-and-types/user-context-parameters.md).  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&addressLine=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&addressLine=Kings%20Road&o=xml&userLocation=51.504360719046616,-0.12600176611298197&key={BingMapsKey}  
 ```  
   
 ### Find location information and request neighborhood information in the response
@@ -314,7 +314,7 @@ http://dev.virtualearth.net/REST/v1/Locations?culture=en-GB&addressLine=Kings%20
  This example provides location information for Ballard in Washington state (WA) and also returns neighborhood information. Ballard is a neighborhood, but is specified as a locality in the request. Note that in the response, Ballard is defined as the neighborhood and Seattle is defined as the locality.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&key={BingMapsKey}  
 ```  
   
  **XML Response**  
@@ -444,7 +444,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/WA/-/Ballard/-?o=xml&inclnb=1&k
 This example provides location information for a street in Vancouver, Canada.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park%20Causeway?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park%20Causeway?key={BingMapsKey}  
 ```  
   
 ### Find location information for France 
@@ -452,7 +452,7 @@ http://dev.virtualearth.net/REST/v1/Locations/CA/BC/V6G/Vancouver/Stanley%20Park
  This example provides location information for a street in Paris, France.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/FR/75007/Paris/Avenue%20Gustave%20Eiffel?key=BingMapsKey  
+http://dev.virtualearth.net/REST/v1/Locations/FR/75007/Paris/Avenue%20Gustave%20Eiffel?key={BingMapsKey}  
 ```  
   
 ### Find location information for Germany
@@ -460,7 +460,7 @@ http://dev.virtualearth.net/REST/v1/Locations/FR/75007/Paris/Avenue%20Gustave%20
 This example provides location information for an address in Berlin, Germany. 
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/DE/12010/Berlin/Platz%20Der%20Luftbrücke%205?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/DE/12010/Berlin/Platz%20Der%20Luftbrücke%205?key={BingMapsKey}  
 ```  
   
 ### Find location information for the United Kingdom
@@ -468,11 +468,11 @@ http://dev.virtualearth.net/REST/v1/Locations/DE/12010/Berlin/Platz%20Der%20Luft
 These examples provide location information for a postal code in the United Kingdom.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A?key={BingMapsKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A%202AA?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A%202AA?key={BingMapsKey}  
 ```  
   
 ### Find location information by using an unstructured URL 
@@ -480,19 +480,19 @@ http://dev.virtualearth.net/REST/v1/Locations/GB/SW1A%202AA?key={BingMapsAPIKey}
  These examples provide location information based on the specified parameter values.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?postalCode=98052&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations?postalCode=98052&key={BingMapsKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=Redmond&adminDistrict=WA&key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Locations?locality=Redmond&adminDistrict=WA&key={BingMapsKey}
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?countryRegion=AU&adminDistrict=WA&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Locations?countryRegion=AU&adminDistrict=WA&key={BingMapsKey}  
 ```  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&key={BingMapsAPIKey} 
+http://dev.virtualearth.net/REST/v1/Locations?locality=London&postalCode=SW1A&key={BingMapsKey} 
 ```  
   
 ## HTTP Status Codes  
@@ -515,6 +515,6 @@ When the request is not successful, the response returns one of the following er
 ## See Also  
  [Using the REST Services with .NET](../using-the-rest-services-with-net.md)   
  [JSON Data Contracts](../json-data-contracts.md)   
- [Geocoding a Location](https://msdn.microsoft.com/en-us/library/gg427601.aspx)
- [Getting Route Directions](https://msdn.microsoft.com/en-us/library/gg427607.aspx)   
+ [Geocoding a Location](https://msdn.microsoft.com/library/gg427601.aspx)
+ [Getting Route Directions](https://msdn.microsoft.com/library/gg427607.aspx)   
  [Find a location by query](https://www.bingmapsportal.com/ISDK/AjaxV7#RESTServices1)

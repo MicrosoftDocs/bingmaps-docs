@@ -696,7 +696,7 @@
               href: modules/traffic-module/trafficmanager-class.md
             - name: TrafficOptions Object
               href: modules/traffic-module/trafficoptions-object.md
-          name: Venue Maps Module
+        - name: Venue Maps Module
           href: modules/venue-map-module/index.md
           maintainContext: true 
           items: 
@@ -724,7 +724,5 @@
           href: articles/zindexing-in-bing-maps-v8.md
     - name: Supported Browsers
       href: supported-browsers.md
-    - name: "What's New"
-      href: whats-new.md
     - name: Developer Resources
       href: developer-resources.md

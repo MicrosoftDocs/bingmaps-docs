@@ -21,13 +21,13 @@ This example makes a synchronous truck routing request for a truck that is trans
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?wp.0=590%20Crane%20Ave%2C%20Pittsburgh%2C%20PA&wp.1=600%20Forbes%20Ave%2C%20Pittsburgh%2C%20PA&vehicleHazardousMaterials=Flammable&key={BingMapsKey}
 ```
 
 **HTTP POST Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/Truck?key={BingMapsKey}
 ```
 
 *HTTP POST Header*

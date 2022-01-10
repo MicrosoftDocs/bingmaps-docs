@@ -28,7 +28,7 @@ __Unit of elevation__: Meters.
   
 
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsKey}  
 ```  
   
 ### Get elevations at equally-spaced locations along a polyline path
@@ -36,7 +36,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2
  A polyline path is computed from the coordinates, and then elevation values at both endpoints and equally-spaced locations along the polyline are returned. The samples parameter specifies the number of elevations to return. The parameters `points`, `samples`, and `key` are all required.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,long2,latN,longN}&heights={heights}&samples={samples}&key={BingMapsKey}  
 ```  
   
  ### Get elevations at equally-spaced locations within a bounding box 
@@ -48,7 +48,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points={lat1,long1,lat2,l
 The parameters `bounds`, `rows`, `cols`, and `key` are required.
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds={boundingBox}&rows={rows}&cols={cols}&heights={heights}&key={BingMapsKey}  
 ```  
   
 ### Get the offset of the geoid sea level Earth model from the ellipsoid Earth model
@@ -58,7 +58,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds={boundingBox}&rows={
 The parameters `points` and `key` are required.
 
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points={lat1,long1,lat2,long2,latN,longN}&key={BingMapsKey}  
 ```  
   
 ## About Elevations and Coordinate Values 
@@ -131,7 +131,7 @@ A set of elevations and the associated zoom level is returned in the responses t
  The geoid Earth model is used to compute elevations for the coordinates provided.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsKey}  
 ```  
   
  **JSON Response**  
@@ -202,7 +202,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/List?points=35.89431,-110.72522,35
  The geoid model is used to compute the elevations at the vertices of a rectangular grid. The bounds (bounding box) values specify an area that is further divided by the number of rows and columns specified. Two (2) rows and two (2) columns represent the bounding box.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,51.000577,-1.311836&rows=4&cols=4&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,51.000577,-1.311836&rows=4&cols=4&key={BingMapsKey}  
 ```  
   
  **JSON Response**  
@@ -287,7 +287,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Bounds?bounds=50.995391,-1.320763,
  A polyline path is computed from the latitude and longitude values. Elevations are computed for the endpoints and eight (8) equally-spaced points in between. The ellipsoid Earth model is used to compute the elevations because `heights=ellipsoid` is specified.  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&heights=ellipsoid&samples=10&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&heights=ellipsoid&samples=10&key={BingMapsKey}  
 ```  
   
  **JSON Response**  
@@ -364,7 +364,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=35.89431,-110.7252
 ### Get the offset of the geoid sea level model from the ellipsoid model at the specified locations 
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.72522,35.89393,-110.72578,35.89374,-110.72606,35.89337,-110.72662&key={BingMapsKey}  
 ```  
   
  **JSON Response**  
@@ -437,7 +437,7 @@ http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel?points=35.89431,-110.7252
  **HTTP POST URL**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Elevation/List?key={BingMapsAPIKey}  
+http://dev.virtualearth.net/REST/v1/Elevation/List?key={BingMapsKey}  
 ```  
   
  **HTTP POST Header**  

@@ -20,7 +20,7 @@ The Bing Maps Snap to Road API takes GPS point data, in the form of latitudes an
 
 When you make a request by using one of the following URL templates, the response returns a `SnapToRoadResponse` resource that contains the requested snapped coordinate information. For more information about the `SnapToRoadResponse` resource, see [Snap to Road Data](snap-to-road-data.md). You can also view the example URL and response values in the **Examples** section.
 
-The algorithm that powers the Bing Maps Snap to Road API is based on [this great paper](https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/) written by Microsoft Research.
+The algorithm that powers the Bing Maps Snap to Road API is based on [this great paper](https://www.microsoft.com/research/publication/hidden-markov-map-matching-noise-sparseness/) written by Microsoft Research.
 
 For Snap Points to Roads geographic availability, see the travelMode parameter below.
 
@@ -154,7 +154,7 @@ The following is a list of parameters that are supported by the Snap to Road API
 | `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
 | `includeTruckSpeedLimit` | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
 | `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
-| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving <br/><br /> **Note**: <br/><br/> For trucks, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. <br /><br /> For more details about vehicle attributes, please check the Calculate a Truck Route API doc: https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-truck-route. <br /><br /> **Geographic Availability**: <br /> -  `Driving` and `Walking` available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br />-  `Truck` is available in markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md).|
+| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving <br/><br /> **Note**: <br/><br/> For trucks, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. <br /><br /> For more details about vehicle attributes, please check the Calculate a Truck Route API doc: https://docs.microsoft.com/bingmaps/rest-services/routes/calculate-a-truck-route. <br /><br /> **Geographic Availability**: <br /> -  `Driving` and `Walking` available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br />-  `Truck` is available in markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md).|
 
 *Template POST body with vehicle attributes*
 ```json
@@ -199,13 +199,13 @@ In this case, consider a trucking company that wants to do periodic safety revie
 *HTTP GET Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points=47.590868,-122.336729;47.601604,-122.336042;47.60849,-122.34241;47.610568,-122.345064&includeTruckSpeedLimit=true&IncludeSpeedLimit=true&speedUnit=MPH&travelMode=driving&key={BingMapsKey}
 ```
 
 *HTTP POST Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?key={BingMapsKey}
 ```
 
 *HTTP POST Header*

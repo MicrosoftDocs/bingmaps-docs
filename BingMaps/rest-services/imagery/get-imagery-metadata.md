@@ -47,13 +47,13 @@ Use the following URL templates to get metadata for imagery that is hosted by Bi
 >  This template is not applicable for Birdseye imagery because Birdseye imagery requires a location.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}?key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}?key={BingMapsKey}  
 ```  
   
  **Get the metadata for an imagery set at a specific location.**  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsKey}  
 ```  
   
 ### Basic Metadata URL  
@@ -64,7 +64,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
  **Get only the basic metadata for an imagery set at a specific location. This URL does not return a map tile URL.**  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}?orientation={orientation}&zoomLevel={zoomLevel}&include={ImageryProviders}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -106,7 +106,7 @@ These URLs support JSON (`application/json`) and XML (`application/xml`) respons
  This example returns metadata for aerial imagery metadata at street level in New York City. Note that a center point and a zoom level are both specified. If only one of these values were specified, this URL would return an error. The response is requested in XML format.  
   
 ```url
-https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Aerial/40.714550167322159,-74.007124900817871?zl=15&o=xml&key={BingMapsAPIKey}
+https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Aerial/40.714550167322159,-74.007124900817871?zl=15&o=xml&key={BingMapsKey}
 ```  
   
  **BasicMetadata option:** If you requested basic metadata only instead of the complete metadata by using the corresponding basic metadata URL template, the `ImageUrl` field would not be included. The rest of the response is the same.  
@@ -181,7 +181,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Aerial/40.714550167322159,
  This example gets metadata for road imagery. The response is requested in XML format.  
   
 ```url  
-https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Road?output=xml&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Road?output=xml&key={BingMapsKey}  
 ```  
   
  **BasicMetadata option:** If you requested basic metadata only instead of the complete metadata by using the corresponding basic metadata URL template, the `ImageUrl` field would not be included. The rest of the response is the same.  
@@ -287,7 +287,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Birdseye/37.77916006743907
             <EstimatedTotal>1</EstimatedTotal>  
             <Resources>  
                 <BirdseyeMetadata>  
-                    <ImageUrl>http://ak.{subdomain}.tiles.virtualearth.net/tiles/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=5777&key={BingMapsAPIKey}</ImageUrl>  
+                    <ImageUrl>http://ak.{subdomain}.tiles.virtualearth.net/tiles/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=5777&key={BingMapsKey}</ImageUrl>  
                     <ImageUrlSubdomains>  
                         <string>t0</string>  
                         <string>t1</string>  
@@ -325,7 +325,7 @@ https://dev.virtualearth.net/REST/V1/Imagery/Metadata/Birdseye/37.77916006743907
         "resources": [{  
             "__type": "BirdseyeMetadata:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
             "imageHeight": 512,  
-            "imageUrl": "http:\/\/ak.{subdomain}.tiles.virtualearth.net\/tiles\/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=5777&key={BingMapsAPIKey}",  
+            "imageUrl": "http:\/\/ak.{subdomain}.tiles.virtualearth.net\/tiles\/be000122033113001-9-14-{zoom}-{tileId}.jpeg?g=5777&key={BingMapsKey}",  
             "imageUrlSubdomains": ["t0", "t1", "t2", "t3"],  
             "imageWidth": 512,  
             "imageryProviders": null,  
@@ -357,7 +357,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road?incl=ImageryProviders
  This example returns Birdseye imagery metadata for imagery that is centered at the specified point. The response is returned in JSON format. You can specify to return the response in XML format by setting the output parameter to xml.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Birdseye/47.23,-122.3?key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Birdseye/47.23,-122.3?key={BingMapsKey}  
 ```  
   
 ### Get BirdseyeWithLabels imagery metadata centered at a point and from a viewport angle of 90 degrees  
@@ -365,7 +365,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Birdseye/47.23,-122.3?key=
  The example gets Birdseye imagery metadata for imagery that includes labels and that has an orientation angle of 90 degrees. The imagery is centered at the specified point. The response is returned in JSON format. You can specify to return the response in XML format by setting the output parameter to xml.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/BirdseyeWithLabels/47.23,-122.3?dir=90&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/BirdseyeWithLabels/47.23,-122.3?dir=90&key={BingMapsKey}  
 ```  
   
 ### Get Road imagery metadata centered at a point and for a specified zoom level  
@@ -373,7 +373,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/BirdseyeWithLabels/47.23,-
  This example returns road imagery metadata that is centered at the specified point with a zoom level of 10. . The response is returned in JSON format. You can specify to return the response in XML format by setting the output parameter to xml.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road/47.23,-122.3?zl=10&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road/47.23,-122.3?zl=10&key={BingMapsKey}  
 ```  
   
 ### Get Aerial imagery metadata centered at a point and for a specified zoom level
@@ -381,7 +381,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Road/47.23,-122.3?zl=10&ke
  This example returns metadata for aerial imagery that is centered at the specified point with a zoom level of 10. The response is returned in JSON format. You can specify to return the response in XML format by setting the output parameter to xml.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Aerial/47.23,-122.3?zl=10&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Aerial/47.23,-122.3?zl=10&key={BingMapsKey}  
 ```  
   
  ### Get AerialWithLabels metadata centered at a point and for a specified zoom level  
@@ -389,7 +389,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Metadata/Aerial/47.23,-122.3?zl=10&
  This example returns metadata for aerial imagery with labels and that is centered at the specified point with a zoom level of 10. The response is returned in JSON format. You can specify to return the response in XML format by setting the output parameter to xml.  
   
 ```url  
-https://dev.virtualearth.net/REST/v1/Imagery/Metadata/AerialWithLabels/47.23,-122.3?zl=10&key={BingMapsAPIKey}  
+https://dev.virtualearth.net/REST/v1/Imagery/Metadata/AerialWithLabels/47.23,-122.3?zl=10&key={BingMapsKey}  
 ```  
 
 ### Get Streetside metadata centered at a point
@@ -398,7 +398,7 @@ This example returns metadata for Streetside imagery at a point in Ballard, Seat
 
 The URL request:
 ```url
-http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsAPIKey}
+http://dev.virtualearth.net/REST/v1/Imagery/MetaData/Streetside/47.668687,-122.384795?key={BingMapsKey}
 ```
 
 The JSON response:
@@ -461,8 +461,8 @@ When the request is not successful, the response returns one of the following er
   
 ## See Also  
  
-- [Bing Maps Tile System](https://msdn.microsoft.com/en-us/library/bb259689.aspx)
-- [Building Your Own Tile Server](https://msdn.microsoft.com/en-us/library/bb545006.aspx)   
-- [Understanding Scale and Resolution](https://msdn.microsoft.com/en-us/library/aa940990.aspx)   
+- [Bing Maps Tile System](https://msdn.microsoft.com/library/bb259689.aspx)
+- [Building Your Own Tile Server](https://msdn.microsoft.com/library/bb545006.aspx)   
+- [Understanding Scale and Resolution](https://msdn.microsoft.com/library/aa940990.aspx)   
 - [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
 - [JSON Data Contracts](../json-data-contracts.md)

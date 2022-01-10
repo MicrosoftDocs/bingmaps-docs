@@ -29,13 +29,13 @@ In this case, consider a person that is looking to rent an apartment near their 
 **HTTP GET Request URL**
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=Minutes&dateTime=2017-11-27T18:00:00-08:00&travelMode=Driving&key=BingMapsKey
+http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=Minutes&dateTime=2017-11-27T18:00:00-08:00&travelMode=Driving&key={BingMapsKey}
 ```
 
 Once the initial request is made a *requestId* will be returned. A *requestId* is a unique identifier for the asynchronous request. This can be used to monitor the status of the request until it is completed, at which point the response will include a *resultUrl* property which the resulting isochrone can be downloaded from. The following URL checks that status of an asynchronous request that has a *requestId* of “90b07189-33d8-4cbf-866a-1bd5c5b4f474”.
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key={BingMapsKey}
 ```
 
 The following image shows the resulting isochrone.
@@ -104,7 +104,7 @@ When making an asynchronous request to the isochrone service the initial respons
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key=BingMapsKey
+https://dev.virtualearth.net/REST/v1/Routes/IsochroneAsyncCallback?requestId=9d721ef1-8ae1-4aef-a9b3-9badf01b4b1d&key={BingMapsKey}
 ```
 
 **JSON Response**
