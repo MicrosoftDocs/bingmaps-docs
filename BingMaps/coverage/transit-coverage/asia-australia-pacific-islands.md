@@ -20,7 +20,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Australia
 |Admin District|Locality|Transit Agency|
 |:--------------------|--------------|--------------------| 
-|Australian Capital Territory|Canberra|[Canberra Metro Operations](http://https://www.transport.act.gov.au/)|
+|Australian Capital Territory|Canberra|[Canberra Metro Operations](https://www.transport.act.gov.au/)|
 |Australian Capital Territory|Canberra|[Transport Canberra](https://www.transport.act.gov.au)| 
 |New South Wales|Brisbane|[Byron Easybus](https://www.byronbayshuttle.com.au/?utm_source=AddTransit&utm_medium=GTFS)| 
 |New South Wales|Sydney|[Allen's Coaches](https://transportnsw.info)| 
@@ -135,14 +135,14 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Northern Territory|Alice Springs|[Public Transport](https://nt.gov.au/driving/public-transport-cycling)| 
 |Northern Territory|Darwin|[Public Transport - Department of Infrastructure Planning and Logistics](https://nt.gov.au/driving/public-transport-cycling)| 
 |Queensland|Airlie Beach|[QConnect - Whitsunday Transit](https://www.whitsundaytransit.com.au/)| 
-|Queensland|Allenstown|[QConnect - Yeppoon](https://www.youngsbusservice.com.au/default2.html)| 
+|Queensland|Allenstown|[QConnect - Yeppoon](https://www.youngsbusservice.com.au/)| 
 |Queensland|Bowen|[QConnect - Bowen](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#bowen)| 
 |Queensland|Brisbane|[TransLink](https://www.translink.com.au)| 
 |Queensland|Bundaberg|[QConnect - Duffys & Stewarts](https://www.qld.gov.au/transport/public/transport/timetables/qconnect/)| 
 |Queensland|Cairns|[TransLink](https://www.sunbus.com.au)| 
 |Queensland|Gladstone|[QConnect - Buslink](http://www.buslinkqld.com.au/gladstone/gladstone.htm?)| 
 |Queensland|Gympie|[QConnect - Gympie](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#gympie)| 
-|Queensland|Innisfail|[QConnect - Trans North](http://www.transnorthbus.com/innisfail.asp)| 
+|Queensland|Innisfail|[QConnect - Trans North](https://www.transnorthbus.com/)| 
 |Queensland|Kilcoy|[QConnect - Kilcoy](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#kilcoy_caboolture)| 
 |Queensland|Mackay|[QConnect - Mackay Transit Coaches](https://www.mackaytransit.com.au/)| 
 |Queensland|Magnetic Island|[QConnect - Magnetic Island Bus Service](https://www.tmr.qld.gov.au/Travel-and-transport/Qconnect/Urban-bus-services.aspx#magnetic)| 
@@ -200,11 +200,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Auckland|[SkyBus](https://www.aucklandtransport.govt.nz) 
 |Auckland|[Tranzit Group Ltd](https://www.aucklandtransport.govt.nz) 
 |Auckland|[Waiheke Bus Company](https://www.aucklandtransport.govt.nz) 
-|Christchurch|[Metro Christchurch](https://metroinfo.org.nz) 
+|Christchurch|[Metro Christchurch](http://metroinfo.org.nz) 
 |Hamilton|[Busit](https://www.busit.co.nz)
 |Regional|[Otago Regional Council](http://www.orc.govt.nz/buses)  
 |Tauranga|[Baybus](http://www.baybus.co.nz/) 
-|Timaru|[Metro Timaru](https://www.metroinfo.org.nz/timIndex.html) 
+|Timaru|[Metro Timaru](http://www.metroinfo.org.nz)
 |Wellington|[Classic Coaches](https://www.metlink.org.nz) 
 |Wellington|[East By West Ferry](https://www.metlink.org.nz) 
 |Wellington|[Go Wellington](https://www.metlink.org.nz) 
@@ -215,7 +215,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Wellington|[Metlink](https://www.metlink.org.nz) 
 |Wellington|[Metlink Rail](https://www.metlink.org.nz) 
 |Wellington|[New Zealand Bus](https://www.metlink.org.nz) 
-|Wellington|[New Zealand Coach Services](https://www.nzcoach.co.nz/) 
+|Wellington|[New Zealand Coach Services](http://www.nzcoach.co.nz/) 
 |Wellington|[Newlands Coach Services](https://www.metlink.org.nz) 
 |Wellington|[Paraparaumu Taxis Ltd](https://www.metlink.org.nz) 
 |Wellington|[Runcimans Motors Ltd](https://www.metlink.org.nz) 
@@ -229,17 +229,17 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Regional|[Citybus](http://www.bravobus.com.hk) 
 |Regional|[Discovery Bay Transit Services (Bus Services)](http://www.dbcommunity.hk) 
-|Regional|[Ferry Services](http://https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/ferries) 
-|Regional|[Green Minibus Services](http://https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/minibuses) 
-|Regional|[HK Tramways](http://https://www.hktramways.com) 
+|Regional|[Ferry Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/ferries) 
+|Regional|[Green Minibus Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/minibuses) 
+|Regional|[HK Tramways](https://www.hktramways.com) 
 |Regional|[Kowloon Motor Bus](http://www.kmb.com.hk) 
-|Regional|[Lok Ma Chau Crossing-boundary Coach Services](http://https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/access_to_lok_ma_chau_control_point) 
+|Regional|[Lok Ma Chau Crossing-boundary Coach Services](https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/access_to_lok_ma_chau_control_point) 
 |Regional|[Long Win Bus](http://www.lwb.hk) 
 |Regional|[MTR Bus](http://www.mtr.com.hk) 
 |Regional|[New Lantao Bus](http://www.newlantaobus.com) 
 |Regional|[New World First Bus](http://www.bravobus.com.hk) 
 |Regional|[Park Island Transport (Bus Services)](http://www.pitcl.com.hk) 
-|Regional|[Peak Tram](http://https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project) 
+|Regional|[Peak Tram](https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project) 
 
 ## India
 |Locality|Transit Agency|
@@ -247,24 +247,24 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
 |Ahmedabad|[AMTS](http://www.amts.co.in/) 
 |Bangalore|[Bangalore Metro Rail Corporation](http://www.bmrc.co.in/) 
-|Bangalore|[Bangalore Metropolitan Transport Corporation](https://www.mybmtc.com/) 
+|Bangalore|[Bangalore Metropolitan Transport Corporation](https://mybmtc.karnataka.gov.in/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
 |Chennai|[MTC](http://www.mtcbus.org/) 
 |Hyderabad|[Hyderabad Metro Rail Limited](https://hmrl.co.in/) 
-|Hyderabad|[Telangana State Road Transport Corporation](https://www.hyderabadbusroutes.in/)
+|Hyderabad|[Telangana State Road Transport Corporation](http://www.hyderabadbusroutes.in/)
 |Kochi|[Kochi Metro](http://www.kochimetro.org/)  
 |Kolkata|[CSTC](https://cstc.org.in/) 
-|Kolkata|[Calcutta Tramways Company (1978) Limited](https://www.calcuttatramways.com/) 
+|Kolkata|[Calcutta Tramways Company (1978) Limited](http://www.calcuttatramways.com/) 
 |Kolkata|[Metro Railway Kolkata](https://kolmetro.com/) 
 |Kolkata|[NBSTC](http://www.nbstc.in/) 
 |Kolkata|[SBSTC](http://sbstc.co.in/) 
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mumbai-metro.com) 
-|Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/mumbai-monorail-p) 
+|Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/) 
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
-|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/Symposium_on_Public.html) 
+|New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
 |New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
 |New Delhi|[Delhi Transport Corporation](http://www.dtc.nic.in) 
 |New Delhi|[Haryana Roadways Faridabad City Bus Service](http://hartrans.gov.in) 
@@ -277,18 +277,19 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Japan
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Fukuoka|[福岡市営渡船](http://port-of-hakata.city.fukuoka.lg.jp/guide/ferry_city/index.html) 
-|Gunma|[永井運輸株式会社](http://https://www.nagai-unyu.net/) 
-|Shimada|[島田市](http://https://www.city.shimada.shizuoka.jp/bouhan/komibus.html) 
-|Yamanashi|[中央市](http://www.city.chuo.yamanashi.jp/sougou/) 
+|Fukuoka|[福岡市営渡船](https://www.hktport.city.fukuoka.lg.jp/) 
+|Gunma|[永井運輸株式会社](https://www.nagai-unyu.net/)
+|Gunma|[Nagai Transport Co., Ltd.](http://https://www.nagai-unyu.net/)  
+|Shimada|[島田市](https://www.city.shimada.shizuoka.jp/bouhan/komibus.html) 
+|Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](http://www.city.minami-alps.yamanashi.jp/) 
 |Yamanashi|[富士川町](http://www.town.fujikawa.yamanashi.jp/) 
 |Yamanashi|[富士急行グループ](http://www.fujikyu.co.jp/) 
 |Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[山梨交通（静岡営業所管内）](http://yamanashikotsu.co.jp/) 
-|Yamanashi|[甲州市](http://https://www.city.koshu.yamanashi.jp/) 
+|Yamanashi|[甲州市](https://www.city.koshu.yamanashi.jp/) 
 |Yamanashi|[甲斐市](http://www.city.kai.yamanashi.jp/) 
-|Yamanashi|[身延町](http://https://www.town.minobu.lg.jp/kurashi/koukyou-koutsu/) 
+|Yamanashi|[身延町](https://www.town.minobu.lg.jp/kurashi/koukyou-koutsu/) 
 |Yamanashi|[韮崎市](http://www.city.nirasaki.lg.jp/)
 
 ## Malaysia
@@ -315,8 +316,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[苗栗客運](http://citybus.taichung.gov.tw/iTravel/) 
 |Regional|[豐原客運](http://citybus.taichung.gov.tw/iTravel/) 
 |Regional|[豐榮客運](http://citybus.taichung.gov.tw/iTravel/)
-|Regional|[交通部臺灣鐵路管理局](http://twtraffic.tra.gov.tw/twrail/) 
-|Regional|[臺灣高速鐵路股份有限公司](http://https://www.thsrc.com.tw) 
+|Regional|[交通部臺灣鐵路管理局](https://www.railway.gov.tw/tra-tip-web/tip) 
+|Regional|[臺灣高速鐵路股份有限公司](https://www.thsrc.com.tw) 
 |Taichung|[BRT](http://citybus.taichung.gov.tw/iTravel/) 
 |Taipei|[三峽區公所](http://www.sanxia.ntpc.gov.tw) 
 |Taipei|[三芝區公所](http://www.sanzhi.ntpc.gov.tw) 
@@ -335,7 +336,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[大南汽車](http://www.dnbus.com.tw/) 
 |Taipei|[大有巴士](http://www.airbus.com.tw) 
 |Taipei|[大都會客運](http://www.mtcbus.com.tw) 
-|Taipei|[好樂好股份有限公司](http://https://syyeh223.wixsite.com/halohaboat) 
+|Taipei|[好樂好股份有限公司](https://syyeh223.wixsite.com/halohaboat) 
 |Taipei|[平溪區公所](http://www.pingxi.ntpc.gov.tw) 
 |Taipei|[指南客運](http://www.csgroup-bus.com.tw) 
 |Taipei|[新北客運](http://www.csgroup-bus.com.tw) 
@@ -365,21 +366,3 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[雙溪區公所](http://www.shuangxi.ntpc.gov.tw) 
 |Taipei|[首都客運](http://www.capital-bus.com.tw) 
 |Taipei|[鶯歌區公所](http://www.yingge.ntpc.gov.tw)
-
-## Thailand
-|Locality|Transit Agency|
-|:--------------------|--------------|
-|Chiang Mai|[Chiang Mai](http://www.cmcity.go.th/) 
-|Chiang Mai|[Chiang Mai University, TH](http://transit.cmu.ac.th/index.php) 
-|Chiang Mai|[Chiangmai Romluang Bus Co.,Ltd](http://www.coopthai.com/nct/) 
-|Chiang Mai|[Coopthai NCT, TH](http://www.coopthai.com/nct/) 
-|Chiang Mai|[Lampoon Pattana Transport, TH](http://www.chiangmaidlt.go.th/) 
-|Chiang Mai|[Nakorn Chiangmai Dernrote Co-Operative .,Ltd](http://www.coopthai.com/nct/) 
-|Chiang Mai|[Nakorn Chiangmai Dernrote Co-Operative.,Ltd](http://www.coopthai.com/nct/) 
-|Chiang Mai|[Nakornlanna Co.,Ltd](http://www.nakorn-lanna.net/home/) 
-|Chiang Mai|[Prempracha Transport Co.,Ltd](http://premprachatransports.com/home-th1) 
-|Chiang Mai|[Sankamphaeng Co-Operative.,Ltd](http://www.chiangmaidlt.go.th/) 
-|Chiang Mai|[Sankamphaeng Co-Operative.,Ltd](http://www.coopthai.com/nct/) 
-|Chiang Mai|[Yanyon Nakorn Chiang Mai Co.,Ltd](http://www.yanyonnakornchiangmai.com/index.php) 
-|Regional|[Greenbus Thailand, LT.D.](https://www.greenbusthailand.com/website/en/) 
-|Regional|[Kwanwiang Transport, LTD.](https://www.facebook.com/khwanwiang.transport) 
