@@ -1,16 +1,13 @@
 ---
-title: "Bing Maps Geographic Coverage | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/01/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Bing Maps Geographic Coverage
+titleSuffix: Microsoft Bing Maps
+description: Description of Bing Maps Geographic Coverage
+ms.date: 02/03/2022
+ms.topic: article
 ms.assetid: 1b4ad52b-0b4a-42ba-9a37-d43cca4854d0
-caps.latest.revision: 48
-author: "DRMap"
-ms.author: "dirabel"
-ms.service: "bing-maps"
+author: stevemunk
+ms.author: v-munksteve
+ms.service: bing-maps
 ---
 
 # Bing Maps Geographic Coverage
