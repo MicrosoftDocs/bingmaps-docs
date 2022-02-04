@@ -25,7 +25,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Mali
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Bamako|[Sotrama Bamako](http://https://billetexpress.ml) 
+|Bamako|[Sotrama Bamako](https://billetexpress.ml) 
 
 ## South Africa
 |Locality|Transit Agency|
@@ -35,18 +35,18 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Tunisia
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|000000-Regional|[Societe Nationale de Transport Interurbain](http://www.sntri.com.tn) 
-|Jendouba|[Aindrahem](http://srtj.tn) 
-|Jendouba|[Bousalem](http://srtj.tn) 
-|Jendouba|[Fernana](http://srtj.tn) 
-|Jendouba|[Ghardimaou](http://srtj.tn) 
-|Jendouba|[Jendouba](http://srtj.tn) 
-|Jendouba|[Tabarka](http://srtj.tn) 
-|Kairouan|[Societe Regionale de Transport de Kairouan](http://www.soretrak.com.tn) 
-|Medenine|[Medenine](http://srt-medenine.com/) 
-|Tunis|[UABS-Banlieue Sahel](http://www.sncft.com.tn) 
-|Tunis|[UABT-Banlieue Tunis](http://www.sncft.com.tn) 
-|Tunis|[UAGL-Grande Ligne](http://www.sncft.com.tn) 
+|000000-Regional|[Societe Nationale de Transport Interurbain](https://sntri.com.tn/) 
+|Jendouba|[Aindrahem](https://srtj.com.tn/Fr/) 
+|Jendouba|[Bousalem](https://srtj.com.tn/Fr/) 
+|Jendouba|[Fernana](https://srtj.com.tn/Fr/) 
+|Jendouba|[Ghardimaou](https://srtj.com.tn/Fr/) 
+|Jendouba|[Jendouba](https://srtj.com.tn/Fr/) 
+|Jendouba|[Tabarka](https://srtj.com.tn/Fr/) 
+|Kairouan|[Societe Regionale de Transport de Kairouan](https://www.soretrak.com.tn) 
+|Medenine|[Medenine](https://srtm.tn/) 
+|Tunis|[UABS-Banlieue Sahel](https://www.sncft.com.tn) 
+|Tunis|[UABT-Banlieue Tunis](https://www.sncft.com.tn) 
+|Tunis|[UAGL-Grande Ligne](https://www.sncft.com.tn) 
 
 
 
