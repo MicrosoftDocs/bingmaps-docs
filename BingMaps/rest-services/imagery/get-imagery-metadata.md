@@ -1,6 +1,7 @@
 ---
 title: Get Imagery Metadata
 titleSuffix: Microsoft Bing Maps
+description: How to use URL templates to get metadata for imagery that is hosted by Bing Maps.
 ms.date: 04/06/2022
 ms.topic: article
 ms.assetid: 8e9208d3-d54e-4321-9bbb-554c7fadcb08
