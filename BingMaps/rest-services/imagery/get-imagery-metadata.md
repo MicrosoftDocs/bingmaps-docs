@@ -77,6 +77,8 @@ https://dev.ditu.live.com/REST/V1/Imagery/Metadata/{imagerySet}?uriScheme=https&
 > - RoadOnDemandFull
 > - RoadDark
 > - RoadVibrant
+> - RoadVibrantDark
+>
 
 ### Template Parameters  
   
