@@ -70,13 +70,9 @@ https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerP
 https://dev.ditu.live.com/REST/V1/Imagery/Metadata/{imagerySet}?uriScheme=https&o=xml&ur=cn&c=zh-cn&key={BingMapsKey}
 > ```
 >
-> China currently supports the following values for `imagerySet`:
+> China currently supports the following two values for `imagerySet`:
 >
-> - Road
 > - RoadOnDemand
-> - RoadOnDemandFull
-> - RoadDark
-> - RoadVibrant
 > - RoadVibrantDark
 >
 
