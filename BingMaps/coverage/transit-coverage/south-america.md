@@ -25,15 +25,15 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Cordoba|[ERSA](http://ersaurbano.com/)
 |Cordoba|[Autobuses Crdoba](https://ualabee.com/agency/1/7)
 |Cordoba|[TAMSE](https://tam-se.com.ar/)
-|Mendoza|[Autotransporte Los Andes](http://https://autlosandes.com/) 
-|Mendoza|[Autotransportes Presidente Alvear S.A](http://https://www.grupo400-700.com/) 
-|Mendoza|[El Cacique S.A.](http://https://www.elcaciquesa.com/) 
-|Mendoza|[El Plumerillo](http://https://www.plumerillosa.com/) 
+|Mendoza|[Autotransporte Los Andes](https://autlosandes.com/) 
+|Mendoza|[Autotransportes Presidente Alvear S.A](https://www.grupo400-700.com/) 
+|Mendoza|[El Cacique S.A.](https://www.elcaciquesa.com/) 
+|Mendoza|[El Plumerillo](https://www.plumerillosa.com/) 
 |Mendoza|[El Trapiche S.R.L.](http://www.eltrapicheonline.com.ar) 
-|Mendoza|[Empresa Maipú](http://https://empresa-maipu.com.ar/) 
+|Mendoza|[Empresa Maipú](https://empresa-maipu.com.ar/) 
 |Mendoza|[Gral. Roca S.R.L.](http://generalrocasrl.com.ar) 
-|Mendoza|[Mitre S.R.L.](http://https://www.transportesbmitre.com.ar/) 
-|Mendoza|[Sociedad de Transporte de Mendoza](http://https://stmendoza.com)
+|Mendoza|[Mitre S.R.L.](https://www.transportesbmitre.com.ar/) 
+|Mendoza|[Sociedad de Transporte de Mendoza](https://stmendoza.com)
 
 ## Brazil
 |Locality|Transit Agency|
