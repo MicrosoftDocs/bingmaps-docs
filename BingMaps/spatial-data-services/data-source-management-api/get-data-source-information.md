@@ -1,27 +1,28 @@
 ---
-title: "Get Data Source Information | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Get Data Source Information
+titleSuffix: Microsoft Bing Maps
+ms.date: 04/28/2022
+ms.topic: article
 ms.assetid: 9aea8125-9433-4956-a501-37773a4adee8
 caps.latest.revision: 33
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
-ms.service: "bing-maps"
+author: rbrundritt
+ms.author: richbrun
+manager: stevelom
+ms.service: bing-maps
 ---
+
 # Get Data Source Information
+
 Use the following URLs to get information about one or more data sources.  
   
  You can view the query URL, master key, and query key for all data sources associated with a Bing Maps Account on [Bing Maps Account Center](https://www.bingmapsportal.com). For more information, see [Getting Data Source Information](https://msdn.microsoft.com/library/hh127034).  
   
 ## Supported HTTP Methods  
- GET  
+
+GET  
   
 ## URL templates  
+
  **Get information about all data sources that belong to a Bing Maps Account**.  
   
  The response returned by this URL is an AtomPub service document that contains the date and time that the each data source was last updated and the names of the data sources. When the `$format` query option is set to `atom`, which is the default value, the base URLs to use to query the data sources are also provided. For more information about the response and AtomPub service documents, see the **Response** and **Example** sections following the table of parameters.  
@@ -31,76 +32,80 @@ Use the following URLs to get information about one or more data sources.
 ```url
 http://spatial.virtualearth.net/REST/v1/data?$format=formatQueryOption&key=anyKeyFromTheBingMapsAccount  
 ```  
-  
- **Get information about a specific data source.**  
-  
- To view data source information for the published data source and up to two (2) previous versions, set *showAllVersions* to true.  
-  
- The response returned by this URL is an AtomPub service document that contains the date and time that the data source was last updated and the name of the data source. When the `$format` query option is set to `atom`, which is the default value, the base URL to use to query the data source is also provided.  
-  
- The base part of the following URL with *accessID* and *dataSourceName* is returned when you create the data source. It is also returned when you request information for all data sources that belong to a Bing Maps Account. This base URL is unique for each data source and is used to get information about the datasource, such as entity types and properties. It is also used to query the data source. For more information about the response and AtomPub service documents, see the **Response** and **Example** sections following the table of parameters.  
-  
- The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
-  
+
+**Get information about a specific data source.**  
+
+To view data source information for the published data source and up to two (2) previous versions, set *showAllVersions* to true.  
+
+The response returned by this URL is an AtomPub service document that contains the date and time that the data source was last updated and the name of the data source. When the `$format` query option is set to `atom`, which is the default value, the base URL to use to query the data source is also provided.  
+
+The base part of the following URL with *accessID* and *dataSourceName* is returned when you create the data source. It is also returned when you request information for all data sources that belong to a Bing Maps Account. This base URL is unique for each data source and is used to get information about the datasource, such as entity types and properties. It is also used to query the data source. For more information about the response and AtomPub service documents, see the **Response** and **Example** sections following the table of parameters.  
+
+The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
+
 ```url
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName?$format=formatQueryOption&showAllVersions=showAllVerions&key=anyKeyFromTheBingMapsAccount  
 ```  
   
- **Get the metadata for all data sources that belong to a Bing Maps Account**.  
-  
- The response returned by this URL is an OData Service Metadata Document, which describes the entity types and properties for all of the data sources that belong to a Bing Maps Account. For more information about the response and OData Service Metadata Documents, see the **Response** and **Example** sections following the table of parameters.  
-  
- The key parameter in this URL is set to any Bing Maps Key that belongs to the Bing Maps Account.  
+**Get the metadata for all data sources that belong to a Bing Maps Account**.  
+
+The response returned by this URL is an OData Service Metadata Document, which describes the entity types and properties for all of the data sources that belong to a Bing Maps Account. For more information about the response and OData Service Metadata Documents, see the **Response** and **Example** sections following the table of parameters.  
+
+The key parameter in this URL is set to any Bing Maps Key that belongs to the Bing Maps Account.  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/$metadata?key=anyKeyFromTheBingMapsAccount  
 ```  
-  
- **Get the metadata for a single data source.**  
-  
- To view data source metadata for the published data source and up to two (2) previous versions, set *showAllVersions* to true.  
-  
- The response returned by this URL is an OData Service Metadata Document, which describes the entity types and properties for the data source. For more information about the response and OData Service Metadata Documents, see the **Response** and **Example** sections following the table of parameters.  
-  
- The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
-  
+
+**Get the metadata for a single data source.**  
+
+To view data source metadata for the published data source and up to two (2) previous versions, set *showAllVersions* to true.  
+
+The response returned by this URL is an OData Service Metadata Document, which describes the entity types and properties for the data source. For more information about the response and OData Service Metadata Documents, see the **Response** and **Example** sections following the table of parameters.  
+
+The key parameter in this URL can be set to the data source master key or any Bing Maps Key that belongs to the same Bing Maps Account.  
+
 ```url
 http://spatial.virtualearth.net/REST/v1/data/accessID/dataSourceName/$metadata?showAllVersions=showAllVersions&key=anyKeyFromTheBingMapsAccount  
 ```  
-  
+
 ### Template Parameters  
   
 > [!NOTE]
->  Parameter names and values are not case-sensitive except for the key parameter value.  
+> Parameter names and values are not case-sensitive except for the key parameter value.  
   
 |Parameter|Description|Values|  
 |---------------|-----------------|------------|  
 |accessId|**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> **Example**: a92dcfac8a0894bc4921ad5c74022623.|  
 |dataSourceName|**Required** The name of the data source that you want to search.|A string that identifies the data source. The name is part of the URL structure that identifies the data source.<br /><br /> **Example**: FourthCoffeeSample|  
 |entityTypeName|**Required** The entity type to search for in the data source.|A string that specifies the entity type for the data source.<br /><br /> **Example**: FourthCoffeeShops|  
-|formatQueryOption|**Optional**. Specifies the format of the response. The supported formats are Atom and JSON.|One of the following values:<br /><br /> -   atom **[default]**<br />-   json<br /><br /> **Example**: $format=json|  
-|showAllVersions|**Optional**. Shows data source information for the current data source and up to two (2) previous versions. This option is often used to get job IDs when you want to restore a previous version of the data source.|One of the following values:<br /><br /> -   true: Show data source information for all versions.<br />-   false **[default]**: Only show information for published data source.|  
+|formatQueryOption|**Optional**. Specifies the format of the response. The supported formats are Atom and JSON.|One of the following values:<br /><br /> - atom **[default]**<br />- json<br /><br /> **Example**: $format=json|  
+|showAllVersions|**Optional**. Shows data source information for the current data source and up to two (2) previous versions. This option is often used to get job IDs when you want to restore a previous version of the data source.|One of the following values:<br /><br /> - true: Show data source information for all versions.<br />- false **[default]**: Only show information for published data source.|  
 |key|**Required**. A Bing Maps Key that belongs to the Bing Maps Account that manages the data source(s).|One of the Bing Maps Keys that is belongs to the Bing Maps Account that manages the data source(s).<br /><br /> If you are requesting information about a single data source, you can also use the data source master key.<br /><br /> **Example**: key=abc123def456ghi789abc123def456ghi789|  
   
-## Response  
- These URLs supports the following response formats. You can specify the format to return by setting the $format query option. For more information, see [Query Options](../query-api/query-options.md).  
+## Response
+
+These URLs supports the following response formats. You can specify the format to return by setting the $format query option. For more information, see [Query Options](../query-api/query-options.md).  
   
--   Atom (application/atomsvc + xml) [**default**]    
--   JSON (application/json)  
+- Atom (application/atomsvc + xml) [**default**]
+- JSON (application/json)  
   
 > [!NOTE]
 > You cannot request JSON format for your response when you request data source metadata.  
   
- The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an Atom Publishing Protocol (AtomPub) service document. The AtomPub service document contains the data source information that you requested. The Atom Publishing Protocol (AtomPub) is a protocol that applications can use to publish and edit web resources. The AtomPub service document for this response uses the style defined in the [Atom Publishing Protocol:Data Services URI and Payload Extensions](http://www.odata.org/media/6655/%5bmc-apdsu%5d%5b1%5d.htm) specification. For specific information about the JSON response format, see the [OData JSON Service Document](http://www.odata.org/media/6655/%5Bmc-apdsu%5D%5B1%5D.htm) section of this document. The Atom Publishing Protocol:Data Services URI and Payload Extensions specification defines an extension of the [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) for REST services.  
+<!-----The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an Atom Publishing Protocol (AtomPub) service document. The AtomPub service document contains the data source information that you requested. The Atom Publishing Protocol (AtomPub) is a protocol that applications can use to publish and edit web resources. The AtomPub service document for this response uses the style defined in the [Atom Publishing Protocol:Data Services URI and Payload Extensions](https://datatracker.ietf.org/doc/html/rfc5023) specification. For specific information about the JSON response format, see the [OData JSON Service Document](https://www.odata.org/documentation/odata-version-2-0/json-format) section of this document. The Atom Publishing Protocol:Data Services URI and Payload Extensions specification defines an extension of the [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) for REST services. ---->
+
+The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) (AtomPub) service document. The AtomPub service document contains the data source information that you requested, that can be use to publish and edit web resources. For specific information about the JSON response format, see the [OData JSON Service Document](https://www.odata.org/documentation/odata-version-2-0/json-format) section of this document.
+
+The response to the URL that gets metadata for a data source is an OData Service Metadata Document. This document describes the entity types and properties for that data source by using the Entity Data Model and the Conceptual Schema Data Language (CSDL). For more information, see [Service Metadata Document](https://www.odata.org/developers/protocols/overview#ServiceMetadataDocument) section of the [Open Data Protocol](https://www.odata.org/developers/protocols/overview).  
   
- The response to the URL that gets metadata for a data source is an OData Service Metadata Document. This document describes the entity types and properties for that data source by using the Entity Data Model and the Conceptual Schema Data Language (CSDL). For more information, see [Service Metadata Document](https://www.odata.org/developers/protocols/overview#ServiceMetadataDocument) section of the [Open Data Protocol](https://www.odata.org/developers/protocols/overview).  
+## Examples
+
+**EXAMPLE: Get information on all data sources that belong to a Bing Maps Account**.  
+
+The following example shows how to request information about all data sources that belong to a Bing Maps Account. The key parameter must be set to a Bing Maps Key that belongs to the Bing Maps Account.  
   
-## Examples  
- **EXAMPLE: Get information on all data sources that belong to a Bing Maps Account**.  
-  
- The following example shows how to request information about all data sources that belong to a Bing Maps Account. The key parameter must be set to a Bing Maps Key that belongs to the Bing Maps Account.  
-  
- **URL with Atom Response**  
+**URL with Atom Response**
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data?key=anyKeyFromTheBingMapsAccount  
@@ -129,7 +134,7 @@ http://spatial.virtualearth.net/REST/v1/data?key=anyKeyFromTheBingMapsAccount
   
 ```  
   
- **URL with JSON Response**  
+**URL with JSON Response**
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data?$format=json&key=anyKeyFromTheBingMapsAccount  
@@ -160,14 +165,14 @@ http://spatial.virtualearth.net/REST/v1/data?$format=json&key=anyKeyFromTheBingM
    }  
 }  
 ```  
-  
- **EXAMPLE: Get general information about a specific data source**.  
-  
- The following example shows how to request information for a specific data source including the three (3) previous versions. The key parameter must be set to the master key of the data source or any Bing Maps Key that belongs to the Bing Maps Account that contains the data source.  
-  
- **URL with Atom Response**  
-  
- The following response provides a URL that you can use to query data source.  
+
+**EXAMPLE: Get general information about a specific data source**.  
+
+The following example shows how to request information for a specific data source including the three (3) previous versions. The key parameter must be set to the master key of the data source or any Bing Maps Key that belongs to the Bing Maps Account that contains the data source.  
+
+**URL with Atom Response**
+
+The following response provides a URL that you can use to query data source.  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample?showAllVersions=3&key=anyKeyFromTheBingMapsAccount  
@@ -206,7 +211,7 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
   
 ```  
   
- **URL with JSON response**  
+**URL with JSON response**
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample?$format=json&key=anyKeyFromTheBingMapsAccount  
@@ -225,14 +230,14 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
    }  
 }  
 ```  
-  
- **EXAMPLE: Get metadata for a specific data source**.  
-  
- The following example shows how to request metadata for a specific data source. Metadata includes the entity types for the data source and their corresponding properties. The key parameter must be set to the data source master key or to any Bing Maps Key that belongs to the Bing Maps Account that contains the data source.  
-  
- **URL with Atom Response**  
-  
- Atom is the only supported response type when you request metadata.  
+
+**EXAMPLE: Get metadata for a specific data source**.  
+
+The following example shows how to request metadata for a specific data source. Metadata includes the entity types for the data source and their corresponding properties. The key parameter must be set to the data source master key or to any Bing Maps Key that belongs to the Bing Maps Account that contains the data source.  
+
+**URL with Atom Response**
+
+Atom is the only supported response type when you request metadata.  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/FourthCoffeeSample/$metadata?key=anyKeyFromTheBingMapsAccount  
@@ -285,15 +290,15 @@ http://spatial.virtualearth.net/REST/v1/data/20181f26d9e94c81acdf9496133d4f23/Fo
 ## HTTP Status Codes  
   
 > [!NOTE]
->  For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
+> For more details about these HTTP status codes, see [Status Codes and Error Handling](../status-codes-and-error-handling.md).  
   
- When the request is successful, the following HTTP status code is returned.  
+When the request is successful, the following HTTP status code is returned.  
   
--   201  
+- 201  
   
- When the request is not successful, the response returns one of the following errors.  
+When the request is not successful, the response returns one of the following errors.  
   
--   400    
--   401    
--   500    
--   503
+- 400
+- 401
+- 500
+- 503
