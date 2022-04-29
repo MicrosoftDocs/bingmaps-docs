@@ -92,8 +92,6 @@ These URLs supports the following response formats. You can specify the format t
   
 > [!NOTE]
 > You cannot request JSON format for your response when you request data source metadata.  
-  
-<!-----The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an Atom Publishing Protocol (AtomPub) service document. The AtomPub service document contains the data source information that you requested. The Atom Publishing Protocol (AtomPub) is a protocol that applications can use to publish and edit web resources. The AtomPub service document for this response uses the style defined in the [Atom Publishing Protocol:Data Services URI and Payload Extensions](https://datatracker.ietf.org/doc/html/rfc5023) specification. For specific information about the JSON response format, see the [OData JSON Service Document](https://www.odata.org/documentation/odata-version-2-0/json-format) section of this document. The Atom Publishing Protocol:Data Services URI and Payload Extensions specification defines an extension of the [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) for REST services. ---->
 
 The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) (AtomPub) service document. The AtomPub service document contains the data source information that you requested, that can be use to publish and edit web resources. For specific information about the JSON response format, see the [OData JSON Service Document](https://www.odata.org/documentation/odata-version-2-0/json-format) section of this document.
 
