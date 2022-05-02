@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 71be2e0e-75be-4d23-ab8b-803c9852f976
 caps.latest.revision: 29
-author: "dirabel"
-ms.author: "dirabel"
+author: eriklindeman
+ms.author: eriklind
 manager: "cpendle"
 ms.service: "bing-maps"
 ---

@@ -9,7 +9,7 @@ ms.topic: "home-page"
 ms.assetid: ""
 caps.latest.revision: ""
 author: "DRMap"
-ms.author: "dirabel"
+ms.author: v-munksteve
 manager: "donnali"
 ms.service: "bing-maps"
 ---
