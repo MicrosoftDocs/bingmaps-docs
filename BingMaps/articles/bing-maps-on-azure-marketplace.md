@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps on Azure Marketplace | Microsoft Docs"
+description: Learn about the deprecation of the Bing Maps for Enterprise product licensing option through Azure Marketplace.
 ms.custom: ""
 ms.date: "08/31/2020"
 ms.reviewer: ""
@@ -50,13 +51,13 @@ Bing Maps for Enterprise licensing through Azure Marketplace was first released 
 
 ### Azure Maps
 - [Azure Maps product overview](https://azure.microsoft.com/services/azure-maps/)
-- [Azure Maps documentation](https://docs.microsoft.com/azure/azure-maps/)
-- [Azure Maps quick start](https://docs.microsoft.com/azure/azure-maps/quick-demo-map-app)
+- [Azure Maps documentation](/azure/azure-maps/)
+- [Azure Maps quick start](/azure/azure-maps/quick-demo-map-app)
 - [Azure Maps pricing](https://azure.microsoft.com/pricing/details/azure-maps/)
 
 ### Bing Maps
 - [Bing Maps for Enterprise licensing options](https://www.microsoft.com/maps/licensing)
 - To contact the Bing Maps for Enterprise licensing team please go to [this page](https://www.microsoft.com/maps/contact-us) or contact us at maplic@microsoft.com for customers in the Americas and mapemea@microsoft.com for all other regions
-- [Bing Maps for Enterprise documentation](https://docs.microsoft.com/bingmaps/)
+- [Bing Maps for Enterprise documentation](/bingmaps/)
 - [Bing Maps for Enterprise technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=a2a88740-f135-42df-37d0-430a1b6cffc1)
 - Customers that are interested to continue to use Bing Maps for Enterprise are encouraged to sign up for an account/key at the [Bing Maps portal](https://www.bingmapsportal.com/)

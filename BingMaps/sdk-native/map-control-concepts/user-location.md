@@ -1,5 +1,6 @@
 ---
 title: UserLocation API
+description: Learn how to use the UserLocation method to show and track a user's location.
 ms.author: "adl"
 ---
 
