@@ -1,5 +1,6 @@
 ---
 title: "Geocoding Japanese Addresses | Microsoft Docs"
+description: Learn how to handle the custom needs of Japanese address geocoding and support key features.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

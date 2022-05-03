@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with the Bing Maps REST Services | Microsoft Docs"
+description: Learn how to use Bing Maps REST Services Application Programming Interface (API).
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

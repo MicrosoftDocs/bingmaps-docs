@@ -1,5 +1,6 @@
 ---
 title: "Geocoding and Managing Data Sources | Microsoft Docs"
+description: Learn about geocoding and managing data sources with the Bing Maps Dev Center links.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

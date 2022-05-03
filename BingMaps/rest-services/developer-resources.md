@@ -1,5 +1,6 @@
 ---
 title: "REST Developer Resources | Microsoft Docs"
+description: Learn how to use the REST Developer Resources for Bing Maps. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

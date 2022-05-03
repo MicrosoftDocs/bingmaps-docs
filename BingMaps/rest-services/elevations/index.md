@@ -1,5 +1,6 @@
 ---
 title: "Elevations API | Microsoft Docs"
+description: Learn how to use the Elevations API for Bing Maps. 
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"

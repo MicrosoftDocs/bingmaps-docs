@@ -1,5 +1,6 @@
 ---
 title: "Download a Data Source Dataflow | Microsoft Docs"
+description: Learn how to download entity data from a published data source using the Data Source Download Dataflow API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Imagery API | Microsoft Docs"
+description: Learn how to use the Imagery API to get static maps and Bing™ Maps imagery information.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Understanding Scale and Resolution | Microsoft Docs"
+description: Learn how Bing map determines the exact scale or resolution of a particular image.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

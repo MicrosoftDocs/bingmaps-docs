@@ -1,5 +1,6 @@
 ---
 title: "Data Source Management API | Microsoft Docs"
+description: Learn how to use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

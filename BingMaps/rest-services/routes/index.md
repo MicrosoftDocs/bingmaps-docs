@@ -1,5 +1,6 @@
 ---
 title: "Routes API | Microsoft Docs"
+description: Learn how to use the Routes API to create a route that includes two or more locations and to create routes from major roads.
 ms.date: "02/28/2018"
 ms.topic: "reference"
 caps.latest.revision: 17

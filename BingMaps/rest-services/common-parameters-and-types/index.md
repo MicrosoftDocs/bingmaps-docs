@@ -1,5 +1,6 @@
 ---
 title: "Common Parameters and Types | Microsoft Docs"
+description: Learn about the common parameters and types for Bing Maps REST Services. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

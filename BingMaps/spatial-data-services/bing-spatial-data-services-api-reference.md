@@ -1,5 +1,6 @@
 ---
 title: "Bing Spatial Data Services API Reference | Microsoft Docs"
+description: Learn about the Bing Spatial Data Services API. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
