@@ -18,7 +18,7 @@ The following topics describe how to use the Bing Maps Dev Center at [https://ww
   
 ## In this section  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Uploading and Publishing Entity Data to a Data Source](uploading-and-publishing-entity-data-to-a-data-source.md)|Describes how to create, upload and publish entity data to a data source.|  
 |[Editing a Data Source](editing-a-data-source.md)|Describes how to edit entity data and data schemas for published data sources.|  

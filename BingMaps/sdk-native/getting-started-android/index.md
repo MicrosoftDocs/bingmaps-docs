@@ -40,28 +40,33 @@ ext.credentialsKey = "ENTER YOUR KEY HERE"
 
 In your `project/build.gradle` file, inside `allprojects`, insert the following block in `repositories`:
 
->```
-> repositories {
->         jcenter()
-          maven {
-              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
-          }
-> }
->```
+```
+repositories {
+        jcenter()
+        maven {
+            url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+        }
+}
+```
 
 In your `app/build.gradle` file, apply this line at the top to import the external variables from newly created file:
 
-    apply from: 'secrets.gradle'
+```
+apply from: 'secrets.gradle'
+```
 
 Next, in the same file, inside `buildTypes` block, insert following block next to `release` block to add a build config field with your Bing Maps key in order to be able to use it from Java code:
 
-    buildTypes.each {
-        it.buildConfigField "String", "CREDENTIALS_KEY", "\"$credentialsKey\""
-    }
-
+```
+buildTypes.each {
+    it.buildConfigField "String", "CREDENTIALS_KEY", "\"$credentialsKey\""
+}
+```
 And finally, inside `dependencies` block, add the following lines and build your project:
 
-    implementation 'com.microsoft.maps:maps-sdk:1.2.0'
+```
+implementation 'com.microsoft.maps:maps-sdk:1.2.0'
+```
 
 ## Adding a map view to your activity
 

@@ -35,26 +35,26 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Value of <code>optimize</code></th>
-<th style="text-align: center;">Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</th>
+<th>Value of <code>optimize</code></th>
+<th>Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>distance</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
+<td><code>distance</code></td>
+<td>Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
-<td style="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information is not used.</td>
+<td><code>time</code> <strong>[Default]</strong></td>
+<td>Waypoints are reordered to minimize time traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>timeWithTraffic</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize the time traveled along the entire route. Traffic information is not used.</td>
+<td><code>timeWithTraffic</code></td>
+<td>Waypoints are reordered to minimize the time traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>timeAvoidClosure</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information, including road closure information, is not used.</td>
+<td><code>timeAvoidClosure</code></td>
+<td>Waypoints are reordered to minimize time traveled along the entire route. Traffic information, including road closure information, is not used.</td>
 </tr>
 </tbody>
 </table>
@@ -81,36 +81,36 @@ The five waypoints from the above example are in the table below:
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th>Waypoint</th>
+<th>Place Name</th>
+<th>Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td><code>wp.0</code></td>
+<td>Pike Place Market</td>
+<td>86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td><code>wp.1</code></td>
+<td>Fremont Troll</td>
+<td>Troll Ave N, Seattle, WA 98103</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td><code>wp.2</code></td>
+<td>UW Stadium</td>
+<td>3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td><code>wp.3</code></td>
+<td>Seattle Central Library</td>
+<td>1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td><code>wp.4</code></td>
+<td>Marvin's Garden</td>
+<td>5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 </tbody>
 </table>
@@ -125,36 +125,36 @@ For example, we could use this ordering to make the request URL:
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th>Waypoint</th>
+<th>Place Name</th>
+<th>Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td><code>wp.0</code></td>
+<td>Pike Place Market</td>
+<td>86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td><code>wp.1</code></td>
+<td>UW Stadium</td>
+<td>3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td><code>wp.2</code></td>
+<td>Seattle Central Library</td>
+<td>1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td><code>wp.3</code></td>
+<td>Fremont Troll</td>
+<td>Troll Ave N, Seattle, WA 98103</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td><code>wp.4</code></td>
+<td>Marvin's Garden</td>
+<td>5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 </tbody>
 </table>
@@ -167,36 +167,36 @@ However, suppose that we switch the waypoint for the Fremont Troll with the wayp
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th>Waypoint</th>
+<th>Place Name</th>
+<th>Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td><code>wp.0</code></td>
+<td>Pike Place Market</td>
+<td>86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td><code>wp.1</code></td>
+<td>UW Stadium</td>
+<td>3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td><code>wp.2</code></td>
+<td>Seattle Central Library</td>
+<td>1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td><code>wp.3</code></td>
+<td>Marvin's Garden</td>
+<td>5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td><code>wp.4</code></td>
+<td>Fremont Troll</td>
+<td>Troll Ave N, Seattle, WA 98103</td>
 </tr>
 </tbody>
 </table>
@@ -210,19 +210,25 @@ Now we show how to make the full URL request.
 
 First, assign waypoints to the above addresses to create the first part of the URL request (using `+` or `%20` to replace spaces):
 
-    Driving?wp.0=86+Pike+Pl%2C+Seattle%2C+WA+98101&wp.1=Troll+Ave+N%2C+Seattle%2C+WA+98103&wp.2=3800+Montlake+Blvd+NE%2C+Seattle%2C+WA+98195&wp.3=1000+4th+Ave%2C+Seattle%2C+WA+98104&wp.4=5400+Ballard+Ave+NW%2C+Seattle%2C+WA+98107
+```
+Driving?wp.0=86+Pike+Pl%2C+Seattle%2C+WA+98101&wp.1=Troll+Ave+N%2C+Seattle%2C+WA+98103&wp.2=3800+Montlake+Blvd+NE%2C+Seattle%2C+WA+98195&wp.3=1000+4th+Ave%2C+Seattle%2C+WA+98104&wp.4=5400+Ballard+Ave+NW%2C+Seattle%2C+WA+98107
+```
 
 To include a route with more waypoints simply add more waypoints to the list.
 
 Second, make sure to set the parameter `optimizeWaypoints` (or the alias `optwp`) to `true`:
 
-    &optimizeWaypoints=true
+```
+&optimizeWaypoints=true
+```
 
 Lastly, specify a value for the `optimize` parameter.
 
 In our example, we set `optimize` to `timeWithTraffic`. This will optimize both the *paths* (route legs) between waypoints and the order of the waypoints to minimize time traveled. However, current traffic information is only used for path optimization. It is *not* used for waypoint optimization (see [Path and Waypoint Optimization](https://msdn.microsoft.com/library/ff701717.aspx#anchor_1)):
 
-    &optimize=timeWithTraffic
+```
+&optimize=timeWithTraffic
+```
 
 Below is the full URL request.
 

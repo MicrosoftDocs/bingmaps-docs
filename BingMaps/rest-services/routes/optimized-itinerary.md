@@ -1,7 +1,7 @@
 ---
 title: "Optimized Itinerary | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/03/2019" Last updated "04/08/2020"
+ms.date: "04/08/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
