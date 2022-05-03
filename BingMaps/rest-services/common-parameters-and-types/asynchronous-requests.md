@@ -2,7 +2,7 @@
 # required metadata
 title: "Bing Maps REST Asynchronous Requests | Microsoft Docs"
 author: "v-chrfr"
-ms.author: "v-chrfr"
+ms.author: v-munksteve
 ms.date: "06/19/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

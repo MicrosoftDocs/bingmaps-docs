@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 caps.latest.revision: 6
 author: "v-chrfr"
-ms.author: "v-chrfr"
+ms.author: v-munksteve
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
