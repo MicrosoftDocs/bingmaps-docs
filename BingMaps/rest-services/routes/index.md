@@ -16,7 +16,7 @@ Use the Routes API to create a route that includes two or more locations and to 
   
 ## In this section  
   
-|||  
+|Topic|Description|  
 |-|-|
 |[Calculate a Route](calculate-a-route.md)|Get a walking, driving or transit route by specifying a series of waypoints.|  
 |[Calculate a Truck Route](calculate-a-truck-route.md)|Calculate routes which take into consideration truck attributes. Such as size, weight, and type of cargo.|  

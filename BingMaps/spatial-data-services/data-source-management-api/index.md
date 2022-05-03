@@ -34,7 +34,7 @@ Use the Data Source Management API to create and manage data sources that store 
   
 ## In this Section  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md)|Create a data source and upload entity data.|  
 |[Get Data Source Information](../data-source-management-api/get-data-source-information.md)|Get information about one or more data sources.|  

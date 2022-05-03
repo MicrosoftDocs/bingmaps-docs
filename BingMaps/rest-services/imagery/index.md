@@ -19,7 +19,7 @@ Use the Imagery API to get static maps and Bing™ Maps imagery information.
   
 ## In this section  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Get a Static Map](get-a-static-map.md)|Use these URL templates to get a static map. You can also display a route on a static map.|  
 |[Get Imagery Metadata](get-imagery-metadata.md)|Use these URL templates to get metadata for imagery that is hosted by Bing™ Maps, such as imagery tiles.|  
