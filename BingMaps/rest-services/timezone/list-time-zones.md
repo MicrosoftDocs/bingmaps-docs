@@ -1,5 +1,6 @@
 ---
 title: "List Time Zones | Microsoft Docs"
+description: "The list operation retrieves all available time zone data for either the IANA or Windows time zone standard."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""

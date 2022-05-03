@@ -1,5 +1,6 @@
 ---
 title: "Time Zone Data | Microsoft Docs"
+description: "The Bing Maps Time Zone API returns responses in either XML or JSON. All responses include at least one TimeZone resource."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""

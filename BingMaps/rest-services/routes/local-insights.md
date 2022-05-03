@@ -1,5 +1,6 @@
 ---
 title: " Bing Maps Local Insights API"
+description: "The Bing Maps Local Insights API returns a list of local entities within the specified maximum driving time or distance traveled from a specified point."
 ms.custom: ""
 ms.date: "12/12/2018"
 ms.reviewer: ""

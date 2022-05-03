@@ -1,5 +1,6 @@
 ---
 title: "Find Time Zone| Microsoft Docs"
+description: "Given a pair of coordinates or a place name query, the Bing Maps Time Zone API will return local time zone and DST information."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""
@@ -15,7 +16,7 @@ ms.service: "bing-maps"
 
 # Find Time Zone
 
-The Bing Maps Time Zone API makes it easy to retrieve time zone information for any point on Earth. Given a pair of coordinates or a place name query the Time Zone API will return local time zone and daylight savings (DST) information for that location. Note that time zone data for bodies of water, like oceans or seas, is not supported.
+The Bing Maps Time Zone API makes it easy to retrieve time zone information for any point on Earth. Given a pair of coordinates or a place name query, the Time Zone API will return local time zone and daylight savings (DST) information for that location. Note that time zone data for bodies of water, like oceans or seas, is not supported.
 
 
 ## API Templates

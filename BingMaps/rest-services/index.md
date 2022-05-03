@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps REST Services | Microsoft Docs"
+description: "The Bing Maps REST Services API provides a REST interface to perform tasks related to maps and routes."
 ms.custom: ""
 ms.date: 11/05/2021
 ms.reviewer: ""

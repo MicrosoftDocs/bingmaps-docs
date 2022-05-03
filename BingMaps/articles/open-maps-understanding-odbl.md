@@ -1,5 +1,6 @@
 ---
 title: "Open Maps understanding ODbL | Microsoft Docs"
+description: "Certain data available in the Bing Maps v8 web control API will be subject to the Open Database License (ODbL)."
 ms.custom: ""
 ms.date: ""
 ms.reviewer: ""
