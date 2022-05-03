@@ -90,9 +90,8 @@ You must provide a data schema and a set of input data to create a data source w
   
  The following table shows the available properties for defining a point on the Earth and their corresponding types.  
   
-|||||  
+|Attribute|Description|Input Data Type|OData Data Type|  
 |-|-|-|-|  
-|**Attribute**|**Description**|**Input Data Type**|**OData Data Type**|  
 |Latitude|The latitude of the entity location.|double|Edm.Double|  
 |Longitude|The longitude of the entity location.|double|Edm.Double|  
 |Elevation|The elevation of the entity location.|double|Edm.Double|  

@@ -1,5 +1,5 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
+title: "Map Style Sheets Overview | Microsoft Docs"
 ms.author: "pablocan"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Map Events | Microsoft Docs"
+title: "Map Events API | Microsoft Docs"
 ms.author: "pablocan"
 ---
 

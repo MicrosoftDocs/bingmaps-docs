@@ -1,5 +1,5 @@
 ---
-title: Map Control API Reference
+title: Map Control API Reference for the Android and iOS SDK
 description: Bing Maps Map Control API Reference for the Android and iOS SDK
 author: stevemunk
 ms.author: v-munksteve
