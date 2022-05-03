@@ -75,7 +75,7 @@ https://dev.virtualearth.net/REST/v1/Locations/latitudeIinDegrees,longitudeInDeg
 ### Japanese Geocode and Reverse-Geocode URL Examples  
  The following examples show how to use these URLs to geocode Japanese addresses. Before trying out these examples, make sure you replace the placeholder YourBingMapsKey with your Bing Maps Key. These URLs will produce an XML response because the output parameter “o=xml” is specified. If you do not specify the output parameter, a JSON response is returned.  
   
-|Request type|Address values, strings or coordinates|Example URL|  
+|Request type|Address values strings or coordinates|Example URL|  
 |----|----|----|  
 |Geocode an address using URL address parameters|AdminDistrict = 東京都<br /><br /> Locality = 港区<br /><br /> AddressLine = 港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?countryRegion=JP&adminDistrict=%E6%9D%B1%E4%BA%AC%E9%83%BD&locality=%e6%b8%af%e5%8c%ba&addressLine=%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&key=YourBingMapsKey|  
 |Geocode an address using a single address string|Query = 〒108-0075東京都港区港南２－１６－３|https://dev.virtualearth.net/REST/v1/Locations?query=%e3%80%92108%2d0075%e6%9d%b1%e4%ba%ac%e9%83%bd%e6%b8%af%e5%8c%ba%e6%b8%af%e5%8d%97%ef%bc%92%e2%88%92%ef%bc%91%ef%bc%96%e2%88%92%ef%bc%93&o=xml&c=ja&key=YourBingMapsKey|  
