@@ -53,9 +53,8 @@ To make the map seamless, and to ensure that aerial images from different source
   
  This table shows each of these values at each level of detail, **as measured at the Equator**.  (Note that the ground resolution and map scale also vary with the latitude, as shown in the equations above, but not shown in the table below.)  
 
-|                     |                                   |                                        |                                     |
+|**Level of Detail**|**Map Width and Height (pixels)**|**Ground Resolution (meters / pixel)**|**Map Scale** <br />**(at 96 dpi)**|
 |---------------------|-----------------------------------|----------------------------------------|-------------------------------------|
-|**Level of Detail**|**Map Width and Height (pixels)**|**Ground Resolution (meters / pixel)**|**Map Scale** <br />**(at 96 dpi)**|  
 |1|512|78,271.5170|1 : 295,829,355.45|  
 |2|1,024|39,135.7585|1 : 147,914,677.73|  
 |3|2,048|19,567.8792|1 : 73,957,338.86|  
