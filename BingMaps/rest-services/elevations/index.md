@@ -13,7 +13,7 @@ Use the Elevations API to get elevation information for a set of locations, poly
   
 ## In this section
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Get Elevations](get-elevations.md)|Use these URL templates to get elevations for a set of locations, a polyline or area on the Earth.|  
 |[Elevation Data](elevation-data.md)|Use this description to understand the data values returned in the response.|  
