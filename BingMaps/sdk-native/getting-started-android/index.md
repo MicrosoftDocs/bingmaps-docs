@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Android | Microsoft Docs"
-description: Learn how to create an Android app with a Bing Maps Native Control step-by-step.
+description: Learn how to create an Android app with a Bing Maps Native Control.
 ms.author: "pablocan"
 ---
 
