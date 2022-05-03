@@ -1,9 +1,10 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
+title: "Map Style Sheets"
+description: Learn how to use a Map Style Sheet to represent a set of rules that define the style of the map.
 ms.author: "pablocan"
 ---
 
-# Style Sheets
+# Map Style Sheets
 
 The Bing Maps SDK supports both default and custom Map Style Sheets.
 A **Map Style Sheet** represents a set of rules that define the style of the map in a map view.
