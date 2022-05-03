@@ -1,6 +1,6 @@
 ---
 title: "MapPermissionsDelegate Interface | Microsoft Docs"
-ms.author: "rkot"
+ms.author: v-munksteve
 ---
 
 # MapPermissionsDelegate Interface (Android only)

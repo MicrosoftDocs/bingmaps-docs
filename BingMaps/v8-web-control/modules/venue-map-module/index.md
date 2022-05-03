@@ -9,7 +9,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: "simshap"
+ms.author: v-munksteve
 manager: "cordellj"
 ms.service: "bing-maps"
 ---
@@ -24,7 +24,7 @@ ms.service: "bing-maps"
 
 Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) class. A [VenueMap](venuemap-class.md) is associated with a [Map](../../map-control-api/map-class.md) instance. 
 
-<p style = "text-align: center;" > <b> VenueMap </b>  </p>                                              
+<p> <b> VenueMap </b>  </p>                                              
 <img src="../../media/bmv8-venuemap.png" alt="Venue Map" class="center"/> </p>
 
 

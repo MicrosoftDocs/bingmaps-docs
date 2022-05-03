@@ -231,7 +231,7 @@ AngularJS is an open source JavaScript framework that lets you build well struct
 
 ### Angular 1.6
 
-Angular 1.6 has changed how it handles JSONP. First off you need to white list the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded `&jsonp=JSON_CALLBACK` value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
+Angular 1.6 has changed how it handles JSONP. First off you need to allowlist the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded `&jsonp=JSON_CALLBACK` value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
 
 ```html
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 ---
-title: "Map Events | Microsoft Docs"
+title: "Map Events for V8 Web Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "MapPermissionsRequestReason Enumeration | Microsoft Docs"
-ms.author: "rkot"
+ms.author: v-munksteve
 ---
 
 # MapPermissionsRequestReason Enumeration (Android only)

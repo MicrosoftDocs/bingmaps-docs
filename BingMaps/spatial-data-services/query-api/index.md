@@ -29,8 +29,8 @@ The Query API is a component of the Bing Spatial Data Services. You can use the 
   
 ## In this Section  
   
-|||  
-|-|-|  
+|Article|Description|  
+|-------|-----------|  
 |[Query by Area](../query-api/query-by-area.md)|Describes how to query a data source for entities that are in a specified geographical area.|  
 |[Query by Property](../query-api/query-by-property.md)|Describes how to query a data source for entities that satisfy a set of property value conditions.|  
 |[Query Near a Route](../query-api/query-near-route.md)|Describes how to query a data source for entities near a route.|  

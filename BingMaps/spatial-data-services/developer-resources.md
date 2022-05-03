@@ -17,8 +17,8 @@ ms.service: "bing-maps"
 
 Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   
-|||  
-|-|-|  
+|Resource|Description|  
+|--------|-----------|  
 |[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
 |[Bing Maps Blog](https://blogs.bing.com/maps)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  

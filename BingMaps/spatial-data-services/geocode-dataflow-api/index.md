@@ -34,8 +34,8 @@ ms.service: "bing-maps"
   
 ## In this Section  
   
-|||  
-|-|-|  
+|Article|Description|  
+|-------|-----------|  
 |[Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md)|Describes how to create a job to geocode and reverse-geocode the data.|  
 |[Get Job Status](../geocode-dataflow-api/get-status-of-a-geocode-job.md)|Describes how to get the status of a geocode job.|  
 |[Download Results](../geocode-dataflow-api/download-geocode-job-results.md)|Describes how to download geocoded results.|  
