@@ -96,7 +96,7 @@ These URLs supports the following response formats. You can specify the format t
 The response to the URLs that get information about one or more data sources that belong to a Bing Maps Account is an [Atom Publishing Protocol](https://www.ietf.org/rfc/rfc5023.txt) (AtomPub) service document. The AtomPub service document contains the data source information that you requested, that can be use to publish and edit web resources. For specific information about the JSON response format, see the [OData JSON Service Document](https://www.odata.org/documentation/odata-version-2-0/json-format) section of this document.
 
 The response to the URL that gets metadata for a data source is an OData Service Metadata Document. This document describes the entity types and properties for that data source by using the Entity Data Model and the Conceptual Schema Data Language (CSDL). For more information, see [Service Metadata Document](https://www.odata.org/developers/protocols/overview#ServiceMetadataDocument) section of the [Open Data Protocol](https://www.odata.org/developers/protocols/overview).  
-  
+
 ## Examples
 
 **EXAMPLE: Get information on all data sources that belong to a Bing Maps Account**.  
