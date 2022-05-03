@@ -51,9 +51,9 @@ To make the map seamless, and to ensure that aerial images from different source
  `= 1 : (cos(latitude * pi/180) * 2 * pi * 6378137 * screen dpi) / (256 * 2` <sup>level</sup>  `* 0.0254)`  
   
  This table shows each of these values at each level of detail, **as measured at the Equator**.  (Note that the ground resolution and map scale also vary with the latitude, as shown in the equations above, but not shown in the table below.)  
-  
-|||||  
-|-|-|-|-|  
+
+|                     |                                   |                                        |                                     |   |
+|---------------------|-----------------------------------|----------------------------------------|-------------------------------------|---| 
 |**Level of Detail**|**Map Width and Height (pixels)**|**Ground Resolution (meters / pixel)**|**Map Scale** <br />**(at 96 dpi)**|  
 |1|512|78,271.5170|1 : 295,829,355.45|  
 |2|1,024|39,135.7585|1 : 147,914,677.73|  
