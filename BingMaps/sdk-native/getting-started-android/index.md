@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Android | Microsoft Docs"
+description: Learn how to create an Android app with a Bing Maps Native Control step-by-step.
 ms.author: "pablocan"
 ---
 
@@ -43,9 +44,9 @@ In your `project/build.gradle` file, inside `allprojects`, insert the following 
 >```
 > repositories {
 >         jcenter()
-          maven {
-              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
-          }
+>          maven {
+>              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+>          }
 > }
 >```
 
