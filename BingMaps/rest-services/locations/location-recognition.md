@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d16845e0-c89f-4523-a59f-c29a7e22f108
 caps.latest.revision: 55
-ms.author: "v-chrfr"
+ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---

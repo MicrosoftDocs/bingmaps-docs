@@ -1,5 +1,5 @@
 ---
-title: "Local Insights | Microsoft Docs"
+title: "Local Insights Data"
 ms.custom: ""
 ms.date: "12/12/2018"
 ms.reviewer: ""
@@ -9,7 +9,6 @@ ms.topic: "article"
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
 author: "v-chrfr"
-ms.author: "v-chrfr"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
