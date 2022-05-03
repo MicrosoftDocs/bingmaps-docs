@@ -1,5 +1,6 @@
 ---
 title: "Find an Optimized Route with Multiple Waypoints | Microsoft Docs"
+description: Learn how to use the Routes API to optimize a driving route with three or more waypoints (up to 25).
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -107,15 +108,15 @@ Driving?wp.0=86+Pike+Pl%2C+Seattle%2C+WA+98101&wp.1=Troll+Ave+N%2C+Seattle%2C+WA
 To include a route with more waypoints simply add more waypoints to the list.
 
 Second, make sure to set the parameter `optimizeWaypoints` (or the alias `optwp`) to `true`:
-
-    &optimizeWaypoints=true
-
+```
+&optimizeWaypoints=true
+```
 Lastly, specify a value for the `optimize` parameter.
 
 In our example, we set `optimize` to `timeWithTraffic`. This will optimize both the *paths* (route legs) between waypoints and the order of the waypoints to minimize time traveled. However, current traffic information is only used for path optimization. It is *not* used for waypoint optimization (see [Path and Waypoint Optimization](https://msdn.microsoft.com/library/ff701717.aspx#anchor_1)):
-
-    &optimize=timeWithTraffic
-
+```
+&optimize=timeWithTraffic
+```
 Below is the full URL request.
 
 ``` url
