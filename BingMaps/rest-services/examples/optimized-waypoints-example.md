@@ -101,9 +101,9 @@ Then the Routes API will always provide us with an optimized route which ends in
 Now we show how to make the full URL request.
 
 First, assign waypoints to the above addresses to create the first part of the URL request (using `+` or `%20` to replace spaces):
-
-    Driving?wp.0=86+Pike+Pl%2C+Seattle%2C+WA+98101&wp.1=Troll+Ave+N%2C+Seattle%2C+WA+98103&wp.2=3800+Montlake+Blvd+NE%2C+Seattle%2C+WA+98195&wp.3=1000+4th+Ave%2C+Seattle%2C+WA+98104&wp.4=5400+Ballard+Ave+NW%2C+Seattle%2C+WA+98107
-
+```
+Driving?wp.0=86+Pike+Pl%2C+Seattle%2C+WA+98101&wp.1=Troll+Ave+N%2C+Seattle%2C+WA+98103&wp.2=3800+Montlake+Blvd+NE%2C+Seattle%2C+WA+98195&wp.3=1000+4th+Ave%2C+Seattle%2C+WA+98104&wp.4=5400+Ballard+Ave+NW%2C+Seattle%2C+WA+98107
+```
 To include a route with more waypoints simply add more waypoints to the list.
 
 Second, make sure to set the parameter `optimizeWaypoints` (or the alias `optwp`) to `true`:
