@@ -1,5 +1,6 @@
 ---
 title: Venue floor JSON class | Microsoft Docs
+description: Venue floor JSON class encapsulates an individual floor of a venue that contains each entity on that floor.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -15,7 +16,7 @@ ms.service: bing-maps
 ---
 # Venue floor JSON class
 
-Encapsulates an individual floor of a [venue] that contains the each [entity] on that floor.
+Encapsulates an individual floor of a [venue] that contains each [entity] on that floor.
 
 ## Properties
 

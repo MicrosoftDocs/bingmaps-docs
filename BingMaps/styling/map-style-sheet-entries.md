@@ -1,5 +1,6 @@
 ---
 title: Map Style Sheet Entries | Microsoft Docs
+description: The entries listed below can be used in a map style sheet to customize the appearance of a map in various Microsoft map controls.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -248,11 +249,11 @@ The entries shown below are a hierarchy where a [property](map-style-sheet-entry
 [BorderedMapElement]: map-style-sheet-entry-properties.md#borderedmapelement-properties
 [MapElement3D]: map-style-sheet-entry-properties.md#mapelement3d-properties
 [PointStyle]: map-style-sheet-entry-properties.md#pointstyle-properties
-[MapBillboard]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapBillboard
-[MapPolygon]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolygon
-[MapPolyline]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolyline
-[MapModel3D]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapModel3D
-[MapIcon]: https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapIcon
+[MapBillboard]: /uwp/api/Windows.UI.Xaml.Controls.Maps.MapBillboard
+[MapPolygon]: /uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolygon
+[MapPolyline]: /uwp/api/Windows.UI.Xaml.Controls.Maps.MapPolyline
+[MapModel3D]: /uwp/api/Windows.UI.Xaml.Controls.Maps.MapModel3D
+[MapIcon]: /uwp/api/Windows.UI.Xaml.Controls.Maps.MapIcon
 [1.0]: map-style-sheet-support.md
 [1.1]: map-style-sheet-support.md
 [1.2]: map-style-sheet-support.md

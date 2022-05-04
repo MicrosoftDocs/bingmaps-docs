@@ -1,5 +1,6 @@
 ---
 title: Optimized Itinerary Data | Microsoft Docs
+description: The response returned when making a request to Optimize Itinerary API contains an OptimizeItinerary resource.
 ms.custom: 
 ms.date: 11/26/2018
 ms.reviewer: 

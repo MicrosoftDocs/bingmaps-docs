@@ -1,7 +1,8 @@
 ---
 title: Map Style Sheet Extensions | Microsoft Docs
+description: The extensions property at the root of a map style sheet can be used to add custom entries and states to your map's styles.
 ms.custom: 
-ms.date: 05/26/2020"
+ms.date: 05/26/2020
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

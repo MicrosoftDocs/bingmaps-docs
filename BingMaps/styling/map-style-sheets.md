@@ -1,5 +1,6 @@
 ---
 title: Map Style Sheet Reference in Maps
+description: A map style sheet defines the appearance of a map in various Microsoft map controls and consists primarily of entries and properties.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 

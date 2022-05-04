@@ -1,5 +1,6 @@
 ---
 title: Map Styling | Microsoft Docs
+description: A map style sheet defines the appearance of a map in various Microsoft map controls. Create map style sheets with the Map Style Sheet Editor application.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
