@@ -1,6 +1,7 @@
 ---
 # required metadata
 title: "SeeDo Identifiers | Microsoft Docs"
+description: Type IDs for events, activities, parks and recreation, and both natural and man-made landmarks.
 author: "v-chrfr"
 ms.author: v-munksteve
 ms.date: "12/10/2018"

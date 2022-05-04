@@ -1,5 +1,6 @@
 ---
 title: "Getting Streetside Tiles from Imagery Metadata | Microsoft Docs"
+description: Learn how to get Streetside images from the Bing Maps REST Imagery API.
 ms.custom: ""
 ms.date: "08/29/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Coverage | Microsoft Docs"
+description: Resources for coverage information for Bing Maps
 ms.custom: ""
 ms.date: "12/12/2018"
 ms.reviewer: ""
