@@ -1,5 +1,6 @@
 ---
 title: "Venue Maps Options Object | Microsoft Docs"
+description: Learn about the Venue Maps options object.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Venue Maps Module | Microsoft Docs"
+description: Learn about the Venue Maps module.
 ms.custom: ""
 ms.date: "06/11/2020"
 ms.reviewer: ""

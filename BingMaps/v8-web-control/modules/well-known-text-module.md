@@ -1,5 +1,6 @@
 ---
 title: "Well Known Text Module | Microsoft Docs"
+description: Learn about the Well Known Text module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Map Control API Reference | Microsoft Docs"
+description: This article contains reference information for the Mao Control API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

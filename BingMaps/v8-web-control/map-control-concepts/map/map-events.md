@@ -1,5 +1,6 @@
 ---
 title: "Map Events for V8 Web Control | Microsoft Docs"
+descriptions: Learn about map events for V8 Web Control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

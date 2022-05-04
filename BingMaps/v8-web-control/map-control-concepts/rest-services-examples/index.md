@@ -1,5 +1,6 @@
 ---
 title: "REST Services Examples | Microsoft Docs"
+description: This article contains REST services examples for V8 Web Control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Obtaining User Location for V8 Web Control| Microsoft Docs"
+description: Learn how to obtain user location for V8 Web Control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
