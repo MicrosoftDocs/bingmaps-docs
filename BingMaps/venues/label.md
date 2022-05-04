@@ -1,5 +1,6 @@
 ---
 title: Venue label JSON class | Microsoft Docs
+description: Venue label JSON class encapsulates the position and contents of a text label to try to apply to an entity.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -9,7 +10,7 @@ ms.topic: article
 ms.assetid: DAD91BE8-234E-4509-8EC1-6EF6D52A2DFF
 caps.latest.revision: 3
 author: DavidBuerer
-ms.author: dbeurer
+ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---

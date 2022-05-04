@@ -1,5 +1,6 @@
 ---
 title: Venue Tile JSON class | Microsoft Docs
+description: Venue Tile JSON class encapsulates a tile containing the footprints of venues that overlap that tile. These tiles are used to select a venue.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -9,7 +10,7 @@ ms.topic: article
 ms.assetid: E917F6EC-F5EE-4F98-8C33-05868734390C
 caps.latest.revision: 3
 author: DavidBuerer
-ms.author: dbeurer
+ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---

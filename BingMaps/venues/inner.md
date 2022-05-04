@@ -1,5 +1,6 @@
 ---
 title: Venue inner JSON class | Microsoft Docs
+description: Venue inner JSON class encapsulates a hole within a polygon geometry. This class is part of the venue JSON class structure.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -9,7 +10,7 @@ ms.topic: article
 ms.assetid: 788C378D-A997-4B2A-AD0A-8B690DFB229F
 caps.latest.revision: 3
 author: DavidBuerer
-ms.author: dbeurer
+ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---

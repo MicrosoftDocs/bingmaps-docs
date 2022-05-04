@@ -1,5 +1,6 @@
 ---
 title: Venue Maps | Microsoft Docs
+description: The root class of a venue JSON definition is the venue. Classes include address, entity, floor, geometry, inner, label, rectangle, venue, and venueTile.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 

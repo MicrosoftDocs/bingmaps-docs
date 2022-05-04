@@ -1,5 +1,6 @@
 ---
 title: Venue JSON sample | Microsoft Docs
+description: The Venue JSON sample includes such sample data as schema, id, name, type, xy, address, defaultFloor, bbox, and floors.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -9,7 +10,7 @@ ms.topic: article
 ms.assetid: E8CF660D-4B9A-460B-BE0D-5C48E5E34572
 caps.latest.revision: 3
 author: DavidBuerer
-ms.author: dbeurer
+ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---

@@ -1,6 +1,6 @@
 ---
 title: Map Style Support | Microsoft Docs
-decription: Map styling can be applied to a variety of Microsoft map controls, including Bing Maps, Static, Windows, Android, or iOS.
+description: Map styling can be applied to a variety of Microsoft map controls, including Bing Maps, Static, Windows, Android, or iOS.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
