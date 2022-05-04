@@ -1,5 +1,6 @@
 ---
 title: "MapPermissionsRequestArgs Class | Microsoft Docs"
+description: Learn about the MapPermissionsRequestArgs class.
 ms.author: v-munksteve
 ---
 

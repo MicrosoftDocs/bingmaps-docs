@@ -1,5 +1,6 @@
 ---
 title: "MapPermissionsCallback Interface | Microsoft Docs"
+description: Learn about the MapPermissionsCallback interface.
 ms.author: v-munksteve
 ---
 

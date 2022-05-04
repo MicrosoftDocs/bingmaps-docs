@@ -1,5 +1,6 @@
 ---
 title: "MapPermissionsDelegate Interface | Microsoft Docs"
+description: Learn about the MapPermissionsDelegate interface.
 ms.author: v-munksteve
 ---
 

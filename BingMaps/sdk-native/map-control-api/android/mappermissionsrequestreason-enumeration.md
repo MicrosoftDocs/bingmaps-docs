@@ -1,5 +1,6 @@
 ---
 title: "MapPermissionsRequestReason Enumeration | Microsoft Docs"
+description: Learn about the MapPermissionsRequestReason enumeration.
 ms.author: v-munksteve
 ---
 
