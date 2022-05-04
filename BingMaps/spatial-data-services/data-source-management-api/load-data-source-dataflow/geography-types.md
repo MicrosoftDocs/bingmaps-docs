@@ -1,5 +1,6 @@
 ---
 title: "Geography Types | Microsoft Docs"
+description: Learn about geography types for spacial data services.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

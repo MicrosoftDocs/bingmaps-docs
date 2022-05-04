@@ -1,5 +1,6 @@
 ---
 title: "Geocode and Data Source Limits | Microsoft Docs"
+description: This topic describes account limits for a Bing Maps Account when you use the Bing Spatial Data Services or the Bing Maps Dev Center to geocode entities and manage data sources.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Data Schema and Sample Input | Microsoft Docs"
+description: Learn about load data source data schema and sample input.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

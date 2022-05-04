@@ -1,5 +1,6 @@
 ---
 title: "Geodata API | Microsoft Docs"
+description: Learn about the Geodata API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

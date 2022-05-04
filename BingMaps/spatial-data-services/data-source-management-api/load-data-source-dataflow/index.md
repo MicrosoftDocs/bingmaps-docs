@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Dataflow | Microsoft Docs"
+description: Load Data Source Dataflow API to create a data source that contains entity data for a user-specified entity type.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

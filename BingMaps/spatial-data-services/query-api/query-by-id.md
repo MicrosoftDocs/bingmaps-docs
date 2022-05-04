@@ -1,5 +1,6 @@
 ---
 title: "Query by ID | Microsoft Docs"
+description: Learn hot to query by ID with the spatial data services query API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

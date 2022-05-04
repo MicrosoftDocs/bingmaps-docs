@@ -1,5 +1,6 @@
 ---
 title: "Spatial Data Services Developer Resources | Microsoft Docs"
+description: Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
