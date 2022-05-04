@@ -1,20 +1,18 @@
 ---
-title: "Optimized Itinerary | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/03/2019" Last updated "04/08/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Optimized Itinerary | Microsoft Docs
+ms.custom: 
+ms.date: 05/03/2019" Last updated "04/08/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-author: "yasong"
-ms.author: "yasong"
-manager: "lorenhil"
-ms.service: "bing-maps"
+author: yasong
+ms.author: yasong
+manager: lorenhil
+ms.service: bing-maps
 ---
-
-
 
 # Optimize Multiple Itineraries
 

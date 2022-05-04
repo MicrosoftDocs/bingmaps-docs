@@ -1,17 +1,17 @@
 ---
-title: "Optimized Itinerary Data | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/26/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Optimized Itinerary Data | Microsoft Docs
+ms.custom: 
+ms.date: 11/26/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-author: "rbrundritt"
-ms.author: "v-chrfr"
-manager: "stevelom"
-ms.service: "bing-maps"
+author: rbrundritt
+ms.author: richbrun
+manager: stevelom
+ms.service: bing-maps
 ---
 
 #  Multi-Itinerary Optimization Data

@@ -1,17 +1,17 @@
 ---
-title: "Venue label JSON class | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue label JSON class | Microsoft Docs
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: DAD91BE8-234E-4509-8EC1-6EF6D52A2DFF
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbeurer
+manager: 
+ms.service: bing-maps
 ---
 # Venue label JSON class
 

@@ -1,17 +1,17 @@
 ---
-title: "Find Time Zone| Microsoft Docs"
-description: "Given a pair of coordinates or a place name query, the Bing Maps Time Zone API will return local time zone and DST information."
-ms.custom: ""
-ms.date: "12/11/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Find Time Zone | Microsoft Docs
+description: Given a pair of coordinates or a place name query, the Bing Maps Time Zone API will return local time zone and DST information.
+ms.custom: 
+ms.date: 12/11/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: fa146e18-716a-49b7-88b3-17f78e617245
 caps.latest.revision: 6
-ms.author: "v-munksteve"
-manager: "stevelom"
-ms.service: "bing-maps"
+ms.author: v-munksteve
+manager: stevelom
+ms.service: bing-maps
 ---
 
 # Find Time Zone

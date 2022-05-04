@@ -1,17 +1,17 @@
 ---
-title: "Venue geometry JSON class | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue geometry JSON class | Microsoft Docs
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 7B7C56D5-2E4B-4CAC-9068-A43B0E807E84
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbeurer
+manager: 
+ms.service: bing-maps
 ---
 # Venue geometry JSON class
 

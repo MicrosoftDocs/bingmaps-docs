@@ -1,17 +1,17 @@
 ---
-title: "Map Style Support | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Map Style Support | Microsoft Docs
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ED52C0B4-237D-46B0-8FCB-6D8E9CB8C80C
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Map Style Support
 

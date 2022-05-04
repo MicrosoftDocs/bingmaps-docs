@@ -1,17 +1,17 @@
 ---
-title: "Map Style Sheet Entries | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Map Style Sheet Entries | Microsoft Docs
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: C22745F9-7DD9-4348-8476-DC1AC0F7AC98
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Map Style Sheet Entries
 

@@ -1,17 +1,17 @@
 ---
-title: "Venue JSON sample | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue JSON sample | Microsoft Docs
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: E8CF660D-4B9A-460B-BE0D-5C48E5E34572
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbeurer
+manager: 
+ms.service: bing-maps
 ---
 # Venue JSON sample
 
