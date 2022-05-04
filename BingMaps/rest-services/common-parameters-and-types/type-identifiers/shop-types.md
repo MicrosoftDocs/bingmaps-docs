@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: "Shop Type Identifiers | Microsoft Docs"
-description: Type IDs for eating and drinking establishments.
+description: Type IDs for shopping establishments.
 author: "v-chrfr"
 ms.author: v-munksteve
 ms.date: "12/10/2018"
