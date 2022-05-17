@@ -16,7 +16,7 @@ This article provides the information you need to migrate an application built u
 
 **Why Migrate?**
 
-If you are still evaluating Bing Maps to determine if you should migrate, you may find the following information helpful:
+If you are evaluating Bing Maps to determine if you should migrate, you may find the following information helpful:
 
 - [Why Bing Maps?](why-bing-maps.md)
 - [Key features in Bing Maps](key-features-in-bing-maps.md)
