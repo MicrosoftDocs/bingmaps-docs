@@ -37,7 +37,7 @@ This section provides you with a suggested migration plan to help you plan your 
         use thresholds in the TOU will need a Bing Maps Enterprise
         account. For assistance with Bing Maps licensing, please contact
         <maplic@microsoft.com> (the Americas) or
-        <mapemea@microsoft.com> (rest of world).
+        <mapemea@microsoft.com> (Europe, Middle East, Africa, Asia and Australia).
 
     b.  Enterprise customers are advised to use keys of type "basic" for
         all pre‐production application testing.
