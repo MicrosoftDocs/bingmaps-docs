@@ -99,7 +99,7 @@ If you have licensing-related questions you should take them to your
 Bing Maps account manager if you know who they are. If not, you can send
 queries to the Bing Maps licensing team, and they will assist. For
 queries inside of North or South America, you can contact them at
-<maplic@microsoft.com>, for queries in the rest of the world you can
+<maplic@microsoft.com>, for queries in Europe, Middle East, Africa, Asia and Australia you can
 contact them at <mapemea@microsoft.com>.
 
 ### Bing Maps Blog
