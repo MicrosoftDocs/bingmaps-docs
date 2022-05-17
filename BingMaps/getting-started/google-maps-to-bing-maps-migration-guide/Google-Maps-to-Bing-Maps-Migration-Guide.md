@@ -36,7 +36,7 @@ This section provides you with a suggested migration plan to help you plan your 
         (TOU) as you migrate to Bing Maps. Production applications outside the free
         use thresholds in the TOU will need a Bing Maps Enterprise
         account. For assistance with Bing Maps licensing, please contact
-        <maplic@microsoft.com> (North/South America) or
+        <maplic@microsoft.com> (the Americas) or
         <mapemea@microsoft.com> (rest of world).
 
     b.  Enterprise customers are advised to use keys of type "basic" for
