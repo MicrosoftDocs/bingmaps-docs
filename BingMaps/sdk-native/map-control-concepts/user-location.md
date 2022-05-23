@@ -1,9 +1,10 @@
 ---
-title: "User Location | Microsoft Docs"
+title: UserLocation API
+description: Learn how to use the UserLocation method to show and track a user's location.
 ms.author: "adl"
 ---
 
-# User Location
+# UserLocation API
 
 The ability to show the user's location and track the user's location is an important tool in a map. By using our UserLocation API, you can show the user's location on your map with some customizable features.
 
