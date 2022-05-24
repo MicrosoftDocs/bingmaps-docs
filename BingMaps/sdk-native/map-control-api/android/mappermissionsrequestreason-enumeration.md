@@ -1,7 +1,7 @@
 ---
 title: MapPermissionsRequestReason Enumeration | Microsoft Docs
 description: Describes the MapPermissionsRequestReason enumeration for Android and outlines the UserInteraction and Programmatic values.
-ms.author: rkot
+ms.author: sasakthi
 ---
 
 # MapPermissionsRequestReason Enumeration (Android only)

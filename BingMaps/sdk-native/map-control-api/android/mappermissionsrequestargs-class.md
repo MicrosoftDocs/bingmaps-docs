@@ -1,7 +1,7 @@
 ---
 title: MapPermissionsRequestArgs Class | Microsoft Docs
 description: Describes the MapPermissionsRequestArgs class for Android and outlines the Permissions, Reason, and Callback properties.
-ms.author: rkot
+ms.author: sasakthi
 ---
 
 # MapPermissionsRequestArgs Class (Android only)
