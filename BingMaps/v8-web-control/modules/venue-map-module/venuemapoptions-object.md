@@ -1,5 +1,6 @@
 ---
-title: "Venue Maps Options Object | Microsoft Docs"
+title: "VenueMapsOptions Object | Microsoft Docs"
+description: Describes the VenueMapsOptions object and details its properties and the VenueMapMetadataLoader method.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""

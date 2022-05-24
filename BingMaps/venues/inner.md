@@ -1,5 +1,6 @@
 ---
 title: "Venue inner JSON class | Microsoft Docs"
+description: Describes the Venue inner JSON class, which represents a hole within a polygon, and provides its properties and a code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

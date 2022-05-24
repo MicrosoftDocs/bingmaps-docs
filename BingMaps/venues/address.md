@@ -1,5 +1,6 @@
 ---
 title: "Venue address JSON class | Microsoft Docs"
+description: Describes the Venue address JSON class, which represents the address of a venue map or entity, and provides its properties and code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

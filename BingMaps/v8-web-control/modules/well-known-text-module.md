@@ -1,5 +1,6 @@
 ---
 title: "Well Known Text Module | Microsoft Docs"
+description: Describes the Well Known Text module and details the module's geometry types, static methods, and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Venue JSON sample | Microsoft Docs"
+description: Provides a Venue JSON code sample.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

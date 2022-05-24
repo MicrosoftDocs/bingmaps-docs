@@ -1,5 +1,6 @@
 ---
 title: "Venue JSON class | Microsoft Docs"
+description: Describes the Venue JSON class, provides a list of properties and a code example, and details the footprint floor and the transform field.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

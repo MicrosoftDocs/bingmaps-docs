@@ -1,5 +1,6 @@
 ---
 title: "Venue label JSON class | Microsoft Docs"
+description: Describes the Venue label JSON class and provides the class's properties, rectangles, and a code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

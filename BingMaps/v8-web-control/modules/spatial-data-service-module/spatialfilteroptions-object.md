@@ -1,5 +1,6 @@
 ---
 title: "SpatialFilterOptions Object | Microsoft Docs"
+description: Describes the SpatialFilterOptions object, which represents spatial filter options for querying, and provides a list of the object's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -20,7 +21,7 @@ Represents the spatial filter options for querying a data source that is hosted 
 
 ## Properties
 
-Name                    | Type                       | Description
+Name                    | Type                       | Description                              |
 ----------------------- | -------------------------- | ----------------------------------
 spatialFilterType       | string                     | **Required**. One of the following values:<br/><br/>&nbsp; • **nearby** – Searches in a radius around a location.<br/>&nbsp; • **nearRoute** – Searches for results that are within 1 mile of a route.<br/>&nbsp; • **intersects** – Searches for results that intersect with the specified geometry.<br/><br/>**Note**: Note that the NavteqNA and NavteqEU data sources only support nearby queries. 
 location                | string _or_ [Location](../../map-control-api/location-class.md)       | Location at which the filter should be applied (only for **nearby filter**).

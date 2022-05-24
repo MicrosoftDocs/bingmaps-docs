@@ -1,5 +1,6 @@
 ---
 title: "Venue floor JSON class | Microsoft Docs"
+description: Describes the Venue floor JSON class, which encapsulates the entities on a floor of a venue, and provides the class's properties and a code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

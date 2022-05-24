@@ -1,5 +1,6 @@
 ---
 title: "Venue Maps | Microsoft Docs"
+description: Describes Venue Maps and provides lists of classes and their definitions related to Venue Maps, as well as a sample venue.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Venue Tile JSON class | Microsoft Docs"
+description: Describes the Venue Tile JSON class and provides a list of properties and a code example related to the Venue Tile JSON class.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

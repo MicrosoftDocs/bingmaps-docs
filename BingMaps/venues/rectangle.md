@@ -1,5 +1,6 @@
 ---
 title: "Venue rectangle JSON class | Microsoft Docs"
+description: Describes the Venue rectangle JSON class, which represents an oriented rectangle, and provides its properties and a code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""

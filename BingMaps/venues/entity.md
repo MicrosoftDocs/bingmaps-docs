@@ -1,5 +1,6 @@
 ---
 title: "Venue entity JSON class | Microsoft Docs"
+description: Describes the Venue entity JSON class, which encapsulates an individual entity on a venue floor, and provides its properties and a code example.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
