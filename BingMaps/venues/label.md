@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: DAD91BE8-234E-4509-8EC1-6EF6D52A2DFF
 caps.latest.revision: 3
 author: "dbuerer"
-ms.author: ""
+ms.author: dbuerer
 manager: ""
 ms.service: "bing-maps"
 ---
