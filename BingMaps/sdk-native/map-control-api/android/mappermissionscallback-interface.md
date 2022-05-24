@@ -1,6 +1,7 @@
 ---
-title: "MapPermissionsCallback Interface | Microsoft Docs"
-ms.author: "rkot"
+title: MapPermissionsCallback Interface | Microsoft Docs
+description: Describes the MapPermissionsCallback interface for Android and provides the MapPermissionsDelegate, RequestArgs, and RequestReason references.
+ms.author: rkot
 ---
 
 # MapPermissionsCallback Interface (Android only)

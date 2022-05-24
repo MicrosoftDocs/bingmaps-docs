@@ -1,6 +1,7 @@
 ---
-title: "MapStylePickerTrafficSwitchToggledEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapStylePickerTrafficSwitchToggledEventArgs Class | Microsoft Docs
+description: Describes the MapStylePickerTrafficSwitchToggledEventArgs class for Android and outlines the IsOn, TrafficFlowMapLayer, and TrafficIncidentsMapLayer properties.
+ms.author: pablocan
 ---
 
 # MapStylePickerTrafficSwitchToggledEventArgs Class (Android only)

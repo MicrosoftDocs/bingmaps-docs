@@ -1,6 +1,7 @@
 ---
-title: "MapTappedEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapTappedEventArgs Class | Microsoft Docs
+description: Describes the MapTappedEventArgs class for Android and outlines the Position and Location properties.
+ms.author: pablocan
 ---
 
 # MapTappedEventArgs Class (Android only)
