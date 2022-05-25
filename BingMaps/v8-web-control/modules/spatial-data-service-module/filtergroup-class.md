@@ -1,5 +1,6 @@
 ---
 title: "FilterGroup Class | Microsoft Docs"
+description: Describes the FilterGroup class, which groups two or more logical filters or groups together, and provides its constructor and methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "PlaceResult Object | Microsoft Docs"
+description: Describes the PlaceResult object, which represents a place result, and provides a list of related properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

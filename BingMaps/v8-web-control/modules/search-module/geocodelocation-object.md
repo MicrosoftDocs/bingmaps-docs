@@ -1,5 +1,6 @@
 ---
 title: "GeocodeLocation Object | Microsoft Docs"
+description: Describes the GeocodeLocation object, which represents a geocode location, and provides a list of properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

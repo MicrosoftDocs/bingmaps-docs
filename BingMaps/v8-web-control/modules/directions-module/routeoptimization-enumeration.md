@@ -1,5 +1,6 @@
 ---
 title: "RouteOptimization Enumeration | Microsoft Docs"
+description: Describes RouteOptimization enumeration, which defines optimization options for direction calculation, and provides a list of options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

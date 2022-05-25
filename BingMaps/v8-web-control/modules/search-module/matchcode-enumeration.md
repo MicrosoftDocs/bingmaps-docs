@@ -1,5 +1,6 @@
 ---
 title: "MatchCode Enumeration | Microsoft Docs"
+description: Describes MatchCode enumeration, which defines the geocoding level of the geocoder's location match, and provides a list of details.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

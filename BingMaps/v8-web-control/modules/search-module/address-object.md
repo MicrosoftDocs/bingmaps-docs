@@ -1,5 +1,6 @@
 ---
 title: "Address Object (Search Module) | Microsoft Docs"
+description: Describes the Address object related to the search module, which represents a physical address, and provides a list of strings.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

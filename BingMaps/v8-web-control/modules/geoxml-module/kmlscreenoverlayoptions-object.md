@@ -1,5 +1,6 @@
 ---
 title: "KmlScreenOverlayOptions Object | Microsoft Docs"
+description: Describes the KmlScreenOverlayOptions object, which contains screen overlay customization options, and lists the options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "GeoDataAPIManager Class | Microsoft Docs"
+description: Describes the GeoDataAPIManager class and details its static methods, network status parameter, and troubleshooting tips.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
