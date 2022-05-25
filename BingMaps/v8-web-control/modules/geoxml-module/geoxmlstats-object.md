@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlStats Object | Microsoft Docs"
+description: Describes the GeoXmlStats object, which provides XML feed statistics, and provides a list of XML feed statistics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

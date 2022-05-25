@@ -1,5 +1,6 @@
 ---
 title: "DrawingMode Enumeration | Microsoft Docs"
+description: Describes the DrawingMode enumeration, which defines the drawing manager modes, and lists the drawing modes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

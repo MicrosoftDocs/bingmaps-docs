@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlReadOptions Object | Microsoft Docs"
+description: Describes the GeoXmlReadOptions object, which has customization options for reading and parsing XML files, and lists the options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

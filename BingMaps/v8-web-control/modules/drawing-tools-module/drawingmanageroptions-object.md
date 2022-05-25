@@ -1,5 +1,6 @@
 ---
 title: "DrawingManagerOptions Object | Microsoft Docs"
+description: Describes the DrawingManagerOptions object, which contains options for drawing manager settings, and provides a list of its options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

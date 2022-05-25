@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlFormat Enumeration | Microsoft Docs"
+description: Describes GeoXmlFormat enumeration, which enumerates different GeoXML file formats, and provides a list of file formats.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

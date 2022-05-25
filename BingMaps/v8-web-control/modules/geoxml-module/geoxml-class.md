@@ -1,5 +1,6 @@
 ---
 title: "GeoXml Class | Microsoft Docs"
+description: Describes the GeoXml class, which exposes geospatial XML reading and writing static methods, and provides a list of the stat methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

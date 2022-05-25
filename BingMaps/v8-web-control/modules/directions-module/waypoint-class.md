@@ -1,5 +1,6 @@
 ---
 title: "Waypoint Class | Microsoft Docs"
+description: Describes the Waypoint class, which calculates the route between locations, and provides the class's constructor and a list of methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
