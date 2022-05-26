@@ -1,6 +1,6 @@
 ---
 title: Map Control Concept Reference | Microsoft Docs
-description: Describes map control concepts and provides a table that outlines a descriptions for various concepts.
+description: Describes map control concepts and provides a table that outlines a description for various concepts.
 ms.author: pablocan
 ---
 
