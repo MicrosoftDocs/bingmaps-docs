@@ -1,6 +1,7 @@
 ---
-title: "Map Events | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Events | Microsoft Docs
+description: Describes different types of events and includes syntax and examples of map holding events and map tapped events.
+ms.author: pablocan
 ---
 
 # Events

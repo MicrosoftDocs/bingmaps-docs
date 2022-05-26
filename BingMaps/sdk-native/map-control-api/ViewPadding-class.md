@@ -1,6 +1,7 @@
 ---
-title: "ViewPadding Class | Microsoft Docs"
-ms.author: "pablocan"
+title: ViewPadding Class | Microsoft Docs
+description: Describes the ViewPadding class for Android and provides the class's Bottom, Left, Right, and Top properties.
+ms.author: pablocan
 ---
 
 # ViewPadding class

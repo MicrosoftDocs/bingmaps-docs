@@ -1,6 +1,7 @@
 ---
-title: "Display flyout of icon | Microsoft Docs"
-ms.author: "pablocan"
+title: Display flyout of icon | Microsoft Docs
+description: Describes how to display a flyout of an icon and provides syntax and examples of creating and displaying default and custom flyouts.
+ms.author: pablocan
 ---
 
 # Display flyout of icon

@@ -1,6 +1,7 @@
 ---
-title: "Changing the appearance of the map | Microsoft Docs"
-ms.author: "pablocan"
+title: Changing the appearance of the map | Microsoft Docs
+description: Describes how to change the appearance of the map and provides syntax and examples of changing default and custom map style sheets.
+ms.author: pablocan
 ---
 
 # Changing the appearance of the map

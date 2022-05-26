@@ -1,6 +1,7 @@
 ---
-title: "Display points of interest on the map | Microsoft Docs"
-ms.author: "pablocan"
+title: Display points of interest on the map | Microsoft Docs
+description: Describes how to display points of interest on maps and provides examples of adding pushpins to maps and images.
+ms.author: pablocan
 ---
 
 # Display points of interest on the map

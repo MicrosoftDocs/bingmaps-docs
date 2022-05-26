@@ -1,6 +1,7 @@
 ---
-title: "MapRouteSegment Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapRouteSegment Class | Microsoft Docs
+description: Describes the MapRouteSegment class for Android and iOS and provides the class's properties and additional references.
+ms.author: pablocan
 ---
 
 # MapRouteSegment Class
