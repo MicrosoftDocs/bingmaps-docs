@@ -1,6 +1,7 @@
 ---
-title: "ManeuverWarningKind Enumeration | Microsoft Docs"
-ms.author: "kezhang"
+title: ManeuverWarningKind Enumeration | Microsoft Docs
+description: Describes the ManeuverWarningKind enumeration for Android and iOS and provides the enumeration's syntax, values, and additional references.
+ms.author: kezhang
 ---
 
 # ManeuverWarningKind Enumeration

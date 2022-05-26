@@ -1,6 +1,7 @@
 ---
-title: "MSMapRoutingCompletionBlock Interface | Microsoft Docs"
-ms.author: "kezhang"
+title: MSMapRoutingCompletionBlock Interface | Microsoft Docs
+description: Describes the MSMapRoutingCompletionBlock interface for iOS and provides the interface's syntax and additional references.
+ms.author: kezhang
 ---
 
 # MSMapRoutingCompletionBlock Interface (iOS only)

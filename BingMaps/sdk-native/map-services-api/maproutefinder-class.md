@@ -1,6 +1,7 @@
 ---
-title: "MapRouteFinder Class | Microsoft Docs"
-ms.author: "kezhang"
+title: MapRouteFinder Class | Microsoft Docs
+description: Describes the MapRouteFinder class for Android and iOS and provides the class's static methods, examples, and additional references.
+ms.author: kezhang
 ---
 
 # MapRouteFinder Class

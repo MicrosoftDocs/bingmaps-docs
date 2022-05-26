@@ -1,6 +1,7 @@
 ---
-title: "MapRoute Class | Microsoft Docs"
-ms.author: "kezhang"
+title: MapRoute Class | Microsoft Docs
+description: Describes the MapRoute class for Android and iOS and provides the class's properties and additional references.
+ms.author: kezhang
 ---
 
 # MapRoute Class

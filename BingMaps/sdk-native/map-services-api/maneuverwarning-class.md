@@ -1,6 +1,7 @@
 ---
-title: "ManeuverWarning Class | Microsoft Docs"
-ms.author: "kezhang"
+title: ManeuverWarning Class | Microsoft Docs
+description: Describes the ManeuverWarning class and provides the class's WarningKind and WarningSeverity properties and additional references.
+ms.author: kezhang
 ---
 
 # ManeuverWarning Class

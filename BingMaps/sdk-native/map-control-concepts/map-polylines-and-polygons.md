@@ -1,6 +1,7 @@
 ---
-title: "Map Polylines and Polygons | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Polylines and Polygons | Microsoft Docs
+description: Describes polylines and polygons and provides additional resources and examples to provide guidance for drawing with polylines and polygons.
+ms.author: pablocan
 ---
 
 # Polylines and Polygons

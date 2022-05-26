@@ -1,6 +1,7 @@
 ---
-title: "ManeuverWarningSeverity Enumeration | Microsoft Docs"
-ms.author: "kezhang"
+title: ManeuverWarningSeverity Enumeration | Microsoft Docs
+description: Describes the ManeuverWarningSeverity enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: kezhang
 ---
 
 # ManeuverWarningSeverity Enumeration

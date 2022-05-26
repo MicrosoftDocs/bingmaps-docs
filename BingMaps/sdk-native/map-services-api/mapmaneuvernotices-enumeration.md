@@ -1,6 +1,7 @@
 ---
-title: "MapManeuverNotices Enumeration | Microsoft Docs"
-ms.author: "kezhang"
+title: MapManeuverNotices Enumeration | Microsoft Docs
+description: Describes the MapManeuverNotices enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: kezhang
 ---
 
 # MapManeuverNotices Enumeration

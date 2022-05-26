@@ -1,6 +1,7 @@
 ---
-title: "MapRouteDrivingOptions Class | Microsoft Docs"
-ms.author: "kezhang"
+title: MapRouteDrivingOptions Class | Microsoft Docs
+description: Describes the MapRouteDrivingOptions class for Android and iOS and provides the class's constructors, properties, and additional references.
+ms.author: kezhang
 ---
 
 # MapRouteDrivingOptions Class

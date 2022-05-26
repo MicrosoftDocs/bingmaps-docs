@@ -1,6 +1,7 @@
 ---
-title: "Map Icons | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Icons | Microsoft Docs
+description: Describes icons's utility, outlines how to display icons on the map, and provides additional references.
+ms.author: pablocan
 ---
 
 # Icons

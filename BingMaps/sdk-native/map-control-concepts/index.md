@@ -1,6 +1,7 @@
 ---
-title: "Map Control Concepts | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Control Concepts | Microsoft Docs
+description: Describes map control concepts and provides a table that outlines a descriptions for various concepts.
+ms.author: pablocan
 ---
 
 # Map Control Concepts

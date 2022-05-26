@@ -1,6 +1,7 @@
 ---
-title: "OnMapRouteFinderResultListener Interface | Microsoft Docs"
-ms.author: "kezhang"
+title: OnMapRouteFinderResultListener Interface | Microsoft Docs
+description: Describes the OnMapRouteFinderResultListener interface for Android and provides the interface's syntax and additional references.
+ms.author: kezhang
 ---
 
 # OnMapRouteFinderResultListener Interface (Android only)

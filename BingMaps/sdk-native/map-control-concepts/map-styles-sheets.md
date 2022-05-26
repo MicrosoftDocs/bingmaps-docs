@@ -1,6 +1,7 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Style Sheets | Microsoft Docs
+description: Describes map style sheets and the MapStyleSheet static methods and provides information on default and custom map style sheets.
+ms.author: pablocan
 ---
 
 # Style Sheets

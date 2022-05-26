@@ -1,6 +1,7 @@
 ---
-title: "MapServices API Reference | Microsoft Docs"
-ms.author: "pablocan"
+title: MapServices API Reference | Microsoft Docs
+description: Provides a reference of MapServices API through tables that outline details for various classes, enumerations, and interfaces.
+ms.author: pablocan
 ---
 
 # MapServices API Reference
