@@ -1,5 +1,6 @@
 ---
 title: "Helpful Tips for Entity Data | Microsoft Docs"
+description: "Provides various helpful tips relating to data files, HTML, and more for creating entity data to use with the Bing Spatial Data Services."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

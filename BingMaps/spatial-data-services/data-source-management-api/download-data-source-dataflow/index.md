@@ -1,5 +1,6 @@
 ---
 title: "Download a Data Source Dataflow | Microsoft Docs"
+description: "Describes how to use the Data Source Download Dataflow API and provides a table that gives a description for various resources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -28,7 +29,7 @@ Use the Data Source Download Dataflow API to download entity data from a publish
   
 ## In this Section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Create a Download Job](../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md)|Describes how to create a job to download entity data from a data source.|  
 |[Get Download Data Source Job Status](../../data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md)|Describes how to request status for a download data source job.|  

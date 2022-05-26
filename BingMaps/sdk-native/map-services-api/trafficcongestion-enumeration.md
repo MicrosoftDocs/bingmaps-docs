@@ -1,6 +1,7 @@
 ---
-title: "TrafficCongestion Enumeration | Microsoft Docs"
-ms.author: "kezhang"
+title: TrafficCongestion Enumeration | Microsoft Docs
+description: Describes the TrafficCongestion enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: kezhang
 ---
 
 # TrafficCongestion Enumeration

@@ -1,5 +1,6 @@
 ---
 title: "Geography Types | Microsoft Docs"
+description: "Describes geography types and provides tables that outline attributes, descriptions, and data types for recommended geographies and other geographies."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

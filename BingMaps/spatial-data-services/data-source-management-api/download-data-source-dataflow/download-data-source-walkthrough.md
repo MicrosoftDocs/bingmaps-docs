@@ -1,5 +1,6 @@
 ---
 title: "Download Data Source Walkthrough | Microsoft Docs"
+description: "Describes process of downloading data sources, which includes creating the download data source job and checking a job's status."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Delete a Data Source | Microsoft Docs"
+description: "Describes process of deleting data sources and provides template parameters, examples, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

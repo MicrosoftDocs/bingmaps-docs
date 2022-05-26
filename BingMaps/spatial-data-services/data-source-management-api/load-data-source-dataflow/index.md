@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Dataflow | Microsoft Docs"
+description: "Describes the Load Data Source Dataflow API and provides a table that gives a description for various resources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -36,7 +37,7 @@ Load Data Source Dataflow API to create a data source that contains entity data 
   
 ## In this Section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md)|Describes how to create a data source and upload entity data by using a load data source job. You can also use this API to stage or update a data source.|  
 |[Get Load Data Source Status](../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md)|Describes how to request status for a load data source job.|  

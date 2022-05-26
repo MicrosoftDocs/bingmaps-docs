@@ -1,5 +1,6 @@
 ---
 title: "Get Download Data Source Job Status | Microsoft Docs"
+description: "Describes the process of getting download data source job statuses and provides the URL template, template parameters, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

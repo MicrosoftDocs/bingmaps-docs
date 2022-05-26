@@ -1,5 +1,6 @@
 ---
 title: "Get Load Data Source Status | Microsoft Docs"
+description: "Describes process of getting load data source statuses and provides supported HTTP methods, the URL template, template parameters, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

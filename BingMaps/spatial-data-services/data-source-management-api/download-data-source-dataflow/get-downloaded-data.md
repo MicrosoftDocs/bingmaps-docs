@@ -1,5 +1,6 @@
 ---
 title: "Get Downloaded Data | Microsoft Docs"
+description: "Describes process of getting downloaded data and provides syntax for XML and JSON and examples for getting downloaded data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

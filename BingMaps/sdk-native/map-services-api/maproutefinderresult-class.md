@@ -1,6 +1,7 @@
 ---
-title: "MapRouteFinderResult Class | Microsoft Docs"
-ms.author: "kezhang"
+title: MapRouteFinderResult Class | Microsoft Docs
+description: Describes the MapRouteFinderResult class for Android and iOS and provides the class's properties and additional references.
+ms.author: kezhang
 ---
 
 # MapRouteFinderResult Class

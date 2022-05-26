@@ -1,6 +1,7 @@
 ---
-title: "MapRouteLeg Class | Microsoft Docs"
-ms.author: "kezhang"
+title: MapRouteLeg Class | Microsoft Docs
+description: Describes the MapRouteLeg class for Android and iOS and provides the class's properties and additional references.
+ms.author: kezhang
 ---
 
 # MapRouteLeg Class

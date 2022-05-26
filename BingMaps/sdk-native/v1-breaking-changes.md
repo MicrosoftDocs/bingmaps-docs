@@ -1,6 +1,7 @@
 ---
-title: "Breaking API changes in version 1.0 | Microsoft Docs"
-ms.author: "pablocan"
+title: Breaking API changes in version 1.0 | Microsoft Docs
+description: Describes how to break API changes in version 1.0 of Bing Maps for Android and iOS and provides additional references.
+ms.author: pablocan
 ---
 
 # Breaking API changes in version 1.0

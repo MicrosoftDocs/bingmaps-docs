@@ -1,5 +1,6 @@
 ---
 title: "Get All Public Data Sources | Microsoft Docs"
+description: "Describes process of getting all public data sources and provides supported HTTP methods, URL templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
