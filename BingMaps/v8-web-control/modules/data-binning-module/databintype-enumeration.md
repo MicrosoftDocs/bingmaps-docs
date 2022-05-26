@@ -1,5 +1,6 @@
 ---
 title: "DataBinType Enumeration | Microsoft Docs"
+description: Describes the DataBinType enumeration, which is used to specify data bin shape rendering, and provides a list of related properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

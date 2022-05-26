@@ -1,5 +1,6 @@
 ---
 title: "DirectionsErrorEventArgs Object | Microsoft Docs"
+description: Describes the DirectionsErrorEventArgs object, which contains direction event errors, and provides a list of related properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

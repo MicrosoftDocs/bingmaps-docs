@@ -1,5 +1,6 @@
 ---
 title: "Directions Module | Microsoft Docs"
+description: Describes the Directions module, which calculates directions, and provides API reference documentation and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

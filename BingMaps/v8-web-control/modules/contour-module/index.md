@@ -1,5 +1,6 @@
 ---
 title: "Contour Module | Microsoft Docs"
+description: Describes the Contour Module and provides its namespace, module name, API reference articles, and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

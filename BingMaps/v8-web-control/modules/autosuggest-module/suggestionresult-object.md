@@ -1,5 +1,6 @@
 ---
 title: "SuggestionResult Object | Microsoft Docs"
+description: Describes the SuggestionResult object, which contains the Autosuggest manager suggestion result, and provides the object's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

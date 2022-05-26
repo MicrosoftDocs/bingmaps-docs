@@ -1,5 +1,6 @@
 ---
 title: "ClusterLayerOptions Object | Microsoft Docs"
+description: Describes the ClusterLayerOptions object, which contains cluster layer options, and provides the object's list of properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

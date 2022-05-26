@@ -1,5 +1,6 @@
 ---
 title: "DistanceUnit Enumeration | Microsoft Docs"
+description: Describes DistanceUnit enumeration, which is related to unit distance, and provides a list of relevant options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

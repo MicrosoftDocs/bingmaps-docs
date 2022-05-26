@@ -1,5 +1,6 @@
 ---
 title: "DirectionsRenderOptions Object | Microsoft Docs"
+description: Describes the DirectionsRenderOptions object, which contains direction render options, and provides a list of properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

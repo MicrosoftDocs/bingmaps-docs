@@ -1,5 +1,6 @@
 ---
 title: "ContourLayerOptions Object | Microsoft Docs"
+description: Describes the ContourLayerOptions object, which is used with the ContourLayer class, and provides its options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

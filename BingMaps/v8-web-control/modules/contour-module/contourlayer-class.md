@@ -1,5 +1,6 @@
 ---
 title: "ContourLayer Class | Microsoft Docs"
+description: Describes the ContourLayer class, which organizes ContourLine arrays and creates polygons, and provides the class's constructor, methods, and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

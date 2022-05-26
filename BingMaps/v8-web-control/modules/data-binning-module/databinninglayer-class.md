@@ -1,5 +1,6 @@
 ---
 title: "DataBinningOptions Class | Microsoft Docs"
+description: Describes the DataBinningOptions class, which creates data bins from arrays, and provides its constructor, methods, and events.
 ms.custom: ""
 ms.date: "11/29/2018"
 ms.reviewer: ""

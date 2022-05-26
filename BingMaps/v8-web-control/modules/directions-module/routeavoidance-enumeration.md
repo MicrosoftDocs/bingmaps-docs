@@ -1,5 +1,6 @@
 ---
 title: "RouteAvoidance Enumeration | Microsoft Docs"
+description: Describes RouteAvoidance enumeration, which defines features to avoid in route calculation, and provides a list of related properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

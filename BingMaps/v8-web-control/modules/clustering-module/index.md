@@ -1,5 +1,6 @@
 ---
 title: "Clustering Module | Microsoft Docs"
+description: Describes the Clustering module and provides the module's module name, namespace, API reference, and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

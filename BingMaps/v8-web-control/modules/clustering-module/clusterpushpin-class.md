@@ -1,5 +1,6 @@
 ---
 title: "ClusterPushpin Class | Microsoft Docs"
+description: Describes the ClusterPushpin class, which extends the Pushpin class, and provides the class's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
