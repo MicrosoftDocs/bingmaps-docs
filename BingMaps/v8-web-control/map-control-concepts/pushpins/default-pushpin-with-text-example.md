@@ -1,5 +1,6 @@
 ---
 title: "Default Pushpin with Text Example | Microsoft Docs"
+description: Provides a code example that shows how to change the default pushpin on the map to have a number and a text label.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -54,4 +55,4 @@ The following code creates a pushpin at the center of the map that has a text va
 
 Here is what this pushpin would look like.
 
-![BMV8_DefaultPushpinExample](../../media/bmv8-defaultpushpinexample.png)
+![Screenshot of a Bing map showing the number 1 pushpin with the label Microsoft City Center in the center of the map.](../../media/bmv8-defaultpushpinexample.png)

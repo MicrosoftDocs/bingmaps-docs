@@ -1,5 +1,6 @@
 ---
 title: "REST Services Examples | Microsoft Docs"
+description: Describes the functionalities of the Bing Maps REST API services, and provides a list of Bing Maps REST services code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -30,7 +31,7 @@ The Bing Map V8 provides a Search, Direction and Traffic modules which wraps sev
 
 The Bing Maps REST services can be accessed using GET requests with JSONP. The following examples show how to access the Bing Maps REST Location API to geocode a query and display the matching results in a table using different JavaScript frameworks. All of these examples will look like this in a browser.
 
-![BMV8_RestExample](../../media/bmv8-restexample.PNG)
+![Screenshot of the Bing Maps REST Location API search results showing the latitude and longitude for several places named New York.](../../media/bmv8-restexample.PNG)
 
 ### Standard JavaScript
 

@@ -1,5 +1,6 @@
 ---
 title: "Font based Pushpins | Microsoft Docs"
+description: Provides how to use a custom font from the Font Awesome library to create custom pushpin icons for usage on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -77,4 +78,4 @@ One great source for pushpin icons is font based glyphs. This example shows how 
 
 Running this code will display a pushpin that looks like a red truck. 
 
-![BMV8_FontBasedPushpins](../../media/bmv8-fontbasedpushpins.PNG)
+![Screenshot of a Bing map that shows a custom red truck icon acting as a pushpin in the center of the map.](../../media/bmv8-fontbasedpushpins.PNG)

@@ -1,5 +1,6 @@
 ---
 title: "Custom Base64 Image Pushpin Example | Microsoft Docs"
+description: Provides a code example that shows how to use base64 image strings to create custom pushpins, which may be more efficient compared to other methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -22,7 +23,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAABmJLR0QA/w
 ```
 
 This base64 image string generates an image that looks like this: &nbsp;
-![Bubble Icon](../../media/bmv8-custompushpinusingbase64imageexample-icon.png)
+:::image type="icon" source="../../media/bmv8-custompushpinusingbase64imageexample-icon.png":::
  
 To create a custom pushpin out of this base64 image string, simply pass it into the `icon` property of the pushpin, like so:
 
@@ -60,4 +61,4 @@ To create a custom pushpin out of this base64 image string, simply pass it into 
 
 Here is what this pushpin looks like on the map.
 
-![BMV8_Base64PushpinExample](../../media/bmv8-base64pushpinexample.png) 
+![Screenshot of a Bing map showing a green rectangle icon acting as a pushpin in the center of the map.](../../media/bmv8-base64pushpinexample.png) 

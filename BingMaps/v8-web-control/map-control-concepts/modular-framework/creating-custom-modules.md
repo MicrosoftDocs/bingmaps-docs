@@ -1,5 +1,6 @@
 ---
 title: "Creating Custom Modules | Microsoft Docs"
+description: Describes how to create custom modules that tie into Bing Maps and provides a code example for a custom module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

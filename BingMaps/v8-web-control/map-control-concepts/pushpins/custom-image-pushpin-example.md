@@ -1,5 +1,6 @@
 ---
 title: "Custom Image Pushpin Example | Microsoft Docs"
+description: Provides a code example that shows how to change the default pushpin icon to a custom image uploaded to the web application folder.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -18,7 +19,7 @@ ms.service: "bing-maps"
 
 The default pushpin icon is great, but at some point you may want to change this to a different icon. To do this, you can pass a URL of a custom image into the `icon` property of the pushpin options. Let's say you have the following image in the images folder of your web application: 
 
-![poi_custom.png](../../media/bmv8-poi-custom.png) poi_custom.png
+:::image type="icon" source="../../media/bmv8-poi-custom.png"::: poi_custom.png
 
 You can use the following code to create a pushpin using the image of the sun. An anchor is used to specify what part of the image should be anchored to the location of the pushpin. In this example, we are using an anchor that is the approximate center of the image – 22 pixels from the left and 16 pixels from the top. If an anchor isn't specified, the anchor of the default pushpin will be used. If your image is either a different size or is meant to be anchored in a different place on the image when compared to the default pushpin, you will likely find that it appears as if the pushpin is moving away from the location as users zoom in on the map.  See more about this via the [Anchoring Pushpins](anchoring-pushpins.md) topic.
 
@@ -55,6 +56,6 @@ You can use the following code to create a pushpin using the image of the sun. A
 
 Here is what this pushpin looks like on the map. 
 
-![BMV8_CustomImagePushpin](../../media/bmv8-customimagepushpin.png)
+![Screenshot of a Bing map showing the custom white and blue pushpin image is in the center of the map.](../../media/bmv8-customimagepushpin.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromImage+JS)

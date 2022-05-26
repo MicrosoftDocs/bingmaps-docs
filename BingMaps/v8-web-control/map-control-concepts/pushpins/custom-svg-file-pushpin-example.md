@@ -1,5 +1,6 @@
 ---
 title: "Custom SVG File Pushpin Example | Microsoft Docs"
+description: Provides a code example that shows how to change the default pushpin to an SVG file, which scales better across different device resolutions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -36,7 +37,7 @@ You can create map images using Scalable Vector Graphics (SVG). These images wil
 ```
 
 This SVG creates a nice 3D cylinder that looks like this: &nbsp;
-![Cylinder](../../media/bmv8-custompushpinusingsvgexample-cylinder.png)
+:::image type="icon" source="../../media/bmv8-custompushpinusingsvgexample-cylinder.png":::
  
 To create a custom pushpin out of this SVG, simply pass the path the SVG file into the `icon` property of the pushpin, like so:
 
@@ -72,5 +73,5 @@ To create a custom pushpin out of this SVG, simply pass the path the SVG file in
 
 Here is what this pushpin looks like on the map.
 
-![BMV8_CustomSvgPushpin](../../media/bmv8-customsvgpushpin.png)
+![Screenshot of a Bing map showing the custom blue cylinder pushpin is in the center of the map, as defined by the code example.](../../media/bmv8-customsvgpushpin.png)
  

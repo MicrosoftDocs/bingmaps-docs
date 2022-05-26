@@ -1,5 +1,6 @@
 ---
 title: "Pushpins | Microsoft Docs"
+description: Describes pushpins, which act as graphical image and text representations of locations on maps, and provides links to code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

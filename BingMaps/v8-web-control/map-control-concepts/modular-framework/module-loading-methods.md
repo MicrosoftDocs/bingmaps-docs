@@ -1,5 +1,6 @@
 ---
 title: "Module Loading Methods2 | Microsoft Docs"
+description: Describes module loading methods, which allow registering and loading custom modules for map control, and provides the list of methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
