@@ -1,6 +1,6 @@
 ---
 title: GeoboundingBox Class | Microsoft Docs
-description: Describes the GeoboundingBox class for Android and iOS and provides te class' constructors, properties, and additional references.
+description: Describes the GeoboundingBox class for Android and iOS and provides the class' constructors, properties, and additional references.
 ms.author: pablocan
 ---
 
