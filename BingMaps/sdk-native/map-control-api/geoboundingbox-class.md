@@ -1,6 +1,7 @@
 ---
-title: "GeoboundingBox Class | Microsoft Docs"
-ms.author: "pablocan"
+title: GeoboundingBox Class | Microsoft Docs
+description: Describes the GeoboundingBox class for Android and iOS and provides te class' constructors, properties, and additional references.
+ms.author: pablocan
 ---
 
 # GeoboundingBox Class

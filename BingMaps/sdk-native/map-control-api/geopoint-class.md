@@ -1,6 +1,7 @@
 ---
-title: "Geopoint Class | Microsoft Docs"
-ms.author: "pablocan"
+title: Geopoint Class | Microsoft Docs
+description: Describes the Geopoint class for Android and iOS and provides the class' constructor, methods, static methods, and properties.
+ms.author: pablocan
 ---
 
 # Geopoint Class
