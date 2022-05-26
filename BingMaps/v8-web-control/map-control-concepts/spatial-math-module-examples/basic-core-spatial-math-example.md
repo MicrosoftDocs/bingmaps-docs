@@ -1,5 +1,6 @@
 ---
 title: "Basic Core Spatial Math Example | Microsoft Docs"
+description: Provides a code example that uses a number of core Spatial Math functions to calculate a geodesic line between points.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Well Known Text Examples | Microsoft Docs"
+description: Describes the Well Known Text (WKT) standard and how it is incorporated into the Well Known Text module in Bing Maps, and provides examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "AutosuggestOptions Object | Microsoft Docs"
+description: Describes the AutosuggestOptions object, which controls autosuggest options, and provides a list of the object's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

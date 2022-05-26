@@ -1,5 +1,6 @@
 ---
 title: "Along a Route Search | Microsoft Docs"
+description: Provides a code example showing code that searches for locations along a route using the built-in direction input panel and a data source.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

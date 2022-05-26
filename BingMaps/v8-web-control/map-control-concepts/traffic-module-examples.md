@@ -1,5 +1,6 @@
 ---
 title: "Traffic Module Examples | Microsoft Docs"
+description: Describes the Traffic module, which shows two different types of traffic data, and provides examples of the module in action.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

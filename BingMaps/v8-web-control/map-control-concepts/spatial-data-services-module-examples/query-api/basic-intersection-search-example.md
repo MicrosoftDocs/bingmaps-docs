@@ -1,5 +1,6 @@
 ---
 title: "Basic Intersection Search Example | Microsoft Docs"
+description: Provides a code example that makes a simple intersection query against a data source using the map bounds.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Autosuggest Module | Microsoft Docs"
+description: Describes the Autosuggest module, which provides a list of suggested addresses or places, and provides lists of API reference articles and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

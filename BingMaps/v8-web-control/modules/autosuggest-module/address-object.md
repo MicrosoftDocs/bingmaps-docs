@@ -1,5 +1,6 @@
 ---
 title: "Address Object (Autosuggest Module) | Microsoft Docs"
+description: Describes the address object, which represents a structured address, and provides a list of related properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

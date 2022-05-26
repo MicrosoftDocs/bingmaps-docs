@@ -1,5 +1,6 @@
 ---
 title: "Spatial Data Services Module Examples | Microsoft Docs"
+description: Provides a list of examples for the Spatial Data Services module, which allows developers to upload data and expose it as a spatial REST service.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

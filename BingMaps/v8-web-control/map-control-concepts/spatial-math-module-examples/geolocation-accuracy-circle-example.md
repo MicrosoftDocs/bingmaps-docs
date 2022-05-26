@@ -1,5 +1,6 @@
 ---
 title: "Geolocation Accuracy Circle Example | Microsoft Docs"
+description: Provides a code example that uses the Spatial Math library to generate a regular polygon centers on the user's location.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

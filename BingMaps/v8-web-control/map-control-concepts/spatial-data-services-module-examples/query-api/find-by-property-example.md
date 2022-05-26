@@ -1,5 +1,6 @@
 ---
 title: "Find By Property Example | Microsoft Docs"
+description: Provides a code example that uses the Spatial Data Services module and a specified data source and filter to do a property based search.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

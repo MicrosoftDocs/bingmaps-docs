@@ -1,5 +1,6 @@
 ---
 title: "Spatial Math Module Examples | Microsoft Docs"
+description: Describes the Spatial Math module, which provides commonly required spatial calculations, and provides lists of examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
