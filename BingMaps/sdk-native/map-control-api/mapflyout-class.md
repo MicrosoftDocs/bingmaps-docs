@@ -1,6 +1,7 @@
 ---
-title: "MapFlyout Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapFlyout Class | Microsoft Docs
+description: Describes the MapFlyout class for Android and iOS and provides the class' properties, methods, and additional references.
+ms.author: pablocan
 ---
 
 # MapFlyout Class

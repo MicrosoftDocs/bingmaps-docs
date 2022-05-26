@@ -1,6 +1,7 @@
 ---
-title: "MapElement Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapElement Class | Microsoft Docs
+description: Describes the MapElement class for Android and iOS and provides the class' properties, accessibility elements, and additional references.
+ms.author: pablocan
 ---
 
 # MapElement Class
