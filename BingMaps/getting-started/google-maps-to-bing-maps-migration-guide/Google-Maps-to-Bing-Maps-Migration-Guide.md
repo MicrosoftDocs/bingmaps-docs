@@ -237,7 +237,7 @@ and zoomed over a location.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image25.png)
+![A screen shot of a Google Map centered and zoomed over Manhattan.](./media/image25.png)
 
 **After: Bing Maps**
 
@@ -270,7 +270,7 @@ additional step is to make sure you specify your Bing Maps key.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image26.png)
+![A screen shot of a Bing Map centered and zoomed over Manhattan.](./media/image26.png)
 
 > [!TIP]
 > When loading the map, the reference to the map div can be
@@ -301,7 +301,7 @@ parameter in the initialization <script\> tag.
 
 Here is an example of Google Maps with the language set to "fr" and the region set to "FR".
 
-![](./media/image27.png)
+![A screen shot of a Google Map showing the world view with all text in French.](./media/image27.png)
 
 **After: Bing Maps**
 
@@ -331,7 +331,7 @@ These parameters can be specified in the map script URL as shown below.
 Here is an example of Bing Maps with the language parameter set to "fr"
 and the locale parameter set to "fr-FR".
 
-![](./media/image28.png)
+![A screen shot of a Bing Map showing the world in Satellite view with all text in French.](./media/image28.png)
 
 A list of support culture parameters is documented in the
 [Supported Languages](/bingmaps/v8-web-control/creating-and-hosting-map-controls/setting-map-control-parameters#supported-languages) table in the Setting Map Control Parameters article.
@@ -397,7 +397,7 @@ displayed.
 Running this code in a browser will display a map that looks like the
 following image: [[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#setMapViewOptions+JS)]
 
-![A picture containing text, invertebrate, hydrozoan Description ](./media/image29.png)
+![A screen shot of a Bing Map in aerial view showing Meteor Crater. Meteor Crater is a meteorite impact crater located in the northern Arizona desert of the United States.](./media/image29.png)
 
 Bing Maps also provides a setOptions function which allows you to modify
 how the map functions. For example, you can disable panning or hide the
@@ -445,7 +445,7 @@ takes a set of options.
 </script>
 ```
 
-![](./media/image30.png)
+![A screen shot of a Google Map showing the world view with a red marker in the center of the map.](./media/image30.png)
 
 **After: Bing Maps**
 
@@ -476,7 +476,7 @@ very similar way.
 </script>
 ```
 
-![](./media/image31.png)
+![A screen shot of a Bing Map showing the world view with a red push pin in the center of the map.](./media/image31.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultPushpin+JS)\]
 
@@ -538,7 +538,7 @@ specifies where on the image to place the text label.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image32.png)
+![A screen shot of a Google Map showing Bellevue Washington with a blue custom pushpin with a label containing the number one.](./media/image32.png)
 
 **After: Bing Maps**
 
@@ -588,7 +588,7 @@ two key differences between Google's labelOrigin and Bing's textOffset:
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image33.png)
+![A screen shot of a Bing Map showing Bellevue Washington with a blue custom pushpin with a label containing the number one.](./media/image33.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromImage+JS)\]
 
@@ -687,7 +687,7 @@ of coordinates is passed in the path option of the polyline.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image34.png)
+![A screen shot of a Google Map showing an example of the polyline.](./media/image34.png)
 
 **After: Bing Maps**
 
@@ -731,7 +731,7 @@ difference is that creating dashed lines is much easier.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image35.png)
+![A screen shot of a Bing Map showing an example of the polyline.](./media/image35.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addStyledPolyline+JS)\]
 
@@ -795,7 +795,7 @@ coordinates is passed in the paths option of the polygon.
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image36.png)
+![A screen shot of a Google Map showing an example of the polyline that forms a triangle with a lime green fill color.](./media/image36.png)
 
 **After: Bing Maps**
 
@@ -838,7 +838,7 @@ var map;
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image37.png)
+![A screen shot of a Bing Map showing an example of the polyline that forms a triangle with a lime green fill color.](./media/image37.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addStyledPolygon+JS)\]
 
@@ -1082,7 +1082,7 @@ use the DirectionsRenderer class as well.
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image38.png)
+![A screen shot of a Google Map showing an example of the direction service with a route marked from point A to point B on one side of the screen and written directions on the right side of the screen.](./media/image38.png)
 
 **After: Bing Maps**
 
@@ -1132,7 +1132,7 @@ on the map it can also generate nicely styled instructions.
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image39.png)
+![A screen shot of a Bing Map showing an example of the direction service with a route marked from point A to point B on one side of the screen and written directions on the right side of the screen.](./media/image39.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateDrivingRoute+JS)\]
 
@@ -1226,7 +1226,7 @@ Google Maps uses the Autocomplete class to provide suggestions.
 Running this code in a browser and typing in "Lon" will display a map
 that looks like the following image:
 
-![](./media/image40.png)
+![A screen shot of a Google Map showing an example of the Autosuggest feature. The user typed in L O N and the drop down list showed London, London Bridge, London Eye along with other suggestions.](./media/image40.png)
 
 **After: Bing Maps**
 
@@ -1298,7 +1298,7 @@ used to add autosuggest functionality to a textbox.
 Running this code in a browser and typing in "Lon" will display a map
 that looks like the following image:
 
-![](./media/image41.png)
+![A screen shot of a Bing Map showing an example of the Autosuggest feature. The user typed in L O N and the drop down list showed London, London Acre, Long's court along with other suggestions.](./media/image41.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)\]
 
@@ -1443,7 +1443,7 @@ where the Age property is greater than 20.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image42.png)
+![A screen shot of a Google Map showing an example of their Fusion Tables solution. It shows Chicago with dozens of red dots, ech represents a location where the Age property is greater than 20.](./media/image42.png)
 
 **After: Bing Maps**
 
@@ -1560,7 +1560,7 @@ the map.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image43.png)
+![A screen shot of a Google Map showing an example of their support of ground overlays. This example overlays a map image of Newark New Jersey from 1922.](./media/image43.png)
 
 **After: Bing Maps**
 
@@ -1600,7 +1600,7 @@ or below the labels depending on your preference.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image44.png)
+![A screen shot of a Bing Map showing an example of their support of ground overlays. This example overlays a map image of Newark New Jersey from 1922.](./media/image44.png)
 
 \[[Try it now](https://samples.bingmapsportal.com/?sample=newark-new-jersey-1922-ground-overlay)\]
 
@@ -1644,7 +1644,7 @@ This example shows how to load a KML file into Google Maps using a KmlLayer.
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image45.png)
+![A screen shot of a Google Map showing an example of their support of the Keyhole Markup Language. This example shows a map with the KML loaded.](./media/image45.png)
 
 **After: Bing Maps**
 
@@ -1657,7 +1657,7 @@ class. Alternatively, it can also be read as raw data which provides the
 option to completely customize how the data is rendered, if you decide
 to render it at all.
 
-![](./media/image46.png)
+![A screen shot of a Bing Map showing an example of their support of the Keyhole Markup Language. This example shows a map with the KML loaded.](./media/image46.png)
 
 **Additional Resources:**
 
@@ -1713,12 +1713,11 @@ drawing tools.
 
 Running this code in a browser will display a map that looks like the following image:
 
-![](./media/image47.png)
+![A screen shot of a Google Map showing an example of their support of drawing tools. This example shows a map with the default drawing tools.](./media/image47.png)
 
 **After: Bing Maps**
 
-In Bing Maps drawing functionality is made available through the
-DrawingTools module.
+In Bing Maps drawing functionality is made available through the DrawingTools module.
 
 ```javascript
 <script>
@@ -1747,7 +1746,7 @@ DrawingTools module.
 Running this code in a browser will display a map that looks like the
 following image:
 
-![](./media/image48.png)
+![A screen shot of a Bing Map showing an example of their drawing tools module. This example shows a map with the drawing toolbar enabled.](./media/image48.png)
 
 \[[Try it now](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#dtDrawThings+JS)\]
 
@@ -2025,7 +2024,7 @@ non-approved referrers will be blocked, preventing others from using
 your key for requests. You can have up to 300 referrer and IP security
 rules per key.
 
-![](./media/image49.jpeg)
+![A screen shot showing the Bing Maps application key security settings, with the referrers tab active.](./media/image49.jpeg)
 
 Your key is now protected but is still visible in your website code. So
 how do I hide my Bing Maps key?
@@ -2079,7 +2078,7 @@ The Bing Maps key is stored server-side in this Azure Function
 Application settings field. We are using the `GetEnvironmentVariable()` to
 get the key.
 
-![Applications settings](./media/image50.png)
+![A screen shot showing the Bing Maps applications settings, with the Bing Maps subscription key highlighted.](./media/image50.png)
 
 Next, we need to load the Bing Maps script and get the key from the API
 client-side. Finally, we use the following code snippet to load Bing
