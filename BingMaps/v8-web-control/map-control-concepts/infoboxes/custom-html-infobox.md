@@ -1,6 +1,6 @@
 ---
 title: "Custom HTML Infobox | Microsoft Docs"
-description: Provides a code example that shows how to create a custom infobox for pushpins using a HTML template string.
+description: Provides a code example that shows how to create a custom infobox for pushpins using an HTML template string.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
