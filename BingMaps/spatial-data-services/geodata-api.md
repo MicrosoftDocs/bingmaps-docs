@@ -128,9 +128,8 @@ http://platform.bing.com/geo/spatial/v1/public/Geodata?SpatialFilter=GetBoundary
   
  When you set the getAllMetadata parameter to true (or 1), entity metadata is returned. The following are common metadata fields that may be returned.  
   
-||||  
+|Metadata Field|Type|Description| 
 |-|-|-|  
-|**Metadata Field**|**Type**|**Description**|  
 |BestMapViewBox|string|An area on the Earth that provides the best map view for this entity. This area is defined as a bounding box in the format of a MULTIPOINT ((WestLongitude SouthLatitude), (EastLongitude NorthLatitude)).|  
 |AreaSqKm|double|The approximate total surface area (in square kilometers) covered by all the polygons that comprise this entity.|  
 |OfficialCulture|string|The culture associated with this entity.|  
