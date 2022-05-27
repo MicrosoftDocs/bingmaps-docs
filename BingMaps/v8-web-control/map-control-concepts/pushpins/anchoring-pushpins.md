@@ -25,13 +25,13 @@ For example, consider the following pushpin, which is 24 pixels wide and 26 pixe
  
 Here are some addition pushpin images and anchor values that can be used to properly position the pushpin.
 
-:::image type="icon" source="../../media/bmv8-anchoringpushpins-aligncenter.png":::
+![Icon of a white and blue circle that is center-aligned.](../../media/bmv8-anchoringpushpins-aligncenter.png)
 #### Align with Center Anchor: (17, 17)
 
-:::image type="icon" source="../../media/bmv8-anchoringpushpins-alignwithpoint.png":::
+![Icon of a red circular pin with a shadow.](../../media/bmv8-anchoringpushpins-alignwithpoint.png)
 #### Align with Point Anchor: (3, 30)
 
-:::image type="icon" source="../../media/bmv8-anchoringpushpins-alignpushpin.png":::
+![Icon of an orange pushpin with a shadow.](../../media/bmv8-anchoringpushpins-alignpushpin.png)
 #### Align with Point Anchor: (3, 30)
 
 

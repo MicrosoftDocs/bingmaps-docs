@@ -23,7 +23,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAABmJLR0QA/w
 ```
 
 This base64 image string generates an image that looks like this: &nbsp;
-:::image type="icon" source="../../media/bmv8-custompushpinusingbase64imageexample-icon.png":::
+![Icon of a green rectangle polygonal pushpin.](../../media/bmv8-custompushpinusingbase64imageexample-icon.png)
  
 To create a custom pushpin out of this base64 image string, simply pass it into the `icon` property of the pushpin, like so:
 

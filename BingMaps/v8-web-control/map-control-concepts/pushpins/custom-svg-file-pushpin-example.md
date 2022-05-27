@@ -37,7 +37,7 @@ You can create map images using Scalable Vector Graphics (SVG). These images wil
 ```
 
 This SVG creates a nice 3D cylinder that looks like this: &nbsp;
-:::image type="icon" source="../../media/bmv8-custompushpinusingsvgexample-cylinder.png":::
+![Icon of a small, gradient blue cylinder.](../../media/bmv8-custompushpinusingsvgexample-cylinder.png)
  
 To create a custom pushpin out of this SVG, simply pass the path the SVG file into the `icon` property of the pushpin, like so:
 
