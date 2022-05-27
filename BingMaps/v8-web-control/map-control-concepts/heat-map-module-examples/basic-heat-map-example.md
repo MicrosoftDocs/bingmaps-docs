@@ -1,5 +1,6 @@
 ---
 title: "Basic Heat Map Example | Microsoft Docs"
+description: Provides a code example that shows a thousand random locations loaded into the initial view of a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -50,4 +51,4 @@ The following example loads 1,000 random locations into a heat map that are with
 
 Here is what this random heat map looks like when the map is loaded over Redmond, WA. 
 
-![Basic Heatmap on a Map](../../media/bmv8-basicheatmapexample-map.png)
+![Screenshot of a Bing map that shows the area of Redmond, Washington, with a random heat map overlaid.](../../media/bmv8-basicheatmapexample-map.png)

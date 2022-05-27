@@ -1,5 +1,6 @@
 ---
 title: "Customize Map Options on Load | Microsoft Docs"
+description: Provides a code example that customizes map options when the map is loaded to set it to an aerial map that is zoomed in over London, UK.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -51,6 +52,6 @@ As mentioned before, you can customize the map when loading it. Use the followin
 
 This results in the map being loaded, zoomed in over London, UK with the aerial imagery displayed.
 
-![BMV8_MapOptionsOnLoad](../../media/bmv8-mapoptionsonload.png)
+![Screenshot of a Bing map showing London in the United Kingdom with aerial imagery labels in green boxes around the map.](../../media/bmv8-mapoptionsonload.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadMapWithOptions+JS)

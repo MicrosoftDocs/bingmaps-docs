@@ -1,5 +1,6 @@
 ---
 title: "Layers | Microsoft Docs"
+description: Describes the Layer class, which separates multiple data sets as layers, and provides lists of code examples and references.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

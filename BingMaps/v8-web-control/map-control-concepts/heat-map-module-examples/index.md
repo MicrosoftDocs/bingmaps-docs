@@ -1,5 +1,6 @@
 ---
 title: "Heat Map Module Examples | Microsoft Docs"
+description: Describes the Heat Map module, which creates data density overlays for maps, and provides links to concepts, examples, and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Check Bird’s eye Coverage Availability | Microsoft Docs"
+description: Provides a code example that demonstrates the static function's ability to check if bird's eye imagery is available at a location.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

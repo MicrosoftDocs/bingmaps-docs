@@ -1,5 +1,6 @@
 ---
 title: "Map | Microsoft Docs"
+description: Describes the Map, which is the primary control in the Bing Maps V8 Map control interface, and provides examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

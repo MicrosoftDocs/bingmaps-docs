@@ -1,5 +1,6 @@
 ---
 title: "Multiple Pushpins and Infoboxes | Microsoft Docs"
+description: Provides a code example that creates 5 pushpins at random locations on the map that display infoboxes with relevant content when clicked.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -81,4 +82,4 @@ When you have a lot of pushpins and only want to show one infobox at a time, the
 
 Running this code will display 5 pushpins on the map. If you click on any of them, you will see an infobox appear with details for that pushpin.
 
-![BMV8_MultiplePushpinsAndInfobox](../../media/bmv8-multiplepushpinsandinfobox2.png)
+![Screenshot of a Bing map showing five purple pushpins on a map and an infobox showing the description for Pin 2.](../../media/bmv8-multiplepushpinsandinfobox2.png)

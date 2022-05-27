@@ -1,5 +1,6 @@
 ---
 title: "Data Layer Events | Microsoft Docs"
+description: Provides a code example that shows how to add random shapes to a layer and attaches mouse events to the layer.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -75,4 +76,4 @@ Many applications add mouse events to shapes by looping through each shape and a
 
 If you run this code and hover and click any of the shapes, you will see all these different events fire.
 
-![BMV8_LayerEventsExample](../../media/bmv8-layereventsexample.png)
+![Screenshot of a Bing map that shows a variety of polygons around the map and a list of firing events below the map.](../../media/bmv8-layereventsexample.png)

@@ -1,5 +1,6 @@
 ---
 title: "Custom HTML Infobox | Microsoft Docs"
+description: Provides a code example that shows how to create a custom infobox for pushpins using a HTML template string.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -75,6 +76,6 @@ For many apps the default infobox and the various options for customizing it wor
 </html>
 ```
 
-This code creates an infobox sing custom HTML which contains an image and a link.
+This code creates an infobox using custom HTML which contains an image and a link.
 
-![BMV8_CustomInfoboxExample](../../media/bmv8-custominfoboxexample2.png)
+![Screenshot showing a Bing map with a black infobox that contains a custom white and blue pushpin.](../../media/bmv8-custominfoboxexample2.png)

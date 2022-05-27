@@ -1,5 +1,6 @@
 ---
 title: "Expanding Tooltip Infobox | Microsoft Docs"
+description: Provides a code example that shows how to display the title of the pushpin in a tooltip infobox and the full infobox when clicked.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Expanding Tooltip Infobox
 
-Often infoboxes are displayed when a user clicks or hovers over a pushpin. Another user friendly experience is to show the title when the user hovers over a pushpin like a tooltip, and if they click on the pushpin, then open the full infobox that contains the title and description. The following code shows how to accomplish this by using two infoboxes. One to power the toolitp experience and the other to display the full infobox.
+Often infoboxes are displayed when a user clicks or hovers over a pushpin. Another user friendly experience is to show the title when the user hovers over a pushpin like a tooltip, and if they click on the pushpin, then open the full infobox that contains the title and description. The following code shows how to accomplish this by using two infoboxes. One to power the tooltip experience and the other to display the full infobox.
 
 ```html
 <!DOCTYPE html>
@@ -118,4 +119,4 @@ Often infoboxes are displayed when a user clicks or hovers over a pushpin. Anoth
 
 If you run this code and hover over a pushpin you will see a tooltip appear that displays the title property of the pushpin. If you click on the pushpin a detailed infobox will appear that contains the title and description.
 
-![BMV8_InfoboxExpandingTooltipExample](../../media/bmv8-infoboxexpandingtooltipexample.png)
+![Screenshot of the Bing map showing a pushpin with a tooltip above it that contains the name of the pushpin.](../../media/bmv8-infoboxexpandingtooltipexample.png)

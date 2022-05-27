@@ -1,5 +1,6 @@
 ---
 title: "Reading Geospatial XML Files Cross Domain | Microsoft Docs"
+description: Provides a code example that shows how to create a simple proxy service using a Generic Handler in .Net to pass XML data to the GeoXML module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -147,7 +148,7 @@ Next is to create a simple web page that calls this proxy service. The URL that 
 
 Running this code, a map will load displaying the location of recent earthquakes. This data is hosted on the USGS Earthquake website.
 
-![BMV8_GeoXmlCrossDomain](../../media/bmv8-geoxmlcrossdomain.PNG)
+![Screenshot of a Bing map that shows purple pushpins on all locations that have experienced earthquakes recently.](../../media/bmv8-geoxmlcrossdomain.PNG)
  
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Cross%20Domain)
 

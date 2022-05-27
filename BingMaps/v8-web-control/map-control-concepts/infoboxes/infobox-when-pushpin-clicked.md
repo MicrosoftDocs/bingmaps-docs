@@ -1,5 +1,6 @@
 ---
 title: "Infobox when Pushpin Clicked | Microsoft Docs"
+description: Provides a code example that shows how to create a pushpin at a random location on the map and store metadata with the pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -78,6 +79,6 @@ One of the most common scenarios where an infobox is displayed, is when a user c
 
 Running this code will display a pushpin on the map. If you click on it, an infobox will appear filled in with the metadata for that pushpin.
 
-![BMV8_InfoboxWhenPinClicked](../../media/bmv8-infoboxwhenpinclicked2.png) 
+![Screenshot of a Bing map showing a pushpin with an infobox above it with the title and description of the pushpin.](../../media/bmv8-infoboxwhenpinclicked2.png) 
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#displayInfoboxOnClickPushpin+JS)

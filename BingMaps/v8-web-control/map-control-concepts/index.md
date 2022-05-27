@@ -1,5 +1,6 @@
 ---
 title: "Map Control Concepts | Microsoft Docs"
+description: Describes Map Control concepts and provides a list of concepts with links to corresponding documentation.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

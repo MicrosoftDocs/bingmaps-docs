@@ -1,5 +1,6 @@
 ---
 title: "Basic Infobox Example | Microsoft Docs"
+description: Provides a code example that shows how to create a basic infobox with a title and description and set it to the center of a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -54,6 +55,6 @@ The following code shows how to add an infobox with a title and description to t
 
 This code will add an infobox to the center of the map like this.
 
-![Basic Infobox on a Map](../../media/bmv8-basicinfoboxexample2.png)
+![Screenshot of a Bing map that shows an infobox with the title Map Center and the description Seattle.](../../media/bmv8-basicinfoboxexample2.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#addDefaultInfobox+JS)

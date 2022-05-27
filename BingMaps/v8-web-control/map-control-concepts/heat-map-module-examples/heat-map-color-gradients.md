@@ -1,5 +1,6 @@
 ---
 title: "Heat Map Color Gradients | Microsoft Docs"
+description: Describes heat map color gradients, which are used to colorize the intensity of the heatmap, and provides a list of color gradients.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

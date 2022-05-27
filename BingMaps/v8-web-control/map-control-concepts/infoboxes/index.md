@@ -1,5 +1,6 @@
 ---
 title: "Infoboxes | Microsoft Docs"
+description: Describes the infobox, which is a simple panel that displays information over the map, and provides examples and references.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
