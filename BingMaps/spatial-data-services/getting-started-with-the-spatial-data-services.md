@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with the Spatial Data Services | Microsoft Docs"
+description: "Describes process of getting started with the Spatial Data Services and provides various resources on how to work with spatial data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

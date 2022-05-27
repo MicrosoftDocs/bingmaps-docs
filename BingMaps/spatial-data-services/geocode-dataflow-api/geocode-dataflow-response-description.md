@@ -1,5 +1,6 @@
 ---
 title: "Geocode Dataflow Response Description | Microsoft Docs"
+description: "Describes Geocode Dataflow responses and provides a table that outlines a field type and description for JSON and XML fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

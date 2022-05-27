@@ -1,5 +1,6 @@
 ---
 title: "Public Data Sources | Microsoft Docs"
+description: "Describes Bing Spatial Data Services' public data sources and provides a table that outlines a description for various data sources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

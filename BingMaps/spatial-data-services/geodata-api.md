@@ -1,5 +1,6 @@
 ---
 title: "Geodata API | Microsoft Docs"
+description: "Describes the Geodata API and provides supported HTTP methods, the URL template, template parameters, examples, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 # Geodata API
 Use the following URLs to request a set of polygons that describe the boundaries of a geographic entity, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address.  
   
-## Supported Http Methods  
+## Supported HTTP Methods  
  GET  
   
  HTTP and HTTPS  

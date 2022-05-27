@@ -1,5 +1,6 @@
 ---
 title: "Create a Geocode Job and Upload Data | Microsoft Docs"
+description: "Describes how to create a Geocode job and upload data and provides supported HTTP methods, the URL template, template parameters, examples, and sample code."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

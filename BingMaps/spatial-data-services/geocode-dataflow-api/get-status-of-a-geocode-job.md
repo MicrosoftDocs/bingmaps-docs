@@ -1,5 +1,6 @@
 ---
 title: "Get Status of a Geocode Job | Microsoft Docs"
+description: "Describes how to get the status of a geocode job b and provides supported HTTP methods, the URL template, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

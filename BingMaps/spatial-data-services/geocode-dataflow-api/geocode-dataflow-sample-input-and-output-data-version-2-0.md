@@ -1,5 +1,6 @@
 ---
 title: "Geocode Dataflow Sample Input and Output Data Version 2.0 | Microsoft Docs"
+description: "Describe the Version 2.0 iteration of Geocode Dataflow and provides sample input and output data in XML, Pipe, and CSV."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

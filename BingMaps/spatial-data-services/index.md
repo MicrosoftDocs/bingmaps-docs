@@ -1,5 +1,6 @@
 ---
 title: "Bing Spatial Data Services | Microsoft Docs"
+description: "Describes Bing Spatial Data Services and provides a table that outlines a description for various resources relating to Bing Spatial Data Services."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -30,7 +31,7 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
   
 ## In this Section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Getting Started](../spatial-data-services/getting-started-with-the-spatial-data-services.md)|Provides information to help you get started with the Bing Spatial Data Services.|
 |[Public Data Sources](public-data-sources/index.md)|Includes descriptions of public data sources that you can query.|  

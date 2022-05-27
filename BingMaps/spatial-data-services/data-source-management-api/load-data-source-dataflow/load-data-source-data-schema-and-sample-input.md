@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Data Schema and Sample Input | Microsoft Docs"
+description: "Describes the Load Data Source Data schema and provides a sample input, location properties, an example data schema, and property name requirements."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

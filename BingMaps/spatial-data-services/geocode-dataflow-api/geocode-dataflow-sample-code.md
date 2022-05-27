@@ -1,5 +1,6 @@
 ---
 title: "Geocode Dataflow Sample Code | Microsoft Docs"
+description: "Provides Geocode Dataflow sample code with notes that explain the organization, syntax, and utility of the sample code."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "FourthCoffeeSample | Microsoft Docs"
+description: "Describes the FourthCoffeeSample data source and provides a table that outlines the data type and example value for various properties."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
