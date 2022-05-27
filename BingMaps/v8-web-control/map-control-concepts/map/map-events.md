@@ -1,5 +1,5 @@
 ---
-title: "Map Events | Microsoft Docs"
+title: "Map Events Example | Microsoft Docs"
 description: Provides a code example that shows how different events for the map work by highlighting a label to indicate which event fired.
 ms.custom: ""
 ms.date: "02/28/2018"
