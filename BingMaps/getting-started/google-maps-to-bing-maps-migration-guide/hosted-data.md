@@ -50,7 +50,7 @@ Follow these steps to migrate data from Google Fusion Tables to the Bing Spatial
 
 1. select **Upload Data** from the **Data sources** tab.
 
-    > ![](./media/image3.png)
+    > ![A screen shot of the upload a data source page.](./media/image3.png)
 
 1. Give your data source a name. The name can be up to 50 characters in
     length and must not have any spaces.
