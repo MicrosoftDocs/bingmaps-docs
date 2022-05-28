@@ -121,7 +121,7 @@ Here is a list of useful technical resources for the Bing Maps web control:
 - [Bing Maps Code Samples](https://samples.bingmapsportal.com/)
 - [Bing Maps web control documentation](/v8-web-control/index)
 - [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)
-- [Bing Maps documentation](https://docs.microsoft.com/bingmaps/index) (All Bing Maps APIs)
+- [Bing Maps documentation](https://docs.microsoft.com/bingmaps) (All Bing Maps APIs)
 - [Microsoft Q&A](https://docs.microsoft.com/answers/products/)
 - [Bing Maps Dev Center](https://www.bingmapsportal.com/)
 - [Bing Maps REST Services](/rest-services/index)
@@ -319,7 +319,7 @@ localize the map.
 |--------------|-------------------------------------------------------|
 | setLang      | Specifies the language to use for the map labels and navigation controls. Example: *en* |
 | setMkt       | This is a market parameter that provides insights into the user's location. This is used to determine which features are available on the map in this area. For example, if the user is in an area where streetside imagery isn't available, the map won't list it as an option in the navigation bar. If the locale parameter is set to "en-US", an area where streetside imagery is available, this option will appear.|
-| UR           | A user region string that contains an ISO 3166-1 alpha-2 country region code. The user region value is used to ensure that disputed borders and location names align with the views of the specified user region. <br/><br/> For a list of values, see the Region Localities section in the [Geospatial Endpoint Service](https://docs.microsoft.com/bingmaps/articles/geospatial-endpoint-service) article. <br/><br/> Due to the sensitivity of this feature, it is recommended to only use this when testing and to let the map automatically set this value in your production application.|
+| UR           | A user region string that contains an ISO 3166-1 alpha-2 country region code. The user region value is used to ensure that disputed borders and location names align with the views of the specified user region. <br/><br/> For a list of values, see the Region Localities section in the [Geospatial Endpoint Service](/articles/geospatial-endpoint-service) article. <br/><br/> Due to the sensitivity of this feature, it is recommended to only use this when testing and to let the map automatically set this value in your production application.|
 
 These parameters can be specified in the map script URL as shown below.
 
@@ -2190,7 +2190,7 @@ Maps libraries.
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Map Control Concepts](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-concepts/)
+> [Map Control Concepts](/v8-web-control/map-control-concepts/index)
 
 > [!div class="nextstepaction"]
 > [Understanding Bing Maps Transactions](/getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions)
