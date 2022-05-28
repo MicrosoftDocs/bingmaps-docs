@@ -27,7 +27,7 @@ This section provides you with a suggested migration plan to help you plan your 
 
 1. Create a Bing Maps account at the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
    You can find more information about creating a Bing Maps account in the [Microsoft
-   Docs](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account).
+   Docs](/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account).
 
 1. Create a Bing Maps key.
 
@@ -43,18 +43,18 @@ This section provides you with a suggested migration plan to help you plan your 
         all pre‐production application testing.
 
     c.  See Microsoft Docs for more information on [Getting a Bing Maps
-        key](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+        key](/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 1. Download any location data that you have hosted in Google Fusion tables. For more information, see [Download location data hosted in Google Fusion tables](hosted-data.md).
 
-1. Reformat location data to match the required schema for the Bing [Spatial Data Services](https://docs.microsoft.com/bingmaps/spatial-data-services/) API.
-   See [Load Data Source Data Schema](https://docs.microsoft.com/bingmaps/spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input) for documentation outlining the required schema.
+1. Reformat location data to match the required schema for the Bing [Spatial Data Services](/spatial-data-services/index) API.
+   See [Load Data Source Data Schema](/spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input) for documentation outlining the required schema.
 
 > [!Tip]
 > The Bing Spatial Data Services supports uploading [Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) (KML) files.
 
 1. Migrate your spatial search queries to the Bing [Spatial Data Services
-   queries](https://docs.microsoft.com/bingmaps/spatial-data-services/query-api/).
+   queries](/spatial-data-services/query-api/).
 
 1. Migrate your application code to use the Bing Maps web control.
 
@@ -110,7 +110,7 @@ posts showing how to do new and interesting things with the Bing Maps
 controls are made available.
 
 You can also keep up to date with new features that have been added to
-the Bing Maps control at the [V8 Web Controls developer resources](https://docs.microsoft.com/bingmaps/v8-web-control/developer-resources) page. Note that this is only for the Bing Maps control,
+the Bing Maps control at the [V8 Web Controls developer resources](/v8-web-control/developer-resources) page. Note that this is only for the Bing Maps control,
 and not all Bing Maps services and API's.
 
 ### Technical Resources
@@ -119,13 +119,13 @@ Here is a list of useful technical resources for the Bing Maps web control:
 
 - [Bing Maps Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
 - [Bing Maps Code Samples](https://samples.bingmapsportal.com/)
-- [Bing Maps web control documentation](https://docs.microsoft.com/bingmaps/v8-web-control/)
+- [Bing Maps web control documentation](/v8-web-control/index)
 - [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)
-- [Bing Maps documentation](https://docs.microsoft.com/bingmaps/) (All Bing Maps APIs)
+- [Bing Maps documentation](https://docs.microsoft.com/bingmaps/index) (All Bing Maps APIs)
 - [Microsoft Q&A](https://docs.microsoft.com/answers/products/)
 - [Bing Maps Dev Center](https://www.bingmapsportal.com/)
-- [Bing Maps REST Services](https://docs.microsoft.com/bingmaps/rest-services/)
-- [Bing Spatial Data Services](https://docs.microsoft.com/bingmaps/spatial-data-services/query-api/)
+- [Bing Maps REST Services](/rest-services/index)
+- [Bing Spatial Data Services](/spatial-data-services/query-api/)
 - [Bing Maps Terms of Use](https://www.microsoft.com/maps/product)
 
 ## Migration Code Examples
@@ -187,7 +187,7 @@ map control by adding a script reference to the API:
 </script>
 ```
 
-See the [Getting Started documentation](https://docs.microsoft.com/bingmaps/v8-web-control/creating-and-hosting-map-controls/) for additional options around loading the Bing Maps map control.
+See the [Getting Started documentation](/v8-web-control/creating-and-hosting-map-controls/) for additional options around loading the Bing Maps map control.
 
 ### Loading the Map
 
@@ -405,9 +405,9 @@ navigation bar using these options.
 
 **Additional Resources:**
 
-- [Map Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/map-class)
-- [View Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/viewoptions-object)
-- [Map Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/mapoptions-object)
+- [Map Class](/v8-web-control/map-control-api/map-class)
+- [View Options](/v8-web-control/map-control-api/viewoptions-object)
+- [Map Options](/v8-web-control/map-control-api/mapoptions-object)
 
 ### Adding a Pushpin (Marker)
 
@@ -482,9 +482,9 @@ very similar way.
 
 **Additional Resources:**
 
-- [Pushpin Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/pushpin-class)
-- [Pushpin Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/pushpinoptions-object)
-- [Pushpin examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/#examples)
+- [Pushpin Class](/v8-web-control/map-control-api/pushpin-class)
+- [Pushpin Options](/v8-web-control/map-control-api/pushpinoptions-object)
+- [Pushpin examples](/v8-web-control/map-control-concepts/pushpins/#examples)
 - [Additional Pushpin examples](https://samples.bingmapsportal.com/?search=Pushpins)
 
 ### Creating a custom Pushpin
@@ -599,33 +599,33 @@ pushpin option. Here is a list of some other ways to create custom
 pushpins in Bing Maps with links to code examples.
 
 - [Change the color of the default
-     pushpin](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/changing-the-color-of-the-default-pushpin)
+     pushpin](/v8-web-control/map-control-concepts/pushpins/changing-the-color-of-the-default-pushpin)
 
 - [Use a URL to an SVG
-    image](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/custom-svg-file-pushpin-example)
+    image](/v8-web-control/map-control-concepts/pushpins/custom-svg-file-pushpin-example)
 
 - [Use an inline SVG
-    image](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/custom-inline-svg-pushpin-example)
+    image](/v8-web-control/map-control-concepts/pushpins/custom-inline-svg-pushpin-example)
 
 - [Create a Font based
-    pushpin](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/font-based-pushpins)
+    pushpin](/v8-web-control/map-control-concepts/pushpins/font-based-pushpins)
 
 - [Create a custom overlay for HTML
-    pushpins](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/custom-overlays/html-pushpin-overlay)
+    pushpins](/v8-web-control/map-control-concepts/custom-overlays/html-pushpin-overlay)
 
 - [Use a custom overlay to draw tens of thousands of data
-    points](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/custom-overlays/dynamic-canvas-overlay)
+    points](/v8-web-control/map-control-concepts/custom-overlays/dynamic-canvas-overlay)
 
 **Additional Resources:**
 
 - [Pushpin
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/pushpin-class)
+    Class](/v8-web-control/map-control-api/pushpin-class)
 
 - [Pushpin
-    Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/pushpinoptions-object)
+    Options](/v8-web-control/map-control-api/pushpinoptions-object)
 
 - [Pushpin
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/pushpins/#examples)
+    examples](/v8-web-control/map-control-concepts/pushpins/#examples)
 
 - [Additional Pushpin
     examples](https://samples.bingmapsportal.com/?search=Pushpins)
@@ -738,16 +738,16 @@ following image:
 **Additional Resources:**
 
 - [Polyline
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/polyline-class)
+    Class](/v8-web-control/map-control-api/polyline-class)
 
 - [Polyline
-    Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/polylineoptions-object)
+    Options](/v8-web-control/map-control-api/polylineoptions-object)
 
 - [Polyline
-    Examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/map-shapes-polylines-and-polygons/#examples)
+    Examples](/v8-web-control/map-control-concepts/map-shapes-polylines-and-polygons/#examples)
 
 - [Colors in Bing
-    Maps](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/colors)
+    Maps](/v8-web-control/map-control-concepts/colors)
 
 ### Create a Polygon
 
@@ -845,16 +845,16 @@ Running this code in a browser will display a map that looks like the following 
 **Additional Resources:**
 
 - [Polygon
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/polygon-class)
+    Class](/v8-web-control/map-control-api/polygon-class)
 
 - [Polygon
-    Options](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/polygonoptions-object)
+    Options](/v8-web-control/map-control-api/polygonoptions-object)
 
 - [Polygon
-    Examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/map-shapes-polylines-and-polygons/#examples)
+    Examples](/v8-web-control/map-control-concepts/map-shapes-polylines-and-polygons/#examples)
 
 - [Colors in Bing
-    Maps](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/colors)
+    Maps](/v8-web-control/map-control-concepts/colors)
 
 ### Geocoding an Address
 
@@ -938,13 +938,13 @@ implementation used to geocode an address in Bing maps:
 **Additional Resources:**
 
 - [Search
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/search-module/)
+    Module](/v8-web-control/modules/search-module/)
 
 - [SearchManager
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/search-module/searchmanager-class)
+    Class](/v8-web-control/modules/search-module/searchmanager-class)
 
 - [Search Module
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/search-module-examples/)
+    examples](/v8-web-control/map-control-concepts/search-module-examples/)
 
 ### Reverse Geocoding a Location
 
@@ -1020,13 +1020,13 @@ basic implementation used to reverse geocode a coordinate in Bing maps:
 **Additional Resources:**
 
 - [Search
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/search-module/)
+    Module](/v8-web-control/modules/search-module/)
 
 - [SearchManager
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/search-module/searchmanager-class)
+    Class](/v8-web-control/modules/search-module/searchmanager-class)
 
 - [Search Module
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/search-module-examples/)
+    examples](/v8-web-control/map-control-concepts/search-module-examples/)
 
 ### Calculate Directions
 
@@ -1087,7 +1087,7 @@ Running this code in a browser will display a map that looks like the following 
 **After: Bing Maps**
 
 Directions can be calculated in Bing Maps using the [Directions
-module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/directions-module/).
+module](/v8-web-control/modules/directions-module/).
 This is an easy-to-use module that allows you to import the directions
 functionality when needed. In addition to being able to render a route
 on the map it can also generate nicely styled instructions.
@@ -1143,13 +1143,13 @@ alternate routes to display using the directions request options.
 **Additional Resources:**
 
 - [Directions
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/directions-module/)
+    Module](/v8-web-control/modules/directions-module/)
 
 - [DirectionsManager
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/directions-module/directionsmanager-class)
+    Class](/v8-web-control/modules/directions-module/directionsmanager-class)
 
 - [Direction Module
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/directions-module-examples/)
+    examples](/v8-web-control/map-control-concepts/directions-module-examples/)
 
 ### Autosuggest
 
@@ -1305,11 +1305,11 @@ that looks like the following image:
 **Additional Resources:**
 
 - [Autosuggest
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/autosuggest-module/)
+    Module](/v8-web-control/modules/autosuggest-module/)
 - [AutosuggestManager
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/autosuggest-module/autosuggestmanager-class)
+    Class](/v8-web-control/modules/autosuggest-module/autosuggestmanager-class)
 - [Autosuggest
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/autosuggest-module-examples/)
+    examples](/v8-web-control/map-control-concepts/autosuggest-module-examples/)
 - [Additional Autosuggest
     examples](https://samples.bingmapsportal.com/?search=Autosuggest)
 
@@ -1398,9 +1398,9 @@ map will zoom out and stay centered over the pushpin.
 **Additional Resources:**
 
 - [Event
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/events-class)
+    Class](/v8-web-control/map-control-api/events-class)
 - [Events in Bing
-    Maps](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/event-examples/)
+    Maps](/v8-web-control/map-control-concepts/event-examples/)
 - [Interactive Event
     examples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#pushpinAllEvents+JS)
 
@@ -1509,11 +1509,11 @@ Coffee which are within 10 kilometers of the Redmond, WA.
 **Additional Resources:**
 
 - [Spatial Data Services
-    module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/spatial-data-service-module/)
+    module](/v8-web-control/modules/spatial-data-service-module/)
 - [Query API Manager
-    Class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/spatial-data-service-module/queryapimanager-class)
+    Class](/v8-web-control/modules/spatial-data-service-module/queryapimanager-class)
 - [Spatial Data Services
-    examples](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/spatial-data-services-module-examples/)
+    examples](/v8-web-control/map-control-concepts/spatial-data-services-module-examples/)
 - [Additional Spatial Data Services
     examples](https://samples.bingmapsportal.com/?search=Spatial%20Data%20Services)
 
@@ -1607,9 +1607,9 @@ following image:
 **Additional Resources:**
 
 - [GroundOverlay
-    class](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/groundoverlay-class)
+    class](/v8-web-control/map-control-api/groundoverlay-class)
 - [GroundOverlayOptions
-    object](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/groundoverlayoptions-object)
+    object](/v8-web-control/map-control-api/groundoverlayoptions-object)
 - [GroundOverlay
     example](https://www.bing.com/api/maps/mapcontrol/isdk?autoRedirect=false#simpleGroundOverlay+JS)
 - [Additional Ground Overlay
@@ -1662,11 +1662,11 @@ to render it at all.
 **Additional Resources:**
 
 - [GeoXml
-    module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/geoxml-module/)
+    module](/v8-web-control/modules/geoxml-module/)
 - [GeoXmlLayer
-    class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/geoxml-module/geoxmllayer-class)
+    class](/v8-web-control/modules/geoxml-module/geoxmllayer-class)
 - [GeoXmlLayerOptions
-    object](https://docs.microsoft.com/bingmaps/v8-web-control/modules/geoxml-module/geoxmllayeroptions-object)
+    object](/v8-web-control/modules/geoxml-module/geoxmllayeroptions-object)
 - [GeoXml
     examples](https://samples.bingmapsportal.com/?search=xml&sample=read-geospatial-xml-from-url)
 
@@ -1753,11 +1753,11 @@ following image:
 **Additional Resources:**
 
 - [Drawing Tools
-    module](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-api/groundoverlay-class)
+    module](/v8-web-control/map-control-api/groundoverlay-class)
 - [DrawingTools
-    class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/drawing-tools-module/drawingtools-class)
+    class](/v8-web-control/modules/drawing-tools-module/drawingtools-class)
 - [DrawingManager
-    class](https://docs.microsoft.com/bingmaps/v8-web-control/modules/drawing-tools-module/drawingmanager-class)
+    class](/v8-web-control/modules/drawing-tools-module/drawingmanager-class)
 - [Additional Drawing Tools
     examples](https://samples.bingmapsportal.com/?search=Drawing)
 
@@ -1794,7 +1794,7 @@ generate a session key right after the map loads and store it like this:
 Once you have a session key simply use this instead of your Bing Maps
 keys in your REST service requests. See the [Understanding Bing Maps
 Transactions
-documentation](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions)
+documentation](/getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions)
 for more details on **billable** and **non-billable** transactions.
 
 Here are a few tips to maximize your use of sessions:
@@ -1826,13 +1826,13 @@ with the Bing Maps control.
 If your application is storing data in a spatial database and have
 created a custom web service to return the data to the webpage, send the
 spatial data back as [Well Known
-Text](https://docs.microsoft.com/bingmaps/v8-web-control/modules/well-known-text-module).
+Text](/v8-web-control/modules/well-known-text-module).
 In SQL if you use the `STAsText` or the `ToString` methods on a `SqlGeometry`
 or `SqlGeography` object, it will return a Well Known Text string. Bing
 Maps has a Well Known Text module that can easily parse this for you.
 This would be a much better approach than creating custom data models
 for handling the spatial data. You can find documentation on this in the
-[Well Known Text Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/well-known-text-module) article.
+[Well Known Text Module](/v8-web-control/modules/well-known-text-module) article.
 Interactive code samples can be found at the Bing Maps
 [Dev Center](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#wktAddPoint+JS).
 
@@ -1855,13 +1855,13 @@ Spatial Data Services module. There are many benefits to doing this.
 Here are some useful resources:
 
 - [Spatial Data Services module
-    documentation](https://docs.microsoft.com/bingmaps/v8-web-control/modules/spatial-data-service-module/queryapimanager-class)
+    documentation](/v8-web-control/modules/spatial-data-service-module/queryapimanager-class)
 - [Spatial Data Services module interactive code
     samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk/sdspageresults#JS)
 - [Managing data sources through the Bing Maps
-    portal](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/)
+    portal](/getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/)
 - [Bing Spatial Data Services REST
-    API's](https://docs.microsoft.com/bingmaps/spatial-data-services/)
+    API's](/spatial-data-services/index)
 
 ### Determining a User's Location
 
@@ -2139,11 +2139,11 @@ equivalents.
 |  google.maps.PolygonOptions      |  Microsoft.Maps.PolygonOptions     |
 |  google.maps.Polyline            |  Microsoft.Maps.Polyline     |
 |  google.maps.PolylineOptions     |  Microsoft.Maps.PolylineOptions     |
-|  google.maps.Circle              |  Use the getRegularPolygon function in [Spatial Math Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/spatial-math-module/). |
+|  google.maps.Circle              |  Use the getRegularPolygon function in [Spatial Math Module](/v8-web-control/modules/spatial-math-module/). |
 |  google.maps.ImageMapType        | Microsoft.Maps.TileLayer     |
 |  google.maps.ImageMapTypeOptions | Microsoft.Maps.TileLayerOptions     |
-|  google.maps.GroundOverlay       |  See the [Topography Overlay](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/custom-overlays/topography-overlay)     |
-|  google.maps.KmlLayer            |  Microsoft.Maps.GeoXmlLayer via the [ module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/geoxml-module/)     |
+|  google.maps.GroundOverlay       |  See the [Topography Overlay](/v8-web-control/map-control-concepts/custom-overlays/topography-overlay)     |
+|  google.maps.KmlLayer            |  Microsoft.Maps.GeoXmlLayer via the [ module](/v8-web-control/modules/geoxml-module/)     |
 |  google.maps.OverlayView          | Microsoft.Maps.CustomOverlay     |
 
 ### Service Classes
@@ -2155,18 +2155,18 @@ modules that can be loaded. For geocoding you will want to use the
 Search module and for routing the Directions module.
 
 - Geocoding Functionality -\> [Search
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/search-module/)
+    Module](/v8-web-control/modules/search-module/)
 - Routing Functionality -\> [Directions
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/directions-module/)
+    Module](/v8-web-control/modules/directions-module/)
 - Traffic Information -\> [Traffic
-    Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/traffic-module/)
+    Module](/v8-web-control/modules/traffic-module/)
 
 |  Google Maps                     |  Bing Maps                                               |
 |  --------------------------------|----------------------------------------------------------|
 |  google.maps.Geocoder            | Microsoft.Maps.Search.SearchManager                      |
 |  google.maps.DirectionsService   | Microsoft.Maps.Directions.DirectionsManager              |
 |  google.maps.DirectionsRequest   | Microsoft.Maps.Directions.DirectionsRequestOptions <br> Microsoft.Maps.Directions.DirectionsRenderOptions |
-|  google.maps.ElevationService    | Bing Maps REST [Elevation Service](https://docs.microsoft.com/bingmaps/rest-services/elevations) |
+|  google.maps.ElevationService    | Bing Maps REST [Elevation Service](/rest-services/elevations/index) |
 |  google.maps.TravelMode          | Microsoft.Maps.Directions.RouteMode                      |
 |  google.maps.UnitSystem          | Microsoft.Maps.Directions.DistanceUnit                   |
 |  google.maps.TransitOptions      | Microsoft.Maps.Directions.DirectionsRequestOptions       |
@@ -2182,10 +2182,10 @@ Maps libraries.
 
  | Google Maps                | Bing Maps
  | ---------------------------| ----------------------------------------------------------------------------------------------------------------------------|
- | Autocomplete Library       | [Autosuggest Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/autosuggest-module/)                        |
- | Drawing Library            | [Drawing Tools Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/drawing-tools-module/drawingmanager-class)|
- | Geometry Library           | [Spatial Math Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/spatial-math-module)                       |
- | Visualization Library      | [Clustering Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/clustering-module/) <br> [Contour Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/contour-module) <br> [Data binning Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/data-binning-module) <br> [Heatmap Module](https://docs.microsoft.com/bingmaps/v8-web-control/modules/heat-map-module) |
+ | Autocomplete Library       | [Autosuggest Module](/v8-web-control/modules/autosuggest-module/)                        |
+ | Drawing Library            | [Drawing Tools Module](/v8-web-control/modules/drawing-tools-module/drawingmanager-class)|
+ | Geometry Library           | [Spatial Math Module](/v8-web-control/modules/spatial-math-module)                       |
+ | Visualization Library      | [Clustering Module](/v8-web-control/modules/clustering-module/) <br> [Contour Module](/v8-web-control/modules/contour-module) <br> [Data binning Module](/v8-web-control/modules/data-binning-module) <br> [Heatmap Module](/v8-web-control/modules/heat-map-module) |
 
 ## Next steps
 
@@ -2193,4 +2193,4 @@ Maps libraries.
 > [Map Control Concepts](https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-concepts/)
 
 > [!div class="nextstepaction"]
-> [Understanding Bing Maps Transactions](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions)
+> [Understanding Bing Maps Transactions](/getting-started/bing-maps-dev-center-help/understanding-bing-maps-transactions)

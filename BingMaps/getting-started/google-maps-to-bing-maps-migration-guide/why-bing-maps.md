@@ -75,10 +75,10 @@ tile layers. Modules allow users to load only the features and
 functionalities they need, when they need them, rather than having to
 load all features when the application loads. For a list of
 modules in Bing Maps, see 
-[modules](https://docs.microsoft.com/bingmaps/v8-web-control/modules/).
+[modules](/v8-web-control/modules/).
 For additional information about the modular framework in Bing
 Maps, see 
-[Modular Framework](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/modular-framework/).
+[Modular Framework](/v8-web-control/map-control-concepts/modular-framework/).
 
 ## Enterprise Level Service
 

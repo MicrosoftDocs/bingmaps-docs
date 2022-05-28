@@ -83,8 +83,8 @@ Follow these steps to migrate data from Google Fusion Tables to the Bing Spatial
 
 ## Next steps
 
-If you need information on reformating location data to match the required schema for the Bing [Spatial Data Services](https://docs.microsoft.com/bingmaps/spatial-data-services/)
-see [Load Data Source Data Schema](https://docs.microsoft.com/bingmaps/spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input).
+If you need information on reformating location data to match the required schema for the Bing [Spatial Data Services](/spatial-data-services/index)
+see [Load Data Source Data Schema](/spatial-data-services/data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input).
 
 > [!div class="nextstepaction"]
 > [Migrating Google Maps to Bing Maps](Google-Maps-to-Bing-Maps-Migration-Guide.md)
