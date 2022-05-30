@@ -1,6 +1,6 @@
 ---
 title: "Bing Maps Articles | Microsoft Docs"
-description: "Provides an in index of Bing Maps articles with a table that provides a description for various articles relating to Bing Maps."
+description: "Provides an index of Bing Maps articles with a table that provides a description for various articles relating to Bing Maps."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
