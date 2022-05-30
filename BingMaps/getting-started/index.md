@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Bing Maps | Microsoft Docs"
+description: "Describes how to get started with Bing Maps and provides a table for Bing Maps APIs that outlines a description for various APIs."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
