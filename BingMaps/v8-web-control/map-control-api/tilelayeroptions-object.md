@@ -1,5 +1,6 @@
 ---
 title: "TileLayerOptions Object | Microsoft Docs"
+description: "Describes the TileLayerOptions object and provides a table that outline the type and description for various objects."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

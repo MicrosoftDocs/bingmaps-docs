@@ -1,5 +1,6 @@
 ---
 title: "TileLayer Class | Microsoft Docs"
+description: "Describes the TileLayer class and provides the class's constructor, properties, methods, examples, and additional references."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Clustering Module Examples | Microsoft Docs"
+description: "Describes the Clustering module and provides a list of examples of the Clustering module and a list of additional references."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "IFrameable Configuration Map Example | Microsoft Docs"
+description: "Describes the Iframeable configuration map and provides an example with HTML and provides an example to try a map configuration yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

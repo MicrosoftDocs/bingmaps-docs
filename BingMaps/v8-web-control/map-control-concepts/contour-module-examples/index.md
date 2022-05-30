@@ -1,5 +1,6 @@
 ---
 title: "Contour Module Examples | Microsoft Docs"
+description: "Describes Contour module and provides the Basic Contour Layer and Contours from GeoJSON data examples and additional references."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

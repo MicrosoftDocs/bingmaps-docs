@@ -1,5 +1,6 @@
 ---
 title: "Simple Static Overlay | Microsoft Docs"
+description: "Describes the simple static overlay, provides sample code for the overlay, and outlines how to navigate the overlay."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

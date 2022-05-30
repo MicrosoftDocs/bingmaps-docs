@@ -1,5 +1,6 @@
 ---
 title: "Clusters with a List and Linking | Microsoft Docs"
+description: "Provides an example that shows how to create clusters with a list and linking in HTML and outlines what the example HTML is doing."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
