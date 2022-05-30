@@ -1,5 +1,6 @@
 ---
 title: "Custom Map Styles in Bing Maps | Microsoft Docs"
+description: "Describes custom map styles in Bing Maps and provides style objects, known limitations, and style samples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

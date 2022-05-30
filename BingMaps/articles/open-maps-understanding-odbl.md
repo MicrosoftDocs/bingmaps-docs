@@ -1,5 +1,6 @@
 ---
 title: "Open Maps understanding ODbL | Microsoft Docs"
+description: "Describes how to understand ODbL in Open Maps within Bing Maps and outlines what ODbL is, its requirements, and how to share ODbL data."
 ms.custom: ""
 ms.date: ""
 ms.reviewer: ""

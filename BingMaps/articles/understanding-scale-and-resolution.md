@@ -1,5 +1,6 @@
 ---
 title: "Understanding Scale and Resolution | Microsoft Docs"
+description: "Describes how to understand scale and resolution and outlines how to calculate resolution and scale."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

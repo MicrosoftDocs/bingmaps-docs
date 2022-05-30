@@ -1,5 +1,6 @@
 ---
 title: "Getting Data Source Information | Microsoft Docs"
+description: "Describes process of getting data source information, outlines transaction accounting, and provides a reference for understanding Bing Maps transactions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

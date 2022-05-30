@@ -1,5 +1,6 @@
 ---
 title: "Getting Streetside Tiles from Imagery Metadata | Microsoft Docs"
+description: "Describes how to get streetside tiles from imagery metadata and provides the URL request, the JSON response, and code samples."
 ms.custom: ""
 ms.date: "08/29/2018"
 ms.reviewer: ""

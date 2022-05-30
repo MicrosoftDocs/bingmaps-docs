@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Coverage | Microsoft Docs"
+description: "Provides an index of Bing Maps coverage through a list of links to up-to-date coverage information for Bing Maps."
 ms.custom: ""
 ms.date: "12/12/2018"
 ms.reviewer: ""
