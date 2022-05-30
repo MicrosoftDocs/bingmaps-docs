@@ -566,7 +566,7 @@ Example:
 Example: 
 > `userMapView=47.669424,-122.386053,47.664083,-122.378448`
 
-![Screenshot of a map of Seattle, Washington with a highlighter perimeter of the 47.669424, -122.386053 coordinates.](media/AutoSuggestBoundingBoxSmall.PNG)
+![Screenshot of a map of Seattle, Washington with a highlighted perimeter of the 47.669424, -122.386053 coordinates.](media/AutoSuggestBoundingBoxSmall.PNG)
 
 ## HTTP Status Codes
 
