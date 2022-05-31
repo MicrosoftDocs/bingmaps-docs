@@ -1,5 +1,6 @@
 ---
 title: "Data Binning Module Examples | Microsoft Docs"
+description: Describes the Data Binning module, which handles the data binning process, and provides lists of code examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

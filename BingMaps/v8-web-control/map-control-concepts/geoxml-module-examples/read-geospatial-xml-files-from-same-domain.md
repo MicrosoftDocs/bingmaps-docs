@@ -1,5 +1,6 @@
 ---
 title: "Read Geospatial XML Files from Same Domain | Microsoft Docs"
+description: Provides a code example that shows how to load a geospatial XML file that is hosted on the same domain as the application into a GeoXmlLayer.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -54,7 +55,7 @@ This sample shows how to load a geospatial XML file that is hosted on the same d
 
 Running this sample (when you have the sample GeoRSS file) will load a map that looks like this.
  
-![BMV8_GeoRssSample](../../media/bmv8-georsssample.PNG)
+![Screenshot of a Bing Map that shows a polygon shape on top of the Coldwater Lake and hiking trail icons on the map.](../../media/bmv8-georsssample.PNG)
  
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Same%20Domain)
 

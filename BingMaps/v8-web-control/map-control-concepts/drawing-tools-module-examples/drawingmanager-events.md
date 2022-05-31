@@ -1,5 +1,6 @@
 ---
 title: "DrawingManager Events | Microsoft Docs"
+description: Provides a code example that shows how to add events to the drawing manager that is created by the drawing tools module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -74,4 +75,4 @@ The example adds a bunch of events to the drawing manager that is created by the
 
 Running this code in a browser you will see the different events highlighted in green as you draw a shape on the map.
 
-![BMV8_DrawingToolsEventsExample](../../media/bmv8-drawingtoolseventsexample.png)
+![Screenshot of a Bing map showing a polygon shape overlaid on top of Redmond, Washington, and a list of events below the map.](../../media/bmv8-drawingtoolseventsexample.png)

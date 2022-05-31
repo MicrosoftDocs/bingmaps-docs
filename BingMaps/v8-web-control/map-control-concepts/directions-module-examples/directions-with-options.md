@@ -1,5 +1,6 @@
 ---
 title: "Directions with Options | Microsoft Docs"
+description: Provides a code example that shows how to use render options to modify how a route is calculated and displayed on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -72,9 +73,9 @@ When calculating directions request options can be used to modify how the route 
 </html>
 ```
 
-Running this code will display a map with a route from London, UK to Madrid, Spain, going through Paris France which looks like this.
+Running this code will display a map with a route from London, UK to Madrid, Spain, going through Paris, France which looks like this.
 
-![BMV8_DirectionsWithOptions](../../media/bmv8-directionswithoptions.PNG)
+![Screenshot of a Bing map showing a route from London, UK to Madrid, Spain with a stop in Paris, France.](../../media/bmv8-directionswithoptions.PNG)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Directions_WithOptions)
 

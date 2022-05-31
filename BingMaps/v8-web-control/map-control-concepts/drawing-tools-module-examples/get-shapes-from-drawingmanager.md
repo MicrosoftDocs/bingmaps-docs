@@ -1,5 +1,6 @@
 ---
 title: "Get Shapes from DrawingManager | Microsoft Docs"
+description: Provides a code example that shows how to get all shapes that are in the drawing manager at any time.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
