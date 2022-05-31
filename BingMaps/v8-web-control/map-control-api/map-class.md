@@ -1,5 +1,6 @@
 ---
 title: "Map Class | Microsoft Docs"
+description: "This article describes properties, static methods, events, and methods of the Map Class."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "LayerCollection Class | Microsoft Docs"
+description: "This article describes properties and methods of the LayerCollection Class; this class extends the Array class and can be iterated over just like an array."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

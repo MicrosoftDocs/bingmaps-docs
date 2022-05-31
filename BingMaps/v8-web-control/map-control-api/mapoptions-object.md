@@ -1,5 +1,6 @@
 ---
 title: "MapOptions Object | Microsoft Docs"
+description: "This article describes map options that can be used to the customize the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

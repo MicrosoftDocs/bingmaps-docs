@@ -1,5 +1,6 @@
 ---
 title: "Color Class | Microsoft Docs"
+description: "This article describes the Color Class and provides its properties, methods, static methods."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

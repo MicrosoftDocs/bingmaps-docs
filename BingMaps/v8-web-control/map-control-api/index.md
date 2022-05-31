@@ -1,5 +1,6 @@
 ---
 title: "Map Control API Reference | Microsoft Docs"
+description: "This article describes static properties, static methods, and API components related to Map Control API Reference."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

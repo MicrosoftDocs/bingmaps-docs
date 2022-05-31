@@ -1,5 +1,6 @@
 ---
 title: "LabelOverlay Enumeration | Microsoft Docs"
+description: "The LabelOverlay Enumeration defines how the map labels are displayed."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

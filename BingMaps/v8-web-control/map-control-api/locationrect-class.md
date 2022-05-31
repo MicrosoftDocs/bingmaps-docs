@@ -1,5 +1,6 @@
 ---
 title: "LocationRect Class | Microsoft Docs"
+description: "This article describes properties, static methods, and methods of the LocationRect Class, which consists of a set of coordinates that are used to represent rectangular area on the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

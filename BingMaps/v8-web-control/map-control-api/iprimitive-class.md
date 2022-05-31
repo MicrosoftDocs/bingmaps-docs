@@ -1,5 +1,6 @@
 ---
 title: "IPrimitive Class | Microsoft Docs"
+description: "This article describes the IPrimitive Class."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

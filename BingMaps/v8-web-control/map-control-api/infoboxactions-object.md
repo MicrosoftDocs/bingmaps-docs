@@ -1,5 +1,6 @@
 ---
 title: "InfoboxActions Object | Microsoft Docs"
+description: "The article lists infobox action properties that can be used to create clickable links in infoboxes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

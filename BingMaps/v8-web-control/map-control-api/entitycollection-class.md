@@ -1,5 +1,6 @@
 ---
 title: "EntityCollection Class | Microsoft Docs"
+description: "This article provides methods and events for the EntityCollection Class, which is deprecated in Bing Maps V8 but can still be used to provide partial backwards compatibility with V7 apps for simple use cases."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

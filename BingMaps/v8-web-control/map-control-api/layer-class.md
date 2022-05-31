@@ -1,5 +1,6 @@
 ---
 title: "Layer Class | Microsoft Docs"
+description: "This article describes properties, methods, and events for the Layer Class, which organizes groups of data by storing them in separate layers on the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

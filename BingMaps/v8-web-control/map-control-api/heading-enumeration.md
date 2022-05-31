@@ -1,5 +1,6 @@
 ---
 title: "Heading Enumeration | Microsoft Docs"
+description: "This article describes the standard compass headings for Heading Enumeration."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Infobox Class | Microsoft Docs"
+description: "This article describes properties and events of the Infobox Class."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

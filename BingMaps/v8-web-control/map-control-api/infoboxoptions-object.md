@@ -1,5 +1,6 @@
 ---
 title: "InfoboxOptions Object | Microsoft Docs"
+description: "This article provides infobox option properties can be used to create customized infoboxes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

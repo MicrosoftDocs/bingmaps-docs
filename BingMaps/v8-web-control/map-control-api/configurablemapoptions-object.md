@@ -1,5 +1,6 @@
 ---
 title: "ConfigurableMapOptions Object | Microsoft Docs"
+description: "This article describes properties of the ConfigurableMapOptions Object; the root object which defines a configurable map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
