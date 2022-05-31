@@ -1,6 +1,6 @@
 ---
 title: "ConfigurableMapModule Object | Microsoft Docs"
-description: "This article describes properties of the ConfigurableMapModule Object, which defines what module should be loaded and the data sets that should be loaded with it.
+description: "This article describes properties of the ConfigurableMapModule Object, which defines what module should be loaded and the data sets that should be loaded with it."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
