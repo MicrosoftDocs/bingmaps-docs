@@ -1,6 +1,6 @@
 ---
 title: "ModuleOptions Object | Microsoft Docs"
-description: "This article lists three module options by name, type, and description."
+description: "For the ModuleOptions Object, this article lists three module options by name, type, and description."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
