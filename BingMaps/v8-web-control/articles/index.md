@@ -1,5 +1,6 @@
 ---
 title: "Articles | Microsoft Docs"
+description: "This article links topics that cover more detailed discussions and advanced techniques for working with the Bing Maps V8 Map Control."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

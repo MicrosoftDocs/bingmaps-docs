@@ -1,5 +1,6 @@
 ---
 title: "Cross Platform Bing Maps V8 apps | Microsoft Docs"
+description: "This article describes cross platform Bing Maps V8 apps, and provides both a sample mobile HTML page code and guidelines on using Bing Maps V8 in WinForm and WPF apps."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

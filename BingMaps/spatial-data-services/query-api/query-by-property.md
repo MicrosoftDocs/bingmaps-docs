@@ -1,5 +1,6 @@
 ---
 title: "Query by Property | Microsoft Docs"
+description: "This article includes a URL to search a data source for one or more entities by specifying property values. Supported HTTP methods, URL templates, template parameters, and examples are provided."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

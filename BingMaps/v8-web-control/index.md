@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps V8 Web Control | Microsoft Docs"
+description: "This topic provides links to articles, modules, and other resources on using Bing Maps as well as code optimization in V8."
 ms.custom: ""
 ms.date: "11/05/2021"
 ms.reviewer: ""

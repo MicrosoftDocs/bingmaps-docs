@@ -1,5 +1,6 @@
 ---
 title: "Spatial Data Services Release History | Microsoft Docs"
+description: "This article provides a release history for Bing Spatial Data Services starting from January, 2013."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

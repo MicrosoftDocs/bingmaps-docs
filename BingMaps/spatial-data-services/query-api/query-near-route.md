@@ -1,5 +1,6 @@
 ---
 title: "Query Near a Route | Microsoft Docs"
+description: "This article includes a URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. Supported HTTP methods, URL templates, template parameters, and examples are provided."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

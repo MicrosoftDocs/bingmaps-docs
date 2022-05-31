@@ -1,5 +1,6 @@
 ---
 title: "Query by ID | Microsoft Docs"
+description: "This article shares a URL to search a data source for one or more entities by entity ID. Supported HTTP methods, URL templates, template parameters, and examples are provided."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

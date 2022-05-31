@@ -1,5 +1,6 @@
 ---
 title: "Query Response Description | Microsoft Docs"
+description: "This article describes query responses and shows sample responses for a Query API."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Getting Started: Creating and Hosting a Map Control | Microsoft Docs"
+description: "The sections in this article describe the steps you need to take to start using the Bing Maps V8 SDK."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
