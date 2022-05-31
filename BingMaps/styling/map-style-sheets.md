@@ -1,5 +1,5 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
+title: "Map Style Sheets (Microsoft Docs)"
 description: "This article describes map style sheets and provides two formats in which to represent them."
 ms.custom: ""
 ms.date: "05/26/2020"

@@ -1,6 +1,7 @@
 ---
 title: "Query by Area | Microsoft Docs"
-ms.custom: "This article provides URLs to search a data source for entity types that are within a specified area."
+description: "This article provides URLs to search a data source for entity types that are within a specified area."
+ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
 ms.suite: ""

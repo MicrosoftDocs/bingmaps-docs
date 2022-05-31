@@ -49,7 +49,7 @@ queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=
 > [!NOTE]
 >  Parameter names and values are not case-sensitive except for the queryKey parameter value.  
   
-|Parameter|Description|Values|  
+| | Parameter |Description |Values|  
 |---------------|-----------------|------------|  
 |accessId|**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> **Example**: 20181f26d9e94c81acdf9496133d4f23|  
 |dataSourceName|**Required** The name of the data source that you want to search.|A string that identifies the data source.<br /><br /> **Example**: FourthCoffeeSample|  
