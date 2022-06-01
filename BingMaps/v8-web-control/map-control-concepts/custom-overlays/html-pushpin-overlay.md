@@ -1,6 +1,6 @@
 ---
 title: "HTML Pushpin Overlay | Microsoft Docs"
-description: "Describes the HTML pushpin overlay and provides a sample of the overlay's code and a link that takes you to a more in-depth sample of the overlay."
+description: "Describes the HTML pushpin overlay and provides a sample of the overlay's code and a link that takes you to a more in-depth sample."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
