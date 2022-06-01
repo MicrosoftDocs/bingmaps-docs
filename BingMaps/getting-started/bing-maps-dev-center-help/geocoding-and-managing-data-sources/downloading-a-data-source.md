@@ -1,6 +1,6 @@
 ---
 title: "Downloading a Data Source | Microsoft Docs"
-description: "Describes process of downloading a data source, outlines transaction accounting, and provides a reference for understanding Bing Maps transactions."
+description: "Describes the process of downloading a data source, outlines transaction accounting, and provides a reference for understanding Bing Maps transactions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

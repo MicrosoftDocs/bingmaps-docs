@@ -1,6 +1,6 @@
 ---
 title: "North America Transit Coverage | Microsoft Docs"
-description: "Describes Bing Maps API transit information for various countries in North America including Canada, Mexico, and the United States."
+description: "Describes Bing Maps API transit information for various countries in North America and Central America including Canada, Mexico, and the United States."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
