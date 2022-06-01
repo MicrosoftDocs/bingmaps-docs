@@ -56,14 +56,14 @@ In both of these scenarios, add the following content URI's and set WinRT access
 
 ## Native UWP Apps via Apache Cordova
 
-To safeelist these domains in a native Windows 10, open the **config.xml** file in your Cordova project and near top of the file you should see "&lt;access origin="\*" /&gt;" after this line add the following two lines:
+To safelist these domains in a native Windows 10, open the **config.xml** file in your Cordova project and near top of the file you should see "&lt;access origin="\*" /&gt;" after this line add the following two lines:
 
 ```xml
 <access origin="*.bing.com" subdomains="true" />
 <access origin="*.virtualearth.net" subdomains="true" />
 ```
 
-If you project doesn’t work after safelisting these URLs ensure that the version of Windows that your app targets is 10. There is a preference property in the **config.xml** file that specifies the target version of Windows. Make sure it is set to 10.0 like this:
+If your project doesn’t work after safelisting these URLs, ensure that the version of Windows that your app targets is 10. There is a preference property in the **config.xml** file that specifies the target version of Windows. Make sure it is set to 10.0 like this:
 
 ```xml
 <preference name="windows-target-version" value="10.0" />

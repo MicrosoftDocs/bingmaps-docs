@@ -1,6 +1,6 @@
 ---
 title: "Map Control Branches | Microsoft Docs"
-description: "This article describes the two branches of the Bing Maps V8 SDK that can be accessed, as well as a URL can be used to load the experimental branch."
+description: "This article describes the two branches of the Bing Maps V8 SDK that can be accessed, as well as a URL that can be used to load the experimental branch."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
