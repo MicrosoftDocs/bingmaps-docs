@@ -1,5 +1,5 @@
 ---
-title: "Local Insights (Microsoft Docs)"
+title: "Local Insights Data (Microsoft Docs)"
 description: "This article outlines Local Insights data, providing LocalInsightsResponse field descriptions, an origin field example, a Business Category type resource, and JSON example."
 ms.custom: ""
 ms.date: "12/12/2018"
