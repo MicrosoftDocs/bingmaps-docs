@@ -1,6 +1,6 @@
 ---
 title: "IPrimitive Class | Microsoft Docs"
-description: "This article describes the IPrimitive Class."
+description: "This article describes the IPrimitive class, from which shapes Pushpins, Polylines and Polygons derive."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
