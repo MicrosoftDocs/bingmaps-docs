@@ -36,14 +36,14 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Value of <code>optimize</code></th>
-<th style="text-align: center;">Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</th>
+<th valign="text-align: center;">Value of <code>optimize</code></th>
+<th valign="text-align: center;">Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>distance</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
+<td valign="text-align: center;"><code>distance</code></td>
+<td valign="text-align: center;">Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
@@ -109,9 +109,9 @@ The five waypoints from the above example are in the table below:
 <td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="odd">
-<span="text-align: center;"><code>wp.4</code></span>
-<span="text-align: center;">Marvin's Garden</span>
-<span="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</span>
+<td style="text-align: center;"><code>wp.4</code></td>
+<td style="text-align: center;">Marvin's Garden</td>
+<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 </tbody>
 </table>
