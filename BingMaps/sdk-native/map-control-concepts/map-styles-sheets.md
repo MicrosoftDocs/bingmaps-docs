@@ -33,7 +33,8 @@ Available options are specified in [MapStyleSheets](../map-control-api/MapStyleS
 You can create your own **Map Style Sheet** by writing custom JSON that overrides the default settings.
 Usually a default base map style is combined with custom JSON to change the appearance of the map.
 
-The style sheet JSON API is described [here](/bingmaps/styling/map-style-sheet-entries).
+The style sheet JSON API is described in [Map Style Sheet Entries](/bingmaps/styling/map-style-sheet-entries).
+
 The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
 
 ## Changing the appearance of the map
