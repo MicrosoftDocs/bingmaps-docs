@@ -1,5 +1,6 @@
 ---
 title: "JSON Data Contracts | Microsoft Docs"
+description: "This article lists JSON data contracts that include classes for all Bing Maps REST Services."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

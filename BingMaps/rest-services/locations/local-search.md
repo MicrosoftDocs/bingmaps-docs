@@ -1,5 +1,6 @@
 ---
 title: "Local Search | Microsoft Docs"
+description: "This article provides API templates, parameters, and examples for Bing Maps Local Search API, which returns a list of business entities centered around a location or a geographic region."
 ms.custom: ""
 ms.date: "12/10/2018"
 ms.reviewer: ""

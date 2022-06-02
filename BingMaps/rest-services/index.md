@@ -1,5 +1,6 @@
 ---
-title: "Bing Maps REST Services | Microsoft Docs"
+title: "Bing™ Maps REST Services | Microsoft Docs"
+description: "This article describes the Bing™ Maps REST Services Application Programming Interface (API) and lists resources for using Bing™ Maps REST Services."
 ms.custom: ""
 ms.date: 11/05/2021
 ms.reviewer: ""
@@ -25,7 +26,7 @@ If you plan to use the REST services from .NET the Bing Maps team has released a
   
 ## In This Section  
   
-|||  
+|Resource |Description |  
 |-|-|  
 |[Getting Started](getting-started-with-the-bing-maps-rest-services.md)|Gets you started with the Bing Maps REST Services.|
 |[Getting Traffic Incident Data](getting-traffic-incident-data.md)|Shows how to get traffic incident data by using the [Routes](routes/index.md) and the [Traffic](traffic/index.md).|

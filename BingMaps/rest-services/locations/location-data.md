@@ -1,5 +1,6 @@
 ---
 title: "Location Data | Microsoft Docs"
+description: "This article lists top-level fields in the Locations resource, along with geocode point fields, and examples."
 ms.custom: ""
 ms.date: "05/30/2019"
 ms.reviewer: ""
