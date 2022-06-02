@@ -1,5 +1,6 @@
 ---
 title: "Calculate a Route | Microsoft Docs"
+description: "This article describes how to calculate a route, providing URL templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "08/20/2019"
 ms.reviewer: ""

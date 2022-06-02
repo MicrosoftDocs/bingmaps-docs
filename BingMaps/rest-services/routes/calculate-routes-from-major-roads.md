@@ -1,5 +1,6 @@
 ---
 title: "Calculate Routes from Major Roads | Microsoft Docs"
+description: "This article describes how to calculate a routes from major roads, providing URL templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

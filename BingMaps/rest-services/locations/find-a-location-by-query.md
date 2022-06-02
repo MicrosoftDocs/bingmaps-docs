@@ -1,6 +1,6 @@
 ---
 title: "Find a Location by Query | Microsoft Docs"
-description: "This article provides URL templates for finding a location by a query string, along with API parameters, and examples."
+description: "This article provides URL templates for finding a location by query, along with API parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

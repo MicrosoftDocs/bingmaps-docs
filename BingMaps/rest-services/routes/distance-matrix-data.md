@@ -1,5 +1,6 @@
 ---
 title: "Distance Matrix Data | Microsoft Docs"
+description: "This article provides tables that give descriptions of the DistanceMatrix and DistanceMatrixAsyncStatus resource fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "REST Release History | Microsoft Docs"
+description: "This article shares a release history for the Bing Maps REST Services starting with January, 2014."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -17,7 +18,7 @@ ms.service: "bing-maps"
 
 The following is a release history for the Bing Maps REST Services starting with January, 2014.  
   
-|Date and API|Release notes|  
+|Date and API|Release Notes|  
 |------------------|-------------------|  
 |April 15, 2014<br /><br /> Get Road Shield Images|New API that returns a road shield image when you provide road request parameter values from a [Routes](../rest-services/routes/index.md) response.|  
 |April 15, 2014<br /><br /> [Calculate a Route](../rest-services/routes/calculate-a-route.md)|<ul><li>A routeAttributes parameter is added. This takes one or more of the following values:<br /><br /> <ul><li>`excludeItinerary`: Specifies to not return itinerary items in the response.</li><li>`routePath`: Specifies to return a set of coordinates (latitude/longitude) that define the route. This route attribute gives the same result as setting routePathOutput=Points in the request and is now the recommended way to get route path coordinates (see note below).</li></ul></li><li>A mfa (metadata for alternate routes) is added. When set to 1 (true), detailed route instructions (itinerary items) are not included in the response for alternate routes.</li><li>Route sub-leg fields are added to provide summary information for the route leg segments between start and end waypoints and any intermediate via-waypoints</li></ul>|  

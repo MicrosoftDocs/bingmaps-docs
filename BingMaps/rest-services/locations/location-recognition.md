@@ -1,5 +1,6 @@
 ---
 title: "Location Recognition | Microsoft Docs"
+description: "This article provides URL templates, API parameters, and examples for the Location Recognition API, which returns a list of entities ranked by their proximity to that location."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""

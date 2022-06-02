@@ -1,5 +1,6 @@
 ---
 title: "Isochrone Data | Microsoft Docs"
+description: "This article outlines Isochrone data, listing descriptions of the IsochroneResponse resource fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Local Insights | Microsoft Docs"
+description: "This article outlines the Bing Maps Local Insights API, which returns a list of local entities within the specified maximum driving time or distance traveled from a specified point on Earth. It provides API templates, parameters, and examples."
 ms.custom: ""
 ms.date: "12/12/2018"
 ms.reviewer: ""
