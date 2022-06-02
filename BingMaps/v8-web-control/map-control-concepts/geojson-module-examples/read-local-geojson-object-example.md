@@ -1,6 +1,6 @@
 ---
 title: "Read Local GeoJSON Object Example | Microsoft Docs"
-description: Provides a code example that shows how to parse a locally defined GeoJSON object into a Bing Maps shape using the GeoJSON module.
+description: Provides a code example that shows how to parse a locally defined GeoJSON object into a map shape using the GeoJSON module, then adds it to the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

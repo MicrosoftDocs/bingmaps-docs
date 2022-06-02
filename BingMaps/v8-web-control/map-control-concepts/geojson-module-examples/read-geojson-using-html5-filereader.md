@@ -1,6 +1,6 @@
 ---
 title: "Read GeoJSON using HTML5 FileReader | Microsoft Docs"
-description: Provides a code example that shows how to enable drag and drop a local GeoJSON file onto a map using the FileReader and Drag & Drop HTML5 APIs.
+description: Provides a code example that shows how to enable drag and drop on a local GeoJSON file using the FileReader and Drag & Drop APIs available in HTML5.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
