@@ -1,5 +1,6 @@
 ---
-title: "Elevations API | Microsoft Docs"
+title: "Bing Maps Elevations API | Microsoft Docs"
+description: "Use the Bing Maps Elevations API to get elevation information for a set of locations, polyline, or area on the Earth. 
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"
@@ -9,7 +10,7 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Elevations API
 
-Use the Elevations API to get elevation information for a set of locations, polyline or area on the Earth.  
+Use the Elevations API to get elevation information for a set of locations, polyline, or area on the Earth.  
   
 ## In this section
   

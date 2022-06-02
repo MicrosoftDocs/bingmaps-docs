@@ -1,6 +1,7 @@
 ---
 # required metadata
 title: "Shop Type Identifiers | Microsoft Docs"
+description: "This article provides a list of Shop Type identifiers by type ID and description."
 author: "v-chrfr"
 ms.author: "v-chrfr"
 ms.date: "12/10/2018"

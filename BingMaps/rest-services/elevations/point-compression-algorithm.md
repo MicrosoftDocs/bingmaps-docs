@@ -1,5 +1,6 @@
 ---
 title: "Point Compression Algorithm | Microsoft Docs"
+description: "This article provides step-by-step instructions that describe the point compression algorithm, complete with an example."
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"

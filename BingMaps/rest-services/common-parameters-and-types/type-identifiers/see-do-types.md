@@ -1,6 +1,7 @@
 ---
 # required metadata
 title: "SeeDo Identifiers | Microsoft Docs"
+description: "This article provides a list of SeeDo identifiers by type ID and description."
 author: "v-chrfr"
 ms.author: "v-chrfr"
 ms.date: "12/10/2018"

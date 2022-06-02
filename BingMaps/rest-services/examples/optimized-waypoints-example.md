@@ -1,5 +1,6 @@
 ---
 title: "Find an Optimized Route with Multiple Waypoints | Microsoft Docs"
+description: "The example in this article shows how to use the Routes API to optimize a driving route with three or more waypoints (up to 25). Five waypoints from the example are shown in a table."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

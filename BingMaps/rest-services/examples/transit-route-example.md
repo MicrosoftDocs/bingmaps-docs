@@ -1,5 +1,6 @@
 ---
 title: "Transit Route Example | Microsoft Docs"
+description: "The example in this article shows how to request a transit route between the Golden Gate Bridge and Fisherman’s Wharf in San Francisco for 3 PM on the current day. Responses are shown for both XML and JSON formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
-title: "Directly accessing the Bing Maps tiles | Microsoft Docs"
+title: "Directly Accessing the Bing Maps Tiles | Microsoft Docs"
+description: "This article outlines direct access the Bing Map tiles and how to add Bing Maps as a tile layer in a non-Bing Maps control."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,7 +15,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Directly accessing the Bing Maps tiles
+# Directly Accessing the Bing Maps Tiles
 
 Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](https://www.microsoft.com/maps/product/terms.html).
 

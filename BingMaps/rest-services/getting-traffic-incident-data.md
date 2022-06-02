@@ -1,5 +1,6 @@
 ---
 title: "Getting Traffic Incident Data | Microsoft Docs"
+description: "This article outlines how get traffic incident data, both along a route and within a geographical area."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -24,7 +25,7 @@ You can get traffic incident information along a route using the [Routes](routes
   
  For traffic coverage by country, see [Bing Maps Geographic Coverage](../coverage/geographic-coverage.md).  
   
-## Traffic incident information along a route (Routes API)
+## Traffic Incident Information Along a Route (Routes API)
 
 Each route segment (itinerary item) returned by the Routes API may include a set of traffic location codes and a set of warnings that specify traffic incident information along that part of the route. The warnings include a description of the incident, the severity, and a warning type, such as Accident or BlockedRoad. To see a list of the warning types, see [Warning Types](routes/warning-types.md).  
   
@@ -147,7 +148,7 @@ The following is an example of an itinerary item that contains both warnings and
 }  
 ```  
   
-## Traffic incident information within a geographical area (Traffic API)
+## Traffic Incident Information within a Geographical Area (Traffic API)
 
 The [Traffic API](traffic/index.md) returns a list of traffic incidents in a geographical area and provides incident details and traffic location codes. Traffic incident details include information such as the incident description, severity, location, road closures, type of incident, and time of incident. See [Traffic Incident Data](traffic/traffic-incident-data.md) for a list of the incident details that may be returned. Traffic incidents reported by the Traffic API include common traffic problems, such as accidents and disabled vehicles, as well as other potential causes of traffic, such as sports events.  
   

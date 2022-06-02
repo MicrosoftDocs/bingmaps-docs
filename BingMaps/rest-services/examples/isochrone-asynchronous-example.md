@@ -1,5 +1,6 @@
 ---
 title: "Isochrone Asynchronous Example | Microsoft Docs"
+description: "This example in this article shows how to request an isochrone asynchronously. Results are shown for both JSON and XML response formats.""
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

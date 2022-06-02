@@ -1,5 +1,6 @@
 ---
 title: "Snap to Road Example | Microsoft Docs"
+description: "The example in this article shows how to snap points to the road. Responses are shown for both XML and JSON formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

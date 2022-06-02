@@ -1,5 +1,6 @@
 ---
 title: "Get Elevations | Microsoft Docs"
+description: "This article provides URLs that let you get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth." 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -15,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Get Elevations
 
-Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path or area on the Earth.
+Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth.
 
 __Unit of elevation__: Meters.
 

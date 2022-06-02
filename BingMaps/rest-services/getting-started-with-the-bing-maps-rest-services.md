@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with the Bing Maps REST Services | Microsoft Docs"
+description: "This article describes the Bing Maps REST Services Application Programming Interface (API) and provides a table that lists the Bing Maps REST Services and the common tasks they perform."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -37,7 +38,7 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
 ### Additional Topics  
 
 > [!NOTE]
->  Bing Maps API works ONLY from requests using the standard HTTP ports: 80 (http) or 443 (https).
+> Bing Maps API works ONLY from requests using the standard HTTP ports: 80 (http) or 443 (https).
 
  The following topics show examples of how to use the Bing Maps REST Services with other Bing Maps APIs or provide related information.  
   
