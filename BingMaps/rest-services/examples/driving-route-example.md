@@ -1,6 +1,6 @@
 ---
 title: "Driving Route Example | Microsoft Docs"
-description: "The article provides a driving route example and shows how to request a driving route between two locations that minimizes the use of toll roads. Responses are shown for both XML and JSON formats."
+description: "The article provides a driving route example and shows how to request a driving route between two locations that minimizes the use of toll roads. Responses are shown for both XML and JSON."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

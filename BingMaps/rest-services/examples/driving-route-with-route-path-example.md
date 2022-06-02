@@ -1,6 +1,6 @@
 ---
 title: "Driving Route with Route Path Example | Microsoft Docs"
-description: "This example returns a driving route from the Minneapolis, Minnesota to St. Paul, Minnesota. Results are shown for both JSON and XML response formats."
+description: "This example returns a driving route from Minneapolis, Minnesota to St. Paul, Minnesota. Results are shown for both JSON and XML response formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Driving Route with Route Path Example
 
-This example returns a driving route from the Minneapolis, Minnesota to St. Paul, Minnesota. The route is optimized for distance and requests point values for the route’s path. Results are shown for both JSON and XML response formats.  
+This example returns a driving route from Minneapolis, Minnesota to St. Paul, Minnesota. The route is optimized for distance and requests point values for the route’s path. Results are shown for both JSON and XML response formats.  
   
 ```url
 http://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=Minneapolis,MN&wp.1=St%20Paul,MN&optmz=distance&routeAttributes=routePath&key={BingMapsKey}  
