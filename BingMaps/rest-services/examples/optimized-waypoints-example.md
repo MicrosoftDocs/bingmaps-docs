@@ -36,8 +36,8 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Value of <code>optimize</code></th>
-<th style="text-align: center;">Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</th>
+<th span="text-align: center;">Value of <code>optimize</code></span>
+<th span="text-align: center;">Waypoint Optimization Description (<code>optimizeWaypoints=true</code>)</span>
 </tr>
 </thead>
 <tbody>

@@ -35,14 +35,17 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2
 
 The following step-by-step instructions describe the point compression algorithm complete with an example. A test URL that you can use with a small number of points to test your algorithm implementation is described in [Testing Your Algorithm Implementation](#testing-your-algorithm-implementation), and a [JavaScript Implementation](#javascript-implementation) is provided.  
   
-1.  Start with a set of latitude and longitude values.  
+1.  Start with a set of latitude and longitude values. 
+
+ 
     |Lat | Lon|
     |-|-|
-     | 35.894309002906084 | -110.72522000409663 |
-     | 35.893930979073048 | -110.72577999904752 |
-     | 35.893744984641671 | -110.72606003843248 |  
-     | 35.893366960808635 | -110.72661500424147 | 
+    | 35.894309002906084 | -110.72522000409663 |
+    | 35.893930979073048 | -110.72577999904752 |
+    | 35.893744984641671 | -110.72606003843248 |  
+    | 35.893366960808635 | -110.72661500424147 | 
    
+
   
 2.  Multiply each value by 100000 and round each result to the nearest integer.  
   
