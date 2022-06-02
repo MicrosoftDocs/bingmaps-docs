@@ -46,16 +46,16 @@ The waypoints for this route can be optimized by setting the parameter `optimize
 <td valign="text-align: center;">Waypoints are reordered to minimize distance traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
-<td style="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information is not used.</td>
+<td valign="text-align: center;"><code>time</code> <strong>[Default]</strong></td>
+<td valign="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>timeWithTraffic</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize the time traveled along the entire route. Traffic information is not used.</td>
+<td valign="text-align: center;"><code>timeWithTraffic</code></td>
+<td valign="text-align: center;">Waypoints are reordered to minimize the time traveled along the entire route. Traffic information is not used.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>timeAvoidClosure</code></td>
-<td style="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information, including road closure information, is not used.</td>
+<td valign="text-align: center;"><code>timeAvoidClosure</code></td>
+<td valign="text-align: center;">Waypoints are reordered to minimize time traveled along the entire route. Traffic information, including road closure information, is not used.</td>
 </tr>
 </tbody>
 </table>
@@ -82,36 +82,36 @@ The five waypoints from the above example are in the table below:
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th valign="text-align: center;">Waypoint</th>
+<th valign="text-align: center;">Place Name</th>
+<th valign="text-align: center;">Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td valign="text-align: center;"><code>wp.0</code></td>
+<td valign="text-align: center;">Pike Place Market</td>
+<td valign="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td valign="text-align: center;"><code>wp.1</code></td>
+<td valign="text-align: center;">Fremont Troll</td>
+<td valign="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td valign="text-align: center;"><code>wp.2</code></td>
+<td valign="text-align: center;">UW Stadium</td>
+<td valign="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td valign="text-align: center;"><code>wp.3</code></td>
+<td valign="text-align: center;">Seattle Central Library</td>
+<td valign="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td valign="text-align: center;"><code>wp.4</code></td>
+<td valign="text-align: center;">Marvin's Garden</td>
+<td valign="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 </tbody>
 </table>
@@ -126,36 +126,36 @@ For example, we could use this ordering to make the request URL:
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th valign="text-align: center;">Waypoint</th>
+<th valign="text-align: center;">Place Name</th>
+<th valign="text-align: center;">Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td valign="text-align: center;"><code>wp.0</code></td>
+<td valign="text-align: center;">Pike Place Market</td>
+<td valign="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td valign="text-align: center;"><code>wp.1</code></td>
+<td valign="text-align: center;">UW Stadium</td>
+<td valign="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td valign="text-align: center;"><code>wp.2</code></td>
+<td valign="text-align: center;">Seattle Central Library</td>
+<td valign="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td valign="text-align: center;"><code>wp.3</code></td>
+<td valign="text-align: center;">Fremont Troll</td>
+<td valign="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td valign="text-align: center;"><code>wp.4</code></td>
+<td valign="text-align: center;">Marvin's Garden</td>
+<td valign="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 </tbody>
 </table>
@@ -168,36 +168,36 @@ However, suppose that we switch the waypoint for the Fremont Troll with the wayp
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Waypoint</th>
-<th style="text-align: center;">Place Name</th>
-<th style="text-align: center;">Address</th>
+<th valign="text-align: center;">Waypoint</th>
+<th valign="text-align: center;">Place Name</th>
+<th valign="text-align: center;">Address</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.0</code></td>
-<td style="text-align: center;">Pike Place Market</td>
-<td style="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
+<td valign="text-align: center;"><code>wp.0</code></td>
+<td valign="text-align: center;">Pike Place Market</td>
+<td valign="text-align: center;">86 Pike Pl, Seattle, WA 98101</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.1</code></td>
-<td style="text-align: center;">UW Stadium</td>
-<td style="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
+<td valign="text-align: center;"><code>wp.1</code></td>
+<td valign="text-align: center;">UW Stadium</td>
+<td valign="text-align: center;">3800 Montlake Blvd NE, Seattle, WA 98195</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.2</code></td>
-<td style="text-align: center;">Seattle Central Library</td>
-<td style="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
+<td valign="text-align: center;"><code>wp.2</code></td>
+<td valign="text-align: center;">Seattle Central Library</td>
+<td valign="text-align: center;">1000 4th Ave, Seattle, WA 98104</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><code>wp.3</code></td>
-<td style="text-align: center;">Marvin's Garden</td>
-<td style="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
+<td valign="text-align: center;"><code>wp.3</code></td>
+<td valign="text-align: center;">Marvin's Garden</td>
+<td valign="text-align: center;">5400 Ballard Ave NW, Seattle, WA 98107</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><code>wp.4</code></td>
-<td style="text-align: center;">Fremont Troll</td>
-<td style="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
+<td valign="text-align: center;"><code>wp.4</code></td>
+<td valign="text-align: center;">Fremont Troll</td>
+<td valign="text-align: center;">Troll Ave N, Seattle, WA 98103</td>
 </tr>
 </tbody>
 </table>
