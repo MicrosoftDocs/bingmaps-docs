@@ -1,6 +1,6 @@
 ---
 title: "Venue Maps Module | Microsoft Docs"
-description: Learn about the Venue Maps module.
+description: Overview page for the Venue Maps module section, with a description and links to the API reference and examples.
 ms.custom: ""
 ms.date: "06/11/2020"
 ms.reviewer: ""
