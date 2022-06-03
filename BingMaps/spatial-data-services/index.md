@@ -1,6 +1,6 @@
 ---
 title: "Bing Spatial Data Services | Microsoft Docs"
-description: The Bing™ Spatial Data Services Application Programming Interface (API) provides a Representational State Transfer (REST) interface that can geocode, store and query spatial data.
+description: An introduction to the Bing Maps Spatial Data Services API, which provides a REST interface that can geocode, store and query spatial data.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
