@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with the Spatial Data Services | Microsoft Docs"
-description: Bing Spatial Data Services provides REST APIs that work with large sets of spatial data. With these APIs you can geocode spatial data and you can store data that has a spatial component in data sources that you can query. 
+description: Bing Spatial Data Services REST APIs work with large spatial data sets, enabling you to geocode spatial data and store it in a spatial component that you can query, this article includes links to several Spatial Data Service how to articles.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
