@@ -1,6 +1,6 @@
 ---
 title: "Obtaining User Location for V8 Web Control| Microsoft Docs"
-description: Learn how to obtain user location for V8 Web Control.
+description: Learn how to obtain user location in the V8 Web Control using the W3C Geolocation API That is exposed through the navigator.geolocation property in the browser.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
