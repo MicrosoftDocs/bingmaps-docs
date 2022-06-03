@@ -1,6 +1,6 @@
 ---
 title: "Geodata API | Microsoft Docs"
-description: Learn about the Geodata API.
+description: Learn how to use Bing Maps Geodata API to request a set of polygons that describe the boundaries of a geographic entity, including information about the URL template, template parameters, supported response formats and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
