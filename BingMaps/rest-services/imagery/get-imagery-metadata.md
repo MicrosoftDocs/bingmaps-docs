@@ -64,17 +64,18 @@ https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerP
 ```  
 
 > [!NOTE]
-> For searches in China, the meta data endpoint should like this:
->
-> ```url
-https://dev.ditu.live.com/REST/V1/Imagery/Metadata/{imagerySet}?uriScheme=https&o=xml&ur=cn&c=zh-cn&key={BingMapsKey}
-> ```
 >
 > China currently supports the following two values for `imagerySet`:
 >
 > - RoadOnDemand
 > - RoadVibrantDark
 >
+
+For searches in China, the meta data endpoint should like this:
+
+```url
+https://dev.ditu.live.com/REST/V1/Imagery/Metadata/{imagerySet}?uriScheme=https&o=xml&ur=cn&c=zh-cn&key={BingMapsKey}
+```
 
 ### Template Parameters  
   
