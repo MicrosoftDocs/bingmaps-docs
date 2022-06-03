@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Android | Microsoft Docs"
-description: "The article is a tutorial that goes through creating an Android app with a Bing Maps Native Control step-by-step."
+description: Learn how to create an Android app with a Bing Maps Native Control.
 ms.author: "pablocan"
 ---
 
@@ -10,7 +10,7 @@ This tutorial goes through creating an Android app with a Bing Maps Native Contr
 
 ## Prerequisites
 
-1. **Bing Maps Key.** Must be obtained to use the Bing Maps SDK. The Bing Maps Key will need to be specified through the API to use the Bing Maps native control and to make API requests to Bing Maps services. Visit the [Bing Maps Dev Center Help page](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key) for detailed steps on obtaining one.
+1. **Bing Maps Key.** Must be obtained to use the Bing Maps SDK. The Bing Maps Key will need to be specified through the API to use the Bing Maps native control and to make API requests to Bing Maps services. Visit the [Bing Maps Dev Center Help page](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key) for detailed steps on obtaining one.
 2. **Android Studio.** This example is built using Android Studio. You can download it [here](https://developer.android.com/studio/#downloads).
 
 ## Creating a project
@@ -34,9 +34,9 @@ When it comes to language, this tutorial is in **Java**, though feel free to use
 
 In your project's `app` folder, create a file named `secrets.gradle` and put there your Bing Maps Key like shown:
 
-```
-ext.credentialsKey = "ENTER YOUR KEY HERE"
-```
+>```
+>ext.credentialsKey = "ENTER YOUR KEY HERE"
+
 
 
 In your `project/build.gradle` file, inside `allprojects`, insert the following block in `repositories`:
@@ -44,25 +44,28 @@ In your `project/build.gradle` file, inside `allprojects`, insert the following 
 >```
 > repositories {
 >         jcenter()
-          maven {
-              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
-          }
+>          maven {
+>              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+>          }
 > }
 >```
 
 In your `app/build.gradle` file, apply this line at the top to import the external variables from newly created file:
 
-    apply from: 'secrets.gradle'
+>```
+> apply from: 'secrets.gradle'
 
 Next, in the same file, inside `buildTypes` block, insert following block next to `release` block to add a build config field with your Bing Maps key in order to be able to use it from Java code:
 
-    buildTypes.each {
-        it.buildConfigField "String", "CREDENTIALS_KEY", "\"$credentialsKey\""
-    }
+>```    
+> buildTypes.each {
+>        it.buildConfigField "String", "CREDENTIALS_KEY", "\"$credentialsKey\""
+>    }
 
 And finally, inside `dependencies` block, add the following lines and build your project:
 
-    implementation 'com.microsoft.maps:maps-sdk:1.2.0'
+>```
+> implementation 'com.microsoft.maps:maps-sdk:1.2.0'
 
 ## Adding a map view to your activity
 

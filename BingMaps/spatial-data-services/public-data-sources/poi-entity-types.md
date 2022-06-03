@@ -1,5 +1,5 @@
 ---
-title: "POI Entity Types | Microsoft Docs"
+title: "POI Entity Types"
 ms.date: "03/25/2020"
 ms.author: "eriklind"
 manager: "dirabel"
