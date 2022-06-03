@@ -1,6 +1,6 @@
 ---
 title: "Geocode Dataflow API | Microsoft Docs"
-description: Leart about the Geocode Dataflow API.
+description: Learn what is available in Bing Maps Geocode Dataflow API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
