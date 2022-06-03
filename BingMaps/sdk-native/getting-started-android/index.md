@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Android | Microsoft Docs"
+description: "The article is a tutorial that goes through creating an Android app with a Bing Maps Native Control step-by-step."
 ms.author: "pablocan"
 ---
 

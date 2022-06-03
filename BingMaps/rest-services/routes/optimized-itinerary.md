@@ -2,7 +2,7 @@
 title: "Optimized Itinerary | Microsoft Docs"
 description: "This article outlines the Bing Maps Multi-Itinerary Optimization API, providing API templates, parameters, limits, responses, and examples."
 ms.custom: ""
-ms.date: "05/03/2019" Last updated "04/08/2020"
+ms.date: "05/03/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

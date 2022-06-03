@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps SDK for Android and iOS | Microsoft Docs"
+description: "This article outlines Bing Maps SDK for Android and iOS, listing resources on how to get started, map control concepts, map control API reference, and map services API reference."
 ms.author: "pablocan"
 ---
 
