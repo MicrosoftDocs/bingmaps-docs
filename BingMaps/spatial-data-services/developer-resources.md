@@ -1,6 +1,6 @@
 ---
 title: "Spatial Data Services Developer Resources | Microsoft Docs"
-description: Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.
+description: Learn about the spatial data services developer resources that are available in Bing Maps and where to find help with account issues and licensing questions.```
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
