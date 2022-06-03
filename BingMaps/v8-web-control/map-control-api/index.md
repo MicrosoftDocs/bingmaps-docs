@@ -1,6 +1,6 @@
 ---
 title: "Map Control API Reference | Microsoft Docs"
-description: This article contains reference information for the Mao Control API.
+description: This is the overview article for the Map Control API Reference, it contains tables listing the Static Properties and methods and a list of the core components in the Bing Maps V8 web control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
