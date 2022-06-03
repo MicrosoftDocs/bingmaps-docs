@@ -1,6 +1,6 @@
 ---
 title: "Venue Map Class | Microsoft Docs"
-description: The VenueMap class represents a venue map in a specific instance of a Map.
+description: Learn about the VenueMap class including all of its methods, properties and events.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""
