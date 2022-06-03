@@ -1,6 +1,6 @@
 ---
 title: "Cross Platform Bing Maps V8 apps | Microsoft Docs"
-description: Learn about cross platform Bing Maps V8 apps.
+description: Learn about Bing Maps V8 cross platform support.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
