@@ -1,5 +1,6 @@
 ---
 title: "List Time Zones | Microsoft Docs"
+description: "The Time Zone API list operation returns a complete list of time zone information for either the Microsoft Windows or IANA Time Zone standard. This article provides API templates, parameters, and examples."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""

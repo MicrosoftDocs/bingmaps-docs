@@ -1,5 +1,6 @@
 ---
 title: "Warning Types | Microsoft Docs"
+description: "This article lists warning type values that are used to set the warningType attribute that is returned with warning text by the Routes when there is a potential issue along a route segment."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -39,7 +40,7 @@ The following warning type values are used to set the warningType attribute that
 |OtherNews|There is additional traffic incident information.|  
 |OtherTrafficIncidents|There are other traffic incidents at this location.|  
 |PlannedEvents|There are scheduled events in the area.|  
-|PrivateRoad|The road being travelled on is private.|  
+|PrivateRoad|The road being traveled on is private.|  
 |RestrictedTurn|The turn may be restricted.|  
 |RoadClosures|There are road closures at this location.|  
 |RoadHazard|There is a road hazard.|  

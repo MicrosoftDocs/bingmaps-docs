@@ -1,5 +1,6 @@
 ---
 title: "Find Time Zone| Microsoft Docs"
+description: "The Bing Maps Time Zone API makes it easy to retrieve time zone information for any point on Earth. This article lists API templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""

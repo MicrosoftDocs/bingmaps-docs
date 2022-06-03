@@ -1,5 +1,6 @@
 ---
 title: "Route Data | Microsoft Docs"
+description: "The response returned by Routes URL contains a Route resource. This article provides tables that describe the fields in the Route resource in a hierarchical manner along with examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

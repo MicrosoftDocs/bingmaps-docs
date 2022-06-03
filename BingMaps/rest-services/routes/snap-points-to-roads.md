@@ -1,5 +1,6 @@
 ---
 title: "Snap Points to Roads | Microsoft Docs"
+description: "This article describes the Bing Maps Snap to Road API and provides URL templates, API limits, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

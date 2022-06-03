@@ -1,5 +1,6 @@
 ---
 title: "Optimized Itinerary Data | Microsoft Docs"
+description: "This article outlines optimized itinerary data, providing tables that describe the OptimizeItinerary resource fields."
 ms.custom: ""
 ms.date: "11/26/2018"
 ms.reviewer: ""

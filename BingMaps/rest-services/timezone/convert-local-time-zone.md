@@ -1,5 +1,6 @@
 ---
 title: "Convert Local Time Zone| Microsoft Docs"
+description: "The Bing Maps Time Zone API performs time zone conversions. This article provides API templates, parameters, and examples."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""
