@@ -1,6 +1,6 @@
 ---
 title: "Query API | Microsoft Docs"
-description: The Query API is a component of the Bing Spatial Data Services that can be used to query a data source for information about entities in that data source.
+description: The section overview page for the Query API, a component of the Bing Spatial Data Services that can be used to query a data source for information about entities in that data source.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
