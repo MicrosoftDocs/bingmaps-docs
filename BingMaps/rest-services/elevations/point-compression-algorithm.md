@@ -1,6 +1,6 @@
 ---
 title: "Point Compression Algorithm | Microsoft Docs"
-description: Learn how to implement the compression algorithm to get a compressed string you can use instead of the lengthy points list. 
+description: Learn how to implement the point compression algorithm to get a compressed string you can use to reduce the size of a request or when you cannot use the HTTP POST method. 
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"

@@ -1,6 +1,6 @@
 ---
 title: "Understanding Scale and Resolution | Microsoft Docs"
-description: Learn how Bing map determines the exact scale or resolution of a particular image.
+description: Learn how Bing map determines the exact scale or resolution of a particular image including the use of Mercator Projection and its implications.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

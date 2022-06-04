@@ -1,6 +1,6 @@
 ---
 title: "Geocoding Japanese Addresses | Microsoft Docs"
-description: Learn how to handle the custom needs of Japanese address geocoding and support key features.
+description: Learn the complexities of Japanese address geocoding including handling addresses that can be expressed in four different character sets and the Japanese address system and how to implement using The Bing Maps REST API and Bing Spatial Data Services.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Elevations API | Microsoft Docs"
-description: Learn how to use the Elevations API for Bing Maps. 
+description: An overview page for the Bing Maps Elevations API section with links to articles that describe how to get elevations, elevation data, and the Point Compression Algorithm. 
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"
