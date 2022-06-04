@@ -1,6 +1,6 @@
 ---
 title: Local Insights Data
-description: Description of a successful Local Insights request. Please see Type Identifiers for a list of business types.
+description: Description of a successful Local Insights request including example JSON.
 ms.custom: 
 ms.date: 12/12/2018
 ms.reviewer: 
