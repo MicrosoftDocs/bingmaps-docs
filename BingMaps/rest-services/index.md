@@ -1,6 +1,6 @@
 ---
 title: Bing Maps REST Services | Microsoft Docs
-description: The Bing Maps REST Services API provides a REST interface to perform tasks related to maps and routes.
+description: The overview page for the Bing Maps REST Services section with links to articles that describe how to perform tasks such as creating a static map with pushpins, geocoding an address, retrieving imagery metadata, or creating a route.
 ms.custom: 
 ms.date: 11/05/2021
 ms.reviewer: 
