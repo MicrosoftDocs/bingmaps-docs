@@ -1,6 +1,6 @@
 ---
 title: Map Style Sheet Entry Properties | Microsoft Docs
-description: The properties listed below can be set on entries in a map style sheet to customize the appearance of a map in various Microsoft map controls.
+description: Learn about the map style sheet entry properties that can be set on entries in a map style sheet to customize the maps appearance in various Microsoft map controls.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
