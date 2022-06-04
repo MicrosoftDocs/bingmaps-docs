@@ -1,6 +1,6 @@
 ---
 title: Map Style Sheet Entries | Microsoft Docs
-description: The entries listed below can be used in a map style sheet to customize the appearance of a map in various Microsoft map controls.
+description: A list of settings and elements that can be used in a map style sheet to customize the appearance of a map in various Microsoft map controls. They can also be used to define how overlaid geometry on a map should be represented.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
