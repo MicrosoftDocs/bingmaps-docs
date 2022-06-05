@@ -1,6 +1,6 @@
 ---
 title: "Maneuver Types | Microsoft Docs"
-description: "This article lists maneuver type values thar are returned the Routes in the maneuverType field in the HTTP response."
+description: "This article lists maneuver type values that are returned the Routes in the maneuverType field in the HTTP response."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

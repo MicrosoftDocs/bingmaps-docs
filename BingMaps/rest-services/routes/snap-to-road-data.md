@@ -1,6 +1,6 @@
 ---
 title: "Snap to Road Data | Microsoft Docs"
-description: "The response returned by the Snap to Road API contains either an SnapToRoadResponse resource, which contains the snapped point data, or an RouteProxyAsyncStatus resource. This article shows tables that provide descriptions of the SnapToRoadResponse resource fields."
+description: "This article shows tables that provide descriptions of the SnapToRoadResponse resource fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

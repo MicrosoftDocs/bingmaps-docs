@@ -1,6 +1,6 @@
 ---
 title: "Time Zone| Microsoft Docs"
-description: "The Bing Maps Time Zone API makes it easy to find a time zone and daylight savings time for a location by query or latitude and longitude coordinates. This article provides a table of resources for this API."
+description: "This article provides a table of resources for the Bing Maps Time Zone API."
 ms.custom: ""
 ms.date: "12/11/2018"
 ms.reviewer: ""
