@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Tile System | Microsoft Docs"
+description: Learn about Bing Maps tile system which allows users to pan and zoom a world map. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -21,7 +22,7 @@ Bing Maps provides a world map that users can directly manipulate to pan and zoo
 
 To make the map seamless, and to ensure that aerial images from different sources line up properly, we have to use a single projection for the entire world.  We chose to use the **Mercator projection**, which looks like this:  
   
- ![150afcdc&#45;99eb&#45;4296&#45;9948&#45;19c0a65727a3](../articles/media/150afcdc-99eb-4296-9948-19c0a65727a3.jpg "150afcdc-99eb-4296-9948-19c0a65727a3")  
+ ![Screenshot of the Mercator projection image.](../articles/media/150afcdc-99eb-4296-9948-19c0a65727a3.jpg "150afcdc-99eb-4296-9948-19c0a65727a3")  
   
  Although the Mercator projection significantly distorts scale and area (particularly near the poles), it has two important properties that outweigh the scale distortion:  
   
@@ -51,10 +52,9 @@ To make the map seamless, and to ensure that aerial images from different source
  `= 1 : (cos(latitude * pi/180) * 2 * pi * 6378137 * screen dpi) / (256 * 2` <sup>level</sup>  `* 0.0254)`  
   
  This table shows each of these values at each level of detail, **as measured at the Equator**.  (Note that the ground resolution and map scale also vary with the latitude, as shown in the equations above, but not shown in the table below.)  
-  
-|||||  
-|-|-|-|-|  
-|**Level of Detail**|**Map Width and Height (pixels)**|**Ground Resolution (meters / pixel)**|**Map Scale** <br />**(at 96 dpi)**|  
+
+|Level of Detail|Map Width and Height (pixels)|Ground Resolution (meters / pixel)|Map Scale <br />(at 96 dpi)|
+|---------------------|-----------------------------------|----------------------------------------|-------------------------------------|
 |1|512|78,271.5170|1 : 295,829,355.45|  
 |2|1,024|39,135.7585|1 : 147,914,677.73|  
 |3|2,048|19,567.8792|1 : 73,957,338.86|  
@@ -82,7 +82,7 @@ To make the map seamless, and to ensure that aerial images from different source
 ### Pixel Coordinates  
  Having chosen the projection and scale to use at each level of detail, we can convert geographic coordinates into pixel coordinates.  Since the map width and height is different at each level, so are the pixel coordinates.  The pixel at the upper-left corner of the map always has pixel coordinates (0, 0).  The pixel at the lower-right corner of the map has pixel coordinates (width-1, height-1), or referring to the equations in the previous section, (256 * 2<sup>level</sup>–1, 256 * 2<sup>level</sup>–1).  For example, at level 3, the pixel coordinates range from (0, 0) to (2047, 2047), like this:  
   
- ![0cdb18d0&#45;24cc&#45;4cc9&#45;a7ec&#45;b67b42c8e636](../articles/media/0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636.jpg "0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636")  
+ ![Screenshot of the Mercator projection image with pixel coordinates at upper left and lower right corner displayed.](../articles/media/0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636.jpg "0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636")  
   
  Given latitude and longitude in degrees, and the level of detail, the pixel XY coordinates can be calculated as follows:  
   
@@ -101,7 +101,7 @@ To make the map seamless, and to ensure that aerial images from different source
   
  Each tile is given XY coordinates ranging from (0, 0) in the upper left to (2<sup>level</sup>–1, 2<sup>level</sup>–1) in the lower right.  For example, at level 3 the tile coordinates range from (0, 0) to (7, 7) as follows:  
   
- ![209e5af1&#45;34c1&#45;45f6&#45;ba24&#45;41df3e1a1b10](../articles/media/209e5af1-34c1-45f6-ba24-41df3e1a1b10.jpg "209e5af1-34c1-45f6-ba24-41df3e1a1b10")  
+ ![Screenshot of the Mercator projection image with a tile display and assigned coordinate pairs visible.](../articles/media/209e5af1-34c1-45f6-ba24-41df3e1a1b10.jpg "209e5af1-34c1-45f6-ba24-41df3e1a1b10")  
   
  Given a pair of pixel XY coordinates, you can easily determine the tile XY coordinates of the tile containing that pixel:  
   
@@ -119,7 +119,7 @@ To make the map seamless, and to ensure that aerial images from different source
   
  Quadkeys have several interesting properties.  First, the length of a quadkey (the number of digits) equals the level of detail of the corresponding tile.  Second, the quadkey of any tile starts with the quadkey of its parent tile (the containing tile at the previous level).  As shown in the example below,  tile 2 is the parent of tiles 20 through 23, and tile 13 is the parent of tiles 130 through 133:  
   
- ![5cff54de&#45;5133&#45;4369&#45;8680&#45;52d2723eb756](../articles/media/5cff54de-5133-4369-8680-52d2723eb756.jpg "5cff54de-5133-4369-8680-52d2723eb756")  
+ ![Screenshot of three Mercator projection images displaying the quadkey relationships between each level.](../articles/media/5cff54de-5133-4369-8680-52d2723eb756.jpg "5cff54de-5133-4369-8680-52d2723eb756")  
   
  Finally, quadkeys provide a one-dimensional index key that usually preserves the proximity of tiles in XY space.  In other words, two tiles that have nearby XY coordinates usually have quadkeys that are relatively close together.  This is important for optimizing database performance, because neighboring tiles are usually requested in groups, and it’s desirable to keep those tiles on the same disk blocks, in order to minimize the number of disk reads.  
   
