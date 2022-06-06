@@ -1,17 +1,18 @@
 ---
-title: "Bing Maps REST Services | Microsoft Docs"
-ms.custom: ""
+title: Bing Maps REST Services | Microsoft Docs
+description: The overview page for the Bing Maps REST Services section with links to articles that describe how to perform tasks such as creating a static map with pushpins, geocoding an address, retrieving imagery metadata, or creating a route.
+ms.custom: 
 ms.date: 11/05/2021
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 880094cc-93b2-4b2e-8f8d-7d601bc0bd11
 caps.latest.revision: 41
 author: stevemunk
 ms.author: v-munksteve
 manager: eriklind
-ms.service: "bing-maps"
+ms.service: bing-maps
 ---
 # Bing Maps REST Services
 
@@ -25,8 +26,8 @@ If you plan to use the REST services from .NET the Bing Maps team has released a
   
 ## In This Section  
   
-|||  
-|-|-|  
+|Operator|Description|  
+|--------|-----------|
 |[Getting Started](getting-started-with-the-bing-maps-rest-services.md)|Gets you started with the Bing Maps REST Services.|
 |[Getting Traffic Incident Data](getting-traffic-incident-data.md)|Shows how to get traffic incident data by using the [Routes](routes/index.md) and the [Traffic](traffic/index.md).|
 |[Using the REST Services with .NET](../rest-services/using-the-rest-services-with-net.md)|Shows how to use .NET with the REST Services.|

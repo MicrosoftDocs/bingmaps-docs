@@ -1,16 +1,17 @@
 ---
-title: "Location Recognition | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/11/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Location Recognition | Microsoft Docs
+description: Given a pair of location coordinates, the Location Recognition API returns a list of entities ranked by their proximity to that location.
+ms.custom: 
+ms.date: 12/11/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: d16845e0-c89f-4523-a59f-c29a7e22f108
 caps.latest.revision: 55
-ms.author: "v-chrfr"
-manager: "stevelom"
-ms.service: "bing-maps"
+ms.author: richbrun
+manager: stevelom
+ms.service: bing-maps
 ---
 
 # Location Recognition
