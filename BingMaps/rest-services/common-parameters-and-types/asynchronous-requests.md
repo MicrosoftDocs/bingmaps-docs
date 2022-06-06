@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: "Bing Maps REST Asynchronous Requests | Microsoft Docs"
-description: Learn about Bing Maps REST asynchronous requests.
+description: Learn about asynchronous requests in Bing Maps.
 author: "v-chrfr"
 ms.author: v-munksteve
 ms.date: "06/19/2018"
