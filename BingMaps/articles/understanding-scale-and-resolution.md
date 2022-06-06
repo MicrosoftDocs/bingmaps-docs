@@ -1,5 +1,6 @@
 ---
 title: "Understanding Scale and Resolution | Microsoft Docs"
+description: "Describes how to understand scale and resolution and outlines how to calculate resolution and scale."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -44,9 +45,8 @@ The first problem with both scale and resolution is that the world is neither fl
   
  From this equation, we can calculate an estimated scale for each zoom level by assuming that we are at the equator:  
   
-|||||  
-|-|-|-|-|  
-|**Zoom Level**|**Scale (m/pixel)**|**Zoom Level**|**Scale (m/pixel)**|  
+|Zoom Level|Scale (m/pixel)|Zoom Level|Scale (m/pixel)| 
+|-|-|-|-|   
 |**1**|78271.52|**11**|76.44|  
 |**2**|39135.76|**12**|38.22|  
 |**3**|19567.88|**13**|19.11|  

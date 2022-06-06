@@ -1,5 +1,6 @@
 ---
 title: "Geospatial Endpoint Service | Microsoft Docs"
+description: "Describes the Geospatial Endpoint services and provides parameters, responses, supported services, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
