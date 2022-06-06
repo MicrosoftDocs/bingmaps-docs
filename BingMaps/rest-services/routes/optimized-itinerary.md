@@ -1,6 +1,6 @@
 ---
 title: Optimized Itinerary | Microsoft Docs
-description: The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items.
+description: Learn how to use the Bing Maps Multi-Itinerary Optimization API that returns an itinerary schedule for one or more agents to travel between multiple itinerary items.
 ms.custom: 
 ms.date: 04/08/2020
 ms.reviewer: 
