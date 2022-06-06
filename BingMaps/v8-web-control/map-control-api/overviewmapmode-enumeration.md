@@ -1,5 +1,6 @@
 ---
 title: "OverviewMapMode Enumeration | Microsoft Docs"
+description: "Describes the OverviewMapMode enumeration and provides a table that outlines a description for the expanded, hidden, and minimized fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

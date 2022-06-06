@@ -1,5 +1,6 @@
 ---
 title: "Creating a Store Locator using Bing Maps and Azure | Microsoft Docs"
+description: "Describes how to create a store locator using Bing Maps and Azure and outlines that the content is going to be available at a later date."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

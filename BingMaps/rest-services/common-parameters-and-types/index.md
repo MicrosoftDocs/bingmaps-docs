@@ -1,5 +1,6 @@
 ---
 title: "Common Parameters and Types | Microsoft Docs"
+description: "Provides an index of common parameters and types through a table that outlines a description for various resources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -20,7 +21,7 @@ The Bing Maps REST Services use many common parameters and types. The topics in 
   
 ## In this section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Base URL Structure](base-url-structure.md)|Use the base URL for making calls to the Bing Maps REST Services.|  
 |[Culture Parameter](culture-parameter.md)|Use the culture parameter to set the culture so that items such as map labels and route directions are in the desired language.|  

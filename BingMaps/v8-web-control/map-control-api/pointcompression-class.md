@@ -1,5 +1,6 @@
 ---
 title: "PointCompression Class | Microsoft Docs"
+description: "Describes the PointCompression class and provides a table that outlines the return value and description for the decode and encode static methods."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
