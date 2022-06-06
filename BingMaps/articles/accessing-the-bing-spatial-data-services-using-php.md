@@ -1,5 +1,6 @@
 ---
 title: "Accessing the Bing Spatial Data Services using PHP | Microsoft Docs"
+description: "Describes how to access the Bing Spatial Data Service using PHP, outlines how to set up an environment, and provides various code samples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

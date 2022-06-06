@@ -15,8 +15,6 @@ manager: lorenhil
 ms.service: bing-maps
 ---
 
-
-
 # Optimize Multiple Itineraries
 
 The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the assigned delivery locations, as well as driving distance and time from the previous location, the scheduled arrival time, and expected delivery duration for each location (ItineraryItem) assigned to that agent. 

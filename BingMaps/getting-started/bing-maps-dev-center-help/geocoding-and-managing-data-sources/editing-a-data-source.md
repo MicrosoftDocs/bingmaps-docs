@@ -1,5 +1,6 @@
 ---
 title: "Editing a Data Source | Microsoft Docs"
+description: "Describes how to edit a data source and outlines how to edit entity data and how to edit entity data schema."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
