@@ -2,8 +2,8 @@
 # required metadata
 title: "Shop Type Identifiers | Microsoft Docs"
 description: "This article provides a list of Shop Type identifiers by type ID and description."
-author: "eriklindeman"
-ms.author: "eriklindeman"
+author: "eriklind"
+ms.author: "eriklind"
 ms.date: "12/10/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"
