@@ -63,4 +63,4 @@ For developer guides, blogs and other resources, check out [Bing Maps Resources]
   
 ## News and Resources
 
-To keep up to date with the latest  Bing Maps news, read the [Bing Dev Center Blog](https://blogs.bing.com/maps/). For help from the Bing Maps community, use the [Bing Maps Forums](https://social.msdn.microsoft.com/Forums/category/bingmaps).
+To keep up to date with the latest  Bing Maps news, read the [Bing Dev Center Blog](https://blogs.bing.com/maps/). For help from the Bing Maps community, use the [Bing Maps Forums](https://answers.microsoft.com/en-us/bing/forum/bing_maps).
