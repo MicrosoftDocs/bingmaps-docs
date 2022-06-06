@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read Geospatial XML from URL
 
-This sample shows how to read a geospatial XML file that is hosted on the same domain as the application using a relative URL. This sample will read in a sample GeoRSS file which you can find [here](https://bingmapsv8samples.azurewebsites.net/GeoXml/Data/GeoRSS/SampleGeoRss.xml) and render it on the map. When reading geospatial XML data using the read and readFromUrl functions you have complete control of the data, you can render it or simply extract information from it. In this sample we will render the data on the map. 
+This sample shows how to read a geospatial XML file that is hosted on the same domain as the application using a relative URL. This sample will read in a sample GeoRSS file and render it on the map. When reading geospatial XML data using the read and readFromUrl functions you have complete control of the data, you can render it or simply extract information from it. In this sample we will render the data on the map. 
 
 ```html
 <!DOCTYPE html>

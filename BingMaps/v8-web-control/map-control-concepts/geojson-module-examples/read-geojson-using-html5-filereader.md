@@ -95,6 +95,6 @@ This code example shows how to enable drag and drop a local GeoJSON file onto a 
 </html>
 ```
 
-The following image shows the neighborhood boundaries of Los Angeles that came from a GeoJSON file that was downloaded from the [Los Angeles Times Boundaries API](https://boundaries.latimes.com/sets/).
+The following image shows the neighborhood boundaries of Los Angeles that came from a GeoJSON file that was downloaded from [The Los Angeles Times](https://www.latimes.com/).
 
 ![Screenshot of a Bing map showing polygon shapes overlaid on top of the neighborhood boundaries of Los Angeles.](../../media/bmv8-geojson-la.png)

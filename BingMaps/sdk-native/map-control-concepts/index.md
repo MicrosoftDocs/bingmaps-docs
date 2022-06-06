@@ -1,9 +1,10 @@
 ---
-title: "Map Control Concepts | Microsoft Docs"
+title: "Map Control Concepts"
+description: Learn how to display a map in your application with Bing Maps SDK. 
 ms.author: "pablocan"
 ---
 
-# Map Control Concepts
+# Bing Map Control Concepts
 
 The Bing Maps SDK allows you to display a map in your application. Below, you will find the major set of concepts and examples to help you get started.
 

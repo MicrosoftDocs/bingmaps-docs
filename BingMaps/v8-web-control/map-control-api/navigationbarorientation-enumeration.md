@@ -1,5 +1,6 @@
 ---
 title: "NavigationBarOrientation Enumeration | Microsoft Docs"
+description: "Describes the NavigationBarOrientation enumeration and provides a table that outlines a description for the horizontal and vertical fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

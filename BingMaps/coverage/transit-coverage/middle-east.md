@@ -1,5 +1,6 @@
 ---
 title: "Middle East Transit Coverage | Microsoft Docs"
+description: "Describes Bing Maps API transit information for various countries in the Middle East including Israel and Turkey."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

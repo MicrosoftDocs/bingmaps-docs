@@ -1,5 +1,6 @@
 ---
 title: "Getting a Bing Maps Key | Microsoft Docs"
+description: "Describes how to get Bing Maps key and outlines how to create a Bing Maps key, how to upgrade your account, the Bing Maps terms of use, and usage transactions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,17 +1,18 @@
 ---
-title: "Map Style Sheet Extensions | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Map Style Sheet Extensions | Microsoft Docs
+description: The extensions property at the root of a map style sheet can be used to add custom entries and states to your map's styles.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 8E33AAAE-5DC3-4B94-AD13-69B98402DF33
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Map Style Sheet Extensions
 
