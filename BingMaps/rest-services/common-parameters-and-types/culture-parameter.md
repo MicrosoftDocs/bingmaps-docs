@@ -1,5 +1,6 @@
 ---
 title: "Culture Parameter | Microsoft Docs"
+description: "Describes the culture parameter and provides a table that outlines the alias, description, and values of the culture parameter."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

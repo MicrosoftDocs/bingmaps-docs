@@ -1,5 +1,6 @@
 ---
 title: "Output Parameters | Microsoft Docs"
+description: "Describes output parameters and provides a table that outlines the alias, description, and values for various parameters with examples."
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"

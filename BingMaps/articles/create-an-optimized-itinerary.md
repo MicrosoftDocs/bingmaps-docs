@@ -1,5 +1,6 @@
 ---
 title: "Create an Optimized Itinerary | Microsoft Docs"
+description: Learn how to create optimized itinerary for multiple agents and multiple itinerary items.
 ms.date: "5/6/2019"
 ms.topic: "article"
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
@@ -64,30 +65,30 @@ The images below show the starting (green circle) and ending (red circle) locati
 
 __Yuan__:
 
-|Start Time|Start Coords|End Time End Coords|
-|---|----|----|---|
+|Start Time           |Start Coords            |End Time             |End Coords              |
+|---------------------|------------------------|---------------------|------------------------|
 |`2018-12-24T08:00:00`|`47.608970, -122.340914`|`2018-12-24T12:00:00`|`47.599018, -122.331871`|
-|`2018-12-24T13:00:00`|`47.599018, -122.331871`|`2018-12-24T17:00:00`|`47.610966,-122.337095`|
+|`2018-12-24T13:00:00`|`47.599018, -122.331871`|`2018-12-24T17:00:00`|`47.610966,-122.337095` |
 
-![yuan_starting_image.png](media/yuan_starting_image.png)
+![Map showing Yuan's start and end points.](media/yuan_starting_image.png)
 
 __Charlie__:
 
-|Start Time|Start Coords|End Time End Coords|
-|---|----|----|---|
+|Start Time           |Start Coords            |End Time             |End Coords              |
+|---------------------|------------------------|---------------------|------------------------|
 |`2018-12-24T08:00:00`|`47.655000, -122.308000`|`2018-12-24T12:00:00`|`47.666423, -122.383223`|
 |`2018-12-24T13:00:00`|`47.599018, -122.331871`|`2018-12-24T17:00:00`|`47.610966,-122.337095`|
 
-![charlie_starting_image.png](media/charlie_starting_image.png)
+![Map showing Charlies start and end points.](media/charlie_starting_image.png)
 
 __Andre__:
 
-|Start Time|Start Coords|End Time End Coords|
-|---|----|----|---|
+|Start Time           |Start Coords            |End Time             |End Coords              |
+|---------------------|------------------------|---------------------|------------------------|
 |`2018-12-24T08:00:00`|`47.706123, -122.325867`|`2018-12-24+12:00:00`|`47.599018, -122.331871`|
 |`2018-12-24T13:00:00`|`47.599018, -122.331871`|`2018-12-24T17:00:00`|`47.614151, -122.195686`|
 
-![andre_starting_image.png](media/andre_starting_image.png)
+![Map showing Andres start and end points.](media/andre_starting_image.png)
 
 
 ### Formatting the Itinerary Data
