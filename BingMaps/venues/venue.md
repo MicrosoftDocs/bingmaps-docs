@@ -1,18 +1,18 @@
 ---
-title: "Venue JSON class | Microsoft Docs"
-description: Describes the Venue JSON class, provides a list of properties and a code example, and details the footprint floor and the transform field.
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue JSON class | Microsoft Docs
+description: Venue JSON class encapsulates a venue, consisting of one or more floors. Display data in the Bing Maps V8 Web Control by creating a VenueMap instance.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: E917F6EC-F5EE-4F98-8C33-05868734390C
 caps.latest.revision: 3
-author: "dbuerer"
+author: DavidBuerer
 ms.author: dbuerer
-manager: ""
-ms.service: "bing-maps"
+manager: 
+ms.service: bing-maps
 ---
 # Venue JSON class
 

@@ -1,18 +1,18 @@
 ---
-title: "Venue geometry JSON class | Microsoft Docs"
-description: Describes the Venue geometry JSON class, which is an entity's polyline or polygon geometry, and provides the class's properties and a code example.
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue geometry JSON class | Microsoft Docs
+description: Venue geometry JSON class encapsulates a polyline or polygon geometry within a venue entity.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 7B7C56D5-2E4B-4CAC-9068-A43B0E807E84
 caps.latest.revision: 3
-author: "dbuerer"
+author: DavidBuerer
 ms.author: dbuerer
-manager: ""
-ms.service: "bing-maps"
+manager: 
+ms.service: bing-maps
 ---
 # Venue geometry JSON class
 

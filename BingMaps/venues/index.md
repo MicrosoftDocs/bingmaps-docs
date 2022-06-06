@@ -1,18 +1,18 @@
 ---
-title: "Venue Maps | Microsoft Docs"
-description: Describes Venue Maps and provides lists of classes and their definitions related to Venue Maps, as well as a sample venue.
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue Maps | Microsoft Docs
+description: The root class of a venue JSON definition is the venue. Classes include address, entity, floor, geometry, inner, label, rectangle, venue, and venueTile.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: CC2918FE-1B5D-4E7E-8441-B4CC2A3439CB
 caps.latest.revision: 3
-author: "dbuerer"
+author: DavidBuerer
 ms.author: dbuerer
-manager: ""
-ms.service: "bing-maps"
+manager: 
+ms.service: bing-maps
 ---
 # Venue Maps
 

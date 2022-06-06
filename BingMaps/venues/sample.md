@@ -1,18 +1,18 @@
 ---
-title: "Venue JSON sample | Microsoft Docs"
-description: Provides a Venue JSON code sample.
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue JSON sample | Microsoft Docs
+description: The Venue JSON sample includes such sample data as schema, id, name, type, xy, address, defaultFloor, bbox, and floors.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: E8CF660D-4B9A-460B-BE0D-5C48E5E34572
 caps.latest.revision: 3
-author: "dbuerer"
+author: DavidBuerer
 ms.author: dbuerer
-manager: ""
-ms.service: "bing-maps"
+manager: 
+ms.service: bing-maps
 ---
 # Venue JSON sample
 

@@ -1,5 +1,6 @@
 ---
 title: "Create a Custom Map URL | Microsoft Docs"
+description: "Describes how to create a custom map URL, outlines how to get started, and provides a table that outlines a description, details, and an example for parameters."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

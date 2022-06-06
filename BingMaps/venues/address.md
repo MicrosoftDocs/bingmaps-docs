@@ -1,18 +1,18 @@
 ---
-title: "Venue address JSON class | Microsoft Docs"
-description: Describes the Venue address JSON class, which represents the address of a venue map or entity, and provides its properties and code example.
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue address JSON class | Microsoft Docs
+description: Venue address JSON class represents an address of a venue map or entity within a venue map. Includes Properties and Example.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 64878C5D-0F34-4229-BA8E-8351E7C5558B
 caps.latest.revision: 3
-author: "dbuerer"
+author: DavidBuerer
 ms.author: dbuerer
-manager: ""
-ms.service: "bing-maps"
+manager: 
+ms.service: bing-maps
 ---
 # Venue address JSON class
 
