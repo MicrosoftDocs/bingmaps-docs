@@ -52,9 +52,9 @@ To make the map seamless, and to ensure that aerial images from different source
  `= 1 : (cos(latitude * pi/180) * 2 * pi * 6378137 * screen dpi) / (256 * 2` <sup>level</sup>  `* 0.0254)`  
   
  This table shows each of these values at each level of detail, **as measured at the Equator**.  (Note that the ground resolution and map scale also vary with the latitude, as shown in the equations above, but not shown in the table below.)  
-  
-|Level of Detail|Map Width and Height (pixels)|Ground Resolution (meters / pixel)|Map Scale <br />(at 96 dpi)|  
-|-|-|-|-|  
+
+|Level of Detail|Map Width and Height (pixels)|Ground Resolution (meters / pixel)|Map Scale <br />(at 96 dpi)|
+|---------------------|-----------------------------------|----------------------------------------|-------------------------------------|
 |1|512|78,271.5170|1 : 295,829,355.45|  
 |2|1,024|39,135.7585|1 : 147,914,677.73|  
 |3|2,048|19,567.8792|1 : 73,957,338.86|  
@@ -119,7 +119,7 @@ To make the map seamless, and to ensure that aerial images from different source
   
  Quadkeys have several interesting properties.  First, the length of a quadkey (the number of digits) equals the level of detail of the corresponding tile.  Second, the quadkey of any tile starts with the quadkey of its parent tile (the containing tile at the previous level).  As shown in the example below,  tile 2 is the parent of tiles 20 through 23, and tile 13 is the parent of tiles 130 through 133:  
   
- ![A diagram showing a Level 1 map of Earth with four squares, a Level 2 map divided into 16 squares, and a Level 3 map divided into 64 squares.](../articles/media/5cff54de-5133-4369-8680-52d2723eb756.jpg "5cff54de-5133-4369-8680-52d2723eb756")  
+ ![Screenshot of three Mercator projection images displaying the quadkey relationships between each level.](../articles/media/5cff54de-5133-4369-8680-52d2723eb756.jpg "5cff54de-5133-4369-8680-52d2723eb756")  
   
  Finally, quadkeys provide a one-dimensional index key that usually preserves the proximity of tiles in XY space.  In other words, two tiles that have nearby XY coordinates usually have quadkeys that are relatively close together.  This is important for optimizing database performance, because neighboring tiles are usually requested in groups, and it’s desirable to keep those tiles on the same disk blocks, in order to minimize the number of disk reads.  
   

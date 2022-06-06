@@ -1,9 +1,10 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
+title: "Map Style Sheets"
+description: Learn how to use a Map Style Sheet to represent a set of rules that define the style of the map.
 ms.author: "pablocan"
 ---
 
-# Style Sheets
+# Map Style Sheets
 
 The Bing Maps SDK supports both default and custom Map Style Sheets.
 A **Map Style Sheet** represents a set of rules that define the style of the map in a map view.
@@ -32,7 +33,8 @@ Available options are specified in [MapStyleSheets](../map-control-api/MapStyleS
 You can create your own **Map Style Sheet** by writing custom JSON that overrides the default settings.
 Usually a default base map style is combined with custom JSON to change the appearance of the map.
 
-The style sheet JSON API is described [here](https://docs.microsoft.com/bingmaps/styling/map-style-sheet-entries).
+The style sheet JSON API is described in [Map Style Sheet Entries](/bingmaps/styling/map-style-sheet-entries).
+
 The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
 
 ## Changing the appearance of the map
@@ -41,5 +43,5 @@ See some examples for [How to change the appearance of the map](change-map-appea
 
 _See also_:
 * [MapStyleSheet](../map-control-api/MapStyleSheet-class.md)
-* [Map Style Sheet JSON API](https://docs.microsoft.com/bingmaps/styling/map-style-sheet-entries)
+* [Map Style Sheet JSON API](/bingmaps/styling/map-style-sheet-entries)
 * [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft)
