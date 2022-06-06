@@ -1,5 +1,6 @@
 ---
 title: "Uploading and Publishing Entity Data to a Data Source | Microsoft Docs"
+description: "Describes how to upload and publish entity data to a data source and provides location properties, entity data types, and sample data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
