@@ -1,6 +1,7 @@
 ---
-title: "LocationChangedListener Interface | Microsoft Docs"
-ms.author: "krihenri"
+title: LocationChangedListener Interface | Microsoft Docs
+description: Describes the LocationChangedListener interface for Android and outlines the onLocationChanged method.
+ms.author: krihenri
 ---
 
 # LocationChangedListener Interface (Android only)

@@ -1,6 +1,7 @@
 ---
-title: "MapCameraChangingEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapCameraChangingEventArgs Class | Microsoft Docs
+description: Describes the MapCameraChangingEventArgs class for Android and provides the class' ChangeReason, Camera, and IsFirstFrameSinceLastCameraChanged properties.
+ms.author: pablocan
 ---
 
 # MapCameraChangingEventArgs Class (Android only)
