@@ -1,5 +1,6 @@
 ---
 title: "Traffic Module | Microsoft Docs"
+description: Describes the traffic module and the traffic data types, and provides links to related API reference documentation.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
