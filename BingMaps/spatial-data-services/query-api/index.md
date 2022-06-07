@@ -1,6 +1,6 @@
 ---
 title: "Query API | Microsoft Docs"
-description: "Describes the Query API and provides a table that outlines a description for various resources related to the Query API."
+description: "The overview page for the Query API section, with links to each of the articles in this section and a description for each."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

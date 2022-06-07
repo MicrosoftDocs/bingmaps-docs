@@ -1,6 +1,6 @@
 ---
 title: "Bing Spatial Data Services | Microsoft Docs"
-description: "Describes Bing Spatial Data Services and provides a table that outlines a description for various resources relating to Bing Spatial Data Services."
+description: "The overview page for the Spatial Data Services section, which uses REST URLS to geocode, store and query spatial data. Describes what you can do with these API and contains a list of links to topics in this section with descriptions for each."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

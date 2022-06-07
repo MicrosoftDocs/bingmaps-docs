@@ -1,6 +1,6 @@
 ---
 title: "Geocode Dataflow Sample Code | Microsoft Docs"
-description: "Provides Geocode Dataflow sample code with notes that explain the organization, syntax, and utility of the sample code."
+description: "Provides Geocode Dataflow sample code using .NET 2.0 written as a console application that accepts input data in any of the supported formats and outputs the results into two texts files named succeeded.txt and failed.txt."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

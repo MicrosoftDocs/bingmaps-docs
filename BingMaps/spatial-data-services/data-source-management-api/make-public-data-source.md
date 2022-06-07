@@ -1,6 +1,6 @@
 ---
 title: "Make a Data Source Public | Microsoft Docs"
-description: "Describes how to make a data source public and provides supported HTTP methods, URL templates, template parameters, and examples."
+description: "Describes how to make a data source public using the Load Data Source Dataflow API and provides supported HTTP methods, URL templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Publish a Staged Data Source | Microsoft Docs"
-description: "Describes how to publish a staged data source and provides supported HTTP methods, the URL template, template parameters, and examples."
+description: "Describes how to publish a staged data source using the Load Data Source Dataflow API and provides supported HTTP methods, the URL template, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

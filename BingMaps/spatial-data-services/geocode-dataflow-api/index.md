@@ -1,6 +1,6 @@
 ---
 title: "Geocode Dataflow API | Microsoft Docs"
-description: "Describes the Geocode Dataflow API and provides a table that outlines a description for various resources relating to the API."
+description: "The overview page for the Geocode Dataflow API, which uses REST URLs to geocode and reverse-geocode large sets of spatial data, with information on what you need to do in order to use these API along with links to articles that describe the data schema, how to create and check on jobs, download results, sample input/output files, sample code and a walkthrough."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

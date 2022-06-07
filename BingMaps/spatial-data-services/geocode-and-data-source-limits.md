@@ -1,6 +1,6 @@
 ---
 title: "Geocode and Data Source Limits | Microsoft Docs"
-description: "Describes Geocode and data source limits and provides account limits for basic keys, account limits for enterprise keys, and outlines how to view jobs."
+description: "Describes Geocode and data source limits as well as account limits for basic and enterprise keys, and outlines how to view jobs."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

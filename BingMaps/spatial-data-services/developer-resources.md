@@ -1,6 +1,6 @@
 ---
 title: "Spatial Data Services Developer Resources | Microsoft Docs"
-description: "Provides spatial data services developer resource with a table that outlines a description for various resources."
+description: "Provides links to developer resources for spatial data services as well as for how to get help with account issues and licensing questions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
