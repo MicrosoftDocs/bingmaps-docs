@@ -1,6 +1,6 @@
 ---
 title: "DrawingTools Class | Microsoft Docs"
-description: Describes the DrawingTools class, which exposes the drawing and editing shape map tools, and provides the constructor and lists of methods and events.
+description: Describes the DrawingTools class, which exposes a set of tools for drawing and editing shapes on the map and provides the constructor and lists of methods and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Drawing Tools Module | Microsoft Docs"
-description: Describes the drawing tools module, which provides user tools to draw and edit map shapes, and provides API reference documentation and examples.
+description: The overview page for the Bing Maps Drawing Tools Module section with links to articles that describe the various classes, objects, enumerators and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

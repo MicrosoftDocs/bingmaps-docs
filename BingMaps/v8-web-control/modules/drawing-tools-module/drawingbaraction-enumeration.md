@@ -1,6 +1,6 @@
 ---
 title: "DrawingBarAction Enumeration | Microsoft Docs"
-description: Describes the DrawingBarAction enumeration, which is used to identify and enable the items shown in the drawing bar.
+description: Describes the DrawingBarAction enumerators used to identify and enable the items shown in the drawing bar.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

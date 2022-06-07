@@ -1,6 +1,6 @@
 ---
 title: "GeoXmlCompressedFormat Enumeration | Microsoft Docs"
-description: Describes GeoXmlCompressedFormat enumeration and provides a list of the compressed formats that GeoXmlCompressedFormat enumeration produces.
+description: Describes GeoXmlCompressedFormat enumerators and provides a list of the different compressed formats of XML output.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "ShapeType Enumeration | Microsoft Docs"
-description: Describes ShapeType enumeration, which relates to the drawing tool shapes, and lists the type of shapes.
+description: Describes the ShapeType enumerators, which defines the different types of shapes that are created or edited by the drawing tools.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

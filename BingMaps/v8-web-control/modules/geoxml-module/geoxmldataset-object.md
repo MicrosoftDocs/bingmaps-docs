@@ -1,6 +1,6 @@
 ---
 title: "GeoXmlDataSet Object | Microsoft Docs"
-description: Describes the GeoXmlDataSet object and provides a list of properties related to the GeoXmlDataSet object.
+description: Describes the GeoXmlDataSet object and its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

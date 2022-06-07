@@ -1,6 +1,6 @@
 ---
 title: "GeoXmlSummaryMetadata Object | Microsoft Docs"
-description: Describes the GeoXmlSummaryMetadata object, which contains XML feed data set summary metadata, and lists the metadata.
+description: Describes the GeoXmlSummaryMetadata object and its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
