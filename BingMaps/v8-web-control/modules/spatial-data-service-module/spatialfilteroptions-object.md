@@ -1,6 +1,6 @@
 ---
 title: "SpatialFilterOptions Object | Microsoft Docs"
-description: Describes the SpatialFilterOptions object, which represents spatial filter options for querying, and provides a list of the object's properties.
+description: Describes the SpatialFilterOptions object, which represents spatial filter options for querying a data source hosted in the Bing Spatial Data Services and provides a list of the object's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
