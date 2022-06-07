@@ -1,6 +1,7 @@
 ---
-title: "OnMapDoubleTappedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapDoubleTappedListener Interface | Microsoft Docs
+description: Describes the OnMapDoubleTappedListener interface for Android and provides the MapDoubleTappedEventArgs and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapDoubleTappedListener Interface (Android only)

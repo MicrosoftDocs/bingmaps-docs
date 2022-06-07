@@ -1,5 +1,6 @@
 ---
 title: "DrawingModeChangedData Object | Microsoft Docs"
+description: Describes the DrawingModeChangedData object, which contains event arguments for drawing mode changes, and lists the event arguments.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

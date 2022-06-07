@@ -1,5 +1,6 @@
 ---
 title: "PanoramaInfo Object | Microsoft Docs"
+description: "Describes the PanoramaInfo object and provides a Properties table that outlines the type and description for the cd property."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
