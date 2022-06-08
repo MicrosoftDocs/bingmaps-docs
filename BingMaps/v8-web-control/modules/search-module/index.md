@@ -1,5 +1,6 @@
 ---
 title: "Search Module | Microsoft Docs"
+description: Describes the Search module, which controls forward and reverse geocoding functionality, and provides links to API references and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

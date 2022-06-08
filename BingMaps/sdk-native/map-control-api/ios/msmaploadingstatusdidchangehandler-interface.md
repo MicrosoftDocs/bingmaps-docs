@@ -1,6 +1,7 @@
 ---
-title: "MSMapLoadingStatusDidChangeHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapLoadingStatusDidChangeHandler Interface | Microsoft Docs
+description: Describes the MSMapLoadingStatusDidChangeHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapLoadingStatusDidChangeHandler Interface (iOS only)

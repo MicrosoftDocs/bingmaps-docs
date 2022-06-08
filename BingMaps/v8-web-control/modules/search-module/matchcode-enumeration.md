@@ -1,5 +1,6 @@
 ---
 title: "MatchCode Enumeration | Microsoft Docs"
+description: Describes the Search modules MatchCode enumerators, which defines the geocoding level of the geocoder's location match and provides a description for each enumerator.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
