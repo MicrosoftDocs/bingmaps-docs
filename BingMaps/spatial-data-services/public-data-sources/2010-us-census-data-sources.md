@@ -26,23 +26,27 @@ The following are the Query URL’s that can be used to access the US Census dat
 
 **State Census Data Query URL**
 
-| https://spatial.virtualearth.net/REST/v1/data/755aa60032b24cb1bfb54e8a6d59c229/USCensus2010\_States/States |
-|------------------------------------------------------------------------------------------------------------|
+```url 
+https://spatial.virtualearth.net/REST/v1/data/755aa60032b24cb1bfb54e8a6d59c229/USCensus2010\_States/States
+```
 
 **County Census Data Query URL**
 
-| https://spatial.virtualearth.net/REST/v1/data/6c39d83e5812459f914832970618048e/USCensus2010\_Counties/Counties |
-|----------------------------------------------------------------------------------------------------------------|
+```url 
+https://spatial.virtualearth.net/REST/v1/data/6c39d83e5812459f914832970618048e/USCensus2010\_Counties/Counties
+```
 
 **111<sup>th</sup> Congressional District Query URL**
 
-| https://spatial.virtualearth.net/REST/v1/data/04566e63b0d74e45aa5fa19a2f8bb8bc/USCensus2010\_CD/CongressionalDistrict111th |
-|----------------------------------------------------------------------------------------------------------------------------|
+```url 
+https://spatial.virtualearth.net/REST/v1/data/04566e63b0d74e45aa5fa19a2f8bb8bc/USCensus2010\_CD/CongressionalDistrict111th
+```
 
 **ZCTA5 Census Data Query URL**
 
-| https://spatial.virtualearth.net/REST/v1/data/f42cab32d0ee41738d90856badd638d3/USCensus2010\_ZCTA5/ZCTA5 |
-|----------------------------------------------------------------------------------------------------------|
+```url 
+https://spatial.virtualearth.net/REST/v1/data/f42cab32d0ee41738d90856badd638d3/USCensus2010\_ZCTA5/ZCTA5
+```
 
 ## Entity Properties
 

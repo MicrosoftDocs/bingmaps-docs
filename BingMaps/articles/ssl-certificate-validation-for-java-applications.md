@@ -1,5 +1,6 @@
 ---
 title: "SSL Certificate Validation for Java Applications | Microsoft Docs"
+description: "Describes SSL certificate validation for Java applications and outlines how to configure root certificates."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
