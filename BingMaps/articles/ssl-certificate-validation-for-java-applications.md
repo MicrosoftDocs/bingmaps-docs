@@ -1,5 +1,6 @@
 ---
 title: "SSL Certificate Validation for Java Applications | Microsoft Docs"
+description: "Describes SSL certificate validation for Java applications and outlines how to configure root certificates."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -48,15 +49,17 @@ keytool -list -keystore ..\lib\security\cacerts
   
  `Exception in thread "main" com.sun.jersey.api.client.ClientHandlerException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target…`  
   
-## Configuring Root Certificates  
+## Configuring Root Certificates
+
  The following steps show how to install the SSL certificates required to access Bing Maps APIs.
   
-### Baltimore CyberTrust Root  
+### Baltimore CyberTrust Root
+
  To configure the Baltimore CyberTrust Root:  
   
-1.  Download the Baltimore CyberTrust Root from [https://cacert.omniroot.com/bc2025.crt](https://cacert.omniroot.com/bc2025.crt) and save it to a location on your computer. Note the location as you will need it for the install command below.  
+1. Download the [Baltimore CyberTrust Root cert](https://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt) and save it to a location on your computer. Note the location as you will need it for the install command below.  
   
-2.  Open a command prompt and run the following “keytool” command from the `bin` directory of the JRE. This starts the certificate installation. You must insert the directory path to the downloaded certificate from step 1 before running the command. If you are running the Windows operating system, you will need to run the command prompt as an administrator.  
+2. Open a command prompt and run the following “keytool” command from the `bin` directory of the JRE. This starts the certificate installation. You must insert the directory path to the downloaded certificate from step 1 before running the command. If you are running the Windows operating system, you will need to run the command prompt as an administrator.  
   
     ```console
     keytool -importcert -file "InsertCertificateDownloadLocation\bc2025.crt" -keystore ..\lib\security\cacerts -alias baltimorecybertrustca  

@@ -1,5 +1,6 @@
 ---
 title: "Accessing the Bing Maps REST Services using PHP | Microsoft Docs"
+description: "Describes how to access the Bing Maps REST Services using PHP, outlines setting up an environment, and provides various code samples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
