@@ -1,5 +1,6 @@
 ---
 title: "GeoJSON Module | Microsoft Docs"
+description: Describes the GeoJSON module and provides the an example of a GeoJSON file, the module's static methods, and examples of the module in action.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

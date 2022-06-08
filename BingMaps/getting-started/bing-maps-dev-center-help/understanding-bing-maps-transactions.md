@@ -1,5 +1,6 @@
 ---
 title: "Understanding Bing Maps Transactions | Microsoft Docs"
+description: "Describes how to understand Bing Maps transactions and provides a table that outlines Bing Maps transactions by API with category descriptions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

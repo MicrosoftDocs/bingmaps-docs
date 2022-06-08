@@ -1,5 +1,6 @@
 ---
 title: "Get Job List | Microsoft Docs"
+description: "Describes how to get a job list and provides the URL template, template parameters, responses, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

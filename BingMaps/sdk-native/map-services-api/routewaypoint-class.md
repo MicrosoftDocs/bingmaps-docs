@@ -1,7 +1,6 @@
 ---
-title: RouteWaypoint Class | Microsoft Docs
-description: Describes the RouteWaypoint class for Android and iOS and provides the class's constructors and additional references.
-ms.author: kezhang
+title: "RouteWaypoint Class | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # RouteWaypoint Class

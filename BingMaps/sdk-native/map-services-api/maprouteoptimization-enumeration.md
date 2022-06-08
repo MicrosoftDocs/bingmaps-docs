@@ -1,7 +1,6 @@
 ---
-title: MapRouteOptimization Enumeration | Microsoft Docs
-description: Describes the MapRouteOptimization enumeration for Android and iOS and provides the enumeration's values and additional references.
-ms.author: kezhang
+title: "MapRouteOptimization Enumeration | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # MapRouteOptimization Enumeration

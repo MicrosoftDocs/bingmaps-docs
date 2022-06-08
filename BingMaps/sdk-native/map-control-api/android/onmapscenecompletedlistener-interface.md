@@ -1,6 +1,7 @@
 ---
-title: "OnMapSceneCompletedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapSceneCompletedListener Interface | Microsoft Docs
+description: Describes the OnMapSceneCompletedListener callback interface for Android and provides the MapView reference.
+ms.author: pablocan
 ---
 
 # OnMapSceneCompletedListener Interface (Android only)

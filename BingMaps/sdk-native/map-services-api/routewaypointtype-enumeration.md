@@ -1,7 +1,6 @@
 ---
-title: RouteWaypointType Enumeration | Microsoft Docs
-description: Describes the RouteWaypointType enumeration for android and iOS and provides the enumeration's values and additional references.
-ms.author: kezhang
+title: "RouteWaypointType Enumeration | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # RouteWaypointType Enumeration

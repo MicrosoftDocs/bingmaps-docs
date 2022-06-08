@@ -1,7 +1,6 @@
 ---
-title: MapRouteRestrictions Enumeration | Microsoft Docs
-description: Describes the MapRouteRestrictions enumeration for Android and iOS and provides the enumeration's values and additional references.
-ms.author: kezhang
+title: "MapRouteRestrictions Enumeration | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # MapRouteRestrictions Enumeration

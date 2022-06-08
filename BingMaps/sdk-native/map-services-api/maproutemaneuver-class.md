@@ -1,7 +1,6 @@
 ---
-title: MapRouteManeuver Class | Microsoft Docs
-description: Describes the mapRouteManeuver class for Android and iOS and provides the class's properties and additional references.
-ms.author: kezhang
+title: "MapRouteManeuver Class | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # MapRouteManeuver Class

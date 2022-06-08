@@ -1,6 +1,7 @@
 ---
-title: "OnMapFlyoutTappedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapFlyoutTappedListener Interface | Microsoft Docs
+description: Describes the OnMapFlyoutTappedListener interface for Android and provides the MapFlyoutTappedEventArgs and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapFlyoutTappedListener Interface (Android only)

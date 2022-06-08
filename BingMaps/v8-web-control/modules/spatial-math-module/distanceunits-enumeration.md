@@ -1,5 +1,6 @@
 ---
 title: "DistanceUnits Enumeration | Microsoft Docs"
+description: Describes the DistanceUnits enumeration, which specifies the unit of measurement of a linear distance, and provides a list of units.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

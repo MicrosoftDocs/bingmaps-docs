@@ -1,7 +1,6 @@
 ---
-title: MapRouteManeuverKind Enumeration | Microsoft Docs
-description: Describes the MapRouteManeuverKind enumeration for Android and iOS and provides the enumeration's values and additional references.
-ms.author: kezhang
+title: "MapRouteManeuverKind Enumeration | Microsoft Docs"
+ms.author: "kezhang"
 ---
 
 # MapRouteManeuverKind Enumeration
