@@ -1,6 +1,6 @@
 ---
 title: "GeoDataResult Object | Microsoft Docs"
-description: Describes the GeoDataResult object, which represents a single result GeoData API object, and provides its properties.
+description: Describes the GeoDataResult object, which represents a single result GeoData API object, and includes descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

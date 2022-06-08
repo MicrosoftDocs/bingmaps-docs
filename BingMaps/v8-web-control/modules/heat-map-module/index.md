@@ -1,6 +1,6 @@
 ---
 title: "Heat Map Module | Microsoft Docs"
-description: Describes the Heat Map module, which creates heat maps from data, and provides links to API reference and concepts documentation and examples.
+description: Describes the Heat Map module, which creates heat maps from data, and provides links to API reference, a concept article and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Spatial Data Service Module | Microsoft Docs"
-description: Describes the Spatial Data Service module, which allows uploading data to expose as a spatial REST service for applications.
+description: The overview page for the Spatial Data Service module, which allows uploading data to expose as a spatial REST service for applications, with links to articles that describe the various classes, enumerators, a filter example and several more examples demonstrating both the Query and GeoData API.
 ms.custom: ""
 ms.date: "09/26/2018"
 ms.reviewer: ""

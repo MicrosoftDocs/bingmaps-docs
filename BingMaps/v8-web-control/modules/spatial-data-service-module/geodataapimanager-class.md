@@ -1,6 +1,6 @@
 ---
 title: "GeoDataAPIManager Class | Microsoft Docs"
-description: Describes the GeoDataAPIManager class and details its static methods, network status parameter, and troubleshooting tips.
+description: Describes the GeoDataAPIManager class, a static class that provides the ability to request polygons that describe the boundaries of geographic entities, and details its static method, network status parameter, and troubleshooting tips.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "FilterCompareOperator Enumeration | Microsoft Docs"
-description: Describes FilterCompareOperator enumeration, which defines how to compare filter values against property values.
+description: Describes the FilterCompareOperator enumeration, which defines how to compare filter values against property values.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "MatchConfidence Enumeration | Microsoft Docs"
-description: Describes MatchConfidence enumeration, which defines confidence level of geocoded location results, and provides an explanation of confidence levels.
+description: Describes MatchConfidence enumeration, which defines confidence level of geocoded location results, and provides a description for each confidence level which includes high, medium, low and unknown.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
