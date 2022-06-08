@@ -1,9 +1,9 @@
 ---
 # required metadata
 title: "Bing Maps REST Asynchronous Requests | Microsoft Docs"
-description: Learn about asynchronous requests in Bing Maps.
+description: "Describes asynchronous requests and provides a table for RouteProxyAsyncResult resource that gives a description and type for JSON and XML fields."
 author: "v-chrfr"
-ms.author: v-munksteve
+ms.author: "eriklind"
 ms.date: "06/19/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

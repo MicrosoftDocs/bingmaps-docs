@@ -1,17 +1,18 @@
 ---
-title: "Venue entity JSON class | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue entity JSON class | Microsoft Docs
+description: Venue entity JSON class encapsulates an individual entity on the floor of a venue. Includes Properties and Example.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 9D976057-A797-4DCA-A48B-ED6DD2654316
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Venue entity JSON class
 
