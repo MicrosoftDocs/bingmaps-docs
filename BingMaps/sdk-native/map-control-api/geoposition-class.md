@@ -1,6 +1,7 @@
 ---
-title: "Geoposition Class | Microsoft Docs"
-ms.author: "pablocan"
+title: Geoposition Class | Microsoft Docs
+description: Describes the Geoposition class and Android and iOS and provides the class' constructor, static methods, and properties.
+ms.author: pablocan
 ---
 
 # Geoposition Class

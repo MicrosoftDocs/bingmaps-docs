@@ -1,6 +1,7 @@
 ---
-title: "MSMapLocationProviderBuilder Class | Microsoft Docs"
-ms.author: "adl"
+title: MSMapLocationProviderBuilder Class | Microsoft Docs
+description: Describes the MSMapLocationProviderBuilder class for iOS and provides the class' syntax, properties, and methods.
+ms.author: adl
 ---
 
 # MSMapLocationProviderBuilder Class (iOS only)
