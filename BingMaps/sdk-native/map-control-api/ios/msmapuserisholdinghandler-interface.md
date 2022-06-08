@@ -1,6 +1,7 @@
 ---
-title: "MSMapUserIsHoldingHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapUserIsHoldingHandler Interface | Microsoft Docs
+description: Describes the MSMapUserIsHoldingHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapUserIsHoldingHandler Interface (iOS only)

@@ -1,6 +1,7 @@
 ---
-title: "MapProjection Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapProjection Enumeration | Microsoft Docs
+description: Describes the MapProjection enumeration for Android and iOS and provides the enumeration's Web mercator and Globe values.
+ms.author: pablocan
 ---
 
 # MapProjection Enumeration

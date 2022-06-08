@@ -1,6 +1,7 @@
 ---
-title: "MSMapUserLocationTrackingInterruptedEventArgs Class | Microsoft Docs"
-ms.author: "adl"
+title: MSMapUserLocationTrackingInterruptedEventArgs Class | Microsoft Docs
+description: Describes the MSMapUserLocationTrackingInterruptedEventArgs class for iOS and provides the class' syntax and additional references.
+ms.author: adl
 ---
 
 # MSMapUserLocationTrackingInterruptedEventArgs Class (iOS only)
