@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlLayerOptions Object | Microsoft Docs"
+description: Describes the GeoXmlLayerOptions object, used to customize how a GeoXmlLayer renders, with a description of each available property.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

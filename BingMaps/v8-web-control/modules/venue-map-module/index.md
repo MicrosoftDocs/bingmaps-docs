@@ -1,6 +1,6 @@
 ---
 title: "Venue Maps Module | Microsoft Docs"
-description: Overview page for the Venue Maps module section, with a description and links to the API reference and examples.
+description: Describes the Venue Maps module and provides links to related API reference documentation and examples that use the Venue Maps module.
 ms.custom: ""
 ms.date: "06/11/2020"
 ms.reviewer: ""
@@ -25,7 +25,7 @@ ms.service: "bing-maps"
 
 Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) class. A [VenueMap](venuemap-class.md) is associated with a [Map](../../map-control-api/map-class.md) instance. 
 
-<p> <b> VenueMap </b>  </p>                                              
+**VenueMap**                                          
 <img src="../../media/bmv8-venuemap.png" alt="Venue Map" class="center"/> </p>
 
 

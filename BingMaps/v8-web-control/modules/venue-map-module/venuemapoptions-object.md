@@ -1,6 +1,6 @@
 ---
-title: "Venue Maps Options Object | Microsoft Docs"
-description: Learn about the Venue Maps options object including its properties and the VenueMapMetadataLoader Method.
+title: "VenueMapsOptions Object | Microsoft Docs"
+description: Describes the VenueMapsOptions object that is used to customize how a Venue file is read and loaded via the VenueMapFactory and details its properties and the VenueMapMetadataLoader method.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""

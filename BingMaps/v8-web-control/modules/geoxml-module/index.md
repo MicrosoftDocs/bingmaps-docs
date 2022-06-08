@@ -1,5 +1,6 @@
 ---
 title: "GeoXml Module | Microsoft Docs"
+description: Describes the GeoXml module, and provides links to API reference documentation, examples, namespaces, and KML, GeoRSS, GML, and GPX elements.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

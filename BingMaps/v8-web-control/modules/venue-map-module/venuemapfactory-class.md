@@ -1,6 +1,6 @@
 ---
 title: "Venue Maps Factory Class | Microsoft Docs"
-description: The VenueMapFactory class can create instances of the VenueMap class.
+description: Describes the Venue Maps factory class, which creates instances of the VenueMap class, and details its constructor and create method.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""

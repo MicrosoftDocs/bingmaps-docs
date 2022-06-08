@@ -1,7 +1,7 @@
 ---
-title: "MapPermissionsDelegate Interface | Microsoft Docs"
-description: Learn about the MapPermissionsDelegate interface.
-ms.author: v-munksteve
+title: MapPermissionsDelegate Interface | Microsoft Docs
+description: Describes the MapPermissionsDelegate interface for Android and provides the MapPermissionsCallback, RequestArgs, RequestReason, and MapView references.
+ms.author: sasakthi
 ---
 
 # MapPermissionsDelegate Interface (Android only)

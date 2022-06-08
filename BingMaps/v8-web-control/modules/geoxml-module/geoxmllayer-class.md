@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlLayer Class | Microsoft Docs"
+description: Describes the GeoXmlLayer class, a layer that loads and renders geospatial XML data on the map, including descriptions of its constructor, properties, methods, and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
