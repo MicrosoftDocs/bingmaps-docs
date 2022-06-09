@@ -1,6 +1,6 @@
 ---
 title: "Bing Spatial Data Services | Microsoft Docs"
-description: An introduction to the Bing Maps Spatial Data Services API, which provides a REST interface that can geocode, store and query spatial data.
+description: "The overview page for the Spatial Data Services section, which uses REST URLS to geocode, store and query spatial data. Describes what you can do with these API and contains a list of links to topics in this section with descriptions for each."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -32,7 +32,7 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
 ## In this Section  
   
 |Resource|Description|  
-|--------|-----------|  
+|-|-|  
 |[Getting Started](../spatial-data-services/getting-started-with-the-spatial-data-services.md)|Provides information to help you get started with the Bing Spatial Data Services.|
 |[Public Data Sources](public-data-sources/index.md)|Includes descriptions of public data sources that you can query.|  
 |[Status Codes and Error Handling](../spatial-data-services/status-codes-and-error-handling.md)|Describes the HTTP errors that can occur when you use the Bing Spatial Data Services APIs.|  

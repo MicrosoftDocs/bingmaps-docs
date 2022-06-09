@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with the Spatial Data Services | Microsoft Docs"
-description: Bing Spatial Data Services REST APIs work with large spatial data sets, enabling you to geocode spatial data and store it in a spatial component that you can query, this article includes links to several Spatial Data Service how to articles.
+description: "Describes process of getting started with the Spatial Data Services and provides various resources on how to work with spatial data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -63,7 +63,7 @@ To get started with the Bing Spatial Data Services, you must have a [Bing Maps K
 ## Public Data Sources  
  The following are public data sources that you can access with any Bing Maps Key.  
   
-|||  
+|Data Source|Description|  
 |-|-|  
 |[NAVTEQNA Data Source](public-data-sources/navteqna.md)|NavTechNA is a data source that contains points of interest in North America.| 
 |[Traffic Incident Data Source](public-data-sources/traffic-incident-data-source.md)|TrafficIncident is a data source that contains traffic incidents data in the United States and Canada.|  

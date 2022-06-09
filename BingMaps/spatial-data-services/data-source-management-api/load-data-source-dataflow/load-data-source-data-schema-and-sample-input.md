@@ -1,6 +1,6 @@
 ---
 title: "Load Data Source Data Schema and Sample Input | Microsoft Docs"
-description: Learn about load data source data schema and sample input.
+description: "Learn how to provide Data schema and a set of input data to create a data source using the Load Data Source Dataflow API. This article provides sample input, location properties, an example data schema, and property name requirements."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -91,9 +91,8 @@ You must provide a data schema and a set of input data to create a data source w
   
  The following table shows the available properties for defining a point on the Earth and their corresponding types.  
   
-  
-|**Attribute**|**Description**|**Input Data Type**|**OData Data Type**|
-|-------------|---------------|-------------------|-------------------|
+|Attribute|Description|Input Data Type|OData Data Type|  
+|-|-|-|-|  
 |Latitude|The latitude of the entity location.|double|Edm.Double|  
 |Longitude|The longitude of the entity location.|double|Edm.Double|  
 |Elevation|The elevation of the entity location.|double|Edm.Double|  

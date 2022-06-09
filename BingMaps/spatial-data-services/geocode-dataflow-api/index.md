@@ -1,6 +1,6 @@
 ---
 title: "Geocode Dataflow API | Microsoft Docs"
-description: Learn what is available in Bing Maps Geocode Dataflow API.
+description: "The overview page for the Geocode Dataflow API, which uses REST URLs to geocode and reverse-geocode large sets of spatial data, with information on what you need to do in order to use these API along with links to articles that describe the data schema, how to create and check on jobs, download results, sample input/output files, sample code and a walkthrough."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -35,8 +35,8 @@ ms.service: "bing-maps"
   
 ## In this Section  
   
-|Article|Description|  
-|-------|-----------|  
+|Resource|Description|  
+|-|-|  
 |[Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md)|Describes how to create a job to geocode and reverse-geocode the data.|  
 |[Get Job Status](../geocode-dataflow-api/get-status-of-a-geocode-job.md)|Describes how to get the status of a geocode job.|  
 |[Download Results](../geocode-dataflow-api/download-geocode-job-results.md)|Describes how to download geocoded results.|  

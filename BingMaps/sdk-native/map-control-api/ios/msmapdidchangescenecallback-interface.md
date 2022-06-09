@@ -1,6 +1,7 @@
 ---
-title: "MSMapDidChangeSceneCallback Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapDidChangeSceneCallback Interface | Microsoft Docs
+description: Describes the MSMapDidChangeSceneCallback interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapDidChangeSceneCallback Interface (iOS only)

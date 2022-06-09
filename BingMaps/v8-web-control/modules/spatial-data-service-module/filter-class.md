@@ -1,5 +1,6 @@
 ---
 title: "Filter Class | Microsoft Docs"
+description: Describes the filter class, which defines filter expression logic, and provides its constructor and methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -15,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Filter Class
 
-The Fitler class defines the logic behind a filter expression that can be executed against a JSON object or generate a filter string that can be used with the Bing Spatial Data Services.
+The Filter class defines the logic behind a filter expression that can be executed against a JSON object or generate a filter string that can be used with the Bing Spatial Data Services.
 
 ## Constructor
 
