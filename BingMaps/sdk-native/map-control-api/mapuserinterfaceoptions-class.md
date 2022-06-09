@@ -1,6 +1,7 @@
 ---
-title: "MapUserInterfaceOptions Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapUserInterfaceOptions Class | Microsoft Docs
+description: Describes the MapUserInterfaceOptions class for Android and iOS and provides the class's properties, methods, and events.
+ms.author: pablocan
 ---
 
 # MapUserInterfaceOptions Class

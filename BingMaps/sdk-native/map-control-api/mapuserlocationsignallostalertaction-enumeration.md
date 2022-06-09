@@ -1,6 +1,7 @@
 ---
-title: "MapUserLocationSignalLostAlertAction Enumeration | Microsoft Docs"
-ms.author: "adl"
+title: MapUserLocationSignalLostAlertAction Enumeration | Microsoft Docs
+description: Describes the MapUserLocationSignalLostAlertAction enumeration for Android and iOS and provides the enumeration's Ignore and Show values.
+ms.author: adl
 ---
 
 # MapUserLocationSignalLostAlertAction Enumeration

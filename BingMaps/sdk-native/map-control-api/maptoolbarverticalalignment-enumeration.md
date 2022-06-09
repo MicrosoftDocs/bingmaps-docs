@@ -1,6 +1,7 @@
 ---
-title: "MapToolbarVerticalAlignment Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapToolbarVerticalAlignment Enumeration | Microsoft Docs
+description: Describes the MapToolbarVerticalAlignment enumeration for Android and iOS and provides the enumeration's Top, Center, and Bottom values.
+ms.author: pablocan
 ---
 
 # MapToolbarVerticalAlignment Enumeration
