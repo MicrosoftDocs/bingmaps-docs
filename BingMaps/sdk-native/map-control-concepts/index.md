@@ -1,6 +1,6 @@
 ---
 title: Map Control Concept Reference | Microsoft Docs
-description: Describes map control concepts and provides a table that outlines a description for various concepts.
+description: The overview page for the Bing Map Control Concepts section contains a table containing the major set of concepts and links to examples.
 ms.author: pablocan
 ---
 

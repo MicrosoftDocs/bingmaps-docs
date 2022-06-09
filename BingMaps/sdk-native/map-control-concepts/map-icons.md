@@ -1,6 +1,6 @@
 ---
 title: Map Icons | Microsoft Docs
-description: Describes icons's utility, outlines how to display icons on the map, and provides additional references.
+description: Describes Icons, the primary way to add a graphical image and text at a location within the map using the Bing Maps native controls, with a link to examples and additional information.
 ms.author: pablocan
 ---
 

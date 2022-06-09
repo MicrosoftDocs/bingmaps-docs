@@ -1,6 +1,6 @@
 ---
 title: MapServices API Reference | Microsoft Docs
-description: Provides a reference of MapServices API through tables that outline details for various classes, enumerations, and interfaces.
+description: The overview page for the MapServices API Reference section contains tables containing descriptions and links to more information for each of the MapServices classes, Enumerations and interfaces.
 ms.author: pablocan
 ---
 

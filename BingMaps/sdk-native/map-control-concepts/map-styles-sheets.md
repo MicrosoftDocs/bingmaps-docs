@@ -1,6 +1,6 @@
 ---
 title: Style Sheets | Microsoft Docs
-description: Describes map style sheets and the MapStyleSheet static methods and provides information on default and custom map style sheets.
+description: Describes map style sheets, which represent a set of rules that define the style of the map in a map view, including a table listing the default styles such as Aerial, RoadDark and RoadHighContrastDark and links to articles describing how to create custom map styles.
 ms.author: pablocan
 ---
 

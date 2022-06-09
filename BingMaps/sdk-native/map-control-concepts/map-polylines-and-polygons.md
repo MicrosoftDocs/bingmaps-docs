@@ -1,6 +1,6 @@
 ---
 title: Map Polylines and Polygons | Microsoft Docs
-description: Describes polylines and polygons and provides additional resources and examples to provide guidance for drawing with polylines and polygons.
+description: Describes polylines and polygons with a link to examples and additional information.
 ms.author: pablocan
 ---
 

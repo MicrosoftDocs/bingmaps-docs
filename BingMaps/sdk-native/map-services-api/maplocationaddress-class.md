@@ -1,6 +1,6 @@
 ---
 title: MapLocationAddress Class | Microsoft Docs
-description: Describes the MapLocationAddress class for Android and iOS and provides the class's properties and additional references.
+description: Describes the MapLocationAddress class for Android and iOS with descriptions for each of its properties.
 ms.author: pablocan
 ---
 
