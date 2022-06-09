@@ -1,6 +1,6 @@
 ---
 title: "Along a Route Search | Microsoft Docs"
-description: Provides a code example showing code that searches for locations along a route using the built-in direction input panel and a data source.
+description: An example demonstrating how to use the Query API to search for locations along a route using the built-in direction input panel and the Fourth Coffee Sample data source.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

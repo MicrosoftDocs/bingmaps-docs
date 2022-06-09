@@ -1,6 +1,6 @@
 ---
 title: "Basic Intersection Search Example | Microsoft Docs"
-description: Provides a code example that makes a simple intersection query against a data source using the map bounds.
+description: Example code demonstrating how to use the Query API to make a simple intersection query against a data source using the map bounds.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

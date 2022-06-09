@@ -1,6 +1,6 @@
 ---
 title: "Query API Examples | Microsoft Docs"
-description: Provides a list of examples for the Bing Spatial Data Services Query API, which is used to query data sources for entity information.
+description: The overview page for the Query API Examples section contains a description and links to examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

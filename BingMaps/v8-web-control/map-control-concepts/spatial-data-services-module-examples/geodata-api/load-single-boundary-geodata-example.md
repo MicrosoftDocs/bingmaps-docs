@@ -1,6 +1,6 @@
 ---
 title: "Load Single Boundary GeoData Example | Microsoft Docs"
-description: Provides a code example that renders a PopulatedPlace boundary for a location that is in the center of the map view when it's loaded.
+description: An example demonstrating how to display a map with boundaries using the GeoData API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

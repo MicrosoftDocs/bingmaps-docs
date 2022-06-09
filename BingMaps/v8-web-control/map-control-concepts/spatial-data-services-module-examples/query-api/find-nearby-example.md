@@ -1,6 +1,6 @@
 ---
 title: "Find Nearby Example | Microsoft Docs"
-description: Provides a code example that uses a nearby search to retrieve 25 gas stations that are within 25 kilometers of the map center.
+description: Example code that uses a nearby search, also known as a radial search, that can retrieve up to 25 gas stations within 25 kilometers of the map center.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

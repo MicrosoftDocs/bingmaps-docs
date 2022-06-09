@@ -1,6 +1,6 @@
 ---
 title: "Spatial Math Module Examples | Microsoft Docs"
-description: Describes the Spatial Math module, which provides commonly required spatial calculations, and provides lists of examples and related topics.
+description: Example code that uses the Spatial Math library to calculate a regular polygon with 36 sides centered on the user’s location and renders it as a polygon with a pushpin in the center.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

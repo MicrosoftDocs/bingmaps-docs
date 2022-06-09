@@ -1,6 +1,6 @@
 ---
 title: "Load Multiple Boundaries GeoData Example | Microsoft Docs"
-description: Provides a code example that shows how to request multiple location boundaries and render them on a map.
+description: An example demonstrating how to request multiple location boundaries and render them on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

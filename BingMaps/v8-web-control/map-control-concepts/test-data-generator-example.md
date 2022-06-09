@@ -1,6 +1,6 @@
 ---
 title: "Test Data Generator Example | Microsoft Docs"
-description: Provides a code example that creates two random polygons with a scaleFactor of 0.5 random polygon options and a hole.
+description: Example code that demonstrates how to create two random polygons with a scaleFactor of 0.5, random polygon options and a hole.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

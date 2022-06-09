@@ -1,6 +1,6 @@
 ---
 title: "Choropleth Map Example | Microsoft Docs"
-description: Provides a code example that retrieves US state boundaries from a spatial data source that contains US census data.
+description: Example code that retrieves US state boundaries from a spatial data source containing US census data to create a map with color coded boundaries based on the population size.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

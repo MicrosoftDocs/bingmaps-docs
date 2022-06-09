@@ -1,6 +1,6 @@
 ---
 title: "Basic Core Spatial Math Example | Microsoft Docs"
-description: Provides a code example that uses a number of core Spatial Math functions to calculate a geodesic line between points.
+description: Example code that uses a number of core Spatial Math functions to calculate a geodesic line between points, following the curvature of the earth, and then also converts the northwest coordinate into Degree Minute Second format.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

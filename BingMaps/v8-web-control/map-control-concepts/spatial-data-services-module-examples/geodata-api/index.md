@@ -1,6 +1,6 @@
 ---
 title: "GeoData API Examples | Microsoft Docs"
-description: Describes the GeoData API and provides a list of GeoData service examples and links to related topics.
+description: Describes the GeoData API and provides links to GeoData service examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

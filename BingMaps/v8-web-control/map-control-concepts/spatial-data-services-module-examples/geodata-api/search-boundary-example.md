@@ -1,6 +1,6 @@
 ---
 title: "Search Boundary Example | Microsoft Docs"
-description: Provides a code example that uses the search module to geocode a user's specified location and render the requested boundary onto a map.
+description: Provides a code example that uses the search module to geocode a specified location and render the requested boundary onto a map using the GeoData API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
