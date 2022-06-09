@@ -1,6 +1,6 @@
 ---
 title: "Data Binning Module | Microsoft Docs"
-description: Describes the data binning module and provides API reference documentation and links to code examples.
+description: The overview page for the Data Binning Module section contains a description of Data Binning, the process of grouping point data into a symmetric gird of geometric shapes and provides links to API reference articles and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

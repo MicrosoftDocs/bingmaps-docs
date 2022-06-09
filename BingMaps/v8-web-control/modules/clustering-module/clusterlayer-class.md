@@ -1,6 +1,6 @@
 ---
 title: "ClusterLayer Class | Microsoft Docs"
-description: Describes the ClusterLayer class, which controls clustering functionality, and provides the class's constructor, methods, and events.
+description: Describes the ClusterLayer class, which controls clustering functionality, and provides a description for its constructor, methods, and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

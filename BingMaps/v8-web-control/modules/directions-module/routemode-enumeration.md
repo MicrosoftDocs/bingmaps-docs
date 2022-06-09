@@ -1,6 +1,6 @@
 ---
 title: "RouteMode Enumeration | Microsoft Docs"
-description: Describes RouteMode enumeration, which defines the type of route to calculate, and provides a list of related properties.
+description: Describes RouteMode enumeration, which defines the type of route to calculate, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

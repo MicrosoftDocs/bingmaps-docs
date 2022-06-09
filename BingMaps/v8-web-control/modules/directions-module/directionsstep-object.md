@@ -1,6 +1,6 @@
 ---
 title: "DirectionsStep Object | Microsoft Docs"
-description: Describes the DirectionsStep object, which represents a direction in a set of directions, and provides a list of related properties.
+description: Describes the DirectionsStep object, which represents a direction in a set of directions, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

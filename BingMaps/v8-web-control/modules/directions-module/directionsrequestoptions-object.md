@@ -1,6 +1,6 @@
 ---
 title: "DirectionsRequestOptions Object | Microsoft Docs"
-description: Describes the DirectionsRequestOptions object, which contains direction request options, and provides a list of related properties.
+description: Describes the DirectionsRequestOptions object, which contains direction request options, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

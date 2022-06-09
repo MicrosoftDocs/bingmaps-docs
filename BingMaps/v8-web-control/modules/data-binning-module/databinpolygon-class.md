@@ -1,6 +1,6 @@
 ---
 title: "DataBinPolygon Class | Microsoft Docs"
-description: Describes the DataBinPolygon class, which is an extension of the Polygon class, and provides a list of related properties.
+description: Describes the DataBinPolygon class, which is an extension of the Polygon class, and provides a description for its dataBinInfo property.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

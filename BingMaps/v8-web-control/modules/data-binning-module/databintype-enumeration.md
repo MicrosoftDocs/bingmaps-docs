@@ -1,6 +1,6 @@
 ---
 title: "DataBinType Enumeration | Microsoft Docs"
-description: Describes the DataBinType enumeration, which is used to specify data bin shape rendering, and provides a list of related properties.
+description: Describes the DataBinType enumeration, which is used to specify the shape of a data bin rendered in the layer, and provides a list of its properties which includes circle, hexagon, hexCircle, pointyHexagon and square.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

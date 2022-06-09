@@ -1,6 +1,6 @@
 ---
 title: "DirectionsEventArgs Object | Microsoft Docs"
-description: Describes the DirectionsEventArgs object, which contains direction event arguments, and provides a list of related properties.
+description: Describes the DirectionsEventArgs object, which contains direction event arguments, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
