@@ -1,6 +1,6 @@
 ---
 title: ViewPadding Class | Microsoft Docs
-description: Describes the ViewPadding class for Android and provides the class's Bottom, Left, Right, and Top properties.
+description: Describes the ViewPadding class for Android and provides examples of the class's Bottom, Left, Right, and Top properties.
 ms.author: pablocan
 ---
 

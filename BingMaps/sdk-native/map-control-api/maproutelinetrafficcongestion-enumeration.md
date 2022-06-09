@@ -1,6 +1,6 @@
 ---
 title: MapRouteLineTrafficCongestion Enumeration | Microsoft Docs
-description: Describes the MapRouteLineTrafficCongestion enumeration for Android and iOS and provides the enumeration's values and additional references.
+description: Describes the MapRouteLineTrafficCongestion enumeration for Android and iOS and provides the enumeration's values.
 ms.author: khass
 ---
 
