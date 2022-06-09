@@ -1,6 +1,7 @@
 ---
-title: "MapPolyline Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapPolyline Class | Microsoft Docs
+description: Describes the MapPolyline class for Android and iOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # MapPolyline Class

@@ -1,5 +1,6 @@
 ---
 title: "QueryAPIManager Class | Microsoft Docs"
+description: Describes the QueryAPIManager class, which controls the ability to query Bing Spatial Data Services data sources, and details its static methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

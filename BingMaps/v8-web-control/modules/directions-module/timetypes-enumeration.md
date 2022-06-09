@@ -1,5 +1,6 @@
 ---
 title: "TimeTypes Enumeration | Microsoft Docs"
+description: Describes the TimeTypes enumeration, which defines the transit time type, and provides a list of enumeration options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

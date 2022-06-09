@@ -1,5 +1,6 @@
 ---
 title: "2010 US Census Data Sources | Microsoft Docs"
+description: "Provides 2010 US Census data sources and provides query URLs, entity properties, and additional references."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

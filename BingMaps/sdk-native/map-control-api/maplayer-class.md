@@ -1,6 +1,7 @@
 ---
-title: "MapLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLayer Class | Microsoft Docs
+description: Describes the MapLayer class for Android and iOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # MapLayer Class

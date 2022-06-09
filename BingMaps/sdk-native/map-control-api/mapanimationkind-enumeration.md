@@ -1,6 +1,7 @@
 ---
-title: "MapAnimationKind Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapAnimationKind Enumeration | Microsoft Docs
+description: Describes the MapAnimationKind enumeration for Android and iOS and provides the enumeration's syntax and values.
+ms.author: pablocan
 ---
 
 # MapAnimationKind Enumeration

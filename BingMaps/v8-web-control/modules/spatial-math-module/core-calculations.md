@@ -1,5 +1,6 @@
 ---
 title: "Core Calculations | Microsoft Docs"
+description: Describes core calculations in the Spatial Math Module and provides a list of static methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

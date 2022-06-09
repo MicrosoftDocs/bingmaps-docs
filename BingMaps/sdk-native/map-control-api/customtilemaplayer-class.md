@@ -1,6 +1,7 @@
 ---
-title: "CustomTileMapLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: CustomTileMapLayer Class | Microsoft Docs
+description: Describes the CustomTileMapLayer class for Android and iOS and provides the class' properties, methods, and additional references.
+ms.author: pablocan
 ---
 
 # CustomTileMapLayer Class

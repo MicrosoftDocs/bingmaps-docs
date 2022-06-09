@@ -1,6 +1,7 @@
 ---
-title: "MapHoldingEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapHoldingEventArgs Class | Microsoft Docs
+description: Describes the MapHoldingEventArgs class for Android and outlines the class' Position and Location properties.
+ms.author: pablocan
 ---
 
 # MapHoldingEventArgs Class (Android only)

@@ -1,5 +1,6 @@
 ---
 title: "Asia Australia Pacific Transit Coverage | Microsoft Docs"
+description: "Describes Bing Maps API transit information for various countries in Asia and Oceania, including Australia, New Zealand, Hong Kong, Malaysia, and Taiwan."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

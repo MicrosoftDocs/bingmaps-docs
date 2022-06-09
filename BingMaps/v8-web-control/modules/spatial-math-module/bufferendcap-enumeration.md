@@ -1,5 +1,6 @@
 ---
 title: "BufferEndCap Enumeration | Microsoft Docs"
+description: Describes the BufferEndCap enumeration, which defines end of line buffering, and provides a list of line end types and a diagram demonstrating the different end cap types.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
