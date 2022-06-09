@@ -1,6 +1,6 @@
 ---
 title: "Download a Data Source Dataflow | Microsoft Docs"
-description: "Describes how to use the Data Source Download Dataflow API and provides a table that gives a description for various resources."
+description: The overview page for the Download a Data Source Dataflow section contains a description of the Data Source Download Dataflow API, used to download entity data from a published data source, and provides links to and descriptions of each article in this section.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

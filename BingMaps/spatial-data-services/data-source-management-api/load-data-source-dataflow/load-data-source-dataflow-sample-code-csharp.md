@@ -1,6 +1,6 @@
 ---
 title: "Load Data Source Dataflow Sample Code (C#) | Microsoft Docs"
-description: "Provides Load Data Source Dataflow sample C# code for classes that upload spatial data and check status of dataflow jobs and support classes."
+description: C# sample code demonstrating how to upload entity data to a data source using the Load Data Source Dataflow API
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

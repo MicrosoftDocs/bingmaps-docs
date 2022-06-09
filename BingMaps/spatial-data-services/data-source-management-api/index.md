@@ -1,6 +1,6 @@
 ---
 title: "Data Source Management API | Microsoft Docs"
-description: "Describes the Data Source Management API and provides tables that outline resources for various Data Source Actions with descriptions."
+description: The overview page for the Data Source Management API section contains a description of the Data Source Management API which is used to create and manage data sources that store spatial entity data for a user-defined entity type, and provides links to and descriptions of each article in this section as well as a table listing each data source and links with information on how to use each with both Bing Spatial Data Services and Bing Maps Account Center.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

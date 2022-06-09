@@ -1,6 +1,6 @@
 ---
 title: Breaking API changes in version 1.0 | Microsoft Docs
-description: Describes how to break API changes in version 1.0 of Bing Maps for Android and iOS and provides additional references.
+description: Describes the breaking changes in version1.0 of the Bing Maps SDK and detail impacts to Android and iOS.
 ms.author: pablocan
 ---
 

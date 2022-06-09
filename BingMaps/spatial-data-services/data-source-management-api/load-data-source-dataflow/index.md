@@ -1,6 +1,6 @@
 ---
 title: "Load Data Source Dataflow | Microsoft Docs"
-description: "Describes the Load Data Source Dataflow API and provides a table that gives a description for various resources."
+description: The overview page for the Load Data Source Dataflow section contains a description of the Load Data Source Dataflow API, used to create a data source that contains entity data for a user-specified entity type, and provides links to and descriptions of each article in this section.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
