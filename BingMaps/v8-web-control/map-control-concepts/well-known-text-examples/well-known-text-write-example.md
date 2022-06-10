@@ -1,5 +1,6 @@
 ---
 title: "Well Known Text Write Example | Microsoft Docs"
+description: Provides a code example that shows how to convert a Bing Maps shape into a Well Known Text string value and display it using an alert.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

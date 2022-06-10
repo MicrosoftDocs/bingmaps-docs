@@ -1,6 +1,7 @@
 ---
-title: "MapToolbarHorizontalAlignment Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapToolbarHorizontalAlignment Enumeration | Microsoft Docs
+description: Describes the MapToolbarHorizontalAlignment enumeration for Android and iOS and provides the enumeration's Right and Left values.
+ms.author: pablocan
 ---
 
 # MapToolbarHorizontalAlignment Enumeration

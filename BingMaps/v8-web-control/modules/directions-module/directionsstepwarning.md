@@ -1,5 +1,6 @@
 ---
 title: "DirectionsStepWarning | Microsoft Docs"
+description: Describes DirectionsStepWarning, which represents a route direction warning, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

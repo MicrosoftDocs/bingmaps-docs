@@ -1,5 +1,6 @@
 ---
 title: "Paged Search Results Example | Microsoft Docs"
+description: Example code that uses a data source to perform an initial radial search and displays the first ten results on the map as a list.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

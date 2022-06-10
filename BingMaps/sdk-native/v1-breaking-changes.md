@@ -1,6 +1,7 @@
 ---
-title: "Breaking API changes in version 1.0 | Microsoft Docs"
-ms.author: "pablocan"
+title: Breaking API changes in version 1.0 | Microsoft Docs
+description: Describes the breaking changes in version1.0 of the Bing Maps SDK and detail impacts to Android and iOS.
+ms.author: pablocan
 ---
 
 # Breaking API changes in version 1.0

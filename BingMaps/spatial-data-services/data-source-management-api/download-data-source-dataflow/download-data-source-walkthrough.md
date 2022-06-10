@@ -1,5 +1,6 @@
 ---
 title: "Download Data Source Walkthrough | Microsoft Docs"
+description: "Describes the top-level fields as well as all fields in each of the collections that are returned in response to making a Data Source Download Dataflow request, also includes data source download response examples in both JSON and XML formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

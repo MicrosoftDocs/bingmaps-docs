@@ -1,6 +1,7 @@
 ---
-title: "TrafficFlowMapLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficFlowMapLayer Class | Microsoft Docs
+description: Describes the TrafficFlowMapLayer class for Android and iOS and provides the class's properties and additional references.
+ms.author: pablocan
 ---
 
 # TrafficFlowMapLayer Class

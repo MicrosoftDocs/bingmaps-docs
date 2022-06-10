@@ -1,6 +1,7 @@
 ---
-title: "Anchoring MapIcons | Microsoft Docs"
-ms.author: "pablocan"
+title: Anchoring MapIcons | Microsoft Docs
+description: Describes Anchoring Map Icons and provides an example of how to zoom a map to make it appear as if the map icon is drifting to or from an anchored location.
+ms.author: pablocan
 ---
 
 # Anchoring MapIcons
