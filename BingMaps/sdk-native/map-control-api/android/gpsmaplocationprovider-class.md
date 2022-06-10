@@ -1,6 +1,7 @@
 ---
-title: "GPSMapLocationProvider Class | Microsoft Docs"
-ms.author: "adl"
+title: GPSMapLocationProvider Class | Microsoft Docs
+description: Describes the GPSMapLocationProvider class for Android and provides the class' constructor and properties.
+ms.author: adl
 ---
 
 # GPSMapLocationProvider Class (Android only)

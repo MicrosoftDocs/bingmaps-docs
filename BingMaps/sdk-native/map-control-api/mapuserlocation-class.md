@@ -1,6 +1,7 @@
 ---
-title: "MapUserLocation Class | Microsoft Docs"
-ms.author: "adl"
+title: MapUserLocation Class | Microsoft Docs
+description: Describes the MapUserLocation class for Android and iOS and provides the class's properties, methods, and events.
+ms.author: adl
 ---
 
 # MapUserLocation Class

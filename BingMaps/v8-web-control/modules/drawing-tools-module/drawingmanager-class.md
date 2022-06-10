@@ -1,5 +1,6 @@
 ---
 title: "DrawingManager Class | Microsoft Docs"
+description: Describes the DrawingManager class, which manages shape drawing and editing, and provides lists of the class's methods and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

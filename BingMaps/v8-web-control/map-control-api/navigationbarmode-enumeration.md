@@ -1,5 +1,6 @@
 ---
 title: "NavigationBarMode Enumeration | Microsoft Docs"
+description: "Describes the NavigationBarMode enumeration and provides a table that outlines the description and an example for various field names."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

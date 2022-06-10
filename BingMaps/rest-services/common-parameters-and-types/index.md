@@ -20,7 +20,7 @@ ms.service: "bing-maps"
 The Bing Maps REST Services use many common parameters and types. The topics in this section describe these common parameters and types.  
   
 ## In this section  
-  
+
 |Topic|Description|  
 |-|-|  
 |[Base URL Structure](base-url-structure.md)|Use the base URL for making calls to the Bing Maps REST Services.|  

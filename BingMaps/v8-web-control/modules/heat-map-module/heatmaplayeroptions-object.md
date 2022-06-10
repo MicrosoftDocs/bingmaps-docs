@@ -1,5 +1,6 @@
 ---
 title: "HeatMapLayerOptions Object | Microsoft Docs"
+description: Describes the HeatMapLayerOptions object, which controls options related to the heat map layers, and provides a list of properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

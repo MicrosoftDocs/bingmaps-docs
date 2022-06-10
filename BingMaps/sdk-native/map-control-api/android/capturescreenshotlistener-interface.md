@@ -1,6 +1,7 @@
 ---
-title: "CaptureScreenshotListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: CaptureScreenshotListener Interface | Microsoft Docs
+description: Describes the CaptureScreenshotListener interface for Android and provides the syntax for the interface and the MapView resource.
+ms.author: pablocan
 ---
 
 # CaptureScreenshotListener Interface (Android only)

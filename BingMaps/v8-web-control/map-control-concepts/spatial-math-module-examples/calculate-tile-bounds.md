@@ -1,5 +1,6 @@
 ---
 title: "Calculate Tile Bounds | Microsoft Docs"
+description: Example code that uses the Spatial Math library's Tile math functions to create custom visualizations.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "MapLocationFinderStatus Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationFinderStatus Enumeration | Microsoft Docs
+description: Describes the MapLocationFinderStatus enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationFinderStatus Enumeration

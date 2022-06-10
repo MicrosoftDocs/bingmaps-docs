@@ -1,6 +1,7 @@
 ---
-title: "MSMapCameraWillChangeHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapCameraWillChangeHandler Interface | Microsoft Docs
+description: Describes the MSMapCameraWillChangeHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapCameraWillChangeHandler Interface (iOS only)

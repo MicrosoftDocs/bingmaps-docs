@@ -1,6 +1,7 @@
 ---
-title: "Drawing with Polylines and Polygons | Microsoft Docs"
-ms.author: "pablocan"
+title: Drawing with Polylines and Polygons | Microsoft Docs
+description: Describes drawing with polylines and polygons and provides syntax and examples of adding lines and shapes.
+ms.author: pablocan
 ---
 
 # Drawing with Polylines and Polygons

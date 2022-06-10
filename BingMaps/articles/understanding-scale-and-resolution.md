@@ -44,8 +44,8 @@ The first problem with both scale and resolution is that the world is neither fl
  Remember that the zoom level goes from 1 to 19, and that latitude goes from -90 to 90 (assuming your cosine function works with degrees; if you need radians, multiply the latitude by Pi/180).  The equation naturally fails if you get too close to either pole, as the Mercator projection also fails when you get too close to the poles.  
   
  From this equation, we can calculate an estimated scale for each zoom level by assuming that we are at the equator:  
-  
-|Zoom Level|Scale (m/pixel)|Zoom Level|Scale (m/pixel)|  
+
+|Zoom Level|Scale (m/pixel)|Zoom Level|Scale (m/pixel)|
 |----|----|----|----|  
 |**1**|78271.52|**11**|76.44|  
 |**2**|39135.76|**12**|38.22|  

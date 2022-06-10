@@ -28,8 +28,8 @@ Use the Data Source Download Dataflow API to download entity data from a publish
 -   [Get Downloaded Data](../../data-source-management-api/download-data-source-dataflow/get-downloaded-data.md): Use the URL provided in the download status response to access the entity data that was downloaded from the data source.  
   
 ## In this Section  
-  
-|Topic|Description|  
+
+|Topic|Description|
 |-|-|  
 |[Create a Download Job](../../data-source-management-api/download-data-source-dataflow/create-a-download-job.md)|Describes how to create a job to download entity data from a data source.|  
 |[Get Download Data Source Job Status](../../data-source-management-api/download-data-source-dataflow/get-download-data-source-job-status.md)|Describes how to request status for a download data source job.|  

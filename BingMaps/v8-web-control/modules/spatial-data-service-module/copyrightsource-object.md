@@ -1,5 +1,6 @@
 ---
 title: "CopyrightSource Object | Microsoft Docs"
+description: Describes the CopyrightSource object, which represents the copyright source object for a GeoData API boundary, and details its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

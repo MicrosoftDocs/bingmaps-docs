@@ -1,5 +1,6 @@
 ---
 title: "Load Single Boundary GeoData Example | Microsoft Docs"
+description: An example demonstrating how to display a map with boundaries using the GeoData API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 The following topics describe how to use the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to create and manage data sources.  
   
 ## In this section  
-  
+
 |Topic|Description|  
 |-|-|  
 |[Uploading and Publishing Entity Data to a Data Source](uploading-and-publishing-entity-data-to-a-data-source.md)|Describes how to create, upload and publish entity data to a data source.|  

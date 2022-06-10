@@ -1,6 +1,7 @@
 ---
-title: "MapLocationProvider Class | Microsoft Docs"
-ms.author: "adl"
+title: MapLocationProvider Class | Microsoft Docs
+description: Describes the MapLocationProvider class for Android and outlines the class' methods, events, and properties.
+ms.author: adl
 ---
 
 # MapLocationProvider Class (Android only)

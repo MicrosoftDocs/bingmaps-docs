@@ -1,5 +1,6 @@
 ---
 title: "GeocodeRequestOptions Object | Microsoft Docs"
+description: Describes the GeocodeRequestOptions object, which contains geocode request options, and provides a list of properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
