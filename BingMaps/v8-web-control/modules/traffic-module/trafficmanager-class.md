@@ -1,5 +1,6 @@
 ---
 title: "TrafficManager Class | Microsoft Docs"
+description: Describes the TrafficManager class, which controls the show of traffic flow and incident data, and details the class's constructor and methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

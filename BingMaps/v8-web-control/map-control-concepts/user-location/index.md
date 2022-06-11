@@ -1,5 +1,6 @@
 ---
 title: "User Location | Microsoft Docs"
+description: Describes user location and provides a list of the PositionOptions Object, Position Object, and Coordinate Object properties with links to examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "VehicleSpec Object | Microsoft Docs"
+description: Describes the VehicleSpec object, which specifies the vehicle attributes for calculating a truck route, and provides a list of attributes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Copyright Object | Microsoft Docs"
+description: Describes the Copyright object, which is a GeoData API boundary's copyright object, and provides its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -23,4 +24,3 @@ Name                   | Type               | Description
 ---------------------- | ------------------ | ------------
 `CopyrightURL`           | string             | The copyright URL for the GeoData service.
 `Sources`                | [CopyrightSource](copyrightsource-object.md)[] | A collection of [CopyrightSource objects](copyrightsource-object.md) that give information about the sources of the polygon data that is returned.
-

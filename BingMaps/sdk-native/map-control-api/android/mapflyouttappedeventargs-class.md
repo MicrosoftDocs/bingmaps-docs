@@ -1,6 +1,7 @@
 ---
-title: "MapFlyoutTappedEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapFlyoutTappedEventArgs Class | Microsoft Docs
+description: Describes the MapFlyoutTappedEventArgs class for Android and outlines the Flyout and Parent Icon properties.
+ms.author: pablocan
 ---
 
 # MapFlyoutTappedEventArgs Class (Android only)

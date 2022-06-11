@@ -1,5 +1,6 @@
 ---
 title: "Route Object | Microsoft Docs"
+description: Describes the Route object, which represents a route, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "MapRouteLineTravelMode Enumeration | Microsoft Docs"
-ms.author: "khass"
+title: MapRouteLineTravelMode Enumeration | Microsoft Docs
+description: Describes the MapRouteLineTravelMode enumeration for Android and iOS and provides the enumeration's values.
+ms.author: khass
 ---
 
 # MapRouteLineTravelMode Enumeration

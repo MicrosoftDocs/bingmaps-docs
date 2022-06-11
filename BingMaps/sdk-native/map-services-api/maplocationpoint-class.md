@@ -1,6 +1,7 @@
 ---
-title: "MapLocationPoint Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationPoint Class | Microsoft Docs
+description: Describes the MapLocationPoint class for Android and iOS and provides the class's properties and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationPoint Class

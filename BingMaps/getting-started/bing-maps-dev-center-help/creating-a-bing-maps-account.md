@@ -1,5 +1,6 @@
 ---
 title: "Creating a Bing Maps Account | Microsoft Docs"
+description: "Describes how to create a Bing Maps account and provides a step-by-step process of creating a Bing Maps account and additional contacts."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

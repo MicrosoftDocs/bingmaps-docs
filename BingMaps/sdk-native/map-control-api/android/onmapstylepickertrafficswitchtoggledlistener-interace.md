@@ -1,6 +1,7 @@
 ---
-title: OnMapStylePickerTrafficSwitchToggledListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapStylePickerTrafficSwitchToggledListener Interface | Microsoft Docs
+description: Describes the OnMapStylePickerTrafficSwitchToggledListener interface for Android and provides syntax and additional references.
+ms.author: pablocan
 ---
 
 # OnMapStylePickerTrafficSwitchToggledListener Interface (Android only)

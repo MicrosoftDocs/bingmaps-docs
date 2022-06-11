@@ -1,5 +1,6 @@
 ---
 title: "GeocodeResult Object | Microsoft Docs"
+description: Describes the GeocodeResult object, which represents a geocode search result, and provides the object's properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

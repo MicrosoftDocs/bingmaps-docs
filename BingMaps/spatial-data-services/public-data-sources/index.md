@@ -1,5 +1,6 @@
 ---
 title: "Public Data Sources | Microsoft Docs"
+description: "The overview page for the Public Data Sources section, with a list of links to each data source available and a description for each."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

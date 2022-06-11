@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: bing-maps
 ---
 
-# Map Control API Reference
+# Map Control API Classes and Enumerations
 
 > [!Note]
 > In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.
