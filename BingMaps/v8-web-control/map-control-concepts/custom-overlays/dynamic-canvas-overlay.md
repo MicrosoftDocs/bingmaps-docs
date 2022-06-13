@@ -1,5 +1,6 @@
 ---
 title: "Dynamic Canvas Overlay | Microsoft Docs"
+description: "Describes the dynamic canvas overlay and provides a code example for the overlay and a reusable module."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

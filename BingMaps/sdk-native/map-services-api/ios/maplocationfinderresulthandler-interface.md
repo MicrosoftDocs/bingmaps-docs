@@ -1,6 +1,7 @@
 ---
-title: "MapLocationFinderResultHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationFinderResultHandler Interface | Microsoft Docs
+description: Describes the MapLocationFinderResultHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationFinderResultHandler Interface (iOS only)

@@ -1,5 +1,6 @@
 ---
 title: "Well Known Text Read Example | Microsoft Docs"
+description: Provides a code example that shows how to parse a Well Known Text string value into a Bing Maps shape and display it on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,21 +1,22 @@
 ---
-title: "Venue floor JSON class | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Venue floor JSON class | Microsoft Docs
+description: Venue floor JSON class encapsulates an individual floor of a venue that contains each entity on that floor.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 8FAB7B0D-C5AB-47B9-93AD-1FEF531B97B7
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: ""
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Venue floor JSON class
 
-Encapsulates an individual floor of a [venue] that contains the each [entity] on that floor.
+Encapsulates an individual floor of a [venue] that contains each [entity] on that floor.
 
 ## Properties
 

@@ -1,6 +1,7 @@
 ---
-title: "MapIcon Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapIcon Class | Microsoft Docs
+description: Describes the MapIcon class for Android and iOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # MapIcon Class

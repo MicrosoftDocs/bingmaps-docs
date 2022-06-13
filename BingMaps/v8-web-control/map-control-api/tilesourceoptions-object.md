@@ -1,5 +1,6 @@
 ---
 title: "TileSourceOptions Object | Microsoft Docs"
+description: "Describes the TileSourceOptions object and provides the object's tile URL parameters and a table that outlines the type and description for various objects."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

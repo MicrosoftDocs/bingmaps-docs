@@ -12,7 +12,7 @@ author: "jesselgit"
 ms.author: "jelevi"
 manager: ""
 ms.service: "bing-maps"
----
+
 # Open Maps: understanding ODbL
 
 **ODBL in Bing Maps**

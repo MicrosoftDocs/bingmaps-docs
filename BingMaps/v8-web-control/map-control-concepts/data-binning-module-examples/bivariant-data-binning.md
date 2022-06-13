@@ -1,5 +1,6 @@
 ---
 title: "Bivariant Data Binning | Microsoft Docs"
+description: Provides a code example that shows how to have a single data bin represent two data metrics in a method called bivariant data binning.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -94,8 +95,8 @@ In this example, each pushpin in the data set has a custom 'sales' metadata valu
 </html>
 ```
 
-Running this code will render a map covered in hexagons of differenct sizes and color, based on the pushpin data each bin contains.
+Running this code will render a map covered in hexagons of different sizes and color, based on the pushpin data each bin contains.
 
-![BMV8_BivariateHexBins](../../media/bmv8-bivariatehexbins.PNG)
+![Screenshot of a map of Redmond, Washington, showing hexagon data bins colored and sized according to the number of pushpins in each bin.](../../media/bmv8-bivariatehexbins.PNG)
  
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#bivariateDataBins+JS)

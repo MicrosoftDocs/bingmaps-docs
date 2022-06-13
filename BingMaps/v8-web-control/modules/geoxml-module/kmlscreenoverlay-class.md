@@ -1,5 +1,6 @@
 ---
 title: "KmlScreenOverlay Class | Microsoft Docs"
+description: Describes the KmlScreenOverlay class and provides its constructor, properties, and a list of methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

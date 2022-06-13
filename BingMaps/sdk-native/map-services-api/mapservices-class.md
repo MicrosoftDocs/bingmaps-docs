@@ -1,6 +1,7 @@
 ---
-title: "MapServices Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapServices Class | Microsoft Docs
+description: Describes the MapServices class for Android and iOS and provides the class's static methods and additional references.
+ms.author: pablocan
 ---
 
 # MapServices Class

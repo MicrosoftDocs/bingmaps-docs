@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Dataflow Response Description | Microsoft Docs"
+description: "Describes Load Data Source Dataflow responses and provides a table that outlines the type and description for JSON and XML fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

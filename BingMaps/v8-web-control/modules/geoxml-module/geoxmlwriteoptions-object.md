@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlWriteOptions Object | Microsoft Docs"
+description: Describes the GeoXmlWriteOptions object and its properties that are used to customize how the GeoXml writes XML.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

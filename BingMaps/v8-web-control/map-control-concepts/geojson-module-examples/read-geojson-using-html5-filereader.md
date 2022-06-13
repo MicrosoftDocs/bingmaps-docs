@@ -1,5 +1,6 @@
 ---
 title: "Read GeoJSON using HTML5 FileReader | Microsoft Docs"
+description: Provides a code example that shows how to enable drag and drop on a local GeoJSON file using the FileReader and Drag & Drop APIs available in HTML5.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read GeoJSON using HTML5 FileReader
 
-This code examples shows how to enable drag and drop a local GeoJSON file onto a map. To accomplish this, the FileReader and Drag & Drop API’s that are available in HTML5 are used. Good documentation on how to use these API’s together can be found [here](https://www.html5rocks.com/en/tutorials/file/dndfiles/#toc-selecting-files-dnd). This code will allow one or more GeoJSON files to be dropped and rendered onto the map.
+This code example shows how to enable drag and drop a local GeoJSON file onto a map. To accomplish this, the FileReader and Drag & Drop APIs that are available in HTML5 are used. Good documentation on how to use these APIs together can be found [here](https://www.html5rocks.com/en/tutorials/file/dndfiles/#toc-selecting-files-dnd). This code will allow one or more GeoJSON files to be dropped and rendered onto the map.
 
 ```html
 <!DOCTYPE html>
@@ -95,5 +96,5 @@ This code examples shows how to enable drag and drop a local GeoJSON file onto a
 ```
 
 The following image shows the neighborhood boundaries of Los Angeles that came from a GeoJSON file that was downloaded from [The Los Angeles Times](https://www.latimes.com/).
- 
-![BMV8_GeoJSON_LA](../../media/bmv8-geojson-la.png)
+
+![Screenshot of a Bing map showing polygon shapes overlaid on top of the neighborhood boundaries of Los Angeles.](../../media/bmv8-geojson-la.png)

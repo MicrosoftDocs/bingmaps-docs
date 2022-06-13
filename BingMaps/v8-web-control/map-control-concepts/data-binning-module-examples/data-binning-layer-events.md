@@ -1,5 +1,6 @@
 ---
 title: "Data Binning Layer Events | Microsoft Docs"
+description: Provides a code example that shows how to add events to the data binning layer which will fire when the mouse hovers over one of the data bins.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -76,6 +77,6 @@ This example shows how to add events to the data binning layer which will fire w
 
 Running this code in the browser will display hexagon bins on the map. If you however the mouse pointer over one of the polygons, its outline stroke color will turn red. Clicking on the data bin will display the number of pushpins that are in the data bin.
 
-![BMV8_DataBinning_Events](../../media/bmv8-databinning-events.png)
+![Screenshot of a Bing map with hexagon bin polygons on the map and an infobox for one hexagon showing there are three pushpins in the data bin.](../../media/bmv8-databinning-events.png)
  
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#basicBinningWithEvents+JS)

@@ -1,6 +1,7 @@
 ---
-title: "MapLoadingStatus Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLoadingStatus Enumeration | Microsoft Docs
+description: Describes the MapLoadingStatus enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLoadingStatus Enumeration

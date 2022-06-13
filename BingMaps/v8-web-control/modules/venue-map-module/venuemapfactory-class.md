@@ -1,5 +1,6 @@
 ---
 title: "Venue Maps Factory Class | Microsoft Docs"
+description: Describes the Venue Maps factory class, which creates instances of the VenueMap class, and details its constructor and create method.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""
@@ -9,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: "simshap"
+ms.author: v-munksteve
 manager: "cordellj"
 ms.service: "bing-maps"
 ---

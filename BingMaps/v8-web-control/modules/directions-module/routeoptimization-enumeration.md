@@ -1,5 +1,6 @@
 ---
 title: "RouteOptimization Enumeration | Microsoft Docs"
+description: Describes the RouteOptimization enumerators that define the optimization options for calculating directions such as shortestTime, timeWithTraffic, minimizeTransfers and minimizeWalking.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
