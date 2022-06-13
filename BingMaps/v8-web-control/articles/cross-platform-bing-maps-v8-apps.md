@@ -1,6 +1,6 @@
 ---
 title: "Cross Platform Bing Maps V8 apps | Microsoft Docs"
-description: Learn about Bing Maps V8 cross platform support.
+description: Learn about Bing Maps V8 cross platform support that enables support on mobile devices that support HTML5.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
