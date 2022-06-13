@@ -1,5 +1,6 @@
 ---
 title: "Create a Download Job | Microsoft Docs"
+description: "Describes process of creating a download job and provides supported HTTP methods, template parameters, examples, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "TrafficIncidentSeverity Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficIncidentSeverity Enumeration | Microsoft Docs
+description: Describes the TrafficIncidentSeverity enumeration for Android and iOS and provides the enumeration's syntax and additional references.
+ms.author: pablocan
 ---
 
 # TrafficIncidentSeverity Enumeration

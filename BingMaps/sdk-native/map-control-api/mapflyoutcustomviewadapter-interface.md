@@ -1,6 +1,7 @@
 ---
-title: "MapFlyoutCustomViewAdapter Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MapFlyoutCustomViewAdapter Interface | Microsoft Docs
+description: Describes the MapFlyoutCustomViewAdapter interface for iOS and provides the interface's parameters and additional references.
+ms.author: pablocan
 ---
 
 # MapFlyoutCustomViewAdapter Interface

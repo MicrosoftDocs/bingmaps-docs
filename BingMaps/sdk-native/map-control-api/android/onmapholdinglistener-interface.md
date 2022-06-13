@@ -1,6 +1,7 @@
 ---
-title: "OnMapHoldingListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapHoldingListener Interface | Microsoft Docs
+description: Describes the OnMapHoldingListener interface for Android and provides the MapHoldingEventArgs and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapHoldingListener Interface (Android only)

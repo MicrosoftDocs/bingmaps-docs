@@ -1,6 +1,7 @@
 ---
-title: "MapScene Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapScene Class | Microsoft Docs
+description: Describes the MapScene class for Android and iOS and provide the class's static methods and additional references.
+ms.author: pablocan
 ---
 
 # MapScene Class

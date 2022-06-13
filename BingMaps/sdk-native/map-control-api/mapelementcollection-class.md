@@ -1,6 +1,7 @@
 ---
-title: "MapElementCollection Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapElementCollection Class | Microsoft Docs
+description: Describes the MapElementCollection class for Android and iOS and provides the class' properties, methods, notes, and additional references.
+ms.author: pablocan
 ---
 
 # MapElementCollection Class

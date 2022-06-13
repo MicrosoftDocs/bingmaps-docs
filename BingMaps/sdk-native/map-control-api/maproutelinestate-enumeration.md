@@ -1,6 +1,7 @@
 ---
-title: "MapRouteLineState Enumeration | Microsoft Docs"
-ms.author: "khass"
+title: MapRouteLineState Enumeration | Microsoft Docs
+description: Describes the MapRouteLineState enumeration for Android and iOS and provides the enumeration's values.
+ms.author: khass
 ---
 
 # MapRouteLineState Enumeration

@@ -1,6 +1,7 @@
 ---
-title: "MapElementLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapElementLayer Class | Microsoft Docs
+description: Describes the MapElementLayer class for Android and iOS and provides the class' properties, events, and additional references.
+ms.author: pablocan
 ---
 
 # MapElementLayer Class
