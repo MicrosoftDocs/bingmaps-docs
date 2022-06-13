@@ -1,7 +1,7 @@
 ---
-title: "Map Style Sheets"
-description: Learn how to use a Map Style Sheet to represent a set of rules that define the style of the map.
-ms.author: "pablocan"
+title: Style Sheets | Microsoft Docs
+description: Describes map style sheets, which represent a set of rules that define the style of the map in a map view, including a table listing the default styles such as Aerial, RoadDark and RoadHighContrastDark and links to articles describing how to create custom map styles.
+ms.author: pablocan
 ---
 
 # Map Style Sheets

@@ -1,6 +1,7 @@
 ---
-title: "MapRenderMode Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapRenderMode Enumeration | Microsoft Docs
+description: Describes the MapRenderMode enumeration for Android and iOS and provides the enumeration's Raster and Vector values.
+ms.author: pablocan
 ---
 
 # MapRenderMode Enumeration

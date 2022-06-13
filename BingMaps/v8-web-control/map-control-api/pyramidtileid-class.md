@@ -1,5 +1,6 @@
 ---
 title: "PyramidTileId Class | Microsoft Docs"
+description: "Describes the PyramidTileId class and provide the class's constructor and tables that outline the class's properties, static methods, and additional references."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

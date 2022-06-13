@@ -1,5 +1,6 @@
 ---
 title: "DataBinningOptions Object | Microsoft Docs"
+description: Describes the DataBinningOptions object, which defines data binning layer rendering options, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

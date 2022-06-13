@@ -1,17 +1,17 @@
 ---
-title: "List Time Zones | Microsoft Docs"
-description: "This article provides API templates, parameters, and examples for the List Time Zones operation."
-ms.custom: ""
-ms.date: "12/11/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: List Time Zones | Microsoft Docs
+description: The list operation retrieves all available time zone data for either the IANA or Windows time zone standard.
+ms.custom: 
+ms.date: 12/11/2018
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: fa146e18-716a-49b7-88b3-17f78e617245
 caps.latest.revision: 6
-ms.author: "v-chrfr"
-manager: "stevelom"
-ms.service: "bing-maps"
+ms.author: v-munksteve
+manager: stevelom
+ms.service: bing-maps
 ---
 
 # List Time Zones

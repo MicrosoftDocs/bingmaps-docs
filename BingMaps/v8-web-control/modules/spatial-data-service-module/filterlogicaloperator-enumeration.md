@@ -1,5 +1,6 @@
 ---
 title: "FilterLogicalOperator Enumeration | Microsoft Docs"
+description: Describes the FilterLogicalOperator enumeration, which defines how two or more filters are linked together.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

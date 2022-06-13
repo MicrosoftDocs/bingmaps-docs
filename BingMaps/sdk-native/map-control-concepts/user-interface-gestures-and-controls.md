@@ -1,6 +1,7 @@
 ---
-title: "User Interface Gestures and Controls | Microsoft Docs"
-ms.author: "pablocan"
+title: User Interface Gestures and Controls | Microsoft Docs
+description: Describes user interface gestures and controls in Bing Maps and provides syntax examples for disabling zoom controls and gestures.
+ms.author: pablocan
 ---
 
 # User Interface Gestures and Controls

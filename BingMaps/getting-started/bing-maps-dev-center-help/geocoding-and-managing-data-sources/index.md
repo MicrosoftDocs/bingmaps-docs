@@ -1,5 +1,6 @@
 ---
 title: "Geocoding and Managing Data Sources | Microsoft Docs"
+description: "Provides Geocoding and managing data sources through a table that outlines the description for various resources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -18,7 +19,7 @@ The following topics describe how to use the Bing Maps Dev Center at [https://ww
   
 ## In this section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Uploading and Publishing Entity Data to a Data Source](uploading-and-publishing-entity-data-to-a-data-source.md)|Describes how to create, upload and publish entity data to a data source.|  
 |[Editing a Data Source](editing-a-data-source.md)|Describes how to edit entity data and data schemas for published data sources.|  

@@ -1,6 +1,7 @@
 ---
-title: "MSMapUserDidSelectStyleEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapUserDidSelectStyleEventArgs Class | Microsoft Docs
+description: Describes the MSMapUserDidSelectStyleEventArgs class for iOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # MSMapUserDidSelectStyleEventArgs Class (iOS only)

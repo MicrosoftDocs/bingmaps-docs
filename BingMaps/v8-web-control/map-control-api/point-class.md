@@ -1,5 +1,6 @@
 ---
 title: "Point Class | Microsoft Docs"
+description: "Describes the point class and provides the class's constructor, properties, and a table that gives the return type and description for various methods."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
