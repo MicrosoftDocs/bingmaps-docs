@@ -1,5 +1,6 @@
 ---
 title: "Read Local GeoJSON Object Example | Microsoft Docs"
+description: Provides a code example that shows how to parse a locally defined GeoJSON object into a map shape using the GeoJSON module, then adds it to the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -71,4 +72,4 @@ The following code example takes a locally defined GeoJSON object and parses it 
 
 Here is what this GeoJSON object looks like on the map. It is a polygon that outlines a soccer field on the Microsoft campus.
 
-![GeoJSON Shape on a Map](../../media/bmv8-readlocalgeojsonobjectexample-map.png)
+![Screenshot of a Bing map showing a rectangle polygon shape on top of a soccer field on the Microsoft campus.](../../media/bmv8-readlocalgeojsonobjectexample-map.png)
