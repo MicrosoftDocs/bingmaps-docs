@@ -1,6 +1,7 @@
 ---
-title: "OnTrafficIncidentTappedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnTrafficIncidentTappedListener Interface | Microsoft Docs
+description: Describes the OnTrafficIncidentTappedListener interface for Android and provides syntax and additional references.
+ms.author: pablocan
 ---
 
 # OnTrafficIncidentTappedListener Interface (Android only)

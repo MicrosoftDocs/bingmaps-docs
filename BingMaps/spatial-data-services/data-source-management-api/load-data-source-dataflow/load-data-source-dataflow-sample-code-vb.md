@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Dataflow Sample Code (VB) | Microsoft Docs"
+description: "Provides Load Data Source Dataflow VB sample code for classes that upload spatial data and support classes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

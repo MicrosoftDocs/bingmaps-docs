@@ -1,5 +1,6 @@
 ---
 title: "Clustering Module | Microsoft Docs"
+description: The overview page for the Clustering Module section contains a description of clustering and links to API reference articles and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

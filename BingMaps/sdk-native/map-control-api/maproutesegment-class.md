@@ -1,6 +1,7 @@
 ---
-title: "MapRouteSegment Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapRouteSegment Class | Microsoft Docs
+description: Describes the MapRouteSegment class for Android and iOS and provides the class's properties and additional references.
+ms.author: pablocan
 ---
 
 # MapRouteSegment Class
@@ -23,7 +24,7 @@ Represents a road segment displayed on the map.
 
 ### MapStyleSheetEntry
 
-Gets or sets the name of an entry in the map's style sheet that you'd like to apply to this MapRouteSegment. Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheetentries) class.
+Gets or sets the name of an entry in the map's style sheet that you'd like to apply to this MapRouteSegment. Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](/uwp/api/windows.ui.xaml.controls.maps.mapstylesheetentries) class.
 
 **Android**
 
@@ -40,7 +41,7 @@ Gets or sets the name of an entry in the map's style sheet that you'd like to ap
 
 _See also:_ 
 * [MapStyleSheet](MapStyleSheet-class.md)
-* [Map Style Sheet Reference](https://docs.microsoft.com/bingmaps/styling/map-style-sheet-entries)  
+* [Map Style Sheet Reference](/bingmaps/styling/map-style-sheet-entries)  
 
 ### MapStyleSheetEntryState
 
@@ -61,7 +62,7 @@ Gets or sets the name of the state of this MapRouteSegment. If the style sheet d
 
 _See also:_ 
 * [MapStyleSheet](MapStyleSheet-class.md)
-* [Map Style Sheet Reference](https://docs.microsoft.com/bingmaps/styling/map-style-sheet-entries)  
+* [Map Style Sheet Reference](/bingmaps/styling/map-style-sheet-entries)  
 
 ### Path
 

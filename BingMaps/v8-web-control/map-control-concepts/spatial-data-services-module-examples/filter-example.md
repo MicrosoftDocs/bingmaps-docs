@@ -1,5 +1,6 @@
 ---
 title: "Filter Example | Microsoft Docs"
+description: An example that shows how to use the execute and toString functions of the Filter and FilterGroup classes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

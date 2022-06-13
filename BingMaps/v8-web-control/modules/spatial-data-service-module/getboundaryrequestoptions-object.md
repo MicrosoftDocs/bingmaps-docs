@@ -1,5 +1,6 @@
 ---
 title: "GetBoundaryRequestOptions Object | Microsoft Docs"
+description: Describes the GetBoundaryRequestOptions object, which contains the options for GeoData API requests boundary data, with descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

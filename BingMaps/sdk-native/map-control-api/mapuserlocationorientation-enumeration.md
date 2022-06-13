@@ -1,6 +1,7 @@
 ---
-title: "MapUserLocationOrientation Enumeration | Microsoft Docs"
-ms.author: "adl"
+title: MapUserLocationOrientation Enumeration | Microsoft Docs
+description: Describes the mapUserLocationOrientation enumeration for Android and iOS and provides the enumeration's Heading and Bearing values.
+ms.author: adl
 ---
 
 # MapUserLocationOrientation Enumeration

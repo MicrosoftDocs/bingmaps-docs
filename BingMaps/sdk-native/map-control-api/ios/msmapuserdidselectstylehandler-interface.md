@@ -1,6 +1,7 @@
 ---
-title: "MSMapUserDidSelectStyleHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapUserDidSelectStyleHandler Interface | Microsoft Docs
+description: Describes the MSMapUserDidSelectStyleHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapUserDidSelectStyleHandler Interface (iOS only)

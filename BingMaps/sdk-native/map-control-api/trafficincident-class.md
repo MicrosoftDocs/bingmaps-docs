@@ -1,6 +1,7 @@
 ---
-title: "TrafficIncident Class | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficIncident Class | Microsoft Docs
+description: Describes the TrafficIncident class for Android and iOS and provides the class's properties and additional references.
+ms.author: pablocan
 ---
 
 # TrafficIncident Class

@@ -1,5 +1,6 @@
 ---
 title: "ViewOptions Object | Microsoft Docs"
+description: "Describes the ViewOptions object and provides a table that outlines the type and description for various objects."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

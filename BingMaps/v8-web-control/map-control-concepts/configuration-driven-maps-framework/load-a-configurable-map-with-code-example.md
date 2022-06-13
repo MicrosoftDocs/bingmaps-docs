@@ -1,5 +1,6 @@
 ---
 title: "Load a Configurable Map with Code Example | Microsoft Docs"
+description: "Describes how to Load a configurable map with a code example and provides a link to try loading a configurable map yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
