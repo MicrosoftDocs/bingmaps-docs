@@ -36,7 +36,7 @@ Load Data Source Dataflow API to create a data source that contains entity data 
  You can delete a data source by using the [Delete a Data Source](../../data-source-management-api/delete-data-source.md) API.  
   
 ## In this Section  
-  
+ 
 |Resource|Description|  
 |-|-|  
 |[Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md)|Describes how to create a data source and upload entity data by using a load data source job. You can also use this API to stage or update a data source.|  
