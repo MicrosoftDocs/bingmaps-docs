@@ -1,6 +1,6 @@
 ---
 title: "Custom SVG File Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to change the default pushpin to an SVG file, which scales better across different device resolutions.
+description: Provides a code example that shows how to change the default pushpin to a Scalable Vector Graphics (SVG) file, which scales better across different device resolutions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Dynamically create SVG Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to dynamically create SVG circles for pushpin icons using a custom function.
+description: Example code demonstrating how to dynamically create SVG circles for pushpin icons using a custom function.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

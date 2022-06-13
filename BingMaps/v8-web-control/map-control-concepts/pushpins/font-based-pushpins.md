@@ -1,6 +1,6 @@
 ---
 title: "Font based Pushpins | Microsoft Docs"
-description: Provides how to use a custom font from the Font Awesome library to create custom pushpin icons for usage on a map.
+description: Example code demonstrating how to use a custom font to create a pushpin icon using an off-screen canvas to measure the text and create an image from the font. Fonts are created using the Font Awesome library.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Custom Inline SVG Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to pass in inline SVG strings to use as custom pushpins for dynamic SVG elements.
+description: Provides a code example that shows how to pass in inline Scalable Vector Graphics (SVG) strings to create a custom pushpin, useful if you want to dynamically create an SVG element in code.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

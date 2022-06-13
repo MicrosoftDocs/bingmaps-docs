@@ -1,6 +1,6 @@
 ---
 title: "User Input Geocode Example | Microsoft Docs"
-description: Provides a code example that displays a search field and button which allows a user to perform a search for a location and then lists the results.
+description: Example code demonstrating how to display a search field and button on a map. When the button is selected the search query is geocoded and the results are displayed on the map and a list of the result names are shown beside the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

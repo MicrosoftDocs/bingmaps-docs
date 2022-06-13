@@ -1,6 +1,6 @@
 ---
 title: "Default Pushpin with Text Example | Microsoft Docs"
-description: Provides a code example that shows how to change the default pushpin on the map to have a number and a text label.
+description: Example code demonstrating how to create a pushpin at the center of the map and set values for the text, title and subTitle properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

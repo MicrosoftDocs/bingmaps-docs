@@ -1,6 +1,6 @@
 ---
 title: "Image and Canvas Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to create custom colored pushpins that use an image as a template.
+description: Example code demonstrating how to create custom colored pushpins that use an image as a template.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

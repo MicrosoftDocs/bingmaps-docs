@@ -1,6 +1,6 @@
 ---
 title: "Custom Canvas Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to create a custom pushpin image using the toDataURL HTML5 canvas.
+description: Provides a code example that shows how to dynamically create a custom image using the HTML5 canvas toDataURL function to generate a base64 image string which is then passed into the icon property of the pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

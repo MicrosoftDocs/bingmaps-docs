@@ -1,6 +1,6 @@
 ---
 title: "Custom Image Pushpin Example | Microsoft Docs"
-description: Provides a code example that shows how to change the default pushpin icon to a custom image uploaded to the web application folder.
+description: Provides a code example that shows how to replace the default pushpin icon with a custom image by passing the URL of a custom image into the icon property of the pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

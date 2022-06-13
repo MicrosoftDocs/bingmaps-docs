@@ -1,6 +1,6 @@
 ---
 title: "REST Services Examples | Microsoft Docs"
-description: Describes the functionalities of the Bing Maps REST API services, and provides a list of Bing Maps REST services code examples.
+description: Describes the Bing Maps REST services, accessed using GET requests with JSONP, with example code demonstrating how to implement using standard JavaScript, jQuery, AngularJS.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

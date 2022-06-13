@@ -1,6 +1,6 @@
 ---
 title: "Polygon Events | Microsoft Docs"
-description: Provides a code example that attaches mouse events to a polygon on a map, which will be highlighted by labels as the events fire.
+description: Provides a Polygon Events code example that attaches mouse events to a polygon on a map. When these events fire they highlight a label to indicate which event fired.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
