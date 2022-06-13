@@ -1,6 +1,6 @@
 ---
 title: "Infoboxes | Microsoft Docs"
-description: Describes the infobox, which is a simple panel that displays information over the map, and provides examples and references.
+description: The overview page for the Infoboxes section contains a description and links to examples and code references including the Infobox Class, InfoboxOptions Object and InfoboxActions Object.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

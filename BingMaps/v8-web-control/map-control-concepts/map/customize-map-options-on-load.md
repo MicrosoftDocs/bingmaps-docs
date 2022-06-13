@@ -1,6 +1,6 @@
 ---
 title: "Customize Map Options on Load | Microsoft Docs"
-description: Provides a code example that customizes map options when the map is loaded to set it to an aerial map that is zoomed in over London, UK.
+description: Example code demonstrating how to change how the map is loaded in the GetMap function, setting the type to aerial, zoom level to 10, then centers the map over London, UK.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

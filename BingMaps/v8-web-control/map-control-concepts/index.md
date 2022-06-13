@@ -1,6 +1,6 @@
 ---
 title: "Map Control Concepts and Examples | Microsoft Docs"
-description: Describes Map Control concepts and provides a list of concepts with links to corresponding documentation.
+description: The overview page for the Map Control Concepts section contains a table with descriptions and links to the various concept articles in this section.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

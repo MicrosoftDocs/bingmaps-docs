@@ -1,6 +1,6 @@
 ---
 title: "Infobox when Shape Clicked | Microsoft Docs"
-description: Provides a code example that shows how to display an infobox when a shape is clicked and a click event fires.
+description: Provides a code example that shows how to display an infobox when any IPrimitive shape such as a pushpin, polyline, or polygon is selected.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

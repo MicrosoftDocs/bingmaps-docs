@@ -1,6 +1,6 @@
 ---
 title: "Data Layer Events | Microsoft Docs"
-description: Provides a code example that shows how to add random shapes to a layer and attaches mouse events to the layer.
+description: Example code demonstrating how to add a single event handler to a layer which will then apply to all shapes it contains. Compared to adding mouse events to shapes by looping through each shape and adding an event to it, this approach requires writing less code, reduces the amount of memory required and provides a small performance benefit.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

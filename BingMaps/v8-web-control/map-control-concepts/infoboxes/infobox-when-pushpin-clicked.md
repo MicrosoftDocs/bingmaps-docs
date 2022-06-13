@@ -1,6 +1,6 @@
 ---
 title: "Infobox when Pushpin Clicked | Microsoft Docs"
-description: Provides a code example that shows how to create a pushpin at a random location on the map and store metadata with the pushpin.
+description: Example code demonstrating how to create a pushpin at a random location on the map that when selected an infobox appears with the title and description values.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

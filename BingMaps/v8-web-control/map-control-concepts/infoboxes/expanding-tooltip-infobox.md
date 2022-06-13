@@ -1,6 +1,6 @@
 ---
 title: "Expanding Tooltip Infobox | Microsoft Docs"
-description: Provides a code example that shows how to display the title of the pushpin in a tooltip infobox and the full infobox when clicked.
+description: Provides a code example that shows how to display the title property of a pushpin in a tooltip when you hover over it and a detailed infobox that contains the title and description when the pushpin is selected.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

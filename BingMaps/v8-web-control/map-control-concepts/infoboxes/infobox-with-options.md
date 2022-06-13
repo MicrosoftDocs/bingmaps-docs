@@ -1,6 +1,6 @@
 ---
 title: "Infobox with Options | Microsoft Docs"
-description: Provides a code example that shows how to create an infobox with options to hide the pointer and the close button.
+description: Example code demonstrating how to create an infobox that doesn’t have a pointer and has two link buttons instead of the close button.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "AnimatedTileLayer Events | Microsoft Docs"
-description: Provides a code example that shows how to use the onFrameLoaded event to update a message about the currently displayed tile layer.
+description: Example code demonstrating how to uses the onFrameLoaded event of the AnimatedTileLayer class to update a message about the currently display tile layer in the animation.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

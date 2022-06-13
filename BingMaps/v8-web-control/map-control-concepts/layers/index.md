@@ -1,6 +1,6 @@
 ---
 title: "Layers | Microsoft Docs"
-description: Describes the Layer class, which separates multiple data sets as layers, and provides lists of code examples and references.
+description: The overview page for the Layers section contains links to examples and code references for the Layer, TileLayer and TileSource Classes and TileLayerOptions and TileSourceOptions Objects.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

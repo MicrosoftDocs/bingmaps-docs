@@ -1,6 +1,6 @@
 ---
 title: "Basic Infobox Example | Microsoft Docs"
-description: Provides a code example that shows how to create a basic infobox with a title and description and set it to the center of a map.
+description: Provides a code example that shows how to add an infobox with a title and description to the center of the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

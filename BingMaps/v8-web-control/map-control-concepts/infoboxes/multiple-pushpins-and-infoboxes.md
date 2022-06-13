@@ -1,6 +1,6 @@
 ---
 title: "Multiple Pushpins and Infoboxes | Microsoft Docs"
-description: Provides a code example that creates 5 pushpins at random locations on the map that display infoboxes with relevant content when clicked.
+description: Example code demonstrating how to create an Infobox array rather than creating a new infobox for each pushpin, which reduces the number of DOM elements and improve performance. The sample code creates 5 pushpins at random locations on the map that display infoboxes with relevant content when selected.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

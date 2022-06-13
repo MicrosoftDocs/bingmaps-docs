@@ -1,6 +1,6 @@
 ---
 title: "Reading Geospatial XML Files Cross Domain | Microsoft Docs"
-description: Provides a code example that shows how to create a simple proxy service using a Generic Handler in .Net to pass XML data to the GeoXML module.
+description: Provides a code example that shows how to create a simple proxy service using a Generic Handler in .Net to pass XML data to the GeoXML module whether or not CORS is enabled.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

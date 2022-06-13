@@ -1,6 +1,6 @@
 ---
 title: "Basic Heat Map Example | Microsoft Docs"
-description: Provides a code example that shows a thousand random locations loaded into the initial view of a map.
+description: Provides a code example that loads 1,000 random locations into a heat map that are within the initial view of a loaded map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
