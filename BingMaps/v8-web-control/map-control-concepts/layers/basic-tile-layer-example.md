@@ -1,6 +1,6 @@
 ---
 title: "Basic Tile Layer Example | Microsoft Docs"
-description: Provides a code example that shows how to set the `mercator` property to a TileSource that has a `uriConstructor` property set to a URL.
+description: Provides a code example that shows how to set the mercator property to a TileSource that has a uriConstructor property set to a URL.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
