@@ -1,5 +1,6 @@
 ---
-title: "Venue Map Class | Microsoft Docs"
+title: "VenueMap Class | Microsoft Docs"
+description: Describes the VenueMap class, which represents a venue map, and provides lists of methods, properties, and events.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""
@@ -9,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: "simshap"
+ms.author: v-munksteve
 manager: "cordellj"
 ms.service: "bing-maps"
 ---

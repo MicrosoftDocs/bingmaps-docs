@@ -1,5 +1,6 @@
 ---
 title: "Create a Load Data Source Job and Input Entity Data | Microsoft Docs"
+description: "Describes process of creating a load data source job and inputting entity data and provides a URL template, template parameters, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

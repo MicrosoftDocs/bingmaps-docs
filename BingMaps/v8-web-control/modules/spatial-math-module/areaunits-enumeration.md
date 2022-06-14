@@ -1,5 +1,6 @@
 ---
 title: "AreaUnits Enumeration | Microsoft Docs"
+description: Describes the AreaUnits enumeration, which is used to specify the unit of measurement for an area, and provides a list of areas.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

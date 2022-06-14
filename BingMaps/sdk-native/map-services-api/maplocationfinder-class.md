@@ -1,6 +1,7 @@
 ---
-title: "MapLocationFinder Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationFinder Class | Microsoft Docs
+description: Describes the MapLocationFinder class for Android and iOS and provides the class's static methods, examples, and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationFinder Class

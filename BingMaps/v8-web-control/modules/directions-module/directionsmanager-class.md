@@ -1,5 +1,6 @@
 ---
 title: "DirectionsManager Class | Microsoft Docs"
+description: Describes the DirectionsManager class and provides a description for its constructor, methods, and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "MapLocationPointUsageType Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationPointUsageType Enumeration | Microsoft Docs
+description: Describes the MapLocationPointUsageType enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationPointUsageType Enumeration

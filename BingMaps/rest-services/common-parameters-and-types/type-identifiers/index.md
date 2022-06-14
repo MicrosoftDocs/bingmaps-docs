@@ -1,8 +1,9 @@
 ---
 # required metadata
 title: "Type Identifiers | Microsoft Docs"
+description: An overview page listing the top-level type identifiers used by the Bing Maps APIs.
 author: "v-chrfr"
-ms.author: "v-chrfr"
+ms.author: v-munksteve
 ms.date: "12/10/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

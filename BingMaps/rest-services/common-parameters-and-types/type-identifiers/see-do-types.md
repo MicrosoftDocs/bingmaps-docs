@@ -1,8 +1,9 @@
 ---
 # required metadata
 title: "SeeDo Identifiers | Microsoft Docs"
+description: A list of type identifiers that define events, activities, parks, and other attractions.
 author: "v-chrfr"
-ms.author: "v-chrfr"
+ms.author: v-munksteve
 ms.date: "12/10/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlStats Object | Microsoft Docs"
+description: Describes the GeoXmlStats object, which provides XML feed statistics, with a description of each XML feed statistic such as the number of characters, ground overlays, location, polygon, polyline and pushpin objects in the XML feed.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

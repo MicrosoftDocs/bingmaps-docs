@@ -1,6 +1,7 @@
 ---
-title: "MapView Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapView Class | Microsoft Docs
+description: Describes the MapView class for Android and iOS and provides the class's constructors, properties, methods, events, and accessibility features.
+ms.author: pablocan
 ---
 
 # MapView Class

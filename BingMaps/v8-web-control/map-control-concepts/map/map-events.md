@@ -1,6 +1,6 @@
 ---
-title: "Map Events Example | Microsoft Docs"
-description: Provides a code example that shows how different events for the map work by highlighting a label to indicate which event fired.
+title: "Map Events for V8 Web Control | Microsoft Docs"
+description: Learn about map events for V8 Web Control with an example showing how all the different events for the map work by highlight a label to indicate which event fired as you use the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

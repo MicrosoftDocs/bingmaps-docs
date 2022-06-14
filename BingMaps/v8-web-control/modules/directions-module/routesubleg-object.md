@@ -1,5 +1,6 @@
 ---
 title: "RouteSubLeg Object | Microsoft Docs"
+description: Describes the RouteSubLeg object, which represents a route sub leg, and provides a list of waypoints.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

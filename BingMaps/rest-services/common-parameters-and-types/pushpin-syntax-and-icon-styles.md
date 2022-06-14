@@ -1,5 +1,6 @@
 ---
 title: "Pushpin Syntax and Icon Styles | Microsoft Docs"
+description: "This article describes pushpin syntax and icon styles, providing a table that shows the syntax to use to specify a pushpin location and a table that shows available pushpin icon styles."
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"
@@ -66,43 +67,43 @@ The following table shows the available pushpin icon styles.
   
 |IconStyle|Icon|  
 |---------------|----------|  
-|0|![5c74ad81&#45;b8be&#45;4674&#45;a0a5&#45;91bf2df38d55](../media/5c74ad81-b8be-4674-a0a5-91bf2df38d55.png "5c74ad81-b8be-4674-a0a5-91bf2df38d55")|  
-|1 **[default]**|![748904ec&#45;4ee4&#45;439a&#45;a692&#45;601a3bf7a239](../media/748904ec-4ee4-439a-a692-601a3bf7a239.png "748904ec-4ee4-439a-a692-601a3bf7a239")|  
-|2|![610e10d7&#45;b486&#45;4576&#45;abaa&#45;4a35b4adff48](../media/610e10d7-b486-4576-abaa-4a35b4adff48.png "610e10d7-b486-4576-abaa-4a35b4adff48")|  
-|3|![1a999390&#45;a22b&#45;4c76&#45;a6f0&#45;2efb53ccf4c7](../media/1a999390-a22b-4c76-a6f0-2efb53ccf4c7.png "1a999390-a22b-4c76-a6f0-2efb53ccf4c7")|  
-|4|![a7f9fc6f&#45;1215&#45;4b00&#45;98ea&#45;9b3ce24401c0](../media/a7f9fc6f-1215-4b00-98ea-9b3ce24401c0.png "a7f9fc6f-1215-4b00-98ea-9b3ce24401c0")|  
-|5|![83275ca6&#45;a731&#45;4af5&#45;b29c&#45;42324bed6455](../media/83275ca6-a731-4af5-b29c-42324bed6455.png "83275ca6-a731-4af5-b29c-42324bed6455")|  
-|6|![14d73593&#45;1c35&#45;4eef&#45;a544&#45;bedb9172092e](../media/14d73593-1c35-4eef-a544-bedb9172092e.png "14d73593-1c35-4eef-a544-bedb9172092e")|  
-|7|![f0ad0035&#45;d443&#45;45f3&#45;9ba0&#45;2f014134fdc0](../media/f0ad0035-d443-45f3-9ba0-2f014134fdc0.png "f0ad0035-d443-45f3-9ba0-2f014134fdc0")|  
-|8|![3714c528&#45;3b4c&#45;45f5&#45;9536&#45;77677f4d9c63](../media/3714c528-3b4c-45f5-9536-77677f4d9c63.png "3714c528-3b4c-45f5-9536-77677f4d9c63")|  
-|9|![f8ea8238&#45;819b&#45;4ba3&#45;8445&#45;5cf667fcf7bc](../media/f8ea8238-819b-4ba3-8445-5cf667fcf7bc.png "f8ea8238-819b-4ba3-8445-5cf667fcf7bc")|  
-|10|![0a4a9d6a&#45;8c16&#45;4401&#45;994c&#45;0ea86f6db8b2](../media/0a4a9d6a-8c16-4401-994c-0ea86f6db8b2.png "0a4a9d6a-8c16-4401-994c-0ea86f6db8b2")|  
-|11|![c62f5134&#45;da4a&#45;4495&#45;877e&#45;a6aaa2badcec](../media/c62f5134-da4a-4495-877e-a6aaa2badcec.png "c62f5134-da4a-4495-877e-a6aaa2badcec")|  
-|12|![22594e72&#45;b742&#45;47c1&#45;8b16&#45;16969593d73d](../media/22594e72-b742-47c1-8b16-16969593d73d.png "22594e72-b742-47c1-8b16-16969593d73d")|  
-|13|![e6259b02&#45;fff8&#45;46ca&#45;8a08&#45;ef0003ec5a46](../media/e6259b02-fff8-46ca-8a08-ef0003ec5a46.png "e6259b02-fff8-46ca-8a08-ef0003ec5a46")|  
-|14|![20ab02d8&#45;0be0&#45;4d74&#45;a070&#45;109cb548ed6d](../media/20ab02d8-0be0-4d74-a070-109cb548ed6d.png "20ab02d8-0be0-4d74-a070-109cb548ed6d")|  
-|15|![2472e5ef&#45;50e2&#45;4c32&#45;bbb8&#45;4ced383ea673](../media/2472e5ef-50e2-4c32-bbb8-4ced383ea673.png "2472e5ef-50e2-4c32-bbb8-4ced383ea673")|  
-|16|![f6f25ac9&#45;b6cf&#45;4554&#45;91f0&#45;dc68318e2aa1](../media/f6f25ac9-b6cf-4554-91f0-dc68318e2aa1.png "f6f25ac9-b6cf-4554-91f0-dc68318e2aa1")|  
-|17|![c999f081&#45;c6a2&#45;4ba2&#45;a522&#45;42c44cecd57b](../media/c999f081-c6a2-4ba2-a522-42c44cecd57b.png "c999f081-c6a2-4ba2-a522-42c44cecd57b")|  
-|18|![d9abfbdd&#45;f4d4&#45;4587&#45;ba5c&#45;92dc86642738](../media/d9abfbdd-f4d4-4587-ba5c-92dc86642738.png "d9abfbdd-f4d4-4587-ba5c-92dc86642738")|  
-|19|![f313363e&#45;8e84&#45;4fec&#45;b8da&#45;b3ad1ddc7731](../media/f313363e-8e84-4fec-b8da-b3ad1ddc7731.png "f313363e-8e84-4fec-b8da-b3ad1ddc7731")|  
-|20|![792d281f&#45;7696&#45;4574&#45;befc&#45;6abb33349438](../media/792d281f-7696-4574-befc-6abb33349438.png "792d281f-7696-4574-befc-6abb33349438")|  
-|21|![517c88d7&#45;17c8&#45;4f74&#45;89b3&#45;95fd0b28061c](../media/517c88d7-17c8-4f74-89b3-95fd0b28061c.png "517c88d7-17c8-4f74-89b3-95fd0b28061c")|  
-|22|![016673a3&#45;0282&#45;4dd2&#45;95a9&#45;59395a50f6e7](../media/016673a3-0282-4dd2-95a9-59395a50f6e7.png "016673a3-0282-4dd2-95a9-59395a50f6e7")|  
-|23|![76fee352&#45;3881&#45;4f27&#45;8957&#45;9b1daf1b33b3](../media/76fee352-3881-4f27-8957-9b1daf1b33b3.png "76fee352-3881-4f27-8957-9b1daf1b33b3")|  
-|24|![dc992382&#45;ce01&#45;4fa6&#45;9444&#45;2708c7089c31](../media/dc992382-ce01-4fa6-9444-2708c7089c31.png "dc992382-ce01-4fa6-9444-2708c7089c31")|  
-|25|![29127350&#45;aeee&#45;45ae&#45;86d8&#45;ae1b1401bc1a](../media/29127350-aeee-45ae-86d8-ae1b1401bc1a.png "29127350-aeee-45ae-86d8-ae1b1401bc1a")|  
-|26|![242afc4c&#45;742f&#45;4337&#45;ad5c&#45;890b043ab649](../media/242afc4c-742f-4337-ad5c-890b043ab649.png "242afc4c-742f-4337-ad5c-890b043ab649")|  
-|27|![6cfcd96c&#45;fa3a&#45;41bc&#45;95ae&#45;a312887c15d7](../media/6cfcd96c-fa3a-41bc-95ae-a312887c15d7.png "6cfcd96c-fa3a-41bc-95ae-a312887c15d7")|  
-|28|![71d658fe&#45;bbe6&#45;4d5b&#45;a003&#45;31168a4df81f](../media/71d658fe-bbe6-4d5b-a003-31168a4df81f.png "71d658fe-bbe6-4d5b-a003-31168a4df81f")|  
-|29|![2c751486&#45;1ded&#45;421c&#45;be12&#45;cd235576e1ce](../media/2c751486-1ded-421c-be12-cd235576e1ce.png "2c751486-1ded-421c-be12-cd235576e1ce")|  
-|30|![e1304c66&#45;6e00&#45;4b81&#45;8534&#45;847b9329cc34](../media/e1304c66-6e00-4b81-8534-847b9329cc34.png "e1304c66-6e00-4b81-8534-847b9329cc34")|  
-|31|![90196075&#45;92c2&#45;4d1c&#45;a8f4&#45;eebfd681099b](../media/90196075-92c2-4d1c-a8f4-eebfd681099b.png "90196075-92c2-4d1c-a8f4-eebfd681099b")|  
-|32|![5f14de64&#45;bb5f&#45;4410&#45;8909&#45;225d95885205](../media/5f14de64-bb5f-4410-8909-225d95885205.png "5f14de64-bb5f-4410-8909-225d95885205")|  
-|33|![564bed6d&#45;cb69&#45;40f2&#45;88c0&#45;082bc2503f55](../media/564bed6d-cb69-40f2-88c0-082bc2503f55.png "564bed6d-cb69-40f2-88c0-082bc2503f55")|  
-|34|![54d50e0c&#45;5425&#45;4cb1&#45;bbdf&#45;8c3da904b2ce](../media/54d50e0c-5425-4cb1-bbdf-8c3da904b2ce.png "54d50e0c-5425-4cb1-bbdf-8c3da904b2ce")|  
-|35|![fcefc81e&#45;0d88&#45;4cc9&#45;97ee&#45;dccc26b7ac77](../media/fcefc81e-0d88-4cc9-97ee-dccc26b7ac77.jpg "fcefc81e-0d88-4cc9-97ee-dccc26b7ac77")|  
-|36|![4e781e20&#45;4767&#45;4cb5&#45;ae23&#45;a25ae58cab88](../media/4e781e20-4767-4cb5-ae23-a25ae58cab88.png "4e781e20-4767-4cb5-ae23-a25ae58cab88")|  
+|0|![Image that shows a red star as the pushpin icon style](../media/5c74ad81-b8be-4674-a0a5-91bf2df38d55.png "5c74ad81-b8be-4674-a0a5-91bf2df38d55")|  
+|1 **[default]**|![Image that shows a large dark blue box as the pushpin icon style](../media/748904ec-4ee4-439a-a692-601a3bf7a239.png "748904ec-4ee4-439a-a692-601a3bf7a239")|  
+|2|![Image that shows a medium-sized dark blue box as the pushpin icon style](../media/610e10d7-b486-4576-abaa-4a35b4adff48.png "610e10d7-b486-4576-abaa-4a35b4adff48")|  
+|3|![Image that shows a small dark blue box as the pushpin icon style](../media/1a999390-a22b-4c76-a6f0-2efb53ccf4c7.png "1a999390-a22b-4c76-a6f0-2efb53ccf4c7")|  
+|4|![Image that shows a large two-tone dark blue and light blue box as the pushpin icon style](../media/a7f9fc6f-1215-4b00-98ea-9b3ce24401c0.png "a7f9fc6f-1215-4b00-98ea-9b3ce24401c0")|  
+|5|![Image that shows a medium-sized two-tone dark blue and light blue box as the pushpin icon style](../media/83275ca6-a731-4af5-b29c-42324bed6455.png "83275ca6-a731-4af5-b29c-42324bed6455")|  
+|6|![Image that shows a small two-tone dark blue and light blue box as the pushpin icon style](../media/14d73593-1c35-4eef-a544-bedb9172092e.png "14d73593-1c35-4eef-a544-bedb9172092e")|  
+|7|![Image that shows a large red box as the pushpin icon style](../media/f0ad0035-d443-45f3-9ba0-2f014134fdc0.png "f0ad0035-d443-45f3-9ba0-2f014134fdc0")|  
+|8|![Image that shows a medium-sized red box as the pushpin icon style](../media/3714c528-3b4c-45f5-9536-77677f4d9c63.png "3714c528-3b4c-45f5-9536-77677f4d9c63")|  
+|9|![Image that shows a small red box as the pushpin icon style](../media/f8ea8238-819b-4ba3-8445-5cf667fcf7bc.png "f8ea8238-819b-4ba3-8445-5cf667fcf7bc")|  
+|10|![Image that shows a large two-tone dark red and light red box as the pushpin icon style](../media/0a4a9d6a-8c16-4401-994c-0ea86f6db8b2.png "0a4a9d6a-8c16-4401-994c-0ea86f6db8b2")|  
+|11|![Image that shows a medium-sized two-tone dark red and light red box as the pushpin icon style](../media/c62f5134-da4a-4495-877e-a6aaa2badcec.png "c62f5134-da4a-4495-877e-a6aaa2badcec")|  
+|12|![Image that shows a small two-tone dark red and light red box as the pushpin icon style](../media/22594e72-b742-47c1-8b16-16969593d73d.png "22594e72-b742-47c1-8b16-16969593d73d")|  
+|13|![Image that shows a mid-sized dark blue and purple box as the pushpin icon style](../media/e6259b02-fff8-46ca-8a08-ef0003ec5a46.png "e6259b02-fff8-46ca-8a08-ef0003ec5a46")|  
+|14|![Image that shows a dark blue sphere as the pushpin icon style](../media/20ab02d8-0be0-4d74-a070-109cb548ed6d.png "20ab02d8-0be0-4d74-a070-109cb548ed6d")|  
+|15|![Image that shows a dark blue circle as the pushpin icon style](../media/2472e5ef-50e2-4c32-bbb8-4ced383ea673.png "2472e5ef-50e2-4c32-bbb8-4ced383ea673")|  
+|16|![Image that shows a green circle as the pushpin icon style](../media/f6f25ac9-b6cf-4554-91f0-dc68318e2aa1.png "f6f25ac9-b6cf-4554-91f0-dc68318e2aa1")|  
+|17|![Image that shows a yellow exclamation point road sign as the pushpin icon style](../media/c999f081-c6a2-4ba2-a522-42c44cecd57b.png "c999f081-c6a2-4ba2-a522-42c44cecd57b")|  
+|18|![Image that shows an orange exclamation point road sign as the pushpin icon style](../media/d9abfbdd-f4d4-4587-ba5c-92dc86642738.png "d9abfbdd-f4d4-4587-ba5c-92dc86642738")|  
+|19|![Image that shows a red exclamation point road sign as the pushpin icon style](../media/f313363e-8e84-4fec-b8da-b3ad1ddc7731.png "f313363e-8e84-4fec-b8da-b3ad1ddc7731")|  
+|20|![Image that shows a two-tone light blue box as the pushpin icon style](../media/792d281f-7696-4574-befc-6abb33349438.png "792d281f-7696-4574-befc-6abb33349438")|  
+|21|![Image that shows a small orange box with an upside down arrow as the pushpin icon style](../media/517c88d7-17c8-4f74-89b3-95fd0b28061c.png "517c88d7-17c8-4f74-89b3-95fd0b28061c")|  
+|22|![Image that shows a red circle as the pushpin icon style](../media/016673a3-0282-4dd2-95a9-59395a50f6e7.png "016673a3-0282-4dd2-95a9-59395a50f6e7")|  
+|23|![Image that shows a large two-tone orange box as the pushpin icon style](../media/76fee352-3881-4f27-8957-9b1daf1b33b3.png "76fee352-3881-4f27-8957-9b1daf1b33b3")|  
+|24|![Image that shows a mid-sized orange box with an upside down arrow as the pushpin icon style](../media/dc992382-ce01-4fa6-9444-2708c7089c31.png "dc992382-ce01-4fa6-9444-2708c7089c31")|  
+|25|![Image that shows a medium-sized orange box with an upside down arrow as the pushpin icon style](../media/29127350-aeee-45ae-86d8-ae1b1401bc1a.png "29127350-aeee-45ae-86d8-ae1b1401bc1a")|  
+|26|![Image that shows a two-tone green box as the pushpin icon style](../media/242afc4c-742f-4337-ad5c-890b043ab649.png "242afc4c-742f-4337-ad5c-890b043ab649")|  
+|27|![Image that shows a two-tone purple box as the pushpin icon style](../media/6cfcd96c-fa3a-41bc-95ae-a312887c15d7.png "6cfcd96c-fa3a-41bc-95ae-a312887c15d7")|  
+|28|![Image that shows a two-tone red box as the pushpin icon style](../media/71d658fe-bbe6-4d5b-a003-31168a4df81f.png "71d658fe-bbe6-4d5b-a003-31168a4df81f")|  
+|29|![Image that shows a circle with a green bus within it as the pushpin icon style](../media/2c751486-1ded-421c-be12-cd235576e1ce.png "2c751486-1ded-421c-be12-cd235576e1ce")|  
+|30|![Image that shows a circle with a front-facing blue bus within it as the pushpin icon style](../media/e1304c66-6e00-4b81-8534-847b9329cc34.png "e1304c66-6e00-4b81-8534-847b9329cc34")|  
+|31|![Image that shows a circle with two arrows within it as the pushpin icon style](../media/90196075-92c2-4d1c-a8f4-eebfd681099b.png "90196075-92c2-4d1c-a8f4-eebfd681099b")|  
+|32|![Image that shows a dark blue and light blue box as the pushpin icon style](../media/5f14de64-bb5f-4410-8909-225d95885205.png "5f14de64-bb5f-4410-8909-225d95885205")|  
+|33|![Image that shows a white circle with a green circle within it as the pushpin icon style](../media/564bed6d-cb69-40f2-88c0-082bc2503f55.png "564bed6d-cb69-40f2-88c0-082bc2503f55")|  
+|34|![Image that shows a large white circle with an orange circle within it as the pushpin icon style](../media/54d50e0c-5425-4cb1-bbdf-8c3da904b2ce.png "54d50e0c-5425-4cb1-bbdf-8c3da904b2ce")|  
+|35|![Image that shows a large green box projecting from a small black circle as the pushpin icon style](../media/fcefc81e-0d88-4cc9-97ee-dccc26b7ac77.jpg "fcefc81e-0d88-4cc9-97ee-dccc26b7ac77")|  
+|36|![Image that shows a large white circle with a green circle within it as the pushpin icon style](../media/4e781e20-4767-4cb5-ae23-a25ae58cab88.png "4e781e20-4767-4cb5-ae23-a25ae58cab88")|  
 |37|![Pushpin Icon Style 37](../media/vewsiconstyle-37.jpg "Pushpin Icon Style 37")|  
 |38|![Pushpin Icon Style 38](../media/vewsiconstyle-38.jpg "Pushpin Icon Style 38")|  
 |39|![Pushpin Icon Style 39](../media/vewsiconstyle-39.jpg "Pushpin Icon Style 39")|  

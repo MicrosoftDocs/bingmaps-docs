@@ -1,6 +1,7 @@
 ---
-title: "TrafficIncidentTappedEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficIncidentTappedEventArgs Class | Microsoft Docs
+description: Describes the TrafficIncidentTappedEventArgs class for Android and provides the class' location, position, and TrafficIncidents properties.
+ms.author: pablocan
 ---
 
 # TrafficIncidentTappedEventArgs Class (Android only)

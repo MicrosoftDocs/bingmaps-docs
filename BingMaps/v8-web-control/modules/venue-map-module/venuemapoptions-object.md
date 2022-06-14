@@ -1,5 +1,6 @@
 ---
-title: "Venue Maps Options Object | Microsoft Docs"
+title: "VenueMapsOptions Object | Microsoft Docs"
+description: Describes the VenueMapsOptions object that is used to customize how a Venue file is read and loaded via the VenueMapFactory and details its properties and the VenueMapMetadataLoader method.
 ms.custom: ""
 ms.date: "06/12/2020"
 ms.reviewer: ""
@@ -9,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: "simshap"
+ms.author: v-munksteve
 manager: "cordellj"
 ms.service: "bing-maps"
 ---

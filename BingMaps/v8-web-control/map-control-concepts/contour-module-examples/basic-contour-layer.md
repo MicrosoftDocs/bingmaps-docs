@@ -1,5 +1,6 @@
 ---
 title: "Basic Contour Layer | Microsoft Docs"
+description: "Describes the basic contour layer and provides the layer's example and a link that lets you try creating a basic contour layer yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

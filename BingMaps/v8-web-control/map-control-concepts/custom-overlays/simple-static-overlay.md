@@ -1,5 +1,6 @@
 ---
 title: "Simple Static Overlay | Microsoft Docs"
+description: "Describes the simple static overlay with an HTML example that creates an overlay consisting of 4 buttons that allow you to pan the map in different directions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
