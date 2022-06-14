@@ -1,5 +1,6 @@
 ---
 title: "WMS Tile Layer Example | Microsoft Docs"
+description: Provides a code example that takes the NOAA Base Reflective Weather Radar WMS service and displays it as a tile layer on the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -61,4 +62,4 @@ This example shows how to take the [NOAA Base Reflective Weather Radar WMS servi
 
 Running this code will display weather radar data over the USA.
 
-![BMV8_WMSTileLayerExample](../../media/bmv8-wmstilelayerexample.PNG)
+![Screenshot of a Bing map that shows weather radar data over the physical map of the United States of America.](../../media/bmv8-wmstilelayerexample.PNG)

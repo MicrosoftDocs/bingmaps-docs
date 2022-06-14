@@ -1,5 +1,6 @@
 ---
 title: "Map | Microsoft Docs"
+description: The overview page for the Map section contains links to examples and code references including the Map Class and the MapOptions and ViewOptions Objects.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
