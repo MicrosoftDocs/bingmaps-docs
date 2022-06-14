@@ -1,5 +1,6 @@
 ---
 title: "Display Drawing Toolbar on Map | Microsoft Docs"
+description: Provides a code example that shows how to add a drawing toolbar to the map so that the user can draw shapes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -53,6 +54,6 @@ This example shows how to add a drawing toolbar to the map so that the user can 
 
 Running this code in a browser will display a map with the drawing toolbar displayed on it. Select a shape and start drawing on the map. When drawing, press the escape button or a button on the toolbar to stop the drawing.
 
-![BMV8_DrawingToolbarExample](../../media/bmv8-drawingtoolbarexample.png)
+![Screenshot of a Bing map that shows the Redmond, Washington area and the drawing toolbar.](../../media/bmv8-drawingtoolbarexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtDrawThings+JS)

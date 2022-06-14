@@ -1,5 +1,6 @@
 ---
 title: "ContourLine Class | Microsoft Docs"
+description: Describes the ContourLine class, which extends from the Polygon class and supports all the same methods and events, but has a different constructor.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

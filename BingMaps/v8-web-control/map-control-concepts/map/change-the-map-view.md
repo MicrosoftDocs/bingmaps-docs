@@ -1,5 +1,6 @@
 ---
 title: "Change the Map View | Microsoft Docs"
+description: Provides a code example that uses the setView function to center the map over Barringer Crater and set the zoom level to 15. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -43,7 +44,7 @@ There are two different ways to change the map view. One way is to use the **set
 </body>
 </html>
 ```
-![BMV8_ChangeMapView](../../media/bmv8-changemapview.png)
+![Screenshot of a Bing map showing the Barringer Crater in the center of the map with the zoom level set to 15.](../../media/bmv8-changemapview.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#setMapViewOptions+JS)
 

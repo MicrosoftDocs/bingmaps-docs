@@ -1,5 +1,6 @@
 ---
 title: "Directions Module Events | Microsoft Docs"
+description: Provides a code example that shows how to use events with the directions manager using an example route from Seattle, WA to Redmond, WA.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -92,4 +93,4 @@ This example shows how to use events with the directions manager. A route from �
 
 Running this code will display the route from “Seattle, WA” to “Redmond, WA” on the map along with the distance and travel time with traffic below the map.
 
-![Directions Event Example](../../media/bmv8-directionseventexample.PNG)
+![Screenshot of a Bing map showing a route from Seattle, Washington to Redmond, Washington with the distance and travel time below the map.](../../media/bmv8-directionseventexample.PNG)

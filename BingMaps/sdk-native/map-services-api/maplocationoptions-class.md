@@ -1,6 +1,7 @@
 ---
-title: "MapLocationOptions Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationOptions Class | Microsoft Docs
+description: Describes the MapLocationOptions class for Android and iOS and provides the class's methods and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationOptions Class

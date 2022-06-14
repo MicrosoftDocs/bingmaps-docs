@@ -1,5 +1,6 @@
 ---
 title: "Metadata Object | Microsoft Docs"
+description: Describes the metadata object, which is the metadata object for a GeoData API, and lists its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

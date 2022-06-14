@@ -1,5 +1,6 @@
 ---
 title: "Read Geospatial XML from URL | Microsoft Docs"
+description: Provides a code example that shows how to read a geospatial XML file that is hosted on the same domain as the application using a relative URL.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -80,7 +81,7 @@ This sample shows how to read a geospatial XML file that is hosted on the same d
 
 If you run this code it will load the specified GeoRSS feed and render it on the map.
 
-![BMV8_GeoRssSample](../../media/bmv8-georsssample.PNG)
+![Screenshot of a Bing Map that shows a polygon shape overlaid onto the Coldwater Lake and hiking trail icons on the map.](../../media/bmv8-georsssample.PNG)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read%20from%20Url)
 

@@ -1,7 +1,7 @@
 ---
-title: "MapServices API Reference | Microsoft Docs"
-description: Bing Maps Services API Reference for the Android and iOS SDK
-ms.author: "pablocan"
+title: MapServices API Reference | Microsoft Docs
+description: The overview page for the MapServices API Reference section contains tables containing descriptions and links to more information for each of the MapServices classes, Enumerations and interfaces.
+ms.author: pablocan
 ---
 
 # MapServices API Reference

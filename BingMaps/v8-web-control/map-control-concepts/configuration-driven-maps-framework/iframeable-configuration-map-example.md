@@ -1,5 +1,6 @@
 ---
 title: "IFrameable Configuration Map Example | Microsoft Docs"
+description: "Describes the Iframeable configuration map with an example in HTML enabling you to try a map configuration yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -22,7 +23,7 @@ A map configuration file can be loaded as a URL parameter of the Bing Maps confi
 Your configuration file URL must be encoded when added as a URL parameter to ensure the browser loads it correctly.
 
 > [!NOTE]
-> Your configuration file must be hosted on a publicly accessible endpoint and have CORS ([Cross-origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)) enabled to allow for the JSON file to be loaded across domains. If storing your files in Azure storage, see the [Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services](https://docs.microsoft.com/azure/storage/common/storage-cors-support) documentation for details. 
+> Your configuration file must be hosted on a publicly accessible endpoint and have CORS ([Cross-origin Resource Sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)) enabled to allow for the JSON file to be loaded across domains. If storing your files in Azure storage, see the [Cross-Origin Resource Sharing (CORS) Support for the Azure Storage Services](/azure/storage/common/storage-cors-support) documentation for details. 
 
 A sample configuration file is hosted by the Bing Maps team here:
 

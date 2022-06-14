@@ -1,6 +1,7 @@
 ---
-title: "MapCamera Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapCamera Class | Microsoft Docs
+description: Describes the MapCamera class for Android and iOS and provides the class' properties and constructors on Android and iOS.
+ms.author: pablocan
 ---
 
 # MapCamera Class

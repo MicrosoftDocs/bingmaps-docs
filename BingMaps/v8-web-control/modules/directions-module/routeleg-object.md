@@ -1,5 +1,6 @@
 ---
 title: "RouteLeg Object | Microsoft Docs"
+description: Describes the RouteLeg object, which represents the leg of a route, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
