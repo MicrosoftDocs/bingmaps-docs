@@ -1,5 +1,6 @@
 ---
 title: "Name Object | Microsoft Docs"
+description: Describes the name object, which represents the name object for a GeoData API boundary, and provides a list of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

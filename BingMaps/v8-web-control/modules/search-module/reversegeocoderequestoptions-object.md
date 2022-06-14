@@ -1,5 +1,6 @@
 ---
 title: "ReverseGeocodeRequestOptions Object | Microsoft Docs"
+description: Describes the ReverseGeocodeRequestOptions object and its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

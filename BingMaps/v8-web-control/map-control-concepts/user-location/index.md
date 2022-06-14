@@ -1,5 +1,6 @@
 ---
 title: "User Location | Microsoft Docs"
+description: Describes user location and provides a list of the PositionOptions Object, Position Object, and Coordinate Object properties with links to examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,7 +15,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# User Location
+# User Location for V8 Web Control
 
 Obtaining a user's location can easily be done using the [W3C Geolocation API](https://www.w3.org/TR/geolocation-API/). This API is exposed through the `navigator.geolocation` property in the browser. The browser will display a notification to the user the first time this API tries to get the users location, and ask permission to share this data. The geolocation class has the following static methods.
 

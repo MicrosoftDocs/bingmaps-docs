@@ -1,5 +1,6 @@
 ---
 title: "Read GeoJSON from the Web using JSONP Example | Microsoft Docs"
+description: Provides a code example that shows how to read GeoJSON data from an online source using a JSONP request.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -52,6 +53,6 @@ In this example we will use the USGS Earthquake REST service to load in recent e
 
 When you run this code, you should see a large number of pushpins showing where earthquakes have occurred over the past 30 days with a magnitude of 3 or higher.
 
-![Earthquakes on a Map](../../media/bmv8-geojsonearthquakes.png)
+![Screenshot of a Bing map showing a zoomed-out view of the world with pushpins on top of earthquake sites.](../../media/bmv8-geojsonearthquakes.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoJsonReadExternal+JS)

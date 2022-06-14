@@ -1,5 +1,6 @@
 ---
 title: "Download Data Source Dataflow Response Description | Microsoft Docs"
+description: "Describes process of downloading data source dataflow responses and provides a table that outlines a description, type, and fields forJSON and XML."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "OnBitmapRequestedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnBitmapRequestedListener Interface | Microsoft Docs
+description: Describes the OnBitmapRequestedListener interface for Android and provides the MapTileBitmapRequestedEventArgs and CustomTileMapLayer references.
+ms.author: pablocan
 ---
 
 # OnBitmapRequestedListener Interface (Android only)

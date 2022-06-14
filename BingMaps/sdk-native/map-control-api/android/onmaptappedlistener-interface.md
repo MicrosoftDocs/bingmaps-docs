@@ -1,6 +1,7 @@
 ---
-title: "OnMapTappedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapTappedListener Interface | Microsoft Docs
+description: Describes the OnMapTappedListener interface for Android and provides syntax and additional references.
+ms.author: pablocan
 ---
 
 # OnMapTappedListener Interface (Android only)

@@ -1,6 +1,7 @@
 ---
-title: "OnMapElementTappedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapElementTappedListener Interface | Microsoft Docs
+description: Describes the OnMapElementTappedListener interface for Android and provides the MapElementTappedEventArgs and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapElementTappedListener Interface (Android only)

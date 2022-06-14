@@ -1,5 +1,6 @@
 ---
 title: "Displaying a User Location Example | Microsoft Docs"
+description: Provides a code example that shows how to request the user's location and display it as a pushpin on the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

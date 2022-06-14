@@ -1,5 +1,6 @@
 ---
 title: "Contours from GeoJSON data | Microsoft Docs"
+description: "Describes contour from GeoJSON data and provides a code example and a link that lets you try creating contours yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

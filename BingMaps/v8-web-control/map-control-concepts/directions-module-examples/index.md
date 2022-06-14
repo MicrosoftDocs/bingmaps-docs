@@ -1,5 +1,6 @@
 ---
 title: "Directions Module Examples | Microsoft Docs"
+description: Describes the Directions module, which calculates a route and displays it on a map, and provides lists of code examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

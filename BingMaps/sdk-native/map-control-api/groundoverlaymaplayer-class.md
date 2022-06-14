@@ -1,6 +1,7 @@
 ---
-title: "GroundOverlayMapLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: GroundOverlayMapLayer Class | Microsoft Docs
+description: Describes the GroundOverlayMapLayer class for Android and iOS and provides the class' constructors and additional references.
+ms.author: pablocan
 ---
 
 # GroundOverlayMapLayer Class

@@ -1,6 +1,7 @@
 ---
-title: "OnMapLoadingStatusChangedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapLoadingStatusChangedListener Interface | Microsoft Docs
+description: Describes the OnMapLoadingStatusChangedListener interface for Android and provides the MapLoadingStatus and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapLoadingStatusChangedListener Interface (Android only)

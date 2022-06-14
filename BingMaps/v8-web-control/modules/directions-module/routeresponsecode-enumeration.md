@@ -1,5 +1,6 @@
 ---
 title: "RouteResponseCode Enumeration | Microsoft Docs"
+description: Describes the RouteResponseCode enumeration, which gives response codes to a route calculation request, and provides a list of response codes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

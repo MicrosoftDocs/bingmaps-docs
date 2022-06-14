@@ -1,6 +1,7 @@
 ---
-title: "MSMapElementLayerUserDidTapElementHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapElementLayerUserDidTapElementHandler Interface | Microsoft Docs
+description: Describes the MSMapElementLayerUserDidTapElementHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapElementLayerUserDidTapElementHandler Interface (iOS only)

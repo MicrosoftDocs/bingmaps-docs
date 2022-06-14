@@ -1,5 +1,6 @@
 ---
 title: "TileSource Class | Microsoft Docs"
+description: "Describes the TileSource class and provides the class's constructor and a table that outlines the return type and description for various methods."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
