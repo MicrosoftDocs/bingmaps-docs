@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps REST URL Structure | Microsoft Docs"
+description: "Describes the base URL structure and provides the structure's HTTP and HTTPS protocols, template parameters, and an example."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

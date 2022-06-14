@@ -1,5 +1,6 @@
 ---
 title: "Configuration Driven Maps framework | Microsoft Docs"
+description: "Describes the configuration driven maps framework and provides the configuration file format and lists of code examples and related topics."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

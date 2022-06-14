@@ -1,6 +1,7 @@
 ---
-title: "OnMapLocationFinderResultListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapLocationFinderResultListener Interface | Microsoft Docs
+description: Describes the OnMapLocationFinderResultListener interface for Android and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # OnMapLocationFinderResultListener Interface (Android only)

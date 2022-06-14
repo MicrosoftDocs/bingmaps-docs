@@ -1,5 +1,6 @@
 ---
 title: "KmlScreenOverlayOptions Object | Microsoft Docs"
+description: Describes the KmlScreenOverlayOptions Object that define the options for customizing screen overlays which includes the boolean properties belowNavigationBar and visible.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

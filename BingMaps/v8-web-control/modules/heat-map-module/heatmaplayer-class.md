@@ -1,5 +1,6 @@
 ---
 title: "HeatMapLayer Class | Microsoft Docs"
+description: Describes the HeatMapLayer class, which controls heat map functionality, and provides its constructor and a list of its methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "GeoJSON Module Examples | Microsoft Docs"
+description: Describes the GeoJSON module, which imports data from GeoJSON files into Bing Maps, and provides a list of GeoJSON module examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

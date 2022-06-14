@@ -1,5 +1,6 @@
 ---
 title: "Modules | Microsoft Docs"
+description: Describes the Bing Maps V8 modular framework and provides a list of available modules for Bing Maps V8 web control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

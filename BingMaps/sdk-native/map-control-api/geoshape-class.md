@@ -1,6 +1,7 @@
 ---
-title: "Geoshape Class | Microsoft Docs"
-ms.author: "pablocan"
+title: Geoshape Class | Microsoft Docs
+description: Describes the Geoshape class for Android and IOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # Geoshape Class
