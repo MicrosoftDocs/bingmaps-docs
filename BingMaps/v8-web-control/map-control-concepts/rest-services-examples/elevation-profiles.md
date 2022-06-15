@@ -1,5 +1,6 @@
 ---
 title: "Elevation Profiles | Microsoft Docs"
+description: Provides a code example that shows how to generate an elevation profile along a route using the Elevation API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Elevation Profiles
 
-The Bing Maps REST services provides a number of useful services. The [Elevation API](../../../rest-services/elevations/index.md) provides elevation data from around the world. This code sample shows how to generate an elevation profiles along a route. 
+The Bing Maps REST services provides a number of useful services. The [Elevation API](../../../rest-services/elevations/index.md) provides elevation data from around the world. This code sample shows how to generate an elevation profile along a route. 
 
 ```html
 <!DOCTYPE html>
@@ -218,4 +219,4 @@ The Bing Maps REST services provides a number of useful services. The [Elevation
 
 If you run this code in a browser, you will see a map with a route from Seattle, WA to Redmond, WA displayed. Below the map will be a chart displaying the elevation profile of the route.
 
-![BMV8_ElevationProfile](../../media/bmv8-elevationprofile.PNG)
+![Screenshot of the Bing map showing a route from Seattle, Washington to Redmond, Washington, with a chart displaying the elevation profile.](../../media/bmv8-elevationprofile.PNG)

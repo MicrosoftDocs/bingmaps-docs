@@ -1,5 +1,6 @@
 ---
 title: "Pushpin Hover Style | Microsoft Docs"
+description: Provides a code example that show how to use mouse events to update the pushpin options when a user interacts with the pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

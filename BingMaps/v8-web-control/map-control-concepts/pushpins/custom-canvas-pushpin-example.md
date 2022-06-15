@@ -1,5 +1,6 @@
 ---
 title: "Custom Canvas Pushpin Example | Microsoft Docs"
+description: Provides a code example that shows how to dynamically create a custom image using the HTML5 canvas toDataURL function to generate a base64 image string which is then passed into the icon property of the pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -85,6 +86,6 @@ In this example, a function is created that takes in a heading and draws an arro
 
 Here is what this pushpin looks like on the map.
  
-![BMV8_ArrowPushpinExample](../../media/bmv8-arrowpushpinexample.png)
+![Screenshot of a Bing map that shows a red pointer arrow as a pushpin in the center of the map as defined in the code example.](../../media/bmv8-arrowpushpinexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromCanvas+JS)
