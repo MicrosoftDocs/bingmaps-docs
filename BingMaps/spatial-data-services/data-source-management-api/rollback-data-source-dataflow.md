@@ -1,5 +1,6 @@
 ---
 title: "Rollback a Data Source Dataflow | Microsoft Docs"
+description: "Describes how to rollback a data source dataflow and provides supported HTTP methods, the URL template, template parameters, and an example."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

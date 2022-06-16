@@ -1,5 +1,6 @@
 ---
 title: "GeoXml Module Examples | Microsoft Docs"
+description: Describes the GeoXml module, which reads and writes common geospatial XML file formats, and provides examples and API reference articles.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

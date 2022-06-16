@@ -1,5 +1,6 @@
 ---
 title: "Modular Framework | Microsoft Docs"
+description: Describes the modular framework of the Bing Maps V8 SDK and provides a list of reference articles related to the framework.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

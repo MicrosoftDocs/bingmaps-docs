@@ -1,5 +1,6 @@
 ---
 title: "TrafficOptions Object | Microsoft Docs"
+description: Describes the TrafficOptions object and provides a list of properties associated with the TrafficOptions object.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

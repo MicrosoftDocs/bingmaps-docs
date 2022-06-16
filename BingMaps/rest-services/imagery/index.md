@@ -1,6 +1,6 @@
 ---
 title: "Imagery API | Microsoft Docs"
-description: "Bing™ Maps Imagery API lets you get static maps and Bing™ Maps imagery information. This article lists resources on how to do so."   
+description: An overview page for the Bing Maps Imagery API section with links to articles that describe how to get static maps and Bing Maps imagery information.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -21,7 +21,7 @@ Use the Imagery API to get static maps and Bing™ Maps imagery information.
 ## In this Section  
   
 |Resource | Description|  
-|-|-|  
+|---------|------------|  
 |[Get a Static Map](get-a-static-map.md)|Use these URL templates to get a static map. You can also display a route on a static map.|  
 |[Get Imagery Metadata](get-imagery-metadata.md)|Use these URL templates to get metadata for imagery that is hosted by Bing™ Maps, such as imagery tiles.|  
 |[Imagery Metadata](imagery-metadata.md)|Use this description to understand the results returned in a response that contains imagery metadata.|  

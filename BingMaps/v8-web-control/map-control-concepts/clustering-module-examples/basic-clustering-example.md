@@ -1,5 +1,6 @@
 ---
 title: "Basic Clustering Example | Microsoft Docs"
+description: "Provides a code example of the basic Clustering module that generates pushpins and a link to try basic clustering yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

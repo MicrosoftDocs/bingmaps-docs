@@ -1,5 +1,6 @@
 ---
 title: "WaypointOptions Object | Microsoft Docs"
+description: Describes the properties available in the WaypointOptions object.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

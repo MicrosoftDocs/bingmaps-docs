@@ -1,5 +1,6 @@
 ---
 title: "PushpinOptions Object | Microsoft Docs"
+description: "Describes the PushpinOptions object and provides a table that outlines the type and description for various object fields."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,8 +1,9 @@
 ---
 # required metadata
 title: "Eat Drink Identifiers | Microsoft Docs"
+description: A list of type identifiers for eating and drinking establishments with descriptions of each type.
 author: "v-chrfr"
-ms.author: "v-chrfr"
+ms.author: v-munksteve
 ms.date: "12/10/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

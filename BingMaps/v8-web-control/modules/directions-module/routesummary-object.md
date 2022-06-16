@@ -1,5 +1,6 @@
 ---
 title: "RouteSummary Object | Microsoft Docs"
+description: Describes the RouteSummary object, which represents a route summary, and provides a list of route summary properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

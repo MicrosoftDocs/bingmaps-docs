@@ -1,6 +1,7 @@
 ---
-title: "GeoshapeType Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: GeoshapeType Enumeration | Microsoft Docs
+description: Describes the GeoshapeType enumeration for Android and iOS and provides the enumeration's Geopoint, Geocircle, Geopath, and GeoboundingBox values.
+ms.author: pablocan
 ---
 
 # GeoshapeType Enumeration

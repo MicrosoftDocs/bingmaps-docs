@@ -1,5 +1,6 @@
 ---
 title: "Geocode Dataflow Data Schema - Version 2.0 | Microsoft Docs"
+description: "Learn about the Geocode Dataflow data schema Version 2.0, with explanations of the text file schema, XML schema, and data schema definitions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
