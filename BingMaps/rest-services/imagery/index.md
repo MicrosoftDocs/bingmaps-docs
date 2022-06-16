@@ -1,6 +1,6 @@
 ---
 title: "Imagery API | Microsoft Docs"
-description: An overview page for the Bing Maps Imagery API section with links to articles that describe how to get static maps and Bing Maps imagery information
+description: An overview page for the Bing Maps Imagery API section with links to articles that describe how to get static maps and Bing Maps imagery information.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
