@@ -1,6 +1,6 @@
 ---
 title: "Point Compression Algorithm | Microsoft Docs"
-description: "This article provides step-by-step instructions that describe the point compression algorithm, complete with an example."
+description: Learn how to implement the point compression algorithm to get a compressed string you can use to reduce the size of a request or when you cannot use the HTTP POST method. 
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"
@@ -36,7 +36,6 @@ http://dev.virtualearth.net/REST/v1/Elevation/Polyline?points=vx1vilihnM6hR7mEl2
 The following step-by-step instructions describe the point compression algorithm complete with an example. A test URL that you can use with a small number of points to test your algorithm implementation is described in [Testing Your Algorithm Implementation](#testing-your-algorithm-implementation), and a [JavaScript Implementation](#javascript-implementation) is provided.  
   
 1.  Start with a set of latitude and longitude values. 
-
  
     |Lat | Lon|
     |-|-|
@@ -44,11 +43,12 @@ The following step-by-step instructions describe the point compression algorithm
     | 35.893930979073048 | -110.72577999904752 |
     | 35.893744984641671 | -110.72606003843248 |  
     | 35.893366960808635 | -110.72661500424147 | 
+
    
 
   
 2.  Multiply each value by 100000 and round each result to the nearest integer.  
-  
+
       |Lat | Lon|
       |-|-|
       | 3589431 | -11072522 |  
@@ -89,9 +89,9 @@ The following step-by-step instructions describe the point compression algorithm
   
 6.  For each pair of latitude and longitude coordinates, compute the following value: ((latitude + longitude) * (latitude + longitude + 1) / 2)  + latitude. This can require up to 51 bits of precision. (Javascript performs exact arithmetic with up to 53 bits of precision).  
   
-      | Value |
-      |-|
-     |429945724065327|  
+    | Value |
+    |-|
+    |429945724065327|  
     |17466  |
     |4315  |
     |17093  |

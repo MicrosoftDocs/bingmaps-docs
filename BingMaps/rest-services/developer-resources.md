@@ -1,6 +1,6 @@
 ---
 title: "REST Developer Resources | Microsoft Docs"
-description: "This article provides REST developer resources to learn more about Bing Maps, get your questions answered, and get the latest announcements."
+description:  Links to the resources available to REST developers including Bing Maps Forums, blogs and social media as well as where to go for answers to questions about account issues and licensing questions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

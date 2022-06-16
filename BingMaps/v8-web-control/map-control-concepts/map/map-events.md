@@ -1,6 +1,6 @@
 ---
 title: "Map Events for V8 Web Control | Microsoft Docs"
-description: Learn about map events for V8 Web Control with an example showing how all the different events for the map work by highlight a label to indicate which event fired as you use the map.
+description: Learn about map events for V8 Web Control with an example showing how all the different events for the map work by highlighting a label to indicate which event fired as you use the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Map Events
 
-This example shows how all the different events for the map work by highlight a label to indicate which event fired as you use the map. 
+This example shows how all the different events for the map work by highlighting a label to indicate which event fired as you use the map.
 
 ```html
 <!DOCTYPE html>
@@ -80,8 +80,9 @@ This example shows how all the different events for the map work by highlight a 
 </body>
 </html>
 ```
+
 This code loads a map. As you interactive with it using a mouse or touch you will see the different map events highlighted as they are fired.
 
-![BMV8_MapEvents](../../media/bmv8-mapevents.png)
+![Screenshot of a Bing map showing a purple line along the programmed route and a list of firing events below the map.](../../media/bmv8-mapevents.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#mapMouseEvents+JS)
