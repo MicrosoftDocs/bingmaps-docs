@@ -1,31 +1,32 @@
 ---
-title: "Locations API | Microsoft Docs"
-description: Learn how to use the Locations API to get location information for Bing Maps.
+title: "Imagery API | Microsoft Docs"
+description: An overview page for the Bing Maps Imagery API section with links to articles that describe how to get static maps and Bing Maps imagery information.
+ms.custom: ""
 ms.date: "02/28/2018"
-ms.topic: "reference"
-ms.assetid: 8dfa0195-4c51-44c3-8b9b-d8dad33e8898
-caps.latest.revision: 16
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: b5a33686-312c-477f-8f7d-3e0a5e7b7373
+caps.latest.revision: 18
 author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
-# Bing Maps Locations API
+# Bing Maps Imagery API
 
-Use the Locations API to get location information.  
+Use the Imagery API to get static maps and Bing™ Maps imagery information.  
   
 ## In this section  
   
 |Topic|Description|  
 |-|-|  
-|[Find a Location by Address](find-a-location-by-address.md)|Use these URL templates to get latitude and longitude coordinates for a location by specifying values such as a locality, postal code, and street address.|  
-|[Find a Location by Point](find-a-location-by-point.md)|Use this URL template to get the location information associated with latitude and longitude coordinates.|  
-|[Find a Location by Query](find-a-location-by-query.md)|Use these URL templates to get latitude and longitude coordinates that correspond to location information provided as a query string.|
-|[Location Recognition](location-recognition.md)|Use this URL template to get location information such as local businesses, natural points of interests, and a reverse geocoded address for a specified latitude and longitude coordinate.|
-|[Local Search](local-search.md)| Use this URL template to search for nearby local businesses using a text query or business type.|
-|[Location Data](location-data.md)|Use this description to understand the results returned in the response to a Locations API request.|  
+|[Get a Static Map](get-a-static-map.md)|Use these URL templates to get a static map. You can also display a route on a static map.|  
+|[Get Imagery Metadata](get-imagery-metadata.md)|Use these URL templates to get metadata for imagery that is hosted by Bing™ Maps, such as imagery tiles.|  
+|[Imagery Metadata](imagery-metadata.md)|Use this description to understand the results returned in a response that contains imagery metadata.|  
+|[Static Map Data](static-map-data.md)|Use this description to understand the results returned in a response that contains static map metadata.|  
   
-## See Also
-
-[Bing Maps API Best Practices](../../getting-started/bing-maps-api-best-practices.md)
-[Geocoding Japanese Addresses](../../articles/geocoding-japanese-addresses.md)
+## See Also  
+ [Show Bing Results on a  Map](https://msdn.microsoft.com/library/hh305206.aspx)   
+ [Displaying Location Search Results Using the REST Services](https://msdn.microsoft.com/library/gg427601.aspx)
