@@ -1,6 +1,7 @@
 ---
-title: "MapLocationAddress Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationAddress Class | Microsoft Docs
+description: Describes the MapLocationAddress class for Android and iOS with descriptions for each of its properties.
+ms.author: pablocan
 ---
 
 # MapLocationAddress Class

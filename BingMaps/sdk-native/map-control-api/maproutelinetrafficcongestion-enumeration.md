@@ -1,6 +1,7 @@
 ---
-title: "MapRouteLineTrafficCongestion Enumeration | Microsoft Docs"
-ms.author: "khass"
+title: MapRouteLineTrafficCongestion Enumeration | Microsoft Docs
+description: Describes the MapRouteLineTrafficCongestion enumeration for Android and iOS and provides the enumeration's values.
+ms.author: khass
 ---
 
 # MapRouteLineTrafficCongestion Enumeration

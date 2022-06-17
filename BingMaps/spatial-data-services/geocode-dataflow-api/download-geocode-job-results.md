@@ -1,5 +1,6 @@
 ---
 title: "Download Geocode Job Results | Microsoft Docs"
+description: "Describes how to download Geocode job results with sample code showing results in XML and JSON."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

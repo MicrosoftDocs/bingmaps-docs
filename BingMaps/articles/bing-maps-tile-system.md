@@ -1,6 +1,6 @@
 ---
 title: "Bing Maps Tile System | Microsoft Docs"
-description: Learn about Bing Maps tile system which allows users to pan and zoom a world map. 
+description: "Describes the Bing Maps Tile System and outlines map projection, tile coordinates, and provides sample code."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -22,7 +22,7 @@ Bing Maps provides a world map that users can directly manipulate to pan and zoo
 
 To make the map seamless, and to ensure that aerial images from different sources line up properly, we have to use a single projection for the entire world.  We chose to use the **Mercator projection**, which looks like this:  
   
- ![Screenshot of the Mercator projection image.](../articles/media/150afcdc-99eb-4296-9948-19c0a65727a3.jpg "150afcdc-99eb-4296-9948-19c0a65727a3")  
+ ![A two-dimensional map of Earth, showing all continents.](../articles/media/150afcdc-99eb-4296-9948-19c0a65727a3.jpg "150afcdc-99eb-4296-9948-19c0a65727a3")  
   
  Although the Mercator projection significantly distorts scale and area (particularly near the poles), it has two important properties that outweigh the scale distortion:  
   
@@ -82,7 +82,7 @@ To make the map seamless, and to ensure that aerial images from different source
 ### Pixel Coordinates  
  Having chosen the projection and scale to use at each level of detail, we can convert geographic coordinates into pixel coordinates.  Since the map width and height is different at each level, so are the pixel coordinates.  The pixel at the upper-left corner of the map always has pixel coordinates (0, 0).  The pixel at the lower-right corner of the map has pixel coordinates (width-1, height-1), or referring to the equations in the previous section, (256 * 2<sup>level</sup>–1, 256 * 2<sup>level</sup>–1).  For example, at level 3, the pixel coordinates range from (0, 0) to (2047, 2047), like this:  
   
- ![Screenshot of the Mercator projection image with pixel coordinates at upper left and lower right corner displayed.](../articles/media/0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636.jpg "0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636")  
+ ![A two-dimensional map of Earth, showing the 0 , 0 and 2047 , 2047 coordinates on opposite corners of the map.](../articles/media/0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636.jpg "0cdb18d0-24cc-4cc9-a7ec-b67b42c8e636")  
   
  Given latitude and longitude in degrees, and the level of detail, the pixel XY coordinates can be calculated as follows:  
   
@@ -101,7 +101,7 @@ To make the map seamless, and to ensure that aerial images from different source
   
  Each tile is given XY coordinates ranging from (0, 0) in the upper left to (2<sup>level</sup>–1, 2<sup>level</sup>–1) in the lower right.  For example, at level 3 the tile coordinates range from (0, 0) to (7, 7) as follows:  
   
- ![Screenshot of the Mercator projection image with a tile display and assigned coordinate pairs visible.](../articles/media/209e5af1-34c1-45f6-ba24-41df3e1a1b10.jpg "209e5af1-34c1-45f6-ba24-41df3e1a1b10")  
+ ![A two-dimensional map of Earth that is broken into 64 squares.](../articles/media/209e5af1-34c1-45f6-ba24-41df3e1a1b10.jpg "209e5af1-34c1-45f6-ba24-41df3e1a1b10")  
   
  Given a pair of pixel XY coordinates, you can easily determine the tile XY coordinates of the tile containing that pixel:  
   

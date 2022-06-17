@@ -1,5 +1,6 @@
 ---
 title: "TestDataGenerator Class | Microsoft Docs"
+description: "Describes the TestDataGenerator class and provides a table that outlines the return value and description for various static method definitions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

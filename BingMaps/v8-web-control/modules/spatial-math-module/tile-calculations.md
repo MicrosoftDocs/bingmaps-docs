@@ -1,5 +1,6 @@
 ---
 title: "Tile Calculations | Microsoft Docs"
+description: Details the tile calculations methods, which perform spatial calculations based on the Tile pyramid, and provides a list of calculation methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

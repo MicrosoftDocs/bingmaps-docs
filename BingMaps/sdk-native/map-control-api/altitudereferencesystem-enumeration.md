@@ -1,6 +1,7 @@
 ---
-title: "AltitudeReferenceSystem Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: AltitudeReferenceSystem Enumeration | Microsoft Docs
+description: Describes the AltitudeReferenceSystem enumeration and provides how values will appear on Android iOS systems, and provides additional value types.
+ms.author: pablocan
 ---
 
 # AltitudeReferenceSystem Enumeration

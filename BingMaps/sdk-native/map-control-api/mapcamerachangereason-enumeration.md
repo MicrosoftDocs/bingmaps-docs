@@ -1,6 +1,7 @@
 ---
-title: "MapCameraChangeReason Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapCameraChangeReason Enumeration | Microsoft Docs
+description: Describes the MapCameraChangeReason enumeration for Android and iOS and provides the enumeration's syntax and System, UserInteraction, and Programmatic values.
+ms.author: pablocan
 ---
 
 # MapCameraChangeReason Enumeration

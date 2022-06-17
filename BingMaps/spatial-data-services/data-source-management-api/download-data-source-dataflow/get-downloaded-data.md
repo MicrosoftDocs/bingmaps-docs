@@ -1,5 +1,6 @@
 ---
 title: "Get Downloaded Data | Microsoft Docs"
+description: Describes how to use the URL returned in the job status response to access the downloaded entity data using the Data Source Download Dataflow API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

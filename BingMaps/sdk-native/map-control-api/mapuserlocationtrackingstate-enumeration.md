@@ -1,6 +1,7 @@
 ---
-title: "MapUserLocationTrackingState Enumeration | Microsoft Docs"
-ms.author: "adl"
+title: MapUserLocationTrackingState Enumeration | Microsoft Docs
+description: Describes the MapUserLocationTrackingState enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: adl
 ---
 
 # MapUserLocationTrackingState Enumeration

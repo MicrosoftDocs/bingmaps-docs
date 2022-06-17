@@ -1,6 +1,7 @@
 ---
-title: "Geopath Class | Microsoft Docs"
-ms.author: "pablocan"
+title: Geopath Class | Microsoft Docs
+description: Describes the Geopath class and Android and iOS and provides the class' constructors, properties, methods, and additional references.
+ms.author: pablocan
 ---
 
 # Geopath Class

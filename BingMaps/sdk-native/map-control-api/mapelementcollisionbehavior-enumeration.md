@@ -1,6 +1,7 @@
 ---
-title: "MapElementCollisionBehavior Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapElementCollisionBehavior Enumeration | Microsoft Docs
+description: Describes the MapElementCollisionBehavior enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapElementCollisionBehavior Enumeration

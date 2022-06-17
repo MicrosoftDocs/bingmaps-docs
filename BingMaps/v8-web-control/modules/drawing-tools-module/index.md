@@ -1,5 +1,6 @@
 ---
 title: "Drawing Tools Module | Microsoft Docs"
+description: The overview page for the Bing Maps Drawing Tools Module section with links to articles that describe the various classes, objects, enumerators and examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

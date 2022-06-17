@@ -1,6 +1,7 @@
 ---
-title: "Map Scenes and Cameras | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Scenes and Cameras | Microsoft Docs
+description: Describes the purpose of scenes and cameras in MapScene in BingMaps and provides examples of setting the initial location and showing an area on a map.
+ms.author: pablocan
 ---
 
 # Scenes and Cameras
