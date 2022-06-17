@@ -1,5 +1,6 @@
 ---
 title: "Polygons with Holes Example | Microsoft Docs"
+description: Provides a code example that creates a complex polygon with a hole cut inside of the polygon shape.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -70,4 +71,4 @@ The following code is an example that creates a complex polygon that has a hole 
 
 Here is what this complex polygon would look like when zoomed out.
 
-![Polygon with a Hole on a Map](../../media/bmv8-polygonwithholeexample.png)
+![Screenshot of a Bing map with a green triangle highlighted in red over the center of the map, with a second triangle inside of the green triangle.](../../media/bmv8-polygonwithholeexample.png)

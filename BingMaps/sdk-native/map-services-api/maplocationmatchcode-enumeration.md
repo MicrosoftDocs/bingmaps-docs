@@ -1,6 +1,7 @@
 ---
-title: "MapLocationMatchCode Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationMatchCode Enumeration | Microsoft Docs
+description: Describes the MapLocationMachCode enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationMatchCode Enumeration

@@ -1,5 +1,6 @@
 ---
 title: "Making a Data Source Public or Private | Microsoft Docs"
+description: "Describes how to make a data source public or private and provides a process for adjusting publicity either on upload or after the data source is published."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

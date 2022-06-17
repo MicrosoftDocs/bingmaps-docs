@@ -1,5 +1,6 @@
 ---
 title: "Polygon Class | Microsoft Docs"
+description: "Describes the polygon class and provides the class's constructor and tables that outline the class's methods, properties, and events."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Custom Map Styles in Bing Maps | Microsoft Docs"
+description: "Describes custom map styles in Bing Maps and provides style objects, known limitations, and style samples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -19,7 +20,7 @@ Depending on which API or service you are using there are two different ways to 
 
 The JSON style schema is very comprehensive. The Windows 10 UWP map control makes full use of the schema while the Bing Maps V8 Web control and REST services support a subset of the schema. A JSON style created for the Windows 10 UWP map control will work with the V8 Web Control and vice-versa. Any unsupported style settings will simply be ignored.
 
-This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
+This documentation will focus on custom map styles in Bing Maps V8 Web Control and the Bing Maps REST services. Documentation on using custom map styles in the Windows 10 UWP control can be found [here](/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet).
 
 ## Custom Map Styles in the Bing Maps V8 Web Control
 

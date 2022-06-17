@@ -1,6 +1,7 @@
 ---
-title: "TrafficIncidentsMapLayer Class | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficIncidentsMapLayer Class | Microsoft Docs
+description: Describes the TrafficIncidentsMapLayer class for Android and iOS and provides the class's events and additional references.
+ms.author: pablocan
 ---
 
 # TrafficIncidentsMapLayer Class

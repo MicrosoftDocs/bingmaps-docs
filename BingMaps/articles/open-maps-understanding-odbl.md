@@ -1,5 +1,6 @@
 ---
 title: "Open Maps understanding ODbL | Microsoft Docs"
+description: "Describes how to understand ODbL in Open Maps within Bing Maps and outlines what ODbL is, its requirements, and how to share ODbL data."
 ms.custom: ""
 ms.date: ""
 ms.reviewer: ""
@@ -7,11 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ""
-author: ""
-ms.author: ""
+author: "jesselgit"
+ms.author: "jelevi"
 manager: ""
 ms.service: "bing-maps"
 ---
+
 # Open Maps: understanding ODbL
 
 **ODBL in Bing Maps**
@@ -24,7 +26,6 @@ Certain data available in the [Bing Maps v8 web control](../v8-web-control/index
 
  >[!WARNING]
  > **This page is for informational purposes only**. It does not constitute legal advice or interpretation.  For information about using data subject to ODbL, seek the guidance of an attorney. Microsoft is not liable or responsible for your use of any data subject to ODbL.
- 
 
 ## What are the requirements for use of ODbL data?
 

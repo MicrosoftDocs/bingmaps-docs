@@ -1,5 +1,6 @@
 ---
 title: "Creating Custom Modules | Microsoft Docs"
+description: Describes the Bing Maps Modular framework that enables the creation of reusable blocks of code that tie into Bing Maps.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -93,5 +94,3 @@ If this module was stored saved in a folder called js and a file called MyModule
 </body>
 </html>
 ```
-
-**_Tip_**: The Bing Maps V7 SDK also supported custom modules. Several developers created useful modules and made them available through the [Bing Maps V7 Module project](https://bingmapsv7modules.codeplex.com/) on CodePlex. This is a great place to see how other custom modules have been created.  

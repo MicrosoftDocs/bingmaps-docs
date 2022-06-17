@@ -1,5 +1,6 @@
 ---
 title: "Autosuggest Module Examples | Microsoft Docs"
+description: "Provides Autosuggest module examples and provides links to the default autosuggest user interface, filling in an address form, and additional related topics."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

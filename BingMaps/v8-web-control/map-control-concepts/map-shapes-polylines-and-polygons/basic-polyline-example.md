@@ -1,5 +1,6 @@
 ---
 title: "Basic Polyline Example | Microsoft Docs"
+description: Provides a code example that creates a red polyline with a thickness of 3 pixels and has a dash array.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -54,4 +55,4 @@ The following code creates a polyline that is red in color, has a thickness of 3
 
 Here is what this polyline would look like when zoomed out. 
 
-![BMV8_BasicPolylineExample](../../media/bmv8-basicpolylineexample.png)
+![Screenshot of a Bing map with a green triangle highlighted in bright red over the center of the map.](../../media/bmv8-basicpolylineexample.png)

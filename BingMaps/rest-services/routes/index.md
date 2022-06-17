@@ -1,6 +1,10 @@
 ---
 title: "Routes API | Microsoft Docs"
+<<<<<<< HEAD
 description: The overview page for the Bing Maps Routes API section provides links to articles that describe how to use the Routes API to create routes, driving or walking, that include two or more locations.
+=======
+description: An overview page for the Bing Maps Routes API section with links to articles that describe how to create a route that includes two or more locations.
+>>>>>>> 4da55dd8523e6a7609f055f8771bcdff7d49bd96
 ms.date: "02/28/2018"
 ms.topic: "reference"
 caps.latest.revision: 17
@@ -18,7 +22,7 @@ Use the Routes API to create a route that includes two or more locations and to 
 ## In this Section  
   
 |Reource |Description |  
-|-|-|
+|--------|------------|
 |[Calculate a Route](calculate-a-route.md)|Get a walking, driving or transit route by specifying a series of waypoints.|  
 |[Calculate a Truck Route](calculate-a-truck-route.md)|Calculate routes which take into consideration truck attributes. Such as size, weight, and type of cargo.|  
 |[Calculate Routes from Major Roads](calculate-routes-from-major-roads.md)|Get driving routes to a location from major roads in four directions (West, North, East and South)|  

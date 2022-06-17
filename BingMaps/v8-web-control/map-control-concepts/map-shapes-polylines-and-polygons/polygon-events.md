@@ -1,5 +1,6 @@
 ---
 title: "Polygon Events | Microsoft Docs"
+description: Provides a Polygon Events code example that attaches mouse events to a polygon on a map. When these events fire they highlight a label to indicate which event fired.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -67,6 +68,6 @@ This example attaches several mouse events to a polygon. When these events fire 
 
 If you run this code and hover and click the polygon you will see all these different events fire.
 
-![BMV8_PolygonEventsExample(../../media/bmv8-polygoneventsexample.png)
+![Screenshot of a Bing Map showing a dark green polygon shape over the center of the map with a list of the events below the map.](../../media/bmv8-polygoneventsexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#polygonAllEvents+JS)

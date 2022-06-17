@@ -1,5 +1,6 @@
 ---
 title: "Range Object | Microsoft Docs"
+description: "Describes the range object and provides a table that outlines the type and description for the min and max objects."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

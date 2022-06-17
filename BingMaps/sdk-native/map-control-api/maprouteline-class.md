@@ -1,6 +1,7 @@
 ---
-title: "MapRouteLine Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapRouteLine Class | Microsoft Docs
+description: Describes the MapRouteLine class for Android and iOS and provides the class' methods, properties, and additional references.
+ms.author: pablocan
 ---
 
 # MapRouteLine Class

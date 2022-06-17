@@ -1,5 +1,6 @@
 ---
 title: "Geometry Binary Operations | Microsoft Docs"
+description: Provides a code example that uses binary operations triggered by five buttons to alter the two polygons on the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

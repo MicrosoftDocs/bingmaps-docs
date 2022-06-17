@@ -1,5 +1,6 @@
 ---
 title: "Changing the color of the default Pushpin | Microsoft Docs"
+description: Provides a code example that shows how to change the color of the default pushpin instead of creating a custom pushpin.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -52,4 +53,4 @@ The default pushpin works well for most applications, but sometimes its useful t
 
 Runing this code in a browser will display a red pushpin in the center of the map.
 
-![BMV8_ChangePushpinColor](../../media/bmv8-changepushpincolor.png)
+![Screenshot of the Bing map that shows a red pushpin in the center of the map as defined in the code example.](../../media/bmv8-changepushpincolor.png)

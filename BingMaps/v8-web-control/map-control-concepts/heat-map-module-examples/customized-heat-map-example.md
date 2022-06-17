@@ -1,5 +1,6 @@
 ---
 title: "Customized Heat Map Example | Microsoft Docs"
+description: Provides a code example that shows a sample heat map with a custom color gradient and an intensity of 0.65.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -63,6 +64,6 @@ This example loads 50,000 random locations into the heat map layer. The heat map
 
 Here is what this heat map looks like over the USA.
 
-![Customized Heatmap Example on a Map](../../media/bmv8-customizedheatmapexample-map.png)
+![Screenshot of a Bing map showing the custom heat map layer over a map of the United States of America.](../../media/bmv8-customizedheatmapexample-map.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#customizedHeatMap+JS)

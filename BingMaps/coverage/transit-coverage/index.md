@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Transit Coverage | Microsoft Docs"
+description: Provides an index for Bing Maps transit coverage through a list of links to Bing Maps API transit coverage for all continents.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
