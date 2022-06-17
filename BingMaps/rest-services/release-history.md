@@ -1,6 +1,5 @@
 ---
 title: "REST Release History | Microsoft Docs"
-description: "This article lists the release history for the Bing Maps REST Services."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
