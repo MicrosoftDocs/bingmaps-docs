@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with iOS | Microsoft Docs"
-description: "This article is a tutorial that goes through creating an iOS app with a Bing Maps Native Control step-by-step."
+description: The getting started with iOS article is a tutorial that steps through creating an iOS app with a Bing Maps Native Control.
 ms.author: "pablocan"
 ---
 

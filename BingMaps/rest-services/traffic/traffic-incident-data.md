@@ -1,6 +1,6 @@
 ---
 title: "Traffic Incident Data | Microsoft Docs"
-description: "This article contains a table that describes the fields in the traffic incident resource. JSON and XML formats are shown."
+description: This article describes the Traffic Incident Data contained in TrafficIncident resources, returned by a Traffic URL, in a table that describes each field. Both JSON and XML formats are shown.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

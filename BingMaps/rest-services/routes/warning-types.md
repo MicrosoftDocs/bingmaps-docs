@@ -1,6 +1,6 @@
 ---
 title: "Warning Types | Microsoft Docs"
-description: "This article lists warning type values that are used to set the warningType attribute that is returned with warning text by the Routes when there is a potential issue along a route segment."
+description: This article describes all Warning Types used to set the warningType attribute returned with warning text by the Bing Maps Routes API when there is a potential issue along a route segment. Examples of a Warning Type include values such as Accident, BlockedRoad, Congestion, DisabledVehicle, PrivateRoad, RoadHazard, TollRoad and Weather.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

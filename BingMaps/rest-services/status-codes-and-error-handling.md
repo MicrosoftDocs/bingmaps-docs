@@ -1,6 +1,6 @@
 ---
 title: "REST Status Codes and Error Handling | Microsoft Docs"
-description: "This article contains information on REST status codes and error handling, listing the most common HTTP status codes with short descriptions on each."
+description: This article contains information on REST status codes and error handling, listing the most common HTTP status codes with short descriptions on each.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 
 Information on status codes and error handling.
 
-## Handling Empty Responses
+## Handling empty responses
 
  Occasionally, the servers processing service requests can be overloaded, and you may receive some responses that contain no results for queries that you would normally receive a result. To identify this situation, check the HTTP headers of the response. If the HTTP header X-MS-BM-WS-INFO is set to 1, it is best to wait a few seconds and try again.  
   
