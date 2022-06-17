@@ -1,6 +1,6 @@
 ---
 title: "Static Map Data | Microsoft Docs"
-description: "This article describes Static Map data and lists fields that are returned when you request image metadata for a static map, pushpin metadata information, and examples."
+description: "This article describes Static Map data and lists fields that are returned when you request image metadata for a static map and pushpin metadata information, including an example showing the metadata returned for a static map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,6 @@
 ---
 title: "Location Data | Microsoft Docs"
-description: "This article lists top-level fields in the Locations resource, along with geocode point fields, and examples."
+description: The Location Data article provides descriptions of the Locations resource fields, followed by JSON and XML examples.
 ms.custom: ""
 ms.date: "05/30/2019"
 ms.reviewer: ""

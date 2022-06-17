@@ -1,6 +1,6 @@
 ---
 title: "Calculate a Truck Route | Microsoft Docs"
-description: "This article describes how to calculate a truck route, providing URL templates, API limits, template parameters, and examples."
+description: "This article describes how to calculate a truck route that can take into account truck attributes such as size, weight and type of cargo and defines API limits, supported HTTP methods. Also includes URL templates, template parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

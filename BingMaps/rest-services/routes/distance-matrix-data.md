@@ -1,6 +1,6 @@
 ---
 title: "Distance Matrix Data | Microsoft Docs"
-description: "This article provides tables that give descriptions of the DistanceMatrix and DistanceMatrixAsyncStatus resource fields."
+description: This article provides tables that describe responses returned when making an asynchronous request to the Distance Matrix API, this includes the DistanceMatrixAsyncStatus resource returned as a response when making a DistanceMatrixAsync request that includes an estimated amount of time left to process the request and the DistanceMatrix Resource that includes an array of results which correspond to each origin and destination pair in the request.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
