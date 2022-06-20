@@ -1,6 +1,6 @@
 ---
 title: "Map Styling | Microsoft Docs"
-description: "This article lists resources for map style sheets, which define the appearance of a map in various Microsoft map controls."
+description: The overview page for Map Styling, used to define the appearance of a map in various Microsoft map controls, contains links to the map style sheet articles.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
