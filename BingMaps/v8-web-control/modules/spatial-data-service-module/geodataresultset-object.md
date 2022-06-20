@@ -1,5 +1,6 @@
 ---
 title: "GeoDataResultSet Object | Microsoft Docs"
+description: Describes the GeoDataResultSet object, which represents the set of GeoData API results, and provides a list of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Right Click Events for Shapes | Microsoft Docs"
+description: Provides a code example that shows how to use a right click event on a layer to trigger right click events on shapes.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -91,4 +92,4 @@ Pushpins, polylines, and polygons support a number of mouse events, however righ
 
 Running this code in a browser will display a map that has a pushpin and polygon rendered on it. If you right click either of these, an infobox will be displayed for that shape.
 
-![BMV8_RightClickShapes](../../media/bmv8-rightclickshapes.PNG)
+![Screenshot of a Bing map that shows a polygon on top of a portion of Bellevue, Washington, and an infobox for the polygon.](../../media/bmv8-rightclickshapes.PNG)

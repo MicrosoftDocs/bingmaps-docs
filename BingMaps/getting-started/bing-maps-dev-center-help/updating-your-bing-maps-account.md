@@ -1,5 +1,6 @@
 ---
 title: "Updating Your Bing Maps Account | Microsoft Docs"
+description: "Describes the process of updating your Bing Maps account through outlining how to change the Microsoft account associated with your Bing Maps account."
 ms.custom: ""
 ms.date: "11/26/2018"
 ms.reviewer: ""

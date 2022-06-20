@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Traffic Coverage | Microsoft Docs"
+description: "Describes Bing Maps Traffic Coverage and outlines traffic flow and traffic incidents, and provides traffic coverage data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -21,7 +22,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
  
  Traffic flow refers to lines of color representing different levels of traffic congestion that display on a Bing map.  
  
-![Bing Maps Traffic Flow Coverage](media/BingMaps_Traffic_Flow_2018.PNG)
+![A two-dimensional continental map with various countries in North America, South America, Africa, Asia, and Australia being highlighted.](media/BingMaps_Traffic_Flow_2018.PNG)
 
   
  ## Traffic Incidents

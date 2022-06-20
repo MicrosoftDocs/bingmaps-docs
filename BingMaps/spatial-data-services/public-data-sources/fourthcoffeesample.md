@@ -1,5 +1,6 @@
 ---
 title: "FourthCoffeeSample | Microsoft Docs"
+description: "Describes the FourthCoffeeSample data source, a sample data source used when learning how to query and get data source information using the Bing Spatial Data Services, with a table that outlines the data type and example value for each of its properties."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

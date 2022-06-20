@@ -1,5 +1,6 @@
 ---
 title: "Bing Spatial Data Services | Microsoft Docs"
+description: "The overview page for the Spatial Data Services section, which uses REST URLS to geocode, store and query spatial data. Describes what you can do with these API and contains a list of links to topics in this section with descriptions for each."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -30,7 +31,7 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
   
 ## In this Section  
   
-|||  
+|Resource|Description|  
 |-|-|  
 |[Getting Started](../spatial-data-services/getting-started-with-the-spatial-data-services.md)|Provides information to help you get started with the Bing Spatial Data Services.|
 |[Public Data Sources](public-data-sources/index.md)|Includes descriptions of public data sources that you can query.|  
@@ -41,7 +42,6 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
 |[Data Source Management API](data-source-management-api/index.md)|Describes the API that creates and manages data sources.|  
 |[Query API](query-api/index.md)|Describes the API that queries a data source. You can query for entities in a given area, along a route, or search by entity property or ID.|  
 |[Geodata API](../spatial-data-services/geodata-api.md)|Describes the API that gets one or more polygons that represent a geographical entity such as a country/region, admin division, or postal code.|  
-|[Release History](../spatial-data-services/release-history.md)|A history of Bing Spatial Data Services feature releases since November, 2013.|  
 |[Developer Resources](../spatial-data-services/developer-resources.md)|Provides a set of helpful links and references for the developer.|  
   
 ## See Also

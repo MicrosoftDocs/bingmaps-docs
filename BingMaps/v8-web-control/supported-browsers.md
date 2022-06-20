@@ -1,5 +1,6 @@
 ---
 title: "Supported Browsers | Microsoft Docs"
+description: Describes the browsers that support Bing Maps V8 Web Control and provides a list of compatible desktop and mobile browsers.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

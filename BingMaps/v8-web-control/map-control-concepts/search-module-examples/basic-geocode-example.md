@@ -1,5 +1,6 @@
 ---
 title: "Basic Geocode Example | Microsoft Docs"
+description: Provides a code example that shows how to make a basic geocode search request using the Search module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -77,6 +78,6 @@ The following code sample shows how to make a geocode request using the Search m
 
 Here is what the resulting map looks like.
 
-![Geocoding Result on a Map](../../media/bmv8-basicgecodeexample.png)
+![Screenshot of a Bing map showing a purple circle pushpin over New York, New York in the middle of the map.](../../media/bmv8-basicgecodeexample.png)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Geocode)

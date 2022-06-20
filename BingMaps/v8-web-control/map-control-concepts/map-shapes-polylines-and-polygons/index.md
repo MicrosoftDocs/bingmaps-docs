@@ -1,5 +1,6 @@
 ---
 title: "Map Shapes: Polylines and Polygons | Microsoft Docs"
+description: Describes the polyline and polygon map shape classes and provides links to code examples and reference articles.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

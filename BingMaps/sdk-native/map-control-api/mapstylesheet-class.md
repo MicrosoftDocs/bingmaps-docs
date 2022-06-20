@@ -1,6 +1,7 @@
 ---
-title: "MapStyleSheet Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapStyleSheet Class | Microsoft Docs
+description: Describes the MapStyleSheet class for Android and iOS and provides the class's static methods and additional references.
+ms.author: pablocan
 ---
 
 # MapStyleSheet Class

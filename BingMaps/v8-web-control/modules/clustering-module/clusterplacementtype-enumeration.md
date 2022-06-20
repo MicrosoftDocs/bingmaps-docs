@@ -1,5 +1,6 @@
 ---
 title: "ClusterPlacementType Enumeration | Microsoft Docs"
+description: Describes the ClusterPlacementType enumeration, which can specify how a clustered pushpin should be positioned, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

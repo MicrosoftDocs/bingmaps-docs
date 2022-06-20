@@ -1,5 +1,6 @@
 ---
 title: "Basic Polygon Example | Microsoft Docs"
+description: Provides a code example that creates a simple polygon that has a red outline, a semi-transparent green fill color, and a stroke thickness of 2 pixels.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -58,4 +59,4 @@ The following code creates a simple polygon that has a red outline and a semi-tr
 
 Here is what this polygon would look like when zoomed out.
 
-![Polygon on a Map](../../media/bmv8-basicpushpinexample.png)
+![Screenshot of a Bing map showing a green triangle that is highlighted in red in the center of the map.](../../media/bmv8-basicpushpinexample.png)

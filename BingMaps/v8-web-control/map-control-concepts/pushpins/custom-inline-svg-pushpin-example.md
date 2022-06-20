@@ -1,5 +1,6 @@
 ---
 title: "Custom Inline SVG Pushpin Example | Microsoft Docs"
+description: Provides a code example that shows how to pass in inline Scalable Vector Graphics (SVG) strings to create a custom pushpin, useful if you want to dynamically create an SVG element in code.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -57,6 +58,6 @@ To create a custom pushpin out of this SVG, convert the SVG into a string and th
 ```
 Here is what this pushpin looks like on the map.
 
-![BMV8_InlineSvgExample](../../media/bmv8-inlinesvgexample.png)
+![Screenshot of a Bing map showing a yellow circle highlighted in orange acting as a pushpin in the center of the map.](../../media/bmv8-inlinesvgexample.png)
  
 [Try it here](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpinFromSvg+JS)

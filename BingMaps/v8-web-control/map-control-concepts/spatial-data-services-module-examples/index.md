@@ -1,5 +1,6 @@
 ---
 title: "Spatial Data Services Module Examples | Microsoft Docs"
+description: The overview page for the Spatial Data Services Module Examples section contains a description of and links to examples for query and GeoData API and links to articles related to this topic.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

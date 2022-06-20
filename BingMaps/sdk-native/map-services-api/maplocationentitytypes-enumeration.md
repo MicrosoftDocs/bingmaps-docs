@@ -1,6 +1,7 @@
 ---
-title: "MapLocationEntityTypes Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationEntityTypes Enumeration | Microsoft Docs
+description: Describes the MapLocationEntityTypes enumeration for Android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationEntityTypes Enumeration
