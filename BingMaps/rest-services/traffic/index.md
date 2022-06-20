@@ -14,7 +14,7 @@ Use the Traffic API to get information about traffic incidents and issues, such 
   
 ## In this section  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Get Traffic Incidents](get-traffic-incidents.md)|Use this URL to get information about traffic incidents and issues.|  
 |[Traffic Incident Data](traffic-incident-data.md)|Use this description to understand the results returned for a Traffic API request.|

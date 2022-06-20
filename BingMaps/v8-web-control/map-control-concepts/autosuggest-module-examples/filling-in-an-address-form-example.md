@@ -1,5 +1,6 @@
 ---
 title: "Filling in an Address Form Example | Microsoft Docs"
+description: "Describes how to fill in an address form and provides an example for filling in an address form in HTML."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Spatial Math Module | Microsoft Docs"
+description: Describes the spatial math module's three core parts and provides a list of documentation and examples related to the API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

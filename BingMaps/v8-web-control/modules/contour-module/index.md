@@ -1,5 +1,6 @@
 ---
 title: "Contour Module | Microsoft Docs"
+description: The overview page for the Contour Module section contains a description of Contour lines, also known as isolines, and links to API reference articles and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

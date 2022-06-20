@@ -1,9 +1,10 @@
 ---
-title: "Map Events | Microsoft Docs"
-ms.author: "pablocan"
+title: Bing Map Events
+description: Describes different types of events and includes syntax and examples of map holding events and map tapped events.
+ms.author: pablocan
 ---
 
-# Events
+# Bing Map Events
 
 The Bing Maps API provides events that allow your application to respond to user actions.
 

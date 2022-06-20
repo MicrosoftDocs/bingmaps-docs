@@ -1,5 +1,6 @@
 ---
 title: "Customizing Clustered Pushpins | Microsoft Docs"
+description: "Provides multiple examples of HTML that show how to customize clustered pushpins and gives a link that lets you try customizing clustered pushpins yourself."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

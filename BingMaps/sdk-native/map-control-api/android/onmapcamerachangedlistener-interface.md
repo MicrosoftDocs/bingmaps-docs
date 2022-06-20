@@ -1,6 +1,7 @@
 ---
-title: "OnMapCameraChangedListener Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: OnMapCameraChangedListener Interface | Microsoft Docs
+description: Describes the OnMapCameraChangedListener interface for Android and provides the MapCameraChangedEventArgs and MapView references.
+ms.author: pablocan
 ---
 
 # OnMapCameraChangedListener Interface (Android only)

@@ -1,5 +1,6 @@
 ---
 title: "StylesOptions Object | Microsoft Docs"
+description: "Describes the StylesOptions object and provides the object's properties and an example of the object's syntax."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

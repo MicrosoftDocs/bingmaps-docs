@@ -1,5 +1,6 @@
 ---
 title: "Bing Spatial Data Services API Reference | Microsoft Docs"
+description: An overview page with links to articles that document the Bing Spatial Data Services. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -18,8 +19,8 @@ ms.service: "bing-maps"
 This section contains reference documentation for the Bing Spatial Data Services.  
   
 ## In this section  
-  
-|||  
+
+|Topic|Description|  
 |-|-|  
 |[Geocode and Data Source Limits](../spatial-data-services/geocode-and-data-source-limits.md)|Defines limits on the total number of dataflow and data source jobs, such as the number of jobs that can be in process at the same time.|  
 |[Geocode Dataflow API](geocode-dataflow-api/index.md)|Describes the API that geocodes sets of spatial data.|  

@@ -1,5 +1,6 @@
 ---
 title: "Writing Geospatial XML data | Microsoft Docs"
+description: Provides a code example that exports all shapes from the map as KML and displays the XML in a text area below the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Writing Geospatial XML data
 
-The GeoXml module provides the ability to convert shapes into a spatial XML document. When writing you can pass in a map instance which will result in all shapes on the map being exported. Alternatively, you can also pass in a shape, an array of shapes, a layer, a ground overlay, or GeoXmlDataSet. In this sample we will export all shapes from the map as KML and display the XML in a textarea below the map.
+The GeoXml module provides the ability to convert shapes into a spatial XML document. When writing you can pass in a map instance which will result in all shapes on the map being exported. Alternatively, you can also pass in a shape, an array of shapes, a layer, a ground overlay, or GeoXmlDataSet. In this sample we will export all shapes from the map as KML and display the XML in a text area below the map.
 
 ```html
 <!DOCTYPE html>
@@ -64,8 +65,8 @@ The GeoXml module provides the ability to convert shapes into a spatial XML docu
 </html>
 ```
 
-If you run this sample you will see a map with some random pushpins and polygons on it, as well as a textarea below the map which contains the KML markup for these shapes.
+If you run this sample you will see a map with some random pushpins and polygons on it, as well as a text area below the map which contains the KML markup for these shapes.
 
-![BMV8_GeoXmlWrite](../../media/bmv8-geoxmlwrite.PNG)
+![Screenshot of a Bing map that shows polygons and pushpins in addition to a text field below the map with KML markup.](../../media/bmv8-geoxmlwrite.PNG)
  
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Write)

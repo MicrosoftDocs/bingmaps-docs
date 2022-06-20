@@ -1,6 +1,7 @@
 ---
-title: "MapTileBitmapRequest Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapTileBitmapRequest Class | Microsoft Docs
+description: Describes the mapTileBitmapRequest class for Android and outlines the PixelData property and provides additional references.
+ms.author: pablocan
 ---
 
 # MapTileBitmapRequest Class (Android only)

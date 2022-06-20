@@ -1,5 +1,6 @@
 ---
 title: "DataBinMetrics Object | Microsoft Docs"
+description: Describes the DataBinMetrics object, which is a set of values calculated from a data bin's pushpins, and provides descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

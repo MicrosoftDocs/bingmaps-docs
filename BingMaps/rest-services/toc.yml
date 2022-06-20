@@ -137,8 +137,6 @@
     href: status-codes-and-error-handling.md
   - name: Directly Accessing Bing Maps Tiles
     href: directly-accessing-the-bing-maps-tiles.md
-  - name: Release History
-    href: release-history.md
   - name: Developer Resources
     href: developer-resources.md
   - name: Examples
