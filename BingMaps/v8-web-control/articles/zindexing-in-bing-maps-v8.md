@@ -1,6 +1,6 @@
 ---
 title: "zIndexing in Bing Maps V8 | Microsoft Docs"
-description: "This article describes zIndexing in Bing Maps V8 and a diagram that provides an overview of the different layers and their default zIndexes within the Bing Maps V8 control."
+description: "This article describes zIndexing in Bing Maps V8 and includes a diagram that provides an overview of the different layers and their default zIndexes within the Bing Maps V8 control."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
