@@ -1,10 +1,6 @@
 ---
 title: "Routes API | Microsoft Docs"
-<<<<<<< HEAD
-description: The overview page for the Bing Maps Routes API section provides links to articles that describe how to use the Routes API to create routes, driving or walking, that include two or more locations.
-=======
 description: An overview page for the Bing Maps Routes API section with links to articles that describe how to create a route that includes two or more locations.
->>>>>>> 4da55dd8523e6a7609f055f8771bcdff7d49bd96
 ms.date: "02/28/2018"
 ms.topic: "reference"
 caps.latest.revision: 17
