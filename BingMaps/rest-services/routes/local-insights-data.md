@@ -9,16 +9,10 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 64c43775-3911-4c76-a0b4-32dc5824a258
 caps.latest.revision: 4
-<<<<<<< HEAD
-author: "eriklindeman"
-ms.author: "eriklind"
-manager: "stevelom"
-ms.service: "bing-maps"
-=======
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 manager: stevelom
 ms.service: bing-maps
->>>>>>> 6ed5e56761e3e601a98ad282467678c382d8a2a9
 ---
 
 # Local Insights Data
