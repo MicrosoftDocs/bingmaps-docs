@@ -1,6 +1,6 @@
 ---
 title: "Map Style Sheet Extensions | Microsoft Docs"
-description: "This article provides guidelines on map style sheet extensions, which can be used to add custom entries and states to your map's styles."
+description: "This article provides guidelines on map style sheet extensions, which can be used to add custom entries and states to your map's styles and includes examples on how to create a custom entry, create a custom state, overriding transparency, swapping colors and changing background shapes."
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
