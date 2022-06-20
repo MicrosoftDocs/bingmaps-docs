@@ -1,6 +1,6 @@
 ---
 title: "Getting Started: Creating and Hosting a Map Control | Microsoft Docs"
-description: "The sections in this article describe the steps you need to take to start using the Bing Maps V8 SDK."
+description: The overview page for the Getting Started: Creating and Hosting a Map Control, contains links articles that describe the steps needed to start using the Bing Maps V8 Map Control SDK, a JavaScript control that contains the objects, methods, and events required to display maps powered by Bing Maps on your Web site.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
