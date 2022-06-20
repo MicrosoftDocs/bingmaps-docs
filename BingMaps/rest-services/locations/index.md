@@ -1,5 +1,6 @@
 ---
 title: "Locations API | Microsoft Docs"
+description: Learn how to use the Locations API to get location information for Bing Maps.
 ms.date: "02/28/2018"
 ms.topic: "reference"
 ms.assetid: 8dfa0195-4c51-44c3-8b9b-d8dad33e8898
@@ -15,7 +16,7 @@ Use the Locations API to get location information.
   
 ## In this section  
   
-|||  
+|Topic|Description|
 |-|-|  
 |[Find a Location by Address](find-a-location-by-address.md)|Use these URL templates to get latitude and longitude coordinates for a location by specifying values such as a locality, postal code, and street address.|  
 |[Find a Location by Point](find-a-location-by-point.md)|Use this URL template to get the location information associated with latitude and longitude coordinates.|  
