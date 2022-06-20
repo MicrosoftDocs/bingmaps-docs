@@ -1,5 +1,6 @@
 ---
 title: "Find a Location by Point | Microsoft Docs"
+description: "This article provides URL templates for finding a location by point, along with API parameters, and examples."
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"

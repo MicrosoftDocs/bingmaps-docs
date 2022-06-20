@@ -15,10 +15,10 @@ Use the Routes API to create a route that includes two or more locations and to 
   
  For information about how to overlay routes on a static map using the Bing Maps REST Services Imagery API, see [Get a Static Map](../imagery/get-a-static-map.md).  
   
-## In this section  
+## In this Section  
   
-|Topic|Description|  
-|-|-|
+|Reource |Description |  
+|--------|------------|
 |[Calculate a Route](calculate-a-route.md)|Get a walking, driving or transit route by specifying a series of waypoints.|  
 |[Calculate a Truck Route](calculate-a-truck-route.md)|Calculate routes which take into consideration truck attributes. Such as size, weight, and type of cargo.|  
 |[Calculate Routes from Major Roads](calculate-routes-from-major-roads.md)|Get driving routes to a location from major roads in four directions (West, North, East and South)|  
