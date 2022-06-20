@@ -1,6 +1,6 @@
 ---
 title: "Query by Area | Microsoft Docs"
-description: "This article provides URLs to search a data source for entity types that are within a specified area."
+description: This article provides URL templates used to search a data source for entity types that are within a specified area. Also includes a table listing all of the template parameters with descriptions and values for each parameter, an explanation of query responses and an example that queries a data source by specifying a bounding box, another example that queries a data source by specifying a point and distance to search from that point. and a final example that queries a data source by specifying a point and distance to search and return all entity properties and distance to each entity.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

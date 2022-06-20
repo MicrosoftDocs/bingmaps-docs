@@ -1,5 +1,6 @@
 ---
 title: "GeoJsonReadOptions Object | Microsoft Docs"
+description: Describes the GeoJsonReadOptions object, which contains customization options for reading and loading a GeoJson file, and lists its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

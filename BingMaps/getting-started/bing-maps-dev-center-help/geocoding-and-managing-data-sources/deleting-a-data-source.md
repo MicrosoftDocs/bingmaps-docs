@@ -1,5 +1,6 @@
 ---
 title: "Deleting a Data Source | Microsoft Docs"
+description: "Describes how to delete a data source, outlines transaction accounting, and provides a reference for understanding Bing Maps transactions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

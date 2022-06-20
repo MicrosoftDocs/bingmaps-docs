@@ -1,18 +1,18 @@
 ---
-title: "Map Style Support | Microsoft Docs"
-description: "This article describes how map styling can be applied to a variety of Microsoft map controls, as well as a table that shows the minimum version of each control that supports each style version."
-ms.custom: ""
-ms.date: "05/26/2020"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Map Style Support | Microsoft Docs
+description: Learn about map styles supported in a variety of Microsoft map controls with a list showing the controls that support it, a link to the Map Style Sheet Editor application and a table showing the minimum version of each control that supports each style version.
+ms.custom: 
+ms.date: 05/26/2020
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ED52C0B4-237D-46B0-8FCB-6D8E9CB8C80C
 caps.latest.revision: 3
-author: "dbuerer"
-ms.author: "dbuerer"
-manager: ""
-ms.service: "bing-maps"
+author: DavidBuerer
+ms.author: dbuerer
+manager: 
+ms.service: bing-maps
 ---
 # Map Style Support
 

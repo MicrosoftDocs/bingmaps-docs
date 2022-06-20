@@ -1,5 +1,6 @@
 ---
 title: "Query API Examples | Microsoft Docs"
+description: The overview page for the Query API Examples section contains a description and links to examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

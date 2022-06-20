@@ -1,6 +1,6 @@
 ---
 title: "Bing Maps V8 Web Control | Microsoft Docs"
-description: "This topic provides links to articles, modules, and other resources on using Bing Maps as well as code optimization in V8."
+description: The overview page for the Bing Maps V8 Web Control describes each area and provides a link to the various sub-sections as well as links to the Code Optimizations in V8 article and articles explaining how to migrate from Bing Maps V6.3 and V7.
 ms.custom: ""
 ms.date: "11/05/2021"
 ms.reviewer: ""

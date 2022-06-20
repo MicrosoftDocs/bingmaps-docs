@@ -1,5 +1,6 @@
 ---
 title: "Query API Sample Code (C#) | Microsoft Docs"
+description: "The Query API Sample Code, written in C#, provides examples of how to query a data source using the Query API."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

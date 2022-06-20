@@ -1,5 +1,6 @@
 ---
 title: "SearchManager Class | Microsoft Docs"
+description: Describes the SearchManager class, which is used to perform forward and reverse geocode searches, with descriptions for its constructor and methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

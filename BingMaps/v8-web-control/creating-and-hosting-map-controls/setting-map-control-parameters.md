@@ -1,6 +1,6 @@
 ---
 title: "Setting Map Control Parameters2 | Microsoft Docs"
-description: "This article provides guidelines on how to add a parameter to the map control src URL and localizing the map. A list of parameter URLs with their descriptions are also provided."
+description: "This article explains how to set map control parameters and includes descriptions for all available parameters, also describes how to localize the map control including overriding the detected settings using the setLang and setMkt parameters."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

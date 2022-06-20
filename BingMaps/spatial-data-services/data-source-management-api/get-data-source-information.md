@@ -1,5 +1,6 @@
 ---
 title: Get Data Source Information
+description: Describes how to get data source information and provides supported HTTP methods, URL templates, template parameters, examples, and HTTP status codes.
 titleSuffix: Microsoft Bing Maps
 ms.date: 04/28/2022
 ms.topic: article

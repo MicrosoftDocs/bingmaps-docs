@@ -1,6 +1,7 @@
 ---
-title: "Changing the appearance of the map | Microsoft Docs"
-ms.author: "pablocan"
+title: Changing the appearance of the map | Microsoft Docs
+description: Describes how to change the appearance of the map and provides syntax and examples of changing default and custom map style sheets.
+ms.author: pablocan
 ---
 
 # Changing the appearance of the map
@@ -25,7 +26,7 @@ The pre-built Map Style Sheets establish the fundamental mode that a map view wi
 
 ## Custom Map Style Sheets
 
-You can create your own Map Style Sheet by writing custom JSON and passing it to `MapStyleSheet.fromJson(string json)`. The style sheet JSON API is described [here](https://docs.microsoft.com/bingmaps/styling/map-style-sheet-entries). The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
+You can create your own Map Style Sheet by writing custom JSON and passing it to `MapStyleSheet.fromJson(string json)`. The style sheet JSON API is described [here](/bingmaps/styling/map-style-sheet-entries). The style sheet JSON can also be created interactively using the [Map Style Sheet Editor](https://www.microsoft.com/p/map-style-sheet-editor/9nbhtcjt72ft).
 
 ### Examples
 

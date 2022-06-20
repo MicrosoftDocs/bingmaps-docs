@@ -1,5 +1,6 @@
 ---
 title: "PixelReference Enumeration | Microsoft Docs"
+description: "Describes the PixelReference enumeration and provides a table that outlines the description for the control, page, and viewport enumerations."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
