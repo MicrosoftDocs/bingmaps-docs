@@ -1,6 +1,6 @@
 ---
 title: "Cross Platform Bing Maps V8 apps | Microsoft Docs"
-description: "This article describes cross platform Bing Maps V8 apps, and provides both a sample mobile HTML page code and guidelines on using Bing Maps V8 in WinForm and WPF apps."
+description: Learn about Bing Maps V8 cross platform support that enables support on mobile devices that support HTML5.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -41,7 +41,7 @@ Ensure to enable the location capability in your app. If you don’t then hide t
 
 ## Security
 
-Many platforms now have added security which blocks calls to external resources in HTML based apps. As such the URL domains used by Bing Maps must be safelisted. Unfortunately, not all platforms handle safeelisting in the same way. All Bing Maps services use one of the following domains, often with one or more subdomains.
+Many platforms now have added security which blocks calls to external resources in HTML based apps. As such the URL domains used by Bing Maps must be allowlisted. Unfortunately, not all platforms handle allowlisting in the same way. All Bing Maps services use one of the following domains, often with one or more subdomains.
 
 * https://\*.bing.com
 * https://\*.virtualearth.net
@@ -56,14 +56,14 @@ In both of these scenarios, add the following content URI's and set WinRT access
 
 ## Native UWP Apps via Apache Cordova
 
-To safelist these domains in a native Windows 10, open the **config.xml** file in your Cordova project and near top of the file you should see "&lt;access origin="\*" /&gt;" after this line add the following two lines:
+To allowlist these domains in a native Windows 10, open the **config.xml** file in your Cordova project and near top of the file you should see "&lt;access origin="\*" /&gt;" after this line add the following two lines:
 
 ```xml
 <access origin="*.bing.com" subdomains="true" />
 <access origin="*.virtualearth.net" subdomains="true" />
 ```
 
-If your project doesn’t work after safelisting these URLs, ensure that the version of Windows that your app targets is 10. There is a preference property in the **config.xml** file that specifies the target version of Windows. Make sure it is set to 10.0 like this:
+If you project doesn’t work after allowlisting these URLs ensure that the version of Windows that your app targets is 10. There is a preference property in the **config.xml** file that specifies the target version of Windows. Make sure it is set to 10.0 like this:
 
 ```xml
 <preference name="windows-target-version" value="10.0" />
@@ -77,7 +77,7 @@ If your project doesn’t work after safelisting these URLs, ensure that the ver
 
 ## iOS, Android and some Web Apps
 
-Safelisting is done using a Content Security Policy (CSP). The following CSP works well for iOS and Android apps.
+Allowlisting is done using a Content Security Policy (CSP). The following CSP works well for iOS and Android apps.
 
 ```xml
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline' https://*.bing.com https://*.virtualearth.net; style-src 'self' 'unsafe-inline' https://*.bing.com https://*.virtualearth.net; media-src *">
