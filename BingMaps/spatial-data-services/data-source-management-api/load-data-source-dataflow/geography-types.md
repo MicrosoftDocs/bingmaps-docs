@@ -34,8 +34,8 @@ These geography types can be used to:
 -   When using 'intersects' and 'intersection' functions, enclose the geography description in single quotes(' ').  
   
 ## Recommended Geographies  
- The following geography types are recommended to give the best performance when querying.  
-  
+ The following geography types are recommended to give the best performance when querying.
+ 
 |Attribute|Description|Input Data Type|OData Data Type|  
 |-|-|-|-|  
 |Point|A pair of latitude and longitude values. For a more detailed description, see [Point](https://technet.microsoft.com/library/bb964737.aspx).<br /><br /> Examples:<br /><br /> POINT(116.03059 44.49031)|well-known text (WKT)|Edm.Geography|  

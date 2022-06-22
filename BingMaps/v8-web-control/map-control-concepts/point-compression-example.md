@@ -1,5 +1,6 @@
 ---
 title: "Point Compression Example | Microsoft Docs"
+description: Provides a code example that decodes an encoded string into a location array which is displayed on the map as a polyline.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -69,6 +70,6 @@ In this example the encoded string “x90uhio4sQmhuGwxrGz8sGp-zP5ooKpx9Eiz7Ip2vF
 
 Running this code will display a Polyline, that is derived from the provided encoded string, on to of the map. In this case it represents a section of the 520 highway in Bellevue, WA.
 
-![BMV8_PointCompressionExample](../media/bmv8-pointcompressionexample.png)
+![Screenshot of a Bing map showing a red polyline that represents a section of the 520 Highway in Bellevue, Washington.](../media/bmv8-pointcompressionexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)

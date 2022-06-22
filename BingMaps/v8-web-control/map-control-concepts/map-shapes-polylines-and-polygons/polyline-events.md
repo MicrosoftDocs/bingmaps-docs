@@ -1,5 +1,6 @@
 ---
 title: "Polyline Events | Microsoft Docs"
+description: Provides a code example that attaches mouse events to a polyline, which will be highlighted by labels as the events fire.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -68,6 +69,6 @@ This example attaches several mouse events to a polyline. When these events fire
 
 If you run this code and hover and click the polyline you will see all these different events fire.
 
-![BMV8_PolylineEvents](../../media/bmv8-polylineevents.png)
+![Screenshot of a Bing map showing a polyline with a list of events below the map that are highlighted in green as they fire.](../../media/bmv8-polylineevents.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#polylineAllEvents+JS)

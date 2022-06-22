@@ -1,5 +1,6 @@
 ---
 title: "Edit an Existing Shape | Microsoft Docs"
+description: Provides a code example that shows how to take an existing polygon and enable editing so the polygon can be edited.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -51,6 +52,6 @@ This example shows how to take an existing polygon and enable editing on it.
 
 Running this code in a browser will display a map with polygon on it. The vertices and edges of the polygon will have little handles on them so you can drag them to edit the shape of the polygon.
 
-![BMV8_DrawingToolsEditShapeExample](../../media/bmv8-drawingtoolseditshapeexample.png)
+![Screenshot of a Bing map showing a polygon with circular handles overlaid on top of a map of the Redmond area.](../../media/bmv8-drawingtoolseditshapeexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtEditPolygon+JS)

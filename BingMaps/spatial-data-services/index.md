@@ -41,9 +41,8 @@ The Bing™ Spatial Data Services Application Programming Interface (API) provid
 |[Geocode Dataflow API](geocode-dataflow-api/index.md)|Describes the API that geocodes sets of spatial data.|  
 |[Data Source Management API](data-source-management-api/index.md)|Describes the API that creates and manages data sources.|  
 |[Query API](query-api/index.md)|Describes the API that queries a data source. You can query for entities in a given area, along a route, or search by entity property or ID.|  
-|[Geodata API](geodata-api.md)|Describes the API that gets one or more polygons that represent a geographical entity such as a country/region, admin division, or postal code.|  
-|[Release History](release-history.md)|A history of Bing Spatial Data Services feature releases since November, 2013.|  
-|[Developer Resources](developer-resources.md)|Provides a set of helpful links and references for the developer.|  
+|[Geodata API](../spatial-data-services/geodata-api.md)|Describes the API that gets one or more polygons that represent a geographical entity such as a country/region, admin division, or postal code.|  
+|[Developer Resources](../spatial-data-services/developer-resources.md)|Provides a set of helpful links and references for the developer.|  
   
 ## See Also
 

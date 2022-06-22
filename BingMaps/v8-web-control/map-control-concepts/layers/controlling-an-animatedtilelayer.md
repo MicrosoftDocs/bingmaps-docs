@@ -1,5 +1,6 @@
 ---
 title: "Controlling an AnimatedTileLayer | Microsoft Docs"
+description: Provides a code example that shows how to control an AnimatedTileLayer by using the play, pause, and stop functions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -73,4 +74,4 @@ This example shows how to control an [AnimatedTileLayer](../../map-control-api/a
 
 Running this code displays a map with an animated weather radar. Below the map are buttons that can be used to play, pause, and stop the animation.
 
-![BMV8_AnimatedTileLayer_Controls](../../media/bmv8-animatedtilelayer-controls.PNG)
+![Screenshot of a Bing map that shows weather radar data over the map with pause, play, and stop buttons below the map.](../../media/bmv8-animatedtilelayer-controls.PNG)

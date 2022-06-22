@@ -1,5 +1,6 @@
 ---
 title: "Topography Overlay | Microsoft Docs"
+description: Provides a code example that creates a custom overlay that stretches an image with the corners bound to a bounding box on the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Topography Overlay
 
-This example creates a custom overlay that stretches an image such that the corners are binded to a bounding box on the map. This is useful when you want to overlay a geo-referenced image on that map without having to turn it into a tile layer. Some common scenarios where this might be used is when overlaying images of floor plans, campus maps, or individual satellite images on the map. 
+This example creates a custom overlay that stretches an image such that the corners are bound to a bounding box on the map. This is useful when you want to overlay a geo-referenced image on that map without having to turn it into a tile layer. Some common scenarios where this might be used is when overlaying images of floor plans, campus maps, or individual satellite images on the map. 
 
 ```html
 <!DOCTYPE html>
@@ -98,6 +99,6 @@ This example creates a custom overlay that stretches an image such that the corn
 
 Running this code will overlay a topographic image of a mountain range on top of the map. As you pan and zoom you will notice that the corners of the image stay bounded to the specified bounding box and stretches as needed based on zoom level.
 
-![BMV8_TopographicOverlayExample](../../media/bmv8-topographicoverlayexample.PNG)
+![Screenshot of a Bing map showing a topographic image of a mountain range overlaid onto the map.](../../media/bmv8-topographicoverlayexample.PNG)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#imageOverlay+JS)
