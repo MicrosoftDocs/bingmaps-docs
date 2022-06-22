@@ -1,6 +1,6 @@
 ---
 title: "Events Class | Microsoft Docs"
-description: "This article describes static events available to the Event Class."
+description: "This article describes how to add and remove events using the static methods available in the Event Class."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
