@@ -1,6 +1,6 @@
 ---
 title: "Infobox Class | Microsoft Docs"
-description: "This article describes properties and events of the Infobox Class."
+description: Describes the Infobox Class used to create a simple panel that displays information on top of a map, with descriptions of the constructor, methods and events.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
