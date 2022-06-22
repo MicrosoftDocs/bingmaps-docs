@@ -1,5 +1,6 @@
 ---
 title: "Location Data | Microsoft Docs"
+description: The Location Data article provides descriptions of the Locations resource fields, followed by JSON and XML examples.
 ms.custom: ""
 ms.date: "05/30/2019"
 ms.reviewer: ""

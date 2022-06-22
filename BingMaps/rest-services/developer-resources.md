@@ -1,5 +1,6 @@
 ---
 title: "REST Developer Resources | Microsoft Docs"
+description:  Links to the resources available to REST developers including Bing Maps Forums, blogs and social media as well as where to go for answers to questions about account issues and licensing questions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -18,7 +19,7 @@ ms.service: "bing-maps"
 
  Use the following resources to learn more about Bing Maps, get your questions answered and get the latest announcements.  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
 |[Bing Maps Blog](https://blogs.bing.com/maps)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  

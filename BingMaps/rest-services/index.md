@@ -41,7 +41,6 @@ If you plan to use the REST services from .NET the Bing Maps team has released a
 |[Common Parameters and Types](common-parameters-and-types/index.md)|Describes common parameters and types that specify values such as culture and pushpin styles.|
 |[Common Response Description](common-response-description.md)|Describes the general response format and results returned when you make a Bing Maps REST Services request.|
 |[Status Codes and Error Handling](status-codes-and-error-handling.md)|Provides status and error code descriptions for troubleshooting.|
-|[Release History](release-history.md)|Gives a history of updates to the API starting with January, 2014|
 |[Developer Resources](developer-resources.md)|Lists resources and support for the Bing Maps REST Services.|
   
 ## See Also

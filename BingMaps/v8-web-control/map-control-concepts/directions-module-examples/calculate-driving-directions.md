@@ -1,5 +1,6 @@
 ---
 title: "Calculate Driving Directions | Microsoft Docs"
+description: Provides a code example that shows how to calculate driving directions using an example route from Seattle, WA to a work location.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -63,4 +64,4 @@ The following example shows how to calculate driving directions from “Seattle,
 
 If you run this code in a web browser, you will see a route drawn on the map with turn by turn instructions displayed underneath it like this.
 
-![BMV8_BasicDrivingDirectionsExample](../../media/bmv8-basicdrivingdirectionsexample.png)
+![Screenshot of a Bing map that shows a route from Seattle, Washington to a work location with driving instructions listed below the map.](../../media/bmv8-basicdrivingdirectionsexample.png)

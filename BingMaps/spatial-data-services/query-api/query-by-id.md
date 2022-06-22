@@ -1,5 +1,6 @@
 ---
 title: "Query by ID | Microsoft Docs"
+description: Describes how to search a data source for one or more entities by entity ID using the spatial data services query API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -120,7 +120,5 @@
           href: query-api/query-api-sample-code-vb.md
     - name: "Geodata API"
       href: geodata-api.md
-    - name: "Release History"
-      href: release-history.md
     - name: "Developer Resources"
       href: developer-resources.md
