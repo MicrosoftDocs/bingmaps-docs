@@ -29,7 +29,7 @@ The Query API is a component of the Bing Spatial Data Services. You can use the 
  For information about creating and updating data sources, see the [Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md).  
   
 ## In this Section  
-  
+
 |Resource|Description|  
 |-|-|  
 |[Query by Area](../query-api/query-by-area.md)|Describes how to query a data source for entities that are in a specified geographical area.|  

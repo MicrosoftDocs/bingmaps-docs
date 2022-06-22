@@ -1,5 +1,6 @@
 ---
 title: "Find a Location by Address | Microsoft Docs"
+description: "This article provides URL templates for finding a location by address, along with API parameters, and examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

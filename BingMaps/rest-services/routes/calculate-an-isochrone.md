@@ -1,5 +1,6 @@
 ---
 title: "Calculate an Isochrone | Microsoft Docs"
+description: "This article describes the Bing Maps Isochrone API and outlines API limits, URL templates, template parameters with descriptions, an example that shows how to request an isochrone and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

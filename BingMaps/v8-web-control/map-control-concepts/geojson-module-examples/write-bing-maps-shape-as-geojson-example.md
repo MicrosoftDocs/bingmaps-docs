@@ -1,5 +1,6 @@
 ---
 title: "Write Bing Maps Shape as GeoJSON Example | Microsoft Docs"
+description: Provides a code example that shows how to take a Bing Maps shape and use the GeoJSON module to generate a GeoJSON object.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -68,4 +69,4 @@ This example takes a Bing Maps shape and uses the GeoJSON module to generate a G
 
 When you run this code you should see the map center over top of Wyoming with its boundaries drawn out with a polygon, and an alert message displayed showing the GeoJSON equivalent of this polygon.
 
-![GeoJSON Markup from a Bing Maps Shape](../../media/bmv8-geojson-write.png)
+![Screenshot of a Bing map showing a polygon shape on top of the state of Wyoming and an alert message showing GeoJSON data.](../../media/bmv8-geojson-write.png)

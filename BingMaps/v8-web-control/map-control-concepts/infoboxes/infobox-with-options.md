@@ -1,5 +1,6 @@
 ---
 title: "Infobox with Options | Microsoft Docs"
+description: Example code demonstrating how to create an infobox that doesn’t have a pointer and has two link buttons instead of the close button.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Infobox with Options
 
-This example shows how to create and infobox with the options that hide the pointer and close button, and additional has two action links.
+This example shows how to create and infobox with the options that hide the pointer and close button, and additionally has two action links.
 
 ```html
 <!DOCTYPE html>
@@ -65,4 +66,4 @@ This example shows how to create and infobox with the options that hide the poin
 
 This code displays an infobox that doesn’t have a pointer or close button but does have two link buttons. 
 
-![BMV8_InfoboxOptionsExample](../../media/bmv8-infoboxoptionsexample2.png)
+![Screenshot of a Bing map showing an infobox showing a description and two link buttons.](../../media/bmv8-infoboxoptionsexample2.png)

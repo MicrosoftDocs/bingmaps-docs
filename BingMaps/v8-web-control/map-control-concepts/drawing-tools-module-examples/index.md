@@ -1,5 +1,6 @@
 ---
 title: "Drawing Tools Module Examples | Microsoft Docs"
+description: Describes the drawing tools module, which offers shape drawing and editing tools, and provides lists of examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

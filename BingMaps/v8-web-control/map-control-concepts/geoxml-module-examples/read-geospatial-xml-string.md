@@ -1,5 +1,6 @@
 ---
 title: "Read Geospatial XML String | Microsoft Docs"
+description: Provides a code example that shows how to read geospatial XML data stored in a string and render it on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -84,6 +85,6 @@ This sample shows how to read geospatial XML data stored in a string. When readi
 
 If you run this sample you will see a simple polygon that was defined in a string in GeoRSS format rendered on the map.
 
-![BMV8_BasicGeoXml](../../media/bmv8-basicgeoxml.PNG)
+![Screenshot of a Bing map showing a triangle overlaid on top of a landmass.](../../media/bmv8-basicgeoxml.PNG)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Read)

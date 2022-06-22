@@ -1,5 +1,6 @@
 ---
 title: "Read GeoXmlLayer with XML String | Microsoft Docs"
+description: Provides a code sample that shows how to pass in a string of GeoRSS data into a GeoXmlLayer and overlay it on the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read GeoXmlLayer with XML String
 
-Raw XML data that is stored as a string can be passed into the GeoXxml read functions and GeoXmlLayer class. This sample shows how to easily pass in a string of GeoRSS data into a GeoXmlLayer and overlay it on the map.
+Raw XML data that is stored as a string can be passed into the GeoXml read functions and GeoXmlLayer class. This sample shows how to easily pass in a string of GeoRSS data into a GeoXmlLayer and overlay it on the map.
 
 ```html
 <!DOCTYPE html>
@@ -54,6 +55,6 @@ Raw XML data that is stored as a string can be passed into the GeoXxml read func
 
 Here is what this GeoRSS data looks like on the map. 
 
-![BMV8_BasicGeoXml](../../media/bmv8-basicgeoxml.PNG)
+![Screenshot of a Bing map showing a triangle over a landmass.](../../media/bmv8-basicgeoxml.PNG)
  
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Basic)
