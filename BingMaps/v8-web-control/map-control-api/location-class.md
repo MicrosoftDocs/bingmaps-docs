@@ -1,6 +1,6 @@
 ---
 title: "Location Class | Microsoft Docs"
-description: "This article describes properties, static methods, and methods of the Location Class, which stores the coordinate information needed to mark locations on a map."
+description: This article describes the constructor, properties, and methods of the Location Class, which stores the coordinate information needed to mark locations on a map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
