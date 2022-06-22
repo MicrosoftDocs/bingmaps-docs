@@ -1,6 +1,6 @@
 ---
 title: "Directly Accessing the Bing Maps Tiles | Microsoft Docs"
-description: "This article outlines direct access to the Bing Map tiles and how to add Bing Maps as a tile layer in a non-Bing Maps control."
+description: Learn how to access the Bing Map tiles directly to add Bing Maps as a tile layer in a non-Bing Maps control."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
