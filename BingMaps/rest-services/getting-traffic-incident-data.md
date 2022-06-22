@@ -25,7 +25,7 @@ You can get traffic incident information along a route using the [Routes](routes
   
  For traffic coverage by country, see [Bing Maps Geographic Coverage](../coverage/geographic-coverage.md).  
   
-## Traffic Incident Information Along a Route (Routes API)
+## Traffic incident information along a route (Routes API)
 
 Each route segment (itinerary item) returned by the Routes API may include a set of traffic location codes and a set of warnings that specify traffic incident information along that part of the route. The warnings include a description of the incident, the severity, and a warning type, such as Accident or BlockedRoad. To see a list of the warning types, see [Warning Types](routes/warning-types.md).  
   
