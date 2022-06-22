@@ -1,6 +1,6 @@
 ---
 title: "ConfigurableMap Class | Microsoft Docs"
-description: "This article lists static methods available for the ConfigurableMap Class, which allows you to generate a map using a JSON configuration file using the Configuration Driven Maps framework."
+description: This article describes the ConfigurableMap Class and its createFromConfig method that allows you to generate a map using a JSON configuration file and the Configuration Driven Maps framework.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
