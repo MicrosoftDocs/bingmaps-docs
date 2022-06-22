@@ -1,6 +1,6 @@
 ---
 title: "MapOptions Object | Microsoft Docs"
-description: "This article describes map options that can be used to the customize the map."
+description: This article describes the map options used to the customize the map when it is created, or after it has loaded by using the setOption function.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
