@@ -1,6 +1,6 @@
 ---
 title: "ModuleOptions Object | Microsoft Docs"
-description: "For the ModuleOptions Object, this article lists three module options by name, type, and description."
+description: This article describes the Bing Maps V8 web controls ModuleOptions Object and its callback and errorCallback functions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
