@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: "Type Identifiers | Microsoft Docs"
-description: "This Type identifiers article lists top-level type IDs used by the Bing Maps APIs."
+description: The overview page for the Type Identifiers section contains links to the top-level types used by the Bing Maps API including EatDrink, SeeDo, Shop, BanksAndCreditUnions, Hospitals, HotelsAndMotels and Parking.
 author: "eriklind"
 ms.author: "eriklind"
 ms.date: "12/10/2018"
