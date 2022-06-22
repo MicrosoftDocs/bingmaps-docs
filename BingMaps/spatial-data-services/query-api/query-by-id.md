@@ -1,6 +1,5 @@
 ---
 title: "Query by ID | Microsoft Docs"
-description: This article provides URL templates used to search for a single entity by specifying the entity ID string and another used to search for multiple entities by specifying a list of entity ID strings. Includes a table describing all template parameters, a description of the responses resulting from the query and an example that demonstrates how to get entity information by specifying the entity ID and another example that demonstrates how to get entity location information for two entity IDs.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
