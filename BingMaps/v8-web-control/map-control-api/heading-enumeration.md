@@ -1,6 +1,6 @@
 ---
 title: "Heading Enumeration | Microsoft Docs"
-description: "This article describes the standard compass headings for Heading Enumeration."
+description: The Heading Enumeration defines the standard compass headings; north, south, east, west.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
