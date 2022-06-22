@@ -1,6 +1,6 @@
 ---
 title: "AnimatedTileLayerOptions Object | Microsoft Docs"
-description: "This article describes options related to the AnimatedTileLayerOptions Object by name, type, and description." 
+description: This article describes the options related to the AnimatedTileLayerOptions Object. 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
