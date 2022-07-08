@@ -1,5 +1,6 @@
 ---
 title: "Distance Matrix Asynchronous Example | Microsoft Docs"
+description: "This Distance Matrix Asynchronous example shows the complete asynchronous request process from the initial request, and checking the status until completed."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

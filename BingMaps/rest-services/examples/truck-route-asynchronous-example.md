@@ -1,5 +1,6 @@
 ---
 title: "Truck Route Asynchronous Example | Microsoft Docs"
+description: "The example in this article makes an asynchronous truck routing request for a truck that is transporting a flammable material between two destinations. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

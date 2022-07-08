@@ -1,5 +1,6 @@
 ---
 title: "Driving Route using Tolerances Example | Microsoft Docs"
+description: "The example outlined in this article shows how to request a driving route between two locations and specifies tolerances so that subsets of route points that meet those tolerances are returned."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
