@@ -1,5 +1,6 @@
 ---
 title: "MapTypeEventArgs Object | Microsoft Docs"
+description: "This article describes properties of the MapTypeEventArgs Object, which is returned by the map event handler when using the maptypechanged event."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "GroundOverlay Class | Microsoft Docs"
+description: "This article provides properties, methods, and samples for the GroundOverlay Class, which is a map overlay that binds an image to a bounding box area on the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

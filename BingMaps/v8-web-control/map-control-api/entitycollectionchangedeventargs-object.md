@@ -1,5 +1,6 @@
 ---
 title: "EntityCollectionChangedEventArgs Object | Microsoft Docs"
+description: "This article describes properties of the EntityCollectionChangedEventArgs Object, which is deprecated in Bing Maps V8 but can still be used to provide partial backwards compatibility with V7 apps for simple use cases."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

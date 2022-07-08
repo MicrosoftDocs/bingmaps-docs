@@ -1,5 +1,6 @@
 ---
 title: "MouseEventArgs Object | Microsoft Docs"
+description: "This article describes the methods and properties of the MouseEventArg Object that is returned by many the mouse event handlers."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
