@@ -27,7 +27,7 @@ additionalContent:
           url: /bingmaps/v8-web-control
         # Card
         - title: Bing Maps REST Services
-          summary: Access geocoding, routing, icochrone, static imagery services and more.
+          summary: Access geocoding, routing, isochrone, static imagery services and more.
           url: /bingmaps/rest-services
         # Card
         - title: Bing Maps Spatial Data Services
