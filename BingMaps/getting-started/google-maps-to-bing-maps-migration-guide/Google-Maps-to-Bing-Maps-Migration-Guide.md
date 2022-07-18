@@ -519,7 +519,7 @@ specifies where on the image to place the text label.
             icon: {
             
             // Specify the URL to the custom icon image
-            url: 'https://www.bingmapsportal.com/Content/images/poi_custom.png,
+            url: 'https://www.bingmapsportal.com/Content/images/poi_custom.png',
             
             // The anchor for this image is the tip of the point at (12, 39).
             anchor: new google.maps.Point(12, 39),
