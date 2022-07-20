@@ -1,6 +1,6 @@
 ---
 title: "Point Compression Algorithm | Microsoft Docs"
-description: Learn how to implement the point compression algorithm to get a compressed string you can use to reduce the size of a request or when you cannot use the HTTP POST method. 
+description: This article provides step-by-step instructions that describe the point compression algorithm, complete with an example and instructions how to test your algorithm implementation.
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"
@@ -39,20 +39,20 @@ The following step-by-step instructions describe the point compression algorithm
 
       |Lat | Lon|
       |-|-|
-     | 35.894309002906084 | -110.72522000409663  
-     | 35.893930979073048 | -110.72577999904752  
-     | 35.893744984641671 | -110.72606003843248  
-     | 35.893366960808635 | -110.72661500424147  
+     | 35.894309002906084 | -110.72522000409663 |
+     | 35.893930979073048 | -110.72577999904752 |
+     | 35.893744984641671 | -110.72606003843248 |
+     | 35.893366960808635 | -110.72661500424147 |
    
   
 2.  Multiply each value by 100000 and round each result to the nearest integer.  
   
       |Lat|Lon|
       |-|-|
-      | 3589431 | -11072522  
-      | 3589393 | -11072578  
-      | 3589374 | -11072606  
-      | 3589337 | -11072662  
+      | 3589431 | -11072522 |
+      | 3589393 | -11072578 |
+      | 3589374 | -11072606 |
+      | 3589337 | -11072662 |
   
   
 3.  Calculate the difference between every pair of values. If a longitude difference exceeds +18000000 or -18000000, add or subtract 36000000 from the value.  
@@ -61,33 +61,33 @@ The following step-by-step instructions describe the point compression algorithm
   
       |Lat|Lon|
       |-|-|
-      | 3589431| -11072522  
-      | -38|       -56  
-      | -19|       -28  
-      | -37|       -56  
+      | 3589431| -11072522 |
+      | -38|       -56 |
+      | -19|       -28 |
+      | -37|       -56 |
   
   
 4.  Multiply each value by 2.  
   
       |Lat|Lon|
       |-|-|
-      | 7178862| -22145044  
-      |  -76|      -112  
-      |  -38|       -56  
-      |  -74|      -112  
+      | 7178862| -22145044 |
+      |  -76|      -112 |
+      |  -38|       -56 |
+      |  -74|      -112 |
   
 5.  If any value is negative, change it to be a positive value, and then subtract 1.  
         
     |Lat|Lon|
     |-|-|
-    | 7178862|  22145043  
-    | 75|       111  
-    | 37|        55  
-    | 73|       111  
+    | 7178862|  22145043 |
+    | 75|       111 |
+    | 37|        55 |
+    | 73|       111 |
   
 6.  For each pair of latitude and longitude coordinates, compute the following value: ((latitude + longitude) * (latitude + longitude + 1) / 2)  + latitude. This can require up to 51 bits of precision. (Javascript performs exact arithmetic with up to 53 bits of precision).  
   
-      |Computed Value|
+      | Value|
       |-|
      |429945724065327|  
     |17466  |

@@ -1,9 +1,9 @@
 ---
 # required metadata
 title: "Shop Type Identifiers | Microsoft Docs"
-description: A list of type identifiers that define various different types of shopping establishments.
-author: "v-chrfr"
-ms.author: v-munksteve
+description: This article provides a list of Shop Type identifiers by type ID and description.
+author: "eriklind"
+ms.author: "eriklind"
 ms.date: "12/10/2018"
 ms.topic: "reference"
 ms.service: "bing-maps"

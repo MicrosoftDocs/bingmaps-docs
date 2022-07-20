@@ -1,5 +1,6 @@
 ---
 title: "Distance Matrix Example | Microsoft Docs"
+description: "This distance matrix example returns a simple distance matrix between a set of origins and destinations."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

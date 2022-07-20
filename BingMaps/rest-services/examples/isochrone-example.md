@@ -1,5 +1,6 @@
 ---
 title: "Isochrone Example | Microsoft Docs"
+description: "This article outlines an example that shows how to request an isochrone. Responses are shown for both XML and JSON formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

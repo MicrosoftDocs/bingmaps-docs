@@ -1,5 +1,6 @@
 ---
 title: "Get Elevations | Microsoft Docs"
+description: "This article provides URLs that let you get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth. This includes getting elevations for latitude and longitude coordinates, at equally-spaced locations along a polyline path or within a bounding box, getting the offset of the geoid sea level earth model from the ellipsoid earth model, also an explanation about elevations and coordinate values and working with earth models and zoom level."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -15,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Get Elevations
 
-Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path or area on the Earth.
+Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth.
 
 __Unit of elevation__: Meters.
 
