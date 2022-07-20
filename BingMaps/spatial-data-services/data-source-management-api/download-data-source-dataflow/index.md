@@ -1,11 +1,7 @@
 ---
 title: "Download a Data Source Dataflow | Microsoft Docs"
 description: An overview page for the Download a Data Source Dataflow section with links to articles that describe how to create a job to download entity data from a data source, how to access the downloaded data and a step-by-step overview of how to use the Download Data Source Dataflow.
-ms.custom: ""
 ms.date: "02/28/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 796f73b1-cdd1-4fae-b1f6-1b6bad9ae8c3
 caps.latest.revision: 12
@@ -14,6 +10,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Download a Data Source Dataflow
 Use the Data Source Download Dataflow API to download entity data from a published data source.  
   

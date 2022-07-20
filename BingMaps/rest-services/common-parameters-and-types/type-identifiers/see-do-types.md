@@ -1,5 +1,4 @@
 ---
-# required metadata
 title: "SeeDo Identifiers | Microsoft Docs"
 description: This article provides a list of SeeDo identifiers by type ID and description.
 author: "eriklind"

@@ -14,6 +14,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # REST Services Examples
 
 The [Bing Maps REST services](../../../rest-services/index.md) provide a number of APIs which provide several functionalities:
