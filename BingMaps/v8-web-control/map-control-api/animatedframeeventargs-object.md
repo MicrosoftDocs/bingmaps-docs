@@ -1,5 +1,6 @@
 ---
 title: "AnimatedFrameEventArgs Object | Microsoft Docs"
+description: "The AnimatedFrameEventArgs Object provides the event arguments for when a layer frame is being loaded in an AnimatedTileLayer."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

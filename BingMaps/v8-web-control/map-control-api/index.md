@@ -1,6 +1,6 @@
 ---
 title: "Map Control API Reference | Microsoft Docs"
-description: This is the overview article for the Map Control API Reference, it contains tables listing the Static Properties and methods and a list of the core components in the Bing Maps V8 web control.
+description: The overview page for the Map Control API Reference section describes its methods and properties and contains a table with descriptions for each of the API components in the Microsoft.Maps namespace and links to articles with detailed information for each.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

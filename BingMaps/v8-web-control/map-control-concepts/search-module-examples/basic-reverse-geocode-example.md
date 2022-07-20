@@ -1,5 +1,6 @@
 ---
 title: "Basic Reverse Geocode Example | Microsoft Docs"
+description: Provides a code example that shows how to make a reverse geocode request using the Search module and display a message when successful.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -74,6 +75,6 @@ The following code sample shows how to make a reverse geocode request using the 
 
 Here is what the result looks like when centered over a location in Redmond, WA.
 
-![Reverse Geocode Exapmle Map](../../media/bmv8-reversegeocodeexample.png)
+![Screenshot of the Bing Map showing a message dialog box giving the physical address of the location in Redmond, Washington.](../../media/bmv8-reversegeocodeexample.png)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Reverse%20Geocode)

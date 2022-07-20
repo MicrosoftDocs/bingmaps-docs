@@ -1,5 +1,6 @@
 ---
 title: "IPrimitiveChangedEventArgs Object | Microsoft Docs"
+description: "This article describes properties of the IPrimitiveChangedEventArgs Object, an object returned when a changed event occurs on an IPrimitive shape."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

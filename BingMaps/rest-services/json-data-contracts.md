@@ -1,5 +1,6 @@
 ---
 title: "JSON Data Contracts | Microsoft Docs"
+description: This article contains a C# example showing all of the data contracts in namespace BingMapsRESTService.Common.JSON, and a link to an article with examples of how to use these data contracts. Note that these data contracts are no longer being updated and may be out of date, refer to the .NET REST Toolkit for the latest JSON contracts.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

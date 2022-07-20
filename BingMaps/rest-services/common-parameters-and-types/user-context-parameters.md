@@ -1,5 +1,6 @@
 ---
 title: "User Context Parameters | Microsoft Docs"
+description: "User context parameters are used to specify information about the user. This article lists parameters and provides their alias, description, and values."
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"

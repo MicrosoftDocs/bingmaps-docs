@@ -1,5 +1,6 @@
 ---
 title: "Getting Traffic Incident Data | Microsoft Docs"
+description: "This article outlines how get traffic incident data, both along a route and within a geographical area."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

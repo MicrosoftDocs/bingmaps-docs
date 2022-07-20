@@ -1,5 +1,6 @@
 ---
 title: "Creating Custom Modules | Microsoft Docs"
+description: Describes the Bing Maps Modular framework that enables the creation of reusable blocks of code that tie into Bing Maps.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

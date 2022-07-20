@@ -1,5 +1,6 @@
 ---
 title: "Dynamically create SVG Pushpin Example | Microsoft Docs"
+description: Example code demonstrating how to dynamically create SVG circles for pushpin icons using a custom function.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # Dynamically create SVG Pushpin Example
 
-This code sample shows how to dynamically create SVG circles for pushpins icons. This is useful when you want to customize a pushpin icon apparence, such as color and size, based on some data metric. The following code has a function called createCirclePushpin which takes in the location of the pushpin, a radius for the circle icon, a fill and strok color, and a stroke width value. This function then uses this information to create an SVG string for the pushpin and sets the anchor of the pushpin to the center of the circle. 
+This code sample shows how to dynamically create SVG circles for pushpins icons. This is useful when you want to customize a pushpin icon appearance, such as color and size, based on some data metric. The following code has a function called createCirclePushpin which takes in the location of the pushpin, a radius for the circle icon, a fill and stroke color, and a stroke width value. This function then uses this information to create an SVG string for the pushpin and sets the anchor of the pushpin to the center of the circle. 
 
 ```html
 <!DOCTYPE html>
@@ -65,6 +66,6 @@ This code sample shows how to dynamically create SVG circles for pushpins icons.
 
 Running this code adds two circle pushpins of different radii at random locations on the map. One is white with a black outline and the other is blue.
 
-![BMV8_DynamicSvgExample](../../media/bmv8-dynamicsvgexample.png)
+![Screenshot of the Bing map showing a blue circle pushpin and a white pushpin with a black outline in the center of the map.](../../media/bmv8-dynamicsvgexample.png)
 
 **Note:** You can also add the text “{color}” into your SVG string and the pushpin will replace this placeholder with the value of the `color` property of the specified pushpin option.

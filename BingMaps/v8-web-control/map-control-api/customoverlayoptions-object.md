@@ -1,5 +1,6 @@
 ---
 title: "CustomOverlayOptions Object | Microsoft Docs"
+description: "This article describes properties of the CustomOverlayOptions Object that can be used when initializing a CustomOverlay."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

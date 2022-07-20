@@ -1,5 +1,6 @@
 ---
 title: "ConfigurableMap Class | Microsoft Docs"
+description: This article describes the ConfigurableMap Class and its createFromConfig method that allows you to generate a map using a JSON configuration file and the Configuration Driven Maps framework.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # ConfigurableMap Class
 
-This class allows lets you generate a map using a JSON configuration file using the [Configuration Driven Maps framework](../map-control-concepts/configuration-driven-maps-framework/index.md). This generates a map instance which you can then use just like you would when loading the Map class, however it has the added benefit of loading data layers that have been specified in the configuration file.
+This class allows you to generate a map using a JSON configuration file using the [Configuration Driven Maps framework](../map-control-concepts/configuration-driven-maps-framework/index.md). This generates a map instance which you can then use just like you would when loading the Map class. However, it has the added benefit of loading data layers that have been specified in the configuration file.
 
 **Static Methods**
 
