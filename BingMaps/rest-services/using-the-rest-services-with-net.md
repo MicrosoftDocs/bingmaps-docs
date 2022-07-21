@@ -1,5 +1,6 @@
 ---
 title: "Using the REST Services with .NET | Microsoft Docs"
+description: This article describes how to interact with the Bing Maps REST Services APIs using .NET, covering making use of sessions, making and implementing requests, and data contracts, includes sample code.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
