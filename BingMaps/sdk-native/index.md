@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps SDK for Android and iOS | Microsoft Docs"
+description: The overview page for the Bing Maps SDK for Android and iOS section contains links to information about Bing Maps keys, license and terms of service and to the different topics covered such as getting started with Android and iOS, map control concepts and map control and services API references.
 ms.author: "pablocan"
 ---
 
@@ -22,7 +23,7 @@ documentation.
 
 You must obtain a Bing Maps Key from [Bing Maps Dev Center](https://www.bingmapsportal.com/) in order to use the Bing Maps SDK for Android and iOS.
 Your app must be authenticated to use the map controls and map services. To authenticate your app, you must specify a Bing Maps key through the API.
-Visit the [Bing Maps Dev Center Help page](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
+Visit the [Bing Maps Dev Center Help page](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
 for detailed steps on obtaining one.
 
 ## License and Terms of Service
