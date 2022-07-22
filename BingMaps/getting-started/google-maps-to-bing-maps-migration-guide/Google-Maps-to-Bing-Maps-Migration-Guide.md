@@ -2090,17 +2090,17 @@ As such some functionalities are available as modules that can be loaded, as sho
 
 A mapping of Google functions to Bing Maps functions:
 
-|  Google Maps                       |  Bing Maps                                                          |
-|  ----------------------------------|---------------------------------------------------------------------|
-|  `google.maps.Geocoder`            | `Microsoft.Maps.Search.SearchManager`                               |
-|  `google.maps.DirectionsService`   | `Microsoft.Maps.Directions.DirectionsManager`                       |
-|  `google.maps.DirectionsRequest`   | `Microsoft.Maps.Directions.DirectionsRequestOptions <br> `Microsoft.Maps.Directions.DirectionsRenderOptions |
+|  Google Maps                       |  Bing Maps                                                               |
+|  ----------------------------------|--------------------------------------------------------------------------|
+|  `google.maps.Geocoder`            | `Microsoft.Maps.Search.SearchManager`                                    |
+|  `google.maps.DirectionsService`   | `Microsoft.Maps.Directions.DirectionsManager`                            |
+|  `google.maps.DirectionsRequest`   | `Microsoft.Maps.Directions.DirectionsRequestOptions`<br>`Microsoft.Maps.Directions.DirectionsRenderOptions` |
 |  `google.maps.ElevationService`    | Bing Maps REST [Elevation Service](../../rest-services/elevations/index) |
-|  `google.maps.TravelMode`          | `Microsoft.Maps.Directions.RouteMode`                               |
-|  `google.maps.UnitSystem`          | `Microsoft.Maps.Directions.DistanceUnit`                            |
-|  `google.maps.TransitOptions`      | `Microsoft.Maps.Directions.DirectionsRequestOptions`                |
-|  `google.maps.DirectionsWaypoint`  | `Microsoft.Maps.Directions.Waypoint`                                |
-|  `google.maps.TrafficLayer`        | `Microsoft.Maps.Traffic.TrafficManager`                             |
+|  `google.maps.TravelMode`          | `Microsoft.Maps.Directions.RouteMode`                                    |
+|  `google.maps.UnitSystem`          | `Microsoft.Maps.Directions.DistanceUnit`                                 |
+|  `google.maps.TransitOptions`      | `Microsoft.Maps.Directions.DirectionsRequestOptions`                     |
+|  `google.maps.DirectionsWaypoint`  | `Microsoft.Maps.Directions.Waypoint`                                     |
+|  `google.maps.TrafficLayer`        | `Microsoft.Maps.Traffic.TrafficManager`                                  |
 
 ### Libraries
 
