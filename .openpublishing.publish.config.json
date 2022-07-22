@@ -29,6 +29,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "AzureMapsCodeSamples",
+      "url": "https://github.com/Azure-Samples/AzureMapsCodeSamples",
+      "branch": "main",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {},
