@@ -1,5 +1,6 @@
 ---
 title: "GeoXmlFormat Enumeration | Microsoft Docs"
+description: Describes the GeoXmlFormat enumerators that define the different GeoXML file formats such as geoRss, GPX and KML.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

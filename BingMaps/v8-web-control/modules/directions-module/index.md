@@ -1,5 +1,6 @@
 ---
 title: "Directions Module | Microsoft Docs"
+description: The overview page for the Directions Module section contains a description of the Microsoft.Maps.Directions API, which contains types that allow you to calculate route directions and display them on your Bing Maps V8 Control, and provides links to API reference articles and code examples.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

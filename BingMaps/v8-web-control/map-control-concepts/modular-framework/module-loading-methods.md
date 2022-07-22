@@ -1,5 +1,6 @@
 ---
 title: "Module Loading Methods2 | Microsoft Docs"
+description: Describes the methods, all in the Microsoft.Maps namespace, used to register and load your own modules for use by the map control.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

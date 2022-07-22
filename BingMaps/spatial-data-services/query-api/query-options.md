@@ -1,5 +1,6 @@
 ---
 title: "Query Options | Microsoft Docs"
+description: Learn how to use the Query API to specify query options.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -8,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 71be2e0e-75be-4d23-ab8b-803c9852f976
 caps.latest.revision: 29
-author: "dirabel"
-ms.author: "dirabel"
+author: eriklindeman
+ms.author: eriklind
 manager: "cpendle"
 ms.service: "bing-maps"
 ---
@@ -56,8 +57,8 @@ When you use the Query API, you can specify query options that define what data 
 >   
 >  Wildcard searches do not support And or Or comparison operators. Therefore, you cannot combine a wildcard search with additional $filter expressions, and you cannot request more than one wildcard search at a time.  
   
-|||  
-|-|-|  
+|Operator|Description|  
+|--------|-----------|  
 |$filter=StartsWith(property,searchString) eq true|Finds all property values that start with ‘searchString’.<br /><br /> Example:$filter=StartsWith(Locality,'San') eq true|  
 |$filter=EndsWith(property,searchString) eq true|Finds all property values that end with 'searchString'<br /><br /> Example:$filter=EndsWith(Locality,'York') eq true|  
   

@@ -1,5 +1,6 @@
 ---
-title: "Map Control Concepts | Microsoft Docs"
+title: "Map Control Concepts and Examples | Microsoft Docs"
+description: The overview page for the Map Control Concepts section contains a table with descriptions and links to the various concept articles in this section.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,10 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Map Control Concepts
+# Map Control Concepts for V8 Web Control
 
 The Bing Maps V8 Web Control is designed to be easy adopt and use in your web applications, and familiar to anyone who has worked with Maps or Geospatial data.   Below, you'll find the major set of Map concepts and examples that will help you. 
-
 
 | Area                               | Description       |
 |------------------------------------|-------------------|

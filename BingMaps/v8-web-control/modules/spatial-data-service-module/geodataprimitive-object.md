@@ -1,5 +1,6 @@
 ---
 title: "GeoDataPrimitive Object | Microsoft Docs"
+description: Describes the GeoDataPrimitive object, which is the primitive object for a GeoData API boundary, and lists its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

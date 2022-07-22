@@ -1,5 +1,6 @@
 ---
 title: "User Input Geocode Example | Microsoft Docs"
+description: Example code demonstrating how to display a search field and button on a map. When the button is selected the search query is geocoded and the results are displayed on the map and a list of the result names are shown beside the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 
 # User Input Geocode Example
 
-This code sample displays a search textbox and button long with a map. When the user types in a query and presses the search button a check is done to see if the Search module is loaded. If it is loaded, the users query is then geocoded. The results are displayed on the map and a list of the result names are shown beside the map.
+This code sample displays a search textbox and button along with a map. When the user types in a query and presses the search button a check is done to see if the Search module is loaded. If it is loaded, the users query is then geocoded. The results are displayed on the map and a list of the result names are shown beside the map.
 
 > [!TIP]
 > In this code example the search module isn’t loaded when the map is loaded, but instead is delayed until the user actually presses the search button. This is a great way to minimize the initial page load such that resources are only loaded when they are actually needed.
@@ -114,6 +115,6 @@ This code sample displays a search textbox and button long with a map. When the 
 
 Here is what this looks like when you do a search for “Paris”. 
 
-![User Input for Geocoding](../../media/bmv8-geocodeuserinputexample.png)
+![Screenshot of the Bing map showing the results of a search for locations named Paris with each pushpin correlating to a list item.](../../media/bmv8-geocodeuserinputexample.png)
 
 [Try it now](https://bingmapsv8samples.azurewebsites.net/#Geocode_SearchResults)

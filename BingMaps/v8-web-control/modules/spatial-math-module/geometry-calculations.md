@@ -1,5 +1,6 @@
 ---
 title: "Geometry Calculations | Microsoft Docs"
+description: Describes geometry calculations methods, which perform spatial calculations against shapes, and provides a list of calculation methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "Map Icons | Microsoft Docs"
-ms.author: "pablocan"
+title: Map Icons | Microsoft Docs
+description: Describes Icons, the primary way to add a graphical image and text at a location within the map using the Bing Maps native controls, with a link to examples and additional information.
+ms.author: pablocan
 ---
 
 # Icons

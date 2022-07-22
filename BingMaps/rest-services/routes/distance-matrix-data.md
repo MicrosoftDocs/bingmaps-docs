@@ -1,5 +1,6 @@
 ---
 title: "Distance Matrix Data | Microsoft Docs"
+description: This article provides tables that describe responses returned when making an asynchronous request to the Distance Matrix API, this includes the DistanceMatrixAsyncStatus resource returned as a response when making a DistanceMatrixAsync request that includes an estimated amount of time left to process the request and the DistanceMatrix Resource that includes an array of results which correspond to each origin and destination pair in the request.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -35,7 +36,7 @@ A `DistanceMatrixAsyncStatus` resource is returned as a response when making a `
 | `isAccepted`   | `IsAccepted`   | `boolean` | Specifies if the request is accepted. A request will not be accepted if it is not valid, or is not within the coordinate pair limits. |
 | `isCompleted`   | `IsCompleted` | `boolean` | Specifies is the request has completed. |
 | `requestId`  | `RequestId` | `string`  | A unique identifier for an asynchronous request. This can be used to retrieve the results of an asynchronous request when it has completed. |
-| `resultUrl` | `ResultUrl` | `string`  | When completed, this field will be populated with a URL which can be used to download the results. The downloaded results will be a `DistanceMatrix` resource in JSON format. XML support will be coming soon. |
+| `resultUrl` | `ResultUrl` | `string`  | When completed, this field will be populated with a URL which can be used to download the results. The downloaded results will be a `DistanceMatrix` resource in JSON format.  |
 
 ## DistanceMatrix Resource
 

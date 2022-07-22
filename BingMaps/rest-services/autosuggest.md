@@ -1,5 +1,6 @@
 ---
 title: "Autosuggest | Microsoft Docs"
+description: "Describes the Bing Maps Autosuggest API and provides the API's signature, query parameters, response format, response fields, examples, and HTTP status codes."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -558,14 +559,14 @@ This section briefly shows how to provide geographic parameters when sending a U
 Example:
 > `userCircularMapView=47.666673,-122.382242,100`
 
-![AutoSuggestCircleSmall](media/AutoSuggestCircleSmall.PNG)
+![Screenshot of a map of Seattle, Washington with a highlighted 100 meter radius of the 47.666673, -122.382242 coordinates.](media/AutoSuggestCircleSmall.PNG)
 
 #### Bounding Box Geographic Region
 
 Example: 
 > `userMapView=47.669424,-122.386053,47.664083,-122.378448`
 
-![AutoSuggestBoundingBoxSmall](media/AutoSuggestBoundingBoxSmall.PNG)
+![Screenshot of a map of Seattle, Washington with a highlighted perimeter of the 47.669424, -122.386053 coordinates.](media/AutoSuggestBoundingBoxSmall.PNG)
 
 ## HTTP Status Codes
 

@@ -1,6 +1,7 @@
 ---
-title: "TrafficIncidentType Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: TrafficIncidentType Enumeration | Microsoft Docs
+description: Describes the TrafficIncidentType enumeration for Android and iOS and provides the enumeration's syntax and additional references.
+ms.author: pablocan
 ---
 
 # TrafficIncidentType Enumeration

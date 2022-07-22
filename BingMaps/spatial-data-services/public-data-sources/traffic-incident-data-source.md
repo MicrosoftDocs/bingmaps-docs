@@ -1,5 +1,6 @@
 ---
 title: "Traffic Incident Data Source | Microsoft Docs"
+description: "Describes the Traffic Incident data source and provides a table that outlines the data type, description, and values for various traffic incident properties."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

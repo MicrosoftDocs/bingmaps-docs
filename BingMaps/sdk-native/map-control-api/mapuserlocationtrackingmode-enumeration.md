@@ -1,6 +1,7 @@
 ---
-title: "MapUserLocationTrackingMode Enumeration | Microsoft Docs"
-ms.author: "adl"
+title: MapUserLocationTrackingMode Enumeration | Microsoft Docs
+description: Describes the MapUserLocationTrackingMode enumeration for Android and iOS and provides the enumeration's None and CenteredOnUser values.
+ms.author: adl
 ---
 
 # MapUserLocationTrackingMode Enumeration

@@ -1,5 +1,6 @@
 ---
 title: "Snap to Road Data | Microsoft Docs"
+description: This article contains tables with descriptions of the SnapToRoadResponse resource fields.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

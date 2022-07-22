@@ -1,5 +1,6 @@
 ---
 title: "Imagery Metadata | Microsoft Docs"
+description: This article describes Imagery Metadata including a list of some common imagery resource fields and descriptions for the birdseye and streetside metadata resource fields, an explanation of the image URL placeholders and examples demonstrating the resources returned by the Imagery Metadata API.
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"

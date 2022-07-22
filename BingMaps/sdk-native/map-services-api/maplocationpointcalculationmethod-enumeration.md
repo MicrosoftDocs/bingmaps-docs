@@ -1,6 +1,7 @@
 ---
-title: "MapLocationPointCalculationMethod Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLocationPointCalculationMethod Enumeration | Microsoft Docs
+description: Describes the MapLocationPointCalculationMethod enumeration for android and iOS and provides the enumeration's values and additional references.
+ms.author: pablocan
 ---
 
 # MapLocationPointCalculationMethod Enumeration

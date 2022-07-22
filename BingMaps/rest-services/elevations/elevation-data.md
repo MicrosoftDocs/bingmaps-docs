@@ -1,5 +1,6 @@
 ---
 title: "Elevation Data | Microsoft Docs"
+description: "This article provides a table of Elevation and Sea Level Offset Resource Data. Responses are shown in JSON and XML formats."
 ms.date: "02/28/2018"
 ms.topic: "article"
 author: "rbrundritt"

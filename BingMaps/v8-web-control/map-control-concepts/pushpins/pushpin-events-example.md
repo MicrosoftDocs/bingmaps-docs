@@ -1,5 +1,6 @@
 ---
 title: "Pushpin Events Example | Microsoft Docs"
+description: Provides a code example that shows how to attach several mouse events to a pushpin, which highlight a label to indicate which event fired.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -67,6 +68,6 @@ This example attaches several mouse events to a pushpin. When these events are t
 
 If you run this code and hover and click the pushpin you will see all these different events fire.
 
-![BMV8_PushpinEventExample](../../media/bmv8-pushpineventexample.png)
+![Screenshot of a Bing map that shows a purple circle pushpin with a hovering mouse arrow and a list of fired events below.](../../media/bmv8-pushpineventexample.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#pushpinAllEvents+HTML)

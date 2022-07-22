@@ -1,5 +1,6 @@
 ---
 title: "Directions Input Panel | Microsoft Docs"
+description: Provides a code example that shows how to display the default input panel for calculating directions.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -15,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Directions Input Panel
 
-The following examples shows how to display the built in input panel for calculating directions. This is useful if you don’t want to create a custom input panel. 
+The following example shows how to display the built in input panel for calculating directions. This is useful if you don’t want to create a custom input panel. 
 
 ```html
 <!DOCTYPE html>
@@ -79,4 +80,4 @@ The following examples shows how to display the built in input panel for calcula
 
 Running this code will display the directions input panel in the top left corner of the page with the map to the right of it. As you type in locations the suggested will be displayed. When directions are calculated, the turn by turn instructions will be displayed in below the input panel. Here is what this looks like while typing in “New York” as the starting location. 
 
-![BMV8_DirectionsInputPanelExample](../../media/bmv8-directionsinputpanelexample.PNG)
+![Screenshot of a Bing map showing the directions input panel with a list of locations below and the map of New York to the right.](../../media/bmv8-directionsinputpanelexample.PNG)

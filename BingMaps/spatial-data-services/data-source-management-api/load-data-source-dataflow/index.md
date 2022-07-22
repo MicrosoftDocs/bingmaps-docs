@@ -1,5 +1,6 @@
 ---
 title: "Load Data Source Dataflow | Microsoft Docs"
+description: The overview page for the Load Data Source Dataflow section contains a description of the Load Data Source Dataflow API, used to create a data source that contains entity data for a user-specified entity type, and provides links to and descriptions of each article in this section.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -35,8 +36,8 @@ Load Data Source Dataflow API to create a data source that contains entity data 
  You can delete a data source by using the [Delete a Data Source](../../data-source-management-api/delete-data-source.md) API.  
   
 ## In this Section  
-  
-|||  
+ 
+|Resource|Description|  
 |-|-|  
 |[Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md)|Describes how to create a data source and upload entity data by using a load data source job. You can also use this API to stage or update a data source.|  
 |[Get Load Data Source Status](../../data-source-management-api/load-data-source-dataflow/get-load-data-source-status.md)|Describes how to request status for a load data source job.|  

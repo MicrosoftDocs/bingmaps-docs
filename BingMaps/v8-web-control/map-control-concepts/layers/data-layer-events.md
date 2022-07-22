@@ -1,5 +1,6 @@
 ---
 title: "Data Layer Events | Microsoft Docs"
+description: Example code demonstrating how to add a single event handler to a layer which will then apply to all shapes it contains. Compared to adding mouse events to shapes by looping through each shape and adding an event to it, this approach requires writing less code, reduces the amount of memory required and provides a small performance benefit.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -75,4 +76,4 @@ Many applications add mouse events to shapes by looping through each shape and a
 
 If you run this code and hover and click any of the shapes, you will see all these different events fire.
 
-![BMV8_LayerEventsExample](../../media/bmv8-layereventsexample.png)
+![Screenshot of a Bing map that shows a variety of polygons around the map and a list of firing events below the map.](../../media/bmv8-layereventsexample.png)
