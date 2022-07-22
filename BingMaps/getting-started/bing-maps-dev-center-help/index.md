@@ -1,5 +1,6 @@
 ---
 title: "Bing Maps Dev Center Help | Microsoft Docs"
+description: "Provides help for the Bing Maps Dev Center through a list of various topics relating to Bing Maps accounts."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

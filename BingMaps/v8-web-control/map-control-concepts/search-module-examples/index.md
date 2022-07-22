@@ -1,5 +1,6 @@
 ---
 title: "Search Module Examples | Microsoft Docs"
+description: Describes the Search module and provides links to code examples and related topic.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

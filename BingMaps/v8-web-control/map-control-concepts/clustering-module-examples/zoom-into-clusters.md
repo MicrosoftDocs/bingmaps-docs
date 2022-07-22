@@ -1,5 +1,6 @@
 ---
 title: "Zoom into Clusters | Microsoft Docs"
+description: "A description and HTML example that demonstrates how to zoom into clusters."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

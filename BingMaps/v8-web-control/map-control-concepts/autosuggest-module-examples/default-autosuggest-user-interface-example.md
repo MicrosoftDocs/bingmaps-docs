@@ -1,5 +1,6 @@
 ---
 title: "Default Autosuggest User Interface Example | Microsoft Docs"
+description: "Describes the Default Autosuggest User Interface and provides an example of how the syntax for the interface is intended to look."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

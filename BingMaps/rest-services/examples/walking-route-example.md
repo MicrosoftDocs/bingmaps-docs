@@ -1,5 +1,6 @@
 ---
 title: "Walking Route Example | Microsoft Docs"
+description: "The example in this article returns a walking route from the Eiffel Tower to the Louvre Museum in Paris, France, optimized for distance. Responses are shown for both XML and JSON formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

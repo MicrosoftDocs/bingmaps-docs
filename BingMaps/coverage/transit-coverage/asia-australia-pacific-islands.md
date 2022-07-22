@@ -1,5 +1,6 @@
 ---
 title: "Asia Australia Pacific Transit Coverage | Microsoft Docs"
+description: "Describes Bing Maps API transit information for various countries in Asia and Oceania, including Australia, New Zealand, Hong Kong, Malaysia, and Taiwan."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -236,7 +237,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[Lok Ma Chau Crossing-boundary Coach Services](https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/access_to_lok_ma_chau_control_point) 
 |Regional|[Long Win Bus](http://www.lwb.hk) 
 |Regional|[MTR Bus](http://www.mtr.com.hk) 
-|Regional|[New Lantao Bus](http://www.newlantaobus.com) 
+|Regional|[New Lantao Bus](https://www.nlb.com.hk) 
 |Regional|[New World First Bus](http://www.bravobus.com.hk) 
 |Regional|[Park Island Transport (Bus Services)](http://www.pitcl.com.hk) 
 |Regional|[Peak Tram](https://www.thepeak.com.hk/en/the-peak-experience/the-peak-tram-upgrade-project) 
@@ -261,7 +262,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mumbai-metro.com) 
-|Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/) 
+|Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/home) 
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
@@ -279,8 +280,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Fukuoka|[福岡市営渡船](https://www.hktport.city.fukuoka.lg.jp/) 
 |Gunma|[永井運輸株式会社](https://www.nagai-unyu.net/)
-|Gunma|[Nagai Transport Co., Ltd.](https://www.nagai-unyu.net/)  
-|Shimada|[島田市](https://www.city.shimada.shizuoka.jp/bouhan/komibus.html) 
+|Gunma|[Nagai Transport Co., Ltd.](http://https://www.nagai-unyu.net/)  
+|Shimada|[島田市](https://www.city.shimada.shizuoka.jp/kurashi-docs/bus.html) 
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](http://www.city.minami-alps.yamanashi.jp/) 
 |Yamanashi|[富士川町](http://www.town.fujikawa.yamanashi.jp/) 
@@ -301,24 +302,24 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Taiwan
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Regional|[中台灣客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[仁友客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[全航客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[南投客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[台中客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[台灣高鐵](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[和欣客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[巨業交通](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[彰化客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[東南客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[統聯客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[臺灣鐵路](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[苗栗客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[豐原客運](http://citybus.taichung.gov.tw/iTravel/) 
-|Regional|[豐榮客運](http://citybus.taichung.gov.tw/iTravel/)
+|Regional|[中台灣客運](https://citybus.taichung.gov.tw/) 
+|Regional|[仁友客運](https://citybus.taichung.gov.tw/) 
+|Regional|[全航客運](https://citybus.taichung.gov.tw/) 
+|Regional|[南投客運](https://citybus.taichung.gov.tw/) 
+|Regional|[台中客運](https://citybus.taichung.gov.tw/) 
+|Regional|[台灣高鐵](https://citybus.taichung.gov.tw/) 
+|Regional|[和欣客運](https://citybus.taichung.gov.tw/) 
+|Regional|[巨業交通](https://citybus.taichung.gov.tw/) 
+|Regional|[彰化客運](https://citybus.taichung.gov.tw/) 
+|Regional|[東南客運](https://citybus.taichung.gov.tw/) 
+|Regional|[統聯客運](https://citybus.taichung.gov.tw/) 
+|Regional|[臺灣鐵路](https://citybus.taichung.gov.tw/) 
+|Regional|[苗栗客運](https://citybus.taichung.gov.tw/) 
+|Regional|[豐原客運](https://citybus.taichung.gov.tw/) 
+|Regional|[豐榮客運](https://citybus.taichung.gov.tw/)
 |Regional|[交通部臺灣鐵路管理局](https://www.railway.gov.tw/tra-tip-web/tip) 
 |Regional|[臺灣高速鐵路股份有限公司](https://www.thsrc.com.tw) 
-|Taichung|[BRT](http://citybus.taichung.gov.tw/iTravel/) 
+|Taichung|[BRT](https://citybus.taichung.gov.tw/) 
 |Taipei|[三峽區公所](http://www.sanxia.ntpc.gov.tw) 
 |Taipei|[三芝區公所](http://www.sanzhi.ntpc.gov.tw) 
 |Taipei|[三重區公所](http://www.sanchong.ntpc.gov.tw/) 

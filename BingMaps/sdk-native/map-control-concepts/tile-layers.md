@@ -1,6 +1,7 @@
 ---
-title: "Tile Layers | Microsoft Docs"
-ms.author: "pablocan"
+title: Tile Layers | Microsoft Docs
+description: Describes TileLayer class as part of the Bing Maps native controls and provides syntax examples to show traffic on maps and removing overlay tiles on maps.
+ms.author: pablocan
 ---
 
 # Tile Layers

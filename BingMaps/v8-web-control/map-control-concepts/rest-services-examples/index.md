@@ -1,5 +1,6 @@
 ---
 title: "REST Services Examples | Microsoft Docs"
+description: Describes the Bing Maps REST services, accessed using GET requests with JSONP, with example code demonstrating how to implement using standard JavaScript, jQuery, AngularJS.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,6 +14,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # REST Services Examples
 
 The [Bing Maps REST services](../../../rest-services/index.md) provide a number of APIs which provide several functionalities:
@@ -30,7 +32,7 @@ The Bing Map V8 provides a Search, Direction and Traffic modules which wraps sev
 
 The Bing Maps REST services can be accessed using GET requests with JSONP. The following examples show how to access the Bing Maps REST Location API to geocode a query and display the matching results in a table using different JavaScript frameworks. All of these examples will look like this in a browser.
 
-![BMV8_RestExample](../../media/bmv8-restexample.PNG)
+![Screenshot of the Bing Maps REST Location API search results showing the latitude and longitude for several places named New York.](../../media/bmv8-restexample.PNG)
 
 ### Standard JavaScript
 
@@ -231,7 +233,7 @@ AngularJS is an open source JavaScript framework that lets you build well struct
 
 ### Angular 1.6
 
-Angular 1.6 has changed how it handles JSONP. First off you need to white list the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded `&jsonp=JSON_CALLBACK` value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
+Angular 1.6 has changed how it handles JSONP. First off you need to allowlist the Bing Maps REST Services in your app config. Additionally, instead of using success and error functions, Angular 1.6 now uses a then function. Finally, the hardcoded `&jsonp=JSON_CALLBACK` value is no longer supported, and instead the jsonpCallbackParam option needs to be used in the request. 
 
 ```html
 <!DOCTYPE html>

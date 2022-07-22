@@ -1,5 +1,6 @@
 ---
 title: "GroundOverlayOptions Object | Microsoft Docs"
+description: "This article describes the GroundOverlayOptions Object with each of its properties that are used to specify how to render a ground overlay on the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

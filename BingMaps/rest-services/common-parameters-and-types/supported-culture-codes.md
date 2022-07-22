@@ -1,5 +1,6 @@
 ---
 title: "Supported Culture Codes | Microsoft Docs"
+description: "This article provides a list that shows the culture codes supported by the Bing Maps REST Services APIs."
 ms.date: "02/28/2018"
 ms.topic: "reference"
 author: "rbrundritt"

@@ -1,5 +1,6 @@
 ---
 title: "Continuously Tracking a User Location Example | Microsoft Docs"
+description: Provides a code example that shows how to monitor the user's location and updates pushpin positions as the user moves.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

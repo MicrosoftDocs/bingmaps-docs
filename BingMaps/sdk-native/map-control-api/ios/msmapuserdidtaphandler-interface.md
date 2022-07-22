@@ -1,6 +1,7 @@
 ---
-title: "MSMapUserDidTapHandler Interface | Microsoft Docs"
-ms.author: "pablocan"
+title: MSMapUserDidTapHandler Interface | Microsoft Docs
+description: Describes the MSMapUserDidTapHandler interface for iOS and provides the interface's syntax and additional references.
+ms.author: pablocan
 ---
 
 # MSMapUserDidTapHandler Interface (iOS only)

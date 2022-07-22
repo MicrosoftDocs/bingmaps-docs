@@ -1,5 +1,6 @@
 ---
 title: "Maneuver Types | Microsoft Docs"
+description: This article lists Maneuver Types values that are returned the Routes in the maneuverType field in the HTTP response. Examples of a Maneuver Type include values such as TurnRight, TakeTransit, TakeRampLeft, KeepOnRampLeft, BearRight, EnterRoundabout and Continue.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

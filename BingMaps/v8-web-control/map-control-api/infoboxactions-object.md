@@ -1,5 +1,6 @@
 ---
 title: "InfoboxActions Object | Microsoft Docs"
+description: The article lists the V7 infobox action properties used to create clickable links in infoboxes, available in Bing Maps V8 primarily for backwards compatibility.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

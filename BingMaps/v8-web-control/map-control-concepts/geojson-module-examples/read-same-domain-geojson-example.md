@@ -1,5 +1,6 @@
 ---
 title: "Read Same Domain GeoJSON Example | Microsoft Docs"
+description: Provides a code example that shows how to parse a URL taken to a GeoJSON file hosted on the same domain into a shape using the GeoJSON module.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -53,4 +54,4 @@ The following code example takes a URL to a GeoJSON file that is hosted on the s
 
 Here is what this GeoJSON file looks like on the map. All the country boundaries displayed as polygons.
 
-![Read GeoJSON on a Map](../../media/bmv8-readsamedomaingeojsonexample-map.png)
+![Screenshot of a Bing map showing North America, South America, Europe, and Africa with all countries overlaid by polygon shapes.](../../media/bmv8-readsamedomaingeojsonexample-map.png)

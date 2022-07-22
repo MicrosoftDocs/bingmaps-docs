@@ -1,6 +1,7 @@
 ---
-title: "MapLayerCollection Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapLayerCollection Class | Microsoft Docs
+description: Describes the MapLayerCollection class for Android and iOS and provides the class' properties, methods, and additional references.
+ms.author: pablocan
 ---
 
 # MapLayerCollection Class

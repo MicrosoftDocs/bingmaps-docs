@@ -1,6 +1,7 @@
 ---
-title: "MSMapLocationChangedEventArgs Class | Microsoft Docs"
-ms.author: "adl"
+title: MSMapLocationChangedEventArgs Class | Microsoft Docs
+description: Describes the MSMapLocationChangedEventArgs class for iOS and provides the class' syntax, properties, and additional references.
+ms.author: adl
 ---
 
 # MSMapLocationChangedEventArgs Class (iOS only)

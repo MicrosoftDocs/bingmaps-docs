@@ -1,5 +1,6 @@
 ---
 title: "Common Response Description | Microsoft Docs"
+description: "This common response description article provides a table that describes the common fields that are returned in the response to a Bing Maps REST services URL request, ResourceSet container information, and responses in JSON and XML formats."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -46,7 +47,7 @@ The ResourceSet container provides the following information.
   
 ## Examples
 
-The following are examples JSON and XML responses.  
+The following are examples of JSON and XML responses.  
   
 ### JSON Response Example  
   

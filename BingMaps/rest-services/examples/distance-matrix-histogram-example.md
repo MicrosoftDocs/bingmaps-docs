@@ -1,5 +1,6 @@
 ---
 title: "Distance Matrix Histogram Example | Microsoft Docs"
+description: "This distance matrix histogram example returns a distance matrix histogram between a set of origins and destinations for a specific period of time."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

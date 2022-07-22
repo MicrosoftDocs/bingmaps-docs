@@ -1,5 +1,6 @@
 ---
 title: "Calculate a Route | Microsoft Docs"
+description: This article provides URL templates that demonstrate how to get a walking, driving or transit route by specifying a series of waypoints, includes descriptions of template parameters, and includes several examples.
 ms.custom: ""
 ms.date: "08/20/2019"
 ms.reviewer: ""

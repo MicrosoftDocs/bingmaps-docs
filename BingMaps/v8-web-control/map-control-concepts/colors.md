@@ -1,5 +1,6 @@
 ---
 title: "Colors | Microsoft Docs"
+description: "Describes how colors are used in Bing Maps and provides a table that outlines the description and an example of various color types."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

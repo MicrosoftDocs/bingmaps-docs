@@ -1,5 +1,6 @@
 ---
 title: "Pushpins | Microsoft Docs"
+description: The overview page for the Pushpins section contains a description and links to examples and related topics.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
