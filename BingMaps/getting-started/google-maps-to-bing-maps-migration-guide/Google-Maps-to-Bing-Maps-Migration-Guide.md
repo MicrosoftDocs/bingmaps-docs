@@ -118,7 +118,7 @@ and not all Bing Maps services and API's.
 
 Here is a list of useful technical resources for the Bing Maps web control:
 
-- [Bing Maps documentation](https://docs.microsoft.com/bingmaps) (All Bing Maps APIs)
+- [Bing Maps documentation](../../index.yml) (All Bing Maps APIs)
 - [Bing Maps Dev Center](https://www.bingmapsportal.com/)
 - [Bing Maps Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
 - [Bing Maps Code Samples](https://samples.bingmapsportal.com/)
@@ -495,7 +495,7 @@ very similar way.
 
 - [Pushpin Class](../../v8-web-control/map-control-api/pushpin-class.md)
 - [Pushpin Options](../../v8-web-control/map-control-api/pushpinoptions-object.md)
-- [Pushpin examples](../../v8-web-control/map-control-concepts/pushpins/index#examples.md)
+- [Pushpin examples](../../v8-web-control/map-control-concepts/pushpins/index.md#examples)
 - [Bing Maps Pushpin Samples](https://samples.bingmapsportal.com/?search=Pushpins.md)
 
 ### Creating a custom pushpin
@@ -1725,7 +1725,7 @@ generate a session key right after the map loads and store it like this:
 
 Once you have a session key, simply use it in place of your Bing Maps
 key in your REST service requests. See [Understanding Bing Maps Transactions
-documentation](../bing-maps-dev-center-help/understanding-bing-maps-transactions)
+documentation](../bing-maps-dev-center-help/understanding-bing-maps-transactions.md)
 for more information on **billable** and **non-billable** transactions.
 
 Here are a few tips to maximize your use of sessions:
@@ -2065,7 +2065,7 @@ used classes in Google Maps V3 to their Bing Maps V8 equivalents.
 |  `google.maps.Circle`              |  Use the `getRegularPolygon` function in [Spatial Math Module](../../v8-web-control/modules/spatial-math-module/index.md). |
 |  `google.maps.ImageMapType`        |  `Microsoft.Maps.TileLayer`                                      |
 |  `google.maps.ImageMapTypeOptions` |  `Microsoft.Maps.TileLayerOptions`                               |
-|  `google.maps.GroundOverlay`       |  See the [Topography Overlay](../../v8-web-control/map-control-concepts/custom-overlays/topography-overlay) |
+|  `google.maps.GroundOverlay`       |  See the [Topography Overlay](../../v8-web-control/map-control-concepts/custom-overlays/topography-overlay.md) |
 |  `google.maps.KmlLayer`            |  `Microsoft.Maps.GeoXmlLayer` via the [GeoXml module](../../v8-web-control/modules/geoxml-module/index.md) |
 |  `google.maps.OverlayView`         |  `Microsoft.Maps.CustomOverlay`                                  |
 
@@ -2111,7 +2111,7 @@ equivalent modules to use in place of some of the Google Maps libraries.
  | Google Maps library   | Bing Maps Module
  | ----------------------| -----------------------------------------------------------------------------------------|
  | Autocomplete Library  | [Autosuggest Module](../../v8-web-control/modules/autosuggest-module/index.md)              |
- | Drawing Library       | [Drawing Tools Module](../../v8-web-control/modules/drawing-tools-module/drawingmanager-class)|
+ | Drawing Library       | [Drawing Tools Module](../../v8-web-control/modules/drawing-tools-module/drawingmanager-class.md)|
  | Geometry Library      | [Spatial Math Module](../../v8-web-control/modules/spatial-math-module/index.md)            |
  | Visualization Library | [Clustering Module](../../v8-web-control/modules/clustering-module/index.md)<br>[Contour Module](../../v8-web-control/modules/contour-module/index.md)<br>[Data binning Module](../../v8-web-control/modules/data-binning-module/index.md)<br>[Heatmap Module](../../v8-web-control/modules/heat-map-module/index.md) |
 
