@@ -1,5 +1,6 @@
 ---
 title: "Map Keyboard Shortcuts | Microsoft Docs"
+description: "The map has a number of keyboard shortcuts built in that make it easier to use the map. This article provides keyboard shortcuts that work when the map has focus."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

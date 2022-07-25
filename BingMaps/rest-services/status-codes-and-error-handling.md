@@ -1,5 +1,6 @@
 ---
 title: "REST Status Codes and Error Handling | Microsoft Docs"
+description: This article contains information on REST status codes and error handling, listing the most common HTTP status codes with short descriptions on each.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

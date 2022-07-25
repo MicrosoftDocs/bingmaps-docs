@@ -1,5 +1,6 @@
 ---
 title: "Query by Property | Microsoft Docs"
+description: This article provides URL templates used to search a data source for one or more entities by specifying property values. Includes a table describing all template parameters, a description of the responses resulting from the query and an example that demonstrates how to get entities that meet specified filter conditions and another example that demonstrates how to get entities using a wildcard search.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

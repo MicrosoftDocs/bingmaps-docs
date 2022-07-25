@@ -47,16 +47,18 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latit
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
 |key||Your [Bing Maps Key](https://msdn.microsoft.com/library/ff428642).|The GUID value that represents a Bing Maps Key.|  
   
-## Response  
+## Response
+
  The response returns the following information:  
   
--   Whether this is a politically disputed area, such as an area claimed by more than one country.  
+- Whether this is a politically disputed area, such as an area claimed by more than one country.  
   
--   Whether services are available in the user’s region.  
+- Whether services are available in the user’s region.  
   
--   A list of available geospatial services including endpoints and language support for each service.  
+- A list of available geospatial services including endpoints and language support for each service.  
   
 ### Using the Endpoints with Parameters  
+
  It is important to note that the endpoints returned in the response are not typically URLs that you can execute. They give the base URL to which you can add parameters, such as a quad key for an image, route waypoints or an address to geocode. This documentation does not cover the parameters specific to each service.  
   
  For example, a common endpoint for geocoding is `dev.virtualearth.net\REST\v1\Locations`. However, this URL does not return any results without adding parameters. The following example shows how to geocode an address by providing address information and a Bing Maps Key.  
@@ -65,7 +67,8 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latit
 http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20WA%2098052&o=xml&key=YourBingMapsKey  
 ```  
   
-### Response Fields  
+### Response Fields
+
  The following example shows the general structure for the JSON response. You can also request an XML response. Example requests and JSON and XML responses are provided in the [Examples](../articles/geospatial-endpoint-service.md#examples) section.  
   
 ```json
@@ -112,16 +115,16 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 }  
 ```  
   
- **General Fields**  
+#### General Fields
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
 |isDisputedArea|IsDisputedArea|Boolean|Specifies if this area in the request is claimed by more than one country. For example, many areas along the border of India and China are disputed areas. Even though an area is disputed area, it may still be supported by Geospatial Platform services.|  
 |isSupported|IsSupported|Boolean|Specifies if Geospatial Platform services are available in the country or region. Microsoft does not support services in embargoed areas. For example, if you request Geospatial Platform Service information for Cuba (CU), isSupported is set to true, and no service information is returned.|  
-|ur (user region)|UR (user region)|string|The country or region that was used to determine service support. If you specified a latitude and longitude in the request that is in a non-disputed country or region, this country or region is returned in the response.<br /><br /> Please see the section **Region Localities** below for more details on the `User Region Codes` and `Culture Codes`.|  
+|ur (user region)|UR (user region)|string|The country or region that was used to determine service support. If you specified a latitude and longitude in the request that is in a non-disputed country or region, this country or region is returned in the response.<br /><br /> Please see the section [Region Localities](#region-localities) below for more details on the `User Region Codes` and `Culture Codes`.|  
 |services|Services|array|Information for each geospatial service that is available in the country or region and language specified in the request.<br /><br /> See the **Service Fields** table for the information provided for each service.<br /><br /> For a list of available services, see [Supported Services](../articles/geospatial-endpoint-service.md#supportedServices).|  
   
- **Region Localities**  
+#### Region Localities
   
  In order to get this label to appear, the user region of the map has to be set to one of following `User Region Codes`.  
   
@@ -143,7 +146,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |MA|Morocco|ar-MA|  
 |AE|UAE|ar-AE|  
   
- **Service Fields**  
+#### Service Fields
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
@@ -152,7 +155,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |fallbackLanguage|FallbackLanguage|string|Specifies the secondary or fallback language in this region or country. If the requested language is not supported and a fallback language is not available, United States English (en-us) is used.|  
 |serviceName|ServiceName|string|An abbreviated name for the service. See [Supported Services](../articles/geospatial-endpoint-service.md#supportedServices) for a list of available services.|  
   
- **Response Container Fields**  
+#### Response Container Fields
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
@@ -182,9 +185,11 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
 |Image URL|BingLogo|Returns the attribution logo to display with Bing Maps tiles that do not include Nokia data.|  
 |Image URL|CombinedLogo|Returns the attribution logo to display with Bing Maps tiles that include Nokia data.|  
   
-<a name="examples"></a>   
-## Examples  
- **Example: Typical Service Support**  
+<a name="examples"></a>
+
+## Examples
+
+### Typical Service support example
   
  Language: **fr-fr (French)**, userRegion: **FR (France)**  
   
@@ -266,7 +271,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key={BingMapsKey
 }  
 ```  
   
- You would receive the following JSON response if the output=xml parameter was set in this example.  
+You would receive the following JSON response if the output=xml parameter was set in this example.  
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -342,7 +347,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/fr-fr/FR?key={BingMapsKey
 </Response>  
 ```  
   
- **Example: No Service Support**  
+### No Service support example
   
  Language: **en-us (English)**, userRegion: **CU (Cuba)**  
   
@@ -401,11 +406,12 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/en-us/cu?key={BingMapsKey
 </Response>  
 ```  
   
- **Example: Disputed Area**  
+### Disputed area example
   
  Language: **zh-hans (Simplified Chinese)**, userRegion: **CN (China)**, Coordinates: **Disputed Area between India and China**  
   
- Note that the response shows CN as the region because the latitude and longitude are in a disputed area.  
+> [!NOTE]
+> The response shows `CN` as the region because the latitude and longitude are in a disputed area.  
   
 ```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.376221?key={BingMapsKey}  
@@ -473,7 +479,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
 }  
 ```  
   
- You would receive the following JSON response if the output=xml parameter was set in this example.  
+You would receive the following JSON response if the output=xml parameter was set in this example.  
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -531,9 +537,10 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/zh-hans/cn/32.750323,79.3
 </Response>  
 ```  
   
- Language: **hi-in (Hindi)**, userRegion: **IN (India)**, Coordinates: **Disputed Area between India and China**  
+Language: **hi-in (Hindi)**, userRegion: **IN (India)**, Coordinates: **Disputed Area between India and China**  
   
- Note that the response shows IN as the region because the latitude and longitude coordinates are in a disputed area.  
+> [!NOTE]
+> The response shows `IN` as the region because the latitude and longitude coordinates are in a disputed area.  
   
 ```url
 http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376221?key={BingMapsKey}  
@@ -625,7 +632,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/hi-in/in/32.750323,79.376
 }  
 ```  
   
- You would receive the following JSON response if the output=xml parameter was set in this example.  
+You would receive the following JSON response if the output=xml parameter was set in this example.  
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  

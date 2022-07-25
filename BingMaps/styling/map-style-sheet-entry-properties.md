@@ -1,18 +1,18 @@
 ---
-title: Map Style Sheet Entry Properties | Microsoft Docs
-description: Learn about the map style sheet entry properties that can be set on entries in a map style sheet to customize the maps appearance in various Microsoft map controls.
-ms.custom: 
-ms.date: 05/26/2020
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "Map Style Sheet Entry Properties | Microsoft Docs"
+description: "This article lists properties that can be set on entries in a map style sheet to customize the appearance of a map in various Microsoft map controls."
+ms.custom:
+ms.date: "05/26/2020"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 ms.assetid: 9C7DD543-050F-4179-914F-E0097A03491F
 caps.latest.revision: 3
-author: DavidBuerer
-ms.author: dbuerer
-manager: 
-ms.service: bing-maps
+author: "dbuerer"
+ms.author: "dbuerer"
+manager: ""
+ms.service: "bing-maps"
 ---
 # Map Style Sheet Entry Properties
 

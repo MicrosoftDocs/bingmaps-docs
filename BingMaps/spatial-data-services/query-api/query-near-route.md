@@ -1,5 +1,6 @@
 ---
 title: "Query Near a Route | Microsoft Docs"
+description: This article provides URL templates used to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. Includes a table describing all template parameters, a description of the responses resulting from the query and an example that demonstrates how to query a data source for entities near a route and another example that demonstrates how to query a data source for entities near a route.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -16,7 +17,7 @@ ms.service: "bing-maps"
 # Query Near a Route
 Use the following URL to search a data source for entities that are within one (1) mile or 1.6 kilometers of a route. You can use the [Query Options](../query-api/query-options.md) such as $filter and $select to further specify the entity information that would like to return. For example, you can search the [Traffic Incident Data Source](../public-data-sources/traffic-incident-data-source.md) for all traffic incidents along a route and request that only the severity, description and location (latitude and longitude) be returned.  
   
-For an example on how to get traffic incidents along a route on a map, see [Searching for Traffic Incidents Along a Route](https://docs.microsoft.com/bingmaps/v8-web-control/map-control-concepts/spatial-data-services-module-examples/query-api/along-a-route-search).  
+For an example on how to get traffic incidents along a route on a map, see [Searching for Traffic Incidents Along a Route](/bingmaps/v8-web-control/map-control-concepts/spatial-data-services-module-examples/query-api/along-a-route-search).  
   
 ## Supported HTTP Methods  
  GET, HEAD  
