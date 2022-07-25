@@ -24,7 +24,7 @@ Map styling can be applied to a variety of Microsoft map controls:
 
 The point at which a particular [entry] or [property] is supported on each map control can be tracked using the style version.  
 
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).  The editor will inform you of what is supported.
+Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT). The editor will inform you of what is supported.
 
 This table shows the minimum version of each control that supports each style version.
 

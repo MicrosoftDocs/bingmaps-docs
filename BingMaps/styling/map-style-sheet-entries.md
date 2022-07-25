@@ -1,22 +1,22 @@
 ---
-title: Map Style Sheet Entries | Microsoft Docs
-description: A list of settings and elements that can be used in a map style sheet to customize the appearance of a map in various Microsoft map controls. They can also be used to define how overlaid geometry on a map should be represented.
-ms.custom: 
-ms.date: 05/26/2020
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "Map Style Sheet Entries | Microsoft Docs"
+description: "This article lists map style sheet entries that can be used to customize the appearance of a map in various Microsoft map controls. They can also be used to define how overlaid geometry on a map should be represented."
+ms.custom: ""
+ms.date: "05/26/2020"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 ms.assetid: C22745F9-7DD9-4348-8476-DC1AC0F7AC98
 caps.latest.revision: 3
-author: DavidBuerer
-ms.author: dbuerer
-manager: 
-ms.service: bing-maps
+author: "dbuerer"
+ms.author: "dbuerer"
+manager: ""
+ms.service: "bing-maps"
 ---
 # Map Style Sheet Entries
 
-The entries listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).  They can also be used to define how overlaid geometry on a map should be represented.
+The entries listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md). They can also be used to define how overlaid geometry on a map should be represented.
 
 > [!TIP]
 > Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
