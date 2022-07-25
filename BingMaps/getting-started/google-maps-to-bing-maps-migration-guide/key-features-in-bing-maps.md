@@ -4,18 +4,18 @@ titleSuffix: Bing Maps
 description: "Learn about the Key features in Bing Maps."
 author: stevemunk
 ms.author: v-munksteve
-ms.date: 05/17/2022
+ms.date: 07/27/2022
 ms.topic: conceptual
 ms.service: bing-maps
 services: bing-maps
 ---
 
 
-## Key features in Bing Maps
+# Key features in Bing Maps
 
 The following is a list of some of the key features in Bing Maps along with links to documentation and interactive code samples.
 
-### Additional Road Map styles
+## Additional Road Map styles
 
 \[[docs](../../v8-web-control/map-control-api/maptypeid-enumeration.md),
 [samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#grayscaleMapType+JS)\]
@@ -26,18 +26,27 @@ In addition to the standard road map style there are:
 |:----:|:------:|:----------:|:---------:|:-----------:|:------------:|
 |![Road](./media/image4.png)|![Aerial](./media/image5.png)|![Bird's eye](./media/image6.png)|![Grayscale](./media/image7.png)|![Canvas Dark](./media/image8.png)|![Canvas Light](./media/image9.png)|
 
-### Autosuggest
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to set your map type to Grayscale, see the
+[Grayscale Map Type](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#grayscaleMapType+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/autosuggest-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)\]
+For more information, see the [MapTypeId Enumeration](../../v8-web-control/map-control-api/maptypeid-enumeration.md) documentation.
+
+## Autosuggest
 
 Provides suggestions as you type a location in a search box.
 
 ![Autosuggest](./media/image10.png)
 
-### Birdseye Imagery
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to add the default autosuggest functionality to a textbox, see the
+[Autosuggest UI](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#autoSuggestUi+JS)
+sample in the Bing Maps Dev Center.
 
-\[[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#birdseyeV2+JS)\]
+For more information, see the [Autosuggest Module](../../v8-web-control/modules/autosuggest-module/index.md) documentation.
+
+## Birdseye Imagery
 
 This provides high resolution aerial imagery taken at 45 degrees to the ground from 4 different directions.
 
@@ -45,33 +54,44 @@ This provides high resolution aerial imagery taken at 45 degrees to the ground f
 |:-----:|:----:|:-----:|:----:|
 |![North](./media/image11.png)|![East](./media/image12.png)|![South](./media/image13.png)|![West](./media/image14.png)|
 
-### Data Binning
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to show bird's eye view, see the
+[Birdseye](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#birdseyeV2+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/data-binning-module/index.md),
-[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#gradientColorScaleBinning+JS)\]
+## Data Binning
 
 This powerful data visualization combines the power of clustering with
 the richness of heat maps.
 
 ![Data Binning example map](./media/image15.png)
 
-### Clustering
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to render data bins with a gradient color that scales with pushpin density, see the
+[Binning with gradient color scale](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#gradientColorScaleBinning+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/clustering-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)\]
+For more information, see the [Data Binning Module](../../v8-web-control/modules/data-binning-module/index.md) documentation.
+
+## Clustering
 
 Visualize large sets of pushpins, by having overlapping pushpins group
 together as clusters and break apart as you zoom in automatically.
 
-### Enhanced Localization
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to use the Clustering module, see the
+[Add clustering layer to map](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#clusteringMeanAverage+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/creating-and-hosting-map-controls/setting-map-control-parameters.md#localizing-the-map)\]
+For more information, see the [Clustering Module](../../v8-web-control/modules/clustering-module/index.md) documentation.
+
+## Enhanced Localization
 
 Bing Maps has excellent localization support for 79 languages.
 
-### Drawing tools
+For more information, see the [Setting Map Control Parameters](../../v8-web-control/creating-and-hosting-map-controls/setting-map-control-parameters.md#localizing-the-map) documentation.
 
-\[[docs](../../v8-web-control/modules/drawing-tools-module/index.md), [samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtDrawThings+JS)\]
+## Drawing tools
 
 Want to draw a pushpin, polygon, or some other shape on the map? The
 drawing tools module lets you do this easily. This can be used in many
@@ -80,33 +100,45 @@ draw a search area or providing tools for managing sales territories.
 
 ![Drawing Tools](./media/image16.png)
 
-### Custom Map Styles
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to show drawing manager, see the
+[Show drawing manager](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#dtDrawThings+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../articles/custom-map-styles-in-bing-maps.md),
-[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#CustomMapTileStylesAndHexColor+JS)\]
+For more information, see the [Drawing Tools Module](../../v8-web-control/modules/drawing-tools-module/index.md) documentation.
+
+## Custom Map Styles
 
 Customize the look and feel of the road maps inside of your application.
 Change the colors of the roads and land, hide certain types of labels.
 Create a style that aligns with your applications UI, company branding
 or change it just for fun.
 
-|                          |                          |                          |                          |
-|:------------------------:|:------------------------:|:------------------------:|:------------------------:|
+| | | | |
+|:----:|:----:|:----:|:----:|
 | ![Blue tone.](./media/image17.png) | ![Pink tone.](./media/image18.png) | ![Light brown tone.](./media/image19.png) | ![Brown tone.](./media/image20.png) |
 
-### GeoJSON Support
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+Custom Styles & ARGB color, see the
+[Custom Styles & ARGB color](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#CustomMapTileStylesAndHexColor+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/geojson-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoJsonReadObject+JS)\]
+For more information, see the [Custom Map Styles in Bing Maps](../../articles/custom-map-styles-in-bing-maps.md) documentation.
+
+## GeoJSON Support
 
 GeoJSON is one of the most common file formats used for sharing and
 storing spatial data. With Bing Maps you can easily import and export
 GeoJSON data.
 
-### KML, KMZ, GeoRSS, GML, and GPX support
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to read from a GeoJSON string and render it as a polygon on the map, see the
+[Read GeoJSON object](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoJsonReadObject+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/geoxml-module/index.md),
-[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#geoXMLReadFromUrl+JS)\]
+For more information, see the [GeoJSON Module](../../v8-web-control/modules/geojson-module/index.md) documentation.
+
+## KML, KMZ, GeoRSS, GML, and GPX support
 
 The GeoXml module makes it easy to read and write common geospatial XML
 file formats such as:
@@ -116,18 +148,27 @@ file formats such as:
 - [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language) (Geography Markup Language, exposed via GeoRSS
 - [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) (GPS Exchange Format).
 
-### Heat Maps
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to read from a URL which points to a GPX file and show the shapes on the map, see the
+[GeoXml Read From a URL](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#geoXMLReadFromUrl+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/heat-map-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#defaultHeatMap+JS)\]
+For more information, see the [GeoXml Module](../../v8-web-control/modules/geoxml-module/index.md) documentation.
+
+## Heat Maps
 
 Visualize the density of data points as a heatmap.
 
 ![A screenshot showing an example of a heatmap in Bing Maps.](./media/image21.png)
 
-### High Contrast support
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to generate a heat map layer with 500 random locations and 500 weighted locations that are within the initial view of a loaded map, see the
+[Add default heatmap](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#defaultHeatMap+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/map-control-api/maptypeid-enumeration.md#high-contrast-support)\]
+For more information, see the [Heat Map Module](../../v8-web-control/modules/heat-map-module/index.md) documentation.
+
+## High Contrast support
 
 Bing Maps automatically detects when the user's device is in high
 contrast module and renders the road maps accordingly to provide easy
@@ -135,10 +176,9 @@ accessibility.
 
 ![A screenshot showing an example of High Contrast map in Bing Maps.](./media/image22.png)
 
-### Point Compression
+For more information, see the [MapTypeId Enumeration](../../v8-web-control/map-control-api/maptypeid-enumeration.md#high-contrast-support) documentation.
 
-\[[docs](../../rest-services/elevations/point-compression-algorithm.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)\]
+## Point Compression
 
 Some of the Bing Maps services compress arrays of locations using a
 compression algorithm. These tools make it easy to encode and decode
@@ -154,19 +194,28 @@ server.
 >
 > points=vx1vilihnM6hR7mEl2Q
 
-### Real-time Traffic data
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to decoded an encoded string into an array of Locations then display it on a map as a Polyline, see the
+[Decode a compressed string](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#decodeCompressedString+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/traffic-module/index.md),
-[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#trafficHideShowTraffic+JS)\]
+For more information, see the [Point Compression Algorithm](../../rest-services/elevations/point-compression-algorithm.md) documentation.
+
+## Real-time Traffic data
 
 View real-time traffic flow and incidents on the map.
 
 ![A screenshot showing an example of Real-time Traffic data in Bing Maps.](./media/image23.png)
 
-### Spatial Data Services
+To see an interactive code sample in both JavaScript and TypeScript that demonstrates
+how to create a traffic maps with color coded roads that indicate the flow of traffic
+and possibly triangle icons indicating traffic incidents on the road, see the
+[Add/Show traffic layer](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#trafficHideShowTraffic+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/spatial-data-service-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk/sdspageresults#JS)\]
+For more information, see the [Traffic Module](../../v8-web-control/modules/traffic-module/index.md) documentation.
+
+## Spatial Data Services
 
 The Bing Spatial Data Services (SDS) provides two key features; the
 ability to upload, host and expose location data as a spatial REST
@@ -175,36 +224,53 @@ as zip codes, cities, states and more from Bing Maps. The Bing Maps SDK
 exposes a set of useful tools for accessing this data and integrating it
 with the map seamlessly.
 
-### Spatial Math
+To see an interactive code sample in both JavaScript and TypeScript that
+demonstrates how to use the Spatial Data Services, see the
+[Area and distance conversions](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#areaDistanceConversion+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/modules/spatial-math-module/index.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#areaDistanceConversion+JS)\]
+For more information, see the [Spatial Data Service Module](../../v8-web-control/modules/spatial-data-service-module/index.md) documentation.
+
+## Spatial Math
 
 When analyzing business data on a map it is often useful to be able to
 perform a spatial formula or two. One of the most common being the
 ability to calculate the distance (as the crow flies) between two
 locations.
 
-### Test Data Generator
+To see an interactive code sample in both JavaScript and TypeScript that
+demonstrates how to convert kilometers to miles, and acres to square kilometers using the SpatialMath module,
+see the [Area and distance conversions](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#areaDistanceConversion+JS)
+sample in the Bing Maps Dev Center.
 
-\[[docs](../../v8-web-control/map-control-api/testdatagenerator-class.md),
-[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpins+JS)\]
+For more information, see the [Spatial Math Module](../../v8-web-control/modules/spatial-math-module/index.md) documentation.
+
+## Test Data Generator
 
 When developing your app, you may find that you need some data to test
 parts of your application. Bing Maps includes a test data generator that
 can create random locations, pushpin, polylines, polygons and colors.
 
-### Streetside imagery
+To see an interactive code sample in both JavaScript and TypeScript that
+demonstrates the automatic creation of pushpins using `Microsoft.Maps.TestDataGenerator`,
+see the [Create pushpins](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#createPushpins+JS)
+sample in the Bing Maps Dev Center.
 
-\[[samples](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadStreetsideUsingBounds+JS)\]
+For more information, see the [TestDataGenerator
+Class](../../v8-web-control/map-control-api/testdatagenerator-class.md) article.
+
+## Streetside imagery
 
 Explore 360-degrees of street level imagery.
 
 ![A screenshot showing an example of Street side imagery displaying Seattle's space needle in Bing Maps.](./media/image24.png)
 
-### TypeScript Definitions
+To see an interactive code sample in both JavaScript and TypeScript that shows
+how to load the streetside mode by specifying map bounds, see the
+[Load using bounds](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#loadStreetsideUsingBounds+JS)
+sample in the Bing Maps Dev Center.
 
-\[[details](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)\]
+## TypeScript Definitions
 
 TypeScript is a superset of JavaScript and provides static typing,
 classes, and interfaces. It trans compiles into JavaScript which your
@@ -214,9 +280,11 @@ TypeScript before we highly recommend you give it a try as it fills a
 lot of gaps that you wished JavaScript supported and makes development
 easier. In fact, we wrote the Bing Maps web control using TypeScript.
 
-### Vector Map Labels
+For additional information and to download the NuGet package, see [Bing Maps V8
+TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)
+in GitHub.
 
-\[[docs](../../v8-web-control/articles/vector-map-labels.md)\]
+## Vector Map Labels
 
 The map labels in the Bing Maps SDK are separate from the base map and
 sit above the data on the map. This ensures that the labels can be
@@ -226,7 +294,9 @@ it is a road label it will move along the road. If it is a city name it
 may move up a bit. If there are a lot of pushpins in an area the label
 may be hidden entirely.
 
-### Well Known Text support
+For more information, see the [Vector Map Labels](../../v8-web-control/articles/vector-map-labels.md) article.
+
+## Well Known Text support
 
 This is a standard way of representing spatial objects as a string and use supported by all
 Open Geospatial Consortium (OGC) systems and databases. Easily import and export spatial
@@ -241,7 +311,7 @@ sample in the Bing Maps Dev Center.
 
 For more information, see the [Well Known Text Module](../../v8-web-control/modules/well-known-text-module.md) article.
 
-### Map API Nomenclature
+## Map API Nomenclature
 
 Bing Maps and Google Maps have a lot of common features and
 functionalities, however there are some differences in naming
