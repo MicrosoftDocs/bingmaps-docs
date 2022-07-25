@@ -4,7 +4,7 @@ titleSuffix: Bing Maps
 description: "Learn about the numerous advantages Bing Maps has over the Google Maps JavaScript API."
 author: stevemunk
 ms.author: v-munksteve
-ms.date: 05/17/2022
+ms.date: 07/27/2022
 ms.topic: conceptual
 ms.service: bing-maps
 services: bing-maps
@@ -74,11 +74,9 @@ core features such as support for pushpins, polylines, polygons, and
 tile layers. Modules allow users to load only the features and
 functionalities they need, when they need them, rather than having to
 load all features when the application loads. For a list of
-modules in Bing Maps, see 
-[modules](/v8-web-control/modules/).
-For additional information about the modular framework in Bing
-Maps, see 
-[Modular Framework](/v8-web-control/map-control-concepts/modular-framework/).
+modules in Bing Maps, see [modules](../../v8-web-control/modules/index.md).
+For additional information about the modular framework in Bing Maps, see
+[Modular Framework](../../v8-web-control/map-control-concepts/modular-framework/index.md).
 
 ## Enterprise Level Service
 
@@ -99,8 +97,6 @@ is there. Due to this global cloud platform, Bing Map can provide some
 of the fastest geocoding and routing services available.
 
 ## Next steps
-
-To learn more about security best practices, see
 
 > [!div class="nextstepaction"]
 > [Migrating Google Maps to Bing Maps](Google-Maps-to-Bing-Maps-Migration-Guide.md)

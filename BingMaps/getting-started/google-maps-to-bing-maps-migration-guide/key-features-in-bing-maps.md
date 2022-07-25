@@ -60,7 +60,7 @@ sample in the Bing Maps Dev Center.
 This powerful data visualization combines the power of clustering with
 the richness of heat maps.
 
-:::image type="content" source="./media/image15.png" alt-text="Screen shot of Data Binning example in Bing maps.":::
+:::image type="content" source="./media/image15.png" alt-text="Screen shot of the Data Binning example in Bing maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to render data bins with a gradient color that scales with pushpin density, see the
@@ -110,8 +110,8 @@ Change the colors of the roads and land, hide certain types of labels.
 Create a style that aligns with your applications UI, company branding
 or change it just for fun.
 
-| | | | |
-|:----:|:----:|:----:|:----:|
+| Blue tone | Pink tone | Light brown tone | Brown tone |
+|:---------:|:---------:|:----------------:|:----------:|
 | ![Blue tone.](./media/image17.png) | ![Pink tone.](./media/image18.png) | ![Light brown tone.](./media/image19.png) | ![Brown tone.](./media/image20.png) |
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
@@ -201,7 +201,7 @@ For more information, see the [Point Compression Algorithm](../../rest-services/
 
 View real-time traffic flow and incidents on the map.
 
-:::image type="content" source="./media/image23.png" alt-text="Screenshot showing an example of Real-time Traffic data in Bing Maps.":::
+:::image type="content" source="./media/image23.png" alt-text="Screenshot showing an example of Real-time Traffic in Bing Maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to create a traffic maps with color coded roads that indicate the flow of traffic

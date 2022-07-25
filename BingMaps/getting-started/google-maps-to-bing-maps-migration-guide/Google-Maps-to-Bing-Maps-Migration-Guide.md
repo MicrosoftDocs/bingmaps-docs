@@ -93,7 +93,7 @@ The Bing Maps developer forums is also a good place to find migration assistance
 especially if you are not an Enterprise customer with access to the Enterprise
 Support team. The Bing Maps developer forums are regularly monitored by community
 developers and by members of the Bing Maps team. You can find and ask questions
-in [Microsoft Q&A](https://docs.microsoft.com/answers/products/).
+in [Microsoft Q&A](/answers/products/).
 
 #### Licensing Queries
 
@@ -126,7 +126,7 @@ Here is a list of useful technical resources for the Bing Maps web control:
 - [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/)
 - [Creating a basic map control](../../v8-web-control/creating-and-hosting-map-controls/creating-a-basic-map-control.md)
 - [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions.md)
-- [Microsoft Q&A](https://docs.microsoft.com/answers/products/)
+- [Microsoft Q&A](/answers/products/)
 - [Bing Maps REST Services](../../rest-services/index.md)
 - [Bing Spatial Data Services](../../spatial-data-services/query-api/index.md)
 - [Bing Maps Terms of Use](https://www.microsoft.com/maps/product.md)
