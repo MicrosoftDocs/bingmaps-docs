@@ -10,15 +10,11 @@ ms.service: bing-maps
 services: bing-maps
 ---
 
-
 # Key features in Bing Maps
 
 The following is a list of some of the key features in Bing Maps along with links to documentation and interactive code samples.
 
 ## Additional Road Map styles
-
-\[[docs](../../v8-web-control/map-control-api/maptypeid-enumeration.md),
-[samples](https://www.bing.com/api/maps/sdkrelease/mapcontrol/isdk#grayscaleMapType+JS)\]
 
 In addition to the standard road map style there are:
 
@@ -37,7 +33,7 @@ For more information, see the [MapTypeId Enumeration](../../v8-web-control/map-c
 
 Provides suggestions as you type a location in a search box.
 
-![Autosuggest](./media/image10.png)
+:::image type="content" source="./media/image10.png" alt-text="Screen shot of Bing maps Autosuggest.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to add the default autosuggest functionality to a textbox, see the
@@ -64,7 +60,7 @@ sample in the Bing Maps Dev Center.
 This powerful data visualization combines the power of clustering with
 the richness of heat maps.
 
-![Data Binning example map](./media/image15.png)
+:::image type="content" source="./media/image15.png" alt-text="Screen shot of Data Binning example in Bing maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to render data bins with a gradient color that scales with pushpin density, see the
@@ -98,7 +94,7 @@ drawing tools module lets you do this easily. This can be used in many
 different types of scenarios such as providing the user the ability to
 draw a search area or providing tools for managing sales territories.
 
-![Drawing Tools](./media/image16.png)
+:::image type="content" source="./media/image16.png" alt-text="Screen shot showing the Drawing Tools in Bing maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to show drawing manager, see the
@@ -159,7 +155,7 @@ For more information, see the [GeoXml Module](../../v8-web-control/modules/geoxm
 
 Visualize the density of data points as a heatmap.
 
-![A screenshot showing an example of a heatmap in Bing Maps.](./media/image21.png)
+:::image type="content" source="./media/image21.png" alt-text="Screenshot showing an example of a heatmap in Bing Maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to generate a heat map layer with 500 random locations and 500 weighted locations that are within the initial view of a loaded map, see the
@@ -174,7 +170,7 @@ Bing Maps automatically detects when the user's device is in high
 contrast module and renders the road maps accordingly to provide easy
 accessibility.
 
-![A screenshot showing an example of High Contrast map in Bing Maps.](./media/image22.png)
+:::image type="content" source="./media/image22.png" alt-text="Screenshot showing an example of a High Contrast map in Bing Maps.":::
 
 For more information, see the [MapTypeId Enumeration](../../v8-web-control/map-control-api/maptypeid-enumeration.md#high-contrast-support) documentation.
 
@@ -205,7 +201,7 @@ For more information, see the [Point Compression Algorithm](../../rest-services/
 
 View real-time traffic flow and incidents on the map.
 
-![A screenshot showing an example of Real-time Traffic data in Bing Maps.](./media/image23.png)
+:::image type="content" source="./media/image23.png" alt-text="Screenshot showing an example of Real-time Traffic data in Bing Maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that demonstrates
 how to create a traffic maps with color coded roads that indicate the flow of traffic
@@ -263,7 +259,7 @@ Class](../../v8-web-control/map-control-api/testdatagenerator-class.md) article.
 
 Explore 360-degrees of street level imagery.
 
-![A screenshot showing an example of Street side imagery displaying Seattle's space needle in Bing Maps.](./media/image24.png)
+:::image type="content" source="./media/image24.png" alt-text="Screenshot showing an example of Street side imagery displaying Seattle's space needle in Bing Maps.":::
 
 To see an interactive code sample in both JavaScript and TypeScript that shows
 how to load the streetside mode by specifying map bounds, see the
