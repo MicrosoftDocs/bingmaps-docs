@@ -112,7 +112,7 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |GeospatialEndpoint|REST Services|No|Any time a [Geospatial Endpoint](../../articles/geospatial-endpoint-service.md) URL request is made, one (1) transaction is counted.|
 
  <sup>3</sup>This transaction is not billable if the service request is made using a [session ID](#using-session-ids-to-make-billable-transactions-non-billable) from a Web or WPF Control session or from the AutoSuggest Module of the Web Control.  
-  
+
 ### Spatial Data Services and Data Source Management using the Bing Maps Account Center  
   
 |Category|Bing Maps API|Billable|Category Description|  
