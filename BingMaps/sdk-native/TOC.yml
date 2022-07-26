@@ -7,7 +7,7 @@
   - name: Getting started with iOS
     href: getting-started-ios/index.md
   - name: Map control concepts
-    href: index.md
+    href: map-control-concepts/index.md
     maintainContext: true
     items:
       - name: Map Scenes and Cameras
@@ -29,7 +29,7 @@
       - name: User Location
         href: map-control-concepts/user-location.md
   - name: Map services API reference
-    href: index.md
+    href: map-services-api/index.md
     maintainContext: true
     items:
       - name: Map services API classes
@@ -69,7 +69,7 @@
         - name: MapLocationFinderResultHandler (iOS)
           href: map-services-api/iOS/MapLocationFinderResultHandler-interface.md
   - name: Map control API reference
-    href: index.md
+    href: map-control-api/index.md
     maintainContext: true
     items:
       - name: Map control API classes
