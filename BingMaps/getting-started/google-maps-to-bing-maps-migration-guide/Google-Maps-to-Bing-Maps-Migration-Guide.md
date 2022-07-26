@@ -10,7 +10,7 @@ ms.service: bing-maps
 services: bing-maps
 ---
 
-# Migrating Google Maps to Bing Maps
+# Migrating from Google Maps to Bing Maps
 
 This article provides the information you need to migrate an application built using the Google Maps V3 JavaScript API to a Bing Maps application, built using the Bing Maps V8 web control API. This includes a suggested migration plan, useful tools and support, migration code examples, API class mapping along with other tips to help ensure a successful migration.
 
@@ -36,7 +36,7 @@ Your final plan will need to take into account the specifics of your application
     a.  You can use the free [basic key](https://www.microsoft.com/maps/create-a-bing-maps-key/#freeTab)
         as you migrate to Bing Maps. Production applications will need an [enterprise key](https://www.microsoft.com/maps/create-a-bing-maps-key/#enterpriseTab).
         See the [Microsoft Bing Maps Platform APIs Terms Of Use (TOU)](https://www.microsoft.com/maps/product) for
-        more information that will help you determine if our needs will exceed what is provided for free in the basic account.
+        more information that will help you determine if what is provided for free in the basic account will meet your needs.
 
     b.  For additional assistance with Bing Maps licensing, contact <maplic@microsoft.com> (the Americas) or <mapemea@microsoft.com>
         (Europe, Middle East, Africa, Asia and Australia).
@@ -182,7 +182,7 @@ Google Maps API uses an API key for authentication. This API key must be
 specified in the URL to Google Maps map control as shown below.
 
 ```javascript
-<script async src="https://maps.googleapis.com/maps/api/js?key=yourBingMapsKey&callback=initMap">
+<script async src="https://maps.googleapis.com/maps/api/js?key=yourGoogleMapsKey&callback=initMap">
 </script>
 ```
 
@@ -241,7 +241,7 @@ and zoomed over a location.
     style="position:relative;width:600px;height:400px;"></div>
     <!-- Google Maps Script Reference  -->
     <script async
-    src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourBingMapsKey">
+    src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourGoogleMapsKey">
     </script>
 </body>
 </html>
@@ -308,7 +308,7 @@ To get a localized map using the Google Maps API, add a language
 parameter in the initialization `<script>` tag.
 
 ```html
-<script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourBingMapsKey&language=your_language_code&region=your_region_code">
+<script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourGoogleMapsKey&language=your_language_code&region=your_region_code">
 </script>
 ```
 
@@ -1642,7 +1642,7 @@ tools to be loaded. This example shows how to show the default drawing tools.
     style="position:relative;width:600px;height:400px;"></div>
     
     <!-- Google Maps Script Reference  -->
-    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=your_drawing&key=yourBingMapsKey">
+    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=your_drawing&key=yourGoogleMapsKey">
     </script>
 </body>
 </html>
