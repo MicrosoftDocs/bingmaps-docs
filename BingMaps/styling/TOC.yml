@@ -2,14 +2,13 @@
   href: index.md
   maintainContext: true 
   items:
-  - name: map style sheets
-    href: map-style-sheets.md
-  - name: map style sheet entries
-    href: map-style-sheet-entries.md
-  - name: map style sheet entry properties
-    href: map-style-sheet-entry-properties.md
-  - name: map style sheet extensions
-    href: map-style-sheet-extensions.md
-  - name: map style sheet support
-    href: map-style-sheet-support.md
-
+    - name: map style sheets
+      href: map-style-sheets.md
+    - name: map style sheet entries
+      href: map-style-sheet-entries.md
+    - name: map style sheet entry properties
+      href: map-style-sheet-entry-properties.md
+    - name: map style sheet extensions
+      href: map-style-sheet-extensions.md
+    - name: map style sheet support
+      href: map-style-sheet-support.md
