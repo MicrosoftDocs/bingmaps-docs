@@ -182,7 +182,7 @@ Google Maps API uses an API key for authentication. This API key must be
 specified in the URL to Google Maps map control as shown below.
 
 ```javascript
-<script async src="https://maps.googleapis.com/maps/api/js?key=yourGoogleMapsKey&callback=initMap">
+<script async src="https://maps.googleapis.com/maps/api/js?key={your_Google_Maps_Key}&callback=initMap">
 </script>
 ```
 
@@ -196,7 +196,7 @@ map control by adding a script reference to the API:
 ```javascript
 //Async script executes immediately and must be after any DOM elements used in callback.
 
-<script async src="https://www.bing.com/api/maps/mapcontrol?key=yourBingMapsKey&callback=initMap">
+<script async src="https://www.bing.com/api/maps/mapcontrol?key={your_Bing_Maps_Key}&callback=initMap">
 </script>
 ```
 
@@ -241,7 +241,7 @@ and zoomed over a location.
     style="position:relative;width:600px;height:400px;"></div>
     <!-- Google Maps Script Reference  -->
     <script async
-    src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourGoogleMapsKey">
+    src="https://maps.googleapis.com/maps/api/js?callback=initMap&key={your_Google_Maps_Key}">
     </script>
 </body>
 </html>
@@ -275,7 +275,7 @@ additional step is to make sure you specify your Bing Maps key.
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
     <!-- Bing Maps Script Reference -->
-    <script async src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=yourBingMapsKey"></script>
+    <script async src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key={your_Bing_Maps_Key}"></script>
 </body>
 </html>
 ```
@@ -308,7 +308,7 @@ To get a localized map using the Google Maps API, add a language
 parameter in the initialization `<script>` tag.
 
 ```html
-<script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=yourGoogleMapsKey&language=your_language_code&region=your_region_code">
+<script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&key={your_Google_Maps_Key}&language={your_language_code}&region={your_region_code}">
 </script>
 ```
 
@@ -337,7 +337,7 @@ localize the map.
 These parameters can be specified in the map script URL as shown below.
 
 ```html
-<script async src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=yourBingMapsKey&setLang=your_language_code&setMkt=your_locale_code">
+<script async src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key={your_Bing_Maps_Key}&setLang={your_language_code}&setMkt={your_locale_code}">
 </script>
 ```
 
@@ -1252,7 +1252,7 @@ used to add autosuggest functionality to a textbox.
     
     //Bing Maps Script Reference 
     <script async
-        src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=yourBingMapsKey">
+        src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key={your_Bing_Maps_Key}">
     </script>
 </body>
 </html>
@@ -1642,7 +1642,7 @@ tools to be loaded. This example shows how to show the default drawing tools.
     style="position:relative;width:600px;height:400px;"></div>
     
     <!-- Google Maps Script Reference  -->
-    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=your_drawing&key=yourGoogleMapsKey">
+    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=<your_drawing>&key={your_Google_Maps_Key}">
     </script>
 </body>
 </html>
@@ -1892,7 +1892,7 @@ position of a pushpin as the user moves.
         onclick="StopTracking()" />
     // Bing Maps Script Reference 
     <script async
-        src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=yourBingMapsKey">
+        src="https://www.bing.com/api/maps/mapcontrol?callback=initMap&key={your_Bing_Maps_Key}">
     </script>
 </body>
 </html>
@@ -1925,7 +1925,7 @@ use the services. For example, you would add a Bing Maps Key to the
 script URL loading the Bing Maps Web Control like this:
 
 ```javascript
-<script async src="https://www.bing.com/api/maps/mapcontrol?key=yourBingMapsKey&callback=initMap">
+<script async src="https://www.bing.com/api/maps/mapcontrol?key={your_Bing_Maps_Key}&callback=initMap">
 </script>
 ```
 
@@ -2018,7 +2018,7 @@ Finally, we use the following code snippet to load Bing Maps dynamically:
     fetch("https://...../api/GetBingMapsKey").then(r =>
         r.text()).then(key => { return key });
     script.setAttribute("src",
-        `https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=$yourBingKey`);
+        `https://www.bing.com/api/maps/mapcontrol?callback=initMap&key=${BingKey}`);
     document.body.appendChild(script);
     })();
 </script>
