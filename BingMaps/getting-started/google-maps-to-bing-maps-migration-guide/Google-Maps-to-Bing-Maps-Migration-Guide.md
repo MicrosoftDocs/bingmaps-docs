@@ -183,7 +183,6 @@ specified in the URL to Google Maps map control as shown below.
 
 ```javascript
 <script async src="https://maps.googleapis.com/maps/api/js?key={your_Google_Maps_Key}&callback=initMap">
-</script>
 ```
 
 #### Bing Maps authentication
@@ -1642,7 +1641,7 @@ tools to be loaded. This example shows how to show the default drawing tools.
     style="position:relative;width:600px;height:400px;"></div>
     
     <!-- Google Maps Script Reference  -->
-    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=<your_drawing>&key={your_Google_Maps_Key}">
+    <script async src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries={drawing}&key={your_Google_Maps_Key}">
     </script>
 </body>
 </html>
