@@ -11,23 +11,23 @@
     maintainContext: true
     items:
       - name: Map Scenes and Cameras
-        href: map-scenes-and-cameras.md
+        href: map-control-concepts/map-scenes-and-cameras.md
       - name: Map Style Sheets
-        href: map-styles-sheets.md
+        href: map-control-concepts/map-styles-sheets.md
       - name: Map Icons
-        href: map-icons.md
+        href: map-control-concepts/map-icons.md
       - name: Display flyout of pushpin
-        href: display-flyout.md
+        href: map-control-concepts/display-flyout.md
       - name: Map Polylines and Polygons
-        href: map-polylines-and-polygons.md
+        href: map-control-concepts/map-polylines-and-polygons.md
       - name: Custom Overlays
-        href: tile-layers.md
+        href: map-control-concepts/tile-layers.md
       - name: Interacting with maps
-        href: user-interface-gestures-and-controls.md
+        href: map-control-concepts/user-interface-gestures-and-controls.md
       - name: Events
-        href: handle-map-events.md
+        href: map-control-concepts/handle-map-events.md
       - name: User Location
-        href: user-location.md
+        href: map-control-concepts/user-location.md
   - name: Map services API reference
     href: index.md
     maintainContext: true
