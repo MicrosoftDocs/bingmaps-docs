@@ -1,0 +1,170 @@
+- name: Bing Maps SDK for Android and iOS
+  href: index.md
+  maintainContext: true
+  items:
+    - name: Getting started with Android
+      href: getting-started-android/index.md
+    - name: Getting started with iOS
+      href: getting-started-ios/index.md
+    - name: Map control concepts
+      href: map-control-concepts/index.md
+      maintainContext: true
+      items:
+        - name: Map Scenes and Cameras
+          href: map-control-concepts/map-scenes-and-cameras.md
+        - name: Map Style Sheets
+          href: map-control-concepts/map-styles-sheets.md
+        - name: Map Icons
+          href: map-control-concepts/map-icons.md
+        - name: Display flyout of pushpin
+          href: map-control-concepts/display-flyout.md
+        - name: Map Polylines and Polygons
+          href: map-control-concepts/map-polylines-and-polygons.md
+        - name: Custom Overlays
+          href: map-control-concepts/tile-layers.md
+        - name: Interacting with maps
+          href: map-control-concepts/user-interface-gestures-and-controls.md
+        - name: Events
+          href: map-control-concepts/handle-map-events.md
+        - name: User Location
+          href: map-control-concepts/user-location.md
+    - name: Map services API reference
+      href: map-services-api/index.md
+      maintainContext: true
+      items:
+        - name: Map services API classes
+          items:
+          - name: Geopoint
+            href: map-services-api/../map-control-api/Geopoint-class.md
+          - name: MapLocation
+            href: map-services-api/MapLocation-class.md
+          - name: MapLocationAddress
+            href: map-services-api/MapLocationAddress-class.md
+          - name: MapLocationFinder
+            href: map-services-api/MapLocationFinder-class.md
+          - name: MapLocationOptions
+            href: map-services-api/MapLocationOptions-class.md
+          - name: MapLocationPoint
+            href: map-services-api/MapLocationPoint-class.md
+          - name: MapLocationFinderResult
+            href: map-services-api/MapLocationFinderResult-class.md
+          - name: MapServices
+            href: map-services-api/MapServices-class.md
+        - name: Map services API enumerations
+          items: 
+          - name: MapLocationEntityTypes
+            href: map-services-api/MapLocationEntityTypes-enumeration.md
+          - name: MapLocationMatchCode
+            href: map-services-api/MapLocationMatchCode-enumeration.md
+          - name: MapLocationPointCalculationMethod
+            href: map-services-api/MapLocationPointCalculationMethod-enumeration.md
+          - name: MapLocationPointUsageType
+            href: map-services-api/MapLocationPointUsageType-enumeration.md
+          - name: MapLocationFinderStatus
+            href: map-services-api/MapLocationFinderStatus-enumeration.md
+        - name: Map services API interfaces
+          items: 
+          - name: OnMapLocationFinderResultListener (Android)
+            href: map-services-api/Android/OnMapLocationFinderResultListener-interface.md
+          - name: MapLocationFinderResultHandler (iOS)
+            href: map-services-api/iOS/MapLocationFinderResultHandler-interface.md
+    - name: Map control API reference
+      href: map-control-api/index.md
+      maintainContext: true
+      items:
+        - name: Map control API classes
+          items:
+          - name: CustomTileMapLayer
+            href: map-control-api/CustomTileMapLayer-class.md
+          - name: CustomTileMapLayer
+            href: map-control-api/CustomTileMapLayer-class.md
+          - name: GeoboundingBox
+            href: map-control-api/GeoboundingBox-class.md
+          - name: Geocircle
+            href: map-control-api/Geocircle-class.md
+          - name: Geopath
+            href: map-control-api/Geopath-class.md
+          - name: Geopoint
+            href: map-control-api/Geopoint-class.md
+          - name: Geoposition
+            href: map-control-api/Geoposition-class.md
+          - name: Geoshape
+            href: map-control-api/Geoshape-class.md
+          - name: GroundOverlayMapLayer
+            href: map-control-api/GroundOverlayMapLayer-class.md
+          - name: MapCamera
+            href: map-control-api/MapCamera-class.md
+          - name: MapElement
+            href: map-control-api/MapElement-class.md
+          - name: MapElementCollection
+            href: map-control-api/MapElementCollection-class.md
+          - name: MapElementLayer
+            href: map-control-api/MapElementLayer-class.md
+          - name: MapFlyout
+            href: map-control-api/MapFlyout-class.md
+          - name: MapIcon
+            href: map-control-api/MapIcon-class.md
+          - name: MapImage
+            href: map-control-api/MapImage-class.md
+          - name: MapLayer
+            href: map-control-api/MapLayer-class.md
+          - name: MapLayerCollection
+            href: map-control-api/MapLayerCollection-class.md
+          - name: MapLocationData
+            href: map-control-api/maplocationdata-class.md
+          - name: MapPolygon
+            href: map-control-api/MapPolygon-class.md
+          - name: MapPolyline
+            href: map-control-api/MapPolyline-class.md
+          - name: MapRouteLine
+            href: map-control-api/MapRouteLine-class.md
+          - name: MapRouteSegment
+            href: map-control-api/MapRouteSegment-class.md
+          - name: MapScene
+            href: map-control-api/MapScene-class.md
+          - name: MapStyleSheet
+            href: map-control-api/MapStyleSheet-class.md
+          - name: MapStyleSheets
+            href: map-control-api/MapStyleSheets-class.md
+          - name: MapUserInterfaceOptions
+            href: map-control-api/MapUserInterfaceOptions-class.md
+          - name: MapUserLocation
+            href: map-control-api/mapuserlocation-class.md
+          - name: MapView
+            href: map-control-api/MapView-class.md
+          - name: TrafficFlowMapLayer
+            href: map-control-api/TrafficFlowMapLayer-class.md
+          - name: UriTileMapLayer
+            href: map-control-api/UriTileMapLayer-class.md
+          - name: ViewPadding
+            href: map-control-api/ViewPadding-class.md
+        - name: Map control API enumerations
+          items:
+          - name: AltitudeReferenceSystem
+            href: map-control-api/AltitudeReferenceSystem-enumeration.md
+          - name: CopyrightDisplay
+            href: map-control-api/CopyrightDisplay-enumeration.md
+          - name: GeoshapeType
+            href: map-control-api/GeoshapeType-enumeration.md
+          - name: MapAnimationKind
+            href: map-control-api/MapAnimationKind-enumeration.md
+          - name: MapCameraChangeReason
+            href: map-control-api/MapCameraChangeReason-enumeration.md
+          - name: MapElementCollisionBehavior
+            href: map-control-api/MapElementCollisionBehavior-enumeration.md
+          - name: MapLoadingStatus
+            href: map-control-api/maploadingstatus-enumeration.md
+          - name: MapProjection
+            href: map-control-api/MapProjection-enumeration.md
+          - name: MapRenderMode
+            href: map-control-api/MapRenderMode-enumeration.md
+          - name: MapRouteLineState
+            href: map-control-api/maproutelinestate-enumeration.md
+          - name: MapRouteLineTrafficCongestion
+            href: map-control-api/maproutelinetrafficcongestion-enumeration.md
+          - name: MapRouteLineTravelMode
+            href: map-control-api/maproutelinetravelmode-enumeration.md
+          - name: MapUserLocationTrackingMode
+            href: map-control-api/mapuserlocationtrackingmode-enumeration.md
+          - name: MapUserLocationTrackingState
+            href: map-control-api/mapuserlocationtrackingstate-enumeration.md
