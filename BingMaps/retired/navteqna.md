@@ -13,6 +13,7 @@ author: "rbrundritt"
 ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
+ROBOTS: NOINDEX
 ---
 # NAVTEQNA
 
