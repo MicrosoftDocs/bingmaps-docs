@@ -14,6 +14,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue Tile JSON class
 
 Encapsulates a tile containing the footprints of venues that overlap that tile.  These tiles are used to select a venue.
@@ -24,8 +25,8 @@ While this contains a list of [venue] objects, it is expected that these objects
 
 | Property        | Type       | Req? | Description |
 |-----------------|------------|------|-------------|
-| id              | string     |  ✔   | [Web Mercator quadkey](../articles/bing-maps-tile-system.md) for the tile.  Typically this is a level 10 tile. |
-| venues          | [venue] [] |      | Venues containing only footprints that overlap this tile. |
+| id              | string     |  ✔   | Web Mercator [quadkey] for the tile.  Typically this is a level 10 tile. |
+| venues          | [venue]    |      | Venues containing only footprints that overlap this tile. |
 
 ## Example
 
@@ -49,4 +50,5 @@ While this contains a list of [venue] objects, it is expected that these objects
 
 [floor]: floor.md
 [geometry]: geometry.md
+[quadkey]: ../../../../articles/bing-maps-tile-system.md#tile-coordinates-and-quadkeys
 [venue]: venue.md

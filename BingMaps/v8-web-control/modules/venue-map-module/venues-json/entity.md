@@ -51,5 +51,5 @@ Encapsulates an individual entity on the [floor] of a [venue].
 [floor]: floor.md
 [geometry]: geometry.md
 [label]: label.md
-[styleEntry]: ..\styling\map-style-sheet-entries.md
+[styleEntry]: ../../../../styling/map-style-sheet-entries.md
 [venue]: venue.md
