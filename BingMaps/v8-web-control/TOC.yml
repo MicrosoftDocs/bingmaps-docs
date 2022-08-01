@@ -706,6 +706,30 @@
               href: modules/venue-map-module/venuemap-class.md
             - name: VenueMapOptions Object
               href: modules/venue-map-module/venuemapoptions-object.md
+            - name: Venue JSON specification
+              href: /modules/venue-map-module/venue-json/index.md
+              maintainContext: true
+              items: 
+                - name: Venue address JSON class
+                  href: modules/venue-map-module/venue-json/address.md
+                - name: Venue entity JSON class
+                  href: modules/venue-map-module/venue-json/entity.md
+                - name: Venue floor JSON class
+                  href: modules/venue-map-module/venue-json/floor.md
+                - name: Venue geometry JSON class
+                  href: modules/venue-map-module/venue-json/geometry.md
+                - name: Venue inner JSON class
+                  href: modules/venue-map-module/venue-json/inner.md
+                - name: Venue label JSON class
+                  href: modules/venue-map-module/venue-json/label.md
+                - name: Venue rectangle JSON class
+                  href: modules/venue-map-module/venue-json/rectangle.md
+                - name: Venue JSON class
+                  href: modules/venue-map-module/venue-json/venue.md
+                - name: Venue JSON sample
+                  href: modules/venue-map-module/venue-json/sample.md
+                - name: Venue Tile JSON class
+                  href: modules/venue-map-module/venue-json/venueTile.md
         - name: Well Known Text Module
           href: modules/well-known-text-module.md
     - name: Articles
