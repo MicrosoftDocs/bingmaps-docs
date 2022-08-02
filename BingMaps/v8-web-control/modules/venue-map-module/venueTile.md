@@ -50,5 +50,5 @@ While this contains a list of [venue] objects, it is expected that these objects
 
 [floor]: floor.md
 [geometry]: geometry.md
-[quadkey]: ../../../../articles/bing-maps-tile-system.md#tile-coordinates-and-quadkeys
+[quadkey]: ../../../articles/bing-maps-tile-system.md#tile-coordinates-and-quadkeys
 [venue]: venue.md

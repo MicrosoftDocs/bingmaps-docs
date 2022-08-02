@@ -61,6 +61,6 @@ See the venue [sample].
 [address]:  address.md
 [floor]: floor.md
 [sample]: sample.md
-[Bing Maps V8 Web Control]: ../../../index.md
+[Bing Maps V8 Web Control]: ../index.md
 [VenueMap]: ../venuemap-class.md
-[VenueMapFactory]: ../venuemapoptions-object.md
+[VenueMapFactory]: venuemapoptions-object.md
