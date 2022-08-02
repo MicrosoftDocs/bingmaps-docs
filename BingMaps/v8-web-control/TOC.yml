@@ -708,7 +708,6 @@
               href: modules/venue-map-module/venuemapoptions-object.md
             - name: Venue JSON specification
               href: modules/venue-map-module/venue-json/index.md
-              maintainContext: true
               items: 
                 - name: Venue address JSON class
                   href: address.md
