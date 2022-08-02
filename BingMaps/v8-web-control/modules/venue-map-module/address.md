@@ -1,5 +1,6 @@
 ---
 title: Venue address JSON class | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: Venue address JSON class represents an address of a venue map or entity within a venue map. Includes Properties and Example.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue address JSON class
 
 Represents an address of a [venue] map or [entity] within a venue map.
