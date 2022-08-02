@@ -711,17 +711,17 @@
               maintainContext: true
               items: 
                 - name: Venue address JSON class
-                  href: venue-map-module/venue-json/address.md
+                  href: address.md
                 - name: Venue entity JSON class
                   href: venue-json/entity.md
                 - name: Venue floor JSON class
-                  href: modules/venue-map-module/venue-json/floor.md
+                  href: venue-map-module/venue-json/floor.md
                 - name: Venue geometry JSON class
                   href: modules/venue-map-module/venue-json/geometry.md
                 - name: Venue inner JSON class
-                  href: modules/venue-map-module/venue-json/inner.md
+                  href: v8-web-contro/modules/venue-map-module/venue-json/inner.md
                 - name: Venue label JSON class
-                  href: modules/venue-map-module/venue-json/label.md
+                  href: bingmaps/v8-web-contro/modules/venue-map-module/venue-json/label.md
                 - name: Venue rectangle JSON class
                   href: modules/venue-map-module/venue-json/rectangle.md
                 - name: Venue JSON class
