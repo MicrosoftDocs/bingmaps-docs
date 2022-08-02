@@ -1,5 +1,6 @@
 ---
 title: Venue label JSON class | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: Venue label JSON class encapsulates the position and contents of a text label to try to apply to an entity.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue label JSON class
 
 Encapsulates the position and contents of a text label to try to apply to an entity.
@@ -22,10 +24,10 @@ This class is part of the [venue] JSON class structure.
 
 ## Properties
 
-| Property | Type           | Req? | Description |
-|----------|----------------|------|-------------|
-| text     | string         |  ✔   | Text to display in the label. |
-| rects    | [rectangle] [] |      | Rectangles to try to place the text of the label in. |
+| Property | Type         | Req? | Description                                          |
+|----------|--------------|------|------------------------------------------------------|
+| text     | string       |  ✔   | Text to display in the label.                        |
+| rects    | [rectangle]  |      | Rectangles to try to place the text of the label in. |
 
 ### Rectangles
 

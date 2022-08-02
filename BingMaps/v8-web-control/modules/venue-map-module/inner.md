@@ -1,5 +1,6 @@
 ---
 title: Venue inner JSON class | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: Venue inner JSON class encapsulates a hole within a polygon geometry. This class is part of the venue JSON class structure.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue inner JSON class
 
 Encapsulates a hole within a polygon [geometry].

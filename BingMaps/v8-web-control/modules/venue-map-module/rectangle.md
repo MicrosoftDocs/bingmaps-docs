@@ -1,5 +1,6 @@
 ---
 title: Venue rectangle JSON class | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: Venue rectangle JSON class encapsulates an oriented rectangle. This class is part of the venue JSON class structure.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue rectangle JSON class
 
 Encapsulates an oriented rectangle.

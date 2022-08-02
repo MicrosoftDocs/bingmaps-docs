@@ -1,5 +1,6 @@
 ---
 title: Venue entity JSON class | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: Venue entity JSON class encapsulates an individual entity on the floor of a venue. Includes Properties and Example.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue entity JSON class
 
 Encapsulates an individual entity on the [floor] of a [venue].
@@ -32,7 +34,7 @@ Encapsulates an individual entity on the [floor] of a [venue].
 | type              | [styleEntry]    |  ✔   | The key that identifies how to display the entity. |
 
 > [!WARNING]
-> Even though entity.geometry technically supports multiple entries, currently only the first one is read.
+> Even though `entity.geometry` technically supports multiple entries, currently only the first one is read.
 
 ## Example
 
@@ -51,5 +53,5 @@ Encapsulates an individual entity on the [floor] of a [venue].
 [floor]: floor.md
 [geometry]: geometry.md
 [label]: label.md
-[styleEntry]: ..\styling\map-style-sheet-entries.md
+[styleEntry]: ../../../styling/map-style-sheet-entries.md
 [venue]: venue.md

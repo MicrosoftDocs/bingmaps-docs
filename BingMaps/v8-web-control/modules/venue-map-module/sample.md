@@ -1,5 +1,6 @@
 ---
 title: Venue JSON sample | Microsoft Docs
+titleSuffix: Microsoft Bing Maps
 description: The Venue JSON sample includes such sample data as schema, id, name, type, xy, address, defaultFloor, bbox, and floors.
 ms.custom: 
 ms.date: 05/26/2020
@@ -14,6 +15,7 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue JSON sample
 
 ```json

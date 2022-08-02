@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Find Nearby Example
 
-One of the most common types of searches done with a map is a nearby search, also known as a radial search. In the example an event handler is added to the maps **viewchangeend** event. When the map is panned or zoomed this event will trigger a query to the [NAVTEQ Point of Interest data source](../../../../spatial-data-services/public-data-sources/navteqna.md) in Bing Spatial Data Services and will retrieve up to 25 gas stations that are within 25 kilometers of the center of the map. A filter will be used to limit the results to those that have an **EntityTypeID** value of **5540**, which is the ID used for Gas Stations in this data source.
+One of the most common types of searches done with a map is a nearby search, also known as a radial search. In the example an event handler is added to the maps **viewchangeend** event. When the map is panned or zoomed this event will trigger a query to the [PointsOfInterest data source](../../../../spatial-data-services/public-data-sources/pointsofinterest.md) in Bing Spatial Data Services and will retrieve up to 25 gas stations that are within 25 kilometers of the center of the map. A filter will be used to limit the results to those that have an **EntityTypeID** value of **5540**, which is the ID used for Gas Stations in this data source.
 
 ```html
 <!DOCTYPE html>
@@ -25,11 +25,11 @@ One of the most common types of searches done with a map is a nearby search, als
 <head>
     <title></title>
     <meta charset="utf-8" />
-	<script type='text/javascript'>
+    <script type='text/javascript'>
     var map;
 
-    //Query URL to the NAVTEQ POI data source
-    var sdsDataSourceUrl = 'https://spatial.virtualearth.net/REST/v1/data/f22876ec257b474b82fe2ffcb8393150/NavteqNA/NavteqPOIs';
+    //Query URL to the PointsOfInterest data source
+    var sdsDataSourceUrl = 'http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest';
 
     function GetMap() {
         map = new Microsoft.Maps.Map('#map', {});
@@ -78,5 +78,3 @@ One of the most common types of searches done with a map is a nearby search, als
 Running this code will load a map that displays the locations of gas stations. As you pan and zoom the map new data will be pulled in. Here is a screenshot of gas stations in Bellevue, WA.
 
 ![Search Results on a Map](../../../media/bmv8-basicfindnearbyexample.png)
-
-[Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk?sdsNearbySearch+JS#sdsNearbySearch+JS)
