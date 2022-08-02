@@ -1,170 +1,752 @@
-- name: REST Services
-  maintainContext: true
+- name: Bing Maps V8 Web Control
   href: index.md
-  msdn: "test"
+  maintainContext: true
   items:
-  - name: Getting Started
-    href: getting-started-with-the-bing-maps-rest-services.md
-  - name: Getting Traffic Incident Data
-    href: getting-traffic-incident-data.md
-  - name: Using the REST Services with .NET
-    href: using-the-rest-services-with-net.md
-  - name: Locations
-    href: locations/index.md
-    maintainContext: true
-    items:
-      - name: Find Location by Address
-        href: locations/find-a-location-by-address.md
-      - name: Find a Location by Point
-        href: locations/find-a-location-by-point.md
-      - name: Find a Location by Query
-        href: locations/find-a-location-by-query.md
-      - name: Location Recognition
-        href: locations/location-recognition.md
-      - name: Local Search
-        href: locations/local-search.md
-      - name: Location Data
-        href: locations/location-data.md
-  - name: Elevations
-    href: elevations/index.md
-    maintainContext: true
-    items:
-      - name: Get Elevations
-        href: elevations/get-elevations.md
-      - name: Elevation Data
-        href: elevations/elevation-data.md
-      - name: Point Compression Algorithm
-        href: elevations/point-compression-algorithm.md
-  - name: Imagery
-    href: imagery/index.md
-    maintainContext: true
-    items:
-      - name: Get a Static Map
-        href: imagery/get-a-static-map.md
-      - name: Get Imagery Metadata
-        href: imagery/get-imagery-metadata.md
-      - name: Imagery Metadata
-        href: imagery/imagery-metadata.md
-      - name: Static Map Data
-        href: imagery/static-map-data.md
-  - name: Routes
-    href: routes/index.md
-    maintainContext: true
-    items:
-      - name: Calculate a Route
-        href: routes/calculate-a-route.md
-      - name: Calculate a Truck Route
-        href: routes/calculate-a-truck-route.md
-      - name: Calculate Routes from Major Roads
-        href: routes/calculate-routes-from-major-roads.md
-      - name: Route Data
-        href: routes/route-data.md
-      - name: Manuever Types
-        href: routes/maneuver-types.md
-      - name: Warning Types
-        href: routes/warning-types.md
-      - name: Calculate Optimized Itinerary Routes
-        href: routes/optimized-itinerary.md
-      - name: Calculate a Distance Matrix
-        href: routes/calculate-a-distance-matrix.md
-      - name: Calculate a Isochrone
-        href: routes/calculate-an-isochrone.md
-      - name: Snap Points to Roads
-        href: routes/snap-points-to-roads.md
-      - name: Local Insights
-        href: routes/local-insights.md
-      - name: Local Insights Data
-        href: routes/local-insights-data.md
-  - name: Traffic
-    maintainContext: true
-    href: traffic/index.md
-    items:
-    - name: Get Traffic Incidents
-      href: traffic/get-traffic-incidents.md
-    - name: Traffic Incident Data
-      href: traffic/traffic-incident-data.md
-  - name: Autosuggest
-    href: autosuggest.md
-  - name: Time Zone
-    maintainContext: true
-    href: timezone/index.md
-    items:
-      - name: Find Time Zone
-        href: timezone/find-time-zone.md
-      - name: Convert to Local Time
-        href: timezone/convert-local-time-zone.md
-      - name: List Time Zone
-        href: timezone/list-time-zones.md
-      - name: Time Zone Data
-        href: timezone/time-zone-data.md
-  - name: Common Parameters and Types
-    href: common-parameters-and-types/index.md
-    maintainContext: true
-    items:
-      - name: Type Identifiers
-        href: common-parameters-and-types/type-identifiers/index.md
-        maintainContext: true
-        items:
-          - name: Eat Drink Identifiers
-            href: common-parameters-and-types/type-identifiers/eat-drink-types.md
-          - name: See Do Identifiers
-            href: common-parameters-and-types/type-identifiers/see-do-types.md
-          - name: Shop Identifiers
-            href: common-parameters-and-types/type-identifiers/shop-types.md
-      - name: Base URL Structure
-        href: common-parameters-and-types/base-url-structure.md
-      - name: Culture Parameter
-        href: common-parameters-and-types/culture-parameter.md
-      - name: Output Parameters
-        href: common-parameters-and-types/output-parameters.md
-      - name: User Context Parameters
-        href: common-parameters-and-types/user-context-parameters.md
-      - name: Asynchronous Requests
-        href: common-parameters-and-types/asynchronous-requests.md
-      - name: Location and Area Types
-        href: common-parameters-and-types/location-and-area-types.md
-      - name: Pushpin Syntax and Icon Styles
-        href: common-parameters-and-types/pushpin-syntax-and-icon-styles.md
-      - name: Supported Culture Codes
-        href: common-parameters-and-types/supported-culture-codes.md
-      - name: Location Recognition Entity Types
-        href: common-parameters-and-types/location-and-recognition-entity-types.md
-  - name: Common Response Description
-    href: common-response-description.md
-  - name: JSON Data Contracts
-    href: json-data-contracts.md
-  - name: Status Codes and Error Handling
-    href: status-codes-and-error-handling.md
-  - name: Directly Accessing Bing Maps Tiles
-    href: directly-accessing-the-bing-maps-tiles.md
-  - name: Developer Resources
-    href: developer-resources.md
-  - name: Examples
-    maintainContext: true
-    items:
-      - name: Distance Matrix Async Example
-        href: examples/distance-matrix-asynchronous-example.md
-      - name: Distance Matrix Example
-        href: examples/distance-matrix-example.md
-      - name: Distance Matrix Histogram Example
-        href: examples/distance-matrix-histogram-example.md
-      - name: Driving Route Example
-        href: examples/driving-route-example.md
-      - name: Driving Route Using Tolerances Example
-        href: examples/driving-route-using-tolerances-example.md
-      - name: Driving Route with Route Path Example
-        href: examples/driving-route-with-route-path-example.md
-      - name: Isochrone Async Example
-        href: examples/isochrone-asynchronous-example.md
-      - name: Isochrone Example
-        href: examples/isochrone-example.md
-      - name: Snap to Road Example
-        href: examples/snap-to-road-example.md
-      - name: Transit Route Example
-        href: examples/transit-route-example.md
-      - name: Truck Route Async Example
-        href: examples/truck-route-asynchronous-example.md
-      - name: Truck Route Example
-        href: examples/truck-route-example.md
-      - name: Walking Route Example
-        href: examples/walking-route-example.md
+    - name: "Getting Started: Creating and Hosting a Map Control"
+      href: creating-and-hosting-map-controls/index.md
+      maintainContext: true
+      items:
+        - name: Creating a Basic Map Control
+          href: creating-and-hosting-map-controls/creating-a-basic-map-control.md
+        - name: Setting Map Control Parameters
+          href: creating-and-hosting-map-controls/setting-map-control-parameters.md
+        - name: Map Control Branches
+          href: creating-and-hosting-map-controls/map-control-branches.md
+        - name: Customize Map Options on Load Example
+          href: creating-and-hosting-map-controls/customize-map-options-on-load-example.md
+    - name: Map Control Concepts
+      href: map-control-concepts/index.md
+      maintainContext: true
+      items:
+        - name: Map
+          href: map-control-concepts/map/index.md
+          maintainContext: true
+          items:
+            - name: Customize Map Options on Load
+              href: map-control-concepts/map/customize-map-options-on-load.md
+            - name: Change the Map View
+              href: map-control-concepts/map/change-the-map-view.md
+            - name: Check Bird’s eye Coverage Availability
+              href: map-control-concepts/map/check-birds-eye-coverage-availability.md
+            - name: Map Events
+              href: map-control-concepts/map/map-events.md
+        - name: Pushpins
+          href: map-control-concepts/pushpins/index.md
+          maintainContext: true
+          items:
+            - name: Default Pushpin with Text Example
+              href: map-control-concepts/pushpins/default-pushpin-with-text-example.md
+            - name: Changing the color of the default Pushpin
+              href: map-control-concepts/pushpins/changing-the-color-of-the-default-pushpin.md
+            - name: Custom Image Pushpin Example
+              href: map-control-concepts/pushpins/custom-image-pushpin-example.md
+            - name: Custom SVG File Pushpin Example
+              href: map-control-concepts/pushpins/custom-svg-file-pushpin-example.md
+            - name: Custom Inline SVG Pushpin Example
+              href: map-control-concepts/pushpins/custom-inline-svg-pushpin-example.md
+            - name: Dynamically create SVG Pushpin Example
+              href: map-control-concepts/pushpins/dynamically-create-svg-pushpin-example.md
+            - name: Custom Base64 Image Pushpin Example
+              href: map-control-concepts/pushpins/custom-base64-image-pushpin-example.md
+            - name: Custom Canvas Pushpin Example
+              href: map-control-concepts/pushpins/custom-canvas-pushpin-example.md
+            - name: Font based Pushpins
+              href: map-control-concepts/pushpins/font-based-pushpins.md
+            - name: Image and Canvas Pushpin Example
+              href: map-control-concepts/pushpins/image-and-canvas-pushpin-example.md
+            - name: Pushpin Events Example
+              href: map-control-concepts/pushpins/pushpin-events-example.md
+            - name: Pushpin Hover Style
+              href: map-control-concepts/pushpins/pushpin-hover-style.md
+            - name: Anchoring Pushpins
+              href: map-control-concepts/pushpins/anchoring-pushpins.md
+        - name: "Map Shapes: Polylines and Polygons"
+          href: map-control-concepts/map-shapes-polylines-and-polygons/index.md
+          maintainContext: true 
+          items:
+            - name: Basic Polyline Example
+              href: map-control-concepts/map-shapes-polylines-and-polygons/basic-polyline-example.md
+            - name: Polyline Events
+              href: map-control-concepts/map-shapes-polylines-and-polygons/polyline-events.md
+            - name: Basic Polygon Example
+              href: map-control-concepts/map-shapes-polylines-and-polygons/basic-polygon-example.md
+            - name: Polygons with Holes Example
+              href: map-control-concepts/map-shapes-polylines-and-polygons/polygons-with-holes-example.md
+            - name: Polygon Events
+              href: map-control-concepts/map-shapes-polylines-and-polygons/polygon-events.md
+        - name: Infoboxes
+          href: map-control-concepts/infoboxes/index.md
+          maintainContext: true
+          items:
+            - name: Basic Infobox Example
+              href: map-control-concepts/infoboxes/basic-infobox-example.md
+            - name: Infobox with Options
+              href: map-control-concepts/infoboxes/infobox-with-options.md
+            - name: Custom HTML Infobox
+              href: map-control-concepts/infoboxes/custom-html-infobox.md
+            - name: Infobox when Pushpin Clicked
+              href: map-control-concepts/infoboxes/infobox-when-pushpin-clicked.md
+            - name: Multiple Pushpins and Infoboxes
+              href: map-control-concepts/infoboxes/multiple-pushpins-and-infoboxes.md
+            - name: Infobox when Shape Clicked
+              href: map-control-concepts/infoboxes/infobox-when-shape-clicked.md
+            - name: Expanding Tooltip Infobox
+              href: map-control-concepts/infoboxes/expanding-tooltip-infobox.md
+        - name: Layers
+          href:  map-control-concepts/layers/index.md
+          maintainContext: true
+          items:
+            - name: Data Layer Events
+              href: map-control-concepts/layers/data-layer-events.md
+            - name: Basic Tile Layer Example
+              href: map-control-concepts/layers/basic-tile-layer-example.md
+            - name: "X, Y, Zoom TileLayer"
+              href: map-control-concepts/layers/x-y-zoom-tilelayer.md
+            - name: WMS Tile Layer Example
+              href: map-control-concepts/layers/wms-tile-layer-example.md
+            - name: Base Map Tile Layer Example
+              href: map-control-concepts/layers/base-map-tile-layer-example.md
+            - name: Animated Weather Radar Map
+              href: map-control-concepts/layers/animated-weather-radar-map.md
+            - name: AnimatedTileLayer Events
+              href: map-control-concepts/layers/animatedtilelayer-events.md
+            - name: Controlling an AnimatedTileLayer
+              href: map-control-concepts/layers/controlling-an-animatedtilelayer.md
+        - name: Colors
+          href: map-control-concepts/colors.md
+        - name: Configuration Driven Maps framework
+          href: map-control-concepts/configuration-driven-maps-framework/index.md
+          maintainContext: true 
+          items:
+            - name: IFrameable Configuration Map Example
+              href: map-control-concepts/configuration-driven-maps-framework/iframeable-configuration-map-example.md
+            - name: Load a Configurable Map with Code Example
+              href: map-control-concepts/configuration-driven-maps-framework/load-a-configurable-map-with-code-example.md
+        - name: Custom Overlays
+          href: map-control-concepts/custom-overlays/index.md
+          maintainContext: true 
+          items:
+            - name: Simple Static Overlay
+              href: map-control-concepts/custom-overlays/simple-static-overlay.md
+            - name: Topography Overlay
+              href: map-control-concepts/custom-overlays/topography-overlay.md
+            - name: HTML Pushpin Overlay
+              href: map-control-concepts/custom-overlays/html-pushpin-overlay.md
+            - name: Dynamic Canvas Overlay
+              href: map-control-concepts/custom-overlays/dynamic-canvas-overlay.md
+        - name: Event Examples
+          href: map-control-concepts/event-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Right Click Events for Shapes
+              href: map-control-concepts/event-examples/right-click-events-for-shapes.md
+        - name: Modular Framework
+          href: map-control-concepts/modular-framework/index.md
+          maintainContext: true 
+          items:
+            - name: Module Loading Methods
+              href: map-control-concepts/modular-framework/module-loading-methods.md
+            - name: Implementing Modules
+              href: map-control-concepts/modular-framework/implementing-modules.md
+            - name: Creating Custom Modules
+              href: map-control-concepts/modular-framework/creating-custom-modules.md
+        - name: Autosuggest Module Examples
+          href: map-control-concepts/autosuggest-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Default Autosuggest User Interface Example
+              href: map-control-concepts/autosuggest-module-examples/default-autosuggest-user-interface-example.md
+            - name: Filling in an Address Form Example
+              href: map-control-concepts/autosuggest-module-examples/filling-in-an-address-form-example.md
+        - name: Clustering Module Examples
+          href: map-control-concepts/clustering-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Basic Clustering Example
+              href: map-control-concepts/clustering-module-examples/basic-clustering-example.md
+            - name: Customizing Clustered Pushpins
+              href: map-control-concepts/clustering-module-examples/customizing-clustered-pushpins.md
+            - name: Clusters with a List and Linking
+              href: map-control-concepts/clustering-module-examples/clusters-with-a-list-and-linking.md
+            - name: Zoom into Clusters
+              href: map-control-concepts/clustering-module-examples/zoom-into-clusters.md
+        - name: Contour Module Examples
+          href: map-control-concepts/contour-module-examples/index.md
+          maintainContext: true 
+          items:
+            - name: Basic Contour Layer
+              href: map-control-concepts/contour-module-examples/basic-contour-layer.md
+            - name: Contours from GeoJSON data
+              href: map-control-concepts/contour-module-examples/contours-from-geojson-data.md
+        - name: Data Binning Module Examples
+          href: map-control-concepts/data-binning-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Data Binning Layer Events
+              href: map-control-concepts/data-binning-module-examples/data-binning-layer-events.md
+            - name: Bivariant Data Binning
+              href: map-control-concepts/data-binning-module-examples/bivariant-data-binning.md
+            - name: Color Scale Gradient Data Bins
+              href: map-control-concepts/data-binning-module-examples/color-scale-gradient-data-bins.md
+        - name: Directions Module Examples
+          href: map-control-concepts/directions-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Directions Input Panel
+              href: map-control-concepts/directions-module-examples/directions-input-panel.md
+            - name: Calculate Driving Directions
+              href: map-control-concepts/directions-module-examples/calculate-driving-directions.md
+            - name: Calculate Transit Directions
+              href: map-control-concepts/directions-module-examples/calculate-transit-directions.md
+            - name: Directions Module Events
+              href: map-control-concepts/directions-module-examples/directions-module-events.md
+            - name: Directions with Options
+              href: map-control-concepts/directions-module-examples/directions-with-options.md
+        - name: Drawing Tools Module Examples
+          href: map-control-concepts/drawing-tools-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Display Drawing Toolbar on Map
+              href: map-control-concepts/drawing-tools-module-examples/display-drawing-toolbar-on-map.md
+            - name: DrawingManager Events
+              href: map-control-concepts/drawing-tools-module-examples/drawingmanager-events.md
+            - name: Edit an Existing Shape
+              href: map-control-concepts/drawing-tools-module-examples/edit-an-existing-shape.md
+            - name: Get Shapes from DrawingManager
+              href: map-control-concepts/drawing-tools-module-examples/get-shapes-from-drawingmanager.md
+        - name: GeoJSON Module Examples
+          href: map-control-concepts/geojson-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Read Local GeoJSON Object Example
+              href: map-control-concepts/geojson-module-examples/read-local-geojson-object-example.md
+            - name: Read GeoJSON using HTML5 FileReader
+              href: map-control-concepts/geojson-module-examples/read-geojson-using-html5-filereader.md
+            - name: Read Same Domain GeoJSON Example
+              href: map-control-concepts/geojson-module-examples/read-same-domain-geojson-example.md
+            - name: Read GeoJSON from the Web using JSONP Example
+              href: map-control-concepts/geojson-module-examples/read-geojson-from-the-web-using-jsonp-example.md
+            - name: Write Bing Maps Shape as GeoJSON Example
+              href: map-control-concepts/geojson-module-examples/write-bing-maps-shape-as-geojson-example.md
+        - name: GeoXml Module Examples
+          href: map-control-concepts/geoxml-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Read Geospatial XML String
+              href: map-control-concepts/geoxml-module-examples/read-geospatial-xml-string.md
+            - name: Read Geospatial XML from URL
+              href: map-control-concepts/geoxml-module-examples/read-geospatial-xml-from-url.md
+            - name: Read GeoXmlLayer with XML String
+              href: map-control-concepts/geoxml-module-examples/read-geoxmllayer-with-xml-string.md
+            - name: Read Geospatial XML Files from Same Domain
+              href: map-control-concepts/geoxml-module-examples/read-geospatial-xml-files-from-same-domain.md
+            - name: Reading Geospatial XML Files Cross Domain
+              href: map-control-concepts/geoxml-module-examples/reading-geospatial-xml-files-cross-domain.md
+            - name: Writing Geospatial XML data
+              href: map-control-concepts/geoxml-module-examples/writing-geospatial-xml-data.md
+        - name: Heat Map Module Examples
+          href: map-control-concepts/heat-map-module-examples/index.md
+          maintainContext: true 
+          items: 
+          - name: Heat Map Color Gradients
+            href: map-control-concepts/heat-map-module-examples/heat-map-color-gradients.md
+          - name: Basic Heat Map Example
+            href: map-control-concepts/heat-map-module-examples/basic-heat-map-example.md
+          - name: Customized Heat Map Example
+            href: map-control-concepts/heat-map-module-examples/customized-heat-map-example.md
+          - name: Render GeoJSON as Heat Map
+            href: map-control-concepts/heat-map-module-examples/render-geojson-as-heat-map.md
+        - name: Search Module Examples
+          href: map-control-concepts/search-module-examples/index.md
+          maintainContext: true 
+          items:
+            - name: Basic Geocode Example
+              href: map-control-concepts/search-module-examples/basic-geocode-example.md
+            - name: User Input Geocode Example
+              href: map-control-concepts/search-module-examples/user-input-geocode-example.md
+            - name: Basic Reverse Geocode Example
+              href: map-control-concepts/search-module-examples/basic-reverse-geocode-example.md
+        - name: Spatial Data Services Module Examples
+          href: map-control-concepts/spatial-data-services-module-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: GeoData API
+              href: map-control-concepts/spatial-data-services-module-examples/geodata-api/index.md
+              maintainContext: true 
+              items:
+                - name: Load Single Boundary GeoData Example
+                  href: map-control-concepts/spatial-data-services-module-examples/geodata-api/load-single-boundary-geodata-example.md
+                - name: Search Boundary Example
+                  href: map-control-concepts/spatial-data-services-module-examples/geodata-api/search-boundary-example.md
+                - name: Load Multiple Boundaries GeoData Example
+                  href: map-control-concepts/spatial-data-services-module-examples/geodata-api/load-multiple-boundaries-geodata-example.md
+            - name: Query API
+              href: map-control-concepts/spatial-data-services-module-examples/query-api/index.md
+              maintainContext: true 
+              items:
+                - name: Find By Property Example
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/find-by-property-example.md
+                - name: Find Nearby Example
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/find-nearby-example.md
+                - name: Along a Route Search
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/along-a-route-search.md
+                - name: Basic Intersection Search Example
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/basic-intersection-search-example.md
+                - name: Choropleth Map Example
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/choropleth-map-example.md
+                - name: Paged Search Results Example
+                  href: map-control-concepts/spatial-data-services-module-examples/query-api/paged-search-results-example.md
+            - name: Filter Example
+              href: map-control-concepts/spatial-data-services-module-examples/filter-example.md
+        - name: Spatial Math Module Examples
+          href: map-control-concepts/spatial-math-module-examples/index.md
+          maintainContext: true 
+          items:
+            - name: Basic Core Spatial Math Example
+              href: map-control-concepts/spatial-math-module-examples/basic-core-spatial-math-example.md
+            - name: Geolocation Accuracy Circle Example
+              href: map-control-concepts/spatial-math-module-examples/geolocation-accuracy-circle-example.md
+            - name: Geometry Binary Operations
+              href: map-control-concepts/spatial-math-module-examples/geometry-binary-operations.md
+            - name: Calculate Tile Bounds
+              href: map-control-concepts/spatial-math-module-examples/calculate-tile-bounds.md
+        - name: Traffic Module Examples
+          href: map-control-concepts/traffic-module-examples.md
+        - name: Well Known Text Examples
+          href: map-control-concepts/well-known-text-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Well Known Text Read Example
+              href: map-control-concepts/well-known-text-examples/well-known-text-read-example.md
+            - name: Well Known Text Write Example
+              href: map-control-concepts/well-known-text-examples/well-known-text-write-example.md
+        - name: Point Compression Example
+          href: map-control-concepts/point-compression-example.md
+        - name: Test Data Generator Example
+          href: map-control-concepts/test-data-generator-example.md
+        - name: User Location
+          href: map-control-concepts/user-location/index.md
+          maintainContext: true 
+          items: 
+            - name: Displaying a User Location Example
+              href: map-control-concepts/user-location/displaying-a-user-location-example.md
+            - name: Continuously Tracking a User Location Example
+              href: map-control-concepts/user-location/continuously-tracking-a-user-location-example.md
+        - name: REST Services Examples
+          href: map-control-concepts/rest-services-examples/index.md
+          maintainContext: true 
+          items: 
+            - name: Elevation Profiles
+              href: map-control-concepts/rest-services-examples/elevation-profiles.md
+    - name: Map Control API Reference
+      href: map-control-api/index.md
+      maintainContext: true 
+      items: 
+        - name: AnimatedTileLayer Class
+          href: map-control-api/animatedtilelayer-class.md
+        - name: AnimatedTileLayerOptions Object
+          href: map-control-api/animatedtilelayeroptions-object.md
+        - name: AnimatedFrameEventArgs Object
+          href: map-control-api/animatedframeeventargs-object.md
+        - name: Color Class
+          href: map-control-api/color-class.md
+        - name: ConfigurableMap Class
+          href: map-control-api/configurablemap-class.md
+        - name: ConfigurableMapModule Object
+          href: map-control-api/configurablemapmodule-object.md
+        - name: ConfigurableMapOptions Object
+          href: map-control-api/configurablemapoptions-object.md
+        - name: CustomOverlay Class
+          href: map-control-api/customoverlay-class.md
+        - name: CustomOverlayOptions Object
+          href: map-control-api/customoverlayoptions-object.md
+        - name: EntityCollection Class
+          href: map-control-api/entitycollection-class.md
+        - name: EntityCollectionChangedEventArgs Object
+          href: map-control-api/entitycollectionchangedeventargs-object.md
+        - name: Events Class
+          href: map-control-api/events-class.md
+        - name: GroundOverlay Class
+          href: map-control-api/groundoverlay-class.md
+        - name: GroundOverlayOptions Object
+          href: map-control-api/groundoverlayoptions-object.md
+        - name: Heading Enumeration
+          href: map-control-api/heading-enumeration.md
+        - name: Infobox Class
+          href: map-control-api/infobox-class.md
+        - name: InfoboxActions Object
+          href: map-control-api/infoboxactions-object.md
+        - name: InfoboxEventArgs Object
+          href: map-control-api/infoboxeventargs-object.md
+        - name: InfoboxOptions Object
+          href: map-control-api/infoboxoptions-object.md
+        - name: IPrimitive Class
+          href: map-control-api/iprimitive-class.md
+        - name: IPrimitiveChangedEventArgs Object
+          href: map-control-api/iprimitivechangedeventargs-object.md
+        - name: LabelOverlay Enumeration
+          href: map-control-api/labeloverlay-enumeration.md
+        - name: Layer Class
+          href: map-control-api/layer-class.md
+        - name: LayerCollection Class
+          href: map-control-api/layercollection-class.md
+        - name: Location Class
+          href: map-control-api/location-class.md
+        - name: LocationRect Class
+          href: map-control-api/locationrect-class.md
+        - name: Map Class
+          href: map-control-api/map-class.md
+        - name: MapOptions Object
+          href: map-control-api/mapoptions-object.md
+        - name: MapTypeEventArgs Object
+          href: map-control-api/maptypeeventargs-object.md
+        - name: MapTypeId Enumeration
+          href: map-control-api/maptypeid-enumeration.md
+        - name: ModuleOptions Object
+          href: map-control-api/moduleoptions-object.md
+        - name: MouseEventArgs Object
+          href: map-control-api/mouseeventargs-object.md
+        - name: NavigationBarMode Enumeration
+          href: map-control-api/navigationbarmode-enumeration.md
+        - name: NavigationBarOrientation Enumeration
+          href: map-control-api/navigationbarorientation-enumeration.md
+        - name: OverviewMapMode Enumeration
+          href: map-control-api/overviewmapmode-enumeration.md
+        - name: PanoramaInfo Object
+          href: map-control-api/panoramainfo-object.md
+        - name: PixelReference Enumeration
+          href: map-control-api/pixelreference-enumeration.md
+        - name: Point Class
+          href: map-control-api/point-class.md
+        - name: PointCompression Class
+          href: map-control-api/pointcompression-class.md
+        - name: Polygon Class
+          href: map-control-api/polygon-class.md
+        - name: PolygonOptions Object
+          href: map-control-api/polygonoptions-object.md
+        - name: Polyline Class
+          href: map-control-api/polyline-class.md
+        - name: PolylineOptions Object
+          href: map-control-api/polylineoptions-object.md
+        - name: PostModuleAction Object
+          href: map-control-api/postmoduleaction-object.md
+        - name: Pushpin Class
+          href: map-control-api/pushpin-class.md
+        - name: PushpinOptions Object
+          href: map-control-api/pushpinoptions-object.md
+        - name: PyramidTileId Class
+          href: map-control-api/pyramidtileid-class.md
+        - name: Range Object
+          href: map-control-api/range-object.md
+        - name: StreetsideOptions Object
+          href: map-control-api/streetsideoptions-object.md
+        - name: StylesOptions Object
+          href: map-control-api/stylesoptions-object.md
+        - name: TestDataGenerator Class
+          href: map-control-api/testdatagenerator-class.md
+        - name: TileLayer Class
+          href: map-control-api/tilelayer-class.md
+        - name: TileLayerOptions Object
+          href: map-control-api/tilelayeroptions-object.md
+        - name: TileSource Class
+          href: map-control-api/tilesource-class.md
+        - name: TileSourceOptions Object
+          href: map-control-api/tilesourceoptions-object.md
+        - name: ViewOptions Object
+          href: map-control-api/viewoptions-object.md
+    - name: Modules
+      href: modules/index.md
+      maintainContext: true 
+      items:
+        - name: Autosuggest Module
+          href: modules/autosuggest-module/index.md
+          maintainContext: true 
+          items: 
+            - name: AutosuggestManager Class
+              href: modules/autosuggest-module/autosuggestmanager-class.md
+            - name: AutosuggestOptions Object
+              href: modules/autosuggest-module/autosuggestoptions-object.md
+            - name: SuggestionResult Object
+              href: modules/autosuggest-module/suggestionresult-object.md
+            - name: Address Object
+              href: modules/autosuggest-module/address-object.md
+        - name: Clustering Module
+          href: modules/clustering-module/index.md
+          maintainContext: true
+          items:
+            - name: ClusterLayer Class
+              href: modules/clustering-module/clusterlayer-class.md
+            - name: ClusterLayerOptions Object
+              href: modules/clustering-module/clusterlayeroptions-object.md
+            - name: ClusterPlacementType Enumeration
+              href: modules/clustering-module/clusterplacementtype-enumeration.md
+            - name: ClusterPushpin Class
+              href: modules/clustering-module/clusterpushpin-class.md
+        - name: Contour Module
+          href: modules/contour-module/index.md
+          maintainContext: true 
+          items: 
+            - name: ContourLayer Class
+              href: modules/contour-module/contourlayer-class.md
+            - name: ContourLayerOptions Object
+              href: modules/contour-module/contourlayeroptions-object.md
+            - name: ContourLine Class
+              href: modules/contour-module/contourline-class.md
+        - name: Data Binning Module
+          href: modules/data-binning-module/index.md
+          maintainContext: true 
+          items: 
+            - name: DataBinningLayer Class
+              href: modules/data-binning-module/databinninglayer-class.md
+            - name: DataBinningOptions Object
+              href: modules/data-binning-module/databinningoptions-object.md
+            - name: DataBinInfo Object
+              href: modules/data-binning-module/databininfo-object.md
+            - name: DataBinMetrics Object
+              href: modules/data-binning-module/databinmetrics-object.md
+            - name: DataBinPolygon Class
+              href: modules/data-binning-module/databinpolygon-class.md
+            - name: DataBinType Enumeration
+              href: modules/data-binning-module/databintype-enumeration.md
+        - name: Directions Module
+          href: modules/directions-module/index.md
+          maintainContext: true 
+          items: 
+            - name: DirectionsErrorEventArgs Object
+              href: modules/directions-module/directionserroreventargs-object.md
+            - name: DirectionsEventArgs Object
+              href: modules/directions-module/directionseventargs-object.md
+            - name: DirectionsManager Class
+              href: modules/directions-module/directionsmanager-class.md
+            - name: DirectionsRenderOptions Object
+              href: modules/directions-module/directionsrenderoptions-object.md
+            - name: DirectionsRequestOptions Object
+              href: modules/directions-module/directionsrequestoptions-object.md
+            - name: DirectionsStep Object
+              href: modules/directions-module/directionsstep-object.md
+            - name: DirectionsStepWarning
+              href: modules/directions-module/directionsstepwarning.md
+            - name: DistanceUnit Enumeration
+              href: modules/directions-module/distanceunit-enumeration.md
+            - name: Route Object
+              href: modules/directions-module/route-object.md
+            - name: RouteAvoidance Enumeration
+              href: modules/directions-module/routeavoidance-enumeration.md
+            - name: RouteLeg Object
+              href: modules/directions-module/routeleg-object.md
+            - name: RouteMode Enumeration
+              href: modules/directions-module/routemode-enumeration.md
+            - name: RouteOptimization Enumeration
+              href: modules/directions-module/routeoptimization-enumeration.md
+            - name: RouteResponseCode Enumeration
+              href: modules/directions-module/routeresponsecode-enumeration.md
+            - name: RouteSubLeg Object
+              href: modules/directions-module/routesubleg-object.md
+            - name: RouteSummary Object
+              href: modules/directions-module/routesummary-object.md
+            - name: TimeTypes Enumeration
+              href: modules/directions-module/timetypes-enumeration.md
+            - name: TransitLine Object
+              href: modules/directions-module/transitline-object.md
+            - name: VehicleSpec Object
+              href: modules/directions-module/vehiclespec-object.md
+            - name: Waypoint Class
+              href: modules/directions-module/waypoint-class.md
+            - name: WaypointOptions Object
+              href: modules/directions-module/waypointoptions-object.md
+        - name: Drawing Tools Module
+          href: modules/drawing-tools-module/index.md
+          maintainContext: true 
+          items:
+            - name: DrawingBarAction Enumeration
+              href: modules/drawing-tools-module/drawingbaraction-enumeration.md
+            - name: DrawingManager Class
+              href: modules/drawing-tools-module/drawingmanager-class.md
+            - name: DrawingManagerOptions Object
+              href: modules/drawing-tools-module/drawingmanageroptions-object.md
+            - name: DrawingMode Enumeration
+              href: modules/drawing-tools-module/drawingmode-enumeration.md
+            - name: DrawingModeChangedData Object
+              href: modules/drawing-tools-module/drawingmodechangeddata-object.md
+            - name: DrawingTools Class
+              href: modules/drawing-tools-module/drawingtools-class.md
+            - name: ShapeType Enumeration
+              href: modules/drawing-tools-module/shapetype-enumeration.md
+        - name: GeoJSON Module
+          href: modules/geojson-module/index.md
+          maintainContext: true 
+          items: 
+            - name: GeoJsonReadOptions Object
+              href: modules/geojson-module/geojsonreadoptions-object.md
+        - name: GeoXml Module
+          href: modules/geoxml-module/index.md
+          maintainContext: true 
+          items: 
+            - name: GeoXml Class
+              href: modules/geoxml-module/geoxml-class.md
+            - name: GeoXmlCompressedFormat Enumeration
+              href: modules/geoxml-module/geoxmlcompressedformat-enumeration.md
+            - name: GeoXmlDataSet Object
+              href: modules/geoxml-module/geoxmldataset-object.md
+            - name: GeoXmlFormat Enumeration
+              href: modules/geoxml-module/geoxmlformat-enumeration.md
+            - name: GeoXmlLayer Class
+              href: modules/geoxml-module/geoxmllayer-class.md
+            - name: GeoXmlLayerOptions Object
+              href: modules/geoxml-module/geoxmllayeroptions-object.md
+            - name: GeoXmlReadOptions Object
+              href: modules/geoxml-module/geoxmlreadoptions-object.md
+            - name: GeoXmlStats Object
+              href: modules/geoxml-module/geoxmlstats-object.md
+            - name: GeoXmlSummaryMetadata Object
+              href: modules/geoxml-module/geoxmlsummarymetadata-object.md
+            - name: GeoXmlWriteOptions Object
+              href: modules/geoxml-module/geoxmlwriteoptions-object.md
+            - name: KmlScreenOverlay Class
+              href: modules/geoxml-module/kmlscreenoverlay-class.md
+            - name: KmlScreenOverlayOptions Object
+              href: modules/geoxml-module/kmlscreenoverlayoptions-object.md
+        - name: Heat Map Module
+          href: modules/heat-map-module/index.md
+          maintainContext: true 
+          items:
+            - name: HeatMapLayer Class
+              href: modules/heat-map-module/heatmaplayer-class.md
+            - name: HeatMapLayerOptions Object
+              href: modules/heat-map-module/heatmaplayeroptions-object.md
+        - name: Search Module
+          href: modules/search-module/index.md
+          maintainContext: true 
+          items: 
+            - name: Address Object
+              href: modules/search-module/address-object.md
+            - name: GeocodeLocation Object
+              href: modules/search-module/geocodelocation-object.md
+            - name: GeocodeRequestOptions Object
+              href: modules/search-module/geocoderequestoptions-object.md
+            - name: GeocodeResult Object
+              href: modules/search-module/geocoderesult-object.md
+            - name: MatchCode Enumeration
+              href: modules/search-module/matchcode-enumeration.md
+            - name: MatchConfidence Enumeration
+              href: modules/search-module/matchconfidence-enumeration.md
+            - name: PlaceResult Object
+              href: modules/search-module/placeresult-object.md
+            - name: ReverseGeocodeRequestOptions Object
+              href: modules/search-module/reversegeocoderequestoptions-object.md
+            - name: SearchManager Class
+              href: modules/search-module/searchmanager-class.md
+        - name: Spatial Data Service Module
+          href: modules/spatial-data-service-module/index.md
+          maintainContext: true 
+          items:
+            - name: QueryAPIManager Class
+              href: modules/spatial-data-service-module/queryapimanager-class.md
+            - name: QueryAPIOptions Object
+              href: modules/spatial-data-service-module/queryapioptions-object.md
+            - name: SpatialFilterOptions Object
+              href: modules/spatial-data-service-module/spatialfilteroptions-object.md
+            - name: Filter Class
+              href: modules/spatial-data-service-module/filter-class.md
+            - name: FilterGroup Class
+              href: modules/spatial-data-service-module/filtergroup-class.md
+            - name: FilterCompareOperator Enumeration
+              href: modules/spatial-data-service-module/filtercompareoperator-enumeration.md
+            - name: FilterLogicalOperator Enumeration
+              href: modules/spatial-data-service-module/filterlogicaloperator-enumeration.md
+            - name: GeoDataAPIManager Class
+              href: modules/spatial-data-service-module/geodataapimanager-class.md
+            - name: GetBoundaryRequestOptions Object
+              href: modules/spatial-data-service-module/getboundaryrequestoptions-object.md
+            - name: GeoDataResultSet Object
+              href: modules/spatial-data-service-module/geodataresultset-object.md
+            - name: GeoDataResult Object
+              href: modules/spatial-data-service-module/geodataresult-object.md
+            - name: Metadata Object
+              href: modules/spatial-data-service-module/metadata-object.md
+            - name: Name Object
+              href: modules/spatial-data-service-module/name-object.md
+            - name: GeoDataPrimitive Object
+              href: modules/spatial-data-service-module/geodataprimitive-object.md
+            - name: Copyright Object
+              href: modules/spatial-data-service-module/copyright-object.md
+            - name: CopyrightSource Object
+              href: modules/spatial-data-service-module/copyrightsource-object.md
+        - name: Spatial Math Module
+          href: modules/spatial-math-module/index.md
+          maintainContext: true 
+          items: 
+            - name: AreaUnits Enumeration
+              href: modules/spatial-math-module/areaunits-enumeration.md
+            - name: BufferEndCap Enumeration
+              href: modules/spatial-math-module/bufferendcap-enumeration.md
+            - name: Core Calculations
+              href: modules/spatial-math-module/core-calculations.md
+            - name: DistanceUnits Enumeration
+              href: modules/spatial-math-module/distanceunits-enumeration.md
+            - name: Geometry Calculations
+              href: modules/spatial-math-module/geometry-calculations.md
+            - name: Tile Calculations
+              href: modules/spatial-math-module/tile-calculations.md
+        - name: Traffic Module
+          href: modules/traffic-module/index.md
+          maintainContext: true 
+          items: 
+            - name: TrafficManager Class
+              href: modules/traffic-module/trafficmanager-class.md
+            - name: TrafficOptions Object
+              href: modules/traffic-module/trafficoptions-object.md
+        - name: Venue Maps Module
+          href: modules/venue-map-module/index.md
+          maintainContext: true 
+          items: 
+            - name: VenueMapFactory Class
+              href: modules/venue-map-module/venuemapfactory-class.md
+            - name: VenueMap Class
+              href: modules/venue-map-module/venuemap-class.md
+            - name: VenueMapOptions Object
+              href: modules/venue-map-module/venuemapoptions-object.md
+            - name: Venue JSON specification
+              href: 
+              maintainContext: true 
+              items: 
+                - name: Venue address JSON class
+                  href: modules/venue-map-module/address.md
+                - name: Venue entity JSON class
+                  href: modules/venue-map-module/entity.md
+                - name: Venue floor JSON class
+                  href: modules/venue-map-module/floor.md
+                - name: Venue geometry JSON class
+                  href: modules/venue-map-module/geometry.md
+                - name: Venue inner JSON class
+                  href: modules/venue-map-module/inner.md
+                - name: Venue label JSON class
+                  href: modules/venue-map-module/label.md
+                - name: Venue rectangle JSON class
+                  href: modules/venue-map-module/rectangle.md
+                - name: Venue JSON class
+                  href: modules/venue-map-module/venue.md
+                - name: Venue JSON sample
+                  href: modules/venue-map-module/sample.md
+                - name: Venue Tile JSON class
+                  href: modules/venue-map-module/venueTile.md
+        - name: Well Known Text Module
+          href: modules/well-known-text-module.md
+    - name: Articles
+      href: articles/index.md
+      maintainContext: true 
+      items: 
+        - name: Code Optimizations in V8
+          href: articles/code-optimizations-in-v8.md
+        - name: Cross Platform Bing Maps V8 apps
+          href: articles/cross-platform-bing-maps-v8-apps.md
+        - name: Map Keyboard Shortcuts
+          href: articles/map-keyboard-shortcuts.md
+        - name: Vector Map Labels
+          href: articles/vector-map-labels.md
+        - name: zIndexing in Bing Maps V8
+          href: articles/zindexing-in-bing-maps-v8.md
+    - name: Supported Browsers
+      href: supported-browsers.md
+    - name: Developer Resources
+      href: developer-resources.md
