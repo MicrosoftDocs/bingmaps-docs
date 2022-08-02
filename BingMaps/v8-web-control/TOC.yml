@@ -707,13 +707,13 @@
             - name: VenueMapOptions Object
               href: modules/venue-map-module/venuemapoptions-object.md
             - name: Venue JSON specification
-              href: /modules/venue-map-module/venue-json/index.md
+              href: modules/venue-map-module/venue-json/index.md
               maintainContext: true
               items: 
                 - name: Venue address JSON class
-                  href: modules/venue-map-module/venue-json/address.md
+                  href: venue-map-module/venue-json/address.md
                 - name: Venue entity JSON class
-                  href: modules/venue-map-module/venue-json/entity.md
+                  href: venue-json/entity.md
                 - name: Venue floor JSON class
                   href: modules/venue-map-module/venue-json/floor.md
                 - name: Venue geometry JSON class
