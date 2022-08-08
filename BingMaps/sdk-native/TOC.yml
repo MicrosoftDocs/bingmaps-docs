@@ -149,7 +149,7 @@
               - name: MSMapCameraDidChangeHandler Interface
                 href: map-control-api/ios/msmapcameradidchangehandler-interface.md
               - name: MSMapCameraWillChangeHandler Interface
-                href: mmap-control-api/ios/smapcamerawillchangehandler-interface.md
+                href: map-control-api/ios/msmapcamerawillchangehandler-interface.md
               - name: MSMapCustomTileMapLayerDelegate protocol
                 href: map-control-api/ios/msmapcustomtilemaplayerdelegate-protocol.md
               - name: MSMapDidCaptureImageCallback Interface
