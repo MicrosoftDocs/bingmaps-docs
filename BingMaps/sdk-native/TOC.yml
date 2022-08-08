@@ -74,6 +74,76 @@
       items:
         - name: Map control API classes
           items:
+          - name: Android only
+            items:
+              - name:  CaptureScreenshotListener Interface
+                href:  capturescreenshotlistener-interface.md
+              - name:  GPSMapLocationProvider Class
+                href:  gpsmaplocationprovider-class.md
+              - name:  LocationChangedListener Interface
+                href:  locationchangedlistener-interface.md
+              - name:  MapCameraChangedEventArgs Class 
+                href:  mapcamerachangedeventargs-class.md
+              - name:  MapCameraChangingEventArgs Class 
+                href:  mapcamerachangingeventargs-class.md
+              - name:  MapDoubleTappedEventArgs Class
+                href:  mapdoubletappedeventargs-class.md
+              - name:  MapElementTappedEventArgs Class
+                href:  mapelementtappedeventargs-class.md
+              - name:  MapFlyoutTappedEventArgs Class
+                href:  mapflyouttappedeventargs-class.md
+              - name:  MapHoldingEventArgs Class
+                href:  mapholdingeventargs-class.md
+              - name:  MapLocationProvider Class
+                href:  maplocationprovider-class.md
+              - name:  MapPermissionsCallback Interface
+                href:  mappermissionscallback-interface.md
+              - name:  MapPermissionsDelegate Interface
+                href:  mappermissionsdelegate-interface.md
+              - name:  MapPermissionsRequestArgs Class 
+                href:  mappermissionsrequestargs-class.md
+              - name:  MapStylePickerSelectedStyleChangedEventArgs Class
+                href:  mapstylepickerselectedstylechangedeventArgs-class.md
+              - name:  MapStylePickerTrafficSwitchToggledEventArgs Class
+                href:  mapstylepickertrafficswitchtoggledeventargs-class.md
+              - name:  MapTappedEventArgs Class
+                href:  maptappedeventargs-class.md
+              - name:  MapTileBitmapRequest Class
+                href:  maptilebitmaprequest-class.md
+              - name:  MapTileBitmapRequestedEventArgs Class
+                href:  maptilebitmaprequestedeventargs-class.md
+              - name:  MapUserLocationTrackingInterruptedEventArgs Class
+                href:  mapuserlocationtrackinginterruptedeventargs-class.md
+              - name:  OnBitmapRequestedListener Interface
+                href:  onbitmaprequestedlistener-interface.md
+              - name:  OnMapCameraChangedListener Interface
+                href:  onmapcamerachangedlistener-interface.md
+              - name:  OnMapCameraChangingListener Interface
+                href:  onmapcamerachanginglistener-interface.md
+              - name:  OnMapDoubleTappedListener Interface
+                href:  onmapdoubletappedlistener-interface.md
+              - name:  OnMapElementTappedListener Interface
+                href:  onmapelementtappedlistener-interface.md
+              - name:  OnMapFlyoutTappedListener Interface
+                href:  onmapflyouttappedlistener-interface.md
+              - name:  OnMapHoldingListener Interface
+                href:  onmapholdinglistener-interface.md
+              - name:  OnMapLoadingStatusChangedListener Interface
+                href:  onmaploadingstatuschangedlistener-interface.md
+              - name:  OnMapSceneCompletedListener Interface 
+                href:  onmapscenecompletedlistener-interface.md
+              - name:  OnMapStylePickerSelectedStyleChangedListener Interface
+                href:  onmapstylepickerselectedstylechangedlistener-interface.md
+              - name:  OnMapStylePickerTrafficSwitchToggledListener Interface
+                href:  onmapstylepickertrafficswitchtoggledlistener-interface.md
+              - name:  OnMapTappedListener Interface
+                href:  onmaptappedlistener-interface.md
+              - name:  OnMapUserLocationTrackingInterruptedListener Interface
+                href:  onmapuserlocationtrackinginterruptedlistener-interface.md
+              - name:  OnTrafficIncidentTappedListener Interface
+                href:  ontrafficincidenttappedlistener-interface.md
+              - name:  TrafficIncidentTappedEventArgs Class 
+                href:  trafficincidenttappedeventargs-class.md
           - name: CustomTileMapLayer
             href: map-control-api/CustomTileMapLayer-class.md
           - name: CustomTileMapLayer
