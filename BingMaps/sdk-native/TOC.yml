@@ -147,53 +147,53 @@
           - name: iOS only
             items:
               - name: MSMapCameraDidChangeHandler Interface
-                href: msmapcameradidchangehandler-interface.md
+                href: map-control-api/ios/msmapcameradidchangehandler-interface.md
               - name: MSMapCameraWillChangeHandler Interface
-                href: msmapcamerawillchangehandler-interface.md
+                href: mmap-control-api/ios/smapcamerawillchangehandler-interface.md
               - name: MSMapCustomTileMapLayerDelegate protocol
-                href: msmapcustomtilemaplayerdelegate-protocol.md
+                href: map-control-api/ios/msmapcustomtilemaplayerdelegate-protocol.md
               - name: MSMapDidCaptureImageCallback Interface
-                href: msmapdidcaptureimagecallback-interface.md
+                href: map-control-api/ios/msmapdidcaptureimagecallback-interface.md
               - name: MSMapDidChangeSceneCallback Interface
-                href: msmapdidchangescenecallback-interface.md
+                href: map-control-api/ios/msmapdidchangescenecallback-interface.md
               - name: MSMapElementLayerUserDidTapElementHandler Interface
-                href: msmapelementlayeruserdidtapelementhandler-interface.md
+                href: map-control-api/ios/msmapelementlayeruserdidtapelementhandler-interface.md
               - name: MSMapElementLayerUserDidTapFlyoutHandler Interface
-                href: msmapelementlayeruserdidtapflyouthandler-interface.md
+                href: map-control-api/ios/msmapelementlayeruserdidtapflyouthandler-interface.md
               - name: MSMapElementLayerUserDidTapHandler Interface
-                href: msmapelementlayeruserdidtaphandler-interface.md
+                href: map-control-api/ios/msmapelementlayeruserdidtaphandler-interface.md
               - name: MSMapLoadingStatusDidChangeHandler Interface
-                href: msmaploadingstatusdidchangehandler-interface.md
+                href: map-control-api/ios/msmaploadingstatusdidchangehandler-interface.md
               - name: MSMapLocationChangedEventArgs Class
-                href: msmaplocationchangedeventargs-class.md
+                href: map-control-api/ios/msmaplocationchangedeventargs-class.md
               - name: MSMapLocationChangedHandler Interface
-                href: msmaplocationchangedhandler-interface.md
+                href: map-control-api/ios/msmaplocationchangedhandler-interface.md
               - name: MSMapLocationProviderBuilder Class
-                href: msmaplocationproviderbuilder-class.md
+                href: map-control-api/ios/msmaplocationproviderbuilder-class.md
               - name: MSMapLocationProvider Class
-                href: msmaplocationprovider-class.md
+                href: map-control-api/ios/msmaplocationprovider-class.md
               - name: MSMapTrafficIncidentLayerUserDidTapTrafficIncidentHandler Interface 
-                href: msmaptrafficincidentlayeruserdidtaptrafficincidenthandler-interface.md
+                href: map-control-api/ios/msmaptrafficincidentlayeruserdidtaptrafficincidenthandler-interface.md
               - name: MSMapTrafficIncidentTappedEventArgs Class
-                href: msmaptrafficincidenttappedeventargs-class.md
+                href: map-control-api/ios/msmaptrafficincidenttappedeventargs-class.md
               - name: MSMapUserDidDoubleTapHandler Interface
-                href: msmapuserdiddoubletaphandler-interface.md
+                href: map-control-api/ios/msmapuserdiddoubletaphandler-interface.md
               - name: MSMapUserDidSelectStyleEventArgs Class
-                href: msmapuserdidselectstyleeventargs-class.md
+                href: map-control-api/ios/msmapuserdidselectstyleeventargs-class.md
               - name: MSMapUserDidSelectStyleHandler Interface
-                href: msmapuserdidselectstylehandler-interface.md
+                href: map-control-api/ios/msmapuserdidselectstylehandler-interface.md
               - name: MSMapUserDidTapHandler Interface
-                href: msmapuserdidtaphandler-interface.md
+                href: map-control-api/ios/msmapuserdidtaphandler-interface.md
               - name: MSMapUserDidToggleTrafficSwitchEventArgs Class
-                href: msmapuserdidtoggletrafficswitcheventargs-class.md
+                href: map-control-api/ios/msmapuserdidtoggletrafficswitcheventargs-class.md
               - name: MSMapUserDidToggleTrafficSwitchHandler Interface
-                href: msmapuserdidtoggletrafficswitchhandler-interface.md
+                href: map-control-api/ios/msmapuserdidtoggletrafficswitchhandler-interface.md
               - name: MSMapUserIsHoldingHandler Interface
-                href: msmapuserisholdinghandler-interface.md
+                href: map-control-api/ios/msmapuserisholdinghandler-interface.md
               - name: MSMapUserLocationTrackingInterruptedEventArgs Class
-                href: msmapuserlocationtrackinginterruptedeventargs-class.md
+                href: map-control-api/ios/msmapuserlocationtrackinginterruptedeventargs-class.md
               - name: MSMapUserLocationTrackingInterruptedHandler Interface
-                href: msmapuserlocationtrackinginterrupted-interface.md                
+                href: map-control-api/ios/msmapuserlocationtrackinginterrupted-interface.md                
           - name: CustomTileMapLayer
             href: map-control-api/CustomTileMapLayer-class.md
           - name: CustomTileMapLayer
