@@ -77,73 +77,73 @@
           - name: Android only
             items:
               - name:  CaptureScreenshotListener Interface
-                href:  capturescreenshotlistener-interface.md
+                href:  map-control-api/android/capturescreenshotlistener-interface.md
               - name:  GPSMapLocationProvider Class
-                href:  gpsmaplocationprovider-class.md
+                href:  map-control-api/android/gpsmaplocationprovider-class.md
               - name:  LocationChangedListener Interface
-                href:  locationchangedlistener-interface.md
+                href:  map-control-api/android/locationchangedlistener-interface.md
               - name:  MapCameraChangedEventArgs Class 
-                href:  mapcamerachangedeventargs-class.md
+                href:  map-control-api/android/mapcamerachangedeventargs-class.md
               - name:  MapCameraChangingEventArgs Class 
-                href:  mapcamerachangingeventargs-class.md
+                href:  map-control-api/android/mapcamerachangingeventargs-class.md
               - name:  MapDoubleTappedEventArgs Class
-                href:  mapdoubletappedeventargs-class.md
+                href:  map-control-api/android/mapdoubletappedeventargs-class.md
               - name:  MapElementTappedEventArgs Class
-                href:  mapelementtappedeventargs-class.md
+                href:  map-control-api/android/mapelementtappedeventargs-class.md
               - name:  MapFlyoutTappedEventArgs Class
-                href:  mapflyouttappedeventargs-class.md
+                href:  map-control-api/android/mapflyouttappedeventargs-class.md
               - name:  MapHoldingEventArgs Class
-                href:  mapholdingeventargs-class.md
+                href:  map-control-api/android/mapholdingeventargs-class.md
               - name:  MapLocationProvider Class
-                href:  maplocationprovider-class.md
+                href:  map-control-api/android/maplocationprovider-class.md
               - name:  MapPermissionsCallback Interface
-                href:  mappermissionscallback-interface.md
+                href:  map-control-api/android/mappermissionscallback-interface.md
               - name:  MapPermissionsDelegate Interface
-                href:  mappermissionsdelegate-interface.md
+                href:  map-control-api/android/mappermissionsdelegate-interface.md
               - name:  MapPermissionsRequestArgs Class 
-                href:  mappermissionsrequestargs-class.md
+                href:  map-control-api/android/mappermissionsrequestargs-class.md
               - name:  MapStylePickerSelectedStyleChangedEventArgs Class
-                href:  mapstylepickerselectedstylechangedeventArgs-class.md
+                href:  map-control-api/android/mapstylepickerselectedstylechangedeventArgs-class.md
               - name:  MapStylePickerTrafficSwitchToggledEventArgs Class
-                href:  mapstylepickertrafficswitchtoggledeventargs-class.md
+                href:  map-control-api/android/mapstylepickertrafficswitchtoggledeventargs-class.md
               - name:  MapTappedEventArgs Class
-                href:  maptappedeventargs-class.md
+                href:  map-control-api/android/maptappedeventargs-class.md
               - name:  MapTileBitmapRequest Class
-                href:  maptilebitmaprequest-class.md
+                href:  map-control-api/android/maptilebitmaprequest-class.md
               - name:  MapTileBitmapRequestedEventArgs Class
-                href:  maptilebitmaprequestedeventargs-class.md
+                href:  map-control-api/android/maptilebitmaprequestedeventargs-class.md
               - name:  MapUserLocationTrackingInterruptedEventArgs Class
-                href:  mapuserlocationtrackinginterruptedeventargs-class.md
+                href:  map-control-api/android/mapuserlocationtrackinginterruptedeventargs-class.md
               - name:  OnBitmapRequestedListener Interface
-                href:  onbitmaprequestedlistener-interface.md
+                href:  map-control-api/android/onbitmaprequestedlistener-interface.md
               - name:  OnMapCameraChangedListener Interface
-                href:  onmapcamerachangedlistener-interface.md
+                href:  map-control-api/android/onmapcamerachangedlistener-interface.md
               - name:  OnMapCameraChangingListener Interface
-                href:  onmapcamerachanginglistener-interface.md
+                href:  map-control-api/android/onmapcamerachanginglistener-interface.md
               - name:  OnMapDoubleTappedListener Interface
-                href:  onmapdoubletappedlistener-interface.md
+                href:  map-control-api/android/onmapdoubletappedlistener-interface.md
               - name:  OnMapElementTappedListener Interface
-                href:  onmapelementtappedlistener-interface.md
+                href:  map-control-api/android/onmapelementtappedlistener-interface.md
               - name:  OnMapFlyoutTappedListener Interface
-                href:  onmapflyouttappedlistener-interface.md
+                href:  map-control-api/android/onmapflyouttappedlistener-interface.md
               - name:  OnMapHoldingListener Interface
-                href:  onmapholdinglistener-interface.md
+                href:  map-control-api/android/onmapholdinglistener-interface.md
               - name:  OnMapLoadingStatusChangedListener Interface
-                href:  onmaploadingstatuschangedlistener-interface.md
+                href:  map-control-api/android/onmaploadingstatuschangedlistener-interface.md
               - name:  OnMapSceneCompletedListener Interface 
-                href:  onmapscenecompletedlistener-interface.md
+                href:  map-control-api/android/onmapscenecompletedlistener-interface.md
               - name:  OnMapStylePickerSelectedStyleChangedListener Interface
-                href:  onmapstylepickerselectedstylechangedlistener-interface.md
+                href:  map-control-api/android/onmapstylepickerselectedstylechangedlistener-interface.md
               - name:  OnMapStylePickerTrafficSwitchToggledListener Interface
-                href:  onmapstylepickertrafficswitchtoggledlistener-interface.md
+                href:  map-control-api/android/onmapstylepickertrafficswitchtoggledlistener-interface.md
               - name:  OnMapTappedListener Interface
-                href:  onmaptappedlistener-interface.md
+                href:  map-control-api/android/onmaptappedlistener-interface.md
               - name:  OnMapUserLocationTrackingInterruptedListener Interface
-                href:  onmapuserlocationtrackinginterruptedlistener-interface.md
+                href:  map-control-api/android/onmapuserlocationtrackinginterruptedlistener-interface.md
               - name:  OnTrafficIncidentTappedListener Interface
-                href:  ontrafficincidenttappedlistener-interface.md
+                href:  map-control-api/android/ontrafficincidenttappedlistener-interface.md
               - name:  TrafficIncidentTappedEventArgs Class 
-                href:  trafficincidenttappedeventargs-class.md
+                href:  map-control-api/android/trafficincidenttappedeventargs-class.md
           - name: CustomTileMapLayer
             href: map-control-api/CustomTileMapLayer-class.md
           - name: CustomTileMapLayer
