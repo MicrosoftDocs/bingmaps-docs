@@ -807,7 +807,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Pennsylvania|Regional|[Clydesdale Lines LLC.]()| 
 |Pennsylvania|Regional|[Martz Trailways](https://webstore.martztrailways.com)| 
 |Pennsylvania|Regional|[rabbittransit](http://www.rabbittransit.org/)| 
-|Rhode Island|Providence|[Rhode Island Public Transit Authority](https://www.ripta.com/)| 
+|Rhode Island|Regional|[Rhode Island Public Transit Authority](https://www.ripta.com/)| 
 |Rhode Island|Regional|[Block Island Ferry](https://www.blockislandferry.com)| 
 |Rhode Island|Regional|[Vineyard Fast Ferry](https://www.vineyardfastferry.com/)| 
 |South Carolina|Charleston|[Charleston Area Regional Transportation Authority](https://www.ridecarta.com/)| 
