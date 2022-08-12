@@ -1,5 +1,6 @@
 ---
 title: "Isochrone Data | Microsoft Docs"
+description: This article describes the response returned by the Isochrone API, that contains either an IsochoneResponse resource or an RouteProxyAsyncStatus resource.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

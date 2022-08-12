@@ -1,5 +1,6 @@
 ---
 title: "Query API Sample Code (VB) | Microsoft Docs"
+description: Example code that demonstrates how to query a data source using the Query API in Visual Basic.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Understanding Bing Maps Transactions | Microsoft Docs"
+description: "Describes how to understand Bing Maps transactions and provides a table that outlines Bing Maps transactions by API with category descriptions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -105,13 +106,13 @@ Bing Maps service requests originating from a Bing Maps control that use a sessi
 |Route-SnapToRoad|REST Services|Yes<sup>3|Any time a synchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
 |Route-SnapToRoadAsync|REST Services|Yes<sup>3|Any time an asynchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is made, one (1) transaction is counted.|  
 |Route-SnapToRoadAsyncCallback|REST Services|No|Any time the status of an asynchronous [Snap to Road](../../rest-services/routes/snap-points-to-roads.md) request is checked.|  
-|Route-Truck|REST Services|Yes<sup>3|Any time a synchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
-|Route-TruckAsync|REST Services|Yes<sup>3|Any time an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
-|Route-TruckAsyncCallback|REST Services|No|Any time the status of an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is checked.| 
-|GeospatialEndpoint|REST Services|No|Any time a [Geospatial Endpoint](../../articles/geospatial-endpoint-service.md) URL request is made, one (1) transaction is counted.| 
+|Route-Truck|REST Services|Yes|Any time a synchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
+|Route-TruckAsync|REST Services|Yes|Any time an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is made, three (3) transactions are counted.|  
+|Route-TruckAsyncCallback|REST Services|No|Any time the status of an asynchronous [Truck Routing](../../rest-services/routes/calculate-a-truck-route.md) request is checked.|
+|GeospatialEndpoint|REST Services|No|Any time a [Geospatial Endpoint](../../articles/geospatial-endpoint-service.md) URL request is made, one (1) transaction is counted.|
 
  <sup>3</sup>This transaction is not billable if the service request is made using a [session ID](#using-session-ids-to-make-billable-transactions-non-billable) from a Web or WPF Control session or from the AutoSuggest Module of the Web Control.  
-  
+
 ### Spatial Data Services and Data Source Management using the Bing Maps Account Center  
   
 |Category|Bing Maps API|Billable|Category Description|  

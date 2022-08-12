@@ -32,3 +32,13 @@
               href: bing-maps-dev-center-help/geocoding-and-managing-data-sources/making-a-data-source-public-or-private.md
     - name: Bing Maps Api Best Practices
       href: bing-maps-api-best-practices.md
+    - name: Google Maps to Bing Maps migration guide
+      items:
+      - name: Migrating from Google Maps to Bing Maps
+        href: google-maps-to-bing-maps-migration-guide/Google-Maps-to-Bing-Maps-Migration-Guide.md
+      - name: Why Bing Maps?
+        href: google-maps-to-bing-maps-migration-guide/why-bing-maps.md
+      - name: Key features in Bing Maps
+        href: google-maps-to-bing-maps-migration-guide/key-features-in-bing-maps.md
+      - name: Migrate your data from Google Fusion Tables
+        href: google-maps-to-bing-maps-migration-guide/hosted-data.md

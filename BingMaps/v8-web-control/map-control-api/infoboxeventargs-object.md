@@ -1,5 +1,6 @@
 ---
 title: "InfoboxEventArgs Object | Microsoft Docs"
+description: A description of the InfoboxEventArgs Object, an object containing information about an infobox event, including a table with descriptions for each of its properties.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

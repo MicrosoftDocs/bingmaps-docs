@@ -1,6 +1,7 @@
 ---
-title: "Geocircle Class | Microsoft Docs"
-ms.author: "pablocan"
+title: Geocircle Class | Microsoft Docs
+description: Describes the Geocircle class for Android iOS and provides the class' constructors, properties, and additional references.
+ms.author: pablocan
 ---
 
 # Geocircle Class

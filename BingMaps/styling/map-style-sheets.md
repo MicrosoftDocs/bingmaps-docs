@@ -1,5 +1,6 @@
 ---
-title: "Map Style Sheets | Microsoft Docs"
+title: "Map Style Sheets (Microsoft Docs)"
+description: "This article describes map style sheets and provides two formats in which to represent them."
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
@@ -9,13 +10,13 @@ ms.topic: "article"
 ms.assetid: 966B4D77-FEAC-41FB-8FBB-7D4AFBA86651
 caps.latest.revision: 3
 author: "dbuerer"
-ms.author: ""
+ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
 # Map Style Sheet Reference in Maps
 
-A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).  A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
+A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md). A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
 > [!TIP]
 > Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
@@ -64,7 +65,7 @@ Sometimes the value of a property is transformed to produce the final result. Fo
 
 ## Web Only URL Style Sheet Format
 
-For simple style changes with the [static map control](../rest-services/imagery/get-a-static-map.md), compact versions of the style sheet can be used through URL parameters.  These can be done with the long form:
+For simple style changes with the [static map control](../rest-services/imagery/get-a-static-map.md), compact versions of the style sheet can be used through URL parameters. These can be done with the long form:
 
 ```url
 water|fillColor:FF0000;labelColor:00FF00_road|fillColor:0000FF_global|landColor:FFFFFF 

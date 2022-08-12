@@ -1,5 +1,6 @@
 ---
 title: "X, Y, Zoom TileLayer | Microsoft Docs"
+description: Provides a code example that shows how to display a tile layer that uses an X, Y, and Zoom tile URL schema.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -56,6 +57,6 @@ This example shows how to display a tile layer that uses an X, Y and Zoom tile U
 
 Running this code in a browser will display a weather radar tile layer over top of the USA. 
  
-![BMV8_TileLayerXYZoom](../../media/bmv8-tilelayerxyzoom.PNG)
+![Screenshot of a Bing map that shows a weather radar over the physical map of the United States of America.](../../media/bmv8-tilelayerxyzoom.PNG)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#tileLayerPublicXYZoom+JS)

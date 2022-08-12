@@ -1,5 +1,6 @@
 ---
 title: "Calculate Transit Directions | Microsoft Docs"
+description: Provides a code example that shows how to calculate transit directions using a route from Redmond, WA to Seattle, WA.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -73,6 +74,6 @@ The following example shows how to calculate transit directions from “Redmond,
 
 Running this code will display a transit route from “Redmond, WA” to “Seattle, WA” with a departure time that is an hour from now, instructions are displayed below the map. 
 
-![BMV8_TransitDirectionsExample2](../../media/bmv8-transitdirectionsexample2.PNG)
+![Screenshot o a Bing map showing a route from Redmond, Washington to Seattle, Washington, with transit directions listed below the map.](../../media/bmv8-transitdirectionsexample2.PNG)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#directionsCreateTransitRoute+JS)

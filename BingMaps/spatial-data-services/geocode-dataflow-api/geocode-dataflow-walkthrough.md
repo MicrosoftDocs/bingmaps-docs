@@ -1,5 +1,6 @@
 ---
 title: "Geocode Dataflow Walkthrough | Microsoft Docs"
+description: "Provides a walkthrough for Geocode Dataflow and outlines how to upload your spatial data, check your job status, and download results."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

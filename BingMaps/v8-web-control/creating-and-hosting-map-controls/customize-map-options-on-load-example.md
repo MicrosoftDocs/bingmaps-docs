@@ -1,5 +1,6 @@
 ---
 title: "Customize Map Options on Load Example | Microsoft Docs"
+description: "This article provides a code to update how the map is loaded in the GetMap function such that it sets the type to aerial, the zoom level to 10, and the map center over London, UK (51.50632, -0.12714)."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

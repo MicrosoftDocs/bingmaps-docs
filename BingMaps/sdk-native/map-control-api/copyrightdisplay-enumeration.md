@@ -1,6 +1,7 @@
 ---
-title: "CopyrightDisplay Enumeration | Microsoft Docs"
-ms.author: "pablocan"
+title: CopyrightDisplay Enumeration | Microsoft Docs
+description: Describes the CopyrightDisplay enumeration for Android and iOS and provides the enumeration's always and allow hiding values.
+ms.author: pablocan
 ---
 
 # CopyrightDisplay Enumeration

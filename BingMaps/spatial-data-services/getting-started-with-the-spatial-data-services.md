@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with the Spatial Data Services | Microsoft Docs"
+description: "Describes process of getting started with the Spatial Data Services and provides various resources on how to work with spatial data."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -62,10 +63,9 @@ To get started with the Bing Spatial Data Services, you must have a [Bing Maps K
 ## Public Data Sources  
  The following are public data sources that you can access with any Bing Maps Key.  
   
-|||  
+|Data Source|Description|  
 |-|-|  
-|[NAVTEQNA Data Source](public-data-sources/navteqna.md)|NavTechNA is a data source that contains points of interest in North America.|  
-|[NAVTEQEU Data Source](public-data-sources/navteqeu.md)|NavTechEU is a data source that contains points of interest in Europe.|  
+|[PointsOfInterest](public-data-sources/pointsofinterest.md)|The PointsOfInterest data source contains information about points of interest (POIs) for over 150 countries worldwide. |
 |[Traffic Incident Data Source](public-data-sources/traffic-incident-data-source.md)|TrafficIncident is a data source that contains traffic incidents data in the United States and Canada.|  
 |[FourthCoffeeSample Data Source](public-data-sources/fourthcoffeesample.md)|FourthCoffeeSample is a data source with sample data.|  
   

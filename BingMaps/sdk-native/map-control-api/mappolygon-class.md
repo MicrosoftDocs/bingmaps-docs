@@ -1,6 +1,7 @@
 ---
-title: "MapPolygon Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapPolygon Class | Microsoft Docs
+description: Describes the MapPolygon class for Android and iOS and provides the class' properties and additional references.
+ms.author: pablocan
 ---
 
 # MapPolygon Class

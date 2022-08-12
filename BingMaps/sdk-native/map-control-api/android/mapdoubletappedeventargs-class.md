@@ -1,6 +1,7 @@
 ---
-title: "MapDoubleTappedEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapDoubleTappedEventArgs Class | Microsoft Docs
+description: Describes the MapDoubleTappedEventArgs class for Android and provides the class' Position and Location properties.
+ms.author: pablocan
 ---
 
 # MapDoubleTappedEventArgs Class (Android only)

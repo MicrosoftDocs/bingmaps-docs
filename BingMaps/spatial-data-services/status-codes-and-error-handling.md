@@ -1,5 +1,6 @@
 ---
 title: "Status Codes and Error Handling1 | Microsoft Docs"
+description: "Each response to a request provides an HTTP status code. This article lists the most common HTTP status codes that are provided from these requests." 
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

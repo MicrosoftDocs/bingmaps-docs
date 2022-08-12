@@ -1,5 +1,6 @@
 ---
 title: "South America Transit Coverage | Microsoft Docs"
+description: "Describes Bing Maps API transit information for various countries in South America including Argentina, Brazil, Chile, Colombia, and Ecuador."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,6 +1,7 @@
 ---
-title: "MapTileBitmapRequestedEventArgs Class | Microsoft Docs"
-ms.author: "pablocan"
+title: MapTileBitmapRequestedEventArgs Class | Microsoft Docs
+description: Describes the MapTileBitmapRequestedEventArgs class for Android and outlines the X, Y, ZoomLevel, and Request properties.
+ms.author: pablocan
 ---
 
 # MapTileBitmapRequestedEventArgs Class (Android only)

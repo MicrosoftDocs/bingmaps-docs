@@ -1,6 +1,7 @@
 ---
-title: "MapLocationData Class | Microsoft Docs"
-ms.author: "adl"
+title: MapLocationData Class | Microsoft Docs
+description: Describes the MapLocationData class for Android and iOS and provides the class' properties and additional references.
+ms.author: adl
 ---
 
 # MapLocationData Class

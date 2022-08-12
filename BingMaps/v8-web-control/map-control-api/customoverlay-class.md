@@ -1,5 +1,6 @@
 ---
 title: "CustomOverlay Class | Microsoft Docs"
+description: "This article shares methods and tips for the CustomOverlay Class, which lets you create custom overlays on top of the map."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

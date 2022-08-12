@@ -1,5 +1,7 @@
 ---
 title: "Venue Maps Module | Microsoft Docs"
+titleSuffix: Microsoft Bing Maps
+description: Describes the Venue Maps module and provides links to related API reference documentation and examples that use the Venue Maps module.
 ms.custom: ""
 ms.date: "06/11/2020"
 ms.reviewer: ""
@@ -9,7 +11,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: "simshap"
+ms.author: v-munksteve
 manager: "cordellj"
 ms.service: "bing-maps"
 ---
@@ -20,14 +22,12 @@ ms.service: "bing-maps"
 
 **Namespace**: Microsoft.Maps.VenueMaps
 
-[Venue](../../../venues/venue.md) is a JSON format defined by Microsoft for representing venues. The Bing Maps V8 Web Control uses the Venue Maps Module to dynamically display venues on the map.
+[Venue](venue.md) is a JSON format defined by Microsoft for representing venues. The Bing Maps V8 Web Control uses the Venue Maps Module to dynamically display venues on the map.
 
 Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) class. A [VenueMap](venuemap-class.md) is associated with a [Map](../../map-control-api/map-class.md) instance. 
 
-<p style = "text-align: center;" > <b> VenueMap </b>  </p>                                              
+**VenueMap**                                          
 <img src="../../media/bmv8-venuemap.png" alt="Venue Map" class="center"/> </p>
-
-
 
 ## API Reference
 
@@ -37,10 +37,10 @@ Venue maps are created using the [VenueMapFactory](venuemapfactory-class.md) cla
 
 ## Examples
 
-  * [Load Venue Map Using Metadata Url](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurl)
-  * [Load Venue Map Using Metadata Url with JSONP](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurljsonp)
-  * [Load Venue Map Using Metadata loader](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataloader)
-  * [Set Active Floor](https://www.bing.com/api/maps/mapcontrol/isdk/setactivefloor)
-  * [Hide Venue Map](https://www.bing.com/api/maps/mapcontrol/isdk/hidevenuemap)
-  * [Show Floor Switcher](https://www.bing.com/api/maps/mapcontrol/isdk/showfloorswitcher)
+* [Load Venue Map Using Metadata Url](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurl)
+* [Load Venue Map Using Metadata Url with JSONP](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataurljsonp)
+* [Load Venue Map Using Metadata loader](https://www.bing.com/api/maps/mapcontrol/isdk/vmmetadataloader)
+* [Set Active Floor](https://www.bing.com/api/maps/mapcontrol/isdk/setactivefloor)
+* [Hide Venue Map](https://www.bing.com/api/maps/mapcontrol/isdk/hidevenuemap)
+* [Show Floor Switcher](https://www.bing.com/api/maps/mapcontrol/isdk/showfloorswitcher)
   

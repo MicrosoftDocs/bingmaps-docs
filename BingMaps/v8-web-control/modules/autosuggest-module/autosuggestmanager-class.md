@@ -1,5 +1,6 @@
 ---
 title: "AutosuggestManager Class | Microsoft Docs"
+description: Describes the AutosuggestManager class, which is the primary class in the Autosuggest module, and details its constructor and methods.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

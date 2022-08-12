@@ -1,5 +1,6 @@
 ---
 title: "DistanceUnit Enumeration | Microsoft Docs"
+description: Describes the DistanceUnit enumeration, which can be a distance defined in miles or kilometers.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

@@ -1,5 +1,6 @@
 ---
 title: "Find By Property Example | Microsoft Docs"
+description: Example code that does a property based search using the Spatial Data Services module and specifying the PointsOfInterest data source.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -24,11 +25,11 @@ One of the simplest ways to query a data source is to do a property based search
 <head>
     <title></title>
     <meta charset="utf-8" />
-	<script type='text/javascript'>
+    <script type='text/javascript'>
     var map;
 
-    //Query URL to the NAVTEQ POI data source
-    var sdsDataSourceUrl = 'http://spatial.virtualearth.net/REST/v1/data/f22876ec257b474b82fe2ffcb8393150/NavteqNA/NavteqPOIs';
+    //Query URL to the PointsOfInterest data source
+    var sdsDataSourceUrl = 'http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest';
 
     function GetMap() {
         map = new Microsoft.Maps.Map('#myMap', {
@@ -67,6 +68,6 @@ One of the simplest ways to query a data source is to do a property based search
 </html>
 ```
 
-Running this code will search for the first 25 gas stations in the [NavteqNA data source](../../../../spatial-data-services/public-data-sources/navteqna.md).
+Running this code will search for the first 25 gas stations in the [PointsOfInterest](../../../../spatial-data-services/public-data-sources/pointsofinterest.md)  data source.
 
 ![BMV8_FindByPropertyExample](../../../media/bmv8-findbypropertyexample.PNG)

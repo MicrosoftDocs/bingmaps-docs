@@ -1,3 +1,4 @@
+items:
 - name: Bing Maps Articles
   href: index.md
   maintainContext: true 
@@ -20,9 +21,9 @@
       href: ssl-certificate-validation-for-java-applications.md
     - name: Understanding Scale and Resolution
       href: understanding-scale-and-resolution.md
-    - name: Creating a Store Locator Using Bing Maps and Azure
-      href: creating-a-store-locator-using-bing-maps-and-azure.md
     - name: Getting Streetside Tiles From Imagery Metadata
       href: getting-streetside-tiles-from-imagery-metadata.md
+    - name: Understanding ODbL
+      href: open-maps-understanding-odbl.md
     # - name: Create an Optimized Itinerary
     #   href: create-an-optimized-itinerary.md

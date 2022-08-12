@@ -1,5 +1,6 @@
 ---
 title: "Query by ID | Microsoft Docs"
+description: Describes how to search a data source for one or more entities by entity ID using the spatial data services query API.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -49,7 +50,7 @@ queryoption2&queryoptionN&jsonp=jsonCallBackFunction&jsonso=jsonState&isStaging=
 >  Parameter names and values are not case-sensitive except for the queryKey parameter value.  
   
 |Parameter|Description|Values|  
-|---------------|-----------------|------------|  
+|---------|-----------|------|  
 |accessId|**Required**. A unique ID for the data source.|A string containing and ID that is part of the URL structure that identifies the data source.<br /><br /> **Example**: 20181f26d9e94c81acdf9496133d4f23|  
 |dataSourceName|**Required** The name of the data source that you want to search.|A string that identifies the data source.<br /><br /> **Example**: FourthCoffeeSample|  
 |entityTypeName|**Required** The entity type to search for.|A string that identifies the entity type of the data source.<br /><br /> **Example**: FourthCoffeeShops|  

@@ -1,5 +1,6 @@
 ---
 title: "AnimatedTileLayer Class | Microsoft Docs"
+description: "This article describes events and methods related to the AnimatedTileLayer Class, which provides a layer that can smoothly animate through an array of tile layer sources."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

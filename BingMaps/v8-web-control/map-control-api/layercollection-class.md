@@ -1,5 +1,6 @@
 ---
 title: "LayerCollection Class | Microsoft Docs"
+description: This article describes the properties and methods of the LayerCollection Class that contains all the layers that have been added to the map.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

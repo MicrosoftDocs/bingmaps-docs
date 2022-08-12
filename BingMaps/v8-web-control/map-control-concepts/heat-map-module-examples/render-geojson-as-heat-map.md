@@ -1,5 +1,6 @@
 ---
 title: "Render GeoJSON as Heat Map | Microsoft Docs"
+description: Provides a code example that loads earthquake data from the United States geological survey and displays the data as a heatmap layer.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -53,6 +54,6 @@ This code sample loads in earthquake data for the last 30 days from the United S
 
 Here is what this heat map looks like over the Pacific Ocean which is surrounded by the [Ring of Fire](https://en.wikipedia.org/wiki/Ring_of_Fire), an area where a large number of earthquakes and volcanic eruptions occur. 
 
-![Ring of Fire on a Map](../../media/bmv8-ringoffireexample-map.png)
+![Screenshot of a Bing Map showing the Pacific Ocean with the earthquake data loaded as a heat map over it.](../../media/bmv8-ringoffireexample-map.png)
 
 [Try it now](https://www.bing.com/api/maps/sdk/mapcontrol/isdk#heatMapFromGeoJson+JS)

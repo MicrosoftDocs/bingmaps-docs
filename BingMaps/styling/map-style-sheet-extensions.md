@@ -1,5 +1,6 @@
 ---
 title: "Map Style Sheet Extensions | Microsoft Docs"
+description: "This article provides guidelines on map style sheet extensions, which can be used to add custom entries and states to your map's styles and includes examples on how to create a custom entry, create a custom state, overriding transparency, swapping colors and changing background shapes."
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
@@ -9,13 +10,13 @@ ms.topic: "article"
 ms.assetid: 8E33AAAE-5DC3-4B94-AD13-69B98402DF33
 caps.latest.revision: 3
 author: "dbuerer"
-ms.author: ""
+ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
 # Map Style Sheet Extensions
 
-The extensions property at the root of a [map style sheet](map-style-sheets.md) can be used to add custom [entries](map-style-sheet-entries.md) and states to your map's styles.  Entries and states can be set on your map elements in the various [Microsoft map controls](map-style-sheet-support.md) to define how they are styled.
+The extensions property at the root of a [map style sheet](map-style-sheets.md) can be used to add custom [entries](map-style-sheet-entries.md) and states to your map's styles. Entries and states can be set on your map elements in the various [Microsoft map controls](map-style-sheet-support.md) to define how they are styled.
 
 ## Create a Custom Entry
 

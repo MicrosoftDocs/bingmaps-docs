@@ -1,5 +1,6 @@
 ---
 title: "Map Styling | Microsoft Docs"
+description: The overview page for Map Styling, used to define the appearance of a map in various Microsoft map controls, contains links to the map style sheet articles.
 ms.custom: ""
 ms.date: "05/26/2020"
 ms.reviewer: ""
@@ -9,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 47E98EC1-69B0-4041-A08F-85DEB8B9B056
 caps.latest.revision: 3
 author: "dbuerer"
-ms.author: ""
+ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---

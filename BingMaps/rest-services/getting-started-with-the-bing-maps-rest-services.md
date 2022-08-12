@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with the Bing Maps REST Services | Microsoft Docs"
+description: "This article describes the Bing Maps REST Services Application Programming Interface (API) and provides a table that lists the Bing Maps REST Services and the common tasks they perform."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -41,7 +42,7 @@ The Bing™ Maps REST Services Application Programming Interface (API) is a Repr
 
  The following topics show examples of how to use the Bing Maps REST Services with other Bing Maps APIs or provide related information.  
   
-|||  
+|Topic|Description|  
 |-|-|  
 |[Accessing the Bing Maps REST Services using PHP](../articles/accessing-the-bing-maps-rest-services-using-php.md)|This article shows how to write a PHP application that can interact with the Bing Maps REST Services APIs.|  
 |[Bing Maps Transit Coverage](../coverage/index.md)|Provides a list of transit agencies that are used by Bing Maps REST Services to provide transit routes.|  

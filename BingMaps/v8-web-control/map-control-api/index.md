@@ -1,5 +1,6 @@
 ---
 title: "Map Control API Reference | Microsoft Docs"
+description: The overview page for the Map Control API Reference section describes its methods and properties and contains a table with descriptions for each of the API components in the Microsoft.Maps namespace and links to articles with detailed information for each.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -14,7 +15,7 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Map Control API Reference
+# Map Control API Reference for V8 Web Control
 
 The Bing Maps V8 web control uses the `Microsoft.Maps` namespace to expose its API. This namespace has the following static properties and methods:
 

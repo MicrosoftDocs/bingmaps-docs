@@ -1,5 +1,6 @@
 ---
 title: "Implementing Modules | Microsoft Docs"
+description: Describes how to implement modules and provides steps for registering modules using the Microsoft.Maps.registerModule method.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

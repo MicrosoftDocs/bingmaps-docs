@@ -1,5 +1,6 @@
 ---
 title: "Location and Area Types | Microsoft Docs"
+description: "Describes location and area types and provides a table that outlines the description, values, and syntax for various location and area types."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

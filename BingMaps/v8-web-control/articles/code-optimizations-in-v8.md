@@ -1,5 +1,6 @@
 ---
 title: "Code Optimizations in V8 | Microsoft Docs"
+description: "This article describes code optimizations in V8 and provides guidelines on adding an array of shapes to the map, changing the color of the pushpins, and setting the color of a polygon or polyline."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""

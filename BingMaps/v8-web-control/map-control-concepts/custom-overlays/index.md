@@ -1,5 +1,6 @@
 ---
 title: "Custom Overlays | Microsoft Docs"
+description: "Describes custom overlays and provides the Simple Static Overlay, Topography overlay, HTML pushpin overlay, and dynamic canvas overlay examples."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
