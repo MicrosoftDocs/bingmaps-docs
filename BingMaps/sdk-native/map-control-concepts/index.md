@@ -1,12 +1,12 @@
 ---
-title: Map Control Concepts Reference | Microsoft Docs
+title: Map Control Concepts Reference - Native | Microsoft Docs
 description: The overview page for the Bing Map Control Concepts section contains a table containing the major set of concepts and links to examples.
 author: pablocan
 ms.author: pablocan
 ms.date: 08/12/2022
 ---
 
-# Map Control Concepts Reference
+# Map Control Concepts Reference - Native
 
 The Bing Maps SDK allows you to display a map in your application. Below, you will find the major set of concepts and examples to help you get started.
 

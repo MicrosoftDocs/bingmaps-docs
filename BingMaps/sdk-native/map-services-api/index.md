@@ -1,5 +1,5 @@
 ---
-title: MapServices API Reference | Microsoft Docs
+title: MapServices API Reference - Native | Microsoft Docs
 description: The overview page for the MapServices API Reference section contains tables containing descriptions and links to more information for each of the MapServices classes, enumerations and interfaces.
 author: pablocan
 ms.author: pablocan
@@ -8,18 +8,17 @@ ms.topic: reference
 ms.service: bing-maps
 ---
 
-# Map Services API Reference
+# Map Services API Reference - Native
 
-> [!Note]
+> [!NOTE]
 >
 > In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.
 >
 > In iOS APIs, all nullability annotations are explicit.
 
-
 ## Geospatial
 
-### Classes
+### Geospatial Classes
 
 Name                                                        | Details
 ----------------------------------------------------------- | ------------------------------------------------------
@@ -28,7 +27,7 @@ Name                                                        | Details
 [Geoposition](../map-control-api/Geoposition-class.md)      | Describes a geographic position's basic information: latitude, longitude, and altitude.
 [Geoshape](../map-control-api/Geoshape-class.md)            | Describes a geographic shape.
 
-### Enumerations
+### Geospatial Enumerations
 
 Name                                                                                  | Details
 ------------------------------------------------------------------------------------- | ------------------------------------------------------
@@ -37,7 +36,7 @@ Name                                                                            
 
 ## Map Services
 
-### Classes
+### Map Services Classes
 
 Name                                                        | Details
 ----------------------------------------------------------- | ------------------------------------------------------
@@ -49,7 +48,7 @@ Name                                                        | Details
 [MapLocationFinderResult](MapLocationFinderResult-class.md) | Contains status code and result location data for a geocoding request.
 [MapServices](MapServices-class.md)                         | Provides common methods for map services.
 
-### Enumerations
+### Map Services Enumerations
 
 Name                                                                                  | Details
 ------------------------------------------------------------------------------------- | ------------------------------------------------------
@@ -59,7 +58,7 @@ Name                                                                            
 [MapLocationPointUsageType](MapLocationPointUsageType-enumeration.md)                 | The best use for the geopoint for a location returned from a geocoding request.
 [MapLocationFinderStatus](MapLocationFinderStatus-enumeration.md)                     | Status code for a geocoding request.
 
-### Interfaces
+### Map Services Interfaces
 
 Name                                                                                                  | Details
 ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------
