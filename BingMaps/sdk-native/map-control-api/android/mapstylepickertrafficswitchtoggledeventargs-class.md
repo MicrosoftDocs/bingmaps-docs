@@ -36,9 +36,8 @@ The traffic incident layer that will be added to the map, or null if the layer w
 > void setTrafficIncidentsMapLayer(@Nullable TrafficIncidentsMapLayer trafficIncidentsMapLayer)
 >```
 
-
 ## See Also
 
-* [MapStylePickerTrafficSwitchToggled](OnMapStylePickerTrafficSwitchToggledListener-interace.md)
+* [MapStylePickerTrafficSwitchToggled](OnMapStylePickerTrafficSwitchToggledListener-interface.md)
 * [TrafficFlowMapLayer](../TrafficFlowMapLayer-class.md)
 * [TrafficIncidentsMapLayer](../TrafficIncidentsMapLayer-class.md)

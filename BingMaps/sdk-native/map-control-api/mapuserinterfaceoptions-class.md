@@ -371,7 +371,7 @@ Fired when the switch is toggled in the map style picker, or a previous toggle i
 > void setOnMapStylePickerTrafficSwitchToggledListener(OnMapStylePickerTrafficSwitchToggledListener listener)
 >```
 
-_See also:_ [OnMapStylePickerTrafficSwitchToggledListener](Android/OnMapStylePickerTrafficSwitchToggledListener-interace.md)
+_See also:_ [OnMapStylePickerTrafficSwitchToggledListener](Android/OnMapStylePickerTrafficSwitchToggledListener-interface.md)
 
 **iOS**
 
