@@ -13,7 +13,7 @@
     {
       "source_path_from_root": "/BingMaps/venues/address.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/address",
-      "redirect_document_id": false
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
     },
     {
       "source_path_from_root": "/BingMaps/venues/entity.md",
@@ -23,6 +23,7 @@
     {
       "source_path_from_root": "/BingMaps/venues/floor.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/floor",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
@@ -33,26 +34,31 @@
     {
       "source_path_from_root": "/BingMaps/venues/inner.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/inner",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
       "source_path_from_root": "/BingMaps/venues/label.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/label",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
       "source_path_from_root": "/BingMaps/venues/rectangle.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/rectangle",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
       "source_path_from_root": "/BingMaps/venues/sample.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/sample",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
       "source_path_from_root": "/BingMaps/venues/venue.md",
       "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module/venue",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     },
     {
@@ -63,6 +69,7 @@
     {
       "source_path_from_root": "/BingMaps/articles/bing-maps-on-azure-marketplace.md",
       "redirect_url": "/BingMaps/articles",
+      "redirect_url": "/BingMaps/v8-web-control/modules/venue-map-module",
       "redirect_document_id": false
     }
   ]
