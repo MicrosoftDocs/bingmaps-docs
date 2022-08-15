@@ -1,5 +1,5 @@
 ---
-title: Map Control API Reference | Microsoft Docs
+title: Map Control API Reference - Native | Microsoft Docs
 description: Bing Maps Map Control API Reference for the Android and iOS SDK
 author: pablocan
 ms.author: pablocan
@@ -15,7 +15,6 @@ ms.service: bing-maps
 > In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.
 >
 > In iOS APIs, all nullability annotations are explicit.
-
 
 ## Geospatial
 
@@ -36,7 +35,6 @@ Name                                                                   | Details
 ----------------------------------------------------------------       | ------------------------------------------------------
 [AltitudeReferenceSystem](AltitudeReferenceSystem-enumeration.md)      | Indicates what an altitude value is relative to.
 [GeoshapeType](GeoshapeType-enumeration.md)                            | Describes the shape of a geographic region.
-
 
 ## Map Control
 

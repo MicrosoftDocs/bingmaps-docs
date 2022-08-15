@@ -1,5 +1,5 @@
 ---
-title: "Map Control API Reference | Microsoft Docs"
+title: "Map Control API Reference - Web | Microsoft Docs"
 description: The overview page for the Map Control API Reference section describes its methods and properties and contains a table with descriptions for each of the API components in the Microsoft.Maps namespace and links to articles with detailed information for each.
 ms.custom: ""
 ms.date: "02/28/2018"
@@ -15,26 +15,25 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Map Control API Reference for V8 Web Control
+# Map Control API Reference for the V8 Web Control
 
 The Bing Maps V8 web control uses the `Microsoft.Maps` namespace to expose its API. This namespace has the following static properties and methods:
 
 ## Static Properties
 
-| Name |  Type | Description |
+| Name |  Type | Description  |
 |------|-------|--------------|
 | ConfigurableMap | [ConfigurableMap](configurablemap-class.md) | Generate a map using a configuration file. See [Configuration Driven Maps framework](../map-control-concepts/configuration-driven-maps-framework/index.md) for more details. |
 | Credentials | string  | The Bing Maps key specified in the map API script URL or used to load the map. |
 
 ## Static Methods  
 
-| Name |  Return Type | Description |
+| Name |  Return Type | Description  |
 |------|--------------|--------------|
 | getIsBirdseyeAvailable(loc: [Location](location-class.md), heading: [Heading](heading-enumeration.md) _or_ number, callback: function(isAvailable: boolean)) | | Checks to see if Birdseye imagery is available at a specified location and heading. |
 | loadModule(moduleKey: string _or_ string\[\], options?: [ModuleOptions](moduleoptions-object.md) _or_ function()) | | Loads the specified registered module, making its functionality available. You can provide the name of a single module or an array of names in. Options or a callback function that is called when the module is loaded can be specified.<br/><br/>To register a custom module, use the registerModule method before calling the loadModule method. |
 | moduleLoaded(moduleKey: string) | | Signals that the specified module has been loaded and if specified, calls the callback function in loadModule. Call this method at the end of your custom module script. |
 | registerModule(moduleKey: string, scriptURL: string, options: \{ styleURLs:string\[\] \}) | | Registers a module with the map control. The name of the module is specified in moduleKey, the module script is defined in scriptURL, and the options provides the location of a *.css file to load with the module.<br/><br/>Tip: To minimize possible conflicts with other custom modules, choose a unique module name (defined in moduleKey). For example, you can use your company name in the name of the module.<br/><br/>Once you have registered a module, you can make its functionality available by loading it using loadModule. |
-
 
 ## API Components
 
@@ -92,6 +91,3 @@ Type          | Description
 [TileSource Class](tilesource-class.md) | Represents a source of URLs for a tile layer.
 [TileSourceOptions Object](tilesourceoptions-object.md) | Options for configuring the source of URLs used to supply a tile layer overlay on a map.
 [ViewOptions Object](viewoptions-object.md) | Options for configuring a view of the map. 
-
-
- 
