@@ -44,7 +44,7 @@ additionalContent:
         # Card
         - title: Bing Maps WPF Control
           summary: Learn how to use the Bing Maps Windows Presentation Foundation (WPF) Control.
-          url: https://docs.microsoft.com/en-us/previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
+          url: /previous-versions/bing/wpf-control/hh750210(v%3dmsdn.10)
         # Card
         - title: Maps SDK, A Microsoft Garage Project
           summary: Learn how to add maps to your Mixed Reality Unity project.
