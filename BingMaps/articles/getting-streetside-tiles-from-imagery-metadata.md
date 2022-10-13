@@ -124,7 +124,7 @@ namespace GridBuilder
 
         public void Print_Grid(string save_file_name)
         {
-            // see https://docs.microsoft.com/dotnet/api/system.drawing.bitmap
+            // see https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
             Bitmap cube_image = new Bitmap(master_size_x, master_size_y);
             Bitmap tmp_image;
 
