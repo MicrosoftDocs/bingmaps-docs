@@ -6,7 +6,7 @@ ms.date: "08/31/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "home-page"
+ms.topic: conceptual
 ms.assetid: ""
 caps.latest.revision: ""
 author: "DRMap"

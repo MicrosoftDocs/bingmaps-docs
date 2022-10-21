@@ -107,11 +107,11 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Cayman Islands                             | Good                |         |               | Street Name |
 | Central African Republic                   | Major Roads Only    |         |               | Street Name |
 | Chad                                       | Major Roads Only    |         |               | Street Name |
-| Chile                                      | Good                |    x    |       x       | Rooftop     |
+| Chile                                      | Good                |    x    |               | Rooftop     |
 | China                                      | Good                |    x    |               | Address     |
 | Christmas Island                           | Good                |         |               | Rooftop     |
 | Cocos (Keeling) Islands                    | Major Roads Only    |         |               | Basic       |
-| Colombia                                   | Good                |    x    |       x       | Rooftop     |
+| Colombia                                   | Good                |    x    |               | Rooftop     |
 | Comoros                                    | Major Roads Only    |         |               | Street Name |
 | Congo                                      | Fair                |         |               | Street Name |
 | Congo (DRC)                                | Fair                |         |               | Street Name |
@@ -148,7 +148,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Georgia                                    | Good                |         |               | Rooftop     |
 | Germany                                    | Good                |    x    |       x       | Rooftop     |
 | Ghana                                      | Good                |         |               | Street Name |
-| Gibraltar                                  | Good                |    x    |               | Address     |
+| Gibraltar                                  | Good                |    x    |       x       | Address     |
 | Greece                                     | Good                |    x    |       x       | Rooftop     |
 | Greenland                                  | Major Roads Only    |         |               | Street Name |
 | Grenada                                    | Good                |         |               | Street Name |
@@ -166,12 +166,12 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Hungary                                    | Good                |    x    |       x       | Rooftop     |
 | Iceland                                    | Good                |    x    |               | Rooftop     |
 | India                                      | Good                |    x    |               | Rooftop     |
-| Indonesia                                  | Good                |    x    |               | Rooftop     |
+| Indonesia                                  | Good                |    x    |       x       | Rooftop     |
 | Iran                                       | Major Roads Only    |         |               | Basic       |
 | Iraq                                       | Good                |         |               | Street Name |
 | Ireland                                    | Good                |    x    |       x       | Rooftop     |
 | Isle of Man                                | Good                |    x    |               | Address     |
-| Israel                                     | Good                |    x    |               | Rooftop     |
+| Israel                                     | Good                |    x    |       x       | Rooftop     |
 | Italy                                      | Good                |    x    |       x       | Rooftop     |
 | Jamaica                                    | Good                |         |               | Street Name |
 | Jan Mayen                                  | Good                |         |               | Street Name |
@@ -197,7 +197,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Macao SAR                                  | Good                |         |               | Rooftop     |
 | Madagascar                                 | Major Roads Only    |         |               | Street Name |
 | Malawi                                     | Good                |         |               | Street Name |
-| Malaysia                                   | Good                |    x    |               | Rooftop     |
+| Malaysia                                   | Good                |    x    |       x       | Rooftop     |
 | Maldives                                   | Major Roads Only    |         |               | Basic       |
 | Mali                                       | Fair                |         |               | Street Name |
 | Malta                                      | Good                |    x    |       x       | Address     |
@@ -239,7 +239,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Papua New Guinea                           | Major Roads Only    |         |               | Street Name |
 | Paraguay                                   | Good                |         |               | Address     |
 | Peru                                       | Good                |    x    |               | Address     |
-| Philippines                                | Good                |    x    |               | Rooftop     |
+| Philippines                                | Good                |    x    |       x       | Rooftop     |
 | Pitcairn Islands                           | Major Roads Only    |         |               | Street Name |
 | Poland                                     | Good                |    x    |       x       | Rooftop     |
 | Portugal                                   | Good                |    x    |       x       | Rooftop     |
@@ -264,14 +264,14 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Serbia                                     | Good                |         |       x       | Rooftop     |
 | Seychelles                                 | Good                |         |               | Street Name |
 | Sierra Leone                               | Major Roads Only    |         |               | Street Name |
-| Singapore                                  | Good                |    x    |               | Rooftop     |
+| Singapore                                  | Good                |    x    |       x       | Rooftop     |
 | Sint Eustatius                             | Good                |         |               | Basic       |
 | Sint Maarten                               | Good                |         |               | Street Name |
 | Slovakia                                   | Good                |    x    |       x       | Rooftop     |
 | Slovenia                                   | Good                |    x    |       x       | Rooftop     |
 | Solomon Islands                            | Major Roads Only    |         |               | Basic       |
 | Somalia                                    | Major Roads Only    |         |               | Street Name |
-| South Africa                               | Good                |    x    |               | Rooftop     |
+| South Africa                               | Good                |    x    |       x       | Rooftop     |
 | South Georgia & the South Sandwich Islands | Major Roads Only    |         |               | Basic       |
 | South Sudan                                | Major Roads Only    |         |               | Street Name |
 | Spain                                      | Good                |    x    |       x       | Rooftop     |
@@ -283,10 +283,10 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Sweden                                     | Good                |    x    |       x       | Address     |
 | Switzerland                                | Good                |    x    |       x       | Rooftop     |
 | Syria                                      | Major Roads Only    |         |               | Street Name |
-| Taiwan                                     | Good                |    x    |               | Rooftop     |
+| Taiwan                                     | Good                |    x    |       x       | Rooftop     |
 | Tajikistan                                 | Major Roads Only    |         |               | Street Name |
 | Tanzania                                   | Good                |         |               | Street Name |
-| Thailand                                   | Good                |    x    |               | Rooftop     |
+| Thailand                                   | Good                |    x    |       x       | Rooftop     |
 | Timor-Leste                                | Major Roads Only    |         |               | Basic       |
 | Togo                                       | Fair                |         |               | Street Name |
 | Tokelau                                    | Major Roads Only    |         |               | Basic       |
@@ -298,7 +298,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Turks & Caicos Islands                     | Good                |         |               | Basic       |
 | Tuvalu                                     | Major Roads Only    |         |               | Basic       |
 | U.S. Outlying Islands                      | Major Roads Only    |         |               | Basic       |
-| U.S. Virgin Islands                        | Good                |         |       x       | Rooftop     |
+| U.S. Virgin Islands                        | Good                |         |               | Rooftop     |
 | Uganda                                     | Good                |         |               | Street Name |
 | Ukraine                                    | Good                |    x    |               | Rooftop     |
 | United Arab Emirates                       | Good                |    x    |               | Rooftop     |
@@ -309,7 +309,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Vanuatu                                    | Major Roads Only    |         |               | Basic       |
 | Vatican City                               | Good                |    x    |       x       | Street Name |
 | Venezuela                                  | Good                |         |               | Street Name |
-| Vietnam                                    | Good                |    x    |               | Rooftop     |
+| Vietnam                                    | Good                |    x    |       x       | Rooftop     |
 | Wallis & Futuna                            | Major Roads Only    |         |               | Basic       |
 | Yemen                                      | Good                |         |               | Street Name |
 | Zambia                                     | Good                |         |               | Street Name |
