@@ -6,7 +6,7 @@ ms.date: "02/28/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "home-page"
+ms.topic: conceptual
 ms.assetid: 3851195d-fece-4fdd-8e1a-92efe5e9433f
 caps.latest.revision: 51
 author: "rbrundritt"
