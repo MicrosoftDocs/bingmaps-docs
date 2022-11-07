@@ -31,7 +31,7 @@ Use the following URL to delete a data source. To delete a data source, a delete
   
  The key parameter in this URL must be set to the data source master key.  
   
- You can get the data source base component (http://spatial.virtualearth.net/REST/v1/data/*accessId*/*dataSourceName*), by using the [Get Data Source Information](../data-source-management-api/get-data-source-information.md) API and requesting information about all the data sources associated with the Bing Maps Account that manages the data source.  
+ You can get the data source base component (`http://spatial.virtualearth.net/REST/v1/data/*accessId*/*dataSourceName*`), by using the [Get Data Source Information](../data-source-management-api/get-data-source-information.md) API and requesting information about all the data sources associated with the Bing Maps Account that manages the data source.  
   
  The URL uses the **HTTP DELETE** method so you cannot delete a datasource by typing the URL directly in the address bar of a browser. See the **Example** section for more information.  
   

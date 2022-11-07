@@ -229,7 +229,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[Citybus](http://www.bravobus.com.hk) 
-|Regional|[Discovery Bay Transit Services (Bus Services)](http://www.dbcommunity.hk) 
+|Regional|[Discovery Bay Transit Services (Bus Services)](https://www.hkri.com/en/Our-Businesses/Hong-Kong/Discovery-Bay) 
 |Regional|[Ferry Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/ferries) 
 |Regional|[Green Minibus Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/minibuses) 
 |Regional|[HK Tramways](https://www.hktramways.com) 
@@ -246,7 +246,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
-|Ahmedabad|[AMTS](http://www.amts.co.in/) 
+|Ahmedabad|AMTS
 |Bangalore|[Bangalore Metro Rail Corporation](http://www.bmrc.co.in/) 
 |Bangalore|[Bangalore Metropolitan Transport Corporation](https://mybmtc.karnataka.gov.in/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
@@ -261,15 +261,15 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Kolkata|[SBSTC](http://sbstc.co.in/) 
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
-|Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mumbai-metro.com) 
+|Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mmrcl.com) 
 |Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/home) 
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
 |New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
-|New Delhi|[Delhi Transport Corporation](http://www.dtc.nic.in) 
-|New Delhi|[Haryana Roadways Faridabad City Bus Service](http://hartrans.gov.in) 
-|New Delhi|[Haryana Roadways Gurgaon City Bus Service](http://hartrans.gov.in) 
+|New Delhi|[Delhi Transport Corporation](https://dtc.delhi.gov.in) 
+|New Delhi|Haryana Roadways Faridabad City Bus Service 
+|New Delhi|Haryana Roadways Gurgaon City Bus Service
 |New Delhi|[Indian Railway](https://erail.in) 
 |New Delhi|[Rapid MetroRail Gurgaon Limited](http://www.rapidmetrogurgaon.com) 
 |New Delhi|[Uttar Pradesh State Road Transport Corporation](http://www.upsrtc.com) 
@@ -280,7 +280,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Fukuoka|[福岡市営渡船](https://www.hktport.city.fukuoka.lg.jp/) 
 |Gunma|[永井運輸株式会社](https://www.nagai-unyu.net/)
-|Gunma|[Nagai Transport Co., Ltd.](http://https://www.nagai-unyu.net/)  
+|Gunma|[Nagai Transport Co., Ltd.](http://www.nagai-unyu.net/)  
 |Shimada|[島田市](https://www.city.shimada.shizuoka.jp/kurashi-docs/bus.html) 
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](http://www.city.minami-alps.yamanashi.jp/) 
@@ -347,7 +347,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[東南客運](http://www.southeastbus.com) 
 |Taipei|[板橋區公所](http://www.banqiao.ntpc.gov.tw) 
 |Taipei|[林口區公所](http://www.linkou.ntpc.gov.tw) 
-|Taipei|[桃園客運](http://www.tybus.com.tw) 
+|Taipei|[桃園客運](http://www.tybus.com) 
 |Taipei|[樹林區公所](http://www.shulin.ntpc.gov.tw) 
 |Taipei|[欣欣客運](http://www.shinbus.com.tw/) 
 |Taipei|[永和區公所](http://www.yonghe.ntpc.gov.tw) 

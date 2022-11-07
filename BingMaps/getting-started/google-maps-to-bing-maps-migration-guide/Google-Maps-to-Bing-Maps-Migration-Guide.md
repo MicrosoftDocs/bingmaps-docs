@@ -125,7 +125,7 @@ Here is a list of useful technical resources for the Bing Maps web control:
 - [Bing Maps web control documentation](../../v8-web-control/index.md)
 - [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/)
 - [Creating a basic map control](../../v8-web-control/creating-and-hosting-map-controls/creating-a-basic-map-control.md)
-- [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions.md)
+- [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)
 - [Microsoft Q&A](/answers/products/)
 - [Bing Maps REST Services](../../rest-services/index.md)
 - [Bing Spatial Data Services](../../spatial-data-services/query-api/index.md)
@@ -1054,7 +1054,7 @@ Running this code in a browser will display a map that looks like the following 
 #### Calculating directions in Bing Maps
 
 Directions can be calculated in Bing Maps using the
-[Directions module](/v8-web-control/modules/directions-module/).
+[Directions module](../../v8-web-control/modules/directions-module/index.md).
 This is an easy-to-use module that allows you to import the directions
 functionality when needed. In addition to being able to render a route
 on the map it can also generate nicely styled instructions.
