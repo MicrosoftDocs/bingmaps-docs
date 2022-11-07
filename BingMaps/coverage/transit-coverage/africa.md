@@ -26,7 +26,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Mali
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Bamako|[Sotrama Bamako](http://www.billetexpress.ml/) 
+|Bamako| Sotrama Bamako 
 
 ## South Africa
 |Locality|Transit Agency|
