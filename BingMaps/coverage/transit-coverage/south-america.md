@@ -27,21 +27,21 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Cordoba|[Autobuses Crdoba](https://ualabee.com/agency/1/7)
 |Cordoba|[TAMSE](https://tam-se.com.ar/)
 |Mendoza|[Autotransporte Los Andes](https://autlosandes.com/) 
-|Mendoza|[Autotransportes Presidente Alvear S.A](https://www.grupo400-700.com/) 
+|Mendoza|[Autotransportes Presidente Alvear S.A](https://www.suamarillas.com/index.php/empresa/autotransporte-presidente-alvear-sa-mendoza-377497) 
 |Mendoza|[El Cacique S.A.](https://www.elcaciquesa.com/) 
 |Mendoza|[El Plumerillo](https://www.plumerillosa.com/) 
-|Mendoza|[El Trapiche S.R.L.](http://www.eltrapicheonline.com.ar) 
+|Mendoza|[El Trapiche S.R.L.](https://eltrapicheonline.com.ar) 
 |Mendoza|[Empresa Maipú](https://empresa-maipu.com.ar/) 
-|Mendoza|[Gral. Roca S.R.L.](http://generalrocasrl.com.ar) 
+|Mendoza|Gral. Roca S.R.L. 
 |Mendoza|[Mitre S.R.L.](https://www.transportesbmitre.com.ar/) 
 |Mendoza|[Sociedad de Transporte de Mendoza](https://stmendoza.com)
 
 ## Brazil
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Apucarana|[Viação Apucarana Ltda](https://www.valap.com.br/) 
+|Apucarana|[Viação Apucarana Ltda](http://www.valap.com.br) 
 |Araras|[TCA](https://www.smtca.sp.gov.br/) 
-|Bagé|[Stadtbus](http://www.stadtbus.com.br/capa/bage/itinerario_bage.html) 
+|Bagé|[Stadtbus](http://www.stadtbus.com.br) 
 |Bauru|[Grande Bauru](https://www.transurbbauru.com.br/) 
 |Bauru|[Sem Limites](https://www.transurbbauru.com.br/) 
 |Belo Horizonte|[Empresa de Transportes e Transito de Belo Horizonte S/A](#) 
@@ -51,10 +51,10 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Cabo Frio e Região|[Salineira](http://www.salineira.com.br/) 
 |Cabo Frio e Região|[São Pedro](http://www.salineira.com.br/) 
 |Cachoeirinha|[Stadtbus - Cachoeirinha](http://www.stadtbus.com.br/) 
-|Campina Grande|[PMCG - STTP - Consórcio Santa Maria](https://www.ciomcg.com.br/) 
-|Campina Grande|[PMCG - STTP - Consórcio Santa Verônica](https://www.ciomcg.com.br/) 
+|Campina Grande|PMCG - STTP - Consórcio Santa Maria 
+|Campina Grande|PMCG - STTP - Consórcio Santa Verônica
 |Campinas|[Emdec](http://www.emdec.com.br/) 
-|Campo Bom|[Consórcio Coletivo Campo Bom](http://www.stadtbus.com.br/capa/campo_bom/itinerario_campo_bom.html) 
+|Campo Bom|[Consórcio Coletivo Campo Bom](http://www.stadtbus.com.br) 
 |Campo Grande|[Consórcio Guaicurus](https://www.consorcioguaicurus.com.br/) 
 |Caxias do Sul|[VISATE](https://www.visate.com.br) 
 |Chapecó|[Auto Viação Chapecó](https://www.avchap.com.br/) 
@@ -63,7 +63,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Florianopolis|[Consórcio Fênix](https://www.consorciofenix.com.br) 
 |Fortaleza|[COMPANHIA CEARENSE DE TRANSPORTES METROPOLITANOS](http://www.metrofor.ce.gov.br) 
 |Fraiburgo|[Santa Teresinha - Fraiburgo](https://www.santateresinha.com/site/) 
-|Gaspar|[Coletivo Caturani](http://www.coletivocaturani.com.br) 
+|Gaspar|Coletivo Caturani 
 |Indaiatuba|[Sou Indaiatuba](http://www.souindaiatuba.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Fretamento](http://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Guaramirim](http://www.canarinho.com.br) 
@@ -77,8 +77,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Londrina|[Transportes Coletivos Grande Londrina](#) 
 |Marilia|[Grande Marília](https://www.amtumarilia.com.br) 
 |Marilia|[Sorriso de Marília](https://www.amtumarilia.com.br) 
-|Maringá|[Cidade Verde Transporte Rodoviário](https://www.cidadeverdetransporte.com.br) 
-|Maringá|[Transporte Coletivo Cidade Canção](https://www.tccc.com.br) 
+|Maringá|[Cidade Verde Transporte Rodoviário](http://www.cidadeverdetransporte.com.br) 
+|Maringá|[Transporte Coletivo Cidade Canção](http://www.tccc.com.br) 
 |Palhoça|[JOTUR (Palhoça)](https://www.jotur.com.br) 
 |Palhoça|[JOTUR (São José)](https://www.jotur.com.br) 
 |Ponta Grossa|[Viação Campos Gerais](https://www.vcg.com.br/) 
@@ -93,8 +93,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Santa Cruz do Sul|[Consórcio TCS](http://tcsconsorcio.com.br/) 
 |Sao Paulo|[Empresa Metropolitana de Transportes Urbanos de São Paulo S.A.](https://www.emtu.sp.gov.br/EMTU/home.htm) 
 |Sao Paulo|[SPTRANS](https://www.sptrans.com.br/?versao=221018) 
-|Telemaco Borba|[VINSA](https://www.vinsa.com.br) 
-|Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br/capa/teutonia/itinerario_teutonia.html)
+|Telemaco Borba|[VINSA](http://www.vinsa.com.br) 
+|Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br)
 |Tramandai|[Expresso São José - ANTT](https://www.saojosebus.com.br) 
 |Tramandai|[Expresso São José - Metroplan / Daer](http://www.saojosebus.com.br) 
 |Tramandai|[Expresso São José - Rotas Escolares](http://www.saojosebus.com.br) 
@@ -158,7 +158,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gran Concepcion|[Nueva Ruta 160](http://moovitapp.com) 
 |Gran Concepcion|[Nueva Sol Yet](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Sotrapel](http://www.gorebiobio.cl/) 
-|Gran Concepcion|[Nueva Takora](http://www.fesur.cl/es/blog/comenzo-integracion-de-buses-nueva-takora-con-biotren/) 
+|Gran Concepcion|Nueva Takora 
 |Gran Concepcion|[Pedro De Valdivia](http://www.alianzabus.cl/) 
 |Gran Concepcion|[Penco Chiguayante Sur](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Playa Blanca](http://moovitapp.com) 
@@ -228,5 +228,5 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Ecuador
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Cuenca|[4RiosdeCuenca](http://tranvia.cuenca.gob.ec) 
+|Cuenca|[4RiosdeCuenca](https://tranvia.cuenca.gob.ec) 
 
