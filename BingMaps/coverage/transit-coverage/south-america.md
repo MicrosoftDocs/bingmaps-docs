@@ -161,7 +161,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gran Concepcion|Nueva Takora 
 |Gran Concepcion|[Pedro De Valdivia](http://www.alianzabus.cl/) 
 |Gran Concepcion|[Penco Chiguayante Sur](http://www.gorebiobio.cl/) 
-|Gran Concepcion|[Playa Blanca](http://moovitapp.com) 
+|Gran Concepcion|[Playa Blanca](https://moovitapp.com) 
+
 |Gran Concepcion|[Rengo Lientur](http://www.alianzabus.cl/) 
 |Gran Concepcion|[Riviera Bio Bio](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Ruta 160](http://moovitapp.com) 
