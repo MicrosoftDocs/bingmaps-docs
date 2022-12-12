@@ -22,7 +22,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[אגד](https://www.egged.co.il) 
-|Regional|[אגד תעבורה](http://www.egged-taavura.co.il/) 
+|Regional|[אגד תעבורה](https://www.egged-taavura.co.il/) 
+
 |Regional|[אפיקים](https://www.electra-afikim.co.il) 
 |Regional|[גי.בי.טורס](https://www.gb-tours.com) 
 |Regional|[גלים](http://www.galeem.co.il/) 
