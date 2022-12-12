@@ -228,7 +228,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Hong Kong
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Regional|[Citybus](http://www.bravobus.com.hk) 
+|Regional|[Citybus](https://www.bravobus.com.hk) 
 |Regional|[Discovery Bay Transit Services (Bus Services)](https://www.hkri.com/en/Our-Businesses/Hong-Kong/Discovery-Bay) 
 |Regional|[Ferry Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/ferries) 
 |Regional|[Green Minibus Services](https://www.td.gov.hk/en/transport_in_hong_kong/public_transport/minibuses) 
