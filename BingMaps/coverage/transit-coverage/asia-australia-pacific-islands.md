@@ -286,7 +286,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gunma|[Nagai Transport Co., Ltd.](http://www.nagai-unyu.net/)  
 |Shimada|[島田市](https://www.city.shimada.shizuoka.jp/kurashi-docs/bus.html) 
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
-|Yamanashi|[南アルプス市](http://www.city.minami-alps.yamanashi.jp/) 
+|Yamanashi|[南アルプス市](https://www.city.minami-alps.yamanashi.jp/) 
+
 |Yamanashi|[富士川町](http://www.town.fujikawa.yamanashi.jp/) 
 |Yamanashi|[富士急行グループ](http://www.fujikyu.co.jp/) 
 |Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
