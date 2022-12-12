@@ -245,7 +245,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## India
 |Locality|Transit Agency|
 |:--------------------|--------------|
-|Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
+|Ahmedabad|ABRTS
 |Ahmedabad|AMTS
 |Bangalore|[Bangalore Metro Rail Corporation](https://www.bmrc.co.in/) 
 
