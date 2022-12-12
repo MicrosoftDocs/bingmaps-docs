@@ -247,7 +247,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Ahmedabad|[ABRTS](http://www.ahmedabadbrts.org/) 
 |Ahmedabad|AMTS
-|Bangalore|[Bangalore Metro Rail Corporation](http://www.bmrc.co.in/) 
+|Bangalore|[Bangalore Metro Rail Corporation](https://www.bmrc.co.in/) 
+
 |Bangalore|[Bangalore Metropolitan Transport Corporation](https://mybmtc.karnataka.gov.in/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
 |Chennai|[MTC](http://www.mtcbus.org/) 
