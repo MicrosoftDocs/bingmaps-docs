@@ -26,7 +26,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 |Regional|[אפיקים](https://www.electra-afikim.co.il) 
 |Regional|[גי.בי.טורס](https://www.gb-tours.com) 
-|Regional|[גלים](http://www.galeem.co.il/) 
+|Regional|[גלים](https://www.galeem.co.il/) 
+
 |Regional|[דן](http://www.dan.co.il/) 
 |Regional|[דן באר שבע](http://www.danbr7.co.il/) 
 |Regional|[דן בדרום](http://www.danbadarom.co.il/) 
