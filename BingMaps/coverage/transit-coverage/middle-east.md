@@ -54,7 +54,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[קווים](https://www.kavim-t.co.il/) 
 
 |Regional|[רכבת ישראל](https://www.rail.co.il) 
-|Regional|[ש.א.מ](http://www.nazareth-unbs.com/) 
+|Regional|[ש.א.מ](https://www.nazareth-unbs.com/) 
+
 
 ## Turkey
 |Locality|Transit Agency|
