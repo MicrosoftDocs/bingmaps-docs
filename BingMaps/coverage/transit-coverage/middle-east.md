@@ -30,7 +30,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 |Regional|[דן](https://www.dan.co.il/) 
 
-|Regional|[דן באר שבע](http://www.danbr7.co.il/) 
+|Regional|[דן באר שבע](https://www.danbr7.co.il/) 
+
 |Regional|[דן בדרום](http://www.danbadarom.co.il/) 
 |Regional|דן צפו
 |Regional|[ירושלים - עיסאוויה מחנה שעפאט איחוד](https://bus.gov.il) 
