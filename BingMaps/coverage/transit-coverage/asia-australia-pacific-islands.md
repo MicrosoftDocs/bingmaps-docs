@@ -268,7 +268,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
-|New Delhi|[Delhi Metro Rail Corporation](http://www.delhimetrorail.com) 
+|New Delhi|[Delhi Metro Rail Corporation](https://www.delhimetrorail.com) 
+
 |New Delhi|[Delhi Transport Corporation](https://dtc.delhi.gov.in) 
 |New Delhi|Haryana Roadways Faridabad City Bus Service 
 |New Delhi|Haryana Roadways Gurgaon City Bus Service
