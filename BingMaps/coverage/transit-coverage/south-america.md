@@ -161,7 +161,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gran Concepcion|[Mini Buses Hualpencillo](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Llacolen](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Nahuelbus](https://moovitapp.com) 
-|Gran Concepcion|[Nueva Ruta 160](http://moovitapp.com) 
+|Gran Concepcion|[Nueva Ruta 160](https://moovitapp.com) 
+
 |Gran Concepcion|[Nueva Sol Yet](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Sotrapel](http://www.gorebiobio.cl/) 
 |Gran Concepcion|Nueva Takora 
