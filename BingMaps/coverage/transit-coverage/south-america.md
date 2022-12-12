@@ -66,7 +66,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Fortaleza|[COMPANHIA CEARENSE DE TRANSPORTES METROPOLITANOS](http://www.metrofor.ce.gov.br) 
 |Fraiburgo|[Santa Teresinha - Fraiburgo](https://www.santateresinha.com/site/) 
 |Gaspar|Coletivo Caturani 
-|Indaiatuba|[Sou Indaiatuba](http://www.souindaiatuba.com.br) 
+|Indaiatuba|[Sou Indaiatuba](https://www.souindaiatuba.com.br) 
+
 |Jaragua do Sul|[Viação Canarinho Ltda - Fretamento](http://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Guaramirim](http://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Intermunicipal Corupá](http://www.canarinho.com.br) 
