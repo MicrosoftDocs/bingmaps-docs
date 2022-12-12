@@ -159,7 +159,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gran Concepcion|[Nueva Sol Yet](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Sotrapel](http://www.gorebiobio.cl/) 
 |Gran Concepcion|Nueva Takora 
-|Gran Concepcion|[Pedro De Valdivia](http://www.alianzabus.cl/) 
+|Gran Concepcion|[Pedro De Valdivia](https://www.alianzabus.cl/) 
+
 |Gran Concepcion|[Penco Chiguayante Sur](http://www.gorebiobio.cl/) 
 |Gran Concepcion|[Playa Blanca](https://moovitapp.com) 
 
