@@ -93,7 +93,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Rio de Janeiro|[Metrô Rio](https://www.metrorio.com.br/) 
 |Rio de Janeiro|[Trem do Corcovado](http://www.corcovado.com.br/) 
 |Rio de Janeiro|[VLT Carioca](https://www.vltrio.com.br/#/) 
-|Santa Cruz do Sul|[Consórcio TCS](http://tcsconsorcio.com.br/) 
+|Santa Cruz do Sul|[Consórcio TCS](https://tcsconsorcio.com.br/) 
+
 |Sao Paulo|[Empresa Metropolitana de Transportes Urbanos de São Paulo S.A.](https://www.emtu.sp.gov.br/EMTU/home.htm) 
 |Sao Paulo|[SPTRANS](https://www.sptrans.com.br/?versao=221018) 
 |Telemaco Borba|[VINSA](http://www.vinsa.com.br) 
