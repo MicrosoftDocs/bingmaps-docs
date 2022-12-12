@@ -100,7 +100,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Telemaco Borba|[VINSA](http://www.vinsa.com.br) 
 |Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br)
 |Tramandai|[Expresso São José - ANTT](https://www.saojosebus.com.br) 
-|Tramandai|[Expresso São José - Metroplan / Daer](http://www.saojosebus.com.br) 
+|Tramandai|[Expresso São José - Metroplan / Daer](https://www.saojosebus.com.br) 
+
 |Tramandai|[Expresso São José - Rotas Escolares](http://www.saojosebus.com.br) 
 |Tramandai|[Expresso São José - Urbano](http://www.saojosebus.com.br)  
 |Uberaba|[Prefeitura de Uberaba](http://www.uberaba.mg.gov.br/portal/conteudo,8403) 
