@@ -263,7 +263,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mmrcl.com) 
-|Mumbai|[Mumbai Metropolitan Region Development Authority](http://mmrda.maharashtra.gov.in/home) 
+|Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/home) 
+
 |Mumbai|[NMMT](http://www.nmmtonline.com/) 
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
