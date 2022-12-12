@@ -63,7 +63,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Chapecó|[Transporte Turismo Tiquin](https://www.tiquin.com.br) 
 |Curitiba|[URBS](https://www.urbs.curitiba.pr.gov.br) 
 |Florianopolis|[Consórcio Fênix](https://www.consorciofenix.com.br) 
-|Fortaleza|[COMPANHIA CEARENSE DE TRANSPORTES METROPOLITANOS](http://www.metrofor.ce.gov.br) 
+|Fortaleza|COMPANHIA CEARENSE DE TRANSPORTES METROPOLITANOS
 |Fraiburgo|[Santa Teresinha - Fraiburgo](https://www.santateresinha.com/site/) 
 |Gaspar|Coletivo Caturani 
 |Indaiatuba|[Sou Indaiatuba](https://www.souindaiatuba.com.br) 
