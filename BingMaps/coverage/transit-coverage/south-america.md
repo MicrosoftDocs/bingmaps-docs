@@ -48,7 +48,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Blumenau|[BluMob](http://www.blumob.com.br/) 
 |Brusque|[Nosso Brusque](http://nossobrusque.hospedagemdesites.ws/novo/) 
 |Cabo Frio e Região|[Montes Brancos](http://www.salineira.com.br/) 
-|Cabo Frio e Região|[Salineira](http://www.salineira.com.br/) 
+|Cabo Frio e Região|[Salineira](https://www.salineira.com.br/) 
+
 |Cabo Frio e Região|[São Pedro](http://www.salineira.com.br/) 
 |Cachoeirinha|[Stadtbus - Cachoeirinha](http://www.stadtbus.com.br/) 
 |Campina Grande|PMCG - STTP - Consórcio Santa Maria 
