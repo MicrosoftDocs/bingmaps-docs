@@ -285,7 +285,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |:--------------------|--------------|
 |Fukuoka|[福岡市営渡船](https://www.hktport.city.fukuoka.lg.jp/) 
 |Gunma|[永井運輸株式会社](https://www.nagai-unyu.net/)
-|Gunma|[Nagai Transport Co., Ltd.](http://www.nagai-unyu.net/)  
+|Gunma|[Nagai Transport Co., Ltd.](https://www.nagai-unyu.net/)  
+
 |Shimada|[島田市](https://www.city.shimada.shizuoka.jp/kurashi-docs/bus.html) 
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](https://www.city.minami-alps.yamanashi.jp/) 
