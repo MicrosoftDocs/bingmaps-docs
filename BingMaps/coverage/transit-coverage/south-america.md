@@ -102,7 +102,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Tramandai|[Expresso São José - ANTT](https://www.saojosebus.com.br) 
 |Tramandai|[Expresso São José - Metroplan / Daer](https://www.saojosebus.com.br) 
 
-|Tramandai|[Expresso São José - Rotas Escolares](http://www.saojosebus.com.br) 
+|Tramandai|[Expresso São José - Rotas Escolares](https://www.saojosebus.com.br) 
+
 |Tramandai|[Expresso São José - Urbano](http://www.saojosebus.com.br)  
 |Uberaba|[Prefeitura de Uberaba](http://www.uberaba.mg.gov.br/portal/conteudo,8403) 
 |Valinhos|[Sou Valinhos](https://www.souvalinhos.com.br) 
