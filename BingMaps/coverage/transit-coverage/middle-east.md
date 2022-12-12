@@ -51,7 +51,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 |Regional|[סופרבוס](http://www.superbus.co.il/) 
 |Regional|סיטי פס 
-|Regional|[קווים](http://www.kavim-t.co.il/) 
+|Regional|[קווים](https://www.kavim-t.co.il/) 
+
 |Regional|[רכבת ישראל](https://www.rail.co.il) 
 |Regional|[ש.א.מ](http://www.nazareth-unbs.com/) 
 
