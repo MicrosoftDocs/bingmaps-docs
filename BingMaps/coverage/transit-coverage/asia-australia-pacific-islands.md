@@ -259,7 +259,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Kolkata|[Calcutta Tramways Company (1978) Limited](http://www.calcuttatramways.com/) 
 |Kolkata|[Metro Railway Kolkata](https://kolmetro.com/) 
 |Kolkata|[NBSTC](http://www.nbstc.in/) 
-|Kolkata|[SBSTC](http://sbstc.co.in/) 
+|Kolkata|SBSTC 
 |Kolkata|[WBSTC](https://en.wikipedia.org/wiki/West_Bengal_Surface_Transport_Corporation) 
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mmrcl.com) 
