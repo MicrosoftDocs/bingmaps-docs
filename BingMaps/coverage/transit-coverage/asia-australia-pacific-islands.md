@@ -346,7 +346,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[新莊區公所](http://www.xinzhuang.ntpc.gov.tw) 
 |Taipei|[東南客運](https://www.southeastbus.com) 
 |Taipei|[板橋區公所](https://www.banqiao.ntpc.gov.tw) 
-|Taipei|[林口區公所](http://www.linkou.ntpc.gov.tw) 
+|Taipei|[林口區公所](https://www.linkou.ntpc.gov.tw) 
+
 |Taipei|[桃園客運](http://www.tybus.com) 
 |Taipei|[樹林區公所](http://www.shulin.ntpc.gov.tw) 
 |Taipei|[欣欣客運](http://www.shinbus.com.tw/) 
