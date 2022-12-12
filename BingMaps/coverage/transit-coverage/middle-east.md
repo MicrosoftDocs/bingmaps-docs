@@ -45,7 +45,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[כרמלית](https://www.carmelithaifa.co.il) 
 |Regional|[מועצה אזורית גולן](https://www.golan.org.il/) 
 |Regional|[מטרופולין](https://www.metropoline.com) 
-|Regional|[נסיעות ותיירות](http://www.ntt-buses.com/) 
+|Regional|[נסיעות ותיירות](https://www.ntt-buses.com/) 
+
 |Regional|[נתיב אקספרס](https://www.nateevexpress.com/) 
 
 |Regional|[סופרבוס](http://www.superbus.co.il/) 
