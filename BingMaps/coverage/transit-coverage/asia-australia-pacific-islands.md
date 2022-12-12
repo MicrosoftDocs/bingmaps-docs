@@ -274,7 +274,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |New Delhi|Haryana Roadways Faridabad City Bus Service 
 |New Delhi|Haryana Roadways Gurgaon City Bus Service
 |New Delhi|[Indian Railway](https://erail.in) 
-|New Delhi|[Rapid MetroRail Gurgaon Limited](http://www.rapidmetrogurgaon.com) 
+|New Delhi|[Rapid MetroRail Gurgaon Limited](https://www.rapidmetrogurgaon.com) 
+
 |New Delhi|[Uttar Pradesh State Road Transport Corporation](http://www.upsrtc.com) 
 |Pune|[PMPML](http://www.pmpml.org/) 
 
