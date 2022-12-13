@@ -293,7 +293,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 
 |Yamanashi|[富士川町](https://www.town.fujikawa.yamanashi.jp/) 
 
-|Yamanashi|[富士急行グループ](http://www.fujikyu.co.jp/) 
+|Yamanashi|[富士急行グループ](https://www.fujikyu.co.jp/) 
+
 |Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[山梨交通（静岡営業所管内）](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[甲州市](https://www.city.koshu.yamanashi.jp/) 
