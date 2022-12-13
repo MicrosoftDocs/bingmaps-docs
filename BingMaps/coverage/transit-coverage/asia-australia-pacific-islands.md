@@ -291,7 +291,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](https://www.city.minami-alps.yamanashi.jp/) 
 
-|Yamanashi|[富士川町](http://www.town.fujikawa.yamanashi.jp/) 
+|Yamanashi|[富士川町](https://www.town.fujikawa.yamanashi.jp/) 
+
 |Yamanashi|[富士急行グループ](http://www.fujikyu.co.jp/) 
 |Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[山梨交通（静岡営業所管内）](http://yamanashikotsu.co.jp/) 
