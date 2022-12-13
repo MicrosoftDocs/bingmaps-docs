@@ -350,7 +350,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[平溪區公所](http://www.pingxi.ntpc.gov.tw) 
 |Taipei|[指南客運](http://www.csgroup-bus.com.tw) 
 |Taipei|[新北客運](http://www.csgroup-bus.com.tw) 
-|Taipei|[新店區公所](http://www.xindian.ntpc.gov.tw) 
+|Taipei|[新店區公所](https://www.xindian.ntpc.gov.tw) 
+
 |Taipei|[新店客運](http://www.sindianbus.com.tw) 
 |Taipei|[新莊區公所](http://www.xinzhuang.ntpc.gov.tw) 
 |Taipei|[東南客運](https://www.southeastbus.com) 
