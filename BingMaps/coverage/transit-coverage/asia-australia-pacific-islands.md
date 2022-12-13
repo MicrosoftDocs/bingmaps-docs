@@ -360,7 +360,8 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[林口區公所](https://www.linkou.ntpc.gov.tw) 
 
 |Taipei|[桃園客運](http://www.tybus.com) 
-|Taipei|[樹林區公所](http://www.shulin.ntpc.gov.tw) 
+|Taipei|[樹林區公所](https://www.shulin.ntpc.gov.tw) 
+
 |Taipei|[欣欣客運](http://www.shinbus.com.tw/) 
 |Taipei|[永和區公所](https://www.yonghe.ntpc.gov.tw) 
 
