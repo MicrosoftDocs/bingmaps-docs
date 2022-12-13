@@ -248,7 +248,6 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Ahmedabad|ABRTS
 |Ahmedabad|AMTS
 |Bangalore|[Bangalore Metro Rail Corporation](https://www.bmrc.co.in/) 
-
 |Bangalore|[Bangalore Metropolitan Transport Corporation](https://mybmtc.karnataka.gov.in/) 
 |Chennai|[Chennai Metro Rail Limited](https://chennaimetrorail.org/) 
 |Chennai|[MTC](https://mtcbus.org/) 
@@ -264,20 +263,16 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Mumbai|[BEST](https://www.bestundertaking.com/) 
 |Mumbai|[Mumbai Metro Rail Corporation Limited](https://www.mmrcl.com) 
 |Mumbai|[Mumbai Metropolitan Region Development Authority](https://mmrda.maharashtra.gov.in/home) 
-
 |Mumbai|NMMT
 |Mumbai|[TMT](https://www.thanecity.gov.in/) 
 |New Delhi|[Delhi Integrated Multi-modal Transit System Ltd.](https://www.dimts.in/) 
 |New Delhi|[Delhi Metro Rail Corporation](https://www.delhimetrorail.com) 
-
 |New Delhi|[Delhi Transport Corporation](https://dtc.delhi.gov.in) 
 |New Delhi|Haryana Roadways Faridabad City Bus Service 
 |New Delhi|Haryana Roadways Gurgaon City Bus Service
 |New Delhi|[Indian Railway](https://erail.in) 
-|New Delhi|[Rapid MetroRail Gurgaon Limited](https://www.rapidmetrogurgaon.com) 
-
+|New Delhi|[Rapid MetroRail Gurgaon Limited](https://www.rapidmetrogurgaon.com)
 |New Delhi|[Uttar Pradesh State Road Transport Corporation](https://www.upsrtc.com) 
-
 |Pune|[PMPML](https://www.pmpml.org/) 
 
 ## Japan
@@ -286,15 +281,11 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Fukuoka|[福岡市営渡船](https://www.hktport.city.fukuoka.lg.jp/) 
 |Gunma|[永井運輸株式会社](https://www.nagai-unyu.net/)
 |Gunma|[Nagai Transport Co., Ltd.](https://www.nagai-unyu.net/)  
-
 |Shimada|[島田市](https://www.city.shimada.shizuoka.jp/kurashi-docs/bus.html) 
 |Yamanashi|[中央市](https://www.city.chuo.yamanashi.jp/index.html) 
 |Yamanashi|[南アルプス市](https://www.city.minami-alps.yamanashi.jp/) 
-
 |Yamanashi|[富士川町](https://www.town.fujikawa.yamanashi.jp/) 
-
 |Yamanashi|[富士急行グループ](https://www.fujikyu.co.jp/) 
-
 |Yamanashi|[山梨交通グループ](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[山梨交通（静岡営業所管内）](http://yamanashikotsu.co.jp/) 
 |Yamanashi|[甲州市](https://www.city.koshu.yamanashi.jp/) 
@@ -351,20 +342,15 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Taipei|[指南客運](http://www.csgroup-bus.com.tw) 
 |Taipei|[新北客運](http://www.csgroup-bus.com.tw) 
 |Taipei|[新店區公所](https://www.xindian.ntpc.gov.tw) 
-
 |Taipei|[新店客運](https://www.sindianbus.com.tw) 
-
 |Taipei|[新莊區公所](https://www.xinzhuang.ntpc.gov.tw/) 
 |Taipei|[東南客運](https://www.southeastbus.com) 
 |Taipei|[板橋區公所](https://www.banqiao.ntpc.gov.tw) 
 |Taipei|[林口區公所](https://www.linkou.ntpc.gov.tw) 
-
 |Taipei|[桃園客運](http://www.tybus.com) 
 |Taipei|[樹林區公所](https://www.shulin.ntpc.gov.tw) 
-
 |Taipei|[欣欣客運](http://www.shinbus.com.tw/) 
 |Taipei|[永和區公所](https://www.yonghe.ntpc.gov.tw) 
-
 |Taipei|[汐止區公所](https://www.xizhi.ntpc.gov.tw/) 
 |Taipei|[泰山區公所](https://www.taishan.ntpc.gov.tw/) 
 |Taipei|[淡水區公所](https://www.tamsui.ntpc.gov.tw/) 
