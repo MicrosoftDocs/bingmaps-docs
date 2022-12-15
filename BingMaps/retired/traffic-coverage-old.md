@@ -22,7 +22,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
  
  Traffic flow refers to lines of color representing different levels of traffic congestion that display on a Bing map.  
  
-![A two-dimensional continental map with various countries in North America, South America, Africa, Asia, and Australia being highlighted.](media/BingMaps_Traffic_Flow_2018.PNG)
+![A two-dimensional continental map with various countries in North America, South America, Africa, Asia, and Australia being highlighted.](/BingMaps/coverage/media/BingMaps_Traffic_Flow_2018.PNG)
 
   
  ## Traffic Incidents
@@ -30,7 +30,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
  Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [Bing Maps Traffic API](../rest-services/traffic/index.md) and
 [Bing Maps V8 Web Control Traffic Module](../v8-web-control/modules/traffic-module/index.md).
 
-![Bing Maps Incident Flow Coverage](media/BingMaps_Traffic_Incident_2018.PNG)
+![Bing Maps Incident Flow Coverage](/BingMaps/coverage/media/BingMaps_Traffic_Incident_2018.PNG)
   
 ## Traffic Coverage Data 
 

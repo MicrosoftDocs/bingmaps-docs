@@ -18,12 +18,12 @@ ROBOTS: NOINDEX
 # NAVTEQNA
 
 > [!CAUTION]
-> The NAVTEQNA data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](../query-api/index.md) to search data from NAVTEQNA will return an error message. The replacement data source is the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source, please migrate to that data source before July 6, 2020 to avoid service disruption if using the NAVTEQNA data source.
+> The NAVTEQNA data source will be shutting down on **July 6, 2020**. After that date, any solution using the Bing Spatial Data Services [Query API](/bingmaps/spatial-data-services/query-api) to search data from NAVTEQNA will return an error message. The replacement data source is the [PointsOfInterest](/bingmaps/spatial-data-services/public-data-sources/pointsofinterest) data source, please migrate to that data source before July 6, 2020 to avoid service disruption if using the NAVTEQNA data source.
 
-The NAVTEQNA data source contains information about points of interest (POIs) in North America. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key.  
+The NAVTEQNA data source contains information about points of interest (POIs) in North America. You can query this data source by using the Bing Spatial Data Services [Query API](/bingmaps/spatial-data-services/query-api) and any Bing Maps Key.  
   
 > [!IMPORTANT]
->  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.                                              **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
+>  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](/bingmaps/spatial-data-services/query-api/query-by-area) and [Query by ID](/bingmaps/spatial-data-services/query-api/query-by-id) for details. POI entities may not be available for every location.                                              **Note:**  NAVTEQNA and NAVTEQEU data sources do not support the intersects and nearRoute filters.  
   
 ## POI Entity Properties  
  The following table describes the properties that you can query to get information about a point of interest in North America. These properties make up the NAVTEQPOIs entity type that is used by the NAVTEQNA data source.  
@@ -45,13 +45,13 @@ The NAVTEQNA data source contains information about points of interest (POIs) in
 |EntityTypeID|Edm.String|2084|  
   
 ## Entity Types  
- For a complete list of the entity type IDs that you can query, see [NAVTEQ POI Entity Types](../public-data-sources/navteq-poi-entity-types.md).  
+ For a complete list of the entity type IDs that you can query, see [NAVTEQ POI Entity Types](/bingmaps/spatial-data-services/public-data-sources/poi-entity-types).  
   
 ## How to query the NAVTEQNA data source  
- You can query NAVTEQNA data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  
+ You can query NAVTEQNA data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](/bingmaps/spatial-data-services/query-api).  
   
 > [!IMPORTANT]
->  When you query this data source for specify property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details.  
+>  When you query this data source for specify property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](/bingmaps/spatial-data-services/query-api/query-by-area) and [Query by ID](/bingmaps/spatial-data-services/query-api/query-by-id) for details.  
   
  **Base Query URL**  
   
@@ -61,7 +61,7 @@ http://spatial.virtualearth.net/REST/v1/data/f22876ec257b474b82fe2ffcb8393150/Na
   
  **Query Example**  
   
- The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any Bing Maps Key. For complete information about querying a data source, see [Query API](../query-api/index.md).  
+ The following query example queries for banks within 5 kilometers of the specified latitude and longitude. The query key you use can be any Bing Maps Key. For complete information about querying a data source, see [Query API](/bingmaps/spatial-data-services/query-api).  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/f22876ec257b474b82fe2ffcb8393150/NavteqNA/NavteqPOIs?spatialFilter=nearby(40.83274904439099,-74.3163299560546935,5)&$filter=EntityTypeID%20eq%20'6000'&$select=EntityID,DisplayName,Latitude,Longitude,__Distance&$top=3&key=anyBingMapsKey  

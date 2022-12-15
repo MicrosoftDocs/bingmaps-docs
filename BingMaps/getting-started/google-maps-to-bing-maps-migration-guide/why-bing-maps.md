@@ -87,7 +87,7 @@ email. Many customers who went from Bing Maps to Google Maps often
 citied the superior technical support offering from Bing Maps as a key
 reason for switching back. In addition to this, the terms of use for
 Bing Maps often align much better with enterprise privacy and security
-requirements. See [Bing Maps for Enterprise Developer Support Overview](https://mapsforenterprise.bingwebsites.net/wp-content/uploads/2020/12/Bing_Maps_Enterprise_Support_Overview.pdf) to learn more about the Enterprise support services available to all licensed Bing Maps customers.
+requirements. See [Bing Maps for Enterprise Developer Support Overview](https://mapsforenterprise.azurewebsites.net/wp-content/uploads/2020/12/Bing_Maps_Enterprise_Support_Overview.pdf) to learn more about the Enterprise support services available to all licensed Bing Maps customers.
 
 ## A Global Cloud platform
 
