@@ -22,20 +22,28 @@ Bing Maps APIs provide transit information for the following transit agencies in
 ## Austria
 |Locality|Transit Agency|
 |:--------------------|--------------|
+|Kärnten|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
+|Linz|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
+|Oberösterreich|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
+|Ost-Region|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
 |Regional|[Albus Salzburg Verkehrsbetrieb GmbH](https://albus.at/) 
 |Regional|[CAT - CityAirportTrain](https://www.cityairporttrain.com/) 
 |Regional|[Montafonerbahn AG](https://www.montafonerbahn.at/) 
+|Regional|[ÖBB](https://www.oebb.at) 
+|Regional|[ÖBB-Postbus GmbH](https://www.postbus.at/) 
 |Regional|[Salzburg AG - Festungsbahn](https://www.salzburg-ag.at/) 
 |Regional|[Salzburg AG - Mönchsbergaufzug](https://www.salzburg-ag.at/) 
-|Regional|[Salzburg AG - O-Bus]([http://www.obus.at](https://www.salzburg-ag.at/)) 
+|Regional|[Salzburg AG - O-Bus](https://www.salzburg-ag.at/) 
 |Regional|[Salzburg AG - Salzburger Lokalbahn](https://www.salzburg-ag.at/bus-bahn/regionalverkehr/salzburger-lokalbahn.html) 
 |Regional|[Salzkammergutbahn GmbH](https://www.5schaetze.at) 
 |Regional|[Stern & Hafferl Verkehrs-GmbH](https://www.stern-verkehr.at/) 
-|Regional|[ÖBB](https://www.oebb.at) 
-|Regional|[ÖBB-Postbus GmbH](https://www.postbus.at/) 
+|Salzburg|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
+|Steiermark|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
+|Tirol|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
 |Vienna|[WESTbahn Management GmbH](https://westbahn.at) 
+|Vienna|[Wiener Linien](https://www.wienerlinien.at/)
 |Vienna|[WLB](https://www.wlb.at/) 
-|Vienna|[Wiener Linien](https://www.wienerlinien.at/) 
+|Vorarlberg|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
 
 ## Belgium
 |Locality|Transit Agency|
