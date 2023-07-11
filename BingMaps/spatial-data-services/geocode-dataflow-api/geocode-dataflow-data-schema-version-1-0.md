@@ -222,7 +222,7 @@ The following table provides descriptions of the fields in the spatial data sche
 |Address.CountryRegion|Geocode Request<br /><br /> Geocode Response|A string specifying the country or region name of an address.<br /><br /> **Example**: US|  
 |Address.District|Geocode Request|A string specifying the higher level administrative subdivision used in some countries or regions.|  
 |Address.FormattedAddress|Geocode Response|A string that contains a full formatted address<br /><br /> **Note**: Do not use this field as a geocode request value. This field is used in the response.|  
-|Address.Locality|Geocode Request<br /><br /> Geocode Response|A string specifying the populated place for the address. This commonly refers to a city, but may refer to a suburb or a neighborhood in certain countries.<br /><br /> **Example**: Seattle|  
+|Address.Locality|Geocode Request<br /><br /> Geocode Response|A string specifying the populated place for the address. This commonly refers to a city, but may refer to a suburb or a neighborhood in certain countries/regions.<br /><br /> **Example**: Seattle|  
 |Address.Neighborhood|Geocode Response|A string specifying the neighborhood for the address.|  
 |Address.PostalCode|Geocode Request<br /><br /> Geocode Response|A string specifying the post code, postal code, or ZIP Code of an address.<br /><br /> **Example**: 98178|  
 |Address.PostalTown|Geocode Request|A string specifying the postal city of an address.|  

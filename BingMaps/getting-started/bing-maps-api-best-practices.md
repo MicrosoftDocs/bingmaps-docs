@@ -114,7 +114,7 @@ Many of the tips in the geocoding service apply for the routing service, such as
   
 The default distance units are in Kilometers. Use the [distanceUnit](https://msdn.microsoft.com/library/ff701717.aspx) parameter to change this to miles if that is your preferred unit of measurement.  
   
-You can now have up to three possible routes returned by the routing engine for transit and driving directions in certain countries. This may be desirable in some applications but it is best to make this optional to your users. Although the calculation on Bing Maps end is fast, the response from Bing Maps is much larger when returning 3 routes rather than one. This could become an issue for users with slow internet connections (i.e. mobile users).  
+You can now have up to three possible routes returned by the routing engine for transit and driving directions in certain countries/regions. This may be desirable in some applications but it is best to make this optional to your users. Although the calculation on Bing Maps end is fast, the response from Bing Maps is much larger when returning 3 routes rather than one. This could become an issue for users with slow internet connections (i.e. mobile users).  
   
 When using Bing Maps in areas where geocoding coverage is limited, consider allowing the user to select their start and end point on the map via a click event or by dragging a pushpin. This will allow you to pass in coordinates for your end points rather than an address. The routing engine is capable of calculating routes anywhere there is road data, even if there is no geocoding coverage.  
   

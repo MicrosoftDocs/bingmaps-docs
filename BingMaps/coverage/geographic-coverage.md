@@ -29,7 +29,7 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 
 ## Traffic
 
-Bing Maps APIs provide traffic coverage for the countries indicated in the coverage table. Traffic flow can be illustrated by lines of color representing different levels of traffic congestion that display on a Bing map. Traffic flow is can also used by the routing APIs. Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [Bing Maps Traffic API](../rest-services/traffic/index.md) and [Bing Maps V8 Web Control Traffic Module](../v8-web-control/modules/traffic-module/index.md). Traffic incident text is provided in the primary language of the country where the incident occurs.  
+Bing Maps APIs provide traffic coverage for the countries/regions indicated in the coverage table. Traffic flow can be illustrated by lines of color representing different levels of traffic congestion that display on a Bing map. Traffic flow is can also used by the routing APIs. Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [Bing Maps Traffic API](../rest-services/traffic/index.md) and [Bing Maps V8 Web Control Traffic Module](../v8-web-control/modules/traffic-module/index.md). Traffic incident text is provided in the primary language of the country where the incident occurs.  
 
 ## Truck Routing
 
@@ -44,7 +44,7 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 Bing Maps supports truck routing in the countries/regions indicated in the table below.
 
 > [!NOTE]
-> Not all truck restrictions may be supported or apply to all countries.
+> Not all truck restrictions may be supported or apply to all countries/regions.
 
 ## Geocoding  
   

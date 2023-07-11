@@ -28,7 +28,7 @@ Use the following formats to specify locations and areas on the Earth.
 |Address|Description|  
 |-------------|-----------------|  
 |`addressLine`|The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.<br /><br /> **Example**: `1 Microsoft Way`|  
-|`locality`|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries.<br /><br /> **Example**: `Seattle`|  
+|`locality`|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries/regions.<br /><br /> **Example**: `Seattle`|  
 |`neighborhood`|A string specifying the neighborhood for an address.<br /><br /> You must specify `includeNeighborhood=1` in your request to return the neighborhood.<br /><br /> **Example**: `Ballard`|  
 |`adminDistrict`|A string specifying the subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.<br /><br />**Example**: `WA`|  
 |`adminDistrict2`|A string specifying the subdivision name in the country or region for an address. This element is used when there is another level of subdivision information for a location, such as the county.<br /><br /> **Example**: `King`|  

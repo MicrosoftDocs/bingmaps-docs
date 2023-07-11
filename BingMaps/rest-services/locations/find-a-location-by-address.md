@@ -37,12 +37,12 @@ You can get information for a location in any country by setting one or more of 
 http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&adminDistrict={adminDistrict}&locality={locality}&postalCode={postalCode}&addressLine={addressLine}&userLocation={userLocation}&userIp={userIp}&usermapView={usermapView}&includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&key={BingMapsKey}  
 ```  
 
-Get the latitude and longitude coordinates based on a set of address values for specific countries**  
+Get the latitude and longitude coordinates based on a set of address values for specific countries/regions**  
   
 > [!NOTE]
 >  You can substitute a hyphen (-) for any structured URL parameter when there is no value.  
 >   
->  For countries that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
+>  For countries/regions that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
 >   
 >  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   

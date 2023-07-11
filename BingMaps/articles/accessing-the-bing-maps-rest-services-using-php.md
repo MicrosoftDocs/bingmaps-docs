@@ -106,7 +106,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/NY/10007/New York/291 Broadway?
 ### Geocoding by Address  
  To geocode a location by address, you must access the Locations API using a specially formatted URI that includes the street address, city, state, and postal code of the location you are trying to access.  
   
- As of this writing, the Locations API supports structured address URIs for the following countries:  
+ As of this writing, the Locations API supports structured address URIs for the following countries/regions:  
   
 -   United States (US)  
   
@@ -132,7 +132,7 @@ http://dev.virtualearth.net/REST/v1/Locations/countryRegion/adminDistrict/postal
   
 1.  In the United States, you can leave out the postal code (zip code) if it is unknown.  
   
-2.  In any of the supported countries, you can replace an address value (adminDistrict, postalCode, locality, or addressLine) with a dash (“-“) character if it is unknown.  
+2.  In any of the supported countries/regions, you can replace an address value (adminDistrict, postalCode, locality, or addressLine) with a dash (“-“) character if it is unknown.  
   
  Assuming you are using the PHP starter code we included as Listing 1 and have collected a Bing Maps key and address information from the user, you could use the following code to call the Locations API and geocode an address in the United States:  
   

@@ -16,13 +16,13 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Traffic Coverage
 
-Bing Maps APIs provide traffic coverage for the following countries. Traffic incident text is provided in the primary language of the country where the incident occurs.  
+Bing Maps APIs provide traffic coverage for the following countries/regions. Traffic incident text is provided in the primary language of the country where the incident occurs.  
   
  ## Traffic Flow
  
  Traffic flow refers to lines of color representing different levels of traffic congestion that display on a Bing map.  
  
-![A two-dimensional continental map with various countries in North America, South America, Africa, Asia, and Australia being highlighted.](/BingMaps/coverage/media/BingMaps_Traffic_Flow_2018.PNG)
+![A two-dimensional continental map with various countries/regions in North America, South America, Africa, Asia, and Australia being highlighted.](/BingMaps/coverage/media/BingMaps_Traffic_Flow_2018.PNG)
 
   
  ## Traffic Incidents
@@ -96,7 +96,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
 |Spain	|x	|x
 |Sweden	|x	|x
 |Switzerland	|x	|x
-|Taiwan, Republic of China	|x	| |
+|Taiwan	|x	| |
 |Thailand	|x	| |
 |Turkey	|x	|x
 |Ukraine	|x	|x
