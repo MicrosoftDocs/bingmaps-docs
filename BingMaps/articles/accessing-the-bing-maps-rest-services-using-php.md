@@ -118,7 +118,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/NY/10007/New York/291 Broadway?
   
 -   France (FR)  
   
- If you want to geocode addresses in a country other than one of the ones mentioned above, you must use an unformatted query string as discussed in the next section of this article.The general URI format for geocoding by address using the Locations API is as follows:  
+ If you want to geocode addresses in a country/region other than one of the ones mentioned above, you must use an unformatted query string as discussed in the next section of this article.The general URI format for geocoding by address using the Locations API is as follows:  
   
  The general URI format for geocoding by address using the Locations API is as follows:  
   
@@ -189,7 +189,7 @@ $longitude =
   
 ### Geocoding by Query
 
-If you don’t want to provide all of the information required by the Address method, or you want to geocode a location in a country that does not have a supported URL, you can perform a geocode operation using a query instead. A query is an unstructured string, which might be something like “119 Spadina Ave, Toronto, Ontario”.  
+If you don’t want to provide all of the information required by the Address method, or you want to geocode a location in a country/region that does not have a supported URL, you can perform a geocode operation using a query instead. A query is an unstructured string, which might be something like “119 Spadina Ave, Toronto, Ontario”.  
   
  The URI format for accessing the Locations API using a query is as follows:  
   
@@ -252,7 +252,7 @@ $address = $rgResponse->ResourceSets->
  ResourceSet->Resources->Location->Address->FormattedAddress;
 ```  
   
- Note that the FormattedAddress element combines the street address, city, state, country, and postal code.  
+ Note that the FormattedAddress element combines the street address, city, state, country/region, and postal code.  
   
  You can find complete information on the Locations API and its operations at [Locations](../rest-services/locations/index.md).  
   

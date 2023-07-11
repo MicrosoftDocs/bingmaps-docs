@@ -179,10 +179,10 @@ Valid values are between `0` and `360`.
 
 ### Language
 
-Specifies the language to be used when rendering locale-specific strings like country and city names.  
+Specifies the language to be used when rendering locale-specific strings like country/region and city names.  
 The string can be an ISO 639 two-letter lowercase culture code associated with a language. Example values: `"en"`,
 `"fr"`, `"ja"`.  
-The string can optionally be combined with an ISO 3166 two-letter uppercase subculture code associated with a country
+The string can optionally be combined with an ISO 3166 two-letter uppercase subculture code associated with a country/region
 or region (delimited by `-`). Example values: `"en-US"`, `"ko-KR"`, `"ja-JP"`.
 
 **Android**

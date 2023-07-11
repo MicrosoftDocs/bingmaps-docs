@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Traffic Coverage
 
-Bing Maps APIs provide traffic coverage for the following countries/regions. Traffic incident text is provided in the primary language of the country where the incident occurs.  
+Bing Maps APIs provide traffic coverage for the following countries/regions. Traffic incident text is provided in the primary language of the country/region where the incident occurs.  
   
  ## Traffic Flow
  
@@ -34,7 +34,7 @@ Bing Maps APIs provide traffic coverage for the following countries/regions. Tra
   
 ## Traffic Coverage Data 
 
-|Country|Traffic Flow|Traffic Incidents|
+|Country/Region|Traffic Flow|Traffic Incidents|
 |---|:---:|:---:|
 |Andorra	|x	| |
 |Argentina	|x|	 |

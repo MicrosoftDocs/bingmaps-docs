@@ -27,11 +27,11 @@ When you make a request by using one of the following URL templates, the respons
   
 [!INCLUDE [get-bing-maps-best-practices-note](../../includes/get-bing-maps-best-practices-note.md)]
     
-### Get the latitude and longitude coordinates based on a set of address values for any country
+### Get the latitude and longitude coordinates based on a set of address values for any country/region
 
 A URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
 
-You can get information for a location in any country by setting one or more of the parameters in the following URL.  
+You can get information for a location in any country/region by setting one or more of the parameters in the following URL.  
   
 ```url
 http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&adminDistrict={adminDistrict}&locality={locality}&postalCode={postalCode}&addressLine={addressLine}&userLocation={userLocation}&userIp={userIp}&usermapView={usermapView}&includeNeighborhood={includeNeighborhood}&maxResults={maxResults}&key={BingMapsKey}  
@@ -46,7 +46,7 @@ Get the latitude and longitude coordinates based on a set of address values for 
 >   
 >  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   
- A structured URL specifies the location data for the country as part of the URL path.  
+ A structured URL specifies the location data for the country/region as part of the URL path.  
   
  **Canada**  
   
@@ -113,7 +113,7 @@ http://dev.virtualearth.net/REST/v1/Locations/US/{adminDistrict}/{locality}/{add
 |`locality`||**Optional for unstructured URL.** The locality, such as the city or neighborhood, that corresponds to an address.|A string that contains the locality, such as a US city.<br /><br /> **Example**: Seattle|  
 |`postalCode`||**Optional for unstructured URL.** The post code, postal code, or ZIP Code of an address.|A string that contains the postal code, such as a US ZIP Code.<br /><br /> **Example**: 98178|  
 |`addressLine`||**Optional for unstructured URL.** The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.|A string specifying the street line of an address.<br /><br /> **Example**: 1 Microsoft Way|  
-|`countryRegion`||**Optional for unstructured URL.** The [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the country.|A string specifying the ISO country code.<br /><br /> **Example**: AU|  
+|`countryRegion`||**Optional for unstructured URL.** The [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the country/region.|A string specifying the ISO country code.<br /><br /> **Example**: AU|  
 |`includeNeighborhood`|`inclnb`|**Optional.** Specifies to include the neighborhood in the response when it is available. <br /><br />**Note:**  When you create your URL request, you can set the Locality parameter to a neighborhood. In this case, the neighborhood you provide may be returned in the neighborhood field of the response and a greater locality may be returned in the locality field. For example, you can create a request that specifies to include neighborhood information (`inclnb=1`) and that sets the Locality to Ballard and the AdminDistrict to WA (Washington State). In this case, the neighborhood field in the response is set to Ballard and the locality field is set to Seattle. You can find this example in the **Examples** section.|One of the following values:<br /><br /> - `1`: Include neighborhood information when available.<br />- `0` **[default]**: Do not include neighborhood information.<br />     **Example:**<br /> `inclnb=1`|  
 |`include`|`incl`|**Optional.** Specifies additional values to include.|The only value for this parameter is `ciso2`. When you specify `include=ciso2`, the [two-letter ISO country code](https://www.iso.org/iso/country_codes.htm) is included for addresses in the response.<br /><br /> **Example:**<br /><br /> `incl=ciso2`|  
 |`maxResults`|`maxRes`|**Optional.** Specifies the maximum number of locations to return in the response.|A string that contains an integer between 1 and 20. The default value is 5.<br /><br /> **Example:**<br /><br /> `maxResults=10`|  

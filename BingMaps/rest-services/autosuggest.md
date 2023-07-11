@@ -52,7 +52,7 @@ http://dev.virtualearth.net/REST/v1/Autosuggest?query=<user_prefix>&userLocation
 |`includeEntityTypes` | `inclenttype` | **Optional.** A comma separated list of returned entity types. The possible values are:<br /> <br />- `Address`<br />- `Place`<br />- `Business`<br /><br />**Note:** These types are mutually inclusive. `Place` represents points of interest, like natural landmarks.<br /><br />Default: `Address,Place,Business` |
 |`culture` | `c` | **Optional.** The language of query prefixes.<br /><br />Example: `en-GB`.<br /><br />Default: `en-US`. |
 |`userRegion` |`ur` | **Optional**. The user’s market denoted by 2-letter country code abbreviations.<br /><br />Example: `DE`.<br /><br />Default: `US`. |
-|`countryFilter` | `cf` | **Optional**. Used to constrain entity suggestions to a single country denoted by a 2-letter country code abbreviation.<br /><br />Example: `DE`.<br /><br />Default: `none`. |
+|`countryFilter` | `cf` | **Optional**. Used to constrain entity suggestions to a single country/region denoted by a 2-letter country code abbreviation.<br /><br />Example: `DE`.<br /><br />Default: `none`. |
 |`output` | `o`  |**Optional**. Format of the response:<br /><br />- `JSON`<br />- `XML`<br /><br />Default: `JSON`. |
 
 ## Response Format
