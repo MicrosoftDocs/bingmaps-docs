@@ -164,7 +164,7 @@ These fields are specific to the RouteLeg collection in the Route resource.
 |`name`|`Name`|string|A street, highway or intersection where the maneuver occurs. If the maneuver is complex, there may be more than one name field in the details collection. The name field may also have no value. This can occur if the name is not known or if a street, highway or intersection does not have a name. **Note:**  This value is only supported for the transit travel mode.|  
 |`startPathIndices`<br /><br /> `endPathIndices`|`StartPathIndex`<br /><br /> `EndPathIndex`|Array of Numbers|These fields specify index values for specific route path points that are returned in the response when a route path is returned. Together, these two index values define a range of route path points that correspond to a maneuver. Route path index values are integers where the first route path point has an index value of 0.|  
 |`roadType`|`RoadType`|`string`|The type of road.|  
-|`locationCode`|`LocationCode`|Array of strings|A traffic location code. Each location code provides traffic incident information for pre-defined road segments. There may be multiple codes for each Detail collection in the response. A subscription is typically required to be able to interpret these codes for a geographical area or country.|  
+|`locationCode`|`LocationCode`|Array of strings|A traffic location code. Each location code provides traffic incident information for pre-defined road segments. There may be multiple codes for each Detail collection in the response. A subscription is typically required to be able to interpret these codes for a geographical area or country/region.|  
   
  **Transit Line Fields**  
   

@@ -1,6 +1,6 @@
 ---
 title: "Asia Australia Pacific Transit Coverage | Microsoft Docs"
-description: "Describes Bing Maps API transit information for various countries in Asia and Oceania, including Australia, New Zealand, Hong Kong, Malaysia, and Taiwan."
+description: "Bing Maps API transit information for various countries/regions in Asia and Oceania, including Australia, New Zealand, Hong Kong SAR, Malaysia, and Taiwan."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -225,7 +225,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Wellington|[Valley Flyer](https://www.metlink.org.nz) 
 |Wellington|[Wellington Cable Car](https://www.wellingtoncablecar.co.nz) 
 
-## Hong Kong
+## Hong Kong Special Administrative Unit
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[Citybus](https://www.bravobus.com.hk) 

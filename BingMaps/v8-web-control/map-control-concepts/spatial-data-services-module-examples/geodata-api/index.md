@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoData API Examples
 
-The [GeoData API](../../../../spatial-data-services/geodata-api.md) is a component of the Bing Spatial Data Services. You can use the GeoData API to retrieve administrative boundaries such as postal codes, states, and countries. Bing Maps V8 exposed this API through the [GeoDataAPIManager](../../../modules/spatial-data-service-module/geodataapimanager-class.md).
+The [GeoData API](../../../../spatial-data-services/geodata-api.md) is a component of the Bing Spatial Data Services. You can use the GeoData API to retrieve administrative boundaries such as postal codes, states, and countries/regions. Bing Maps V8 exposed this API through the [GeoDataAPIManager](../../../modules/spatial-data-service-module/geodataapimanager-class.md).
 
 ## Examples
 

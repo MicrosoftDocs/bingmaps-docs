@@ -26,7 +26,7 @@ The following warning type values are used to set the warningType attribute that
 |BlockedRoad|The road is closed or blocked.|  
 |CheckTimetable|Check a time table. This usually refers to a ferry or Autorail time table.|  
 |Congestion|The traffic is slow.|  
-|CountryChange|The route has left one country and entered another.|  
+|CountryChange|The route has left one country/region and entered another.|  
 |DisabledVehicle|There is a disabled vehicle.|  
 |GateAccess|A gate blocks the road and access is required to continue along the route.|  
 |GetOffTransit|Get off the transit at this location.|  

@@ -39,7 +39,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/{point}?datetime={datetime_utc}&ke
 
 Given a query for a location, like `query = Bellevue, WA`, the Time Zone API finds that location and then returns information about the time zone for that location.
 
-To avoid ambiguity when processing location names, make sure to fully qualify the location name with state (administrative region) and country names.
+To avoid ambiguity when processing location names, make sure to fully qualify the location name with state (administrative region) and country/region names.
 
 ```url
 https://dev.virtualearth.net/REST/v1/TimeZone/?query={query}&datetime={datetime_utc}&key={BingMapsKey}
@@ -50,7 +50,7 @@ https://dev.virtualearth.net/REST/v1/TimeZone/?query={query}&datetime={datetime_
 |Parameters |Alias  |Descriptions  |Values |
 |:------|:----:|---------|---------|
 |`point` | | **Required for getting Time Zone by Location Point.** The coordinates of the location for which you want the entities situated.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | A point on the Earth specified by a latitude and longitude. For more information, see the definition of Point in [Location and Area Types](../common-parameters-and-types/location-and-area-types.md). <br /><br />Use the following ranges of values:<br /><br />- `Latitude` (degrees): `[-90, +90]`<br />- `Longitude` (degrees): `[-180, +180]`<br /><br />*Example*: `47.610679194331169,-122.10788659751415`| 
-|`query` |`q` | **Required for getting Time Zone by Query.** A string containing information about the location, including address, locality, and postal code.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | To properly identify the given location, provide a fully qualified location e.g. place name, administrative region and country name.<br /><br />**Note:**	To avoid ambiguous results specify a qualified location name. For example, there are two Vancouvers, one in British Columbia, Canada and the other in Washington state, USA, so instead of the query "Vancouver" use either "Vancouver, BC" or "Vancouver, WA" (alternatively: "Vancouver, Canada" or "Vancouver, USA"). If no such qualification is present and multiple locations of the given name are detected, then more likely than not the most popular location is returned. <br /><br />**Note:** Please use full country names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries, e.g., use either `Capetown, ZA` or `Captetown, South Africa` instead of `Capetown, SA`. <br /><br />*Examples*:<br /><br />- `query = bellevue,wa,us`<br />- `q = 98052,wa`|
+|`query` |`q` | **Required for getting Time Zone by Query.** A string containing information about the location, including address, locality, and postal code.<br /><br />**Note:** The `point` and `query` parameters are mutually exclusive. Only one of these parameters can be specified in the same call. | To properly identify the given location, provide a fully qualified location e.g. place name, administrative region and country/region name.<br /><br />**Note:**	To avoid ambiguous results specify a qualified location name. For example, there are two Vancouvers, one in British Columbia, Canada and the other in Washington state, USA, so instead of the query "Vancouver" use either "Vancouver, BC" or "Vancouver, WA" (alternatively: "Vancouver, Canada" or "Vancouver, USA"). If no such qualification is present and multiple locations of the given name are detected, then more likely than not the most popular location is returned. <br /><br />**Note:** Please use full country/region names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries, e.g., use either `Capetown, ZA` or `Captetown, South Africa` instead of `Capetown, SA`. <br /><br />*Examples*:<br /><br />- `query = bellevue,wa,us`<br />- `q = 98052,wa`|
 |`dateTime` |`dt`| **Optional.** The UTC date time string for the specified location. The date must be specified to apply the correct DST. |  The date time string must be in UTC format. If the date is not included, the returned time zone information may be incorrect.<br /><br />*Example*: `2018-05-15T13:14:15Z`|  
 |`includeDstRules`| | **Optional.** If set to `true` then DST rule information will be returned in the response.<br /><br />**Note**: For information about DST rules, see the [DSTRule Resource](time-zone-data.md). | Either `true` or `false`.<br /><br />Default: `false` |
 |`output`|`o`|**Optional.** Output format of the response.|Format of the response:<br/><br/>- `JSON`<br />- `XML`<br /><br />Default: `JSON`|
@@ -184,7 +184,7 @@ This example sends a request with the query “Bellevue, WA” and returns an XM
 
 > [!TIP]
 >
-> Use full country names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries. For example, use “Capetown, ZA” or “Captetown, South Africa” instead of “Capetown, SA”.
+> Use full country/region names or [official ISO country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in queries. For example, use “Capetown, ZA” or “Captetown, South Africa” instead of “Capetown, SA”.
 
 The request URL:
 

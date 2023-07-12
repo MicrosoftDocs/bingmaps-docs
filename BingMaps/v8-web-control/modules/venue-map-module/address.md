@@ -26,7 +26,7 @@ Represents an address of a [venue] map or [entity] within a venue map.
 |-------------------|--------|-------------|
 | addressLine       | string | The first line of the address that identifies the street location. |
 | suite             | string | The suite identifier. |
-| locality          | string | The populated for the address which may be the city, suburb, or neighborhood depending on the country. |
+| locality          | string | The populated for the address which may be the city, suburb, or neighborhood depending on the country/region. |
 | adminDistrict     | string | The subdivision name in the country or region (may be state, province, etc.). |
 | adminDistrict2    | string | The subdivision in the adminDistrict. |
 | postalCode        | string | The post code, postal code, or ZIP code of the address. |

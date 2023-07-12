@@ -10,7 +10,7 @@ ms.service: bing-maps
 ---
 # Traffic API
 
-Use the Traffic API to get information about traffic incidents and issues, such as construction sites and traffic congestion. For traffic incident coverage by country, see [Bing Maps Geographic Coverage](../../coverage/geographic-coverage.md). For an overview of how traffic incident information is returned by the Routes API and the Traffic API, see [Getting Traffic Incident Data](../getting-traffic-incident-data.md).  
+Use the Traffic API to get information about traffic incidents and issues, such as construction sites and traffic congestion. For traffic incident coverage by country/region, see [Bing Maps Geographic Coverage](../../coverage/geographic-coverage.md). For an overview of how traffic incident information is returned by the Routes API and the Traffic API, see [Getting Traffic Incident Data](../getting-traffic-incident-data.md).  
   
 ## In this section  
   

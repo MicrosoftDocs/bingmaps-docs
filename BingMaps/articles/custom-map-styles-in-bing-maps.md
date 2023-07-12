@@ -134,7 +134,7 @@ Map style sheets can be created interactively using the [Map Style Sheet Editor
 
 The following are some known limitations of custom map styles.
 
--   Custom styles are not supported for all country maps. Custom maps styles require the use of vector map data. Some countries have strict regulations around vector map data which prevents the Bing Maps team from using it to create custom map styles on the fly. This effects China, South Korea, and Japan currently. If you zoom into one of these countries, you will see the default map tile style appear for these countries while surrounding areas will use the custom map style.
+-   Custom styles are not supported for all country/region maps. Custom maps styles require the use of vector map data. Some countries/regions have strict regulations around vector map data which prevents the Bing Maps team from using it to create custom map styles on the fly. This effects China, South Korea, and Japan currently. If you zoom into one of these countries/regions, you will see the default map tile style appear for these countries/regions while surrounding areas will use the custom map style.
 
 **Bing Maps V8**
 
@@ -217,9 +217,9 @@ Here are some sample custom map styles.
 me|lbc:ffffff;loc:000000_pl|bsc:144b53;boc:00000000_pt|ic:0c4152;fc:000000;sc:0c4152_trs|sc:000000;fc:000000_hg|sc:158399;fc:000000_cah|sc:158399;fc:000000_ard|sc:157399;fc:000000_mr|sc:157399;fc:000000_rl|sc:146474;fc:000000_str|fc:115166_wt|fc:021019_ar|fc:115166_g|lc:0b334d
 ```
 
-### Countries Only Style
+### Countries/Regions Only Style
 
-![Country Only Map Style](../articles/media/bmv8-countryonlymapstyle.png)
+![Country-Region Only Map Style](../articles/media/bmv8-countryonlymapstyle.png)
 
 ```json
 {

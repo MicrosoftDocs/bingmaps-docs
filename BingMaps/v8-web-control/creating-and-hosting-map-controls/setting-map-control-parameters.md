@@ -65,7 +65,7 @@ The resulting map looks like this:
 | Catalan Spanish | ca | x | x | x | x |
 | Central Kurdish | ku-Arab | x |  | x* | x |
 | Chinese - China | zh-CN | x | x | x | x |
-| Chinese - Hong Kong | zh-HK | x | x | x | x |
+| Chinese - Hong Kong Special Administrative Unit | zh-HK | x | x | x | x |
 | Chinese - Simplified | zh-Hans | x | x | x | x |
 | Chinese - Taiwan | zh-TW | x | x | x | x |
 | Chinese - Traditional | zh-Hant | x | x | x | x |

@@ -1,6 +1,6 @@
 ---
 title: "Europe Transit Coverage | Microsoft Docs"
-description: "Describes Bing Maps API transit information for various countries in Europe, including Austria, Belgium, Denmark, France, Italy, and the United Kingdom."
+description: "Describes Bing Maps API transit information for various countries/regions in Europe, including Austria, Belgium, Denmark, France, Italy, and the United Kingdom."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
