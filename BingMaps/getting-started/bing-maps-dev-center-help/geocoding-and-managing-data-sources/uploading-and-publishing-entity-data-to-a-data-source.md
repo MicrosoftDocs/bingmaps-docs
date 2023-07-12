@@ -41,7 +41,7 @@ You can upload, geocode, and publish entity data to a data source by using the B
 |`Latitude`|[**Required in data schema**]. A double value that represents degrees of latitude.<br /><br /> Valid range of latitude values: [-90, +90]<br /><br /> **Example**: 47.673099|  
 |`Longitude`|[**Required in data schema**] A double value that represents degrees of latitude.<br /><br /> Valid range of longitude values: [-180, +180]<br /><br /> **Example**: -122.11871|  
 |`AddressLine`|The official street line of an address relative to the area, as specified by the Locality, or PostalCode, properties. Typical use of this element would be to provide a street address or any official address.<br /><br /> **Example**: 1 Microsoft Way|  
-|`Locality`|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries.<br /><br /> **Example**: Seattle|  
+|`Locality`|A string specifying the populated place for the address. This typically refers to a city, but may refer to a suburb or a neighborhood in certain countries/regions.<br /><br /> **Example**: Seattle|  
 |`AdminDistrict`|A string specifying the subdivision name in the country or region for an address. This element is typically treated as the first order administrative subdivision, but in some cases it is the second, third, or fourth order subdivision in a country, dependency, or region.<br /><br /> **Example**: WA|  
 |`PostalCode`|A string specifying the post code, postal code, or ZIP Code of an address.<br /><br /> **Example**: 98178|  
 |`CountryRegion`|A string specifying the country or region name of an address.<br /><br /> **Example**: United States|  

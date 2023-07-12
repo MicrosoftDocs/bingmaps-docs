@@ -52,6 +52,6 @@ The following code example takes a URL to a GeoJSON file that is hosted on the s
 </html>
 ```
 
-Here is what this GeoJSON file looks like on the map. All the country boundaries displayed as polygons.
+Here is what this GeoJSON file looks like on the map. All the country/region boundaries displayed as polygons.
 
 ![Screenshot of a Bing map showing North America, South America, Europe, and Africa with all countries overlaid by polygon shapes.](../../media/bmv8-readsamedomaingeojsonexample-map.png)

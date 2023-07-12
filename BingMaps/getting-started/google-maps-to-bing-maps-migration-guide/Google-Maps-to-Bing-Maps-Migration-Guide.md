@@ -298,7 +298,7 @@ there.
 
 ### Localizing the Map
 
-If your audience is spread across multiple countries or speaks different
+If your audience is spread across multiple countries/regions or speaks different
 languages, localization is important.
 
 #### Localization in Google Maps

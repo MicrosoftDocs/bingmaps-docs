@@ -26,7 +26,7 @@ Given a request with a user’s location and a partial query (called a `query pr
 
 There are three possible kinds of entities: Addresses/Roads, Places, and Businesses. Requests can be specified to return any combination of these entities.
 
-Presently, `Business` entities are only available in the following countries: `US`, `CA`, `AU`, `IN`, `DE`, `ES`, `IT` and `BR`. These are irrespective of the culture parameter.
+Presently, `Business` entities are only available in the following countries/regions: `US`, `CA`, `AU`, `IN`, `DE`, `ES`, `IT` and `BR`. These are irrespective of the culture parameter.
 
 ## API Signature
 
@@ -52,7 +52,7 @@ http://dev.virtualearth.net/REST/v1/Autosuggest?query=<user_prefix>&userLocation
 |`includeEntityTypes` | `inclenttype` | **Optional.** A comma separated list of returned entity types. The possible values are:<br /> <br />- `Address`<br />- `Place`<br />- `Business`<br /><br />**Note:** These types are mutually inclusive. `Place` represents points of interest, like natural landmarks.<br /><br />Default: `Address,Place,Business` |
 |`culture` | `c` | **Optional.** The language of query prefixes.<br /><br />Example: `en-GB`.<br /><br />Default: `en-US`. |
 |`userRegion` |`ur` | **Optional**. The user’s market denoted by 2-letter country code abbreviations.<br /><br />Example: `DE`.<br /><br />Default: `US`. |
-|`countryFilter` | `cf` | **Optional**. Used to constrain entity suggestions to a single country denoted by a 2-letter country code abbreviation.<br /><br />Example: `DE`.<br /><br />Default: `none`. |
+|`countryFilter` | `cf` | **Optional**. Used to constrain entity suggestions to a single country/region denoted by a 2-letter country code abbreviation.<br /><br />Example: `DE`.<br /><br />Default: `none`. |
 |`output` | `o`  |**Optional**. Format of the response:<br /><br />- `JSON`<br />- `XML`<br /><br />Default: `JSON`. |
 
 ## Response Format
