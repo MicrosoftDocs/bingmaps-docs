@@ -72,7 +72,6 @@ Bing Maps supports truck routing in the following countries/regions.
 | Liechtenstein          | x                          |
 | Lithuania              | x                          |
 | Luxembourg             | x                          |
-| Macedonia, FYRO        | x                          |
 | Malaysia               | x                          |
 | Malta                  | x                          |
 | Mexico                 | x                          |
@@ -83,6 +82,7 @@ Bing Maps supports truck routing in the following countries/regions.
 | Namibia                | x                          |
 | Netherlands            | x                          |
 | New Zealand            | x                          |
+| North Macedonia        | x                          |
 | Norway                 | x                          |
 | Oman                   | x                          |
 | Philippines            | x                          |
@@ -105,7 +105,7 @@ Bing Maps supports truck routing in the following countries/regions.
 | Switzerland            | x                          |
 | Taiwan                 | x                          |
 | Thailand               | x                          |
-| Turkey                 | x                          |
+| Türkiye                 | x                          |
 | Ukraine                | x                          |
 | United Arab Emirates   | x                          |
 | United Kingdom         | x                          |
