@@ -11,7 +11,7 @@ ms.assetid: f04e3fe7-8308-4d64-8180-455780d8376e
 caps.latest.revision: 21
 author: "flavius-stoichescu"
 ms.author: "flstoich"
-manager: "catalin.capota"
+manager: "ccapota"
 ms.service: "bing-maps"
 ---
 
