@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2d23ea4d-48d1-4760-a072-436c00b3658d
 caps.latest.revision: 20
 author: "flavius-stoichescu"
-ms.author: "flavius.stoichescu"
+ms.author: "flstoich"
 manager: "catalin.capota"
 ms.service: "bing-maps"
 ---
