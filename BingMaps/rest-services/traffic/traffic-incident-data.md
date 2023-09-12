@@ -2,16 +2,16 @@
 title: "Traffic Incident Data | Microsoft Docs"
 description: This article describes the Traffic Incident Data contained in TrafficIncident resources, returned by a Traffic URL, in a table that describes each field. Both JSON and XML formats are shown.
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "09/12/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f04e3fe7-8308-4d64-8180-455780d8376e
 caps.latest.revision: 21
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
+author: "flavius-stoichescu"
+ms.author: "flstoich"
+manager: "ccapota"
 ms.service: "bing-maps"
 ---
 
@@ -27,21 +27,24 @@ The response returned by a Traffic URL contains one or more TrafficIncident reso
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|`point`|`Point`|`Point`|**Required.** The latitude and longitude coordinates where you encounter the incident.|  
-|`congestion`|`CongestionInfo`|`string`|A description of the congestion.<br /><br /> Examples:<br /><br /> -   generally slow<br />-   sluggish|  
+|`point`|`Point`|`Point`|**Required.** The latitude and longitude coordinates where you encounter the incident.|    
 |`description`|`Description`|`string`|A description of the incident.<br /><br /> Examples:<br /><br /> -   W 95th St between Switzer Rd and Bluejacket Dr - construction<br />-   WB Johnson Dr at I-435 - bridge repair|  
 |`start`|`StartTimeUTC`|UTC Time|**Required.** The time the incident occurred. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
 |`end`|`EndTimeUTC`|UTC Time|**Required.** The time that the traffic incident will end. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
-|`incidentId`|`IncidentId`|`long`|**Required.** A unique ID for the incident.|  
-|`lane`|`LaneInfo`|`string`|A description specific to lanes, such as lane closures.<br /><br /> Examples:<br /><br /> -   All lanes blocked<br />-   Left lane blocked|  
+|`incidentId`|`IncidentId`|`long`|**Required.** A unique ID for the incident.|   
 |`lastModified`|`LastModifiedUTC`|DateTime|**Required.** The time the incident information was last updated. For more information about the format, see the **About Time Values** section below.<br /><br /> Examples:<br /><br /> -   JSON: Date(1295704800000)<br />-   XML: 2011-06-29T23:44:56.593Z|  
 |`roadClosed`|`RoadClosed`|`Boolean`|**Required.** A value of `true` indicates that there is a road closure.|  
 |`severity`|`Severity`|`integer`|**Required.** Specifies the level of importance of incident.<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious|  
-|`toPoint`|`ToPoint`|`Point`|The coordinates of the end of a traffic incident, such as the end of a construction zone.|  
-|`locationCodes`|`LocationCodes`|string collection|A collection of traffic location codes. This field is provided when you set the includeLocationCodes parameter to true in the request. These codes associate an incident with pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country/region.|  
+|`severityScore`|`SeverityScore`|`integer`| Integer score between  0 (least impactful) and 100 (most impactful), indicating the ranked impact of an incident to overall traffic conditions or disruption caused to motorists.|
+|`toPoint`|`ToPoint`|`Point`|The coordinates of the end of a traffic incident, such as the end of a construction zone.|    
 |`type`|`Type`|`integer`|**Required.** Specifies the type of incident.<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather|  
-|`verified`|`Verified`|`boolean    |**Required.** A value of `true` indicates that the incident has been visually verified or otherwise officially confirmed by a source like the local police department.|  
-  
+|`verified`|`Verified`|`boolean`    |**Deprecated.**<br/>*Always true.*<br/><br/>A value of `true` indicates that the incident has been visually verified or otherwise officially confirmed by a source like the local police department.|  
+|`isEndTimeBackfilled`|`IsEndTimeBackfilled`|`boolean`| Flag used to determine if incident end time is calculated by adding 2 hours to the start time. A value of `false` indicates the end time is provided.|
+|`title`|`Title`| `string` | Names and direction of affected roads. |
+|`alertCCodes`|`AlertCCodes`| array of `integer`| **Deprecated.**<br/>*Use `eventList` instead.*<br/><br/> List of internal event codes, Microsoft mapped from Alert-C Codes.|
+|`eventList`| `EventList` | array of `integer` | List of Array-C Codes for the incident.|
+|`icon`| `Icon` | `integer` | Icon suggestion for rendering the incident on the map.<br/> - 0: Warning <br /> - 1: RoadClosure <br/> - 2: Accident <br/> - 3: Construction <br/> - 4: HeavyTraffic <br /> - 5: ModerateTraffic <br /> - 6: Restrictions|
+|`isJamcident`|`IsJamcident`|`boolean`| Flag indicating that the area of road covered by this incident is experiencing abnormal traffic conditions resulting in non-typical delays.|
 ### About time values  
 
 Time values in the TrafficIncident resource data use UTC time. The format for XML and JSON responses are different.  
@@ -67,79 +70,114 @@ For JSON responses, the time is specified as UTC time in milliseconds using the 
 ### JSON Example  
   
 ```json
-{  
-   "__type":"TrafficIncident:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
-   "point":{  
-      "type":"Point",  
-      "coordinates":[  
-         38.64829,  
-         -94.36405  
-      ]  
-   },  
-   "congestion":"",  
-   "description":"in both directions between MO-2\/MO-7 and MO-291\/Cantrell Rd - construction",  
-   "end":"\/Date(1316217600000)\/",  
-   "incidentId":214828828,  
-   "lane":"Total Lanes lane blocked",  
-   "lastModified":"\/Date(1310385750290)\/",  
-   "roadClosed":false,  
-   "severity":2,  
-   "start":"\/Date(1310126400000)\/",  
-   "toPoint":{  
-      "type":"Point",  
-      "coordinates":[  
-         38.65831,  
-         -94.36706  
-      ]  
-   },  
-   "locationCodes":[  
-      "119+05041",  
-      "119+05042",  
-      "119-05041",  
-      "119-05042",  
-      "119N05041",  
-      "119N05042",  
-      "119P05041",  
-      "119P05042"  
-   ],  
-   "type":9,  
-   "verified":true  
-}  
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
+        {
+            "estimatedTotal": 1802,
+            "resources": [
+                {
+                    "__type": "TrafficIncident:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.682642,
+                            -104.939053
+                        ]
+                    },
+                    "alertCCodes": [
+                        4
+                    ],
+                    "delay": 0,
+                    "description": "At CO 2/Colorado Boulevard (Denver) at Mile Point 204. Two right lanes are closed due to a crash.",
+                    "end": "/Date(1694535707744)/",
+                    "eventList": [
+                        203
+                    ],
+                    "icon": 2,
+                    "incidentId": 18558549332008001,
+                    "isEndTimeBackfilled": true,
+                    "isJamcident": false,
+                    "lastModified": "/Date(1694528507744)/",
+                    "roadClosed": false,
+                    "severity": 4,
+                    "severityScore": 99,
+                    "source": 5,
+                    "start": "/Date(1694526697000)/",
+                    "title": "I-25 N / US-87 N",
+                    "toPoint": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.68307,
+                            -104.940412
+                        ]
+                    },
+                    "type": 1,
+                    "verified": true
+                }
+            ]
+        }
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "0e2cfdc28b554661b9539c1891244f28|DU00003090|0.0.0.0"
+}
 ```  
   
 ### XML Example  
   
 ```xml
-<TrafficIncident>  
-  <Point>  
-    <Latitude>38.64829</Latitude>  
-    <Longitude>-94.36405</Longitude>  
-  </Point>  
-  <IncidentId>214828828</IncidentId>  
-  <LastModifiedUTC>2011-07-11T12:02:30.29Z</LastModifiedUTC>  
-  <StartTimeUTC>2011-07-08T12:00:00Z</StartTimeUTC>  
-  <EndTimeUTC>2011-09-17T00:00:00Z</EndTimeUTC>  
-  <Type>Construction</Type>  
-  <Severity>Minor</Severity>  
-  <Verified>true</Verified>  
-  <RoadClosed>false</RoadClosed>  
-  <Description>in both directions between MO-2/MO-7 and MO-291/Cantrell Rd - construction</Description>  
-  <LaneInfo>Total Lanes lane blocked</LaneInfo>  
-  <CongestionInfo/>  
-  <ToPoint>  
-    <Latitude>38.65831</Latitude>  
-    <Longitude>-94.36706</Longitude>  
-  </ToPoint>  
-  <LocationCodes>  
-    <string>119+05041</string>  
-    <string>119+05042</string>  
-    <string>119-05041</string>  
-    <string>119-05042</string>  
-    <string>119N05041</string>  
-    <string>119N05042</string>  
-    <string>119P05041</string>  
-    <string>119P05042</string>  
-  </LocationCodes>  
-</TrafficIncident>  
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
+    <Copyright>Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
+    <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>
+    <StatusCode>200</StatusCode>
+    <StatusDescription>OK</StatusDescription>
+    <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>
+    <TraceId>de2ccfce537149d1a946feb025d8a65c|DU00003094|0.0.0.0</TraceId>
+    <ResourceSets>
+        <ResourceSet>
+            <EstimatedTotal>1806</EstimatedTotal>
+            <Resources>
+                <TrafficIncident>
+                    <Point>
+                        <Latitude>39.682642</Latitude>
+                        <Longitude>-104.939053</Longitude>
+                    </Point>
+                    <Source>5</Source>
+                    <IncidentId>18558549332008001</IncidentId>
+                    <LastModifiedUTC>2023-09-12T14:23:33.2106067Z</LastModifiedUTC>
+                    <StartTimeUTC>2023-09-12T13:51:37Z</StartTimeUTC>
+                    <EndTimeUTC>2023-09-12T16:23:33.2106067Z</EndTimeUTC>
+                    <Type>Accident</Type>
+                    <Icon>Accident</Icon>
+                    <Severity>Serious</Severity>
+                    <Verified>true</Verified>
+                    <RoadClosed>false</RoadClosed>
+                    <Description>At CO 2/Colorado Boulevard (Denver) at Mile Point 204. Two right lanes are closed due to a crash.</Description>
+                    <ToPoint>
+                        <Latitude>39.68307</Latitude>
+                        <Longitude>-104.940412</Longitude>
+                    </ToPoint>
+                    <Title>I-25 N / US-87 N</Title>
+                    <IsEndTimeBackfilled>true</IsEndTimeBackfilled>
+                    <IsExpired xsi:nil="true" />
+                    <LevelOfDetail xsi:nil="true" />
+                    <Delay>0</Delay>
+                    <IsJamcident>false</IsJamcident>
+                    <SeverityScore>99</SeverityScore>
+                    <EventList>
+                        <int>203</int>
+                    </EventList>
+                    <AlertCCodes>
+                        <int>4</int>
+                    </AlertCCodes>
+                </TrafficIncident>                
+            </Resources>
+        </ResourceSet>
+    </ResourceSets>
+</Response>
   
 ```
