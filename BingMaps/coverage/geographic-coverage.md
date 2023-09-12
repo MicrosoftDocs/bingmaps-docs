@@ -100,7 +100,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Bulgaria                                   | Good                |    x    |       x       | Rooftop     |
 | Burkina Faso                               | Fair                |         |               | Street Name |
 | Burundi                                    | Good                |         |               | Street Name |
-| Cape Verde                                 | Good                |         |               | Street Name |
+| Cabo Verde                                 | Good                |         |               | Street Name |
 | Cambodia                                   | Good                |         |               | Street Name |
 | Cameroon                                   | Fair                |         |               | Street Name |
 | Canada                                     | Good                |    x    |       x       | Rooftop     |
@@ -293,7 +293,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Tonga                                      | Major Roads Only    |         |               | Street Name |
 | Trinidad & Tobago                          | Good                |         |               | Street Name |
 | Tunisia                                    | Good                |         |               | Rooftop     |
-| Turkey                                     | Good                |    x    |       x       | Rooftop     |
+| Türkiye                                     | Good                |    x    |       x       | Rooftop     |
 | Turkmenistan                               | Major Roads Only    |         |               | Street Name |
 | Turks & Caicos Islands                     | Good                |         |               | Basic       |
 | Tuvalu                                     | Major Roads Only    |         |               | Basic       |

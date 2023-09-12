@@ -68,7 +68,6 @@ Bing Maps APIs provide traffic coverage for the following countries/regions. Tra
 |Liechtenstein	|x	|x
 |Lithuania	|x| |	
 |Luxembourg	|x	|x
-|Macedonia, Republic of	|x	|x
 |Malaysia	|x	| |
 |Mexico	|x	| |
 |Monaco	|x	|x
@@ -76,6 +75,7 @@ Bing Maps APIs provide traffic coverage for the following countries/regions. Tra
 |Morocco	|x	| |
 |Netherlands	|x	|x
 |New Zealand	|x	|x
+|North Macedonia, Republic of	|x	|x
 |Norway	|x	|x
 |Oman	|x	| |
 |Paraguay	|x| |	
@@ -98,7 +98,7 @@ Bing Maps APIs provide traffic coverage for the following countries/regions. Tra
 |Switzerland	|x	|x
 |Taiwan	|x	| |
 |Thailand	|x	| |
-|Turkey	|x	|x
+|Türkiye	|x	|x
 |Ukraine	|x	|x
 |United Arab Emirates	|x	| |
 |United Kingdom	|x	|x|

@@ -1,6 +1,6 @@
 ---
 title: "Middle East Transit Coverage | Microsoft Docs"
-description: "Describes Bing Maps API transit information for various countries/regions in the Middle East including Israel and Turkey."
+description: "Describes Bing Maps API transit information for various countries/regions in the Middle East including Israel and Türkiye."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -57,7 +57,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[ש.א.מ](https://www.nazareth-unbs.com/) 
 
 
-## Turkey
+## Türkiye
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[10 NOLU KÖRFEZ](https://www.kocaeli.bel.tr) 

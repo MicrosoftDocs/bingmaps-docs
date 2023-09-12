@@ -130,7 +130,7 @@ The resulting map looks like this:
 | Thai | th | x |  | x* | x |
 | Thai - Thailand | th-TH | x |  | x* | x |
 | Turkish | tr | x | x | x | x |
-| Turkish - Turkey | tr-TR | x | x | x | x |
+| Turkish - Türkiye | tr-TR | x | x | x | x |
 | Ukrainian | uk | x |  | x | x |
 | Ukrainian - Ukraine | uk-UA | x |  | x | x |
 | Uyghur | ug-Arab | x | x | x | x |
