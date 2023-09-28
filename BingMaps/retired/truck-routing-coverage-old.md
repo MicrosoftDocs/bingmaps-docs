@@ -1,6 +1,6 @@
 ---
 title: "Truck Routing Coverage | Microsoft Docs"
-description: "Describes truck routing coverage in various continents and provides a table that outlines truck routing coverage availability for various countries."
+description: "Describes truck routing coverage in various continents and provides a table that outlines truck routing coverage availability for various countries/regions."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -23,12 +23,12 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 * Highways often have a separate speed limit for trucks.
 * Certain trucks may want to avoid roads that have steep gradients.
 
-Bing Maps supports truck routing in the following countries.
+Bing Maps supports truck routing in the following countries/regions.
 
-![A two-dimensional continental map with various countries being highlighted.](../coverage/media/bm-truckroutingcoverage2017.png)
+![A two-dimensional continental map with various countries/regions being highlighted.](../coverage/media/bm-truckroutingcoverage2017.png)
 
 > [!NOTE]
-> Not all truck restrictions may be supported or apply to all countries.
+> Not all truck restrictions may be supported or apply to all countries/regions.
 
 | Country/Region         | Truck Routing Coverage     |
 |------------------------|----------------------------|
@@ -72,7 +72,6 @@ Bing Maps supports truck routing in the following countries.
 | Liechtenstein          | x                          |
 | Lithuania              | x                          |
 | Luxembourg             | x                          |
-| Macedonia, FYRO        | x                          |
 | Malaysia               | x                          |
 | Malta                  | x                          |
 | Mexico                 | x                          |
@@ -83,6 +82,7 @@ Bing Maps supports truck routing in the following countries.
 | Namibia                | x                          |
 | Netherlands            | x                          |
 | New Zealand            | x                          |
+| North Macedonia        | x                          |
 | Norway                 | x                          |
 | Oman                   | x                          |
 | Philippines            | x                          |
@@ -105,7 +105,7 @@ Bing Maps supports truck routing in the following countries.
 | Switzerland            | x                          |
 | Taiwan                 | x                          |
 | Thailand               | x                          |
-| Turkey                 | x                          |
+| Türkiye                 | x                          |
 | Ukraine                | x                          |
 | United Arab Emirates   | x                          |
 | United Kingdom         | x                          |

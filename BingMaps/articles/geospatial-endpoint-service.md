@@ -51,7 +51,7 @@ http://dev.virtualearth.net/REST/V1/GeospatialEndpoint/language/userRegion/latit
 
  The response returns the following information:  
   
-- Whether this is a politically disputed area, such as an area claimed by more than one country.  
+- Whether this is a politically disputed area, such as an area claimed by more than one country/region.  
   
 - Whether services are available in the user’s region.  
   
@@ -119,7 +119,7 @@ http://dev.virtualearth.net/REST/v1/Locations?q=1%20Microsoft%20Way%20Redmond%20
   
 |JSON|XML|Type|Description|  
 |----------|---------|----------|-----------------|  
-|isDisputedArea|IsDisputedArea|Boolean|Specifies if this area in the request is claimed by more than one country. For example, many areas along the border of India and China are disputed areas. Even though an area is disputed area, it may still be supported by Geospatial Platform services.|  
+|isDisputedArea|IsDisputedArea|Boolean|Specifies if this area in the request is claimed by more than one country/region. For example, many areas along the border of India and China are disputed areas. Even though an area is disputed area, it may still be supported by Geospatial Platform services.|  
 |isSupported|IsSupported|Boolean|Specifies if Geospatial Platform services are available in the country or region. Microsoft does not support services in embargoed areas. For example, if you request Geospatial Platform Service information for Cuba (CU), isSupported is set to true, and no service information is returned.|  
 |ur (user region)|UR (user region)|string|The country or region that was used to determine service support. If you specified a latitude and longitude in the request that is in a non-disputed country or region, this country or region is returned in the response.<br /><br /> Please see the section [Region Localities](#region-localities) below for more details on the `User Region Codes` and `Culture Codes`.|  
 |services|Services|array|Information for each geospatial service that is available in the country or region and language specified in the request.<br /><br /> See the **Service Fields** table for the information provided for each service.<br /><br /> For a list of available services, see [Supported Services](../articles/geospatial-endpoint-service.md#supportedServices).|  

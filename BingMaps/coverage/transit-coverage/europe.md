@@ -1,6 +1,6 @@
 ---
 title: "Europe Transit Coverage | Microsoft Docs"
-description: "Describes Bing Maps API transit information for various countries in Europe, including Austria, Belgium, Denmark, France, Italy, and the United Kingdom."
+description: "Describes Bing Maps API transit information for various countries/regions in Europe, including Austria, Belgium, Denmark, France, Italy, and the United Kingdom."
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -4410,7 +4410,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Regional|[Nexus Metro](https://www.traveline.info/) 
 |Regional|[Nexus Move](https://www.traveline.info/) 
 |Regional|[Norfolk Coachways](https://www.traveline.info/) 
-|Regional|[North Area Transport Ass](https://www.traveline.info/) 
+|Regional|[North Area Transport Association](https://www.traveline.info/) 
 |Regional|[North Holderness Communi](https://www.traveline.info/) 
 |Regional|[North Norfolk Community Transport](https://www.traveline.info/) 
 |Regional|[North Somerset Council](https://www.traveline.info/) 

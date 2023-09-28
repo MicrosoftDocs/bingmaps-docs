@@ -138,7 +138,7 @@ Specifies the postal code for the address.
 
 ### CountryRegion
 
-Specifies the country for the address.
+Specifies the country/region for the address.
 
 *Example: United States*
 

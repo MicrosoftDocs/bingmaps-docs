@@ -76,7 +76,7 @@ Include second level administrative divisions in the response.
 
 ### CountryRegion
 
-Include countries in the response.
+Include countries/regions in the response.
 
 ## See Also
 

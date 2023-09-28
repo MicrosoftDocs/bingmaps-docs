@@ -29,7 +29,7 @@ Bing Maps contains different levels of geographic coverage for every country/reg
 
 ## Traffic
 
-Bing Maps APIs provide traffic coverage for the countries indicated in the coverage table. Traffic flow can be illustrated by lines of color representing different levels of traffic congestion that display on a Bing map. Traffic flow is can also used by the routing APIs. Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [Bing Maps Traffic API](../rest-services/traffic/index.md) and [Bing Maps V8 Web Control Traffic Module](../v8-web-control/modules/traffic-module/index.md). Traffic incident text is provided in the primary language of the country where the incident occurs.  
+Bing Maps APIs provide traffic coverage for the countries/regions indicated in the coverage table. Traffic flow can be illustrated by lines of color representing different levels of traffic congestion that display on a Bing map. Traffic flow is can also used by the routing APIs. Traffic incidents are reports of traffic issues, such as the report of an accident. Traffic incidents are provided by APIs such as the [Bing Maps Traffic API](../rest-services/traffic/index.md) and [Bing Maps V8 Web Control Traffic Module](../v8-web-control/modules/traffic-module/index.md). Traffic incident text is provided in the primary language of the country/region where the incident occurs.  
 
 ## Truck Routing
 
@@ -44,11 +44,11 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 Bing Maps supports truck routing in the countries/regions indicated in the table below.
 
 > [!NOTE]
-> Not all truck restrictions may be supported or apply to all countries.
+> Not all truck restrictions may be supported or apply to all countries/regions.
 
 ## Geocoding  
   
-- **Rooftop** – Most addresses are resolved to the latitude/longitude coordinate at the center of the address parcel (property boundary). Rooftop has the highest level of accuracy support. Its coverage varies by country.  
+- **Rooftop** – Most addresses are resolved to the latitude/longitude coordinate at the center of the address parcel (property boundary). Rooftop has the highest level of accuracy support. Its coverage varies by country/region.  
   
 - **Address** – Addresses are interpolated to a latitude/longitude coordinate on the street.  
   
@@ -57,7 +57,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 - **Basic** - Geocoding support is limited and primarily only accurate to the city level. If an address is valid, Bing Maps attempts to resolve it, but a result is not guaranteed.  
   
 > [!NOTE]
-> The ability to geocode in a country is dependent upon the road data coverage and the geocoding precision of the geocoding service. For example, a country/region may have 'Address' geocoding precision, but if there is 'Fair' road data coverage, you can only geocode addresses on the available streets and roads. Typically, geocoding precision also applies to reverse-geocoding.  
+> The ability to geocode in a country/region is dependent upon the road data coverage and the geocoding precision of the geocoding service. For example, a country/region may have 'Address' geocoding precision, but if there is 'Fair' road data coverage, you can only geocode addresses on the available streets and roads. Typically, geocoding precision also applies to reverse-geocoding.  
 
 ## Country/Region Coverage Table
 
@@ -100,7 +100,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Bulgaria                                   | Good                |    x    |       x       | Rooftop     |
 | Burkina Faso                               | Fair                |         |               | Street Name |
 | Burundi                                    | Good                |         |               | Street Name |
-| Cape Verde                                 | Good                |         |               | Street Name |
+| Cabo Verde                                 | Good                |         |               | Street Name |
 | Cambodia                                   | Good                |         |               | Street Name |
 | Cameroon                                   | Fair                |         |               | Street Name |
 | Canada                                     | Good                |    x    |       x       | Rooftop     |
@@ -293,7 +293,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Tonga                                      | Major Roads Only    |         |               | Street Name |
 | Trinidad & Tobago                          | Good                |         |               | Street Name |
 | Tunisia                                    | Good                |         |               | Rooftop     |
-| Turkey                                     | Good                |    x    |       x       | Rooftop     |
+| Türkiye                                     | Good                |    x    |       x       | Rooftop     |
 | Turkmenistan                               | Major Roads Only    |         |               | Street Name |
 | Turks & Caicos Islands                     | Good                |         |               | Basic       |
 | Tuvalu                                     | Major Roads Only    |         |               | Basic       |

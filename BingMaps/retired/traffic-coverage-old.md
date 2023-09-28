@@ -16,13 +16,13 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Traffic Coverage
 
-Bing Maps APIs provide traffic coverage for the following countries. Traffic incident text is provided in the primary language of the country where the incident occurs.  
+Bing Maps APIs provide traffic coverage for the following countries/regions. Traffic incident text is provided in the primary language of the country/region where the incident occurs.  
   
  ## Traffic Flow
  
  Traffic flow refers to lines of color representing different levels of traffic congestion that display on a Bing map.  
  
-![A two-dimensional continental map with various countries in North America, South America, Africa, Asia, and Australia being highlighted.](/BingMaps/coverage/media/BingMaps_Traffic_Flow_2018.PNG)
+![A two-dimensional continental map with various countries/regions in North America, South America, Africa, Asia, and Australia being highlighted.](/BingMaps/coverage/media/BingMaps_Traffic_Flow_2018.PNG)
 
   
  ## Traffic Incidents
@@ -34,7 +34,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
   
 ## Traffic Coverage Data 
 
-|Country|Traffic Flow|Traffic Incidents|
+|Country/Region|Traffic Flow|Traffic Incidents|
 |---|:---:|:---:|
 |Andorra	|x	| |
 |Argentina	|x|	 |
@@ -68,7 +68,6 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
 |Liechtenstein	|x	|x
 |Lithuania	|x| |	
 |Luxembourg	|x	|x
-|Macedonia, Republic of	|x	|x
 |Malaysia	|x	| |
 |Mexico	|x	| |
 |Monaco	|x	|x
@@ -76,6 +75,7 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
 |Morocco	|x	| |
 |Netherlands	|x	|x
 |New Zealand	|x	|x
+|North Macedonia, Republic of	|x	|x
 |Norway	|x	|x
 |Oman	|x	| |
 |Paraguay	|x| |	
@@ -96,9 +96,9 @@ Bing Maps APIs provide traffic coverage for the following countries. Traffic inc
 |Spain	|x	|x
 |Sweden	|x	|x
 |Switzerland	|x	|x
-|Taiwan, Republic of China	|x	| |
+|Taiwan	|x	| |
 |Thailand	|x	| |
-|Turkey	|x	|x
+|Türkiye	|x	|x
 |Ukraine	|x	|x
 |United Arab Emirates	|x	| |
 |United Kingdom	|x	|x|

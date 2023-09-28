@@ -46,4 +46,4 @@ Parameter                               | Req? | Description
 `venueMapId` | ✔ | The ID of the venue to load
 `success` | ✔ |The callback function invoked when the data for the venue is to be loaded
 `error` | |The callback function invoked invoked when there's an error loading the data
-`market` | |Country+language code for the current market
+`market` | |Country/region+language code for the current market

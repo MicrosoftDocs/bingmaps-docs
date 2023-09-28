@@ -2,16 +2,16 @@
 title: "Get Traffic Incidents | Microsoft Docs"
 description: This article describes how to get traffic incidents and provides a URL template to request traffic incident information. Template parameters and examples are provided.
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "09/12/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d23ea4d-48d1-4760-a072-436c00b3658d
-caps.latest.revision: 19
-author: "rbrundritt"
-ms.author: "richbrun"
-manager: "stevelom"
+caps.latest.revision: 20
+author: "flavius-stoichescu"
+ms.author: "flstoich"
+manager: "ccapota"
 ms.service: "bing-maps"
 ---
 # Get Traffic Incidents
@@ -20,7 +20,7 @@ Use the following URL template to request traffic incident information. A collec
   
  For more information about the traffic incident data that is returned in the response, see [Traffic Incident Data](traffic-incident-data.md). You can also view the example URL and response values in the [Examples](#examples) section below. For an overview of how traffic incident information is returned by Bing Maps REST Services, see [Getting Traffic Incident Data](../getting-traffic-incident-data.md).  
   
- For traffic coverage by country, see [Bing Maps Geographic Coverage](../../coverage/geographic-coverage.md).  
+ For traffic coverage by country/region, see [Bing Maps Geographic Coverage](../../coverage/geographic-coverage.md).  
   
 ## Supported HTTP Methods
 
@@ -33,7 +33,7 @@ GET
  **Get traffic incidents.**  
   
 ```url
-http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocationCodes}?severity={severity1,severity2,severityN}&type={type1,type2,typeN}&key={BingMapsKey}  
+http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/?severity={severity1,severity2,severityN}&type={type1,type2,typeN}&key={BingMapsKey}  
 ```  
   
 ### Template Parameters  
@@ -53,9 +53,10 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/{mapArea}/{includeLocation
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
 |`mapArea`||**Required.** Specifies the area to search for traffic incident information.|A rectangular area specified as a bounding box. The size of the area can be a maximum of 500 km x 500 km.<br /><br /> A bounding box defines an area by specifying SouthLatitude, WestLongitude, NorthLatitude, and EastLongitude values. For more information, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br /><br /> **Example**: 45.219,-122.325,47.610,-122.107|  
-|`includeLocationCodes`||**Optional.** Specifies whether to include traffic location codes in the response. Traffic location codes provide traffic incident information for pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country.|One of the following values:<br /><br /> -   true<br />-   false **[default]**<br /><br /> If you want to use the default value, you can omit this parameter from the URL request.|  
+|`includeLocationCodes`||**Deprecated.** <br />*This parameter is ignored.*<br/><br/> Specifies whether to include traffic location codes in the response. Traffic location codes provide traffic incident information for pre-defined road segments. A subscription is typically required to be able to interpret these codes for a geographical area or country/region.|One of the following values:<br /><br /> -   true<br />-   false **[default]**<br /><br /> If you want to use the default value, you can omit this parameter from the URL request.| 
 |`severity`|`s`|**Optional.** Specifies severity level of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: LowImpact<br />-   2: Minor<br />-   3: Moderate<br />-   4: Serious<br /><br /> The default is to return traffic incidents for all severity levels.<br /><br /> **Examples**:<br /><br /> severity=2,3,4<br /><br /> s=2,3,4|  
 |`type`|`t`|**Optional.** Specifies the type of traffic incidents to return.|One or more of the following integer values:<br /><br /> -   1: Accident<br />-   2: Congestion<br />-   3: DisabledVehicle<br />-   4: MassTransit<br />-   5: Miscellaneous<br />-   6: OtherNews<br />-   7: PlannedEvent<br />-   8: RoadHazard<br />-   9: Construction<br />-   10: Alert<br />-   11: Weather<br /><br /> **Examples**:<br /><br /> type=2<br /><br /> t=2,9|  
+| `includeJamcidents` || **Optional.** Specifices if the response should include abnormal traffic conditions that result in delays.| One of the following values: <br/>- true <br /> - false **[default]**
   
 ## Response
 
@@ -80,65 +81,99 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
  This URL returns a response with the following format that includes a list of traffic incidents as traffic incident resources. For more information on the fields returned for a traffic incident resource, see [Traffic Incident Data](traffic-incident-data.md).  
   
 ```json
-{  
-   "authenticationResultCode":"ValidCredentials",  
-   "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
-   "copyright":"Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",  
-   "resourceSets":[  
-      {  
-         "estimatedTotal":131,  
-         "resources":[  
-            {  
-               "__type":"TrafficIncident:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
-               "point":{  
-                  "type":"Point",  
-                  "coordinates":[  
-                     38.85135,  
-                     -94.34033  
-                  ]  
-               },  
-               "congestion":"",  
-               "description":"MO-150 is closed between 5th Ave S and Court Dr - construction",  
-               "detour":"",  
-               "end":"\/Date(1310396400000)\/",  
-               "incidentId":210546697,  
-               "lane":"",  
-               "lastModified":"\/Date(1309391096593)\/",  
-               "roadClosed":true,  
-               "severity":3,  
-               "start":"\/Date(1307365200000)\/",  
-               "type":9,  
-               "verified":true  
-            },  
-            {  
-               "__type":"TrafficIncident:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
-               "point":{  
-                  "type":"Point",  
-                  "coordinates":[  
-                     38.85872,  
-                     -94.54638  
-                  ]  
-               },  
-               "congestion":"",  
-               "description":"Botts Rd is closed between Andrews Rd and 142nd St - construction",  
-               "detour":"To go north take US-71 NB to 140th St and go west on 140th St to access Botts Rd- To go south continue west on MO-150 to Thunderbird Rd to 149th St",  
-               "end":"\/Date(1315244760000)\/",  
-               "incidentId":191097424,  
-               "lane":"",  
-               "lastModified":"\/Date(1309391096593)\/",  
-               "roadClosed":true,  
-               "severity":1,  
-               "start":"\/Date(1295704800000)\/",  
-               "type":9,  
-               "verified":true  
-            }  
-         ]  
-      }  
-   ],  
-   "statusCode":200,  
-   "statusDescription":"OK",  
-   "traceId":"38491198bf6a42f5b7e60c18aa08ec02"  
-}  
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
+        {
+            "estimatedTotal": 1802,
+            "resources": [
+                {
+                    "__type": "TrafficIncident:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.682642,
+                            -104.939053
+                        ]
+                    },
+                    "alertCCodes": [
+                        4
+                    ],
+                    "delay": 0,
+                    "description": "At CO 2/Colorado Boulevard (Denver) at Mile Point 204. Two right lanes are closed due to a crash.",
+                    "end": "/Date(1694535707744)/",
+                    "eventList": [
+                        203
+                    ],
+                    "icon": 2,
+                    "incidentId": 18558549332008001,
+                    "isEndTimeBackfilled": true,
+                    "isJamcident": false,
+                    "lastModified": "/Date(1694528507744)/",
+                    "roadClosed": false,
+                    "severity": 4,
+                    "severityScore": 99,
+                    "source": 5,
+                    "start": "/Date(1694526697000)/",
+                    "title": "I-25 N / US-87 N",
+                    "toPoint": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.68307,
+                            -104.940412
+                        ]
+                    },
+                    "type": 1,
+                    "verified": true
+                },
+                {
+                    "__type": "TrafficIncident:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.04460549,
+                            -94.38411355
+                        ]
+                    },
+                    "alertCCodes": [
+                        4
+                    ],
+                    "delay": 0,
+                    "description": "Accident on I-70 E from S Lees Summit Rd/Exit 14 (I-70) to I-470/MO-291/Exit 15 (I-70).",
+                    "end": "/Date(1694531388000)/",
+                    "eventList": [
+                        201
+                    ],
+                    "icon": 2,
+                    "incidentId": 21366103288104000,
+                    "isEndTimeBackfilled": false,
+                    "isJamcident": false,
+                    "lastModified": "/Date(1694528507744)/",
+                    "roadClosed": false,
+                    "severity": 4,
+                    "severityScore": 99,
+                    "source": 5,
+                    "start": "/Date(1694525088000)/",
+                    "title": "I-70 E",
+                    "toPoint": {
+                        "type": "Point",
+                        "coordinates": [
+                            39.04075549,
+                            -94.35559355
+                        ]
+                    },
+                    "type": 1,
+                    "verified": true
+                }
+            ]
+        }
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "0e2cfdc28b554661b9539c1891244f28|DU00003090|0.0.0.0"
+}
 ```  
   
  **XML Response**  
@@ -146,218 +181,92 @@ http://dev.virtualearth.net/REST/v1/Traffic/Incidents/37,-105,45,-94?key=YourBin
  If the output parameter is specified and set to xml (o=xml) in this URL, the URL returns a response with the following format.  
   
 ```xml
-<Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
-  <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
-  <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  
-  <StatusCode>200</StatusCode>  
-  <StatusDescription>OK</StatusDescription>  
-  <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>  
-  <TraceId>c0f1945558bf49ceb0b35816d5bca10</TraceId>  
-  <ResourceSets>  
-     <<ResourceSet>  
-      <EstimatedTotal>128</EstimatedTotal  
-      <Resources>  
-        <TrafficIncident>  
-          <Point>  
-            <Latitude>38.85135</Latitude>  
-            <Longitude>-94.34033</Longitude>  
-          </Point>  
-          <IncidentId>210546697</IncidentId>  
-          <LastModifiedUTC>2011-06-29T23:44:56.593Z</LastModifiedUTC>  
-          <StartTimeUTC>2011-06-06T13:00:00Z</StartTimeUTC>  
-          <EndTimeUTC>2011-07-11T15:00:00Z</EndTimeUTC>  
-          <Type>Construction</Type>  
-          <Severity>Moderate</Severity>  
-          <Verified>true</Verified>  
-          <RoadClosed>true</RoadClosed>  
-          <Description>MO-150 is closed between 5th Ave S and Court Dr - construction</Description>  
-          <DetourInfo/>  
-          <LaneInfo/>  
-          <CongestionInfo/>  
-        </TrafficIncident>  
-        <TrafficIncident>  
-          <Point>  
-            <Latitude>38.85872</Latitude>  
-            <Longitude>-94.54638</Longitude>  
-          </Point>  
-          <IncidentId>191097424</IncidentId>  
-          <LastModifiedUTC>2011-06-29T23:44:56.593Z</LastModifiedUTC>  
-          <StartTimeUTC>2011-01-22T14:00:00Z</StartTimeUTC>  
-          <EndTimeUTC>2011-09-05T17:46:00Z</EndTimeUTC>  
-          <Type>Construction</Type>  
-          <Severity>LowImpact</Severity>  
-          <Verified>true</Verified>  
-          <RoadClosed>true</RoadClosed>  
-          <Description>Botts Rd is closed between Andrews Rd and 142nd St - construction</Description>  
-          <DetourInfo>To go north take US-71 NB to 140th St and go west on 140th St to access Botts Rd- To go south continue west on MO-150 to Thunderbird Rd to 149th St</DetourInfo>  
-          <LaneInfo/>  
-          <CongestionInfo/>  
-        </TrafficIncident>  
-      </Resources>  
-    </ResourceSet>  
-  </ResourceSets>  
-</Response>  
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
+    <Copyright>Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
+    <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>
+    <StatusCode>200</StatusCode>
+    <StatusDescription>OK</StatusDescription>
+    <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>
+    <TraceId>de2ccfce537149d1a946feb025d8a65c|DU00003094|0.0.0.0</TraceId>
+    <ResourceSets>
+        <ResourceSet>
+            <EstimatedTotal>1806</EstimatedTotal>
+            <Resources>
+                <TrafficIncident>
+                    <Point>
+                        <Latitude>39.682642</Latitude>
+                        <Longitude>-104.939053</Longitude>
+                    </Point>
+                    <Source>5</Source>
+                    <IncidentId>18558549332008001</IncidentId>
+                    <LastModifiedUTC>2023-09-12T14:23:33.2106067Z</LastModifiedUTC>
+                    <StartTimeUTC>2023-09-12T13:51:37Z</StartTimeUTC>
+                    <EndTimeUTC>2023-09-12T16:23:33.2106067Z</EndTimeUTC>
+                    <Type>Accident</Type>
+                    <Icon>Accident</Icon>
+                    <Severity>Serious</Severity>
+                    <Verified>true</Verified>
+                    <RoadClosed>false</RoadClosed>
+                    <Description>At CO 2/Colorado Boulevard (Denver) at Mile Point 204. Two right lanes are closed due to a crash.</Description>
+                    <ToPoint>
+                        <Latitude>39.68307</Latitude>
+                        <Longitude>-104.940412</Longitude>
+                    </ToPoint>
+                    <Title>I-25 N / US-87 N</Title>
+                    <IsEndTimeBackfilled>true</IsEndTimeBackfilled>
+                    <IsExpired xsi:nil="true" />
+                    <LevelOfDetail xsi:nil="true" />
+                    <Delay>0</Delay>
+                    <IsJamcident>false</IsJamcident>
+                    <SeverityScore>99</SeverityScore>
+                    <EventList>
+                        <int>203</int>
+                    </EventList>
+                    <AlertCCodes>
+                        <int>4</int>
+                    </AlertCCodes>
+                </TrafficIncident>
+                <TrafficIncident>
+                    <Point>
+                        <Latitude>39.04373</Latitude>
+                        <Longitude>-94.377238</Longitude>
+                    </Point>
+                    <Source>5</Source>
+                    <IncidentId>21366103288104000</IncidentId>
+                    <LastModifiedUTC>2023-09-12T14:23:33.2106067Z</LastModifiedUTC>
+                    <StartTimeUTC>2023-09-12T13:24:48Z</StartTimeUTC>
+                    <EndTimeUTC>2023-09-12T15:09:48Z</EndTimeUTC>
+                    <Type>Accident</Type>
+                    <Icon>Accident</Icon>
+                    <Severity>Serious</Severity>
+                    <Verified>true</Verified>
+                    <RoadClosed>false</RoadClosed>
+                    <Description>Accident on I-70 E from S Lees Summit Rd/Exit 14 (I-70) to I-470/MO-291/Exit 15 (I-70).</Description>
+                    <ToPoint>
+                        <Latitude>39.041002</Latitude>
+                        <Longitude>-94.357209</Longitude>
+                    </ToPoint>
+                    <Title>I-70 E</Title>
+                    <IsEndTimeBackfilled>false</IsEndTimeBackfilled>
+                    <IsExpired xsi:nil="true" />
+                    <LevelOfDetail xsi:nil="true" />
+                    <Delay>0</Delay>
+                    <IsJamcident>false</IsJamcident>
+                    <SeverityScore>99</SeverityScore>
+                    <EventList>
+                        <int>201</int>
+                    </EventList>
+                    <AlertCCodes>
+                        <int>4</int>
+                    </AlertCCodes>
+                </TrafficIncident>                
+            </Resources>
+        </ResourceSet>
+    </ResourceSets>
+</Response>
   
 ```  
-  
- **Get traffic incidents by type and severity and request traffic location codes.**  
-  
- The following example queries for congestion type traffic incidents (t=9) that are minor or moderate in severity (s=2,3) and that occur in the bounding box defined by the coordinates (37.0,-105.45,45.0,-94.0). Traffic location codes are requested by setting the includeLocationCodes value 'true' in the URL. The requested output format is XML.  
-  
-```url
-http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&s=2,3&o=xml&key={BingMapsKey}  
-```  
-  
- **XML Response**  
-  
- This URL returns an XML response with the following format.  
-  
-```xml
-<Response xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
-  <Copyright>Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>  
-  <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>  
-  <StatusCode>200</StatusCode>  
-  <StatusDescription>OK</StatusDescription>  
-  <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>  
-  <TraceId>3f09332c6ed44048bf8e9e19198fd154</TraceId>  
-  <ResourceSets>  
-    <ResourceSet>  
-      <EstimatedTotal>91</EstimatedTotal>-<Resources>  
-        <TrafficIncident>  
-          <Point>  
-            <Latitude>38.64829</Latitude>  
-            <Longitude>-94.36405</Longitude>  
-          </Point><IncidentId>214828828</IncidentId>  
-          <LastModifiedUTC>2011-07-11T12:02:30.29Z</LastModifiedUTC>  
-          <StartTimeUTC>2011-07-08T12:00:00Z</StartTimeUTC>  
-          <EndTimeUTC>2011-09-17T00:00:00Z</EndTimeUTC>  
-          <Type>Construction</Type><Severity>Minor</Severity>  
-          <Verified>true</Verified><RoadClosed>false</RoadClosed>  
-          <Description>in both directions between MO-2/MO-7 and MO-291/Cantrell Rd - construction</Description>  
-          <DetourInfo/>  
-          <LaneInfo>Total Lanes lane blocked</LaneInfo>  
-          <CongestionInfo/>  
-          <ToPoint>  
-            <Latitude>38.65831</Latitude>  
-            <Longitude>-94.36706</Longitude>  
-          </ToPoint>  
-          <LocationCodes>  
-            <string>119+05041</string>  
-            <string>119+05042</string>  
-            <string>119-05041</string>  
-            <string>119-05042</string>  
-            <string>119N05041</string>  
-            <string>119N05042</string>  
-            <string>119P05041</string>  
-            <string>119P05042</string>  
-          </LocationCodes>  
-        </TrafficIncident>  
-        <TrafficIncident>  
-          <Point>  
-            <Latitude>38.80371</Latitude>  
-            <Longitude>-94.43887</Longitude>  
-          </Point>  
-          <IncidentId>213728243</IncidentId>  
-          <LastModifiedUTC>2011-07-11T12:02:30.29Z</LastModifiedUTC>  
-          <StartTimeUTC>2011-06-22T12:00:00Z</StartTimeUTC>  
-          <EndTimeUTC>2011-07-31T22:00:00Z</EndTimeUTC>  
-          <Type>Construction</Type>  
-          <Severity>Minor</Severity>  
-          <Verified>true</Verified>  
-          <RoadClosed>false</RoadClosed>  
-          <Description>SB MO-J between MO-58 and US-71 - construction</Description>  
-          <DetourInfo/>  
-          <LaneInfo>Total Lanes lane blocked</LaneInfo>  
-          <CongestionInfo/>  
-        </TrafficIncident>  
-      </Resources>  
-    </ResourceSet>  
-  </ResourceSets>  
-</Response>  
-```  
-  
- **JSON Response**  
-  
- If the output parameter was not specified in this URL, a JSON response with the following format is returned.  
-  
-```json
-{  
-   "authenticationResultCode":"ValidCredentials",  
-   "brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",  
-   "copyright":"Copyright © 2011 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",  
-   "resourceSets":[  
-      {  
-         "estimatedTotal":91,  
-         "resources":[  
-            {  
-               "__type":"TrafficIncident:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
-               "point":{  
-                  "type":"Point",  
-                  "coordinates":[  
-                     38.64829,  
-                     -94.36405  
-                  ]  
-               },  
-               "congestion":"",  
-               "description":"in both directions between MO-2\/MO-7 and MO-291\/Cantrell Rd - construction",  
-               "detour":"",  
-               "end":"\/Date(1316217600000)\/",  
-               "incidentId":214828828,  
-               "lane":"Total Lanes lane blocked",  
-               "lastModified":"\/Date(1310385750290)\/",  
-               "roadClosed":false,  
-               "severity":2,  
-               "start":"\/Date(1310126400000)\/",  
-               "toPoint":{  
-                  "type":"Point",  
-                  "coordinates":[  
-                     38.65831,  
-                     -94.36706  
-                  ]  
-               },  
-               "locationCodes":[  
-                  "119+05041",  
-                  "119+05042",  
-                  "119-05041",  
-                  "119-05042",  
-                  "119N05041",  
-                  "119N05042",  
-                  "119P05041",  
-                  "119P05042"  
-               ],  
-               "type":9,  
-               "verified":true  
-            },  
-            {  
-               "__type":"TrafficIncident:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",  
-               "point":{  
-                  "type":"Point",  
-                  "coordinates":[  
-                     38.80371,  
-                     -94.43887  
-                  ]  
-               },  
-               "congestion":"",  
-               "description":"SB MO-J between MO-58 and US-71 - construction",  
-               "detour":"",  
-               "end":"\/Date(1312149600000)\/",  
-               "incidentId":213728243,  
-               "lane":"Total Lanes lane blocked",  
-               "lastModified":"\/Date(1310385750290)\/",  
-               "roadClosed":false,  
-               "severity":2,  
-               "start":"\/Date(1308744000000)\/",  
-               "type":9,  
-               "verified":true  
-            }  
-         ]  
-      }  
-   ],  
-   "statusCode":200,  
-   "statusDescription":"OK",  
-   "traceId":"9c2944a197db4457bb8d4def0007b657"  
-}  
-```
   
 ## HTTP Status Codes  
   
@@ -372,8 +281,6 @@ http://dev.virtualearth.net/REST/V1/Traffic/Incidents/37,-105,45,-94/true?t=9,2&
 -   400  
   
 -   401  
-  
--   404  
   
 -   500  
   
