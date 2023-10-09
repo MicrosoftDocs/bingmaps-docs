@@ -39,6 +39,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-BingMaps",
       "breadcrumb_path": "/BingMaps/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Bing Maps",
