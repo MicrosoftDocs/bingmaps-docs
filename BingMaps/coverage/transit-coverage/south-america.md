@@ -49,9 +49,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Brusque|[Nosso Brusque](http://nossobrusque.hospedagemdesites.ws/novo/) 
 |Cabo Frio e Região|[Montes Brancos](https://www.salineira.com.br/) 
 |Cabo Frio e Região|[Salineira](https://www.salineira.com.br/) 
-
-|Cabo Frio e Região|[São Pedro](https://www.salineira.com.br/) 
-
+|Cabo Frio e Região|[São Pedro](https://www.salineira.com.br/)   
 |Cachoeirinha|[Stadtbus - Cachoeirinha](http://www.stadtbus.com.br/) 
 |Campina Grande|PMCG - STTP - Consórcio Santa Maria 
 |Campina Grande|PMCG - STTP - Consórcio Santa Verônica
@@ -67,7 +65,6 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Fraiburgo|[Santa Teresinha - Fraiburgo](https://www.santateresinha.com/site/) 
 |Gaspar|Coletivo Caturani 
 |Indaiatuba|[Sou Indaiatuba](https://www.souindaiatuba.com.br) 
-
 |Jaragua do Sul|[Viação Canarinho Ltda - Fretamento](http://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Guaramirim](http://www.canarinho.com.br) 
 |Jaragua do Sul|[Viação Canarinho Ltda - Intermunicipal Corupá](http://www.canarinho.com.br) 
@@ -94,16 +91,13 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Rio de Janeiro|[Trem do Corcovado](https://www.tremdocorcovado.rio/) 
 |Rio de Janeiro|[VLT Carioca](https://www.vltrio.com.br/) 
 |Santa Cruz do Sul|[Consórcio TCS](https://tcsconsorcio.com.br/) 
-
 |Sao Paulo|[Empresa Metropolitana de Transportes Urbanos de São Paulo S.A.](https://www.emtu.sp.gov.br/EMTU/home.htm) 
 |Sao Paulo|[SPTRANS](https://www.sptrans.com.br/?versao=221018) 
 |Telemaco Borba|[VINSA](http://www.vinsa.com.br) 
 |Teutonia|[Stadtbus - Teutônia](http://www.stadtbus.com.br)
 |Tramandai|[Expresso São José - ANTT](https://www.saojosebus.com.br) 
 |Tramandai|[Expresso São José - Metroplan / Daer](https://www.saojosebus.com.br) 
-
 |Tramandai|[Expresso São José - Rotas Escolares](https://www.saojosebus.com.br) 
-
 |Tramandai|[Expresso São José - Urbano](https://www.saojosebus.com.br/)  
 |Uberaba|[Prefeitura de Uberaba](https://portal.uberaba.mg.gov.br/) 
 |Valinhos|[Sou Valinhos](https://www.souvalinhos.com.br) 
@@ -162,15 +156,12 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Gran Concepcion|[Nueva Llacolen](https://sitio.gorebiobio.cl//) 
 |Gran Concepcion|[Nueva Nahuelbus](https://moovitapp.com) 
 |Gran Concepcion|[Nueva Ruta 160](https://moovitapp.com) 
-
 |Gran Concepcion|[Nueva Sol Yet](https://sitio.gorebiobio.cl/) 
 |Gran Concepcion|[Nueva Sotrapel](https://sitio.gorebiobio.cl/) 
 |Gran Concepcion|Nueva Takora 
 |Gran Concepcion|[Pedro De Valdivia](https://www.alianzabus.cl/) 
-
 |Gran Concepcion|[Penco Chiguayante Sur](https://sitio.gorebiobio.cl/) 
 |Gran Concepcion|[Playa Blanca](https://moovitapp.com) 
-
 |Gran Concepcion|Rengo Lientur
 |Gran Concepcion|[Riviera Bio Bio](https://sitio.gorebiobio.cl/) 
 |Gran Concepcion|[Ruta 160](https://moovitapp.com/) 
