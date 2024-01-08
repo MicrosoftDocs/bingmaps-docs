@@ -386,9 +386,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Finland|[NORTH EUROPEAN BUS TOURS KY](https://visitmeri-lappi.fi) 
 |Finland|[NORWEGIAN AIR INTERNATIONAL](https://www.norwegian.com/fi/) 
 |Finland|[NURMIJÄRVEN LINJA OY](https://www.korsisaari.fi/) 
-|Finland|[ORAJÄRVEN BUSSIT OY](
-
-) 
+|Finland|[ORAJÄRVEN BUSSIT OY]
 |Finland|[ORAVAIS TRAFIK AB - ORAVAISTEN LIIKENNE OY](https://oravaistenliikenne.fi) 
 |Finland|[OULAISTEN LIIKENNE OY](https://www.oulaistenliikenne.fi/) 
 |Finland|[OY KAJ FORSBLOM AB](https://www.kajforsblom.fi/) 
