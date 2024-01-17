@@ -171,7 +171,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Iraq                                       | Good                |         |               | Street Name |
 | Ireland                                    | Good                |    x    |       x       | Rooftop     |
 | Isle of Man                                | Good                |    x    |               | Address     |
-| Israel                                     | Good                |    x    |       x       | Rooftop     |
+| Israel                                     | Good                |         |       x       | Rooftop     |
 | Italy                                      | Good                |    x    |       x       | Rooftop     |
 | Jamaica                                    | Good                |         |               | Street Name |
 | Jan Mayen                                  | Good                |         |               | Street Name |
@@ -247,7 +247,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | Qatar                                      | Good                |    x    |               | Rooftop     |
 | Réunion                                    | Good                |         |               | Address     |
 | Romania                                    | Good                |    x    |       x       | Address     |
-| Russia                                     | Good                |    x    |       x       | Rooftop     |
+| Russia                                     | Good                |         |       x       | Rooftop     |
 | Rwanda                                     | Good                |         |               | Street Name |
 | Saba                                       | Good                |         |               | Basic       |
 | Saint Barthélemy                           | Good                |         |               | Street Name |
@@ -300,7 +300,7 @@ Bing Maps supports truck routing in the countries/regions indicated in the table
 | U.S. Outlying Islands                      | Major Roads Only    |         |               | Basic       |
 | U.S. Virgin Islands                        | Good                |         |               | Rooftop     |
 | Uganda                                     | Good                |         |               | Street Name |
-| Ukraine                                    | Good                |    x    |               | Rooftop     |
+| Ukraine                                    | Good                |         |               | Rooftop     |
 | United Arab Emirates                       | Good                |    x    |               | Rooftop     |
 | United Kingdom                             | Good                |    x    |       x       | Rooftop     |
 | United States                              | Good                |    x    |       x       | Rooftop     |
