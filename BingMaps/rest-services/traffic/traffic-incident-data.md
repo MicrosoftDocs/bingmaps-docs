@@ -42,7 +42,7 @@ The response returned by a Traffic URL contains one or more TrafficIncident reso
 |`isEndTimeBackfilled`|`IsEndTimeBackfilled`|`boolean`| Flag used to determine if incident end time is calculated by adding 2 hours to the start time. A value of `false` indicates the end time is provided.|
 |`title`|`Title`| `string` | Names and direction of affected roads. |
 |`alertCCodes`|`AlertCCodes`| array of `integer`| **Deprecated.**<br/>*Use `eventList` instead.*<br/><br/> List of internal event codes, Microsoft mapped from Alert-C Codes.|
-|`eventList`| `EventList` | array of `integer` | List of Array-C Codes for the incident.|
+|`eventList`| `EventList` | array of `integer` | List of Alert-C Codes for the incident. <br/><br/> Note that this array is not ordered.|
 |`icon`| `Icon` | `integer` | Icon suggestion for rendering the incident on the map.<br/> - 0: Warning <br /> - 1: RoadClosure <br/> - 2: Accident <br/> - 3: Construction <br/> - 4: HeavyTraffic <br /> - 5: ModerateTraffic <br /> - 6: Restrictions|
 |`isJamcident`|`IsJamcident`|`boolean`| Flag indicating that the area of road covered by this incident is experiencing abnormal traffic conditions resulting in non-typical delays.|
 ### About time values  
