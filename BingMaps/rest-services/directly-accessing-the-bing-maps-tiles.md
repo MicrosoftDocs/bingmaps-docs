@@ -28,7 +28,7 @@ http://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&in
 This will return a response that contains an Image URL property. This URL will look something like this:
 
 ```url
-http://ecn.{subdomain}.tiles.virtualearth.net/tiles/r{quadkey}.jpeg?g=129&mkt={culture}&shading=hill&stl=H
+http://ak.dynamic.{subdomain}.tiles.virtualearth.net/comp/ch/{quadkey}?mkt=en-US&it=G,L&shading=hill&og=2390&n=z
 ```
 
 You can then replace the different parts of the URL to request each tile as needed. The `imageUrlSubdomains` property in the imagery metadata response provides a list of valid subdomain that can be used in the tile URL. Using a different one for each tile request you can increase performance by get around browser URL request limits i.e. many browsers allow up to 8 concurrent requests to the same domain. Using subdomains allows up to 8 requests per subdomain. The culture value can be any value listed in the [Supported Culture Codes](common-parameters-and-types/supported-culture-codes.md) document. The quadkey value can be calculated based on the zoom level and the tile you wish to render. Information on the tile system along with some useful code can be found here:
