@@ -6,7 +6,7 @@ ms.topic: article
 ms.assetid: 1b06a21d-8204-4a5a-8389-c3983bde4307
 caps.latest.revision: 15
 author: stevemunk
-ms.author: v-munksteve
+ms.author: eriklind
 manager: eriklind
 ms.service: "bing-maps"
 ---
