@@ -17,13 +17,17 @@ ms.service: bing-maps
 
 # Local Insights
 
+> [!NOTE]
+> **Bing Maps Local Insights service retirement**
+>
+> The Bing Maps **Local Insights** service is now deprecated and will be retired on 9/30/2024. To avoid service disruptions, all calls to Local Insights API will need to migrate to a replacement such as the [PointsOfInterest](/bingmaps/spatial-data-services/public-data-sources/pointsofinterest) Data Source in the **Spatial Data service** by 9/30/2024.
+
 The Bing Maps Local Insights API returns a list of local entities within the specified maximum driving time or distance traveled from a specified point on Earth. The API returns different types of entities as specified by the string type IDs; these types can be found on the [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md) page. In each response, a maximum of 200 total entities is returned. Presently, the Local Insights API is only available in the US.
 
 ## API Templates
 
 > [!NOTE]
 > The Local Insights API supports both synchronous and asynchronous requests. If using Local Insights with traffic information, we strongly recommended that asynchronous requests are used.
-
 
 ### Synchronous Requests
 

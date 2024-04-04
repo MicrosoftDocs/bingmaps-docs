@@ -17,6 +17,16 @@ ms.service: bing-maps
 
 # Optimize Multiple Itineraries
 
+> [!NOTE]
+> **Bing Maps Calculate Optimized Itinerary Routes service retirement**
+>
+> The Bing Maps **Calculate Optimized Itinerary Routes** service is now deprecated and will be retired on 6/30/2025. To avoid service disruptions, modify your application by 6/30/2025. Azure Maps provides security, privacy and compliance enhancements and we encourage customers to move to this solution. Resources to aid in your migration:
+>
+> - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
+> - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
+> - [Azure Maps Service Agreement and Terms](https://aka.ms/termsazuremaps)
+> - [Azure Maps Pricing and Licensing](https://aka.ms/licensingazuremaps)
+
 The Bing Maps Multi-Itinerary Optimization API returns an itinerary schedule for one or more agents to travel between multiple itinerary items, e.g., between multiple delivery locations. Each agent has one or more working shifts (e.g. an agent with a lunch break will have at least two shifts every day: the shifts before and after lunch). In the response, the API returns for each agent the assigned delivery locations, as well as driving distance and time from the previous location, the scheduled arrival time, and expected delivery duration for each location (ItineraryItem) assigned to that agent. 
 
 Each itinerary item is given an item priority (from `1` to `100`) and the Multi-Itinerary Optimization API will always first attempt to maximize the sum of scheduled items priorities. Note that Priority `1` is the lowest priority and `100` is the highest priority. Multiple itinerary items can have the same priority value. If all items have a priority of `1` (the default value), then the API maximizes the number, or count, of scheduled items. In addition, the `costvalue` parameter can be set to either `TravelTime` or `Distance`: this parameter will then minimize the travel time or distance traveled, respectively, for the scheduled items.
