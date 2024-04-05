@@ -19,7 +19,7 @@ ms.service: "bing-maps"
 > [!NOTE]
 > **Bing Maps Calculate Routes from Major Roads service retirement**
 >
-> The Bing Maps **Calculate Routes from Major Roads** service is now deprecated and will be retired on 9/30/2024. To avoid service disruptions, modify your application by 9/30/2024. .
+> The Bing Maps **Calculate Routes from Major Roads** service is now deprecated and will be retired on 9/30/2024. To avoid service disruptions, modify your application by 9/30/2024.
 
 Use the following URL template to return a driving route to a location from major roads in four directions (West, North, East and South). You can use this URL for routes in the United States, Canada and Mexico.  
   
