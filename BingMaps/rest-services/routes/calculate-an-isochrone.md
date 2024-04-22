@@ -2,7 +2,7 @@
 title: "Calculate an Isochrone | Microsoft Docs"
 description: "This article describes the Bing Maps Isochrone API and outlines API limits, URL templates, template parameters with descriptions, an example that shows how to request an isochrone and HTTP status codes."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "04/18/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -30,10 +30,9 @@ The Bing Maps Isochrone API provides time-specific, isoline polygons for the dis
 * **Job Search Sites** – Show all jobs that are within 45 minutes of my home when taking public transit.
 * **Geofence Generation** – Generate a polygon that be used as a geofence that alerts users when they are within a certain travel time or distance of a location.
 * **Field management** – Show me all workers who are within a 15-minute drive of a job.
-* **Recreation** – Where could I walk to within 30 minutes of where I am.
 * **Emergency Services Planning** – Where could an emergency vehicle travel too within 5, 10, and 15 minutes.
 
-When you make a request by using one of the following URL templates, the response returns either a `IsochroneResponse` resource that contains the requested isochrone information or an `RouteProxyAsyncResult ` resource which contains information on the asynchronous request that was made to calculate an isochrone. For more information about these resources, see [Isochrone Data](../routes/isochrone-data.md). You can also view the example URL and response values in the [Examples](calculate-an-isochrone.md#examples) section.
+When you make a request by using one of the following URL templates, the response returns either a `IsochroneResponse` resource that contains the requested isochrone information or an `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate an isochrone. For more information about these resources, see [Isochrone Data](../routes/isochrone-data.md). You can also view the example URL and response values in the [Examples](calculate-an-isochrone.md#examples) section.
 
 For Calculate an Isochrone geographic availability, see the travelMode parameter below.
 
@@ -82,7 +81,6 @@ The initial asynchronous response includes a `callbackUrl` property which contai
 https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback?requestId={requestId}&key={BingMapsKey}
 ```
 
-
 **Synchronous POST Requests**
 
 When making a POST request the URL should look something like this:
@@ -90,6 +88,7 @@ When making a POST request the URL should look something like this:
 ```url
 https://dev.virtualearth.net/REST/v1/Routes/Isochrones?key={BingMapsKey}
 ```
+
 **Asynchronous POST Requests**
 
 Creates a job to calculate an isochrone using an asynchronous POST request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
@@ -98,28 +97,28 @@ Creates a job to calculate an isochrone using an asynchronous POST request. This
 https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?key={BingMapsKey}
 ````
 
-
 ## Template Parameters
 
 The following is a list of parameters that are supported by the Isochrone API.
 
 > [!NOTE]
-> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).<br/><br/>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  
+> Additional parameters, such as output and JSON callback parameters, are found in [Output Parameters](../common-parameters-and-types/output-parameters.md).<br><br>An alias can be used for a URL parameter when making a GET request to shorten the length of the query parameter. For example, waypoint=47.610,-122.107 can be shortened to wp=47.610,-122.107.  
 
-| Parameter    | GET Alias  | Description  |
-|--------------|--------|--------------|
-| `waypoint`     | `wp`     | **Required**. The point around which the isochrone will be calculated. This can be specified as a Point or address. For more information about Point values, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br/><br/>**Examples**:<br/><br/>waypoint=47.610,-122.107 \[Point\]<br/><br/>waypoint=1%20Microsoft%20Way%20Redmond%20WA \[address\] |
-| `maxTime`      |        | **Required.** The maximum travel time in the specified time units in which the isochrone polygon is generated. Cannot be set when *maxDistance* is set. Maximum value is 60 minutes when using asynchronous requests.<br/><br/>**Example:** maxTime=10 |
+| Parameter   | GET Alias| Description  |
+|-------------|--------|----------------|
+| `waypoint`  | `wp`   | **Required**. The point around which the isochrone will be calculated. This can be specified as a Point or address. For more information about Point values, see [Location and Area Types](../common-parameters-and-types/location-and-area-types.md).<br/><br/>**Examples**:<br/><br/>waypoint=47.610,-122.107 \[Point\]<br/><br/>waypoint=1%20Microsoft%20Way%20Redmond%20WA \[address\] |
+| `maxTime`   |        | **Required.** The maximum travel time in the specified time units in which the isochrone polygon is generated. Cannot be set when *maxDistance* is set. Maximum value is 60 minutes when using asynchronous requests.<br/><br/>**Example:** maxTime=10 |
 | `timeUnit`  | `tu`   | **Optional.** The units in which the maxTime value is specified. One of the following values:<br/><br/> • **minute**<br/> • **second** \[default\]<br/><br/>**Example**: timeUnit=second  |
-| `maxDistance`  | `maxDis` | **Required for Driving and Walking.** The maximum travel distance in the specified distance units in which the isochrone polygon is generated. Cannot be set when *maxTime* is set. Distance based isochrones are not supported for transit.<br/><br/>**Example:** maxDistance=15 |
-| `distanceUnit` | `du`  | **Optional**. The units in which the maxDistance value is specified. One of the following values:<br/><br/> • **mile** or **mi**<br/> • **kilometer** or **km** \[default\]<br/><br/>**Example**: distanceUnit=mi |
-| `dateTime`  | `dt`  | **Optional** **for time based Driving and Transit**. When a maxTime value is specified, predictive traffic data is used to calculate the best isochrone route for the specified date time. This is not supported for distanced based queries.<br/><br/>A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for DateTime values, see [DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx). <br/><br/>**Examples**:<br/><br/>dateTime=03/01/2011 05:42:00<br/><br/>dateTime=05:42:00 \[assumes the current day\]<br/><br/>dateTime=03/01/2011 \[assumes the current time\] |
-| `optimize` | `optmz` | **Optional.** Specifies what parameters to use to optimize the isochrone route. One of the following values:<br/><br/> • **distance**: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br/> • **time** [default]: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br/> • **timeWithTraffic**: The route is calculated to minimize the time and uses current or predictive traffic information depending on if a dateTime value is specified. Use with maxTime.<br/><br/>**Example:** optimize=distance |
-| `travelMode`   | `mode`   | **Optional.** Indicates the which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking**<br/> • **transit**<sup>1</sup><br/>• **truck** <br/><br/><br/>**Example:** travelMode=walking <br/><br /> **Note**: <br/><br/> For travelMode=truck, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. For more details about vehicle attributes, please check the [Calculate a Truck Route API doc](./calculate-a-truck-route.md). <br /><br /> **Geographic Availability**: <br /> -  `Driving` and `Walking` are available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Truck` is available in Truck Routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md). <br /> -  `Transit` is available in markets seen in the [Transit Coverage documentation](../../coverage/transit-coverage/index.md). |
+|`maxDistance`|`maxDis`| **Required for Driving and Walking.** The maximum travel distance in the specified distance units in which the isochrone polygon is generated. Cannot be set when *maxTime* is set. Distance based isochrones are not supported for transit.<br/><br/>**Example:** maxDistance=15 |
+| `distanceUnit`| `du` | **Optional**. The units in which the maxDistance value is specified. One of the following values:<br/><br/> • **mile** or **mi**<br/> • **kilometer** or **km** \[default\]<br/><br/>**Example**: distanceUnit=mi |
+| `dateTime`  | `dt`   | **Optional** **for time based Driving and Transit**. When a maxTime value is specified, predictive traffic data is used to calculate the best isochrone route for the specified date time. This is not supported for distanced based queries.<br/><br/>A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for DateTime values, see [DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx). <br/><br/>**Examples**:<br/><br/>dateTime=03/01/2011 05:42:00<br/><br/>dateTime=05:42:00 \[assumes the current day\]<br/><br/>dateTime=03/01/2011 \[assumes the current time\] |
+| `optimize`  | `optmz`| **Optional.** Specifies what parameters to use to optimize the isochrone route. One of the following values:<br/><br/> • **distance**: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br/> • **time** [default]: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br/> • **timeWithTraffic**: The route is calculated to minimize the time and uses current or predictive traffic information depending on if a dateTime value is specified. Use with maxTime.<br/><br/>**Example:** optimize=distance |
+| `travelMode`| `mode` | **Optional.** Indicates the which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking**<br/> • **transit**<sup>1</sup><br/>• **truck** <br/><br/><br/>**Example:** travelMode=walking <br/><br /> **Note**: <br/><br/> For travelMode=truck, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. For more details about vehicle attributes, please check the [Calculate a Truck Route API doc](./calculate-a-truck-route.md). <br /><br /> **Geographic Availability**: <br /> -  `Driving` and `Walking` are available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Truck` is available in Truck Routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md). <br /> -  `Transit` is available in markets seen in the [Transit Coverage documentation](../../coverage/transit-coverage/index.md). |
 
 <sup>1</sup> `transit` will no longer be a valid `travelMode` as of 9/30/2024.
 
 *Template POST body with vehicle attributes*
+
 ```json
 {
     "waypoint":string,
@@ -175,10 +174,13 @@ https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualear
 ```
 
 *Asynchronous POST request*
+
 ```url
 https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualearth.net%2FREST%2Fv1%2FRoutes%2FIsochronesAsync%3Fkey&amp;data=02%7C01%7Cyasong%40microsoft.com%7C08d8aa10e2be4c1c8a8e08d7825ab785%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637121198441257460&amp;sdata=8clzM%2Bk0HrDeBjlw2yhMMGQWFg%2FhL7fdmkYSRfge3Vc%3D&amp;reserved=0={BingMapsKey}
 ```
+
 *Example POST Body with vehicle attributes*
+
 ```json
 {
     "waypoint":"31.520759,-97.133597",
@@ -201,7 +203,7 @@ To view the complete XML and JSON responses, see [Isochrone Example](../examples
 
 **Calculate an Isochrone (asynchronous)**
 
-The following example shows how to request an isochrone asynchronously. 
+The following example shows how to request an isochrone asynchronously.
 
 In this case, consider a person that is looking to rent an apartment near their company's office and doesn’t want more than a 30 minute commute by car back home each evening. The resulting isochrone can be used to limit the apartment search to only apartment listings within that commute polygon.
 
@@ -247,7 +249,7 @@ When the request is not successful, the response returns one of the following er
 * 503
 
 > [!TIP]
-> When making an asynchronous request, if the *RouteProxyAsyncResult* *ErrorMessage* says "Timeout occurred", the likely cause is that the maximum time or distance values in the request are too large and is resulting in a timeout on the server when calculating the isochrone. 
+> When making an asynchronous request, if the *RouteProxyAsyncResult* *ErrorMessage* says "Timeout occurred", the likely cause is that the maximum time or distance values in the request are too large and is resulting in a timeout on the server when calculating the isochrone.
 
 ## See Also
 
