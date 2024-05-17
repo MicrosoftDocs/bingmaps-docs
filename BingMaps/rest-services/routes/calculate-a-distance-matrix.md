@@ -6,7 +6,7 @@ ms.topic: article
 ms.assetid: 1b06a21d-8204-4a5a-8389-c3983bde4307
 caps.latest.revision: 15
 author: stevemunk
-ms.author: v-munksteve
+ms.author: eriklind
 manager: eriklind
 ms.service: "bing-maps"
 ---
@@ -32,6 +32,17 @@ Distance matrices are used in several different types of applications. The most 
 When you make a request by using one of the following [URL templates](#url-templates), the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. If a distance matrix histogram is requested, a departure time for when in the histogram the cell it is related to will be included. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
 
 For Calculate a Distance Matrix geographic availability, see the travelMode parameter below.
+
+> [!NOTE]
+> **Changes to Calculate a Distance Matrix**
+>
+> The Bing Maps `Calculate a Distance Matrix` service will no longer support the following features as of 9/30/2024.
+>
+> - Transit as a mode of transportation in the `travelMode` parameter.
+> - Histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
+> - The parameters `endTime` and `resolution`.  
+>
+> To avoid service disruptions, modify your application by 9/30/2024.  
 
 ## API Limits
 

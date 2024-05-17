@@ -28,6 +28,11 @@ ms.service: "bing-maps"
 
 The Bing Maps Snap to Road API takes GPS point data, in the form of latitudes and longitudes, and returns a list of objects that form a route snapped to the roads on a map. The information returned on the road segments, include the names of the roads that the GPS points are associated with and their posted speed limits. You can also interpolate the GPS points, resulting in a route that smoothly follows the geometry of the road for map display purposes, which is a valuable feature when tracking assets and for data visualization.
 
+> [!NOTE]
+> **Bing Maps Snap Points to Roads service retirement**
+>
+> As of 9/30/2024, the Bing Maps `Snap Points to Roads` service will no longer support access to truck speed limits and vehicle attributes. To avoid service disruptions, modify your application by 9/30/2024.
+
 When you make a request by using one of the following URL templates, the response returns a `SnapToRoadResponse` resource that contains the requested snapped coordinate information. For more information about the `SnapToRoadResponse` resource, see [Snap to Road Data](snap-to-road-data.md). You can also view the example URL and response values in the **Examples** section.
 
 The algorithm that powers the Bing Maps Snap to Road API is based on [this great paper](https://www.microsoft.com/research/publication/hidden-markov-map-matching-noise-sparseness/) written by Microsoft Research.
