@@ -2,7 +2,7 @@
 title: "Find a Location by Address | Microsoft Docs"
 description: "This article provides URL templates for finding a location by address, along with API parameters, and examples."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,6 +17,13 @@ ms.service: "bing-maps"
 
 # Find a Location by Address
 
+> [!NOTE]
+> Bing Maps Find a Location by Address API retirement
+>
+> Bing Maps Find a Location by Address API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Find a Location by Address API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Find a Location by Address API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Find a Location by Address API will need to be updated to use Azure Maps [Get Geocoding](/rest/api/maps/search/get-geocoding) API by the retirement date that applies to your Bing Maps for Enterprise account type.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
 Use the following URL templates to get latitude and longitude coordinates for a location by specifying values such as a locality, postal code, and street address.  
   
 When you make a request by using one of the following URL templates, the response returns one or more Location resources that contain location information associated with the URL parameter values. The location information for each resource includes latitude and longitude coordinates, the type of location, and the geographical area that contains the location. For more information about the Location resource, see [Location Data](location-data.md). You can also view the example URL and response values in the Examples section.  
@@ -26,7 +33,7 @@ When you make a request by using one of the following URL templates, the respons
 [!INCLUDE [get-bing-map-key-note](../../includes/get-bing-map-key-note.md)]
   
 [!INCLUDE [get-bing-maps-best-practices-note](../../includes/get-bing-maps-best-practices-note.md)]
-    
+
 ### Get the latitude and longitude coordinates based on a set of address values for any country/region
 
 A URL appends the location data to the URL path. In the URL below, address information is specified by using URL address parameters such as addressLine, adminDistrict. and postalCode. These parameters are appended to the URL path.  
@@ -40,11 +47,11 @@ http://dev.virtualearth.net/REST/v1/Locations?countryRegion={countryRegion}&admi
 Get the latitude and longitude coordinates based on a set of address values for specific countries/regions**  
   
 > [!NOTE]
->  You can substitute a hyphen (-) for any structured URL parameter when there is no value.  
->   
->  For countries/regions that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
->   
->  For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
+> You can substitute a hyphen (-) for any structured URL parameter when there is no value.  
+>
+> For countries/regions that do not have a structured URL template, use the Unstructured URL described below or use the [Find a Location by Query](find-a-location-by-query.md) API which takes location well as encode other special characters information as a single query string.  
+>
+> For all location values, it is a best practice to encode the URI before making the request. Encoding replaces spaces with "%20" and replaces other special characters with similar encoded values. For more information, see [encodeURI](https://www.w3schools.com/jsref/jsref_encodeURI.asp) [JavaScript] and [Uri.EscapeDataString](https://msdn.microsoft.com/library/system.uri.aspx) [.NET].  
   
  A structured URL specifies the location data for the country/region as part of the URL path.  
   
