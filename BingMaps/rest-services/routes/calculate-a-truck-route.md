@@ -32,6 +32,18 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 * Highways often have a separate speed limit for trucks.
 * Certain trucks may want to avoid roads that have steep gradients.
 
+> [!NOTE]
+> **Bing Maps Calculate a Truck Route Feature Changes**
+>
+> As of 9/30/2024, the Bing Maps `Calculate a Truck Route` service will no longer support the following parameters:
+>
+> - `distanceBeforeFirstTurn`
+> - `vehicleMaxGradient`
+> - `vehicleMinTurnRadius`
+> - `vehicleHazardousPermits`
+>
+> To avoid service disruptions, modify your application by 9/30/2024.
+
 The Bing Maps Truck Routing API is an extension of the existing Bing Maps Routing API and supports many of the same request parameters, and responds with the same Route resource class. Note that each request to the Truck Routing API generates three (3) billable transactions.
 
 When you make a request by using one of the following URL templates, the response returns either a **Route** resource that contains the truck based routing information or `RouteProxyAsyncResult` resource which contains information on the asynchronous request that was made to calculate a truck route. For more information about the Route resource, see [Route Data](../routes/route-data.md). You can also view the example URL and response values in the **Examples** section.
