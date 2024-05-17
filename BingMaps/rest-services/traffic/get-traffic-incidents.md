@@ -2,7 +2,7 @@
 title: "Get Traffic Incidents | Microsoft Docs"
 description: This article describes how to get traffic incidents and provides a URL template to request traffic incident information. Template parameters and examples are provided.
 ms.custom: ""
-ms.date: "09/12/2023"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

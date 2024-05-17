@@ -2,7 +2,7 @@
 title: Find Time Zone | Microsoft Docs
 description: Given a pair of coordinates or a place name query, the Bing Maps Time Zone API will return local time zone and DST information.
 ms.custom: 
-ms.date: 12/11/2018
+ms.date: "05/21/2024"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

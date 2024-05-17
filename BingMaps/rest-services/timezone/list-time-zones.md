@@ -2,7 +2,7 @@
 title: List Time Zones | Microsoft Docs
 description: The list operation retrieves all available time zone data for either the IANA or Windows time zone standard.
 ms.custom: 
-ms.date: 12/11/2018
+ms.date: "05/21/2024"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
