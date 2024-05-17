@@ -8,7 +8,7 @@ ms.date: "05/21/2024"
 # Bing Maps SDK for Android and iOS
 
 > [!NOTE]
-> Bing Maps SDK for Android and iOS retirement
+> **Bing Maps SDK for Android and iOS retirement**
 >
 > Bing Maps SDK for Android and iOS is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps SDK for Android and iOS until June 30th, 2025. Enterprise account customers can continue to use Bing Maps SDK for Android and iOS until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps SDK for Android and iOS will need to be updated to use [Azure Maps Web SDK](/azure/azure-maps/how-to-use-map-control) by the retirement date that applies to your Bing Maps for Enterprise account type.
 >

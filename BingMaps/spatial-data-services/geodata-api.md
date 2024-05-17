@@ -2,7 +2,7 @@
 title: "Geodata API | Microsoft Docs"
 description: "Describes the Geodata API and provides supported HTTP methods, the URL template, template parameters, examples, and HTTP status codes."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
