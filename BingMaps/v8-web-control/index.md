@@ -17,6 +17,13 @@ ms.service: "bing-maps"
 
 # Bing Maps V8 Web Control
 
+> [!NOTE]
+> Bing Maps Web Control SDK retirement
+>
+> Bing Maps Web Control SDK is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Web Control SDK until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Web Control SDK until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Web Control SDK will need to be updated to use [Azure Maps Web SDK](/azure/azure-maps/how-to-use-map-control) by the retirement date that applies to your Bing Maps for Enterprise account type.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
 Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping developer kit optimized for Enterprise scenarios.
 
 Area          | Description

@@ -15,6 +15,14 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Geocode Dataflow API
+
+> [!NOTE]
+> **Bing Maps Spatial Data Service Geocode Dataflow API retirement**
+>
+> Bing Maps Spatial Data Service Geocode Dataflow API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Spatial Data Service Geocode Dataflow API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Spatial Data Service Geocode Dataflow API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Spatial Data Service Geocode Dataflow API will need to be updated to use Azure Maps [Get Geocoding Batch](/rest/api/maps/search/get-geocoding-batch) or Azure Maps [Get Reverse Geocoding Batch](/rest/api/maps/search/get-reverse-geocoding-batch) API by the retirement date that applies to your Bing Maps for Enterprise account type. Azure Maps Geocoding Batch API and Azure Maps Reverse Geocode Batch API will be updated to support a larger number of locations per batch soon.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
 **Before using this API, make sure you are aware of the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   
  **About data schema versions**: There are two versions of the input and output data schema for this API. The latest data schema (version 2.0) provides additional geocoding information in the response, such as different points for routing and display and a rectangular area that bounds the location. If you are a new user, version 2.0 is recommended because it provides the greatest flexibility. Version 1.0 users can upgrade to version 2.0, but must be aware of the changes in the data schema including some name changes that were made to match the REST Services [Locations API](https://msdn.microsoft.com/library/ff701715.aspx).  
