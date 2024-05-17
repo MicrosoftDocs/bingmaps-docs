@@ -2,7 +2,7 @@
 title: "Autosuggest | Microsoft Docs"
 description: "Describes the Bing Maps Autosuggest API and provides the API's signature, query parameters, response format, response fields, examples, and HTTP status codes."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,6 +16,13 @@ ms.service: "bing-maps"
 ---
 
 # Bing Maps Autosuggest API
+
+> [!NOTE]
+> **Bing Maps Autosuggest API retirement**
+>
+> Bing Maps Autosuggest API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Autosuggest API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Autosuggest API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Autosuggest API will need to be updated to use Azure Maps [Fuzzy Search (with typeahead)](/rest/api/maps/search/get-search-fuzzy) API by the retirement date that applies to your Bing Maps for Enterprise account type. An Azure Maps Autosuggest API will be released soon.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 Given a request with a user’s location and a partial query (called a `query prefix`), the Bing Maps Autosuggest API returns a list of suggested entities which the user is most likely searching for. These entities are ranked from most to least likely. Requests can be called using user locations (as the geocoordinates of the user, including a radius representing your confidence in the accuracy of the user’s location), and/or as a geographic region (either a circle or rectangle, but not both).  
 
