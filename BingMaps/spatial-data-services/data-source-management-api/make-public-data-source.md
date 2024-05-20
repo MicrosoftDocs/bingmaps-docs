@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Make a Data Source Public
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URLs to make your data source publicly accessible or to make it private. A public data source can be queried by anyone with a Bing Maps Key. A private data source can only queried using the data source query key only.  
   
  You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to change the public status of a data source. For more information, see [Making a Data Source Public or Private](../../getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/making-a-data-source-public-or-private.md).  

@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Deleting a Data Source
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 > [!CAUTION]
 >  Use caution when deleting a data source because this action cannot be reversed.  

@@ -14,7 +14,9 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Get All Public Data Sources
+
 Use the following URL to get a list of all data sources that are public. This includes data sources owned and managed by Microsoft and any data source that was created with a Bing Maps Key and made public using the [Make a Data Source Public](../data-source-management-api/make-public-data-source.md) API.  
   
 ## Supported HTTP Methods  

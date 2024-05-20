@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Load Data Source Dataflow Sample Code (C#)
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 The following C# code shows how to upload entity data to a data source by using the Load Data Source Dataflow. The code is provided in two parts. The first code sample creates a Load Data Source Dataflow job and monitors the job status. The second code sample provides general classes that support these operations.  
   
 ## Classes that upload spatial data and check the status of a Load Data Source Dataflow job  

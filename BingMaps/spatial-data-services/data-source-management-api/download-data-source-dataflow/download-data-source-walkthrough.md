@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Download Data Source Walkthrough
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the DataSourceDownload API to download entity data for a published data source.  
   
 > [!NOTE]

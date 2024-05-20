@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Publish a Staged Data Source
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URL to publish a staged data source.  
   
  A job is created when you publish a staged a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Get Downloaded Data
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 A download URL is returned in the job status response when download job has completed. Use this download URL to access the downloaded entity data.  
   
  Your job has completed when the `Status` field in the response is set to `Completed`. The download URL is specified as an XML `Link` value, or as part of a JSON `links` collection. These links have a `role` attribute set to `output` and the `name` attribute and set to `succeeded`.  

@@ -14,6 +14,8 @@ ms.service: bing-maps
 
 # Get Data Source Information
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URLs to get information about one or more data sources.  
   
  You can view the query URL, master key, and query key for all data sources associated with a Bing Maps Account on [Bing Maps Account Center](https://www.bingmapsportal.com). For more information, see [Getting Data Source Information](https://msdn.microsoft.com/library/hh127034).  
