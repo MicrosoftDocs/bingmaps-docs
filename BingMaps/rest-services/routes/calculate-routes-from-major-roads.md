@@ -16,6 +16,11 @@ ms.service: "bing-maps"
 ---
 # Calculate Routes from Major Roads
 
+> [!NOTE]
+> **Bing Maps Calculate Routes from Major Roads service retirement**
+>
+> The Bing Maps **Calculate Routes from Major Roads** service is now deprecated and will be retired on 9/30/2024. To avoid service disruptions, modify your application by 9/30/2024.
+
 Use the following URL template to return a driving route to a location from major roads in four directions (West, North, East and South). You can use this URL for routes in the United States, Canada and Mexico.  
   
 When you make a request using the following URL template, the response can return either only the starting points for the routes from major roads or detailed information for each route. Starting points are latitude and longitude pairs while detailed route information includes detailed directions and waypoints, travel time and duration and other information specific to the route. Specify the `exclude` parameter when you do not want to return detailed route information.  
