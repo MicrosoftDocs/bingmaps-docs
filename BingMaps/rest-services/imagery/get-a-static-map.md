@@ -4,8 +4,8 @@ description: "Demonstrates, using various templates, how to get and display rout
 ms.date: 05/21/2024
 ms.tgt_pltfrm: ""
 ms.topic: article
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 manager: eriklind
 ms.service: "bing-maps"
 ---

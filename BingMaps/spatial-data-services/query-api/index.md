@@ -6,7 +6,7 @@ ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "landing-page"
 ms.assetid: 369ac9ed-4b54-424c-8369-32d48266035a
 caps.latest.revision: 14
 author: "rbrundritt"
