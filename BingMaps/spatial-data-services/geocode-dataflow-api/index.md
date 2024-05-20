@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocode Dataflow API
+
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
 **Before using this API, make sure you are aware of the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   
  **About data schema versions**: There are two versions of the input and output data schema for this API. The latest data schema (version 2.0) provides additional geocoding information in the response, such as different points for routing and display and a rectangular area that bounds the location. If you are a new user, version 2.0 is recommended because it provides the greatest flexibility. Version 1.0 users can upgrade to version 2.0, but must be aware of the changes in the data schema including some name changes that were made to match the REST Services [Locations API](https://msdn.microsoft.com/library/ff701715.aspx).  

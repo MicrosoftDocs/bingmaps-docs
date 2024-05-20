@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Download Geocode Job Results
 
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
 The URLs to download results from a Geocode Job are provided when your job has completed and you request job status. When your job has completed, the `Status` field in the job status response is set to `Completed` and the URLs to use to download processed data are defined in the response as XML `Link` values, or as part of a JSON `links` collection. You can distinguish these link elements in the response because they have the attribute `role` set to `output`. These link elements also specify the `name` attribute and set it to `succeeded` or `failed` to identify a download URL for data that was processed successfully or for data that encountered errors during processing. A link does not appear if there is no data to download. Therefore, if all your data was processed successfully, a link with the `name` attribute and set it to `failed` will not appear in the response. The following are examples of these link elements.  
   
  **XML**  
