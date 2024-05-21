@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: ""
 caps.latest.revision: 0
 author: "SimonShapiroMsft"
-ms.author: v-munksteve
+ms.author: eriklind
 manager: "cordellj"
 ms.service: "bing-maps"
 ---

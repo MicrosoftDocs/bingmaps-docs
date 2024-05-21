@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6ba311cb-baf2-4ea8-9504-040918810594
 caps.latest.revision: 17
 author: stevemunk
-ms.author: v-munksteve
+ms.author: eriklind
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
