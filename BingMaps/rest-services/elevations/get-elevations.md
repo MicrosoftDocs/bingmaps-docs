@@ -2,7 +2,7 @@
 title: "Get Elevations | Microsoft Docs"
 description: "This article provides URLs that let you get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth. This includes getting elevations for latitude and longitude coordinates, at equally-spaced locations along a polyline path or within a bounding box, getting the offset of the geoid sea level earth model from the ellipsoid earth model, also an explanation about elevations and coordinate values and working with earth models and zoom level."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,9 +16,14 @@ ms.service: "bing-maps"
 ---
 # Get Elevations
 
+> [!NOTE]
+> **Bing Maps Elevations API retirement**
+>
+> Bing Maps Elevations API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Elevations API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Elevations API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Elevations API will need to be updated to use an alternative solution, such as [Create elevation data & services](/azure/azure-maps/elevation-data-services), by the retirement date that applies to your Bing Maps for Enterprise account type.
+
 Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth.
 
-__Unit of elevation__: Meters.
+**Unit of elevation**: Meters.
 
 ## URL Templates
 
@@ -26,7 +31,6 @@ __Unit of elevation__: Meters.
 
 ### Get elevations for latitude and longitude coordinates
  Elevations are returned for each set of coordinates. Both the parameters `points` and `key` are required.
-
 
 ```url
 http://dev.virtualearth.net/REST/v1/Elevation/List?points={lat1,long1,lat2,long2,latN,longnN}&heights={heights}&key={BingMapsKey}
