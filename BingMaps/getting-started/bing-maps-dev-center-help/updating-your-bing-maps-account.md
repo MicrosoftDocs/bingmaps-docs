@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Updating Your Bing Maps Account
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 This topic describes how to:  
   

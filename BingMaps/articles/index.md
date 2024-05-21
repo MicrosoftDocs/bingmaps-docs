@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Bing Maps Articles
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following articles provide background information and cross-API information for Bing Maps APIs.  
   
 |Article|Description|  

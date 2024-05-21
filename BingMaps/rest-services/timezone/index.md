@@ -17,6 +17,8 @@ ms.service: bing-maps
 
 # Bing Maps Time Zone API
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 ## In This Section
 
 The Bing Maps Time Zone API makes it easy to [find a time zone and daylight savings time (DST)](find-time-zone.md) for a location by query or latitude and longitude coordinates. The Time Zone API also [converts UTC datetime stamps to different time zones with DST information or retrieves a Time Zone by ID](convert-local-time-zone.md) and [provides a list of time zone information for either the Microsoft Windows or IANA time zone standard](list-time-zones.md).

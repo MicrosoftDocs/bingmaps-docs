@@ -12,6 +12,8 @@ ms.service: bing-maps
 
 # Bing Maps Geographic Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps contains different levels of geographic coverage for every country/region in the world. The following table contains details about coverage for
 
 - Road Data / Routing (Driving and Walking)

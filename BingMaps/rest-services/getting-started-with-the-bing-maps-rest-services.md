@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Getting Started with the Bing Maps REST Services
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 The Bing™ Maps REST Services Application Programming Interface (API) is a Representational State Transfer (REST) API that you can use to do common tasks, such as finding an address, retrieving a map with a pushpin and a label, or getting driving directions. You perform these tasks by constructing a URL.
   
  **To use the Bing Maps REST Services, you must have a [Bing Maps Key](../getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key.md).**  

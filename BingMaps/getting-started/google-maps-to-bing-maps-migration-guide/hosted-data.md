@@ -10,8 +10,9 @@ ms.service: bing-maps
 services: bing-maps
 ---
 
-
 # Download location data hosted in Google Fusion tables
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 In Google Maps, developers often store their custom map data using Google Fusion. Bing Maps provides a similar solution called Bing Spatial Data Services (SDS).
 
