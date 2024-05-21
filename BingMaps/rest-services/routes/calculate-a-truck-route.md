@@ -2,7 +2,7 @@
 title: "Calculate a Truck Route | Microsoft Docs"
 description: "This article describes how to calculate a truck route that can take into account truck attributes such as size, weight and type of cargo and defines API limits, supported HTTP methods. Also includes URL templates, template parameters, and examples."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,6 +17,13 @@ ms.service: "bing-maps"
 
 # Calculate a Truck Route
 
+> [!NOTE]
+> **Bing Maps Calculate a Truck Route API retirement**
+>
+> Bing Maps Calculate a Truck Route API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Calculate a Truck Route API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Calculate a Truck Route API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Calculate a Truck Route API will need to be updated to use Azure Maps [Route Directions](/rest/api/maps/route/post-directions) API by the retirement date that applies to your Bing Maps for Enterprise account type. For detailed migration guidance, see [Migrate Bing Maps Calculate a Truck Route API](/azure/azure-maps/migrate-calculate-truck-route).
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
 The Bing Maps Truck Routing API provides travel routes which take truck attributes such as size, weight and type of cargo. This is important as not all trucks can travel the same routes as other vehicles. Here are some examples:
 
 * Bridges have heights and weight limits.
@@ -24,6 +31,18 @@ The Bing Maps Truck Routing API provides travel routes which take truck attribut
 * Longer trucks have difficulty making tight turns.
 * Highways often have a separate speed limit for trucks.
 * Certain trucks may want to avoid roads that have steep gradients.
+
+> [!NOTE]
+> **Bing Maps Calculate a Truck Route Feature Changes**
+>
+> As of 9/30/2024, the Bing Maps `Calculate a Truck Route` service will no longer support the following parameters:
+>
+> - `distanceBeforeFirstTurn`
+> - `vehicleMaxGradient`
+> - `vehicleMinTurnRadius`
+> - `vehicleHazardousPermits`
+>
+> To avoid service disruptions, modify your application by 9/30/2024.
 
 The Bing Maps Truck Routing API is an extension of the existing Bing Maps Routing API and supports many of the same request parameters, and responds with the same Route resource class. Note that each request to the Truck Routing API generates three (3) billable transactions.
 
