@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Infobox with Options
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to create and infobox with the options that hide the pointer and close button, and additionally has two action links.
 

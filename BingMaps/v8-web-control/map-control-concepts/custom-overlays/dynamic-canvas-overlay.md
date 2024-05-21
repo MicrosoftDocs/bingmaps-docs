@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Dynamic Canvas Overlay
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to use a canvas to create a custom rendering layer. 
 First we will start off by creating a reusable Canvas Overlay module that not only inserts a canvas element into the map, but also scales and translate it when the map is moving to provide a more fluid user experience without having to do the expensive re-rendering of data on the canvas. To make this module reusable it takes in a callback function which receives a reference to the canvas which you can then draw your data on top of. The following is the code for the module with is saved in a file called **CanvasOverlayModule.js**.

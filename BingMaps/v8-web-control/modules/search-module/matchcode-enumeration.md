@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # MatchCode Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Defines the geocoding level of the location match found by the geocoder.
 

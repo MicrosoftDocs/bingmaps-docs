@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Polygons with Holes Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code is an example that creates a complex polygon that has a hole cut out of it. 
 

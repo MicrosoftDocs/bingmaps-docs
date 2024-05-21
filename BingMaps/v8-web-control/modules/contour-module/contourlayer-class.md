@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # ContourLayer Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The ContourLayer class takes an array of [ContourLine](contourline-class.md) and organizes them and creates non-overlapping polygon to represent each contour area.
 

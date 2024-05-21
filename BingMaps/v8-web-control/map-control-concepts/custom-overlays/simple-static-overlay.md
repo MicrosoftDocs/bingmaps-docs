@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Simple Static Overlay
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example creates a simple overlay that consists of 4 buttons that allow you to pan the map in different directions. 
 

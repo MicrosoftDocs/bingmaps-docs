@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Clusters with a List and Linking
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to dynamically create a list of the pushpins that are currently displayed in the clustering layer and also link each list item back to the clustered pushpin. When any pushpin, clustered pushpin or item in the list of clicked a corresponding infobox will be displayed on the map.
 

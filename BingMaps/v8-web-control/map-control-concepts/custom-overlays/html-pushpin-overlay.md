@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # HTML Pushpin Overlay
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In Bing Maps V8 all data layers, with the exception of custom overlays, are rendered using an HTML5 canvas. This provides increased rendering performance, but has some limitions. The most notable being that HTML elements can’t easily be rendered as pushpins.
 This example shows how to create a HTML Pushpin Layer using a custom overlay. Additionally, this example also stores the code for this custom overlay in a separate JavaScript file and exposes it as a custom module so that it can be easily reused in any Bing Maps V8 application. This JavaScript is stored in a file called **HtmlPushpinLayerModule.js** and contains the following code:

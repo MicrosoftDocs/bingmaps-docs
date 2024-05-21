@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeocodeResult Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents a geocode result in the Search module.
 

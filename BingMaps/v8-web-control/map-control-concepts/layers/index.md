@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Layers
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In Bing Maps V8 we have introduced a new Layer class that makes it easy to separate multiple data sets as layers.
 

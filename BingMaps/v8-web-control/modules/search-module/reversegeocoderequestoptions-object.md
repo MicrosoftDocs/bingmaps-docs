@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # ReverseGeocodeRequestOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In order to reverse geocode a location you need to pass an object containing reverse geocode request options into the reverseGeocode method. The following is a list of properties that can be included in a reverse geocode request.
 

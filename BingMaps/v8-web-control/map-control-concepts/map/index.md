@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Map
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The map is the primary control in the Bing Maps V8 Map Control that provides an interactive surface for visualizing your data.
 

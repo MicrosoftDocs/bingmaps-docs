@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoXmlLayer Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 A layer that loads and renders geospatial XML data on the map.
 

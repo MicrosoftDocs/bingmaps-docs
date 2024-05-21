@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Well Known Text Read Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to parse a Well Known Text string value into a Bing Maps shape and display it on the map.
 

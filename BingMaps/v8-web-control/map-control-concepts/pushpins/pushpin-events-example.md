@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Pushpin Events Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In many applications simply viewing pushpins isn't enough, you need to interact with them too. Attaching events to pushpins allow you to interact with pushpins using a mouse our touch device.
 

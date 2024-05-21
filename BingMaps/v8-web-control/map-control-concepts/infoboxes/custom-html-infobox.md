@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Custom HTML Infobox
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 For many apps the default infobox and the various options for customizing it work well, however sometimes being able to full customize it is desirable. This example shows how to create an infobox using custom HTML. To make things a bit cleaner a HTML template string is created that contains placeholders for a title and description. 
 

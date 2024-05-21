@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DataBinType Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This enumeration is used to specify the shape of data bin rendered in the layer. This enumeration is specified as `Microsoft.Maps.DataBinType.[Name]` where Name can be any of the following values.
 

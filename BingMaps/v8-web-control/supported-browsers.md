@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Supported Browsers
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](.../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Bing Maps V8 Web Control is supported with most modern browsers that are HTML5-enabled, specifically:
 

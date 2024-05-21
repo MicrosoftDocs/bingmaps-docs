@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Configuration Driven Maps framework
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Configuration driven maps allow you to quickly and easily create a map with your data with little to no coding required. Instead create a JSON configuration fill that specifies the data sets you want to render along with some map options and then easily generate a map from this. Besides providing a minimal coding option for creating map apps, configuration driven maps are great for creating reusable map apps which are data driven. Take for example SharePoint, every user has different permissions and access to different data sets. This can easily be programmatically defined as a configuration file which can then be used to provide all users with a similar map application, but with only the data sets they have access to.
 

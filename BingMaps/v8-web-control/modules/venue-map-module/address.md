@@ -18,7 +18,7 @@ ms.service: bing-maps
 
 # Venue address JSON class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents an address of a [venue] map or [entity] within a venue map.
 

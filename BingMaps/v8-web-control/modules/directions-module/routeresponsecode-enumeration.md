@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # RouteResponseCode Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Contains response codes for a route calculation request.
 

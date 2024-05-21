@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Directions Module
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 **Namespace:** Microsoft.Maps.Directions
 

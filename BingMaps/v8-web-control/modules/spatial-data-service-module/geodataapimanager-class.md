@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoDataAPIManager Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This is a static class that provides the ability to request polygons that describe the boundaries of a geographic entities, such as an AdminDivision1 (such as a state or province) or a Postcode1 (such as a zip code) that contain a given point (latitude and longitude) or address. This uses the [GeoData API](../../../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
 

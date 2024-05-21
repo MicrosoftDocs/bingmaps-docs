@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # TimeTypes Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Defines the transit time type. The `Microsoft.Maps.Directions.TimeTypes` enumeration has the following options.
 

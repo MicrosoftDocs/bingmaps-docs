@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DirectionsRenderOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 You can set options for how to the route is rendered by passing an object containing direction render options to the `setRenderOptions` method of the [DirectionsManager](directionsmanager-class.md). The following is a list of properties that are available in the DirectionsRenderOptions object.
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoXml Module
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 **Module name**: Microsoft.Maps.GeoXml
 

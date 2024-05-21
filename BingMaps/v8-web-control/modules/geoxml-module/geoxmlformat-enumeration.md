@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoXmlFormat Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 An enumeration of different GeoXML file formats.
 

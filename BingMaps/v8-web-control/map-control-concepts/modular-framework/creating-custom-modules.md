@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Creating Custom Modules
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Bing Maps Modular framework allows you to create reusable blocks of code that tie into Bing Maps. This saves on development time and is a great way to improve code quality by re-using proven and tested modules.  
 

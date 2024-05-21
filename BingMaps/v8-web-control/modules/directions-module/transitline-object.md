@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # TransitLine Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Contains information about a transit line.
 

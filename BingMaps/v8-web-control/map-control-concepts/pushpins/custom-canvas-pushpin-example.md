@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Custom Canvas Pushpin Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 You can see how to dynamically create a custom image using an HTML5 canvas and use it to create a custom pushpin.
 

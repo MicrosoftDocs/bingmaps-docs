@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Spatial Data Service Module
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 **Module Name**: Microsoft.Maps.SpatialDataService
 

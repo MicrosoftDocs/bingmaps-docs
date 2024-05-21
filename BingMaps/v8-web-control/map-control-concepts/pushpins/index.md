@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Pushpins
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Pushpins, sometimes known as MapIcons or Markers, are the primary method in the Bing Maps V8 Map Control to add a graphical image and text at a location within the map.
 

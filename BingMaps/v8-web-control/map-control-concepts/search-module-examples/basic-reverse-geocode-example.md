@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Basic Reverse Geocode Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code sample shows how to make a reverse geocode request using the Search module. This code loads the search module if it isn’t already loaded. It then reverse geocodes the center of the map and, if successful, it will show a message on the screen with the display name (often an address) of the reverse geocoded location.
 

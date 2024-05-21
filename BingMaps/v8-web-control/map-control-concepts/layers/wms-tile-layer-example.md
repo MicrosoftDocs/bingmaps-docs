@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # WMS Tile Layer Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 [Web Mapping Services](https://en.wikipedia.org/wiki/Web_Map_Service) (WMS) is an Open Geospatial Consortium (OGC) standard for serving georeferenced map images. There are lots of data available in this format that can be overlaid on top of Bing Maps. 
 

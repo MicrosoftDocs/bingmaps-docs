@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Bing Maps V8 Web Control
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](.../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Welcome to the Bing Maps V8 Web Control, Microsoft's modern web mapping developer kit optimized for Enterprise scenarios.
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Customized Heat Map Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example loads 50,000 random locations into the heat map layer. The heat map is customized such that the intensity is increased to 0.65, and a custom color gradient is used. The map is zoomed out over the USA and has the aerial imagery layer turned on so that the finer details of the heatmap can be easily seen.
 

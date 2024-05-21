@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Implementing Modules
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Implementing modules is fairly easy and consists of the following two steps:
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Dynamically create SVG Pushpin Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This code sample shows how to dynamically create SVG circles for pushpins icons. This is useful when you want to customize a pushpin icon appearance, such as color and size, based on some data metric. The following code has a function called createCirclePushpin which takes in the location of the pushpin, a radius for the circle icon, a fill and stroke color, and a stroke width value. This function then uses this information to create an SVG string for the pushpin and sets the anchor of the pushpin to the center of the circle. 
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Well Known Text Examples
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Well Known Text (WKT) is an Open Geospatial Consortium (OGC) standard that is used to represent spatial data in a textual format. Most OGC-compliant systems support Well Known Text. Spatial functionality in SQL Server 2008, 2012, and SQL Azure can easily convert between a spatial object in the database and WKT. A WKT can only store the information for a single spatial object and this spatial data format is usually used as part of a larger file format or web service response. The [Well Known Text Module](../../modules/well-known-text-module.md) in Bing Maps make it east to read and write data in this format with the map.
 

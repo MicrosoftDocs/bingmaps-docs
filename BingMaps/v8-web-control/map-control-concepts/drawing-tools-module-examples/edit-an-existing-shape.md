@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Edit an Existing Shape
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to take an existing polygon and enable editing on it.
 

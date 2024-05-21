@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Polyline Events
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]s
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]s
 
 This example attaches several mouse events to a polyline. When these events fire they highlight a label to indicate which event fired. 
 

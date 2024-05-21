@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Well Known Text Write Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This code example shows how to convert a Bing Maps shape into a Well Known Text string value and display it using an alert.
 

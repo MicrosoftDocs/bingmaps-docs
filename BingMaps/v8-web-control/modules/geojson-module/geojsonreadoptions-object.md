@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoJsonReadOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Options used to customize how a GeoJson file is read and loaded via the [Configuration Driven Maps framework](../../map-control-concepts/configuration-driven-maps-framework/index.md).
 

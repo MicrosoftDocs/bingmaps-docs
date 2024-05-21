@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Load Single Boundary GeoData Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This examples renders a PopulatedPlace (city, town) boundary for the Location that is in the center of the map view when the map is loaded. The center of the map is set to (43.7, -79.3834) which is a location in Toronto, Ontario, Canada.
 

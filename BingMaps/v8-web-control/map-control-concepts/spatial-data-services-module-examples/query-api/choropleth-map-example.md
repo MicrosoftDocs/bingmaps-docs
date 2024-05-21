@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Choropleth Map Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This code example retrieves [US state boundaries from a Spatial Data Source](../../../../spatial-data-services/public-data-sources/2010-us-census-data-sources.md) that contains US census data. These boundaries are color coded based on the population metric. 
 

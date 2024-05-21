@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Infobox when Pushpin Clicked
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 One of the most common scenarios where an infobox is displayed, is when a user clicks a pushpin. This example creates a pushpin at a random location on the map and stores some metadata for the pushpin with it. When the pushpin is clicked an infobox is opened and the title and description values are retrieved from the metadata stored in the pushpin. The location of the pushpin is also used to position the infobox. 
 

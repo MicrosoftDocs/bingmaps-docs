@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Basic Polygon Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code creates a simple polygon that has a red outline and a semi-transparent green fill color, and has a stroke thickness of 2 pixels. 
 

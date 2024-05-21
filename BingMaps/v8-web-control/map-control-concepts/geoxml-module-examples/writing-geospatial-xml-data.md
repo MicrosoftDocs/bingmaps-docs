@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Writing Geospatial XML data
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The GeoXml module provides the ability to convert shapes into a spatial XML document. When writing you can pass in a map instance which will result in all shapes on the map being exported. Alternatively, you can also pass in a shape, an array of shapes, a layer, a ground overlay, or GeoXmlDataSet. In this sample we will export all shapes from the map as KML and display the XML in a text area below the map.
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # VenueMapOptions
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Options used to customize how a [Venue](../../../venues/venue.md) file is read and loaded via the [VenueMapFactory](venuemapfactory-class.md).
 

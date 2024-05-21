@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # RouteMode Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Defines the type of route to calculate. The `Microsoft.Maps.Directions.RouteMode` enumeration has the following options.
 

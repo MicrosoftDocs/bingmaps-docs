@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Zoom into Clusters
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example adds a click event to the clustered pushpins. When clicked, a bounding box is calculated based on the location of the pushpins in the cluster. This bounding box is then used to zoom into the cluster. A padding is added when setting the map view to provide a buffer to account for the pushpin icon pixel size. If it highly possible that when zooming into a cluster that not all individual pushpins will be displayed as some pushpin may form smaller clusters.
 

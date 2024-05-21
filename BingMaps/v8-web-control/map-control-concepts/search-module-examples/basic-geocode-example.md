@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Basic Geocode Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code sample shows how to make a geocode request using the Search module. This code loads the search module if it isn’t already loaded, geocodes “New York, NY”, adds a pushpin to that location, and sets the map view over the result.
 

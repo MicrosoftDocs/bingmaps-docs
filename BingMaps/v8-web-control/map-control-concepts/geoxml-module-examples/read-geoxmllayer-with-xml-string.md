@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read GeoXmlLayer with XML String
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Raw XML data that is stored as a string can be passed into the GeoXml read functions and GeoXmlLayer class. This sample shows how to easily pass in a string of GeoRSS data into a GeoXmlLayer and overlay it on the map.
 

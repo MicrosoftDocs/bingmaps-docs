@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DistanceUnits Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This enumeration allows you to specify the unit of measurement of a linear distance. You can access this enumeration with the `Microsoft.Maps.SpatialMath.DistanceUnits` namespace.
 

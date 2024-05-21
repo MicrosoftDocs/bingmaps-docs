@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Tile Calculations
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 A set of methods that perform spatial calculations based on the Tile pyramid used by Bing Maps as defined [here](../../../articles/bing-maps-tile-system.md). These static methods are exposed through the `Microsoft.Maps.SpatialMath.Tiles` namespace.
 

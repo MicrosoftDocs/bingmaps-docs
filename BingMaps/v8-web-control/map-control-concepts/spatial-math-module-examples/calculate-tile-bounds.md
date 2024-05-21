@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Calculate Tile Bounds
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example uses some of the Tile math functions in the Spatial Math library. The Tile math calculations are useful when creating custom visualization (i.e. heat maps). In this example every time the map has moved all the tiles that are in the current map view are calculated. A polygon is then generated for each one to show its area and a pushpin, with its title property set to the quadkey value of the tile, is placed in the center of the polygon.
 

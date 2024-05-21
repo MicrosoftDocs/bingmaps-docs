@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read Local GeoJSON Object Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code example takes a locally defined GeoJSON object and parses it into a Bing Maps shape using the GeoJSON module, then adds it to the map. When parsing the GeoJSON object, the options for polygons is set such that they will have a semi-transparent red fill color, a stroke thickness of 5 pixels, and a stroke color of white.
 

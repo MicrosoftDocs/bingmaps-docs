@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Spatial Math Module Examples
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Spatial Math module provides several commonly required spatial calculations.   
 

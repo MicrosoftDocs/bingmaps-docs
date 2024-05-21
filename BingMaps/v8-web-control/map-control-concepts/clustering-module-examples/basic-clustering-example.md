@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Basic Clustering Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following code example loads the Clustering module and then generates 1,000 random pushpins that are within the current map view using the [TestDataGenerator class](../../map-control-api/testdatagenerator-class.md), which is built into the V8 map control. It then creates an instance of the ClusterLayer class and passes in the pushpins to be clustered and inserts it into the map. 
 

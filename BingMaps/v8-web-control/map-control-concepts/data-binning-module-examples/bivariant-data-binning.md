@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Bivariant Data Binning
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Since the size and the color can both be customized based on an aggregate value it is possible to have a single data bin represent two data metrics (bivariant).
 

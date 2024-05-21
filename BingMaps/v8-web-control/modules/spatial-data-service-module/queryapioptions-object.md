@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # QueryAPIOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents the options for querying a data source that is hosted in the Bing Spatial Data Services.
 

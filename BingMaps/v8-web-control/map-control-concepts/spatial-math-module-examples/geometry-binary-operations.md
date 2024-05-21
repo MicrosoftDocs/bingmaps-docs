@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Geometry Binary Operations
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Binary operations are logical processes such as addition, subtraction or not. Take for example the following operations:
 

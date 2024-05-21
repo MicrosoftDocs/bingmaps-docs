@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DistanceUnit Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
  The `Microsoft.Maps.Directions.DistanceUnit` enumeration has the following options.
 

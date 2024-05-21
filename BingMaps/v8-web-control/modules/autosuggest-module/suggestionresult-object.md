@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # SuggestionResult Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents the suggestion result from the Autosuggest manager.
 

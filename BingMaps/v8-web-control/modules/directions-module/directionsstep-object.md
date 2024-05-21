@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DirectionsStep Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents one direction in a set of route directions.
 

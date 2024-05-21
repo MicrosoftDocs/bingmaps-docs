@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DirectionsRequestOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 You can set options for how to calculate the route by passing an object containing direction request options to the `setRequestOptions` method of the [DirectionsManager](directionsmanager-class.md). 
 

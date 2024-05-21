@@ -18,7 +18,7 @@ ms.service: bing-maps
 
 # Venue inner JSON class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Encapsulates a hole within a polygon [geometry].
 

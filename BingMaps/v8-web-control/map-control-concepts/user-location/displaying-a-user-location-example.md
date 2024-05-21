@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Displaying a User Location Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to request the user’s location and then display it on the map using a pushpin.
 

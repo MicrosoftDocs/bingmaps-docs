@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Directions Module Examples
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Directions Module allows you to calculate a route and display it on the map. The route is draggable by default for easy customization. The instructions are nicely formatted and a default input panel is also available.
 

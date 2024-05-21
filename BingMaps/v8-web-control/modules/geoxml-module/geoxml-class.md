@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # GeoXml Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This class exposes static methods for reading and writing geospatial XML data.
 

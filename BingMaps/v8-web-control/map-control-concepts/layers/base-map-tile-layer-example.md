@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 
 # Base Map Tile Layer Example
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to hide the base map tiles and display a custom map tile layer in its place. The source of the custom map tiles comes from the [ U.S. Geological Survey's - The Nation Map project](https://viewer.nationalmap.gov/help/HowTo.htm)
 

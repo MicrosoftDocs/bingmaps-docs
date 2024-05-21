@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Map Events
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how all the different events for the map work by highlighting a label to indicate which event fired as you use the map.
 

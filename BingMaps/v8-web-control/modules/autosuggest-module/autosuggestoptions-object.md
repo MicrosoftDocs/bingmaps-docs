@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # AutosuggestOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following Autosuggest option properties can be used to customize how suggestions are retrieved. 
 

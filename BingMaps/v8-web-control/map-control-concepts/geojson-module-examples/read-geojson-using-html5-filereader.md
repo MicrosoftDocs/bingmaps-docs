@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Read GeoJSON using HTML5 FileReader
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This code example shows how to enable drag and drop a local GeoJSON file onto a map. To accomplish this, the FileReader and Drag & Drop APIs that are available in HTML5 are used. Good documentation on how to use these APIs together can be found [here](https://www.html5rocks.com/en/tutorials/file/dndfiles/#toc-selecting-files-dnd). This code will allow one or more GeoJSON files to be dropped and rendered onto the map.
 

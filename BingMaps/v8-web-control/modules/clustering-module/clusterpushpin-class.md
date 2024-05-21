@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # ClusterPushpin Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This class extends the Pushpin class and has all the same methods and properties plus the following properties.
 

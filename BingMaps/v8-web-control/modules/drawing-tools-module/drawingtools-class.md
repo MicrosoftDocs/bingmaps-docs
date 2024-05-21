@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # DrawingTools Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The DrawingTools class exposes a set of tools for drawing and editing shapes on the map.
 

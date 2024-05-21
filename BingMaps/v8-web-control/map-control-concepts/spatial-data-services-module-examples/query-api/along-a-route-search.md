@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Along a Route Search
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to search for locations along a route. It uses the built-in direction input panel and the Fourth Coffee Sample data source to search for coffee shops that are along a route.
 

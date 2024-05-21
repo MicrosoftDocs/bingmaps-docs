@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # KmlScreenOverlayOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The options for customizing screen overlays.
 

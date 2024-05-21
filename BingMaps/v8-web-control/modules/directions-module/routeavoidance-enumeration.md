@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # RouteAvoidance Enumeration
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Defines features to avoid when calculating the route. The `Microsoft.Maps.Directions.RouteAvoidance` enumeration has the following options.
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # QueryAPIManager Class
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This is a static class that provides that ability to query data sources that are hosted by the Bing Spatial Data Services using the [Query API](../../../spatial-data-services/query-api/index.md).
 

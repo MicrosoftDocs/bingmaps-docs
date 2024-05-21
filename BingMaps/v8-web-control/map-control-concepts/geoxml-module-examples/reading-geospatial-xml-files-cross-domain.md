@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Reading Geospatial XML Files Cross Domain
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Reading XML files that are hosted on a different domain can pose some challenges. If the server in which the XML file is hosted has [CORs (Cross-origin resource sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) enabled, then simply passing in the URL into the read function of GeoXmlLayer. When the server does not have CORs enabled, the browser will not be able to directly access the file. To get around this you can setup a proxy service on your server which will request the XML file server side and bring the content to the same domain as your application. This sample shows how to create a simple proxy service using a [Generic Handler](https://msdn.microsoft.com/library/ms228090.aspx) in .NET to pass XML data to the GeoXml module.
 

@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Data Binning Layer Events
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Data Binning layer extends from the Layer class and has all the same events available. Events can be added directly to the layer and will fire for the shapes in the layer. Alternatively, you can also loop through each shape in the layer and add an event to individual shapes.
 

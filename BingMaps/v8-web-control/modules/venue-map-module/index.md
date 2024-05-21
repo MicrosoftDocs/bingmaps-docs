@@ -18,7 +18,7 @@ ms.service: "bing-maps"
 
 # Venue Maps Module
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 **Module Name**: Microsoft.Maps.VenueMaps
 

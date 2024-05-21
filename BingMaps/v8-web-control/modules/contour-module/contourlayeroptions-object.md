@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # ContourLayerOptions Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 These options can be used to with the [ContourLayer](contourlayer-class.md) class.
 

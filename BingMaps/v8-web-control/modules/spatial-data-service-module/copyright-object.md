@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Copyright Object
 
-[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents the copyright object for a boundary returned by the [GeoData API](../../../spatial-data-services/geodata-api.md). 
 
