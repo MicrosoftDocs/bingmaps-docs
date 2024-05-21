@@ -14,7 +14,10 @@ ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
+
 # Map Style Sheet Reference in Maps
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md). A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 

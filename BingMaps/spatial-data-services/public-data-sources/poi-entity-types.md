@@ -8,7 +8,10 @@ ms.topic: "article"
 description: "Bing Maps Spatial Data Services PointsOfInterest points of interest (POI) data source category details. The PointsOfInterest data source is a new POI data source and also the replacement to the deprecated NavteqNA and NavteqEU POI data sources."
 ms.service: "bing-maps"
 ---
+
 # POI Entity Types
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
   
