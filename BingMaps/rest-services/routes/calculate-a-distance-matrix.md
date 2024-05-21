@@ -1,7 +1,7 @@
 ---
 title: "Calculate a Distance Matrix | Microsoft Docs"
 description: describes the Bing Maps Distance Matrix API which provides travel time and distances for a set of origins and destinations.
-ms.date: 10/22/2021
+ms.date: 05/21/2024
 ms.topic: article
 ms.assetid: 1b06a21d-8204-4a5a-8389-c3983bde4307
 caps.latest.revision: 15
@@ -14,15 +14,11 @@ ms.service: "bing-maps"
 # Calculate a Distance Matrix
 
 > [!NOTE]
-> **Changes to Calculate a Distance Matrix**
+> **Bing Maps Calculate a Distance Matrix API retirement**
 >
-> The Bing Maps `Calculate a Distance Matrix` service will no longer support the following features as of 9/30/2024.
+> Bing Maps Calculate a Distance Matrix API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Calculate a Distance Matrix API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Calculate a Distance Matrix API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Calculate a Distance Matrix API will need to be updated to use Azure Maps [Route Matrix](/rest/api/maps/route/get-route-matrix) API by the retirement date that applies to your Bing Maps for Enterprise account type.
 >
-> - Transit as a mode of transportation in the `travelMode` parameter.
-> - Histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
-> - The parameters `endTime` and `resolution`.  
->
-> To avoid service disruptions, modify your application by 9/30/2024.  
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 The Bing Maps Distance Matrix API provides travel time and distances for a set of origins and destinations. The distances and times returned are based on the routes calculated by the Bing Maps Route API. Times are based on predictive traffic information, depending on the start time specified in the request. Distance matrices can be calculated for driving, walking and public transit routes. This API can also generate distance matrices that optionally includes a histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
 
@@ -36,6 +32,17 @@ Distance matrices are used in several different types of applications. The most 
 When you make a request by using one of the following [URL templates](#url-templates), the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. If a distance matrix histogram is requested, a departure time for when in the histogram the cell it is related to will be included. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
 
 For Calculate a Distance Matrix geographic availability, see the travelMode parameter below.
+
+> [!NOTE]
+> **Changes to Calculate a Distance Matrix**
+>
+> The Bing Maps `Calculate a Distance Matrix` service will no longer support the following features as of 9/30/2024.
+>
+> - Transit as a mode of transportation in the `travelMode` parameter.
+> - Histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
+> - The parameters `endTime` and `resolution`.  
+>
+> To avoid service disruptions, modify your application by 9/30/2024.  
 
 ## API Limits
 
