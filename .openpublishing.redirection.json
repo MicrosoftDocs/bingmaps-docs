@@ -1,6 +1,12 @@
 {
   "redirections": [
     {
+      "source_path_from_root": "/BingMaps/articles/creating-a-store-locator-using-bing-maps-and-azure.md",
+      "redirect_url": "/BingMaps/articles",
+      "redirect_document_id": false
+    },
+  "redirections": [
+    {
       "source_path_from_root": "/BingMaps/spatial-data-services/public-data-sources/navteqna.md",
       "redirect_url": "/BingMaps/spatial-data-services/public-data-sources/pointsofinterest",
       "redirect_document_id": false
