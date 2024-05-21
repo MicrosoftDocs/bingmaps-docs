@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # CustomOverlayOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following is a list of option properties that can be used when initializing a [CustomOverlay](customoverlay-class.md).
 
 ## Properties

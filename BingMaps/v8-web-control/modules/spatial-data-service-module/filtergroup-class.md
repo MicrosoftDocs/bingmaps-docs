@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # FilterGroup Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A class that groups two or more logical filters or filter groups together. It can be executed against a JSON or generate a filter string that can be used with the Bing Spatial Data Services.
 
 ## Constructor

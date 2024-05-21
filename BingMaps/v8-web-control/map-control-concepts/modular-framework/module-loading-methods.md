@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Module Loading Methods
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following methods allow you to register and load your own modules for use by the map control. Al of these static methods are under the `Microsoft.Maps` namespace.
 
 Name                                                                            | Description

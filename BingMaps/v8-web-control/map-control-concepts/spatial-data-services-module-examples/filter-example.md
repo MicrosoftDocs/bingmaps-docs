@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Filter Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This example shows how to use the `execute` and `toString` functions of the [Filter](../../modules/spatial-data-service-module/filter-class.md) and [FilterGroup](../../modules/spatial-data-service-module/filtergroup-class.md) classes by performing a bunch of tests. The output of the `toString` functions are compared against their expected values. The `execute` functions are tested against an arbitrary JSON object that has the following structure. 
 
 ```javascript

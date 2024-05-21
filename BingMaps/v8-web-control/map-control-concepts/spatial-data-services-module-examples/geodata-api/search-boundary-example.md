@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Search Boundary Example
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In common uses of this module, developers will retrieve boundaries when the entity type of the boundary to return is specified. This is useful to get the boundary of a location that has a different entity type than your input data.  
 

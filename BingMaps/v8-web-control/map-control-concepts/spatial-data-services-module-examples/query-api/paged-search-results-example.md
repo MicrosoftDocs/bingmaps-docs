@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Paged Search Results Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This code example takes a data source and performs an initial radial search of 10 kilometers. It then displays the first 10 results on the map and also creates a list of the results below the map. Clicking on any item in the list below the map triggers an event that looks up the associated pushpin, then zooms and centers the map over it. Because there are more than 10 results for the initial query, this code sample lets you page through the results (10 at a time.) The Forth Coffee Cup data source is used in this example and contains a set of fictitious coffee shop locations. 
 
 ```html

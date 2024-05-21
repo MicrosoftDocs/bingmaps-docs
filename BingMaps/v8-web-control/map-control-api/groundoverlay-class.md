@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GroundOverlay Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A map overlay that binds an image to a bounding box area on the map.
 
 ## Constructor

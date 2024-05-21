@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # PlaceResult Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a place result in the Search module.
 
 ## Properties

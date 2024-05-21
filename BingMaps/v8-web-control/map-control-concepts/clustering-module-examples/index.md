@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Clustering Module Examples
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The Clustering module allows you to easily add in client side clustering to your application. Client Side Clustering is a method where pushpins that are close together are grouped and represented as a single pushpin, often using a different icon to indicate the cluster. This is a great way to improve both the user experience and performance of the map.
 
 ## Examples

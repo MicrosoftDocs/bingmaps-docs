@@ -16,6 +16,9 @@ ms.service: "bing-maps"
 ---
 
 # VenueMap
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The **VenueMap** class represents a venue map in a specific instance of a [Map](../../map-control-api/map-class.md). The **VenueMap** provides functionality to toggle visibility and active floor. The **VenueMap** also exposes properties that can be leveraged for optimizing map view.
 
 

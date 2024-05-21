@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # SearchManager Class
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The **SearchManager** class is the primary class used for performing forward and reverse geocode searches in the Search module. 
 

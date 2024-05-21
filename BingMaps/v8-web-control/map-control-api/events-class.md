@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Events Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Events can be added and removed by using the methods available through the `Microsoft.Maps.Events` class. The Events class has the following static methods available.
 
 Name                                                                                            | Type      | Description

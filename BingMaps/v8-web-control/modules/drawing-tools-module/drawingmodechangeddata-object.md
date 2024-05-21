@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DrawingModeChangedData Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An object that contains the event arguments for when the drawing mode changes in the drawing tools.
 
 | Name  | Type        | Description                                    |

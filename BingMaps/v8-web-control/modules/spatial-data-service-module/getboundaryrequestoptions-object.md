@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GetBoundaryRequestOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents the options for requests boundary data from the [GeoData API](../../../spatial-data-services/geodata-api.md) in the Bing Spatial Data Services.
 
 ## Properties

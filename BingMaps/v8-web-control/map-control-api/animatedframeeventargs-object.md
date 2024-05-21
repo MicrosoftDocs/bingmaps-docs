@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # AnimatedFrameEventArgs Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The event arguments for when a layer frame is being loaded in an [AnimatedTileLayer](animatedtilelayer-class.md).
 

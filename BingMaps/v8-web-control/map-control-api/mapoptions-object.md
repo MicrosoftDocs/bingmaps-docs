@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # MapOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following map options can be used to customize the map. Some of the map options can be changed after the map has loaded by using the **setOptions** function on the map.
 
 Name                      | Type                | Description

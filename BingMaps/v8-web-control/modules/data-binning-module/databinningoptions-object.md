@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DataBinningOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A set options the define how a data binning layer is rendered.
 
 | Name                | Type                                                                         | Description                                                                                                                                                                                                                                                                    |

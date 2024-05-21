@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Anchoring Pushpins
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 One of the most common issues developers come across when using custom pushpins is that when they zoom the map it appears as if their pushpin is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor value in the pushpin options. The anchor specifies which pixel coordinate of the image, relative to the top left corner of the image, should overlap the pushpins location coordinate.
   
 For example, consider the following pushpin, which is 24 pixels wide and 26 pixels tall. For this pushpin we would want the bottom point of the pushpin to align with the pushpins location coordinate which in this case would need an x offset that is half the wide and a y offset equal to the height of the image. This would require an anchor point of (12, 36):

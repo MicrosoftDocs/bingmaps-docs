@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # MatchConfidence Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Defines the level of confidence that the geocoded location result is a match.
 
 | Name | Description |

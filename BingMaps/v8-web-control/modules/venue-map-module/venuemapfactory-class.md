@@ -16,6 +16,9 @@ ms.service: "bing-maps"
 ---
 
 # VenueMapFactoryClass
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The **VenueMapFactory** class can create instances of the [VenueMap](venuemap-class.md) class.
 
 ## Constructor

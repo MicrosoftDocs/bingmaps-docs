@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ModuleOptions Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Name             | Type                           | Description
 ---------------- | ------------------------------ | -----------------------------------------
 `callback`	     | function()                     | A callback function that is fired after the module has loaded.

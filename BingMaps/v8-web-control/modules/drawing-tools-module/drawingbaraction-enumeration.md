@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DrawingBarAction Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Values used to identify and enable the items shown in the drawing bar.
 
 Name | Description

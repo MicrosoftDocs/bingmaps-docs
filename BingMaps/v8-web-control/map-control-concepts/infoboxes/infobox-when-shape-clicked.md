@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Infobox when Shape Clicked
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Often it is useful to be able to display an infobox when any `IPrimitive` shape; `Pushpin`, `Polyline`, or `Polygon` is clicked. This example shows how to handle the click events from these shapes and display an infobox on top of them.
 
 ```html

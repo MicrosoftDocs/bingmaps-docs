@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Read Geospatial XML String
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This sample shows how to read geospatial XML data stored in a string. When reading geospatial XML data using the read and readFromUrl functions you have complete control of the data, you can render it or simply extract information from it. In this sample we will render it on the map. 
 
 ```html

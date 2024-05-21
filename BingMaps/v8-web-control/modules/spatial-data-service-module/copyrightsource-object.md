@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # CopyrightSource Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Represents the copyright source object for a boundary returned by the [GeoData API](../../../spatial-data-services/geodata-api.md). 
 

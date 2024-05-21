@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DrawingManager Events
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The example adds a bunch of events to the drawing manager that is created by the drawing tools module. As the different events first a label will be highlighted in green to indicate which event(s) have fired.
 
 ```html

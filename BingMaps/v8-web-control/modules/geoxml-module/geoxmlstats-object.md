@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoXmlStats Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Statistics about the content and processing time of a XML feed.
 
 | Name                | Type   | Description                                                              |

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Well Known Text Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Module Name**: Microsoft.Maps.WellKnownText
 
 **Namespace**: Microsoft.Maps.WellKnownText

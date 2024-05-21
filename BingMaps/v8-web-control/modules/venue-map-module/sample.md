@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue JSON sample
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 ```json
 {
   "$schema": "https://venuemaps.virtualearth.net/manual/v1.1/Venue.Schema.json",

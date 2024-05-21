@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # ClusterLayerOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following is a list of properties that are available in the ClusterLayerOptions object.
 
 Name                     | Type                            | Description

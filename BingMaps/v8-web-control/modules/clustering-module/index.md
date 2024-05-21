@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Clustering Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Module Name**: Microsoft.Maps.Clustering
 
 **Namespace**: Microsoft.Maps 

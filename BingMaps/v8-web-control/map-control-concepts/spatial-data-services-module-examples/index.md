@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Spatial Data Services Module Examples
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The Bing Spatial Data Services allow you to upload data and have it exposed as a spatial REST service for use in your application. These data sources are initially only accessible through the [Query REST API](../../../spatial-data-services/query-api/index.md) of the service using only your Bing Maps key, however you can make them publicly available which allows any Bing Maps key to access the data. There ar several data sources public data sources available in the Bing Maps, so of these are documented here. In addition to its hosting and spatial REST service capabilities, the Bing Spatial Data services also provides access to administrative boundary data such as state and country/region boundaries through the [GeoData REST API](geodata-api/index.md). 
 
 This module wraps the [Query](../../../spatial-data-services/query-api/index.md) and [GeoData](../../../spatial-data-services/geodata-api.md) REST API’s in the Bing Spatial Data Services and exposes them as an easy to use JavaScript library. It handles all data conversions to and from shapes in Bing Maps to the format required by these services (Well Known Text or Encoded Strings). 

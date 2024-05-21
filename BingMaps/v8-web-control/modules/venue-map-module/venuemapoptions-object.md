@@ -16,6 +16,9 @@ ms.service: "bing-maps"
 ---
 
 # VenueMapOptions
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Options used to customize how a [Venue](../../../venues/venue.md) file is read and loaded via the [VenueMapFactory](venuemapfactory-class.md).
 
 When hosting a venue map at a custom endpoint, the venue map can be loader either using `metadataLoader` or `metadataUrl`. Therefore, only one of `metadataLoader` and `metdataUrl` should be included in **VenueMapOptions**. 

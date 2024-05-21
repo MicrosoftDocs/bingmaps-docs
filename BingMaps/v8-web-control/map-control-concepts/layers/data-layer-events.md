@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Data Layer Events
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Many applications add mouse events to shapes by looping through each shape and adding an event to it. Doing this results in an event handler being created for each shape. With the Layer class you can add a single event handler to the layer and which applies to all shapes it contains. This requires writing less code, reduces the amount of memory required and provides a small performance benefit. The following code adds some random shapes to a layer and then attaches all the different mouse events to the layer.
 
 ```html

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Waypoint Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 In order to calculate a route between locations you need to first add all the locations as waypoints to the [DirectionsManager](directionsmanager-class.md). When creating an instance of the Waypoint class you must pass in an object containing [WaypointOptions](waypointoptions-object.md).
 
 ## Constructor

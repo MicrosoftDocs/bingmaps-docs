@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DataBinMetrics Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A set of values calculated from the pushpins in a data bin.
 
 | Name          | Type   | Description                                                                          |

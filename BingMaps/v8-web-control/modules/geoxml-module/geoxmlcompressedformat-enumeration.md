@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoXmlCompressedFormat Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An enumeration of the different compressed formats that XML can be outputted as.
 
 | Name          | Description                                 |

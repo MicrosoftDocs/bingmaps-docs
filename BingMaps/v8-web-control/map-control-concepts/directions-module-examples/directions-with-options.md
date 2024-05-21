@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Directions with Options
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 When calculating directions request options can be used to modify how the route is calculated. Render options can be used to customize how the route is displayed on the map. In this example driving directions are calculated in kilometers and set to avoid highways. The route line is rendered green and thick, while the title of all waypoints are replaced with an empty string to hide the default behaviour.
 

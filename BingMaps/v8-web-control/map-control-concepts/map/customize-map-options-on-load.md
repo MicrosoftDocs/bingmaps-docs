@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Customize Map Options on Load
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 As mentioned before, you can customize the map when loading it. Use the following code to update how the map is loaded in the `GetMap` function such that it sets the type to aerial, the zoom level to 10, and the map center over London, UK (51.50632, -0.12714).
 
 ```html

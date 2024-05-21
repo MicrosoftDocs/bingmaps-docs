@@ -11,6 +11,8 @@ ms.service: bing-maps
 
 # V8 Web Controls developer resources
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This topic contains links to developer resources, support resources and contact information.
 
 ## Developer resource links

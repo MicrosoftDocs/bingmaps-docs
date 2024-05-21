@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DrawingManagerOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An object that contains options to change the settings of the drawing manager.
 
 | Name   | Type            | Description                                       |

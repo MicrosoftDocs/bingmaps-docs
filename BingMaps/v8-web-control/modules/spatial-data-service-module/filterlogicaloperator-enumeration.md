@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # FilterLogicalOperator Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An enumeration that defines how two or more filters are linked together.  
 
 Name            | String Operator      | Description

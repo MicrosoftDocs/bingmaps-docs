@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Multiple Pushpins and Infoboxes
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 When you have a lot of pushpins and only want to show one infobox at a time, the best approach is to create one Infobox and to reuse it rather than creating an infobox for each pushpin. By doing this the number of DOM elements created by the application is greatly reduced which can provide better performance. This example creates 5 pushpins at random locations on the map. If you click on any of them, an infobox will be displayed with the content for that pushpin. Note that all `IPrimitive` shapes have a metadata property were you can store data for that shape.
 
 ```html

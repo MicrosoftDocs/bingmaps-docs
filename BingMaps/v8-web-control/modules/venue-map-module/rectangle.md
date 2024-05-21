@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue rectangle JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates an oriented rectangle.
 
 This class is part of the [venue] JSON class structure.

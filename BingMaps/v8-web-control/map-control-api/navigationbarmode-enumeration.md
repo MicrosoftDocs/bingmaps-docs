@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # NavigationBarMode Enumeration
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The NavigationBarMode can be used to customize the layout and style of the navigation bar.
 
 | Name | Description    | Example   

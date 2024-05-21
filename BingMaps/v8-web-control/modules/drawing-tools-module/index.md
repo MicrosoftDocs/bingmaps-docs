@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Drawing Tools Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Namespace**: Microsoft.Maps.DrawingTools
 
 The drawing tools module provides tools that allow the user to draw and edit shapes on the map. Individual shapes can be created and/or edited on their own, or you can enable the drawing manager which provides a toolbar of drawing tools to choose from and the ability to draw and edit multiple shapes on the map. 

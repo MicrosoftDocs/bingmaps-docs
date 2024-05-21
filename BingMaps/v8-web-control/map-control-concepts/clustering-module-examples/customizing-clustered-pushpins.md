@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Customizing Clustered Pushpins
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 By default, the clustering layer uses the default pushpin and sets the text option to the number of pushpins that are in the cluster. Customizing the clustered pushpins can be done by passing a callback function into the `clusteredPinCallback` option of the cluster layer. This callback will receive a reference to a [ClusterPushpin](../../modules/clustering-module/clusterpushpin-class.md) object which is special pushpin that has a couple of extra properties on it. You can customize the ClusterPushpin the same way you would a standard pushpin, using the `setOptions` function. For example:
 

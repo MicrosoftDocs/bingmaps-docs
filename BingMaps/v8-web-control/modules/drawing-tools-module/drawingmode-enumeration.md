@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DrawingMode Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The different drawing modes that the drawing manager can be set to. This can be accessed by **Microsoft.Maps.DrawingTools.DrawingMode.[mode_name]**.
 
 | Name       | Description                                                  |

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Elevation Profiles
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The Bing Maps REST services provides a number of useful services. The [Elevation API](../../../rest-services/elevations/index.md) provides elevation data from around the world. This code sample shows how to generate an elevation profile along a route. 
 
 ```html

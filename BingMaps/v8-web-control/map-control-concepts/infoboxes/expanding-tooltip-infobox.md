@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Expanding Tooltip Infobox
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Often infoboxes are displayed when a user clicks or hovers over a pushpin. Another user friendly experience is to show the title when the user hovers over a pushpin like a tooltip, and if they click on the pushpin, then open the full infobox that contains the title and description. The following code shows how to accomplish this by using two infoboxes. One to power the tooltip experience and the other to display the full infobox.
 
 ```html

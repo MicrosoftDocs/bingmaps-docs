@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Right Click Events for Shapes
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Pushpins, polylines, and polygons support a number of mouse events, however right click is not one of them. However, the layer class does expose a right click event which will fire when a user right clicks and shape in the layer. This example shows how to use the right click event on a layer to trigger right click events on shapes.
 
 ```html

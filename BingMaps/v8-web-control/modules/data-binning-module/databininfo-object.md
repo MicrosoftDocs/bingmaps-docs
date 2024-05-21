@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DataBinInfo Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The result of a calculated data bin.
 
 | Name              | Type           | Description                                                                                                                     |

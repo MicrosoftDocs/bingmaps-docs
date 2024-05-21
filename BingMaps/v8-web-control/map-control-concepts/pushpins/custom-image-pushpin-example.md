@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Custom Image Pushpin Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The default pushpin icon is great, but at some point you may want to change this to a different icon. To do this, you can pass a URL of a custom image into the `icon` property of the pushpin options. Let's say you have the following image in the images folder of your web application: 
 
 ![Icon of a white and blue circular pushpin.](../../media/bmv8-poi-custom.png) poi_custom.png

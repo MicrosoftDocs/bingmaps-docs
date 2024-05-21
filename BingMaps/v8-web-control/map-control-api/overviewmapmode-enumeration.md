@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # OverviewMapMode Enumeration
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This enumeration is used to specify how the overview map for the streetside map mode should be displayed. This enumeration is specified as `Microsoft.Maps.OverviewMapMode.[Name]` where `[Name]` can be any of the following values.
 
 Name         | Description

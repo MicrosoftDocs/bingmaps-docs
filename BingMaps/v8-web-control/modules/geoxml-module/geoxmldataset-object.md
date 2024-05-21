@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoXmlDataSet Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A GeoXML result data set that is returned when reading a spatial XML file.
 
 | Name           | Type                        | Description             |

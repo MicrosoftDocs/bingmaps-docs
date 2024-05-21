@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Read Same Domain GeoJSON Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following code example takes a URL to a GeoJSON file that is hosted on the same domain as the application or has CORS enabled on the hosting server and parses it into a Bing Maps shape using the GeoJSON module, then adds it to the map. 
 
 ```html

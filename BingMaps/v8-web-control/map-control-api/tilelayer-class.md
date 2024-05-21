@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # TileLayer Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a tile layer that can be overlaid on top of the map. 
 
 ## Constructor

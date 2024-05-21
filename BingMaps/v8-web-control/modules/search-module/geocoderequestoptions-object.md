@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeocodeRequestOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 In order to geocode a location, you need to pass an object containing geocode request options into the geocode method. The following is a list of properties that can be included in a geocode request.
 
 Name                   | Type                                      | Description

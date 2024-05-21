@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeocodeLocation Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a geocode location object.
 
 ## Properties

@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Custom Base64 Image Pushpin Example
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 In addition to being able to create custom pushpins using images and SVG, you can also use base64 image strings as well. This is useful in two scenarios. The first is to save on separate HTTP requests that you may incur if you have a lot of different icons; rather than request multiple different icons, you can include resources directly in your page and include them in a single HTTP request. In some circumstances, this will be much quicker than using separate HTTP requests for individual images. The second is to allow you to create a custom image using a HTML5 Canvas and then export it as a data URL. This example takes the following base64 string of an image and uses it to create a custom pushpin in the center of the map.
 

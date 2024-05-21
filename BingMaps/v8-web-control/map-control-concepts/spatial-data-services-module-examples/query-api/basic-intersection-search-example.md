@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Basic Intersection Search Example
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 This example shows how to make a simple intersection query against a data source using the map bounds. As you pan and zoom the map a new query is made to load in new data for the map bounds.
 
