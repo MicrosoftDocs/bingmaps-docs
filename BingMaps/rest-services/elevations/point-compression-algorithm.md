@@ -11,6 +11,8 @@ ms.service: "bing-maps"
 
 # Point Compression Algorithm
 
+[!INCLUDE [bing-maps-elevation-retirement](../../includes/bing-maps-elevation-retirement.md)]
+
 When the number of points (latitude and longitude pairs) becomes too large, the length of the URL request may exceed limits imposed by clients, proxies, or the server. To reduce the size of the request or when you cannot use the HTTP POST method, you can implement the compression algorithm described below to get a compressed string that you can use instead of the lengthy points list. The `points` parameter in the Elevation API URLs supports these compressed strings and automatically returns uncompressed elevation data. There is no need for a decompression algorithm.  
   
  This algorithm is best for 400 points or less. If you are requesting elevation data for more than 400 points, make an HTTP POST request.  

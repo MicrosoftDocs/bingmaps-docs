@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Get Elevations
+
+[!INCLUDE [bing-maps-elevation-retirement](../../includes/bing-maps-elevation-retirement.md)]
 
 Use the following URLs to get elevation values (in meters) for a set of locations, a polyline path, or area on the Earth.
 
