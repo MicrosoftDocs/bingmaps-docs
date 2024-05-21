@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapView Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 This is the master class for using the Map functionality within maps.
 
 **Android**

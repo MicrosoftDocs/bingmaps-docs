@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficFlowMapLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Display traffic flow on the map.
 
 **Android**

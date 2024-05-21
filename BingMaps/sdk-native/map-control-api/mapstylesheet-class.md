@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapStyleSheet Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents a set of rules that define the style of the map in a map control.
 
 **Android**

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapScene Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 MapScene is the parent class of all MapScenes. A MapScene captures developer intent of what to display in the map.
 MapScenes can be created via static factory methods on MapScene or descendants can be instantiated directly. To display a MapScene use `MapView.beginSetScene` and `MapView.setScene`.
 

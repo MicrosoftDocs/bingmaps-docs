@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapIcon Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays a graphical image and optional text on the Map.
 
 See [Icons](../map-control-concepts/map-icons.md) for more details on capabilities of the MapIcon class.

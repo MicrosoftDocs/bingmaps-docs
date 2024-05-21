@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationMatchCode Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The geocoding level for each geopoint for a location returned from a geocoding request.
 
 For example, a geocoded location with match codes of `Good` and `Ambiguous` means that more than one geocode location was found for the location information and that the geocode service did not have search up-hierarchy to find a match.

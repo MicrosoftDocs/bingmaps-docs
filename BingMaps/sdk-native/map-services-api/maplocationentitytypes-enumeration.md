@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationEntityTypes Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the entity types that you want returned in the response for a geocoding request. Only the types you specify will be returned. If the point cannot be mapped to the entity types you specify, no location information is returned in the response.
 
 These entity types are ordered from the most specific entity to the least specific entity. When entities of more than one entity type are found, only the most specific entity is returned. For example, if you specify `Address` and `AdminDivision` as entity types and entities were found for both types, only the `Address` entity information is returned in the response. One exception to this rule is when both `PopulatedPlace` and `Neighborhood` entity types are specified and information is found for both. In this case, the information for both entity types is returned. Also, more than one neighborhood may be returned because the area covered by two different neighborhoods can overlap.

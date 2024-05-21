@@ -6,6 +6,8 @@ ms.author: "pablocan"
 
 # Bing Maps SDK for Android and iOS
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Welcome to the Bing Maps SDK for Android and iOS!
 
 The **Bing Maps SDK for Android** and **Bing Maps SDK for iOS** are libraries for building mapping applications for Android and iOS.

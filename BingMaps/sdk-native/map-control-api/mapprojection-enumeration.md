@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapProjection Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Controls how the map projects the world onto the screen.
 
 **Android**

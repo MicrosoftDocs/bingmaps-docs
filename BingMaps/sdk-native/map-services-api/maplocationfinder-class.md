@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationFinder Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Forms and sends geocoding requests.
 
 ## Static Methods

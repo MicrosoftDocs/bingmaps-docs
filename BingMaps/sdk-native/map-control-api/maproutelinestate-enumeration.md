@@ -6,6 +6,8 @@ ms.author: khass
 
 # MapRouteLineState Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the name of the state of MapRouteLine, which determine appearance of route line.
 
 **Android**

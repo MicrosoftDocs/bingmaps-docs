@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapStylePickerSelectedStyleChangedEventArgs Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Event arguments passed to UserInterfaceOptions.MapStylePickerSelectedStyleChanged callback. Update the `selectedStyle` event argument if working with a customized basemap style and return true to have it applied to the the map.
 
 ## Properties

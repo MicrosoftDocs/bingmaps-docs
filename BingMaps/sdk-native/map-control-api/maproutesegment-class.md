@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapRouteSegment Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents a road segment displayed on the map.
 
 **Android**

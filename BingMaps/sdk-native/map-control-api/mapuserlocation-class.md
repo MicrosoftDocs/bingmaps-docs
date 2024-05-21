@@ -6,6 +6,8 @@ ms.author: adl
 
 # MapUserLocation Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Allows to track the user's location and display it on the map with an accuracy radius and a directionality cone.
 
 Look [here](../map-control-concepts/user-location.md) for more information on how this class can be used with examples.

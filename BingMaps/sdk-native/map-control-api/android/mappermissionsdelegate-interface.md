@@ -6,6 +6,8 @@ ms.author: sasakthi
 
 # MapPermissionsDelegate Interface (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Delegates permission requests to the client in order to forward to the Android framework.
 
 >```java
