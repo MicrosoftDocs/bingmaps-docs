@@ -2,7 +2,7 @@
 title: Bing Maps Local Insights API
 description: The Bing Maps Local Insights API returns a list of local entities within the specified maximum driving time or distance traveled from a specified point.
 ms.custom: 
-ms.date: 12/12/2018
+ms.date: 05/24/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -18,11 +18,18 @@ ms.service: bing-maps
 # Local Insights
 
 > [!NOTE]
+> **Bing Maps Local Insights API retirement**
+>
+> The Bing Maps Local Insights API is deprecated and will be retired on 9/30/2024. To avoid service disruptions, all implementations using Bing Maps Local Insights API will need to be updated to use [Azure Maps](https://azure.microsoft.com/products/azure-maps) by 9/30/2024.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
+The Bing Maps Local Insights API returns a list of local entities within the specified maximum driving time or distance traveled from a specified point on Earth. The API returns different types of entities as specified by the string type IDs; these types can be found on the [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md) page. In each response, a maximum of 200 total entities is returned. Presently, the Local Insights API is only available in the US.
+
+> [!NOTE]
 > **Bing Maps Local Insights service retirement**
 >
 > The Bing Maps **Local Insights** service is now deprecated and will be retired on 9/30/2024. To avoid service disruptions, all calls to Local Insights API will need to migrate to a replacement such as the [PointsOfInterest](/bingmaps/spatial-data-services/public-data-sources/pointsofinterest) Data Source in the **Spatial Data service** by 9/30/2024.
-
-The Bing Maps Local Insights API returns a list of local entities within the specified maximum driving time or distance traveled from a specified point on Earth. The API returns different types of entities as specified by the string type IDs; these types can be found on the [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md) page. In each response, a maximum of 200 total entities is returned. Presently, the Local Insights API is only available in the US.
 
 ## API Templates
 
@@ -43,7 +50,7 @@ http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or
 
 #### Get Local Insights By Travel Distance
 
-Get a list of local insights at a waypoint – specified either as a coordinate pair or an address query – with a maximal traveling distance radius specified by the `maxDistance` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The distance unit is specified with `distanceUnit` as either `mile` or `kilometer` and the only permitted value of `optimize` is `distance`. 
+Get a list of local insights at a waypoint – specified either as a coordinate pair or an address query – with a maximal traveling distance radius specified by the `maxDistance` parameter. Specify the kind of entities returned with a comma separated list of type IDs with the `type` parameter. The distance unit is specified with `distanceUnit` as either `mile` or `kilometer` and the only permitted value of `optimize` is `distance`.
 
 ```url
 http://dev.virtualearth.net/REST/v1/Routes/LocalInsights?waypoint={coordinate_or_query}& maxDistance={MaxDistance}&distanceUnit={mile_or_kilometer}&type={type_string_ids}&key={BingMapsKey}
