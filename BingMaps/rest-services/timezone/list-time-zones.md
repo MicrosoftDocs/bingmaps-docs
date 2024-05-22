@@ -2,19 +2,26 @@
 title: List Time Zones | Microsoft Docs
 description: The list operation retrieves all available time zone data for either the IANA or Windows time zone standard.
 ms.custom: 
-ms.date: 12/11/2018
+ms.date: "05/21/2024"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: fa146e18-716a-49b7-88b3-17f78e617245
 caps.latest.revision: 6
-ms.author: v-munksteve
-manager: stevelom
+author: eriklindeman
+ms.author: eriklind
 ms.service: bing-maps
 ---
 
 # List Time Zones
+
+> [!NOTE]
+> **Bing Maps List Time Zone API retirement**
+>
+> Bing Maps List Time Zone API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps List Time Zone API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps List Time Zone API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps List Time Zone API will need to be updated to use Azure Maps [Timezone](/rest/api/maps/timezone) API by the retirement date that applies to your Bing Maps for Enterprise account type.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 The list operation retrieves all available time zone data for either the [IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) or [Windows](https://support.microsoft.com/help/973627/microsoft-time-zone-index-values) time zone standard. Additionally, information about any particular time zone can be retrieved using the ID for that time zone formatted in either the IANA or Windows time zone standard.
 

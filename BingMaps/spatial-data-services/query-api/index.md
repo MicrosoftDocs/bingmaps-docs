@@ -2,11 +2,11 @@
 title: "Query API | Microsoft Docs"
 description: "The overview page for the Query API section, with links to each of the articles in this section and a description for each."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "landing-page"
 ms.assetid: 369ac9ed-4b54-424c-8369-32d48266035a
 caps.latest.revision: 14
 author: "rbrundritt"
@@ -23,10 +23,10 @@ The Query API is a component of the Bing Spatial Data Services. You can use the 
   
  Below are some ways you could use the Query API to search a data source that contains information about a set of restaurants.  
   
--   Use Query by Area to search for all movie theaters within 20 kilometers.    
--   Use Query Near a Route to search for all restaurants along a route.    
--   Use Query by Property to search for all restaurants within 20 miles that have more than 20 employees.    
--   Use Query by ID to search for the restaurant entity that has an entity ID of "410".  
+- Use Query by Area to search for all movie theaters within 20 kilometers.
+- Use Query Near a Route to search for all restaurants along a route.
+- Use Query by Property to search for all restaurants within 20 miles that have more than 20 employees.
+- Use Query by ID to search for the restaurant entity that has an entity ID of "410".  
   
  For information about creating and updating data sources, see the [Load Data Source Dataflow](../data-source-management-api/load-data-source-dataflow/index.md).  
   
