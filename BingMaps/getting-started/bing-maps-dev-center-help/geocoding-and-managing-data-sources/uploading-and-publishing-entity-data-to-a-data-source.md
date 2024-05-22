@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Uploading and Publishing Entity Data to a Data Source
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  
   

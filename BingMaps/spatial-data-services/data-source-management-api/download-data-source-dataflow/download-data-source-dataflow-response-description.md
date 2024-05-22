@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Download Data Source Dataflow Response Description
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 The following tables describe the response syntax for a Data Source Download Dataflow request in a set of hierarchical tables.  
   

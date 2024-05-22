@@ -14,21 +14,23 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Publish a Staged Data Source
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 Use the following URL to publish a staged data source.  
   
  A job is created when you publish a staged a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
-## Supported HTTP Methods  
+## Supported HTTP Methods
+
  GET  
   
 ## URL Template  
   
 > [!NOTE]
->  This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
+> This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
   
  Make sure you review the job limits defined in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
@@ -51,7 +53,7 @@ http://spatial.virtualearth.net/REST/v1/data/jobs/publishJobId/$getstatus?output
 ## Template Parameters  
   
 > [!NOTE]
->  Parameter names and values are not case-sensitive except for the key parameter value.  
+> Parameter names and values are not case-sensitive except for the key parameter value.  
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  
@@ -60,14 +62,16 @@ http://spatial.virtualearth.net/REST/v1/data/jobs/publishJobId/$getstatus?output
 |key||**Required.** The master key for the data source.|The Bing Maps Key that was specified as the master key for the data source. For more information, see [Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md).|  
 |output|o|**Optional**. The output format for the response.|One of the following values:<br /><br /> -   json **[default]**<br />-   xml<br /><br /> **Example**: o=xml|  
   
-## Response  
+## Response
+
  This URL supports the following response formats.  
   
--   JSON: **application/json**  
+- JSON: **application/json**  
   
--   XML: **application/xml**  
+- XML: **application/xml**  
   
-## Examples  
+## Examples
+
  **EXAMPLE: Publish a staged data source.**  
   
 ```url

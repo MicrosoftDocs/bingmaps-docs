@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Load Data Source Dataflow
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Load Data Source Dataflow API to create a data source that contains entity data for a user-specified entity type. For example, a data source could contain location and hours of operation information for a set of restaurants. With the Load Data Source Dataflow API you can:  
   
 -   Create a data source.  

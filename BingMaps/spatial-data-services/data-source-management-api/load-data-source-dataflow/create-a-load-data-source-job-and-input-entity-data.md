@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Create a Load Data Source Job and Input Entity Data
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 Use the following URL to create, stage and update a data source. This URL creates a load data source dataflow job.  
   

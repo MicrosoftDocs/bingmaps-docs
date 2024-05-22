@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Get Downloaded Data
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 A download URL is returned in the job status response when download job has completed. Use this download URL to access the downloaded entity data.  
   

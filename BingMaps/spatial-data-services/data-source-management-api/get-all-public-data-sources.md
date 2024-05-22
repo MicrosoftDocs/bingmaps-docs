@@ -17,33 +17,40 @@ ms.service: "bing-maps"
 
 # Get All Public Data Sources
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URL to get a list of all data sources that are public. This includes data sources owned and managed by Microsoft and any data source that was created with a Bing Maps Key and made public using the [Make a Data Source Public](../data-source-management-api/make-public-data-source.md) API.  
   
-## Supported HTTP Methods  
+## Supported HTTP Methods
+
  GET  
   
-## Response  
+## Response
+
  This URL supports the following response formats.  
   
--   JSON: **application/json**  
+- JSON: **application/json**  
   
--   XML: **application/xml**  
+- XML: **application/xml**  
   
-## URL Templates  
+## URL Templates
+
  **Get a list of all public data sources.**  
   
 ```url
 http://spatial.virtualearth.net/REST/v1/data/$GetPublicDataSourceList?$format=format&key=anyBingMapsKey  
 ```  
   
-## Template Parameters  
+## Template Parameters
+
  Parameter names and values are not case-sensitive except for the key parameter value.  
   
 |Parameter|Description|Values|  
 |---------------|-----------------|------------|  
 |format|Type of output response.|One of the following values:<br /><br /> -   atom<br />-   json|  
   
-## Examples  
+## Examples
+
  **EXAMPLE: Get all publicly available data sources.**  
   
  **URL with XML Response**  

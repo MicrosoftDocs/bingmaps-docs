@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Get Load Data Source Status
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 Use the following URL to get the status of a load data source job.  
   
