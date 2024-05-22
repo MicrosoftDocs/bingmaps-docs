@@ -2,7 +2,7 @@
 title: "Geocode Dataflow API | Microsoft Docs"
 description: "The overview page for the Geocode Dataflow API, which uses REST URLs to geocode and reverse-geocode large sets of spatial data, with information on what you need to do in order to use these API along with links to articles that describe the data schema, how to create and check on jobs, download results, sample input/output files, sample code and a walkthrough."
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,7 +17,12 @@ ms.service: "bing-maps"
 
 # Geocode Dataflow API
 
-[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+> [!NOTE]
+> **Bing Maps Spatial Data Service Geocode Dataflow API retirement**
+>
+> Bing Maps Spatial Data Service Geocode Dataflow API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Spatial Data Service Geocode Dataflow API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Spatial Data Service Geocode Dataflow API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Spatial Data Service Geocode Dataflow API will need to be updated to use Azure Maps [Get Geocoding Batch](/rest/api/maps/search/get-geocoding-batch) or Azure Maps [Get Reverse Geocoding Batch](/rest/api/maps/search/get-reverse-geocoding-batch) API by the retirement date that applies to your Bing Maps for Enterprise account type. Azure Maps Geocoding Batch API and Azure Maps Reverse Geocode Batch API will be updated to support a larger number of locations per batch soon. For detailed migration guidance, see [Migrate Bing Maps Geocode Dataflow API](/azure/azure-maps/migrate-geocode-dataflow).
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 **Before using this API, make sure you are aware of the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   

@@ -2,7 +2,7 @@
 title: "Data Source Management API | Microsoft Docs"
 description: The overview page for the Data Source Management API section contains a description of the Data Source Management API which is used to create and manage data sources that store spatial entity data for a user-defined entity type, and provides links to and descriptions of each article in this section as well as a table listing each data source and links with information on how to use each with both Bing Spatial Data Services and Bing Maps Account Center.
 ms.custom: ""
-ms.date: "02/28/2018"
+ms.date: "05/21/2024"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,7 +15,15 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Data Source Management API
-Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](https://www.bingmapsportal.com). The table below provides links to the documentation for both methods.  
+
+> [!NOTE]
+> **Bing Maps Data Source Management API retirement**
+>
+> Bing Maps Data Source Management API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Data Source Management API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Data Source Management API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Spatial Data Service Data Source Management API will need to be updated to use an alternative, such as an Azure-based solution, by the retirement date that applies to your Bing Maps for Enterprise account type. For detailed migration guidance, see [Migrate Bing Maps Data Source Management and Query API](/azure/azure-maps/migrate-sds-data-source-management).
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
+Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](https://www.bingmapsportal.com). The table below provides links to the documentation for both methods.
   
  **Before using this API, review the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   

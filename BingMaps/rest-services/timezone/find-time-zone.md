@@ -2,19 +2,26 @@
 title: Find Time Zone | Microsoft Docs
 description: Given a pair of coordinates or a place name query, the Bing Maps Time Zone API will return local time zone and DST information.
 ms.custom: 
-ms.date: 12/11/2018
+ms.date: "05/21/2024"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: fa146e18-716a-49b7-88b3-17f78e617245
 caps.latest.revision: 6
-ms.author: v-munksteve
-manager: stevelom
+author: eriklindeman
+ms.author: eriklind
 ms.service: bing-maps
 ---
 
 # Find Time Zone
+
+> [!NOTE]
+> **Bing Maps Find Time Zone API retirement**
+>
+> Bing Maps Find Time Zone API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Find Time Zone API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Find Time Zone API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Find Time Zone API will need to be updated to use Azure Maps [Get Timezone By Coordinates](/rest/api/maps/timezone/get-timezone-by-coordinates) API by the retirement date that applies to your Bing Maps for Enterprise account type. For detailed migration guidance, see [Migrate Bing Maps Find Time Zone API](/azure/azure-maps/migrate-find-time-zone).
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 The Bing Maps Time Zone API makes it easy to retrieve time zone information for any point on Earth. Given a pair of coordinates or a place name query, the Time Zone API will return local time zone and daylight savings (DST) information for that location. Note that time zone data for bodies of water, like oceans or seas, is not supported.
 
