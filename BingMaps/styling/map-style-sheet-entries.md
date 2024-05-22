@@ -14,7 +14,10 @@ ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
+
 # Map Style Sheet Entries
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 The entries listed below can be used in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md). They can also be used to define how overlaid geometry on a map should be represented.
 

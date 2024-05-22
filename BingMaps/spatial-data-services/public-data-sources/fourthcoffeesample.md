@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # FourthCoffeeSample
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The FourthCoffeeSample data source is a sample data source that you can use to learn how to query and get data source information by using the  Bing Spatial Data Services.  
   
 > [!NOTE]

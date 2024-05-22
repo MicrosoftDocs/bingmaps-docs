@@ -12,6 +12,8 @@ services: bing-maps
 
 # Key features in Bing Maps
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following is a list of some of the key features in Bing Maps along with links to documentation and interactive code samples.
 
 ## Additional Road Map styles

@@ -17,6 +17,8 @@ ms.service: bing-maps
 
 # Time Zone Data
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The Bing Maps Time Zone API returns responses in either XML or JSON. All responses include at least one `TimeZone` resource. Optionally, either a `convertedTime` resource or a `DstRule` resource, or both, will be included in each response. 
 
 These resources are described below.

@@ -12,6 +12,8 @@ ms.service: "bing-maps"
 ---
 # Create an Optimized Multi-Itinerary
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 The Bing Maps [Multi-Itinerary Optimization API](../rest-services/routes/optimized-itinerary.md) returns a delivery schedule for a set of agents and itinerary times.
 
 This article demonstrates how to use this API with a POST request to create an optimized itinerary for three agents and thirteen itinerary items.

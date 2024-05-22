@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Get Job List
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 Use the following URL to get a list of all dataflow and data source jobs that were submitted in the last 15 days for the account associated with the Bing Maps Key specified in the request. Jobs are created when you geocode entities and create or modify a data source. Both pending and completed jobs are returned with pending jobs listed first. Note that download jobs are not included in this list.  
   

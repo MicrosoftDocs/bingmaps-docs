@@ -11,6 +11,8 @@ ms.service: "bing-maps"
 
 # Supported Culture Codes
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following list shows the culture codes supported by the Bing Maps REST Services APIs.  
   
 > [!NOTE]

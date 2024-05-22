@@ -15,7 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Status Codes and Error Handling
+# Status Codes and Error 
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 Each response to a request provides an HTTP status code. This article describes these codes.  
   

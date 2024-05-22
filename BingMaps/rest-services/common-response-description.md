@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Common Response Description
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 The response to a Bing Maps REST Services URL request includes the status of the request and one or more resources that contain location, imagery, or route information. The resource information that is returned depends on the Bing Maps REST Services URL that is used and the parameter values that are provided with it. For example, a [Locations](locations/index.md) URL returns one or more Location resources that provide location information based on the values in the URL request.  
   
  The following tables describe the common fields that are returned in the response to a Bing Maps REST Services URL request. For more information about specific resource content, see the API reference for the Locations, Imagery, and Routes APIs.  

@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # JSON Data Contracts
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 > [!IMPORTANT]
 >  Update: Since writing this documentation the Bing Maps team has released an open source portable class library which makes it easy to access the Bing Maps REST services from any .NET application. You can find this library on [GitHub](https://github.com/Microsoft/BingMapsRESTToolkit/). Going forward the data contracts on this page will no longer be updated. Please refer to the .NET REST Toolkit for the latest JSON contrcts.  

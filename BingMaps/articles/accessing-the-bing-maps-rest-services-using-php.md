@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Accessing the Bing Maps REST Services using PHP
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 This article will describe how to write a PHP application that can interact with [Bing Maps REST Services](../rest-services/index.md) APIs.  
   
  Representational State Transfer (REST) is an architecture for distributed systems. It follows a stateless client-server model, meaning that there is no memory (context) of past requests stored on the server between client requests. A RESTful web service is a collection of resources, stored under a central URL, which supports a set of operations all of which can be activated using HTTP methods (POST, GET, etc.).  

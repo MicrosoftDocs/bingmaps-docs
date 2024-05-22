@@ -9,12 +9,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 caps.latest.revision: 6
 author: "v-chrfr"
-ms.author: "v-munksteve"
+ms.author: eriklindeman
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
 # Getting Streetside Tiles from Imagery Metadata
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 The Bing Maps REST Imagery API now supports the retrieval of Streetside images. In this article, we demonstrate how to to make an Imagery API Metadata URL request at a location on Earth and then use this request to [piece together the raw tiles to create a panorama](#panorama) of that location.
 
