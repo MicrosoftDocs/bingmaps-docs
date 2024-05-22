@@ -1,6 +1,6 @@
 ---
 title: "Geolocation Accuracy Circle Example | Microsoft Docs"
-description: Example code that uses the Spatial Math library to calculate a regular polygon with 36 sides centered on the user’s location and renders it as a polygon with a pushpin in the center.
+description: Geolocation Accuracy Circle Example code that uses the Spatial Math library to display the accuracy circle for the user’s location.
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -27,7 +27,7 @@ When using the HTML Geolocation library, it may be useful to be able to display 
 <head>
     <title></title>
     <meta charset="utf-8" />
-	<script type='text/javascript'>
+    <script type='text/javascript'>
     var map;
 
     function GetMap() {
