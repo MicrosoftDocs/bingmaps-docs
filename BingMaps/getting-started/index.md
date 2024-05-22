@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Getting Started with Bing Maps
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 To start developing with Bing Maps, choose the API(s) that is most appropriate for your platform and needs.  
   

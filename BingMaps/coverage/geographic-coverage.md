@@ -5,8 +5,8 @@ description: Description of Bing Maps Geographic Coverage
 ms.date: 02/03/2022
 ms.topic: article
 ms.assetid: 1b4ad52b-0b4a-42ba-9a37-d43cca4854d0
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 ms.service: bing-maps
 ---
 
