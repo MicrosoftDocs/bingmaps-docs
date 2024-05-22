@@ -6,6 +6,8 @@ ms.author: adl
 
 # MapLocationProvider Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 An abstract class that contains common methods for all Android location providers. 
 
 >```java

@@ -6,6 +6,8 @@ ms.author: adl
 
 # MapUserLocationTrackingMode Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the tracking mode of user location.
 
 **Android**

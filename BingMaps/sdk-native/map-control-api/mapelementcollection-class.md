@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapElementCollection Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains all the elements that have been added to the map.
 
 **Android**

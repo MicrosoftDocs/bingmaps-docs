@@ -6,6 +6,8 @@ ms.author: sasakthi
 
 # MapPermissionsCallback Interface (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Provides a callback for the client to call upon receiving permissions result.
 
 >```java

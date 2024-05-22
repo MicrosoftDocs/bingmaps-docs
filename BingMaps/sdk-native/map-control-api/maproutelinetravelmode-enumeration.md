@@ -6,6 +6,8 @@ ms.author: khass
 
 # MapRouteLineTravelMode Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the name of the entry of MapRouteSegment, which determine appearance of line segment.
 
 **Android**

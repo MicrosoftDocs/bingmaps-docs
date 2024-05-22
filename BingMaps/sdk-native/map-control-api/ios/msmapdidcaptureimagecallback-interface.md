@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MSMapDidCaptureImageCallback Interface (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Callback interface to notify when a Bitmap has been captured as a result of a call to MapView.captureImage.
 
 >```objectivec

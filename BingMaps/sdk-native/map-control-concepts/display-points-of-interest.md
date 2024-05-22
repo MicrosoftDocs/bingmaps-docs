@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Display points of interest on the map
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Use [MapIcon](../map-control-api/MapIcon-class.md) to add a graphical image and text at a
 location within the map.
 

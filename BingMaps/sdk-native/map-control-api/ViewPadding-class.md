@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # ViewPadding class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 This is a data class for storing view padding information to be set on MapView.
 
 **Android**

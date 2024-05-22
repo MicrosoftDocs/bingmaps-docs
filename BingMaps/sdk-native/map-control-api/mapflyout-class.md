@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapFlyout Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents a user control that displays lightweight informational UI.
 
 **Android**

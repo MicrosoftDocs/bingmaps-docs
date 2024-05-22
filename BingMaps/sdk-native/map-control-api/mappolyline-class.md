@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapPolyline Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays a line on a map.
 
 **Android**

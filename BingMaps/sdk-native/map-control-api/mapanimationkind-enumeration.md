@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapAnimationKind Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the animation to use when you change the view of the map. For example, you can specify animation when calling setScene and beginSetScene.
 
 **Android**

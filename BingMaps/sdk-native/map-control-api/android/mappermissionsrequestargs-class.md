@@ -6,6 +6,8 @@ ms.author: sasakthi
 
 # MapPermissionsRequestArgs Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains arguments passed to MapPermissionsDelegate with a request for permissions.
 
 ## Properties

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficIncidentsMapLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays traffic incidents on the map.
 
 **Android**

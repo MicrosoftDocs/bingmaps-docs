@@ -6,6 +6,8 @@ ms.author: sasakthi
 
 # MapPermissionsRequestReason Enumeration (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the reason for a permissions request.
 
 >```java

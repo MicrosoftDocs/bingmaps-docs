@@ -6,6 +6,8 @@ ms.author: "pablocan"
 
 # Getting Started with Android
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 This tutorial goes through creating an Android app with a Bing Maps Native Control step-by-step.
 
 ## Prerequisites

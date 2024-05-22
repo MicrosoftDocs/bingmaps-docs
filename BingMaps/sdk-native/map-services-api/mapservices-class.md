@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapServices Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Provides common methods for map services such as [MapLocationFinder](MapLocationFinder-class.md).
 
 ## Static Methods

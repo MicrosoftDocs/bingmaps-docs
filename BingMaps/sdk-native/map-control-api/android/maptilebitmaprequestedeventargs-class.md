@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapTileBitmapRequestedEventArgs Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Passed to developer code when MapView needs a map tile for a [CustomTileMapLayer](../CustomTileMapLayer-class.md). As the map moves around the world, each tile it needs will be passed to the custom tile map layer which in turn uses this class to call out to developer code and ask for the image.
 
 ## Properties

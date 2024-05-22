@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # GeoshapeType Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Indicates the shape of the geographic region.
 
 **Android**

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficIncident Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains information about a specific traffic incident returned by tap events from the [Traffic Incidents Map Layer](trafficincidentsmaplayer-class.md).
 
 ## Properties

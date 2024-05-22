@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Base class for a layer on the map. Not directly usable, only exists to provide functionality common to all MapLayers.
 
 **Android**

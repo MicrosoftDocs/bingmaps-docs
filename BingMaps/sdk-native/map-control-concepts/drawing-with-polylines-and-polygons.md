@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Drawing with Polylines and Polygons
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Frequently, you want to add a simple annotation to the map, which [MapIcons](../map-control-api/mapIcon-class.md)
 are well suited for. Sometimes you will want to highlight a geographic region, or draw additional paths between points on the map. To do
 this, you will want to use [MapPolygon](../map-control-api/mappolygon-class.md) and

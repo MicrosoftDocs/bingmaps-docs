@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Polylines and Polygons
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Sometimes you will want to draw additional paths between two or more points on the map, or highlight a geographic region. To do this, the
 Bing Maps native controls support the concept of **polylines** and **polygons**, respectively.
 

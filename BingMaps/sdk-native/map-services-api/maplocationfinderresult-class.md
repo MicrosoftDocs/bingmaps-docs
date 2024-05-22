@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationFinderResult Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains status code and result location data for a geocoding request.
 
 ## Properties

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Geopath Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents an ordered series of geographic points that form a path.
 
 **Android**

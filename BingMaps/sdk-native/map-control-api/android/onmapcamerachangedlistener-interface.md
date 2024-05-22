@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # OnMapCameraChangedListener Interface (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Listener used with MapView.CameraChanged event.
 
 >```java
