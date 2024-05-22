@@ -14,17 +14,21 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Get Status of a Geocode Job
+
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
 
 Use the following URL to get the status of a geocode job.  
   
-## Supported HTTP Methods  
+## Supported HTTP Methods
+
  GET  
   
 ## URL template  
   
 > [!NOTE]
->  This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
+> This template supports both HTTP and HTTPS protocols. URLs in the response use HTTPS protocol.  
   
  **Get status information for a geocode job.**  
   
@@ -37,7 +41,7 @@ http://spatial.virtualearth.net/REST/v1/Dataflows/Geocode/jobID?output=output&ke
 ### Template Parameters  
   
 > [!NOTE]
->  Parameter names and values are not case-sensitive except for the key parameter value.  
+> Parameter names and values are not case-sensitive except for the key parameter value.  
   
 |Parameter|Alias|Description|Values|  
 |---------------|-----------|-----------------|------------|  

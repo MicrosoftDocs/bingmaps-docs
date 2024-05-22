@@ -17,11 +17,12 @@ ms.service: "bing-maps"
 
 # Geocode Dataflow Data Schema - Version 2.0
 
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
 The Geocode Dataflow API data schema version 2.0 is an update to the data schema and builds upon version 1.0 by adding all the location information returned by the [REST Services Locations API](https://msdn.microsoft.com/library/ff701715.aspx). Like version 1.0, version 2.0 supports the following formats for uploading and downloading spatial data:  
   
--   Text files with values separated by comma, tab, or pipe (&#124;) characters.  
-  
--   XML  
+- Text files with values separated by comma, tab, or pipe (&#124;) characters.  
+- XML  
   
  This topic describes version 2.0 of the spatial data schema for the Geocode Dataflow API. Text file and the XML schema definitions are provided along with descriptions of the fields. For examples of input and output spatial data in all formats, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  
   
