@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Isochrone Example
 
+[!INCLUDE [bing-maps-calculate-an-Isochrone-matrix-api-retirement](../../includes/bing-maps-calculate-an-Isochrone-matrix-api-retirement.md)]
+
 The following example shows how to request an isochrone.
 
 In this case, consider a delivery company that has some electric vehicles in their fleet that have a maximum range of 100 miles on a fully charged battery. The company would like to determine which customer delivery locations the electric vehicles can reach and return back to the shop without having to recharge the vehicle battery. The company can use the resulting isochrone to assign the electric vehicles to only customer deliveries that are within the isochrone polygon.
