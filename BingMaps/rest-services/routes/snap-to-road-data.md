@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Snap to Road Data
 
+[!INCLUDE [bing-maps-snap-points-to-roads-api-retirement](../../includes/bing-maps-snap-points-to-roads-api-retirement.md)]
+
 The response returned by the Snap to Road API contains either an `SnapToRoadResponse` resource or an `RouteProxyAsyncStatus` resource. The `SnapToRoadResponse` contains the snapped point data while the `RouteProxyAsyncStatus` contains status information about an asynchronous request that was made for an isochrone. The following tables provide the descriptions of the `SnapToRoadResponse` resource fields.
 
 [!INCLUDE [get-common-response-note](../../includes/get-common-response-note.md)]
