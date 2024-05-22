@@ -14,6 +14,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Get Elevations
 
 > [!NOTE]
