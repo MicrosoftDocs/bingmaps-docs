@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Geocircle Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Describes a geographic circle with a center point and radius.
 
 **Android**

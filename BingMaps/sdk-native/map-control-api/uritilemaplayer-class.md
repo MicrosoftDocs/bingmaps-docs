@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapUriTileMapLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Display tiles based on developer-supplied URLs.
 
 **Android**

@@ -10,6 +10,13 @@ ms.service: "bing-maps"
 ---
 # Find a Location by Point
 
+> [!NOTE]
+> **Bing Maps Find a Location by Point  API retirement**
+>
+> Bing Maps Find a Location by Point  API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Find a Location by Point  API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Find a Location by Point  API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Find a Location by Point  API will need to be updated to use Azure Maps [Get Reverse Geocoding](/rest/api/maps/search/get-reverse-geocoding) API by the retirement date that applies to your Bing Maps for Enterprise account type. For detailed migration guidance, see [Migrate Bing Maps Find a Location by Point API](/azure/azure-maps/migrate-find-location-by-point).
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+
 Use the following URL template to get the location information associated with latitude and longitude coordinates.  
   
  When you make a request by using the following URL template, the response returns one or more Location resources that contain location information associated with the latitude and longitude coordinate values that you specify. Location information can be as specific as an address or more general such as the country or region. You can specify the type of location information you want to receive by setting the `includeEntityTypes` parameter in the URL. For example, you can specify to only receive information about the neighborhood that corresponds to the coordinates. For more information about the Location resource, see [Location Data](location-data.md). You can also view the example URL and response values in the Examples section.  

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Icons
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 **Icons**, sometimes known as Points of Interest (POI), Pushpins, or Markers, are the primary method in the Bing Maps native controls to add
 a graphical image and text at a location within the map.
 

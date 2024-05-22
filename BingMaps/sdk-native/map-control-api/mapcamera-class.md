@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapCamera Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Describes a camera in a MapView.
 
 **Android**

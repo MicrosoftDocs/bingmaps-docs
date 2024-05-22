@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationOptions Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Forms optional parameters for a geocoding request.
 
 ## Constructors

@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 
 # Open Maps: understanding ODbL
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 **ODBL in Bing Maps**
 
 Certain data available in the [Bing Maps v8 web control](../v8-web-control/index.md) API will be subject to the Open Database License (ODbL). This data will be identified as the **building layer.**  

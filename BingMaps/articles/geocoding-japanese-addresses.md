@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocoding Japanese Addresses
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Japanese geocoding is complex because addresses can be expressed using four different character sets – three native sets (Kanji, Hiragana, Katakana) as well as the Latin (western) alphabet. Also, Japan uses the Japanese address system which is different from the western address system.  The [Bing Maps REST Services](../rest-services/index.md) and [Bing Spatial Data Services](../spatial-data-services/index.md) offer flexibility to handle the custom needs of Japanese address geocoding and support these key features:  
   
 -   **Use of Kanji and Kana (Katakana and Hiragana) character sets**: You can specify Japanese addresses in Kanji, Katakana or Hiragana or a combination of any of these. When you reverse-geocode, the response is returned in either Katakana or Hiragana. See **Japanese and Latin (Hepburn Romanization) Character Sets** below for more details  

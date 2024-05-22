@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationPoint Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains geospatial data for a specific point associated with the location returned from a geocoding request.
 
 ## Properties

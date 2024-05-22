@@ -14,7 +14,10 @@ ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
+
 # Map Styling
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 ## Getting Started
 

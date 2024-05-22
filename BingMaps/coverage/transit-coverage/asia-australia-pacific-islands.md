@@ -14,11 +14,15 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Asia Australia Pacific Transit Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps APIs provide transit information for the following transit agencies in Asia and the Pacific.  
- 
+
 ## Australia
+
 |Admin District|Locality|Transit Agency|
 |:--------------------|--------------|--------------------| 
 |Australian Capital Territory|Canberra|[Canberra Metro Operations](https://www.transport.act.gov.au/)|

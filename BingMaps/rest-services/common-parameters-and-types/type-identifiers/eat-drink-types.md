@@ -8,7 +8,9 @@ ms.topic: reference
 ms.service: bing-maps
 ---
 
-# Eat Drink Identifiers
+# Eat Drink 
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
 
 Type ID  | Description  
 ---------|---------

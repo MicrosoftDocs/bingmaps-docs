@@ -8,7 +8,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Bing Maps Elevations API
+
+[!INCLUDE [bing-maps-elevation-retirement](../../includes/bing-maps-elevation-retirement.md)]
 
 Use the Elevations API to get elevation information for a set of locations, polyline, or area on the Earth.  
   

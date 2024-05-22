@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationPointCalculationMethod Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The method that was used to compute the geocode point.
 
 **Android**

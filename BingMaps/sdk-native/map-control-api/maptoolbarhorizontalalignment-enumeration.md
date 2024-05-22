@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapToolbarHorizontalAlignment Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Controls the horizontal alignment of the toolbar buttons within the map.
 
 **Android**

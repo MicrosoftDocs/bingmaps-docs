@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MSMapUserDidSelectStyleEventArgs Class (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Event arguments passed to UserInterfaceOptions.MapUserDidSelectStyle callback.
 
 >```objectivec

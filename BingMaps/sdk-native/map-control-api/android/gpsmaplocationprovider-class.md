@@ -6,6 +6,8 @@ ms.author: adl
 
 # GPSMapLocationProvider Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 A location provider which uses GPS location services. 
 
 The benefit of using this location provider is that it works in all countries/regions as it comes with all Android phones. You also don't have to pull in an extra module to use this provider. The downside to using this provider is that it is not battery efficient. Also, you have to choose one provider to retrieve signals from (such as network or GPS) instead of having them all work together for one signal.

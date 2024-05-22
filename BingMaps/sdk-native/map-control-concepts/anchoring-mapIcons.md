@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Anchoring MapIcons
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 One of the most common issues developers come across when using custom **Map Icons** is that when they zoom the map it appears as if their
 *MapIcon* is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor point value in the pushpin
 options. The anchor point specifies which pixel coordinate of the image, relative to the top left corner of the image, should overlap the

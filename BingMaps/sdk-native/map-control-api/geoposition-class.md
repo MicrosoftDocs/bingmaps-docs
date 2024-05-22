@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Geoposition Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents a geographic position.
 
 **Android**

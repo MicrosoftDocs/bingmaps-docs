@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # CopyrightDisplay Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Controls the display of the copyright on the Map.
 
 **Android**

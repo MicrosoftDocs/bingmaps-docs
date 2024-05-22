@@ -17,17 +17,17 @@ ms.service: "bing-maps"
 
 # Load Data Source Dataflow
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
 
 Load Data Source Dataflow API to create a data source that contains entity data for a user-specified entity type. For example, a data source could contain location and hours of operation information for a set of restaurants. With the Load Data Source Dataflow API you can:  
   
--   Create a data source.  
+- Create a data source.  
   
--   Update, add and delete data source entities.  
+- Update, add and delete data source entities.  
   
--   Overwrite an existing data source.  
+- Overwrite an existing data source.  
   
--   Make your data source public.  
+- Make your data source public.  
   
  You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to create or update a data source. The Bing Maps Account Center also offers the option to geocode address data on upload. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/library/hh698204.aspx).  
   
@@ -40,7 +40,7 @@ Load Data Source Dataflow API to create a data source that contains entity data 
  You can delete a data source by using the [Delete a Data Source](../../data-source-management-api/delete-data-source.md) API.  
   
 ## In this Section  
- 
+
 |Resource|Description|  
 |-|-|  
 |[Create a Load Data Source Job](../../data-source-management-api/load-data-source-dataflow/create-a-load-data-source-job-and-input-entity-data.md)|Describes how to create a data source and upload entity data by using a load data source job. You can also use this API to stage or update a data source.|  

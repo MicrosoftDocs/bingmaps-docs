@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # OnBitmapRequestedListener Interface (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Used by CustomTileMapLayer to call out to developer code when a tile image is required for the MapView.
 
 >```java

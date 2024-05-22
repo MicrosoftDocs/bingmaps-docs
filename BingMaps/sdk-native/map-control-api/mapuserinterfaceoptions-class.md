@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapUserInterfaceOptions Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 A container class for various properties that can be used to configure interactivity for the control.
 
 **Android**

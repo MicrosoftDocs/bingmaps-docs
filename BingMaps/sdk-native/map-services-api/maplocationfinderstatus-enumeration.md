@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationFinderStatus Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents the status of a completed geocoding request.
 
 **Android**

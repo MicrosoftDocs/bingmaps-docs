@@ -6,6 +6,8 @@ ms.author: adl
 
 # MSMapLocationProvider Class (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 A location provider to be used to retrieve user location on iOS. 
 
 See [MapUserLocation](../mapuserlocation-class.md) for more details on how to start tracking user location with a location provider.

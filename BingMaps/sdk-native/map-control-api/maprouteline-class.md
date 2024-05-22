@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapRouteLine Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays a route line on the map.  Represents a path to be traveled between two or more waypoints displayed on the map.
 
 **Android**

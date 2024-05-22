@@ -10,6 +10,8 @@ ms.service: bing-maps
 
 # Shop Type Identifiers
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Type ID | Description
 -----------|------------
 `AntiqueStores` | For retail stores that sell antiques. 

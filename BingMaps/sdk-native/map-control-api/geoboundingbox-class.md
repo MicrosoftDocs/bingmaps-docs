@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # GeoboundingBox Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents a bounded geographic area.
 
 **Android**

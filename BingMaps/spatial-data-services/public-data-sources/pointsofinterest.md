@@ -8,7 +8,10 @@ ms.author: "eriklind"
 manager: "dirabel"
 ms.service: "bing-maps"
 ---
+
 # PointsOfInterest
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 The PointsOfInterest data source contains information about points of interest (POIs) for over 150 countries/regions worldwide. POI coverage varies by country/region. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key. The results are limited to 25 points of interest when using a Basic key. Enterprise keys do not have such limit.
 

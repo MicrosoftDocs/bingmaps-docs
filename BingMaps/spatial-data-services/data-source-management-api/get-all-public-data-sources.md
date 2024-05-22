@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Get All Public Data Sources
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 Use the following URL to get a list of all data sources that are public. This includes data sources owned and managed by Microsoft and any data source that was created with a Bing Maps Key and made public using the [Make a Data Source Public](../data-source-management-api/make-public-data-source.md) API.  
   

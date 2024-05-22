@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Location Data
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 ## Location Resource  
 
 The response returned by a Locations URL contains one or more Location resources. Each Location resource contains location information that corresponds to the values provided in the request. This topic provides descriptions of the Locations resource fields, followed by JSON and XML examples.  

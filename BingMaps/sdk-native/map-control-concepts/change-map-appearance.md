@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Changing the appearance of the map
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 ## Default Map Style Sheets
 
 The pre-built Map Style Sheets establish the fundamental mode that a map view will render in.  Available options are specified in [MapStyleSheets](../map-control-api/MapStyleSheets-class.md).

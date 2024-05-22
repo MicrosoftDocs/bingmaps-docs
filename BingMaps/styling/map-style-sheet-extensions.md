@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Map Style Sheet Extensions
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 The extensions property at the root of a [map style sheet](map-style-sheets.md) can be used to add custom [entries](map-style-sheet-entries.md) and states to your map's styles. Entries and states can be set on your map elements in the various [Microsoft map controls](map-style-sheet-support.md) to define how they are styled.
 
 ## Create a Custom Entry

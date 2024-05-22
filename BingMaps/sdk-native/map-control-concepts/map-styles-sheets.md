@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Map Style Sheets
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The Bing Maps SDK supports both default and custom Map Style Sheets.
 A **Map Style Sheet** represents a set of rules that define the style of the map in a map view.
 

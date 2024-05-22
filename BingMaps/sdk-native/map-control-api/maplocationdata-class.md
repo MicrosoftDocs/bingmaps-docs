@@ -6,6 +6,8 @@ ms.author: adl
 
 # MapLocationData Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents the last information retrieved from a location update. Latitude, longitude, and timestamp are guaranteed to have valid values for every location fix. 
 
 ## Properties
