@@ -6,6 +6,7 @@ ms.author: pablocan
 
 # Breaking API changes in version 1.0
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
 
 ## Overview
 One of the main motivations behind the SDK changes for V1 has been to provide a more stable API baseline for our customers. Another major motivation has been to unify our APIs and to get closer parity on all supported platforms.  

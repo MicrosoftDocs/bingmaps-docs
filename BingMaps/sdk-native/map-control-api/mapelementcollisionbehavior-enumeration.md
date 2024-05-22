@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapElementCollisionBehavior Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the behavior of a MapIcon when it collides with other map features due to zoom level.
 
 **Android**

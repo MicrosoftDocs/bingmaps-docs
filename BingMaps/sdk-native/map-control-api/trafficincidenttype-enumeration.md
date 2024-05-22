@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficIncidentType Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the type of traffic incident.
 
 **Android**

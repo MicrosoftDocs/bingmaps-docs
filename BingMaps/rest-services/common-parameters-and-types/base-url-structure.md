@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Base URL Structure
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The Bing Maps REST Services are all called by using the following base formats.  
   
 ## HTTP protocol

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapElement Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Represents an element displayed on a MapControl.
 
 **Android**

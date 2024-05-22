@@ -11,6 +11,8 @@ ms.service: "bing-maps"
 
 # User Context Parameters
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Use user context parameters to specify information about the user. You can increase the accuracy of a location result when you specify a user context parameter in your request URL.  
   
  When an alias is provided, you can use the alias to shorten the length of the query parameter.  

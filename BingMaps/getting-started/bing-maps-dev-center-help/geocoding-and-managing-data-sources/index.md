@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocoding and Managing Data Sources
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following topics describe how to use the Bing Maps Dev Center at [https://www.bingmapsportal.com/](https://www.bingmapsportal.com/) to create and manage data sources.  
   
 ## In this section  

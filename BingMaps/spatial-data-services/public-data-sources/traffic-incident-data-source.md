@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Traffic Incident Data Source
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The TrafficIncident data source contains information traffic incidents. You can query for traffic incidents in a specified area by using the Bing Spatial Data Services[Query by Area](../query-api/query-by-area.md) API and the [Query Near a Route](../query-api/query-near-route.md) API and any Bing Maps Key.  
   
 ## Traffic Incident Properties

@@ -14,38 +14,44 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geography Types
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
+
 These geography types can be used to:  
   
--   Add a geography property to a data source entity schema. See [Data Schema and Sample Input](../../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
+- Add a geography property to a data source entity schema. See [Data Schema and Sample Input](../../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
--   Query for entities that are within a specified geography using the 'intersects' spatial filter. See [Query Options](../../query-api/query-options.md).  
+- Query for entities that are within a specified geography using the 'intersects' spatial filter. See [Query Options](../../query-api/query-options.md).  
   
--   Query for entities and return the intersection of the geography for each entity with a specified geography using the 'intersections' function. See [Query Options](../../query-api/query-options.md).  
+- Query for entities and return the intersection of the geography for each entity with a specified geography using the 'intersections' function. See [Query Options](../../query-api/query-options.md).  
   
  **Limits and Requirements**  
   
--   The maximum number of points for any entity geography value is 100,000.  
+- The maximum number of points for any entity geography value is 100,000.  
   
--   The maximum number of points for the 'intersects' spatial filter and 'intersection' function is 250.  
+- The maximum number of points for the 'intersects' spatial filter and 'intersection' function is 250.  
   
--   When using CSV format to define entity data, enclose the geography description in quotes ("").  
+- When using CSV format to define entity data, enclose the geography description in quotes ("").  
   
--   When using 'intersects' and 'intersection' functions, enclose the geography description in single quotes(' ').  
+- When using 'intersects' and 'intersection' functions, enclose the geography description in single quotes(' ').  
   
-## Recommended Geographies  
+## Recommended Geographies
+
  The following geography types are recommended to give the best performance when querying.
- 
+
 |Attribute|Description|Input Data Type|OData Data Type|  
 |-|-|-|-|  
 |Point|A pair of latitude and longitude values. For a more detailed description, see [Point](https://technet.microsoft.com/library/bb964737.aspx).<br /><br /> Examples:<br /><br /> POINT(116.03059 44.49031)|well-known text (WKT)|Edm.Geography|  
 |LineString|A set of latitude and longitude values that are connected by line segments. For a more detailed description and examples, see [LineString](https://technet.microsoft.com/library/bb895372.aspx).<br /><br /> For CSV files, this value must be enclosed in quotes ("") when the value contains a comma (,).<br /><br /> Examples:<br /><br /> LINESTRING(-116.03059 44.49031, -116.03117 44.4928)<br /><br /> CSV file: "LINESTRING (-116.03059 44.49031, -116.03117 44.4928)"|well-known text (WKT)|Edm.Geography|  
 |Polygon|One or more sets of latitude and longitude points that describe a closed outer shape and closed shapes within the outer shape. The area of the polygon is the space between the inner and outer shape boundaries. Points are connected by line segments. The first and last points of each set must be the same. For a more detailed description and examples, see [Polygon](https://technet.microsoft.com/library/bb895267.aspx).<br /><br /> For CSV files, this value must be enclosed in quotes ("") when the value contains a comma (,).<br /><br /> Examples:<br /><br /> POLYGON ((-95.44067 48.6559, -95.44083 48.66306, …-95.44067 48.6559))<br /><br /> CSV file: "POLYGON ((-95.44067 48.6559, -95.44083 48.66306, …-95.44067 48.6559))"|well-known text (WKT)|Edm.Geography|  
   
-## Other Geographies  
+## Other Geographies
+
  The following geography types are supported, but for best performance when querying, use line string, polygon and point types.  
   
-|Attribute|Description|Input Data Type|OData Data Type| 
+|Attribute|Description|Input Data Type|OData Data Type|
 |-|-|-|-|  
 |MultiPoint|A set of points. For a more detailed description and examples, see  [MultiPoint](https://technet.microsoft.com/library/bb964738.aspx).<br /><br /> For CSV files, this value must be enclosed in quotes ("") when the value contains a comma (,).<br /><br /> Examples:<br /><br /> MULTIPOINT((-122.3, 47),( -121.3 47))<br /><br /> CSV file: "MULTIPOINT((-122.3, 47),( -121.3 47))"|well-known text (WKT)|Edm.Geography|  
 |MultiLineString|A set of line strings. For a more detailed description and examples, see  [MultiLineString](https://technet.microsoft.com/library/bb895166.aspx).<br /><br /> For CSV files, this value must be enclosed in quotes ("") when the value contains a comma (,).<br /><br /> Examples:<br /><br /> MULTILINESTRING((-122.3 47, -121.3 47), (-121.3 45, -122.3 47))<br /><br /> CSV file: "MULTILINESTRING((-122.3 47, -121.3 47), (-121.3 45, -122.3 47))"|well-known text (WKT)|Edm.Geography|  

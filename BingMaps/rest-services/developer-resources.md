@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # REST Developer Resources
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
  Use the following resources to learn more about Bing Maps, get your questions answered, and get the latest announcements.  
   
 |Resource|Description|  

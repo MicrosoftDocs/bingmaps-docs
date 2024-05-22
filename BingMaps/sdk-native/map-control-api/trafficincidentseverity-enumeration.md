@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficIncidentSeverity Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the severity of traffic incident.
 
 **Android**

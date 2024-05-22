@@ -10,6 +10,8 @@ ms.service: bing-maps
 
 # Map Services API Reference - Native
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 > [!NOTE]
 >
 > In Android APIs, consider unannotated parameters and methods implicitly annotated as non-null. Nullable annotations are explicit.

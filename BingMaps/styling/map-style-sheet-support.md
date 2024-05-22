@@ -14,9 +14,13 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Map Style Support
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Map styling can be applied to a variety of Microsoft map controls:
+
 * The [Bing Maps web control](../v8-web-control/index.md) using the [customMapStyle option](../v8-web-control/map-control-api/mapoptions-object.md).
 * The [Static web map control](../rest-services/imagery/get-a-static-map.md)
 * The [Windows map control](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol) using the [MapStyleSheet.ParseFromJson](/uwp/api/windows.ui.xaml.controls.maps.mapstylesheet.parsefromjson#Windows_UI_Xaml_Controls_Maps_MapStyleSheet_ParseFromJson_System_String_) method.

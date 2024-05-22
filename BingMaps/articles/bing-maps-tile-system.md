@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Tile System
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps provides a world map that users can directly manipulate to pan and zoom.  To make this interaction as fast and responsive as possible, we chose to pre-render the map at many different levels of detail, and to cut each map into tiles for quick retrieval and display.  This document describes the projection, coordinate systems, and addressing scheme of the map tiles, which collectively are called the Bing Maps Tile System.  
   
 ## Map Projection  

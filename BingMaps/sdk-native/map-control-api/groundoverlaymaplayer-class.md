@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # GroundOverlayMapLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays an image in a geographic area.
 
 **Android**

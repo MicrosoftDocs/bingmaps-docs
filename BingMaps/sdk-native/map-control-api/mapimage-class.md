@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapImage Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 An image that can be used with [MapIcon](MapIcon-class.md).
 
 **Android**

@@ -13,7 +13,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Bing Spatial Data Services API Reference
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 This section contains reference documentation for the Bing Spatial Data Services.  
   

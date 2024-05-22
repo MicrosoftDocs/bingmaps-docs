@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapStylePickerTrafficSwitchToggledEventArgs Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Event arguments passed to UserInterfaceOptions.MapStylePickerTrafficSwitchToggled callback. Use the `trafficFlowMapLayer` and `trafficIncidentsMapLayer` event arguments to cache, configure, and attach handlers.
 
 ## Properties

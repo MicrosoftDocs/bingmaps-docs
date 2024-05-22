@@ -14,18 +14,19 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocode Dataflow Sample Code
+
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
 The following sample code uses the Geocode Dataflow to geocode spatial data.  
   
  **Notes:**  
   
--   The code uses the functionality included in Microsoft® .NET 2.0 and is written as a console application.  
-  
--   The code accepts input data in any of the formats supported by the Geocode Dataflow. Examples of supported data formats are XML and CSV(comma-separated values). See [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md) for more information about supported data formats.  
-  
--   The code processes HTTP requests returned in XML format for version 1.0 of the Geocode Dataflow schema.  
-  
--   The results of the geocode job are output to files named succeeded.txt and failed.txt.  
+- The code uses the functionality included in Microsoft® .NET 2.0 and is written as a console application.  
+- The code accepts input data in any of the formats supported by the Geocode Dataflow. Examples of supported data formats are XML and CSV(comma-separated values). See [Create Job](../geocode-dataflow-api/create-a-geocode-job-and-upload-data.md) for more information about supported data formats.  
+- The code processes HTTP requests returned in XML format for version 1.0 of the Geocode Dataflow schema.  
+- The results of the geocode job are output to files named succeeded.txt and failed.txt.  
   
 ```csharp
 using System;  

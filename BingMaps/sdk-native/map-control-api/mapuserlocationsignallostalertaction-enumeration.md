@@ -6,6 +6,8 @@ ms.author: adl
 
 # MapUserLocationSignalLostAlertAction Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the action that should be taken for signal lost alerts.
 
 **Android**

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationAddress Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains address data for a specific location returned from a geocoding request.
 
 ## Properties

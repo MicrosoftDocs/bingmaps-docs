@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Bing Map Events
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The Bing Maps API provides events that allow your application to respond to user actions.
 
 ## Examples

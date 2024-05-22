@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapPolygon Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Draws a complex filled shape upon the map.
 
 **Android**

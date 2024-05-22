@@ -17,10 +17,11 @@ ms.service: "bing-maps"
 
 # 2010 US Census Data Sources
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 These data sources contain a subset of 2010 US Census data sourced from the [US Census Bureau](https://census.gov/). The United States collects census data once every ten years. The last US Census was in 2010 and the next one is scheduled for 2020. These data sources provide Census data based on 4 types of geographical boundaries; states, counties, ZTCA5 (Zip Code Tabulation Area), and the 111<sup>th</sup> Congressional Districts.
 
 ## Query URLs ##
-
 
 The following are the Query URL’s that can be used to access the US Census data separated by each of the 4 types of geographical boundary types.
 

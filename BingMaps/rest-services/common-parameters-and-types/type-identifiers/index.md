@@ -10,6 +10,8 @@ ms.service: bing-maps
 
 # Type Identifiers
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following are the top-level type IDs used by the Bing Maps APIs.
 
 Type ID | Description  

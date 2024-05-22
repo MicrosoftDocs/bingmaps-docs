@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MSMapElementLayerUserDidTapFlyoutHandler Interface (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Handler used with MapElementLayer.MapFlyoutTapped event. Return true from this event to indicate whether it has been handled, or false otherwise.
 
 >```objectivec

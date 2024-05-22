@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapTileBitmapRequest Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains data that a custom tile map layer developer can set to represent the requested tile.
 
 ## Properties

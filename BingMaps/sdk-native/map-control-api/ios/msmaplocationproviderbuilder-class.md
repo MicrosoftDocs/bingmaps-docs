@@ -6,6 +6,8 @@ ms.author: adl
 
 # MSMapLocationProviderBuilder Class (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 A builder object which contains properties that can be optionally set by the hosting app to create a MSMapLocationProvider.
 
 See [MSMapLocationProvider](msmaplocationprovider-class.md) for more details on how to use the builder with the location provider's constructor.

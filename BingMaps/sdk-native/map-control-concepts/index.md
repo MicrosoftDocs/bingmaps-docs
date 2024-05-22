@@ -8,6 +8,8 @@ ms.date: 08/12/2022
 
 # Map Control Concepts Reference - Native
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The Bing Maps SDK allows you to display a map in your application. Below, you will find the major set of concepts and examples to help you get started.
 
 Concept                                                                         | Description
