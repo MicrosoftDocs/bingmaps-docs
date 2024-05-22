@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Query by Area
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URLs to search a data source for entity types that are within a specified area. You can use the [Query Options](../query-api/query-options.md) such and $filter and $select to further specify the entity information that would like to return. For example, you can search for all restaurants within 10 kilometers that serve Italian food and request that only the restaurant name and location information is returned.  
   
 ## Supported HTTP Methods  

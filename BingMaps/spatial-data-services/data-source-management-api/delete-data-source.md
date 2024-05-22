@@ -14,16 +14,20 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Delete a Data Source
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URL to delete a data source. To delete a data source, a delete data source job is created.  
   
- You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to delete a data source. For more information, see [Creating and Managing Data Sources](../../getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/index.md).  
+You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to delete a data source. For more information, see [Creating and Managing Data Sources](../../getting-started/bing-maps-dev-center-help/geocoding-and-managing-data-sources/index.md).  
+
+A job is created when you delete a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
+
+To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../get-job-list.md).  
   
- A job is created when you delete a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  
-  
- To get a list of all the data source and geocode jobs submitted in the last 15 days, see [Get Job List](../get-job-list.md).  
-  
-## Supported HTTP Methods  
+## Supported HTTP Methods
  DELETE  
   
 ### URL Template  

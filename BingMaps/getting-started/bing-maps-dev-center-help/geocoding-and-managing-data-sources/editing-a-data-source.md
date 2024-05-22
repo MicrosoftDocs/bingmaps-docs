@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Editing a Data Source
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 You can edit the entity data and the data schema of any data source associated with a Bing Maps account on [Bing Maps Dev Center](https://www.bingmapsportal.com/). This includes data sources that were uploaded by using Bing Spatial Data Services.  
   
