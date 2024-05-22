@@ -8,7 +8,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Elevation Data
+
+[!INCLUDE [bing-maps-elevation-retirement](../../includes/bing-maps-elevation-retirement.md)]
 
 The response returned by an Elevations URL can contain elevation or sea level offset resource data.  
   
