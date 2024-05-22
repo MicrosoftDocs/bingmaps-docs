@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # MouseEventArgs Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A MouseEventArgs object is returned by many the mouse event handlers.
 
 ## Methods

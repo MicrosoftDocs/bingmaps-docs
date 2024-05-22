@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Route Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a route.
 
 | Name	      | Type        | Description                                                                             |

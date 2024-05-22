@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Data Binning Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Namespace**: Microsoft.Maps
 
 **Module Name**: Microsoft.Maps.DataBinning

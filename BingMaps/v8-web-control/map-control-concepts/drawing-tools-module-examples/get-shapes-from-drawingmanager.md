@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Get Shapes from DrawingManager
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This example shows how to get all the shapes that are in the drawing manager at any time. 
 
 ```html

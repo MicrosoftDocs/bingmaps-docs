@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GroundOverlayOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The options that specify how to render a ground overlay on the map.
 
 | Name            | Type            | Description    |

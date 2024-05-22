@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # TrafficManager Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The **TrafficManager** class provides the ability to show traffic flow and incident data on top of the map. When creating an instance of the **TrafficManager** class the map must be passed as an argument to the constructor. 
 
 ## Constructor

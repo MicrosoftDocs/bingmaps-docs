@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DirectionsManager Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]s
+
 The DirectionsManager is the primary class in the Directions module. It contains methods for calculating directions and displaying a route on a map.
 
 ## Constructor

@@ -7,12 +7,14 @@ ms.topic: article
 ms.assetid: 97fbc75e-1e2c-4181-87a8-59fb249c41a3
 caps.latest.revision: 9
 author: stevemunk
-ms.author: v-munksteve
+ms.author: eriklind
 manager: eriklind
 ms.service: bing-maps
 ---
 
 # Creating a Basic Map Control
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 ## Create a Bing Maps Account and Get a Key
 

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Location Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This class stores the coordinate information needed to mark locations on a map. The Location class consists of two properties: latitude and longitude. 
 
 The latitude property is used to represent how far north or south a location is. This value is an angle measured around the center of the earth from the equator towards the poles. A positive value is in the northern hemisphere and a negative value is in the southern hemisphere. This value has a range of -90 to 90 degrees however due to the mathematics involved in representing the spherical globe as a flat 2D map, some calculations approach infinity as you approach polar latitudes. To avoid this, Bing Maps and many other mapping platforms that use the Mercator projection system clip the latitude coordinates to approximately -85 and 85 degrees. 

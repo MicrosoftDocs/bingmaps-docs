@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoXmlLayerOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Options used to customize how a GeoXmlLayer renders.
 
 | Name                      | Type                  | Description   |

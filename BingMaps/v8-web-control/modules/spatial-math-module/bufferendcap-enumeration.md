@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # BufferEndCap Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This enumeration defines how the end of a line should be buffered. You can access this enumeration with the `Microsoft.Maps.SpatialMath.Geometry.BufferEndCap` namespace.
 
 | Name | Description |

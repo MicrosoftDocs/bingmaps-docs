@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Load Multiple Boundaries GeoData Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Displaying the boundary of a single location is useful, but sometimes you need to display the boundaries of several locations at once. This code sample shows how to request the boundaries for 5 zip codes and render them on the map.
 
 ```html

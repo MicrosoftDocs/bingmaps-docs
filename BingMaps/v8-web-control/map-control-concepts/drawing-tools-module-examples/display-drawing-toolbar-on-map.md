@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Display Drawing Toolbar on Map
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This example shows how to add a drawing toolbar to the map so that the user can draw shapes.
 
 ```html

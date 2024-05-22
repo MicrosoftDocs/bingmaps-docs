@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Filter Class
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The Filter class defines the logic behind a filter expression that can be executed against a JSON object or generate a filter string that can be used with the Bing Spatial Data Services.
 

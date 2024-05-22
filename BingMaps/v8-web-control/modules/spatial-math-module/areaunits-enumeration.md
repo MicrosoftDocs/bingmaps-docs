@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # AreaUnits Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This enumeration allows you to specify the unit of measurement for an area. You can access this enumeration with the `Microsoft.Maps.SpatialMath.AreaUnits` namespace.
 
 Name                    | Description

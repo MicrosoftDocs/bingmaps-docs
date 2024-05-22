@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Layer Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The Layer class makes it easy to organize groups of data by storing them in separate layers on the map. Grouping your data into layers provides a number of benefits such as the ability to hide or attach events to all `IPrimitive` shapes in a layer with a single line of code, while also providing providing a performance benefit over manually looping through each shape and performing these tasks.
 
 ## Constructor

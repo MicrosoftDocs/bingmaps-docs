@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # RouteOptimization Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Defines optimization options for calculating directions. The `Microsoft.Maps.Directions.RouteOptimization` enumeration has the following options.
 
 | Name             | Description                                                                                           |

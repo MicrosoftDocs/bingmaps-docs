@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Find By Property Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 One of the simplest ways to query a data source is to do a property based search. This can easily be achieved with the Spatial Data Services module by specifying a data source and a filter.
 
 ```html

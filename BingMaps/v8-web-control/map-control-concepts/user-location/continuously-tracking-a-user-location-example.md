@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Continuously Tracking a User Location Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This example shows how to monitor the user’s location and update the position of a pushpin as the user moves. 
 
 ```html

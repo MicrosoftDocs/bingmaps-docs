@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Map Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The map object generates an interactive map within a specified DOM element. When loading the map you can reference the DOM element to render the map in by either referencing an element directly (i.e. document.getElementById), or by passing in a HTML ID selector (i.e. #myMap). This is normally a reference to an empty div. 
 
 You can customize the map by passing in number of different options. Some of these options can be specified when creating the map while others can be changed at any time. When loading the map, you can specify settings from the MapOptions and ViewOptions objects.  

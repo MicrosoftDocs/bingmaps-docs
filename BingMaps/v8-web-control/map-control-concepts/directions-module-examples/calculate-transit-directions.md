@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Calculate Transit Directions
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 The following example shows how to calculate transit directions from “Redmond, WA” to “Seattle, WA” leaving an hour from the current time. The directions are displayed on the map and instructions are rendered in a div element with an id of `directionsItinerary`.
 

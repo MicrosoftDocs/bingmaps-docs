@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # RouteLeg Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a leg of a route. A route leg is the part of the route between two stop waypoints.
 
 |   Name                |   Type             |   Description                                                              |

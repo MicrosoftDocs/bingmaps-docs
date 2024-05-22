@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Geometry Calculations
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A set of methods that perform spatial calculations against shapes. These static methods are exposed through the `Microsoft.Maps.SpatialMath.Geometry` namespace.
 
 > [!NOTE]

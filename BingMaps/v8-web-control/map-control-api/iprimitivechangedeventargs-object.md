@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # IPrimitiveChangedEventArgs Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A IPrimitiveChangedEventArgs object that is returned when a **changed** event occurs on an IPrimitve shape.
 
 ## Properties

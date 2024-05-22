@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Basic Polyline Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following code creates a polyline that is red in color, has a thickness of 3 pixels, and has a dash array where the stroke/gap sequence is "4, 4".  
 
 ```html

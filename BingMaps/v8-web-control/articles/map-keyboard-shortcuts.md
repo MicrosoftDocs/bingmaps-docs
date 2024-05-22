@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Map Keyboard Shortcuts
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The map has a number of keyboard shortcuts built in that make it easier to use the map. These work when the map has focus.
 
 ## 2D Map

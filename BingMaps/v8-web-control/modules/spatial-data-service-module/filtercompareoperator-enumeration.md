@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # FilterCompareOperator Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An enumeration that defines how to compare the filters value against the corresponding property value.  
 
 Name                    | String Operator      | Description

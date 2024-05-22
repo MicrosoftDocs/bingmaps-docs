@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # zIndexing in Bing Maps V8
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 In past versions of Bing Maps, the map control consisted of thousands of DOM elements, primarily images and SVGs. zIndexing in these controls was easy as they simpy used CSS zIndexing which is built into the browser. However, using DOM elements to create interactive maps greatly limits the amount of data that can be rendered on the map. 
 
 The Bing Maps V8 renders the maps using HTML5 canvases. This provides the ability to render large datasets on the map quickly, but doesn’t have any built in zIndexing logic. The Bing Maps team has exposed the ability to set the zIndexing of many layers including tile, clustering, data binning, and contour layers as well as the Layer class. zIndexing is achieved by sorting the data based on its assigned zIndex and then drawing it onto the canvas from lowest zIndex value to highest. Using this zIndexing framework it is possible to insert layers between the many built in layers such as the traffic layer, which wasn’t possible in the past. However, for performance reasons, zIndexing is only available for layers and not individual shapes.

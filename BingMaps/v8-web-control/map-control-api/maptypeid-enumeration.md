@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # MapTypeId Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This enumeration is used to specify the type of map style that should be displayed by the map. It is specified as `Microsoft.Maps.MapTypeId.[Name]` where `[Name]` can be any of the following values.
 
 Name             | Description                        | Example

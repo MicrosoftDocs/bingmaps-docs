@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # AutosuggestManager Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The AutosuggestManager is the primary class in the Autosuggest module.
 
 ## Constructor

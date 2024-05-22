@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # PushpinOptions Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 When creating a pushpin, a location must be passed as an argument to the constructor. Optionally pushpin options can also be passed in as an argument. The following pushpin option properties can be used to create customized pushpins.
 

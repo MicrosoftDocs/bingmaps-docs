@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DataBinPolygon Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This class is an extension of the Polygon class and has all the same methods, events and properties of that class. In addition to this, the DataBinPolygon also exposes additional details about the data bin through its `dataBinInfo` property.
 
 ## Properties

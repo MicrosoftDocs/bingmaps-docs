@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Calculate Driving Directions
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following example shows how to calculate driving directions from “Seattle, WA” to a “Work” location that has coordinates (47.64, -122.1297). The directions are displayed on the map and instructions are rendered in a div element with an id of `directionsItinerary`.
 
 ```html

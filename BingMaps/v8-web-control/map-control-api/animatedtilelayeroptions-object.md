@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # AnimatedTileLayerOptions Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An object that defines the options for an [AnimatedTileLayer](animatedtilelayer-class.md).
 
 | Name             | Type           | Description                                                                                                            |
