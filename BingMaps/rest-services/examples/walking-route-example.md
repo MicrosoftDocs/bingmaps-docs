@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Walking Route Example
 
+[!INCLUDE [bing-maps-calculate-a-route-api-retirement](../../includes/bing-maps-calculate-a-route-api-retirement.md)]
+
 This example returns a walking route from the Eiffel Tower to the Louvre Museum in Paris, France. The route is optimized for distance. Responses are shown for both XML and JSON formats.  
   
 ```url

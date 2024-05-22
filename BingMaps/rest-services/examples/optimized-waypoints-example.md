@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Find an Optimized Route with Multiple Waypoints
 
+[!INCLUDE [bing-maps-calculate-a-route-api-retirement](../../includes/bing-maps-calculate-a-route-api-retirement.md)]
+
 The following example shows how to use the Routes API to optimize a driving route with three or more waypoints (up to 25). The ordering of the waypoints is optimized according to the `optimize` parameter. For more on the differences between the `optimize` and `optimizeWaypoints` parameters, see [Path and Waypoint Optimization](https://msdn.microsoft.com/library/ff701717.aspx#anchor_1).
 
 When the `optimizeWaypoints` parameter is set to `false` (the default value), the Routes API respects the ordering of the waypoints specified in the request URL.
