@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Query Response Description
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 When you query a data source using the Query API, the response returns a list of entities that met the query criteria. Information returned for each entity includes a [Query by ID](../query-api/query-by-id.md) URL that returns the complete information for that entity. Depending on the query options, all or a subset of the entity properties are also returned.  
   
  If a response format is not specified by using the `$format` query option, the results are returned in ATOM format. You can also set the `$format` parameter to `json` if you want to have the response returned in JSON format.  

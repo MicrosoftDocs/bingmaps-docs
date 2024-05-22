@@ -15,15 +15,17 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Geocode Dataflow Data Schema - Version 1.0
-> [!NOTE]
->  If you are a new user, use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
-  
+
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
  The Geocode Dataflow API supports the following formats for uploading and downloading spatial data:  
   
--   Text files with values separated by comma, tab, or pipe (&#124;) characters.  
-  
--   XML  
-  
+- Text files with values separated by comma, tab, or pipe (&#124;) characters.  
+- XML
+
+> [!NOTE]
+> If you are a new user, use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
+
  This topic describes the spatial data schema for version 1.0 the Geocode Dataflow API. Text file and the XML schema definitions are provided along with descriptions of the fields. For examples of input and output spatial data in all formats, see [Sample Input and Output v1.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-1-0.md).  
   
 ## Text File Schema  

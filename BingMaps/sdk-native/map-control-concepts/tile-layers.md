@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Tile Layers
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 In the Bing Maps native controls we have introduced a TileLayer class that makes it easy to separate multiple data sets as layers.
 
 Note that a few different types of tile layers are provided, giving you flexibility in how you overlay custom information on the map.

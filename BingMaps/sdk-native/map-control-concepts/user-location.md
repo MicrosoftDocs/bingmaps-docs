@@ -6,6 +6,8 @@ ms.author: "adl"
 
 # UserLocation API
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 The ability to show the user's location and track the user's location is an important tool in a map. By using our UserLocation API, you can show the user's location on your map with some customizable features.
 
 There are two main mechanisms this SDK supports to show the user's location:

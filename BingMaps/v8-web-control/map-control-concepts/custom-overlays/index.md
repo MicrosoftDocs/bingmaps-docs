@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Custom Overlays
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Custom Overlays allow you to create and insert your own custom layers into the map. These layers can consist of static overlays such as custom navigation bars, or dynamic overlays such as custom data visualization layers. Custom overlays can be added to the map just like any other layer using the `map.layers` property. 
 
 ## Examples

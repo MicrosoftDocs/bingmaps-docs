@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Common Parameters and Types
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The Bing Maps REST Services use many common parameters and types. The topics in this section describe these common parameters and types.  
   
 ## In this section  

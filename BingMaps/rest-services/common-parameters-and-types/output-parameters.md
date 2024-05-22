@@ -9,7 +9,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 
-# Output Parameters
+# Output 
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 Use output parameters to specify the output of the request.  
   

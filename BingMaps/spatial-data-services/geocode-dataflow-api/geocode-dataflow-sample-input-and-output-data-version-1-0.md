@@ -17,13 +17,15 @@ ms.service: "bing-maps"
 
 # Geocode Dataflow Sample Input and Output Data Version 1.0
 
-> [!NOTE]
->  If you are a new user, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) to learn how to use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
-  
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
+
  The following examples show sample input and output data for version 1.0 of the Geocode Dataflow. The input data can be provided in an XML format or as sets of values separated by pipe (&#124;), comma, or tab characters. The output data is provided in the same format as the input data. The data in these examples contains location data to geocode and latitude and longitude pairs to reverse geocode. For information about the version 1.0 data schema, see [Data Schema v1.0](../geocode-dataflow-api/geocode-dataflow-data-schema-version-1-0.md).  
   
  The input data must use UTF-8 encoding.  
-  
+
+> [!NOTE]
+> If you are a new user, see [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) to learn how to use the latest [version 2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md) of the data schema.  
+
 ## XML Example  
   
 ### Input  

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Map Control Branches
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 There are two branches of the Bing Maps V8 SDK that can be accessed. This provides the option to access new features as soon as they are available, even if those features have not been thoroughly tested or completed.
 
 Branch	     | Description

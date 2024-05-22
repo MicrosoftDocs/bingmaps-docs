@@ -14,7 +14,10 @@ ms.author: dbuerer
 manager: 
 ms.service: bing-maps
 ---
+
 # Venue geometry JSON class
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Encapsulates a polyline or polygon geometry within a venue [entity].
 

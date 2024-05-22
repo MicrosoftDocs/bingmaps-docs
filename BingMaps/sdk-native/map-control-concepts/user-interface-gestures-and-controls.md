@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # User Interface Gestures and Controls
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 By default, the map shows a toolbar with controls that the user can use to navigate the map. These controls are compass, zoom and tilt.
 
 ![User Interface Controls](media/User-interface-controls.png)

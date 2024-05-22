@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Getting Started with the Spatial Data Services
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Spatial Data Services provides REST APIs that work with large sets of spatial data. With these APIs you can geocode spatial data and you can store data that has a spatial component in data sources that you can query.  
   
  See the links in the **How to:** sections below to find out more information.  

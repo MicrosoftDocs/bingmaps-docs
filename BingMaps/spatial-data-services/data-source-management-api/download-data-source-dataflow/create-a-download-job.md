@@ -14,7 +14,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Create a Download Job
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
+
 Use the following URL to download entity data from a published data source.  
   
  You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to download a data source. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/library/hh698204.aspx) in the Bing Maps Account Center Help.  

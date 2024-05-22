@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapElementLayer Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Displays primitives on the map.  The z-order of a primitive is in order of insertion (last inserted object will be on the top).
 
 **Android**

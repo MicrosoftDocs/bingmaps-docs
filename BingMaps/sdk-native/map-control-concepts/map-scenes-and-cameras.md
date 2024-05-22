@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Scenes and Cameras
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Because the Map View can show both oblique and nadir views, as well as 3D topology, it is important to carefully set your view so that
 obstacles, such as mountains, do not get in your way.
 

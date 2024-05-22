@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # DirectionsStepWarning
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a route direction warning, such as a traffic congestion warning.
 
 | Name        | Type   | Description  |

@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapLocationFinderResultHandler Interface (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Handles MapLocationFinderResult returned by MapLocationFinder geocoding request.
 
 >```objectivec

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # TileSource Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Defines the data source for a tile layer.
 
 ## Constructor

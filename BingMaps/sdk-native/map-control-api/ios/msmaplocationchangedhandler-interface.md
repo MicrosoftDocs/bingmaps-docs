@@ -6,6 +6,8 @@ ms.author: adl
 
 # MSMapLocationChangedHandler Interface (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Handler used with MSMapLocationProvider's location changed event. Return true from this event to prevent other listeners from receiving this event or false to allow other listeners to receive this notification as well.
 
 >```objectivec

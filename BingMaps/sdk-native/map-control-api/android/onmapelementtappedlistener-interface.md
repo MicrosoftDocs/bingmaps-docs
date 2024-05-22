@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # OnMapElementTappedListener Interface (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Listener used with MapElementLayer.MapElementTapped event.
 
 >```java

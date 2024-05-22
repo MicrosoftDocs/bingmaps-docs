@@ -14,6 +14,7 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Data Source Management API
 
 > [!NOTE]
@@ -24,7 +25,7 @@ ms.service: "bing-maps"
 > Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 Use the Data Source Management API to create and manage data sources that store spatial entity data for a user-defined entity type. You can also create and manage your data sources using the [Bing Maps Account Center](https://www.bingmapsportal.com). The table below provides links to the documentation for both methods.
-  
+
  **Before using this API, review the [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).**  
   
  To get a list of all data source and geocode jobs submitted in the last 15 days, see [Get Job List](../get-job-list.md).  

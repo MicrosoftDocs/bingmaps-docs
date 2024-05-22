@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Uploading and Publishing Entity Data to a Data Source
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 You can upload, geocode, and publish entity data to a data source by using the Bing Maps Dev Center.  
   
  After the entity data is published to a data source, you can query the data source by using the [Query API](../../../spatial-data-services/query-api/index.md). You can also edit published entity data as described in [Editing a Data Source](editing-a-data-source.md). Enterprise accounts can have up to 25 published data sources. For non-enterprise accounts, the limit is 5 published data sources. The complete data source process is shown in the following diagram and further explanation for the geocoding and publishing steps is provided below.  

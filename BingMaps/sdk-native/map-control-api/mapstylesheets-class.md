@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapStyleSheets Class
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Contains built-in MapStyleSheets for easily changing how the MapView is rendered.
 
 **Android**

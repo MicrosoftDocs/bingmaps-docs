@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # ConfigurableMapModule Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
 
 Defines which module should be loaded, and the data sets that should be loaded with it. Currently supports the "Microsoft.Maps.GeoXml" and "Microsoft.Maps.GeoJson" modules. Additional modules can be specified and will be loaded, but will not do anything other than load those modules into the web app, which is useful when loading the configuration file via the [ConfigurableMap class](configurablemap-class.md).
 

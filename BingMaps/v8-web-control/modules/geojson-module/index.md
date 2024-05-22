@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoJSON Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Module Name**: Microsoft.Maps.GeoJson
 
 **Namespace**: Microsoft.Maps.GeoJSON

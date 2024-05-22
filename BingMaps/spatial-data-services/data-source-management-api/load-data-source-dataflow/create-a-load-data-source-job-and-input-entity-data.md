@@ -15,11 +15,14 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Create a Load Data Source Job and Input Entity Data
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URL to create, stage and update a data source. This URL creates a load data source dataflow job.  
   
- You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to create or update a data source. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/library/hh698204.aspx).  
-  
- A job is created when you create, stage or update a data source. Before using this API, review the job limits in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
+You can also use the [Bing Maps Account Center](https://www.bingmapsportal.com) to create or update a data source. For more information, see [Creating and Managing Data Sources](https://msdn.microsoft.com/library/hh698204.aspx).  
+
+A job is created when you create, stage or update a data source. Before using this API, review the job limits in [Geocode and Data Source Limits](../../geocode-and-data-source-limits.md).  
   
 ## Supported HTTP Methods  
  POST  

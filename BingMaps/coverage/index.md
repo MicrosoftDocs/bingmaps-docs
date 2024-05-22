@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Bing Maps Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Below are links to up-to-date coverage information for Bing Maps.
 
 - [Bing Maps Geographic Coverage](geographic-coverage.md)

@@ -6,6 +6,8 @@ ms.author: khass
 
 # MapRouteLineTrafficCongestion Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the name of the state of MapRouteSegment, which determine appearance of route segment.
 
 **Android**

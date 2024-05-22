@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # NavigationBarOrientation Enumeration
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The NavigationBarOrientation enumeration is used to define how the navigation bar controls are laid out.
 
 | Name   | Description                                                                        |

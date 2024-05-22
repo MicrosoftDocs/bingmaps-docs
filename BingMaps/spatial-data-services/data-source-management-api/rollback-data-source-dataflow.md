@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # Rollback a Data Source Dataflow
+
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URLs to rollback a data source to a previous version. Up to two (3) previous versions of a data source are available.  
   
  A job is created when you rollback a data source.  Before using this API, review the job limits in [Geocode and Data Source Limits](../geocode-and-data-source-limits.md).  

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Getting a Bing Maps Key
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 To use the [Bing Maps APIs](../../rest-services/index.md), you must have a Bing Maps Key.  
   
 > [!NOTE]

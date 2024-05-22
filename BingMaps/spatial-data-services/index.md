@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Bing Spatial Data Services
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 The Bing™ Spatial Data Services Application Programming Interface (API) provides a Representational State Transfer (REST) interface that can geocode, store and query spatial data. This simple REST interface accomplishes tasks by setting parameters in a URL and then submitting the URL as an HTTP request. The HTTP response returns the results of the request.  
   
  With the Bing Spatial Data Services, you can:  

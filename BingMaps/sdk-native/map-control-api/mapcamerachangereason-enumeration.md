@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MapCameraChangeReason Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Specifies the reason the position of the map's camera has changed.
 
 **Android**

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # REST Services Examples
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The [Bing Maps REST services](../../../rest-services/index.md) provide a number of APIs which provide several functionalities:
 
 * Geocode Addresses

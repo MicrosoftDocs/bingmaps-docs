@@ -15,6 +15,9 @@ manager: "stevelom"
 ms.service: "bing-maps"
 ---
 # AnimatedTileLayer Class
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Provides a layer which can smoothly animate through an array of tile layer sources.
 
 ## Constructor

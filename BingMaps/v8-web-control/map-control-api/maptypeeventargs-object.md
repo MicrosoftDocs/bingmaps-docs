@@ -14,7 +14,11 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # MapTypeEventArgs Object
+
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 A MapTypeEventArgs object that is returned by the map event handler when using the **maptypechanged** event.
 
 ## Properties

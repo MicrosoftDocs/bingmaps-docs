@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # SSL Certificate Validation for Java Applications
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps APIs support both HTTP and HTTPS requests that use Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols. The SSL and TLS endpoints are secured by certificates. For example, when you query a data source directly from your browser by using the [Bing Spatial Data Services (SDS)](../spatial-data-services/index.md) as in the following example, you can view the certificate chain by clicking the “lock” icon.  
   
 ```url

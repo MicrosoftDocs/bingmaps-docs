@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Map Control API Reference for the V8 Web Control
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The Bing Maps V8 web control uses the `Microsoft.Maps` namespace to expose its API. This namespace has the following static properties and methods:
 
 ## Static Properties

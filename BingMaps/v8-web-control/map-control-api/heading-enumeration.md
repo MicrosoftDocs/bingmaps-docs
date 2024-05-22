@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Heading Enumeration
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Standard compass headings; north, south, east, west.
 
 | Name  | Type   | Description                         |

@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue label JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates the position and contents of a text label to try to apply to an entity.
 
 This class is part of the [venue] JSON class structure.

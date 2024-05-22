@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Basic Heat Map Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following example loads 1,000 random locations into a heat map that are within the initial view of a loaded map.
 
 ```html

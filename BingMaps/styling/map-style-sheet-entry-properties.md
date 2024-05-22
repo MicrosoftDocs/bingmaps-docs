@@ -14,7 +14,10 @@ ms.author: "dbuerer"
 manager: ""
 ms.service: "bing-maps"
 ---
+
 # Map Style Sheet Entry Properties
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 The properties that are grouped and listed below can be set on [entries](map-style-sheet-entries.md) in a [map style sheet](map-style-sheets.md) to customize the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md).
 

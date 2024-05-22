@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Culture Parameter
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Use the culture parameter to specify a culture for your request. The culture parameter provides the following strings in the language of the culture for:  
   
 1. Geographic entities and place names returned by the Bing Maps REST Services  

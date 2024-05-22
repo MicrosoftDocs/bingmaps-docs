@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Filling in an Address Form Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This example shows how to use the selected result from the default autosuggest UI to fill in an address form. This is much easier than filling in all the fields of the form manually, and less error prone as well. Since this form includes an address line field, we will set the `placeSuggestion` option (city, landmarks…) of AutosuggestManager to false. This will remove place type suggestions and will result in only address suggestions being returned. Also, since the goal of this code example is to make it easy to fill in an address form, the Autosuggest module will be loaded without a map as it isn’t needed.
 
 ```html

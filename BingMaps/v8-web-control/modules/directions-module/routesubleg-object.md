@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # RouteSubLeg Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Represents a route sub leg. A route sub leg is the part of the route between a stop point and a via point or between two via points. One or more sub legs make up a route leg.
 
 |   Name             |   Type   |   Description                                                                |

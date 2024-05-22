@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue entity JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates an individual entity on the [floor] of a [venue].
 
 ## Properties

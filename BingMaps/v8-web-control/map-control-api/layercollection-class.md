@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # LayerCollection Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The layers property of the map is a LayerCollection object and contains all the layers that have been added to the map.
 
 **Note:** This class extends the Array class and can be iterated over just like an array. The class is only exposed in the `map.layers` property. No other instance of this class can be created.

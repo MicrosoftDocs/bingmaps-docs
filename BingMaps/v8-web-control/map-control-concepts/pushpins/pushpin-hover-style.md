@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Pushpin Hover Style
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Creating a custom pushpin is great, but having the style change when users interact with the pushpin can make the user experience a bit more engaging. This example uses mouse events to update the pushpin options when a user mouses over, press down and mouses out of the pushpin. For simplicity the color of the pushpin will be change depending on how the user interacts with the pushpin, however you could just as easy change any of the other pushpin options if desired. 
 
 ```html

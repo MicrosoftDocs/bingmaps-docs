@@ -15,6 +15,8 @@ ms.service: "bing-maps"
 
 # Location and Area Types
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Use the following formats to specify locations and areas on the Earth.  
   
 |Type|Description|Values and Syntax|  

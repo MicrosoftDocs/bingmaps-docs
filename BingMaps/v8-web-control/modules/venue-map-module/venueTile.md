@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue Tile JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates a tile containing the footprints of venues that overlap that tile.  These tiles are used to select a venue.
 
 While this contains a list of [venue] objects, it is expected that these objects will only have an id, a name, and a single [floor] with the footprint [geometry] in it.

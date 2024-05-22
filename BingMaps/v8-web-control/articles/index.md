@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Articles
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following articles cover more detailed discussions and advanced techniques for working with the Bing Maps V8 Map Control.
 
  Article                                                 | Description

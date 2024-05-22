@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # AltitudeReferenceSystem Enumeration
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 An altitude reference system to indicate what an altitude value is relative to.
 
 **Android**

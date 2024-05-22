@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # TileLayerOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following is a list of option properties that can be used with a TileLayer.
 
 Name                | Type          | Description

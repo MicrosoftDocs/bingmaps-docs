@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Autosuggest Module
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 **Module Name**: Microsoft.Maps.Autosuggest
 
 **Namespace**: Microsoft.Maps 

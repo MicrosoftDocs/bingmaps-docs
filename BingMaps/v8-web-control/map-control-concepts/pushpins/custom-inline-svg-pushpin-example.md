@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Custom Inline SVG Pushpin Example
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 In addition to creating a custom pushpin by loading an SVG file, you can also pass in inline SVG strings as custom pushpins. This is useful if you want to dynamically create an SVG element in code. Take the following SVG markup. 
 
 ```html

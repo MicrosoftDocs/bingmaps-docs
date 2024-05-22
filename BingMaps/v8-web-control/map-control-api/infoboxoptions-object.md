@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # InfoboxOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following infobox option properties can be used to create customized infoboxes.
 
 | Name            | Type               | Description                                                                                     |

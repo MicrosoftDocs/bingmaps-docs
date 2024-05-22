@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # StylesOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Setting the options for an individual shape is easy to do. However, sometimes you need to load a collection of shapes from a module.  To set the style for these, one option would be to loop through each shape and set the style for that shape individually.  This means writing extra code and looping through all of the entities in your high-volume data. To make it easier to set the default styles for loaded entities, many of the modules allow you to pass in an StylesOptions object. Some of the modules that support this include [GeoJSON](../modules/geojson-module/index.md), [Well Known Text](../modules/well-known-text-module.md), and the [Spatial Data Services](../modules/spatial-data-service-module/index.md) modules.
 
 ## Properties

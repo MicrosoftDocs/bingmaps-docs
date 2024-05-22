@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # ConfigurableMap Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This class allows you to generate a map using a JSON configuration file using the [Configuration Driven Maps framework](../map-control-concepts/configuration-driven-maps-framework/index.md). This generates a map instance which you can then use just like you would when loading the Map class. However, it has the added benefit of loading data layers that have been specified in the configuration file.
 
 **Static Methods**

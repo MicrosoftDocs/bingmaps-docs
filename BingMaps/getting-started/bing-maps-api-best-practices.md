@@ -6,12 +6,14 @@ ms.date: 12/13/2021
 ms.topic: article
 ms.assetid: d90d6d54-9c6c-4d45-add9-b2be68dbb8e4
 caps.latest.revision: 21
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 ms.service: bing-maps
 ---
 
 # Bing Maps API Best Practices
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
 
 These best practices provide guidelines for using the Bing Maps APIs.  
   

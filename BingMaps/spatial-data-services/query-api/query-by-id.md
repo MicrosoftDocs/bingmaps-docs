@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Query by ID
 
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+
 Use the following URL to search a data source for one or more entities by entity ID. The property to use as the entity ID is specified in the data schema for the entity type. For more information, see [Data Schema and Sample Input](../data-source-management-api/load-data-source-dataflow/load-data-source-data-schema-and-sample-input.md).  
   
 ## Supported HTTP Methods  

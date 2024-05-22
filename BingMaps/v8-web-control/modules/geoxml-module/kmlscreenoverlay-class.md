@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # KmlScreenOverlay Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Overlays HTML elements within the map container that are above the map.
 
 ## Constructor

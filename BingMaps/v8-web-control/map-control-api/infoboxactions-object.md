@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # InfoboxActions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following is a list of infobox action properties that can be used to create clickable links in infoboxes.
 
 Name           | Type      | Description

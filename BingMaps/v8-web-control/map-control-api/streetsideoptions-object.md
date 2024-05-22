@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # StreetsideOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 The following streetside options can be used to customize how the streetside map mode is displayed to the user.
 
 Name                           | Type              | Description

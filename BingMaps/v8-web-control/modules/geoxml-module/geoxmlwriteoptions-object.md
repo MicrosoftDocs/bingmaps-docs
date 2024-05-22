@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # GeoXmlWriteOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Options that are used to customize how the GeoXml writes XML.
 
 | Name             | Type         | Description  |

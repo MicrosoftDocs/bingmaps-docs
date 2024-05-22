@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue floor JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates an individual floor of a [venue] that contains each [entity] on that floor.
 
 ## Properties

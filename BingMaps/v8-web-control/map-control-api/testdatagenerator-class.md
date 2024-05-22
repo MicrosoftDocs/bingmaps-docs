@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # TestDataGenerator Class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Often when creating a demo or trying to test a new application you need to create some test/mock data.  Generating a random Location object isn’t particularly difficult, but what if you want to create a random Polygon that actually looks like a polygon, and maybe has a hole as well? 
 
 This can be difficult to achieve and require a fair amount of code. In some cases, the code needed to generate random shape data can end up being longer than the code you are trying to test. To help with testing scenarios, the Bing Maps V8 control features a test data generator. This test data generator consists of a set of static methods which are exposed through the `Microsoft.Maps.TestDataGenerator` namespace.

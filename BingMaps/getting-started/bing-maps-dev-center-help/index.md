@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Bing Maps Dev Center Help
+
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 The [Bing Maps Dev Center](https://www.bingmapsportal.com/) provides account management functionality for developers that use the Bing Maps APIs. The topics in this section describe how to use the Bing Maps Dev Center for tasks such as creating Bing Maps Keys, viewing and updating your account, and creating and managing data sources.  
   

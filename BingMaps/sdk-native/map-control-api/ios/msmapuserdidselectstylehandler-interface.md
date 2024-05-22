@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # MSMapUserDidSelectStyleHandler Interface (iOS only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Listener used with UserInterfaceOptions.MapUserDidSelectStyle event. Update the `selectedStyle` event argument if working with a customized basemap style and return true to have it applied to the the map.
 
 >```objectivec

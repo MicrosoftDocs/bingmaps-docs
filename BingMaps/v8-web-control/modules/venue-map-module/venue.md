@@ -18,6 +18,8 @@ ms.service: bing-maps
 
 # Venue JSON class
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 Encapsulates a venue, consisting of one or more floors.
 
 Data that adheres to this JSON format can be displayed in the [Bing Maps V8 Web Control] by creating a [VenueMap] instance with [VenueMapFactory].create.

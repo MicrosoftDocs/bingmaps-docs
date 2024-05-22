@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # ConfigurableMapOptions Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 This is the root object which defines a configurable map.
 
 ## Properties

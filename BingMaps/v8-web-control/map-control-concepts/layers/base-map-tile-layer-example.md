@@ -1,5 +1,6 @@
 ---
 title: "Base Map Tile Layer Example | Microsoft Docs"
+description: Base Map Tile Layer examples
 ms.custom: ""
 ms.date: "02/28/2018"
 ms.reviewer: ""
@@ -13,9 +14,12 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Base Map Tile Layer Example
 
-This example shows how to hide the base map tiles and display a custom map tile layer in its place. The source of the custom map tiles comes from the [ U.S. Geological Survey's - The Nation Map project](https://viewer.nationalmap.gov/help/HowTo.htm)
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../../includes/bing-maps-web-control-sdk-retirement.md)]
+
+This example shows how to hide the base map tiles and display a custom map tile layer in its place.
 
 ```html
 <!DOCTYPE html>

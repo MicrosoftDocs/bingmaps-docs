@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # InfoboxEventArgs Object
 
+[!INCLUDE [bing-maps-web-control-sdk-retirement](../../includes/bing-maps-web-control-sdk-retirement.md)]
+
 An object that contains information about an infobox event.
 
 | Name       | Type    | Description                                                                 |

@@ -17,12 +17,7 @@ ms.service: "bing-maps"
 
 # Query API
 
-> [!NOTE]
-> **Bing Maps Spatial Data Service Query API retirement**
->
-> Bing Maps Spatial Data Service Query API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Spatial Data Service Query API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Spatial Data Service Query API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Spatial Data Service Query API will need to be updated to use Azure Maps [Search POI](/rest/api/maps/search/get-search-poi) API (for public POI search) or an alternative solution (for custom POI search), by the retirement date that applies to your Bing Maps for Enterprise account type. For detailed migration guidance, see [Migrate Bing Maps Data Source Management and Query API](/azure/azure-maps/migrate-sds-data-source-management).
->
-> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
 
 The Query API is a component of the Bing Spatial Data Services. You can use the Query API to query a data source for information about entities in that data source. For example, if the data source contains restaurant entities, you can query for French restaurants nearby or you can get information about a specific restaurant. Each query response can return a maximum number of 250 results.  
   

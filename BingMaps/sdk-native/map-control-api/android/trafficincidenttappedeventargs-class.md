@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # TrafficIncidentTappedEventArgs Class (Android only)
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 Event arguments passed to TrafficIncidentsMapLayer.TrafficIncidentTapped event.
 
 ## Properties

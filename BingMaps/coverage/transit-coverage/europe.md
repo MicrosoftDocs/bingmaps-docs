@@ -14,12 +14,15 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Europe Transit Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
 
 Bing Maps APIs provide transit information for the following transit agencies in Europe.  
 
 ## Austria
+
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Kärnten|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
@@ -46,6 +49,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Vorarlberg|[Mobilitätsverbünde Österreich OG](https://data.mobilitaetsverbuende.at/)
 
 ## Belgium
+
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Antwerp|[DeWaterbus](https://www.dewaterbus.be/) 
@@ -59,6 +63,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Brussels|[STIB](https://www.stib-mivb.be) 
 
 ## Bulgaria
+
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Plovdiv|Autotrans 2000
@@ -68,12 +73,14 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Plovdiv|[Zlatanovi](https://www.plovdiv.bg/item/transport/) 
 
 ## Croatia
+
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Regional|[HŽ Putnicki prijevoz](https://www.hzpp.hr/) 
 |Zagreb|[Zagrebački Električni Tramvaj](https://www.zet.hr/) 
 
 ## Cyprus
+
 |Locality|Transit Agency|
 |:--------------------|--------------|
 |Famagusta|[OSEA](https://www.osea.com.cy/) 

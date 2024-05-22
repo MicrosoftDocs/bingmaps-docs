@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # Bing Maps Transit Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Find Bing Maps API transit coverage in the topics below.  
   
  Last update: January 10, 2022

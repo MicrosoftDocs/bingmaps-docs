@@ -14,13 +14,17 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Geocode Dataflow Walkthrough
+
+[!INCLUDE [bing-maps-spatial-data-service-geocode-dataflow-api-retirement](../../includes/bing-maps-spatial-data-service-geocode-dataflow-api-retirement.md)]
 
 The following steps show how to use  the Geocode Dataflow API and version 2.0 of the Geocode Dataflow data schema to geocode large sets of spatial data.  
   
 ## Uploading Your Spatial Data  
   
-### Format the data  
+### Format the data
+
  To create a job to geocode a set of spatial data using version 2.0 of the Geocode Dataflow schema, your input data must conform to the [Data Schema  v2.0](../geocode-dataflow-api/geocode-dataflow-data-schema-version-2-0.md) and be specified using XML format, or as text strings delimited by the comma, tab, or pipe (&#124;) character.  
   
  The following is an XML example that contains data to geocode. You can find examples in other formats in [Sample Input and Output v2.0](../geocode-dataflow-api/geocode-dataflow-sample-input-and-output-data-version-2-0.md).  

@@ -16,6 +16,8 @@ ms.service: "bing-maps"
 ---
 # South America Transit Coverage
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps APIs provide transit information for the following transit agencies in South America.  
 
 ## Argentina

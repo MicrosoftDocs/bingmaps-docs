@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Warning Types
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 The following warning type values are used to set the warningType attribute that is returned with warning text by the [Routes](index.md) when there is a potential issue along a route segment. For more information about warnings and other information returned in the Routes API response, see [Route Data](route-data.md).  
   
 |Warning Type|Description|  

@@ -12,6 +12,8 @@ services: bing-maps
 
 # Why Bing Maps?
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Bing Maps offers numerous advantages over the Google Maps JavaScript API. Here are just a few of them:
 
 - Faster and more fluid map control

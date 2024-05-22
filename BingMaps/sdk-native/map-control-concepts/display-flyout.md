@@ -6,6 +6,8 @@ ms.author: pablocan
 
 # Display flyout of icon
 
+[!INCLUDE [bing-maps-sdk-for-android-iOS-retirement](../../includes/bing-maps-sdk-for-android-iOS-retirement.md)]
+
 A Flyout is a simple panel that displays information over a map, often when an associated [MapIcon](../map-control-api/MapIcon-class.md) is tapped.  
 Flyouts are represented by [MapFlyout class](../map-control-api/mapflyout-class.md).
 

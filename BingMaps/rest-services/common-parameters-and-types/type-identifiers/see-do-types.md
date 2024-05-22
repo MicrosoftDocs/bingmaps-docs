@@ -10,6 +10,8 @@ ms.service: "bing-maps"
 
 # SeeDo Identifiers
 
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../../includes/bing-maps-enterprise-service-retirement.md)]
+
 Type ID  | Description  
 ---------|---------
 `AmusementParks` | Amusement parks.
