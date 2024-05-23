@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Maneuver Types
+
+[!INCLUDE [bing-maps-calculate-a-route-api-retirement](../../includes/bing-maps-calculate-a-route-api-retirement.md)]
 
 The following maneuver type values are returned the [Routes](index.md) in the maneuverType field in the HTTP response. For more information about the values returned in the Routes API response, see [Route Data](route-data.md).  
   

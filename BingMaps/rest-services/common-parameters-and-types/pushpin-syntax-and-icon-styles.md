@@ -11,6 +11,8 @@ ms.service: "bing-maps"
 
 # Pushpin Syntax and Icon Styles
 
+[!INCLUDE [bing-maps-get-a-static-map-api-retirement-banner](../../includes/bing-maps-get-a-static-map-api-retirement-banner.md)]
+
 Pushpins identify locations on a map. You can specify an icon style and a label for a pushpin, in addition to its location.  
   
 > [!NOTE]
@@ -19,7 +21,6 @@ Pushpins identify locations on a map. You can specify an icon style and a label 
  The following table shows the syntax to use to specify a pushpin location.  
   
 > `pushpin=latitude,longitude;iconStyle;label`
-  
 
  You can use the alias `pp` if you do not want to spell out `pushpin`.  
   
@@ -54,7 +55,6 @@ pp=38.8896854931628,-77.03519403934479;45;WMT
 ```
   
 ### Example 2
-
 
 ```url
 pp=38.889586530732335,-77.05010175704956;23;LMT&pp=38.88772364638439,-77.0472639799118;7;KMT\r\n  

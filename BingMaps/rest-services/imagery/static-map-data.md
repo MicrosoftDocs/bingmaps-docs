@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Static Map Data
 
+[!INCLUDE [bing-maps-get-a-static-map-api-retirement-banner](../../includes/bing-maps-get-a-static-map-api-retirement-banner.md)]
+
 When you use the [Get a Static Map](get-a-static-map.md) API to request static map image metadata, the response returns a Static Map Metadata resource that contains metadata about the static map including the absolute (latitude and longitude) and relative (with respect to the map) coordinates and size of pushpins, as well as the map area, size and center point. When you request static map metadata, the response does not return the map image. This topic contains descriptions of the static map metadata, followed by JSON and XML examples.  
   
 [!INCLUDE [get-common-response-note](../../includes/get-common-response-note.md)] 
