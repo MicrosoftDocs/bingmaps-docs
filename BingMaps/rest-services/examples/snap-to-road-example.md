@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Snap to Road Example
 
+[!INCLUDE [bing-maps-snap-points-to-roads-api-retirement](../../includes/bing-maps-snap-points-to-roads-api-retirement.md)]
+
 The following example shows how to snap points to the road.
 
 In this case, consider a trucking company that wants to do periodic safety reviews of the routes that their truck drivers take. The trucks have built-in GPS devices that collect GPS points as the truck drives along its route. The company wants to snap the GPS points to the likely road taken for accuracy because often times collected GPS points can deviate from the actual road the driver was on due to occasional GPS signal interference (i.e.: trees, buildings, etc.). The company also wants to get the posted truck speed limit of the road that the truck was on to compare to the actual speed the driver was travelling.

@@ -17,6 +17,8 @@ ms.service: bing-maps
 
 # Local Insights Data
 
+[!INCLUDE [bing-maps-local-insights-api-retirement](../../includes/bing-maps-local-insights-api-retirement.md)]
+
 Description of a successful [Local Insights](local-insights.md) request. Please see [Type Identifiers](../common-parameters-and-types/type-identifiers/index.md) for a list of business types.
 
 ## `LocalInsightsResponse`

@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Distance Matrix Example
 
+[!INCLUDE [bing-maps-calculate-a-distance-matrix-api-retirement](../../includes/bing-maps-calculate-a-distance-matrix-api-retirement.md)]
+
 This example returns a simple distance matrix between a set of origins and destinations. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats.
 
 **HTTP GET Request URL**

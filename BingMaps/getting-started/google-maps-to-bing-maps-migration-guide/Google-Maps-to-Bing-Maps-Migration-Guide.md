@@ -108,7 +108,7 @@ Asia and Australia you can contact them at <mapemea@microsoft.com>.
 
 ### Bing Maps Blog
 
-The [Bing Maps blog](https://blogs.bing.com/maps) is where the Bing Maps team
+The [Bing Maps blog](https://www.microsoft.com/maps/news) is where the Bing Maps team
 announces new features. In addition, regular technical posts showing how to do
 new and interesting things with the Bing Maps controls.
 
