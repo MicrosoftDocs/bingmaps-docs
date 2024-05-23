@@ -16,7 +16,7 @@ ms.service: "bing-maps"
 ---
 # Query Options
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-query-api-retirement](../../includes/bing-maps-spatial-data-service-query-api-retirement.md)]
 
 When you use the Query API, you can specify query options that define what data is returned and how it is formatted. Query options are specified as URL parameters. The query options used by the Query API include a subset of the query options defined by an [Open Data Protocol (OData) specification](https://www.odata.org/documentation/). In addition to the OData query options, the Query API also provides custom query options, such as a spatial filter. Use spatial filter to define the area to query.  
   
