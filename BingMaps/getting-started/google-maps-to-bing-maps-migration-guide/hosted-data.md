@@ -2,8 +2,8 @@
 title: Download location data hosted in Google Fusion tables
 titleSuffix: Bing Maps
 description: "Learn about migrating data from Google Fusion Tables to Bing Maps."
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 ms.date: 07/27/2022
 ms.topic: conceptual
 ms.service: bing-maps

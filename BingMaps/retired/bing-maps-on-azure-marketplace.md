@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.assetid: ""
 caps.latest.revision: ""
 author: "DRMap"
-ms.author: v-munksteve
+ms.author: eriklind
 manager: "donnali"
 ms.service: "bing-maps"
 ---
