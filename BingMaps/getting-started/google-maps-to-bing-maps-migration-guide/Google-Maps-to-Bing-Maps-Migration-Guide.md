@@ -2,8 +2,8 @@
 title: Migrating Google Maps to Bing Maps
 titleSuffix: Bing Maps
 description: "Learn about migrating Google Maps to Bing Maps."
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 ms.date: 07/27/2022
 ms.topic: conceptual
 ms.service: bing-maps
@@ -108,7 +108,7 @@ Asia and Australia you can contact them at <mapemea@microsoft.com>.
 
 ### Bing Maps Blog
 
-The [Bing Maps blog](https://www.microsoft.com/maps/news) is where the Bing Maps team
+The [Bing Maps blog](https://aka.ms/bingmapsblog) is where the Bing Maps team
 announces new features. In addition, regular technical posts showing how to do
 new and interesting things with the Bing Maps controls.
 

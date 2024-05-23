@@ -14,7 +14,10 @@ ms.author: "richbrun"
 manager: "stevelom"
 ms.service: "bing-maps"
 ---
+
 # Driving Route Example
+
+[!INCLUDE [bing-maps-calculate-a-route-api-retirement](../../includes/bing-maps-calculate-a-route-api-retirement.md)]
 
 The following example shows how to request a driving route between two locations that minimizes the use of toll roads. Responses are shown for both XML and JSON formats.  
   

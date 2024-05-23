@@ -9,8 +9,8 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 880094cc-93b2-4b2e-8f8d-7d601bc0bd11
 caps.latest.revision: 41
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 manager: eriklind
 ms.service: bing-maps
 ---

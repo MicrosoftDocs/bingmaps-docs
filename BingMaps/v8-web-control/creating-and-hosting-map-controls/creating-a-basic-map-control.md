@@ -6,7 +6,7 @@ ms.date: 11/23/2021
 ms.topic: article
 ms.assetid: 97fbc75e-1e2c-4181-87a8-59fb249c41a3
 caps.latest.revision: 9
-author: stevemunk
+author: eriklindeman
 ms.author: eriklind
 manager: eriklind
 ms.service: bing-maps

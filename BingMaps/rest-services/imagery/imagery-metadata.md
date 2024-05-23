@@ -11,7 +11,7 @@ ms.service: "bing-maps"
 
 # Imagery Metadata
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+[!INCLUDE [bing-maps-get-imagery-metadata-api-retirement](../../includes/bing-maps-get-imagery-metadata-api-retirement.md)]
 
 The response returned by an Imagery Metadata URL request contains a resource that provides imagery metadata information. If the metadata requested is for Birdseye imagery, a Birdseye Metadata resource is returned. For other types of imagery, an Imagery Metadata resource is returned. This topic contains descriptions of the information elements in these resources, followed by JSON and XML examples.  
   

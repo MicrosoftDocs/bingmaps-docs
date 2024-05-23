@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Traffic Incident Data
 
+[!INCLUDE [bing-maps-get-traffic-incidents-api-retirement](../../includes/bing-maps-get-traffic-incidents-api-retirement.md)]
+
 The response returned by a Traffic URL contains one or more TrafficIncident resources. Each TrafficIncident resource contains information about a traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. This following table provides descriptions of the TrafficIncident resource fields and is followed by JSON and XML examples.  
   
 ## Traffic Incident Resource 

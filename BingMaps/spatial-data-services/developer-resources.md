@@ -24,7 +24,7 @@ Use the following resources to learn more about Bing Maps, get your questions an
 |Resource|Description|
 |-|-|  
 |[Bing Maps Forums](https://social.msdn.microsoft.com/Forums/bingmapsservices/threads)|Get your questions answered in the Bing Maps Forums.|  
-|[Bing Maps Blog](https://www.microsoft.com/maps/news)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
+|[Bing Maps Blog](https://aka.ms/bingmapsblog)|Get code samples, API announcements and guidance from the official Bing Maps Blog.|  
 |[Bing Maps Resources](https://www.microsoft.com/maps/developer-resources.aspx)|Check out this page for Bing Maps developer resources.|  
 |[Twitter (@BingMaps)](https://twitter.com/bingmaps)|Follow @BingMaps on Twitter to get the latest updates on the Bing Maps APIs.|  
 |[Facebook](https://www.facebook.com/Bing)|Get interesting info on Bing Maps. Bing Maps is part of the Bing Facebook page.|  

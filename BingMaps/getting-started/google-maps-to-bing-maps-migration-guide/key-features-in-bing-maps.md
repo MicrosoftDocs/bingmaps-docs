@@ -2,8 +2,8 @@
 title: Key features in Bing Maps
 titleSuffix: Bing Maps
 description: "Learn about the Key features in Bing Maps."
-author: stevemunk
-ms.author: v-munksteve
+author: eriklindeman
+ms.author: eriklind
 ms.date: 07/27/2022
 ms.topic: conceptual
 ms.service: bing-maps
