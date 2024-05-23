@@ -25,7 +25,7 @@ The following resources are available for Bing Maps developers:
 * [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/) - Hundreds of in depth code samples.
 * [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions). use to provide intellisense and richer error catching functionality to your IDE.
 * [Bing Maps Web Controls Forum](https://social.msdn.microsoft.com/Forums/home?forum=bingmapsajax&filter=alltypes&sort=lastpostdesc) to connect with other Bing Maps developers.
-* [Bing Maps Developer blog](https://www.microsoft.com/maps/news)
+* [Bing Maps Developer blog](https://aka.ms/bingmapsblog)
 * [Bing Maps Dev Center](https://www.bingmapsportal.com/) to manage your Bing Maps account.
 * [Terms of use](https://www.microsoft.com/maps/product/terms.html) for Bing Maps.
 * [Bing Maps technical support](https://www.microsoft.com/maps/support).
