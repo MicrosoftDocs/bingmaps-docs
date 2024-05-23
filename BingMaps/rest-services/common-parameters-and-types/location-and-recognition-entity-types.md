@@ -10,6 +10,8 @@ ms.service: "bing-maps"
 
 # Location and Recognition Entity Types
 
+[!INCLUDE [bing-maps-location-recognition-api-retirement](../../includes/bing-maps-location-recognition-api-retirement.md)]
+
 The response returned by the Location Recognition API contains one or more entity types. This article provides descriptions of the various fields associated with each entity type.
 
 ## Businesses at Location
