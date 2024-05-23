@@ -67,7 +67,7 @@ Not including the code to create the array of shapes, V8 requires 60% less code 
 
 ## Changing the Color of the Pushpins
 
-One of the most common questions that developers ask on the forums is how to change the color of the default pushpin. In previous versions of Bing Maps there were [a couple of solution](https://www.microsoft.com/maps/news2015/02/05/visualizing-point-based-business-intelligence-data-on-bing-maps);
+One of the most common questions that developers ask on the forums is how to change the color of the default pushpin.
 
 -   Create a custom pushpin image in an image editor and then pass a URL to this image to the pushpin. However, if you wanted several different colors, this meant creating several different images.
 
