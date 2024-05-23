@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Driving Route with Route Path Example
 
+[!INCLUDE [bing-maps-calculate-a-route-api-retirement](../../includes/bing-maps-calculate-a-route-api-retirement.md)]
+
 This example returns a driving route from Minneapolis, Minnesota to St. Paul, Minnesota. The route is optimized for distance and requests point values for the route’s path. Results are shown for both JSON and XML response formats.
   
 ```url

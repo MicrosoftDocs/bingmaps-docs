@@ -17,6 +17,8 @@ ms.service: "bing-maps"
 
 # Distance Matrix Histogram Example
 
+[!INCLUDE [bing-maps-calculate-a-distance-matrix-api-retirement](../../includes/bing-maps-calculate-a-distance-matrix-api-retirement.md)]
+
 This example returns a distance matrix histogram between a set of origins and destinations between June 15<sup>th</sup>, 2017 at 1PM PST and June 15<sup>th</sup>, 2017 at 5PM PST with a resolution of 2 (30-minute intervals). This request will automatically use predictive traffic data to provide accurate estimates. This example shows the complete asynchronous request process from the initial request, as well as checking the status until completed. Both a GET and its equivalent POST request are shown. Responses are shown for both XML and JSON formats.
 
 **HTTP GET Request URL**
