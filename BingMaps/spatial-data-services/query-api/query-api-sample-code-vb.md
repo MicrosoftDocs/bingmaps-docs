@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Query API Sample Code (VB)
 
-[!INCLUDE [bing-maps-spatial-data-service-data-source-management-api-retirement](../../includes/bing-maps-spatial-data-service-data-source-management-api-retirement.md)]
+[!INCLUDE [bing-maps-spatial-data-service-query-api-retirement](../../includes/bing-maps-spatial-data-service-query-api-retirement.md)]
 
 The following Visual Basic code provides examples of how to query a data source using the [Query API](../query-api/index.md).  
   
