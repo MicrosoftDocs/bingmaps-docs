@@ -17,12 +17,7 @@ ms.service: "bing-maps"
 
 # Calculate an Isochrone
 
-> [!NOTE]
-> **Bing Maps Calculate an Isochrone API retirement**
->
-> Bing Maps Calculate an Isochrone API is deprecated and will be retired. Free (Basic) account customers can continue to use Bing Maps Calculate an Isochrone API until June 30th, 2025. Enterprise account customers can continue to use Bing Maps Calculate an Isochrone API until June 30th, 2028. To avoid service disruptions, all implementations using Bing Maps Calculate an Isochrone API will need to be updated to use Azure Maps [Route Range](/rest/api/maps/route/get-route-range) API by the retirement date that applies to your Bing Maps for Enterprise account type.
->
-> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
+[!INCLUDE [bing-maps-calculate-an-Isochrone-matrix-api-retirement](../../includes/bing-maps-calculate-an-Isochrone-matrix-api-retirement.md)]
 
 The Bing Maps Isochrone API provides time-specific, isoline polygons for the distance that is reachable from a given location and supports multiple modes of transportation (i.e. driving and public transit). Use this solution to plan the area that can be reached from a designated starting point within a set time period. The isoline polygon area, good for visualization, can be used to filter for spatial queries, which opens up a wide variety of applications for spatial filtering. Here are some additional examples of where you might use isochrones:
 
