@@ -4,7 +4,7 @@ titleSuffix: Microsoft Bing Maps
 description: V8 Web Controls Developer support resources and contact information
 ms.date: 11/22/2021
 ms.topic: article
-author: stevemunk
+author: eriklindeman
 ms.author: eriklind
 ms.service: bing-maps
 ---
