@@ -17,7 +17,7 @@ ms.service: "bing-maps"
 
 # Directly accessing the Bing Maps tiles
 
-[!INCLUDE [bing-maps-get-imagery-metadata-api-retirement](../../includes/bing-maps-get-imagery-metadata-api-retirement.md)]
+[!INCLUDE [bing-maps-get-imagery-metadata-api-retirement](../includes/bing-maps-get-imagery-metadata-api-retirement.md)]
 
 Adding Bing Maps as a tile layer in a non-Bing Maps control can be done as outlined in this document. It should be noted that the tile URLs for Bing Maps change regularly and as such directly accessing tiles from a hardcoded URL is not allowed. It should also be noted that Bing Maps data cannot be integrated with competing mapping platforms as noted in the [terms of use](https://www.microsoft.com/maps/product/terms.html).
 
