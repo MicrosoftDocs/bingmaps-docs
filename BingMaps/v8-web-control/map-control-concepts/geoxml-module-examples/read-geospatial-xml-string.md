@@ -89,4 +89,4 @@ If you run this sample you will see a simple polygon that was defined in a strin
 
 ![Screenshot of a Bing map showing a triangle overlaid on top of a landmass.](../../media/bmv8-basicgeoxml.PNG)
 
-[Try it now](https://samples.bingmapsportal.com#GeoXml%20-%20Read)
+[Try it now](https://samples.bingmapsportal.com/?search=Read%20Geospatial%20XML%20String)

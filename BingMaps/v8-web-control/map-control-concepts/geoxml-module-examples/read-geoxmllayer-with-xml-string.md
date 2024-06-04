@@ -59,4 +59,4 @@ Here is what this GeoRSS data looks like on the map.
 
 ![Screenshot of a Bing map showing a triangle over a landmass.](../../media/bmv8-basicgeoxml.PNG)
  
-[Try it now](https://samples.bingmapsportal.com#GeoXmlLayer%20-%20Basic)
+[Try it now](https://samples.bingmapsportal.com/?search=Basic%20GeoXmlLayer)

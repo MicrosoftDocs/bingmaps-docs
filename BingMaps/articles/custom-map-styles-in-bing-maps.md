@@ -310,5 +310,5 @@ vg|fc:c5dea2_np|v:0;lv:0_trs|loc:ffffff;fc:ffffff;sc:d7d6d5_wt|fc:b1bdd6;lbc:fff
 ```
 
 ## Related Resources
-* [Load Map with Custom Style Sample](https://samples.bingmapsportal.com#Load%20Map%20with%20Custom%20Style)
-* [Simple Style Editor](https://samples.bingmapsportal.com#Simple%20Style%20Editor)
+* [Load Map with Custom Style Sample](https://samples.bingmapsportal.com/?search=load%20map%20with%20Custom%20Style)
+* [Simple Style Editor](https://samples.bingmapsportal.com/?search=Simple%20Style%20Editor)

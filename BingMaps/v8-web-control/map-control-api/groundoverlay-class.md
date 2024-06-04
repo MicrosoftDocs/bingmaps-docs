@@ -48,6 +48,6 @@ GroundOverlay(options: [GroundOverlayOptions](groundoverlayoptions-object.md))
 ## GroundOverlay Samples:
 
 -   [Simply Ground Overlay](https://www.bing.com/api/maps/mapcontrol/isdk?autoRedirect=false#simpleGroundOverlay+JS)
--   [Basic Ground Overlay](https://samples.bingmapsportal.com#Basic%20Ground%20Overlay)
--   [Ground Overlay with Options](https://samples.bingmapsportal.com#Ground%20Overlay%20Options)
--   [SVG Ground Overlay](https://samples.bingmapsportal.com#SVG%20Ground%20Overlay)
+-   [Basic Ground Overlay](https://samples.bingmapsportal.com/?search=Basic%20Ground%20Overlay)
+-   [Ground Overlay with Options](https://samples.bingmapsportal.com/?search=Ground%20Overlay%20Options)
+-   [SVG Ground Overlay](https://samples.bingmapsportal.com/?search=SVG%20Ground%20Overlay)

@@ -79,4 +79,4 @@ Here is what the result looks like when centered over a location in Redmond, WA.
 
 ![Screenshot of the Bing Map showing a message dialog box giving the physical address of the location in Redmond, Washington.](../../media/bmv8-reversegeocodeexample.png)
 
-[Try it now](https://samples.bingmapsportal.com#Reverse%20Geocode)
+[Try it now](https://samples.bingmapsportal.com/?search=Reverse%20Geocode)

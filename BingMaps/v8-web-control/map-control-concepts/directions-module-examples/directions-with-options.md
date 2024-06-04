@@ -80,6 +80,6 @@ Running this code will display a map with a route from London, UK to Madrid, Spa
 
 ![Screenshot of a Bing map showing a route from London, UK to Madrid, Spain with a stop in Paris, France.](../../media/bmv8-directionswithoptions.PNG)
 
-[Try it now](https://samples.bingmapsportal.com#Directions_WithOptions)
+[Try it now](https://samples.bingmapsportal.com/?search=Directions%20With%20Options)
 
-See also this sample on [Fully Custom Waypoint Pushpins](https://samples.bingmapsportal.com#Fully%20Custom%20Waypoint%20Pushpinshttps://samples.bingmapsportal.com)
+See also this sample on [Fully Custom Waypoint Pushpins](https://samples.bingmapsportal.com/?search=Fully%20Custom%20Waypoint%20Pushpins)
