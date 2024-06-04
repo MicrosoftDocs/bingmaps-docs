@@ -82,4 +82,4 @@ Here is what the resulting map looks like.
 
 ![Screenshot of a Bing map showing a purple circle pushpin over New York, New York in the middle of the map.](../../media/bmv8-basicgecodeexample.png)
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#Geocode)
+[Try it now](https://samples.bingmapsportal.com#Geocode)

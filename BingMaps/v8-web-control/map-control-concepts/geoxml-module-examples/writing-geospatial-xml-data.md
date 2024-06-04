@@ -71,4 +71,4 @@ If you run this sample you will see a map with some random pushpins and polygons
 
 ![Screenshot of a Bing map that shows polygons and pushpins in addition to a text field below the map with KML markup.](../../media/bmv8-geoxmlwrite.PNG)
  
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXml%20-%20Write)
+[Try it now](https://samples.bingmapsportal.com#GeoXml%20-%20Write)
