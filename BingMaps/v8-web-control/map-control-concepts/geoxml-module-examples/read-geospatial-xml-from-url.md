@@ -86,4 +86,3 @@ If you run this code it will load the specified GeoRSS feed and render it on the
 ![Screenshot of a Bing Map that shows a polygon shape overlaid onto the Coldwater Lake and hiking trail icons on the map.](../../media/bmv8-georsssample.PNG)
 
 [Try it now](https://samples.bingmapsportal.com/?search=Read%20Geospatial%20XML%20from%20URL)
-
