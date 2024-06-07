@@ -119,4 +119,4 @@ Here is what this looks like when you do a search for “Paris”.
 
 ![Screenshot of the Bing map showing the results of a search for locations named Paris with each pushpin correlating to a list item.](../../media/bmv8-geocodeuserinputexample.png)
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#Geocode_SearchResults)
+[Try it now](https://samples.bingmapsportal.com/?search=User%20Input%20Geocode)

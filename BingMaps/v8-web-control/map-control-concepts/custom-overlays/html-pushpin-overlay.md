@@ -182,4 +182,4 @@ Running this code will display three HTML pushpins on the map that consist of a 
 
 ![BMV8_HtmlPushpinOverlayExample](../../media/bmv8-htmlpushpinoverlayexample.png)
 
-A more in-depth code sample which includes support for dragging of HTML pushpins can be found [here](https://bingmapsv8samples.azurewebsites.net/#Html%20Pushpin%20Layer). 
+A more in-depth code sample which includes support for dragging of HTML pushpins can be found [here](https://samples.bingmapsportal.com/?search=Html%20Pushpin%20Layer). 

@@ -125,7 +125,7 @@ Here is a list of useful technical resources for the Bing Maps web control:
 - [Bing Maps Interactive SDK](https://www.bing.com/api/maps/sdk/mapcontrol/isdk)
 - [Bing Maps Code Samples](https://samples.bingmapsportal.com/)
 - [Bing Maps web control documentation](../../v8-web-control/index.md)
-- [Bing Maps V8 Code Sample project](https://bingmapsv8samples.azurewebsites.net/)
+- [Bing Maps V8 Code Sample project](https://samples.bingmapsportal.com)
 - [Creating a basic map control](../../v8-web-control/creating-and-hosting-map-controls/creating-a-basic-map-control.md)
 - [Bing Maps TypeScript Definitions](https://github.com/Microsoft/Bing-Maps-V8-TypeScript-Definitions)
 - [Microsoft Q&A](/answers/products/)

@@ -45,7 +45,7 @@ A map configuration file defines the options to use when loading the map as well
           "addLayerFromUrl": "https://bingmapsisdk.blob.core.windows.net/isdksamples/Countries.xml"
         },
         {
-          "addLayerFromUrl": "https://bingmapsv8samples.azurewebsites.net/Common/data/kml/SampleKml.kml"
+          "addLayerFromUrl": "https://github.com/microsoft/BingMapsV8CodeSamples/blob/main/Static/data/kml/SampleKml.kml"
         },
         {
           "addLayerFromUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?minmagnitude=3&format=geojson",
@@ -71,7 +71,7 @@ Here is a screenshot of the map that is rendered when loading this configuration
 
 ![BMV8_ConfigMap](../../media/bmv8-configmap.PNG)
 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#Load%20a%20Configurable%20Map%20with%20Code)
+[Try it now](https://samples.bingmapsportal.com/?search=Load%20a%20Configurable%20Map%20with%20Code)
 
 ## Examples
 
