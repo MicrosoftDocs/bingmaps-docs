@@ -153,7 +153,7 @@ Running this code, a map will load displaying the location of recent earthquakes
 
 ![Screenshot of a Bing map that shows purple pushpins on all locations that have experienced earthquakes recently.](../../media/bmv8-geoxmlcrossdomain.PNG)
  
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Cross%20Domain)
+[Try it now](https://samples.bingmapsportal.com/?search=GeoJson%20Cross%20Doamin)
 
 **Note:** Not all file and mime types are enabled in all servers. If using .NET, it is recommended to add the following to the web.config file:
 

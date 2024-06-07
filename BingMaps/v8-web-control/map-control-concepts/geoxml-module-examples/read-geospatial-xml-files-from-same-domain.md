@@ -56,10 +56,10 @@ This sample shows how to load a geospatial XML file that is hosted on the same d
 ```
 
 Running this sample (when you have the sample GeoRSS file) will load a map that looks like this.
- 
+
 ![Screenshot of a Bing Map that shows a polygon shape on top of the Coldwater Lake and hiking trail icons on the map.](../../media/bmv8-georsssample.PNG)
- 
-[Try it now](https://bingmapsv8samples.azurewebsites.net/#GeoXmlLayer%20-%20Same%20Domain)
+
+[Try it now](https://samples.bingmapsportal.com/?search=Read%20Same%20Domain%20GeoJSON)
 
 **Note:** Not all file and mime types are enabled in all servers. If using .NET, it is recommended to add the following to the web.config file:
 
