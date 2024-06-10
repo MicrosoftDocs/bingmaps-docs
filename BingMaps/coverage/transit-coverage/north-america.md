@@ -788,7 +788,7 @@ Bing Maps APIs provide transit information for the following transit agencies in
 |Oregon|Regional|Mt Hood Teleporter| 
 |Oregon|Regional|[Northeast Oregon Public Transit](https://ccno.org/publictransit/)| 
 |Oregon|Regional|[Oregon Express Shuttle](https://www.oregonexpressshuttle.com/)| 
-|Oregon|Regional|[Pacific Crest Lines](https://pacificcrestbuslines.com/)| 
+|Oregon|Regional|[Pacific Crest Lines](https://pacificcrestbuslines.net)| 
 |Oregon|Roseburg|[U-Trans](https://www.umpquatransit.com/)| 
 |Oregon|Salem|[Cherriots](https://www.cherriots.org)| 
 |Oregon|Sandy|[Mt. Hood Express](https://www.mthoodexpress.com/)| 
