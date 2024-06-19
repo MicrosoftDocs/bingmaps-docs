@@ -64,7 +64,7 @@ additionalContent:
         # Card
         - title: Bing Maps Blog
           summary: Stay up to date on Bing Maps.
-          url: https://www.microsoft.com/maps/news/
+          url: https://aka.ms/bingmapsblog
     - title: Support
       items:
         # Card
