@@ -17,8 +17,6 @@ ms.service: "bing-maps"
 
 # Understanding Scale and Resolution
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../includes/bing-maps-enterprise-service-retirement.md)]
-
 One of the more difficult questions to answer about a [Bing](https://bing.com/) map involves determining the exact scale or resolution of a particular image.  The answer is complicated as resolution depends on several factors including the current latitude and longitude. Scale is further dependent on screen resolution.  In this article we will look at the factors that affect scale and resolution and provide you with formulas you can use to calculate approximate values.  
   
 ## The Mercator Projection  
