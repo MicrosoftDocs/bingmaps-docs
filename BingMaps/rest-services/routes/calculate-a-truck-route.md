@@ -168,7 +168,6 @@ Content-Type: application/json
     …],
     "avoid": string,
     "dateTime": string,
-    "distanceBeforeFirstTurn": number,
     "distanceUnit": string,
     "heading": number,
     "optimize": string,
@@ -184,10 +183,7 @@ Content-Type: application/json
         "vehicleAxles": number,
         "vehicleTrailers": number,
         "vehicleSemi": bool,
-        "vehicleMaxGradient": number,
-        "vehicleMinTurnRadius": number,
-        "vehicleHazardousMaterials": string,
-        "vehicleHazardousPermits": string
+        "vehicleHazardousMaterials": string
     }
 }
 ```
