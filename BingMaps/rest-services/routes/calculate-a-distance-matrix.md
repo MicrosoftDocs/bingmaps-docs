@@ -230,8 +230,6 @@ Content-Type: application/json
     }],
     "travelMode": travelMode,
     "startTime": startTime, 
-    "endTime": endTime,
-    "resolution": resolution,
     "timeUnit": timeUnit
 }
 ```
@@ -255,8 +253,8 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 | `destinations`   | **Optional**. List of destinations described as coordinate pairs with latitudes and longitudes. If not specified, an n x n matrix will be generated using the origins. The format of each coordinate pair must have the following format:<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: destinations=37.77916,-122.42;32.71568,-117.16172<br/><br/>For POST requests:<br/><br/>[<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>]<br/><br/>**Example:**<br/><br/>"destinations": [<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude":  -122.42<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>] |
 | `travelMode`     | **Required**. Specifies the mode of transportation to use when calculating the distance matrix. Can be one of the following values:<br/><br/> • driving<br/> • walking<br/> • transit<br/><br/>**Example**: travelMode=driving  <br /> <br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Walking` is available in North America (US, Canada, Mexico). <br /> -  `Transit` is available in markets seen in the [Transit Coverage documentation](../../coverage/transit-coverage/index.md).|
 | `startTime`      | **Optional for Driving**. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. This should be a date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br/><br/>**Example**: startTime=2017-06-15T8:00:00-07:00 |
-| `endTime`        | **Optional for Driving**. If specified, a matrix based on traffic data with contain a histogram of travel times and distances for the specified resolution intervals (default is 15 minutes) between the start and end times. A start time must be specified for the request to be valid and the total time between start and end cannot be greater than 24 hours. This should be a date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br/><br/>**Example**: endTime=2017-06-15T13:00:00-07:00 |
-| `resolution`     | **Optional for Driving**. The number of intervals to calculate a histogram of data for each cell where a single interval is a quarter of an hour. Can be one of the following values:<br/><br/> • **1** - 15 minutes<br/> • **2** - 30 minutes<br/> • **3** - 45 minutes<br/> • **4** - an hour<br/><br/>If start time is specified and `resolution` is not, it will default to an interval of 1 (15 minutes).<br/><br/>**Example**: resolution=2 |
+| `endTime`        | **Deprecated**.  |
+| `resolution`     | **Deprecated**.  |
 | `distanceUnit`   | **Optional.** The units to use for distances in the response. One of the following values:<br/><br/> • mile or mi<br/> • kilometer or km \[default\]<br/><br/>**Example**: distanceUnit=mi  |
 | `timeUnit`       | **Optional.** The units to use for time durations in the response. One of the following values:<br/><br/> • minute \[default\]<br/> • second<br/><br/>**Example**: timeUnit=second |
 
@@ -454,7 +452,7 @@ The following example shows how to request a driving based distance matrix histo
 *HTTP GET Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&startTime=2017-06-15T13:00:00-07:00&endTime=2017-06-15T17:00:00-7:00&resolution=2&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&startTime=2017-06-15T13:00:00-07:00&key={BingMapsKey}
 ```
 
 *HTTP POST Request URL*
@@ -495,9 +493,7 @@ Content-Type: application/json
         "longitude": -122.2057
     }],
     "travelMode": "driving",
-    "startTime": "2017-06-15T13:00:00-07:00",
-    "endTime": "2017-06-15T17:00:00-07:00",
-    "resolution": 2
+    "startTime": "2017-06-15T13:00:00-07:00"
 }
 ```
 
