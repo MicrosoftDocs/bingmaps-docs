@@ -79,7 +79,7 @@ There are a lot of options available for truck routes. As such, some requests co
 **Synchronous Truck Routing Request URL (GET)**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleMaxGradient={vehicleMaxGradient}&vehicleMinTurnRadius={vehicleMinTurnRadius}&vehicleHazardousMaterials={vehicleHazardousMaterials}&vehicleHazardousPermits={vehicleHazardousPermits}&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Truck?wayPoint.1={wayPpoint1}&viaWaypoint.2={viaWaypoint2}&waypoint.3={waypoint3}&wayPoint.n={waypointN}&heading={heading}&optimize={optimize}&avoid={avoid}&routeAttributes={routeAttributes}&dateTime={dateTime}&tolerances={tolerances}&distanceUnit={distanceUnit}&vehicleHeight={vehicleHeight}&vehicleWidth={vehicleWidth}&vehicleLength={vehicleLength}&vehicleWeight={vehicleWeight}&vehicleAxles={vehicleAxles}&vehicleTrailers={vehicleTrailers}&vehicleSemi={vehicleSemi}&vehicleHazardousMaterials={vehicleHazardousMaterials}&key={BingMapsKey}
 ```
 
 **Synchronous Truck Routing Request URL (POST)**
@@ -110,7 +110,6 @@ Content-Type: application/json
     …],
     "avoid": string,
     "dateTime": string,
-    "distanceBeforeFirstTurn": number,
     "distanceUnit": string,
     "heading": number,
     "optimize": string,
@@ -126,10 +125,7 @@ Content-Type: application/json
         "vehicleAxles": number,
         "vehicleTrailers": number,
         "vehicleSemi": bool,
-        "vehicleMaxGradient": number,
-        "vehicleMinTurnRadius": number,
-        "vehicleHazardousMaterials": string,
-        "vehicleHazardousPermits": string
+        "vehicleHazardousMaterials": string
     }
 }
 ```
