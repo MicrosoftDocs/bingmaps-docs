@@ -73,6 +73,10 @@ Make an Asynchronous request if the travel mode is driving and:
 
 * A start time and an end time is specified and the total number of origins-destinations pairs is less than or equal to 2,500 for Basic or 40,000 for Enterprise Bing Maps accounts and no start time is specified.
 
+&nbsp;&nbsp;&nbsp;&nbsp;**or**
+
+* Your synchronous queries are frequently timing out. This may happen if the origins-destinations pairs count is large, or spatially distant.
+
 If your scenario doesn’t fit either of the parameters outlined above for synchronous and asynchronous requests, you will need to break your request up into smaller chunks. Note that transactions are based on the total number of cells in the resulting matrix and not on the number of requests, so the same number of transactions would be generated if you make two requests that generate 100 cells each or 1 request that generates 200 cells.
 
 **How asynchronous requests work**
@@ -132,13 +136,6 @@ Retrieves a simple distance matrix for a set of origins and destinations using a
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix?origins={lat0,long0;lat1,lon1;latM,lonM}&destinations={lat0,lon0;lat1,lon1;latN,longN}&travelMode={travelMode}&startTime={startTime}&timeUnit={timeUnit}&key={BingMapsKey}
 ```
 
-> [!TIP]
-> When retrieving a transit matrix (distance matrix using `travelMode=transit`), there are some things to note:
->
-> * There is support for up to 3 transit legs (2 transfers), except in the United Kingdom where up to 5 transit legs (4 transfers) are supported.
-> * The total walking distance used during route calculations is limited to 0.62 miles (1 km).
->
-> The estimated route duration may differ between results from the distance matrix API and using [Bing Maps](https://www.bing.com/maps). This is because Bing Maps does not have the limitation in the number of transit legs, and the total walking distance used when calculating a route in Bing Maps is generally up to 1.55 miles (2.5 km) and in some cases as much as 3.1 miles (5 km) as opposed to 0.62 miles (1 km) when using the distance matrix API.
 
 **Synchronous Distance Matrix Request URL (POST)**
 

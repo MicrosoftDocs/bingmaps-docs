@@ -67,7 +67,7 @@ Many developers prefer the simplicity of HTTP GET requests which simply require 
 When making a GET request the URL should look something like this:
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&includeTruckSpeedLimit={includeTruckSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
+http://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
 URI parameter alias’s will be supported only for GET requests.
@@ -97,7 +97,6 @@ Content-Type: application/json
     }],
     "interpolate": bool,
     "includeSpeedLimit": bool,
-    "includeTruckSpeedLimit": bool,
     "speedUnit": string,
     "travelMode": string
 }
@@ -106,7 +105,7 @@ Content-Type: application/json
 **Asynchronous GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&includeTruckSpeedLimit={includeTruckSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
 **Asynchronous POST Request URL**
@@ -134,7 +133,6 @@ Content-Type: application/json
     }],
     "interpolate": bool,
     "includeSpeedLimit": bool,
-    "includeTruckSpeedLimit": bool,
     "speedUnit": string,
     "travelMode": string
 }
@@ -160,7 +158,7 @@ The following is a list of parameters that are supported by the Snap to Road API
 | `points`                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 100 points for synchronhous requests, and 1,000 points for asynchrnous requests.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
 | `interpolate`            | intpl | **Optional**. Indicates if the space between the snapped points should be filled with additional points along the road, thus returning the full route path. Default: **false**<br/><br/>**Example**: interpolate=true                                                                                                                                                   |
 | `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |
-| `includeTruckSpeedLimit` | tspdl | **Optional.** Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeTruckSpeedLimit=true                                                                                                                                        |
+| `includeTruckSpeedLimit` | tspdl | **Deprecated.**                                                                                                               |
 | `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
 | `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving <br/><br /> **Note**: <br/><br/> For trucks, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. <br /><br /> For more details about vehicle attributes, please check the Calculate a Truck Route API doc: /bingmaps/rest-services/routes/calculate-a-truck-route. <br /><br /> **Geographic Availability**: <br /> -  `Driving` and `Walking` available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br />-  `Truck` is available in markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md).|
 
@@ -173,26 +171,8 @@ The following is a list of parameters that are supported by the Snap to Road API
     }],
     "interpolate": bool,
     "includeSpeedLimit": bool,
-    "includeTruckSpeedLimit": bool,
     "speedUnit": string,
-    "travelMode": string,
-    "vehicleSpec": {
-        "dimensionUnit": string,
-        "weightUnit": string,
-        "vehicleHeight": number,
-        "vehicleWidth": number,
-        "vehicleLength": number,
-        "vehicleWeight": number,
-        "vehicleAxles": number,
-        "vehicleTrailers": number,
-        "vehicleSemi": bool,
-        "vehicleMaxGradient": number,
-        "vehicleMinTurnRadius": number,
-        "vehicleAvoidCrossWind": bool,
-        "vehicleAvoidGroundingRisk": bool,
-        "vehicleHazardousMaterials": string,
-        "vehicleHazardousPermits": string
-    }
+    "travelMode": string
 }
 ```
 
@@ -234,7 +214,6 @@ Content-Type: application/json
         { "latitude": 47.610568, "longitude": -122.345064 }    
     ],
     "includeSpeedLimit": true,
-    "includeTruckSpeedLimit": true,
     "speedUnit": "MPH",
     "travelMode": "driving"
 }
@@ -251,17 +230,8 @@ Below is an example of HTTP POST Body with vehicle spec:
         { "latitude": 47.610568, "longitude": -122.345064 }    
     ],
     "includeSpeedLimit": true,
-    "includeTruckSpeedLimit": true,
     "speedUnit": "MPH",
-    "travelMode": "driving",
-    "vehicleSpec": {
-        "vehicleHeight": 10,
-        "vehicleWidth": 12,
-        "vehicleLength": 20,
-        "vehicleWeight": 5000,
-        "vehicleAxles": 2,
-        "vehicleTrailers": 1
-    }
+    "travelMode": "driving"
 }
 
 ```
