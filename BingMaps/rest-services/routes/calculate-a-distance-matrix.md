@@ -5,9 +5,9 @@ ms.date: 05/21/2024
 ms.topic: article
 ms.assetid: 1b06a21d-8204-4a5a-8389-c3983bde4307
 caps.latest.revision: 15
-author: eriklindeman
-ms.author: eriklind
-manager: eriklind
+author: mievans
+ms.author: mievans
+manager: mievans
 ms.service: "bing-maps"
 ---
 
@@ -54,10 +54,8 @@ For travel mode driving a distance matrix that has up to 2,500 origins-destinati
 For travel mode transit and walking, a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
 Pairs are calculated by multiplying the number of origins, by the number of destinations. For example 10,000 origin-destination pairs can be reached if you have: 1 origin, and 10,000 destinations, or 100 origins and 100 destinations defined in your request.
 
-* More complex driving related requests which take longer to process, such as calculating a histogram of travel times and distances for each cell of a matrix, can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
+* More complex driving related requests which take longer to process can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
 
-A histogram of travel times and distances can be requested but is limited to a distance matrix that has a maximum of 2,500 origins-destinations pairs for Basic Bing Maps accounts, for Enterprise Bing Maps accounts the limit is 40,000 origins-destinations pairs when the request is made asynchronously.
-The maximum time interval between the start and end time when calculating a distance matrix histogram is 7 days.
 
 ### When to use synchronous vs asynchronous requests
 
@@ -91,12 +89,6 @@ When calculating a simple distance matrix each origin-destination pair will gene
 
 For example, a matrix that has 2 origins, and 5 destinations, will generate 10 cells where 2 \* 5 = 10.
 
-When a matrix includes a histogram, each origin-destination pair will have a cell in the matrix for each time interval. The number of time intervals that a request will have depends on the resolution, start and end times.
-
-![Total Async Cells Calculation](../media/distancematrixasynccellcalculation2.PNG)
-
-For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15-minute increments (resolution = 1) over 24 hours, will generate 960 cells where 2 \* 5 \* 24/0.25 = 2 \* 5 \* 24 \* 4 = 960.
-
 > [!NOTE]
 > Cells will not be generated for origin-destination pairs that have the same index and coordinate. These will not be included in the transaction counts. If these exist in your query, you can subtract these from the calculated number of cells above to get a more accurate number for estimating transaction counts.
 
@@ -107,12 +99,6 @@ A billable transaction is generated for every 4 cells in a matrix, rounded up to
 ![Total Billable Transactions Calculation](../media/DistanceMatrixTransactionCalculation3_new.PNG)
 
 For example, a matrix that has 2 origins, and 5 destinations, will generate 3 billable transactions where Ceiling(0.25 \* 2 \* 5) = 3.
-
-When calculating a matrix which includes a histogram, only the first 30 time intervals in each origin-destination pair are counted towards billable transactions, any additional time intervals are provided for free.
-
-![Total Async Billable Transactions Calculation](../media/DistanceMatrixAsyncTransactionCalculation3_new.PNG)
-
-For example, a matrix that has 2 origins, 5 destinations, and retrieves time intervals in 15 minute increments (resolution = 1) over 24 hours, will generate 75 cells where Ceiling(0.25 \* 2 \* 5 \* Min(30, 24/0.25)) = Ceiling(0.25 \* 2 \* 5 \* Min(30, 96)) = Ceiling(0.25 \* 2 \* 5 \* **30**) = 75. Note that 24/0.25 = 24 \* 4 = 96, but since only the first increments per origin-destination pair is counted towards billable transaction, 66 time intervals are excluded from the transaction calculation per origin-destination pair, thus saving you a total of 165 billable transactions in this scenario.
 
 ## Supported HTTP Methods
 

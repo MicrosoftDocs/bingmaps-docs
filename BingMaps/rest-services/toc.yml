@@ -77,8 +77,6 @@ items:
       href: routes/snap-to-road-data.md
     - name: Local Insights
       href: routes/local-insights.md
-    - name: Local Insights Data
-      href: routes/local-insights-data.md
   - name: Traffic
     href: traffic/index.md
     items:
