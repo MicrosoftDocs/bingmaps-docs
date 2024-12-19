@@ -20,7 +20,7 @@ ms.service: "bing-maps"
 >
 > Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
-The Bing Maps Distance Matrix API provides travel time and distances for a set of origins and destinations. The distances and times returned are based on the routes calculated by the Bing Maps Route API. Times are based on predictive traffic information, depending on the start time specified in the request. Distance matrices can be calculated for driving, walking and public transit routes. This API can also generate distance matrices that optionally includes a histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
+The Bing Maps Distance Matrix API provides travel time and distances for a set of origins and destinations. The distances and times returned are based on the routes calculated by the Bing Maps Route API. Times are based on predictive traffic information, depending on the start time specified in the request. Distance matrices can be calculated for driving or walking.
 
 Distance matrices are used in several different types of applications. The most common is to power algorithms which solve the [Travelling Salesman Problem (TSP)](https://en.wikipedia.org/wiki/Travelling_salesman_problem) and [Vehicle Routing Problem (VRP)](https://en.wikipedia.org/wiki/Vehicle_routing_problem). Some other common applications include:
 
@@ -29,7 +29,7 @@ Distance matrices are used in several different types of applications. The most 
 * Calculate the difference in commute times between locations. For example: We are looking to move to a new office, what is the impact on commute times for our staff?
 * Clustering data based on travel time and distances. For example: Find all homes that are within 1 mile of a corner store.
 
-When you make a request by using one of the following [URL templates](#url-templates), the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. If a distance matrix histogram is requested, a departure time for when in the histogram the cell it is related to will be included. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
+When you make a request by using one of the following [URL templates](#url-templates), the response returns a Distance Matrix resource that contains either an array of Distance Matrix cells or information on the asynchronous request that was made to calculate a distance matrix. Each distance matrix cell contains the location and index of the origin and destination it is related to, the travel time, and distance. For more information about the Distance Matrix resource, see [Distance Matrix Data](distance-matrix-data.md). You can also view the example URL and response values in the [Examples](calculate-a-distance-matrix.md#examples) section.
 
 For Calculate a Distance Matrix geographic availability, see the travelMode parameter below.
 
@@ -234,7 +234,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 |------------|-------------|
 | `origins`    | **Required**. List of origins described as coordinate pairs with latitudes and longitudes. The format of each coordinate pair must use one of the following formats:<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: origins=37.77916,-122.42;32.71568,-117.16172<br/><br/>For POST requests:<br/><br/>[<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>]<br/><br/>**Example:**<br/><br/>"origins": [<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude":  -122.42<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>] |
 | `destinations`   | **Optional**. List of destinations described as coordinate pairs with latitudes and longitudes. If not specified, an n x n matrix will be generated using the origins. The format of each coordinate pair must have the following format:<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: destinations=37.77916,-122.42;32.71568,-117.16172<br/><br/>For POST requests:<br/><br/>[<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>]<br/><br/>**Example:**<br/><br/>"destinations": [<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude":  -122.42<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>] |
-| `travelMode`     | **Required**. Specifies the mode of transportation to use when calculating the distance matrix. Can be one of the following values:<br/><br/> • driving<br/> • walking<br/><br/>**Example**: travelMode=driving  <br /> <br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Walking` is available in North America (US, Canada, Mexico). <br /> |
+| `travelMode`     | **Required**. Specifies the mode of transportation to use when calculating the distance matrix. Can be one of the following values:<br/><br/> • driving<br/> • walking<br/> • ~~transit~~ [deprecated]<br/><br/>**Example**: travelMode=driving  <br /> <br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Walking` is available in North America (US, Canada, Mexico). <br /> |
 | `startTime`      | **Optional for Driving**. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. This should be a date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br/><br/>**Example**: startTime=2017-06-15T8:00:00-07:00 |
 | `endTime`        | **Deprecated**.  |
 | `resolution`     | **Deprecated**.  |
@@ -428,63 +428,6 @@ Once the initial request is made a `requestId` will be returned. A `requestId` i
 https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key={BingMapsKey}
 ```
 
-**Calculate a driving based Distance Matrix Histogram (asynchronous)**
-
-The following example shows how to request a driving based distance matrix histogram for the set of origins and destinations between June 15<sup>th</sup>, 2017 at 1PM PST and June 15<sup>th</sup>, 2017 at 5PM PST with a resolution of 2 (30-minute intervals). This request will automatically use predictive traffic data to provide accurate estimates. To view the complete XML and JSON responses, see [Distance Matrix Histogram Example](../examples/distance-matrix-histogram-example.md).
-
-*HTTP GET Request URL*
-
-```url
-https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?origins=47.6044,-122.3345;47.6731,-122.1185;47.6149,-122.1936&destinations=45.5347,-122.6231;47.4747,-122.2057&travelMode=driving&startTime=2017-06-15T13:00:00-07:00&key={BingMapsKey}
-```
-
-*HTTP POST Request URL*
-
-```url
-https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync?key={BingMapsKey}
-```
-
-*HTTP POST Header*
-
-```html
-Content-Length: 564
-Content-Type: application/json
-```
-
-*HTTP POST Body*
-
-```json
-{
-    "origins": [{
-        "latitude": 47.6044,
-        "longitude": -122.3345
-    },
-    {
-        "latitude": 47.6731,
-        "longitude": -122.1185
-    },
-    {
-        "latitude": 47.6149,
-        "longitude": -122.1936
-    }],
-    "destinations": [{
-        "latitude": 45.5347,
-        "longitude": -122.6231
-    }, 
-    {
-        "latitude": 47.4747,
-        "longitude": -122.2057
-    }],
-    "travelMode": "driving",
-    "startTime": "2017-06-15T13:00:00-07:00"
-}
-```
-
-Once the initial request is made a `requestId` will be returned. A `requestId` is a unique identifier for the asynchronous request. This can be used to monitor the status the request until it is completed, at which point the response will include a `resultUrl` property which the resulting distance matrix histogram can be downloaded from. The following URL checks that status of an asynchronous request that has a `requestId` of `90b07189-33d8-4cbf-866a-1bd5c5b4f474`.
-
-```url
-https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestId=90b07189-33d8-4cbf-866a-1bd5c5b4f474&key={BingMapsKey}
-```
 
 ## HTTP Status Codes
 
@@ -509,4 +452,3 @@ When the request is not successful, the response returns one of the following er
 * [Distance Matrix Data](distance-matrix-data.md)
 * [Distance Matrix Example](../examples/distance-matrix-example.md)
 * [Distance Matrix Asynchronous Example](../examples/distance-matrix-asynchronous-example.md)
-* [Distance Matrix Histogram Example](../examples/distance-matrix-histogram-example.md)
