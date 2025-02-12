@@ -51,8 +51,6 @@ items:
       href: routes/calculate-a-route.md
     - name: Calculate a Truck Route
       href: routes/calculate-a-truck-route.md
-    - name: Calculate Routes from Major Roads
-      href: routes/calculate-routes-from-major-roads.md
     - name: Route Data
       href: routes/route-data.md
     - name: Manuever Types
@@ -75,8 +73,6 @@ items:
       href: routes/snap-points-to-roads.md
     - name: Snap Points to Roads data
       href: routes/snap-to-road-data.md
-    - name: Local Insights
-      href: routes/local-insights.md
   - name: Traffic
     href: traffic/index.md
     items:
