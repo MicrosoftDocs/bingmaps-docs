@@ -36,13 +36,11 @@ For Calculate a Distance Matrix geographic availability, see the travelMode para
 > [!NOTE]
 > **Changes to Calculate a Distance Matrix**
 >
-> The Bing Maps `Calculate a Distance Matrix` service will no longer support the following features as of 9/30/2024.
+> The Bing Maps `Calculate a Distance Matrix` service no longer supports the following features as of 9/30/2024:
 >
 > - Transit as a mode of transportation in the `travelMode` parameter.
 > - Histogram of travel times over a period of time with a set interval that takes into consideration the predicted traffic at those times.
 > - The parameters `endTime` and `resolution`.  
->
-> To avoid service disruptions, modify your application by 9/30/2024.  
 
 ## API Limits
 
@@ -51,7 +49,7 @@ Requests to the distance matrix API can be done in one of two ways:
 * Most requests can be made with a simple synchronous GET or POST request.
 
 For travel mode driving a distance matrix that has up to 2,500 origins-destinations pairs can be requested for Basic Bing Maps accounts, while for Enterprise Bing Maps accounts the origin-destination pairs limit is 10,000.
-For travel mode transit and walking, a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
+For travel mode walking, a distance matrix that has up to 650 origins-destinations pairs can be request for all Bing Maps account types.
 Pairs are calculated by multiplying the number of origins, by the number of destinations. For example 10,000 origin-destination pairs can be reached if you have: 1 origin, and 10,000 destinations, or 100 origins and 100 destinations defined in your request.
 
 * More complex driving related requests which take longer to process can be made by making an asynchronous Distance Matrix request. This type of request is only accepted when the travel mode is set to driving and a start time has been specified.
@@ -59,9 +57,9 @@ Pairs are calculated by multiplying the number of origins, by the number of dest
 
 ### When to use synchronous vs asynchronous requests
 
-Make synchronous request if the travel mode is driving, walking or transit and:
+Make synchronous request if the travel mode is driving or walking and:
 
-* The total number of origins-destinations pairs is less than or equal to 2,500 for Basic or 10,000 for Enterprise Bing Maps accounts and no start time is specified when travel mode is driving or less than or equal to 650 for all Bing Maps accounts when travel mode is walking or transit.
+* The total number of origins-destinations pairs is less than or equal to 2,500 for Basic or 10,000 for Enterprise Bing Maps accounts and no start time is specified when travel mode is driving or less than or equal to 650 for all Bing Maps accounts when travel mode is walking.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**or**
 
@@ -234,7 +232,7 @@ https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsyncCallback?requestI
 |------------|-------------|
 | `origins`    | **Required**. List of origins described as coordinate pairs with latitudes and longitudes. The format of each coordinate pair must use one of the following formats:<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: origins=37.77916,-122.42;32.71568,-117.16172<br/><br/>For POST requests:<br/><br/>[<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>]<br/><br/>**Example:**<br/><br/>"origins": [<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude":  -122.42<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>] |
 | `destinations`   | **Optional**. List of destinations described as coordinate pairs with latitudes and longitudes. If not specified, an n x n matrix will be generated using the origins. The format of each coordinate pair must have the following format:<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: destinations=37.77916,-122.42;32.71568,-117.16172<br/><br/>For POST requests:<br/><br/>[<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;.<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>]<br/><br/>**Example:**<br/><br/>"destinations": [<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude":  -122.42<br/>&nbsp;&nbsp;&nbsp;&nbsp;},<br/>&nbsp;&nbsp;&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>&nbsp;&nbsp;&nbsp;&nbsp;}<br/>] |
-| `travelMode`     | **Required**. Specifies the mode of transportation to use when calculating the distance matrix. Can be one of the following values:<br/><br/> • driving<br/> • walking<br/> • ~~transit~~ [deprecated]<br/><br/>**Example**: travelMode=driving  <br /> <br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Walking` is available in North America (US, Canada, Mexico). <br /> |
+| `travelMode`     | **Required**. Specifies the mode of transportation to use when calculating the distance matrix. Can be one of the following values:<br/><br/> • driving<br/> • walking<br/><br/><br/>**Example**: travelMode=driving  <br /> <br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Walking` is available in North America (US, Canada, Mexico). <br /> |
 | `startTime`      | **Optional for Driving**. Specifies the start or departure time of the matrix to calculate and uses predictive traffic data. This should be a date string in a format that can be parsed by [DateTimeOffset.Parse](https://msdn.microsoft.com/library/bb351654.aspx). This option is only supported when the travel mode is set to driving.<br/><br/>**Example**: startTime=2017-06-15T8:00:00-07:00 |
 | `distanceUnit`   | **Optional.** The units to use for distances in the response. One of the following values:<br/><br/> • mile or mi<br/> • kilometer or km \[default\]<br/><br/>**Example**: distanceUnit=mi  |
 | `timeUnit`       | **Optional.** The units to use for time durations in the response. One of the following values:<br/><br/> • minute \[default\]<br/> • second<br/><br/>**Example**: timeUnit=second |

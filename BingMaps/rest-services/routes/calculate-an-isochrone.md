@@ -19,12 +19,11 @@ ms.service: "bing-maps"
 
 [!INCLUDE [bing-maps-calculate-an-Isochrone-matrix-api-retirement](../../includes/bing-maps-calculate-an-Isochrone-matrix-api-retirement.md)]
 
-The Bing Maps Isochrone API provides time-specific, isoline polygons for the distance that is reachable from a given location and supports multiple modes of transportation (i.e. driving and public transit). Use this solution to plan the area that can be reached from a designated starting point within a set time period. The isoline polygon area, good for visualization, can be used to filter for spatial queries, which opens up a wide variety of applications for spatial filtering. Here are some additional examples of where you might use isochrones:
+The Bing Maps Isochrone API provides time-specific, isoline polygons for the distance that is reachable from a given location. Use this solution to plan the area that can be reached from a designated starting point within a set time period. The isoline polygon area, good for visualization, can be used to filter for spatial queries, which opens up a wide variety of applications for spatial filtering. Here are some additional examples of where you might use isochrones:
 
 * **Store Locators** – Show me all locations that are within 10 minutes of a user.
-* **Stolen Vehicle Recovery** – Where could a vehicle have travelled to since it was stolen.
+* **Stolen Vehicle Recovery** – Where could a vehicle have traveled to since it was stolen.
 * **Real Estate** – Limit search results such that only those that are within the users preferred commute preferences to work. For example, show me all homes that are within a 30-minute drive of work.
-* **Job Search Sites** – Show all jobs that are within 45 minutes of my home when taking public transit.
 * **Geofence Generation** – Generate a polygon that be used as a geofence that alerts users when they are within a certain travel time or distance of a location.
 * **Field management** – Show me all workers who are within a 15-minute drive of a job.
 * **Emergency Services Planning** – Where could an emergency vehicle travel too within 5, 10, and 15 minutes.
@@ -34,9 +33,8 @@ When you make a request by using one of the following URL templates, the respons
 > [!NOTE]
 > **Bing Maps Calculate an Isochrone Feature Changes**
 >
-> As of 9/30/2024, the Bing Maps `Calculate an Isochrone` service will no longer support the ability to use transit as a `travelMode`. To avoid service disruptions, modify your application by 9/30/2024.
+> As of 9/30/2024, the Bing Maps `Calculate an Isochrone` service no longer supports the ability to specify a travel mode. Results will be based on Auto travel.
 
-For Calculate an Isochrone geographic availability, see the travelMode parameter below.
 
 ## API Limits
 
@@ -64,7 +62,7 @@ GET, POST
 When making a GET request the URL should look something like this:
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&travelMode={travelMode}&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&key={BingMapsKey}
 ```
 
 **Asynchronous GET Requests**
@@ -72,7 +70,7 @@ https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint={waypoint}&maxti
 Creates a job to calculate an isochrone using an asynchronous GET request. This type of request is recommended when the `maxTime` parameter is more than 30 minutes or the `maxDistance` parameter is more than 15 miles (24 km). 
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&travelMode={travelMode}&key={BingMapsKey}
+http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint={waypoint}&maxtime={maxTime}&maxDistance={maxDistance}&timeUnit={timeUnit}&distanceUnit={distanceUnit}&dateTime={dateTime}&key={BingMapsKey}
 ````
 
 **URL for checking Asynchronous request status (GET)**
@@ -115,7 +113,7 @@ The following is a list of parameters that are supported by the Isochrone API.
 | `distanceUnit` | `du`  | **Optional**. The units in which the maxDistance value is specified. One of the following values:<br/><br/> • **mile** or **mi**<br/> • **kilometer** or **km** \[default\]<br/><br/>**Example**: distanceUnit=mi |
 | `dateTime`  | `dt`  | **Optional** **for time based Driving and Transit**. When a maxTime value is specified, predictive traffic data is used to calculate the best isochrone route for the specified date time. This is not supported for distanced based queries.<br/><br/>A string that contains the date and time formatted as a [DateTime](https://msdn.microsoft.com/library/03ybds8y.aspx) value. For information about the string representation options for DateTime values, see [DateTime.Parse Method (String)](https://msdn.microsoft.com/library/1k1skd40.aspx). <br/><br/>**Examples**:<br/><br/>dateTime=03/01/2011 05:42:00<br/><br/>dateTime=05:42:00 \[assumes the current day\]<br/><br/>dateTime=03/01/2011 \[assumes the current time\] |
 | `optimize` | `optmz` | **Optional.** Specifies what parameters to use to optimize the isochrone route. One of the following values:<br/><br/> • **distance**: The route is calculated to minimize the distance. Traffic information is not used. Use with maxDistance.<br/> • **time** [default]: The route is calculated to minimize the time. Traffic information is not used. Use with maxTime.<br/> • **timeWithTraffic**: The route is calculated to minimize the time and uses current or predictive traffic information depending on if a dateTime value is specified. Use with maxTime.<br/><br/>**Example:** optimize=distance |
-| `travelMode`   | `mode`   | **Optional.** Indicates the which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **truck** <br/><br/>**Example:** travelMode=driving <br/><br /> **Note**: <br/><br/> For travelMode=truck, the vehicle attributes can be defined in the POST body. Please see the template POST body with vehicle attributes below this table. For more details about vehicle attributes, please check the [Calculate a Truck Route API doc](./calculate-a-truck-route.md). <br /><br /> **Geographic Availability**: <br /> -  `Driving` is available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea. <br /> -  `Truck` is available in Truck Routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md). |
+|
 
 
 *Template POST body with vehicle attributes*
@@ -124,25 +122,8 @@ The following is a list of parameters that are supported by the Isochrone API.
 {
     "waypoint":string,
     "distanceUnit": string,
-    "travelMode": string,
     "optimize": string,
-    "maxDistance" : number,
-    "vehicleSpec": {
-        "dimensionUnit": string,
-        "weightUnit": string,
-        "vehicleHeight": number,
-        "vehicleWidth": number,
-        "vehicleLength": number,
-        "vehicleWeight": number,
-        "vehicleAxles": number,
-        "vehicleTrailers": number,
-        "vehicleSemi": bool,
-        "vehicleMaxGradient": number,
-        "vehicleMinTurnRadius": number,
-        "vehicleAvoidCrossWind": bool,
-        "vehicleAvoidGroundingRisk": bool,
-        "vehicleHazardousMaterials": string
-    }
+    "maxDistance" : number
 }
 ```
 
@@ -157,13 +138,12 @@ In this case, consider a delivery company that has some electric vehicles in the
 * maxDistance: 50 miles (100 miles roundtrip)
 * distanceUnit: mile
 * optimize: distance
-* travelMode: driving
 * waypoint: Delivery company's shop latitude/longitude
 
 *HTTP GET Request URL*
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&travelMode=driving&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&key={BingMapsKey}
 ```
 
 For isochrones with specific vehicle attributes, below are the example POST request URLs.  
@@ -185,17 +165,8 @@ https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualear
 {
     "waypoint":"31.520759,-97.133597",
     "distanceUnit": "mile",
-    "travelMode": "Truck",
     "optimize": "distance",
-    "maxDistance" : 30,
-    "vehicleSpec": {
-        "vehicleHeight": 10,
-        "vehicleWidth": 12,
-        "vehicleLength": 20,
-        "vehicleWeight": 5000,
-        "vehicleAxles": 2,
-        "vehicleTrailers": 1
-    }
+    "maxDistance" : 30
 }
 ```
 
@@ -210,13 +181,12 @@ In this case, consider a person that is looking to rent an apartment near their 
 * maxTime: 30 minutes
 * TimeUnit: minute
 * DateTime: 11/27/2017 (Monday) at 6 PM PST (UTC offset)
-* TravelMode: Driving
 * Waypoint:  Company's office address
 
 *HTTP GET Request URL*
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=minute&dateTime=2017-11-27T18:00:00-08:00&travelMode=Driving&key={BingMapsKey}
+http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=minute&dateTime=2017-11-27T18:00:00-08:00&key={BingMapsKey}
 ```
 
 Once the initial request is made a *requestId* will be returned. A *requestId* is a unique identifier for the asynchronous request. This can be used to monitor the status of the request until it is completed, at which point the response will include a *resultURl* property which the resulting isochrone can be downloaded from. The following URL checks that status of an asynchronous request that has a *requestId* of “90b07189-33d8-4cbf-866a-1bd5c5b4f474”.
