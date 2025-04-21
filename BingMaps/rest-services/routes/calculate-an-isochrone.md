@@ -150,13 +150,13 @@ For isochrones with specific vehicle attributes, below are the example POST requ
 
 *URL Template for Synchronous POST  request*
 ```url
-https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualearth.net%2FREST%2Fv1%2FRoutes%2FIsochrones%3Fkey&amp;data=02%7C01%7Cyasong%40microsoft.com%7C08d8aa10e2be4c1c8a8e08d7825ab785%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637121198441257460&amp;sdata=Dz8aDorHqG7%2FgWFaaJmvEDamsVfP3lcuNAt%2Bf6SP7ug%3D&amp;reserved=0={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?key={BingMapsKey}
 ```
 
 *Asynchronous POST request*
 
 ```url
-https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.virtualearth.net%2FREST%2Fv1%2FRoutes%2FIsochronesAsync%3Fkey&amp;data=02%7C01%7Cyasong%40microsoft.com%7C08d8aa10e2be4c1c8a8e08d7825ab785%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637121198441257460&amp;sdata=8clzM%2Bk0HrDeBjlw2yhMMGQWFg%2FhL7fdmkYSRfge3Vc%3D&amp;reserved=0={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?key={BingMapsKey}
 ```
 
 *Example POST Body with vehicle attributes*
