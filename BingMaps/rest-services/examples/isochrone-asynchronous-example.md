@@ -26,13 +26,12 @@ In this case, consider a person that is looking to rent an apartment near their 
 * maxTime: 30 minutes
 * TimeUnit: Minutes
 * DateTime: 11/27/2017 (Monday) at 6 PM PST (UTC offset)
-* TravelMode: Driving
 * Waypoint:  Company's office address
 
 **HTTP GET Request URL**
 
 ```url
-http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=Minutes&dateTime=2017-11-27T18:00:00-08:00&travelMode=Driving&key={BingMapsKey}
+http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsync?waypoint=1%20Microsoft%20Way%20Redmond%20WA&maxTime=30&timeUnit=Minutes&dateTime=2017-11-27T18:00:00-08:00&key={BingMapsKey}
 ```
 
 Once the initial request is made a *requestId* will be returned. A *requestId* is a unique identifier for the asynchronous request. This can be used to monitor the status of the request until it is completed, at which point the response will include a *resultUrl* property which the resulting isochrone can be downloaded from. The following URL checks that status of an asynchronous request that has a *requestId* of “90b07189-33d8-4cbf-866a-1bd5c5b4f474”.

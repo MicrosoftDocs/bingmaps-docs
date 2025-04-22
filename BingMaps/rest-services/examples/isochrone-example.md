@@ -26,13 +26,12 @@ In this case, consider a delivery company that has some electric vehicles in the
 * maxDistance: 50 miles (100 miles round trip)
 * distanceUnit: mile
 * optimize: distance
-* travelMode: driving
 * waypoint: Delivery company's shop latitude/longitude
 
 **HTTP GET Request URL**
 
 ```url
-https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&travelMode=driving&key={BingMapsKey}
+https://dev.virtualearth.net/REST/v1/Routes/Isochrones?waypoint=31.520759,-97.133597&maxDistance=50&distanceUnit=mile&optimize=distance&key={BingMapsKey}
 ```
 
 Responses are shown for both XML and JSON formats.
