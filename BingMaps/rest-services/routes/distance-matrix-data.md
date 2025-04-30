@@ -88,4 +88,3 @@ These fields are used to represent a location coordinate.
 * [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
 * [Distance Matrix Example](../examples/distance-matrix-example.md)
 * [Distance Matrix Asynchronous Example](../examples/distance-matrix-asynchronous-example.md)
-* [Distance Matrix Histogram Example](../examples/distance-matrix-histogram-example.md)

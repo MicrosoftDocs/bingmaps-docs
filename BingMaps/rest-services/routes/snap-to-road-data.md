@@ -41,7 +41,6 @@ Represents a snapped or interpolated point.
 | `index`           | `Index`           | `integer`    | The index in the original list of points passed into the query that this snapped point corresponds to. Can be a value between -1 and the number of points – 1. The index will be set to -1 when the point is an interpolated point and not one of the snapped input points. |
 | `name`            | `Name`            | `string`     | The name of the street this snapped point lies on, if available. |
 | `speedLimit`      | `SpeedLimit`     | `double?`    | The posted speed limit. There are some special values which may be returned:<br/><br/> • Null – Speed limit not requested.<br/> • 0 – Speed limit unavailable. |
-| `truckSpeedLimit` | `TruckSpeedLimit` | `double?`    | The posted truck speed limit. There are some special values which may be returned:<br/> <br/> • Null – Truck speed limit not requested.<br/> • 0 – Truck speed limit unavailable, consider using standard speed limit.<br/> • -1 - The road does not allow trucks.  |
 
 ## See Also
 
