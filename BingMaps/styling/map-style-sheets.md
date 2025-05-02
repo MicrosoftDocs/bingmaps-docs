@@ -21,9 +21,6 @@ ms.service: "bing-maps"
 
 A map style sheet defines the appearance of a map in various [Microsoft map controls](map-style-sheet-support.md). A map style sheet consists primarily of [entries](map-style-sheet-entries.md) and [properties](map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
-> [!TIP]
-> Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
-
 ## JSON Style Sheet Format
 
 The primary way to represent a map style sheet is using JavaScript Object Notation (JSON).  There are four root properties to a style sheet:

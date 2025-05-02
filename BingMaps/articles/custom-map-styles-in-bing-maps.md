@@ -130,8 +130,6 @@ If the style is too long for a URL, when using the REST imagery service, the sty
 
 A map style sheet consists primarily of [entries](..\styling\map-style-sheet-entries.md) and [properties](..\styling\map-style-sheet-entry-properties.md) on those entries that you can override to customize the appearance.
 
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT).
-
 ## Known Limitation
 
 The following are some known limitations of custom map styles.
@@ -308,7 +306,3 @@ me|lv:0_ar|v:0_trs|v:0_cr|bsc:444444;boc:00000000;fc:888888;v:1_ad|bv:0_wt|fc:ff
 ```url
 vg|fc:c5dea2_np|v:0;lv:0_trs|loc:ffffff;fc:ffffff;sc:d7d6d5_wt|fc:b1bdd6;lbc:ffffff;loc:9aa9ca_str|fc:d7d6d5_ipr|v:0_ima|v:0_g|lc:e7e6e5;srv:0
 ```
-
-## Related Resources
-* [Load Map with Custom Style Sample](https://samples.bingmapsportal.com/?search=load%20map%20with%20Custom%20Style)
-* [Simple Style Editor](https://samples.bingmapsportal.com/?search=Simple%20Style%20Editor)
