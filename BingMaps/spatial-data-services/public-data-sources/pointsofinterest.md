@@ -11,15 +11,24 @@ ms.service: "bing-maps"
 
 # PointsOfInterest
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+> [!NOTE]
+> **Bing Maps Spatial Data Service feature retirement – Points of Interest**
+>
+> The Bing Maps **Spatial Data Service – Points of Interest** data source is now deprecated and will be retired on 6/30/2026. To avoid service disruptions, modify your application by 6/30/2026. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get Point of Interest data we recommend leveraging the Azure Maps [Get Search POI](/rest/api/maps/search/get-search-poi) API. Resources to aid in your migration:
+>
+> - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
+> - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
+> - [Azure Maps Service Agreement and Terms](https://aka.ms/termsazuremaps)
+> - [Azure Maps Pricing and Licensing](https://aka.ms/licensingazuremaps)
 
 The PointsOfInterest data source contains information about points of interest (POIs) for over 150 countries/regions worldwide. POI coverage varies by country/region. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key. The results are limited to 25 points of interest when using a Basic key. Enterprise keys do not have such limit.
 
 > [!IMPORTANT]
->  When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.                                              
+> When you query this data source for specific property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details. POI entities may not be available for every location.
 **Note:**  The PointsOfInterest data source does not support the intersects and nearRoute filters.  
   
-## POI Entity Properties  
+## POI Entity Properties
+
  The following table describes the properties that you can query to get information about worldwide points of interest. These properties make up the PointsOfInterest entity type that is used by the Microsoft data source.  
   
 |Property|Data Type|Example Value|  
@@ -38,18 +47,20 @@ The PointsOfInterest data source contains information about points of interest (
 |Phone|Edm.String|+(1)-(425)1231234|  
 |EntityTypeID|Edm.String|9996|  
   
-## Entity Types  
+## Entity Types
+
  For a complete list of the entity type IDs that you can query, see [POI Entity Types](../public-data-sources/poi-entity-types.md).  
   
-## How to query the PointsOfInterest data source  
+## How to query the PointsOfInterest data source
+
  You can query PointsOfInterest data source by using the following base URL and adding additional parameters such a geographical area to search and the properties you want to return. For a complete description of query options and more examples, see [Query API](../query-api/index.md).  
   
 > [!IMPORTANT]
->  When you query this data source for specify property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details.  
+> When you query this data source for specify property values, you must include a geographical area to search. This does not apply if you are querying for specific entities using entity ID. See [Query by Area](../query-api/query-by-area.md) and [Query by ID](../query-api/query-by-id.md) for details.  
   
  **Base Query URL**  
   
-```url 
+```url
 http://spatial.virtualearth.net/REST/v1/data/Microsoft/PointsOfInterest
 ```  
   
