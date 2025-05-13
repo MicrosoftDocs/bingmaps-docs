@@ -51,7 +51,7 @@ Next we show how to use the Routes API to minimize driving time for the current 
 
 
 > [!NOTE]
-> <P>Route optimization is only available for driving routes.</P>
+> <P>Route optimization is only available for driving routes. viaWaypoints are not supported.</P>
 
 
 ## Example
