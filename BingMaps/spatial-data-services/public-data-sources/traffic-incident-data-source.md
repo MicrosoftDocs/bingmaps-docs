@@ -20,7 +20,7 @@ ms.service: "bing-maps"
 > [!NOTE]
 > **Bing Maps Spatial Data Service feature retirement – Traffic Incidents**
 >
-> The Bing Maps **Spatial Data service – Traffic Incidents** API is now deprecated and will be retired on 6/30/2025. To avoid service disruptions, modify your application by 6/30/2025. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get traffic incident data we recommend leveraging the Azure Maps [Get Traffic Incident](/rest/api/maps/traffic/get-traffic-incident) API. Resources to aid in your migration:
+> The Bing Maps **Spatial Data service – Traffic Incidents** API has been retired. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get traffic incident data we recommend leveraging the Azure Maps [Get Traffic Incident](/rest/api/maps/traffic/get-traffic-incident) API. Resources to aid in your migration:
 >
 > - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
 > - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
