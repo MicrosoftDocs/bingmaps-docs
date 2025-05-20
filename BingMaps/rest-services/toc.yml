@@ -139,8 +139,6 @@ items:
       href: examples/distance-matrix-asynchronous-example.md
     - name: Distance Matrix Example
       href: examples/distance-matrix-example.md
-    - name: Distance Matrix Histogram Example
-      href: examples/distance-matrix-histogram-example.md
     - name: Driving Route Example
       href: examples/driving-route-example.md
     - name: Driving Route Using Tolerances Example
