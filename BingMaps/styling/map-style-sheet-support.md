@@ -1,6 +1,6 @@
 ---
 title: Map Style Support | Microsoft Docs
-description: Learn about map styles supported in a variety of Microsoft map controls with a list showing the controls that support it, a link to the Map Style Sheet Editor application and a table showing the minimum version of each control that supports each style version.
+description: Learn about map styles supported in a variety of Microsoft map controls with a list showing the controls that support it, and a table showing the minimum version of each control that supports each style version.
 ms.custom: 
 ms.date: 05/26/2020
 ms.reviewer: 
@@ -27,8 +27,6 @@ Map styling can be applied to a variety of Microsoft map controls:
 * The [Android or iOS map control](../sdk-native/index.md) using the [MapStyleSheet](../sdk-native/map-control-api/mapstylesheet-class.md) class.
 
 The point at which a particular [entry] or [property] is supported on each map control can be tracked using the style version.  
-
-Map style sheets can be created interactively using the [Map Style Sheet Editor application](https://www.microsoft.com/store/productId/9NBHTCJT72FT). The editor will inform you of what is supported.
 
 This table shows the minimum version of each control that supports each style version.
 
