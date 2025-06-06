@@ -17,12 +17,13 @@ ms.service: "bing-maps"
 
 # Distance Matrix Histogram Example
 
-[!INCLUDE [bing-maps-calculate-a-distance-matrix-api-retirement](../../includes/bing-maps-calculate-a-distance-matrix-api-retirement.md)]
-
-Distance Matrix Histogram functionality was retired on 09/30/2024.
-
-
+> [!NOTE]
+> **Bing Maps Distance Matrix Histogram functionality is retired**
+>
+> Bing Maps Distance Matrix Histogram functionality is no longer available. All implementations using Bing Maps Calculate a Distance Matrix API will need to be updated to use Azure Maps [Route Matrix](/rest/api/maps/route/post-route-matrix) API and, while it is not included, a histogram can be created from those results.
+>
+> Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
 ## See Also
 
--   [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
+- [Using the REST Services with .NET](../using-the-rest-services-with-net.md)
