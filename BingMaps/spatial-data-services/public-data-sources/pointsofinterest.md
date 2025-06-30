@@ -14,7 +14,7 @@ ms.service: "bing-maps"
 > [!NOTE]
 > **Bing Maps Spatial Data Service feature retirement – Points of Interest**
 >
-> The Bing Maps **Spatial Data Service – Points of Interest** data source has been retired. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get Point of Interest data we recommend leveraging the Azure Maps [Get Search POI](/rest/api/maps/search/get-search-poi) API. Resources to aid in your migration:
+> The Bing Maps **Spatial Data Service – Points of Interest** data source is now deprecated and will be retired on 6/30/2026. To avoid service disruptions, modify your application by 6/30/2026. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get Point of Interest data we recommend leveraging the Azure Maps [Get Search POI](/rest/api/maps/search/get-search-poi) API. Resources to aid in your migration:
 >
 > - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
 > - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
