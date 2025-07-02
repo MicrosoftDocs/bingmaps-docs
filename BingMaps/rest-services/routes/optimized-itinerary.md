@@ -20,7 +20,7 @@ ms.service: bing-maps
 > [!NOTE]
 > **Bing Maps Calculate Optimized Itinerary Routes service retirement**
 >
-> The Bing Maps **Calculate Optimized Itinerary Routes** service is deprecated and will be retired on June 30, 2026. To avoid service disruptions, please update your application by this date. Azure Maps offers this capability with enhanced security, privacy, and compliance features. Customers are encouraged to transition to this solution. Here are resources to assist with your migration:
+> The Bing Maps **Calculate Optimized Itinerary Routes** service is retired. Azure Maps offers this capability with enhanced security, privacy, and compliance features. For more information, see [Create multi-itinerary optimization service](/azure/azure-maps/itinerary-optimization-service) in the Azure Maps documentation. Customers are encouraged to transition to this solution. Here are resources to assist with your migration:
 >
 > - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
 > - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
