@@ -11,7 +11,15 @@ ms.service: "bing-maps"
 
 # POI Entity Types
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+> [!NOTE]
+> **Bing Maps Spatial Data Service feature retirement – Points of Interest**
+>
+> The Bing Maps **Spatial Data Service – Points of Interest** is deprecated and will be retired on June 30, 2026. To avoid service disruptions, please update your application by this date. Azure Maps offers this capability with enhanced security, privacy, and compliance features. For Point of Interest data, we recommend using the Azure Maps [Get Search POI](/rest/api/maps/search/get-search-poi) API. Resources to aid in your migration:
+>
+> - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
+> - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
+> - [Azure Maps Service Agreement and Terms](https://aka.ms/termsazuremaps)
+> - [Azure Maps Pricing and Licensing](https://aka.ms/licensingazuremaps)
 
 The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
   
