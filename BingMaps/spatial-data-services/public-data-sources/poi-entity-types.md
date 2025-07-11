@@ -11,7 +11,7 @@ ms.service: "bing-maps"
 
 # POI Entity Types
 
-[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-enterprise-service-retirement.md)]
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-spatial-data-service-points-of-interest.md)]
 
 The following table shows the entity IDs for the points of interest (POI) categories that are supported by the [PointsOfInterest](../public-data-sources/pointsofinterest.md) data source. POI entities may not be available for every location.  
   
