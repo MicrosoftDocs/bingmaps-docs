@@ -11,15 +11,7 @@ ms.service: "bing-maps"
 
 # PointsOfInterest
 
-> [!NOTE]
-> **Bing Maps Spatial Data Service feature retirement – Points of Interest**
->
-> The Bing Maps **Spatial Data Service – Points of Interest** data source is now deprecated and will be retired on 6/30/2026. To avoid service disruptions, modify your application by 6/30/2026. Azure Maps offers this capability and provides security, privacy and compliance enhancements. To get Point of Interest data we recommend leveraging the Azure Maps [Get Search POI](/rest/api/maps/search/get-search-poi) API. Resources to aid in your migration:
->
-> - [Why you should choose Azure Maps](https://aka.ms/whyazuremaps)
-> - [Migrating to Azure Maps](https://aka.ms/movetoazuremaps)
-> - [Azure Maps Service Agreement and Terms](https://aka.ms/termsazuremaps)
-> - [Azure Maps Pricing and Licensing](https://aka.ms/licensingazuremaps)
+[!INCLUDE [bing-maps-enterprise-service-retirement](../../includes/bing-maps-spatial-data-service-points-of-interest.md)]
 
 The PointsOfInterest data source contains information about points of interest (POIs) for over 150 countries/regions worldwide. POI coverage varies by country/region. You can query this data source by using the Bing Spatial Data Services [Query API](../query-api/index.md) and any Bing Maps Key. The results are limited to 25 points of interest when using a Basic key. Enterprise keys do not have such limit.
 
