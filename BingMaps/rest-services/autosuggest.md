@@ -20,11 +20,11 @@ ms.service: "bing-maps"
 > [!NOTE]
 > **Bing Maps Autosuggest API retirement**
 >
-> Bing Maps Autosuggest API is deprecated and has been retired for all free (Basic) account customers. Enterprise account customers can continue to use Bing Maps Autosuggest API until June 30th, 2028. To avoid service disruptions, all enterprise account customers using Bing Maps Autosuggest API will need to be updated to use Azure Maps [Fuzzy Search (with typeahead)](/rest/api/maps/search/get-search-fuzzy) API by June 30th, 2028. An Azure Maps Autosuggest API will be released soon.
+> Bing Maps Autosuggest API is deprecated and has been retired for all free (Basic) account customers. Enterprise account customers can continue to use Bing Maps Autosuggest API until June 30th, 2028. To avoid service disruptions, all enterprise account customers using Bing Maps Autosuggest API will need to be updated to use Azure Maps [Search autocomplete](/rest/api/maps/search/get-geocode-autocomplete) API by June 30th, 2028.
 >
 > Azure Maps is Microsoft's next-generation maps and geospatial services for developers. Azure Maps has many of the same features as Bing Maps for Enterprise, and more. To get started with Azure Maps, create a free [Azure subscription](https://azure.microsoft.com/free) and an [Azure Maps account](/azure/azure-maps/how-to-manage-account-keys#create-a-new-account). For more information about azure Maps, see [Azure Maps Documentation](/azure/azure-maps/). For migration guidance, see [Bing Maps Migration Overview](/azure/azure-maps/migrate-bing-maps-overview).
 
-Given a request with a user’s location and a partial query (called a `query prefix`), the Bing Maps Autosuggest API returns a list of suggested entities which the user is most likely searching for. These entities are ranked from most to least likely. Requests can be called using user locations (as the geocoordinates of the user, including a radius representing your confidence in the accuracy of the user’s location), and/or as a geographic region (either a circle or rectangle, but not both).  
+Given a request with a user's location and a partial query (called a `query prefix`), the Bing Maps Autosuggest API returns a list of suggested entities which the user is most likely searching for. These entities are ranked from most to least likely. Requests can be called using user locations (as the geocoordinates of the user, including a radius representing your confidence in the accuracy of the user's location), and/or as a geographic region (either a circle or rectangle, but not both).  
 
 > [!NOTE]
 > Geographic regions defined using map view parameters only influence suggested entity rankings.
@@ -52,13 +52,13 @@ http://dev.virtualearth.net/REST/v1/Autosuggest?query=<user_prefix>&userLocation
 |Parameters |Alias |Description |
 |---------|:-------:|---------|
 |`query` | `q` | **Required.** The user's query prefix.<br /><br />Example: "1 Micro" or "El Gaucho". |
-|`userLocation` | `ul` | **Required if neither `userCircularMapView` nor `userMapView` are provided.** A comma separated list of the user’s location (latitude, longitude) and radius, in meters, representing the confidence in the accuracy of the user’s location.<br /><br />Example: `48.604311,-122.981998,5000`<br /><br />**Note:** `userLocation` becomes a secondary signal if either `UserCircularMapView` or `UserMapView` is provided. |
+|`userLocation` | `ul` | **Required if neither `userCircularMapView` nor `userMapView` are provided.** A comma separated list of the user's location (latitude, longitude) and radius, in meters, representing the confidence in the accuracy of the user's location.<br /><br />Example: `48.604311,-122.981998,5000`<br /><br />**Note:** `userLocation` becomes a secondary signal if either `UserCircularMapView` or `UserMapView` is provided. |
 |`userCircularMapView` |  `ucmv` | **Optional.** A circular geographic region specified by a comma separated list of the latitude and longitude of the center of the circle, and the radius of the circle, in meters.<br /><br />Example: `48.604311,-122.981998,5000`<br /><br />**Note.** Mutually exclusive from `userMapView`.|
 |`userMapView` |`umv` | **Optional.** A rectangular region (a bounding box) specified by a comma separated list of the latitudes and longitudes of two corners of the rectangle:<br /><br />- Latitude of the Northwest corner<br />- Longitude of the Northwest corner<br />- Latitude of the Southeast corner<br />- Longitude of the Southeast corner<br /><br />Example: `29.8171041,-122.981995,48.604311,-95.5413725`<br /><br />**Note**: Mutually exclusive from `userCircularMapView`.|
 |`maxResults` |`maxRes` | **Optional.** The maximum number of returned suggestions and can be any integer in `[1, 10]`.<br /><br />Default: `7`. |
 |`includeEntityTypes` | `inclenttype` | **Optional.** A comma separated list of returned entity types. The possible values are:<br /> <br />- `Address`<br />- `Place`<br />- `Business`<br /><br />**Note:** These types are mutually inclusive. `Place` represents points of interest, like natural landmarks.<br /><br />Default: `Address,Place,Business` |
 |`culture` | `c` | **Optional.** The language of query prefixes.<br /><br />Example: `en-GB`.<br /><br />Default: `en-US`. |
-|`userRegion` |`ur` | **Optional**. The user’s market denoted by 2-letter country code abbreviations.<br /><br />Example: `DE`.<br /><br />Default: `US`. |
+|`userRegion` |`ur` | **Optional**. The user's market denoted by 2-letter country code abbreviations.<br /><br />Example: `DE`.<br /><br />Default: `US`. |
 |`countryFilter` | `cf` | **Optional**. Used to constrain entity suggestions to a single country/region denoted by a 2-letter country code abbreviation.<br /><br />Example: `DE`.<br /><br />Default: `none`. |
 |`output` | `o`  |**Optional**. Format of the response:<br /><br />- `JSON`<br />- `XML`<br /><br />Default: `JSON`. |
 
@@ -72,9 +72,9 @@ As shown in the table below, the response format of the three resource entities 
  
 |Resource Type Field  |Resource Fields  |
 |---------|---------|
-|`__type: “Address”` | - houseNumber<br />- streetName<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br />- countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
-|`__type: “Place”` |- entityType<br />- name<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br />- countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
-|`__type: “LocalBusiness”` | - entityType<br />- name<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br /> - countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
+|`__type: "Address"` | - houseNumber<br />- streetName<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br />- countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
+|`__type: "Place"` |- entityType<br />- name<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br />- countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
+|`__type: "LocalBusiness"` | - entityType<br />- name<br />- addressLine<br />- locality<br />- adminDistrict<br />- adminDistrict2<br /> - countryRegion<br />- countryRegionIso2<br />- neighborhood<br />- postalCode<br />- formattedAddress |
 
 |Response Fields  |Description  |
 |---------|---------|
@@ -100,9 +100,9 @@ As shown in the table below, the response format of the three resource entities 
 
 ### Example: Searching for a business
 
-Consider the case of a user typing in an HTML form to search for a place to eat, and that we are sure the user’s location is in the Ballard neighborhood of Seattle, e.g. at the location `47.668697,-122.376373`.
+Consider the case of a user typing in an HTML form to search for a place to eat, and that we are sure the user's location is in the Ballard neighborhood of Seattle, e.g. at the location `47.668697,-122.376373`.
 
-As the user starts typing, we can use a partial query like “El bur” as a query prefix, and send the following URL request:
+As the user starts typing, we can use a partial query like "El bur" as a query prefix, and send the following URL request:
 
 ```url
 http://dev.virtualearth.net/REST/v1/Autosuggest?query=El%20bur&userLocation=47.668697,-122.376373,5&includeEntityTypes=Business&key=<BingMapsKey>
@@ -305,7 +305,7 @@ http://dev.virtualearth.net/REST/v1/Autosuggest?query=El%20bur&userLocation=47.6
 
 However, in this case, the JSON response returns an empty list of suggested entities!
 
-But that’s alright. The Autosuggest API is meant to be called multiple times, with the same user location information, but with different query prefixes.
+But that's alright. The Autosuggest API is meant to be called multiple times, with the same user location information, but with different query prefixes.
 
 For example, suppose the same user changes the partial query from "El Bur" to "Buri" -- perhaps because they are looking for addresses with the keyword "Burien".
 
@@ -426,7 +426,7 @@ The same user can now be shown a new list of suggested entities. This time a lis
 
 ### Example: Searching by Geographical Region
 
-Geographical regions have many applications. Like using a circular region to rank higher those entities that are in walking range, or drawing a bounding box to cover a map currently being shown on the user’s mobile screen.
+Geographical regions have many applications. Like using a circular region to rank higher those entities that are in walking range, or drawing a bounding box to cover a map currently being shown on the user's mobile screen.
 
 Consider this URL request:
 
@@ -550,7 +550,7 @@ Here is the JSON response:
 }
 ```
 
-In this response, several suggested businesses are returned. Notice that the list is not ordered by increasing distance from the user. Indeed, except for Macleod’s Scottish Pub, none of the suggested entities are near downtown Ballard. In fact, all the business entities are outside the circular geographical region. Geography regions influence the list of suggested entities, but entities outside of the specified geographic regions may still be in the returned list of suggested entities.
+In this response, several suggested businesses are returned. Notice that the list is not ordered by increasing distance from the user. Indeed, except for Macleod's Scottish Pub, none of the suggested entities are near downtown Ballard. In fact, all the business entities are outside the circular geographical region. Geography regions influence the list of suggested entities, but entities outside of the specified geographic regions may still be in the returned list of suggested entities.
 
 > [!NOTE]
 > Different kinds of businesses are also returned. In the above response, for example, restaurants that serve fish are in the same list as fishing supply stores.
