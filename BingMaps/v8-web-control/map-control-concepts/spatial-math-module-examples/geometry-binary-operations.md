@@ -102,7 +102,7 @@ This example loads a map with two random polygons displayed on it. Below the map
     }
     </script>
     
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?branch=experimental&callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?branch=experimental&callback=GetMap' async defer></script>
 </head>
 <body>
     <div id='myMap' style='position:relative;width:600px;height:400px;'></div>

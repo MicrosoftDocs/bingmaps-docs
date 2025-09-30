@@ -28,7 +28,7 @@ To add a parameter to the map control src URL, add a `?`, the parameter, and set
 The following example sets the map control URL such that it triggers a callback function called GetMap after the script has finished loading. It also loads the experimental branch of the map control in Italian.
 
 ```html
-<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&branch=experimental&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&branch=experimental&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 ```
 
 ## Parameters
@@ -49,7 +49,7 @@ The Bing Maps V8 Map Control automatically detects the users language and cultur
 Here is an example of Bing Maps with the language parameter set to "fr" and the locale parameter set to "fr-FR".
 
 ```html
-<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&setMkt=fr-FR&setLang=fr' async defer></script>
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&setMkt=fr-FR&setLang=fr' async defer></script>
 ```
 
 The resulting map looks like this:
