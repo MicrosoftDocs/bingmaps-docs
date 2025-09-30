@@ -51,14 +51,6 @@ Displaying the default map, which includes all of the navigation functionality, 
     <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
     ```
 
-    To use SSL, change http to https:
-
-    ```html
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
-    ```
-
-    This will result in the browser inheriting the protocol from the website and automatically selecting HTTP or HTTPS as needed.
-
     > [!TIP]
     > If you need to call the control without the use of cookies, use the Virtual Earth endpoint rather than the Bing endpoint. To use Virtual Earth endpoint, you would change the `src=` in the URLs that start with `www.bing.com` to start with `sdk.virtualearth.net`.
 
