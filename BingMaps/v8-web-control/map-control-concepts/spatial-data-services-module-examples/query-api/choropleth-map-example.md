@@ -151,7 +151,7 @@ This code example retrieves [US state boundaries from a Spatial Data Source](../
             float:right;
         }
     </style>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div class="mapContainer">
