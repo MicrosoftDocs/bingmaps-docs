@@ -52,7 +52,7 @@ The following code creates a simple polygon that has a red outline and a semi-tr
         map.entities.push(polygon);
     }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

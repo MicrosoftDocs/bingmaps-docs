@@ -43,7 +43,7 @@ This example loads the Spatial Data Services module on its own as a map isn't re
     <meta charset="utf-8" />
 
     <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=RunTests'
+            src='https://www.bing.com/api/maps/mapcontrol?callback=RunTests'
             async defer></script>
 
     <script type='text/javascript'>

@@ -60,7 +60,7 @@ The example adds a bunch of events to the drawing manager that is created by the
         setTimeout(function () { document.getElementById(id).style.background = 'white'; }, 1000);
     }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

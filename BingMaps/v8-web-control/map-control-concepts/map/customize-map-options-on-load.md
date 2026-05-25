@@ -30,7 +30,7 @@ As mentioned before, you can customize the map when loading it. Use the followin
 
     <!-- Reference to the Bing Maps SDK -->
     <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+            src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     
     <script type='text/javascript'>
     function GetMap()

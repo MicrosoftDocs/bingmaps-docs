@@ -69,7 +69,7 @@ One of the most common types of searches done with a map is a nearby search, als
         });
     }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
 </head>
 <body>
     <div id="map" style="position:relative;width:600px;height:400px;"></div>

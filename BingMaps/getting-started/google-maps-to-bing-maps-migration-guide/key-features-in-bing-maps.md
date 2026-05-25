@@ -5,7 +5,7 @@ description: "Learn about the Key features in Bing Maps."
 author: eriklindeman
 ms.author: eriklind
 ms.date: 07/27/2022
-ms.topic: conceptual
+ms.topic: article
 ms.service: bing-maps
 services: bing-maps
 ---

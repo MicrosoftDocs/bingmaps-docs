@@ -48,16 +48,8 @@ Displaying the default map, which includes all of the navigation functionality, 
 3. In the header section or the body of the page add a reference to the map control script. You specify your Bing Maps key as part of the map script URL.  The map control can be loaded asynchronously by specifying a callback function in the script URL and by adding "async defer" to the script tag as follows:
 
     ```html
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
-    ```
-
-    To use SSL, change http to https:
-
-    ```html
     <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
     ```
-
-    This will result in the browser inheriting the protocol from the website and automatically selecting HTTP or HTTPS as needed.
 
     > [!TIP]
     > If you need to call the control without the use of cookies, use the Virtual Earth endpoint rather than the Bing endpoint. To use Virtual Earth endpoint, you would change the `src=` in the URLs that start with `www.bing.com` to start with `sdk.virtualearth.net`.
@@ -109,7 +101,7 @@ The following is the full code required for loading a map asynchronously.
 
     <!-- Reference to the Bing Maps SDK -->
     <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' 
+            src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' 
             async defer></script>
     
     <script type='text/javascript'>

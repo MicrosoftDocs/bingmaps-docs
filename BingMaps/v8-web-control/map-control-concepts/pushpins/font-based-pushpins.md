@@ -29,7 +29,7 @@ One great source for pushpin icons is font based glyphs. This example shows how 
     <meta charset="utf-8" />
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
     
     <script type='text/javascript' charset="utf-8">
     function GetMap() {

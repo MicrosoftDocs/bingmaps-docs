@@ -113,7 +113,7 @@ However, what if you want to get the boundary of a location and don't know what 
         }
     }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <input type="text" id="inputTbx"/>

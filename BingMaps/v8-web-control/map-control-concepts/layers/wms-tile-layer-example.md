@@ -54,7 +54,7 @@ This example shows how to take the [NOAA Base Reflective Weather Radar WMS servi
             map.layers.insert(NOAAWeatherRadar);
         }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>

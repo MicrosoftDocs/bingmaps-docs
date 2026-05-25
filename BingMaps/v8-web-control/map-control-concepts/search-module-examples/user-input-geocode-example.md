@@ -103,7 +103,7 @@ This code sample displays a search textbox and button along with a map. When the
         searchManager.geocode(searchRequest);
     }
     </script>
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 </head>
 <body>
     <input id='searchTbx' type='text'/>
