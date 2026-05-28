@@ -42,7 +42,10 @@ Requests to the Snap to Road API can be done in one of two ways:
 If you are not sure which one to use, it is recommended to use the asynchronous method as this will work for all scenarios.
 
 > [!Note]
-> The GPS points must be within 2.5 kilometer of each other.
+> **Distance limits**
+>
+> * The distance between consecutive GPS points must not exceed 2.5 kilometers.
+> * The total route distance cannot exceed 100 km for a single synchronous or asynchronous request.
 
 **How asynchronous requests work**  
 
@@ -70,7 +73,7 @@ When making a GET request the URL should look something like this:
 http://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
-URI parameter alias’s will be supported only for GET requests.
+URI parameter alias's will be supported only for GET requests.
 
 **Synchronous POST requests**
 
@@ -158,8 +161,8 @@ The following is a list of parameters that are supported by the Snap to Road API
 | `points`                 | pts   | **Required**. A set of points to snap to roads. If you have a large number of values, you can use the HTTP POST. Up to 100 points for synchronhous requests, and 1,000 points for asynchrnous requests.<br/><br/>For GET requests: lat0,lon0;lat1,lon1;...;latM,lonM<br/><br/>**Example**: points=37.77916,-122.42;32.71568,-117.16172;<br/><br/>For POST requests:<br/>\[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat0,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon0<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": lat1,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lon1<br/>},<br/>.<br/>.<br/>.<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": latN,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": lonN<br/>}\]<br/><br/>**Example:**<br/><br/>"points": \[{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 37.77916,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -122.42<br/>},<br/>{<br/>&nbsp;&nbsp;&nbsp;&nbsp;"latitude": 32.71568,<br/>&nbsp;&nbsp;&nbsp;&nbsp;"longitude": -117.16172<br/>}\]                                                                                                                                                                              |
 | `interpolate`            | intpl | **Optional**. Indicates if the space between the snapped points should be filled with additional points along the road, thus returning the full route path. Default: **false**<br/><br/>**Example**: interpolate=true                                                                                                                                                   |
 | `includeSpeedLimit`      | spdl  | **Optional**. Indicates if speed limitation data should be returned for the snapped points. Default: **false**<br/><br/>**Example**: includeSpeedLimit=true                                                                                                                                             |                                                                                                    |
-| `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> • **MPH** – Miles per hour<br/> • **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
-| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> • **driving** \[default\]<br/> • **walking** <br/><br/>**Example:** travelMode=driving <br/><br />  **Geographic Availability**: <br /> -  `driving` and `walking` available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea.|
+| `speedUnit`              | spu   | **Optional.** Indicates the units in which the returned speed limit data is in. Possible values:<br/><br/> * **MPH** – Miles per hour<br/> * **KPH** – Kilometers per hour \[default\]<br/><br/>**Example**: speedUnit=MPH |
+| `travelMode`             | mode  | **Optional.** Indicates which routing profile to snap the points to. Possible values:<br/><br/> * **driving** \[default\]<br/> * **walking** <br/><br/>**Example:** travelMode=driving <br/><br />  **Geographic Availability**: <br /> -  `driving` and `walking` available in routing markets seen in the [Geographic Coverage documentation](../../coverage/geographic-coverage.md) with the exception of China, Japan, and Korea.|
 
 *Template POST body with vehicle attributes*
 ```json
