@@ -42,7 +42,10 @@ Requests to the Snap to Road API can be done in one of two ways:
 If you are not sure which one to use, it is recommended to use the asynchronous method as this will work for all scenarios.
 
 > [!Note]
-> The GPS points must be within 2.5 kilometer of each other.
+> **Distance limits**
+>
+> * The distance between consecutive GPS points must not exceed 2.5 kilometers.
+> * The total route distance cannot exceed 100 kilometers for a single synchronous or asynchronous request.
 
 **How asynchronous requests work**  
 
@@ -70,7 +73,7 @@ When making a GET request the URL should look something like this:
 http://dev.virtualearth.net/REST/v1/Routes/SnapToRoad?points={points}&interpolate={interpolate}&includeSpeedLimit={includeSpeedLimit}&speedUnit={speedUnit}&travelMode={travelMode}&key={BingMapsKey}
 ```
 
-URI parameter alias’s will be supported only for GET requests.
+URI parameter aliases are supported only for GET requests.
 
 **Synchronous POST requests**
 
